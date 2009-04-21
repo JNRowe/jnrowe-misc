@@ -1,0 +1,9 @@
+# ChangeLog for www-client/opera-remote
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*opera-remote-0.1 (21 Apr 2009)
+
+  21 Apr 2009; jnrowe@gmail.com +opera-remote-0.1.ebuild:
+  Imported from pre-github misc overlay.
+
