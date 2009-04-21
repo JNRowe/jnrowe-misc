@@ -1,0 +1,8 @@
+# ChangeLog for dev-util/blame
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  21 Apr 2009; James Rowe <jnrowe@gmail.com> +metadata.xml,
+  +puzzles-r8167-build_fixes.patch:
+  Imported from pre-github misc overlay.
+
