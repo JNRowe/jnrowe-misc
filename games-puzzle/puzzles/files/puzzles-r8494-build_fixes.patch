@@ -1,0 +1,43 @@
+diff --git a/Makefile b/Makefile
+index 3f689d5..f5379d3 100644
+--- a/Makefile
++++ b/Makefile
+@@ -5,24 +5,23 @@
+ 
+ # You can define this path to point at your tools if you need to
+ # TOOLPATH = /opt/gcc/bin
+-CC = $(TOOLPATH)cc
++CC ?= $(TOOLPATH)cc
+ # You can manually set this to `gtk-config' or `pkg-config gtk+-1.2'
+ # (depending on what works on your system) if you want to enforce
+ # building with GTK 1.2, or you can set it to `pkg-config gtk+-2.0'
+ # if you want to enforce 2.0. The default is to try 2.0 and fall back
+ # to 1.2 if it isn't found.
+-GTK_CONFIG = sh -c 'pkg-config gtk+-2.0 $$0 2>/dev/null || gtk-config $$0'
++GTK_CONFIG := pkg-config gtk+-2.0
+ 
+-CFLAGS = -O2 -Wall -Werror -ansi -pedantic -g -I./ -Iicons/ `$(GTK_CONFIG) \
+-		--cflags`
+-XLDFLAGS = `$(GTK_CONFIG) --libs`
++CFLAGS := -Wall -ansi -pedantic -g -I./ -Iicons/ $(shell $(GTK_CONFIG) --cflags)
++XLDFLAGS := $(LDFLAGS) $(shell $(GTK_CONFIG) --libs)
+ ULDFLAGS =#
+ INSTALL=install
+ INSTALL_PROGRAM=$(INSTALL)
+ INSTALL_DATA=$(INSTALL)
+ prefix=/usr/local
+ exec_prefix=$(prefix)
+-bindir=$(exec_prefix)/bin
++bindir=$(GAMES_BINDIR)
+ gamesdir=$(exec_prefix)/games
+ mandir=$(prefix)/man
+ man1dir=$(mandir)/man1
+@@ -526,7 +525,7 @@ FORCE:
+ 	fi
+ install:
+ 	for i in $(GAMES); do \
+-		$(INSTALL_PROGRAM) -m 755 $$i $(DESTDIR)$(gamesdir)/$$i \
++		$(INSTALL_PROGRAM) -o $(GAMES_USER) -g $(GAMES_GROUP) $$i $(DESTDIR)$(bindir)/$$i \
+ 		|| exit 1; \
+ 	done
+ 

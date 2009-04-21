@@ -1,0 +1,10 @@
+# ChangeLog for games-puzzle/puzzles
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*puzzles-0.0.8494 (21 Apr 2009)
+
+  21 Apr 2009; jnrowe@gmail.com +files/puzzles-r8494-build_fixes.patch,
+  +metadata.xml, +puzzles-0.0.8494.ebuild:
+  Imported from jnrowe-gpe overlay.
+
