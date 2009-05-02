@@ -1,0 +1,10 @@
+# ChangeLog for dev-util/be
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*be-0.0.193 (02 May 2009)
+
+  02 May 2009; jnrowe@gmail.com +be-0.0.193.ebuild, +files/be-0.0.193.patch,
+  +metadata.xml:
+  Imported from pre-github misc overlay.
+
