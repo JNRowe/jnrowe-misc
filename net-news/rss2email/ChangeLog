@@ -1,0 +1,9 @@
+# ChangeLog for net-news/rss2email
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*rss2email-2.65.1 (02 May 2009)
+
+  02 May 2009; jnrowe@gmail.com +rss2email-2.65.1.ebuild, +metadata.xml:
+  Imported from pre-github python overlay.
+
