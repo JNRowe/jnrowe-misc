@@ -26,8 +26,8 @@ pkg_setup() {
 }
 
 src_unpack() {
-	unpack ${A}; cd ${S}
-	epatch ${WORKDIR}/${PN}_${MY_PV}-${DEB_REV}.diff
+	unpack ${A}; cd "${S}"
+	epatch "${WORKDIR}"/${PN}_${MY_PV}-${DEB_REV}.diff
 	sed -i "s,/usr/share/rss2email,${SITEDIR}," r2e
 }
 
@@ -39,7 +39,7 @@ src_install() {
 	dobin r2e
 	insinto ${SITEDIR}
 	doins html2text.py rss2email.py
-	touch ${D}/${SITEDIR}/__init__.py
+	touch "${D}"/${SITEDIR}/__init__.py
 	doman r2e.1
 	dodoc config.py
 }

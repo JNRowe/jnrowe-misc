@@ -19,7 +19,7 @@ RDEPEND=""
 USE_RUBY="any"
 
 src_install() {
-	ruby setup.rb install --prefix=${D} || die
+	ruby setup.rb install --prefix="${D}" || die
 	dodoc Changelog PLUGINS.txt README.txt ReleaseNotes
 
 	dobashcompletion contrib/completion/${PN}.bash ${PN}

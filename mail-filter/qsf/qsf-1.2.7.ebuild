@@ -18,6 +18,7 @@ IUSE="gdbm mysql sqlite"
 DEPEND="gdbm? ( sys-libs/gdbm )
 	mysql? ( dev-db/mysql )
 	sqlite? ( dev-db/sqlite:0 )"
+RDEPEND="${DEPEND}"
 
 src_compile() {
 	econf \
@@ -29,7 +30,7 @@ src_compile() {
 }
 
 src_install () {
-	emake DESTDIR=${D} install || die
+	emake DESTDIR="${D}" install || die
 	dodoc README
 	cd doc
 	dodoc NEWS TODO changelog postfix-howto

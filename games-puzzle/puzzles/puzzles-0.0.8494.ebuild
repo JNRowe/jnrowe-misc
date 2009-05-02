@@ -21,9 +21,9 @@ RDEPEND="x11-libs/gtk+:2"
 S=${WORKDIR}/${MY_P}
 
 src_unpack() {
-	unpack ${A}; cd ${S}
+	unpack ${A}; cd "${S}"
 
-	epatch ${FILESDIR}/${MY_P}-build_fixes.patch
+	epatch "${FILESDIR}"/${MY_P}-build_fixes.patch
 	sed -i 's,$(CC),& $(LDFLAGS),' Makefile
 }
 
@@ -32,7 +32,7 @@ src_compile() {
 }
 
 src_install() {
-	mkdir -p ${D}/${GAMES_BINDIR}
+	mkdir -p "${D}"/${GAMES_BINDIR}
 	emake DESTDIR="${D}" install || die "emake install failed"
 
 	dodoc HACKING README puzzles.txt

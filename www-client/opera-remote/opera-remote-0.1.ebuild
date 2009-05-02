@@ -30,5 +30,5 @@ src_compile() {
 
 src_install() {
 	dobin ${PN}
-	newdoc ${DISTDIR}/${P}-readme.txt readme.txt
+	newdoc "${DISTDIR}"/${P}-readme.txt readme.txt
 }
