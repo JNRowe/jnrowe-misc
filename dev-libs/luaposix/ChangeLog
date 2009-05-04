@@ -1,0 +1,10 @@
+# ChangeLog for dev-libs/luaposix
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*luaposix-5.1.4 (04 May 2009)
+
+  04 May 2009; James Rowe <jnrowe@gmail.com> +luaposix-5.1.4.ebuild,
+  +metadata.xml:
+  Initial ebuild, by me.
+
