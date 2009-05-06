@@ -1,0 +1,282 @@
+This End User License Agreement (EULA) is a CONTRACT between you (either
+an individual or a single entity) and Wingware, which covers your use of either
+"Wing IDE Professional" or "Wing IDE Enterprise" and related software components.
+All such software is referred to herein as the "Software Product." A software
+license and a license key or serial number ("Software Product License"),
+issued to a designated user only by Wingware or its authorized
+agents, is required for each concurrent user of the Software Product. If
+you do not agree to the terms of this EULA, then do not install or use
+the Software Product or the Software Product License. By explicitly
+accepting this EULA  you are acknowledging and agreeing to be bound
+by the following terms:
+
+1. EVALUATION LICENSE WARNING
+
+This Software Product can be used in conjunction with a free evaluation
+Software Product License. If you are using such an evaluation Software
+Product License, you may use the Software Product only to evaluate its
+suitability for purchase. Evaluation Software Product Licenses have an
+expiration date and most of the features of the software will be disabled
+after that date. WINGWARE BEARS NO LIABILITY FOR ANY DAMAGES
+RESULTING FROM USE (OR ATTEMPTED USE AFTER THE EXPIRATION DATE) OF THE
+SOFTWARE PRODUCT, AND HAS NO DUTY TO PROVIDE ANY SUPPORT BEFORE OR AFTER
+THE EXPIRATION DATE OF AN EVALUATION LICENSE.
+
+2. GRANT OF NON-EXCLUSIVE LICENSE
+
+Wingware grants the non-exclusive, non-transferable right for a
+single user to use this Software Product on a single operating system per
+license purchased. Each additional concurrent user of the Software
+Product, or each additional operating system where the product is used,
+requires an additional Software Product License.  This includes operating
+systems on which the Software Product is compiled from source code by the
+user.
+
+Wingware grants you the right to modify, alter, improve, or
+enhance the Software Product without limitation, except as described
+in this EULA.
+
+Although rights to modification of the Software Product are granted by
+this EULA, you may not tamper with, alter, or use the Software Product
+in a way that disables, circumvents, or otherwise defeats its built-in 
+licensing verification and enforcement capabilities.  The right to
+modification of the Software Product also does not include the right to 
+remove or alter any trademark, logo, copyright or other proprietary
+notice, legend, symbol or label in the Software Product.
+
+You may at your discretion distribute patch files containing any
+modifications or improvements made to the Software Product, other than
+those that are aimed at disabling or circumventing its built-in license
+verification capabilities, or that result in the removal or alteration
+of any trademark, logo, copyright, or other proprietary notice, legend,
+symbol or label in the Software Product.  This right does not include 
+the right to distribute substantial portions of the original source, where 
+distribution rights are limited to contextual information normally 
+existing in software patch files.
+
+You may at your discretion designate license terms, open source or
+otherwise, for all modifications or improvements made by you.  
+Wingware has no special rights to any such modifications or
+improvements.
+
+You may make copies of the Software Product as reasonably necessary for
+its use. Each copy must reproduce all copyright and other proprietary
+rights notices on or in the Software Product.
+
+You may install each Software Product License on a single computer system.
+A second installation of the same Software Product License may be made
+on one other computer system, so long as both copies of the same Software
+Product License never come into concurrent use.  You may also make copies of
+the Software Product License as necessary for backup and/or archival
+purposes.  Backup and archival copies may not come into active use,
+together with the Software Product, for any purpose.  No other copies
+may be made.  Each copy must reproduce all copyright and other proprietary
+rights notices on or in the Software Product License. You may not modify
+or create derivative copies of the Software Product License.
+
+All rights not expressly granted to you are retained by WIngware.
+
+2.1 EDUCATIONAL USE LICENSES
+
+Wingware provides educational use licenses for the Software Product to
+students and faculty of educational institutions.  When licensed at
+the educational discount, the Software Product may not be used for 
+any commercial purpose without first paying the price difference 
+between the educational and commercial license for the Software 
+Product.
+
+3. INTELLECTUAL PROPERTY RIGHTS RESERVED BY WINGWARE
+
+The Software Product is owned by Wingware and is protected by United
+States and international copyright laws and treaties, as well as other
+intellectual property laws and treaties. You must not remove or alter any
+copyright notices on any copies of the Software Product. This Software
+Product copy is licensed, not sold. You may not use, copy, or distribute
+the Software Product, except as granted by this EULA, without written
+authorization from Wingware or its designated agents.  Furthermore,
+this EULA does not grant you any rights in connection with any trademarks
+or service marks of Wingware.  Wingware reserves all intellectual property
+rights, including copyrights, and trademark rights.
+
+4. NO RIGHT TO TRANSFER
+
+You may not rent, lease, lend, or in any way distribute or transfer any
+rights in this EULA or the Software Product to third parties without
+Wingware's written approval, and subject to written agreement by the
+recipient of the terms of this EULA.
+
+5. INDEMNIFICATION
+
+You hereby agree to indemnify Wingware against and hold harmless Wingware
+from any claims, lawsuits or other losses that arise out of your breach of
+any provision of this EULA.
+
+6. THIRD PARTY RIGHTS
+
+Any software provided along with the Software Product that is associated
+with a separate license agreement is licensed to you under the terms of
+that license agreement.  This license does not apply to those portions
+of the Software Product.  Copies of these third party licenses are included 
+in all copies of the Software Product.
+
+7. SUPPORT SERVICES
+
+Wingware may provide you with support services related to the
+Software Product. Use of any such support services is governed by
+Wingware policies and programs described in online documentation
+and/or other Wingware-provided materials.
+
+As part of these support services, Wingware may make available bug
+lists, planned feature lists, and other supplemental informational
+materials.  WINGWARE MAKES NO WARRANTY OF ANY KIND FOR THESE
+MATERIALS AND ASSUMES NO LIABILITY WHATSOEVER FOR DAMAGES RESULTING FROM
+ANY USE OF THESE MATERIALS.  FURTHERMORE, YOU MAY NOT USE ANY MATERIALS
+PROVIDED IN THIS WAY TO SUPPORT ANY CLAIM MADE AGAINST WINGWARE.
+
+Any supplemental software code or related materials that Wingware
+provides to you as part of the support services, in periodic updates to
+the Software Product or otherwise, is to be considered part of the
+Software Product and is subject to the terms and conditions of this
+EULA.
+
+With respect to any technical information you provide to Wingware as
+part of the support services, Wingware may use such information for
+its business purposes without restriction, including for product support
+and development.  Wingware will not use such technical information in
+a form that personally identifies you without first obtaining your permission.
+
+9. TERMINATION WITHOUT PREJUDICE TO ANY OTHER RIGHTS
+
+Wingware may terminate this EULA if you fail to comply with any term
+or condition of this EULA. In such event, you must destroy all copies of
+the Software Product and Software Product Licenses.
+
+10. U.S. GOVERNMENT USE
+
+If the Software Product is licensed under a U.S. Government contract, you
+acknowledge that the software and related documentation are "commercial
+items," as defined in 48 C.F.R 2.01, consisting of "commercial computer
+software" and "commercial computer software documentation," as such
+terms are used in 48 C.F.R. 12.212 and 48 C.F.R. 227.7202-1.  You also
+acknowledge that the software is "commercial computer software" as
+defined in 48 C.F.R. 252.227-7014(a)(1).  U.S. Government agencies and
+entities and others acquiring under a U.S. Government contract shall
+have only those rights, and shall be subject to all restrictions,
+set forth in this EULA.  Contractor/manufacturer is Wingware, P.O. Box 400527,
+Cambridge, MA  02140-0006, USA.
+
+11. EXPORT RESTRICTIONS
+
+You will not download, export, or re-export the Software Product, any part
+thereof, or any software, tool, process, or service that is the direct
+product of the Software Product, to any country, person, or entity -- even
+to foreign units of your own company -- if such a transfer is in violation
+of U.S. export restrictions.
+
+12. NO WARRANTIES
+
+YOU ACCEPT THE SOFTWARE PRODUCT AND SOFTWARE PRODUCT LICENSE "AS IS," AND
+WINGWARE AND ITS THIRD PARTY SUPPLIERS AND LICENSORS MAKE NO WARRANTY
+AS TO ITS USE, PERFORMANCE, OR OTHERWISE. TO THE MAXIMUM EXTENT PERMITTED
+BY APPLICABLE LAW, WINGWARE AND ITS THIRD PARTY SUPPLIERS AND
+LICENSORS DISCLAIM ALL OTHER REPRESENTATIONS, WARRANTIES, AND CONDITIONS,
+EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING, BUT NOT LIMITED TO,
+IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY, SATISFACTORY QUALITY,
+FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. THE ENTIRE
+RISK ARISING OUT OF USE OR PERFORMANCE OF THE SOFTWARE PRODUCT REMAINS
+WITH YOU.
+
+13. LIMITATION OF LIABILITY
+
+THIS LIMITATION OF LIABILITY IS TO THE MAXIMUM EXTENT PERMITTED BY
+APPLICABLE LAW. IN NO EVENT SHALL WINGWARE OR ITS THIRD PARTY
+SUPPLIERS AND LICENSORS BE LIABLE FOR ANY COSTS OF SUBSTITUTE PRODUCTS OR
+SERVICES, OR FOR ANY SPECIAL, INCIDENTAL, INDIRECT, OR CONSEQUENTIAL
+DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF
+BUSINESS PROFITS, BUSINESS INTERRUPTION, OR LOSS OF BUSINESS INFORMATION)
+ARISING OUT OF THIS EULA OR THE USE OF OR INABILITY TO USE THE SOFTWARE
+PRODUCT OR THE FAILURE TO PROVIDE SUPPORT SERVICES, EVEN IF WINGWARE
+HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN ANY CASE,
+WINGWARE'S, AND ITS THIRD PARTY SUPPLIERS' AND LICENSORS', ENTIRE
+LIABILITY ARISING OUT OF THIS EULA SHALL BE LIMITED TO THE LESSER OF THE
+AMOUNT ACTUALLY PAID BY YOU FOR THE SOFTWARE PRODUCT OR THE PRODUCT LIST
+PRICE; PROVIDED, HOWEVER, THAT IF YOU HAVE ENTERED INTO AN WINGWARE
+SUPPORT SERVICES AGREEMENT, WINGWARE'S ENTIRE LIABILITY REGARDING
+SUPPORT SERVICES SHALL BE GOVERNED BY THE TERMS OF THAT AGREEMENT.
+
+14. HIGH RISK ACTIVITIES
+
+The Software Product is not fault-tolerant and is not designed,
+manufactured or intended for use or resale as on-line control equipment in
+hazardous environments requiring fail-safe performance, such as in the
+operation of nuclear facilities, aircraft navigation or communication
+systems, air traffic control, direct life support machines, or weapons
+systems, in which the failure of the Software Product, or any software,
+tool, process, or service that was developed using the Software Product,
+could lead directly to death, personal injury, or severe physical or
+environmental damage ("High Risk Activities"). Accordingly, Wingware
+and its suppliers and licensors specifically disclaim any express or
+implied warranty of fitness for High Risk Activities. You agree that
+Wingware and its suppliers and licensors will not be liable for any
+claims or damages arising from the use of the Software Product, or any
+software, tool, process, or service that was developed using the Software
+Product, in such applications.
+
+15. GOVERNING LAW; ENTIRE AGREEMENT ; DISPUTE RESOLUTION
+
+This EULA is governed by the laws of the Commonwealth of Massachusetts,
+U.S.A., excluding the application of any conflict of law rules. The
+United Nations Convention on Contracts for the International Sale of
+Goods shall not apply.
+
+This EULA is the entire agreement between Wingware and you, and
+supersedes any other communications or advertising with respect to the
+Software Product; this EULA may be modified only by written agreement
+signed by authorized representatives of you and Wingware.
+
+Unless otherwise agreed in writing, all disputes relating to this
+EULA (excepting any dispute relating to intellectual property rights)
+shall be subject to final and binding arbitration in the State of 
+Massachusetts, in accordance with the Licensing Agreement Arbitration
+Rules of the American Arbitration Association, with the losing party 
+paying all costs of arbitration.  Arbitration must be by a member 
+of the American Arbitration Association.  If any dispute arises 
+under this EULA, the prevailing party shall be reimbursed by the 
+other party for any and all legal fees and costs associated therewith.
+
+16. GENERAL
+
+If any provision of this EULA is held invalid, the remainder of this 
+EULA shall continue in full force and effect. 
+
+A waiver by either party of any term or condition of this EULA
+or any breach thereof, in any one instance, shall not waive such term or
+condition or any subsequent breach thereof.
+
+17. OUTSIDE THE U.S.
+
+If you are located outside the U.S., then the provisions of this Section
+shall apply.  Les parties aux présentes confirment leur volonté que cette
+convention de même que tous les documents y compris tout avis qui s'y
+rattache, soient redigés en langue anglaise.  (translation: "The parties
+confirm that this EULA and all related documentation is and will be
+in the English language.")  You are responsible for complying with any
+local laws in your jurisdiction which might impact your right to import,
+export or use the Software Product, and you represent that you have
+complied with any regulations or registration procedures required by
+applicable law to make this license enforceable.
+
+18. TRADEMARKS
+
+The following are trademarks or registered trademarks of Wingware:
+Wingware, the dancing bird logo, the feather logo, Wing IDE, Wing IDE 101, 
+Wing IDE Personal, Wing IDE Professional, Wing IDE Enterprise, Wing Debugger, 
+and "Intelligent Development Environment for Python Programmers"
+
+19. CONTACT INFORMATION
+
+If you have any questions about this EULA, or if you want to contact
+Wingware for any reason, please direct all correspondence to:
+Wingware, P.O. Box 400527, Cambridge, MA  02140-0006,
+United States of America or send email to info at wingware.com.
+

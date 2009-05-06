@@ -1,0 +1,10 @@
+# ChangeLog for dev-util/wingide
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*wingide-3.1.8.1 (06 May 2009)
+
+  06 May 2009; James Rowe <jnrowe@gmail.com> +wingide-3.1.8.1.ebuild,
+  +files/wingide-3.1.8.1-use_system_gtk.patch, +metadata.xml:
+  Initial ebuild, by me.
+
