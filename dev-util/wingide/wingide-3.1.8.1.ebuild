@@ -4,7 +4,7 @@
 
 EAPI=1
 
-inherit versionator
+inherit eutils versionator
 
 MY_P=${PN}-$(replace_version_separator 3 "-")-i386-linux
 
@@ -44,4 +44,7 @@ src_install() {
 	# Shouldn't be done during src_install, but binary installation
 	# procedure is too dirty to do it earlier
 	patch -i "${FILESDIR}"/${P}-use_system_gtk.patch "${D}"/opt/${PN}/wing
+
+	make_desktop_entry /usr/bin/wing "Wing IDE" \
+		/opt/${PN}/resources/wing-gnome-icon.png
 }
