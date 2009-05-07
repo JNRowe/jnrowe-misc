@@ -35,4 +35,3 @@ src_install () {
 	cd doc
 	dodoc NEWS TODO changelog postfix-howto
 }
-

@@ -37,4 +37,3 @@ src_install() {
 
 	dodoc HACKING README puzzles.txt
 }
-

@@ -56,4 +56,3 @@ pkg_postinst() {
 	einfo "/usr/share/doc/${PF}/config.py.gz.  Decompress it in "
 	einfo "~/.rss2email/ and edit to suit."
 }
-

@@ -19,4 +19,3 @@ src_install() {
 	dodoc CREDITS NEWS
 	doman man/${PN}.8
 }
-

@@ -24,4 +24,3 @@ src_install() {
 
 	dobashcompletion contrib/completion/${PN}.bash ${PN}
 }
-
