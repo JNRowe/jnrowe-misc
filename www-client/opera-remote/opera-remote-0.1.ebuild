@@ -16,8 +16,8 @@ SLOT="0"
 KEYWORDS="x86"
 IUSE=""
 
-DEPEND="x11-libs/libX11"
-RDEPEND="${DEPEND}
+RDEPEND="x11-libs/libX11"
+DEPEND="${RDEPEND}
 	x11-proto/xproto"
 
 src_prepare() {
