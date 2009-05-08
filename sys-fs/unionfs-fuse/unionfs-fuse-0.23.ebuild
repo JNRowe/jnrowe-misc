@@ -8,7 +8,7 @@ SRC_URI="http://podgorny.cz/unionfs-fuse/releases/${P}.tar.bz2"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~arm ~amd64 x86"
+KEYWORDS="~amd64 x86"
 IUSE=""
 
 DEPEND="sys-fs/fuse"
