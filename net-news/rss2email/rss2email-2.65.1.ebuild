@@ -31,10 +31,6 @@ src_unpack() {
 	sed -i "s,/usr/share/rss2email,${SITEDIR}," r2e
 }
 
-src_compile() {
-	:
-}
-
 src_install() {
 	dobin r2e
 	insinto ${SITEDIR}
