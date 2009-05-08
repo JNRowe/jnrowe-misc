@@ -25,10 +25,6 @@ RDEPEND="${DEPEND}
 
 S="${WORKDIR}/${MY_P}"
 
-src_compile() {
-	:
-}
-
 src_install() {
 	local instloc=${D}/opt/${PN}
 	./wing-install.py --rpm-build-root "${D}" --winghome ${instloc} \

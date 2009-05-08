@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 May 2009; James Rowe <jnrowe@gmail.com> wingide-3.1.8.1.ebuild:
+  Removed redundant src_compile().
+
   06 May 2009; James Rowe <jnrowe@gmail.com> wingide-3.1.8.1.ebuild:
   Generate a .desktop file, thanks to Matt Leighton for reporting [d9c].
 
