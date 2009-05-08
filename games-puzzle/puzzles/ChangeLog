@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 May 2009; James Rowe <jnrowe@gmail.com>
+  files/puzzles-r8494-build_fixes.patch, puzzles-0.0.8494.ebuild:
+  Fixed for --as-needed in LDFLAGS, simply by build reodering. Thanks to
+  Matt Leighton for reporting [165].
+
   07 May 2009; James Rowe <jnrowe@gmail.com> puzzles-0.0.8494.ebuild:
   Whitespace removal, to fix pcheck warning.
 

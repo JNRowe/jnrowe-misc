@@ -24,7 +24,6 @@ src_unpack() {
 	unpack ${A}; cd "${S}"
 
 	epatch "${FILESDIR}"/${MY_P}-build_fixes.patch
-	sed -i 's,$(CC),& $(LDFLAGS),' Makefile
 }
 
 src_compile() {
