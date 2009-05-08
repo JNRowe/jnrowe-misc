@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 May 2009; James Rowe <jnrowe@gmail.com> be-0.0.193.ebuild:
+  Keyworded amd64.
+
 *be-0.0.193 (02 May 2009)
 
   02 May 2009; jnrowe@gmail.com +be-0.0.193.ebuild, +files/be-0.0.193.patch,
