@@ -6,11 +6,13 @@ EAPI=1
 
 inherit eutils versionator
 
+BASE_PV=$(get_version_component_range -3)
 MY_P=${PN}-$(replace_version_separator 3 "-")-i386-linux
 
 DESCRIPTION="Proprietary binary-only Python IDE, 'professional' edition"
 HOMEPAGE="http://www.wingware.com/wingide"
-SRC_URI="http://wingware.com/pub/${PN}/$(get_version_component_range -3)/${MY_P}.tar.gz"
+SRC_URI="http://wingware.com/pub/${PN}/${BASE_PV}/${MY_P}.tar.gz
+	http://wingware.com/pub/${PN}/${BASE_PV}/patches/html-lexer-crash-${BASE_PV}p1-all.tar"
 LICENSE="wingide"
 SLOT="0"
 KEYWORDS="-* ~x86"
@@ -25,6 +27,13 @@ RDEPEND="${DEPEND}
 
 S="${WORKDIR}/${MY_P}"
 
+src_unpack() {
+	unpack ${A}; cd "${S}"
+
+	# Fix path information in output, so users aren't confused
+	sed -i '590s/bin_dir/&[len(build_root):]/' wing-install.py
+}
+
 src_install() {
 	local instloc=${D}/opt/${PN}
 	./wing-install.py --rpm-build-root "${D}" --winghome ${instloc} \
@@ -36,6 +45,10 @@ src_install() {
 	rm -rf ${instloc}/bin/gtk-bin
 	# Remove {,un}install data and scripts
 	rm -rf ${instloc}/{build-files,file-list.txt,wing-uninstall}
+
+	pushd ..
+	treecopy patches ${instloc}
+	popd
 
 	# Shouldn't be done during src_install, but binary installation
 	# procedure is too dirty to do it earlier
