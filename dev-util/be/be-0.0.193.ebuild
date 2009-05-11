@@ -32,12 +32,6 @@ PYTHON_MODNAME="becommands libbe"
 
 DOCS="README"
 
-#pkg_setup() {
-#	if has test $FEATURES && ! use test; then
-#		die "FEATURES=test is set but USE=test is not; tests will fail without USE=test."
-#	fi
-#}
-
 src_prepare() {
 	epatch "${FILESDIR}"/${P}.patch
 	sed -i 12,14d setup.py
