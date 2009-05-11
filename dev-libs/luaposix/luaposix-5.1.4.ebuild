@@ -14,6 +14,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=">=dev-lang/lua-5.1"
+RDEPEND="${DEPEND}"
 
 src_unpack() {
 	unpack ${A}; cd "${S}"
