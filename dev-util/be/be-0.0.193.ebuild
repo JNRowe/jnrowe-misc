@@ -7,7 +7,7 @@ EAPI="2"
 inherit distutils eutils
 
 DESCRIPTION="A bugtracker built on distributed revision control"
-HOMEPAGE="http://www.panoramicfeedback.com/opensource/"
+HOMEPAGE="http://bugseverywhere.org/be/show/HomePage"
 # Upstream aren't cutting releases, and the VCS is bzr so a checkout is a no-go
 SRC_URI="http://www.jnrowe.ukfsn.org/_static/${P}.tar.bz2"
 
