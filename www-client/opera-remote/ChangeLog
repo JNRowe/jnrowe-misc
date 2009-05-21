@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  21 May 2009; James Rowe <jnrowe@gmail.com> opera-remote-0.1.ebuild:
+  Keyworded ~amd64.
+
   07 May 2009; James Rowe <jnrowe@gmail.com> opera-remote-0.1.ebuild:
   Fixed inverted DEPEND/RDEPEND dependencies.
 

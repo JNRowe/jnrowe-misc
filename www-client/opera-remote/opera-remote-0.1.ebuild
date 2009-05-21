@@ -13,7 +13,7 @@ SRC_URI="${HOMEPAGE}readme.txt -> ${P}-readme.txt
 
 LICENSE="as-is"
 SLOT="0"
-KEYWORDS="x86"
+KEYWORDS="~amd64 x86"
 IUSE=""
 
 RDEPEND="x11-libs/libX11"
