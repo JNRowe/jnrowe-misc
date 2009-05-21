@@ -3,6 +3,9 @@
 # $Header: $
 
   21 May 2009; James Rowe <jnrowe@gmail.com> puzzles-0.0.8494.ebuild:
+  Don't install README, it is only installation documentation.
+
+  21 May 2009; James Rowe <jnrowe@gmail.com> puzzles-0.0.8494.ebuild:
   Keyworded amd64.
 
   08 May 2009; James Rowe <jnrowe@gmail.com>

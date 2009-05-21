@@ -34,5 +34,5 @@ src_install() {
 	mkdir -p "${D}"/${GAMES_BINDIR}
 	emake DESTDIR="${D}" install || die "emake install failed"
 
-	dodoc HACKING README puzzles.txt
+	dodoc HACKING puzzles.txt
 }
