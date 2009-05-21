@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
+  <longdescription>
+    Wing IDE Professional is a powerful integrated development
+    environment (IDE) for the Python programming language. Wing IDE
+    and Python focus on boosting productivity and code quality,
+    especially in complex projects with changing requirements.
+  </longdescription>
   <herd>no-herd</herd>
   <maintainer>
     <email>jnrowe@gmail.com</email>

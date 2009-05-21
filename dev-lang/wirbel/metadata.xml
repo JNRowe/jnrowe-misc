@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
+  <longdescription>
+    Wirbel is a new programming language. It has a syntax and semantics
+    similar to Python - a very popular language invented by Guido van
+    Rossum. But - unlike Python - Wirbel is a compiler language
+    compiling into native machine code.
+
+    This has two great advantages (and several minor ones):
+        * Wirbel programs execute very fast.
+        * Compiled Wirbel programs do not need any runtime
+          environment - not even a library.
+
+    These two key features make Wirbel a very interesting language in
+    many situations. The lack of the need for a runtime environment
+    does not only save memory but also makes life easier when
+    distributing your software. And speed almost always matters.
+  </longdescription>
   <herd>no-herd</herd>
   <maintainer>
     <email>jnrowe@gmail.com</email>

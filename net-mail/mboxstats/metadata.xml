@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
+  <longdescription>
+    mboxstats creates several top-10 lists from a file containing
+    message in mbox-format, including: writers, receivers, subjects,
+    TLDs, organisations.
+  </longdescription>
   <herd>no-herd</herd>
   <maintainer>
     <email>jnrowe@gmail.com</email>

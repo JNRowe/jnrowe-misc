@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
+  <longdescription>
+    rss2email lets you read newsfeeds from a program that you already know and
+    use everyday: your email client. So rather than having to learn to use a
+    new program or visit a webpage, rss2email delivers news items to the place
+    where information that is important to you already is.
+
+    Your email client probably has useful filtering capabilities. Rather than
+    be bombarded by every new item, you can sort and group feeds into different
+    folders so that the important stuff gets read first and other things stick
+    around until later.
+
+    Also, if you find something that you want to hang onto or foward to a
+    friend, you probably already know how to do that in your email client.
+  </longdescription>
   <herd>no-herd</herd>
   <maintainer>
     <email>jnrowe@gmail.com</email>
