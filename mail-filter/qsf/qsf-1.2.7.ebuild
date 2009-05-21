@@ -10,7 +10,7 @@ SRC_URI="mirror://sourceforge/qsf/${P}.tar.bz2"
 SLOT="0"
 LICENSE="Artistic-2"
 
-KEYWORDS="x86"
+KEYWORDS="~amd64 x86"
 IUSE="gdbm mysql sqlite"
 
 # qsf doesn't absolutely depend on any of the external databases, as it supports
