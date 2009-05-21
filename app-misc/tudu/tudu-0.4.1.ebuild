@@ -20,6 +20,8 @@ src_unpack() {
 	unpack ${A}; cd "${S}"
 
 	epatch "${FILESDIR}"/${P}-build_fixes.patch
+	# The welcome file references the DTD, this fixes it
+	sed -i 's,/local,,' data/welcome.xml
 }
 
 src_compile() {
