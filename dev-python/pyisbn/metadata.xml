@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription>
+    pyisbn is a GPL v3 licensed module for working with various book
+    identification numbers.  It includes functions for conversion,
+    verification and generation of checksums.  It also includes basic
+    classes for representing ISBNs as objects.
+  </longdescription>
+  <herd>no-herd</herd>
+  <maintainer>
+    <email>jnrowe@gmail.com</email>
+    <name>James Rowe</name>
+  </maintainer>
+</pkgmetadata>
