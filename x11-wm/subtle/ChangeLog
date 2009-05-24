@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  24 May 2009; James Rowe <jnrowe@gmail.com> subtle-0.8.1112.ebuild:
+  dodoc INSTALL, as it contains user config information.
+
 *subtle-0.8.1112 (24 May 2009)
 
   24 May 2009; James Rowe <jnrowe@gmail.com> +subtle-0.8.1112.ebuild,

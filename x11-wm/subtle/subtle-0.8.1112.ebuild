@@ -22,10 +22,11 @@ RDEPEND="x11-libs/libX11
 S="${WORKDIR}/${MY_P}"
 
 src_compile() {
-	rake destdir=${D}
+	rake destdir="${D}"
 }
 
 src_install() {
-	rake destdir=${D} install
-	dodoc AUTHORS 
+	rake destdir="${D}" install
+	# INSTALL contains user information too
+	dodoc AUTHORS INSTALL
 }
