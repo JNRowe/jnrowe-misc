@@ -13,7 +13,7 @@ all: $(HTML) profiles/categories $(MANIFESTS)
 
 %/Manifest: %/*.ebuild
 	ebuild $(lastword $(wildcard $(dir $@)*.ebuild)) manifest; \
-	if [ -n $(SIGN_KEY) ]; then \
+	if [ -n "$(SIGN_KEY)" ]; then \
 		gpg --local-user $(SIGN_KEY) --clearsign $@; \
 		mv $@.asc $@; \
 	fi
