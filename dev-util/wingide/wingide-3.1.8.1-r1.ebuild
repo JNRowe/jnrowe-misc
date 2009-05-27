@@ -54,6 +54,6 @@ src_install() {
 	# procedure is too dirty to do it earlier
 	patch -i "${FILESDIR}"/${P}-use_system_gtk.patch "${D}"/opt/${PN}/wing
 
-	make_desktop_entry /usr/bin/wing "Wing IDE" \
-		/opt/${PN}/resources/wing-gnome-icon.png
+	make_desktop_entry /usr/bin/wing$(get_version_component_range -2) \
+		"Wing IDE" /opt/${PN}/resources/wing-gnome-icon.png
 }
