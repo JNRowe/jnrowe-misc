@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*ditz-0.5-r1 (28 May 2009)
+
+  28 May 2009; James Rowe <jnrowe@gmail.com> +ditz-0.5-r1.ebuild:
+  Don't use bundled trollop library, dev-ruby/trollop contains many fixes.
+
   07 May 2009; James Rowe <jnrowe@gmail.com> ditz-0.5.ebuild:
   Whitespace removal, to fix pcheck warning.
 
