@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription>
+    Features include:
+
+      * In-line syntax highlighting
+      * Readline-like autocomplete with suggestions displayed as you type
+      * Expected parameter list
+      * Pastebin code
+  </longdescription>
+  <herd>no-herd</herd>
+  <maintainer>
+    <email>jnrowe@gmail.com</email>
+    <name>James Rowe</name>
+  </maintainer>
+</pkgmetadata>
