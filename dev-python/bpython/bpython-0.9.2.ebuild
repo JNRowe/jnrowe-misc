@@ -6,8 +6,7 @@ inherit distutils
 
 DESCRIPTION="A syntax colouring and autocomplete supporting Python REPL"
 HOMEPAGE="http://www.bpython-interpreter.org/"
-SRC_URI="${HOMEPAGE}/${P}.tar.gz"
-
+SRC_URI="${HOMEPAGE}/releases/${P}.tar.gz"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"

@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 Jun 2009; James Rowe <jnrowe@gmail.com> bpython-0.9.2.ebuild:
+  Download location changed by upstream.
+
 *bpython-0.9.2 (05 Jun 2009)
 
   05 Jun 2009; James Rowe <jnrowe@gmail.com> +bpython-0.9.2.ebuild:
