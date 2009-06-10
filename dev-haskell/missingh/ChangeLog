@@ -1,0 +1,10 @@
+# ChangeLog for dev-haskell/missingh
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*missingh-1.0.3 (10 Jun 2009)
+
+  10 Jun 2009; James Rowe <jnrowe@gmail.com> +missingh-1.0.3.ebuild,
+  +files/missingh-1.0.3-haddock.patch, +metadata.xml:
+  Initial ebuild plucked from haskell overlay, dep for hpodder.
+
