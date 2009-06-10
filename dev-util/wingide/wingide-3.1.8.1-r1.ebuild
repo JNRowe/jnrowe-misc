@@ -15,7 +15,7 @@ SRC_URI="http://wingware.com/pub/${PN}/${BASE_PV}/${MY_P}.tar.gz
 	http://wingware.com/pub/${PN}/${BASE_PV}/patches/html-lexer-crash-${BASE_PV}p1-all.tar"
 LICENSE="wingide"
 SLOT="0"
-KEYWORDS="-* ~x86"
+KEYWORDS="-* x86"
 
 IUSE=""
 
