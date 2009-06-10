@@ -3,6 +3,9 @@
 # $Header: $
 
   10 Jun 2009; James Rowe <jnrowe@gmail.com> gitserve-0.2.0.ebuild:
+  Keyworded amd64.
+
+  10 Jun 2009; James Rowe <jnrowe@gmail.com> gitserve-0.2.0.ebuild:
   Keyworded x86.
 
 *gitserve-0.2.0 (07 May 2009)
