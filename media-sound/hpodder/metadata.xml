@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <herd>no-herd</herd>
+  <maintainer>
+    <email>jnrowe@gmail.com</email>
+    <name>James Rowe</name>
+  </maintainer>
+  <longdescription>
+    Convenient, easy to learn, and fast command-line interface.  It's
+    simple to do simple things, and advanced things are possible.
+
+    Full history database for accurate prevention of duplicate
+    downloads and tracking of new episodes
+
+    Conversion tools to convert your existing feed list and history from
+    other applications to hpodder.  Supported applications and formats
+    include: castpodder and ipodder.
+
+    Most operations can work fully automatically across your entire
+    podcast database, or they can work manually.
+
+    Automatic updating of ID3 (v1 and v2) tags based on metadata in the
+    podcast feed.  This important feature is available through iTunes but
+    is often missed by other podcatchers.
+
+    Fully customizable naming scheme for downloaded episodes, including a
+    name collision detection and workaround algorithm.
+
+    Numerous database and history inquiry tools
+
+    Small, minimalist footprint
+  </longdescription>
+</pkgmetadata>
