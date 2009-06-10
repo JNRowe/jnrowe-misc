@@ -13,7 +13,7 @@ SRC_URI="mirror://debian/pool/main/${PN::1}/${PN}/${PN}_${MY_PV}.orig.tar.gz
 	mirror://debian/pool/main/${PN::1}/${PN}/${PN}_${MY_PV}-${DEB_REV}.diff.gz"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="dev-lang/python"
