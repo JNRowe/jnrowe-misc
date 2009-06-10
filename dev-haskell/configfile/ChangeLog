@@ -1,0 +1,10 @@
+# ChangeLog for dev-haskell/configfile
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*configfile-1.0.5 (10 Jun 2009)
+
+  10 Jun 2009; James Rowe <jnrowe@gmail.com> +configfile-1.0.5.ebuild,
+  +metadata.xml:
+  Initial ebuild, dep for hpodder.
+
