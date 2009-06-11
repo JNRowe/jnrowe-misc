@@ -26,4 +26,6 @@ DEPEND=">=dev-lang/ghc-6.4.2
 	dev-haskell/configfile
 	dev-haskell/filepath"
 
-RDEPEND="dev-db/sqlite:3"
+RDEPEND="dev-db/sqlite:3
+	media-sound/id3v2
+	net-misc/curl"
