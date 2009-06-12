@@ -2,6 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI="2"
+
+PYTHON_USE_WITH=ncurses
 inherit distutils
 
 DESCRIPTION="A syntax colouring and autocomplete supporting Python REPL"
@@ -18,4 +21,3 @@ RDEPEND="${DEPEND}
 	dev-python/pygments"
 
 DOCS="sample.ini"
-
