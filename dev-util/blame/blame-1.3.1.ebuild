@@ -9,7 +9,7 @@ SRC_URI="mirror://sourceforge/blame/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~arm x86"
+KEYWORDS="amd64 arm x86"
 IUSE=""
 
 # sys-devel/bison and sys-devel/flex are not needed because the tarball comes
