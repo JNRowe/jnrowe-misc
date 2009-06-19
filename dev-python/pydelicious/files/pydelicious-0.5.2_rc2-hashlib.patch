@@ -1,0 +1,44 @@
+Default to using hashlib instead of md5 to quell warnings
+
+From: James Rowe <jnrowe@gmail.com>
+
+
+---
+
+ src/__init__.py |    8 ++++++--
+ 1 files changed, 6 insertions(+), 2 deletions(-)
+
+
+diff --git a/src/__init__.py b/src/__init__.py
+index e7a8f4d..b44752d 100644
+--- a/src/__init__.py
++++ b/src/__init__.py
+@@ -24,7 +24,6 @@ import os
+ import time
+ import datetime
+ import locale
+-import md5
+ import httplib
+ import urllib2
+ from urllib import urlencode, quote_plus
+@@ -38,6 +37,11 @@ if 'DLCS_DEBUG' in os.environ:
+         "Set DEBUG to %i from DLCS_DEBUG env." % DEBUG
+ 
+ try:
++    from hashlib import md5
++except ImportError:
++    from md5 import md5
++
++try:
+     from elementtree.ElementTree import parse as parse_xml
+ except ImportError:
+     # Python 2.5 and higher
+@@ -394,7 +398,7 @@ def dlcs_rss_request(tag="", popular=0, user="", url=''):
+ 
+     if url != '':
+         # http://del.icio.us/rss/url/efbfb246d886393d48065551434dab54
+-        url = DLCS_RSS + 'url/%s' % md5.new(url).hexdigest()
++        url = DLCS_RSS + 'url/%s' % md5(url).hexdigest()
+ 
+     elif user != '' and tag != '':
+         url = DLCS_RSS + '%(user)s/%(tag)s' % {'user':user, 'tag':tag}
