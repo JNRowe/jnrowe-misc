@@ -1,0 +1,42 @@
+Default to using hashlib instead of md5 to quell warnings
+
+From: James Rowe <jnrowe@gmail.com>
+
+
+---
+
+ pydelicious.py |    9 +++++++--
+ 1 files changed, 7 insertions(+), 2 deletions(-)
+
+
+diff --git a/pydelicious.py b/pydelicious.py
+index fa568ee..b96ba7c 100644
+--- a/pydelicious.py
++++ b/pydelicious.py
+@@ -87,11 +87,16 @@ import sys
+ import os
+ import time
+ import datetime
+-import md5, httplib
++import httplib
+ import urllib, urllib2, time
+ from StringIO import StringIO
+ 
+ try:
++    from hashlib import md5
++except ImportError:
++    from md5 import md5
++
++try:
+     from elementtree.ElementTree import parse as parse_xml
+ except ImportError:
+     from  xml.etree.ElementTree import parse as parse_xml
+@@ -418,7 +423,7 @@ def dlcs_rss_request(tag = "", popular = 0, user = "", url = ''):
+     user = str2quote(user)
+     if url != '':
+         # http://del.icio.us/rss/url/efbfb246d886393d48065551434dab54
+-        url = DLCS_RSS + '''url/%s'''%md5.new(url).hexdigest()
++        url = DLCS_RSS + '''url/%s'''%md5(url).hexdigest()
+     elif user != '' and tag != '':
+         url = DLCS_RSS + '''%(user)s/%(tag)s'''%dict(user=user, tag=tag)
+     elif user != '' and tag == '':
