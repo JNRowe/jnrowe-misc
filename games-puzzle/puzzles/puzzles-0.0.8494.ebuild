@@ -11,7 +11,7 @@ HOMEPAGE="http://www.chiark.greenend.org.uk/~sgtatham/puzzles/"
 SRC_URI="${HOMEPAGE}/${MY_P}.tar.gz"
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ~arm ~ppc x86"
+KEYWORDS="amd64 arm ~ppc x86"
 IUSE=""
 
 DEPEND="dev-util/pkgconfig
