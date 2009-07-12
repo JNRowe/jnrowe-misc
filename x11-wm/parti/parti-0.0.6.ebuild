@@ -11,7 +11,7 @@ SRC_URI="${HOMEPAGE}/static/downloads/${MY_P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~x86"
+KEYWORDS="x86"
 IUSE=""
 
 DEPEND="dev-python/pyrex
