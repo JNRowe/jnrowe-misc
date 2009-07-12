@@ -12,7 +12,7 @@ SRC_URI="http://pydelicious.googlecode.com/files/${P}.zip"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~x86"
+KEYWORDS="x86"
 IUSE=""
 
 DEPEND="app-arch/unzip"
