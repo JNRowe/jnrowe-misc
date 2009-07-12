@@ -12,7 +12,7 @@ HOMEPAGE="http://www.bpython-interpreter.org/"
 SRC_URI="${HOMEPAGE}/releases/${P}.tar.gz"
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools"
