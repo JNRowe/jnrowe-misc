@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  12 Jul 2009; James Rowe <jnrowe@gmail.com> wicked-9999.ebuild:
+  Keyworded ~amd64.
+
 *wicked-9999 (13 Jun 2009)
 
   13 Jun 2009; James Rowe <jnrowe@gmail.com> +wicked-9999.ebuild,
