@@ -9,7 +9,7 @@ SRC_URI="http://unexist.scrapping.cc/attachments/download/6/${MY_P}.tbz2"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~x86"
+KEYWORDS="x86"
 IUSE=""
 
 DEPEND="dev-ruby/rake
