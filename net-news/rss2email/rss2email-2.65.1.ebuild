@@ -25,6 +25,10 @@ pkg_setup() {
 	export SITEDIR="$(${python} -c 'from distutils.sysconfig import get_python_lib; print get_python_lib()')"/${PN}
 }
 
+src_compile() {
+	:
+}
+
 src_unpack() {
 	unpack ${A}; cd "${S}"
 	epatch "${WORKDIR}"/${PN}_${MY_PV}-${DEB_REV}.diff
