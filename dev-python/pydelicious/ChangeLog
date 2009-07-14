@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  14 Jul 2009; James Rowe <jnrowe@gmail.com> pydelicious-0.5.2_rc2.ebuild:
+  Keyworded amd64.
+
   12 Jul 2009; James Rowe <jnrowe@gmail.com> pydelicious-0.5.0.ebuild:
   Keyworded x86.
 
