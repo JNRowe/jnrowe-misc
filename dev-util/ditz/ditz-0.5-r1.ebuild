@@ -19,8 +19,11 @@ RDEPEND="dev-ruby/trollop"
 USE_RUBY="ruby18"
 
 src_install() {
-	ruby setup.rb install --prefix="${D}" || die
-	find . -name trollop.rb -exec rm {} \;
+	${RUBY} setup.rb config --prefix=/usr --mandir=/usr/share/man/man1 \
+		|| die "setup.rb config failed"
+	${RUBY} setup.rb install --prefix="${D}" \
+		|| die "setup.rb install failed"
+	find "${D}" -name trollop.rb -exec rm {} \;
 	dodoc Changelog PLUGINS.txt README.txt ReleaseNotes
 
 	dobashcompletion contrib/completion/${PN}.bash ${PN}
