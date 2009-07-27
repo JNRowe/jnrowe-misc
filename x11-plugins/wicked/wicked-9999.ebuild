@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-inherit git
+inherit eutils git
 
 EGIT_REPO_URI="git://git.glacicle.com/awesome/${PN}.git"
 
@@ -17,6 +17,11 @@ IUSE=""
 
 DEPEND=""
 RDEPEND="x11-wm/awesome"
+
+src_unpack() {
+	git_src_unpack; cd "${S}"
+	epatch "${FILESDIR}"/${PN}-fix_empty_data.patch
+}
 
 src_install() {
 	insinto /usr/share/awesome/lib

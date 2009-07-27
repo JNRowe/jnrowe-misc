@@ -1,0 +1,20 @@
+diff --git awesome/wicked.lua awesome/wicked.lua
+index 6fde083..3a2494c 100644
+--- awesome/wicked.lua
++++ awesome/wicked.lua
+@@ -586,8 +586,14 @@ function update(widget, reg)
+     if reg.field == nil then
+         widget.text = data
+     elseif widget.plot_data_add ~= nil then
++        if tonumber(data) == nil then
++            data = 0
++        end
+         widget:plot_data_add(reg.field, tonumber(data))
+     elseif widget.bar_data_add ~= nil then
++        if tonumber(data) == nil then
++            data = 0
++        end
+         widget:bar_data_add(reg.field, tonumber(data))
+     end
+ 
+
