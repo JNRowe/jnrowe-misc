@@ -3,6 +3,9 @@
 # $Header: $
 
   28 Jul 2009; James Rowe <jnrowe@gmail.com> aafigure-0.2.ebuild:
+  Keyworded x86.
+
+  28 Jul 2009; James Rowe <jnrowe@gmail.com> aafigure-0.2.ebuild:
   Keyworded amd64.
 
 *aafigure-0.2 (12 Jun 2009)
