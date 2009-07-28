@@ -1,0 +1,26 @@
+> From: Matt Leighton <mleighy@intranet>
+> > From: James Rowe <jnrowe@gmail.com>
+> >
+> > There is now a rss2email package in the main tree, test its suitability
+> > as replacement and drop the local one from the overlay if it can or move
+> > the local one to net-mail to shadow it if it can't.
+> 
+>   Hmm, net-news is surely the right category as it where every other
+> feed reader is located.  Why not just keep it there?
+
+  I'd prefer to, but unless upstream move to net-news it isn't staying
+where it is.  It just isn't worth the grief.  It is already moved in the
+pending branch by the way, I just haven't merged and pushed master yet.
+
+>   The ebuild in the tree is really quite broken too, so maybe it would
+> make more sense to just scrub it in the local syncs.  And by quite
+> broken I mean installs python code in to /usr/share, DEPEND on
+> feedparser, hardcoded patch versioning, doexe calls to /usr/bin, ...
+
+  Submit patches upstream then, as that is the correct solution.
+I definitely agree about the /usr/share thing because being unable to
+import the Feed objects without path games will break my setup ;)  The
+others are mostly uninteresting.  As far as I'm aware portage still
+forces RDEPEND before merge anyhow so that is a non-issue and the patch
+versioning may well change the first time a bump is required.
+
