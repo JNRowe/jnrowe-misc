@@ -3,6 +3,9 @@
 # $Header: $
 
   28 Jul 2009; James Rowe <jnrowe@gmail.com> rails-3.4.ebuild:
+  Keyworded x86.
+
+  28 Jul 2009; James Rowe <jnrowe@gmail.com> rails-3.4.ebuild:
   Keyworded ~amd64.
 
 *rails-3.4 (13 Jun 2009)
