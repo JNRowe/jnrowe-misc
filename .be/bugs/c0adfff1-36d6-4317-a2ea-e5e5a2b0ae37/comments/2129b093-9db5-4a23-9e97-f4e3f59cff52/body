@@ -1,0 +1,3 @@
+Switched description to match upstreams, and pulled in the two patches
+they are applying.  The diff is still quite large, for both ebuild and
+install unfortunately.
