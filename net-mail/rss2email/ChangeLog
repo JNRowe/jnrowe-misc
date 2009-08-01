@@ -2,6 +2,10 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  01 Aug 2009; James Rowe <jnrowe@gmail.com> rss2email-2.65.1.ebuild:
+  Don't refer to config file directly, as the name may change dependent on
+  $PORTAGE_COMPRESS.
+
   01 Aug 2009; James Rowe <jnrowe@gmail.com> rss2email-2.65.1.ebuild,
   +files/rss2email-2.65-X-rss-feed.patch,
   +files/rss2email-2.65-r2e-chmod.patch:

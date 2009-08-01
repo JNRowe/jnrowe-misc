@@ -56,7 +56,6 @@ pkg_postinst() {
 		einfo "The default installation of rss2email requires a /usr/sbin/sendmail"
 		einfo "binary, you may wish to consider mail-mta/msmtp or mail-mta/nbsmtp."
 	fi
-	einfo "There is an example configuration file installed as"
-	einfo "/usr/share/doc/${PF}/config.py.gz.  Decompress it in "
-	einfo "~/.rss2email/ and edit to suit."
+	einfo "There is an example configuration file, config.py, installed in"
+	einfo "/usr/share/doc/${PF}.  Decompress it in ~/.rss2email/ and edit to suit."
 }
