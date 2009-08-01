@@ -2,12 +2,14 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI=2
+
 inherit eutils versionator distutils
 
 DEB_REV=$(get_version_component_range 3)
 MY_PV=$(get_version_component_range 1-2)
 
-DESCRIPTION="Receive Atom/RSS feeds by email"
+DESCRIPTION="A python script that converts RSS newsfeeds to email"
 HOMEPAGE="http://rss2email.infogami.com/"
 SRC_URI="mirror://debian/pool/main/${PN::1}/${PN}/${PN}_${MY_PV}.orig.tar.gz
 	mirror://debian/pool/main/${PN::1}/${PN}/${PN}_${MY_PV}-${DEB_REV}.diff.gz"
@@ -25,14 +27,16 @@ pkg_setup() {
 	export SITEDIR="$(${python} -c 'from distutils.sysconfig import get_python_lib; print get_python_lib()')"/${PN}
 }
 
-src_compile() {
-	:
-}
-
-src_unpack() {
-	unpack ${A}; cd "${S}"
+src_prepare() {
 	epatch "${WORKDIR}"/${PN}_${MY_PV}-${DEB_REV}.diff
 	sed -i "s,/usr/share/rss2email,${SITEDIR}," r2e
+
+	epatch "${FILESDIR}"/${PN}-${MY_PV}-r2e-chmod.patch
+	epatch "${FILESDIR}"/${PN}-${MY_PV}-X-rss-feed.patch
+}
+
+src_compile() {
+	:
 }
 
 src_install() {
