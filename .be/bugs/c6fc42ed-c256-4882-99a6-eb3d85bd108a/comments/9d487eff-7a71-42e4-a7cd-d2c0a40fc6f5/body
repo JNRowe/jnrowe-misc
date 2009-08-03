@@ -1,0 +1,7 @@
+Actually, would it be possible to add a "live" snapshot ebuild instead?
+What I'm thinking of is an ebuild that pulls the current $number
+snapshot and builds that.  It would bypass the subversion problem, but
+it would obviously use more bandwidth.
+
+Is that sort of thing easy to do?  I can't seem to find any examples of
+it.
