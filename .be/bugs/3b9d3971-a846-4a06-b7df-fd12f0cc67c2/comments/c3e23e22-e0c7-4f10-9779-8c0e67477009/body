@@ -1,0 +1,19 @@
+> From: Matt Leighton <mleighy@intranet>
+>   I've updated the test suite a lot, the graph code is at 95% now.
+> Unfortunately, I've had to futz around with the API a little too.  The
+> old stuff is still supported with -DDEPRECATED, which I've set as the
+> default, but if nothing else is using it please invert it and the drop
+> the unused code.
+
+  I'd already merged your code before you marked this bug as closed, and
+I've stripped the old code out.  I guess this is a sign we need proper
+inter-repo bug references, but at least we're on the same page.
+
+>   Done.  It specifically handles multiple renames well too, and if you
+> have javascript enabled it even tells you the previous names and dates
+> they moved on rollover.
+
+  Thanks mate, that is heaps better than I was hoping for. I'm probably
+going to steal it and see if I can do the same thing for the commit
+sparklines now.
+
