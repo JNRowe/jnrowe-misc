@@ -10,7 +10,7 @@ DESCRIPTION="vim plugin: a concise script that implements some of Textmate's sni
 HOMEPAGE="http://code.google.com/p/snipmate/"
 SRC_URI="http://www.vim.org/scripts/download_script.php?src_id=11006 -> ${P}.zip"
 LICENSE="GPL-2"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="app-arch/unzip"
