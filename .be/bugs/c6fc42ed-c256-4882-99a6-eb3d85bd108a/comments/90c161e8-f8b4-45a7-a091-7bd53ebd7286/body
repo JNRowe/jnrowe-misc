@@ -1,0 +1,17 @@
+> From: Rachel Holmes <Rach.C.Holmes@gmail.com>
+> 
+> The snapshots are only generated from the subversion tree, so a live
+> ebuild is unlikely to be much less stable than the snapshots.  Maybe
+> just drop the snapshot ebuilds and more solely to a live ebuild?
+
+  I don't think so.  The package is tested enough that it is gets
+keyworded, and also one version or another have been included in
+final product releases.  Those versions would at least need to be kept
+around for build support, therefore I don't think it makes much sense to
+drop them completely.
+
+> How often are snapshots unsuitable for bumping?  What do you use to test
+> the games?
+
+  It has happened once, beyond having to occasionally rediff the build
+fixes patch that is.
