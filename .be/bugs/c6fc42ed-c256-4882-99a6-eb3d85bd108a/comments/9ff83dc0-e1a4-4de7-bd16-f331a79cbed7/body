@@ -1,0 +1,19 @@
+Rach,
+
+  I looked at your puzzles-live branch earlier, and it definitely looks
+like a sane way to manage the ebuild.  I'm just not sure I want to merge
+it to master because of the subversion dependency, and I've not uet
+decided on the appropriate action.  The options are basically:
+
+  * Merge it with master, and break the testing policies as subversion
+    can't be installed on most of the test systems
+  * Merge it in to a tracking branch, with an explicit note that it is
+    master plus possibly untested packages.
+  * Kick them along with some other live ebuilds in to a distinct, lower
+    QA, repo.
+
+  Thoughts?
+
+  If you switch back to the idea of "live" ebuild with the snapshots
+then it can definitely be merged as a masked to master, the choice about
+how this eventually resolves is mostly up to you.
