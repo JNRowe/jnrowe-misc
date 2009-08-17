@@ -1,4 +1,4 @@
-> From: Matt Leighton <mleighy@intranet>
+> From: Matt Leighton <mleighy@googlemail.com>
 >   I've updated the test suite a lot, the graph code is at 95% now.
 > Unfortunately, I've had to futz around with the API a little too.  The
 > old stuff is still supported with -DDEPRECATED, which I've set as the

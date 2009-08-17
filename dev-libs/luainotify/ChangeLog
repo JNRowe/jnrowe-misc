@@ -4,7 +4,7 @@
 
 *luainotify-0.20080327 (17 Aug 2009)
 
-  17 Aug 2009; Matt Leighton <mleighy@intranet> +luainotify-0.20080327.ebuild,
+  17 Aug 2009; Matt Leighton <mleighy@googlemail.com> +luainotify-0.20080327.ebuild,
   +metadata.xml:
   Initial ebuild.
 
