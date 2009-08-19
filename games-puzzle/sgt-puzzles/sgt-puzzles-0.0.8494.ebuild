@@ -34,5 +34,14 @@ src_install() {
 	mkdir -p "${D}"/${GAMES_BINDIR}
 	emake DESTDIR="${D}" install || die "emake install failed"
 
+	local file name
+	for file in *.R ; do
+		[[ ${file} == "nullgame.R" ]] && continue
+		name=$(sed -n 's/^[a-z]*\.exe://p' "${file}")
+		file=${file%.R}
+		newicon icons/${file}-48d24.png ${PN}-${file}.png || die
+		make_desktop_entry "${GAMES_BINDIR}/${file}" "${name}" "${PN}-${file}"
+	done
+
 	dodoc HACKING puzzles.txt
 }

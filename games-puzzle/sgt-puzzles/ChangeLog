@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  19 Aug 2009; James Rowe <jnrowe@gmail.com> sgt-puzzles-0.0.8494.ebuild:
+  Pulled in the desktop generator from the upstream ebuild.
+
 *sgt-puzzles-0.0.8494 (19 Aug 2009)
 
   19 Aug 2009; James Rowe <jnrowe@gmail.com>
