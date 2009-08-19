@@ -1,6 +1,13 @@
-# ChangeLog for games-puzzle/puzzles
+# ChangeLog for games-puzzle/sgt-puzzles
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*sgt-puzzles-0.0.8494 (19 Aug 2009)
+
+  19 Aug 2009; James Rowe <jnrowe@gmail.com>
+  +files/puzzles-r8494-build_fixes.patch, +sgt-puzzles-0.0.8494.ebuild,
+  +metadata.xml:
+  Ebuild moved from games-puzzle/puzzles.
 
   12 Jul 2009; James Rowe <jnrowe@gmail.com> puzzles-0.0.8494.ebuild:
   Keyworded ppc.

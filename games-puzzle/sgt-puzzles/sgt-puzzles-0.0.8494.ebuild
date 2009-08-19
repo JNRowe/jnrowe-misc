@@ -5,7 +5,7 @@
 EAPI="1"
 inherit games toolchain-funcs versionator
 
-MY_P=${PN}-r$(get_version_component_range 3)
+MY_P=puzzles-r$(get_version_component_range 3)
 DESCRIPTION="A collection of small one-player puzzle games"
 HOMEPAGE="http://www.chiark.greenend.org.uk/~sgtatham/puzzles/"
 SRC_URI="${HOMEPAGE}/${MY_P}.tar.gz"

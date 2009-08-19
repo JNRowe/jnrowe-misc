@@ -1,1 +1,3 @@
 move net-news/rss2email net-mail/rss2email
+move games-puzzle/puzzles games-puzzle/sgt-puzzles
+
