@@ -2,14 +2,14 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MY_P=${P}-gamma
+MY_P=${P}-delta
 DESCRIPTION="A tiling window manager with mouse and keyboard control"
 HOMEPAGE="http://unexist.scrapping.cc/projects/show/subtle"
-SRC_URI="http://unexist.scrapping.cc/attachments/download/6/${MY_P}.tbz2"
+SRC_URI="http://unexist.scrapping.cc/attachments/download/8/${MY_P}.tbz2"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="dev-ruby/rake
@@ -21,12 +21,19 @@ RDEPEND="x11-libs/libX11
 
 S="${WORKDIR}/${MY_P}"
 
+src_unpack() {
+	unpack ${A}; cd "${S}"
+	sed -i -e '/"cflags"/s,"-.*",'"\"${CFLAGS}\"," \
+		-e '/"ldflags"/s!"-!'"\"${LDFLAGS} -!" \
+		Rakefile
+}
+
 src_compile() {
-	rake destdir="${D}"
+	rake destdir="${D}" || die "rake failed"
 }
 
 src_install() {
-	rake destdir="${D}" install
+	rake destdir="${D}" install || die "rake install failed"
 	# INSTALL contains user information too
 	dodoc AUTHORS INSTALL
 }
