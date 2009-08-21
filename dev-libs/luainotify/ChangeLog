@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*luainotify-0.20090818 (21 Aug 2009)
+
+  21 Aug 2009; James Rowe <jnrowe@gmail.com> +luainotify-0.20090818.ebuild:
+  Version bump [890].
+
 *luainotify-0.20080327 (17 Aug 2009)
 
   17 Aug 2009; Matt Leighton <mleighy@googlemail.com> +luainotify-0.20080327.ebuild,
