@@ -12,11 +12,11 @@ can report, list and fix bugs using ``dev-util/be``.
 ----------------------
 
 If you use layman_ to sync your repositories you can simply add this
-repository to the supported list.  Add the file ``layman.xml`` to the
-``overlays`` section of ``/etc/layman/layman.conf`` for example::
+repository to the supported list.  Add the file ``support/layman.xml``
+to the ``overlays`` section of ``/etc/layman/layman.conf`` for example::
 
     overlays  : http://www.gentoo.org/proj/en/overlays/layman-global.txt
-                file:///var/lib/repos/jnrowe-misc/layman.xml
+                file:///var/lib/repos/jnrowe-misc/support/layman.xml
 
 Then you can add the overlay using ``layman``::
 
