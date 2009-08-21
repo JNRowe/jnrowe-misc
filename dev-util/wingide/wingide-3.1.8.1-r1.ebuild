@@ -57,3 +57,9 @@ src_install() {
 	make_desktop_entry /usr/bin/wing$(get_version_component_range -2) \
 		"Wing IDE" /opt/${PN}/resources/wing-gnome-icon.png
 }
+
+pkg_postinst() {
+	einfo "Unless somebody steps up to maintain the wingide ebuild for x86 soon,"
+	einfo "the x86 keyword may unfortunately have to be dropped in a future"
+	einfo "version."
+}
