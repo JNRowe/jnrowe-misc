@@ -35,4 +35,3 @@ src_install() {
 	insopts -m755
 	doins inotify.so
 }
-
