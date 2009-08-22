@@ -1,3 +1,0 @@
-# James Rowe <jnrowe@gmail.com> (19 Jun 2009)
-# Release candidate, worth testing but not usable on a daily basis.
-=dev-python/pydelicious-0.5.2_rc2
