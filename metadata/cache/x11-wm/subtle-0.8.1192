@@ -1,0 +1,22 @@
+dev-ruby/rake dev-util/pkgconfig x11-libs/libX11 x11-proto/xproto
+x11-libs/libX11 dev-lang/ruby
+0
+http://unexist.scrapping.cc/attachments/download/8/subtle-0.8.1192-delta.tbz2
+
+http://unexist.scrapping.cc/projects/show/subtle
+GPL-2
+A tiling window manager with mouse and keyboard control
+~amd64 ~x86
+
+
+
+
+
+
+
+compile install unpack
+
+
+
+
+

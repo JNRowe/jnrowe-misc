@@ -1,0 +1,22 @@
+
+
+0
+http://www.vanheusden.com/mboxstats//mboxstats-3.0.tgz
+
+http://www.vanheusden.com/mboxstats/
+GPL-2
+Generate statistics from mbox and maildir folders
+amd64 x86
+multilib toolchain-funcs
+
+
+
+
+
+
+compile install unpack
+
+
+
+
+

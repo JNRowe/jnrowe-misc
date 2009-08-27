@@ -1,0 +1,22 @@
+app-arch/unzip virtual/python
+
+0
+http://pydelicious.googlecode.com/files/pydelicious-0.5.0.zip
+
+http://code.google.com/p/pydelicious/
+BSD
+Access the web service of del.icio.us via it's API through python
+x86
+distutils eutils multilib portability python toolchain-funcs
+
+
+
+
+2
+
+compile install postinst postrm prepare unpack
+
+
+
+
+

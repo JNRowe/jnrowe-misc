@@ -1,0 +1,22 @@
+sys-devel/bison sys-devel/flex
+sys-libs/readline
+0
+http://mathias-kettner.de/download/wirbel-0.1.11.tar.gz
+
+http://mathias-kettner.de/wirbel.html
+GPL-2
+A compiled programming language with syntax and semantics similar to Python
+amd64 x86
+
+
+
+
+
+
+
+install
+
+
+
+
+

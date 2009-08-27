@@ -1,0 +1,22 @@
+dev-lang/python virtual/python
+dev-lang/python
+0
+http://www.jnrowe.ukfsn.org/_downloads/upoints-0.11.0.tar.bz2
+
+http://www.jnrowe.ukfsn.org/projects/upoints.html
+GPL-3
+Modules for working with points on Earth
+amd64 x86
+distutils eutils multilib portability python toolchain-funcs
+
+
+
+
+
+
+compile install postinst postrm test unpack
+
+
+
+
+

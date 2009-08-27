@@ -1,0 +1,22 @@
+dev-python/setuptools virtual/python
+dev-util/git
+0
+http://pypi.python.org/packages/source/g/gitserve/gitserve-0.2.0.tar.gz
+
+http://github.com/jezdez/git-serve/
+GPL-2
+A helper tool for git that mimics mercurial's serve command
+amd64 x86
+distutils eutils multilib portability python toolchain-funcs
+
+
+
+
+
+
+compile install postinst postrm unpack
+
+
+
+
+

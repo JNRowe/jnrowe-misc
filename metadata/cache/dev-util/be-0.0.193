@@ -1,0 +1,22 @@
+dev-lang/python virtual/python
+dev-lang/python
+0
+http://www.jnrowe.ukfsn.org/_static/be-0.0.193.tar.bz2
+test
+http://bugseverywhere.org/be/show/HomePage
+GPL-2
+A bugtracker built on distributed revision control
+amd64 ppc64 x86
+distutils eutils multilib portability python toolchain-funcs
+
+
+
+
+2
+
+compile install postinst postrm prepare test unpack
+
+
+
+
+
