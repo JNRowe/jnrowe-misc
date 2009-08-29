@@ -22,7 +22,7 @@ status=open
 
 
 
-summary=Merge the vim plugin tree in to jnrowe-misc
+summary=Merge the vim-plugins overlay in to jnrowe-misc
 
 
 
