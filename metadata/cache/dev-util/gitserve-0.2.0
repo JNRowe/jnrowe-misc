@@ -1,4 +1,4 @@
-dev-python/setuptools virtual/python
+dev-python/setuptools >=app-shells/bash-3.2 virtual/python
 dev-util/git
 0
 http://pypi.python.org/packages/source/g/gitserve/gitserve-0.2.0.tar.gz
@@ -14,7 +14,7 @@ distutils eutils multilib portability python toolchain-funcs
 
 
 
-compile install postinst postrm unpack
+
 
 
 

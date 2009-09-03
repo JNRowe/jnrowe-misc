@@ -1,4 +1,4 @@
-dev-lang/python virtual/python
+dev-lang/python >=app-shells/bash-3.2 virtual/python
 dev-lang/python
 0
 http://www.jnrowe.ukfsn.org/_static/be-0.0.193.tar.bz2
@@ -14,7 +14,7 @@ distutils eutils multilib portability python toolchain-funcs
 
 2
 
-compile install postinst postrm prepare test unpack
+
 
 
 
