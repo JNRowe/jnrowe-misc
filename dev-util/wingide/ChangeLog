@@ -2,6 +2,10 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  03 Sep 2009; James Rowe <jnrowe@gmail.com> wingide-3.1.8.1-r1.ebuild,
+  wingide-3.2.0.1.ebuild:
+  Only display x86 maintainer message to x86 users.
+
   21 Aug 2009; James Rowe <jnrowe@gmail.com> wingide-3.1.8.1-r1.ebuild,
   wingide-3.2.0.1.ebuild:
   Added a call for an x86 maintainer.

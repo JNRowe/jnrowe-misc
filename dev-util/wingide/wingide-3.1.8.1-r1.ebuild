@@ -59,7 +59,9 @@ src_install() {
 }
 
 pkg_postinst() {
-	einfo "Unless somebody steps up to maintain the wingide ebuild for x86 soon,"
-	einfo "the x86 keyword may unfortunately have to be dropped in a future"
-	einfo "version."
+	if use x86; then
+		einfo "Unless somebody steps up to maintain the wingide ebuild for x86"
+		einfo "soon, the x86 keyword may unfortunately have to be dropped in a "
+		einfo "future version."
+	fi
 }
