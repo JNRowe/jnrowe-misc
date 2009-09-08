@@ -6,7 +6,7 @@ http://www.vim.org/scripts/download_script.php?src_id=11006 -> snipmate-0.83.zip
 http://code.google.com/p/snipmate/
 GPL-2
 vim plugin: a concise script that implements some of Textmate's snippets
-~amd64 ~x86
+amd64 x86
 vim-doc vim-plugin
 
 
