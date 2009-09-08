@@ -3,6 +3,9 @@
 # $Header: $
 
   08 Sep 2009; James Rowe <jnrowe@gmail.com> snipmate-0.83.ebuild:
+  Keyworded x86.
+
+  08 Sep 2009; James Rowe <jnrowe@gmail.com> snipmate-0.83.ebuild:
   Keyworded amd64.
 
   04 Aug 2009; James Rowe <jnrowe@gmail.com> snipmate-0.83.ebuild:
