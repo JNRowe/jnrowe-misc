@@ -2,10 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-MY_P=${P}-delta
+MY_P=${P}-epsilon
 DESCRIPTION="A tiling window manager with mouse and keyboard control"
 HOMEPAGE="http://unexist.scrapping.cc/projects/show/subtle"
-SRC_URI="http://unexist.scrapping.cc/attachments/download/8/${MY_P}.tbz2"
+SRC_URI="http://unexist.scrapping.cc/attachments/download/20/${MY_P}.tbz2"
 
 LICENSE="GPL-2"
 SLOT="0"
