@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		pep8 is a tool to check your Python code against some of the style
+		conventions in PEP 8.  Features include: plugin architecture, parseable
+		output and small.
+	</longdescription>
+</pkgmetadata>
+
