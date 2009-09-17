@@ -1,3 +1,5 @@
+# extra line needed because portage is buggy
+
 # James Rowe <jnrowe@gmail.com> (17 Sep 2009)
 # Live ebuilds for awesome widgets
 =x11-plugins/obvious-9999
