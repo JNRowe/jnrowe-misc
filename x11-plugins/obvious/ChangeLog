@@ -1,0 +1,10 @@
+# ChangeLog for x11-plugins/obvious
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*obvious-9999 (17 Sep 2009)
+
+  17 Sep 2009; James Rowe <jnrowe@gmail.com> +obvious-9999.ebuild,
+  +metadata.xml:
+  Initial ebuild, by me.
+

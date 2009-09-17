@@ -1,0 +1,22 @@
+>=dev-util/git-1.6
+x11-wm/awesome
+0
+
+
+http://awesome.naquadah.org/wiki/Wicked
+MIT BSD
+A set of widgets for x11-wm/awesome that provide helpful information.
+~amd64 ~x86
+eutils git multilib portability toolchain-funcs
+
+
+
+
+
+
+
+
+
+
+
+
