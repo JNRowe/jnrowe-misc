@@ -1,5 +1,5 @@
 app-arch/unzip >=app-shells/bash-3.2 virtual/python
-
+virtual/python
 0
 http://pydelicious.googlecode.com/files/pydelicious-0.5.0.zip
 

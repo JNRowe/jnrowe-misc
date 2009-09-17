@@ -1,5 +1,5 @@
 dev-python/setuptools >=app-shells/bash-3.2 virtual/python
-dev-util/git
+dev-util/git virtual/python
 0
 http://pypi.python.org/packages/source/g/gitserve/gitserve-0.2.0.tar.gz
 
