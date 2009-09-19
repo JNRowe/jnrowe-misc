@@ -1,0 +1,7 @@
+There are practically no new features, and the bugfixes are mainly for
+other platforms(see the ChangeLog_).  This bump is very low priority
+given that and the effort required for a bump because of the upstream
+packaging.
+
+.. _ChangeLog: http://wingware.com/pub/wingide/3.2.1/CHANGELOG.txt
+
