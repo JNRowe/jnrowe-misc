@@ -15,17 +15,24 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="doc docutils examples"
 
-DEPEND="docutils? ( >=dev-python/docutils-0.5 dev-python/setuptools )"
+DEPEND="doc? ( media-gfx/sphinxcontrib-aafig )
+	docutils? ( >=dev-python/docutils-0.5 dev-python/setuptools )"
 # setuptools is needed in RDEPEND because it installs a setuptools-based plugin
 # for docutils
 RDEPEND="${DEPEND}"
 
 src_prepare() {
 	mv docutils/setup{-docutils-plugin,}.py
+	# Workaround a option parsing bug in the current release
+	sed -i '/^ \+:aspect\|scale:/d' documentation/*.rst
 }
 
 src_compile() {
 	distutils_src_compile
+
+	cd documentation
+	make html
+	cd ..
 
 	if use docutils; then
 		cd docutils
@@ -52,6 +59,7 @@ src_install() {
 		sphinxdocs="documentation/!(index.rst)"
 		dodoc ${sphinxdocs}
 		[ ${extglob} == 1 ] && shopt -u extglob
+		dohtml -A svg -r documentation/_build/html/*
 	fi
 	if use examples ; then
 		doins -r examples
