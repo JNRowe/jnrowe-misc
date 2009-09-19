@@ -10,4 +10,7 @@
     <email>jnrowe@gmail.com</email>
     <name>James Rowe</name>
   </maintainer>
+  <use>
+    <flag name="docutils">Adds a directive for aafigure support to docutils</flag>
+  </use>
 </pkgmetadata>
