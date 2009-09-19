@@ -11,6 +11,8 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<use>
-		<flag name="docutils">Adds a directive for aafigure support to docutils</flag>
+		<flag name="docutils" restrict=">=media-gfx/aafigure-0.4">
+			Adds a directive for aafigure support to docutils
+		</flag>
 	</use>
 </pkgmetadata>
