@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <longdescription>
-    TuDu is a command line todo list manager with a hierarchical
-    representation of tasks. Each task has a title, a long text
-    description, a deadline (tudu warns you when the date is close),
-    and a scheduled date. There are categories and priorities.
-  </longdescription>
-  <herd>no-herd</herd>
-  <maintainer>
-    <email>jnrowe@gmail.com</email>
-    <name>James Rowe</name>
-  </maintainer>
+	<longdescription>
+		TuDu is a command line todo list manager with a hierarchical
+		representation of tasks. Each task has a title, a long text
+		description, a deadline (tudu warns you when the date is close),
+		and a scheduled date. There are categories and priorities.
+	</longdescription>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
 </pkgmetadata>

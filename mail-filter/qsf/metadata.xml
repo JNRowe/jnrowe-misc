@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <longdescription>
-    Quick Spam Filter (QSF) is an Open Source email classification
-    filter, designed to be small, fast, and accurate, which works to
-    classify incoming email as either spam or non-spam.
+	<longdescription>
+		Quick Spam Filter (QSF) is an Open Source email classification
+		filter, designed to be small, fast, and accurate, which works to
+		classify incoming email as either spam or non-spam.
 
-    To recognise spam, QSF strips the text out of the email (using
-    MIME decoding and HTML stripping) and then splits it into tokens
-    (words, word pairs, URLs, and so on). These tokens are then
-    looked up in a database and analysed using the Bayesian technique
-    to see whether the email should be classified as spam or not.
-  </longdescription>
-  <herd>no-herd</herd>
-  <maintainer>
-    <email>jnrowe@gmail.com</email>
-    <name>James Rowe</name>
-  </maintainer>
+		To recognise spam, QSF strips the text out of the email (using
+		MIME decoding and HTML stripping) and then splits it into tokens
+		(words, word pairs, URLs, and so on). These tokens are then
+		looked up in a database and analysed using the Bayesian technique
+		to see whether the email should be classified as spam or not.
+	</longdescription>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
 </pkgmetadata>

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <longdescription>
-    Subtle is a another tiling window manager with a very flexible and dynamical
-    layout, client and view tagging, mouse and keyboard control as well as an
-    extendable statusbar.
+	<longdescription>
+		Subtle is a another tiling window manager with a very flexible and
+		dynamical layout, client and view tagging, mouse and keyboard control as
+		well as an extendable statusbar.
 
-    Subtler (subtle remote) is similar to wmctrl a commandline tool to interact
-    with a EWMH/NetWM compatible window manager.
+		Subtler (subtle remote) is similar to wmctrl a commandline tool to
+		interact with a EWMH/NetWM compatible window manager.
 
-    Sublets (subtle applets) are small programs written in Ruby to add features
-    to the statusbar.
+		Sublets (subtle applets) are small programs written in Ruby to add
+		features to the statusbar.
 
-    Subtlext (subtle extension) is a Ruby extension that brings the features of
-    subtler to Ruby scripts.
-  </longdescription>
-  <herd>no-herd</herd>
-  <maintainer>
-    <email>jnrowe@gmail.com</email>
-    <name>James Rowe</name>
-  </maintainer>
+		Subtlext (subtle extension) is a Ruby extension that brings the features
+		of subtler to Ruby scripts.
+	</longdescription>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
 </pkgmetadata>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <longdescription>
-    Parti is a tabbing/tiling (one might say "partitioning") window manager.
-    Its goal is to bring this superior window management interface to
-    modern, mainstream desktop environments. It is written in Python, uses
-    GTK+, has an automated test suite, and is released under the GPL.
-  </longdescription>
-  <herd>no-herd</herd>
-  <maintainer>
-    <email>jnrowe@gmail.com</email>
-    <name>James Rowe</name>
-  </maintainer>
+	<longdescription>
+		Parti is a tabbing/tiling (one might say "partitioning") window manager.
+		Its goal is to bring this superior window management interface to
+		modern, mainstream desktop environments. It is written in Python, uses
+		GTK+, has an automated test suite, and is released under the GPL.
+	</longdescription>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
 </pkgmetadata>

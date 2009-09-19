@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <longdescription>
-    This is a helper tool for git that mimics mercurial's serve
-    command.  It makes it very easy to see all your git project via
-    git's own gitweb by running a lightweight local server.
-  </longdescription>
-  <herd>no-herd</herd>
-  <maintainer>
-    <email>jnrowe@gmail.com</email>
-    <name>James Rowe</name>
-  </maintainer>
+	<longdescription>
+		This is a helper tool for git that mimics mercurial's serve
+		command.  It makes it very easy to see all your git project via
+		git's own gitweb by running a lightweight local server.
+	</longdescription>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
 </pkgmetadata>

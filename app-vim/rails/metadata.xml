@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <longdescription>
-    This plugin offers the following features for Ruby on Rails application
-    development.:
+	<longdescription>
+		This plugin offers the following features for Ruby on Rails application
+		development.:
 
-    1. Automatically detects buffers containing files from Rails applications,
-       and applies settings to those buffers (and only those buffers).
-    2. Unintrusive.  Only files in a Rails application should be affected
-    3. Provides reasonable settings for working with Rails applications.
-    4. Easy navigation of the Rails directory structure.
-    5. Enhanced syntax highlighting.
-    6. Interface to script/*.
-  </longdescription>
-  <herd>no-herd</herd>
-  <maintainer>
-    <email>jnrowe@gmail.com</email>
-    <name>James Rowe</name>
-  </maintainer>
+		1. Automatically detects buffers containing files from Rails
+		   applications, and applies settings to those buffers (and only those
+		   buffers).
+		2. Unintrusive.  Only files in a Rails application should be affected
+		3. Provides reasonable settings for working with Rails applications.
+		4. Easy navigation of the Rails directory structure.
+		5. Enhanced syntax highlighting.
+		6. Interface to script/*.
+	</longdescription>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
 </pkgmetadata>

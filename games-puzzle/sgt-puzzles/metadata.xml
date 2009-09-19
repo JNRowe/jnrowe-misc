@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <longdescription>
-    Simon Tatham wrote this collection because he thought there should be more
-    small desktop toys available: little games you can pop up in a window and
-    play for two or three minutes while you take a break from whatever else you
-    were doing.
-  </longdescription>
-  <herd>no-herd</herd>
-  <maintainer>
-    <email>jnrowe@gmail.com</email>
-    <name>James Rowe</name>
-  </maintainer>
+	<longdescription>
+		Simon Tatham wrote this collection because he thought there should be
+		more small desktop toys available: little games you can pop up in
+		a window and play for two or three minutes while you take a break from
+		whatever else you were doing.
+	</longdescription>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
 </pkgmetadata>
