@@ -1,0 +1,4 @@
+sphinxcontrib-aafig needs to be installed to build the docs for
+media-gfx/aafigure.  Until it is we only have the reST sources installed
+with aafigure.
+
