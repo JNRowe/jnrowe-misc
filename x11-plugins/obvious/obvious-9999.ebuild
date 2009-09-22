@@ -17,7 +17,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=""
-RDEPEND="x11-wm/awesome"
+# All these tools are needed because initialisation fails without them
+# regardless of the module being used
+RDEPEND="dev-libs/luasocket
+	media-sound/alsa-utils
+	sys-power/acpi
+	x11-wm/awesome"
 
 src_unpack() {
 	git_src_unpack; cd "${S}"
