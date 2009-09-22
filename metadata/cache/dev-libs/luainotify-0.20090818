@@ -6,7 +6,7 @@ http://www3.telus.net/taj_khattra/luainotify/luainotify-20090818.tar.gz
 http://www3.telus.net/taj_khattra/luainotify.html
 as-is
 a Lua interface to the Linux inotify subsystem
-~amd64
+amd64
 multilib toolchain-funcs versionator
 
 
