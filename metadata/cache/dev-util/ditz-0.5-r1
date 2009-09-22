@@ -6,7 +6,7 @@ mirror://rubyforge/ditz/ditz-0.5.tgz
 http://ditz.rubyforge.org
 GPL-3
 A simple, light-weight distributed issue tracker designed for dVCS
-amd64 arm x86
+amd64 x86
 bash-completion eutils multilib portability ruby toolchain-funcs
 bash-completion
 
