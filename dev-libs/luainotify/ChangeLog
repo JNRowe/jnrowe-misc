@@ -3,6 +3,9 @@
 # $Header: $
 
   22 Sep 2009; James Rowe <jnrowe@gmail.com> luainotify-0.20090818.ebuild:
+  Keyworded ~x86.
+
+  22 Sep 2009; James Rowe <jnrowe@gmail.com> luainotify-0.20090818.ebuild:
   Keyworded amd64.
 
   22 Aug 2009; James Rowe <jnrowe@gmail.com> -luainotify-0.20080327.ebuild:
