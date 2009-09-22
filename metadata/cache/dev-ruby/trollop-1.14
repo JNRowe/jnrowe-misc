@@ -6,7 +6,7 @@ mirror://rubyforge/gems/trollop-1.14.gem
 http://trollop.rubyforge.org
 Ruby
 Provide the maximal amount of GNU-style argument processing in ruby
-amd64 ~x86
+amd64 x86
 eutils gems multilib portability ruby toolchain-funcs
 doc
 
@@ -14,7 +14,7 @@ doc
 
 
 
-compile install unpack
+
 
 
 
