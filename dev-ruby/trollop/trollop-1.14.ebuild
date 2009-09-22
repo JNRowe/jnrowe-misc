@@ -9,5 +9,5 @@ HOMEPAGE="http://trollop.rubyforge.org"
 
 LICENSE="Ruby"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~x86"
+KEYWORDS="amd64 ~arm ~x86"
 IUSE=""
