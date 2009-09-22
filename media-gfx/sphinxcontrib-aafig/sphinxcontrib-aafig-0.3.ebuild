@@ -19,4 +19,3 @@ DEPEND="dev-python/setuptools"
 RDEPEND="dev-python/setuptools
 	>=dev-python/sphinx-0.6
 	>=media-gfx/aafigure-0.3"
-
