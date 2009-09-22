@@ -12,7 +12,7 @@ SRC_URI="http://pydelicious.googlecode.com/files/${MY_P}.zip"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE=""
 # Tests are actually broken, not just failing
 RESTRICT="test"
