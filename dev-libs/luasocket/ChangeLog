@@ -1,0 +1,10 @@
+# ChangeLog for dev-libs/luasocket
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*luasocket-2.0.2 (22 Sep 2009)
+
+  22 Sep 2009; James Rowe <jnrowe@gmail.com> +luasocket-2.0.2.ebuild,
+  +metadata.xml:
+  Initial ebuild, by me.
+
