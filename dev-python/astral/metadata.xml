@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Astral is a Python module designed to calculate the following times of
+		the day: dawn, sunrise, solar noon, sunset, dusk, Ruhakaalam, solar
+		azimuth and elevation.  It can calculate these attributes at
+		a particular time for any latitude and longitude.
+	</longdescription>
+</pkgmetadata>
+
