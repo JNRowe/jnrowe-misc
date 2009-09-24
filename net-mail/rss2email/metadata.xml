@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<longdescription>
+	<longdescription lang="en">
 		rss2email lets you read newsfeeds from a program that you already know
 		and use everyday: your email client. So rather than having to learn to
 		use a new program or visit a webpage, rss2email delivers news items to

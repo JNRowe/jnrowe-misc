@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<longdescription>
+	<longdescription lang="en">
 		Parti is a tabbing/tiling (one might say "partitioning") window manager.
 		Its goal is to bring this superior window management interface to
 		modern, mainstream desktop environments. It is written in Python, uses

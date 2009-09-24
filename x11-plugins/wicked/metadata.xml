@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<longdescription>
+	<longdescription lang="en">
 		Wicked is a lua library, which means you can require() it from within
 		x11-wm/awesome's rc.lua, and set up all your widgets from inside the
 		same config file, without having to run a separate program with separate

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<longdescription>
+	<longdescription lang="en">
 		A small tool to send remote commands to a running instance of an opera
 		browser (the X11-version).  It runs much faster than invoking the big
 		opera-binary to perform the same action.  Inspired by the ancient

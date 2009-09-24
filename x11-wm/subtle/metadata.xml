@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<longdescription>
+	<longdescription lang="en">
 		Subtle is a another tiling window manager with a very flexible and
 		dynamical layout, client and view tagging, mouse and keyboard control as
 		well as an extendable statusbar.

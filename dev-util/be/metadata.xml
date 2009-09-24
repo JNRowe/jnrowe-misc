@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<longdescription>
+	<longdescription lang="en">
 		Bugs Everywhere is a “distributed bugtracker”, designed to
 		complement distributed revision control systems. By using
 		distributed revision control as a backend for bug state, we gain

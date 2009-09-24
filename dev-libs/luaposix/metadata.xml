@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<longdescription>
+	<longdescription lang="en">
 		This is a POSIX library for Lua 5.1.  It includes standard POSIX
 		functions such as: {base,dir}name, chmod, exec, fork, getenv, glob,
 		kill, pipe, readlink, stat, umask.

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<longdescription>
+	<longdescription lang="en">
 		snipMate.vim aims to be an unobtrusive, concise vim script that
 		implements some of TextMate's snippets features in Vim. A snippet is
 		a piece of often-typed text that you can insert into your document using

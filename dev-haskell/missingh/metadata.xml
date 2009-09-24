@@ -6,7 +6,7 @@
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
 	</maintainer>
-	<longdescription>
+	<longdescription lang="en">
 		MissingH is a library of all sorts of utility functions for
 		Haskell programmers.  It is written in pure Haskell and thus should
 		be extremely portable and easy to use.

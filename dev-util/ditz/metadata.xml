@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<longdescription>
+	<longdescription lang="en">
 		Ditz is a simple, light-weight distributed issue tracker designed
 		to work with distributed version control systems like git, darcs,
 		Mercurial, and Bazaar. It can also be used with centralized

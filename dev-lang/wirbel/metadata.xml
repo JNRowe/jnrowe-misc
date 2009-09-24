@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<longdescription>
+	<longdescription lang="en">
 		Wirbel is a new programming language. It has a syntax and semantics
 		similar to Python - a very popular language invented by Guido van
 		Rossum. But - unlike Python - Wirbel is a compiler language

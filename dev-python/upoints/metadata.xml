@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<longdescription>
+	<longdescription lang="en">
 		upoints is a collection of GPL v3 licensed modules for working
 		with points on Earth, or other near spherical objects.  It allows you to
 		calculate the distance and bearings between points, mangle
