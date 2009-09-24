@@ -1,0 +1,3 @@
+Thanks to Naib in #gentoo-chat for telling me this:  You can use "equery
+uses" from the 0.3.0 releases of gentoolkit to search descriptions in
+overlays.
