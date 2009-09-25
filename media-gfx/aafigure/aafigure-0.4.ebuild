@@ -30,9 +30,11 @@ src_prepare() {
 src_compile() {
 	distutils_src_compile
 
-	cd documentation
-	make html
-	cd ..
+	if use doc; then
+		cd documentation
+		make html
+		cd ..
+	fi
 
 	if use docutils; then
 		cd docutils

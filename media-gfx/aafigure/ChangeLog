@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  25 Sep 2009; James Rowe <jnrowe@gmail.com> aafigure-0.4.ebuild:
+  Only build sphinx docs when USE=doc is set.
+
   19 Sep 2009; James Rowe <jnrowe@gmail.com> aafigure-0.4.ebuild:
   Build sphinx documentation with USE=doc [58ca].
 
