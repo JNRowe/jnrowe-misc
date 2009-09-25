@@ -1,0 +1,10 @@
+# ChangeLog for media-gfx/sng
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*sng-1.0.2 (25 Sep 2009)
+
+  25 Sep 2009; James Rowe <jnrowe@gmail.com> +sng-1.0.2.ebuild,
+  +metadata.xml:
+  Initial ebuild, by me.
+

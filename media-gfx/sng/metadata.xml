@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		SNG (Scriptable Network Graphics) is a minilanguage designed
+		specifically to represent the entire contents of a PNG (Portable Network
+		Graphics) file in an editable form. Thus, SNGs representing elaborate
+		graphics images and ancillary chunk data can be readily generated or
+		modified using only text tools.
+
+		SNG is implemented by a compiler/decompiler called sng that losslessly
+		translates between SNG and PNG.
+	</longdescription>
+</pkgmetadata>
+
