@@ -24,10 +24,6 @@ RDEPEND="dev-libs/luasocket
 	sys-power/acpi
 	x11-wm/awesome"
 
-src_unpack() {
-	git_src_unpack; cd "${S}"
-}
-
 src_install() {
 	local modules="basic_mpd battery clock cpu fs_usage io lib mem net \
 		popup_run_prompt volume_alsa wlan"
