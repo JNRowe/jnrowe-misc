@@ -15,7 +15,7 @@ SRC_URI="x86? ( ${BASE_URI}/${BASE_P}-i386-linux.tar.gz )
 	amd64? ( ${BASE_URI}/${BASE_P}-x86_64-linux.tar.gz )"
 LICENSE="wingide"
 SLOT="0"
-KEYWORDS="-* ~amd64 ~x86"
+KEYWORDS="-* amd64 ~x86"
 
 IUSE=""
 
