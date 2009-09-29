@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/restview
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*restview-1.1.1 (29 Sep 2009)
+
+  29 Sep 2009; James Rowe <jnrowe@gmail.com> +restview-1.1.1.ebuild,
+  +metadata.xml:
+  Initial ebuild, by me.
+
