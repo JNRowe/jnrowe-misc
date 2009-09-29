@@ -1,0 +1,22 @@
+>=dev-util/git-1.6
+x11-wm/awesome
+0
+
+
+http://awesome.naquadah.org/wiki/Vicious
+GPL-2
+vicious widgets for the awesome window manager
+~amd64
+eutils git multilib portability toolchain-funcs
+
+
+
+
+
+
+install unpack
+
+
+
+
+

@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*vicious-9999 (29 Sep 2009)
+
+  29 Sep 2009; James Rowe <jnrowe@gmail.com> +vicious-9999.ebuild:
+  Added live git ebuild.
+
 *vicious-1.0.16 (29 Sep 2009)
 
   29 Sep 2009; James Rowe <jnrowe@gmail.com> +vicious-1.0.16.ebuild,

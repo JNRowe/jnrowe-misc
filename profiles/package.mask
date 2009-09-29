@@ -3,5 +3,6 @@
 # James Rowe <jnrowe@gmail.com> (17 Sep 2009)
 # Live ebuilds for awesome widgets
 =x11-plugins/obvious-9999
+=x11-plugins/vicious-9999
 =x11-plugins/wicked-9999
 
