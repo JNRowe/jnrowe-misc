@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		cupage is a tool to check for updates on web pages.  It has an simple
+		configuration format, and many common software sites need only a single
+		option to enable checks for updated packages.
+	</longdescription>
+</pkgmetadata>
+
