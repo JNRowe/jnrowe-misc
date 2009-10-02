@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		The goal of pyhistorian is to write an internal Given-When-Then template
+		using Python. The ideas came from JBehave, RBehave, Cucumber and others.
+
+		It's possible to write your stories in English and Portuguese, choose
+		your preferred.
+	</longdescription>
+</pkgmetadata>
+
