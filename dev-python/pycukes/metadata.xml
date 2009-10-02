@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		PyCukes is a Cucumber-like BDD tool built on top of Pyhistorian. PyCukes
+		was created to fill the gap pyhistorian left, so with it is possible to
+		talk to your stakeholders first with text files, instead of simple
+		understendable python files like Pyhistorian.
+	</longdescription>
+</pkgmetadata>
+
