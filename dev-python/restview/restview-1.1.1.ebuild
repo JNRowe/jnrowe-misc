@@ -18,4 +18,3 @@ DEPEND="dev-python/setuptools"
 RDEPEND="dev-python/docutils
 	dev-python/setuptools
 	pygments? ( dev-python/pygments )"
-
