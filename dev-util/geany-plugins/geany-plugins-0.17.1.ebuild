@@ -30,6 +30,6 @@ src_compile() {
 src_install() {
 	local plugins="addons geany{gdb,latex,lipsum,lua,sendmail,vc} shiftcolumn \
 		spellcheck"
-	emake DESTDIR="${D}" docdir="\${datarootdir}/doc/${P}" install \
+	emake DESTDIR="${D}" docdir="\${datarootdir}/doc/${PF}" install \
 		|| die "emake install failed"
 }
