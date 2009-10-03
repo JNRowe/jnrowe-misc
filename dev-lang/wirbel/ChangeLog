@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  03 Oct 2009; James Rowe <jnrowe@gmail.com> wirbel-0.1.11.ebuild:
+  Install docs to /usr/share/doc/.
+
   12 Jul 2009; James Rowe <jnrowe@gmail.com> wirbel-0.1.11.ebuild:
   Keyworded amd64.
 
