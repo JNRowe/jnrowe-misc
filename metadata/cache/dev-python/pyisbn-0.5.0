@@ -1,4 +1,4 @@
-dev-lang/python >=app-shells/bash-3.2 virtual/python
+dev-lang/python >=app-admin/eselect-python-20090804 >=app-shells/bash-3.2 virtual/python
 dev-lang/python virtual/python
 0
 http://www.jnrowe.ukfsn.org/_downloads/pyisbn-0.5.0.tar.bz2
