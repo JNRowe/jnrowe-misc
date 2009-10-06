@@ -1,0 +1,22 @@
+dev-python/setuptools >=app-admin/eselect-python-20090804 >=app-shells/bash-3.2 virtual/python >=dev-util/git-1.6
+dev-python/nose dev-python/pyparsing dev-python/setuptools virtual/python
+0
+
+
+http://github.com/rlisagor/freshen
+LGPL-3
+Clone of the Cucumber BDD framework for Python
+~amd64 ~x86
+distutils eutils git multilib portability python toolchain-funcs
+examples
+
+
+
+
+
+compile install postinst postrm unpack
+
+
+
+
+
