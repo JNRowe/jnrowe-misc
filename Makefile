@@ -6,7 +6,7 @@ METADATA := $(addsuffix /metadata.xml, $(PACKAGES))
 
 SIGN_KEY := $(shell . /etc/make.conf ; echo $$PORTAGE_GPG_KEY )
 
-.PHONY: clean distclean
+.PHONY: clean distclean stable-candidates
 
 all: $(HTML) profiles/categories profiles/use.local.desc $(MANIFESTS)
 
@@ -31,4 +31,7 @@ clean:
 	rm -f $(HTML) profiles/categories
 distclean: clean
 	rm -f $(MANIFESTS)
+
+stable-candidates: support/stabilisation.remind
+	remind $<
 
