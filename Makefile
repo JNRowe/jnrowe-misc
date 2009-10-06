@@ -8,7 +8,8 @@ SIGN_KEY := $(shell . /etc/make.conf ; echo $$PORTAGE_GPG_KEY )
 
 .PHONY: clean distclean stable-candidates
 
-all: $(HTML) profiles/categories profiles/use.local.desc $(MANIFESTS)
+all: $(HTML) profiles/categories profiles/use.local.desc $(MANIFESTS) \
+	stable-candidates
 
 %.html: %.rst
 	rst2html.py $< $@
