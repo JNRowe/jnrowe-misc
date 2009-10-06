@@ -5,6 +5,11 @@
   06 Oct 2009; James Rowe <jnrowe@gmail.com> pycukes-0.1.ebuild:
   Added missing dependency on dev-python/story_parser.
 
+*pycukes-0.1.1 (06 Oct 2009)
+
+  06 Oct 2009; James Rowe <jnrowe@gmail.com> +pycukes-0.1.1.ebuild:
+  Version bump
+
   02 Oct 2009; James Rowe <jnrowe@gmail.com> pycukes-0.1.ebuild:
   Keyworded ~x86.
 
