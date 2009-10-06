@@ -6,7 +6,7 @@ dev-python/nose dev-python/pyparsing dev-python/setuptools virtual/python
 http://github.com/rlisagor/freshen
 LGPL-3
 Clone of the Cucumber BDD framework for Python
-~amd64
+~amd64 ~x86
 distutils eutils git multilib portability python toolchain-funcs
 examples
 
