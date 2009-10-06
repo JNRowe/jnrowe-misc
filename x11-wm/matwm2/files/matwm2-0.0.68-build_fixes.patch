@@ -1,0 +1,17 @@
+--- matwm2-0.0.68/Makefile	2009-10-06 04:51:49.000000000 +0100
++++ matwm2-0.0.68/Makefile	2009-10-06 04:51:53.000000000 +0100
+@@ -5,12 +5,12 @@
+ 
+ CFLAGS    += -DSHAPE -lXext # comment out this line if you haven't got the x extentions library
+-CFLAGS		+= -lX11 -I$(XROOT)/include -L$(XROOT)/lib
++LDFLAGS		+= -lX11
+ #CFLAGS		+= -DDEBUG -ggdb3 # -DDEBUG_EVENTS -DSYNC
+ 
+ all:	matwm2
+ 
+ matwm2:
+-		$(CC) $(CFLAGS) *.c -o $@
++		$(CC) $(CFLAGS) $(LDFLAGS) *.c -o $@
+ 
+ clean:
+ 		rm -f matwm2

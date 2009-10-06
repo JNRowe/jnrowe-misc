@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		matwm2 is a simple window manager for X11. It features window frames
+		with titlebar and buttons, configurable key bindings and mouse buttons,
+		support for EWMH and motif hints, focus-follows-mouse and click-to-focus
+		focus models and virtual desktops.
+
+		Window borders have 4 buttons, wich do the same as the following key
+		actions explained below (from left to right): "iconify", "expand",
+		"maximise" and "close". To exit matwm send it SIGINT signal. At exit
+		matwm will place the windows back on the root window in stacking order,
+		iconic windows on the bottom, above that the windows from all inactive
+		desktops in reverse order and then above those the windows from the
+		current desktop and sticky windows shown on it.
+	</longdescription>
+</pkgmetadata>
+
