@@ -12,7 +12,6 @@ SRC_URI="http://pypi.python.org/packages/source/${PN::1}/${PN}/${P}.tar.gz
 	http://github.com/hugobr/pyhistorian/raw/0caf4444d5de3feaa82d695459a6b3dd89ef43ad/README.rst
 		-> ${P}-README.rst"
 
-
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"

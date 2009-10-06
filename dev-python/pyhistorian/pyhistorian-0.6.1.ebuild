@@ -18,4 +18,3 @@ IUSE=""
 DEPEND="dev-python/setuptools"
 RDEPEND="dev-python/should_dsl
 	dev-python/termcolor"
-
