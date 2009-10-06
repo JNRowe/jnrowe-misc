@@ -1,0 +1,13 @@
+# ChangeLog for dev-python/story_parser
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  06 Oct 2009; James Rowe <jnrowe@gmail.com> story_parser-0.1.1.ebuild:
+  Keyworded ~x86.
+
+*story_parser-0.1.1 (06 Oct 2009)
+
+  06 Oct 2009; James Rowe <jnrowe@gmail.com> +story_parser-0.1.1.ebuild,
+  +metadata.xml:
+  Initial ebuild, by me.
+

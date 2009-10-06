@@ -20,6 +20,7 @@ IUSE=""
 DEPEND="dev-python/setuptools"
 # setuptools is needed for wrapper script in /usr/bin
 RDEPEND="${DEPEND}
+	dev-python/story_parser
 	dev-python/pyhistorian"
 
 src_prepare() {
