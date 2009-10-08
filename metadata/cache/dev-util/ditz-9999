@@ -1,0 +1,22 @@
+virtual/ruby >=dev-util/git-1.6
+dev-ruby/trollop bash-completion? ( app-admin/eselect ) virtual/ruby
+0
+
+
+http://ditz.rubyforge.org
+GPL-3
+A simple, light-weight distributed issue tracker designed for dVCS
+~amd64 ~x86
+bash-completion eutils git multilib portability ruby toolchain-funcs
+bash-completion
+
+
+
+
+
+compile install postinst unpack
+
+
+
+
+
