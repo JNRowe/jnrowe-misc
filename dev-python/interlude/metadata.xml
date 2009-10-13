@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Provides an interactive shell aka console inside your doctest case.
+
+		The console looks exact like in a doctest-case and you can copy and
+		paste code from the shell into your doctest. It feels as you are in the
+		test case itself. Its not pdb, it's a python shell.
+	</longdescription>
+</pkgmetadata>
+
