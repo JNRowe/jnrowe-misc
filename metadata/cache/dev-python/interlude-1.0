@@ -1,0 +1,22 @@
+dev-python/setuptools >=app-admin/eselect-python-20090804 >=app-shells/bash-3.2 virtual/python
+virtual/python
+0
+http://pypi.python.org/packages/source/i/interlude/interlude-1.0.tar.gz
+
+https://svn.bluedynamics.eu/svn/public/interlude/
+LGPL-2.1
+Provides an interactive console for doctests
+~amd64
+distutils eutils multilib portability python toolchain-funcs
+
+
+
+
+
+
+compile install postinst postrm unpack
+
+
+
+
+
