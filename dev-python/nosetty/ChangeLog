@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  13 Oct 2009; James Rowe <jnrowe@gmail.com> nosetty-0.4.ebuild:
+  Keyworded ~x86 [dbd].
+
 *nosetty-0.4 (13 Oct 2009)
 
   13 Oct 2009; James Rowe <jnrowe@gmail.com> +nosetty-0.4.ebuild,
