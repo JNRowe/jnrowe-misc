@@ -30,7 +30,6 @@ REM 2009-11-01 +1 MSG Stabilise x86 www-client/cupage-0.2
 REM 2009-10-28 +1 MSG Stabilise amd64 x11-plugins/vicious-1.0.16
 REM 2009-10-29 +1 MSG Stabilise x86 x11-plugins/vicious-1.0.16
 REM 2009-11-05 +1 MSG Stabilise amd64 x11-wm/matwm-0.0.68
-REM 2009-11-05 +1 MSG Stabilise x86 x11-wm/matwm-0.0.68
 REM 2009-10-22 +1 MSG Stabilise amd64 x11-wm/parti-0.0.6
 REM 2009-11-07 +1 MSG Stabilise amd64 x11-wm/subtle-0.8.1192
 REM 2009-11-07 +1 MSG Stabilise x86 x11-wm/subtle-0.8.1192
