@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		To construct HTML start with an instance of html.HTML(). Add tags by
+		accessing the tag's attribute on that object.
+
+		If the tag should have text content you may pass it at tag creation time
+		or later using the tag's .text() method.
+	</longdescription>
+</pkgmetadata>
+
