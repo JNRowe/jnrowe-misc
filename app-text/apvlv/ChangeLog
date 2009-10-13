@@ -1,0 +1,10 @@
+# ChangeLog for app-text/apvlv
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*apvlv-0.0.7.4 (13 Oct 2009)
+
+  13 Oct 2009; James Rowe <jnrowe@gmail.com> +apvlv-0.0.7.4.ebuild,
+  +metadata.xml:
+  Initial ebuild. by me.
+
