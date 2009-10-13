@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/nose-pathmunge
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*nose-pathmunge-0.1.2 (13 Oct 2009)
+
+  13 Oct 2009; James Rowe <jnrowe@gmail.com> +nose-pathmunge-0.1.2.ebuild,
+  +metadata.xml:
+  Initial ebuild. by me [b5c].
+
