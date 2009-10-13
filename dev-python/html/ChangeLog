@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/html
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*html-1.6 (13 Oct 2009)
+
+  13 Oct 2009; James Rowe <jnrowe@gmail.com> +html-1.6.ebuild,
+  +metadata.xml:
+  Initial ebuild. by me [66b].
+
