@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		nosetty is a plugin for nose, a test runner for python. It accepts
+		various commands at the terminal, giving you some one-on-one quality
+		time with your tracebacks. Most importantly, editing a failure point is
+		as easy as typing a number.
+	</longdescription>
+</pkgmetadata>
+

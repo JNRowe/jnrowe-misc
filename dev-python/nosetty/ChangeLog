@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/nosetty
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*nosetty-0.4 (13 Oct 2009)
+
+  13 Oct 2009; James Rowe <jnrowe@gmail.com> +nosetty-0.4.ebuild,
+  +metadata.xml:
+  Initial ebuild. by me [4af].
+
