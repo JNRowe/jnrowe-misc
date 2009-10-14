@@ -1,0 +1,22 @@
+>=dev-util/git-1.6
+bash-completion? ( app-admin/eselect )
+0
+
+test
+http://surfraw.alioth.debian.org/
+public-domain
+A fast unix command line interface to WWW
+~amd64 ~hppa ~ppc ~sparc ~x86
+bash-completion eutils git multilib portability toolchain-funcs
+bash-completion
+
+
+
+2
+
+configure install postinst preinst prepare unpack
+
+
+
+
+

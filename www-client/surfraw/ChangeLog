@@ -1,0 +1,11 @@
+# ChangeLog for www-client/surfraw
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*surfraw-9999 (14 Oct 2009)
+
+  14 Oct 2009; James Rowe <jnrowe@gmail.com>
+  +files/surfraw-9999-gentoo_pkg_tools.patch, +surfraw-9999.ebuild,
+  +metadata.xml:
+  Added live ebuild from git sources.
+
