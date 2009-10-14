@@ -1,5 +1,9 @@
 # extra line needed because portage is buggy
 
+# James Rowe <jnrowe@gmail.com> (14 Oct 2009)
+# live ebuild for surfraw
+=www-client/surfraw-9999
+
 # James Rowe <jnrowe@gmail.com> (8 Oct 2009)
 # live ebuild for ditz
 =dev-util/ditz-9999
