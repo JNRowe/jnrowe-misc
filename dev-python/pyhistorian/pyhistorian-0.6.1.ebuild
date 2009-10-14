@@ -4,11 +4,10 @@
 
 EAPI="2"
 
-inherit distutils
+inherit jnrowe-pypi
 
 DESCRIPTION="A BDD tool for writing specs using Given-When-Then template"
 HOMEPAGE="http://github.com/hugobr/pyhistorian"
-SRC_URI="http://pypi.python.org/packages/source/${PN::1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"

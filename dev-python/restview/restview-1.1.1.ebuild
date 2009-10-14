@@ -2,11 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-inherit distutils
+inherit jnrowe-pypi
 
 DESCRIPTION="A viewer for ReStructuredText documents that renders them on the fly"
 HOMEPAGE="http://mg.pov.lt/restview/"
-SRC_URI="http://pypi.python.org/packages/source/${PN::1}/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"

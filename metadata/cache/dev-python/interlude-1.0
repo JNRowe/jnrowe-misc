@@ -7,7 +7,7 @@ https://svn.bluedynamics.eu/svn/public/interlude/
 LGPL-2.1
 Provides an interactive console for doctests
 ~amd64 ~x86
-distutils eutils multilib portability python toolchain-funcs
+distutils eutils jnrowe-pypi multilib portability python toolchain-funcs
 
 
 

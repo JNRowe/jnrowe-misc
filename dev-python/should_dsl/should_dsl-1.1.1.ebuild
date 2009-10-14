@@ -4,11 +4,10 @@
 
 EAPI="2"
 
-inherit distutils
+inherit jnrowe-pypi
 
 DESCRIPTION="Should assertions in Python as clear and readable as possible"
 HOMEPAGE="http://github.com/hugobr/should-dsl"
-SRC_URI="http://pypi.python.org/packages/source/${PN::1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"

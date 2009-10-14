@@ -2,11 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-inherit distutils
+inherit jnrowe-pypi
 
 DESCRIPTION="dev-python/sphinx extension to support media-gfx/aafigure"
 HOMEPAGE="http://packages.python.org/sphinxcontrib-aafig/"
-SRC_URI="http://pypi.python.org/packages/source/${PN::1}/${PN}/${P}.tar.gz"
 
 LICENSE="BOLA"
 SLOT="0"

@@ -4,11 +4,10 @@
 
 EAPI="2"
 
-inherit distutils
+inherit jnrowe-pypi
 
 DESCRIPTION="A Given/When/Then BDD stories parser"
 HOMEPAGE="http://github.com/hugobr/story_parser"
-SRC_URI="http://pypi.python.org/packages/source/${PN::1}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"

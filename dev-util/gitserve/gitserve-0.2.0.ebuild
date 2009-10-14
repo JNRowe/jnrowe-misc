@@ -2,11 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-inherit distutils eutils
+inherit eutils jnrowe-pypi
 
 DESCRIPTION="A helper tool for git that mimics mercurial's serve command"
 HOMEPAGE="http://github.com/jezdez/git-serve/"
-SRC_URI="http://pypi.python.org/packages/source/${PN:0:1}/${PN}/${P}.tar.gz"
 LICENSE="GPL-2"
 
 SLOT="0"

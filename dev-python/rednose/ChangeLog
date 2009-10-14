@@ -3,6 +3,9 @@
 # $Header: $
 
   14 Oct 2009; James Rowe <jnrowe@gmail.com> rednose-0.1.4.ebuild:
+  Switch to using jnrowe-pypi eclass.
+
+  14 Oct 2009; James Rowe <jnrowe@gmail.com> rednose-0.1.4.ebuild:
   Keyworded ~x86 [359].
 
 *rednose-0.1.4 (14 Oct 2009)

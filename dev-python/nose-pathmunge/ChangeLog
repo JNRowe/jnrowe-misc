@@ -3,6 +3,9 @@
 # $Header: $
 
   14 Oct 2009; James Rowe <jnrowe@gmail.com> nose-pathmunge-0.1.2.ebuild:
+  Switch to using jnrowe-pypi eclass.
+
+  14 Oct 2009; James Rowe <jnrowe@gmail.com> nose-pathmunge-0.1.2.ebuild:
   Added missing nose RDEPEND [a32].
 
   13 Oct 2009; James Rowe <jnrowe@gmail.com> nose-pathmunge-0.1.2.ebuild:

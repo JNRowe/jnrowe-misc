@@ -3,6 +3,9 @@
 # $Header: $
 
   14 Oct 2009; James Rowe <jnrowe@gmail.com> rudolf-0.3.ebuild:
+  Switch to using jnrowe-pypi eclass.
+
+  14 Oct 2009; James Rowe <jnrowe@gmail.com> rudolf-0.3.ebuild:
   Keyworded ~x86 [336].
 
 *rudolf-0.3 (14 Oct 2009)

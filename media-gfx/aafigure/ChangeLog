@@ -2,6 +2,10 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  14 Oct 2009; James Rowe <jnrowe@gmail.com> aafigure-0.2.ebuild,
+  aafigure-0.4.ebuild:
+  Switch to using jnrowe-pypi eclass.
+
   25 Sep 2009; James Rowe <jnrowe@gmail.com> aafigure-0.4.ebuild:
   Only build sphinx docs when USE=doc is set.
 
