@@ -14,5 +14,5 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools"
-RDEPEND=""
+RDEPEND="dev-python/nose"
 
