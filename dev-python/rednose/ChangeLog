@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/rednose
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*rednose-0.1.4 (14 Oct 2009)
+
+  14 Oct 2009; James Rowe <jnrowe@gmail.com> +rednose-0.1.4.ebuild,
+  +metadata.xml:
+  Initial ebuild, by me [cea].
+
