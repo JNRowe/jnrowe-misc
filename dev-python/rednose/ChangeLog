@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  16 Oct 2009; <jay@gentoo.org> rednose-0.1.4.ebuild:
+  Use new style GitHub URLs for homepage.
+
   14 Oct 2009; James Rowe <jnrowe@gmail.com> rednose-0.1.4.ebuild:
   Switch to using jnrowe-pypi eclass.
 
