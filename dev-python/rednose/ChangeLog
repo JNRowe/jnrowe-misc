@@ -4,10 +4,10 @@
 
 *rednose-0.1.4-r1 (16 Oct 2009)
 
-  16 Oct 2009; <jay@gentoo.org> +rednose-0.1.4-r1.ebuild:
+  16 Oct 2009; James Rowe <jnrowe@gmail.com> +rednose-0.1.4-r1.ebuild:
   Don't install a private copy of termstyle [c3f].
 
-  16 Oct 2009; <jay@gentoo.org> rednose-0.1.4.ebuild:
+  16 Oct 2009; James Rowe <jnrowe@gmail.com> rednose-0.1.4.ebuild:
   Use new style GitHub URLs for homepage.
 
   14 Oct 2009; James Rowe <jnrowe@gmail.com> rednose-0.1.4.ebuild:
