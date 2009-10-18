@@ -62,8 +62,9 @@ src_install() {
 	patch -p1 -i "${FILESDIR}"/${P}-use_system_gtk.patch "${D}"/opt/${PN}/wing \
 		|| die "Patching run-wing failed"
 
-	make_desktop_entry /usr/bin/wing$(get_version_component_range -2) \
-		"Wing IDE" /opt/${PN}/resources/wing-gnome-icon.png
+	local ver_str=$(get_version_component_range -2)
+	make_desktop_entry /usr/bin/wing${ver_str} \
+		"Wing IDE Professional ${ver_str}"  /opt/${PN}/resources/wing32.png
 }
 
 pkg_postinst() {
