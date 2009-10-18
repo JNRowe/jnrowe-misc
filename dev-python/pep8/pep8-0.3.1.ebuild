@@ -19,6 +19,6 @@ DOCS="CHANGES.txt TODO.txt"
 
 src_install() {
 	distutils_src_install
-	# We make a new wrapper, so that we don't RDEPEND on setuptools
-	make_wrapper "${PN}" "python -m${PN}"
+
+	module_script_wrapper "${PN}" "${PN}" "_main"
 }
