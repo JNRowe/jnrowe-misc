@@ -15,7 +15,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools"
-# setuptools is needed for wrapper script in /usr/bin
-RDEPEND="${DEPEND}
-	dev-python/story_parser
+RDEPEND="dev-python/story_parser
 	dev-python/pyhistorian"
+
+src_install() {
+	distutils_src_install
+
+	module_script_wrapper "${PN}" "${PN}.console"
+}

@@ -13,7 +13,11 @@ KEYWORDS="~amd64 ~x86"
 IUSE="pygments"
 
 DEPEND="dev-python/setuptools"
-# setuptools is needed because of the wrapper in /usr/bin
 RDEPEND="dev-python/docutils
-	dev-python/setuptools
 	pygments? ( dev-python/pygments )"
+
+src_install() {
+	distutils_src_install
+
+	module_script_wrapper "${PN}" "${PN}.restviewhttp"
+}
