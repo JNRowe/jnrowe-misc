@@ -16,10 +16,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE="examples"
 
 DEPEND="dev-python/setuptools"
-# setuptools is required for RDEPEND as it provides a plugin for nose.
 RDEPEND="dev-python/nose
-	dev-python/pyparsing
-	dev-python/setuptools"
+	dev-python/pyparsing"
 
 DOCS="todo.txt"
 
