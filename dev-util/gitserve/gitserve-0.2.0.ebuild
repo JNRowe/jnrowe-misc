@@ -18,5 +18,5 @@ RDEPEND="dev-util/git"
 src_install() {
 	distutils_src_install
 
-	make_wrapper "${PN}" "python -c 'import gitserve; gitserve.main()'"
+	module_script_wrapper
 }
