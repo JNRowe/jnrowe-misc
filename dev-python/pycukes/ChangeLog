@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  18 Oct 2009; James Rowe <jnrowe@gmail.com> pycukes-0.1.1.ebuild:
+  Converted script to use module_script_wrapper.
+
   14 Oct 2009; James Rowe <jnrowe@gmail.com> pycukes-0.1.1.ebuild:
   Switch to using jnrowe-pypi eclass.
 
