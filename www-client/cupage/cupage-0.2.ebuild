@@ -19,3 +19,5 @@ DEPEND=""
 RDEPEND="dev-python/lxml"
 
 S="${WORKDIR}/JNRowe-${PN}-87e4960"
+
+PYTHON_MODNAME="libcupage"
