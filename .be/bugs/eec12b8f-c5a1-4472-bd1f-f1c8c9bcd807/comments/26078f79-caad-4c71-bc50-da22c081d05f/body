@@ -1,0 +1,3 @@
+This changes the application name and also the icon to use the same
+defaults as the upstream ,desktop file.  However, it leaves the comment
+unchanged as it is a more useful description in my eyes.
