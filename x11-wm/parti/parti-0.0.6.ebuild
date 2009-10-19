@@ -21,3 +21,5 @@ RDEPEND="dev-python/dbus-python
 	dev-python/pygtk"
 
 S="${WORKDIR}"/${MY_P}
+
+PYTHON_MODNAME="${PN} wimpiggy xpra"
