@@ -3,6 +3,9 @@
 # $Header: $
 
   19 Oct 2009; James Rowe <jnrowe@gmail.com> sphinxcontrib-aafig-0.3.ebuild:
+  Keyworded amd64 [798].
+
+  19 Oct 2009; James Rowe <jnrowe@gmail.com> sphinxcontrib-aafig-0.3.ebuild:
   Keyworded x86 [2dc].
 
   14 Oct 2009; James Rowe <jnrowe@gmail.com> sphinxcontrib-aafig-0.3.ebuild:
