@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  19 Oct 2009; James Rowe <jnrowe@gmail.com> ccontrol-0.9.1.ebuild:
+  Keyworded ~x86 [ecf].
+
 *ccontrol-0.9.1 (19 Oct 2009)
 
   19 Oct 2009; James Rowe <jnrowe@gmail.com> +ccontrol-0.9.1.ebuild,
