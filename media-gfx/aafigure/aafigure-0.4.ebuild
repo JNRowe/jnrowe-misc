@@ -15,10 +15,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc docutils examples"
 
 DEPEND="doc? ( media-gfx/sphinxcontrib-aafig )
-	docutils? ( >=dev-python/docutils-0.5 dev-python/setuptools )"
+	${RDEPEND}"
 # setuptools is needed in RDEPEND because it installs a setuptools-based plugin
 # for docutils
-RDEPEND="${DEPEND}"
+RDEPEND="docutils? ( >=dev-python/docutils-0.5 dev-python/setuptools )"
 
 src_prepare() {
 	mv docutils/setup{-docutils-plugin,}.py
