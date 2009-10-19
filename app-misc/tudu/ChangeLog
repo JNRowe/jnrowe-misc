@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  19 Oct 2009; James Rowe <jnrowe@gmail.com> tudu-0.5.1.ebuild:
+  Changed SRC_URI while author's site is down.
+
   28 Jul 2009; James Rowe <jnrowe@gmail.com>
   -files/tudu-0.4.1-build_fixes.patch:
   Removed old files.
