@@ -20,7 +20,7 @@ DEPEND="${RDEPEND}
 RDEPEND="x11-libs/libXext"
 
 src_prepare() {
-	epatch "${FILESDIR}"/${P}-build_fixes.patch
+	epatch "${FILESDIR}"/${PN}-0.0.68-build_fixes.patch
 }
 
 src_compile() {
