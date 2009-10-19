@@ -24,7 +24,6 @@ src_prepare() {
 	sed -i 's,700,600,' -i nosetty/nosetty.py
 }
 
-
 src_install() {
 	distutils_src_install
 
