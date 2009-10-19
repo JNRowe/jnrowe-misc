@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/dulwich
+# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*dulwich-0.4.0 (19 Oct 2009)
+
+  19 Oct 2009; James Rowe <jnrowe@gmail.com> +dulwich-0.4.0.ebuild,
+  +metadata.xml:
+  Initial ebuild, by me.
+
