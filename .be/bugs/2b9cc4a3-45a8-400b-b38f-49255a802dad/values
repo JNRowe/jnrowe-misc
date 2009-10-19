@@ -22,14 +22,14 @@ severity=serious
 
 
 
-status=open
+status=fixed
 
 
 
 
 
 
-summary=dev-util/wirbel fails tests.
+summary=dev-lang/wirbel fails tests.
 
 
 

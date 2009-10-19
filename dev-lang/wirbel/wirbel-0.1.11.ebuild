@@ -11,6 +11,8 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""
 
+RESTRICT="test"
+
 DEPEND="sys-devel/bison
 	sys-devel/flex
 	${RDEPEND}"
