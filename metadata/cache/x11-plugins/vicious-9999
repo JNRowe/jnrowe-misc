@@ -1,5 +1,5 @@
 >=dev-util/git-1.6
-x11-wm/awesome
+>=x11-wm/awesome-3.4_rc1
 0
 
 
