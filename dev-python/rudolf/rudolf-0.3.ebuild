@@ -22,4 +22,3 @@ DOCS="CHANGES.txt"
 src_test() {
 	nosetests
 }
-
