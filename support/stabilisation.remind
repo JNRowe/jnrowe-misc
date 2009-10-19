@@ -53,5 +53,7 @@ REM 2009-11-13 +1 MSG Stabilise x86 dev-python/rudolf-0.3 %a
 REM 2009-11-29 +1 MSG Stabilise x86 dev-python/termcolor-0.1.2 %a
 REM 2009-11-15 +1 MSG Stabilise amd64 dev-python/rednose-0.1.4-r1 %a
 REM 2009-11-15 +1 MSG Stabilise x86 dev-python/rednose-0.1.4-r1 %a
+REM 2009-11-18 +1 MSG Stabilise amd64 dev-python/dulwich-0.4.0 %a
+REM 2009-11-18 +1 MSG Stabilise amd64 dev-util/hg-git-0.1.0 %a
 
 # vim: set sw=4 sts=4 et tw=80 fenc=utf-8 ft=remind:
