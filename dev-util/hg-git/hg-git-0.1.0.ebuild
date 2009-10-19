@@ -15,5 +15,5 @@ IUSE=""
 # Against my better judgement depend on setuptools, even though it is optional
 # for the sake of repeatability.
 DEPEND="dev-python/setuptools"
-RDEPEND=""
+RDEPEND="dev-python/dulwich"
 
