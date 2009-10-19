@@ -11,7 +11,7 @@ HOMEPAGE="https://launchpad.net/aafigure"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 x86"
+KEYWORDS="amd64 x86"
 IUSE="doc docutils examples"
 
 DEPEND="doc? ( media-gfx/sphinxcontrib-aafig )
