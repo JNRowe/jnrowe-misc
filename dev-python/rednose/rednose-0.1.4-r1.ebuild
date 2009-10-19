@@ -21,4 +21,3 @@ src_install() {
 
 	find "${D}" -name termstyle.py -exec rm {} +
 }
-
