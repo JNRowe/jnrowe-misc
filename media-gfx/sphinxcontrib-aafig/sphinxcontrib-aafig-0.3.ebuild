@@ -16,5 +16,7 @@ DEPEND="dev-python/setuptools"
 # setuptools is needed in RDEPEND because it installs a setuptools-based plugin
 # for docutils.
 RDEPEND="dev-python/setuptools
-	>=dev-python/sphinx-0.6
-	>=media-gfx/aafigure-0.3"
+	>=dev-python/sphinx-0.6"
+# aafigure is in pdepend to allow working package managers to break the cyclic
+# dependency.
+PDEPEND=">=media-gfx/aafigure-0.3"

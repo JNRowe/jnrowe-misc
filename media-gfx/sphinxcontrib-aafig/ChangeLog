@@ -3,6 +3,9 @@
 # $Header: $
 
   19 Oct 2009; James Rowe <jnrowe@gmail.com> sphinxcontrib-aafig-0.3.ebuild:
+  Moved aafigure to PDEPEND to break cyclic dependency.
+
+  19 Oct 2009; James Rowe <jnrowe@gmail.com> sphinxcontrib-aafig-0.3.ebuild:
   Keyworded amd64 [798].
 
   19 Oct 2009; James Rowe <jnrowe@gmail.com> sphinxcontrib-aafig-0.3.ebuild:
