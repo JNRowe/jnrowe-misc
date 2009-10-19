@@ -14,4 +14,3 @@ IUSE=""
 
 DEPEND="dev-python/setuptools"
 RDEPEND=""
-
