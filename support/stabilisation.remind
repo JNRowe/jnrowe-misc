@@ -59,5 +59,7 @@ REM 2009-11-18 +1 MSG Stabilise amd64 dev-util/hg-git-0.1.0 %a
 REM 2009-11-18 +1 MSG Stabilise x86 dev-util/hg-git-0.1.0 %a
 REM 2009-11-18 +1 MSG Stabilise amd64 dev-python/restview-1.1.2 %a
 REM 2009-11-18 +1 MSG Stabilise x86 dev-python/restview-1.1.2 %a
+REM 2009-11-18 +1 MSG Stabilise amd64 x11-wm/matwm2-0.0.80 %a
+REM 2009-11-18 +1 MSG Stabilise x86 x11-wm/matwm2-0.0.80 %a
 
 # vim: set sw=4 sts=4 et tw=80 fenc=utf-8 ft=remind:
