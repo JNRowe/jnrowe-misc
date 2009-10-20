@@ -8,7 +8,7 @@ GPL-3
 A simple, light-weight distributed issue tracker designed for dVCS
 ~amd64 ~x86
 bash-completion eutils git multilib portability ruby toolchain-funcs
-bash-completion
+zsh-completion bash-completion
 
 
 
