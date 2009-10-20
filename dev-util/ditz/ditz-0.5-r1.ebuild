@@ -11,7 +11,7 @@ SRC_URI="mirror://rubyforge/${PN}/${P}.tgz"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="amd64 x86"
-IUSE=""
+IUSE="zsh-completion"
 
 DEPEND=""
 RDEPEND="dev-ruby/trollop"
@@ -27,4 +27,8 @@ src_install() {
 	dodoc Changelog PLUGINS.txt README.txt ReleaseNotes
 
 	dobashcompletion contrib/completion/${PN}.bash ${PN}
+	if use zsh-completion; then
+		insinto /usr/share/zsh/site-functions
+		doins contrib/completion/_ditz.zsh
+	fi
 }
