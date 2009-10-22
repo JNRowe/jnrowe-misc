@@ -16,4 +16,3 @@ IUSE=""
 # for the sake of repeatability.
 DEPEND="dev-python/setuptools"
 RDEPEND="dev-python/dulwich"
-
