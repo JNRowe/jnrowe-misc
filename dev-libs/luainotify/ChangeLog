@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  22 Oct 2009; James Rowe <jnrowe@gmail.com> luainotify-0.20090818.ebuild:
+  Keyworded x86.
+
   22 Sep 2009; James Rowe <jnrowe@gmail.com> luainotify-0.20090818.ebuild:
   Keyworded ~x86.
 
