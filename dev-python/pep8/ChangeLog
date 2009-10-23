@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*pep8-0.4.2 (23 Oct 2009)
+
+  23 Oct 2009; James Rowe <jnrowe@gmail.com> +pep8-0.4.2.ebuild:
+  Version bump [de0].
+
   22 Oct 2009; James Rowe <jnrowe@gmail.com> pep8-0.3.1.ebuild:
   Keyworded x86.
 
