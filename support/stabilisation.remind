@@ -64,5 +64,7 @@ REM 2009-11-18 +1 MSG Stabilise amd64 dev-python/html-1.7 %a
 REM 2009-11-18 +1 MSG Stabilise x86 dev-python/html-1.7 %a
 REM 2009-11-18 +1 MSG Stabilise amd64 dev-util/ccontrol-0.9.1 %a
 REM 2009-11-18 +1 MSG Stabilise x86 dev-util/ccontrol-0.9.1 %a
+REM 2009-11-18 +1 MSG Stabilise amd64 dev-python/pyhistorian-0.6.3 %a
+REM 2009-11-18 +1 MSG Stabilise x86 dev-python/pyhistorian-0.6.3 %a
 
 # vim: set sw=4 sts=4 et tw=80 fenc=utf-8 ft=remind:
