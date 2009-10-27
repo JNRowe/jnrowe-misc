@@ -10,7 +10,7 @@ SRC_URI="http://www.sffjunkie.co.uk/files/python/astral-0.1.zip"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="test"
 
 DEPEND="test? ( dev-python/nose )"
