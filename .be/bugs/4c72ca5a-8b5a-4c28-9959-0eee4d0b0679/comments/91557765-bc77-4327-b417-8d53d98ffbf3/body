@@ -1,3 +1,0 @@
-A luasocket ebuild has been added to the main tree, check that it works
-with the x11-plugins/obvious and drop the local one.  Upstream appears
-to have the same fixes, but check properly before removing.

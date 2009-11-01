@@ -1,6 +1,0 @@
-Rach,
-
-  Notice that I've kicked your ebuild in to :repo:`camtree` as it is
-still required by current builds, and will be for quite some time to
-come.  If I were you I'd also consider pushing uour ebuild improvements
-upstream too, as it contains some good fixes.

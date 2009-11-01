@@ -1,3 +1,0 @@
-rudolf appears to give much better colourised output, unfortunately it
-adds 1.5 seconds to the test runner time.  We need some more feedback to
-decide whether the massive time increase is worth the functionality.

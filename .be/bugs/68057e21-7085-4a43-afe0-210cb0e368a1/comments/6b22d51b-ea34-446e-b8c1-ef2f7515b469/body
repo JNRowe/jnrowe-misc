@@ -1,5 +1,0 @@
-It would make some python ebuilds simpler if there was a basic
-pypi.eclass that set a default SRC_URI and HOMEPAGE.
-
-Thanks to Matt for helping to flesh this idea out over lunch.
-

@@ -1,7 +1,0 @@
-As fleshed out with Matt we should add a generic wrapper script for
-python modules that require setuptools in RDEPEND just for a script, so
-that they can be removed.
-
-This makes much more sense than duplicating the code all over the place
-as is currently happening, and a specific wrapper would be useful than
-the nasty hack with make_wrapper_script too.

@@ -1,4 +1,0 @@
-  The recent rss2email move showed up in the repo view as a delete and
-create event, that definitely seems a little odd as git knows it is
-a move and the metadata is in profiles/updates.  Is there a good reason
-for this before I look in to fixing this?
