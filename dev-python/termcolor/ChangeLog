@@ -3,6 +3,9 @@
 # $Header: $
 
   01 Nov 2009; James Rowe <jnrowe@gmail.com> termcolor-0.1.2.ebuild:
+  Keyworded x86.
+
+  01 Nov 2009; James Rowe <jnrowe@gmail.com> termcolor-0.1.2.ebuild:
   Keyworded amd64.
 
   14 Oct 2009; James Rowe <jnrowe@gmail.com> termcolor-0.1.2.ebuild:
