@@ -1,0 +1,24 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Add session file for parti.
+desc: ""
+type: :feature
+component: misc-overlay
+release: 
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2009-10-26 19:32:47.000000 Z
+references: []
+
+id: 5febb800e9347bc662225af1ccb9582c2c6c9974
+log_events: 
+- - 2009-10-26 19:32:47.000000 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2009-10-26 19:32:47.000000 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 

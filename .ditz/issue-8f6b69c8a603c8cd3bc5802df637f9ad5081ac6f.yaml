@@ -1,0 +1,24 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Add session file for subtle.
+desc: ""
+type: :feature
+component: misc-overlay
+release: 
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2009-10-26 19:33:02 Z
+references: []
+
+id: 8f6b69c8a603c8cd3bc5802df637f9ad5081ac6f
+log_events: 
+- - 2009-10-26 19:33:02 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2009-10-26 19:33:02 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 

@@ -1,0 +1,24 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: dev-haskell/missingh-1.1.0.1 version bump
+desc: ""
+type: :feature
+component: misc-overlay
+release: 
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2009-08-21 11:01:49.000000 Z
+references: []
+
+id: 2f2bfa28242aa06d8b918db2d9705aa18684b1e4
+log_events: 
+- - 2009-08-21 11:01:49.000000 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2009-08-21 11:01:49.000000 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 

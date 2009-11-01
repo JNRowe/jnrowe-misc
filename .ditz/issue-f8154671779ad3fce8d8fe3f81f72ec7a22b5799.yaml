@@ -1,0 +1,31 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: If freshen pans out drop pycukes and deps.
+desc: |-
+  The maintenance overhead would be much smaller on freshen, and over
+  local users have good things to say about it.
+type: :task
+component: misc-overlay
+release: 
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2009-10-05 05:02:36 Z
+references: []
+
+id: f8154671779ad3fce8d8fe3f81f72ec7a22b5799
+log_events: 
+- - 2009-10-05 05:02:36 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - |-
+    Currently there is no actual release of freshen, and replacing working
+    released software with a live git ebuild isn't a great idea.
+    
+    That being said freshen does appear to work well, so maybe a snapshot
+    would be good enough.
+- - 2009-10-05 05:02:36 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 
