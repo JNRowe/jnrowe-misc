@@ -1,0 +1,24 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: dev-python/should_dsl-1.2.1 version bump.
+desc: ""
+type: :feature
+component: misc-overlay
+release: 
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2009-11-02 08:07:37.799906 Z
+references: []
+
+id: 97f9aa806f1fe9ff8826b5f055966e87132934a3
+log_events: 
+- - 2009-11-02 08:07:38.635803 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2009-11-02 08:07:44.891989 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 
