@@ -1,0 +1,24 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Stabilise x86 dev-python/should_dsl-1.1.1.
+desc: ""
+type: :feature
+component: misc-overlay
+release: 
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2009-11-06 13:31:49.760741 Z
+references: []
+
+id: 9761f8c97d5309526aea3c39a787a5f31155032b
+log_events: 
+- - 2009-11-06 13:31:50.404424 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2009-11-06 13:31:55.821234 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 
