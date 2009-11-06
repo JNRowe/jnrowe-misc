@@ -5,8 +5,8 @@ type: :feature
 component: misc-overlay
 release: 
 reporter: James Rowe <jnrowe@gmail.com>
-status: :unstarted
-disposition: 
+status: :closed
+disposition: :fixed
 creation_time: 2009-11-06 13:29:52.508163 Z
 references: 
 - 502a5ec217d47907c0656bfd2158a80ad1d8f97e
@@ -24,5 +24,13 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - added reference 1
   - should_dsl must be keyworded first.
+- - 2009-11-06 15:01:57.325020 Z
+  - James Rowe <jnrowe@gmail.com>
+  - changed status from unstarted to in_progress
+  - ""
+- - 2009-11-06 15:02:14.259910 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition fixed
+  - ""
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 
