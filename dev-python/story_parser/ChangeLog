@@ -5,6 +5,9 @@
   06 Nov 2009; James Rowe <jnrowe@gmail.com> story_parser-0.1.1.ebuild:
   Keyworded amd64 [672].
 
+  06 Nov 2009; James Rowe <jnrowe@gmail.com> story_parser-0.1.1.ebuild:
+  Keyworded x86 [d3c].
+
   14 Oct 2009; James Rowe <jnrowe@gmail.com> story_parser-0.1.1.ebuild:
   Switch to using jnrowe-pypi eclass.
 

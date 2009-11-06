@@ -5,6 +5,9 @@
   06 Nov 2009; James Rowe <jnrowe@gmail.com> pycukes-0.1.1.ebuild:
   Keyworded amd64 [c95].
 
+  06 Nov 2009; James Rowe <jnrowe@gmail.com> pycukes-0.1.1.ebuild:
+  Keyworded x86 [f56].
+
   18 Oct 2009; James Rowe <jnrowe@gmail.com> pycukes-0.1.1.ebuild:
   Converted script to use module_script_wrapper.
 

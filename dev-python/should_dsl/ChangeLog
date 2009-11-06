@@ -5,6 +5,9 @@
   06 Nov 2009; James Rowe <jnrowe@gmail.com> should_dsl-1.1.1.ebuild:
   Keyworded amd64 [502].
 
+  06 Nov 2009; James Rowe <jnrowe@gmail.com> should_dsl-1.1.1.ebuild:
+  Keyworded x86 [976].
+
 *should_dsl-1.2 (23 Oct 2009)
 
   23 Oct 2009; James Rowe <jnrowe@gmail.com> +should_dsl-1.2.ebuild:

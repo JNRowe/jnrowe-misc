@@ -5,6 +5,9 @@
   06 Nov 2009; James Rowe <jnrowe@gmail.com> pyhistorian-0.6.1.ebuild:
   Keyworded amd64 [79e].
 
+  06 Nov 2009; James Rowe <jnrowe@gmail.com> pyhistorian-0.6.1.ebuild:
+  Keyworded x86 [b6c].
+
 *pyhistorian-0.6.3 (23 Oct 2009)
 
   23 Oct 2009; James Rowe <jnrowe@gmail.com> +pyhistorian-0.6.3.ebuild:
