@@ -1,0 +1,33 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Stabilise x86 dev-python/pycukes-0.1.1.
+desc: ""
+type: :feature
+component: misc-overlay
+release: 
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2009-11-06 13:31:16.616708 Z
+references: 
+- misc-overlay-18
+- misc-overlay-21
+id: f56041e679ac904b6134ccb33e8c8e096e87255a
+log_events: 
+- - 2009-11-06 13:31:17.298625 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2009-11-06 13:31:21.777970 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+- - 2009-11-06 13:38:58.617627 Z
+  - James Rowe <jnrowe@gmail.com>
+  - added reference 1
+  - pyhistorian must be keyworded first.
+- - 2009-11-06 13:39:38.168778 Z
+  - James Rowe <jnrowe@gmail.com>
+  - added reference 2
+  - story_parser must be keyworded first.
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 
