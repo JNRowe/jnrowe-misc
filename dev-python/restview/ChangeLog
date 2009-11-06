@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*restview-1.1.3 (06 Nov 2009)
+
+  06 Nov 2009; James Rowe <jnrowe@gmail.com> +restview-1.1.3.ebuild:
+  Version bump [23f].
+
   30 Oct 2009; James Rowe <jnrowe@gmail.com> restview-1.1.1.ebuild:
   Keyworded x86.
 
