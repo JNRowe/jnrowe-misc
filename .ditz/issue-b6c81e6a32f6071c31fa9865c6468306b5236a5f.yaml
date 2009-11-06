@@ -9,7 +9,7 @@ status: :unstarted
 disposition: 
 creation_time: 2009-11-06 13:31:34.110747 Z
 references: 
-- misc-overlay-20
+- 9761f8c97d5309526aea3c39a787a5f31155032b
 id: b6c81e6a32f6071c31fa9865c6468306b5236a5f
 log_events: 
 - - 2009-11-06 13:31:34.735764 Z
