@@ -1,3 +1,7 @@
+Support user CFLAGS/LDFLAGS
+
+Be careful with the LDFLAGS ordering, so --as-needed works correctly.
+
 diff --git i/Makefile w/Makefile
 index 403fc4c..df9fdab 100644
 --- i/Makefile

@@ -1,3 +1,5 @@
+Support user CFLAGS/LDFLAGS.
+
 diff --git i/Makefile w/Makefile
 index e77c55c..09893d9 100644
 --- i/Makefile

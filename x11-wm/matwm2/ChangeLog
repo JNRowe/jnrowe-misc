@@ -3,6 +3,12 @@
 # $Header: $
 
   07 Nov 2009; James Rowe <jnrowe@gmail.com>
+  files/matwm2-0.0.68-build_fixes.patch,
+  files/matwm2-0.0.80-build_fixes.patch,
+  files/matwm2-0.0.85-build_fixes.patch:
+  Document patches.
+
+  07 Nov 2009; James Rowe <jnrowe@gmail.com>
   +files/matwm2-0.0.85-build_fixes.patch:
   Added missing build fixes patch.
 
