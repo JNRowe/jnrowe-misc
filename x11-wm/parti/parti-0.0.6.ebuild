@@ -23,3 +23,15 @@ RDEPEND="dev-python/dbus-python
 S="${WORKDIR}"/${MY_P}
 
 PYTHON_MODNAME="${PN} wimpiggy xpra"
+
+src_install() {
+	distutils_src_install
+
+	make_desktop_entry /etc/X11/Sessions/${PN} \
+		'Parti is a tabbing/tiling (one might say "partitioning") window manager.' \
+		"" # no-icon
+
+	echo -e "#!/bin/sh\n/usr/bin/${PN}" > "${T}/${PN}"
+	exeinto /etc/X11/Sessions
+	doexe "${T}/${PN}"
+}
