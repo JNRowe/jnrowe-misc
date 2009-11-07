@@ -3,6 +3,9 @@
 # $Header: $
 
   07 Nov 2009; James Rowe <jnrowe@gmail.com> subtle-0.8.1383.ebuild:
+  Add session file for subtle [8f6].
+
+  07 Nov 2009; James Rowe <jnrowe@gmail.com> subtle-0.8.1383.ebuild:
   Keyworded amd64.
 
   07 Nov 2009; James Rowe <jnrowe@gmail.com> subtle-0.8.1383.ebuild:

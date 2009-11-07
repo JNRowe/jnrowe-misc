@@ -36,4 +36,12 @@ src_install() {
 	rake destdir="${D}" install || die "rake install failed"
 	# INSTALL contains user information too
 	dodoc AUTHORS INSTALL
+
+	make_desktop_entry /etc/X11/Sessions/${PN} \
+		'A tiling window manager with mouse and keyboard control' \
+		"" # no-icon
+
+	echo -e "#!/bin/sh\n/usr/bin/${PN}" > "${T}/${PN}"
+	exeinto /etc/X11/Sessions
+	doexe "${T}/${PN}"
 }
