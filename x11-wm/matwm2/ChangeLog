@@ -2,6 +2,10 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  07 Nov 2009; James Rowe <jnrowe@gmail.com> matwm2-0.0.68.ebuild,
+  matwm2-0.0.75.ebuild, matwm2-0.0.80.ebuild, matwm2-0.0.85.ebuild:
+  Add session file for matwm2 [2eb].
+
   07 Nov 2009; James Rowe <jnrowe@gmail.com>
   files/matwm2-0.0.68-build_fixes.patch,
   files/matwm2-0.0.80-build_fixes.patch,

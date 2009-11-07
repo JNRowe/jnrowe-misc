@@ -31,4 +31,11 @@ src_install() {
 	dobin ${PN}
 	doman ${PN}.1
 	dodoc BUGS ChangeLog README TODO
+
+	make_desktop_entry /etc/X11/Sessions/${PN} "A simple window manager for X11" \
+		"" # no-icon
+
+	echo -e "#!/bin/sh\n/usr/bin/${PN}" > "${T}/${PN}"
+	exeinto /etc/X11/Sessions
+	doexe "${T}/${PN}"
 }
