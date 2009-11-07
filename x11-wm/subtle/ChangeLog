@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  07 Nov 2009; James Rowe <jnrowe@gmail.com> subtle-0.8.1383.ebuild:
+  Keyworded x86.
+
   08 Sep 2009; James Rowe <jnrowe@gmail.com> -subtle-0.8.1192.ebuild,
   +subtle-0.8.1383.ebuild:
   Version bumo [f4a].
