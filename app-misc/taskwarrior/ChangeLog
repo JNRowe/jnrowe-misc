@@ -3,6 +3,9 @@
 # $Header: $
 
   11 Nov 2009; James Rowe <jnrowe@gmail.com> taskwarrior-1.8.2.ebuild:
+  Keyworded amd64.
+
+  11 Nov 2009; James Rowe <jnrowe@gmail.com> taskwarrior-1.8.2.ebuild:
   Keyworded x86.
 
   03 Oct 2009; James Rowe <jnrowe@gmail.com> taskwarrior-1.8.2.ebuild:
