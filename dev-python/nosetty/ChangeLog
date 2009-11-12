@@ -3,6 +3,9 @@
 # $Header: $
 
   12 Nov 2009; James Rowe <jnrowe@gmail.com> nosetty-0.4.ebuild:
+  Keyworded amd64.
+
+  12 Nov 2009; James Rowe <jnrowe@gmail.com> nosetty-0.4.ebuild:
   Keyworded x86.
 
   17 Oct 2009; James Rowe <jnrowe@gmail.com> nosetty-0.4.ebuild:
