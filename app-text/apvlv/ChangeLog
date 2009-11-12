@@ -3,6 +3,9 @@
 # $Header: $
 
   12 Nov 2009; James Rowe <jnrowe@gmail.com> apvlv-0.0.7.4.ebuild:
+  Keyworded x86.
+
+  12 Nov 2009; James Rowe <jnrowe@gmail.com> apvlv-0.0.7.4.ebuild:
   Keyworded amd64.
 
   13 Oct 2009; James Rowe <jnrowe@gmail.com> apvlv-0.0.7.4.ebuild:
