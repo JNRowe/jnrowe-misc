@@ -5,8 +5,8 @@ type: :bugfix
 component: misc-overlay
 release: 
 reporter: James Rowe <jnrowe@gmail.com>
-status: :in_progress
-disposition: 
+status: :closed
+disposition: :fixed
 creation_time: 2009-11-12 04:40:21.007927 Z
 references: []
 
@@ -55,5 +55,9 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - commented
   - dev-util/fossil done.
+- - 2009-11-12 06:12:26.947840 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition fixed
+  - ""
 claimer: 
 git_branch: 
