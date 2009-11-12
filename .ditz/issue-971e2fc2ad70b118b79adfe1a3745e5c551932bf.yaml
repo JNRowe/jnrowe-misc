@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: dev-util/fossil is missing cupage config entry.
+desc: ""
+type: :bugfix
+component: misc-overlay
+release: 
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2009-11-12 04:40:21.007927 Z
+references: []
+
+id: 971e2fc2ad70b118b79adfe1a3745e5c551932bf
+log_events: 
+- - 2009-11-12 04:40:21.939816 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+claimer: 
+git_branch: 
