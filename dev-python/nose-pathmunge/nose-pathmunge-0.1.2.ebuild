@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+SUPPORT_PYTHON_ABIS="1"
+
 inherit jnrowe-pypi
 
 DESCRIPTION="Add additional directories to sys.path for nose."

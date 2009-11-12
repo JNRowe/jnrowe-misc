@@ -3,6 +3,9 @@
 # $Header: $
 
   12 Nov 2009; James Rowe <jnrowe@gmail.com> nose-pathmunge-0.1.2.ebuild:
+  Set SUPPORT_PYTHON_ABIS [205].
+
+  12 Nov 2009; James Rowe <jnrowe@gmail.com> nose-pathmunge-0.1.2.ebuild:
   Keyworded x86.
 
   12 Nov 2009; James Rowe <jnrowe@gmail.com> nose-pathmunge-0.1.2.ebuild:
