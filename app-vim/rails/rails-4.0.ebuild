@@ -10,7 +10,7 @@ DESCRIPTION="vim plugin: RoR - easy file navigation, enhanced syntax highlightin
 HOMEPAGE="http://www.vim.org/scripts/script.php?script_id=1567"
 SRC_URI="http://www.vim.org/scripts/download_script.php?src_id=11481 -> ${P}.zip"
 LICENSE="vim"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="app-arch/unzip"
