@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+SUPPORT_PYTHON_ABIS="1"
+
 inherit distutils
 
 DESCRIPTION="A module for working with 10- and 13-digit ISBNs"
