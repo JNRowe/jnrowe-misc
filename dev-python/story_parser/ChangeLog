@@ -5,6 +5,9 @@
   12 Nov 2009; James Rowe <jnrowe@gmail.com> story_parser-0.1.1.ebuild:
   Restrict tests until they are fixed upstream.
 
+  12 Nov 2009; James Rowe <jnrowe@gmail.com> story_parser-0.1.1.ebuild:
+  Set SUPPORT_PYTHON_ABIS [205].
+
   06 Nov 2009; James Rowe <jnrowe@gmail.com> story_parser-0.1.1.ebuild:
   Keyworded amd64 [672].
 

@@ -2,6 +2,10 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  12 Nov 2009; James Rowe <jnrowe@gmail.com> should_dsl-1.1.1.ebuild,
+  should_dsl-1.2.ebuild, should_dsl-1.2.1.ebuild:
+  Set SUPPORT_PYTHON_ABIS [205].
+
 *should_dsl-1.2.1 (07 Nov 2009)
 
   07 Nov 2009; James Rowe <jnrowe@gmail.com> +should_dsl-1.2.1.ebuild:

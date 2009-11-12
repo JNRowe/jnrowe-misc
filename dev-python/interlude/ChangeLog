@@ -6,6 +6,9 @@
   Switched to EAPI 2.
 
   12 Nov 2009; James Rowe <jnrowe@gmail.com> interlude-1.0.ebuild:
+  Set SUPPORT_PYTHON_ABIS [205].
+
+  12 Nov 2009; James Rowe <jnrowe@gmail.com> interlude-1.0.ebuild:
   Keyworded x86.
 
   12 Nov 2009; James Rowe <jnrowe@gmail.com> interlude-1.0.ebuild:

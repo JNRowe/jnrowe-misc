@@ -6,6 +6,9 @@
   html-1.7.ebuild:
   Switched to EAPI 2.
 
+  12 Nov 2009; James Rowe <jnrowe@gmail.com> html-1.6.ebuild,
+  Set SUPPORT_PYTHON_ABIS [205].
+
   12 Nov 2009; James Rowe <jnrowe@gmail.com> html-1.6.ebuild:
   Keyworded x86.
 
