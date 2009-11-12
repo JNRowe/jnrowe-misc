@@ -39,5 +39,9 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - changed status from unstarted to in_progress
   - ""
+- - 2009-11-12 05:21:48.807878 Z
+  - James Rowe <jnrowe@gmail.com>
+  - commented
+  - dev-python/freshen and surfraw done.
 claimer: 
 git_branch: 
