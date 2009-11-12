@@ -43,5 +43,9 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - commented
   - dev-python/freshen and surfraw done.
+- - 2009-11-12 05:26:35.823887 Z
+  - James Rowe <jnrowe@gmail.com>
+  - commented
+  - dev-python/pycukes and dev-python/story_parser done.
 claimer: 
 git_branch: 
