@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI="2"
+SUPPORT_PYTHON_ABIS="1"
 
 inherit eutils versionator distutils
 
