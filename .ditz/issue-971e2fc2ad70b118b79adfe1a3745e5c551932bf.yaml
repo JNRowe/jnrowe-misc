@@ -1,11 +1,11 @@
 --- !ditz.rubyforge.org,2008-03-06/issue 
-title: dev-util/fossil is missing cupage config entry.
+title: Packages missing cupage config entries.
 desc: ""
 type: :bugfix
 component: misc-overlay
 release: 
 reporter: James Rowe <jnrowe@gmail.com>
-status: :unstarted
+status: :in_progress
 disposition: 
 creation_time: 2009-11-12 04:40:21.007927 Z
 references: []
@@ -15,6 +15,29 @@ log_events:
 - - 2009-11-12 04:40:21.939816 Z
   - James Rowe <jnrowe@gmail.com>
   - created
+  - ""
+- - 2009-11-12 05:08:15.243956 Z
+  - James Rowe <jnrowe@gmail.com>
+  - edited title
+  - ""
+- - 2009-11-12 05:10:02.972771 Z
+  - James Rowe <jnrowe@gmail.com>
+  - commented
+  - |-
+    The following packages are missing cupage.conf entries:
+    
+        dev-python/freshen
+        dev-python/nosetty
+        dev-python/pycukes
+        dev-python/story_parser
+        dev-util/fossil
+        www-client/surfraw
+    
+    freshen is a live ebuild that does not warrant a cupage
+    entry, but should be commented as such.
+- - 2009-11-12 05:11:14.691999 Z
+  - James Rowe <jnrowe@gmail.com>
+  - changed status from unstarted to in_progress
   - ""
 claimer: 
 git_branch: 
