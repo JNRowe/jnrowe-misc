@@ -16,3 +16,5 @@ IUSE=""
 
 DEPEND="dev-python/setuptools"
 RDEPEND=""
+
+RESTRICT="test"
