@@ -3,6 +3,9 @@
 # $Header: $
 
   12 Nov 2009; James Rowe <jnrowe@gmail.com> html-1.6.ebuild:
+  Keyworded x86.
+
+  12 Nov 2009; James Rowe <jnrowe@gmail.com> html-1.6.ebuild:
   Keyworded amd64.
 
 *html-1.7 (19 Oct 2009)
