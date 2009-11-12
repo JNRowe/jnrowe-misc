@@ -18,6 +18,8 @@ DEPEND="dev-python/setuptools"
 RDEPEND="dev-python/story_parser
 	dev-python/pyhistorian"
 
+RESTRICT="test"
+
 src_install() {
 	distutils_src_install
 
