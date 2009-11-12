@@ -3,6 +3,9 @@
 # $Header: $
 
   12 Nov 2009; James Rowe <jnrowe@gmail.com> geany-plugins-0.17.1.ebuild:
+  Keyworded amd64.
+
+  12 Nov 2009; James Rowe <jnrowe@gmail.com> geany-plugins-0.17.1.ebuild:
   Keyworded x86.
 
   03 Oct 2009; James Rowe <jnrowe@gmail.com> geany-plugins-0.17.1.ebuild:
