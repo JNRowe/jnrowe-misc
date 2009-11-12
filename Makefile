@@ -6,7 +6,7 @@ METADATA := $(addsuffix /metadata.xml, $(PACKAGES))
 
 SIGN_KEY := $(shell . /etc/make.conf ; echo $$PORTAGE_GPG_KEY )
 
-.PHONY: clean distclean stable-candidates
+.PHONY: clean cupage-check distclean stable-candidates
 
 all: $(HTML) profiles/categories profiles/use.local.desc $(MANIFESTS) \
 	stable-candidates
@@ -35,4 +35,10 @@ distclean: clean
 
 stable-candidates: support/stabilisation.remind
 	remind $<
+
+cupage-check:
+	for i in $(PACKAGES); do \
+		name=$${i#*/}; \
+		grep -qi "\[$$name\]" support/cupage.conf || echo $$i; \
+	done
 

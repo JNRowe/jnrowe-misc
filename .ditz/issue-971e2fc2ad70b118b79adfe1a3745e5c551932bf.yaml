@@ -5,8 +5,8 @@ type: :bugfix
 component: misc-overlay
 release: 
 reporter: James Rowe <jnrowe@gmail.com>
-status: :unstarted
-disposition: 
+status: :closed
+disposition: :fixed
 creation_time: 2009-11-12 04:40:21.007927 Z
 references: []
 
@@ -35,5 +35,29 @@ log_events:
     
     freshen is a live ebuild that does not warrant a cupage
     entry, but should be commented as such.
+- - 2009-11-12 05:11:14.691999 Z
+  - James Rowe <jnrowe@gmail.com>
+  - changed status from unstarted to in_progress
+  - ""
+- - 2009-11-12 05:21:48.807878 Z
+  - James Rowe <jnrowe@gmail.com>
+  - commented
+  - dev-python/freshen and surfraw done.
+- - 2009-11-12 05:26:35.823887 Z
+  - James Rowe <jnrowe@gmail.com>
+  - commented
+  - dev-python/pycukes and dev-python/story_parser done.
+- - 2009-11-12 06:06:34.343874 Z
+  - James Rowe <jnrowe@gmail.com>
+  - commented
+  - dev-python/nosetty done.
+- - 2009-11-12 06:08:02.435876 Z
+  - James Rowe <jnrowe@gmail.com>
+  - commented
+  - dev-util/fossil done.
+- - 2009-11-12 06:12:26.947840 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition fixed
+  - ""
 claimer: 
 git_branch: 
