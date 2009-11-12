@@ -9,7 +9,7 @@ HOMEPAGE="http://trollop.rubyforge.org"
 
 LICENSE="Ruby"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE=""
 
 USE_RUBY="ruby18"
