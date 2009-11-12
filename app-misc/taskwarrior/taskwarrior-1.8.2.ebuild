@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI="2"
+
 MY_P=task-${PV}
 DESCRIPTION="A GTD, todo list, task management, command line utility"
 HOMEPAGE="http://taskwarrior.org/projects/show/taskwarrior/"

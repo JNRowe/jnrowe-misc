@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI="2"
+
 inherit distutils
 
 DESCRIPTION="Calculations for the position of the sun"

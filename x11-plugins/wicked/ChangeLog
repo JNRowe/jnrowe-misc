@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  12 Nov 2009; James Rowe <jnrowe@gmail.com> wicked-9999.ebuild:
+  Switched to EAPI 2.
+
   27 Jul 2009; James Rowe <jnrowe@gmail.com> wicked-9999.ebuild,
   +files/wicked-fix_empty_data.patch:
   Added patch to fix displays with empty data.

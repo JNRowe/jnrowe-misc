@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  12 Nov 2009; James Rowe <jnrowe@gmail.com> hpodder-1.1.5.ebuild:
+  Switched to EAPI 2.
+
   11 Jun 2009; James Rowe <jnrowe@gmail.com> hpodder-1.1.5.ebuild:
   Added missing RDEPENDs.
 

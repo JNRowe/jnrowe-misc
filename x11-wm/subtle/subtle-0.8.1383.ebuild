@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI="2"
+
 MY_P=${P}-epsilon
 DESCRIPTION="A tiling window manager with mouse and keyboard control"
 HOMEPAGE="http://unexist.scrapping.cc/projects/show/subtle"
@@ -21,8 +23,7 @@ RDEPEND="x11-libs/libX11
 
 S="${WORKDIR}/${MY_P}"
 
-src_unpack() {
-	unpack ${A}; cd "${S}"
+src_prepare() {
 	sed -i -e '/"cflags"/s,"-.*",'"\"${CFLAGS}\"," \
 		-e '/"ldflags"/s!"-!'"\"${LDFLAGS} -!" \
 		Rakefile

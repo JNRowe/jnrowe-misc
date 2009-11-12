@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="1"
+EAPI="2"
 
 inherit eutils versionator
 
@@ -33,9 +33,7 @@ elif use amd64; then
 	S="${WORKDIR}/${BASE_P}-x86_64-linux"
 fi
 
-src_unpack() {
-	unpack ${A}; cd "${S}"
-
+src_prepare() {
 	# Fix path information in output, so users aren't confused
 	sed -i '618s/bin_dir/&[len(build_root):]/' wing-install.py
 }

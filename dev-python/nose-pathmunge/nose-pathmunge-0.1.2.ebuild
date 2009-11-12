@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI="2"
+
 inherit jnrowe-pypi
 
 DESCRIPTION="Add additional directories to sys.path for nose."

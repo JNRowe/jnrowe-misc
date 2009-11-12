@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI="2"
+
 inherit multilib toolchain-funcs
 
 DESCRIPTION="POSIX function support library for lua"
@@ -16,8 +18,7 @@ IUSE=""
 DEPEND=">=dev-lang/lua-5.1"
 RDEPEND="${DEPEND}"
 
-src_unpack() {
-	unpack ${A}; cd "${S}"
+src_prepare() {
 	sed -i -e 's,/usr/local,/usr,' \
 		-e "s,/lib,/$(get_libdir)," \
 		Makefile

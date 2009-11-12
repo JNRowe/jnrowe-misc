@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI="2"
+
 inherit jnrowe-pypi
 
 DESCRIPTION="A viewer for ReStructuredText documents that renders them on the fly"

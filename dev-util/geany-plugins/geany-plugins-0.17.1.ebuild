@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI="2"
+
 DESCRIPTION="Assorted geany plugins, including version control and lua support"
 HOMEPAGE="http://plugins.geany.org/geany-plugins/"
 SRC_URI="${HOMEPAGE}/${P}.tar.bz2"
@@ -19,12 +21,11 @@ RDEPEND="dev-util/geany
 	lua? ( dev-lang/lua )
 	spell? ( app-text/gtkspell )"
 
-src_compile() {
+src_configure() {
 	econf $(use_enable lua geanylua ) \
 		$(use_enable nls) \
 		$(use_enable spell gtkspell) \
 		$(use_enable spell spellcheck)
-	emake || die "emake failed"
 }
 
 src_install() {

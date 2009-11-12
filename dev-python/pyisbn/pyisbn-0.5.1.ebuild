@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI="2"
+
 inherit distutils
 
 DESCRIPTION="A module for working with 10- and 13-digit ISBNs"

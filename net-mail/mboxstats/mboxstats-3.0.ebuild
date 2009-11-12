@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI="2"
+
 inherit toolchain-funcs
 
 DESCRIPTION="Generate statistics from mbox and maildir folders"
@@ -16,8 +18,7 @@ IUSE=""
 DEPEND=""
 RDEPEND=""
 
-src_unpack() {
-	unpack ${A}; cd "${S}"
+src_prepare() {
 	# Actually use the user's options.
 	sed -i -e 's/-g//g' -e 's/-O2//' Makefile || die
 }

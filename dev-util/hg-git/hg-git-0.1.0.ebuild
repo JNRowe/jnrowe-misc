@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI="2"
+
 inherit jnrowe-pypi
 
 DESCRIPTION="Push and pull from a Git server using Mercurial"

@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  12 Nov 2009; James Rowe <jnrowe@gmail.com> sphinxcontrib-aafig-0.3.ebuild:
+  Switched to EAPI 2.
+
   19 Oct 2009; James Rowe <jnrowe@gmail.com> sphinxcontrib-aafig-0.3.ebuild:
   Moved aafigure to PDEPEND to break cyclic dependency.
 

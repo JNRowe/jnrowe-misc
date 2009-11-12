@@ -2,8 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-DESCRIPTION="Annotates RCS files in a style similar to CVS's annotate command"
+EAPI="2"
 
+DESCRIPTION="Annotates RCS files in a style similar to CVS's annotate command"
 HOMEPAGE="http://blame.sourceforge.net/"
 SRC_URI="mirror://sourceforge/blame/${P}.tar.gz"
 

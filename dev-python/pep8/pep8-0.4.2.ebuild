@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI="2"
+
 inherit jnrowe-pypi
 
 DESCRIPTION="A tool to check your Python code against the conventions in PEP 8"

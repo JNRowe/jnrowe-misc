@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI="2"
+
 DESCRIPTION="vicious widgets for the awesome window manager"
 HOMEPAGE="http://awesome.naquadah.org/wiki/Vicious"
 SRC_URI="http://git.sysphere.org/${PN}/snapshot/${P}.tar.gz"

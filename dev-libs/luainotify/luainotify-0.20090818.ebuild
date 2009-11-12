@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI="2"
+
 inherit multilib toolchain-funcs versionator
 
 MY_P=${PN}-$(get_version_component_range 2)
@@ -20,8 +22,7 @@ RDEPEND="${DEPEND}"
 
 S=${WORKDIR}/${MY_P}
 
-src_unpack() {
-	unpack ${A}; cd "${S}"
+src_prepare() {
 	sed -i -e 1,3d -e 4aCFLAGS+=-fpic Makefile
 }
 

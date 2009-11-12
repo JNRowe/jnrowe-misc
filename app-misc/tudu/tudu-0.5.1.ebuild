@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI="2"
+
 inherit eutils toolchain-funcs versionator
 
 DESCRIPTION="TuDu is a comand line interface to manage hierarchical todos."
@@ -16,9 +18,7 @@ IUSE=""
 DEPEND=""
 RDEPEND=""
 
-src_unpack() {
-	unpack ${A}; cd "${S}"
-
+src_prepare() {
 	epatch "${FILESDIR}"/${P}-build_fixes.patch
 	# The welcome file references the DTD, this fixes it
 	sed -i 's,/local,,' data/welcome.xml

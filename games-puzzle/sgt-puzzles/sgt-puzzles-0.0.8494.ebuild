@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="1"
+EAPI="2"
 inherit games toolchain-funcs versionator
 
 MY_P=puzzles-r$(get_version_component_range 3)
@@ -20,9 +20,7 @@ RDEPEND="x11-libs/gtk+:2"
 
 S=${WORKDIR}/${MY_P}
 
-src_unpack() {
-	unpack ${A}; cd "${S}"
-
+src_prepare() {
 	epatch "${FILESDIR}"/${MY_P}-build_fixes.patch
 }
 

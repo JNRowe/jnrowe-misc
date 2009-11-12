@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  12 Nov 2009; James Rowe <jnrowe@gmail.com> missingh-1.0.3.ebuild:
+  Switched to EAPI 2.
+
 *missingh-1.0.3 (10 Jun 2009)
 
   10 Jun 2009; James Rowe <jnrowe@gmail.com> +missingh-1.0.3.ebuild,

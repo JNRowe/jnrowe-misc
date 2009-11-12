@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="1"
+EAPI="2"
 
 DESCRIPTION="Quick Spam Filter, with support for multiple databases"
 HOMEPAGE="http://www.ivarch.com/programs/qsf.shtml"
@@ -20,13 +20,11 @@ DEPEND="gdbm? ( sys-libs/gdbm )
 	sqlite? ( dev-db/sqlite:0 )"
 RDEPEND="${DEPEND}"
 
-src_compile() {
+src_configure() {
 	econf \
 		$(use_with gdbm) \
 		$(use_with mysql) \
-		$(use_with sqlite) \
-		|| die
-	emake || die
+		$(use_with sqlite)
 }
 
 src_install () {

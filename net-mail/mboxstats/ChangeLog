@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  12 Nov 2009; James Rowe <jnrowe@gmail.com> mboxstats-3.0.ebuild:
+  Switched to EAPI 2.
+
   02 May 2009; jnrowe@gmail.com +metadata.xml, +mboxstats-3.0.ebuild:
   Imported from pre-github misc overlay.
 

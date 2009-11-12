@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI="2"
+
 inherit bash-completion ruby
 
 DESCRIPTION="A simple, light-weight distributed issue tracker designed for dVCS"

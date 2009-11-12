@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI="2"
+
 DESCRIPTION="A unionfs filesystem implementation for fuse"
 HOMEPAGE="http://podgorny.cz/moin/UnionFsFuse"
 SRC_URI="http://podgorny.cz/unionfs-fuse/releases/${P}.tar.bz2"

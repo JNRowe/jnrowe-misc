@@ -2,6 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI="2"
+
 inherit eutils jnrowe-pypi
 
 DESCRIPTION="A helper tool for git that mimics mercurial's serve command"

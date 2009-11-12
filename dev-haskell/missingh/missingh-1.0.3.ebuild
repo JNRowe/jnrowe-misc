@@ -2,7 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header:  $
 
+EAPI="2"
 CABAL_FEATURES="lib profile haddock"
+
 inherit haskell-cabal eutils
 
 MY_PN="MissingH"
@@ -31,13 +33,10 @@ RDEPEND=""
 
 S="${WORKDIR}/${MY_P}"
 
-src_unpack() {
-	unpack ${A}
-
+src_prepare() {
 	sed -e 's/Library/Library\n  Build-Depends: base < 4/' \
-	  -i "${S}/${MY_PN}.cabal"
+	  -i "${MY_PN}.cabal"
 
-	cd "${S}"
 	# type definitions cannot have haddock comments
 	epatch "${FILESDIR}/${P}-haddock.patch"
 }
