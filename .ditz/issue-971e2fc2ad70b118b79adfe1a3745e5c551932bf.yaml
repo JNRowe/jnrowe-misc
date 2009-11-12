@@ -47,5 +47,9 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - commented
   - dev-python/pycukes and dev-python/story_parser done.
+- - 2009-11-12 06:06:34.343874 Z
+  - James Rowe <jnrowe@gmail.com>
+  - commented
+  - dev-python/nosetty done.
 claimer: 
 git_branch: 
