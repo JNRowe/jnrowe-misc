@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription lang="en">
+		You install ( often with GNU Make ) your software into a repository
+		directory ( often /stow or /usr/local/stow. ) You tell Stow where you
+		want your software to belong and Stow safely symbolically links it
+		there. Stow doesn't install or remove your software - it only makes or
+		removes symbolic links to your software, which always remains in the
+		repository.
+	</longdescription>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+</pkgmetadata>

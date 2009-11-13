@@ -1,0 +1,22 @@
+dev-lang/perl test? ( dev-perl/Test-Output dev-perl/Sub-Exporter ) >=dev-util/git-1.6
+dev-lang/perl test? ( dev-perl/Test-Output dev-perl/Sub-Exporter )
+0
+
+
+http://savannah.gnu.org/projects/stow/
+GPL-2
+Manage installation of software in via symlinks
+~amd64 ~ppc ~sparc ~x86
+eutils git multilib portability toolchain-funcs
+test
+
+
+
+2
+
+install prepare unpack
+
+
+
+
+
