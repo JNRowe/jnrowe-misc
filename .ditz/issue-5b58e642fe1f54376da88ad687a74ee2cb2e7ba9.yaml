@@ -1,0 +1,26 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Add a live stow ebuild.
+desc: |-
+  This is needed for vim-configs to function correctly.  v1 doesn't
+  support the required --ignore option.
+type: :feature
+component: misc-overlay
+release: 
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2009-11-13 08:17:03.487982 Z
+references: []
+
+id: 5b58e642fe1f54376da88ad687a74ee2cb2e7ba9
+log_events: 
+- - 2009-11-13 08:17:04.295856 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2009-11-13 08:17:08.135967 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 
