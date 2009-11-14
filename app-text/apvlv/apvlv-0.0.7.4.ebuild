@@ -3,6 +3,9 @@
 # $Header: $
 
 EAPI="2"
+WANT_AUTOMAKE="1.10"
+
+inherit autotools eutils
 
 DESCRIPTION="apvlv is a PDF Viewer which behaves like Vim"
 HOMEPAGE="http://code.google.com/p/${PN}/"
@@ -18,8 +21,13 @@ DEPEND="${RDEPEND}
 RDEPEND="virtual/poppler-glib
 	x11-libs/gtk+:2"
 
+src_prepare() {
+	epatch "${FILESDIR}"/${P}-build_fixes.patch
+	eautomake
+}
+
 src_configure() {
-	econf --with-docdir="\${datarootdir}/doc/${PF}"
+	econf --with-docdir="/usr/share/doc/${PF}"
 }
 
 src_install() {
