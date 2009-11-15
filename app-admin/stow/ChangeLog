@@ -2,6 +2,10 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  15 Nov 2009; James Rowe <jnrowe@gmail.com> stow-9999.ebuild:
+  Fixed inverted {R,}DEPEND causing deps for USE=test to be required at
+  runtime.
+
 *stow-9999 (13 Nov 2009)
 
   13 Nov 2009; James Rowe <jnrowe@gmail.com> +stow-9999.ebuild:

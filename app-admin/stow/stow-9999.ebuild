@@ -17,12 +17,12 @@ SLOT="0"
 KEYWORDS="~amd64 ~ppc ~sparc ~x86"
 IUSE="test"
 
-DEPEND="dev-lang/perl
+DEPEND="${RDEPEND}
 	test? (
 		dev-perl/Test-Output
 		dev-perl/Sub-Exporter
 	)"
-RDEPEND="${DEPEND}"
+RDEPEND="dev-lang/perl"
 
 src_install() {
 	emake DESTDIR="${D}" install || die "emake install failed."
