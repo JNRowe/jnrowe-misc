@@ -26,5 +26,7 @@ REM 2009-12-07 +1 MSG Stabilise amd64 dev-python/should_dsl-1.2.1 %a
 REM 2009-12-07 +1 MSG Stabilise x86 dev-python/should_dsl-1.2.1 %a
 REM 2009-12-12 +1 MSG Stabilise amd64 x11-plugins/vicious-1.0.19 %a
 REM 2009-12-12 +1 MSG Stabilise x86 x11-plugins/vicious-1.0.19 %a
+REM 2009-12-16 +1 MSG Stabilise amd64 x11-plugins/vicious-1.0.20 %a
+REM 2009-12-16 +1 MSG Stabilise x86 x11-plugins/vicious-1.0.20 %a
 
 # vim: set sw=4 sts=4 et tw=80 fenc=utf-8 ft=remind:
