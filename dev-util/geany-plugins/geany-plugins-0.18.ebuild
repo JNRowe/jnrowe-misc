@@ -2,6 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+EAPI="2"
+
+inherit versionator
+
 DESCRIPTION="Assorted geany plugins, including version control and lua support"
 HOMEPAGE="http://plugins.geany.org/geany-plugins/"
 SRC_URI="${HOMEPAGE}/${P}.tar.bz2"
@@ -15,16 +19,15 @@ DEPEND="${RDEPEND}
 	dev-util/intltool
 	dev-util/pkgconfig
 	test? ( dev-libs/check )"
-RDEPEND="~dev-util/geany-0.18
+RDEPEND=">=dev-util/geany-$(get_version_component_range 1-2)
 	lua? ( dev-lang/lua )
 	spell? ( app-text/gtkspell )"
 
-src_compile() {
+src_configure() {
 	econf $(use_enable lua geanylua ) \
 		$(use_enable nls) \
 		$(use_enable spell gtkspell) \
 		$(use_enable spell spellcheck)
-	emake || die "emake failed"
 }
 
 src_install() {

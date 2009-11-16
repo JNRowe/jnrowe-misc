@@ -4,6 +4,8 @@
 
 EAPI="2"
 
+inherit versionator
+
 DESCRIPTION="Assorted geany plugins, including version control and lua support"
 HOMEPAGE="http://plugins.geany.org/geany-plugins/"
 SRC_URI="${HOMEPAGE}/${P}.tar.bz2"
@@ -17,7 +19,7 @@ DEPEND="${RDEPEND}
 	dev-util/intltool
 	dev-util/pkgconfig
 	test? ( dev-libs/check )"
-RDEPEND="dev-util/geany
+RDEPEND=">=dev-util/geany-$(get_version_component_range 1-2)
 	lua? ( dev-lang/lua )
 	spell? ( app-text/gtkspell )"
 
