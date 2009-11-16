@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  16 Nov 2009; James Rowe <jnrowe@gmail.com> parti-0.0.6.ebuild:
+  Project has moved to Google code hosting [81e].
+
   12 Nov 2009; James Rowe <jnrowe@gmail.com> parti-0.0.6.ebuild:
   Switched to EAPI 2.
 
