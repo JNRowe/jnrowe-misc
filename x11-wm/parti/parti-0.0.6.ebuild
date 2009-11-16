@@ -8,8 +8,8 @@ inherit distutils
 
 MY_P=${PN}-all-${PV}
 DESCRIPTION="Parti is a tabbing/tiling window manager"
-HOMEPAGE="http://partiwm.org/"
-SRC_URI="${HOMEPAGE}/static/downloads/${MY_P}.tar.gz"
+HOMEPAGE="http://code.google.com/p/${PN}/"
+SRC_URI="http://partiwm.googlecode.com/files/${MY_P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
