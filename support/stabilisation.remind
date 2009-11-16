@@ -30,5 +30,7 @@ REM 2009-12-16 +1 MSG Stabilise amd64 x11-plugins/vicious-1.0.20 %a
 REM 2009-12-16 +1 MSG Stabilise x86 x11-plugins/vicious-1.0.20 %a
 REM 2009-12-16 +1 MSG Stabilise amd64 dev-util/geany-plugins-0.18 %a
 REM 2009-12-16 +1 MSG Stabilise x86 dev-util/geany-plugins-0.18 %a
+REM 2009-12-16 +1 MSG Stabilise amd64 media-gfx/sphinxcontrib-aafig-1.0 %a
+REM 2009-12-16 +1 MSG Stabilise x86 media-gfx/sphinxcontrib-aafig-1.0 %a
 
 # vim: set sw=4 sts=4 et tw=80 fenc=utf-8 ft=remind:
