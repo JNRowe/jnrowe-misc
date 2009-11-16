@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*geany-plugins-0.18 (16 Nov 2009)
+
+  16 Nov 2009; James Rowe <jnrowe@gmail.com> +geany-plugins-0.18.ebuild:
+  Version bump [dc6].
+
   12 Nov 2009; James Rowe <jnrowe@gmail.com> geany-plugins-0.17.1.ebuild:
   Switched to EAPI 2.
 

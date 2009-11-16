@@ -1,0 +1,22 @@
+dev-util/intltool dev-util/pkgconfig test? ( dev-libs/check )
+~dev-util/geany-0.18 lua? ( dev-lang/lua ) spell? ( app-text/gtkspell )
+0
+http://plugins.geany.org/geany-plugins//geany-plugins-0.18.tar.bz2
+
+http://plugins.geany.org/geany-plugins/
+GPL-2 GPL-3
+Assorted geany plugins, including version control and lua support
+~amd64 ~x86
+
+lua nls spell test
+
+
+
+
+
+compile install
+
+
+
+
+
