@@ -38,9 +38,17 @@ the repository::
 Finally, use ``eix-sync`` to update the specified repositories and ``eix``
 package database.
 
+``cupage`` integration
+----------------------
+
+cupage_ is used to keep packages in sync with their releases, see
+``support/cupage.conf``.  ``cupage`` v0.3.0, or above, is required if you wish
+to make use of this functionality.
+
 .. _email: jnrowe@gmail.com
 .. _issue: http://github.com/JNRowe/misc-overlay/issues
 .. _ditz: http://ditz.rubyforge.org/
 .. _layman: http://layman.sourceforge.net
 .. _eix: http://eix.sourceforge.net
+.. _cupage: http://github.com/JNRowe/cupage
 
