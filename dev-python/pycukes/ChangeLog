@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*pycukes-0.1.2 (17 Nov 2009)
+
+  17 Nov 2009; James Rowe <jnrowe@gmail.com> +pycukes-0.1.2.ebuild:
+  Version bump [845].
+
   06 Nov 2009; James Rowe <jnrowe@gmail.com> pycukes-0.1.1.ebuild:
   Keyworded amd64 [c95].
 
