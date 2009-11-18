@@ -3,6 +3,9 @@
 # $Header: $
 
   18 Nov 2009; James Rowe <jnrowe@gmail.com> hg-git-0.1.0.ebuild:
+  Keyworded x86.
+
+  18 Nov 2009; James Rowe <jnrowe@gmail.com> hg-git-0.1.0.ebuild:
   Keyworded amd64.
 
   12 Nov 2009; James Rowe <jnrowe@gmail.com> hg-git-0.1.0.ebuild:

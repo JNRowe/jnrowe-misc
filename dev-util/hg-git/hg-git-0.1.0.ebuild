@@ -11,7 +11,7 @@ HOMEPAGE="http://hg-git.github.com/"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 # Against my better judgement depend on setuptools, even though it is optional

@@ -6,7 +6,7 @@ http://pypi.python.org/packages/source/h/hg-git/hg-git-0.1.0.tar.gz
 http://hg-git.github.com/
 GPL-2
 Push and pull from a Git server using Mercurial
-amd64 ~x86
+amd64 x86
 distutils eutils jnrowe-pypi multilib portability python toolchain-funcs
 
 
