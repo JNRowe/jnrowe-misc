@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Notmuch is a system for indexing, searching, reading, and tagging large
+		collections of email messages. It uses the Xapian library to provide
+		fast, full-text search of very large collection of email with a very
+		convenient search syntas.
+
+		Notmuch is free software, released under the GNU General Public License
+		version 3 (or later).
+	</longdescription>
+</pkgmetadata>
+

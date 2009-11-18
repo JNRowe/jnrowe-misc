@@ -1,0 +1,22 @@
+dev-util/pkgconfig >=virtual/emacs-21 >=dev-util/git-1.6
+sys-libs/talloc dev-libs/gmime dev-libs/xapian emacs? ( virtual/emacs ) >=virtual/emacs-21
+0
+
+
+http://notmuchmail.org/
+GPL-3
+Thread-based email index, search and tagging.
+~amd64
+elisp elisp-common eutils git multilib portability toolchain-funcs
+emacs
+
+
+
+2
+
+compile configure install postinst postrm prepare setup unpack
+
+
+
+
+
