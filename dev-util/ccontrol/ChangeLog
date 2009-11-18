@@ -3,6 +3,9 @@
 # $Header: $
 
   18 Nov 2009; James Rowe <jnrowe@gmail.com> ccontrol-0.9.1.ebuild:
+  Keyworded x86.
+
+  18 Nov 2009; James Rowe <jnrowe@gmail.com> ccontrol-0.9.1.ebuild:
   Keyworded amd64.
 
   19 Oct 2009; James Rowe <jnrowe@gmail.com> ccontrol-0.9.1.ebuild:
