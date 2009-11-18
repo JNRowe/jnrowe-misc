@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  18 Nov 2009; James Rowe <jnrowe@gmail.com> hg-git-0.1.0.ebuild:
+  Keyworded amd64.
+
   12 Nov 2009; James Rowe <jnrowe@gmail.com> hg-git-0.1.0.ebuild:
   Switched to EAPI 2.
 
