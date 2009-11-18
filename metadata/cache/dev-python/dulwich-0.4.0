@@ -6,7 +6,7 @@ http://samba.org/~jelmer/dulwich/dulwich-0.4.0.tar.gz
 http://samba.org/~jelmer/dulwich-0.4.0
 GPL-2
 Pure-Python Git Library
-~amd64 ~x86
+amd64 ~x86
 distutils eutils multilib portability python toolchain-funcs
 doc test
 

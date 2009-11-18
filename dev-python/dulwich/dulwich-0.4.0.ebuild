@@ -12,7 +12,7 @@ SRC_URI="http://samba.org/~jelmer/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE="doc test"
 
 DEPEND="doc? ( dev-python/docutils )
