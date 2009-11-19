@@ -27,6 +27,7 @@ RDEPEND="sys-libs/talloc
 SITEFILE="50${PN}-gentoo.el"
 
 src_prepare() {
+	# Change ordering in case people are using as-needed
 	sed -i 's,\($(LDFLAGS)\)\(.*\),\2 \1,' Makefile.local
 }
 
@@ -40,9 +41,9 @@ src_compile() {
 }
 
 src_install() {
-	# Don't use make install, because it installs compressed man pages and
-	# emacs files unconditionally.  Three commands are quicker than rewriting
-	# Makefile.local.
+	# Don't use make install, because it installs compressed man pages,
+	# bash-completion in the wrong location and emacs files unconditionally.
+	# Three commands are quicker than patching Makefile.local locally.
 	dobin ${PN}
 	doman ${PN}.1
 	dobashcompletion notmuch-completion.bash ${PN}
