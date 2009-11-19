@@ -3,9 +3,11 @@
 # $Header: $
 
   19 Nov 2009; James Rowe <jnrowe@gmail.com> notmuch-9999.ebuild:
+  Keyworded ~x86.
+
+  19 Nov 2009; James Rowe <jnrowe@gmail.com> notmuch-9999.ebuild:
   Don't use make install, because it installs compressed man pages and emacs
-  files
-  unconditionally.
+  files unconditionally.
 
 *notmuch-9999 (18 Nov 2009)
 

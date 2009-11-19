@@ -6,7 +6,7 @@ sys-libs/talloc dev-libs/gmime dev-libs/xapian emacs? ( virtual/emacs ) bash-com
 http://notmuchmail.org/
 GPL-3
 Thread-based email index, search and tagging.
-~amd64
+~amd64 ~x86
 bash-completion elisp-common eutils git multilib portability toolchain-funcs
 emacs bash-completion
 
