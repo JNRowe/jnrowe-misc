@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  19 Nov 2009; James Rowe <jnrowe@gmail.com> notmuch-9999.ebuild:
+  Don't use make install, because it installs compressed man pages and emacs
+  files
+  unconditionally.
+
 *notmuch-9999 (18 Nov 2009)
 
   18 Nov 2009; James Rowe <jnrowe@gmail.com> +files/50notmuch-gentoo.el,

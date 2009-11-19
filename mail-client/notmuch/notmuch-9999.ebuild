@@ -4,7 +4,7 @@
 
 EAPI="2"
 
-inherit toolchain-funcs elisp git
+inherit toolchain-funcs elisp-common bash-completion git
 
 EGIT_REPO_URI="git://notmuchmail.org/git/${PN}"
 
@@ -40,7 +40,13 @@ src_compile() {
 }
 
 src_install() {
-	emake DESTDIR="${D}" prefix=/usr install || die "emake install failed"
+	# Don't use make install, because it installs compressed man pages and
+	# emacs files unconditionally.  Three commands are quicker than rewriting
+	# Makefile.local.
+	dobin ${PN}
+	doman ${PN}.1
+	dobashcompletion notmuch-completion.bash ${PN}
+
 	dodoc AUTHORS README TODO
 
 	if use emacs; then
