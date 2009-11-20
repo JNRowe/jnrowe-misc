@@ -3,6 +3,9 @@
 # $Header: $
 
   20 Nov 2009; James Rowe <jnrowe@gmail.com> notmuch-9999.ebuild:
+  Install the byte-compiled elisp file.
+
+  20 Nov 2009; James Rowe <jnrowe@gmail.com> notmuch-9999.ebuild:
   No longer need as-needed fix.  The ddac1734 commit fixes this.
 
   19 Nov 2009; James Rowe <jnrowe@gmail.com> notmuch-9999.ebuild:

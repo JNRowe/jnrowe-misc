@@ -46,7 +46,7 @@ src_install() {
 	dodoc AUTHORS README TODO
 
 	if use emacs; then
-		elisp-install ${PN}{,.el}
+		elisp-install ${PN}{,.el{,c}}
 		elisp-site-file-install "${FILESDIR}/${SITEFILE}"
 	fi
 }
