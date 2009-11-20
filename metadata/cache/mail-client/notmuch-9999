@@ -14,7 +14,7 @@ emacs bash-completion
 
 2
 
-compile configure install postinst postrm prepare setup unpack
+compile install postinst prepare unpack
 
 
 

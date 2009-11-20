@@ -26,11 +26,6 @@ RDEPEND="sys-libs/talloc
 
 SITEFILE="50${PN}-gentoo.el"
 
-src_prepare() {
-	# Change ordering in case people are using as-needed
-	sed -i 's,\($(LDFLAGS)\)\(.*\),\2 \1,' Makefile.local
-}
-
 src_compile() {
 	emake CC="$(tc-getCC)" CXX="$(tc-getCXX)" CFLAGS="${CFLAGS}" \
 		|| die "emake failed"
