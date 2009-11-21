@@ -31,6 +31,6 @@ src_install() {
 	dobashcompletion contrib/completion/${PN}.bash ${PN}
 	if use zsh-completion; then
 		insinto /usr/share/zsh/site-functions
-		doins contrib/completion/_ditz.zsh
+		newins contrib/completion/_ditz.zsh _ditz
 	fi
 }
