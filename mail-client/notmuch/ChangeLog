@@ -3,6 +3,9 @@
 # $Header: $
 
   21 Nov 2009; James Rowe <jnrowe@gmail.com> notmuch-9999.ebuild:
+  Install the desktop entry with USE='X emacs'.
+
+  21 Nov 2009; James Rowe <jnrowe@gmail.com> notmuch-9999.ebuild:
   Install the zsh completion file.
 
   20 Nov 2009; James Rowe <jnrowe@gmail.com> notmuch-9999.ebuild:

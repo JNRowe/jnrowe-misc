@@ -4,7 +4,7 @@
 
 EAPI="2"
 
-inherit toolchain-funcs elisp-common bash-completion git
+inherit eutils toolchain-funcs elisp-common bash-completion git
 
 EGIT_REPO_URI="git://notmuchmail.org/git/${PN}"
 
@@ -15,7 +15,7 @@ SRC_URI=""
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="emacs zsh-completion"
+IUSE="X emacs zsh-completion"
 
 DEPEND="dev-util/pkgconfig
 	${RDEPEND}"
@@ -54,5 +54,7 @@ src_install() {
 	if use emacs; then
 		elisp-install ${PN}{,.el{,c}}
 		elisp-site-file-install "${FILESDIR}/${SITEFILE}"
+
+		use X && domenu ${PN}.desktop
 	fi
 }

@@ -8,7 +8,7 @@ GPL-3
 Thread-based email index, search and tagging.
 ~amd64 ~x86
 bash-completion elisp-common eutils git multilib portability toolchain-funcs
-emacs zsh-completion bash-completion
+X emacs zsh-completion bash-completion
 
 
 
