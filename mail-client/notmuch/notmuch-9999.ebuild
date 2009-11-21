@@ -15,14 +15,15 @@ SRC_URI=""
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="emacs"
+IUSE="emacs zsh-completion"
 
 DEPEND="dev-util/pkgconfig
 	${RDEPEND}"
 RDEPEND="sys-libs/talloc
 	dev-libs/gmime
 	dev-libs/xapian
-	emacs? ( virtual/emacs )"
+	emacs? ( virtual/emacs )
+	zsh-completion? ( app-shells/zsh )"
 
 SITEFILE="50${PN}-gentoo.el"
 
@@ -44,6 +45,11 @@ src_install() {
 	dobashcompletion notmuch-completion.bash ${PN}
 
 	dodoc AUTHORS README TODO
+
+	if use zsh-completion; then
+		insinto /usr/share/zsh/site-functions
+		newins contrib/notmuch-completion.zsh _notmuch
+	fi
 
 	if use emacs; then
 		elisp-install ${PN}{,.el{,c}}

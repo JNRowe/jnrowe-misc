@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  21 Nov 2009; James Rowe <jnrowe@gmail.com> notmuch-9999.ebuild:
+  Install the zsh completion file.
+
   20 Nov 2009; James Rowe <jnrowe@gmail.com> notmuch-9999.ebuild:
   Install the byte-compiled elisp file.
 
