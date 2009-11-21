@@ -37,12 +37,9 @@ src_compile() {
 }
 
 src_install() {
-	# Don't use make install, because it installs compressed man pages,
-	# bash-completion in the wrong location and emacs files unconditionally.
-	# Three commands are quicker than patching Makefile.local locally.
-	dobin ${PN}
-	doman ${PN}.1
-	dobashcompletion notmuch-completion.bash ${PN}
+	emake DESTDIR="${D}" prefix=/usr \
+		bash_completion_dir=/usr/share/bash-completion \
+		install || die "emake install failed"
 
 	dodoc AUTHORS README TODO
 
