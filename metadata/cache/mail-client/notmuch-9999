@@ -1,4 +1,4 @@
-dev-util/pkgconfig >=dev-util/git-1.6
+dev-util/pkgconfig debug? ( dev-util/valgrind ) >=dev-util/git-1.6
 sys-libs/talloc dev-libs/gmime dev-libs/xapian emacs? ( virtual/emacs ) zsh-completion? ( app-shells/zsh ) bash-completion? ( app-admin/eselect )
 0
 
@@ -8,13 +8,13 @@ GPL-3
 Thread-based email index, search and tagging.
 ~amd64 ~x86
 bash-completion elisp-common eutils git multilib portability toolchain-funcs
-X emacs zsh-completion bash-completion
+X debug emacs zsh-completion bash-completion
 
 
 
 2
 
-compile install postinst prepare unpack
+compile configure install postinst prepare unpack
 
 
 

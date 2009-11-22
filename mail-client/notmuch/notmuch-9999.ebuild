@@ -15,9 +15,10 @@ SRC_URI=""
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="X emacs zsh-completion"
+IUSE="X debug emacs zsh-completion"
 
 DEPEND="dev-util/pkgconfig
+	debug? ( dev-util/valgrind )
 	${RDEPEND}"
 RDEPEND="sys-libs/talloc
 	dev-libs/gmime
@@ -26,6 +27,13 @@ RDEPEND="sys-libs/talloc
 	zsh-completion? ( app-shells/zsh )"
 
 SITEFILE="50${PN}-gentoo.el"
+
+src_configure() {
+	# Handmade configure, ignores extra opts :/
+	econf || die "econf failed"
+	# Automagic valgrind detection, needs fixing upstream
+	use debug || sed -i 's,-DHAVE_VALGRIND,,' Makefile.config
+}
 
 src_compile() {
 	emake CC="$(tc-getCC)" CXX="$(tc-getCXX)" CFLAGS="${CFLAGS}" \
