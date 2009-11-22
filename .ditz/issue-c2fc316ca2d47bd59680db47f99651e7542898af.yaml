@@ -1,0 +1,24 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: www-client/cupage-0.3 version bump.
+desc: ""
+type: :feature
+component: misc-overlay
+release: 
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2009-11-22 21:24:38.160167 Z
+references: []
+
+id: c2fc316ca2d47bd59680db47f99651e7542898af
+log_events: 
+- - 2009-11-22 21:24:38.875849 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2009-11-22 21:24:42.763956 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 
