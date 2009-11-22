@@ -11,7 +11,7 @@ HOMEPAGE="http://github.com/cburroughs/pep8.py"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools"
