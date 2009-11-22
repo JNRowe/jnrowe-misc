@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*apvlv-0.0.7.5 (22 Nov 2009)
+
+  22 Nov 2009; James Rowe <jnrowe@gmail.com> +apvlv-0.0.7.5.ebuild:
+  Version bump [2fe].
+
   14 Nov 2009; James Rowe <jnrowe@gmail.com> apvlv-0.0.7.4.ebuild,
   +files/apvlv-0.0.7.4-build_fixes.patch:
   Fixed data files install location [485].
