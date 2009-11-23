@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  23 Nov 2009; James Rowe <jnrowe@gmail.com> taskwarrior-1.8.4.ebuild:
+  Install bash/zsh completion and vim support in to usable locations.
+
 *taskwarrior-1.8.4 (23 Nov 2009)
 
   23 Nov 2009; James Rowe <jnrowe@gmail.com> +taskwarrior-1.8.4.ebuild:
