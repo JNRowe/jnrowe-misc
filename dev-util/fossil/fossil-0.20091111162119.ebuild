@@ -4,7 +4,7 @@
 
 EAPI="2"
 
-inherit versionator
+inherit toolchain-funcs versionator
 
 MY_P=${PN}-src-$(get_version_component_range 2)
 
@@ -23,7 +23,7 @@ RDEPEND=""
 S=${WORKDIR}/${MY_P}
 
 src_prepare() {
-	sed -i "s,-g -O[2s],," Makefile
+	sed -i "/^TCC/s,gcc -g -O[2s],$(tc-getCC)," Makefile
 }
 
 src_install() {
