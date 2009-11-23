@@ -8,7 +8,7 @@ inherit eutils toolchain-funcs versionator
 
 DESCRIPTION="TuDu is a comand line interface to manage hierarchical todos."
 HOMEPAGE="http://www.cauterized.net/~meskio/tudu/"
-SRC_URI="http://www.jnrowe.ukfsn.org/_static/${P}.tar.gz"
+SRC_URI="http://www.cauterized.net/~meskio/tudu/${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
