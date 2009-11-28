@@ -15,7 +15,7 @@ SRC_URI=""
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="X debug emacs zsh-completion"
+IUSE="X debug emacs vim zsh-completion"
 
 DEPEND="dev-util/pkgconfig
 	debug? ( dev-util/valgrind )
@@ -24,6 +24,7 @@ RDEPEND="sys-libs/talloc
 	dev-libs/gmime
 	dev-libs/xapian
 	emacs? ( virtual/emacs )
+	vim? ( || ( app-editors/vim app-editors/gvim ) )
 	zsh-completion? ( app-shells/zsh )"
 
 SITEFILE="50${PN}-gentoo.el"
@@ -61,5 +62,14 @@ src_install() {
 		elisp-site-file-install "${FILESDIR}/${SITEFILE}"
 
 		use X && domenu ${PN}.desktop
+	fi
+
+	if use vim; then
+		cd vim
+		insinto /usr/share/vim/vimfiles/plugin
+		doins plugin/${PN}.vim
+		insinto /usr/share/vim/vimfiles/syntax
+		doins syntax/*.vim
+		newdoc README README.vim
 	fi
 }

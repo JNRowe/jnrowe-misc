@@ -15,5 +15,10 @@
 		Notmuch is free software, released under the GNU General Public License
 		version 3 (or later).
 	</longdescription>
+	<use>
+		<flag name="vim">
+			Install the vim interface for notmuch
+		</flag>
+	</use>
 </pkgmetadata>
 
