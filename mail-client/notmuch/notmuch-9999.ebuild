@@ -42,6 +42,7 @@ src_compile() {
 
 	if use emacs; then
 		elisp-compile ${PN}.el || die "elisp-compile failed"
+		elisp-make-autoload-file ${SITEFILE}
 	fi
 }
 
@@ -59,7 +60,7 @@ src_install() {
 
 	if use emacs; then
 		elisp-install ${PN}{,.el{,c}}
-		elisp-site-file-install "${FILESDIR}/${SITEFILE}"
+		elisp-site-file-install ${SITEFILE}
 
 		use X && domenu ${PN}.desktop
 	fi
