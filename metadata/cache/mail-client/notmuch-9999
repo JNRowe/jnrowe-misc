@@ -14,7 +14,7 @@ X debug emacs vim zsh-completion bash-completion
 
 2
 
-compile configure install postinst prepare unpack
+compile configure install postinst postrm prepare unpack
 
 
 

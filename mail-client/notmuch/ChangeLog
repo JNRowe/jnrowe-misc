@@ -2,6 +2,12 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  30 Nov 2009; James Rowe <jnrowe@gmail.com> notmuch-9999.ebuild:
+  elisp-site-regen wasn't being run with portage due to inherit ordering.
+
+  Thanks to Kevin Norland for reporting this, and encouraging me to test
+  with portage more often ;)
+
   28 Nov 2009; James Rowe <jnrowe@gmail.com> notmuch-9999.ebuild,
   metadata.xml:
   Added support for installing the vim interface.

@@ -73,3 +73,12 @@ src_install() {
 		newdoc README README.vim
 	fi
 }
+
+pkg_postinst() {
+	use emacs && elisp-site-regen
+	bash-completion_pkg_postinst
+}
+
+pkg_postrm() {
+	use emacs && elisp-site-regen
+}
