@@ -47,9 +47,7 @@ src_compile() {
 }
 
 src_install() {
-	emake DESTDIR="${D}" prefix=/usr \
-		bash_completion_dir=/usr/share/bash-completion \
-		install || die "emake install failed"
+	emake DESTDIR="${D}" prefix=/usr install || die "emake install failed"
 
 	dodoc AUTHORS README TODO
 
@@ -57,6 +55,8 @@ src_install() {
 		insinto /usr/share/zsh/site-functions
 		newins contrib/notmuch-completion.zsh _notmuch
 	fi
+
+	dobashcompletion contrib/notmuch-completion.bash
 
 	if use emacs; then
 		elisp-install ${PN}{,.el{,c}}
