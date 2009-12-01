@@ -1,5 +1,10 @@
 # extra line needed because portage is buggy
 
+# James Rowe <jnrowe@gmail.com> (1 Dec 2009)
+# Package is too broken to maintain... unless you step up!!
+# See bug e3f.
+dev-util/wingide
+
 # James Rowe <jnrowe@gmail.com> (13 Nov 2009)
 # live ebuild for notmuch
 =mail-client/notmuch-9999

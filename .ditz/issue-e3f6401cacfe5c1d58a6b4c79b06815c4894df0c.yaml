@@ -8,8 +8,8 @@ type: :feature
 component: misc-overlay
 release: 
 reporter: James Rowe <jnrowe@gmail.com>
-status: :unstarted
-disposition: 
+status: :closed
+disposition: :wontfix
 creation_time: 2009-11-02 08:12:48.219919 Z
 references: []
 
@@ -23,5 +23,15 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - issue claimed
   - ""
+- - 2009-12-01 03:47:13.625150 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition wontfix
+  - |-
+    This package is practically unmaintainable, and nobody is stepping up to help.
+    The time it takes to maintain just isn't worth the effort, when tonnes of
+    packageable alternatives exist.
+    
+    It has now been added to package.mask, consider this your final chance to step
+    up.
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 
