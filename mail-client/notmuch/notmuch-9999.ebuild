@@ -30,15 +30,14 @@ RDEPEND="sys-libs/talloc
 SITEFILE="50${PN}-gentoo.el"
 
 src_configure() {
-	# Handmade configure, ignores extra opts :/
-	econf || die "econf failed"
+	# Handmade configure :/
+	CC="$(tc-getCC)" CXX="$(tc-getCXX)" ./configure || die "configure failed"
 	# Automagic valgrind detection, needs fixing upstream
-	use debug || sed -i 's,-DHAVE_VALGRIND,,' Makefile.config
+	use debug || sed -i '/^HAVE_VALGRIND =/s,1,0,' Makefile.config
 }
 
 src_compile() {
-	emake CC="$(tc-getCC)" CXX="$(tc-getCXX)" CFLAGS="${CFLAGS}" \
-		|| die "emake failed"
+	emake V=1 CFLAGS="${CFLAGS}" || die "emake failed"
 
 	if use emacs; then
 		elisp-compile ${PN}.el || die "elisp-compile failed"

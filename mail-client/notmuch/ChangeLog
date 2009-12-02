@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  02 Dec 2009; James Rowe <jnrowe@gmail.com> notmuch-9999.ebuild:
+  Updates for today's configure/Makefile.config changes.
+
   01 Dec 2009; James Rowe <jnrowe@gmail.com> notmuch-9999.ebuild:
   Manually install bash-completion script. Upstream no longer install it
   with the default target(since 7c2c26bc), and this works better anyway.
