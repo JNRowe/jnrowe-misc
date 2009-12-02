@@ -1,5 +1,5 @@
 dev-util/pkgconfig debug? ( dev-util/valgrind ) >=dev-util/git-1.6
-sys-libs/talloc dev-libs/gmime dev-libs/xapian emacs? ( virtual/emacs ) vim? ( || ( app-editors/vim app-editors/gvim ) ) zsh-completion? ( app-shells/zsh ) bash-completion? ( app-admin/eselect )
+sys-libs/talloc dev-libs/gmime:2.4 dev-libs/xapian emacs? ( virtual/emacs ) vim? ( || ( app-editors/vim app-editors/gvim ) ) zsh-completion? ( app-shells/zsh ) bash-completion? ( app-admin/eselect )
 0
 
 

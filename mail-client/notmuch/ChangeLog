@@ -3,6 +3,9 @@
 # $Header: $
 
   02 Dec 2009; James Rowe <jnrowe@gmail.com> notmuch-9999.ebuild:
+  gmime v2.4 is required.
+
+  02 Dec 2009; James Rowe <jnrowe@gmail.com> notmuch-9999.ebuild:
   Updates for today's configure/Makefile.config changes.
 
   01 Dec 2009; James Rowe <jnrowe@gmail.com> notmuch-9999.ebuild:
