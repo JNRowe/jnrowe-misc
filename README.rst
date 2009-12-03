@@ -8,6 +8,42 @@ email_ or file an issue_.  Locally bugs are managed with ditz_, so if
 you're working with a clone of the repository you can report, list and
 fix bugs using ``dev-util/ditz``.
 
+Contributors
+------------
+
+I'd like to thank the following people who have contributed to this repository.
+I'm updating this list here as the history was dropped when the move to GitHub_
+happened.
+
+Patches
+'''''''
+
+* Bashshar Qaraja Maloof
+* Leon Bird
+* Matt Leighton
+* Rachel Holmes
+
+Bug reports
+'''''''''''
+
+* Erin Sandusky
+* Fabien Courtois
+* Jens Wulf
+* Jesper Tremblay
+* Kristian Cole
+* Shi Tang
+
+Ideas
+'''''
+
+* Jamie Ashton
+* Ryan Lewis
+* Scott Hunter
+* Tony McKenzie
+
+If I've forgotten to include your name I wholeheartedly apologise.  Just drop me
+an email_ and I'll update the list!
+
 ``layman`` integration
 ----------------------
 
@@ -51,4 +87,5 @@ to make use of this functionality.
 .. _layman: http://layman.sourceforge.net
 .. _eix: http://eix.sourceforge.net
 .. _cupage: http://github.com/JNRowe/cupage
+.. _GitHub: http://github.com/
 
