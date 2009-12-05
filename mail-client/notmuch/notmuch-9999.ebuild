@@ -31,13 +31,14 @@ SITEFILE="50${PN}-gentoo.el"
 
 src_configure() {
 	# Handmade configure :/
-	CC="$(tc-getCC)" CXX="$(tc-getCXX)" ./configure || die "configure failed"
+	CC="$(tc-getCC)" CXX="$(tc-getCXX)" ./configure --prefix=/usr \
+		|| die "econf failed"
 	# Automagic valgrind detection, needs fixing upstream
 	use debug || sed -i '/^HAVE_VALGRIND =/s,1,0,' Makefile.config
 }
 
 src_compile() {
-	emake V=1 CFLAGS="${CFLAGS}" || die "emake failed"
+	emake V=1 || die "emake failed"
 
 	if use emacs; then
 		elisp-compile ${PN}.el || die "elisp-compile failed"
@@ -46,7 +47,7 @@ src_compile() {
 }
 
 src_install() {
-	emake DESTDIR="${D}" prefix=/usr install || die "emake install failed"
+	emake DESTDIR="${D}" install || die "emake install failed"
 
 	dodoc AUTHORS README TODO
 

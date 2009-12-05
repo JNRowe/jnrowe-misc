@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  05 Dec 2009; James Rowe <jnrowe@gmail.com> notmuch-9999.ebuild:
+  Updates for today's notmuch configure/Makefile.config changes.
+
   02 Dec 2009; James Rowe <jnrowe@gmail.com> notmuch-9999.ebuild:
   gmime v2.4 is required.
 
