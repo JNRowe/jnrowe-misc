@@ -1,0 +1,27 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Test with layman-1.2.4 changes.
+desc: |-
+  Apparently, the configuration file format for layman has changed.  Somebody who
+  uses layman needs to test whether the layman documentation is still valid, and
+  possibly update the layman configuration snippet in support/.
+type: :task
+component: misc-overlay
+release: 
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2009-12-05 05:14:30.365533 Z
+references: []
+
+id: 981d0ef32bc0fe5faa1dc40e1be8bf37547529f7
+log_events: 
+- - 2009-12-05 05:14:40.270974 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2009-12-05 05:17:16.851273 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - Matt Leighton, I'm looking at you!
+claimer: Matt Leighton <mleighy@googlemail.com>
+git_branch: 
