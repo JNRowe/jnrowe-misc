@@ -1,3 +1,5 @@
+Be careful with the LDFLAGS ordering, so --as-needed works correctly.
+
 diff --git i/Makefile w/Makefile
 index dd03cab..389bf83 100644
 --- i/Makefile
