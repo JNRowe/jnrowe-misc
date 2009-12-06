@@ -32,6 +32,7 @@ Bug reports
 * Jesper Tremblay
 * Kristian Cole
 * Shi Tang
+* cookiemon5ter
 
 Ideas
 '''''

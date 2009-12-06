@@ -27,7 +27,9 @@ src_prepare() {
 }
 
 src_configure() {
-	econf --with-docdir="/usr/share/doc/${PF}"
+	# Package overrides standard --mandir setting with --with-mandir
+	econf --with-docdir="/usr/share/doc/${PF}" \
+		--with-mandir="/usr/share/man"
 }
 
 src_install() {
