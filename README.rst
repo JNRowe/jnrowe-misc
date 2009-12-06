@@ -49,8 +49,17 @@ an email_ and I'll update the list!
 ----------------------
 
 If you use layman_ to sync your repositories you can simply add this
-repository to the supported list.  Add the file ``support/layman.xml``
-to the ``overlays`` section of ``/etc/layman/layman.conf`` for example::
+repository to the supported list.
+
+If you're using layman v1.2.4 or newer, then the ``support/layman2.xml`` should
+be added to the ``overlays`` section of ``/etc/layman/layman.conf``, for
+example::
+
+    overlays  : http://www.gentoo.org/proj/en/overlays/repositories.xml
+                file:///var/lib/repos/jnrowe-misc/support/layman2.xml
+
+If you're using layman v1.2.3 or earlier, then ``support/layman.xml`` should be
+added to the ``overlays`` section of ``/etc/layman/layman.conf``, for example::
 
     overlays  : http://www.gentoo.org/proj/en/overlays/layman-global.txt
                 file:///var/lib/repos/jnrowe-misc/support/layman.xml
@@ -58,6 +67,9 @@ to the ``overlays`` section of ``/etc/layman/layman.conf`` for example::
 Then you can add the overlay using ``layman``::
 
     # layman -a jnrowe-misc
+
+**Note**: You may need to run ``layman --fetch`` or perform a sync operation
+before this command will work.
 
 To sync the repository you can use ``layman`` directly, either syncing just
 this overlay or all your overlays at once::
