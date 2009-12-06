@@ -1,0 +1,24 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Invalid man page install path in apvlv.
+desc: ""
+type: :bugfix
+component: misc-overlay
+release: 
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2009-12-06 06:21:55.723974 Z
+references: []
+
+id: 3a12af55a7e27b7a87cf0432c7285e4e32ace4fe
+log_events: 
+- - 2009-12-06 06:21:56.379848 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2009-12-06 06:22:00.039955 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 
