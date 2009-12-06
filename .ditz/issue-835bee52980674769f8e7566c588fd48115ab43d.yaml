@@ -1,0 +1,26 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: app-vim/snipmate is available in the main tree.
+desc: |-
+  snipmate is now available in the main tree, once it is stabilised this ebuild
+  can be dropped.
+type: :task
+component: misc-overlay
+release: 
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2009-12-06 18:32:05.023983 Z
+references: []
+
+id: 835bee52980674769f8e7566c588fd48115ab43d
+log_events: 
+- - 2009-12-06 18:32:06.003855 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2009-12-06 18:32:12.211948 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 
