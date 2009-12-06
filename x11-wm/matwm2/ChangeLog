@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 Dec 2009; James Rowe <jnrowe@gmail.com> matwm2-0.0.85.ebuild:
+  Keyworded amd64.
+
   23 Nov 2009; James Rowe <jnrowe@gmail.com>
   -files/matwm2-0.0.68-build_fixes.patch:
   Removed unused files.
