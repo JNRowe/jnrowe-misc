@@ -1,0 +1,22 @@
+dev-lang/vala dev-libs/libgee >=dev-util/git-1.6
+x11-libs/gtk+
+0
+
+
+http://baruch.github.com/notmuch-gtk/
+GPL-3
+A Gtk+ interface to the notmuch mail client
+~amd64
+eutils git multilib portability toolchain-funcs
+
+
+
+
+2
+
+install prepare unpack
+
+
+
+
+
