@@ -31,8 +31,8 @@ Bug reports
 * Jens Wulf
 * Jesper Tremblay
 * Kristian Cole
+* Matthew Turner
 * Shi Tang
-* cookiemon5ter
 
 Ideas
 '''''
