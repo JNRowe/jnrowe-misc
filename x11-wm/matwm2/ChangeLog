@@ -6,7 +6,7 @@
 
   06 Dec 2009; James Rowe <jnrowe@gmail.com> +matwm2-0.0.90.ebuild,
   +files/matwm2-0.0.90-build_fixes.patch:
-  Version bump [dcc].  Thanks to cookiemon5ter for the nudge.
+  Version bump [dcc].  Thanks to Matthew Turner for the nudge.
 
   06 Dec 2009; James Rowe <jnrowe@gmail.com> matwm2-0.0.85.ebuild:
   Keyworded amd64.
