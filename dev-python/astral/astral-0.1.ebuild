@@ -7,8 +7,8 @@ EAPI="2"
 inherit distutils
 
 DESCRIPTION="Calculations for the position of the sun"
-HOMEPAGE="http://www.sffjunkie.co.uk/python.html"
-SRC_URI="http://www.sffjunkie.co.uk/files/python/astral-0.1.zip"
+HOMEPAGE="http://www.sffjunkie.co.uk/python-astral.html"
+SRC_URI="http://www.sffjunkie.co.uk/files/python/${P}.zip"
 
 LICENSE="MIT"
 SLOT="0"
