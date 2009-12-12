@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*apvlv-0.0.8.1 (12 Dec 2009)
+
+  12 Dec 2009; James Rowe <jnrowe@gmail.com> +apvlv-0.0.8.1.ebuild:
+  Version bump [cf8].
+
   06 Dec 2009; James Rowe <jnrowe@gmail.com> apvlv-0.0.7.4.ebuild,
   apvlv-0.0.7.5.ebuild:
   Fixed invalid man page install path [3a1].  Thanks to Matthew Turner for
