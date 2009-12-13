@@ -4,7 +4,7 @@
 
 EAPI="2"
 
-inherit bash-completion
+inherit autotools bash-completion
 
 MY_P=task-${PV}
 DESCRIPTION="A GTD, todo list, task management, command line utility"
@@ -20,6 +20,11 @@ DEPEND="sys-libs/ncurses"
 RDEPEND="${DEPEND}"
 
 S="${WORKDIR}"/${MY_P}
+
+src_prepare() {
+	sed -i 's, -O3,,' configure.ac
+	eautoreconf
+}
 
 src_install() {
 	emake DESTDIR="${D}" docdir="/trash" install \

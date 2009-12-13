@@ -4,6 +4,8 @@
 
 EAPI="2"
 
+inherit autotools
+
 MY_P=task-${PV}
 DESCRIPTION="A GTD, todo list, task management, command line utility"
 HOMEPAGE="http://taskwarrior.org/projects/show/taskwarrior/"
@@ -18,6 +20,11 @@ DEPEND="sys-libs/ncurses"
 RDEPEND="${DEPEND}"
 
 S="${WORKDIR}"/${MY_P}
+
+src_prepare() {
+	sed -i 's, -O3,,' configure.ac
+	eautoreconf
+}
 
 src_install() {
 	emake DESTDIR="${D}" docdir="\${datarootdir}/doc/${PF}" install \
