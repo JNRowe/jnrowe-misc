@@ -28,6 +28,7 @@ Bug reports
 
 * Erin Sandusky
 * Fabien Courtois
+* Jake Archer
 * Jens Wulf
 * Jesper Tremblay
 * Kristian Cole

@@ -1,0 +1,24 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: app-text/apvlv-0.0.8.1 has automagic djvu dependency.
+desc: ""
+type: :bugfix
+component: misc-overlay
+release: 
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2009-12-14 10:32:37.855964 Z
+references: []
+
+id: 2ca7641993a1f7a1a8cb7ab01d5cde6b874e118a
+log_events: 
+- - 2009-12-14 10:32:45.975863 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - Thanks to Jake Archer for reporting.
+- - 2009-12-14 10:32:50.463955 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 
