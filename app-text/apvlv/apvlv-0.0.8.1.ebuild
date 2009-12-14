@@ -14,22 +14,25 @@ SRC_URI="http://${PN}.googlecode.com/files/${P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
+IUSE="djvu"
 
 DEPEND="${RDEPEND}
 	dev-util/pkgconfig"
 RDEPEND="virtual/poppler-glib
-	x11-libs/gtk+:2"
+	x11-libs/gtk+:2
+	djvu? ( app-text/djvu )"
 
 src_prepare() {
 	epatch "${FILESDIR}"/${PN}-0.0.7.4-build_fixes.patch
-	eautomake
+	epatch "${FILESDIR}"/${P}-automagic_djvu.patch
+	eautoreconf
 }
 
 src_configure() {
 	# Package overrides standard --mandir setting with --with-mandir
 	econf --with-docdir="/usr/share/doc/${PF}" \
-		--with-mandir="/usr/share/man"
+		--with-mandir="/usr/share/man" \
+		$(use_with djvu)
 }
 
 src_install() {
