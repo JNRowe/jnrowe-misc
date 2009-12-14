@@ -46,6 +46,22 @@ Ideas
 If I've forgotten to include your name I wholeheartedly apologise.  Just drop me
 an email_ and I'll update the list!
 
+``oilman`` integration
+----------------------
+
+If you use ``oilman`` to manage your repositories you can call::
+
+    # oilman --add-repository jnrowe::misc
+
+Or, if you'd rather use the rsync_ mirror::
+
+    # oilman --method=rsync --add-repository jnrowe::misc
+
+To sync the repository::
+
+    # oilman --sync jnrowe::misc # Sync this repository only
+    # oilman --sync all # or sync all repositories
+
 ``layman`` integration
 ----------------------
 
@@ -102,4 +118,5 @@ to make use of this functionality.
 .. _eix: http://eix.sourceforge.net
 .. _cupage: http://github.com/JNRowe/cupage
 .. _GitHub: http://github.com/
+.. _rsync: http://rsync.samba.org/
 
