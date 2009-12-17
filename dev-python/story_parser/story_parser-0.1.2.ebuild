@@ -11,7 +11,7 @@ HOMEPAGE="http://github.com/hugobr/story_parser"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="test"
 
 DEPEND="dev-python/setuptools
