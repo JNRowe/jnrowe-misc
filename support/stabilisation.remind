@@ -20,5 +20,7 @@ REM 2010-01-11 +1 MSG Stabilise amd64 app-text/apvlv-0.0.8.1 %a
 REM 2010-01-11 +1 MSG Stabilise x86 app-text/apvlv-0.0.8.1 %a
 REM 2010-01-12 +1 MSG Stabilise amd64 app-misc/taskwarrior-1.8.5 %a
 REM 2010-01-12 +1 MSG Stabilise x86 app-misc/taskwarrior-1.8.5 %a
+REM 2010-01-20 +1 MSG Stabilise amd64 app-vim/rails-4.1 %a
+REM 2010-01-20 +1 MSG Stabilise x86 app-vim/rails-4.1 %a
 
 # vim: set sw=4 sts=4 et tw=80 fenc=utf-8 ft=remind:
