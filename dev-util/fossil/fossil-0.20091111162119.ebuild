@@ -4,7 +4,7 @@
 
 EAPI="2"
 
-inherit toolchain-funcs versionator
+inherit eutils toolchain-funcs versionator
 
 MY_P=${PN}-src-$(get_version_component_range 2)
 
@@ -24,6 +24,7 @@ S=${WORKDIR}/${MY_P}
 
 src_prepare() {
 	sed -i "/^TCC/s,gcc -g -O[2s],$(tc-getCC)," Makefile
+	epatch "${FILESDIR}"/${PN}-0.20091220213451-system_sqlite.patch
 }
 
 src_install() {

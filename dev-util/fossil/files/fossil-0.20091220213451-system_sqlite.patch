@@ -1,0 +1,28 @@
+diff --git i/Makefile w/Makefile
+index 0dfc11c..bcd089c 100644
+--- i/Makefile
++++ w/Makefile
+@@ -34,7 +34,7 @@ TCC = gcc -g -Os -Wall
+ #    so that we can build a static executable that will run in a
+ #    chroot jail.
+ #
+-LIB = -lz $(LDFLAGS)
++LIB = -lz -lsqlite3 $(LDFLAGS)
+ # If you're on OpenSolaris:
+ # LIB += lsocket
+ # Solaris 10 needs:
+diff --git i/src/main.mk w/src/main.mk
+index 6fe8347..c9ebbc1 100644
+--- i/src/main.mk
++++ w/src/main.mk
+@@ -254,8 +254,8 @@ VERSION.h:	$(SRCDIR)/../manifest.uuid $(SRCDIR)/../manifest
+ 	awk '{ printf "#define MANIFEST_VERSION \"[%.10s]\"\n", $$1}'  $(SRCDIR)/../manifest.uuid >>VERSION.h
+ 	awk '$$1=="D"{printf "#define MANIFEST_DATE \"%s %s\"\n", substr($$2,1,10),substr($$2,12)}'  $(SRCDIR)/../manifest >>VERSION.h
+ 
+-$(APPNAME):	headers $(OBJ) sqlite3.o th.o th_lang.o
+-	$(TCC) -o $(APPNAME) $(OBJ) sqlite3.o th.o th_lang.o $(LIB)
++$(APPNAME):	headers $(OBJ) th.o th_lang.o
++	$(TCC) -o $(APPNAME) $(OBJ) th.o th_lang.o $(LIB)
+ 
+ # This rule prevents make from using its default rules to try build
+ # an executable named "manifest" out of the file named "manifest.c"
