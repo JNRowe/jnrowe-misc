@@ -2,6 +2,9 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  22 Dec 2009; James Rowe <jnrowe@gmail.com> apvlv-0.0.7.5.ebuild:
+  Keyworded amd64.
+
   14 Dec 2009; James Rowe <jnrowe@gmail.com> apvlv-0.0.8.1.ebuild,
   +files/apvlv-0.0.8.1-automagic_djvu.patch:
   Fix automagic djvu dependency [2ca]. Thanks to Jake Archer for reporting.
