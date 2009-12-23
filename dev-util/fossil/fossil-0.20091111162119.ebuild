@@ -14,7 +14,7 @@ SRC_URI="http://www.fossil-scm.org/download/${MY_P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="test"
 
 DEPEND="test? ( dev-lang/tcl )"

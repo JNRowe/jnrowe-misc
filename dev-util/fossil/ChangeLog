@@ -2,6 +2,10 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  23 Dec 2009; James Rowe <jnrowe@gmail.com>
+  -fossil-0.20090921191920-r1.ebuild, fossil-0.20091111162119.ebuild:
+  Keyworded x86.
+
   23 Dec 2009; James Rowe <jnrowe@gmail.com> fossil-0.20091111162119.ebuild:
   Keyworded amd64.
 
