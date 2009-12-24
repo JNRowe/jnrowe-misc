@@ -1,0 +1,24 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Add initial hub ebuild.
+desc: github.com/defunkt/hub
+type: :task
+component: misc-overlay
+release: 
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2009-12-24 04:19:11.434416 Z
+references: []
+
+id: 71a7260ab9c74d248c00f049081b1ecc0bb68fc1
+log_events: 
+- - 2009-12-24 04:19:11.947453 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2009-12-24 04:19:16.196567 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 
