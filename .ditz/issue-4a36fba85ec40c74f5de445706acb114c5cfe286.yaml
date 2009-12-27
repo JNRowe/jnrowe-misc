@@ -24,5 +24,12 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - edited title
   - ""
+- - 2009-12-27 20:16:07.091513 Z
+  - James Rowe <jnrowe@gmail.com>
+  - commented
+  - |-
+    hg-git is no longer tracked in this overlay, as it is has been added upstream.
+    Unfortunately, we need some of the new changes from this new version so it may
+    have to be readded.
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 
