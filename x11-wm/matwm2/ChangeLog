@@ -2,6 +2,11 @@
 # Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  27 Dec 2009; James Rowe <jnrowe@gmail.com>
+  -files/matwm2-0.0.85-build_fixes.patch,
+  -files/matwm2-0.0.87-build_fixes.patch:
+  Removed obsolete patches.
+
 *matwm2-0.0.92 (27 Dec 2009)
 
   27 Dec 2009; James Rowe <jnrowe@gmail.com> +matwm2-0.0.92.ebuild,
