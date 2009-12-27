@@ -1,5 +1,5 @@
 --- !ditz.rubyforge.org,2008-03-06/issue 
-title: dev-util/hg-git-0.2.0 version bump.
+title: dev-util/hg-git-0.2.1 version bump.
 desc: ""
 type: :feature
 component: misc-overlay
@@ -19,6 +19,10 @@ log_events:
 - - 2009-12-27 19:41:30.803931 Z
   - James Rowe <jnrowe@gmail.com>
   - issue claimed
+  - ""
+- - 2009-12-27 19:44:14.756007 Z
+  - James Rowe <jnrowe@gmail.com>
+  - edited title
   - ""
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 
