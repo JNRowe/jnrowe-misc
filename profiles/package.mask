@@ -1,5 +1,9 @@
 # extra line needed because portage is buggy
 
+# James Rowe <jnrowe@gmail.com> (1 Jan 2010)
+# live ebuild for hub
+=dev-util/hub-9999
+
 # James Rowe <jnrowe@gmail.com> (9 Dec 2009)
 # live ebuild for notmuch-gtk
 =mail-client/notmuch-gtk-9999

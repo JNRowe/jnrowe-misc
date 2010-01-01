@@ -1,0 +1,22 @@
+virtual/ruby >=dev-util/git-1.6
+virtual/ruby
+0
+
+
+http://github.com/defunkt/hub
+MIT
+hub is a command line utility which adds GitHub knowledge to git
+~amd64 ~x86
+eutils git multilib portability ruby toolchain-funcs
+
+
+
+
+2
+
+compile install prepare unpack
+
+
+
+
+
