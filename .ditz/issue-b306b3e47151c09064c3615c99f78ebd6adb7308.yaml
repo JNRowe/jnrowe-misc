@@ -1,0 +1,24 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: x11-wm/matwm2-0.0.95 version bump.
+desc: ""
+type: :feature
+component: misc-overlay
+release: 
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-01-01 07:51:50.395942 Z
+references: []
+
+id: b306b3e47151c09064c3615c99f78ebd6adb7308
+log_events: 
+- - 2010-01-01 07:51:51.119806 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2010-01-01 07:51:55.243916 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 
