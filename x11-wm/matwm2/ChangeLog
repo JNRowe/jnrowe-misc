@@ -1,6 +1,11 @@
 # ChangeLog for x11-wm/matwm2
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*matwm2-0.0.95 (02 Jan 2010)
+
+  02 Jan 2010; James Rowe <jnrowe@gmail.com> +matwm2-0.0.95.ebuild:
+  Version bump [b30].
 
 *matwm2-0.0.94 (30 Dec 2009)
 
