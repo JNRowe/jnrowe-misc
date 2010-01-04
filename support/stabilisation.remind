@@ -16,5 +16,7 @@ REM 2010-01-29 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 x11-wm/matwm2-0.0.94 %
 REM 2010-01-29 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 x11-wm/matwm2-0.0.94 %a
 REM 2010-02-03 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 x11-wm/matwm2-0.0.95 %a
 REM 2010-02-03 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 x11-wm/matwm2-0.0.95 %a
+REM 2010-02-03 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 x11-plugins/vicious-1.0.22 %a
+REM 2010-02-03 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 x11-plugins/vicious-1.0.22 %a
 
 # vim: set sw=4 sts=4 et tw=80 fenc=utf-8 ft=remind:
