@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*matwm2-0.0.96 (04 Jan 2010)
+
+  04 Jan 2010; James Rowe <jnrowe@gmail.com> +matwm2-0.0.96.ebuild:
+  Version bump [9b6]. Thanks to Matthew Turner for the nudge.
+
 *matwm2-0.0.95 (02 Jan 2010)
 
   02 Jan 2010; James Rowe <jnrowe@gmail.com> +matwm2-0.0.95.ebuild:
