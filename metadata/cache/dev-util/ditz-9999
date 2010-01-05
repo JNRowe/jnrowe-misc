@@ -10,7 +10,7 @@ A simple, light-weight distributed issue tracker designed for dVCS
 bash-completion eutils git multilib portability ruby toolchain-funcs
 zsh-completion bash-completion
 
-
+bash-completion? ( app-shells/bash-completion )
 
 2
 

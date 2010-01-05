@@ -10,7 +10,7 @@ A fast unix command line interface to WWW
 bash-completion eutils git multilib portability toolchain-funcs
 bash-completion
 
-
+bash-completion? ( app-shells/bash-completion )
 
 2
 

@@ -10,7 +10,7 @@ amd64 x86
 bash-completion eutils multilib portability ruby toolchain-funcs
 zsh-completion bash-completion
 
-
+bash-completion? ( app-shells/bash-completion )
 
 2
 

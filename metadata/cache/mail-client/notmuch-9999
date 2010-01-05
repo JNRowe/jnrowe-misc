@@ -10,7 +10,7 @@ Thread-based email index, search and tagging.
 bash-completion elisp-common eutils git multilib portability toolchain-funcs
 X debug emacs vim zsh-completion bash-completion
 
-
+bash-completion? ( app-shells/bash-completion )
 
 2
 
