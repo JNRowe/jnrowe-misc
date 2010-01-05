@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  05 Jan 2010; James Rowe <jnrowe@gmail.com> -matwm2-0.0.89.ebuild,
+  matwm2-0.0.90.ebuild:
+  Keyworded x86.
+
   05 Jan 2010; James Rowe <jnrowe@gmail.com> matwm2-0.0.90.ebuild:
   Keyworded amd64.
 
