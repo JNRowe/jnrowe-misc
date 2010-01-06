@@ -8,12 +8,6 @@ REM 2010-01-20 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 app-vim/rails-4.1 %a
 REM 2010-01-20 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 app-vim/rails-4.1 %a
 REM 2010-01-20 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-util/fossil-0.20091220213451 %a
 REM 2010-01-20 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-util/fossil-0.20091220213451 %a
-REM 2010-01-26 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 x11-wm/matwm2-0.0.92 %a
-REM 2010-01-26 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 x11-wm/matwm2-0.0.92 %a
-REM 2010-01-29 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 x11-wm/matwm2-0.0.94 %a
-REM 2010-01-29 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 x11-wm/matwm2-0.0.94 %a
-REM 2010-02-03 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 x11-wm/matwm2-0.0.95 %a
-REM 2010-02-03 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 x11-wm/matwm2-0.0.95 %a
 REM 2010-02-03 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 x11-plugins/vicious-1.0.22 %a
 REM 2010-02-03 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 x11-plugins/vicious-1.0.22 %a
 

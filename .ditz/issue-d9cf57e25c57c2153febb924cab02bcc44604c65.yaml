@@ -1,12 +1,12 @@
 --- !ditz.rubyforge.org,2008-03-06/issue 
-title: x11-wm/matwm2 in the main tree
+title: x11-wm/matwm2 in the main tree.
 desc: ""
 type: :feature
 component: misc-overlay
 release: 
 reporter: James Rowe <jnrowe@gmail.com>
-status: :unstarted
-disposition: 
+status: :closed
+disposition: :reorg
 creation_time: 2010-01-06 09:02:30.763883 Z
 references: []
 
@@ -19,6 +19,20 @@ log_events:
 - - 2010-01-06 09:02:36.467880 Z
   - James Rowe <jnrowe@gmail.com>
   - issue claimed
+  - ""
+- - 2010-01-06 09:03:12.143867 Z
+  - James Rowe <jnrowe@gmail.com>
+  - changed status from unstarted to in_progress
+  - ""
+- - 2010-01-06 09:05:54.518201 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition reorg
+  - |-
+    The matwm2 ebuilds are being moved to ::fixes, until both stabilisation and the
+    necessary changes are pushed upstream.  Volunteer for that still required!
+- - 2010-01-06 09:06:36.547932 Z
+  - James Rowe <jnrowe@gmail.com>
+  - edited title
   - ""
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 
