@@ -10,5 +10,7 @@ REM 2010-01-20 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-util/fossil-0.2009
 REM 2010-01-20 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-util/fossil-0.20091220213451 %a
 REM 2010-02-03 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 x11-plugins/vicious-1.0.22 %a
 REM 2010-02-03 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 x11-plugins/vicious-1.0.22 %a
+REM 2010-02-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 app-text/apvlv-0.0.9 %a
+REM 2010-02-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 app-text/apvlv-0.0.9 %a
 
 # vim: set sw=4 sts=4 et tw=80 fenc=utf-8 ft=remind:
