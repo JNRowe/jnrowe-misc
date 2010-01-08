@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Jan 2010; James Rowe <jnrowe@gmail.com> apvlv-0.0.7.5.ebuild,
+  apvlv-0.0.8.1.ebuild, apvlv-0.0.9.ebuild:
+  Added .desktop entry.
+
   08 Jan 2010; James Rowe <jnrowe@gmail.com>
   files/apvlv-0.0.7.4-build_fixes.patch:
   Fixed mangled patch file.

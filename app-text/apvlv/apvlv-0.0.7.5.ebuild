@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -34,4 +34,6 @@ src_configure() {
 
 src_install() {
 	emake DESTDIR="${D}" install || die "make install failed"
+	make_desktop_entry /usr/bin/${PN} "PDF Viewer which behaves like Vim" \
+		"" "Office;Viewer" # No icon currently
 }

@@ -36,4 +36,6 @@ src_configure() {
 
 src_install() {
 	emake DESTDIR="${D}" install || die "make install failed"
+	make_desktop_entry /usr/bin/${PN} "PDF Viewer which behaves like Vim" \
+		"" "Office;Viewer" # No icon currently
 }
