@@ -33,16 +33,6 @@ diff --git i/src/ApvlvUtil.cpp w/src/ApvlvUtil.cpp
 index eb8aa37..809d762 100644
 --- i/src/ApvlvUtil.cpp
 +++ w/src/ApvlvUtil.cpp
-@@ -46,7 +46,8 @@ namespace apvlv
- {
- 
- #ifdef WIN32
--  string helppdf = "~\\Startup.pdf";
-+  string eAC_DEFINE_UNQUOTED(DOCDIR, ["$docdir"], [The documents directory])
-+elppdf = "~\\Startup.pdf";
-   string iniexam = "~\\apvlvrc.example";
-   string iconreg = "~\\reg.png";
-   string icondir = "~\\dir.png";
 @@ -56,9 +57,9 @@ namespace apvlv
  #else
    string helppdf = string (DOCDIR) + "/Startup.pdf";
