@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*mpdcron-9999 (09 Jan 2010)
+
+  09 Jan 2010; James Rowe <jnrowe@gmail.com> +mpdcron-9999.ebuild:
+  Added live git ebuild.
+
 *mpdcron-0.3 (09 Jan 2010)
 
   09 Jan 2010; James Rowe <jnrowe@gmail.com> +mpdcron-0.3.ebuild,

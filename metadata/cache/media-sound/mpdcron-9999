@@ -1,0 +1,22 @@
+dev-util/pkgconfig =sys-devel/automake-1.10* >=sys-devel/autoconf-2.61 sys-devel/libtool >=dev-util/git-1.6
+>=dev-libs/glib-2.16 >=dev-libs/libdaemon-0.12 >=media-libs/libmpdclient-2.1
+0
+
+
+http://alip.github.com/mpdcron/
+GPL-2
+A hook daemon for mpd, it polls mpd and runs hooks on events
+~amd64 ~x86
+autotools eutils git libtool multilib portability toolchain-funcs
+zsh-completion
+
+
+
+2
+
+install prepare unpack
+
+
+
+
+
