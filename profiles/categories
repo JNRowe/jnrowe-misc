@@ -16,5 +16,6 @@ media-sound
 net-mail
 sys-fs
 www-client
+x11-libs
 x11-plugins
 x11-wm

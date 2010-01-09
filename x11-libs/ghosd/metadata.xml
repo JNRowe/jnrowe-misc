@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Ghosd is a library for flashing information to the screen in an
+		attractive manner. The venerable XOSD has served many well, but I wanted
+		something that looks flashier. To that end, Ghosd supports:
+		
+			* (pseudo-)transparency, which means not only unneccessary graphical 
+			  effects but also antialiased edges on fonts;
+			* Pango for high-quality text layout and rendering;
+			* Cairo for nice 2D graphics.
+
+		It's a tiny amount of code and available under the MIT license.
+	</longdescription>
+</pkgmetadata>
+
