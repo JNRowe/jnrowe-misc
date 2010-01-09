@@ -15,5 +15,10 @@
 			Sets special environment variables to pass data to the hooks.
 			Optional support for modules via GModule.
 	</longdescription>
+	<use>
+		<flag name="scrobbler">
+			Enable support for last.fm aka audioscrobbler
+		</flag>
+	</use>
 </pkgmetadata>
 

@@ -1,5 +1,5 @@
 dev-util/pkgconfig
->=dev-libs/glib-2.18 >=dev-libs/libdaemon-0.13 >=media-libs/libmpdclient-2.1
+>=dev-libs/glib-2.18 >=dev-libs/libdaemon-0.13 >=media-libs/libmpdclient-2.1 libnotify? ( x11-libs/libnotify ) scrobbler? ( net-misc/curl )
 0
 http://dev.exherbo.org/~alip/mpdcron/mpdcron-0.3.tar.bz2
 
@@ -8,13 +8,13 @@ GPL-2
 A hook daemon for mpd, it polls mpd and runs hooks on events
 ~amd64 ~x86
 
-zsh-completion
+libnotify scrobbler zsh-completion
 
 
 
 2
 
-install
+configure install
 
 
 

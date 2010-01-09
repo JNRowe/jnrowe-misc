@@ -12,16 +12,33 @@ SRC_URI="http://dev.exherbo.org/~alip/mpdcron/${P}.tar.bz2"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="zsh-completion"
+IUSE="libnotify scrobbler zsh-completion"
 
 DEPEND="${RDEPEND}
 	dev-util/pkgconfig"
 RDEPEND=">=dev-libs/glib-2.18
 	>=dev-libs/libdaemon-0.13
-	>=media-libs/libmpdclient-2.1"
+	>=media-libs/libmpdclient-2.1
+	libnotify? ( x11-libs/libnotify )
+	scrobbler? ( net-misc/curl )"
 
 # If we were using github downloads.
 #S="${WORKDIR}/alip-${PN}-69078ad"
+
+src_configure() {
+	local mods modnames moduse
+
+	# stats module isn't currently supported, as I can't test it.
+	modnames=(notification "")
+	moduse=(libnotify scrobbler)
+	for mod in $(seq 0 $(( ${#modnames[@]} - 1))); do
+		if use ${moduse[${mod}]}; then
+			mods=${mods:+${mods},}${modnames[${mod}]:-${moduse[${mod}]}}
+		fi
+	done
+	econf --enable-gmodule \
+		--with-standard-modules=${mods}
+}
 
 src_install() {
 	local docdir=/usr/share/doc/${PF}
