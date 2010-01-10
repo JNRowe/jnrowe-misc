@@ -1,12 +1,12 @@
 --- !ditz.rubyforge.org,2008-03-06/issue 
-title: Support MY_PN in jnrowe-pipi.eclass.
+title: Support MY_PN in jnrowe-pypi.eclass.
 desc: ""
 type: :feature
 component: misc-overlay
 release: 
 reporter: James Rowe <jnrowe@gmail.com>
-status: :unstarted
-disposition: 
+status: :closed
+disposition: :fixed
 creation_time: 2010-01-09 20:59:10.879882 Z
 references: []
 
@@ -19,6 +19,18 @@ log_events:
 - - 2010-01-09 20:59:15.563859 Z
   - James Rowe <jnrowe@gmail.com>
   - issue claimed
+  - ""
+- - 2010-01-10 08:47:40.911857 Z
+  - James Rowe <jnrowe@gmail.com>
+  - changed status from unstarted to in_progress
+  - ""
+- - 2010-01-10 09:08:29.591816 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition fixed
+  - ""
+- - 2010-01-10 09:09:22.943932 Z
+  - James Rowe <jnrowe@gmail.com>
+  - edited title
   - ""
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 

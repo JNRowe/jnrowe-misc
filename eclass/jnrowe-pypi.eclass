@@ -9,8 +9,14 @@ inherit distutils
 # Purpose: Simplify ebuilds for pypi hosted packages and remove setuptools deps
 #
 
-HOMEPAGE="http://pypi.python.org/pypi/${PN}/"
-SRC_URI="http://pypi.python.org/packages/source/${PN::1}/${PN}/${P}.tar.gz"
+HOMEPAGE="http://pypi.python.org/pypi/${MY_PN:-${PN}}/"
+# Unfortunately, you can't use ${MY_PN::1:-${PN::1}} so...
+if [[ -n "${MY_P}" && -n "${MY_PN}" ]]; then
+	debug-print "Using MY_P SRC_URI override"
+	SRC_URI="http://pypi.python.org/packages/source/${MY_PN::1}/${MY_PN}/${MY_P}.tar.gz"
+else
+	SRC_URI="http://pypi.python.org/packages/source/${PN::1}/${PN}/${P}.tar.gz"
+fi
 
 # Based on make_wrapper from eutils.eclass
 # @FUNCTION: module_script_wrapper
