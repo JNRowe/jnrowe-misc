@@ -1,4 +1,4 @@
-app-arch/unzip >=app-admin/eselect-python-20090804 >=app-shells/bash-3.2 virtual/python
+app-arch/unzip >=app-admin/eselect-python-20090804 virtual/python
 virtual/python
 0
 http://pydelicious.googlecode.com/files/pydelicious-0.5.2-rc2.zip
