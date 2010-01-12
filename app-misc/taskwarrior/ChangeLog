@@ -1,6 +1,9 @@
 # ChangeLog for app-misc/taskwarrior
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  12 Jan 2010; James Rowe <jnrowe@gmail.com> taskwarrior-1.8.5.ebuild:
+  Keyworded amd64.
 
   23 Dec 2009; James Rowe <jnrowe@gmail.com> -taskwarrior-1.8.2.ebuild,
   taskwarrior-1.8.4.ebuild:
