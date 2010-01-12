@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		gselt watches the X selection and displays a menu of actions that can be
+		done with the text that is currently selected. Actions are configurable
+		and specify regular expressions to match against the selection.
+	</longdescription>
+</pkgmetadata>
+

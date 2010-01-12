@@ -16,5 +16,6 @@ net-mail
 sys-fs
 www-client
 x11-libs
+x11-misc
 x11-plugins
 x11-wm
