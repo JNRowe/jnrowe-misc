@@ -1,0 +1,22 @@
+>=dev-util/git-1.6
+dev-lang/ruby
+0
+
+
+http://github.com/defunkt/gist
+MIT
+Absolutely the best command line gister
+~amd64 ~x86
+eutils git multilib portability toolchain-funcs
+
+
+
+
+2
+
+install prepare unpack
+
+
+
+
+

@@ -1,5 +1,9 @@
 # extra line needed because portage is buggy
 
+# James Rowe <jnrowe@gmail.com> (12 Jan 2010)
+# live ebuild for gist
+=app-text/gist-9999
+
 # James Rowe <jnrowe@gmail.com> (9 Jan 2010)
 # live ebuild for mpdcron
 =media-sound/mpdcron-9999
