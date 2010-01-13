@@ -1,0 +1,22 @@
+>=app-admin/eselect-python-20090804 virtual/python
+dev-python/docutils dev-python/kid virtual/python
+0
+http://www.red-bean.com/decklin/mnemosyne//mnemosyne-0.12.tar.gz
+
+http://www.red-bean.com/decklin/mnemosyne/
+MIT
+A static weblog compiler, using maildirs and reST
+~amd64 ~x86
+distutils eutils multilib portability python toolchain-funcs
+examples
+
+
+
+2
+
+compile install postinst postrm prepare unpack
+
+
+
+
+

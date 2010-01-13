@@ -1,0 +1,10 @@
+# ChangeLog for www-apps/mnemosyne
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*mnemosyne-0.12 (13 Jan 2010)
+
+  13 Jan 2010; James Rowe <jnrowe@gmail.com> +mnemosyne-0.12.ebuild,
+  +metadata.xml:
+  Initial ebuild, by me.
+

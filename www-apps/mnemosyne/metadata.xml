@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Mnemosyne is a weblog compiler: it reads in some entries and produces
+		static XHTML and XML files. Unlike most blogging software, it uses
+		a Maildir for storage. Maildir has the advantage of being both
+		content-addressable (no maintaining a file hierarchy) and hackable with
+		standard unix tools (no fancy databases, etc).
+	</longdescription>
+</pkgmetadata>
+
