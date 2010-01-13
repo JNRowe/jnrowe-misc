@@ -53,4 +53,3 @@ src_install() {
 		doins zsh-completion/_${PN}
 	fi
 }
-
