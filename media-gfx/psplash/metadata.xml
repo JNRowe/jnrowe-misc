@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		PSplash is a tiny userspace graphical boot splash screen for mainly
+		embedded Linux devices supporting a 16bpp or 32bpp framebuffer. It has
+		few dependencies (just libc), supports basic images and text and handles
+		rotation. Its visual look is configurable by basic source changes.
+	</longdescription>
+</pkgmetadata>
+

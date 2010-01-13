@@ -26,5 +26,7 @@ REM 2010-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 www-apps/mnemosyne-0.1
 REM 2010-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 www-apps/mnemosyne-0.12 %a
 REM 2010-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 x11-misc/winmatch-0.5 %a
 REM 2010-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 x11-misc/winmatch-0.5 %a
+REM 2010-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/psplash-0.1 %a
+REM 2010-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/psplash-0.1 %a
 
 # vim: set sw=4 sts=4 et tw=80 fenc=utf-8 ft=remind:
