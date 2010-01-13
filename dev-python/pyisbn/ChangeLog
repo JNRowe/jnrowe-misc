@@ -1,6 +1,9 @@
 # ChangeLog for dev-python/pyisbn
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  13 Jan 2010; James Rowe <jnrowe@gmail.com> pyisbn-0.5.1.ebuild:
+  Keyworded amd64.
 
   12 Nov 2009; James Rowe <jnrowe@gmail.com> pyisbn-0.5.0.ebuild,
   pyisbn-0.5.1.ebuild:
