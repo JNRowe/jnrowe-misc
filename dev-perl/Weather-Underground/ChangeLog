@@ -1,0 +1,10 @@
+# ChangeLog for dev-perl/Weather-Underground
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*Weather-Underground-3.02 (13 Jan 2010)
+
+  13 Jan 2010; James Rowe <jnrowe@gmail.com>
+  +Weather-Underground-3.02.ebuild, +metadata.xml:
+  Initial ebuild, by me.
+
