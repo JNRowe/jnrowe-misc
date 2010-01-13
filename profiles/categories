@@ -5,6 +5,7 @@ app-vim
 dev-haskell
 dev-lang
 dev-libs
+dev-perl
 dev-python
 dev-ruby
 dev-util
@@ -14,6 +15,7 @@ media-gfx
 media-sound
 net-mail
 sys-fs
+www-apps
 www-client
 x11-libs
 x11-misc
