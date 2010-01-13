@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		A class to wrap Mark Pilgrim's Universal Feed Parser module so that
+		parameters can be used to cache the feed results locally instead of
+		fetching the feed every time it is requested. Uses both etag and
+		modified times for caching. The cache is parameterized to use different
+		backend storage options.
+	</longdescription>
+</pkgmetadata>
+
