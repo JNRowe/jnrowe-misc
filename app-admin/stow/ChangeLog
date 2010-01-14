@@ -1,6 +1,9 @@
 # ChangeLog for app-admin/stow
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  14 Jan 2010; James Rowe <jnrowe@gmail.com> stow-9999.ebuild:
+  Dropped keywords in live ebuild.
 
   07 Dec 2009; James Rowe <jnrowe@gmail.com> stow-9999.ebuild:
   Dropped sparc keyword, as deps are broken.

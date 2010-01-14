@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/www-client/surfraw/surfraw-2.2.5.ebuild,v 1.6 2009/07/19 14:27:32 nixnut Exp $
 
@@ -14,7 +14,7 @@ SRC_URI=""
 
 SLOT="0"
 LICENSE="public-domain"
-KEYWORDS="~amd64 ~hppa ~ppc ~sparc ~x86"
+KEYWORDS=""
 IUSE=""
 RESTRICT="test"
 
