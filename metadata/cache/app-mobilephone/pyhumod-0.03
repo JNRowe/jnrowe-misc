@@ -1,5 +1,5 @@
 >=app-admin/eselect-python-20090804 virtual/python
-dev-python/pyserial net-dialup/ppp virtual/python
+dev-python/pyserial net-dialup/ppp dbus? ( dev-python/dbus-python ) virtual/python
 0
 http://pyhumod.googlecode.com/files/pyhumod-0.03.tar.gz
 
@@ -8,7 +8,7 @@ BSD
 Accessing Huawei modems in Python, including SMS and data calls.
 ~amd64 ~x86
 distutils eutils multilib portability python toolchain-funcs
-
+dbus
 
 
 

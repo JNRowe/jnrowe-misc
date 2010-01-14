@@ -3,6 +3,9 @@
 # $Header: $
 
   14 Jan 2010; James Rowe <jnrowe@gmail.com> pyhumod-0.03.ebuild:
+  Display a message about dbus usage for the modem detection.
+
+  14 Jan 2010; James Rowe <jnrowe@gmail.com> pyhumod-0.03.ebuild:
   Fixed bytecode generation due to missing PYTHON_MODNAME.
 
 *pyhumod-0.03 (14 Jan 2010)

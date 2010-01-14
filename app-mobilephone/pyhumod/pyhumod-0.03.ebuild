@@ -13,11 +13,12 @@ SRC_URI="http://${PN}.googlecode.com/files/${P}.tar.gz"
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
+IUSE="dbus"
 
 DEPEND=""
 RDEPEND="dev-python/pyserial
-	net-dialup/ppp"
+	net-dialup/ppp
+	dbus? ( dev-python/dbus-python )"
 
 PYTHON_MODNAME="humod"
 
@@ -30,4 +31,13 @@ src_install() {
 
 	insinto /etc/ppp/peers/
 	doins conf/humod
+}
+
+pkg_postinst() {
+	distutils_pkg_postinst
+
+	if ! use dbus; then
+		elog "dbus support is required for modem detection.  Either rebuild with"
+		elog "USE=dbus or manually install dev-python/dbus-python."
+	fi
 }
