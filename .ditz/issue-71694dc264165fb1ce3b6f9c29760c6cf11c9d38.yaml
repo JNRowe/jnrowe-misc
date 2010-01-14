@@ -1,12 +1,12 @@
 --- !ditz.rubyforge.org,2008-03-06/issue 
-title: dev-util/fossil-20100112141013 version bump.
+title: dev-util/fossil-0.20100112141013 version bump.
 desc: ""
 type: :feature
 component: misc-overlay
 release: 
 reporter: James Rowe <jnrowe@gmail.com>
-status: :unstarted
-disposition: 
+status: :closed
+disposition: :fixed
 creation_time: 2010-01-14 18:08:50.911855 Z
 references: []
 
@@ -19,6 +19,18 @@ log_events:
 - - 2010-01-14 18:08:55.267835 Z
   - James Rowe <jnrowe@gmail.com>
   - issue claimed
+  - ""
+- - 2010-01-14 20:47:34.355884 Z
+  - James Rowe <jnrowe@gmail.com>
+  - changed status from unstarted to in_progress
+  - ""
+- - 2010-01-14 20:54:35.347830 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition fixed
+  - ""
+- - 2010-01-14 20:58:37.615958 Z
+  - James Rowe <jnrowe@gmail.com>
+  - edited title
   - ""
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 
