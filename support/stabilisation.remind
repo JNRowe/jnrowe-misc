@@ -36,5 +36,7 @@ REM 2010-02-13 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 app-mobilephone/pyhumo
 REM 2010-02-13 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 app-mobilephone/pyhumod-0.03 %a
 REM 2010-02-13 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-util/fossil-0.20100112141013 %a
 REM 2010-02-13 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-util/fossil-0.20100112141013 %a
+REM 2010-02-13 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 x11-misc/yalias-0.7 %a
+REM 2010-02-13 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 x11-misc/yalias-0.7 %a
 
 # vim: set sw=4 sts=4 et tw=80 fenc=utf-8 ft=remind:

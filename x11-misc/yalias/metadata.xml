@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		A little tool that shows a window with a text field in, and matches
+		lines entered into it against regular expressions in a file; you can use
+		it to launch commands, start appropriate browsers for URLs, log into
+		machines, check spelling, and so on. UKC users will recognise this as
+		a modern take on the popular xalias tool.
+	</longdescription>
+</pkgmetadata>
+
