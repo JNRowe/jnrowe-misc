@@ -19,6 +19,8 @@ DEPEND=""
 RDEPEND="dev-python/pyserial
 	net-dialup/ppp"
 
+PYTHON_MODNAME="humod"
+
 src_prepare() {
 	sed -i -e '/^CONFIG_FILES/,/^$/d' -e '/CONFIG_FILES/d' setup.py
 }
