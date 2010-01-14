@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Sunwait is a small C program for calculating sunrise and sunset, as well
+		as civil, nautical, and astronomical twilights. It has features that
+		make it useful for home automation tasks.
+
+		The feature that makes this program slightly unique is that it can be
+		set to wait specific event (such as 5 minutes before sunrise), then
+		exit. This makes it useful for 'cron' jobs or 'scheduled tasks' when you
+		want something to happen relative to sunrise, sunset, or some other
+		astronomical event.
+	</longdescription>
+</pkgmetadata>
+
