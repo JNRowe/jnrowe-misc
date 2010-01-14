@@ -1,0 +1,31 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: dev-python/pyisbn-0.5.2 version bump.
+desc: ""
+type: :feature
+component: misc-overlay
+release: 
+reporter: James Rowe <jnrowe@gmail.com>
+status: :closed
+disposition: :reorg
+creation_time: 2010-01-14 18:09:24.471858 Z
+references: []
+
+id: 34b990e00e21ccc42b2099113144817e9f6043a1
+log_events: 
+- - 2010-01-14 18:09:31.603921 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2010-01-14 18:09:39.151844 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+- - 2010-01-14 18:11:10.674829 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition reorg
+  - |-
+    This is just an informational bug, there is no intent to package 0.5.2 as it was
+    never meant to be a proper release.  Its only purpose is to finish up pyisbn on
+    pypi.
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 
