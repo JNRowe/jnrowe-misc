@@ -17,4 +17,3 @@ IUSE=""
 
 DEPEND=""
 RDEPEND="dev-python/feedparser"
-
