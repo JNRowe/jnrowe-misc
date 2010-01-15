@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  15 Jan 2010; James Rowe <jnrowe@gmail.com> cupage-0.3.0.ebuild,
+  cupage-0.3.1.ebuild:
+  simplejson is required for python v2.5 or earlier.
+
 *cupage-0.3.1 (11 Jan 2010)
 
   11 Jan 2010; James Rowe <jnrowe@gmail.com> +cupage-0.3.1.ebuild:

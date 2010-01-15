@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -16,7 +16,8 @@ KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND=""
-RDEPEND="dev-python/lxml"
+RDEPEND="dev-python/lxml
+	|| ( >=dev-lang/python-2.6 dev-python/simplejson )"
 
 S="${WORKDIR}/JNRowe-${PN}-0bfa89d"
 
