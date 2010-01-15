@@ -5,10 +5,10 @@
 EAPI="2"
 SUPPORT_PYTHON_ABIS="1"
 
+PYPI_ARCHIVE_SUFFIX="tar.bz2"
 inherit jnrowe-pypi
 
 DESCRIPTION="simple, elegant HTML/XHTML generation"
-SRC_URI="http://pypi.python.org/packages/source/${PN::1}/${PN}/${P}.tar.bz2"
 
 LICENSE="BSD"
 SLOT="0"
