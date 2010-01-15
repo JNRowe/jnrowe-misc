@@ -1,0 +1,26 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: jnrowe-pypi eclass should support different archive types.
+desc: |-
+  Specifically tar.bz2, as needed by dev-python/html-1.8, but others may be useful
+  in the future.
+type: :feature
+component: misc-overlay
+release: 
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-01-15 12:10:26.695784 Z
+references: []
+
+id: c533f76d9badc5e368ef56e449ae68908f9d7b71
+log_events: 
+- - 2010-01-15 12:10:29.831686 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2010-01-15 12:10:59.923768 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 
