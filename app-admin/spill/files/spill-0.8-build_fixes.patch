@@ -1,0 +1,26 @@
+diff --git i/Makefile.in w/Makefile.in
+index 43dfd13..7d65728 100644
+--- i/Makefile.in
++++ w/Makefile.in
+@@ -24,9 +24,9 @@
+ CC=@cc@
+ CFLAGS=@cflags@
+ 
+-prefix=@prefix@
+-sbindir=@sbindir@
+-mandir=@mandir@
++prefix=$(DESTDIR)@prefix@
++sbindir=$(DESTDIR)@sbindir@
++mandir=$(DESTDIR)@mandir@
+ man8dir=$(mandir)/man8
+ # TODO : If these are ever used they should be configurable separately.
+ infodir=$(prefix)/info
+@@ -39,7 +39,7 @@ OBJ = spill.o
+ all : spill
+ 
+ spill : $(OBJ) Makefile
+-	$(CC) -o spill $(CFLAGS) $(OBJ)
++	$(CC) -o spill $(LDFLAGS) $(OBJ)
+ 
+ %.o : %.c Makefile
+ 	$(CC) -c $(CFLAGS) $< -o $@

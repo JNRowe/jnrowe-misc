@@ -1,0 +1,10 @@
+# ChangeLog for app-admin/spill
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*spill-0.8 (17 Jan 2010)
+
+  17 Jan 2010; James Rowe <jnrowe@gmail.com> +spill-0.8.ebuild,
+  +files/spill-0.8-build_fixes.patch, +metadata.xml:
+  Initial ebuild, by me.
+

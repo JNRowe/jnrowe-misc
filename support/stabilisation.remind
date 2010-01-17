@@ -40,5 +40,7 @@ REM 2010-02-13 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 x11-misc/yalias-0.7 %a
 REM 2010-02-13 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 x11-misc/yalias-0.7 %a
 REM 2010-02-14 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/html-1.8  %a
 REM 2010-02-14 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/html-1.8 %a
+REM 2010-02-16 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 app-admin/spill-0.8 %a
+REM 2010-02-16 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 app-admin/spill-0.8 %a
 
 # vim: set sw=4 sts=4 et tw=80 fenc=utf-8 ft=remind:

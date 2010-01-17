@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		spill is a program for creating set of symbolic links from one directory
+		hierarchy which point to corresponding filenames in a separate directory
+		hierarchy. It's primary use is to allow packages built from source to be
+		installed in separate directory trees, which are all linked together
+		under a common directory tree (e.g. /usr/local) to reduce the length of
+		the PATH environment variable.
+	</longdescription>
+</pkgmetadata>
+
