@@ -1,0 +1,32 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: app-misc/tudu-0.6.1 version bump.
+desc: ""
+type: :feature
+component: misc-overlay
+release: 
+reporter: James Rowe <jnrowe@gmail.com>
+status: :closed
+disposition: :fixed
+creation_time: 2010-01-17 19:35:00.619899 Z
+references: []
+
+id: 38a922c000f45133db7d4a29fef8e4fd9dfe3a9e
+log_events: 
+- - 2010-01-17 19:35:01.243794 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2010-01-17 19:35:04.127885 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+- - 2010-01-17 19:54:47.647874 Z
+  - James Rowe <jnrowe@gmail.com>
+  - changed status from unstarted to in_progress
+  - ""
+- - 2010-01-17 19:57:48.135823 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition fixed
+  - ""
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 
