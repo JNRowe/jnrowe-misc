@@ -6,7 +6,7 @@ http://www.fossil-scm.org/download/fossil-src-20091220213451.tar.gz
 http://www.fossil-scm.org/index.html/doc/tip/www/index.wiki
 GPL-2
 Simple, high-reliability, distributed software configuration management
-amd64 ~x86
+amd64 x86
 eutils multilib portability toolchain-funcs versionator
 test
 
