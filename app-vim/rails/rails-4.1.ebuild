@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -10,7 +10,7 @@ DESCRIPTION="vim plugin: RoR - easy file navigation, enhanced syntax highlightin
 HOMEPAGE="http://www.vim.org/scripts/script.php?script_id=1567"
 SRC_URI="http://www.vim.org/scripts/download_script.php?src_id=11920 -> ${P}.zip"
 LICENSE="vim"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE=""
 
 DEPEND="app-arch/unzip"

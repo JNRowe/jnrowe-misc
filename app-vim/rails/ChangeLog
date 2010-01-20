@@ -1,6 +1,9 @@
 # ChangeLog for app-vim/rails
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  20 Jan 2010; James Rowe <jnrowe@gmail.com> rails-4.1.ebuild:
+  Keyworded amd64.
 
 *rails-4.1 (21 Dec 2009)
 
