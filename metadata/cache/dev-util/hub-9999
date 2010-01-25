@@ -6,7 +6,7 @@ virtual/ruby
 http://github.com/defunkt/hub
 MIT
 hub is a command line utility which adds GitHub knowledge to git
-~amd64 ~x86
+
 eutils git multilib portability ruby toolchain-funcs
 
 

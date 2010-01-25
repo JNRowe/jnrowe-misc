@@ -6,7 +6,7 @@ dev-lang/ruby
 http://github.com/defunkt/gist
 MIT
 Absolutely the best command line gister
-~amd64 ~x86
+
 eutils git multilib portability toolchain-funcs
 
 

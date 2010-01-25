@@ -6,7 +6,7 @@ x11-libs/gtk+
 http://baruch.github.com/notmuch-gtk
 GPL-3
 A Gtk+ interface to the notmuch mail client.
-~amd64
+
 eutils git multilib portability toolchain-funcs
 
 

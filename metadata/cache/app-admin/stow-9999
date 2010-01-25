@@ -6,7 +6,7 @@ dev-lang/perl
 http://savannah.gnu.org/projects/stow/
 GPL-2
 Manage installation of software in via symlinks
-~amd64 ~ppc ~x86
+
 eutils git multilib portability toolchain-funcs
 test
 

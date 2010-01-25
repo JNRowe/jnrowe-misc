@@ -6,7 +6,7 @@ test
 http://surfraw.alioth.debian.org/
 public-domain
 A fast unix command line interface to WWW
-~amd64 ~hppa ~ppc ~sparc ~x86
+
 bash-completion eutils git multilib portability toolchain-funcs
 bash-completion
 

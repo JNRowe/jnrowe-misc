@@ -6,7 +6,7 @@ dev-libs/luasocket media-sound/alsa-utils sys-power/acpi x11-wm/awesome
 http://awesome.naquadah.org/wiki/Wicked
 MIT BSD
 A set of widgets for x11-wm/awesome that provide helpful information.
-~amd64 ~x86
+
 eutils git multilib portability toolchain-funcs
 
 
