@@ -7,7 +7,7 @@ http://unexist.scrapping.cc/projects/show/subtle
 GPL-2
 A tiling window manager with mouse and keyboard control
 amd64 x86
-
+eutils multilib portability toolchain-funcs
 
 
 

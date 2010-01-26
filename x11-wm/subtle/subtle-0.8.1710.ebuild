@@ -4,6 +4,8 @@
 
 EAPI="2"
 
+inherit eutils
+
 MY_P=${P}-eta
 # Every download has an exciting new change to its location!
 DDIR=28
