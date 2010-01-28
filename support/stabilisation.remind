@@ -42,5 +42,8 @@ REM 2010-02-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 app-text/apvlv-0.0.9.2
 REM 2010-02-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 app-text/apvlv-0.0.9.2 %a
 REM 2010-02-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 x11-wm/subtle-0.8.1710 %a
 REM 2010-02-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 x11-wm/subtle-0.8.1710 %a
+REM 2010-02-27 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 www-client/cupage-0.4.0 %a
+REM 2010-02-27 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 www-client/cupage-0.4.0 %a
+
 
 # vim: set sw=4 sts=4 et tw=80 fenc=utf-8 ft=remind:
