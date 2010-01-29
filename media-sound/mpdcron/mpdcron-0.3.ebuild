@@ -14,13 +14,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="libnotify scrobbler zsh-completion"
 
-DEPEND="${RDEPEND}
-	dev-util/pkgconfig"
 RDEPEND=">=dev-libs/glib-2.18
 	>=dev-libs/libdaemon-0.13
 	>=media-libs/libmpdclient-2.1
 	libnotify? ( x11-libs/libnotify )
 	scrobbler? ( net-misc/curl )"
+DEPEND="${RDEPEND}
+	dev-util/pkgconfig"
 
 # If we were using github downloads.
 #S="${WORKDIR}/alip-${PN}-69078ad"

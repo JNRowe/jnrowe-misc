@@ -1,4 +1,4 @@
-test? ( dev-perl/Test-Output dev-perl/Sub-Exporter ) >=dev-util/git-1.6
+dev-lang/perl test? ( dev-perl/Test-Output dev-perl/Sub-Exporter ) >=dev-util/git-1.6
 dev-lang/perl
 0
 

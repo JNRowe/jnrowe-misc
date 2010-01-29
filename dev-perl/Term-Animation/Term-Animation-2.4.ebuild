@@ -14,8 +14,7 @@ IUSE=""
 
 SRC_TEST="do"
 
-DEPEND="dev-perl/Curses
-	dev-lang/perl"
+DEPEND="dev-perl/Curses"
 RDEPEND="${DEPEND}"
 
 src_test() {

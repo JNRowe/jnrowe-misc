@@ -15,8 +15,8 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""
 
-DEPEND="dev-lang/python"
-RDEPEND="${DEPEND}"
+DEPEND=""
+RDEPEND=""
 
 src_test() {
 	# Don't use test_doc as it requires net access

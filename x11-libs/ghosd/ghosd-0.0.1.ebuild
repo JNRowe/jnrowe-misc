@@ -13,9 +13,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
+RDEPEND="x11-libs/pango"
 DEPEND="${RDEPEND}
 	dev-util/pkgconfig"
-RDEPEND="x11-libs/pango"
 
 src_install() {
 	emake DESTDIR="${D}" install || die "emake install failed"

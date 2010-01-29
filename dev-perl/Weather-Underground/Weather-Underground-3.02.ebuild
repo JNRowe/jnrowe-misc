@@ -17,8 +17,7 @@ IUSE=""
 SRC_TEST="do"
 
 DEPEND=""
-RDEPEND="${DEPEND}
-	dev-perl/HTML-TokeParser-Simple
+RDEPEND="dev-perl/HTML-TokeParser-Simple
 	dev-perl/libwww-perl"
 
 src_test() {

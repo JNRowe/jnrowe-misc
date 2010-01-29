@@ -16,11 +16,11 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="djvu"
 
-DEPEND="${RDEPEND}
-	dev-util/pkgconfig"
 RDEPEND="virtual/poppler-glib
 	x11-libs/gtk+:2
 	djvu? ( app-text/djvu )"
+DEPEND="${RDEPEND}
+	dev-util/pkgconfig"
 
 src_prepare() {
 	epatch "${FILESDIR}"/${PN}-0.0.7.4-build_fixes.patch

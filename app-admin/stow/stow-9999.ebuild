@@ -17,12 +17,12 @@ SLOT="0"
 KEYWORDS=""
 IUSE="test"
 
+RDEPEND="dev-lang/perl"
 DEPEND="${RDEPEND}
 	test? (
 		dev-perl/Test-Output
 		dev-perl/Sub-Exporter
 	)"
-RDEPEND="dev-lang/perl"
 
 src_install() {
 	emake DESTDIR="${D}" install || die "emake install failed."

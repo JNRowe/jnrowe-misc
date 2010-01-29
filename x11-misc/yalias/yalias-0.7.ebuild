@@ -15,9 +15,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
+RDEPEND="x11-libs/gtk+:2"
 DEPEND="${RDEPEND}
 	dev-util/pkgconfig"
-RDEPEND="x11-libs/gtk+:2"
 
 src_prepare() {
 	sed -i -E -e 's,^(C|LD)FLAGS ,&+,' \

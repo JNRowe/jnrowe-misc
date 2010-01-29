@@ -15,13 +15,13 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="lua nls spell test"
 
+RDEPEND=">=dev-util/geany-$(get_version_component_range 1-2)
+	lua? ( dev-lang/lua )
+	spell? ( app-text/gtkspell )"
 DEPEND="${RDEPEND}
 	dev-util/intltool
 	dev-util/pkgconfig
 	test? ( dev-libs/check )"
-RDEPEND=">=dev-util/geany-$(get_version_component_range 1-2)
-	lua? ( dev-lang/lua )
-	spell? ( app-text/gtkspell )"
 
 src_configure() {
 	econf $(use_enable lua geanylua ) \
