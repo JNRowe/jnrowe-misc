@@ -32,7 +32,7 @@ SITEFILE="50${PN}-gentoo.el"
 src_configure() {
 	# Handmade configure :/
 	CC="$(tc-getCC)" CXX="$(tc-getCXX)" ./configure --prefix=/usr \
-		|| die "econf failed"
+		|| die "configure failed"
 	# Automagic valgrind detection, needs fixing upstream
 	use debug || sed -i '/^HAVE_VALGRIND =/s,1,0,' Makefile.config
 }
