@@ -1,5 +1,11 @@
 # extra line needed because portage is buggy
 
+# James Rowe <jnrowe@gmail.com> (2 Feb 2010)
+# Incompatible with new "releases", new code too buggy for everyday use.  Will
+# be removed on 2010-04-04.  Alternatives to Bugs Everywhere such as ditz and
+# pitz exist.
+dev-util/be
+
 # James Rowe <jnrowe@gmail.com> (30 Jan 2010)
 # Unsupportable in its current state.  Will be removed on
 # 2010-03-01.
