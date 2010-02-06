@@ -39,6 +39,7 @@ Ideas
 '''''
 
 * Jamie Ashton
+* Patrick Sauvé
 * Ryan Lewis
 * Scott Hunter
 * Tony McKenzie
