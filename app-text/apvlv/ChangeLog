@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*apvlv-0.0.9.3 (06 Feb 2010)
+
+  06 Feb 2010; James Rowe <jnrowe@gmail.com> +apvlv-0.0.9.3.ebuild:
+  Version bump [c9b].
+
 *apvlv-0.0.9.2 (26 Jan 2010)
 
   26 Jan 2010; James Rowe <jnrowe@gmail.com> +apvlv-0.0.9.2.ebuild:
