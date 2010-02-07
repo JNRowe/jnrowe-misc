@@ -3,6 +3,9 @@
 # $Header: $
 
   07 Feb 2010; James Rowe <jnrowe@gmail.com> ghosd-0.0.1.ebuild:
+  Keyworded x86.
+
+  07 Feb 2010; James Rowe <jnrowe@gmail.com> ghosd-0.0.1.ebuild:
   Keyworded amd64.
 
 *ghosd-0.0.1 (09 Jan 2010)
