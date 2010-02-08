@@ -9,7 +9,7 @@ inherit git portability
 EGIT_REPO_URI="git://git.mercenariesguild.net/${PN}.git"
 
 DESCRIPTION="A set of widgets for x11-wm/awesome that provide helpful information."
-HOMEPAGE="http://awesome.naquadah.org/wiki/Wicked"
+HOMEPAGE="http://awesome.naquadah.org/wiki/Obvious"
 SRC_URI=""
 
 # BSD is just for obvious/lib/mpd/init.lua
