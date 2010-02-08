@@ -1,0 +1,30 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Consider a live ebuild for psplash.
+desc: Useful changes are starting to accumulate in the Subversion repository.
+type: :feature
+component: misc-overlay
+release: 
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-02-08 22:25:30.783926 Z
+references: []
+
+id: 9f523f8d88ee35cd8a71ba8a4f3d4906a0472f79
+log_events: 
+- - 2010-02-08 22:25:31.243805 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2010-02-08 22:25:47.243978 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+- - 2010-02-08 22:27:46.580213 Z
+  - James Rowe <jnrowe@gmail.com>
+  - commented
+  - |-
+    A snapshot ebuild may be much more useful, as subversion is unlikely to be
+    installed on systems.
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 
