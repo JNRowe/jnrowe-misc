@@ -7,7 +7,8 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<longdescription lang="en">
-		Window matching utility like devilspie, just a little more lightweight.
+		Window matching utility like <pkg>x11-misc/devilspie</pkg>, just
+		a little more lightweight.
 	</longdescription>
 </pkgmetadata>
 

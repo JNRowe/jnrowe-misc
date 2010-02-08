@@ -7,8 +7,9 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<longdescription lang="en">
-		This project is a start towards writing text stories to pyhistorian, but
-		it can be used out of it. It parsers a string file like:
+		This project is a start towards writing text stories to
+		<pkg>dev-python/pyhistorian</pkg>, but it can be used out of it. It
+		parsers a string file like:
 	</longdescription>
 </pkgmetadata>
 

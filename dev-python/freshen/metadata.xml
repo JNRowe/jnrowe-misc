@@ -7,8 +7,8 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<longdescription lang="en">
-		A clone of the Cucumber BDD framework for python, integrated in to the
-		nose testing framework.
+		A clone of the <pkg>dev-util/cucumber</pkg> BDD framework for python,
+		integrated in to the nose testing framework.
 	</longdescription>
 </pkgmetadata>
 

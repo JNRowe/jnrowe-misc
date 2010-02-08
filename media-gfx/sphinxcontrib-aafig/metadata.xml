@@ -2,10 +2,10 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription lang="en">
-		This package contains the media-gfx/aafigure extension for
-		dev-python/sphinx.  This extension adds the aafig directive that
-		automatically selects the image format to use acording to the Sphinx
-		writer used to generate the documentation.
+		This package contains the <pkg>media-gfx/aafigure</pkg> extension for
+		<pkg>dev-python/sphinx</pkg>.  This extension adds the aafig directive
+		that automatically selects the image format to use acording to the
+		Sphinx writer used to generate the documentation.
 	</longdescription>
 	<herd>no-herd</herd>
 	<maintainer>

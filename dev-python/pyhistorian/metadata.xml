@@ -8,7 +8,8 @@
 	</maintainer>
 	<longdescription lang="en">
 		The goal of pyhistorian is to write an internal Given-When-Then template
-		using Python. The ideas came from JBehave, RBehave, Cucumber and others.
+		using Python. The ideas came from JBehave, RBehave,
+		<pkg>dev-util/cucumber</pkg> and others.
 
 		It's possible to write your stories in English and Portuguese, choose
 		your preferred.

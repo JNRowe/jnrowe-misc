@@ -10,9 +10,10 @@
 		The ccontrol program takes over the roles of the compiler, linker and
 		make, and reads a configuration file to decide what to do before
 		invoking them. This is particularly useful for centralized control over
-		commands and options, such as enabling distcc and ccache. It is also
-		great for controlling parallelism and which compiler versions to use,
-		based on the directory and make targets.
+		commands and options, such as enabling <pkg>sys-devel/distcc</pkg> and
+		<pkg>dev-util/ccache</pkg>. It is also great for controlling parallelism
+		and which compiler versions to use, based on the directory and make
+		targets.
 	</longdescription>
 </pkgmetadata>
 

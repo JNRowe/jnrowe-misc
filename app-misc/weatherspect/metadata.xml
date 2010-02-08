@@ -7,10 +7,10 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<longdescription lang="en">
-		This program uses weather data supplied by the Weather::Underground
-		module to create an ASCII animation that simulates the weather. There is
-		also a large number of random creatures and objects that walk across
-		this screen.
+		This program uses weather data supplied by the
+		<pkg>dev-perl/Weather-Underground</pkg> module to create an ASCII
+		animation that simulates the weather. There is also a large number of
+		random creatures and objects that walk across this screen.
 	</longdescription>
 </pkgmetadata>
 

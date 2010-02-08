@@ -7,8 +7,8 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<longdescription lang="en">
-		Colour output plugin for the nose testing framework.  Use nosetests
-		--with-color (no "u"!) to turn it on.
+		Colour output plugin for the <pkg>dev-python/nose</pkg> testing
+		framework.  Use nosetests --with-color (no "u"!) to turn it on.
 	</longdescription>
 </pkgmetadata>
 

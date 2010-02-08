@@ -7,9 +7,9 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<longdescription lang="en">
-		Vicious is a modular widget library for awesome, derived from the Wicked
-		widget library. It has some of the old Wicked widget types, a few of
-		them rewritten, and a good number of new widgets.
+		Vicious is a modular widget library for <pkg>x11-wm/awesome</pkg>,
+		derived from the Wicked widget library. It has some of the old Wicked
+		widget types, a few of them rewritten, and a good number of new widgets.
 
 		With vicious you get only the framework to create your own stable
 		configuration. Don't expect vicious to hold your hand. Don't even expect

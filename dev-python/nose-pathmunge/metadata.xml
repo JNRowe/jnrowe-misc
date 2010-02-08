@@ -7,9 +7,9 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<longdescription lang="en">
-		nose-pathmunge is a plugin to the nose test framework which provides
-		a method to add directories to the sys.path of nose, which is inherited
-		by the tests running within nose.
+		nose-pathmunge is a plugin to the <pkg>dev-python/nose</pkg> test
+		framework which provides a method to add directories to the sys.path of
+		nose, which is inherited by the tests running within nose.
 
 		This itch stems from in many of my own cases, the need to add modules to
 		a given run (dependencies) that I don't want to install because they're

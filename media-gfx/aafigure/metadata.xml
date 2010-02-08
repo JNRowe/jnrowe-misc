@@ -12,7 +12,8 @@
 	</maintainer>
 	<use>
 		<flag name="docutils" restrict=">=media-gfx/aafigure-0.4">
-			Adds a directive for aafigure support to docutils
+			Adds a directive for aafigure support to
+			<pkg>dev-python/docutils</pkg>
 		</flag>
 	</use>
 </pkgmetadata>

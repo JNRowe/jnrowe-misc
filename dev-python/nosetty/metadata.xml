@@ -7,10 +7,10 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<longdescription lang="en">
-		nosetty is a plugin for nose, a test runner for python. It accepts
-		various commands at the terminal, giving you some one-on-one quality
-		time with your tracebacks. Most importantly, editing a failure point is
-		as easy as typing a number.
+		nosetty is a plugin for <pkg>dev-python/nose</pkg>, a test runner for
+		python. It accepts various commands at the terminal, giving you some
+		one-on-one quality time with your tracebacks. Most importantly, editing
+		a failure point is as easy as typing a number.
 	</longdescription>
 </pkgmetadata>
 

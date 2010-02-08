@@ -8,9 +8,9 @@
 	</maintainer>
 	<longdescription lang="en">
 		rednose is a nosetests plugin for adding colour (and readability) to
-		nosetest console results.  Nose by default uses auto-colouring, which
-		will only use colour if you're running it on a terminal (i.e not piping
-		it to a file).
+		<pkg>dev-python/nose</pkg> console results.  rednose by default uses
+		auto-colouring, which will only use colour if you're running it on
+		a terminal (i.e not piping it to a file).
 	</longdescription>
 </pkgmetadata>
 

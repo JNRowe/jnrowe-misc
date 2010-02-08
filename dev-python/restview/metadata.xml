@@ -18,7 +18,8 @@
 	</longdescription>
 	<use>
 		<flag name="pygments">
-			Enable support for code blocks with highlighting using pygments
+			Enable support for code blocks with highlighting using
+			<pkg>dev-python/pygments</pkg>
 		</flag>
 	</use>
 </pkgmetadata>

@@ -7,8 +7,9 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<longdescription lang="en">
-		A collection of plugins for dev-util/geany including: gdb integration,
-		lua scripting, spell checking and version control support.
+		A collection of plugins for <pkg>dev-util/geany</pkg> including:
+		<pkg>sys-devel/gdb</pkg> integration, lua scripting, spell checking and
+		version control support.
 	</longdescription>
 </pkgmetadata>
 

@@ -7,7 +7,7 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<longdescription lang="en">
-		mpdcron is a cron like daemon for mpd.
+		mpdcron is a cron like daemon for <pkg>media-sound/mpd</pkg>.
 
 		Features
 			Uses mpd’s idle mode.
