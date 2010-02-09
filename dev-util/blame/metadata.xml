@@ -13,4 +13,11 @@
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
 	</maintainer>
+	<upstream>
+		<maintainer>
+			<name>Michael Chapman</name>
+		</maintainer>
+		<doc lang="en">http://blame.sourceforge.net/</doc>
+		<remote-id type="sourceforge">blame</remote-id>
+	</upstream>
 </pkgmetadata>

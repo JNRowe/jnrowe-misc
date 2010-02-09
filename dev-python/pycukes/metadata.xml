@@ -13,5 +13,11 @@
 		first with text files, instead of simple understendable python files
 		like <pkg>dev-python/pyhistorian</pkg>.
 	</longdescription>
+	<upstream>
+		<maintainer>
+			<name>Hugo Lopes Tavares</name>
+		</maintainer>
+		<doc lang="en">http://github.com/hugobr/pycukes/raw/master/README.rst</doc>
+		<bugs-to>http://github.com/hugobr/pycukes/issues</bugs-to>
+	</upstream>
 </pkgmetadata>
-

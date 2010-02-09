@@ -11,5 +11,13 @@
 		configuration format, and many common software sites need only a single
 		option to enable checks for updated packages.
 	</longdescription>
+	<upstream>
+		<maintainer status="active">
+			<name>James Rowe</name>
+			<email>jnrowe@gmail.com</email>
+		</maintainer>
+		<changelog>http://github.com/JNRowe/cupage/raw/master/NEWS.rst</changelog>
+		<doc lang="en">http://jnrowe.github.com/cupage</doc>
+		<bugs-to>http://github.com/JNRowe/cupage/issues</bugs-to>
+	</upstream>
 </pkgmetadata>
-

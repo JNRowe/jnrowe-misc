@@ -13,5 +13,9 @@
 		paste code from the shell into your doctest. It feels as you are in the
 		test case itself. Its not pdb, it's a python shell.
 	</longdescription>
+	<upstream>
+		<maintainer>
+			<name>Jens Klein</name>
+		</maintainer>
+	</upstream>
 </pkgmetadata>
-

@@ -12,4 +12,11 @@
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
 	</maintainer>
+	<upstream>
+		<maintainer>
+			<name>Jannis Leidel</name>
+		</maintainer>
+		<doc lang="en">http://github.com/jezdez/git-serve/raw/master/README.txt</doc>
+		<bugs-to>http://github.com/jezdez/git-serve/issues</bugs-to>
+	</upstream>
 </pkgmetadata>

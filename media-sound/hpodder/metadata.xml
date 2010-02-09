@@ -31,4 +31,12 @@
 
 		Small, minimalist footprint
 	</longdescription>
+	<upstream>
+		<maintainer>
+			<name>John Goerzen</name>
+		</maintainer>
+		<changelog>http://software.complete.org/software/repositories/entry/hpodder/debian/changelog</changelog>
+		<doc lang="en">http://software.complete.org/software/wiki/hpodder/</doc>
+		<bugs-to>http://software.complete.org/software/projects/hpodder/issues</bugs-to>
+	</upstream>
 </pkgmetadata>

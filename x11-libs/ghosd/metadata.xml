@@ -18,5 +18,10 @@
 
 		It's a tiny amount of code and available under the MIT license.
 	</longdescription>
+	<upstream>
+		<maintainer>
+			<name>Evan Martin</name>
+		</maintainer>
+		<doc lang="en">http://neugierig.org/software/ghosd/doc/</doc>
+	</upstream>
 </pkgmetadata>
-

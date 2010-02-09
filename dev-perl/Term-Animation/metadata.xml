@@ -13,5 +13,13 @@
 		have a callback routine that controls the position and frame of the
 		object.
 	</longdescription>
+	<upstream>
+		<maintainer>
+			<name>Kirk Baucom</name>
+		</maintainer>
+		<changelog>http://search.cpan.org/src/KBAUCOM/Term-Animation-2.4/Changes</changelog>
+		<doc lang="en">http://search.cpan.org/dist/Term-Animation/lib/Term/Animation.pm</doc>
+		<bugs-to>https://rt.cpan.org/Public/Bug/Report.html?Queue=Term-Animation</bugs-to>
+		<remote-id type="cpan">Term-Animation</remote-id>
+	</upstream>
 </pkgmetadata>
-

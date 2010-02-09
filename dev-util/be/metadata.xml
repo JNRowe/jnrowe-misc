@@ -22,4 +22,9 @@
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
 	</maintainer>
+	<upstream>
+		<maintainer>
+			<name>Aaron Bentley</name>
+		</maintainer>
+	</upstream>
 </pkgmetadata>

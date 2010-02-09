@@ -12,4 +12,8 @@
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
 	</maintainer>
+	<upstream>
+		<doc lang="en">http://code.google.com/p/partiwm/source/browse/README.parti</doc>
+		<bugs-to>http://code.google.com/p/partiwm/issues/list</bugs-to>
+	</upstream>
 </pkgmetadata>

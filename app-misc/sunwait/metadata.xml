@@ -17,5 +17,9 @@
 		want something to happen relative to sunrise, sunset, or some other
 		astronomical event.
 	</longdescription>
+	<upstream>
+		<maintainer>
+			<name>Daniel Risacher</name>
+		</maintainer>
+	</upstream>
 </pkgmetadata>
-

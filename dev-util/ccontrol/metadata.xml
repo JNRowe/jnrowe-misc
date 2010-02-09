@@ -15,5 +15,10 @@
 		and which compiler versions to use, based on the directory and make
 		targets.
 	</longdescription>
+	<upstream>
+		<maintainer>
+			<name>Rusty Russell</name>
+		</maintainer>
+		<changelog>http://ccontrol.ozlabs.org/</changelog>
+	</upstream>
 </pkgmetadata>
-

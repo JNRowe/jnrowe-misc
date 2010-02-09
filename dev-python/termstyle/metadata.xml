@@ -11,5 +11,11 @@
 		terminal (console) programs. The definitions come from ECMA-048, the
 		"Control Functions for Coded Character Sets" standard.
 	</longdescription>
+	<upstream>
+		<maintainer>
+			<name>Tim Cuthbertson</name>
+		</maintainer>
+		<doc lang="en">http://github.com/gfxmonk/termstyle/raw/master/readme.rst</doc>
+		<bugs-to>http://github.com/gfxmonk/termstyle/issues</bugs-to>
+	</upstream>
 </pkgmetadata>
-

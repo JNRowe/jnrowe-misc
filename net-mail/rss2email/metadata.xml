@@ -20,4 +20,8 @@
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
 	</maintainer>
+	<upstream>
+		<changelog>http://rss2email.infogami.com/CHANGELOG</changelog>
+		<doc lang="en">http://rss2email.infogami.com/getstarted</doc>
+	</upstream>
 </pkgmetadata>

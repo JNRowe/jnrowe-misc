@@ -12,4 +12,10 @@
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
 	</maintainer>
+	<upstream>
+		<maintainer>
+			<name>Edgar Toernig</name>
+		</maintainer>
+		<changelog>http://goron.de/~froese/opera-remote/changelog</changelog>
+	</upstream>
 </pkgmetadata>

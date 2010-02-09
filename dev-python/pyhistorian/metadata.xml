@@ -14,5 +14,11 @@
 		It's possible to write your stories in English and Portuguese, choose
 		your preferred.
 	</longdescription>
+	<upstream>
+		<maintainer>
+			<name>Hugo Lopes Tavares</name>
+		</maintainer>
+		<doc lang="en">http://github.com/hugobr/pyhistorian/raw/master/README.rst</doc>
+		<bugs-to>http://github.com/hugobr/pyhistorian/issues</bugs-to>
+	</upstream>
 </pkgmetadata>
-

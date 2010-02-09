@@ -13,5 +13,11 @@
 		If the tag should have text content you may pass it at tag creation time
 		or later using the tag's .text() method.
 	</longdescription>
+	<upstream>
+		<maintainer>
+			<name>Richard Jones</name>
+		</maintainer>
+		<changelog>http://pypi.python.org/pypi/html/#version-history-in-brief</changelog>
+		<doc lang="en">http://pypi.python.org/pypi/html/#constructing-your-html</doc>
+	</upstream>
 </pkgmetadata>
-

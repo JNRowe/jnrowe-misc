@@ -12,5 +12,10 @@
 		animation that simulates the weather. There is also a large number of
 		random creatures and objects that walk across this screen.
 	</longdescription>
+	<upstream>
+		<maintainer>
+			<name>Kirk Baucom</name>
+		</maintainer>
+		<remote-id type="freshmeat">weatherspect</remote-id>
+	</upstream>
 </pkgmetadata>
-

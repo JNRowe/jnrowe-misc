@@ -20,4 +20,7 @@
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
 	</maintainer>
+	<upstream>
+		<bugs-to>http://unexist.scrapping.cc/projects/subtle/issues</bugs-to>
+	</upstream>
 </pkgmetadata>

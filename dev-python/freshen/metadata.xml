@@ -10,5 +10,11 @@
 		A clone of the <pkg>dev-util/cucumber</pkg> BDD framework for python,
 		integrated in to the nose testing framework.
 	</longdescription>
+	<upstream>
+		<maintainer>
+			<name>Roman Lisagor</name>
+		</maintainer>
+		<doc lang="en">http://github.com/rlisagor/freshen/raw/master/README.rst</doc>
+		<bugs-to>http://github.com/rlisagor/freshen/issues</bugs-to>
+	</upstream>
 </pkgmetadata>
-

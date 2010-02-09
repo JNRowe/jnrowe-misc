@@ -17,5 +17,11 @@
 
 		This plugin is extremely simple. It's meant to be.
 	</longdescription>
+	<upstream>
+		<maintainer>
+			<name>Jesse Noller</name>
+		</maintainer>
+		<doc lang="en">http://bitbucket.org/jnoller/nose-pathmunge/raw/9d92502a0763/README.TXT</doc>
+		<bugs-to>http://bitbucket.org/jnoller/nose-pathmunge/issues/?status=new&amp;status=open</bugs-to>
+	</upstream>
 </pkgmetadata>
-

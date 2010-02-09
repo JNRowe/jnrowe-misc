@@ -9,5 +9,10 @@
 	<longdescription lang="en">
 		Asciiquarium is an aquarium/sea animation in ASCII art.
 	</longdescription>
+	<upstream>
+		<maintainer>
+			<name>Kirk Baucom</name>
+		</maintainer>
+		<remote-id type="freshmeat">asciiquarium</remote-id>
+	</upstream>
 </pkgmetadata>
-

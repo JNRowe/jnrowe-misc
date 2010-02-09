@@ -13,4 +13,11 @@
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
 	</maintainer>
+	<upstream>
+		<maintainer>
+			<name>William Morgan</name>
+		</maintainer>
+		<changelog>http://gitorious.org/trollop/mainline/blobs/raw/master/History.txt</changelog>
+		<doc lang="en">http://trollop.rubyforge.org/</doc>
+	</upstream>
 </pkgmetadata>

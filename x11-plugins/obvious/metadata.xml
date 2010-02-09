@@ -11,4 +11,7 @@
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
 	</maintainer>
+	<upstream>
+		<doc lang="en">http://awesome.naquadah.org/wiki/Obvious</doc>
+	</upstream>
 </pkgmetadata>

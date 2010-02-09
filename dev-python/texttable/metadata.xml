@@ -9,5 +9,10 @@
 	<longdescription lang="en">
 		Module for creating simple ASCII tables with Python.
 	</longdescription>
+	<upstream>
+		<maintainer>
+			<name>Gerome Fournier</name>
+		</maintainer>
+		<doc lang="en">http://jefke.free.fr/coding/python/texttable/</doc>
+	</upstream>
 </pkgmetadata>
-

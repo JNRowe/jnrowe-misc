@@ -11,5 +11,7 @@
 		<pkg>sys-devel/gdb</pkg> integration, lua scripting, spell checking and
 		version control support.
 	</longdescription>
+	<upstream>
+		<remote-id type="sourceforge">geany-plugins</remote-id>
+	</upstream>
 </pkgmetadata>
-

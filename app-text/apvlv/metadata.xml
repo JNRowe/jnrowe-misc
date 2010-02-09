@@ -21,5 +21,10 @@
 		'l' to collapse or expand a dir, and press 't' will open the selected
 		document in a new tab.
 	</longdescription>
+	<upstream>
+		<maintainer>
+			<name>Alf</name>
+		</maintainer>
+		<bugs-to>http://code.google.com/p/apvlv/issues/list</bugs-to>
+	</upstream>
 </pkgmetadata>
-
