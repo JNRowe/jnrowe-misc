@@ -1,0 +1,27 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: rss2email is in the main tree.
+desc: ""
+type: :feature
+component: misc-overlay
+release: 
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-02-09 02:28:02.027913 Z
+references: []
+
+id: 9372425ce511e8bee5a1dc9c0119eff62456d846
+log_events: 
+- - 2010-02-09 02:29:29.097038 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - |-
+    This can't be handled by just moving the current ebuild to ::fixes, as the
+    upgrade path is fiercely ugly.  The in-tree ebuild installs to non-standard
+    locations, has a lower version number and still isn't keyworded.
+- - 2010-02-09 02:29:41.715876 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 
