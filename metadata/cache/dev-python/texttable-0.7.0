@@ -7,7 +7,7 @@ http://pypi.python.org/pypi/texttable/
 LGPL-2.1
 module to generate a formatted text table, using ASCII characters.
 ~amd64
-distutils eutils jnrowe-pypi multilib portability python toolchain-funcs
+distutils jnrowe-pypi multilib python toolchain-funcs
 
 
 

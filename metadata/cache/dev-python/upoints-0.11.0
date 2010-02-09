@@ -7,7 +7,7 @@ http://www.jnrowe.ukfsn.org/projects/upoints.html
 GPL-3
 Modules for working with points on Earth
 amd64 x86
-distutils eutils multilib portability python toolchain-funcs
+distutils multilib python toolchain-funcs
 
 
 
