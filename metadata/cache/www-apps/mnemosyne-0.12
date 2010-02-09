@@ -1,5 +1,5 @@
 >=app-admin/eselect-python-20090804 virtual/python
-dev-python/docutils dev-python/kid virtual/python
+dev-python/docutils dev-python/kid >=app-admin/eselect-python-20090804 virtual/python
 0
 http://www.red-bean.com/decklin/mnemosyne//mnemosyne-0.12.tar.gz
 

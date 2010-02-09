@@ -1,5 +1,5 @@
 >=app-admin/eselect-python-20090804 virtual/python
-virtual/python
+>=app-admin/eselect-python-20090804 virtual/python
 0
 http://www.jnrowe.ukfsn.org/_downloads/upoints-0.11.0.tar.bz2
 

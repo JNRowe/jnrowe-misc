@@ -1,5 +1,5 @@
 >=app-admin/eselect-python-20090804 virtual/python
-dev-python/lxml || ( >=dev-lang/python-2.6 dev-python/simplejson ) virtual/python
+dev-python/lxml || ( >=dev-lang/python-2.6 dev-python/simplejson ) >=app-admin/eselect-python-20090804 virtual/python
 0
 http://github.com/JNRowe/cupage/tarball/0.3.0 -> cupage-0.3.0.tar.gz
 
