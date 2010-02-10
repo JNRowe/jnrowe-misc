@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		When using the doctest module it is often convenient to use the
+		ELLIPSIS option, which allows you to use ... as a wildcard. But you
+		either have to setup the test runner to use this option, or you must put
+		#doctest:
+
+			+ELLIPSIS on every example that uses this feature.
+
+		dtopt lets you enable this option globally from within a doctest, by
+		doing:
+
+			&gt;&gt;&gt; from dtopt import ELLIPSIS
+
+		(The options NORMALIZE_WHITESPACE and COMPARE are also available)
+	</longdescription>
+</pkgmetadata>

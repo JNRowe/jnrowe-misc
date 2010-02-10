@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/dtopt
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*dtopt-0.1 (10 Feb 2010)
+
+  10 Feb 2010; James Rowe <jnrowe@gmail.com> +dtopt-0.1.ebuild,
+  +metadata.xml:
+  Initial ebuild, by me.
+
