@@ -3,7 +3,7 @@ title: Stabilise x86 dev-python/story_parser-0.1.1.
 desc: ""
 type: :feature
 component: misc-overlay
-release: 
+release: current
 reporter: James Rowe <jnrowe@gmail.com>
 status: :closed
 disposition: :fixed
@@ -23,6 +23,10 @@ log_events:
 - - 2009-11-06 15:09:31.315892 Z
   - James Rowe <jnrowe@gmail.com>
   - closed with disposition fixed
+  - ""
+- - 2010-02-10 21:16:48.573065 Z
+  - James Rowe <jnrowe@gmail.com>
+  - assigned to release current from unassigned
   - ""
 claimer: 
 git_branch: 

@@ -3,7 +3,7 @@ title: dev-haskell/missingh-1.1.0.1 version bump.
 desc: ""
 type: :feature
 component: misc-overlay
-release: 
+release: current
 reporter: James Rowe <jnrowe@gmail.com>
 status: :closed
 disposition: :wontfix
@@ -27,5 +27,9 @@ log_events:
     This can't currently be fixed because it breaks compatibility with
     hpodder.  As hpodder is the only package that we require this for it is
     easier to simply close this for the time being.
+- - 2010-02-10 21:16:31.941840 Z
+  - James Rowe <jnrowe@gmail.com>
+  - assigned to release current from unassigned
+  - ""
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 

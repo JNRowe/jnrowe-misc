@@ -5,7 +5,7 @@ desc: |-
   local users have good things to say about it.
 type: :task
 component: misc-overlay
-release: 
+release: current
 reporter: James Rowe <jnrowe@gmail.com>
 status: :unstarted
 disposition: 
@@ -26,6 +26,10 @@ log_events:
 - - 2009-10-05 05:02:36 Z
   - James Rowe <jnrowe@gmail.com>
   - issue claimed
+  - ""
+- - 2010-02-10 21:16:50.801362 Z
+  - James Rowe <jnrowe@gmail.com>
+  - assigned to release current from unassigned
   - ""
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 

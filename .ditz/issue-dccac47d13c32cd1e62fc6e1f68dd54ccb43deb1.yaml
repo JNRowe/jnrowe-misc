@@ -3,7 +3,7 @@ title: x11-wm/matwm2-0.0.90 version bump.
 desc: ""
 type: :feature
 component: misc-overlay
-release: 
+release: current
 reporter: James Rowe <jnrowe@gmail.com>
 status: :closed
 disposition: :fixed
@@ -24,5 +24,9 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - closed with disposition fixed
   - Thanks to cookiemon5ter for the nudge.
+- - 2010-02-10 21:16:49.409430 Z
+  - James Rowe <jnrowe@gmail.com>
+  - assigned to release current from unassigned
+  - ""
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 

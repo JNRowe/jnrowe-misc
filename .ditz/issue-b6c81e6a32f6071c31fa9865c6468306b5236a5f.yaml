@@ -3,7 +3,7 @@ title: Stabilise x86 dev-python/pyhistorian-0.6.1.
 desc: ""
 type: :feature
 component: misc-overlay
-release: 
+release: current
 reporter: James Rowe <jnrowe@gmail.com>
 status: :closed
 disposition: :fixed
@@ -31,6 +31,10 @@ log_events:
 - - 2009-11-06 15:13:36.895892 Z
   - James Rowe <jnrowe@gmail.com>
   - closed with disposition fixed
+  - ""
+- - 2010-02-10 21:16:45.207750 Z
+  - James Rowe <jnrowe@gmail.com>
+  - assigned to release current from unassigned
   - ""
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 

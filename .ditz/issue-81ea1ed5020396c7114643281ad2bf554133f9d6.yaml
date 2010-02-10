@@ -3,7 +3,7 @@ title: x11-wm/parti has moved to Google's code hosting.
 desc: ebuild and cupage entry need updating.
 type: :bugfix
 component: misc-overlay
-release: 
+release: current
 reporter: James Rowe <jnrowe@gmail.com>
 status: :closed
 disposition: :fixed
@@ -27,6 +27,10 @@ log_events:
 - - 2009-11-16 05:40:47.739838 Z
   - James Rowe <jnrowe@gmail.com>
   - closed with disposition fixed
+  - ""
+- - 2010-02-10 21:16:39.919828 Z
+  - James Rowe <jnrowe@gmail.com>
+  - assigned to release current from unassigned
   - ""
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 

@@ -5,7 +5,7 @@ desc: |-
   can be dropped.
 type: :task
 component: misc-overlay
-release: 
+release: current
 reporter: James Rowe <jnrowe@gmail.com>
 status: :closed
 disposition: :reorg
@@ -32,5 +32,9 @@ log_events:
   - |-
     snipmate has been moved to ::fixes, pending upstream stabilisation.  It doesn't
     belong here anymore.
+- - 2010-02-10 21:16:40.201023 Z
+  - James Rowe <jnrowe@gmail.com>
+  - assigned to release current from unassigned
+  - ""
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 

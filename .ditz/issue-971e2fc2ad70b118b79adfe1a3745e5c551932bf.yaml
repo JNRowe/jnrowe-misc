@@ -3,7 +3,7 @@ title: Packages missing cupage config entries.
 desc: ""
 type: :bugfix
 component: misc-overlay
-release: 
+release: current
 reporter: James Rowe <jnrowe@gmail.com>
 status: :closed
 disposition: :fixed
@@ -58,6 +58,10 @@ log_events:
 - - 2009-11-12 06:12:26.947840 Z
   - James Rowe <jnrowe@gmail.com>
   - closed with disposition fixed
+  - ""
+- - 2010-02-10 21:16:41.586864 Z
+  - James Rowe <jnrowe@gmail.com>
+  - assigned to release current from unassigned
   - ""
 claimer: 
 git_branch: 

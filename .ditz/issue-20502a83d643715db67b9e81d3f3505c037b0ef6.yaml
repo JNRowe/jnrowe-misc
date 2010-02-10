@@ -3,7 +3,7 @@ title: Check python modules for slot compatibility.
 desc: ""
 type: :task
 component: misc-overlay
-release: 
+release: current
 reporter: James Rowe <jnrowe@gmail.com>
 status: :closed
 disposition: :fixed
@@ -28,5 +28,9 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - closed with disposition fixed
   - All python packages that support Python 3 have been changed.
+- - 2010-02-10 21:16:29.754653 Z
+  - James Rowe <jnrowe@gmail.com>
+  - assigned to release current from unassigned
+  - ""
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 

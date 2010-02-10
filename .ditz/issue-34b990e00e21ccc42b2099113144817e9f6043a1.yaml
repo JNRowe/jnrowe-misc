@@ -3,7 +3,7 @@ title: dev-python/pyisbn-0.5.2 version bump.
 desc: ""
 type: :feature
 component: misc-overlay
-release: 
+release: current
 reporter: James Rowe <jnrowe@gmail.com>
 status: :closed
 disposition: :reorg
@@ -27,5 +27,9 @@ log_events:
     This is just an informational bug, there is no intent to package 0.5.2 as it was
     never meant to be a proper release.  Its only purpose is to finish up pyisbn on
     pypi.
+- - 2010-02-10 21:16:32.893531 Z
+  - James Rowe <jnrowe@gmail.com>
+  - assigned to release current from unassigned
+  - ""
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 

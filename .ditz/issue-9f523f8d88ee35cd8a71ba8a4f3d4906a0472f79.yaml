@@ -3,7 +3,7 @@ title: Consider a live ebuild for psplash.
 desc: Useful changes are starting to accumulate in the Subversion repository.
 type: :feature
 component: misc-overlay
-release: 
+release: current
 reporter: James Rowe <jnrowe@gmail.com>
 status: :unstarted
 disposition: 
@@ -26,5 +26,9 @@ log_events:
   - |-
     A snapshot ebuild may be much more useful, as subversion is unlikely to be
     installed on systems.
+- - 2010-02-10 21:16:43.824162 Z
+  - James Rowe <jnrowe@gmail.com>
+  - assigned to release current from unassigned
+  - ""
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 

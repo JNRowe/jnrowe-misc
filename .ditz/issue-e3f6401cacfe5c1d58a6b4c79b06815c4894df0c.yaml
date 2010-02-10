@@ -6,7 +6,7 @@ desc: |-
   available.
 type: :feature
 component: misc-overlay
-release: 
+release: current
 reporter: James Rowe <jnrowe@gmail.com>
 status: :closed
 disposition: :wontfix
@@ -33,5 +33,9 @@ log_events:
     
     It has now been added to package.mask, consider this your final chance to step
     up.
+- - 2010-02-10 21:16:49.686748 Z
+  - James Rowe <jnrowe@gmail.com>
+  - assigned to release current from unassigned
+  - ""
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 

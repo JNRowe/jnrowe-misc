@@ -3,7 +3,7 @@ title: Support MY_PN in jnrowe-pypi.eclass.
 desc: ""
 type: :feature
 component: misc-overlay
-release: 
+release: current
 reporter: James Rowe <jnrowe@gmail.com>
 status: :closed
 disposition: :fixed
@@ -31,6 +31,10 @@ log_events:
 - - 2010-01-10 09:09:22.943932 Z
   - James Rowe <jnrowe@gmail.com>
   - edited title
+  - ""
+- - 2010-02-10 21:16:34.322463 Z
+  - James Rowe <jnrowe@gmail.com>
+  - assigned to release current from unassigned
   - ""
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 

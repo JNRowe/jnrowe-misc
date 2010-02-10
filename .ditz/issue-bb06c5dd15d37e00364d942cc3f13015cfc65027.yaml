@@ -5,7 +5,7 @@ desc: |-
   so this package can be dropped.
 type: :task
 component: misc-overlay
-release: 
+release: current
 reporter: James Rowe <jnrowe@gmail.com>
 status: :closed
 disposition: :reorg
@@ -45,6 +45,10 @@ log_events:
 - - 2010-01-05 01:06:50.759876 Z
   - James Rowe <jnrowe@gmail.com>
   - closed with disposition reorg
+  - ""
+- - 2010-02-10 21:16:45.497016 Z
+  - James Rowe <jnrowe@gmail.com>
+  - assigned to release current from unassigned
   - ""
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 

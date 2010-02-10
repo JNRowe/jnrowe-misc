@@ -6,7 +6,7 @@ desc: |-
   /usr/share/doc/apvlv-0.0.7.4/pdf.png
 type: :bugfix
 component: misc-overlay
-release: 
+release: current
 reporter: James Rowe <jnrowe@gmail.com>
 status: :closed
 disposition: :fixed
@@ -30,6 +30,10 @@ log_events:
 - - 2009-11-14 07:35:33.511903 Z
   - James Rowe <jnrowe@gmail.com>
   - closed with disposition fixed
+  - ""
+- - 2010-02-10 21:16:34.599867 Z
+  - James Rowe <jnrowe@gmail.com>
+  - assigned to release current from unassigned
   - ""
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 

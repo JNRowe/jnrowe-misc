@@ -3,7 +3,7 @@ title: x11-wm/matwm2 in the main tree.
 desc: ""
 type: :feature
 component: misc-overlay
-release: 
+release: current
 reporter: James Rowe <jnrowe@gmail.com>
 status: :closed
 disposition: :reorg
@@ -33,6 +33,10 @@ log_events:
 - - 2010-01-06 09:06:36.547932 Z
   - James Rowe <jnrowe@gmail.com>
   - edited title
+  - ""
+- - 2010-02-10 21:16:48.844036 Z
+  - James Rowe <jnrowe@gmail.com>
+  - assigned to release current from unassigned
   - ""
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 

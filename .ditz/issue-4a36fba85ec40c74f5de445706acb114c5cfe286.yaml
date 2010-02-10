@@ -3,7 +3,7 @@ title: dev-util/hg-git-0.2.1 version bump.
 desc: ""
 type: :feature
 component: misc-overlay
-release: 
+release: current
 reporter: James Rowe <jnrowe@gmail.com>
 status: :closed
 disposition: :reorg
@@ -35,5 +35,9 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - closed with disposition reorg
   - Bumped upstream. Yay!
+- - 2010-02-10 21:16:34.880613 Z
+  - James Rowe <jnrowe@gmail.com>
+  - assigned to release current from unassigned
+  - ""
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 
