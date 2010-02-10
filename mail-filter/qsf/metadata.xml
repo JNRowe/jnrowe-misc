@@ -18,9 +18,6 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<upstream>
-		<maintainer>
-			<name>Andrew Wood</name>
-		</maintainer>
 		<changelog>http://www.ivarch.com/programs/qsf/#news</changelog>
 		<doc lang="en">http://www.ivarch.com/programs/qsf/manual.shtml</doc>
 	</upstream>

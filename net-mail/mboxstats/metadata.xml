@@ -12,9 +12,6 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<upstream>
-		<maintainer>
-			<name>Folkert van Heusden</name>
-		</maintainer>
 		<changelog>http://www.vanheusden.com/mboxstats/#changelog</changelog>
 		<doc lang="en">http://www.vanheusden.com/mboxstats/</doc>
 		<bugs-to>http://www.vanheusden.com/feedbackform.php?subject=mboxstats</bugs-to>

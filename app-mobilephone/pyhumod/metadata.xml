@@ -12,9 +12,6 @@
 		and manage SMS messages.
 	</longdescription>
 	<upstream>
-		<maintainer>
-			<name>Slawek Ligus</name>
-		</maintainer>
 		<doc lang="en">http://code.google.com/p/pyhumod/wiki/Main</doc>
 		<bugs-to>http://code.google.com/p/pyhumod/issues/list</bugs-to>
 	</upstream>

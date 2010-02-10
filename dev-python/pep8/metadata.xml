@@ -12,9 +12,6 @@
 		output and small.
 	</longdescription>
 	<upstream>
-		<maintainer>
-			<name>Chris Burroughs</name>
-		</maintainer>
 		<changelog>http://github.com/cburroughs/pep8.py/raw/master/CHANGES.txt</changelog>
 		<doc lang="en">http://github.com/cburroughs/pep8.py/raw/master/README.rst</doc>
 		<bugs-to>http://github.com/cburroughs/pep8.py/issues</bugs-to>

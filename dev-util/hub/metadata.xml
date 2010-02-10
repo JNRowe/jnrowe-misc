@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<herd></herd>
+	<herd>no-herd</herd>
 	<maintainer>
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
@@ -14,9 +14,6 @@
 		It can used on its own or as a git wrapper.
 	</longdescription>
 	<upstream>
-		<maintainer>
-			<name>Chris Wanstrath</name>
-		</maintainer>
 		<changelog>http://github.com/defunkt/hub/raw/master/HISTORY.md</changelog>
 		<doc lang="en">http://github.com/defunkt/hub/raw/master/README.md</doc>
 		<bugs-to>http://github.com/defunkt/hub/issues</bugs-to>

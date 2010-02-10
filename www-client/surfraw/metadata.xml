@@ -24,9 +24,6 @@
 		with fear and wonder.
 	</longdescription>
 	<upstream>
-		<maintainer>
-			<name>Ian Beckwith</name>
-		</maintainer>
 		<changelog>http://surfraw.alioth.debian.org/#news</changelog>
 		<doc lang="en">http://surfraw.alioth.debian.org/#usage</doc>
 		<bugs-to>mailto:surfraw-devel@lists.alioth.debian.org</bugs-to>

@@ -12,9 +12,6 @@
 		be extremely portable and easy to use.
 	</longdescription>
 	<upstream>
-		<maintainer>
-			<name>John Goerzen</name>
-		</maintainer>
 		<changelog>http://software.complete.org/software/repositories/entry/missingh/debian/changelog</changelog>
 		<doc lang="en">http://software.complete.org/software/wiki/missingh/</doc>
 		<bugs-to>http://software.complete.org/software/projects/missingh/issues</bugs-to>

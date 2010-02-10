@@ -12,9 +12,6 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<upstream>
-		<maintainer>
-			<name>Natanael Copa</name>
-		</maintainer>
 		<changelog>http://git.alpinelinux.org/cgit/luaposix/plain/ChangeLog</changelog>
 		<doc lang="en">http://git.alpinelinux.org/cgit/luaposix/plain/README</doc>
 	</upstream>

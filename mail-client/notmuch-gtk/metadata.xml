@@ -11,9 +11,6 @@
 		written in vala.
 	</longdescription>
 	<upstream>
-		<maintainer>
-			<name>Baruch Even</name>
-		</maintainer>
 		<bugs-to>http://github.com/baruch/notmuch-gtk/issues</bugs-to>
 	</upstream>
 </pkgmetadata>

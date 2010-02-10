@@ -10,9 +10,6 @@
 		Command line interface to gist.github.com.
 	</longdescription>
 	<upstream>
-		<maintainer>
-			<name>Chris Wanstrath</name>
-		</maintainer>
 		<doc lang="en">http://github.com/defunkt/gist/raw/master/README.markdown</doc>
 		<bugs-to>http://github.com/defunkt/gist/issues</bugs-to>
 	</upstream>

@@ -14,9 +14,6 @@
 		backend storage options.
 	</longdescription>
 	<upstream>
-		<maintainer>
-			<name>Doug Hellmann</name>
-		</maintainer>
 		<changelog>http://bitbucket.org/dhellmann/feedcache/raw/33e02e8a27fb/ChangeLog</changelog>
 		<doc lang="en">http://bitbucket.org/dhellmann/feedcache/raw/33e02e8a27fb/README.txt</doc>
 		<bugs-to>http://bitbucket.org/dhellmann/feedcache/issues/?status=new&amp;status=open</bugs-to>

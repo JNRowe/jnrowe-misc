@@ -12,9 +12,6 @@
 		parsers a string file like:
 	</longdescription>
 	<upstream>
-		<maintainer>
-			<name>Hugo Lopes Tavares</name>
-		</maintainer>
 		<doc lang="en">http://github.com/hugobr/story_parser/raw/master/README.rst</doc>
 		<bugs-to>http://github.com/hugobr/story_parser/issues</bugs-to>
 	</upstream>

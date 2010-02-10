@@ -13,8 +13,8 @@
 	</longdescription>
 	<upstream>
 		<maintainer status="active">
-			<name>James Rowe</name>
 			<email>jnrowe@gmail.com</email>
+			<name>James Rowe</name>
 		</maintainer>
 		<changelog>http://github.com/JNRowe/cupage/raw/master/NEWS.rst</changelog>
 		<doc lang="en">http://jnrowe.github.com/cupage</doc>

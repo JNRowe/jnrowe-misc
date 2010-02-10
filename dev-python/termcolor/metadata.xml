@@ -11,9 +11,6 @@
 		colours.
 	</longdescription>
 	<upstream>
-		<maintainer>
-			<name>Konstantin Lepa</name>
-		</maintainer>
 		<changelog>http://pypi.python.org/pypi/termcolor/#changes</changelog>
 		<doc lang="en">http://pypi.python.org/pypi/termcolor</doc>
 	</upstream>

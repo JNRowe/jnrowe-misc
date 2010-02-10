@@ -17,9 +17,6 @@
 		intelligent expansion of windows.
 	</longdescription>
 	<upstream>
-		<maintainer>
-			<name>Mikkel Kamstrup Erlandsen</name>
-		</maintainer>
 		<bugs-to>https://bugs.launchpad.net/winwrangler</bugs-to>
 	</upstream>
 </pkgmetadata>

@@ -11,8 +11,5 @@
 		framework.  Use nosetests --with-color (no "u"!) to turn it on.
 	</longdescription>
 	<upstream>
-		<maintainer>
-			<name>John J. Lee</name>
-		</maintainer>
 	</upstream>
 </pkgmetadata>

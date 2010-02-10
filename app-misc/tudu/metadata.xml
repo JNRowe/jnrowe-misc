@@ -12,9 +12,4 @@
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
 	</maintainer>
-	<upstream>
-		<maintainer>
-			<name>Ruben Pollan</name>
-		</maintainer>
-	</upstream>
 </pkgmetadata>

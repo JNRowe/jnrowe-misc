@@ -15,9 +15,6 @@
 		improvements.
 	</longdescription>
 	<upstream>
-		<maintainer>
-			<name>John Goerzen</name>
-		</maintainer>
 		<changelog>http://software.complete.org/software/repositories/entry/configfile/debian/changelog</changelog>
 		<doc lang="en">http://software.complete.org/software/wiki/configfile/</doc>
 		<bugs-to>http://software.complete.org/software/projects/configfile/issues</bugs-to>

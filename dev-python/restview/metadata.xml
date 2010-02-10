@@ -23,9 +23,6 @@
 		</flag>
 	</use>
 	<upstream>
-		<maintainer>
-			<name>Marius Gedminas</name>
-		</maintainer>
 		<bugs-to>https://bugs.launchpad.net/restview</bugs-to>
 	</upstream>
 </pkgmetadata>

@@ -10,9 +10,6 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<upstream>
-		<maintainer>
-			<name>Taj Khattra</name>
-		</maintainer>
 		<changelog>http://www3.telus.net/taj_khattra/luainotify/LOG</changelog>
 	</upstream>
 </pkgmetadata>

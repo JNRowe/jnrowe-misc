@@ -13,9 +13,6 @@
 		a failure point is as easy as typing a number.
 	</longdescription>
 	<upstream>
-		<maintainer>
-			<name>kumar mcmillan</name>
-		</maintainer>
 		<changelog>http://code.google.com/p/nosetty/source/browse/trunk/CHANGELOG.txt</changelog>
 		<doc lang="en">http://code.google.com/p/nosetty/</doc>
 		<bugs-to>http://code.google.com/p/nosetty/issues/list</bugs-to>

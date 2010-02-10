@@ -23,8 +23,5 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<upstream>
-		<maintainer>
-			<name>Mathias Kettner</name>
-		</maintainer>
 	</upstream>
 </pkgmetadata>

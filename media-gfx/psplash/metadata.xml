@@ -13,9 +13,6 @@
 		rotation. Its visual look is configurable by basic source changes.
 	</longdescription>
 	<upstream>
-		<maintainer>
-			<name>Matthew Allum</name>
-		</maintainer>
 		<changelog>http://svn.o-hand.com/view/misc/trunk/psplash/ChangeLog?rev=422&amp;view=markup</changelog>
 		<doc lang="en">http://svn.o-hand.com/repos/misc/trunk/psplash/README</doc>
 		<bugs-to>http://bugzilla.o-hand.com/</bugs-to>

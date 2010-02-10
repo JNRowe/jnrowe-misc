@@ -13,9 +13,6 @@
 		a terminal (i.e not piping it to a file).
 	</longdescription>
 	<upstream>
-		<maintainer>
-			<name>Tim Cuthbertson</name>
-		</maintainer>
 		<bugs-to>http://github.com/gfxmonk/rednose/issues</bugs-to>
 	</upstream>
 </pkgmetadata>

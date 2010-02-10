@@ -21,9 +21,6 @@
 		</flag>
 	</use>
 	<upstream>
-		<maintainer>
-			<name>Carl Worth</name>
-		</maintainer>
 		<doc lang="en">http://git.notmuchmail.org/git/notmuch?a=blob_plain;f=README;hb=HEAD</doc>
 		<bugs-to>mailto:notmuch@notmuchmail.org</bugs-to>
 	</upstream>

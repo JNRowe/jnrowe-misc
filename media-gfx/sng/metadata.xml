@@ -17,9 +17,6 @@
 		translates between SNG and PNG.
 	</longdescription>
 	<upstream>
-		<maintainer>
-			<name>Eric Raymond</name>
-		</maintainer>
 		<bugs-to>http://sourceforge.net/tracker/?group_id=1012</bugs-to>
 		<remote-id type="sourceforge">sng</remote-id>
 	</upstream>

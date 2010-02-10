@@ -21,9 +21,6 @@
 		</flag>
 	</use>
 	<upstream>
-		<maintainer>
-			<name>Ali Polatel</name>
-		</maintainer>
 		<changelog>http://github.com/alip/mpdcron/raw/master/NEWS.mkd</changelog>
 		<doc lang="en">http://alip.github.com/mpdcron/configuration</doc>
 		<bugs-to>http://github.com/alip/mpdcron/issues</bugs-to>

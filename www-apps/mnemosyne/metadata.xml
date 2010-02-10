@@ -14,9 +14,6 @@
 		standard unix tools (no fancy databases, etc).
 	</longdescription>
 	<upstream>
-		<maintainer>
-			<name>Decklin Foster</name>
-		</maintainer>
 		<doc lang="en">http://www.red-bean.com/decklin/mnemosyne/</doc>
 	</upstream>
 </pkgmetadata>

@@ -22,9 +22,6 @@
 		document in a new tab.
 	</longdescription>
 	<upstream>
-		<maintainer>
-			<name>Alf</name>
-		</maintainer>
 		<bugs-to>http://code.google.com/p/apvlv/issues/list</bugs-to>
 	</upstream>
 </pkgmetadata>

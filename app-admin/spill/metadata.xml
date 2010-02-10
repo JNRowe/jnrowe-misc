@@ -15,9 +15,6 @@
 		the PATH environment variable.
 	</longdescription>
 	<upstream>
-		<maintainer>
-			<name>Richard P. Curnow</name>
-		</maintainer>
 		<doc lang="en">http://www.rpcurnow.force9.co.uk/spill/</doc>
 	</upstream>
 </pkgmetadata>

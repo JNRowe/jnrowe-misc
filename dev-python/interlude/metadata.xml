@@ -14,8 +14,5 @@
 		test case itself. Its not pdb, it's a python shell.
 	</longdescription>
 	<upstream>
-		<maintainer>
-			<name>Jens Klein</name>
-		</maintainer>
 	</upstream>
 </pkgmetadata>

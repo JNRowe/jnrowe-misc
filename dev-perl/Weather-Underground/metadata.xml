@@ -12,9 +12,6 @@
 		so by querying wunderground.com and parsing the returned results.
 	</longdescription>
 	<upstream>
-		<maintainer>
-			<name>Mina Naguib</name>
-		</maintainer>
 		<changelog>http://search.cpan.org/src/MNAGUIB/Weather-Underground-3.02/Changes</changelog>
 		<doc lang="en">http://search.cpan.org/dist/Weather-Underground/Underground.pm</doc>
 		<bugs-to>https://rt.cpan.org/Public/Bug/Report.html?Queue=Weather-Underground</bugs-to>

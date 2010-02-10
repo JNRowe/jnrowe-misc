@@ -15,9 +15,6 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<upstream>
-		<maintainer>
-			<name>Troy Will</name>
-		</maintainer>
 		<doc lang="en">http://www.gnu.org/software/stow/manual.html</doc>
 	</upstream>
 </pkgmetadata>

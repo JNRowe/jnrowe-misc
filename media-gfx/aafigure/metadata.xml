@@ -17,9 +17,6 @@
 		</flag>
 	</use>
 	<upstream>
-		<maintainer>
-			<name>Chris Liechti</name>
-		</maintainer>
 		<bugs-to>https://bugs.launchpad.net/aafigure</bugs-to>
 	</upstream>
 </pkgmetadata>

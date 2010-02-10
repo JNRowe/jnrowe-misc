@@ -12,9 +12,6 @@
 		project, and it is Open Source.
 	</longdescription>
 	<upstream>
-		<maintainer>
-			<name>Paul Beckingham</name>
-		</maintainer>
 		<changelog>http://taskwarrior.org/wiki/taskwarrior/Changelog</changelog>
 		<doc lang="en">http://taskwarrior.org/wiki/taskwarrior/Documentation</doc>
 		<bugs-to>http://taskwarrior.org/projects/taskwarrior/issues</bugs-to>

@@ -12,8 +12,5 @@
 		and specify regular expressions to match against the selection.
 	</longdescription>
 	<upstream>
-		<maintainer>
-			<name>Adam Sampson</name>
-		</maintainer>
 	</upstream>
 </pkgmetadata>

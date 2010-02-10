@@ -13,9 +13,6 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<upstream>
-		<maintainer>
-			<name>Leandro Lucarella</name>
-		</maintainer>
 		<changelog>http://packages.python.org/sphinxcontrib-aafig/#changelog</changelog>
 		<doc lang="en">http://packages.python.org/sphinxcontrib-aafig/#usage</doc>
 		<bugs-to>mailto:llucax%40gmail.com</bugs-to>
