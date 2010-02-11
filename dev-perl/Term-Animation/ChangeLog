@@ -3,6 +3,9 @@
 # $Header: $
 
   11 Feb 2010; James Rowe <jnrowe@gmail.com> Term-Animation-2.4.ebuild:
+  Keyworded x86.
+
+  11 Feb 2010; James Rowe <jnrowe@gmail.com> Term-Animation-2.4.ebuild:
   Keyworded amd64.
 
 *Term-Animation-2.4 (12 Jan 2010)
