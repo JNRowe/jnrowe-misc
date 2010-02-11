@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd></herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Shells are applications often used by administrators or developers to
+		carry out very diverse type of operations: the list is virtually
+		boundless and includes, for example, disk management, network
+		administration, source code version control, or application packaging
+		and deployment. Documentation of shell operations are eased by the
+		fact that a shell session is composed of text commands and outputs,
+		which is easy to copy and paste, or to present orderly.
+
+		Wordish is a project which parses a shell session from a documentation
+		which contains the commands and the expected output, and verifies that
+		they work exactly as shown, to make sure the documentation is correct.
+	</longdescription>
+</pkgmetadata>
