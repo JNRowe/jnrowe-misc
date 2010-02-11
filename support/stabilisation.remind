@@ -1,6 +1,5 @@
 REM 2010-02-11 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 x11-misc/gselt-1.2 %a
 REM 2010-02-11 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-perl/Term-Animation-2.4 %a
-REM 2010-02-11 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 app-misc/asciiquarium-1.0 %a
 REM 2010-02-11 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 app-misc/asciiquarium-1.0 %a
 REM 2010-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-perl/Weather-Underground-3.02 %a
 REM 2010-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-perl/Weather-Underground-3.02 %a
