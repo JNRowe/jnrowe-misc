@@ -1,5 +1,5 @@
 dev-python/setuptools >=app-admin/eselect-python-20090804 virtual/python >=dev-util/git-1.6
-dev-python/nose dev-python/pyparsing >=app-admin/eselect-python-20090804 virtual/python
+dev-python/nose dev-python/pyparsing dev-python/pyyaml >=app-admin/eselect-python-20090804 virtual/python
 0
 
 

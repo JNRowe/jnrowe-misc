@@ -4,7 +4,7 @@
 
 EAPI="2"
 
-inherit distutils git
+inherit distutils eutils git
 
 EGIT_REPO_URI="git://github.com/rlisagor/freshen.git"
 
@@ -19,9 +19,14 @@ IUSE="examples"
 
 DEPEND="dev-python/setuptools"
 RDEPEND="dev-python/nose
-	dev-python/pyparsing"
+	dev-python/pyparsing
+	dev-python/pyyaml"
 
 DOCS="todo.txt"
+
+src_prepare() {
+	epatch "${FILESDIR}"/${P}-data_fix.patch
+}
 
 src_install() {
 	distutils_src_install
