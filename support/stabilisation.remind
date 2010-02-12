@@ -2,7 +2,6 @@ REM 2010-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-perl/Weather-Undergr
 REM 2010-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 app-misc/weatherspect-1.8 %a
 REM 2010-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 x11-misc/winmatch-0.5 %a
 REM 2010-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/psplash-0.1 %a
-REM 2010-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/feedcache-1.3.1 %a
 REM 2010-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/feedcache-1.3.1 %a
 REM 2010-02-13 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 app-misc/sunwait-20041208 %a
 REM 2010-02-13 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 app-misc/sunwait-20041208 %a
