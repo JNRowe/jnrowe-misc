@@ -4,6 +4,10 @@
 
   12 Feb 2010; James Rowe <jnrowe@gmail.com>
   Weather-Underground-3.02.ebuild:
+  Keyworded x86.
+
+  12 Feb 2010; James Rowe <jnrowe@gmail.com>
+  Weather-Underground-3.02.ebuild:
   Keyworded amd64.
 
 *Weather-Underground-3.02 (13 Jan 2010)
