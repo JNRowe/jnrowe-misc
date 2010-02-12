@@ -1,4 +1,3 @@
-REM 2010-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/feedcache-1.3.1 %a
 REM 2010-02-13 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 app-misc/sunwait-20041208 %a
 REM 2010-02-13 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 app-misc/sunwait-20041208 %a
 REM 2010-02-13 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 app-mobilephone/pyhumod-0.03 %a
