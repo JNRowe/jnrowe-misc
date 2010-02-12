@@ -1,7 +1,5 @@
 REM 2010-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-perl/Weather-Underground-3.02 %a
 REM 2010-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 app-misc/weatherspect-1.8 %a
-REM 2010-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 www-apps/mnemosyne-0.12 %a
-REM 2010-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 www-apps/mnemosyne-0.12 %a
 REM 2010-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 x11-misc/winmatch-0.5 %a
 REM 2010-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 x11-misc/winmatch-0.5 %a
 REM 2010-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/psplash-0.1 %a
@@ -46,5 +44,7 @@ REM 2010-03-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/mod2doctest
 REM 2010-03-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/mod2doctest-0.1.1 %a
 REM 2010-03-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/wordish-0.0.6 %a
 REM 2010-03-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/wordish-0.0.6 %a
+REM 2010-03-14 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 www-apps/mnemosyne-0.12 %a
+REM 2010-03-14 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 www-apps/mnemosyne-0.12 %a
 
 # vim: set sw=4 sts=4 et tw=80 fenc=utf-8 ft=remind:
