@@ -1,0 +1,22 @@
+dev-python/setuptools test? ( dev-python/decorator dev-python/mock ) >=app-admin/eselect-python-20090804 virtual/python
+dev-python/decorator dev-python/mock >=app-admin/eselect-python-20090804 virtual/python
+0
+http://pypi.python.org/packages/source/c/clepy/clepy-0.3.16.tar.gz
+
+http://pypi.python.org/pypi/clepy/
+MIT
+Utilities from the Cleveland Python user group
+~amd64 ~x86
+distutils jnrowe-pypi multilib python toolchain-funcs
+test
+
+
+
+2
+
+compile install postinst postrm prepare unpack
+
+
+
+
+

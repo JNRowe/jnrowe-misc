@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		A bunch of python utilities created by members of the Cleveland Python
+		users group (clepy).
+	</longdescription>
+	<upstream>
+		<bugs-to>http://code.google.com/p/clepy/issues/list</bugs-to>
+	</upstream>
+</pkgmetadata>
