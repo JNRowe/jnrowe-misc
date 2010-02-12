@@ -3,6 +3,9 @@
 # $Header: $
 
   12 Feb 2010; James Rowe <jnrowe@gmail.com> winmatch-0.5.ebuild:
+  Keyworded x86.
+
+  12 Feb 2010; James Rowe <jnrowe@gmail.com> winmatch-0.5.ebuild:
   Keyworded amd64.
 
 *winmatch-0.5 (13 Jan 2010)
