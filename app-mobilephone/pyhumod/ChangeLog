@@ -3,6 +3,9 @@
 # $Header: $
 
   13 Feb 2010; James Rowe <jnrowe@gmail.com> pyhumod-0.03.ebuild:
+  Keyworded x86.
+
+  13 Feb 2010; James Rowe <jnrowe@gmail.com> pyhumod-0.03.ebuild:
   Keyworded amd64.
 
   14 Jan 2010; James Rowe <jnrowe@gmail.com> pyhumod-0.03.ebuild:
