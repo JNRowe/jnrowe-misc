@@ -1,0 +1,28 @@
+diff --git i/setup.py w/setup.py
+index 4e94c14..264ba0a 100644
+--- i/setup.py
++++ w/setup.py
+@@ -1,4 +1,4 @@
+-from setuptools import setup, find_packages
++from setuptools import setup
+ import sys, os
+ 
+ from pitz import __version__
+@@ -21,14 +21,13 @@ started pitz.""",
+     author_email='matt@tplus1.com',
+     url='http://pitz.tplus1.com',
+     license='BSD',
+-    packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
+-    include_package_data=True,
++    packages=["pitz"],
+     package_dir={'pitz':'pitz'},
+-
++    package_data = {"pitz": ["*templates/*"]},
+     zip_safe=False,
+ 
+     install_requires=[
+-        'mock==0.4',
++        'mock',
+         'clepy>=0.3.13',
+         'IPython',
+         'PyYAML',

@@ -1,0 +1,22 @@
+dev-python/setuptools test? ( dev-python/clepy dev-python/ipython dev-python/jinja2 dev-python/mock dev-python/pyyaml dev-python/setuptools dev-python/tempita ) >=app-admin/eselect-python-20090804 virtual/python >=dev-util/git-1.6
+dev-python/clepy dev-python/ipython dev-python/jinja2 dev-python/mock dev-python/pyyaml dev-python/setuptools dev-python/tempita >=app-admin/eselect-python-20090804 virtual/python
+0
+
+
+http://pitz.tplus1.com/
+BSD
+A simple issue-tracking system, similar to ditz
+~amd64 ~x86
+distutils eutils git multilib portability python toolchain-funcs
+test
+
+
+
+2
+
+compile install postinst postrm prepare unpack
+
+
+
+
+
