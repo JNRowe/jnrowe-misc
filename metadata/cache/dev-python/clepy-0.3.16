@@ -1,8 +1,8 @@
-dev-python/setuptools test? ( dev-python/decorator dev-python/mock ) >=app-admin/eselect-python-20090804 virtual/python
-dev-python/decorator dev-python/mock >=app-admin/eselect-python-20090804 virtual/python
+dev-python/setuptools >=app-admin/eselect-python-20090804 virtual/python
+dev-python/decorator >=app-admin/eselect-python-20090804 virtual/python
 0
 http://pypi.python.org/packages/source/c/clepy/clepy-0.3.16.tar.gz
-
+test
 http://pypi.python.org/pypi/clepy/
 MIT
 Utilities from the Cleveland Python user group

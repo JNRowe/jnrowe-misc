@@ -4,6 +4,8 @@
 
 EAPI="2"
 SUPPORT_PYTHON_ABIS="1"
+# Commented until tests are enabled again
+#DISTUTILS_SRC_TEST="nosetests"
 
 inherit jnrowe-pypi
 
@@ -13,13 +15,12 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="test"
+# Tests currently require unavailable mock version
+RESTRICT="test"
 
-RDEPEND="dev-python/decorator
-	dev-python/mock"
-DEPEND="dev-python/setuptools
-	test? ( ${RDEPEND} )"
-
-DISTUTILS_SRC_TEST="nosetests"
+DEPEND="dev-python/setuptools"
+# Tests: test? ( ${RDEPEND} =dev-python/mock-0.4* )
+RDEPEND="dev-python/decorator"
 
 src_prepare() {
 	sed -i 's,mock==0.4,mock,' setup.py

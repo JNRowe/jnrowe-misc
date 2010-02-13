@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  13 Feb 2010; James Rowe <jnrowe@gmail.com> clepy-0.3.16.ebuild:
+  Restrict tests as they require unavailable version of mock.
+
 *clepy-0.3.16 (12 Feb 2010)
 
   12 Feb 2010; James Rowe <jnrowe@gmail.com> +clepy-0.3.16.ebuild,
