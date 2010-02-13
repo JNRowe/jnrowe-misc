@@ -6,7 +6,7 @@ http://www.risacher.org/sunwait/sunwait-20041208.tar.gz
 http://www.risacher.org/sunwait/
 GPL-2
 Tool for calculating sunrise and sunset, and sleeping until such an event.
-~amd64 ~x86
+amd64 ~x86
 multilib toolchain-funcs
 
 
