@@ -8,7 +8,7 @@ index 4e94c14..264ba0a 100644
  import sys, os
  
  from pitz import __version__
-@@ -21,14 +21,13 @@ started pitz.""",
+@@ -21,10 +21,9 @@
      author_email='matt@tplus1.com',
      url='http://pitz.tplus1.com',
      license='BSD',
@@ -21,8 +21,3 @@ index 4e94c14..264ba0a 100644
      zip_safe=False,
  
      install_requires=[
--        'mock==0.4',
-+        'mock',
-         'clepy>=0.3.13',
-         'IPython',
-         'PyYAML',
