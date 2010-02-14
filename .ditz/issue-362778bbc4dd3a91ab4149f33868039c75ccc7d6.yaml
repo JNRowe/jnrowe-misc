@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: dev-python/html doesn't work with Python 2.4.
+desc: ""
+type: :bugfix
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-02-14 07:36:28.091756 Z
+references: []
+
+id: 362778bbc4dd3a91ab4149f33868039c75ccc7d6
+log_events: 
+- - 2010-02-14 07:37:03.719644 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - Reported by Ed Lyle.
+claimer: 
+git_branch: 
