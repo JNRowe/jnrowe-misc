@@ -18,32 +18,32 @@ happened.
 Patches
 '''''''
 
-* Bashshar Qaraja Maloof
 * Leon Bird
-* Matt Leighton
 * Rachel Holmes
+* Matt Leighton
+* Bashshar Qaraja Maloof
 
 Bug reports
 '''''''''''
 
+* Jake Archer
+* Kristian Cole
+* Fabien Courtois
 * Ed Lyle
 * Erin Sandusky
-* Fabien Courtois
-* Jake Archer
-* Jens Wulf
-* Jesper Tremblay
-* Kristian Cole
-* Matthew Turner
 * Shi Tang
+* Jesper Tremblay
+* Matthew Turner
+* Jens Wulf
 
 Ideas
 '''''
 
 * Jamie Ashton
-* Patrick Sauvé
-* Ryan Lewis
 * Scott Hunter
+* Ryan Lewis
 * Tony McKenzie
+* Patrick Sauvé
 
 If I've forgotten to include your name I wholeheartedly apologise.  Just drop me
 an email_ and I'll update the list!
