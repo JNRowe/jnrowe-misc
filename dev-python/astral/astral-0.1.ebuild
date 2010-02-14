@@ -1,8 +1,9 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI="2"
+SUPPORT_PYTHON_ABIS="1"
 
 inherit distutils
 
@@ -17,6 +18,8 @@ IUSE="test"
 
 DEPEND="test? ( dev-python/nose )"
 RDEPEND="dev-python/pytz"
+
+RESTRICT_PYTHON_ABIS="3.*"
 
 src_test() {
 	nosetests
