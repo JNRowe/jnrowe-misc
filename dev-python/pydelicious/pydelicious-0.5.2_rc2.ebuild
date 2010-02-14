@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI="2"
+SUPPORT_PYTHON_ABIS="1"
 
 inherit distutils eutils versionator
 
@@ -21,6 +22,8 @@ RESTRICT="test"
 
 DEPEND="app-arch/unzip"
 RDEPEND=""
+
+RESTRICT_PYTHON_ABIS="2.4 3.*"
 
 src_unpack() {
 	# Doesn't unpack in to its own top-level directory.
