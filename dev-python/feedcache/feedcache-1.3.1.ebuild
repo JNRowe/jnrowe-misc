@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI="2"
+SUPPORT_PYTHON_ABIS="1"
 
 inherit distutils
 
@@ -17,3 +18,5 @@ IUSE=""
 
 DEPEND=""
 RDEPEND="dev-python/feedparser"
+
+RESTRICT_PYTHON_ABIS="3.*"
