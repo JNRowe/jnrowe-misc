@@ -1,8 +1,9 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI="2"
+SUPPORT_PYTHON_ABIS="1"
 
 inherit distutils
 
@@ -17,6 +18,8 @@ IUSE=""
 
 DEPEND=""
 RDEPEND=""
+
+RESTRICT_PYTHON_ABIS="2.4 3.*"
 
 src_test() {
 	# Don't use test_doc as it requires net access
