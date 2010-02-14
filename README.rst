@@ -26,6 +26,7 @@ Patches
 Bug reports
 '''''''''''
 
+* Ed Lyle
 * Erin Sandusky
 * Fabien Courtois
 * Jake Archer
