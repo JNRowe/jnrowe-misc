@@ -1,8 +1,9 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI="2"
+SUPPORT_PYTHON_ABIS="1"
 
 inherit distutils eutils
 
@@ -29,7 +30,8 @@ DEPEND="dev-lang/python"
 RDEPEND="dev-lang/python"
 
 PYTHON_MODNAME="becommands libbe"
-
+RESTRICT_PYTHON_ABIS="3.*"
+DISTUTILS_DISABLE_VERSIONING_OF_PYTHON_SCRIPTS="1"
 DOCS="README"
 
 src_prepare() {
