@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI="2"
+SUPPORT_PYTHON_ABIS="1"
 
 inherit distutils
 
@@ -21,6 +22,7 @@ RDEPEND="dev-python/pyserial
 	dbus? ( dev-python/dbus-python )"
 
 PYTHON_MODNAME="humod"
+RESTRICT_PYTHON_ABIS="3.*"
 
 src_prepare() {
 	sed -i -e '/^CONFIG_FILES/,/^$/d' -e '/CONFIG_FILES/d' setup.py
