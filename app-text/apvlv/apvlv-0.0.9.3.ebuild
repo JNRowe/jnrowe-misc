@@ -16,7 +16,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="djvu"
 
-RDEPEND="virtual/poppler-glib
+RDEPEND=">=app-text/poppler-0.12.3-r3[cairo]
 	x11-libs/gtk+:2
 	djvu? ( app-text/djvu )"
 DEPEND="${RDEPEND}
