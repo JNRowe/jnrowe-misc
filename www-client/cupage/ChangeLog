@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  14 Feb 2010; James Rowe <jnrowe@gmail.com> cupage-0.3.1.ebuild,
+  cupage-0.4.0.ebuild:
+  Incompatible with python 2.5 and earlier, and incompatible with 3.x due to
+  print usage. The upstream [me] has no desire to support those versions
+  either, just 2.6 and later 2.x versions for now.
+
   10 Feb 2010; James Rowe <jnrowe@gmail.com> -cupage-0.3.0.ebuild,
   cupage-0.3.1.ebuild:
   Keyworded x86.

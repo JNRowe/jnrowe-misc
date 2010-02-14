@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI="2"
+SUPPORT_PYTHON_ABIS="1"
 
 inherit distutils
 
@@ -16,9 +17,9 @@ KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND=""
-RDEPEND="dev-python/lxml
-	|| ( >=dev-lang/python-2.6 dev-python/simplejson )"
+RDEPEND="dev-python/lxml"
 
 S="${WORKDIR}/JNRowe-${PN}-a7c4d2f"
 
 PYTHON_MODNAME="libcupage"
+RESTRICT_PYTHON_ABIS="2.4 2.5 3.*"
