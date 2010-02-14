@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI="2"
+SUPPORT_PYTHON_ABIS="1"
 
 inherit distutils eutils git
 
@@ -23,6 +24,8 @@ RDEPEND="dev-python/nose
 	dev-python/pyyaml"
 
 DOCS="todo.txt"
+
+RESTRICT_PYTHON_ABIS="2.4 3.*"
 
 src_prepare() {
 	epatch "${FILESDIR}"/${P}-data_fix.patch

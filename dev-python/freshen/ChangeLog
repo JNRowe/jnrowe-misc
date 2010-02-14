@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  14 Feb 2010; James Rowe <jnrowe@gmail.com> freshen-9999.ebuild:
+  Incompatible with python 2.4 due to conditional expressions, and
+  incompatible with 3.x due to exception handling syntax.
+
   12 Feb 2010; James Rowe <jnrowe@gmail.com> freshen-9999.ebuild,
   +files/freshen-9999-data_fix.patch:
   Updated for recent changes to git source.
