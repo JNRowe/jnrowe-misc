@@ -7,16 +7,21 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<longdescription lang="en">
-		Shells are applications often used by administrators or developers to
-		carry out very diverse type of operations: the list is virtually
-		boundless and includes, for example, disk management, network
-		administration, source code version control, or application packaging
-		and deployment. Documentation of shell operations are eased by the
-		fact that a shell session is composed of text commands and outputs,
-		which is easy to copy and paste, or to present orderly.
 
-		Wordish is a project which parses a shell session from a documentation
-		which contains the commands and the expected output, and verifies that
-		they work exactly as shown, to make sure the documentation is correct.
+		Wordish is a script which executes a shell session parsed from
+		a documentation in the restructured text [1] format, then tests and
+		builds a report of the execution. To mark up shell code in an article,
+		wordish uses the custom directive sourcecode, with the required argument
+		sh. When presented with an article:
+
+		* wordish filters out the text which is not marked with sourcecode,
+		* then, separates the blocks of shell codes between commands and
+		  outputs:
+			* wordish consumes the prompt, parses for the newline which ends
+			  command,
+			* then parses for the prompt which ends the output,
 	</longdescription>
+	<upstream>
+		<doc lang="en">http://jdb.github.com/wordish/</doc>
+	</upstream>
 </pkgmetadata>
