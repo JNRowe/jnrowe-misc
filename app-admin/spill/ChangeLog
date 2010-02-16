@@ -3,6 +3,9 @@
 # $Header: $
 
   16 Feb 2010; James Rowe <jnrowe@gmail.com> spill-0.8.ebuild:
+  Keyworded x86.
+
+  16 Feb 2010; James Rowe <jnrowe@gmail.com> spill-0.8.ebuild:
   Keyworded amd64.
 
 *spill-0.8 (17 Jan 2010)
