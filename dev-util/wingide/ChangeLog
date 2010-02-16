@@ -1,6 +1,11 @@
 # ChangeLog for dev-util/wingide
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*wingide-3.2.4.1 (16 Feb 2010)
+
+  16 Feb 2010; James Rowe <jnrowe@gmail.com> +wingide-3.2.4.1.ebuild:
+  Version bump. x86 is no longer supported, you were warned.
 
   12 Nov 2009; James Rowe <jnrowe@gmail.com> wingide-3.2.0.1.ebuild:
   Switched to EAPI 2.
