@@ -1,5 +1,5 @@
-dev-python/setuptools >=app-admin/eselect-python-20090804 virtual/python
->=app-admin/eselect-python-20090804 virtual/python
+dev-python/setuptools >=app-admin/eselect-python-20091230 virtual/python
+>=app-admin/eselect-python-20091230 virtual/python
 0
 http://pypi.python.org/packages/source/i/interlude/interlude-1.0.tar.gz
 

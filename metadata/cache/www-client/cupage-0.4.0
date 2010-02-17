@@ -1,5 +1,5 @@
->=app-admin/eselect-python-20090804 virtual/python
-dev-python/lxml >=app-admin/eselect-python-20090804 virtual/python
+>=app-admin/eselect-python-20091230 virtual/python
+dev-python/lxml >=app-admin/eselect-python-20091230 virtual/python
 0
 http://github.com/JNRowe/cupage/tarball/0.4.0 -> cupage-0.4.0.tar.gz
 
