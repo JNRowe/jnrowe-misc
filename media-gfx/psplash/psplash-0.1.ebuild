@@ -24,5 +24,6 @@ src_prepare() {
 
 src_install() {
 	emake DESTDIR="${D}" install || die "emake install failed"
+	dodoc README
 	save_config psplash-hand-img.h
 }
