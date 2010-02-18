@@ -1,0 +1,24 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: dev-python/pep8-0.5.0 version bump.
+desc: ""
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-02-18 12:44:37.547855 Z
+references: []
+
+id: cb0ec1b57566faac7a1b265716f1cbf5cf164ea7
+log_events: 
+- - 2010-02-18 12:44:38.095737 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2010-02-18 12:44:41.403809 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 
