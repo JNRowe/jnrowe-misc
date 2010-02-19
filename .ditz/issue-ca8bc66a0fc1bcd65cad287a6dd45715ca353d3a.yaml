@@ -1,0 +1,24 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: dev-haskell/configfile-1.0.6 version bump.
+desc: ""
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-02-19 20:00:40.871949 Z
+references: []
+
+id: ca8bc66a0fc1bcd65cad287a6dd45715ca353d3a
+log_events: 
+- - 2010-02-19 20:00:41.631832 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2010-02-19 20:00:48.431928 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 
