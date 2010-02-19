@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -18,11 +18,17 @@ LICENSE="LGPL-2.1"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
+RESTRICT="test"
 
 DEPEND=">=dev-lang/ghc-6.6
-		dev-haskell/mtl
-		dev-haskell/parsec
-		dev-haskell/missingh"
+	>=dev-haskell/hslogger-1.0.2
+	>=dev-haskell/hunit-1.2.0.3
+	dev-haskell/mtl
+	>=dev-haskell/network-2.2.1
+	dev-haskell/parsec
+	>=dev-haskell/quickcheck-1.1.0.0
+	>=dev-haskell/regex-compat-0.71.0.1
+	dev-haskell/missingh"
 RDEPEND=""
 
 S="${WORKDIR}/${MY_P}"
