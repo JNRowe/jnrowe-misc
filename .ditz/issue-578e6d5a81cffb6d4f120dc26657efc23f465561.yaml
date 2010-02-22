@@ -1,0 +1,24 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: x11-plugins/vicious-1.0.24 version bump.
+desc: ""
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-02-22 03:21:09.947917 Z
+references: []
+
+id: 578e6d5a81cffb6d4f120dc26657efc23f465561
+log_events: 
+- - 2010-02-22 03:21:10.731800 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2010-02-22 03:22:22.043898 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 
