@@ -15,6 +15,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=""
-RDEPEND=""
+RDEPEND="dev-python/docutils"
 
 RESTRICT_PYTHON_ABIS="3.*"
