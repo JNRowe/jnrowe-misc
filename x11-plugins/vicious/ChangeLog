@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*vicious-1.0.24 (22 Feb 2010)
+
+  22 Feb 2010; James Rowe <jnrowe@gmail.com> +vicious-1.0.24.ebuild:
+  Version bump [578].
+
   13 Feb 2010; James Rowe <jnrowe@gmail.com> -vicious-1.0.21.ebuild,
   -vicious-1.0.22.ebuild:
   Vicious can't be stablised until awesome v3.4 or above are, this means
