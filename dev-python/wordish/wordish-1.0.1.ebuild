@@ -17,4 +17,4 @@ IUSE=""
 DEPEND=""
 RDEPEND="dev-python/docutils"
 
-RESTRICT_PYTHON_ABIS="3.*"
+RESTRICT_PYTHON_ABIS="2.4 2.5 3.*"
