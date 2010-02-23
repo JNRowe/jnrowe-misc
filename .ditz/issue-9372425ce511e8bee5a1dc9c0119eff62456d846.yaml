@@ -27,5 +27,13 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - assigned to release current from unassigned
   - ""
+- - 2010-02-23 16:09:23.352114 Z
+  - James Rowe <jnrowe@gmail.com>
+  - commented
+  - |-
+    There is no sensible upgrade path at this time, so I've decided(against my own
+    policy) to shadow the upstream package.  This is an exceptional circumstance,
+    and won't happen to other packages, I will kick rss2email out of this overlay if
+    upstream starts tracking new releases.
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 
