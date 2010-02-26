@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  26 Feb 2010; James Rowe <jnrowe@gmail.com> -subtle-0.8.1602.ebuild,
+  subtle-0.8.1710.ebuild:
+  Keyworded x86.
+
   25 Feb 2010; James Rowe <jnrowe@gmail.com> subtle-0.8.1710.ebuild:
   Keyworded amd64.
 
