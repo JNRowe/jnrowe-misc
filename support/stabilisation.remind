@@ -19,8 +19,6 @@ REM 2010-03-14 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/clepy-0.3.16 
 REM 2010-03-16 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/texttable-0.7.0 %a
 REM 2010-03-18 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/dexml-0.3.1 %a
 REM 2010-03-18 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/dexml-0.3.1 %a
-REM 2010-03-18 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-util/wingide-3.2.4.1 %a
-REM 2010-03-18 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-util/wingide-3.2.4.1 %a
 REM 2010-03-19 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/psplash-0.1_p20090528 %a
 REM 2010-03-19 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/psplash-0.1_p20090528 %a
 REM 2010-03-20 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-sound/mpdcron-0.3 %a
