@@ -1,5 +1,5 @@
 --- !ditz.rubyforge.org,2008-03-06/issue 
-title: dev-python/dexml-0.3.2 version bump.
+title: dev-python/dexml-0.3.3 version bump.
 desc: ""
 type: :feature
 component: misc-overlay
@@ -20,5 +20,9 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - issue claimed
   - ""
+- - 2010-03-02 16:26:16.715782 Z
+  - James Rowe <jnrowe@gmail.com>
+  - edited title
+  - dexml-0.3.3 has been released.
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 
