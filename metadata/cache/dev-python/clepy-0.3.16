@@ -1,5 +1,5 @@
-dev-python/setuptools >=app-admin/eselect-python-20091230 virtual/python
-dev-python/decorator >=app-admin/eselect-python-20091230 virtual/python
+dev-python/setuptools >=app-admin/eselect-python-20091230 dev-lang/python
+dev-python/decorator >=app-admin/eselect-python-20091230 dev-lang/python
 0
 http://pypi.python.org/packages/source/c/clepy/clepy-0.3.16.tar.gz
 test
@@ -14,7 +14,7 @@ test
 
 2
 
-compile install postinst postrm prepare unpack
+compile install postinst postrm prepare
 
 
 

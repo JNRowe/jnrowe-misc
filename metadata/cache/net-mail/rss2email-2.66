@@ -1,5 +1,5 @@
-dev-lang/python >=app-admin/eselect-python-20091230 virtual/python
-dev-python/feedparser >=app-admin/eselect-python-20091230 virtual/python
+dev-lang/python >=app-admin/eselect-python-20091230 dev-lang/python
+dev-python/feedparser >=app-admin/eselect-python-20091230 dev-lang/python
 0
 http://www.allthingsrss.com/rss2email/rss2email-2.66.tar.gz
 
@@ -14,7 +14,7 @@ distutils eutils multilib portability python toolchain-funcs
 
 2
 
-compile install postinst postrm prepare setup unpack
+compile install postinst postrm prepare setup
 
 
 

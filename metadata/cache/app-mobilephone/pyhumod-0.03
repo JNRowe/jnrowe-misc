@@ -1,5 +1,5 @@
->=app-admin/eselect-python-20091230 virtual/python
-dev-python/pyserial net-dialup/ppp dbus? ( dev-python/dbus-python ) >=app-admin/eselect-python-20091230 virtual/python
+>=app-admin/eselect-python-20091230 dev-lang/python
+dev-python/pyserial net-dialup/ppp dbus? ( dev-python/dbus-python ) >=app-admin/eselect-python-20091230 dev-lang/python
 0
 http://pyhumod.googlecode.com/files/pyhumod-0.03.tar.gz
 
@@ -14,7 +14,7 @@ dbus
 
 2
 
-compile install postinst postrm prepare unpack
+compile install postinst postrm prepare
 
 
 

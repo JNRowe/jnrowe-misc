@@ -1,5 +1,5 @@
-dev-python/setuptools >=app-admin/eselect-python-20091230 virtual/python >=dev-util/git-1.6
-dev-python/clepy dev-python/ipython dev-python/jinja2 dev-python/pyyaml dev-python/setuptools dev-python/tempita >=app-admin/eselect-python-20091230 virtual/python
+dev-python/setuptools >=app-admin/eselect-python-20091230 dev-lang/python >=dev-util/git-1.6
+dev-python/clepy dev-python/ipython dev-python/jinja2 dev-python/pyyaml dev-python/setuptools dev-python/tempita >=app-admin/eselect-python-20091230 dev-lang/python
 0
 
 test

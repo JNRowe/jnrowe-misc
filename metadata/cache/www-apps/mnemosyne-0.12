@@ -1,5 +1,5 @@
->=app-admin/eselect-python-20091230 virtual/python
-dev-python/docutils dev-python/kid >=app-admin/eselect-python-20091230 virtual/python
+>=app-admin/eselect-python-20091230 dev-lang/python
+dev-python/docutils dev-python/kid >=app-admin/eselect-python-20091230 dev-lang/python
 0
 http://www.red-bean.com/decklin/mnemosyne//mnemosyne-0.12.tar.gz
 
@@ -14,7 +14,7 @@ examples
 
 2
 
-compile install postinst postrm prepare unpack
+compile install postinst postrm prepare
 
 
 
