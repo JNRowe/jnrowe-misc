@@ -34,6 +34,8 @@ REM 2010-04-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/dexml-0.3.3
 REM 2010-04-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/dexml-0.3.3 %a
 REM 2010-04-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/clepy-0.3.17 %a
 REM 2010-04-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/clepy-0.3.17 %a
+REM 2010-04-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-util/pitz-1.0 %a
+REM 2010-04-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-util/pitz-1.0 %a
 REM 2010-04-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/wordish-1.0.2 %a
 REM 2010-04-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/wordish-1.0.2 %a
 
