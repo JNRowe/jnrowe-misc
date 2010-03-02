@@ -1,20 +1,20 @@
-dev-python/setuptools >=app-admin/eselect-python-20091230 dev-lang/python >=dev-util/git-1.6
+dev-python/setuptools >=app-admin/eselect-python-20091230 dev-lang/python
 >=dev-python/clepy-0.3.17 dev-python/ipython dev-python/jinja2 dev-python/pyyaml dev-python/setuptools dev-python/tempita >=app-admin/eselect-python-20091230 dev-lang/python
 0
-
+http://pypi.python.org/packages/source/p/pitz/pitz-1.0.tar.gz
 test
 http://pitz.tplus1.com/
 BSD
 A simple issue-tracking system, similar to ditz
 ~amd64 ~x86
-distutils eutils git multilib portability python toolchain-funcs
+distutils eutils jnrowe-pypi multilib portability python toolchain-funcs
 
 
 
 
 2
 
-compile install postinst postrm prepare unpack
+compile install postinst postrm prepare
 
 
 

@@ -32,5 +32,7 @@ REM 2010-03-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 net-mail/rss2email-2.6
 REM 2010-03-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 net-mail/rss2email-2.66 %a
 REM 2010-04-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/clepy-0.3.17 %a
 REM 2010-04-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/clepy-0.3.17 %a
+REM 2010-04-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-util/pitz-1.0 %a
+REM 2010-04-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-util/pitz-1.0 %a
 
 # vim: set sw=4 sts=4 et tw=80 fenc=utf-8 ft=remind:

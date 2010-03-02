@@ -7,9 +7,7 @@ SUPPORT_PYTHON_ABIS="1"
 # Commented until tests are enabled again
 #DISTUTILS_SRC_TEST="nosetests"
 
-inherit distutils eutils git
-
-EGIT_REPO_URI="git://github.com/mw44118/pitz.git"
+inherit jnrowe-pypi eutils
 
 DESCRIPTION="A simple issue-tracking system, similar to ditz"
 HOMEPAGE="http://pitz.tplus1.com/"

@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*pitz-1.0 (02 Mar 2010)
+
+  02 Mar 2010; James Rowe <jnrowe@gmail.com> +pitz-1.0.ebuild,
+  +files/pitz-1.0-build_fixes.patch:
+  Version bump [815].
+
   13 Feb 2010; James Rowe <jnrowe@gmail.com> pitz-9999.ebuild:
   Restrict tests as they require unavailable version of mock.
 
