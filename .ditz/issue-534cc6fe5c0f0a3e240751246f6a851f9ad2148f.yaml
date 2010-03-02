@@ -5,8 +5,8 @@ type: :feature
 component: misc-overlay
 release: current
 reporter: James Rowe <jnrowe@gmail.com>
-status: :unstarted
-disposition: 
+status: :closed
+disposition: :fixed
 creation_time: 2010-02-23 21:47:55.663868 Z
 references: []
 
@@ -24,5 +24,13 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - edited title
   - dexml-0.3.3 has been released.
+- - 2010-03-02 21:27:26.799843 Z
+  - James Rowe <jnrowe@gmail.com>
+  - changed status from unstarted to in_progress
+  - ""
+- - 2010-03-02 21:31:26.319686 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition fixed
+  - ""
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 
