@@ -4,10 +4,6 @@
 # Beta release of wordish
 =dev-python/wordish-1.0.0_beta4
 
-# James Rowe <jnrowe@gmail.com> (13 Feb 2010)
-# live ebuild for pitz
-=dev-util/pitz-9999
-
 # James Rowe <jnrowe@gmail.com> (2 Feb 2010)
 # Incompatible with new "releases", new code too buggy for everyday use.  Will
 # be removed on 2010-04-04.  Alternatives to Bugs Everywhere such as ditz and
