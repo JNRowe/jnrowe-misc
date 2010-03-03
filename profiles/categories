@@ -15,6 +15,7 @@ mail-filter
 media-gfx
 media-sound
 net-mail
+sys-apps
 www-apps
 www-client
 x11-libs

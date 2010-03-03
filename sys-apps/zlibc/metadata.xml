@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Zlibc is a read-only compressed file-system emulation. It allows
+		executables to uncompress their data files on the fly. No kernel patch,
+		no re-compilation of the executables and the libraries is needed. Using
+		gzip -9, a compression ratio of 1:3 can easily be achieved! This program
+		has (almost) the same effect as a (read-only) compressed file system.
+		How it works:
+
+		This package overrides the "open" function (and other similar system
+		call functions) of the C library. this package uses the LD_PRELOAD
+		variable to redirect the dynamic linker to use the relevant functions of
+		uncompress.o instead of the shared library. The behavior of the tools
+		may be tuned using the /etc/zlibc.conf configurator file.
+	</longdescription>
+	<upstream>
+		<changelog>http://zlibc.linux.lu/changes.html</changelog>
+		<doc lang="en">http://zlibc.linux.lu/zlibc.html</doc>
+	</upstream>
+</pkgmetadata>
+
