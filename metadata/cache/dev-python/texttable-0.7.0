@@ -1,20 +1,20 @@
 >=app-admin/eselect-python-20091230 dev-lang/python
 >=app-admin/eselect-python-20091230 dev-lang/python
 0
-http://pypi.python.org/packages/source/t/texttable/texttable-0.7.0.tar.gz
+http://jefke.free.fr/stuff/python/texttable/texttable-0.7.0.tar.gz
 
-http://pypi.python.org/pypi/texttable/
+http://jefke.free.fr/coding/python/
 LGPL-2.1
 module to generate a formatted text table, using ASCII characters.
 amd64 ~x86
-distutils jnrowe-pypi multilib python toolchain-funcs
+distutils multilib python toolchain-funcs
 
 
 
 
+2
 
-
-compile install postinst postrm unpack
+compile install postinst postrm prepare
 
 
 
