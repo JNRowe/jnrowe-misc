@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  04 Mar 2010; James Rowe <jnrowe@gmail.com> gist-9999.ebuild:
+  Updated for recent git repo changes.
+
   14 Jan 2010; James Rowe <jnrowe@gmail.com> gist-9999.ebuild:
   Dropped keywords in live ebuild.
 

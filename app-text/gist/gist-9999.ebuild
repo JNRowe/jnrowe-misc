@@ -21,6 +21,7 @@ DEPEND=""
 RDEPEND="dev-lang/ruby"
 
 src_install() {
-	dobin ${PN}.rb
-	dodoc README.markdown
+	dobin ${PN} || die "dobin failed"
+	dodoc README.markdown || die "dodoc failed"
+	doman man/${PN}.1 || die "doman failed"
 }
