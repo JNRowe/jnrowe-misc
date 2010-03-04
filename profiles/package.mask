@@ -10,11 +10,6 @@
 # pitz exist.
 dev-util/be
 
-# James Rowe <jnrowe@gmail.com> (30 Jan 2010)
-# Unsupportable in its current state.  Will be removed on
-# 2010-03-01.
-x11-wm/subtle
-
 # James Rowe <jnrowe@gmail.com> (12 Jan 2010)
 # live ebuild for gist
 =app-text/gist-9999
