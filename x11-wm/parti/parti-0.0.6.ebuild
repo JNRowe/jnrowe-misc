@@ -1,10 +1,10 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI="2"
 
-inherit distutils
+inherit distutils eutils
 
 MY_P=${PN}-all-${PV}
 DESCRIPTION="Parti is a tabbing/tiling window manager"
