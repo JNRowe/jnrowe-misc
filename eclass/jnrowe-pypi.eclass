@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-inherit distutils
+inherit distutils eutils
 
 #
 # Original Author: James Rowe <jnrowe@gmail.com>
@@ -43,6 +43,7 @@ import ${module}
 
 ${module}.${function:-main}()
 EOF
+	python_version
 	python_convert_shebangs ${PYVER} ${tmpwrapper}
 	chmod go+rx "${tmpwrapper}"
 	if [[ -n ${path} ]]; then
