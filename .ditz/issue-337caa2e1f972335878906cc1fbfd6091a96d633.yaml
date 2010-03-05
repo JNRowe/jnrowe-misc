@@ -1,0 +1,27 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: python.eclass changes emit warnings with jnrowe-pypi:module_script_wrapper().
+desc: ""
+type: :bugfix
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-03-05 21:27:08.459986 Z
+references: []
+
+id: 337caa2e1f972335878906cc1fbfd6091a96d633
+log_events: 
+- - 2010-03-05 21:30:26.631573 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - |-
+    The changes are discussed in <201003021927.18379.Arfrever@gentoo.org>.  Maybe it
+    is time to start shadowing distutils and python eclasses, the churn is very
+    large given the gain.
+- - 2010-03-05 21:30:34.491961 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 
