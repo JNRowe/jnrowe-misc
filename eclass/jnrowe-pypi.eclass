@@ -43,8 +43,7 @@ import ${module}
 
 ${module}.${function:-main}()
 EOF
-	python_version
-	python_convert_shebangs ${PYVER} ${tmpwrapper}
+	python_convert_shebangs $(python_get_version) ${tmpwrapper}
 	chmod go+rx "${tmpwrapper}"
 	if [[ -n ${path} ]]; then
 		(
