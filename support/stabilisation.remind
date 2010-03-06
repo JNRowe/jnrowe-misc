@@ -34,5 +34,7 @@ REM 2010-04-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/wordish-1.0
 REM 2010-04-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/wordish-1.0.2 %a
 REM 2010-04-02 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 sys-apps/zlibc-0.9k %a
 REM 2010-04-02 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 sys-apps/zlibc-0.9k %a
+REM 2010-04-05 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/dexml-0.3.4 %a
+REM 2010-04-05 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/dexml-0.3.4 %a
 
 # vim: set sw=4 sts=4 et tw=80 fenc=utf-8 ft=remind:
