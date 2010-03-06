@@ -1,6 +1,9 @@
 # ChangeLog for dev-util/ccontrol
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  06 Mar 2010; James Rowe <jnrowe@gmail.com> ccontrol-0.9.1.ebuild:
+  Restrict tests due to valgrind problem, reported by Dennis Bruce [321].
 
   18 Nov 2009; James Rowe <jnrowe@gmail.com> ccontrol-0.9.1.ebuild:
   Keyworded x86.

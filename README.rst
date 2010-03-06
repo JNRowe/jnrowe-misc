@@ -27,6 +27,7 @@ Bug reports
 '''''''''''
 
 * Jake Archer
+* Dennis Bruce
 * Kristian Cole
 * Fabien Courtois
 * Ed Lyle
