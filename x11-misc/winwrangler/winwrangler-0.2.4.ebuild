@@ -12,7 +12,7 @@ SRC_URI="http://launchpad.net/${PN}/$(get_version_component_range -2)/${PV}/+dow
 
 LICENSE="LGPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE=""
 
 # The gtkhotkey-0.2 dependency is enforced in the configure script, despite
