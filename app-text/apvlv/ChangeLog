@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Mar 2010; James Rowe <jnrowe@gmail.com> apvlv-0.0.9.3.ebuild:
+  Keyworded amd64.
+
   26 Feb 2010; James Rowe <jnrowe@gmail.com> -apvlv-0.0.9.ebuild,
   apvlv-0.0.9.2.ebuild:
   Keyworded x86.
