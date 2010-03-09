@@ -1,2 +1,3 @@
 move dev-util/blame dev-vcs/blame
+move dev-util/gitserve dev-vcs/gitserve
 
