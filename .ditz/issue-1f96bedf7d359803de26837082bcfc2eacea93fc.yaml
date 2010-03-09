@@ -5,8 +5,8 @@ type: :feature
 component: misc-overlay
 release: current
 reporter: James Rowe <jnrowe@gmail.com>
-status: :unstarted
-disposition: 
+status: :closed
+disposition: :fixed
 creation_time: 2010-03-04 21:50:56.352000 Z
 references: []
 
@@ -19,6 +19,17 @@ log_events:
 - - 2010-03-04 21:51:27.783899 Z
   - James Rowe <jnrowe@gmail.com>
   - issue claimed
+  - ""
+- - 2010-03-09 18:47:37.742482 Z
+  - James Rowe <jnrowe@gmail.com>
+  - commented
+  - |-
+    blame, gitserve and hub are moved.
+    
+    Still some work to be done with tracking upstream moves in dependencies.
+- - 2010-03-09 18:47:57.779850 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition fixed
   - ""
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 
