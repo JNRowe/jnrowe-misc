@@ -20,7 +20,7 @@ dev-util/be
 
 # James Rowe <jnrowe@gmail.com> (1 Jan 2010)
 # live ebuild for hub
-=dev-util/hub-9999
+=dev-vcs/hub-9999
 
 # James Rowe <jnrowe@gmail.com> (9 Dec 2009)
 # live ebuild for notmuch-gtk

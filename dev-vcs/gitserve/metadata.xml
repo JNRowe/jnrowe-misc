@@ -3,7 +3,7 @@
 <pkgmetadata>
 	<longdescription lang="en">
 		This is a helper tool for git that mimics
-		<pkg>dev-util/mercurial</pkg>'s serve command.  It makes it very easy to
+		<pkg>dev-vcs/mercurial</pkg>'s serve command.  It makes it very easy to
 		see all your <pkg>dev-util/git</pkg> project via git's own gitweb by
 		running a lightweight local server.
 	</longdescription>
