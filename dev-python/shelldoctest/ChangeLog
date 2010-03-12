@@ -3,6 +3,9 @@
 # $Header: $
 
   12 Mar 2010; James Rowe <jnrowe@gmail.com> shelldoctest-0.2.ebuild:
+  Keyworded x86.
+
+  12 Mar 2010; James Rowe <jnrowe@gmail.com> shelldoctest-0.2.ebuild:
   Keyworded amd64.
 
 *shelldoctest-0.2 (10 Feb 2010)
