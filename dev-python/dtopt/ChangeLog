@@ -3,6 +3,9 @@
 # $Header: $
 
   12 Mar 2010; James Rowe <jnrowe@gmail.com> dtopt-0.1.ebuild:
+  Keyworded x86.
+
+  12 Mar 2010; James Rowe <jnrowe@gmail.com> dtopt-0.1.ebuild:
   Keyworded amd64.
 
 *dtopt-0.1 (10 Feb 2010)
