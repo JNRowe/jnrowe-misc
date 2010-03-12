@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  12 Mar 2010; James Rowe <jnrowe@gmail.com> shelldoctest-0.2.ebuild:
+  Keyworded amd64.
+
 *shelldoctest-0.2 (10 Feb 2010)
 
   10 Feb 2010; James Rowe <jnrowe@gmail.com> +shelldoctest-0.2.ebuild,
