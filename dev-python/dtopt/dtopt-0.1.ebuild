@@ -11,7 +11,7 @@ DESCRIPTION="Add options to doctest examples while they are running"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE=""
 
 DEPEND=""
