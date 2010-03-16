@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Twirssi allows you to post to Twitter and Identi.ca from
+		<pkg>net-irc/irssi</pkg>, as well as:
+
+		* Read your friend feed, and your replies (from people on and not on
+		  your feed).
+		* Receive and send direct messages (DMs)
+		* Use multiple accounts, on either twitter or identi.ca - follow, read
+		  and post
+		* See the context when your friends reply to users you aren't following
+	</longdescription>
+	<upstream>
+		<changelog>http://www.twirssi.com/?history</changelog>
+		<doc lang="en">http://www.twirssi.com/?using</doc>
+	</upstream>
+</pkgmetadata>

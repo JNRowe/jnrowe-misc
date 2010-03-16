@@ -1,0 +1,11 @@
+# ChangeLog for net-irc/twirssi
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*twirssi-9999 (16 Mar 2010)
+
+  16 Mar 2010; James Rowe <jnrowe@gmail.com> +twirssi-9999.ebuild,
+  +files/twirssi-9999-Make-work-with-Net-Twitter-Lite.patch, +metadata.xml:
+  Initial ebuild, by me.  Uses a patch by Brett Parker, for Net-Irssi-Lite
+  support.
+

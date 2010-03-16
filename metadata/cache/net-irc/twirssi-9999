@@ -1,0 +1,22 @@
+>=dev-util/git-1.6
+net-irc/irssi !minimal? ( dev-perl/Net-Twitter ) minimal? ( dev-perl/Net-Twitter-Lite )
+0
+
+
+http://www.twirssi.com/
+GPL-2
+An irssi script allowing the use of Twitter from within irssi
+
+eutils git multilib portability toolchain-funcs
+minimal
+
+
+
+2
+
+install prepare unpack
+
+
+
+
+
