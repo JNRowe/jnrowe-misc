@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*vicious-2.0.0 (16 Mar 2010)
+
+  16 Mar 2010; James Rowe <jnrowe@gmail.com> +vicious-2.0.0.ebuild:
+  Version bump [68e].
+
 *vicious-1.0.26 (16 Mar 2010)
 
   16 Mar 2010; James Rowe <jnrowe@gmail.com> +vicious-1.0.26.ebuild:
