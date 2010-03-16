@@ -19,7 +19,10 @@ IUSE="minimal"
 
 DEPEND=""
 RDEPEND="net-irc/irssi
-	!minimal? ( dev-perl/Net-Twitter )
+	!minimal? (
+		dev-perl/Net-Twitter
+		dev-perl/WWW-Shorten
+	)
 	minimal? ( dev-perl/Net-Twitter-Lite )"
 
 src_prepare() {
@@ -31,4 +34,11 @@ src_install() {
 	insinto /usr/share/irssi/scripts
 	doins ${PN}.pl || die "doins failed"
 	dohtml html/*.html
+}
+
+pkg_postinst() {
+	if use minimal; then
+		einfo "Install dev-perl/WWW-Shorten for automated URL shortening when"
+		einfo "tweeting with this script."
+	fi
 }
