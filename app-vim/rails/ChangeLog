@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*rails-4.2 (16 Mar 2010)
+
+  16 Mar 2010; James Rowe <jnrowe@gmail.com> +rails-4.2.ebuild:
+  Version bump [5a8].
+
   20 Jan 2010; James Rowe <jnrowe@gmail.com> -rails-4.0.ebuild,
   rails-4.1.ebuild:
   Keyworded x86.
