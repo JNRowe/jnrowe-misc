@@ -1,4 +1,4 @@
->=dev-util/git-1.6
+>=dev-vcs/git-1.6
 net-irc/irssi !minimal? ( dev-perl/Net-Twitter dev-perl/WWW-Shorten ) minimal? ( dev-perl/Net-Twitter-Lite )
 0
 
