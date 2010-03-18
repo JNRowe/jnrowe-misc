@@ -1,4 +1,4 @@
->=dev-util/git-1.6
+>=dev-vcs/git-1.6
 dev-libs/luasocket media-sound/alsa-utils sys-power/acpi x11-wm/awesome
 0
 

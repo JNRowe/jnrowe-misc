@@ -1,4 +1,4 @@
-dev-python/setuptools >=app-admin/eselect-python-20091230 dev-lang/python >=dev-util/git-1.6
+dev-python/setuptools >=app-admin/eselect-python-20091230 dev-lang/python >=dev-vcs/git-1.6
 dev-python/nose dev-python/pyparsing dev-python/pyyaml >=app-admin/eselect-python-20091230 dev-lang/python
 0
 
