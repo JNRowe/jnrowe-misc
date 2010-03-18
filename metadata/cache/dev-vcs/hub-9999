@@ -1,4 +1,4 @@
-virtual/ruby >=dev-util/git-1.6
+virtual/ruby >=dev-vcs/git-1.6
 virtual/ruby
 0
 

@@ -1,4 +1,4 @@
-dev-lang/vala dev-libs/libgee >=dev-util/git-1.6
+dev-lang/vala dev-libs/libgee >=dev-vcs/git-1.6
 x11-libs/gtk+
 0
 
