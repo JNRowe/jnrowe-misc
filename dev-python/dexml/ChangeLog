@@ -3,6 +3,9 @@
 # $Header: $
 
   18 Mar 2010; James Rowe <jnrowe@gmail.com> dexml-0.3.1.ebuild:
+  Keyworded x86.
+
+  18 Mar 2010; James Rowe <jnrowe@gmail.com> dexml-0.3.1.ebuild:
   Keyworded amd64.
 
 *dexml-0.3.4 (06 Mar 2010)
