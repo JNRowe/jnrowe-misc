@@ -1,6 +1,9 @@
 # ChangeLog for dev-vcs/gitserve
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  18 Mar 2010; James Rowe <jnrowe@gmail.com> gitserve-0.2.0.ebuild:
+  Updated git dependency's name.
 
   12 Nov 2009; James Rowe <jnrowe@gmail.com> gitserve-0.2.0.ebuild:
   Switched to EAPI 2.

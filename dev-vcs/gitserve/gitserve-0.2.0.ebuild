@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -15,7 +15,7 @@ KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools"
-RDEPEND="dev-util/git"
+RDEPEND="dev-vcs/git"
 
 src_install() {
 	distutils_src_install
