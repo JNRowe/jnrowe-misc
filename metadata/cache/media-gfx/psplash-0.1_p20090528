@@ -6,7 +6,7 @@ http://github.com/downloads/JNRowe/misc-overlay/psplash-0.1_p20090528.tar.bz2
 http://labs.o-hand.com/psplash/
 GPL-2
 A tiny userspace graphical boot splash screen
-~amd64 ~x86
+amd64 ~x86
 autotools eutils libtool multilib portability savedconfig toolchain-funcs
 savedconfig
 
