@@ -6,7 +6,7 @@ http://pypi.python.org/packages/source/p/pep8/pep8-0.5.0.tar.gz
 http://github.com/cburroughs/pep8.py
 MIT
 A tool to check your Python code against the conventions in PEP 8
-~amd64 ~x86
+amd64 ~x86
 distutils eutils jnrowe-pypi multilib portability python toolchain-funcs
 
 
