@@ -1,5 +1,5 @@
->=app-admin/eselect-python-20091230 dev-lang/python
-dev-python/pyserial net-dialup/ppp dbus? ( dev-python/dbus-python ) >=app-admin/eselect-python-20091230 dev-lang/python
+>=app-admin/eselect-python-20091230 =dev-lang/python-2*
+dev-python/pyserial net-dialup/ppp dbus? ( dev-python/dbus-python ) >=app-admin/eselect-python-20091230 =dev-lang/python-2*
 0
 http://pyhumod.googlecode.com/files/pyhumod-0.03.tar.gz
 

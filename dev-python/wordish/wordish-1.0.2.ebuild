@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI="2"
+PYTHON_DEPEND="2:2.6"
 SUPPORT_PYTHON_ABIS="1"
 DISTUTILS_SRC_TEST="nosetests"
 

@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  21 Mar 2010; James Rowe <jnrowe@gmail.com> texttable-0.7.0.ebuild:
+  Added PYTHON_DEPEND setting.
+
   16 Mar 2010; James Rowe <jnrowe@gmail.com> texttable-0.7.0.ebuild:
   Keyworded x86.
 

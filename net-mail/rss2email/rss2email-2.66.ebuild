@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI="2"
+PYTHON_DEPEND="*"
 
 inherit eutils distutils
 

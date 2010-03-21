@@ -1,6 +1,9 @@
 # ChangeLog for dev-python/pycukes
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  21 Mar 2010; James Rowe <jnrowe@gmail.com> pycukes-0.1.2.ebuild:
+  Added PYTHON_DEPEND setting.
 
   17 Dec 2009; James Rowe <jnrowe@gmail.com> -pycukes-0.1.1.ebuild,
   pycukes-0.1.2.ebuild:

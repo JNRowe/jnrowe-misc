@@ -1,5 +1,5 @@
-app-arch/unzip >=app-admin/eselect-python-20091230 dev-lang/python
->=app-admin/eselect-python-20091230 dev-lang/python
+app-arch/unzip >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* )
+>=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* )
 0
 http://pydelicious.googlecode.com/files/pydelicious-0.5.2-rc2.zip
 test
