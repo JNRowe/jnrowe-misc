@@ -3,6 +3,9 @@
 # $Header: $
 
   21 Mar 2010; James Rowe <jnrowe@gmail.com> cupage-0.4.0.ebuild:
+  Use version globbing for RESTRICT_PYTHON_ABIS.
+
+  21 Mar 2010; James Rowe <jnrowe@gmail.com> cupage-0.4.0.ebuild:
   Added PYTHON_DEPEND setting.
 
   26 Feb 2010; James Rowe <jnrowe@gmail.com> -cupage-0.3.1.ebuild,

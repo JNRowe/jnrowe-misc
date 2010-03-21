@@ -23,4 +23,4 @@ RDEPEND="dev-python/lxml"
 S="${WORKDIR}/JNRowe-${PN}-4079b5b"
 
 PYTHON_MODNAME="libcupage"
-RESTRICT_PYTHON_ABIS="2.4 2.5 3.*"
+RESTRICT_PYTHON_ABIS="2.[45] 3.*"

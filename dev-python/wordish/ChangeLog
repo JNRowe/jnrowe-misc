@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  21 Mar 2010; James Rowe <jnrowe@gmail.com> wordish-1.0.1.ebuild,
+  wordish-1.0.2.ebuild:
+  Use version globbing for RESTRICT_PYTHON_ABIS.
+
   21 Mar 2010; James Rowe <jnrowe@gmail.com> wordish-0.0.6.ebuild,
   wordish-1.0.1.ebuild, wordish-1.0.2.ebuild:
   Added PYTHON_DEPEND setting.
