@@ -3,6 +3,9 @@
 # $Header: $
 
   21 Mar 2010; James Rowe <jnrowe@gmail.com> rudolf-0.3.ebuild:
+  Use DISTUTILS_SRC_TEST instead of directly calling nosetests.
+
+  21 Mar 2010; James Rowe <jnrowe@gmail.com> rudolf-0.3.ebuild:
   Added PYTHON_DEPEND setting.
 
   13 Nov 2009; James Rowe <jnrowe@gmail.com> rudolf-0.3.ebuild:

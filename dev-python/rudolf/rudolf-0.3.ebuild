@@ -5,6 +5,7 @@
 EAPI="2"
 PYTHON_DEPEND="*"
 SUPPORT_PYTHON_ABIS="1"
+DISTUTILS_SRC_TEST="nosetests"
 
 inherit jnrowe-pypi
 
@@ -22,7 +23,3 @@ RDEPEND="dev-python/nose"
 RESTRICT="test"
 
 DOCS="CHANGES.txt"
-
-src_test() {
-	nosetests
-}

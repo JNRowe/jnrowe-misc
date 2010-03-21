@@ -5,6 +5,7 @@
 EAPI="2"
 PYTHON_DEPEND="2"
 SUPPORT_PYTHON_ABIS="1"
+DISTUTILS_SRC_TEST="nosetests"
 
 inherit distutils
 
@@ -17,14 +18,10 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="test"
 
-DEPEND="test? ( dev-python/nose )"
 RDEPEND="dev-python/pytz"
+DEPEND="test? ( ${RDEPEND} )"
 
 RESTRICT_PYTHON_ABIS="3.*"
-
-src_test() {
-	nosetests
-}
 
 src_install() {
 	distutils_src_install
