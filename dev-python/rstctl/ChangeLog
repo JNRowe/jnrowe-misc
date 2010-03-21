@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/rstctl
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*rstctl-0.4 (21 Mar 2010)
+
+  21 Mar 2010; James Rowe <jnrowe@gmail.com> +rstctl-0.4.ebuild,
+  +metadata.xml:
+  Initial ebuild, by me.
+

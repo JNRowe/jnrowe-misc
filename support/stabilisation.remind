@@ -28,5 +28,6 @@ REM 2010-04-19 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-sound/mpdcron-0.
 REM 2010-04-19 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-sound/mpdcron-0.3 %a
 REM 2010-04-20 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/doctest-tools-1.0_alpha3 %a
 REM 2010-04-20 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/genzshcomp-0.0.8 %a
+REM 2010-04-20 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/rstctl-0.4 %a
 
 # vim: set sw=4 sts=4 et tw=80 fenc=utf-8 ft=remind:
