@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Automatic generation of Zsh Completion Functions from Python's Option Parser Modules.
+		Also, supports <pkg>dev-python/argparse</pkg>.
+	</longdescription>
+	<upstream>
+		<bugs-to>http://bitbucket.org/hhatto/genzshcomp/issues/?status=new&amp;status=open</bugs-to>
+	</upstream>
+</pkgmetadata>
