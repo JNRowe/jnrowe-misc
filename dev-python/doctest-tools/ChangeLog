@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/doctest-tools
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*doctest-tools-1.0_alpha3 (21 Mar 2010)
+
+  21 Mar 2010; James Rowe <jnrowe@gmail.com>
+  +doctest-tools-1.0_alpha3.ebuild, +metadata.xml:
+  Initial ebuild, by me.
+
