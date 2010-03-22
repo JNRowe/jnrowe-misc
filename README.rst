@@ -113,7 +113,7 @@ package database.
 ----------------------
 
 cupage_ is used to keep packages in sync with their releases, see
-``support/cupage.conf``.  ``cupage`` v0.3.0, or above, is required if you wish
+``support/cupage.conf``.  ``cupage`` v0.4.0, or above, is required if you wish
 to make use of this functionality.
 
 .. _email: jnrowe@gmail.com
