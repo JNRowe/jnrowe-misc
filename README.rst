@@ -3,10 +3,10 @@ misc-overlay
 
 Packages that don't naturally fit in to my other themed overlays.
 
-If you find any problems with ebuilds in this overlay either drop me an
-email_ or file an issue_.  Locally bugs are managed with ditz_, so if
-you're working with a clone of the repository you can report, list and
-fix bugs using ``dev-util/ditz``.
+If you find any problems with ebuilds in this overlay either drop me an email_
+or file an issue_.  Locally bugs are managed with ditz_, so if you're working
+with a clone of the repository you can report, list and fix bugs using
+``dev-util/ditz``.
 
 Contributors
 ------------
@@ -41,6 +41,7 @@ Ideas
 '''''
 
 * Jamie Ashton
+* Robert Kincade
 * Scott Hunter
 * Ryan Lewis
 * Tony McKenzie
@@ -68,8 +69,8 @@ To sync the repository::
 ``layman`` integration
 ----------------------
 
-If you use layman_ to sync your repositories you can simply add this
-repository to the supported list.
+If you use layman_ to sync your repositories you can simply add this repository
+to the supported list.
 
 If you're using layman v1.2.4 or newer, then the ``support/layman2.xml`` should
 be added to the ``overlays`` section of ``/etc/layman/layman.conf``, for
@@ -88,18 +89,19 @@ Then you can add the overlay using ``layman``::
 
     # layman -a jnrowe-misc
 
-**Note**: You may need to run ``layman --fetch`` or perform a sync operation
-before this command will work.
+.. note::
+   You may need to run ``layman --fetch`` or perform a sync operation before
+   this command will work.
 
-To sync the repository you can use ``layman`` directly, either syncing just
-this overlay or all your overlays at once::
+To sync the repository you can use ``layman`` directly, either syncing just this
+overlay or all your overlays at once::
 
     # layman -s jnrowe-misc # Sync just jnrowe-misc
     # layman -S # or sync all layman managed overlays
 
 Or if you're an eix_ user you can use ``eix-sync`` to update the repositories
-and the ``eix`` database at the same time, first tell ``eix-sync`` to update
-the repository::
+and the ``eix`` database at the same time, first tell ``eix-sync`` to update the
+repository::
 
     # echo "jnrowe-misc" >>/etc/eix-sync.conf # Sync just jnrowe-misc
     # echo "*" >>/etc/eix-sync.conf # or sync all layman managed overlays
