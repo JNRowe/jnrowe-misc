@@ -6,7 +6,7 @@ http://doctest-tools.googlecode.com/files/doctest-tools-1.0a3.zip
 http://code.google.com/p/doctest-tools/
 MIT
 Tools to run doctests on code and text files within a directory
-~amd64
+~amd64 ~x86
 distutils multilib python toolchain-funcs
 
 
