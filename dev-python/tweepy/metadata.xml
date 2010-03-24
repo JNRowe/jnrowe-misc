@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		A Twitter library for Python! Also works with identi.ca/laconi.ca !
+
+		Features:
+		  + OAuth support (including xAuth)
+		  + Covers the entire Twitter API
+		  + Actively under development
+		  + Streaming API support
+		  + Cache system (memory, file)
+	</longdescription>
+	<upstream>
+		<changelog>http://github.com/joshthecoder/tweepy/raw/master/CHANGELOG</changelog>
+		<doc lang="en">http://joshthecoder.github.com/tweepy/docs/index.html</doc>
+		<bugs-to>http://github.com/joshthecoder/tweepy/issues</bugs-to>
+	</upstream>
+</pkgmetadata>
