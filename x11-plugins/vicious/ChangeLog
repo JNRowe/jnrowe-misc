@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  24 Mar 2010; James Rowe <jnrowe@gmail.com> vicious-1.0.24.ebuild:
+  Keyworded amd64.
+
   21 Mar 2010; James Rowe <jnrowe@gmail.com> vicious-9999.ebuild:
   Merged 2.0.0 changes to live ebuild.
 
