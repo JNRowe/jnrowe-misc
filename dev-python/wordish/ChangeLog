@@ -3,6 +3,9 @@
 # $Header: $
 
   24 Mar 2010; James Rowe <jnrowe@gmail.com> wordish-1.0.1.ebuild:
+  Keyworded x86.
+
+  24 Mar 2010; James Rowe <jnrowe@gmail.com> wordish-1.0.1.ebuild:
   Keyworded amd64.
 
   21 Mar 2010; James Rowe <jnrowe@gmail.com> wordish-1.0.1.ebuild,
