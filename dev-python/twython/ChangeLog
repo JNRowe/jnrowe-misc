@@ -3,6 +3,9 @@
 # $Header: $
 
   25 Mar 2010; James Rowe <jnrowe@gmail.com> twython-1.2.ebuild:
+  Added a note about oauth dependency.
+
+  25 Mar 2010; James Rowe <jnrowe@gmail.com> twython-1.2.ebuild:
   Keyworded ~x86.
 
 *twython-1.2 (24 Mar 2010)

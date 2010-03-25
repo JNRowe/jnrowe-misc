@@ -18,6 +18,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=""
+# We should depend on dev-python/oauth, and strip the bundled versions but the
+# ebuild in the main tree has no support for multiple Python versions.
 RDEPEND="|| ( >=dev-lang/python-2.6 dev-python/simplejson )"
 
 RESTRICT_PYTHON_ABIS="3.*"

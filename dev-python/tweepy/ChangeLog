@@ -3,6 +3,9 @@
 # $Header: $
 
   25 Mar 2010; James Rowe <jnrowe@gmail.com> tweepy-1.6.ebuild:
+  Added a note about oauth dependency.
+
+  25 Mar 2010; James Rowe <jnrowe@gmail.com> tweepy-1.6.ebuild:
   Keyworded ~x86.
 
 *tweepy-1.6 (24 Mar 2010)
