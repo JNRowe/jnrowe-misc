@@ -3,6 +3,9 @@
 # $Header: $
 
   25 Mar 2010; James Rowe <jnrowe@gmail.com> rss2email-2.66.ebuild:
+  Keyworded x86.
+
+  25 Mar 2010; James Rowe <jnrowe@gmail.com> rss2email-2.66.ebuild:
   Keyworded amd64.
 
   21 Mar 2010; James Rowe <jnrowe@gmail.com> rss2email-2.65.1.ebuild,
