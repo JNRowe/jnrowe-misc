@@ -6,7 +6,7 @@ http://www.allthingsrss.com/rss2email/rss2email-2.66.tar.gz
 http://www.allthingsrss.com/rss2email/
 GPL-2
 A python script that converts RSS newsfeeds to email
-~amd64 ~x86
+amd64 ~x86
 distutils eutils multilib portability python toolchain-funcs
 
 
