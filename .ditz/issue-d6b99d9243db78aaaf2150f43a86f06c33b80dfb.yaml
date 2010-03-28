@@ -1,0 +1,24 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: dev-python/html-1.11 version bump.
+desc: ""
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-03-28 15:31:10.394536 Z
+references: []
+
+id: d6b99d9243db78aaaf2150f43a86f06c33b80dfb
+log_events: 
+- - 2010-03-28 15:31:10.946413 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2010-03-28 15:31:17.066508 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 
