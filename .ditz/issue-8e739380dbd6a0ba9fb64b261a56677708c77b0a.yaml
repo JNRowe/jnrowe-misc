@@ -1,0 +1,30 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Install a gitserve link in to /usr/libexec/git-core.
+desc: ""
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-03-29 17:53:51.244411 Z
+references: []
+
+id: 8e739380dbd6a0ba9fb64b261a56677708c77b0a
+log_events: 
+- - 2010-03-29 17:53:52.548296 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2010-03-29 17:55:21.750440 Z
+  - James Rowe <jnrowe@gmail.com>
+  - commented
+  - |-
+    This will allow the user to call "git serve", just like a regular git command.
+    Maybe we should make this the default, and not install a gitserve command?
+- - 2010-03-29 17:55:28.856382 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 
