@@ -1,0 +1,24 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Include an updated gitweb.cgi with gitserve.
+desc: ""
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-03-29 17:38:25.364406 Z
+references: []
+
+id: a7b4c960152345e6029428dbc1c562823e0bfdc2
+log_events: 
+- - 2010-03-29 17:38:25.876288 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2010-03-29 17:38:29.124385 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 
