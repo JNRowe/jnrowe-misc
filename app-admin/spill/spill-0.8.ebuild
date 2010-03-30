@@ -4,7 +4,7 @@
 
 EAPI="2"
 
-inherit eutils
+inherit eutils toolchain-funcs
 
 DESCRIPTION="Creates symlinks from one directory hierarchy to another(like stow)"
 HOMEPAGE="http://www.rpcurnow.force9.co.uk/spill/"
