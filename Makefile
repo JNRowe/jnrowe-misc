@@ -10,10 +10,10 @@ ifndef SIGN_KEY
     $(warning Manifests will not be signed, as PORTAGE_GPG_KEY is not set)
 endif
 
-.PHONY: clean cupage-check distclean stable-candidates
+.PHONY: clean cupage-check distclean stable-candidates removal-reminders
 
 all: $(HTML) profiles/categories profiles/use.local.desc $(MANIFESTS) \
-	$(NEWS) stable-candidates
+	$(NEWS) stable-candidates removal-reminders
 
 %.html: %.rst
 	rst2html.py $< $@
@@ -42,6 +42,11 @@ distclean: clean
 	rm -f $(MANIFESTS)
 
 stable-candidates: support/stabilisation.remind
+	remind $<
+
+support/removal.remind: profiles/package.mask
+	support/gen_removal.py
+removal-reminders: support/removal.remind
 	remind $<
 
 cupage-check:
