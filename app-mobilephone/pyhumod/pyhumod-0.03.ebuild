@@ -33,7 +33,7 @@ src_install() {
 	distutils_src_install
 
 	insinto /etc/ppp/peers/
-	doins conf/humod
+	doins conf/humod || die "doins failed"
 }
 
 pkg_postinst() {

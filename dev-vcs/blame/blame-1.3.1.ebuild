@@ -23,5 +23,5 @@ RDEPEND=""
 src_install() {
 	emake install DESTDIR="${D}" || die "emake install failed"
 
-	dodoc AUTHORS ChangeLog NEWS README
+	dodoc AUTHORS ChangeLog NEWS README || die "dodoc failed"
 }

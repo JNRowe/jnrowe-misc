@@ -27,12 +27,12 @@ src_prepare() {
 }
 
 src_compile() {
-	make CC=$(tc-getCC)
+	make CC=$(tc-getCC) || die "emake failed"
 }
 
 src_install() {
-	dodoc DOC README
+	dodoc DOC README || die "dodoc failed"
 	insinto /usr/$(get_libdir)/lua/5.1
 	insopts -m755
-	doins inotify.so
+	doins inotify.so || die "doins failed"
 }

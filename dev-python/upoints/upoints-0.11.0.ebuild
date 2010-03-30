@@ -29,5 +29,5 @@ src_test() {
 
 src_install() {
 	distutils_src_install
-	dohtml -r doc/*
+	dohtml -r doc/* || die "dohtml failed"
 }

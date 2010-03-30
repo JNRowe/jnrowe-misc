@@ -34,7 +34,7 @@ src_compile() {
 
 	if use doc; then
 		cd documentation
-		make html
+		make html || die "make documentation failed"
 		cd ..
 	fi
 
@@ -61,11 +61,11 @@ src_install() {
 		extglob=$(shopt -q extglob; echo $?)
 		[ ${extglob} == 1 ] && shopt -s extglob
 		sphinxdocs="documentation/!(index.rst)"
-		dodoc ${sphinxdocs}
+		dodoc ${sphinxdocs} || die "dodoc ${sphinxdocs} failed"
 		[ ${extglob} == 1 ] && shopt -u extglob
-		dohtml -A svg -r documentation/_build/html/*
+		dohtml -A svg -r documentation/_build/html/* || die "dohtml failed"
 	fi
 	if use examples ; then
-		doins -r examples
+		doins -r examples || die "doins failed"
 	fi
 }

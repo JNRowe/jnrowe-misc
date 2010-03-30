@@ -20,6 +20,6 @@ RDEPEND="dev-perl/Weather-Underground"
 S=${WORKDIR}/${PN}_v${PV}
 
 src_install() {
-	dobin ${PN}
-	dodoc CHANGES README
+	dobin ${PN} || die "dobin failed"
+	dodoc CHANGES README || die "dodoc failed"
 }

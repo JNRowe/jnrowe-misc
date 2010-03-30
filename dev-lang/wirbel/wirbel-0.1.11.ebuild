@@ -21,5 +21,6 @@ DEPEND="sys-devel/bison
 RDEPEND="sys-libs/readline"
 
 src_install() {
-	emake DESTDIR="${D}" docdir="\${datarootdir}/doc/${PF}" install
+	emake DESTDIR="${D}" docdir="\${datarootdir}/doc/${PF}" install \
+		|| die "emake install failed"
 }

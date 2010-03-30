@@ -27,6 +27,8 @@ src_install() {
 	distutils_src_install
 
 	insinto /usr/share/doc/${PF}
-	doins -r contrib/
-	use examples && doins -r examples
+	doins -r contrib/ || die "doins failed"
+	if use examples; then
+		doins -r examples || die "doins examples failed"
+	fi
 }

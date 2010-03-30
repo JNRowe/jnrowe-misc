@@ -25,10 +25,10 @@ src_prepare() {
 }
 
 src_compile() {
-	emake CXX="$(tc-getCXX)"
+	emake CXX="$(tc-getCXX)" || die "emake failed"
 }
 
 src_install() {
-	emake install DESTDIR="${D}"
-	dodoc AUTHORS ChangeLog README todo.xml
+	emake install DESTDIR="${D}" || die "emake install failed"
+	dodoc AUTHORS ChangeLog README todo.xml || die "dodoc failed"
 }

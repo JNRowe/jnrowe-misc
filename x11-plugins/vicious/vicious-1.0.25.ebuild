@@ -18,7 +18,7 @@ RDEPEND=">=x11-wm/awesome-3.4_rc1"
 
 src_install() {
 	insinto /usr/share/awesome/lib/${PN}
-	doins *.lua
+	doins *.lua || die "doins failed"
 
-	dodoc CHANGES README
+	dodoc CHANGES README || die "dodoc failed"
 }

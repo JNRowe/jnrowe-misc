@@ -33,7 +33,7 @@ src_prepare() {
 src_install() {
 	insinto /usr/share/irssi/scripts
 	doins ${PN}.pl || die "doins failed"
-	dohtml html/*.html
+	dohtml html/*.html || die "dohtml failed"
 }
 
 pkg_postinst() {

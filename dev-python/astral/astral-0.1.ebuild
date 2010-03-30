@@ -25,5 +25,5 @@ RESTRICT_PYTHON_ABIS="3.*"
 
 src_install() {
 	distutils_src_install
-	dohtml -r doc/
+	dohtml -r doc/ || die "dohtml failed"
 }

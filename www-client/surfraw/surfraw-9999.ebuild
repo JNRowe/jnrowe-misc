@@ -30,7 +30,7 @@ src_configure() {
 
 src_install() {
 	make DESTDIR="${D}" install || die "make install failed"
-	dodoc AUTHORS ChangeLog HACKING NEWS README TODO
+	dodoc AUTHORS ChangeLog HACKING NEWS README TODO || die "dodoc failed"
 
 	dobashcompletion surfraw-bash-completion
 }

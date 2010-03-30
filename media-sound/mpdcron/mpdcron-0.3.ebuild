@@ -46,10 +46,10 @@ src_install() {
 		|| die "emake install failed"
 	# Can't call prepalldocs for compression because of the example files.
 	rm "${D}"/${docdir}/*.mkd
-	dodoc  *.mkd
+	dodoc  *.mkd || die "dodoc failed"
 
 	if use zsh-completion; then
 		insinto /usr/share/zsh/site-functions
-		doins zsh-completion/_${PN}
+		doins zsh-completion/_${PN} || die "doins zsh failed"
 	fi
 }

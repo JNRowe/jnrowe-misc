@@ -22,5 +22,5 @@ RDEPEND="dev-python/should_dsl
 src_install() {
 	distutils_src_install
 
-	dohtml -r wiki/*
+	dohtml -r wiki/* || die "dohtml failed"
 }

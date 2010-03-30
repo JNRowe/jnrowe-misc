@@ -26,6 +26,6 @@ src_prepare() {
 
 src_install() {
 	insinto /usr/share/awesome/lib
-	doins wicked.lua
-	doman ${PN}.7.gz
+	doins wicked.lua || die "doins failed"
+	doman ${PN}.7.gz || die "doman failed"
 }

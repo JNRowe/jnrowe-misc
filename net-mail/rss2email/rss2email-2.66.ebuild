@@ -34,12 +34,12 @@ src_compile() {
 }
 
 src_install() {
-	dobin r2e
+	dobin r2e || die "dobin failed"
 	insinto ${SITEDIR}
-	doins html2text.py rss2email.py
-	touch "${D}"/${SITEDIR}/__init__.py
-	doman r2e.1
-	dodoc config.py
+	doins html2text.py rss2email.py || die "doins failed"
+	touch "${D}"/${SITEDIR}/__init__.py || die "touch failed"
+	doman r2e.1 || die "doman failed"
+	dodoc config.py || die "dodoc failed"
 }
 
 pkg_postinst() {

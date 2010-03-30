@@ -29,12 +29,13 @@ src_prepare() {
 }
 
 src_compile() {
-	make CC=$(tc-getCC)
+	# Fails with emake, patch pushed.
+	make CC=$(tc-getCC) || die "make failed"
 }
 
 src_install() {
-	emake PREFIX="${D}usr" install || die
-	dodoc ChangeLog README
+	emake PREFIX="${D}usr" install || die "emake install failed"
+	dodoc ChangeLog README || die "dodoc failed"
 	docinto examples
-	dodoc tree.lua
+	dodoc tree.lua || die "dodoc examples failed"
 }

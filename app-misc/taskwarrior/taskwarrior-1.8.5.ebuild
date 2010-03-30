@@ -32,20 +32,20 @@ src_install() {
 	# This is simpler than mangling the Makefile.
 	rm -rf "${D}"/trash
 
-	dodoc AUTHORS ChangeLog NEWS README
+	dodoc AUTHORS ChangeLog NEWS README || die "dodoc failed"
 
 	dobashcompletion scripts/bash/task_completion.sh ${PN}
 
 	if use vim-syntax; then
 		insinto /usr/share/vim/vimfiles/ftdetect
-		doins scripts/vim/ftdetect/task.vim
+		doins scripts/vim/ftdetect/task.vim || die "doins ftdetect failed"
 		insinto /usr/share/vim/vimfiles/syntax
-		doins scripts/vim/syntax/*.vim
-		newdoc scripts/vim/README README.vim
+		doins scripts/vim/syntax/*.vim || die "doins syntax failed"
+		newdoc scripts/vim/README README.vim || die "newdoc failed"
 	fi
 
 	if use zsh-completion; then
 		insinto /usr/share/zsh/site-functions
-		doins scripts/zsh/_task
+		doins scripts/zsh/_task || die "doins zsh failed"
 	fi
 }

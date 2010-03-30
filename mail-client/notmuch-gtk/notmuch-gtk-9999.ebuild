@@ -31,7 +31,7 @@ src_prepare() {
 }
 
 src_install() {
-	dobin ${PN/-/_}
+	dobin ${PN/-/_} || die "dobin failed"
 	insinto /usr/share/${PN}
-	doins glade/${PN}.glade
+	doins glade/${PN}.glade || die "doins failed"
 }

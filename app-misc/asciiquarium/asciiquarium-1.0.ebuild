@@ -20,6 +20,6 @@ RDEPEND="dev-perl/Term-Animation"
 S=${WORKDIR}/${PN}_${PV}
 
 src_install() {
-	dobin ${PN}
-	dodoc CHANGES README
+	dobin ${PN} || die "dobin failed"
+	dodoc CHANGES README || die "dodoc failed"
 }

@@ -29,6 +29,6 @@ src_compile() {
 }
 
 src_install() {
-	dobin ${PN}
-	newdoc "${DISTDIR}"/${P}-readme.txt readme.txt
+	dobin ${PN} || dir "dobin failed"
+	newdoc "${DISTDIR}"/${P}-readme.txt readme.txt || die "newdoc failed"
 }

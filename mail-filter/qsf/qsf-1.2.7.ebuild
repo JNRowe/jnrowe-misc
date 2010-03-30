@@ -28,8 +28,8 @@ src_configure() {
 }
 
 src_install () {
-	emake DESTDIR="${D}" install || die
-	dodoc README
+	emake DESTDIR="${D}" install || die "emake install failed"
+	dodoc README || die "dodoc failed"
 	cd doc
-	dodoc NEWS TODO changelog postfix-howto
+	dodoc NEWS TODO changelog postfix-howto || die "dodoc in doc failed"
 }

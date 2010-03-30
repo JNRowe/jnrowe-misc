@@ -49,11 +49,11 @@ src_compile() {
 src_install() {
 	emake DESTDIR="${D}" install || die "emake install failed"
 
-	dodoc AUTHORS README TODO
+	dodoc AUTHORS README TODO || die "dodoc failed"
 
 	if use zsh-completion; then
 		insinto /usr/share/zsh/site-functions
-		newins contrib/notmuch-completion.zsh _notmuch
+		newins contrib/notmuch-completion.zsh _notmuch || die "newins failed"
 	fi
 
 	dobashcompletion contrib/notmuch-completion.bash
@@ -62,16 +62,18 @@ src_install() {
 		elisp-install ${PN}{,.el{,c}}
 		elisp-site-file-install ${SITEFILE}
 
-		use X && domenu ${PN}.desktop
+		if use X; then
+			domenu ${PN}.desktop || die "domenu failed"
+		fi
 	fi
 
 	if use vim; then
 		cd vim
 		insinto /usr/share/vim/vimfiles/plugin
-		doins plugin/${PN}.vim
+		doins plugin/${PN}.vim || die "doins plugin failed"
 		insinto /usr/share/vim/vimfiles/syntax
-		doins syntax/*.vim
-		newdoc README README.vim
+		doins syntax/*.vim || die "doins syntax failed"
+		newdoc README README.vim || die "dodoc failed"
 	fi
 }
 

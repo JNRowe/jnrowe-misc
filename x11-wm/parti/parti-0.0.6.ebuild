@@ -36,5 +36,5 @@ src_install() {
 
 	echo -e "#!/bin/sh\n/usr/bin/${PN}" > "${T}/${PN}"
 	exeinto /etc/X11/Sessions
-	doexe "${T}/${PN}"
+	doexe "${T}/${PN}" || die "doexe failed"
 }

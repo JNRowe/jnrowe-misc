@@ -24,5 +24,5 @@ src_configure() {
 }
 
 src_install() {
-	dobin ${PN}
+	dobin ${PN} || die "dobin failed"
 }

@@ -39,11 +39,11 @@ src_prepare() {
 }
 
 src_install() {
-	dodoc CHANGES README
+	dodoc CHANGES README || die "dodoc failed"
 
 	insinto /usr/share/awesome/lib/${PN}
-	doins *.lua
+	doins *.lua || die "doins *.lua failed"
 	cd widgets
 	insinto /usr/share/awesome/lib/${PN}/widgets
-	doins *.lua
+	doins *.lua || die "doins *.lua in widgets failed"
 }

@@ -25,14 +25,14 @@ USE_RUBY="ruby18"
 src_install() {
 	local SITEDIR=$(${RUBY} -r rbconfig -e 'print Config::CONFIG["sitedir"]')
 
-	dobin bin/${PN}
-	doman man/${PN}.1
+	dobin bin/${PN} || die "dobin failed"
+	doman man/${PN}.1 || die "doman failed"
 
 	cd lib
 	insinto ${SITEDIR}
-	doins ${PN}.rb
+	doins ${PN}.rb || die "doins ${PN}.rb failed"
 	insinto ${SITEDIR}/${PN}
-	doins hub/*.rb
+	doins hub/*.rb || die "doins hub/*.rb failed"
 	cd ..
 
 	erubydoc

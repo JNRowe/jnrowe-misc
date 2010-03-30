@@ -34,5 +34,5 @@ src_configure() {
 src_install() {
 	emake prefix="${D}" install || die "make install failed"
 
-	dodoc CHANGES README TODO
+	dodoc CHANGES README TODO || die "dodoc failed"
 }

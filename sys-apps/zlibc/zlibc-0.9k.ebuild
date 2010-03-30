@@ -33,7 +33,7 @@ src_compile() {
 src_install() {
 	# Makefile is massively broken, and installing a few files manually is much
 	# faster than rewriting the Makefile.
-	dolib uncompress.so
-	doinfo ${PN}.info
-	dodoc CHANGES README ${PN}.conf.sample
+	dolib uncompress.so || die "dolib failed"
+	doinfo ${PN}.info || die "doinfo failed"
+	dodoc CHANGES README ${PN}.conf.sample || die "dodoc failed"
 }

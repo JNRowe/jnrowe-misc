@@ -28,11 +28,11 @@ src_install() {
 	${RUBY} setup.rb install --prefix="${D}" \
 		|| die "setup.rb install failed"
 	find "${D}" -name trollop.rb -exec rm {} \;
-	dodoc Changelog PLUGINS.txt README.txt ReleaseNotes
+	dodoc Changelog PLUGINS.txt README.txt ReleaseNotes || die "dodoc failed"
 
 	dobashcompletion contrib/completion/${PN}.bash ${PN}
 	if use zsh-completion; then
 		insinto /usr/share/zsh/site-functions
-		newins contrib/completion/_ditz.zsh _ditz
+		newins contrib/completion/_ditz.zsh _ditz || die "newins failed"
 	fi
 }
