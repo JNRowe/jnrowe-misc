@@ -3,13 +3,14 @@ HTML := $(patsubst %.rst, %.html, $(wildcard *.rst))
 PACKAGES := $(wildcard *-*/*)
 MANIFESTS := $(addsuffix /Manifest, $(PACKAGES))
 METADATA := $(addsuffix /metadata.xml, $(PACKAGES))
+NEWS := $(addsuffix .asc, $(wildcard metadata/news/*/*.txt))
 
 SIGN_KEY := $(shell . /etc/make.conf ; echo $$PORTAGE_GPG_KEY )
 
 .PHONY: clean cupage-check distclean stable-candidates
 
 all: $(HTML) profiles/categories profiles/use.local.desc $(MANIFESTS) \
-	stable-candidates
+	$(NEWS) stable-candidates
 
 %.html: %.rst
 	rst2html.py $< $@
@@ -20,6 +21,10 @@ all: $(HTML) profiles/categories profiles/use.local.desc $(MANIFESTS) \
 		gpg --local-user $(SIGN_KEY) --clearsign $@; \
 		mv $@.asc $@; \
 	fi
+
+%.txt.asc: %.txt
+	[ -z "$(SIGN_KEY)" ] && exit 1
+	gpg --local-user $(SIGN_KEY) --detach-sign --armor $<
 
 profiles/categories: $(CATEGORIES)
 	rm -f $@; \
