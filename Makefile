@@ -5,7 +5,10 @@ MANIFESTS := $(addsuffix /Manifest, $(PACKAGES))
 METADATA := $(addsuffix /metadata.xml, $(PACKAGES))
 NEWS := $(addsuffix .asc, $(wildcard metadata/news/*/*.txt))
 
-SIGN_KEY := $(shell . /etc/make.conf ; echo $$PORTAGE_GPG_KEY )
+SIGN_KEY := $(shell . /etc/make.conf ; echo $$PORTAGE_GPG_KEY)
+ifndef SIGN_KEY
+    $(warning Manifests will not be signed, as PORTAGE_GPG_KEY is not set)
+endif
 
 .PHONY: clean cupage-check distclean stable-candidates
 
