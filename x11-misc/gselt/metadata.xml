@@ -11,6 +11,4 @@
 		done with the text that is currently selected. Actions are configurable
 		and specify regular expressions to match against the selection.
 	</longdescription>
-	<upstream>
-	</upstream>
 </pkgmetadata>
