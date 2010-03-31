@@ -12,7 +12,7 @@ DESCRIPTION="A dead-simple Object-XML mapper for Python"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND=""
