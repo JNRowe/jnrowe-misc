@@ -5,8 +5,8 @@ type: :feature
 component: misc-overlay
 release: current
 reporter: James Rowe <jnrowe@gmail.com>
-status: :unstarted
-disposition: 
+status: :closed
+disposition: :fixed
 creation_time: 2010-03-28 15:29:58.626531 Z
 references: []
 
@@ -18,5 +18,17 @@ log_events:
   - |-
     There is now a version in the upstream tree, so check its suitability before
     continuing.
+- - 2010-04-03 03:44:33.279147 Z
+  - James Rowe <jnrowe@gmail.com>
+  - commented
+  - |-
+    The in tree version isn't usable as a direct replacement, but I don't want to
+    shadow it from within this overlay so it is moving to ::shadowed.  It will be
+    maintained there indefinitely, which probably means until somebody else pushes
+    fixes upstream(check upstream metadata.xml before putting time in to this).
+- - 2010-04-03 03:44:38.143855 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition fixed
+  - ""
 claimer: 
 git_branch: 
