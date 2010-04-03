@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  03 Apr 2010; James Rowe <jnrowe@gmail.com> zlibc-0.9k.ebuild:
+  Keyworded amd64.
+
 *zlibc-0.9k (03 Mar 2010)
 
   03 Mar 2010; James Rowe <jnrowe@gmail.com> +zlibc-0.9k.ebuild,
