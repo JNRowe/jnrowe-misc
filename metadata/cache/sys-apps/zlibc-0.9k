@@ -6,7 +6,7 @@ http://zlibc.linux.lu//zlibc-0.9k.tar.gz
 http://zlibc.linux.lu/
 GPL-2
 Read-only compressed file-system emulation.
-amd64 ~x86
+amd64 x86
 autotools eutils libtool multilib portability toolchain-funcs
 
 
