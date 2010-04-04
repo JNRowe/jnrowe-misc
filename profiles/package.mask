@@ -1,11 +1,5 @@
 # extra line needed because portage is buggy
 
-# James Rowe <jnrowe@gmail.com> (2 Feb 2010)
-# Incompatible with new "releases", new code too buggy for everyday use.
-# Alternatives to Bugs Everywhere such as ditz and pitz exist.
-# X-Removal: 2010-04-04
-dev-util/be
-
 # James Rowe <jnrowe@gmail.com> (12 Jan 2010)
 # live ebuild for gist
 =app-text/gist-9999
