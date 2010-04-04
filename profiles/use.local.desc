@@ -3,3 +3,4 @@ dev-python/restview:pygments - Enable support for code blocks with highlighting 
 mail-client/notmuch:vim - Install the vim interface for notmuch
 media-gfx/aafigure:docutils - Adds a directive for aafigure support to dev-python/docutils
 media-sound/mpdcron:scrobbler - Enable support for last.fm aka audioscrobbler
+x11-misc/winwrangler:daemon - Enable support for winwrangler hotkey daemon

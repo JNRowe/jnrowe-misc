@@ -16,6 +16,11 @@
 		normally provided by the window manager. For example tiling and
 		intelligent expansion of windows.
 	</longdescription>
+	<use>
+		<flag name="daemon" restrict=">=x11-misc/winwrangler-0.2.4-r1">
+			Enable support for winwrangler hotkey daemon
+		</flag>
+	</use>
 	<upstream>
 		<bugs-to>https://bugs.launchpad.net/winwrangler</bugs-to>
 	</upstream>

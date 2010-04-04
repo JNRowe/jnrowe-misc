@@ -1,0 +1,202 @@
+diff --git c/README i/README
+index b9991e4..9cbccee 100644
+--- c/README
++++ i/README
+@@ -11,9 +11,9 @@ WinWrangler is a simple project whose aim is to add additional functionality
+ to all standards compliant window managers. This means that it should work
+ under Gnome, KDE and XFCE.
+ 
+-WinWrangler provides a desktop daemon that can be controlled via desktop-wide
+-hotkeys to do advanced window manipulations that are not normally provided by
+-the window manager. For example tiling and intelligent expansion of windows.
++WinWrangler provides a functionality to do advanced window manipulations that
++are not normally provided by the window manager. For example tiling and
++intelligent expansion of windows.
+ 
+ Features
+ --------
+@@ -28,16 +28,6 @@ Features
+  * Spatial window switching - Switch active window to the nearest neighbour
+    in the up, down, left, or right directions
+ 
+-Hotkeys
+--------
+-Here follows the defailt hotkeys. They can be manually configured in the file
+-~/.config/hotkeys/winwrangler.hotkeys
+-
+- * <Control><Super>1 - Expand window
+- * <Control><Super>2 - Tile windows
+- * <Control><Super>3 - 2/3 layout
+- * <Control><Super>Up|Down|Left|Right - Spatial window switch
+- 
+ Honorable Mentions
+ ------------------
+  * Mads Villadsen - Build fixes
+diff --git c/configure.ac i/configure.ac
+index 150916c..d3ba3d7 100644
+--- c/configure.ac
++++ i/configure.ac
+@@ -31,7 +31,7 @@ AM_PROG_LIBTOOL
+ 
+ 
+ 
+-PKG_CHECK_MODULES(WINWRANGLER, [libwnck-1.0 >= 2.22 glib-2.0 >= 2.15.6 gobject-2.0 >= 2.15.6 gtk+-2.0 >= 2.12 gtkhotkey-1.0 >= 0.2 gtkhotkey-1.0 < 0.3])
++PKG_CHECK_MODULES(WINWRANGLER, [libwnck-1.0 >= 2.22 glib-2.0 >= 2.15.6 gobject-2.0 >= 2.15.6 gtk+-2.0 >= 2.12])
+ AC_SUBST(WINWRANGLER_CFLAGS)
+ AC_SUBST(WINWRANGLER_LIBS)
+ 
+diff --git c/src/Makefile.am i/src/Makefile.am
+index 51134fa..53e03fd 100644
+--- c/src/Makefile.am
++++ i/src/Makefile.am
+@@ -13,7 +13,6 @@ bin_PROGRAMS = winwrangler
+ 
+ winwrangler_SOURCES = \
+ 	winwrangler.h		\
+-	ww-hotkeys.c		\
+ 	ww-layout-expand.c	\
+ 	ww-layout-tile.c	\
+ 	ww-layout-twothirds.c	\
+@@ -21,7 +20,6 @@ winwrangler_SOURCES = \
+ 	ww-layouts.c		\
+ 	ww-layouts.h		\
+ 	ww-utils.c		\
+-	ww-tray.c		\
+ 	main.c
+ 
+ winwrangler_LDFLAGS = 
+diff --git c/src/main.c i/src/main.c
+index a41b0bd..07c9cb1 100644
+--- c/src/main.c
++++ i/src/main.c
+@@ -25,18 +25,12 @@
+ 
+ static gchar *layout_name = NULL;
+ static gboolean print_layouts = FALSE;
+-static gboolean run_tray = FALSE;
+-static gboolean run_daemon = FALSE;
+ 
+ static GOptionEntry option_entries[] = {
+ 	{ "layout", 'l', 0, G_OPTION_ARG_STRING, &layout_name,
+ 	  N_("The layout function to apply") },
+ 	{ "layouts", 0, 0, G_OPTION_ARG_NONE, &print_layouts,
+ 	  N_("Print a list of layout functions") },
+-	{ "tray", 't', 0, G_OPTION_ARG_NONE, &run_tray,
+-	  N_("Add an icon in the system tray. This implies --daemon") },
+-	{ "daemon", 'd', 0, G_OPTION_ARG_NONE, &run_daemon,
+-	  N_("Run a background process listening for hotkey events") },
+ 	{ NULL }
+ };
+ 
+@@ -55,24 +49,12 @@ do_print_layouts (const WwLayout *layouts)
+ 	}
+ }
+ 
+-void
+-do_bind_keys (void)
+-{
+-	WwLayout *iter, *layouts;
+-	
+-	layouts = ww_get_layouts ();
+-	
+-	for (iter = layouts; iter->name != NULL; iter++)
+-		ww_hotkey_bind_layout (iter);
+-}
+-
+ int
+ main (int argc, char *argv[])
+ {
+ 	const WwLayout  *layouts;
+ 	GError			*error;
+ 	GOptionContext  *options;
+-	GtkStatusIcon	*tray_icon;
+ 	
+ #ifdef ENABLE_NLS
+ 	bindtextdomain (GETTEXT_PACKAGE, PACKAGE_LOCALE_DIR);
+@@ -105,20 +87,8 @@ main (int argc, char *argv[])
+ 		ww_apply_layout_by_name (layout_name);
+ 	}
+ 	
+-	if (run_tray) {
+-		run_daemon = TRUE;
+-		tray_icon = ww_tray_icon_new ();
+-	}
+-	
+-	if (run_daemon) {
+-		do_bind_keys();
+-		gtk_main();
+-	}
+-	
+ 	else if (!layout_name &&
+-			 !print_layouts &&
+-			 !run_daemon &&
+-			 !run_tray)
++			 !print_layouts)
+ 	{
+ 		gchar *help_msg = g_option_context_get_help (options, TRUE, NULL);
+ 		g_print (help_msg);
+diff --git c/src/winwrangler.h i/src/winwrangler.h
+index 5f68acc..25dac6c 100644
+--- c/src/winwrangler.h
++++ i/src/winwrangler.h
+@@ -46,7 +46,6 @@ typedef struct
+   const gchar *name;
+   const gchar *label;
+   const gchar *desc;
+-  const gchar *default_hotkey;
+   WwLayoutHandler handler;  
+ } WwLayout;
+ 
+@@ -76,10 +75,6 @@ GList*				ww_filter_user_windows		(GList *windows,
+ GList*				ww_filter_strut_windows		(GList *windows,
+ 												 WnckWorkspace *current);
+ 
+-GtkStatusIcon*		ww_tray_icon_new			(void);
+-
+-gboolean			ww_hotkey_bind_layout		(WwLayout *layout);
+-
+ void				ww_apply_layout_by_name		(const gchar *layout_name);
+ 
+ void				ww_calc_bounds				(WnckScreen	*screen,
+diff --git c/src/ww-layouts.c i/src/ww-layouts.c
+index fd0d31c..2aaf274 100644
+--- c/src/ww-layouts.c
++++ i/src/ww-layouts.c
+@@ -25,37 +25,30 @@ static WwLayout layouts[] = {
+ 	 "Expand active window",
+ 	 "Expand the currently active window to fill all available space "
+ 	 "without overlapping any new windows",
+-	 "<Ctrl><Super>1",
+ 	 ww_layout_expand},
+ 	{"tile",
+ 	 "Tile all windows",
+ 	 "Tile all visible windows",
+-	 "<Ctrl><Super>2",
+ 	 ww_layout_tile},
+ 	{"twothirds",
+ 	 "2/3 Layout",
+ 	 "Resize the active window to 2/3 of the screen",
+-	 "<Ctrl><Super>3",
+ 	 ww_layout_twothirds},
+ 	{"activate_left",
+ 	 "Switch left",
+ 	 "Switch to the window to the left of the current one",
+-	 "<Ctrl><Super>Left",
+ 	 ww_layout_switch_spatial_left},
+ 	{"activate_right",
+ 	 "Switch right",
+ 	 "Switch to the window to the right of the current one",
+-	 "<Ctrl><Super>Right",
+ 	 ww_layout_switch_spatial_right},
+ 	{"activate_up",
+ 	 "Switch up",
+ 	 "Switch to the window above the current one",
+-	 "<Ctrl><Super>Up",
+ 	 ww_layout_switch_spatial_up},
+ 	{"activate_down",
+ 	 "Switch down",
+ 	 "Switch to the window below the current one",
+-	 "<Ctrl><Super>Down",
+ 	 ww_layout_switch_spatial_down},
+ 	{NULL}
+ };
