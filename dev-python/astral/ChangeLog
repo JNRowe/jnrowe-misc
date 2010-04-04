@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*astral-0.2 (04 Apr 2010)
+
+  04 Apr 2010; James Rowe <jnrowe@gmail.com> +astral-0.2.ebuild:
+  Version bump.
+
   21 Mar 2010; James Rowe <jnrowe@gmail.com> astral-0.1.ebuild:
   Use DISTUTILS_SRC_TEST instead of directly calling nosetests.
 
