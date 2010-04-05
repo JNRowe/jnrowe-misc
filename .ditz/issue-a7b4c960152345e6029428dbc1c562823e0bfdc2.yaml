@@ -5,8 +5,8 @@ type: :feature
 component: misc-overlay
 release: current
 reporter: James Rowe <jnrowe@gmail.com>
-status: :unstarted
-disposition: 
+status: :closed
+disposition: :fixed
 creation_time: 2010-03-29 17:38:25.364406 Z
 references: []
 
@@ -19,6 +19,21 @@ log_events:
 - - 2010-03-29 17:38:29.124385 Z
   - James Rowe <jnrowe@gmail.com>
   - issue claimed
+  - ""
+- - 2010-04-05 19:19:45.415874 Z
+  - James Rowe <jnrowe@gmail.com>
+  - changed status from unstarted to in_progress
+  - ""
+- - 2010-04-05 19:53:50.307630 Z
+  - James Rowe <jnrowe@gmail.com>
+  - commented
+  - |-
+    It would make a lot more sense to not copy the actual gitweb source in this
+    package, unfortunately the only way to do sensibly would be to depend on
+    dev-vcs/git with USE=cgi which pulls in too many dependencies.
+- - 2010-04-05 19:59:11.287813 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition fixed
   - ""
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 

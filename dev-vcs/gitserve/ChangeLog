@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*gitserve-0.2.0-r1 (05 Apr 2010)
+
+  05 Apr 2010; James Rowe <jnrowe@gmail.com> +gitserve-0.2.0-r1.ebuild:
+  Updated included gitweb to 1.6.4.4 [a7b].
+
   21 Mar 2010; James Rowe <jnrowe@gmail.com> gitserve-0.2.0.ebuild:
   Added PYTHON_DEPEND setting.
 
