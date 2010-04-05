@@ -5,8 +5,8 @@ type: :feature
 component: misc-overlay
 release: current
 reporter: James Rowe <jnrowe@gmail.com>
-status: :unstarted
-disposition: 
+status: :closed
+disposition: :reorg
 creation_time: 2010-02-09 02:28:02.027913 Z
 references: []
 
@@ -35,5 +35,9 @@ log_events:
     policy) to shadow the upstream package.  This is an exceptional circumstance,
     and won't happen to other packages, I will kick rss2email out of this overlay if
     upstream starts tracking new releases.
+- - 2010-04-05 19:01:58.507817 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition reorg
+  - Will be reopened if upstream starts updating.
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 
