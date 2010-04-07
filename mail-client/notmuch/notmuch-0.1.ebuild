@@ -12,7 +12,7 @@ SRC_URI="${HOMEPAGE}/releases/${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE="X debug emacs vim zsh-completion"
 
 RDEPEND="sys-libs/talloc
