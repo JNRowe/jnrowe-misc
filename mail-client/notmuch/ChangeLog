@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*notmuch-0.1 (07 Apr 2010)
+
+  07 Apr 2010; James Rowe <jnrowe@gmail.com> +notmuch-0.1.ebuild:
+  Version bump.
+
   07 Apr 2010; James Rowe <jnrowe@gmail.com> notmuch-9999.ebuild:
   Fixed DEPEND setting.
 
