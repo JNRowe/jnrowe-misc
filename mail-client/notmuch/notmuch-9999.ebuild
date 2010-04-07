@@ -17,15 +17,15 @@ SLOT="0"
 KEYWORDS=""
 IUSE="X debug emacs vim zsh-completion"
 
-DEPEND="dev-util/pkgconfig
-	debug? ( dev-util/valgrind )
-	${RDEPEND}"
 RDEPEND="sys-libs/talloc
 	dev-libs/gmime:2.4
 	dev-libs/xapian
 	emacs? ( virtual/emacs )
 	vim? ( || ( app-editors/vim app-editors/gvim ) )
 	zsh-completion? ( app-shells/zsh )"
+DEPEND="dev-util/pkgconfig
+	debug? ( dev-util/valgrind )
+	${RDEPEND}"
 
 SITEFILE="50${PN}-gentoo.el"
 
