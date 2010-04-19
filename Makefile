@@ -16,7 +16,7 @@ all: $(HTML) profiles/categories profiles/use.local.desc $(MANIFESTS) \
 	$(NEWS) stable-candidates removal-reminders
 
 %.html: %.rst
-	rst2html.py $< $@
+	rst2html.py --strict $< $@
 
 %/Manifest: %/*.ebuild
 	ebuild $(lastword $(wildcard $(dir $@)*.ebuild)) manifest; \
