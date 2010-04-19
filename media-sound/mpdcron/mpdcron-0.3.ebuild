@@ -11,7 +11,7 @@ SRC_URI="http://dev.exherbo.org/~alip/mpdcron/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="libnotify scrobbler zsh-completion"
 
 RDEPEND=">=dev-libs/glib-2.18
