@@ -1,13 +1,13 @@
 dev-lang/perl[-build]
 dev-perl/HTML-TokeParser-Simple dev-perl/libwww-perl dev-lang/perl[-build]
 0
-mirror://cpan/authors/id/M/MN/MNAGUIB//Weather-Underground-3.02.tar.gz
+mirror://cpan/authors/id/M/MN/MNAGUIB/Weather-Underground-3.02.tar.gz
 
 http://search.cpan.org/dist/Weather-Underground/
 Artistic
 Extension for retrieving weather information from wunderground.com
 amd64 x86
-base eutils multilib perl-module portability toolchain-funcs
+base eutils multilib perl-helper perl-module portability toolchain-funcs
 
 
 
