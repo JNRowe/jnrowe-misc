@@ -14,7 +14,7 @@ HOMEPAGE="http://bitbucket.org/hhatto/genzshcomp/"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND=""
