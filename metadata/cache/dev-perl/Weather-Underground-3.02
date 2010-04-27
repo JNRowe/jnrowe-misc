@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Weather-Underground/
 Artistic
 Extension for retrieving weather information from wunderground.com
 amd64 x86
-base eutils multilib perl-helper perl-module portability toolchain-funcs
+base eutils multilib perl-module portability toolchain-funcs
 
 
 

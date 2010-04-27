@@ -7,7 +7,7 @@ http://search.cpan.org/dist/Net-Twitter-Lite/
 Artistic
 A perl interface to the Twitter API
 ~amd64 ~x86
-base eutils multilib perl-helper perl-module portability toolchain-funcs
+base eutils multilib perl-module portability toolchain-funcs
 
 
 
