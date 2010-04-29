@@ -12,7 +12,7 @@ DESCRIPTION="simple, elegant HTML/XHTML generation"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE=""
 
 DEPEND=""
