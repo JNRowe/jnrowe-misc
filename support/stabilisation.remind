@@ -10,6 +10,8 @@ REM 2010-05-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 mail-client/notmuch-0.
 REM 2010-05-08 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 mail-client/notmuch-0.1 %a
 REM 2010-06-02 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/psplash-0.1_p20090528 %a
 REM 2010-06-02 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/psplash-0.1_p20090528 %a
+REM 2010-06-02 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 net-mail/rss2email-2.66 %a
+REM 2010-06-02 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 net-mail/rss2email-2.66 %a
 REM 2010-05-13 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 www-apps/mnemosyne-0.12 %a
 REM 2010-05-13 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 www-apps/mnemosyne-0.12 %a
 REM 2010-05-15 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-perl/Net-Twitter-Lite-0.08006 %a
