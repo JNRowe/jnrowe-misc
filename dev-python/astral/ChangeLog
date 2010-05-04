@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  04 May 2010; James Rowe <jnrowe@gmail.com> astral-0.2.ebuild:
+  Keyworded amd64.
+
 *astral-0.2 (04 Apr 2010)
 
   04 Apr 2010; James Rowe <jnrowe@gmail.com> +astral-0.2.ebuild:
