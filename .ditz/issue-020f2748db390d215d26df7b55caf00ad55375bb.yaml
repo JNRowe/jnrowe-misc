@@ -5,8 +5,8 @@ type: :feature
 component: misc-overlay
 release: current
 reporter: James Rowe <jnrowe@gmail.com>
-status: :unstarted
-disposition: 
+status: :closed
+disposition: :fixed
 creation_time: 2010-05-03 03:01:20.999836 Z
 references: []
 
@@ -16,5 +16,19 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - created
   - ""
+- - 2010-05-04 04:27:53.409902 Z
+  - James Rowe <jnrowe@gmail.com>
+  - changed status from unstarted to in_progress
+  - ""
+- - 2010-05-04 05:13:11.365861 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition fixed
+  - ""
+- - 2010-05-04 05:13:43.637400 Z
+  - James Rowe <jnrowe@gmail.com>
+  - commented
+  - |-
+    This may well be the last version of taskwarrior in this overlay, the overhead
+    for handling the broken packaging is too high for the value of the package.
 claimer: 
 git_branch: 
