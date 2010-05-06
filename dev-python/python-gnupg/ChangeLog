@@ -3,6 +3,9 @@
 # $Header: $
 
   06 May 2010; James Rowe <jnrowe@gmail.com> python-gnupg-0.2.4.ebuild:
+  Keyworded x86.
+
+  06 May 2010; James Rowe <jnrowe@gmail.com> python-gnupg-0.2.4.ebuild:
   Keyworded amd64.
 
   07 Apr 2010; James Rowe <jnrowe@gmail.com> python-gnupg-0.2.4.ebuild:
