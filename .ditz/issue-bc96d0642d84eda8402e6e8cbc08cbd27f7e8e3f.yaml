@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: dev-python/pycukes-0.2 version bump.
+desc: ""
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-05-06 06:17:43.055924 Z
+references: []
+
+id: bc96d0642d84eda8402e6e8cbc08cbd27f7e8e3f
+log_events: 
+- - 2010-05-06 06:17:43.687805 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+claimer: 
+git_branch: 
