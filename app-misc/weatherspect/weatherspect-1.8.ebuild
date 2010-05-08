@@ -15,7 +15,8 @@ KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND=""
-RDEPEND="dev-perl/Weather-Underground"
+RDEPEND="dev-perl/Term-Animation
+	dev-perl/Weather-Underground"
 
 S=${WORKDIR}/${PN}_v${PV}
 
