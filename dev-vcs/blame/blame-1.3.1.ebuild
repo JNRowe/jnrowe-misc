@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -17,7 +17,7 @@ IUSE=""
 # with prebuilt parser.y output, but be careful with bumps and patches
 DEPEND=""
 # blame doesn't actually use RCS provided commands, and can parse RCS generated
-# files without the tools installed.
+# files without dev-vcs/rcs.
 RDEPEND=""
 
 src_install() {
