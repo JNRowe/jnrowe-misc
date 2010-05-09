@@ -1,0 +1,23 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: dev-ruby/trollop exists in upstream tree.
+desc: ""
+type: :bugfix
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-05-09 09:37:47.771970 Z
+references: []
+
+id: 89a15f326318c85c6e19a05201ee11eb66085474
+log_events: 
+- - 2010-05-09 09:38:34.840738 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - |-
+    trollop has been added to the main tree and should be dropped from here.  The
+    upgrade path is clean, and all we're waiting for is a stabilised version in the
+    tree.
+claimer: 
+git_branch: 
