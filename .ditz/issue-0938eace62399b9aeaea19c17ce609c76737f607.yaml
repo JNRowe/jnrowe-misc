@@ -1,0 +1,24 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: dev-python/rednose-0.1.5 version bump.
+desc: ""
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :closed
+disposition: :fixed
+creation_time: 2010-05-09 09:45:50.347879 Z
+references: []
+
+id: 0938eace62399b9aeaea19c17ce609c76737f607
+log_events: 
+- - 2010-05-09 09:45:50.827761 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2010-05-09 09:53:42.511792 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition fixed
+  - ""
+claimer: 
+git_branch: 
