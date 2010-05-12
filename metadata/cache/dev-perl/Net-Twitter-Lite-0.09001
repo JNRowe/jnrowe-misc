@@ -1,0 +1,22 @@
+>=dev-perl/JSON-Any-1.21 >=dev-perl/libwww-perl-5.805 >=dev-perl/URI-1.40 >=dev-perl/Net-OAuth-0.25 dev-lang/perl[-build]
+>=dev-perl/JSON-Any-1.21 >=dev-perl/libwww-perl-5.805 >=dev-perl/URI-1.40 >=dev-perl/Net-OAuth-0.25 dev-lang/perl[-build]
+0
+mirror://cpan/authors/id/M/MM/MMIMS/Net-Twitter-Lite-0.09001.tar.gz
+
+http://search.cpan.org/dist/Net-Twitter-Lite/
+Artistic
+A perl interface to the Twitter API
+~amd64 ~x86
+base eutils multilib perl-module portability toolchain-funcs
+
+
+
+
+2
+
+compile configure install prepare test unpack
+
+
+
+
+

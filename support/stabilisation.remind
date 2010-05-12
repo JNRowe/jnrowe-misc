@@ -22,5 +22,7 @@ REM 2010-06-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/aafigure-0.5
 REM 2010-06-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/aafigure-0.5-r1 %a
 REM 2010-06-08 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/rednose-0.1.5 %a
 REM 2010-06-08 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/rednose-0.1.5 %a
+REM 2010-06-11 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-perl/Net-Twitter-Lite-0.09001 %a
+REM 2010-06-11 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-perl/Net-Twitter-Lite-0.09001 %a
 
 # vim: set sw=4 sts=4 et tw=80 fenc=utf-8 ft=remind:
