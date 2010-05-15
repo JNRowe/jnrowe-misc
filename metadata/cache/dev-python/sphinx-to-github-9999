@@ -1,0 +1,22 @@
+dev-python/setuptools >=app-admin/eselect-python-20091230 =dev-lang/python-2* >=dev-vcs/git-1.6
+dev-python/sphinx >=app-admin/eselect-python-20091230 =dev-lang/python-2*
+0
+
+
+http://github.com/michaeljones/sphinx-to-github
+BSD
+Script to prepare Sphinx html output for github pages
+
+distutils eutils git multilib portability python toolchain-funcs
+
+
+
+
+2
+
+compile install postinst postrm prepare test unpack
+
+
+
+
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		A Python script for preparing the html output of the
+		<pkg>dev-python/sphinx</pkg> documentation system for github pages.
+
+		It renames any top level folders which start with an underscore and
+		edits any references to them within the html files.
+	</longdescription>
+	<upstream>
+		<doc lang="en">http://github.com/michaeljones/sphinx-to-github#readme</doc>
+		<changelog>http://github.com/michaeljones/sphinx-to-github/commits/master/</changelog>
+		<bugs-to>http://github.com/michaeljones/sphinx-to-github/issues</bugs-to>
+	</upstream>
+</pkgmetadata>
