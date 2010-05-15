@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Urlunshort un-shortens URLs that have been created using a URL
+		shortening services, like tinurl.com, bit.ly etc.
+	</longdescription>
+	<upstream>
+		<doc lang="en">http://bitbucket.org/runeh/urlunshort/src/tip/README</doc>
+		<changelog>http://bitbucket.org/runeh/urlunshort/src/tip/CHANGELOG</changelog>
+		<bugs-to>http://bitbucket.org/runeh/urlunshort/issues/?status=new&amp;status=open</bugs-to>
+	</upstream>
+	
+</pkgmetadata>
+
