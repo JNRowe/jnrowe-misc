@@ -1,0 +1,24 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: net-misc/bleeter-0.5.0 version bump.
+desc: ""
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :closed
+disposition: :fixed
+creation_time: 2010-05-16 08:46:37.295975 Z
+references: []
+
+id: 2189b5831160707305c71d69ed747cb8ca42bf94
+log_events: 
+- - 2010-05-16 08:46:37.751855 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2010-05-16 08:50:00.011883 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition fixed
+  - ""
+claimer: 
+git_branch: 
