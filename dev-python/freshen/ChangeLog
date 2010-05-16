@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*freshen-0.2 (16 May 2010)
+
+  16 May 2010; James Rowe <jnrowe@gmail.com> +freshen-0.2.ebuild:
+  Version bump [39f].
+
   21 Mar 2010; James Rowe <jnrowe@gmail.com> freshen-9999.ebuild:
   Added PYTHON_DEPEND setting.
 
