@@ -31,5 +31,11 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - assigned to release current from unassigned
   - ""
+- - 2010-05-16 01:05:11.402518 Z
+  - James Rowe <jnrowe@gmail.com>
+  - commented
+  - |-
+    There is now a1 released version of freshen, so it is just a matter of which is
+    the best tool.
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 
