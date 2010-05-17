@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  17 May 2010; James Rowe <jnrowe@gmail.com> -freshen-9999.ebuild,
+  -files/freshen-9999-data_fix.patch:
+  Dropping live git ebuild.
+
   17 May 2010; James Rowe <jnrowe@gmail.com> freshen-0.2.ebuild:
   Keyworded ~x86.
 

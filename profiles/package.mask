@@ -36,10 +36,6 @@
 # live ebuild for ditz
 =dev-util/ditz-9999
 
-# James Rowe <jnrowe@gmail.com> (6 Oct 2009)
-# Live ebuild for freshen
-=dev-python/freshen-9999
-
 # James Rowe <jnrowe@gmail.com> (17 Sep 2009)
 # Live ebuilds for awesome widgets
 =x11-plugins/obvious-9999
