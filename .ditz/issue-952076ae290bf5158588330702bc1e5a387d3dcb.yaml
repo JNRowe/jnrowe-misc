@@ -1,0 +1,24 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Add lettuce ebuild.
+desc: ""
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-05-20 02:36:05.759940 Z
+references: 
+- f8154671779ad3fce8d8fe3f81f72ec7a22b5799
+id: 952076ae290bf5158588330702bc1e5a387d3dcb
+log_events: 
+- - 2010-05-20 02:36:18.639825 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - An alternative to freshen/pycukes, for testing.
+- - 2010-05-20 02:37:15.343825 Z
+  - James Rowe <jnrowe@gmail.com>
+  - added reference 1
+  - ""
+claimer: 
+git_branch: 
