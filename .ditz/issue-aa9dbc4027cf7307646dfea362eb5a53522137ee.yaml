@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Add gitflow ebuild.
+desc: ""
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-05-20 02:43:30.087942 Z
+references: []
+
+id: aa9dbc4027cf7307646dfea362eb5a53522137ee
+log_events: 
+- - 2010-05-20 02:43:30.535822 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+claimer: 
+git_branch: 
