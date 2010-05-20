@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Add beancount ebuild.
+desc: ""
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-05-20 01:24:07.659942 Z
+references: []
+
+id: 1c7686132cd3cfb21ae1c6184cae1ae465952aba
+log_events: 
+- - 2010-05-20 01:24:21.587829 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - The added tools make this a nice alternative to app-office/ledger.
+claimer: 
+git_branch: 
