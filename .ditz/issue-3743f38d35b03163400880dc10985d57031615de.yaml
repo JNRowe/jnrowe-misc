@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: dev-perl/Net-Twitter-Lite-0.10003 version bump.
+desc: ""
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-06-01 17:18:46.339874 Z
+references: []
+
+id: 3743f38d35b03163400880dc10985d57031615de
+log_events: 
+- - 2010-06-01 17:18:46.907751 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+claimer: 
+git_branch: 
