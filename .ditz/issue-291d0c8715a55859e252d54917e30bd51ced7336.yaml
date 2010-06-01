@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: dev-util/ccontrol-1.0 version bump.
+desc: ""
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-06-01 17:20:07.275866 Z
+references: []
+
+id: 291d0c8715a55859e252d54917e30bd51ced7336
+log_events: 
+- - 2010-06-01 17:20:07.619753 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+claimer: 
+git_branch: 
