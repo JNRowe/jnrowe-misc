@@ -19,5 +19,7 @@ REM 2010-06-03 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 app-misc/taskwarrior-1.9
 REM 2010-06-03 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 net-misc/bleeter-0.4.1 %a
 REM 2010-06-04 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/scripttest-1.0.3 %a
 REM 2010-06-04 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 net-misc/bleeter-0.4.1 %a
+REM 2010-07-02 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/pyhistorian-0.6.8 %a
+REM 2010-07-02 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/pyhistorian-0.6.8 %a
 
 # vim: set sw=4 sts=4 et tw=80 fenc=utf-8 ft=remind:
