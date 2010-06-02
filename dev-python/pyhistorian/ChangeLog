@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*pyhistorian-0.6.8 (02 Jun 2010)
+
+  02 Jun 2010; James Rowe <jnrowe@gmail.com> +pyhistorian-0.6.8.ebuild:
+  Version bump [b9d].
+
   21 Mar 2010; James Rowe <jnrowe@gmail.com> pyhistorian-0.6.3.ebuild:
   Added PYTHON_DEPEND setting.
 
