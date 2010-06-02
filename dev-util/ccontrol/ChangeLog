@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*ccontrol-1.0 (02 Jun 2010)
+
+  02 Jun 2010; James Rowe <jnrowe@gmail.com> +ccontrol-1.0.ebuild:
+  Version bump [291].
+
   06 Mar 2010; James Rowe <jnrowe@gmail.com> ccontrol-0.9.1.ebuild:
   Restrict tests due to valgrind problem, reported by Dennis Bruce [321].
 
