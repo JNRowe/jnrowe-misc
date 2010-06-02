@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  02 Jun 2010; James Rowe <jnrowe@gmail.com> -psplash-0.1.ebuild:
+  Removed obsolete ebuild.
+
   19 Mar 2010; James Rowe <jnrowe@gmail.com> psplash-0.1_p20090528.ebuild:
   Keyworded x86.
 
