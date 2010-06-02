@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*dexml-0.3.6 (02 Jun 2010)
+
+  02 Jun 2010; James Rowe <jnrowe@gmail.com> +dexml-0.3.6.ebuild:
+  Version bump [5b5].
+
   20 May 2010; James Rowe <jnrowe@gmail.com> -dexml-0.3.4.ebuild,
   dexml-0.3.5.ebuild:
   Keyworded x86.
