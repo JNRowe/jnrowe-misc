@@ -41,5 +41,9 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - added reference 1
   - lettuce is soon to be added in to the mix.
+- - 2010-06-02 16:43:51.131840 Z
+  - James Rowe <jnrowe@gmail.com>
+  - commented
+  - More release problems in pycukes and its deps, see 82329f04 and a726d54f.
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 
