@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*pycukes-0.2 (02 Jun 2010)
+
+  02 Jun 2010; James Rowe <jnrowe@gmail.com> +pycukes-0.2.ebuild:
+  Version bump [bc9].
+
   21 Mar 2010; James Rowe <jnrowe@gmail.com> pycukes-0.1.2.ebuild:
   Added PYTHON_DEPEND setting.
 
