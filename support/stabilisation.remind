@@ -38,5 +38,7 @@ REM 2010-07-02 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-perl/Net-Twitter-L
 REM 2010-07-02 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-perl/Net-Twitter-Lite-0.10003 %a
 REM 2010-07-02 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/dexml-0.3.6 %a
 REM 2010-07-02 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/dexml-0.3.6 %a
+REM 2010-07-02 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/tweepy-1.7.1  %a
+REM 2010-07-02 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/tweepy-1.7.1 %a
 
 # vim: set sw=4 sts=4 et tw=120 fenc=utf-8 ft=remind:
