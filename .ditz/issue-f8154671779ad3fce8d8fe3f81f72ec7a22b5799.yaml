@@ -1,5 +1,5 @@
 --- !ditz.rubyforge.org,2008-03-06/issue 
-title: If freshen pans out drop pycukes and deps.
+title: If freshen or lettuce pan out drop pycukes and deps.
 desc: |-
   The maintenance overhead would be much smaller on freshen, and over
   local users have good things to say about it.
@@ -45,5 +45,9 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - commented
   - More release problems in pycukes and its deps, see 82329f04 and a726d54f.
+- - 2010-06-03 06:51:10.275868 Z
+  - James Rowe <jnrowe@gmail.com>
+  - edited title
+  - Lettuce has been added.
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 
