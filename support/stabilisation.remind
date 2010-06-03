@@ -40,5 +40,6 @@ REM 2010-07-03 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 app-misc/taskwarrior-1
 REM 2010-07-03 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 app-misc/taskwarrior-1.9.1 %a
 REM 2010-07-03 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/lettuce-0.1_rc12 %a
 REM 2010-07-03 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-vcs/gitflow-0.2.1 %a
+REM 2010-07-04 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/lettuce-0.1_rc12 %a
 
 # vim: set sw=4 sts=4 et tw=120 fenc=utf-8 ft=remind:
