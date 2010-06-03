@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Lettuce is a BDD tool for python, 100% inspired on cucumber.
+	</longdescription>
+	<upstream>
+		<doc lang="en">http://lettuce.it/</doc>
+		<bugs-to>http://github.com/gabrielfalcao/lettuce/issues</bugs-to>
+	</upstream>
+</pkgmetadata>

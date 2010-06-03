@@ -5,8 +5,8 @@ type: :feature
 component: misc-overlay
 release: current
 reporter: James Rowe <jnrowe@gmail.com>
-status: :unstarted
-disposition: 
+status: :closed
+disposition: :fixed
 creation_time: 2010-05-20 02:36:05.759940 Z
 references: 
 - f8154671779ad3fce8d8fe3f81f72ec7a22b5799
@@ -19,6 +19,14 @@ log_events:
 - - 2010-05-20 02:37:15.343825 Z
   - James Rowe <jnrowe@gmail.com>
   - added reference 1
+  - ""
+- - 2010-06-03 06:40:37.367813 Z
+  - James Rowe <jnrowe@gmail.com>
+  - changed status from unstarted to in_progress
+  - ""
+- - 2010-06-03 06:48:44.407753 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition fixed
   - ""
 claimer: 
 git_branch: 
