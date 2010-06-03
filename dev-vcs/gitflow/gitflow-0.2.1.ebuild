@@ -17,11 +17,13 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=""
-RDEPEND=""
+RDEPEND="dev-vcs/git"
 
 S="${WORKDIR}"/nvie-${PN}-5324ecf
 
 src_prepare() {
+	# This really isn't that nice, but the alternative is require git to build
+	# the package.
 	rm gitflow-shFlags
 	cp "${WORKDIR}"/nvie-shFlags-01694f0/src/shflags gitflow-shFlags
 
