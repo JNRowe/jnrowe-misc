@@ -3,6 +3,9 @@
 # $Header: $
 
   03 Jun 2010; James Rowe <jnrowe@gmail.com> lettuce-0.1_rc12.ebuild:
+  Quote ${S}.
+
+  03 Jun 2010; James Rowe <jnrowe@gmail.com> lettuce-0.1_rc12.ebuild:
   Keyworded ~x86.
 
 *lettuce-0.1_rc12 (03 Jun 2010)

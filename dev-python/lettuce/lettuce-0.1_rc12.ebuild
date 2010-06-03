@@ -27,6 +27,6 @@ RESTRICT_PYTHON_ABIS="2.4 3.*"
 S="${WORKDIR}"/${MY_P}
 
 src_unpack() {
-	mkdir ${S}; cd ${S}
+	mkdir "${S}"; cd "${S}"
 	unpack ${A}
 }
