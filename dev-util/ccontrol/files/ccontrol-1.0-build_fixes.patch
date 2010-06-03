@@ -1,0 +1,60 @@
+diff --git i/Makefile.in w/Makefile.in
+index 952b8e3..867303d 100644
+--- i/Makefile.in
++++ w/Makefile.in
+@@ -1,5 +1,6 @@
+ CC=@CC@
+ CFLAGS=@CFLAGS@
++LDFLAGS=@LDFLAGS@
+ C_FILES:=ccontrol.c ccontrol-parse.c ccontrol-lock.c ccontrol-identify.c stdrusty.c
+ GPERF_C_FILES:=extensions.c keywords.c
+ # Everything depends on makefile, headers, gperf files
+@@ -15,7 +16,7 @@ VERSION=@VERSION@
+ LINKS=$(foreach l,gcc cc g++ c++ ld make,$(prefix)$(LIBDIR)/$l)
+ 
+ ccontrol: $(ALLFILES) ccontrol.1
+-	$(CC) $(CFLAGS) -DVERSION='"$(VERSION) (@VERSION_NAME@)"' -o $@ $(C_FILES)
++	$(CC) $(LDFLAGS) $(CFLAGS) -DVERSION='"$(VERSION) (@VERSION_NAME@)"' -o $@ $(C_FILES)
+ 
+ Makefile: Makefile.in configure config.status
+ 	./configure --reconfigure
+@@ -24,7 +25,7 @@ config.status:
+ 	@echo Please rerun ./configure.; exit 1
+ 
+ ccontrol_test: $(ALLFILES)
+-	$(CC) $(CFLAGS) -DVERSION='"$(VERSION) (@VERSION_NAME@)"' -DTESTING -o $@ $(C_FILES)
++	$(CC) $(LDFLAGS) $(CFLAGS) -DVERSION='"$(VERSION) (@VERSION_NAME@)"' -DTESTING -o $@ $(C_FILES)
+ 
+ $(GPERF_C_FILES): %.c: %.gperf
+ 	gperf $< > $@
+diff --git i/configure w/configure
+index a32c5e6..3217af6 100755
+--- i/configure
++++ w/configure
+@@ -19,7 +19,7 @@ LIBDIR=/usr/local/lib/ccontrol
+ MANDIR=/usr/local/share/man
+ XMLTO=`which xmlto`
+ ASCIIDOC=`which asciidoc`
+-OPTFLAGS=-O3
++OPTFLAGS=
+ VALGRIND=`which valgrind`
+ VERSION=1.0
+ VERSION_NAME="David Gibson"
+@@ -78,6 +78,9 @@ echo -n Looking for compiler flags...
+ CFLAGS="${CFLAGS:--Wall -Wmissing-declarations} $OPTFLAGS"
+ echo $CFLAGS
+ 
++echo -n Looking for linker flags...
++echo $LDFLAGS
++
+ echo -n Looking for xmlto...
+ if [ -z "$XMLTO" ]; then
+     echo not found '(no regenerating man pages for you)'
+@@ -112,6 +115,7 @@ echo sed -e \""s,@CC@,$CC,g\"" \
+ 	-e \""s,@XMLTO@,$XMLTO,g\"" \
+ 	-e \""s,@ASCIIDOC@,$ASCIIDOC,g\"" \
+ 	-e \""s,@CFLAGS@,$CFLAGS,g\"" \
++	-e \""s!@LDFLAGS@!$LDFLAGS!g\"" \
+ 	-e \""s,@VERSION@,$VERSION,g\"" \
+ 	-e \""s,@VERSION_NAME@,$VERSION_NAME,g\"" \
+ 	-e \""s,@VALGRIND@,$VALGRIND,g\"" > config.status

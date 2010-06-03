@@ -7,14 +7,14 @@ http://ccontrol.ozlabs.org/
 GPL-2
 Utility to manage ccache and distcc
 ~amd64 ~x86
-multilib toolchain-funcs
+eutils multilib portability toolchain-funcs
 gtk test
 
 
 
 2
 
-configure install
+configure install prepare
 
 
 

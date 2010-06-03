@@ -4,7 +4,7 @@
 
 EAPI="2"
 
-inherit multilib
+inherit eutils multilib
 
 DESCRIPTION="Utility to manage ccache and distcc"
 HOMEPAGE="http://ccontrol.ozlabs.org/"
@@ -23,6 +23,10 @@ DEPEND="app-text/asciidoc
 	app-text/xmlto
 	test? ( dev-util/valgrind )"
 RDEPEND="gtk? ( dev-python/pygtk )"
+
+src_prepare() {
+	epatch "${FILESDIR}"/${P}-build_fixes.patch
+}
 
 src_configure() {
 	# This can't use econf because it is a hand-hacked shell script.
