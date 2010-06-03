@@ -13,7 +13,7 @@ SRC_URI="http://github.com/nvie/gitflow/tarball/${PV} -> ${P}.tar.gz
 
 LICENSE="as-is"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=""
