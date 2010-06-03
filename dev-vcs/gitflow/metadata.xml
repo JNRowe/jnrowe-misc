@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		A collection of <pkg>dev-vcs/git</pkg> extensions to provide high-level
+		repository operations for Vincent Driessen's branching model.
+	</longdescription>
+	<upstream>
+		<doc lang="en">http://github.com/nvie/gitflow#readme</doc>
+		<bugs-to>http://github.com/nvie/gitflow/issues</bugs-to>
+	</upstream>
+</pkgmetadata>
