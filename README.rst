@@ -50,6 +50,22 @@ Ideas
 If I've forgotten to include your name I wholeheartedly apologise.  Just drop me
 an email_ and I'll update the list!
 
+Python multi-ABI support
+------------------------
+
+Where applicable Python packages in this repository support multiple Python
+versions as specified in `Gentoo Python Developers Guide`_.  Unfortunately,
+there are various problems such as broken dependency specification that can't be
+worked around using the prescribed method.
+
+Please, read the ebuild's dependency specification and try to resolve the
+problem yourself before reporting bugs.  There is very little that can be done
+to fix this without breaking compatibility with upstream, so bugs relating to
+multiple ABI support will likely be closed as CANTFIX.
+
+Hopefully upstream will fix or acknowledge the breakages soon, and then this can
+be resolved correctly.
+
 ``oilman`` integration
 ----------------------
 
@@ -124,4 +140,5 @@ to make use of this functionality.
 .. _cupage: http://github.com/JNRowe/cupage
 .. _GitHub: http://github.com/
 .. _rsync: http://rsync.samba.org/
+.. _Gentoo Python Developers Guide: http://www.gentoo.org/proj/en/Python/developersguide.xml
 
