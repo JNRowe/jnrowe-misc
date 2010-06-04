@@ -1,0 +1,28 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: dev-python/lettuce-0.1_rc13 version bump.
+desc: ""
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :closed
+disposition: :fixed
+creation_time: 2010-06-04 03:53:20.015854 Z
+references: []
+
+id: a45b0169104d428c27de6e9038630dd8d5294057
+log_events: 
+- - 2010-06-04 03:53:20.783728 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2010-06-04 03:53:23.919829 Z
+  - James Rowe <jnrowe@gmail.com>
+  - changed status from unstarted to in_progress
+  - ""
+- - 2010-06-04 03:56:18.367760 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition fixed
+  - ""
+claimer: 
+git_branch: 
