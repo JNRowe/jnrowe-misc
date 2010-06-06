@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 Jun 2010; James Rowe <jnrowe@gmail.com> obvious-9999.ebuild:
+  Fixed for upstream file renaming. Thanks to anna for reporting.
+
   08 Feb 2010; James Rowe <jnrowe@gmail.com> obvious-9999.ebuild:
   Fixed homepage location.
 

@@ -31,7 +31,7 @@ src_install() {
 		popup_run_prompt volume_alsa wlan"
 	treecopy ${modules} init.lua  "${D}"/usr/share/awesome/lib/${PN}
 	find "${D}"/usr/share/awesome/lib/${PN} -name readme | xargs rm
-	dodoc AUTHORS CONTRIBUTING TODO || die "dodoc failed"
+	dodoc AUTHORS CONTRIBUTING.md TODO || die "dodoc failed"
 	for module in ${modules}; do
 		if [ -f ${module}/readme ]; then
 			newdoc ${module}/readme readme.${module} \
