@@ -6,7 +6,9 @@ EAPI="2"
 
 DESCRIPTION="vicious widgets for the awesome window manager"
 HOMEPAGE="http://awesome.naquadah.org/wiki/Vicious"
-SRC_URI="http://git.sysphere.org/${PN}/snapshot/${P}.tar.gz"
+# The upstream tarball is generated with gitweb and its checksum occasionally
+# changes, so we mirror it.
+SRC_URI="http://github.com/downloads/JNRowe/misc-overlay/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"

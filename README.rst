@@ -26,6 +26,7 @@ Patches
 Bug reports
 '''''''''''
 
+* anna
 * Jake Archer
 * Dennis Bruce
 * Kristian Cole

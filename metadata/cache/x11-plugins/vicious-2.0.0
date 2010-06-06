@@ -1,7 +1,7 @@
 
 >=x11-wm/awesome-3.4_rc1 alsa? ( media-sound/alsa-utils ) curl? ( net-misc/curl ) hddtemp? ( app-admin/hddtemp ) wifi? ( net-wireless/wireless-tools )
 0
-http://git.sysphere.org/vicious/snapshot/vicious-2.0.0.tar.gz
+http://github.com/downloads/JNRowe/misc-overlay/vicious-2.0.0.tar.gz
 
 http://awesome.naquadah.org/wiki/Vicious
 GPL-2
