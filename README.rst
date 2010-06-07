@@ -26,12 +26,12 @@ Patches
 Bug reports
 '''''''''''
 
-* anna
 * Jake Archer
 * Dennis Bruce
 * Kristian Cole
 * Fabien Courtois
 * Ed Lyle
+* anna ruda
 * Erin Sandusky
 * Shi Tang
 * Jesper Tremblay
