@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		pinocchio is a set of extensions to the <pkg>dev-python/nose</pkg> unit
+		testing framework for Python.
+
+		* stopwatch -- selecting tests based on execution time
+		* decorator -- adding attributes to tests
+		* figleafsections -- find out what tests are executing which parts of
+		  your code
+		* outputsave -- save your stdout into files
+		* spec -- generate test description from test class/method names
+	</longdescription>
+</pkgmetadata>

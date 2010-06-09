@@ -43,5 +43,6 @@ REM 2010-07-08 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 www-client/cupage-0.5.
 REM 2010-07-08 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 www-client/cupage-0.5.0 %a
 REM 2010-07-09 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/lettuce-0.1.2 %a
 REM 2010-07-09 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/lettuce-0.1.2 %a
+REM 2010-07-09 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/pinocchio-0.1 %a
 
 # vim: set sw=4 sts=4 et tw=120 fenc=utf-8 ft=remind:
