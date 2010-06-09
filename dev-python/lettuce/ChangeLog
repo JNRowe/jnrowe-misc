@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*lettuce-0.1.2 (09 Jun 2010)
+
+  09 Jun 2010; James Rowe <jnrowe@gmail.com> +lettuce-0.1.2.ebuild:
+  Version bump [7d6].
+
 *lettuce-0.1.1 (08 Jun 2010)
 
   08 Jun 2010; James Rowe <jnrowe@gmail.com> +lettuce-0.1.1.ebuild:
