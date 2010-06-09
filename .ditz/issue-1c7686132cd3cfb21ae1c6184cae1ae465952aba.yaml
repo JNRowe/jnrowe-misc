@@ -5,8 +5,8 @@ type: :feature
 component: misc-overlay
 release: current
 reporter: James Rowe <jnrowe@gmail.com>
-status: :unstarted
-disposition: 
+status: :closed
+disposition: :wontfix
 creation_time: 2010-05-20 01:24:07.659942 Z
 references: []
 
@@ -16,5 +16,21 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - created
   - The added tools make this a nice alternative to app-office/ledger.
+- - 2010-06-09 18:47:58.772990 Z
+  - James Rowe <jnrowe@gmail.com>
+  - commented
+  - |-
+    The problem is there is one released version and it is buggy and very old.  It
+    appears the preferred method for installation now is from the mercurial
+    repository, and fluid packaging isn't a reasonable choice for something like
+    this.
+    
+    Also, the packaging for beancount is quite broken.  The cost isn't worth the
+    effort, so this is being closed as WONTFIX.  Which is a shame as it appeared to
+    be a great improvement over ledger on first inspection.
+- - 2010-06-09 18:48:05.232360 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition wontfix
+  - ""
 claimer: 
 git_branch: 
