@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  10 Jun 2010; James Rowe <jnrowe@gmail.com> yalias-0.7.ebuild:
+  Switched to using base.eclass' src_install.
+
   30 Mar 2010; James Rowe <jnrowe@gmail.com> yalias-0.7.ebuild:
   Die if dodoc fails.
 

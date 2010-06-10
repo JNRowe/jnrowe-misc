@@ -2,9 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI=3
 
-inherit toolchain-funcs
+inherit base toolchain-funcs
 
 DESCRIPTION="A simple content sensitive command launcher."
 HOMEPAGE="http://offog.org/code/"
@@ -19,6 +19,8 @@ RDEPEND="x11-libs/gtk+:2"
 DEPEND="${RDEPEND}
 	dev-util/pkgconfig"
 
+DOCS=(NEWS README)
+
 src_prepare() {
 	sed -i -E -e 's,^(C|LD)FLAGS ,&+,' \
 		-e 's,/usr/local,$(DESTDIR)/usr,' \
@@ -27,9 +29,4 @@ src_prepare() {
 
 src_compile() {
 	emake CC=$(tc-getCC) || die "emake failed"
-}
-
-src_install() {
-	emake DESTDIR="${D}" install || die "emake install failed"
-	dodoc NEWS README || die "dodoc failed"
 }
