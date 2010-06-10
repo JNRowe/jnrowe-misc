@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/www-client/surfraw/surfraw-2.2.5.ebuild,v 1.6 2009/07/19 14:27:32 nixnut Exp $
 
-EAPI="2"
+EAPI=3
 
 inherit autotools base bash-completion eutils git
 
@@ -18,6 +18,8 @@ KEYWORDS=""
 IUSE=""
 RESTRICT="test"
 
+DOCS=(AUTHORS ChangeLog HACKING NEWS README TODO)
+
 src_prepare() {
 	epatch "${FILESDIR}"/${P}-gentoo_pkg_tools.patch
 	# Man page symlinks shouldn't link to compressed files
@@ -31,8 +33,7 @@ src_configure() {
 }
 
 src_install() {
-	make DESTDIR="${D}" install || die "make install failed"
-	dodoc AUTHORS ChangeLog HACKING NEWS README TODO || die "dodoc failed"
+	base_src_install
 
 	dobashcompletion surfraw-bash-completion
 }
