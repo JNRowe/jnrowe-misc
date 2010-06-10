@@ -2,9 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header$
 
-EAPI="2"
+EAPI=3
 
-inherit git
+inherit base git
 
 EGIT_REPO_URI="git://git.savannah.gnu.org/${PN}.git"
 
@@ -23,7 +23,3 @@ DEPEND="${RDEPEND}
 		dev-perl/Test-Output
 		dev-perl/Sub-Exporter
 	)"
-
-src_install() {
-	emake DESTDIR="${D}" install || die "emake install failed."
-}
