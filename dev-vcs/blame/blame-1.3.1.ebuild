@@ -2,7 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI=3
+
+inherit base
 
 DESCRIPTION="Annotates RCS files in a style similar to CVS's annotate command"
 HOMEPAGE="http://blame.sourceforge.net/"
@@ -20,8 +22,4 @@ DEPEND=""
 # files without dev-vcs/rcs.
 RDEPEND=""
 
-src_install() {
-	emake install DESTDIR="${D}" || die "emake install failed"
-
-	dodoc AUTHORS ChangeLog NEWS README || die "dodoc failed"
-}
+DOCS=(AUTHORS ChangeLog NEWS README)
