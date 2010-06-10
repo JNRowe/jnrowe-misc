@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  10 Jun 2010; James Rowe <jnrowe@gmail.com> gselt-1.2.ebuild:
+  Switched to using base.eclass' src_install.
+
   11 Feb 2010; James Rowe <jnrowe@gmail.com> gselt-1.2.ebuild:
   Keyworded x86.
 
