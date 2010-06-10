@@ -1,4 +1,4 @@
->=dev-vcs/git-1.6
+|| ( =sys-devel/automake-1.11* =sys-devel/automake-1.10* ) >=sys-devel/autoconf-2.61 >=sys-devel/libtool-2.2.6b >=dev-vcs/git-1.6
 bash-completion? ( app-admin/eselect )
 0
 
@@ -7,14 +7,14 @@ http://surfraw.alioth.debian.org/
 public-domain
 A fast unix command line interface to WWW
 
-bash-completion eutils git multilib portability toolchain-funcs
+autotools base bash-completion eutils git libtool multilib portability toolchain-funcs
 bash-completion
 
 bash-completion? ( app-shells/bash-completion )
 
 2
 
-configure install postinst preinst prepare unpack
+compile configure install postinst preinst prepare unpack
 
 
 

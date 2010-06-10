@@ -4,7 +4,7 @@
 
 EAPI="2"
 
-inherit bash-completion eutils git
+inherit autotools base bash-completion eutils git
 
 EGIT_REPO_URI="git://git.debian.org/surfraw/surfraw.git"
 
@@ -22,6 +22,8 @@ src_prepare() {
 	epatch "${FILESDIR}"/${P}-gentoo_pkg_tools.patch
 	# Man page symlinks shouldn't link to compressed files
 	sed -i 's,\.gz,,g' links.IN
+
+	eautoreconf
 }
 
 src_configure() {
