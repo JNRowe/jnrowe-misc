@@ -2,9 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI=3
 
-inherit eutils toolchain-funcs elisp-common bash-completion
+inherit base eutils toolchain-funcs elisp-common bash-completion
 
 DESCRIPTION="Thread-based email index, search and tagging."
 HOMEPAGE="http://notmuchmail.org/"
@@ -27,6 +27,8 @@ DEPEND="dev-util/pkgconfig
 
 SITEFILE="50${PN}-gentoo.el"
 
+DOCS=(AUTHORS README TODO)
+
 src_configure() {
 	# Handmade configure :/
 	CC="$(tc-getCC)" CXX="$(tc-getCXX)" ./configure --prefix=/usr \
@@ -45,9 +47,7 @@ src_compile() {
 }
 
 src_install() {
-	emake DESTDIR="${D}" install || die "emake install failed"
-
-	dodoc AUTHORS README TODO || die "dodoc failed"
+	base_src_install
 
 	if use zsh-completion; then
 		insinto /usr/share/zsh/site-functions

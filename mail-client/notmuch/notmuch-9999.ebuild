@@ -2,9 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI=3
 
-inherit eutils toolchain-funcs elisp-common bash-completion git
+inherit base eutils toolchain-funcs elisp-common bash-completion git
 
 EGIT_REPO_URI="git://notmuchmail.org/git/${PN}"
 
@@ -29,6 +29,8 @@ DEPEND="dev-util/pkgconfig
 
 SITEFILE="50${PN}-gentoo.el"
 
+DOCS=(AUTHORS README TODO)
+
 src_configure() {
 	# Handmade configure :/
 	CC="$(tc-getCC)" CXX="$(tc-getCXX)" ./configure --prefix=/usr \
@@ -47,9 +49,7 @@ src_compile() {
 }
 
 src_install() {
-	emake DESTDIR="${D}" install || die "emake install failed"
-
-	dodoc AUTHORS README TODO || die "dodoc failed"
+	base_src_install
 
 	if use zsh-completion; then
 		insinto /usr/share/zsh/site-functions
