@@ -1,6 +1,9 @@
 # ChangeLog for media-gfx/sng
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  10 Jun 2010; James Rowe <jnrowe@gmail.com> sng-1.0.2.ebuild:
+  Switched to using base.eclass' src_install.
 
   26 Oct 2009; James Rowe <jnrowe@gmail.com> sng-1.0.2.ebuild:
   Keyworded x86.

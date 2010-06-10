@@ -1,8 +1,10 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI=3
+
+inherit base
 
 DESCRIPTION="SNG is a DSL to represent a PNG file in an editable form"
 HOMEPAGE="http://www.catb.org/~esr/${PN}/"
@@ -16,15 +18,12 @@ IUSE=""
 DEPEND=""
 RDEPEND=""
 
+DOCS=(AUTHORS ChangeLog NEWS README TODO)
+
 src_prepare() {
 	sed -i 's,^static png,png,' sngd.c
 }
 
 src_configure() {
 	econf --with-rgbtxt=/usr/share/X11/rgb.txt
-}
-
-src_install() {
-	emake DESTDIR="${D}" install || die "make install failed"
-	dodoc AUTHORS ChangeLog NEWS README TODO || die "dodoc failed"
 }
