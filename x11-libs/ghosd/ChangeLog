@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  10 Jun 2010; James Rowe <jnrowe@gmail.com> ghosd-0.0.1.ebuild:
+  Switched to using base.eclass' src_install.
+
   07 Feb 2010; James Rowe <jnrowe@gmail.com> ghosd-0.0.1.ebuild:
   Keyworded x86.
 
