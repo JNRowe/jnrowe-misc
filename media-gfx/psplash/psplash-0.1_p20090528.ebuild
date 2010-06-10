@@ -2,9 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI=3
 
-inherit autotools savedconfig
+inherit base autotools savedconfig
 
 DESCRIPTION="A tiny userspace graphical boot splash screen"
 HOMEPAGE="http://labs.o-hand.com/psplash/"
@@ -20,13 +20,14 @@ RDEPEND=""
 
 S="${WORKDIR}"/${PN}
 
+DOCS=(README)
+
 src_prepare() {
 	use savedconfig && restore_config psplash-hand-img.h
 	eautoreconf
 }
 
 src_install() {
-	emake DESTDIR="${D}" install || die "emake install failed"
-	dodoc README || die "dodoc failed"
+	base_src_install
 	save_config psplash-hand-img.h
 }
