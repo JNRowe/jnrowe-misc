@@ -2,9 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI=3
 
-inherit eutils toolchain-funcs versionator
+inherit base eutils toolchain-funcs versionator
 
 DESCRIPTION="TuDu is a comand line interface to manage hierarchical todos."
 HOMEPAGE="http://www.cauterized.net/~meskio/tudu/"
@@ -18,6 +18,7 @@ IUSE=""
 DEPEND=""
 RDEPEND="sys-libs/ncurses[unicode]"
 
+DOCS=(AUTHORS ChangeLog README todo.xml)
 src_prepare() {
 	epatch "${FILESDIR}"/${PN}-0.6-build_fixes.patch
 	# The welcome file references the DTD, this fixes it
@@ -26,9 +27,4 @@ src_prepare() {
 
 src_compile() {
 	emake CXX="$(tc-getCXX)" || die "emake failed"
-}
-
-src_install() {
-	emake install DESTDIR="${D}" || die "emake install failed"
-	dodoc AUTHORS ChangeLog README todo.xml || die "dodoc failed"
 }
