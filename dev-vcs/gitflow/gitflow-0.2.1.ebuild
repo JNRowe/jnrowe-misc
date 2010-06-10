@@ -2,9 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI=3
 
-inherit eutils
+inherit base eutils
 
 DESCRIPTION="High-level repository operations for Vincent Driessen's branching model"
 HOMEPAGE="http://nvie.com/archives/323"
@@ -21,6 +21,8 @@ RDEPEND="dev-vcs/git"
 
 S="${WORKDIR}"/nvie-${PN}-5324ecf
 
+DOCS=(README.mdown)
+
 src_prepare() {
 	# This really isn't that nice, but the alternative is require git to build
 	# the package.
@@ -32,9 +34,4 @@ src_prepare() {
 
 src_compile() {
 	:
-}
-
-src_install() {
-	emake DESTDIR="${D}" install || die "emake install failed"
-	dodoc README.mdown || die "dodoc failed"
 }
