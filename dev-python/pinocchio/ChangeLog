@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  11 Jun 2010; James Rowe <jnrowe@gmail.com> pinocchio-0.1.ebuild:
+  Keyworded ~x86.
+
 *pinocchio-0.1 (09 Jun 2010)
 
   09 Jun 2010; James Rowe <jnrowe@gmail.com> +pinocchio-0.1.ebuild,

@@ -14,7 +14,7 @@ SRC_URI="http://darcs.idyll.org/~t/projects/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE="doc examples test"
 
 DEPEND="dev-python/setuptools
