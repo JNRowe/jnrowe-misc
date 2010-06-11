@@ -12,7 +12,7 @@ bash-completion
 
 bash-completion? ( app-shells/bash-completion )
 
-2
+3
 
 compile configure install postinst preinst prepare unpack
 

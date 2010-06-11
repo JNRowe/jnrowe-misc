@@ -7,14 +7,14 @@ http://labs.o-hand.com/psplash/
 GPL-2
 A tiny userspace graphical boot splash screen
 amd64 x86
-autotools eutils libtool multilib portability savedconfig toolchain-funcs
+autotools base eutils libtool multilib portability savedconfig toolchain-funcs
 savedconfig
 
 
 
-2
+3
 
-install prepare
+compile configure install prepare unpack
 
 
 
