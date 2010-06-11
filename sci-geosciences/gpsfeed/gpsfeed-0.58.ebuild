@@ -20,6 +20,10 @@ RDEPEND="${DEPEND}
 
 S="${WORKDIR}"
 
+src_prepare() {
+	sed -i -e 's,\r$,,' -e 's,wish8.4,wish,' gpsfeed+.tcl
+}
+
 src_install() {
 	dobin gpsfeed+.tcl || die "dobin gpsfeed+.tcl failed"
 }
