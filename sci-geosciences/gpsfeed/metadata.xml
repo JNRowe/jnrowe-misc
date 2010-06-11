@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		gpsfeed+ is a utility that feeds the PC with continuous GPS data as if
+		a GPS were moving in a car or airplane. NMEA 0183 GPS sentences are sent
+		to the application through a socket (TCP/IP) connection or a UDP
+		multicast message. It also outputs the same NMEA data to a serial port
+		of the PC. Polling applications can query the embedded lightweight http
+		server to obtain gps data either in text form or as an XML data snippet. 
+
+		The IP connection offers significant advantages over a serial port
+		connection:
+
+		* many applications can connect to one single gps simultaneously
+		* remote gps' can be monitored
+		* Serial ports can be freed for other uses. In most cases, the only
+		  readily available and simple I/O interface is the RS232 connector.
+		* and, of course, testing can be done indoors, without any GPS hardware
+		  or cabling
+	</longdescription>
+	<upstream>
+		<doc lang="en">http://users.hol.gr/~dzach/gpsfeed/index.html</doc>
+		<remote-id type="sourceforge">gpsfeed</remote-id>
+		<bugs-to>http://sourceforge.net/tracker/?group_id=142270</bugs-to>
+	</upstream>
+</pkgmetadata>

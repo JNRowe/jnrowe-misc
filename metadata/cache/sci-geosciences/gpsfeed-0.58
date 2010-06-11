@@ -1,0 +1,22 @@
+
+dev-lang/tk dev-tcltk/tcludp
+0
+mirror://sourceforge/gpsfeed/gpsfeed+.zip
+
+http://users.hol.gr/~dzach/gpsfeed/index.html
+GPL-2
+A utility that generates continuous GPS data for running tests
+~amd64
+
+
+
+
+
+3
+
+install
+
+
+
+
+

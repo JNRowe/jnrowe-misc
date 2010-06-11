@@ -1,0 +1,10 @@
+# ChangeLog for sci-geosciences/gpsfeed
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*gpsfeed-0.58 (11 Jun 2010)
+
+  11 Jun 2010; James Rowe <jnrowe@gmail.com> +gpsfeed-0.58.ebuild,
+  +metadata.xml:
+  Initial ebuild, by me.
+
