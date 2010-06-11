@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		This package provides support for using UDP through
+		<pkg>dev-lang/tcl</pkg>.  The package provides a new channel type and
+		attempts to permit the use of packet oriented UDP over stream oriented
+		Tcl channels.  The package defined three commands but udp_conf should be
+		considered depreciated in favour of the standard Tcl command fconfigure.
+	</longdescription>
+	<upstream>
+		<doc lang="en">http://tcludp.sourceforge.net/</doc>
+		<remote-id type="sourceforge">tcludp</remote-id>
+		<bugs-to>http://sourceforge.net/tracker/?group_id=75201</bugs-to>
+	</upstream>
+</pkgmetadata>
