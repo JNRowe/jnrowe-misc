@@ -1,6 +1,5 @@
 REM 2010-06-15 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/freshen-0.2 %a
 REM 2010-06-15 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 net-misc/bleeter-0.5.0 %a
-REM 2010-06-15 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 net-misc/bleeter-0.5.0 %a
 REM 2010-06-16 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 mail-client/notmuch-0.1 %a
 REM 2010-06-16 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/freshen-0.2 %a
 REM 2010-06-17 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 mail-client/notmuch-0.1 %a
