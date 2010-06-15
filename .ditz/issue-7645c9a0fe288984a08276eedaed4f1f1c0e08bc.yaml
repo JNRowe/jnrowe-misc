@@ -5,8 +5,8 @@ type: :feature
 component: misc-overlay
 release: current
 reporter: James Rowe <jnrowe@gmail.com>
-status: :unstarted
-disposition: 
+status: :closed
+disposition: :wontfix
 creation_time: 2010-06-15 05:04:09.619823 Z
 references: []
 
@@ -16,5 +16,9 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - created
   - ""
+- - 2010-06-15 06:06:14.007863 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition wontfix
+  - The newest release only includes a fix that is already in the ebuild.
 claimer: 
 git_branch: 
