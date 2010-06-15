@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -15,7 +15,7 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="lua nls spell test"
 
-RDEPEND=">=dev-util/geany-$(get_version_component_range 1-2)
+RDEPEND="=dev-util/geany-$(get_version_component_range 1-2)
 	lua? ( dev-lang/lua )
 	spell? ( app-text/gtkspell )"
 DEPEND="${RDEPEND}

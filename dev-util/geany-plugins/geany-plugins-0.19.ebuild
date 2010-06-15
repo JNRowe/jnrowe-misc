@@ -15,7 +15,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="gendoc lua nls spell test xml"
 
-RDEPEND=">=dev-util/geany-$(get_version_component_range 1-2)
+RDEPEND="=dev-util/geany-$(get_version_component_range 1-2)
 	gendoc? ( dev-libs/ctpl )
 	lua? ( dev-lang/lua )
 	spell? ( app-text/gtkspell )
