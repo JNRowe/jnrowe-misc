@@ -1,0 +1,40 @@
+diff --git i/configure.ac w/configure.ac
+index b79955c..b919ef2 100644
+--- i/configure.ac
++++ w/configure.ac
+@@ -19,6 +19,7 @@ AM_PROG_LIBTOOL
+ m4_ifdef([AM_SILENT_RULES],[AM_SILENT_RULES([yes])])
+ 
+ PKG_CHECK_MODULES(GLIB, [glib-2.0 >= 2.16])
++PKG_CHECK_MODULES(GTHREAD, [gthread-2.0])
+ PKG_CHECK_MODULES(GTK, [gtk+-2.0])
+ PKG_CHECK_MODULES(CAIRO, [cairo >= 1.6])
+ 
+diff --git i/examples/Makefile.am w/examples/Makefile.am
+index 5fc0bf5..182a3dd 100644
+--- i/examples/Makefile.am
++++ w/examples/Makefile.am
+@@ -2,6 +2,7 @@
+ 
+ OSMGPSMAP_CFLAGS =          \
+ 	$(GLIB_CFLAGS)          \
++	$(GTHREAD_CFLAGS)       \
+ 	$(GTK_CFLAGS)           \
+ 	$(CAIRO_CFLAGS)         \
+ 	$(SOUP22_CFLAGS)        \
+@@ -9,13 +10,14 @@ OSMGPSMAP_CFLAGS =          \
+ 
+ OSMGPSMAP_LIBS =            \
+     $(GLIB_LIBS)            \
++    $(GTHREAD_LIBS)            \
+     $(GTK_LIBS)             \
+     $(CAIRO_LIBS)           \
+     $(SOUP22_LIBS)          \
+     $(SOUP24_LIBS)
+ 
+ ## Demo Application
+-bin_PROGRAMS = mapviewer
++check_PROGRAMS = mapviewer
+ 
+ mapviewer_SOURCES =         \
+ 	mapviewer.c

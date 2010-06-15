@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		A Gtk+ widget (and Python bindings) that when given GPS co-ordinates,
+		draws a GPS track, and points of interest on a moving map display.
+		Downloads map data from a number of websites, including
+		openstreetmap.org. The library has excellent performance and is
+		currently used in a number of Gtk+ and Maemo applications.
+	</longdescription>
+	<upstream>
+		<doc lang="en">http://nzjrs.github.com/osm-gps-map/</doc>
+		<bugs-to>http://github.com/nzjrs/osm-gps-map/issues</bugs-to>
+	</upstream>
+</pkgmetadata>
