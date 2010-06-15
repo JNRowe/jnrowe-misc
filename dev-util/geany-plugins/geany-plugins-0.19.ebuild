@@ -39,4 +39,7 @@ src_configure() {
 src_install() {
 	emake DESTDIR="${D}" docdir="\${datarootdir}/doc/${PF}" install \
 		|| die "emake install failed"
+	# Don't install duplicate license files
+	rm `find "${D}"/usr/share/doc/${PF}/ -name COPYING -o -name INSTALL`
+	prepalldocs
 }
