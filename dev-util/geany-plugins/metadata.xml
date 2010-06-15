@@ -11,6 +11,16 @@
 		<pkg>sys-devel/gdb</pkg> integration, lua scripting, spell checking and
 		version control support.
 	</longdescription>
+	<use>
+		<flag name="gendoc">
+			Automatic documentation generator
+		</flag>
+	</use>
+	<use>
+		<flag name="xml">
+			Fancy XML pretty printer
+		</flag>
+	</use>
 	<upstream>
 		<remote-id type="sourceforge">geany-plugins</remote-id>
 	</upstream>
