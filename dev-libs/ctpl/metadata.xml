@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		CTPL is a template library written in C. It allows fast and easy parsing
+		of templates from many sources (including in-memory data and local and
+		remote streaming, thanks to GIO) and fine control over template parsing
+		environment.
+	</longdescription>
+</pkgmetadata>
