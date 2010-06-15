@@ -6,7 +6,7 @@ http://github.com/JNRowe/bleeter/tarball/0.5.0 -> bleeter-0.5.0.tar.gz
 http://jnrowe.github.com/bleeter/
 GPL-3
 Nasty little twitter client
-~amd64 x86
+amd64 x86
 distutils multilib python toolchain-funcs
 doc test
 

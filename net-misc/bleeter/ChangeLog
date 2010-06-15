@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  15 Jun 2010; James Rowe <jnrowe@gmail.com> -bleeter-0.4.1.ebuild,
+  bleeter-0.5.0.ebuild:
+  Keyworded amd64.
+
   15 Jun 2010; James Rowe <jnrowe@gmail.com> bleeter-0.5.0.ebuild:
   Keyworded x86.
 
