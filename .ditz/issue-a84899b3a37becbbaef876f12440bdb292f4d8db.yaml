@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: dev-python/gistapi-0.1.3 version bump.
+desc: ""
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-06-15 05:04:49.457057 Z
+references: []
+
+id: a84899b3a37becbbaef876f12440bdb292f4d8db
+log_events: 
+- - 2010-06-15 05:04:50.027741 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+claimer: 
+git_branch: 
