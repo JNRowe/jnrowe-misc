@@ -48,5 +48,7 @@ REM 2010-07-15 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-libs/ctpl-0.2.2 %a
 REM 2010-07-15 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-libs/ctpl-0.2.2 %a
 REM 2010-07-15 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-util/geany-plugins-0.19 %a
 REM 2010-07-15 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-util/geany-plugins-0.19 %a
+REM 2010-07-15 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/gistapi-0.1.3 %a
+REM 2010-07-15 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/gistapi-0.1.3 %a
 
 # vim: set sw=4 sts=4 et tw=120 fenc=utf-8 ft=remind:
