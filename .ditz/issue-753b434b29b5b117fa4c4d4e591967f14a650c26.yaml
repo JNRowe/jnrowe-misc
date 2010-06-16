@@ -1,0 +1,24 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: www-client/cupage-0.5.1 version bump.
+desc: ""
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :closed
+disposition: :fixed
+creation_time: 2010-06-16 06:28:07.563834 Z
+references: []
+
+id: 753b434b29b5b117fa4c4d4e591967f14a650c26
+log_events: 
+- - 2010-06-16 06:28:08.011704 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2010-06-16 06:30:32.503746 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition fixed
+  - ""
+claimer: 
+git_branch: 
