@@ -6,7 +6,7 @@ test
 http://nzjrs.github.com/osm-gps-map/
 GPL-3
 Python bindings for osm-gps-map
-~amd64
+~amd64 ~x86
 distutils multilib python toolchain-funcs
 
 
