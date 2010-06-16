@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  16 Jun 2010; James Rowe <jnrowe@gmail.com> osm-gps-map-0.7.0.ebuild:
+  Fixed installation location for docs.
+
 *osm-gps-map-0.7.0 (15 Jun 2010)
 
   15 Jun 2010; James Rowe <jnrowe@gmail.com> +osm-gps-map-0.7.0.ebuild,

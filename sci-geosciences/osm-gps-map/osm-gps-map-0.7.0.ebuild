@@ -4,7 +4,7 @@
 
 EAPI=3
 
-inherit autotools base
+inherit autotools
 
 DESCRIPTION="A Gtk+ Widget for Displaying OpenStreetMap tiles"
 HOMEPAGE="http://nzjrs.github.com/osm-gps-map/"
@@ -29,7 +29,15 @@ src_prepare() {
 }
 
 src_configure() {
-	# This should be default for econf really.
+	# Disable automake's silent rules should be default for econf really.
 	econf --disable-silent-rules \
 		$(use doc gtk-doc)
+}
+
+src_install() {
+	# This is simpler than mangling the Makefile for the broken doc path.
+	emake DESTDIR="${D}" osm_gps_mapdocdir="/trash" install \
+		|| die "make install failed"
+	rm -rf "${D}"/trash
+	dodoc AUTHORS ChangeLog NEWS README
 }
