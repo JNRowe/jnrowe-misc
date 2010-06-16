@@ -3,6 +3,9 @@
 # $Header: $
 
   16 Jun 2010; James Rowe <jnrowe@gmail.com> osm-gps-map-0.7.0.ebuild:
+  Keyworded ~x86.
+
+  16 Jun 2010; James Rowe <jnrowe@gmail.com> osm-gps-map-0.7.0.ebuild:
   Fixed installation location for docs.
 
 *osm-gps-map-0.7.0 (15 Jun 2010)
