@@ -10,7 +10,8 @@ ifndef SIGN_KEY
     $(warning Manifests will not be signed, as PORTAGE_GPG_KEY is not set)
 endif
 
-.PHONY: clean cupage-check distclean stable-candidates removal-reminders
+.PHONY: clean check cupage-check distclean layman-check stable-candidates \
+    removal-reminders
 
 all: $(HTML) profiles/categories profiles/use.local.desc $(MANIFESTS) \
 	$(NEWS) stable-candidates removal-reminders
@@ -49,9 +50,14 @@ support/removal.remind: profiles/package.mask
 removal-reminders: support/removal.remind
 	remind $<
 
+check: cupage-check layman-check
+
 cupage-check:
 	for i in $(PACKAGES); do \
 		name=$${i#*/}; \
 		grep -qi "\[$$name\]" support/cupage.conf || echo $$i; \
 	done
 
+layman-check: $(patsubst %, layman-check-%, layman.xml layman2.xml)
+layman-check-%: support/%
+	xmllint --noout $<
