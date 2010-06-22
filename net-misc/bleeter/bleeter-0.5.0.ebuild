@@ -31,7 +31,7 @@ S="${WORKDIR}/JNRowe-${PN}-17ce46a"
 src_compile() {
 	distutils_src_compile
 
-	rst2man.py ${PN}.1.rst ${PN}.1
+	rst2man.py doc/${PN}.1.rst doc/${PN}.1 || die "rst2man.py failed"
 	if use doc; then
 		cd doc
 		make html || die "make documentation failed"
