@@ -28,7 +28,8 @@ DEPEND="${RDEPEND}
 src_configure() {
 	# Workaround broken $LINGUAS handling, the easy(read: nasty) way
 	unset LINGUAS
-	econf $(use_enable gendoc geanygendoc) \
+	econf --docdir="\${datarootdir}/doc/${PF}" \
+		$(use_enable gendoc geanygendoc) \
 		$(use_enable lua geanylua ) \
 		$(use_enable nls) \
 		$(use_enable spell gtkspell) \
@@ -37,8 +38,7 @@ src_configure() {
 }
 
 src_install() {
-	emake DESTDIR="${D}" docdir="\${datarootdir}/doc/${PF}" install \
-		|| die "emake install failed"
+	emake DESTDIR="${D}" install || die "emake install failed"
 	# Don't install duplicate license files
 	rm `find "${D}"/usr/share/doc/${PF}/ -name COPYING -o -name INSTALL`
 	prepalldocs
