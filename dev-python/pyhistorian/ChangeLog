@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  02 Jul 2010; James Rowe <jnrowe@gmail.com> pyhistorian-0.6.8.ebuild:
+  Keyworded amd64.
+
 *pyhistorian-0.6.8 (02 Jun 2010)
 
   02 Jun 2010; James Rowe <jnrowe@gmail.com> +pyhistorian-0.6.8.ebuild:
