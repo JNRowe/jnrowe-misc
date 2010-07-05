@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: media-gfx/psplash cupage check raises 403.
+desc: ""
+type: :bugfix
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-07-05 17:23:22.063887 Z
+references: []
+
+id: c8d8078898af58f80139f986306433a4c4efd397
+log_events: 
+- - 2010-07-05 17:23:22.807774 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+claimer: 
+git_branch: 
