@@ -6,7 +6,7 @@ test
 http://ccontrol.ozlabs.org/
 GPL-2
 Utility to manage ccache and distcc
-~amd64 ~x86
+amd64 ~x86
 eutils multilib portability toolchain-funcs
 gtk test
 
