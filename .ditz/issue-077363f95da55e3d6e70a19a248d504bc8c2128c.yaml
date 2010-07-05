@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: dev-python/benchmarker-1.1.0 version bump.
+desc: ""
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-07-05 17:14:29.591886 Z
+references: []
+
+id: 077363f95da55e3d6e70a19a248d504bc8c2128c
+log_events: 
+- - 2010-07-05 17:14:30.135766 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+claimer: 
+git_branch: 
