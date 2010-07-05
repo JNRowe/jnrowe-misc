@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: dev-libs/ctpl cupage check blocked by robots.txt.
+desc: ""
+type: :bugfix
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-07-05 17:16:15.503883 Z
+references: []
+
+id: 35cca70ded236159c5a3a18bf816c2af345bc811
+log_events: 
+- - 2010-07-05 17:16:16.143769 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+claimer: 
+git_branch: 
