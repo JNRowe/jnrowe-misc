@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: dev-python/lettuce-0.1.9 version bump.
+desc: ""
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-07-05 17:18:26.323891 Z
+references: []
+
+id: 47e852f0532478e8872040237ba3145adb6aef22
+log_events: 
+- - 2010-07-05 17:18:27.011779 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+claimer: 
+git_branch: 
