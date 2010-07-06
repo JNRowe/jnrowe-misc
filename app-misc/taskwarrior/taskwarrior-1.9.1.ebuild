@@ -13,7 +13,7 @@ SRC_URI="http://taskwarrior.org/download/${MY_P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="lua +ncurses nls vim-syntax zsh-completion"
 
 DEPEND="lua? ( dev-lang/lua )
