@@ -16,7 +16,7 @@ SRC_URI="http://pypi.python.org/packages/source/${PN::1}/${PN}/${MY_P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools"
