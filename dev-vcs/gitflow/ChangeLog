@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 Jul 2010; James Rowe <jnrowe@gmail.com> gitflow-0.2.1.ebuild:
+  Keyworded amd64.
+
   10 Jun 2010; James Rowe <jnrowe@gmail.com> gitflow-0.2.1.ebuild:
   Switched to using base.eclass' src_install.
 
