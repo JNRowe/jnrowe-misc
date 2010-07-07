@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header:  $
 
@@ -21,7 +21,6 @@ SLOT="0"
 
 DEPEND=">=dev-lang/ghc-6.6.1
 	>=dev-haskell/cabal-1.2
-	dev-haskell/filepath
 	dev-haskell/hslogger
 	dev-haskell/hunit
 	dev-haskell/mtl
