@@ -1,6 +1,9 @@
 # ChangeLog for media-sound/hpodder
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  07 Jul 2010; James Rowe <jnrowe@gmail.com> hpodder-1.1.5.ebuild:
+  Drop unneeded filepath dependency.
 
   12 Nov 2009; James Rowe <jnrowe@gmail.com> hpodder-1.1.5.ebuild:
   Switched to EAPI 2.

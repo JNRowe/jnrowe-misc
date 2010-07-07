@@ -1,4 +1,4 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header:  $
 
@@ -23,8 +23,7 @@ DEPEND=">=dev-lang/ghc-6.4.2
 	dev-haskell/mtl
 	>=dev-haskell/haxml-1.13.2
 	dev-haskell/hslogger
-	dev-haskell/configfile
-	dev-haskell/filepath"
+	dev-haskell/configfile"
 
 RDEPEND="dev-db/sqlite:3
 	media-sound/id3v2
