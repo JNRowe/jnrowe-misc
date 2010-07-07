@@ -3,7 +3,8 @@
 # $Header: $
 
 EAPI="2"
-PYTHON_DEPEND="*"
+PYTHON_DEPEND="2"
+SUPPORT_PYTHON_ABIS="1"
 
 inherit jnrowe-pypi
 
@@ -17,3 +18,5 @@ IUSE=""
 
 DEPEND=""
 RDEPEND=""
+
+RESTRICT_PYTHON_ABIS="3.*"
