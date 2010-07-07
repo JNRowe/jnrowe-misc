@@ -1,5 +1,10 @@
 # extra line needed because portage is buggy
 
+# James Rowe <jnrowe@gmail.com> (7 Jul 2010)
+# Doesn't work with recent Opera versions
+# X-Removal: 2010-08-06
+www-client/opera-remote
+
 # James Rowe <jnrowe@gmail.com> (15 May 2010)
 # live ebuild for sphinx-to-github
 =dev-python/sphinx-to-github-9999
