@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*benchmarker-1.1.0 (08 Jul 2010)
+
+  08 Jul 2010; James Rowe <jnrowe@gmail.com> +benchmarker-1.1.0.ebuild:
+  Version bump [077].
+
   18 Jun 2010; James Rowe <jnrowe@gmail.com> benchmarker-1.0.0.ebuild:
   Keyworded x86.
 
