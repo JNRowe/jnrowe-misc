@@ -1,4 +1,4 @@
-net-libs/libsoup x11-libs/cairo x11-libs/gtk+ doc? ( dev-util/gtk-doc ) dev-util/pkgconfig gnome-base/gnome-common || ( =sys-devel/automake-1.11* =sys-devel/automake-1.10* ) >=sys-devel/autoconf-2.61 >=sys-devel/libtool-2.2.6b
+net-libs/libsoup x11-libs/cairo x11-libs/gtk+ doc? ( dev-util/gtk-doc ) dev-util/pkgconfig gnome-base/gnome-common || ( =sys-devel/automake-1.11* ) >=sys-devel/autoconf-2.61 >=sys-devel/libtool-2.2.6b
 net-libs/libsoup x11-libs/cairo x11-libs/gtk+
 0
 http://www.johnstowers.co.nz/files/osm-gps-map/osm-gps-map-0.7.0.tar.gz
