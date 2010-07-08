@@ -21,9 +21,8 @@ RDEPEND="${DEPEND}"
 
 RESTRICT_PYTHON_ABIS="2.4 3.*"
 
-S="${WORKDIR}"/${MY_P}
-
 src_unpack() {
+	# Broken tarball, with no toplevel directory among other things
 	mkdir "${S}"; cd "${S}"
 	unpack ${A}
 }

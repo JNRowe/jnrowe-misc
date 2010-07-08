@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Jul 2010; James Rowe <jnrowe@gmail.com> lettuce-0.1.1.ebuild,
+  lettuce-0.1.2.ebuild:
+  Small cleanup for src_unpack().
+
 *lettuce-0.1.9 (08 Jul 2010)
 
   08 Jul 2010; James Rowe <jnrowe@gmail.com> +lettuce-0.1.9.ebuild:
