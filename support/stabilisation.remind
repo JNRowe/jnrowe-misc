@@ -1,5 +1,4 @@
 REM 2010-07-09 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/lettuce-0.1.2 %a
-REM 2010-07-09 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/pinocchio-0.1 %a
 REM 2010-07-11 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-tcltk/tcludp-1.0.8 %a
 REM 2010-07-11 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 sci-geosciences/gpsfeed-0.58 %a
 REM 2010-07-11 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/pinocchio-0.1 %a
