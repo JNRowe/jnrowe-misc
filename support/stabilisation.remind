@@ -1,4 +1,3 @@
-REM 2010-07-11 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 sci-geosciences/gpsfeed-0.58 %a
 REM 2010-07-11 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/pinocchio-0.1 %a
 REM 2010-07-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 www-apps/mnemosyne-0.12 %a
 REM 2010-07-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 www-apps/mnemosyne-0.12 %a
