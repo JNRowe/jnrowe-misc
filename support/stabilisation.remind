@@ -28,5 +28,7 @@ REM 2010-08-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/python-osmg
 REM 2010-08-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/python-osmgpsmap-0.7.1 %a
 REM 2010-08-11 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 www-apps/mnemosyne-0.12 %a
 REM 2010-08-11 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 www-apps/mnemosyne-0.12 %a
+REM 2010-08-11 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 net-misc/bleeter-0.6.0 %a
+REM 2010-08-11 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 net-misc/bleeter-0.6.0 %a
 
 # vim: set sw=4 sts=4 et tw=120 fenc=utf-8 ft=remind:
