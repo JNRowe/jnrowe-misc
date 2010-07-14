@@ -3,7 +3,8 @@
 # $Header: $
 
 EAPI="2"
-PYTHON_DEPEND="*"
+PYTHON_DEPEND="2"
+SUPPORT_PYTHON_ABIS="1"
 
 inherit jnrowe-pypi
 
@@ -16,11 +17,9 @@ KEYWORDS="amd64 x86"
 IUSE="pygments"
 
 DEPEND="dev-python/setuptools"
-RDEPEND="dev-python/docutils
+# setuptools is required in RDEPEND for wrapper scripts.
+RDEPEND="${DEPEND}
+	dev-python/docutils
 	pygments? ( dev-python/pygments )"
 
-src_install() {
-	distutils_src_install
-
-	module_script_wrapper "${PN}" "${PN}.restviewhttp"
-}
+RESTRICT_PYTHON_ABIS="3.*"
