@@ -3,6 +3,9 @@
 # $Header: $
 
   15 Jul 2010; James Rowe <jnrowe@gmail.com> ctpl-0.2.2.ebuild:
+  Keyworded x86.
+
+  15 Jul 2010; James Rowe <jnrowe@gmail.com> ctpl-0.2.2.ebuild:
   Keyworded amd64.
 
 *ctpl-0.2.2 (15 Jun 2010)
