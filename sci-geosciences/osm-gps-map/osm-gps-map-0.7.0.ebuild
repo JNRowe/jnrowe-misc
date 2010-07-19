@@ -12,7 +12,7 @@ SRC_URI="http://www.johnstowers.co.nz/files/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="doc"
 
 RDEPEND="net-libs/libsoup
