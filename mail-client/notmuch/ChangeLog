@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  19 Jul 2010; James Rowe <jnrowe@gmail.com> notmuch-0.1.ebuild:
+  Keyworded x86.
+
   10 Jun 2010; James Rowe <jnrowe@gmail.com> notmuch-0.1.ebuild,
   notmuch-9999.ebuild:
   Switched to using base.eclass' src_install.
