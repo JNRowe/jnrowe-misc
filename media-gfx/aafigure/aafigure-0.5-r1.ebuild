@@ -5,7 +5,7 @@
 EAPI="2"
 PYTHON_DEPEND="*"
 
-inherit jnrowe-pypi
+inherit eutils jnrowe-pypi
 
 DESCRIPTION="ASCII art figures parsed and output as SVG, PNG, and more"
 HOMEPAGE="https://launchpad.net/aafigure"
@@ -56,14 +56,12 @@ src_install() {
 
 	insinto /usr/share/doc/${PF}
 	if use doc ; then
-		local sphinxdocs extglob
-		# Hoop jumping because most package managers don't enable extglob
-		extglob=$(shopt -q extglob; echo $?)
-		[ ${extglob} == 1 ] && shopt -s extglob
+		local sphinxdocs
+		eshopts_push -s extglob
 		sphinxdocs="documentation/!(index.rst)"
 		dodoc ${sphinxdocs} || die "dodoc ${sphinxdocs} failed"
-		[ ${extglob} == 1 ] && shopt -u extglob
 		dohtml -A svg -r documentation/_build/html/* || die "dohtml failed"
+		eshopts_pop
 	fi
 	if use examples ; then
 		doins -r examples || die "doins failed"
