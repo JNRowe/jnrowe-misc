@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: dev-python/astral-0.3 version bump.
+desc: ""
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-07-21 16:12:17.723543 Z
+references: []
+
+id: d8de3c1d48f52a805889a5003a978236932ce986
+log_events: 
+- - 2010-07-21 16:12:18.347432 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+claimer: 
+git_branch: 
