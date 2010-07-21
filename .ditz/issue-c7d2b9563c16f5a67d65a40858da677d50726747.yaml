@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: app-misc/taskwarrior-1.9.2 version bump.
+desc: ""
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-07-21 16:17:07.239544 Z
+references: []
+
+id: c7d2b9563c16f5a67d65a40858da677d50726747
+log_events: 
+- - 2010-07-21 16:17:07.847433 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+claimer: 
+git_branch: 
