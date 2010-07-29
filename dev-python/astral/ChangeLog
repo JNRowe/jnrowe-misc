@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*astral-0.3 (29 Jul 2010)
+
+  29 Jul 2010; James Rowe <jnrowe@gmail.com> +astral-0.3.ebuild:
+  Version bump [d8d].
+
   04 May 2010; James Rowe <jnrowe@gmail.com> -astral-0.1.ebuild,
   astral-0.2.ebuild:
   Keyworded x86.
