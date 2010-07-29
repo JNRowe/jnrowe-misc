@@ -7,7 +7,7 @@ http://www3.telus.net/taj_khattra/luainotify.html
 as-is
 a Lua interface to the Linux inotify subsystem
 amd64 x86
-multilib toolchain-funcs versionator
+eutils multilib portability toolchain-funcs versionator
 
 
 

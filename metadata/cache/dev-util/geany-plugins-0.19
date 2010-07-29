@@ -7,7 +7,7 @@ http://plugins.geany.org/geany-plugins/
 GPL-2 GPL-3
 Assorted geany plugins, including version control and lua support
 ~amd64 ~x86
-versionator
+eutils multilib portability toolchain-funcs versionator
 gendoc lua nls spell test xml
 
 
