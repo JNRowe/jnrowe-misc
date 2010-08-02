@@ -2,6 +2,13 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*taskwarrior-1.9.2 (02 Aug 2010)
+
+  02 Aug 2010; James Rowe <jnrowe@gmail.com> +taskwarrior-1.9.2.ebuild:
+  Version bump [c7d]. Lua is forced, and ncurses isn't usable.  This should
+  never have slipped through before, the configure.ac checks are entirely
+  broken due to misuse of AC_ARG_WITH macro.
+
   06 Jul 2010; James Rowe <jnrowe@gmail.com> -taskwarrior-1.9.0.ebuild,
   taskwarrior-1.9.1.ebuild:
   Keyworded x86.
