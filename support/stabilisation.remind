@@ -18,5 +18,7 @@ REM 2010-08-28 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/astral-0.3 
 REM 2010-08-28 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/astral-0.3 %a
 REM 2010-08-31 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-perl/Net-Twitter-Lite-0.10003 %a
 REM 2010-08-31 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-perl/Net-Twitter-Lite-0.10003 %a
+REM 2010-09-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/scripttest-1.1 %a
+REM 2010-09-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/scripttest-1.1 %a
 
 # vim: set sw=4 sts=4 et tw=120 fenc=utf-8 ft=remind:
