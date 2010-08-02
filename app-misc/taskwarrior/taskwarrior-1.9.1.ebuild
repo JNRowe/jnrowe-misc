@@ -14,10 +14,9 @@ SRC_URI="http://taskwarrior.org/download/${MY_P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="amd64 x86"
-IUSE="lua +ncurses nls vim-syntax zsh-completion"
+IUSE="nls vim-syntax zsh-completion"
 
-DEPEND="lua? ( dev-lang/lua )
-	ncurses? ( sys-libs/ncurses )"
+DEPEND="dev-lang/lua"
 RDEPEND="${DEPEND}"
 
 S="${WORKDIR}"/${MY_P}
@@ -25,10 +24,6 @@ S="${WORKDIR}"/${MY_P}
 src_prepare() {
 	sed -i 's,-pedantic -O3,,' configure.ac
 	eautoreconf
-}
-
-src_configure() {
-	econf $(use_with lua) $(use_with ncurses)
 }
 
 src_install() {
