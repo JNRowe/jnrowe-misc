@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: dev-vcs/gitflow-0.3 version bump.
+desc: ""
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-08-02 15:42:23.231617 Z
+references: []
+
+id: 5e42f2ade9b7f0772336564ec8a6f4e4c6462df0
+log_events: 
+- - 2010-08-02 15:42:24.175514 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+claimer: 
+git_branch: 
