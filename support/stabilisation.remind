@@ -24,5 +24,9 @@ REM 2010-09-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-vcs/gitflow-0.3 %a
 REM 2010-09-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-vcs/gitflow-0.3 %a
 REM 2010-09-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/scripttest-1.1 %a
 REM 2010-09-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/scripttest-1.1 %a
+REM 2010-09-02 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 sci-geosciences/osm-gps-map-0.7.2 %a
+REM 2010-09-02 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 sci-geosciences/osm-gps-map-0.7.2 %a
+REM 2010-09-02 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/python-osmgpsmap-0.7.2 %a
+REM 2010-09-02 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/python-osmgpsmap-0.7.2 %a
 
 # vim: set sw=4 sts=4 et tw=120 fenc=utf-8 ft=remind:
