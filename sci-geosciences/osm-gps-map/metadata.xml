@@ -13,6 +13,10 @@
 		openstreetmap.org. The library has excellent performance and is
 		currently used in a number of Gtk+ and Maemo applications.
 	</longdescription>
+	<use>
+		<flag name="introspection">Use <pkg>dev-libs/gobject-introspection</pkg>
+			for introspection</flag>
+	</use>
 	<upstream>
 		<doc lang="en">http://nzjrs.github.com/osm-gps-map/</doc>
 		<bugs-to>http://github.com/nzjrs/osm-gps-map/issues</bugs-to>
