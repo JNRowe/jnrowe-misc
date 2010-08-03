@@ -5,4 +5,5 @@ dev-util/geany-plugins:xml - Fancy XML pretty printer
 mail-client/notmuch:vim - Install the vim interface for notmuch
 media-gfx/aafigure:docutils - Adds a directive for aafigure support to dev-python/docutils
 media-sound/mpdcron:scrobbler - Enable support for last.fm aka audioscrobbler
+sci-geosciences/osm-gps-map:introspection - Use dev-libs/gobject-introspection for introspection
 x11-misc/winwrangler:daemon - Enable support for winwrangler hotkey daemon
