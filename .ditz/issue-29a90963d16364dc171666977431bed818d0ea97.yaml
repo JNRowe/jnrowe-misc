@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Add ebuild for see.
+desc: http://inky.github.com/see/
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-08-04 16:27:09.375913 Z
+references: []
+
+id: 29a90963d16364dc171666977431bed818d0ea97
+log_events: 
+- - 2010-08-04 16:27:09.911815 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+claimer: 
+git_branch: 
