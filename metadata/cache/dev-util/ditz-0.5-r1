@@ -1,5 +1,5 @@
-virtual/ruby
-dev-ruby/trollop bash-completion? ( app-admin/eselect ) virtual/ruby
+=dev-lang/ruby-1.8*
+dev-ruby/trollop bash-completion? ( app-admin/eselect ) =dev-lang/ruby-1.8*
 0
 mirror://rubyforge/ditz/ditz-0.5.tgz
 

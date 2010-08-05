@@ -1,5 +1,5 @@
-virtual/ruby >=dev-vcs/git-1.6
-virtual/ruby
+=dev-lang/ruby-1.8* >=dev-vcs/git-1.6
+=dev-lang/ruby-1.8*
 0
 
 
