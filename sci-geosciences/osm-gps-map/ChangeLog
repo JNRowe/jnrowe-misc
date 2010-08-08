@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Aug 2010; James Rowe <jnrowe@gmail.com> -osm-gps-map-0.7.0.ebuild,
+  osm-gps-map-0.7.1.ebuild:
+  Keyworded x86.
+
   08 Aug 2010; James Rowe <jnrowe@gmail.com> osm-gps-map-0.7.1.ebuild:
   Keyworded amd64.
 
