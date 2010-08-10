@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: dev-python/restview-1.2 version bump.
+desc: ""
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-08-10 15:44:07.463898 Z
+references: []
+
+id: 884f6bb9935e08212c4a6285210f8ac24feafe02
+log_events: 
+- - 2010-08-10 15:44:07.911793 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+claimer: 
+git_branch: 
