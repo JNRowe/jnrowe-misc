@@ -5,7 +5,6 @@
 EAPI="2"
 PYTHON_DEPEND="*"
 SUPPORT_PYTHON_ABIS="1"
-DISTUTILS_SRC_TEST="nosetests"
 
 MY_PN="ScriptTest"
 MY_P=${MY_PN}-${PV}
