@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  10 Aug 2010; James Rowe <jnrowe@gmail.com> see-1.0.0.ebuild:
+  Keyworded ~x86.
+
 *see-1.0.0 (10 Aug 2010)
 
   10 Aug 2010; James Rowe <jnrowe@gmail.com> +see-1.0.0.ebuild,
