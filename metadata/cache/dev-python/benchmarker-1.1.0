@@ -1,7 +1,7 @@
 >=app-admin/eselect-python-20091230 dev-lang/python
 >=app-admin/eselect-python-20091230 dev-lang/python
 0
-http://pypi.python.org/packages/source/B/Benchmarker/Benchmarker-1.1.0.tar.gz
+mirror://pypi/B/Benchmarker/Benchmarker-1.1.0.tar.gz
 
 http://pypi.python.org/pypi/Benchmarker/
 public-domain

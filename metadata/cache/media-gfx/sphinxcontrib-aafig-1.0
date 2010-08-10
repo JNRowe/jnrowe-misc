@@ -1,7 +1,7 @@
 dev-python/setuptools >=app-admin/eselect-python-20091230 dev-lang/python
 dev-python/setuptools >=dev-python/sphinx-0.6 >=app-admin/eselect-python-20091230 dev-lang/python
 0
-http://pypi.python.org/packages/source/s/sphinxcontrib-aafig/sphinxcontrib-aafig-1.0.tar.gz
+mirror://pypi/s/sphinxcontrib-aafig/sphinxcontrib-aafig-1.0.tar.gz
 
 http://packages.python.org/sphinxcontrib-aafig/
 BOLA

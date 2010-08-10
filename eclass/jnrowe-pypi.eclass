@@ -20,9 +20,9 @@ HOMEPAGE="http://pypi.python.org/pypi/${MY_PN:-${PN}}/"
 # Unfortunately, you can't use ${MY_PN::1:-${PN::1}} so...
 if [[ -n "${MY_P}" && -n "${MY_PN}" ]]; then
 	debug-print "Using MY_P SRC_URI override"
-	SRC_URI="http://pypi.python.org/packages/source/${MY_PN::1}/${MY_PN}/${MY_P}.${PYPI_ARCHIVE_SUFFIX}"
+	SRC_URI="mirror://pypi/${MY_PN::1}/${MY_PN}/${MY_P}.${PYPI_ARCHIVE_SUFFIX}"
 else
-	SRC_URI="http://pypi.python.org/packages/source/${PN::1}/${PN}/${P}.${PYPI_ARCHIVE_SUFFIX}"
+	SRC_URI="mirror://pypi/${PN::1}/${PN}/${P}.${PYPI_ARCHIVE_SUFFIX}"
 fi
 
 # Based on make_wrapper from eutils.eclass
