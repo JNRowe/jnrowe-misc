@@ -5,8 +5,8 @@ type: :feature
 component: misc-overlay
 release: current
 reporter: James Rowe <jnrowe@gmail.com>
-status: :unstarted
-disposition: 
+status: :closed
+disposition: :wontfix
 creation_time: 2010-08-04 16:32:14.707919 Z
 references: []
 
@@ -20,5 +20,11 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - commented
   - http://www.enricozini.org/sw/nodm/
+- - 2010-08-05 18:28:04.739124 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition wontfix
+  - |-
+    We're switching to minidim, as the PAM requirement of nodm makes it unusable in
+    our environments.
 claimer: 
 git_branch: 
