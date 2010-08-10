@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/see
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*see-1.0.0 (10 Aug 2010)
+
+  10 Aug 2010; James Rowe <jnrowe@gmail.com> +see-1.0.0.ebuild,
+  +metadata.xml:
+  Initial ebuild, by me.
+

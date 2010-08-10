@@ -24,5 +24,7 @@ REM 2010-09-09 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/lettuce-0.1
 REM 2010-09-09 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/lettuce-0.1.10 %a
 REM 2010-09-09 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/restview-1.2 %a
 REM 2010-09-09 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/restview-1.2 %a
+REM 2010-09-09 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/see-1.0.0 %a
+REM 2010-09-09 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/see-1.0.0 %a
 
 # vim: set sw=4 sts=4 et tw=120 fenc=utf-8 ft=remind:

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd></herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		A simpler, easier to read alternative to Python's dir() function.
+	</longdescription>
+	<upstream>
+		<doc lang="en">http://inky.github.com/see/</doc>
+		<changelog>http://github.com/inky/see/blob/master/CHANGELOG.markdown#readme</changelog>
+		<bugs-to>http://github.com/inky/see/issues</bugs-to>
+	</upstream>
+</pkgmetadata>
+
