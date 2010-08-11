@@ -6,7 +6,7 @@ test
 http://jnrowe.github.com/bleeter/
 GPL-3
 Nasty little twitter client
-amd64 ~x86
+amd64 x86
 distutils multilib python toolchain-funcs
 doc test
 
