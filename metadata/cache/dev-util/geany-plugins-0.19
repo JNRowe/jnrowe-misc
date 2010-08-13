@@ -6,7 +6,7 @@ http://plugins.geany.org/geany-plugins//geany-plugins-0.19.tar.bz2
 http://plugins.geany.org/geany-plugins/
 GPL-2 GPL-3
 Assorted geany plugins, including version control and lua support
-~amd64 x86
+amd64 x86
 eutils multilib portability toolchain-funcs versionator
 gendoc lua nls spell test xml
 

@@ -12,7 +12,7 @@ SRC_URI="${HOMEPAGE}/${P}.tar.bz2"
 
 LICENSE="GPL-2 GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 x86"
+KEYWORDS="amd64 x86"
 IUSE="gendoc lua nls spell test xml"
 
 RDEPEND="=dev-util/geany-$(get_version_component_range 1-2)
