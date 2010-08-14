@@ -4,13 +4,19 @@
 
 EAPI="2"
 
-inherit bash-completion ruby git
+inherit bash-completion ruby
 
-EGIT_REPO_URI="git://gitorious.org/ditz/mainline.git"
+if [[ ${PV} == "9999" ]]; then
+	EGIT_REPO_URI="git://gitorious.org/ditz/mainline.git"
+	EGIT_BRANCH="master"
+	inherit git
+	SRC_URI=""
+else
+	SRC_URI="mirror://rubyforge/${PN}/${P}.tgz"
+fi
 
 DESCRIPTION="A simple, light-weight distributed issue tracker designed for dVCS"
 HOMEPAGE="http://ditz.rubyforge.org"
-SRC_URI=""
 
 LICENSE="GPL-3"
 SLOT="0"
