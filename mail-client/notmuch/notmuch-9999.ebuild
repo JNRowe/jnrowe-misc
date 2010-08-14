@@ -4,13 +4,19 @@
 
 EAPI=3
 
-inherit base eutils toolchain-funcs elisp-common bash-completion git
+inherit base eutils toolchain-funcs elisp-common bash-completion
 
-EGIT_REPO_URI="git://notmuchmail.org/git/${PN}"
+if [[ ${PV} == "9999" ]]; then
+	EGIT_REPO_URI="git://notmuchmail.org/git/${PN}"
+	EGIT_BRANCH="master"
+	inherit git
+	SRC_URI=""
+else
+	SRC_URI="http://notmuchmail.org/releases/${P}.tar.gz"
+fi
 
 DESCRIPTION="Thread-based email index, search and tagging."
 HOMEPAGE="http://notmuchmail.org/"
-SRC_URI=""
 
 LICENSE="GPL-3"
 SLOT="0"
