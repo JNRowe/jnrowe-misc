@@ -4,11 +4,20 @@
 
 EAPI="2"
 
+if [[ ${PV} == "9999" ]]; then
+	EGIT_REPO_URI="http://git.sysphere.org/${PN}"
+	EGIT_BRANCH="master"
+	inherit git
+	SRC_URI=""
+else
+	# The upstream tarball is generated with gitweb and its checksum
+	# occasionally changes, so we mirror it.
+	SRC_URI="http://github.com/downloads/JNRowe/misc-overlay/${P}.tar.gz"
+
+fi
+
 DESCRIPTION="vicious widgets for the awesome window manager"
 HOMEPAGE="http://awesome.naquadah.org/wiki/Vicious"
-# The upstream tarball is generated with gitweb and its checksum occasionally
-# changes, so we mirror it.
-SRC_URI="http://github.com/downloads/JNRowe/misc-overlay/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"

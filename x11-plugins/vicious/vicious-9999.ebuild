@@ -4,13 +4,20 @@
 
 EAPI="2"
 
-inherit git
+if [[ ${PV} == "9999" ]]; then
+	EGIT_REPO_URI="http://git.sysphere.org/${PN}"
+	EGIT_BRANCH="master"
+	inherit git
+	SRC_URI=""
+else
+	# The upstream tarball is generated with gitweb and its checksum
+	# occasionally changes, so we mirror it.
+	SRC_URI="http://github.com/downloads/JNRowe/misc-overlay/${P}.tar.gz"
 
-EGIT_REPO_URI="http://git.sysphere.org/${PN}"
+fi
 
 DESCRIPTION="vicious widgets for the awesome window manager"
 HOMEPAGE="http://awesome.naquadah.org/wiki/Vicious"
-SRC_URI=""
 
 LICENSE="GPL-2"
 SLOT="0"
@@ -46,8 +53,8 @@ src_install() {
 	dodoc CHANGES README || die "dodoc failed"
 
 	insinto /usr/share/awesome/lib/${PN}
-	doins *.lua || die "doins failed"
+	doins *.lua || die "doins *.lua failed"
 	cd widgets
 	insinto /usr/share/awesome/lib/${PN}/widgets
-	doins *.lua || die "doins in widgets failed"
+	doins *.lua || die "doins *.lua in widgets failed"
 }

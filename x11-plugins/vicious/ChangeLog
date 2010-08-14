@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  14 Aug 2010; James Rowe <jnrowe@gmail.com> vicious-2.0.0.ebuild,
+  vicious-9999.ebuild:
+  Merged live and released ebuilds.
+
   06 Jun 2010; James Rowe <jnrowe@gmail.com> vicious-2.0.0.ebuild:
   Use a mirrored tarball, because upstream's tarball is generated and
   changes from time to time. Thanks to anna for reporting.
