@@ -4,13 +4,18 @@
 
 EAPI=2
 
-inherit autotools git
-
-EGIT_REPO_URI="git://github.com/alip/mpdcron.git"
+if [[ ${PV} == "9999" ]]; then
+	EGIT_REPO_URI="git://github.com/alip/mpdcron.git"
+	EGIT_BRANCH="master"
+	inherit autotools git
+	SRC_URI=""
+else
+	SRC_URI="http://dev.exherbo.org/~alip/mpdcron/${P}.tar.bz2"
+	#SRC_URI="http://github.com/alip/mpdcron/tarball/v0.3 -> ${P}.tar.gz"
+fi
 
 DESCRIPTION="A hook daemon for mpd, it polls mpd and runs hooks on events"
 HOMEPAGE="http://alip.github.com/mpdcron/"
-SRC_URI=""
 
 LICENSE="GPL-2"
 SLOT="0"
@@ -25,8 +30,13 @@ RDEPEND=">=dev-libs/glib-2.18
 DEPEND="${RDEPEND}
 	dev-util/pkgconfig"
 
+# If we were using github downloads.
+#S="${WORKDIR}/alip-${PN}-69078ad"
+
 src_prepare() {
-	eautoreconf
+	if [[ ${PV} == 9999 ]]; then
+		eautoreconf
+	fi
 }
 
 src_configure() {
