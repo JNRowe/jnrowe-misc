@@ -1,6 +1,11 @@
 # ChangeLog for dev-libs/luaposix
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*luaposix-5.1.7 (15 Aug 2010)
+
+  15 Aug 2010; James Rowe <jnrowe@gmail.com> +luaposix-5.1.7.ebuild:
+  Version bump [ebe].
 
   12 Nov 2009; James Rowe <jnrowe@gmail.com> luaposix-5.1.4.ebuild:
   Switched to EAPI 2.

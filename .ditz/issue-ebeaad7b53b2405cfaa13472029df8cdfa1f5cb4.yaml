@@ -5,8 +5,8 @@ type: :feature
 component: misc-overlay
 release: current
 reporter: James Rowe <jnrowe@gmail.com>
-status: :unstarted
-disposition: 
+status: :closed
+disposition: :fixed
 creation_time: 2010-08-15 04:13:45.744036 Z
 references: []
 
@@ -16,5 +16,25 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - created
   - ""
-claimer: 
+- - 2010-08-15 04:42:08.555914 Z
+  - James Rowe <jnrowe@gmail.com>
+  - changed status from unstarted to in_progress
+  - ""
+- - 2010-08-15 04:42:09.427924 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+- - 2010-08-15 04:48:41.203673 Z
+  - James Rowe <jnrowe@gmail.com>
+  - changed status from in_progress to paused
+  - luaforge is currently down, so new tarballs are unavailable.
+- - 2010-08-15 06:05:23.291922 Z
+  - James Rowe <jnrowe@gmail.com>
+  - changed status from paused to in_progress
+  - ""
+- - 2010-08-15 06:08:37.267859 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition fixed
+  - ""
+claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 
