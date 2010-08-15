@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: mail-client/notmuch-0.3 version bump.
+desc: ""
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-08-15 04:08:54.467943 Z
+references: []
+
+id: 6aa3f1756d81e9e4063e7463f342a94fc37b9933
+log_events: 
+- - 2010-08-15 04:08:55.123845 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+claimer: 
+git_branch: 
