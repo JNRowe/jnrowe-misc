@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  16 Aug 2010; James Rowe <jnrowe@gmail.com> logbook-0.1.ebuild:
+  Keyworded ~x86.
+
 *logbook-0.1 (16 Aug 2010)
 
   16 Aug 2010; James Rowe <jnrowe@gmail.com> +logbook-0.1.ebuild,
