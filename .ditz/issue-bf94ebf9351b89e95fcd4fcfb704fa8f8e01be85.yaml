@@ -1,0 +1,32 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Add logbook ebuild.
+desc: http://github.com/mitsuhiko/logbook
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :closed
+disposition: :fixed
+creation_time: 2010-08-16 15:16:09.243883 Z
+references: []
+
+id: bf94ebf9351b89e95fcd4fcfb704fa8f8e01be85
+log_events: 
+- - 2010-08-16 15:16:09.827762 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+- - 2010-08-16 15:16:36.963851 Z
+  - James Rowe <jnrowe@gmail.com>
+  - issue claimed
+  - ""
+- - 2010-08-16 15:16:39.619931 Z
+  - James Rowe <jnrowe@gmail.com>
+  - changed status from unstarted to in_progress
+  - ""
+- - 2010-08-16 15:19:46.591799 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition fixed
+  - ""
+claimer: James Rowe <jnrowe@gmail.com>
+git_branch: 
