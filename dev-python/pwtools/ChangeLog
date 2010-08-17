@@ -1,0 +1,13 @@
+# ChangeLog for dev-python/pwtools
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  17 Aug 2010; James Rowe <jnrowe@gmail.com> pwtools-0.2.ebuild:
+  Keyworded ~x86.
+
+*pwtools-0.2 (17 Aug 2010)
+
+  17 Aug 2010; James Rowe <jnrowe@gmail.com> +pwtools-0.2.ebuild,
+  +metadata.xml:
+  Initial ebuild, by me [49b].
+
