@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		maildirproc is a program that processes one or several existing mail
+		boxes in the maildir format. It is primarily focused on mail sorting
+		— i.e., moving, copying, forwarding and deleting mail according to a set
+		of rules. It can be seen as an alternative to procmail, but instead of
+		being a delivery agent (which wants to be part of the delivery chain),
+		maildirproc only processes already delivered mail. And that's a feature,
+		not a bug.
+	</longdescription>
+</pkgmetadata>

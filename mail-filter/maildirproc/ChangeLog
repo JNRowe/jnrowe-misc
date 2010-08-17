@@ -1,0 +1,13 @@
+# ChangeLog for mail-filter/maildirproc
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  17 Aug 2010; James Rowe <jnrowe@gmail.com> maildirproc-0.4.3.ebuild:
+  Keyworded ~x86.
+
+*maildirproc-0.4.3 (17 Aug 2010)
+
+  17 Aug 2010; James Rowe <jnrowe@gmail.com> +maildirproc-0.4.3.ebuild,
+  +metadata.xml:
+  Initial ebuild, by me [fe5].
+
