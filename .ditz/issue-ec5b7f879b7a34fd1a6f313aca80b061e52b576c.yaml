@@ -1,0 +1,24 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: dev-util/geany-plugins exists in upstream tree.
+desc: |-
+  The upgrade path isn't clear, as the upstream ebuild has some issues.
+  
+  Once it is keyworded, this can move to ::fixes.  Any volunteers to file against
+  the upstream ebuild?
+type: :bugfix
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-08-17 17:46:55.783874 Z
+references: []
+
+id: ec5b7f879b7a34fd1a6f313aca80b061e52b576c
+log_events: 
+- - 2010-08-17 17:46:56.751755 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+claimer: 
+git_branch: 
