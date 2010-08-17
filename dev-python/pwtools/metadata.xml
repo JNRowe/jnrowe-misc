@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		pwtools is a Python package that provides the ability to generate and
+		test passwords to see whether or not they are reasonably secure.
+
+		The algorithms were borrowed from the Openwall Project's passwdqc
+		project, but have been re-implemented in Python for increased
+		portability.
+	</longdescription>
+</pkgmetadata>
