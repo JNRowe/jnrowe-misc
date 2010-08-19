@@ -7,8 +7,8 @@ type: :task
 component: misc-overlay
 release: current
 reporter: James Rowe <jnrowe@gmail.com>
-status: :unstarted
-disposition: 
+status: :closed
+disposition: :reorg
 creation_time: 2009-10-05 05:02:36 Z
 references: 
 - 952076ae290bf5158588330702bc1e5a387d3dcb
@@ -49,5 +49,18 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - edited title
   - Lettuce has been added.
+- - 2010-08-19 22:05:41.836217 Z
+  - James Rowe <jnrowe@gmail.com>
+  - commented
+  - |-
+    Lettuce appears to the be package most heavily maintained, and also the package
+    with the most traction among my co-workers.
+    
+    If one package was to be kept it would probably be lettuce, but the overhead for
+    the other packages is so low that they may as well all stay for the time being.
+- - 2010-08-19 22:05:51.547216 Z
+  - James Rowe <jnrowe@gmail.com>
+  - closed with disposition reorg
+  - ""
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 
