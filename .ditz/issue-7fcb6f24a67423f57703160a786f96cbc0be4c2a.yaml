@@ -37,5 +37,11 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - assigned to release current from unassigned
   - ""
+- - 2010-08-20 19:37:53.665080 Z
+  - James Rowe <jnrowe@gmail.com>
+  - commented
+  - |-
+    Both packages have significant failings, and will be dropped... unless *you*
+     come up with a compelling argument for them to stay
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 
