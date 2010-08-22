@@ -1,6 +1,11 @@
 # extra line needed because portage is buggy
 
 # James Rowe <jnrowe@gmail.com> (22 Aug 2010)
+# Unacceptable runtime increase, breaks reporting for other plugins.
+# X-Removal: 2010-10-21
+dev-python/rudolf
+
+# James Rowe <jnrowe@gmail.com> (22 Aug 2010)
 # Doesn't work correctly with doctests.
 # X-Removal: 2010-10-21
 dev-python/rednose
