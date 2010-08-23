@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: notmuch-0.3 should support the optional Python bindings.
+desc: Not added at bump, because I have no way to test them currently.
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-08-23 22:36:44.819920 Z
+references: []
+
+id: 9af29039fb65da8684ddc3a35aad29dcd1bf1d88
+log_events: 
+- - 2010-08-23 22:36:45.275715 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+claimer: 
+git_branch: 
