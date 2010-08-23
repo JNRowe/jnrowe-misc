@@ -3,8 +3,10 @@
 # $Header: $
 
 EAPI=3
+PYTHON_DEPEND="python? 2:2.5"
+SUPPORT_PYTHON_ABIS="1"
 
-inherit base eutils toolchain-funcs elisp-common bash-completion
+inherit base distutils eutils toolchain-funcs elisp-common bash-completion
 
 if [[ ${PV} == "9999" ]]; then
 	EGIT_REPO_URI="git://notmuchmail.org/git/${PN}"
@@ -21,7 +23,7 @@ HOMEPAGE="http://notmuchmail.org/"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="X debug emacs vim zsh-completion"
+IUSE="X debug emacs python vim zsh-completion"
 
 RDEPEND="sys-libs/talloc
 	>=dev-libs/gmime-2.4
@@ -36,6 +38,8 @@ DEPEND="dev-util/pkgconfig
 SITEFILE="50${PN}-gentoo.el"
 
 DOCS=(AUTHORS NEWS README TODO)
+
+RESTRICT_PYTHON_ABIS="2.4 3.*"
 
 src_prepare() {
 	# We'll process the completion stuff manually, as it should be conditional
@@ -56,6 +60,12 @@ src_compile() {
 	if use emacs; then
 		elisp-compile ${PN}.el || die "elisp-compile failed"
 		elisp-make-autoload-file ${SITEFILE}
+	fi
+
+	if use python; then
+		cd bindings/python
+		distutils_src_compile
+		cd ../../
 	fi
 }
 
@@ -86,13 +96,23 @@ src_install() {
 		doins syntax/*.vim || die "doins syntax failed"
 		newdoc README README.vim || die "dodoc failed"
 	fi
+
+	if use python; then
+		cd bindings/python
+		# Workaround distutils.eclass attempting to reinstall DOCS, caused
+		# because it doesn't use namespacing for eclass variables.
+		DOCS= distutils_src_install
+		cd ../..
+	fi
 }
 
 pkg_postinst() {
 	use emacs && elisp-site-regen
+	use python && distutils_pkg_postinst
 	bash-completion_pkg_postinst
 }
 
 pkg_postrm() {
 	use emacs && elisp-site-regen
+	use python && distutils_pkg_postrm
 }
