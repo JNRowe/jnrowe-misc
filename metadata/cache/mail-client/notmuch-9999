@@ -1,5 +1,5 @@
-dev-util/pkgconfig debug? ( dev-util/valgrind ) sys-libs/talloc dev-libs/gmime:2.4 dev-libs/xapian emacs? ( virtual/emacs ) vim? ( || ( app-editors/vim app-editors/gvim ) ) zsh-completion? ( app-shells/zsh ) >=dev-vcs/git-1.6
-sys-libs/talloc dev-libs/gmime:2.4 dev-libs/xapian emacs? ( virtual/emacs ) vim? ( || ( app-editors/vim app-editors/gvim ) ) zsh-completion? ( app-shells/zsh ) bash-completion? ( app-admin/eselect )
+dev-util/pkgconfig debug? ( dev-util/valgrind ) sys-libs/talloc >=dev-libs/gmime-2.4 dev-libs/xapian emacs? ( virtual/emacs ) vim? ( || ( app-editors/vim app-editors/gvim ) ) zsh-completion? ( app-shells/zsh ) >=app-admin/eselect-python-20091230 python? ( || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* ) ) >=dev-vcs/git-1.6
+sys-libs/talloc >=dev-libs/gmime-2.4 dev-libs/xapian emacs? ( virtual/emacs ) vim? ( || ( app-editors/vim app-editors/gvim ) ) zsh-completion? ( app-shells/zsh ) >=app-admin/eselect-python-20091230 python? ( || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* ) ) bash-completion? ( app-admin/eselect )
 0
 
 
@@ -7,8 +7,8 @@ http://notmuchmail.org/
 GPL-3
 Thread-based email index, search and tagging.
 
-base bash-completion elisp-common eutils git multilib portability toolchain-funcs
-X debug emacs vim zsh-completion bash-completion
+base bash-completion distutils elisp-common eutils git multilib portability python toolchain-funcs
+X debug emacs python vim zsh-completion bash-completion
 
 bash-completion? ( app-shells/bash-completion )
 

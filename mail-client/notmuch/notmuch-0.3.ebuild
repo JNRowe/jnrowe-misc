@@ -42,6 +42,9 @@ DOCS=(AUTHORS NEWS README TODO)
 RESTRICT_PYTHON_ABIS="2.4 3.*"
 
 src_prepare() {
+	if [[ ${PV} == 9999 ]]; then
+		git_src_prepare
+	fi
 	# We'll process the completion stuff manually, as it should be conditional
 	sed -i 's,completion ,,' Makefile
 }
