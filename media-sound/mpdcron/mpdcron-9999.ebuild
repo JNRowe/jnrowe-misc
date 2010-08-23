@@ -35,6 +35,7 @@ DEPEND="${RDEPEND}
 
 src_prepare() {
 	if [[ ${PV} == 9999 ]]; then
+		git_src_prepare
 		eautoreconf
 	fi
 }
