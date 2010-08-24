@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		CommandLineApp is a base class for command line programs. It handles the
+		repetitive aspects of interacting with the user on the command line such
+		as parsing options and arguments, generating help messages, error
+		handling, and printing status messages. To create your application, just
+		make a subclass of CommandLineApp and concentrate on your own code. All
+		of the information about switches, arguments, and help text necessary
+		for your program to run is derived through introspection. Common options
+		and behavior can be shared by applications through inheritance.
+	</longdescription>
+</pkgmetadata>
