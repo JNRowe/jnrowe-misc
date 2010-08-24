@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  24 Aug 2010; James Rowe <jnrowe@gmail.com> notmuch-0.3.ebuild,
+  notmuch-9999.ebuild:
+  Only install emacs files with USE=emacs.
+
   23 Aug 2010; James Rowe <jnrowe@gmail.com> notmuch-0.3.ebuild,
   notmuch-9999.ebuild:
   Merged changes from 0.3 bump [6aa] in to live ebuild.

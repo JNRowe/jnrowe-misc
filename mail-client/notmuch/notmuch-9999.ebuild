@@ -47,6 +47,8 @@ src_prepare() {
 	fi
 	# We'll process the completion stuff manually, as it should be conditional
 	sed -i 's,completion ,,' Makefile
+
+	use emacs || sed -i 's, emacs , ,' Makefile
 }
 
 src_configure() {
