@@ -4,6 +4,10 @@
 
   24 Aug 2010; James Rowe <jnrowe@gmail.com> notmuch-0.3.ebuild,
   notmuch-9999.ebuild:
+  Use built library for Python bindings.
+
+  24 Aug 2010; James Rowe <jnrowe@gmail.com> notmuch-0.3.ebuild,
+  notmuch-9999.ebuild:
   Only install emacs files with USE=emacs.
 
   23 Aug 2010; James Rowe <jnrowe@gmail.com> notmuch-0.3.ebuild,

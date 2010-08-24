@@ -69,7 +69,8 @@ src_compile() {
 
 	if use python; then
 		cd bindings/python
-		distutils_src_compile
+		# Ugly, ugly hack to allow python to import notmuch library
+		LD_LIBRARY_PATH=$PWD/../../lib distutils_src_compile
 		cd ../../
 	fi
 }
@@ -106,7 +107,7 @@ src_install() {
 		cd bindings/python
 		# Workaround distutils.eclass attempting to reinstall DOCS, caused
 		# because it doesn't use namespacing for eclass variables.
-		DOCS= distutils_src_install
+		LD_LIBRARY_PATH=$PWD/../../lib DOCS= distutils_src_install
 		cd ../..
 	fi
 }
