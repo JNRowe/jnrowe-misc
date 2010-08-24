@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  24 Aug 2010; James Rowe <jnrowe@gmail.com> commandlineapp-3.0.5.ebuild:
+  Keyworded ~x86.
+
 *commandlineapp-3.0.5 (24 Aug 2010)
 
   24 Aug 2010; James Rowe <jnrowe@gmail.com> +commandlineapp-3.0.5.ebuild,
