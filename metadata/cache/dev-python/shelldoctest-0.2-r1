@@ -1,0 +1,22 @@
+>=app-admin/eselect-python-20091230 =dev-lang/python-2*
+dev-python/commandlineapp >=app-admin/eselect-python-20091230 =dev-lang/python-2*
+0
+mirror://pypi/s/shelldoctest/shelldoctest-0.2.tar.gz
+
+http://pypi.python.org/pypi/shelldoctest/
+BSD
+Doctest/UnitTest for shell
+~amd64 ~x86
+distutils eutils jnrowe-pypi multilib portability python toolchain-funcs
+
+
+
+
+2
+
+compile install postinst postrm prepare
+
+
+
+
+

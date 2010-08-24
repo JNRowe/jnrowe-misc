@@ -2,6 +2,13 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*shelldoctest-0.2-r1 (24 Aug 2010)
+
+  24 Aug 2010; James Rowe <jnrowe@gmail.com> +shelldoctest-0.2-r1.ebuild:
+  Bumped for missing commandlineapp dependency.  This dependency is only
+  required to run the command line tool, the library functions perfectly without
+  it.
+
   21 Mar 2010; James Rowe <jnrowe@gmail.com> shelldoctest-0.2.ebuild:
   Added PYTHON_DEPEND setting.
 
