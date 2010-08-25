@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		This program downloads RSS enclosures, for example podcasts, from RSS
+		feeds.
+	</longdescription>
+	<use>
+		<flag name="id3">
+			Enable support for ID3 tag writing via <pkg>media-libs/id3lib</pkg>
+		</flag>
+	</use>
+	<upstream>
+		<changelog>http://git.savannah.gnu.org/cgit/castget.git/tree/ChangeLog</changelog>
+		<bugs-to>https://savannah.nongnu.org/bugs/?group=castget</bugs-to>
+	</upstream>
+</pkgmetadata>

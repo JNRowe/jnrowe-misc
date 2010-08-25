@@ -40,5 +40,6 @@ REM 2010-09-23 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/commandline
 REM 2010-09-23 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/commandlineapp-3.0.5 %a
 REM 2010-09-23 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/shelldoctest-0.2-r1 %a
 REM 2010-09-23 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/shelldoctest-0.2-r1 %a
+REM 2010-09-24 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-sound/castget-1.1.0 %a
 
 # vim: set sw=4 sts=4 et tw=120 fenc=utf-8 ft=remind:
