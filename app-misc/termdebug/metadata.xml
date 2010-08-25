@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Termdebug is a set of utilities to record and replay the input and
+		output of a terminal program. Its main goal is to aid in developing and
+		debugging terminal programs. Other programs such as termrec/termplay,
+		nethack-recorder/player and script/scriptreplay only record the output.
+		However, when debugging an interactive terminal program, the input is
+		often more important than the output.
+	</longdescription>
+</pkgmetadata>
