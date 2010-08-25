@@ -1,5 +1,5 @@
 dev-util/pkgconfig
-dev-libs/glib dev-libs/libxml2 net-misc/curl id3? ( media-libs/id3lib )
+dev-libs/glib dev-libs/libxml2 net-misc/curl id3tag? ( media-libs/id3lib )
 0
 mirror://nongnu/castget/castget-1.1.0.tar.bz2
 
@@ -8,7 +8,7 @@ LGPL-2.1
 A simple command-line based RSS enclosure downloader
 ~amd64 ~x86
 base eutils multilib portability toolchain-funcs
-id3
+id3tag
 
 
 

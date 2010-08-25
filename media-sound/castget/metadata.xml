@@ -11,7 +11,7 @@
 		feeds.
 	</longdescription>
 	<use>
-		<flag name="id3">
+		<flag name="id3tag">
 			Enable support for ID3 tag writing via <pkg>media-libs/id3lib</pkg>
 		</flag>
 	</use>
