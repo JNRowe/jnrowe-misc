@@ -1,0 +1,13 @@
+# ChangeLog for media-sound/castget
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  25 Aug 2010; James Rowe <jnrowe@gmail.com> castget-1.1.0.ebuild:
+  Keyworded ~x86.
+
+*castget-1.1.0 (25 Aug 2010)
+
+  25 Aug 2010; James Rowe <jnrowe@gmail.com> +castget-1.1.0.ebuild,
+  +metadata.xml:
+  Initial ebuild, by me [8f7].
+
