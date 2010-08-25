@@ -45,7 +45,7 @@ distclean: clean
 stable-candidates: support/stabilisation.remind
 	remind $<
 
-support/removal.remind: profiles/package.mask
+support/removal.remind: profiles/package.mask support/gen_removal.py
 	support/gen_removal.py
 removal-reminders: support/removal.remind
 	remind $<
