@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Titlecase is a port of John Gruber's titlecase.pl
+		http://daringfireball.net/2008/05/title_case
+
+		This filter changes all words to Title Caps, and attempts to be clever
+		about uncapitalizing SMALL words like a/an/the in the input.
+
+		The list of "SMALL words" which are not capped comes from the New York
+		Times Manual of Style, plus 'vs' and 'v'.
+	</longdescription>
+	<upstream>
+		<bugs-to>https://bugs.launchpad.net/titlecase.py</bugs-to>
+	</upstream>
+</pkgmetadata>

@@ -1,0 +1,13 @@
+# ChangeLog for dev-python/titlecase
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  26 Aug 2010; James Rowe <jnrowe@gmail.com> titlecase-0.5.1.ebuild:
+  Keyworded ~x86.
+
+*titlecase-0.5.1 (26 Aug 2010)
+
+  26 Aug 2010; James Rowe <jnrowe@gmail.com> +titlecase-0.5.1.ebuild,
+  +metadata.xml:
+  Initial ebuild, by me [6ab].
+
