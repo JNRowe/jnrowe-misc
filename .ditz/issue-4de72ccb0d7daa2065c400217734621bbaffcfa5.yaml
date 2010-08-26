@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: Add github2 ebuild.
+desc: http://github.com/ask/python-github2 http://pypi.python.org/pypi/github2/
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-08-26 07:30:22.811887 Z
+references: []
+
+id: 4de72ccb0d7daa2065c400217734621bbaffcfa5
+log_events: 
+- - 2010-08-26 07:30:23.283771 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+claimer: 
+git_branch: 
