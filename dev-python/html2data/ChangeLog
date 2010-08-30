@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/html2data
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*html2data-0.2 (30 Aug 2010)
+
+  30 Aug 2010; James Rowe <jnrowe@gmail.com> +html2data-0.2.ebuild,
+  +metadata.xml:
+  Initial ebuild, by me [8a5].
+

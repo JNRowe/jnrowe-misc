@@ -46,5 +46,6 @@ REM 2010-09-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/lettuce-0.1
 REM 2010-09-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/lettuce-0.1.13 %a
 REM 2010-09-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/titlecase-0.5.1 %a
 REM 2010-09-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/titlecase-0.5.1 %a
+REM 2010-09-29 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/html2data-0.2 %a
 
 # vim: set sw=4 sts=4 et tw=120 fenc=utf-8 ft=remind:
