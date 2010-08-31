@@ -50,5 +50,6 @@ REM 2010-10-15 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-perl/Net-Twitter-L
 REM 2010-10-15 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-perl/Net-Twitter-Lite-0.10003 %a
 REM 2010-09-30 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/colorama-0.1.18 %a
 REM 2010-09-30 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/multiprocessing-2.6.2.1 %a
+REM 2010-09-30 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/plac-0.7.2 %a
 
 # vim: set sw=4 sts=4 et tw=120 fenc=utf-8 ft=remind:
