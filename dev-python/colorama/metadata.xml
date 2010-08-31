@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Makes ANSI escape character sequences for producing colored terminal
+		text work under MS Windows.
+
+		ANSI escape character sequences have long been used to produce colored
+		terminal text on Unix and Macs. Colorama makes this work on Windows,
+		too. It also provides some shortcuts to help generate ANSI sequences,
+		and works fine in conjunction with any other ANSI sequence generation
+		library, such as Termcolor (http://pypi.python.org/pypi/termcolor.)
+
+		This has the upshot of providing a simple cross-platform API for
+		printing colored terminal text from Python, and has the happy
+		side-effect that existing applications or libraries which use ANSI
+		sequences to produce colored output on Linux or Macs can now also work
+		on Windows, simply by calling colorama.init().
+	</longdescription>
+</pkgmetadata>

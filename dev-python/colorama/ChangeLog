@@ -1,0 +1,13 @@
+# ChangeLog for dev-python/colorama
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  31 Aug 2010; James Rowe <jnrowe@gmail.com> colorama-0.1.18.ebuild:
+  Keyworded ~x86.
+
+*colorama-0.1.18 (31 Aug 2010)
+
+  31 Aug 2010; James Rowe <jnrowe@gmail.com> +colorama-0.1.18.ebuild,
+  +metadata.xml:
+  Initial ebuild, by me [1fe].
+

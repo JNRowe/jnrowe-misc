@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		A super easy console highlighter. Text goes in, color comes out. rad can
+		be used to process the output of commands, or to highlight single files.
+
+		rad will read the file given with --file/-f, or stdin if omitted.
+
+		Highlighting is specified with re-usable colorer files. Colorer files
+		are written in YAML.
+	</longdescription>
+</pkgmetadata>
