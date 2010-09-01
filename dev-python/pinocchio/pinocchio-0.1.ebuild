@@ -41,7 +41,7 @@ src_install() {
 		dohtml doc/index.html doc/default.css || die "dohtml failed"
 	fi
 	if use examples; then
-		insinto /usr/share/doc/${PF}/examples
+		insinto /usr/share/doc/${PF}
 		doins -r examples
 	fi
 }
