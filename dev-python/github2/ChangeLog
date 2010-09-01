@@ -1,0 +1,11 @@
+# ChangeLog for dev-python/github2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*github2-0.1.3 (01 Sep 2010)
+
+  01 Sep 2010; James Rowe <jnrowe@gmail.com> +github2-0.1.3.ebuild,
+  +files/github2-0.1.3-setuptools_find_packages_breakage.patch,
+  +metadata.xml:
+  Initial ebuild, by me [4de].
+
