@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  01 Sep 2010; James Rowe <jnrowe@gmail.com> github2-0.1.3.ebuild:
+  Keyworded ~x86.
+
 *github2-0.1.3 (01 Sep 2010)
 
   01 Sep 2010; James Rowe <jnrowe@gmail.com> +github2-0.1.3.ebuild,
