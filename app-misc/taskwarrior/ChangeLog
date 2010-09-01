@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  01 Sep 2010; James Rowe <jnrowe@gmail.com> taskwarrior-1.9.2.ebuild:
+  Keyworded amd64.
+
   02 Aug 2010; James Rowe <jnrowe@gmail.com> taskwarrior-1.9.1.ebuild:
   Copy back 1.9.2 ebuild changes to 1.9.1 ebuild. If you don't like forced
   lua support drop me a mail/open a bug, and I'll fix the AC_ARG_WITH usage.
