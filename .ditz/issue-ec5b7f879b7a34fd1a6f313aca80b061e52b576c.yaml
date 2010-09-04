@@ -5,7 +5,7 @@ desc: |-
   
   Once it is keyworded, this can move to ::fixes.  Any volunteers to file against
   the upstream ebuild?
-type: :bugfix
+type: :task
 component: misc-overlay
 release: current
 reporter: James Rowe <jnrowe@gmail.com>
