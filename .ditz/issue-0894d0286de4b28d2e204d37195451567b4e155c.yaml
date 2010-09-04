@@ -1,0 +1,24 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: x11-wm/parti exists in upstream tree.
+desc: |-
+  The upgrade path isn't clear, as the upstream ebuild has some issues.
+  
+  Once it is keyworded, this can move to ::fixes.  Any volunteers to file against
+  the upstream ebuild?
+type: :task
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-09-04 18:42:36.167928 Z
+references: []
+
+id: 0894d0286de4b28d2e204d37195451567b4e155c
+log_events: 
+- - 2010-09-04 18:42:37.311817 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+claimer: 
+git_branch: 
