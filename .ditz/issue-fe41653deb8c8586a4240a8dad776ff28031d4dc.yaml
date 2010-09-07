@@ -1,0 +1,20 @@
+--- !ditz.rubyforge.org,2008-03-06/issue 
+title: dev-python/termcolor-0.2 version bump.
+desc: ""
+type: :feature
+component: misc-overlay
+release: current
+reporter: James Rowe <jnrowe@gmail.com>
+status: :unstarted
+disposition: 
+creation_time: 2010-09-07 11:31:07.874753 Z
+references: []
+
+id: fe41653deb8c8586a4240a8dad776ff28031d4dc
+log_events: 
+- - 2010-09-07 11:31:08.530646 Z
+  - James Rowe <jnrowe@gmail.com>
+  - created
+  - ""
+claimer: 
+git_branch: 
