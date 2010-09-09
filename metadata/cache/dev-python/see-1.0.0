@@ -6,7 +6,7 @@ mirror://pypi/s/see/see-1.0.0.tar.bz2
 http://inky.github.com/see/
 GPL-3
 A human-readable alternative to Python's dir()
-amd64 ~x86
+amd64 x86
 distutils eutils jnrowe-pypi multilib portability python toolchain-funcs
 
 

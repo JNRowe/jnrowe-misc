@@ -3,6 +3,9 @@
 # $Header: $
 
   09 Sep 2010; James Rowe <jnrowe@gmail.com> see-1.0.0.ebuild:
+  Keyworded x86.
+
+  09 Sep 2010; James Rowe <jnrowe@gmail.com> see-1.0.0.ebuild:
   Keyworded amd64.
 
   10 Aug 2010; James Rowe <jnrowe@gmail.com> see-1.0.0.ebuild:
