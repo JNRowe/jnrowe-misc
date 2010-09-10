@@ -3,10 +3,8 @@ misc-overlay
 
 Packages that don't naturally fit in to my other themed overlays.
 
-If you find any problems with ebuilds in this overlay either drop me an email_
-or file an issue_.  Locally bugs are managed with ditz_, so if you're working
-with a clone of the repository you can report, list and fix bugs using
-``dev-util/ditz``.
+If you find any problems with ebuilds in this overlay either file an issue_ or
+drop me an email_.
 
 Contributors
 ------------
@@ -135,7 +133,6 @@ to make use of this functionality.
 
 .. _email: jnrowe@gmail.com
 .. _issue: http://github.com/JNRowe/misc-overlay/issues
-.. _ditz: http://ditz.rubyforge.org/
 .. _layman: http://layman.sourceforge.net
 .. _eix: http://eix.sourceforge.net
 .. _cupage: http://github.com/JNRowe/cupage
