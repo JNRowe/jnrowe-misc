@@ -1,8 +1,8 @@
 --- !ditz.rubyforge.org,2008-03-06/issue 
 title: If freshen or lettuce pan out drop pycukes and deps.
 desc: |-
-  The maintenance overhead would be much smaller on freshen, and over
-  local users have good things to say about it.
+  The maintenance overhead would be much smaller on lettuce, and local users
+  have only good things to say about it.
 type: :task
 component: misc-overlay
 release: current
@@ -35,7 +35,7 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - commented
   - |-
-    There is now a1 released version of freshen, so it is just a matter of which is
+    There is now a released version of freshen, so it is just a matter of which is
     the best tool.
 - - 2010-05-20 02:37:39.243833 Z
   - James Rowe <jnrowe@gmail.com>
@@ -53,7 +53,7 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - commented
   - |-
-    Lettuce appears to the be package most heavily maintained, and also the package
+    Lettuce appears to be the package most heavily maintained, and also the package
     with the most traction among my co-workers.
     
     If one package was to be kept it would probably be lettuce, but the overhead for

@@ -22,7 +22,7 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - commented
   - |-
-    The in tree version isn't usable as a direct replacement, but I don't want to
+    The in-tree version isn't usable as a direct replacement, but I don't want to
     shadow it from within this overlay so it is moving to ::shadowed.  It will be
     maintained there indefinitely, which probably means until somebody else pushes
     fixes upstream(check upstream metadata.xml before putting time in to this).

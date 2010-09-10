@@ -25,6 +25,6 @@ log_events:
   - closed with disposition wontfix
   - |-
     We're switching to minidim, as the PAM requirement of nodm makes it unusable in
-    our environments.
+    our environment.
 claimer: 
 git_branch: 

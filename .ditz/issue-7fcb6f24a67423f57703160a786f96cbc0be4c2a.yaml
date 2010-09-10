@@ -42,6 +42,6 @@ log_events:
   - commented
   - |-
     Both packages have significant failings, and will be dropped... unless *you*
-     come up with a compelling argument for them to stay
+    come forward with a compelling argument for them to stay
 claimer: James Rowe <jnrowe@gmail.com>
 git_branch: 

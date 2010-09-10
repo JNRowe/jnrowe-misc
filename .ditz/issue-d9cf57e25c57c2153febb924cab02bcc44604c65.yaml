@@ -30,6 +30,7 @@ log_events:
   - |-
     The matwm2 ebuilds are being moved to ::fixes, until both stabilisation and the
     necessary changes are pushed upstream.  Volunteer for that still required!
+    Check ChangeLog before volunteering.
 - - 2010-01-06 09:06:36.547932 Z
   - James Rowe <jnrowe@gmail.com>
   - edited title

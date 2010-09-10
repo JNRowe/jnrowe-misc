@@ -3,8 +3,8 @@ title: x11-wm/parti exists in upstream tree.
 desc: |-
   The upgrade path isn't clear, as the upstream ebuild has some issues.
   
-  Once it is keyworded, this can move to ::fixes.  Any volunteers to file against
-  the upstream ebuild?
+  Once it is keyworded, this can move to ::fixes.  Any volunteers to file bugs
+  against the upstream ebuild?
 type: :task
 component: misc-overlay
 release: current

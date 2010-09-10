@@ -29,6 +29,6 @@ log_events:
   - commented
   - |-
     This may well be the last version of taskwarrior in this overlay, the overhead
-    for handling the broken packaging is too high for the value of the package.
+    for handling the broken packaging is too high for the value the package provides.
 claimer: 
 git_branch: 

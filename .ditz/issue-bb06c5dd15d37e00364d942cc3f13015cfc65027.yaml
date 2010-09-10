@@ -30,7 +30,7 @@ log_events:
   - James Rowe <jnrowe@gmail.com>
   - commented
   - |-
-    Unfortunately, the in tree ebuild doesn't install documentation so it isn't
+    Unfortunately, the in-tree ebuild doesn't install documentation so it isn't
     a suitable replacement as is.
 - - 2009-12-08 08:44:39.752044 Z
   - James Rowe <jnrowe@gmail.com>
