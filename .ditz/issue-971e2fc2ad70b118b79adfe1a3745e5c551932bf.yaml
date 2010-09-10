@@ -26,12 +26,17 @@ log_events:
   - |-
     The following packages are missing cupage.conf entries:
     
-        dev-python/freshen
-        dev-python/nosetty
-        dev-python/pycukes
-        dev-python/story_parser
-        dev-util/fossil
-        www-client/surfraw
+    - dev-python/freshen
+
+    - dev-python/nosetty
+
+    - dev-python/pycukes
+
+    - dev-python/story_parser
+
+    - dev-util/fossil
+
+    - www-client/surfraw
     
     freshen is a live ebuild that does not warrant a cupage
     entry, but should be commented as such.

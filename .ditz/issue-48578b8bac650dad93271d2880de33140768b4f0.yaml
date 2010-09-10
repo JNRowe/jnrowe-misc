@@ -1,9 +1,9 @@
 --- !ditz.rubyforge.org,2008-03-06/issue 
 title: apvlv stores datafiles in docdir.
 desc: |-
-  /usr/share/doc/apvlv-0.0.7.4/reg.png
-  /usr/share/doc/apvlv-0.0.7.4/dir.png
-  /usr/share/doc/apvlv-0.0.7.4/pdf.png
+  - /usr/share/doc/apvlv-0.0.7.4/reg.png
+  - /usr/share/doc/apvlv-0.0.7.4/dir.png
+  - /usr/share/doc/apvlv-0.0.7.4/pdf.png
 type: :bugfix
 component: misc-overlay
 release: current
