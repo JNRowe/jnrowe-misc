@@ -12,7 +12,7 @@ SRC_URI="http://luaforge.net/frs/download.php/4631/${P}.tar.bz2"
 
 LICENSE="public-domain"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE=""
 
 DEPEND=">=dev-lang/lua-5.1"
