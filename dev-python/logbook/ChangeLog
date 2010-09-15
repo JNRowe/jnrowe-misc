@@ -3,6 +3,9 @@
 # $Header: $
 
   15 Sep 2010; James Rowe <jnrowe@gmail.com> logbook-0.1.ebuild:
+  Keyworded x86.
+
+  15 Sep 2010; James Rowe <jnrowe@gmail.com> logbook-0.1.ebuild:
   Keyworded amd64.
 
   16 Aug 2010; James Rowe <jnrowe@gmail.com> logbook-0.1.ebuild:
