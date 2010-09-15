@@ -1,0 +1,44 @@
+From eaf30a6ce1e6ffe702e0814ef795de6abf402971 Mon Sep 17 00:00:00 2001
+From: James Rowe <jnrowe@gmail.com>
+Date: Wed, 15 Sep 2010 02:37:19 +0100
+Subject: [PATCH] Use Python's own simplejson, if available.
+
+
+Signed-off-by: James Rowe <jnrowe@gmail.com>
+---
+ src/github/issues.py |   11 +++++++----
+ 1 files changed, 7 insertions(+), 4 deletions(-)
+
+diff --git a/src/github/issues.py b/src/github/issues.py
+index 46a3a35..cb82a49 100644
+--- a/src/github/issues.py
++++ b/src/github/issues.py
+@@ -5,10 +5,13 @@ import webbrowser as browser
+ from optparse import OptionParser
+ 
+ try:
+-    import simplejson
++    import json
+ except ImportError:
+-    print "error: simplejson required"
+-    sys.exit(1)
++    try:
++        import simplejson as json
++    except ImportError:
++        print "error: simplejson required"
++        sys.exit(1)
+ 
+ from github.utils import urlopen2, get_remote_info, edit_text, \
+     get_remote_info_from_option, get_prog, Pager, wrap_text, get_underline
+@@ -306,7 +309,7 @@ class Commands(object):
+         args_list.insert(0, base_url)
+         url = "/".join(args_list)
+         page = urlopen2(url, **kwargs)
+-        result = simplejson.load(page)
++        result = json.load(page)
+         page.close()
+         if result.get('error'):
+             handle_error(result)
+-- 
+1.7.2.2
+
