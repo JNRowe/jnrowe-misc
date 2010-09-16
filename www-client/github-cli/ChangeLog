@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  16 Sep 2010; James Rowe <jnrowe@gmail.com> github-cli-0.2.9.ebuild,
+  files/github-cli-0.2.9-Use_pythons_json.patch:
+  Fixed simplejson stdlib support.
+
   15 Sep 2010; James Rowe <jnrowe@gmail.com> github-cli-0.2.9.ebuild:
   Keyworded ~x86.
 
