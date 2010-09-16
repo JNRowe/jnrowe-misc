@@ -3,6 +3,9 @@
 # $Header: $
 
   16 Sep 2010; James Rowe <jnrowe@gmail.com> pwtools-0.2.ebuild:
+  Keyworded x86.
+
+  16 Sep 2010; James Rowe <jnrowe@gmail.com> pwtools-0.2.ebuild:
   Keyworded amd64.
 
   17 Aug 2010; James Rowe <jnrowe@gmail.com> pwtools-0.2.ebuild:
