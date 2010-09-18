@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*html-1.12 (18 Sep 2010)
+
+  18 Sep 2010; James Rowe <jnrowe@gmail.com> +html-1.12.ebuild:
+  Version bump [#174], no longer supports Python v3.
+
   29 Apr 2010; James Rowe <jnrowe@gmail.com> -html-1.8.ebuild,
   html-1.11.ebuild:
   Keyworded x86.
