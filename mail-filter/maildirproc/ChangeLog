@@ -3,6 +3,9 @@
 # $Header: $
 
   19 Sep 2010; James Rowe <jnrowe@gmail.com> maildirproc-0.4.3.ebuild:
+  Keyworded x86.
+
+  19 Sep 2010; James Rowe <jnrowe@gmail.com> maildirproc-0.4.3.ebuild:
   Keyworded amd64.
 
   17 Aug 2010; James Rowe <jnrowe@gmail.com> maildirproc-0.4.3.ebuild:
