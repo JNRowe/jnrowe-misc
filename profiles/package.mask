@@ -1,5 +1,9 @@
 # extra line needed because portage is buggy
 
+# James Rowe <jnrowe@gmail.com> (21 Sep 2010)
+# Just testing for the time being, it may be removed from the repo soon.
+dev-python/codetalker
+
 # James Rowe <jnrowe@gmail.com> (25 Aug 2010)
 # Haskell support is too brittle to keep this.  Step up if you want it to stay!
 # X-Removal: 2010-09-24

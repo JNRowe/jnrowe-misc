@@ -1,0 +1,22 @@
+dev-python/cython >=app-admin/eselect-python-20091230 =dev-lang/python-2* test? ( dev-python/nose )
+>=app-admin/eselect-python-20091230 =dev-lang/python-2*
+0
+mirror://pypi/C/CodeTalker/CodeTalker-1.0.tar.gz http://github.com/jabapyth/codetalker/raw/v1.0/codetalker/c/parser.h -> codetalker-1.0-parser.h http://github.com/jabapyth/codetalker/raw/v1.0/codetalker/c/_speed_tokens.h -> codetalker-1.0-speed_tokens.h
+test
+http://jaredforsyth.com/projects/codetalker/
+MIT
+A module for dynamic, pythonic language parsing
+~amd64
+distutils multilib python toolchain-funcs
+test
+
+
+
+3
+
+compile install postinst postrm prepare test
+
+
+
+
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		The goal of code talker is to allow for speedy development of parsers
+		+ translators without compromizing performance or flexibility.
+
+		Features: Completely python-based grammar definitions [example grammar],
+		Fast (cythonized) tokenizing and parsing
+	</longdescription>
+	<upstream>
+		<doc lang="en">http://github.com/jabapyth/codetalker/blob/master/HOWTO.rst#readme</doc>
+		<bugs-to>http://github.com/jabapyth/codetalker/issues</bugs-to>
+	</upstream>
+</pkgmetadata>
