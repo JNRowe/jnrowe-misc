@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  20 Sep 2010; James Rowe <jnrowe@gmail.com> codetalker-1.0.ebuild:
+  Keyworded ~x86.
+
 *codetalker-1.0 (20 Sep 2010)
 
   20 Sep 2010; James Rowe <jnrowe@gmail.com> +codetalker-1.0.ebuild,

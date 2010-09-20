@@ -6,7 +6,7 @@ test
 http://jaredforsyth.com/projects/codetalker/
 MIT
 A module for dynamic, pythonic language parsing
-~amd64
+~amd64 ~x86
 distutils multilib python toolchain-funcs
 test
 
