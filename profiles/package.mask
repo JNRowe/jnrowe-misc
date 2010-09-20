@@ -2,6 +2,7 @@
 
 # James Rowe <jnrowe@gmail.com> (21 Sep 2010)
 # Just testing for the time being, it may be removed from the repo soon.
+dev-python/clevercss2
 dev-python/codetalker
 
 # James Rowe <jnrowe@gmail.com> (25 Aug 2010)

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		CleverCSS is a small markup language for CSS inspired by Python that can
+		be used to build a style sheet in a clean and structured way. In many
+		ways it's cleaner and more powerful than CSS2 is.
+
+		The most obvious difference to CSS is the syntax: it is indentation
+		based and not flat. While this is obviously against the Python Zen, it's
+		nonetheless a good idea for structural styles.
+	</longdescription>
+	<upstream>
+		<doc lang="en">http://github.com/jabapyth/clevercss2#readme</doc>
+		<bugs-to>http://github.com/jabapyth/clevercss2/issues</bugs-to>
+	</upstream>
+</pkgmetadata>
