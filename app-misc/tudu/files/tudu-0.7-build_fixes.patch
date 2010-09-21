@@ -1,0 +1,69 @@
+diff --git i/Makefile w/Makefile
+index 260c8f1..21faeea 100644
+--- i/Makefile
++++ w/Makefile
+@@ -1,8 +1,8 @@
+-DESTDIR=/usr/local
+-BIN_DIR=$(DESTDIR)/bin
+-ETC_DIR=$(DESTDIR)/etc
+-SHARE_DIR=$(DESTDIR)/share/tudu
+-MAN_DIR=$(DESTDIR)/share/man
++DESTDIR=
++BIN_DIR=/usr/bin
++ETC_DIR=/etc
++SHARE_DIR=/usr/share/tudu
++MAN_DIR=/usr/share/man
+ 
+ all:
+ 	$(MAKE) -C src all SHARE_DIR=$(SHARE_DIR) ETC_DIR=$(ETC_DIR)
+@@ -14,15 +14,15 @@ depend:
+ 	$(MAKE) -C src depend
+ 
+ install: all
+-	mkdir -p $(BIN_DIR)
+-	install -m755 src/tudu $(BIN_DIR)
+-	mkdir -p $(SHARE_DIR)
+-	install -m644 data/tudu.dtd $(SHARE_DIR)
+-	install -m644 data/welcome.xml $(SHARE_DIR)
+-	mkdir -p $(ETC_DIR)
+-	install -m644 data/tudurc $(ETC_DIR)
+-	mkdir -p $(MAN_DIR)/man1
+-	install -m644 data/tudu.1 $(MAN_DIR)/man1
++	mkdir -p $(DESTDIR)$(BIN_DIR)
++	install -m755 src/tudu $(DESTDIR)$(BIN_DIR)
++	mkdir -p $(DESTDIR)$(SHARE_DIR)
++	install -m644 data/tudu.dtd $(DESTDIR)$(SHARE_DIR)
++	install -m644 data/welcome.xml $(DESTDIR)$(SHARE_DIR)
++	mkdir -p $(DESTDIR)$(ETC_DIR)
++	install -m644 data/tudurc $(DESTDIR)$(ETC_DIR)
++	mkdir -p $(DESTDIR)$(MAN_DIR)/man1
++	install -m644 data/tudu.1 $(DESTDIR)$(MAN_DIR)/man1
+ 
+ uninstall:
+ 	rm $(BIN_DIR)/tudu
+diff --git i/src/Makefile w/src/Makefile
+index 4a139fc..df21281 100644
+--- i/src/Makefile
++++ w/src/Makefile
+@@ -2,7 +2,7 @@ PROG=tudu
+ SRCS=tudu.cc data.cc editor.cc interface.cc window.cc text.cc parser.cc
+ SRCS+= config.cc date.cc screen.cc sched.cc cmd.cc
+ CXX=g++
+-CFLAGS=-Wall -O2 -DSHARE_DIR=\"$(SHARE_DIR)\" -DETC_DIR=\"$(ETC_DIR)\"
++CXXFLAGS+= -DSHARE_DIR=\"$(SHARE_DIR)\" -DETC_DIR=\"$(ETC_DIR)\"
+ 
+ OBJS=$(SRCS:.cc=.o)
+ 
+@@ -10,10 +10,10 @@ all: $(PROG)
+ 
+ $(PROG): $(OBJS)
+ 	echo $(SRCS)
+-	$(CXX) $(CFLAGS) -lncursesw -o $@ $(OBJS)
++	$(CXX) $(CXXFLAGS) -lncursesw -o $@ $(OBJS) $(LDFLAGS)
+ 
+ .cc.o:
+-	$(CXX) $(CFLAGS) -c $<
++	$(CXX) $(CXXFLAGS) -c $<
+ 
+ clean:
+ 	@rm -f $(PROG) $(OBJS) core tags

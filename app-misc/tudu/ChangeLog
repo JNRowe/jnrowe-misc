@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*tudu-0.7 (21 Sep 2010)
+
+  21 Sep 2010; James Rowe <jnrowe@gmail.com> +tudu-0.7.ebuild,
+  +files/tudu-0.7-build_fixes.patch:
+  Version bump [#13].
+
   10 Jun 2010; James Rowe <jnrowe@gmail.com> tudu-0.6.1.ebuild:
   Switched to using base.eclass' src_install.
 
