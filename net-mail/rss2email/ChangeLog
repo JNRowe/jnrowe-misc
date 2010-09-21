@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*rss2email-2.67 (21 Sep 2010)
+
+  21 Sep 2010; James Rowe <jnrowe@gmail.com> +rss2email-2.67.ebuild:
+  Version bump [#182].
+
   02 Jun 2010; James Rowe <jnrowe@gmail.com> -rss2email-2.65.1.ebuild:
   Removed obsolete ebuild.
 
