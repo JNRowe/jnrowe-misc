@@ -48,5 +48,7 @@ REM 2010-10-18 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 app-vim/rails-4.3 %a
 REM 2010-10-18 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 app-vim/rails-4.3 %a
 REM 2010-10-21 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/clevercss-0.1 %a
 REM 2010-10-21 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/clevercss-0.1 %a
+REM 2010-10-21 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/restview-1.2.2 %a
+REM 2010-10-21 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/restview-1.2.2 %a
 
 # vim: set sw=4 sts=4 et tw=120 fenc=utf-8 ft=remind:
