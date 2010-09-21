@@ -58,5 +58,7 @@ REM 2010-10-21 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 app-misc/tudu-0.7 %a
 REM 2010-10-21 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 app-misc/tudu-0.7 %a
 REM 2010-10-21 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 www-client/github-cli-0.3.0 %a
 REM 2010-10-21 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 www-client/github-cli-0.3.0 %a
+REM 2010-10-21 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/pep8-0.6.0 %a
+REM 2010-10-21 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/pep8-0.6.0 %a
 
 # vim: set sw=4 sts=4 et tw=120 fenc=utf-8 ft=remind:
