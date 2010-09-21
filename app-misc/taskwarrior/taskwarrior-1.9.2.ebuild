@@ -36,6 +36,9 @@ src_install() {
 
 	dobashcompletion scripts/bash/task_completion.sh ${PN}
 
+	# Vim syntax files are now shipped with vim since v7.3, but we'll continue
+	# to install these with USE=vim-syntax.  They don't cause clashes, and means
+	# older vim versions are supported.
 	if use vim-syntax; then
 		insinto /usr/share/vim/vimfiles/ftdetect
 		doins scripts/vim/ftdetect/task.vim || die "doins ftdetect failed"
