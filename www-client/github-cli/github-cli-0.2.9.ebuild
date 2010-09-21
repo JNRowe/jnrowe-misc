@@ -17,8 +17,10 @@ IUSE=""
 
 DEPEND="dev-python/setuptools"
 # setuptools is needed for command line wrappers
+# simplejson is needed /even/ with Python 2.6 because the stdlib version is too
+# old to use, patch in my fork on github.
 RDEPEND="${DEPEND}
-	|| ( >=dev-lang/python-2.6 dev-python/simplejson )"
+	|| ( >=dev-lang/python-2.7 dev-python/simplejson )"
 
 PATCHES=("${FILESDIR}"/${P}-Use_pythons_json.patch)
 
