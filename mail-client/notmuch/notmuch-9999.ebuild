@@ -3,8 +3,9 @@
 # $Header: $
 
 EAPI=3
-PYTHON_DEPEND="python? 2:2.5"
 SUPPORT_PYTHON_ABIS="1"
+PYTHON_DEPEND="python? 2:2.5"
+RESTRICT_PYTHON_ABIS="2.4 3.*"
 
 inherit base distutils eutils toolchain-funcs elisp-common bash-completion
 
@@ -38,8 +39,6 @@ DEPEND="dev-util/pkgconfig
 SITEFILE="50${PN}-gentoo.el"
 
 DOCS=(AUTHORS NEWS README TODO)
-
-RESTRICT_PYTHON_ABIS="2.4 3.*"
 
 src_prepare() {
 	if [[ ${PV} == 9999 ]]; then

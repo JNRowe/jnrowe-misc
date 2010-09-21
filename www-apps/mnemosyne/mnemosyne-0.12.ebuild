@@ -3,8 +3,9 @@
 # $Header: $
 
 EAPI="2"
-PYTHON_DEPEND="2"
 SUPPORT_PYTHON_ABIS="1"
+PYTHON_DEPEND="2"
+RESTRICT_PYTHON_ABIS="3.*"
 
 inherit distutils
 
@@ -20,8 +21,6 @@ IUSE="examples"
 DEPEND=""
 RDEPEND="dev-python/docutils
 	dev-python/kid"
-
-RESTRICT_PYTHON_ABIS="3.*"
 
 src_install() {
 	distutils_src_install

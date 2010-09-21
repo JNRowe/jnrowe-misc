@@ -3,8 +3,9 @@
 # $Header: $
 
 EAPI="2"
-PYTHON_DEPEND="2:2.5"
 SUPPORT_PYTHON_ABIS="1"
+PYTHON_DEPEND="2:2.5"
+RESTRICT_PYTHON_ABIS="2.4 3.*"
 
 inherit jnrowe-pypi eutils
 
@@ -22,8 +23,6 @@ RDEPEND="dev-python/nose
 	dev-python/pyyaml"
 
 DOCS="cuke-comparison.txt todo.txt"
-
-RESTRICT_PYTHON_ABIS="2.4 3.*"
 
 src_install() {
 	distutils_src_install

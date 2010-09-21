@@ -3,8 +3,9 @@
 # $Header: $
 
 EAPI="2"
-PYTHON_DEPEND="*"
 SUPPORT_PYTHON_ABIS="1"
+PYTHON_DEPEND="*"
+RESTRICT_PYTHON_ABIS="3.*"
 
 inherit jnrowe-pypi
 
@@ -22,5 +23,3 @@ RDEPEND="dev-python/should_dsl
 
 # Files required for tests are missing from archive
 RESTRICT="test"
-
-RESTRICT_PYTHON_ABIS="3.*"

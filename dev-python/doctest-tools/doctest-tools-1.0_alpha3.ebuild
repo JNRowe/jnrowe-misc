@@ -3,8 +3,9 @@
 # $Header: $
 
 EAPI="2"
-PYTHON_DEPEND="2:2.5 3"
 SUPPORT_PYTHON_ABIS="1"
+PYTHON_DEPEND="2:2.5 3"
+RESTRICT_PYTHON_ABIS="2.4"
 
 inherit distutils
 MY_P="${P/_alpha/a}"
@@ -24,5 +25,3 @@ RDEPEND=""
 S="${WORKDIR}/${MY_P}"
 
 DOCS="RELEASE_NOTES.txt"
-
-RESTRICT_PYTHON_ABIS="2.4"

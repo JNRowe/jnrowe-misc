@@ -3,8 +3,9 @@
 # $Header: $
 
 EAPI=3
-PYTHON_DEPEND="2"
 SUPPORT_PYTHON_ABIS="1"
+PYTHON_DEPEND="2"
+RESTRICT_PYTHON_ABIS="3.*"
 
 inherit distutils
 
@@ -21,8 +22,6 @@ RDEPEND="dev-python/pygtk
 	~sci-geosciences/osm-gps-map-${PV}"
 DEPEND="${RDEPEND}
 	dev-util/pkgconfig"
-
-RESTRICT_PYTHON_ABIS="3.*"
 
 # Results from make check aren't tests
 RESTRICT="test"

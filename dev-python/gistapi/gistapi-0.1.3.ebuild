@@ -3,8 +3,9 @@
 # $Header: $
 
 EAPI=3
-PYTHON_DEPEND="2:2.5"
 SUPPORT_PYTHON_ABIS="1"
+PYTHON_DEPEND="2:2.5"
+RESTRICT_PYTHON_ABIS="2.[45] 3.*"
 
 inherit jnrowe-pypi
 
@@ -23,8 +24,6 @@ RDEPEND=""
 RESTRICT="test"
 
 DOCS="HISTORY.rst"
-
-RESTRICT_PYTHON_ABIS="2.[45] 3.*"
 
 src_test() {
 	testing() {

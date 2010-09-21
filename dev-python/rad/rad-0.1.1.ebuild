@@ -3,8 +3,9 @@
 # $Header: $
 
 EAPI=3
-PYTHON_DEPEND="2:2.6"
 SUPPORT_PYTHON_ABIS="1"
+PYTHON_DEPEND="2:2.6"
+RESTRICT_PYTHON_ABIS="2.[45] 3.*"
 
 inherit distutils
 
@@ -22,8 +23,6 @@ DEPEND="dev-python/setuptools"
 RDEPEND="dev-python/colorama
 	dev-python/plac
 	dev-python/pyyaml"
-
-RESTRICT_PYTHON_ABIS="2.[45] 3.*"
 
 src_unpack() {
 	unpack ${P}.tar.gz

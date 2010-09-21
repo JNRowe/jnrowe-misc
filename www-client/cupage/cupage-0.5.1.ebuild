@@ -3,8 +3,9 @@
 # $Header: $
 
 EAPI="2"
-PYTHON_DEPEND="2:2.6"
 SUPPORT_PYTHON_ABIS="1"
+PYTHON_DEPEND="2:2.6"
+RESTRICT_PYTHON_ABIS="2.[45] 3.*"
 
 inherit distutils
 
@@ -26,7 +27,6 @@ RDEPEND="dev-python/configobj
 S="${WORKDIR}/JNRowe-${PN}-87e5e9d"
 
 PYTHON_MODNAME="libcupage"
-RESTRICT_PYTHON_ABIS="2.[45] 3.*"
 
 src_compile() {
 	distutils_src_compile

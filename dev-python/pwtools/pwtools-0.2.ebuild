@@ -3,8 +3,10 @@
 # $Header: $
 
 EAPI=3
-PYTHON_DEPEND="2"
 SUPPORT_PYTHON_ABIS="1"
+PYTHON_DEPEND="2"
+# 3.* isn't supported because of relative imports
+RESTRICT_PYTHON_ABIS="3.*"
 
 inherit distutils
 
@@ -21,9 +23,6 @@ DEPEND="dev-python/setuptools"
 RDEPEND="sys-apps/miscfiles"
 
 S="${WORKDIR}"/${PN}
-
-# 3.* isn't supported because of relative imports
-RESTRICT_PYTHON_ABIS="3.*"
 
 pkg_postinst() {
 	distutils_pkg_postinst

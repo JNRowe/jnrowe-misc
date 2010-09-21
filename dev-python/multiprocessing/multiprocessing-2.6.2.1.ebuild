@@ -3,8 +3,10 @@
 # $Header: $
 
 EAPI=3
-PYTHON_DEPEND="2:2.4:2.5"
 SUPPORT_PYTHON_ABIS="1"
+PYTHON_DEPEND="2:2.4:2.5"
+# Multiprocessing is included in Python since 2.6
+RESTRICT_PYTHON_ABIS="2.[67] 3.*"
 DISTUTILS_SRC_TEST="nosetests"
 
 inherit jnrowe-pypi
@@ -22,9 +24,6 @@ RDEPEND=""
 
 # Tests are phenomenally broken
 RESTRICT="test"
-
-# Multiprocessing is included in Python since 2.6
-RESTRICT_PYTHON_ABIS="2.[67] 3.*"
 
 src_compile() {
 	distutils_src_compile

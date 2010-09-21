@@ -3,8 +3,9 @@
 # $Header: $
 
 EAPI=3
-PYTHON_DEPEND="2:2.5 3"
 SUPPORT_PYTHON_ABIS="1"
+PYTHON_DEPEND="2:2.5 3"
+RESTRICT_PYTHON_ABIS="2.4"
 
 inherit distutils
 
@@ -20,8 +21,6 @@ IUSE="examples"
 
 DEPEND=""
 RDEPEND="${DEPEND}"
-
-RESTRICT_PYTHON_ABIS="2.4"
 
 src_prepare() {
 	# Fix examples links for post-install location

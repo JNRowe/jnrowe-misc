@@ -5,6 +5,7 @@
 EAPI="2"
 SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="2"
+RESTRICT_PYTHON_ABIS="3.*"
 
 inherit jnrowe-pypi
 
@@ -19,5 +20,3 @@ DEPEND=""
 # We should depend on dev-python/oauth, and strip the bundled versions but the
 # ebuild in the main tree has no support for multiple Python versions.
 RDEPEND="|| ( >=dev-lang/python-2.6 dev-python/simplejson )"
-
-RESTRICT_PYTHON_ABIS="3.*"

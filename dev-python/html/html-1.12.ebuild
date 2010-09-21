@@ -3,8 +3,9 @@
 # $Header: $
 
 EAPI="2"
-PYTHON_DEPEND="2:2.4"
 SUPPORT_PYTHON_ABIS="1"
+PYTHON_DEPEND="2:2.4"
+RESTRICT_PYTHON_ABIS="2.4 3.*"
 
 inherit jnrowe-pypi
 
@@ -19,4 +20,3 @@ DEPEND=""
 RDEPEND=""
 
 PYTHON_MODNAME="${PN}.py"
-RESTRICT_PYTHON_ABIS="2.4 3.*"

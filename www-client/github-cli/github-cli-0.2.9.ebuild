@@ -3,8 +3,9 @@
 # $Header: $
 
 EAPI=3
-PYTHON_DEPEND="2"
 SUPPORT_PYTHON_ABIS="1"
+PYTHON_DEPEND="2"
+RESTRICT_PYTHON_ABIS="3.*"
 
 inherit base jnrowe-pypi
 
@@ -25,7 +26,6 @@ RDEPEND="${DEPEND}
 PATCHES=("${FILESDIR}"/${P}-Use_pythons_json.patch)
 
 PYTHON_MODNAME="github"
-RESTRICT_PYTHON_ABIS="3.*"
 
 src_prepare() {
 	base_src_prepare

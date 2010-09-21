@@ -3,8 +3,9 @@
 # $Header: $
 
 EAPI="2"
-PYTHON_DEPEND="2"
 SUPPORT_PYTHON_ABIS="1"
+PYTHON_DEPEND="2"
+RESTRICT_PYTHON_ABIS="3.*"
 DISTUTILS_SRC_TEST="nosetests"
 
 inherit distutils
@@ -22,7 +23,6 @@ RDEPEND="dev-python/pytz"
 DEPEND="test? ( ${RDEPEND} )"
 
 PYTHON_MODNAME="${PN}.py"
-RESTRICT_PYTHON_ABIS="3.*"
 
 src_install() {
 	distutils_src_install

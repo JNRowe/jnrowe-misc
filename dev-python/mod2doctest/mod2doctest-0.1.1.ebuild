@@ -3,8 +3,9 @@
 # $Header: $
 
 EAPI="2"
-PYTHON_DEPEND="2"
 SUPPORT_PYTHON_ABIS="1"
+PYTHON_DEPEND="2"
+RESTRICT_PYTHON_ABIS="3.*"
 
 PYPI_ARCHIVE_SUFFIX="zip"
 inherit jnrowe-pypi
@@ -18,5 +19,3 @@ IUSE=""
 
 DEPEND="dev-python/setuptools"
 RDEPEND=""
-
-RESTRICT_PYTHON_ABIS="3.*"
