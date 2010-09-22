@@ -9,7 +9,7 @@ inherit eutils jnrowe-pypi
 
 DESCRIPTION="A helper tool for git that mimics mercurial's serve command"
 HOMEPAGE="http://github.com/jezdez/git-serve/"
-SRC_URI="http://pypi.python.org/packages/source/${PN::1}/${PN}/${P}.tar.gz
+SRC_URI="mirror://pypi/${PN::1}/${PN}/${P}.tar.gz
 	http://github.com/downloads/JNRowe/misc-overlay/${P}-gitweb_1.6.4.4_update.patch.bz2"
 
 LICENSE="GPL-2"
