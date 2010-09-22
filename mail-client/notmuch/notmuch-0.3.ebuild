@@ -23,7 +23,7 @@ HOMEPAGE="http://notmuchmail.org/"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE="X debug emacs python vim zsh-completion"
 
 RDEPEND="sys-libs/talloc
