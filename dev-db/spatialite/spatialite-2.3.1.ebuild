@@ -15,7 +15,7 @@ SRC_URI="http://www.gaia-gis.it/${PN}/${MY_P}.tar.gz"
 
 LICENSE="MPL-1.1"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE="+geos +proj"
 
 DEPEND="dev-db/sqlite:3[extensions]
