@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Command line tools for <pkg>dev-db/spatialite</pkg>, including:
+
+		* spatialite: a complete CLI front-end
+		* spatialite_network: a tool supporting the creation of networks used by
+		  the routing algorithm
+		* spatialite_tool: a tool supporting import/export of shapefiles
+		* shp_doctor: a diagnostic tool to check anomalous shapefiles
+		* exif_loader: an import tool for EXIF or EXIF-GPS pictures
+	</longdescription>
+	<use>
+		<flag name="geos">
+			Support for <pkg>sci-libs/geos</pkg>, increases size considerably
+		</flag>
+		<flag name="proj">
+			Support for <pkg>sci-libs/proj</pkg>
+		</flag>
+	</use>
+	<upstream>
+		<doc lang="en">http://www.gaia-gis.it/spatialite/docs.html</doc>
+	</upstream>
+</pkgmetadata>

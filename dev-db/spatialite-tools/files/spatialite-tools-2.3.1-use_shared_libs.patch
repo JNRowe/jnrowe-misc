@@ -1,0 +1,58 @@
+From 0636cffc73acc19e2620e31b5030e3b0368730c2 Mon Sep 17 00:00:00 2001
+From: James Rowe <jnrowe@gmail.com>
+Date: Thu, 23 Sep 2010 08:25:39 +0100
+Subject: [PATCH 2/2] Use shared libs.
+
+
+Signed-off-by: James Rowe <jnrowe@gmail.com>
+---
+ configure.ac |   16 ++++++++--------
+ 1 files changed, 8 insertions(+), 8 deletions(-)
+
+diff --git a/configure.ac b/configure.ac
+index 4ccae83..1dd3cbf 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -76,9 +76,9 @@ AC_ARG_WITH(spatialite-lib,
+   [  --with-spatialite-lib=DIR  search for SpatiaLite lib in DIR],
+   spatialite_lib="$withval", spatialite_lib="")
+ if test "$spatialite_lib" == "" ; then
+-  SPATIALITE_LIB="/usr/local/lib/libspatialite.a"
++  SPATIALITE_LIB="-lspatialite"
+ else
+-  SPATIALITE_LIB="$spatialite_lib/libspatialite.a"
++  SPATIALITE_LIB="-L$spatialite_lib -lspatialite"
+ fi
+ AC_SUBST(SPATIALITE_LIB)
+ #-----------------------------------------------------------------------
+@@ -90,9 +90,9 @@ AC_ARG_WITH(proj-lib,
+   [  --with-proj-lib=DIR        search for PROJ.4 lib in DIR],
+   proj_lib="$withval", proj_lib="")
+ if test "$proj_lib" == "" ; then
+-  PROJ_LIB="/usr/local/lib/libproj.a"
++  PROJ_LIB="-lproj"
+ else
+-  PROJ_LIB="$proj_lib/libproj.a"
++  PROJ_LIB="-L$proj_lib -lproj"
+ fi
+ AC_SUBST(PROJ_LIB)
+ #-----------------------------------------------------------------------
+@@ -116,11 +116,11 @@ AC_ARG_WITH(geos-lib,
+   [  --with-geos-lib=DIR        search for GEOS lib in DIR],
+   geos_lib="$withval", geos_lib="")
+ if test "$geos_lib" == "" ; then
+-  GEOS_LIB_C="/usr/local/lib/libgeos_c.a"
+-  GEOS_LIB="/usr/local/lib/libgeos.a"
++  GEOS_LIB_C="-lgeos_c"
++  GEOS_LIB="-lgeos"
+ else
+-  GEOS_LIB_C="$geos_lib/libgeos_c.a"
+-  GEOS_LIB="$geos_lib/libgeos.a"
++  GEOS_LIB_C="-L$geos_lib/ -lgeos_c"
++  GEOS_LIB="-L$geos_lib/ -lgeos"
+ fi
+ AC_SUBST(GEOS_LIB_C)
+ AC_SUBST(GEOS_LIB)
+-- 
+1.7.2.2
+
