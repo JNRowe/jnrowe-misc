@@ -1,7 +1,19 @@
-diff --git i/Makefile.am w/Makefile.am
+From 09df3169a1e48e54496515c9da6764d08cb7f1af Mon Sep 17 00:00:00 2001
+From: James Rowe <jnrowe@gmail.com>
+Date: Thu, 23 Sep 2010 09:06:33 +0100
+Subject: [PATCH 1/2] Use system sqlite.
+
+
+Signed-off-by: James Rowe <jnrowe@gmail.com>
+---
+ Makefile.am         |   11 +++++------
+ headers/Makefile.am |    2 --
+ 2 files changed, 5 insertions(+), 8 deletions(-)
+
+diff --git a/Makefile.am b/Makefile.am
 index 0de23ba..bc9bbd7 100644
---- i/Makefile.am
-+++ w/Makefile.am
+--- a/Makefile.am
++++ b/Makefile.am
 @@ -7,8 +7,7 @@ INCLUDES += @PROJ_INCLUDE@ @GEOS_INCLUDE@
  
  lib_LTLIBRARIES = libspatialite.la
@@ -43,10 +55,10 @@ index 0de23ba..bc9bbd7 100644
  
  EXTRA_DIST = makefile.vc nmake.opt libspatialite.def
  
-diff --git i/headers/Makefile.am w/headers/Makefile.am
+diff --git a/headers/Makefile.am b/headers/Makefile.am
 index 757a002..ba75d58 100644
---- i/headers/Makefile.am
-+++ w/headers/Makefile.am
+--- a/headers/Makefile.am
++++ b/headers/Makefile.am
 @@ -4,6 +4,4 @@ nobase_include_HEADERS = \
  	spatialite/gaiaexif.h \
  	spatialite/gaiaaux.h \
@@ -54,3 +66,6 @@ index 757a002..ba75d58 100644
 -	spatialite/sqlite3.h \
 -	spatialite/sqlite3ext.h \
  	spatialite/spatialite.h
+-- 
+1.7.2.2
+

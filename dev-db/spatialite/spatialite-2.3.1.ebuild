@@ -25,12 +25,13 @@ RDEPEND="${DEPEND}"
 
 S=${WORKDIR}/${MY_P}
 
-PATCHES=("${FILESDIR}"/${P}-system_sqlite.patch)
+PATCHES=("${FILESDIR}"/${P}-system_sqlite.patch
+	"${FILESDIR}"/${P}-use_system_libs.patch)
+DOCS=(AUTHORS README)
 
 src_prepare() {
 	base_src_prepare
-	eaclocal
-	eautomake
+	eautoreconf
 }
 
 src_configure() {
