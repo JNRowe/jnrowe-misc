@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		The SpatiaLite extension enables <pkg>dev-db/sqlite</pkg> to support
+		spatial data too [aka GEOMETRY], in a way conformant to OpenGis
+		specifications supports standard WKT and WKB formats.  Implements SQL
+		spatial functions such as AsText(), GeomFromText(), Area(), PointN() and
+		alike.
+	</longdescription>
+	<use>
+		<flag name="geos">
+			Support for <pkg>sci-libs/geos</pkg>, increases size considerably
+		</flag>
+		<flag name="proj">
+			Support for <pkg>sci-libs/proj</pkg>
+		</flag>
+	</use>
+	<upstream>
+		<doc lang="en">http://www.gaia-gis.it/spatialite/docs.html</doc>
+	</upstream>
+</pkgmetadata>

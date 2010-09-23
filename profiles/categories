@@ -3,6 +3,7 @@ app-misc
 app-mobilephone
 app-text
 app-vim
+dev-db
 dev-haskell
 dev-lang
 dev-libs
