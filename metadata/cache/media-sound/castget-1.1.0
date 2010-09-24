@@ -6,7 +6,7 @@ mirror://nongnu/castget/castget-1.1.0.tar.bz2
 http://www.nongnu.org/castget/
 LGPL-2.1
 A simple command-line based RSS enclosure downloader
-~amd64 ~x86
+amd64 ~x86
 base eutils multilib portability toolchain-funcs
 id3tag
 
