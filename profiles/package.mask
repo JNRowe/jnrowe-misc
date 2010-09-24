@@ -3,7 +3,6 @@
 # James Rowe <jnrowe@gmail.com> (25 Aug 2010)
 # Haskell support is too brittle to keep this.  Step up if you want it to stay!
 # X-Removal: 2010-09-24
-dev-haskell/configfile
 dev-haskell/missingh
 
 # James Rowe <jnrowe@gmail.com> (22 Aug 2010)
