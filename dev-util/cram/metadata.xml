@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Cram is a functional testing framework for command line applications
+		based on <pkg>dev-vcs/mercurial</pkg>'s unified test format.
+	</longdescription>
+	<upstream>
+		<doc lang="en">http://bitheap.org/cram/</doc>
+		<bugs-to>http://bitbucket.org/brodie/cram/issues/?status=new&amp;status=open</bugs-to>
+	</upstream>
+</pkgmetadata>
