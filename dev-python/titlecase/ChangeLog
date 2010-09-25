@@ -3,6 +3,9 @@
 # $Header: $
 
   25 Sep 2010; James Rowe <jnrowe@gmail.com> titlecase-0.5.1.ebuild:
+  Keyworded x86.
+
+  25 Sep 2010; James Rowe <jnrowe@gmail.com> titlecase-0.5.1.ebuild:
   Keyworded amd64.
 
   26 Aug 2010; James Rowe <jnrowe@gmail.com> titlecase-0.5.1.ebuild:
