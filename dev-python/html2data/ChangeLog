@@ -3,6 +3,9 @@
 # $Header: $
 
   29 Sep 2010; James Rowe <jnrowe@gmail.com> html2data-0.2.ebuild:
+  Keyworded x86.
+
+  29 Sep 2010; James Rowe <jnrowe@gmail.com> html2data-0.2.ebuild:
   Keyworded amd64.
 
 *html2data-0.3 (02 Sep 2010)
