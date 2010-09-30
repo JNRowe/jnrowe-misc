@@ -3,6 +3,9 @@
 # $Header: $
 
   30 Sep 2010; James Rowe <jnrowe@gmail.com> plac-0.7.2.ebuild:
+  Keyworded x86.
+
+  30 Sep 2010; James Rowe <jnrowe@gmail.com> plac-0.7.2.ebuild:
   Keyworded amd64.
 
 *plac-0.7.4 (21 Sep 2010)
