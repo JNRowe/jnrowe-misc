@@ -3,6 +3,9 @@
 # $Header: $
 
   30 Sep 2010; James Rowe <jnrowe@gmail.com> multiprocessing-2.6.2.1.ebuild:
+  Keyworded x86.
+
+  30 Sep 2010; James Rowe <jnrowe@gmail.com> multiprocessing-2.6.2.1.ebuild:
   Keyworded amd64.
 
   31 Aug 2010; James Rowe <jnrowe@gmail.com> multiprocessing-2.6.2.1.ebuild:
