@@ -3,6 +3,9 @@
 # $Header: $
 
   01 Oct 2010; James Rowe <jnrowe@gmail.com> github2-0.1.3.ebuild:
+  Keyworded x86.
+
+  01 Oct 2010; James Rowe <jnrowe@gmail.com> github2-0.1.3.ebuild:
   Keyworded amd64.
 
   01 Sep 2010; James Rowe <jnrowe@gmail.com> github2-0.1.3.ebuild:
