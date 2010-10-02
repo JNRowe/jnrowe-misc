@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*rss2email-2.68 (02 Oct 2010)
+
+  02 Oct 2010; James Rowe <jnrowe@gmail.com> +rss2email-2.68.ebuild:
+  Version bump [#189].
+
   21 Sep 2010; James Rowe <jnrowe@gmail.com>
   -files/rss2email-2.65-X-rss-feed.patch:
   Removed unused patch file.
