@@ -1,6 +1,12 @@
-# ChangeLog for app-misc/taskwarrior
+# ChangeLog for app-misc/task
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*task-1.9.2 (05 Oct 2010)
+
+  05 Oct 2010; James Rowe <jnrowe@gmail.com> +task-1.9.2.ebuild,
+  +metadata.xml:
+  Renamed to task, no longer need ${P} changes.
 
   21 Sep 2010; James Rowe <jnrowe@gmail.com> taskwarrior-1.9.2.ebuild:
   Comment the reason vim syntax files are included, given that new vim

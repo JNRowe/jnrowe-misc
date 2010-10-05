@@ -6,10 +6,9 @@ EAPI="2"
 
 inherit autotools bash-completion
 
-MY_P=task-${PV}
 DESCRIPTION="A GTD, todo list, task management, command line utility"
 HOMEPAGE="http://taskwarrior.org/projects/show/taskwarrior/"
-SRC_URI="http://taskwarrior.org/download/${MY_P}.tar.gz"
+SRC_URI="http://taskwarrior.org/download/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
@@ -18,8 +17,6 @@ IUSE="nls vim-syntax zsh-completion"
 
 DEPEND="dev-lang/lua"
 RDEPEND="${DEPEND}"
-
-S="${WORKDIR}"/${MY_P}
 
 src_prepare() {
 	sed -i 's,-pedantic -O3,,' configure.ac
