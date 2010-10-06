@@ -10,4 +10,7 @@
 		Colour output plugin for the <pkg>dev-python/nose</pkg> testing
 		framework.  Use nosetests --with-color (no "u"!) to turn it on.
 	</longdescription>
+	<upstream>
+		<remote-id type="pypi">rudolf</remote-id>
+	</upstream>
 </pkgmetadata>
