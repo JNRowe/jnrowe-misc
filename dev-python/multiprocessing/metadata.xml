@@ -15,4 +15,7 @@
 		multiple processors on a given machine. It runs on both Unix and
 		Windows.
 	</longdescription>
+	<upstream>
+		<remote-id type="pypi">multiprocessing</remote-id>
+	</upstream>
 </pkgmetadata>
