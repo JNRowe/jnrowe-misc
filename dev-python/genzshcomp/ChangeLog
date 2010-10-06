@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 Oct 2010; James Rowe <jnrowe@gmail.com> metadata.xml:
+  Added remote-id to metadata.
+
   21 Apr 2010; James Rowe <jnrowe@gmail.com> genzshcomp-0.0.8.ebuild:
   Keyworded x86.
 
