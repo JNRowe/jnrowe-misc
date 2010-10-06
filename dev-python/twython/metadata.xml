@@ -19,6 +19,7 @@
 		twython.setup() call).
 	</longdescription>
 	<upstream>
+		<remote-id type="pypi">twython</remote-id>
 		<bugs-to>http://github.com/ryanmcgrath/twython/issues</bugs-to>
 	</upstream>
 </pkgmetadata>
