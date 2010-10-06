@@ -12,6 +12,7 @@
 	</longdescription>
 	<upstream>
 		<changelog>http://pypi.python.org/pypi/termcolor/#changes</changelog>
+		<remote-id type="pypi">termcolor</remote-id>
 		<doc lang="en">http://pypi.python.org/pypi/termcolor</doc>
 	</upstream>
 </pkgmetadata>
