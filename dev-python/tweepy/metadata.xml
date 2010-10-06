@@ -19,6 +19,7 @@
 	<upstream>
 		<changelog>http://github.com/joshthecoder/tweepy/raw/master/CHANGELOG</changelog>
 		<doc lang="en">http://joshthecoder.github.com/tweepy/docs/index.html</doc>
+		<remote-id type="pypi">tweepy</remote-id>
 		<bugs-to>http://github.com/joshthecoder/tweepy/issues</bugs-to>
 	</upstream>
 </pkgmetadata>
