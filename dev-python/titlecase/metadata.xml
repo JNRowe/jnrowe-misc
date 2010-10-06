@@ -17,6 +17,7 @@
 		Times Manual of Style, plus 'vs' and 'v'.
 	</longdescription>
 	<upstream>
+		<remote-id type="pypi">titlecase</remote-id>
 		<bugs-to>https://bugs.launchpad.net/titlecase.py</bugs-to>
 	</upstream>
 </pkgmetadata>
