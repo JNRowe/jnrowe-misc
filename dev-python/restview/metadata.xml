@@ -23,6 +23,7 @@
 		</flag>
 	</use>
 	<upstream>
+		<remote-id type="pypi">restview</remote-id>
 		<bugs-to>https://bugs.launchpad.net/restview</bugs-to>
 	</upstream>
 </pkgmetadata>
