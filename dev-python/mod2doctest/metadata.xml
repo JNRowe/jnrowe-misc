@@ -24,5 +24,6 @@
 	</longdescription>
 	<upstream>
 		<doc lang="en">http://packages.python.org/mod2doctest/</doc>
+		<remote-id type="pypi">mod2doctest</remote-id>
 	</upstream>
 </pkgmetadata>
