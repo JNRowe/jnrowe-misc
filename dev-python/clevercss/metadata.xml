@@ -16,6 +16,7 @@
 		nonetheless a good idea for structural styles.
 	</longdescription>
 	<upstream>
+		<remote-id type="pypi">clevercss</remote-id>
 		<doc lang="en">http://sandbox.pocoo.org/clevercss/</doc>
 	</upstream>
 </pkgmetadata>
