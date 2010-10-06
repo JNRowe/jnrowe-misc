@@ -48,5 +48,6 @@
 	</longdescription>
 	<upstream>
 		<doc lang="en">http://micheles.googlecode.com/hg/plac/doc/plac.html</doc>
+		<remote-id type="pypi">plac</remote-id>
 	</upstream>
 </pkgmetadata>
