@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		This package contains the <pkg>media-gfx/blockdiag</pkg>
+		<pkg>dev-python/sphinx</pkg> extension.
+
+		This extension enable you to insert block diagrams in your Sphinx document.
+	</longdescription>
+	<upstream>
+		<bugs-to>http://bitbucket.org/birkenfeld/sphinxcontrib/issues/?status=new&amp;status=open</bugs-to>
+	</upstream>
+</pkgmetadata>
