@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 Oct 2010; James Rowe <jnrowe@gmail.com> metadata.xml:
+  Added remote-id to metadata.
+
   05 Jul 2010; James Rowe <jnrowe@gmail.com> -dexml-0.3.5.ebuild,
   dexml-0.3.6.ebuild:
   Keyworded x86.

@@ -18,5 +18,7 @@
 		inspired by Django's ORM, you write simple class definitions to define
 		the expected structure of your XML document. 
 	</longdescription>
+	<upstream>
+		<remote-id type="pypi">dexml</remote-id>
+	</upstream>
 </pkgmetadata>
-
