@@ -21,4 +21,7 @@
 
 		(The options NORMALIZE_WHITESPACE and COMPARE are also available)
 	</longdescription>
+	<upstream>
+		<remote-id type="pypi">dtopt</remote-id>
+	</upstream>
 </pkgmetadata>
