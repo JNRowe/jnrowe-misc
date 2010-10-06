@@ -12,9 +12,8 @@
 	</longdescription>
 	<upstream>
 		<doc lang="en">http://bitbucket.org/runeh/urlunshort/src/tip/README</doc>
+		<remote-id type="pypi">urlunshort</remote-id>
 		<changelog>http://bitbucket.org/runeh/urlunshort/src/tip/CHANGELOG</changelog>
 		<bugs-to>http://bitbucket.org/runeh/urlunshort/issues/?status=new&amp;status=open</bugs-to>
 	</upstream>
-	
 </pkgmetadata>
-
