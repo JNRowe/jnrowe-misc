@@ -15,6 +15,7 @@
 		* Multilingualization for node-label (utf-8 only).
 	</longdescription>
 	<upstream>
+		<remote-id type="pypi">blockdiag</remote-id>
 		<bugs-to>http://bitbucket.org/tk0miya/blockdiag/issues/?status=new&amp;status=open</bugs-to>
 	</upstream>
 </pkgmetadata>
