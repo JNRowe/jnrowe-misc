@@ -1,6 +1,9 @@
 # ChangeLog for dev-ruby/trollop
-# Copyright 1999-2009 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  06 Oct 2010; James Rowe <jnrowe@gmail.com> metadata.xml:
+  Added remote-id to metadata.
 
   12 Nov 2009; James Rowe <jnrowe@gmail.com> trollop-1.15.ebuild:
   Switched to EAPI 2.

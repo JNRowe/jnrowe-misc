@@ -15,6 +15,7 @@
 	</maintainer>
 	<upstream>
 		<changelog>http://gitorious.org/trollop/mainline/blobs/raw/master/History.txt</changelog>
+		<remote-id type="rubyforge">trollop</remote-id>
 		<doc lang="en">http://trollop.rubyforge.org/</doc>
 	</upstream>
 </pkgmetadata>
