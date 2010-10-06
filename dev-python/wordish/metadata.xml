@@ -22,6 +22,7 @@
 			* then parses for the prompt which ends the output,
 	</longdescription>
 	<upstream>
+		<remote-id type="pypi">wordish</remote-id>
 		<doc lang="en">http://jdb.github.com/wordish/</doc>
 	</upstream>
 </pkgmetadata>
