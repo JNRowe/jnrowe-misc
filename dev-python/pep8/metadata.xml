@@ -14,6 +14,7 @@
 	<upstream>
 		<changelog>http://github.com/cburroughs/pep8.py/raw/master/CHANGES.txt</changelog>
 		<doc lang="en">http://github.com/cburroughs/pep8.py/raw/master/README.rst</doc>
+		<remote-id type="pypi">pep8</remote-id>
 		<bugs-to>http://github.com/cburroughs/pep8.py/issues</bugs-to>
 	</upstream>
 </pkgmetadata>
