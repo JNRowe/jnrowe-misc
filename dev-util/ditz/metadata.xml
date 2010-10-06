@@ -24,6 +24,7 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<upstream>
+		<remote-id type="rubyforge">ditz</remote-id>
 		<changelog>http://gitorious.org/ditz/mainline/blobs/raw/master/Changelog</changelog>
 		<doc lang="en">http://ditz.rubyforge.org/README.txt</doc>
 	</upstream>
