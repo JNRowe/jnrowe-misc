@@ -15,6 +15,7 @@
 	<upstream>
 		<changelog>http://code.google.com/p/nosetty/source/browse/trunk/CHANGELOG.txt</changelog>
 		<doc lang="en">http://code.google.com/p/nosetty/</doc>
+		<remote-id type="pypi">nosetty</remote-id>
 		<bugs-to>http://code.google.com/p/nosetty/issues/list</bugs-to>
 	</upstream>
 </pkgmetadata>
