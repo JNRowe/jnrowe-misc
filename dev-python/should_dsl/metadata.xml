@@ -12,6 +12,7 @@
 	</longdescription>
 	<upstream>
 		<doc lang="en">http://github.com/hugobr/should-dsl/raw/master/README.rst</doc>
+		<remote-id type="pypi">should_dsl</remote-id>
 		<bugs-to>http://github.com/hugobr/should-dsl/issues</bugs-to>
 	</upstream>
 </pkgmetadata>
