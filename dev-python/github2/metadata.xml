@@ -13,6 +13,7 @@
 	<upstream>
 		<doc
 			lang="en">http://github.com/ask/python-github2/blob/master/README.rst#readme</doc>
+		<remote-id type="pypi">github2</remote-id>
 		<bugs-to>http://github.com/ask/python-github2/issues</bugs-to>
 	</upstream>
 </pkgmetadata>
