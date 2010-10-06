@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 Oct 2010; James Rowe <jnrowe@gmail.com> funcparserlib-0.3.4.ebuild:
+  Keyworded ~x86.
+
 *funcparserlib-0.3.4 (06 Oct 2010)
 
   06 Oct 2010; James Rowe <jnrowe@gmail.com> +funcparserlib-0.3.4.ebuild,
