@@ -14,6 +14,7 @@
 	</maintainer>
 	<upstream>
 		<changelog>http://packages.python.org/sphinxcontrib-aafig/#changelog</changelog>
+		<remote-id type="pypi">sphinxcontrib-aafig</remote-id>
 		<doc lang="en">http://packages.python.org/sphinxcontrib-aafig/#usage</doc>
 		<bugs-to>mailto:llucax%40gmail.com</bugs-to>
 	</upstream>
