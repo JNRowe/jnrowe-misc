@@ -15,4 +15,7 @@
 		Highlighting is specified with re-usable colorer files. Colorer files
 		are written in YAML.
 	</longdescription>
+	<upstream>
+		<remote-id type="pypi">rad</remote-id>
+	</upstream>
 </pkgmetadata>
