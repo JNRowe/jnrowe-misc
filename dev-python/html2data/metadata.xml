@@ -9,4 +9,7 @@
 	<longdescription lang="en">
 		A simple way to transform a HTML file or URL to structured data.
 	</longdescription>
+	<upstream>
+		<remote-id type="pypi">html2data</remote-id>
+	</upstream>
 </pkgmetadata>
