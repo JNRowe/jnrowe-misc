@@ -47,5 +47,6 @@ REM 2010-11-05 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/funcparserlib
 REM 2010-11-05 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/blockdiag-0.3.1 %a
 REM 2010-11-05 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/blockdiag-0.3.1 %a
 REM 2010-11-05 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/sphinxcontrib-blockdiag-0.3.1 %a
+REM 2010-11-05 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/sphinxcontrib-blockdiag-0.3.1 %a
 
 # vim: set sw=4 sts=4 et tw=120 fenc=utf-8 ft=remind:
