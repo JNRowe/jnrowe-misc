@@ -22,4 +22,7 @@
 		sequences to produce colored output on Linux or Macs can now also work
 		on Windows, simply by calling colorama.init().
 	</longdescription>
+	<upstream>
+		<remote-id type="pypi">colorama</remote-id>
+	</upstream>
 </pkgmetadata>
