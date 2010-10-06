@@ -1,4 +1,4 @@
-doc? ( media-gfx/sphinxcontrib-aafig ) >=app-admin/eselect-python-20091230 dev-lang/python
+doc? ( media-gfx/sphinxcontrib-aafig ) dev-python/imaging docutils? ( >=dev-python/docutils-0.5 dev-python/setuptools ) pdf? ( dev-python/reportlab ) >=app-admin/eselect-python-20091230 dev-lang/python
 dev-python/imaging docutils? ( >=dev-python/docutils-0.5 dev-python/setuptools ) pdf? ( dev-python/reportlab ) >=app-admin/eselect-python-20091230 dev-lang/python
 0
 mirror://pypi/a/aafigure/aafigure-0.5.tar.gz
