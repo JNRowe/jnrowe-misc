@@ -20,8 +20,8 @@
 	</longdescription>
 	<upstream>
 		<doc lang="en">http://packages.python.org/Logbook/</doc>
+		<remote-id type="pypi">logbook</remote-id>
 		<changelog>http://github.com/mitsuhiko/logbook/blob/master/CHANGES#readme</changelog>
 		<bugs-to>http://github.com/mitsuhiko/logbook/issues</bugs-to>
 	</upstream>
 </pkgmetadata>
-
