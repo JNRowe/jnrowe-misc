@@ -13,6 +13,7 @@
 	</longdescription>
 	<upstream>
 		<doc lang="en">http://pythonpaste.org/scripttest/</doc>
+		<remote-id type="pypi">scripttest</remote-id>
 		<changelog>http://pythonpaste.org/scripttest/news.html</changelog>
 		<bugs-to>http://bitbucket.org/user/scripttest/issues/?status=new&amp;status=open</bugs-to>
 	</upstream>
