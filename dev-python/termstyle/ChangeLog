@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 Oct 2010; James Rowe <jnrowe@gmail.com> metadata.xml:
+  Added remote-id to metadata.
+
   07 Jul 2010; James Rowe <jnrowe@gmail.com> termstyle-0.1.5.ebuild:
   Enable multi-ABI support for Python v2.
 
