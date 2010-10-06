@@ -13,6 +13,7 @@
 		a terminal (i.e not piping it to a file).
 	</longdescription>
 	<upstream>
+		<remote-id type="pypi">rednose</remote-id>
 		<bugs-to>http://github.com/gfxmonk/rednose/issues</bugs-to>
 	</upstream>
 </pkgmetadata>
