@@ -10,6 +10,7 @@
 		A simple wrapper for GitHub's gist API.
 	</longdescription>
 	<upstream>
+		<remote-id type="pypi">gistapi</remote-id>
 		<changelog>http://github.com/kennethreitz/gistapi.py/blob/master/HISTORY.rst#readme</changelog>
 		<bugs-to>http://github.com/kennethreitz/gistapi/issues</bugs-to>
 	</upstream>
