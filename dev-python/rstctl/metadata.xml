@@ -9,4 +9,7 @@
 	<longdescription lang="en">
 		Preview reST files and Python package descriptions.
 	</longdescription>
+	<upstream>
+		<remote-id type="pypi">rstctl</remote-id>
+	</upstream>
 </pkgmetadata>
