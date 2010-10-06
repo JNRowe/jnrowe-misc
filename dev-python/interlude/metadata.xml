@@ -13,4 +13,7 @@
 		paste code from the shell into your doctest. It feels as you are in the
 		test case itself. Its not pdb, it's a python shell.
 	</longdescription>
+	<upstream>
+		<remote-id type="pypi">interlude</remote-id>
+	</upstream>
 </pkgmetadata>
