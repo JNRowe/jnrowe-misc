@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		blockdiag generates block-diagram image files from spec-text file.
+		
+		Features:
+		
+		* Generate block-diagram from dot like text (basic feature).
+		* Multilingualization for node-label (utf-8 only).
+	</longdescription>
+	<upstream>
+		<bugs-to>http://bitbucket.org/tk0miya/blockdiag/issues/?status=new&amp;status=open</bugs-to>
+	</upstream>
+</pkgmetadata>
