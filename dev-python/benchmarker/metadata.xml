@@ -9,5 +9,7 @@
 	<longdescription lang="en">
 		Benchmarker is a small utility for benchmarking.
 	</longdescription>
+	<upstream>
+		<remote-id type="pypi">benchmarker</remote-id>
+	</upstream>
 </pkgmetadata>
-
