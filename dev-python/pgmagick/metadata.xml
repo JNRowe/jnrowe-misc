@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		pgmagick is a yet another <pkg>dev-libs/boost</pkg>.python based wrapper
+		for <pkg>media-gfx/graphicsmagick</pkg>.
+
+		The documentation for graphicsmagick is a good starting point for
+		understanding the exposed API, it can be found at
+		http://www.graphicsmagick.org/Magick++/
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">pgmagick</remote-id>
+	</upstream>
+</pkgmetadata>
