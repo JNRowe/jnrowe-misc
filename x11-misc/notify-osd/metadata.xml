@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		The freedesktop.org Desktop Notifications Specification provides
+		a standard way for applications to display pop-up notifications. These
+		are designed to make you aware of something, without interrupting your
+		work with a window you must close.
+
+		Notify OSD presents these notifications as ephemeral overlays, which can
+		be clicked through so they don't block your work. It queues
+		notifications, to prevent them from flooding your screen. And as well as
+		handling standard notification updates, Notify OSD introduces the idea
+		of appending — allowing notifications to grow over time, for example in
+		the case of instant messages from a particular person.
+	</longdescription>
+	<upstream>
+		<doc lang="en">https://wiki.ubuntu.com/NotifyOSD</doc>
+		<bugs-to>https://bugs.launchpad.net/notify-osd</bugs-to>
+	</upstream>
+</pkgmetadata>
