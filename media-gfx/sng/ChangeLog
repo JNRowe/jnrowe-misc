@@ -2,6 +2,13 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*sng-1.0.2-r1 (08 Oct 2010)
+
+  08 Oct 2010; James Rowe <jnrowe@gmail.com> +sng-1.0.2-r1.ebuild,
+  +files/sng-1.0.2-libpng_1_4_fix.patch:
+  Fixed for compilation with libpng-1.4 [200]. Thanks to Daniel Brew for
+  reporting.
+
   10 Jun 2010; James Rowe <jnrowe@gmail.com> sng-1.0.2.ebuild:
   Switched to using base.eclass' src_install.
 

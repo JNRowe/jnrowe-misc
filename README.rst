@@ -25,6 +25,7 @@ Bug reports
 '''''''''''
 
 * Jake Archer
+* Daniel Brew
 * Dennis Bruce
 * Kristian Cole
 * Fabien Courtois
