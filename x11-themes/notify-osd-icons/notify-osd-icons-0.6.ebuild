@@ -12,7 +12,7 @@ SRC_URI="mirror://ubuntu/pool/main/${PN::1}/${PN}/${PN}_${PV}.tar.gz"
 
 LICENSE="CCPL-Attribution-ShareAlike-3.0"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE="png-icons"
 
 DEPEND="gnome-base/librsvg
