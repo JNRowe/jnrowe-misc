@@ -13,7 +13,7 @@ SRC_URI="http://launchpad.net/${PN}/lucid/ubuntu-10.04-beta-2/+download/${P}.tar
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE="examples"
 
 RDEPEND="dev-libs/dbus-glib

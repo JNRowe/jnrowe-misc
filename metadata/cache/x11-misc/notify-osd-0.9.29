@@ -6,7 +6,7 @@ test
 https://launchpad.net/notify-osd
 GPL-3
 Canonical's on-screen-display notification agent
-~amd64
+~amd64 ~x86
 fdo-mime gnome.org gnome2 gnome2-utils libtool multilib toolchain-funcs
 examples
 
