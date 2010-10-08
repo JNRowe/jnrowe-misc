@@ -4,7 +4,6 @@
 # Testing only, do not use notify-osd on general systems.  Expect your
 # notifications to be broken if you do so anyway.
 x11-misc/notify-osd
-x11-themes/notify-osd-icons
 
 # James Rowe <jnrowe@gmail.com> (22 Aug 2010)
 # Unacceptable runtime increase, breaks reporting for other plugins.
