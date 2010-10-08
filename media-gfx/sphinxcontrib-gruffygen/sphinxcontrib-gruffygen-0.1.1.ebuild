@@ -14,7 +14,7 @@ DESCRIPTION="Sphinx extension to support media-gfx/gruffy graphs"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools"
