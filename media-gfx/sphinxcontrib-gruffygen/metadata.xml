@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		This is Graphing extension for <pkg>dev-python/sphinx</pkg>. This
+		extension adds the gruffy directive that automatically renders graphs
+		using <pkg>media-gfx/gruffy</pkg>.
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">sphinxcontrib-gruffygen</remote-id>
+	</upstream>
+</pkgmetadata>
