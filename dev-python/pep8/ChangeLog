@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Oct 2010; James Rowe <jnrowe@gmail.com> -pep8-0.6.0.ebuild,
+  +pep8-0.6.1.ebuild:
+  Version bump [197]. Droped 0.6.0 due to upstream versioning problems.
+
   06 Oct 2010; James Rowe <jnrowe@gmail.com> metadata.xml:
   Added remote-id to metadata.
 
