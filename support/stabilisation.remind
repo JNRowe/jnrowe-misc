@@ -58,5 +58,7 @@ REM 2010-11-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 x11-themes/notify-osd-
 REM 2010-11-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 x11-themes/notify-osd-icons-0.3 %a
 REM 2010-11-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/html-1.13 %a
 REM 2010-11-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/html-1.13 %a
+REM 2010-11-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/mod2doctest-0.2.0 %a
+REM 2010-11-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/mod2doctest-0.2.0 %a
 
 # vim: set sw=4 sts=4 et tw=120 fenc=utf-8 ft=remind:
