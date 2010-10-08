@@ -21,3 +21,5 @@ DEPEND="dev-python/setuptools"
 RDEPEND="dev-python/setuptools"
 
 DOCS="CHANGES.txt TODO.txt"
+
+PYTHON_MODNAME="pep8.py"
