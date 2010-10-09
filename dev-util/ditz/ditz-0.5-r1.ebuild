@@ -20,7 +20,7 @@ HOMEPAGE="http://ditz.rubyforge.org"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="zsh-completion"
 
 DEPEND=""
