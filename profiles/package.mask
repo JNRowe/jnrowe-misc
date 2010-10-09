@@ -1,5 +1,9 @@
 # extra line needed because portage is buggy
 
+# James Rowe <jnrowe@gmail.com> (09 Oct 2010)
+# live ebuild for git-sync
+=dev-vcs/git-sync-9999
+
 # James Rowe <jnrowe@gmail.com> (08 Oct 2010)
 # Testing only, do not use notify-osd on general systems.  Expect your
 # notifications to be broken if you do so anyway.

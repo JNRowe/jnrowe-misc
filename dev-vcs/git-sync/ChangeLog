@@ -1,0 +1,10 @@
+# ChangeLog for dev-vcs/git-sync
+# Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*git-sync-9999 (09 Oct 2010)
+
+  09 Oct 2010; James Rowe <jnrowe@gmail.com> +git-sync-9999.ebuild,
+  +metadata.xml:
+  Initial ebuild, by me [201].
+

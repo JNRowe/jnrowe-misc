@@ -1,0 +1,22 @@
+>=dev-vcs/git-1.6
+dev-perl/JSON-Any dev-perl/libwww-perl dev-vcs/git virtual/perl-Getopt-Long virtual/perl-PodParser virtual/perl-Term-ANSIColor
+0
+
+
+http://github.com/bestpractical/git-sync
+|| ( Artistic GPL-1 GPL-2 GPL-3 )
+A tool to synchronize multiple git repositories
+
+eutils git multilib portability toolchain-funcs
+
+
+
+
+3
+
+compile install prepare unpack
+
+
+
+
+
