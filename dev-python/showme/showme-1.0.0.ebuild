@@ -13,7 +13,7 @@ DESCRIPTION="Painless Debugging and Inspection for Python"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE="test"
 
 DEPEND=""

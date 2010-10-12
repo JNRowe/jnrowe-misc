@@ -3,6 +3,9 @@
 # $Header: $
 
   12 Oct 2010; James Rowe <jnrowe@gmail.com> showme-1.0.0.ebuild:
+  Keyworded ~x86.
+
+  12 Oct 2010; James Rowe <jnrowe@gmail.com> showme-1.0.0.ebuild:
   Fixed duplicated test dependencies, caused by now fixed bug in paralax.
 
 *showme-1.0.0 (12 Oct 2010)
