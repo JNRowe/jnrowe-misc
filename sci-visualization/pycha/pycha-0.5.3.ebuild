@@ -17,10 +17,9 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE="examples test"
 
+DEPEND="dev-python/setuptools"
 RDEPEND="dev-python/pycairo
 	dev-python/pygtk"
-DEPEND="dev-python/setuptools
-	test? ( ${RDEPEND} )"
 
 DOCS="CHANGES.txt"
 
