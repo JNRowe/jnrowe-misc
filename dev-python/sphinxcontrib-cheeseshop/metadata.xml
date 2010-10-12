@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription lang="en">
+		This <pkg>dev-python/sphinx</pkg> extension adds directives for easy
+		linking to Cheese Shop (Python Package Index) packages. It requires
+		Sphinx 1.0.
+
+		It supports a directive and a role, as well as a new config value.
+
+		The pypi-release directive adds an HTML-only output block that
+		automatically fetches the download links for the latest release of the
+		given package and displays them as a list.
+	</longdescription>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">sphinxcontrib-cheeseshop</remote-id>
+	</upstream>
+</pkgmetadata>
