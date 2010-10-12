@@ -16,9 +16,9 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE="test"
 
+DEPEND=""
 RDEPEND="dev-python/colorama
 	dev-python/decorator"
-DEPEND="test? ( ${RDEPEND} )"
 
 DOCS="HISTORY.rst ROADMAP.rst"
 
