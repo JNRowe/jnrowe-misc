@@ -19,8 +19,8 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="test"
 
+DEPEND=""
 RDEPEND="dev-python/pytz"
-DEPEND="test? ( ${RDEPEND} )"
 
 PYTHON_MODNAME="${PN}.py"
 
