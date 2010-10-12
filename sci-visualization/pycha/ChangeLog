@@ -3,6 +3,9 @@
 # $Header: $
 
   12 Oct 2010; James Rowe <jnrowe@gmail.com> pycha-0.5.3.ebuild:
+  Keyworded ~x86.
+
+  12 Oct 2010; James Rowe <jnrowe@gmail.com> pycha-0.5.3.ebuild:
   Fixed duplicated test dependencies, caused by now fixed bug in paralax.
 
 *pycha-0.5.3 (12 Oct 2010)
