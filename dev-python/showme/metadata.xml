@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		ShowMe is a simple set of extremely useful function decorators for
+		Python. It allows you to view trace information, execution time,
+		cputime, and function documentation.
+	</longdescription>
+	<upstream>
+		<doc lang="en">http://pypi.python.org/pypi/showme/</doc>
+		<remote-id type="pypi">showme</remote-id>
+		<changelog>http://pypi.python.org/pypi/showme/#history</changelog>
+		<bugs-to>http://github.com/kennethreitz/showme/issues</bugs-to>
+	</upstream>
+</pkgmetadata>
