@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  15 Oct 2010; James Rowe <jnrowe@gmail.com> -termcolor-0.1.2.ebuild,
+  termcolor-0.2.ebuild:
+  Keyworded x86.
+
   15 Oct 2010; James Rowe <jnrowe@gmail.com> termcolor-0.2.ebuild:
   Keyworded amd64.
 
