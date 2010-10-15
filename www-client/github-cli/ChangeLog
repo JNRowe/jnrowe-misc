@@ -3,6 +3,9 @@
 # $Header: $
 
   15 Oct 2010; James Rowe <jnrowe@gmail.com> github-cli-0.2.9.ebuild:
+  Keyworded x86.
+
+  15 Oct 2010; James Rowe <jnrowe@gmail.com> github-cli-0.2.9.ebuild:
   Keyworded amd64.
 
   06 Oct 2010; James Rowe <jnrowe@gmail.com> metadata.xml:
