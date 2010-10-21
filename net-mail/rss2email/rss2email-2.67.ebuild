@@ -12,7 +12,7 @@ HOMEPAGE="http://www.allthingsrss.com/rss2email/"
 SRC_URI="http://www.allthingsrss.com/${PN}/${P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="dev-lang/python"
