@@ -9,11 +9,6 @@
 # notifications to be broken if you do so anyway.
 x11-misc/notify-osd
 
-# James Rowe <jnrowe@gmail.com> (22 Aug 2010)
-# Doesn't work correctly with doctests.
-# X-Removal: 2010-10-21
-dev-python/rednose
-
 # James Rowe <jnrowe@gmail.com> (15 May 2010)
 # live ebuild for sphinx-to-github
 =dev-python/sphinx-to-github-9999
