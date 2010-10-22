@@ -1,5 +1,4 @@
 REM 2010-10-22 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-vcs/gitserve-0.2.0-r2 %a
-REM 2010-10-22 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-vcs/gitserve-0.2.0-r2 %a
 REM 2010-10-23 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-db/spatialite-2.3.1 %a
 REM 2010-10-23 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-db/spatialite-2.3.1 %a
 REM 2010-10-23 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-db/spatialite-tools-2.3.1 %a
