@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		OnTV is a GNOME Applet written in <pkg>dev-lang/python</pkg> using
+		<pkg>dev-python/pygtk</pkg>, it uses <pkg>media-tv/xmltv</pkg> files to
+		monitor current and upcoming TV programs. Features include:
+
+		* Program descriptions as tooltips.
+		* Remaining time of/until current and upcoming programs.
+		* Program search dialog with incremental search.
+		* Global keybindings for most common actions.
+		* Program reminders.
+
+		and more...
+	</longdescription>
+	<upstream>
+		<bugs-to>https://bugzilla.gnome.org/enter_bug.cgi?product=OnTV</bugs-to>
+	</upstream>
+</pkgmetadata>
