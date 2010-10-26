@@ -8,6 +8,7 @@ mail-client/notmuch:vim - Install the vim interface for notmuch
 media-gfx/aafigure:docutils - Adds a directive for aafigure support to dev-python/docutils
 media-sound/castget:id3tag - Enable support for ID3 tag writing via media-libs/id3lib
 media-sound/mpdcron:scrobbler - Enable support for last.fm aka audioscrobbler
+media-tv/ontv:xmltv - XMLTV is probably required for downloading TV listings, do *NOT* unset this flag unless you understand the consequences.
 sci-geosciences/osm-gps-map:introspection - Use dev-libs/gobject-introspection for introspection
 x11-misc/winwrangler:daemon - Enable support for winwrangler hotkey daemon
 x11-themes/notify-osd-icons:png-icons - Build and install PNG icons, in addition to SVG.

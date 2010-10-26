@@ -15,7 +15,7 @@ HOMEPAGE="http://live.gnome.org/OnTV"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE=""
+IUSE="+xmltv"
 
 COMMON_DEPEND="dev-python/gnome-python
 	dev-python/pygtk
@@ -24,7 +24,7 @@ COMMON_DEPEND="dev-python/gnome-python
 	x11-libs/vte[python]"
 RDEPEND="${COMMON_DEPEND}
 	dev-python/dbus-python
-	media-tv/xmltv"
+	xmltv? ( media-tv/xmltv )"
 DEPEND="${COMMON_DEPEND}
 	dev-util/intltool
 	dev-util/pkgconfig"
@@ -44,6 +44,9 @@ src_prepare() {
 pkg_postinst() {
 	gnome2_pkg_postinst
 	distutils_pkg_postinst
+	if ! use xmltv; then
+		ewarn "You must enable USE=xmltv if you wish to download TV listings!"
+	fi
 }
 
 pkg_postrm() {

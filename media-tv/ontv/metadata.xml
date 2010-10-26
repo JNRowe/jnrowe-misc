@@ -19,6 +19,12 @@
 
 		and more...
 	</longdescription>
+	<use>
+		<flag name="xmltv">
+			XMLTV is probably required for downloading TV listings, do *NOT*
+			unset this flag unless you understand the consequences.
+		</flag>
+	</use>
 	<upstream>
 		<bugs-to>https://bugzilla.gnome.org/enter_bug.cgi?product=OnTV</bugs-to>
 	</upstream>
