@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*logbook-0.3 (30 Oct 2010)
+
+  30 Oct 2010; James Rowe <jnrowe@gmail.com> +logbook-0.3.ebuild:
+  Version bump [206].
+
   22 Oct 2010; James Rowe <jnrowe@gmail.com> -logbook-0.1.ebuild,
   logbook-0.2.1.ebuild:
   Keyworded x86.
