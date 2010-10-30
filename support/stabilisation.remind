@@ -34,6 +34,8 @@ REM 2010-11-28 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/blockdiag-0.
 REM 2010-11-28 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/blockdiag-0.5.1 %a
 REM 2010-11-28 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/sphinxcontrib-blockdiag-0.5.1 %a
 REM 2010-11-28 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/sphinxcontrib-blockdiag-0.5.1 %a
+REM 2010-11-29 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-vcs/gitflow-0.4 %a
+REM 2010-11-29 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-vcs/gitflow-0.4 %a
 REM 2010-12-09 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 sci-visualization/pycha-0.5.3 %a
 REM 2010-12-09 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 sci-visualization/pycha-0.5.3 %a
 REM 2010-12-09 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/showme-1.0.0 %a
