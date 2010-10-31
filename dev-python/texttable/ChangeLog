@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*texttable-0.7.0-r1 (31 Oct 2010)
+
+  31 Oct 2010; James Rowe <jnrowe@gmail.com> +texttable-0.7.0-r1.ebuild:
+  Support multiple Python versions, and fix modname for bytecode compilation
+  [219].
+
   21 Mar 2010; James Rowe <jnrowe@gmail.com> texttable-0.7.0.ebuild:
   Added PYTHON_DEPEND setting.
 

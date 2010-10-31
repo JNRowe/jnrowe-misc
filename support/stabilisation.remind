@@ -42,6 +42,8 @@ REM 2010-11-30 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/lettuce-0.1
 REM 2010-11-30 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/lettuce-0.1.15 %a
 REM 2010-11-30 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/github2-0.2.0 %a
 REM 2010-11-30 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/github2-0.2.0 %a
+REM 2010-11-30 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/texttable-0.7.0-r1 %a
+REM 2010-11-30 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/texttable-0.7.0-r1 %a
 REM 2010-12-09 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 sci-visualization/pycha-0.5.3 %a
 REM 2010-12-09 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 sci-visualization/pycha-0.5.3 %a
 REM 2010-12-09 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/showme-1.0.0 %a
