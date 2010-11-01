@@ -8,10 +8,10 @@ Display-If-Installed: dev-util/wingide
 Display-If-Profile: default/linux/x86
 
 Unless somebody with a valid professional key for wingide steps up to
-maintain the ebuild for x86 soon the x86 keyword will have to be dropped
+maintain the ebuild for x86 then the x86 keyword will have to be dropped
 for new releases.  Nobody with commit, or for that matter direct bug
-access, on this overlay who uses wingide and has access to x86 hardware
-to test releases.
+access, on this overlay who uses wingide has access to x86 hardware to
+test releases.
 
 If you don't want to see support for this package dropped now is the
 time to speak up, and as always patches are the loudest and most
