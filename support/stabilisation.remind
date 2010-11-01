@@ -43,6 +43,7 @@ REM 2010-11-30 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/texttable-0.7
 REM 2010-12-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/pycparser-2.00 %a
 REM 2010-12-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/pycparser-2.00 %a
 REM 2010-12-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/gpxdata-1.0 %a
+REM 2010-12-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/gpxdata-1.0 %a
 REM 2010-12-09 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 sci-visualization/pycha-0.5.3 %a
 REM 2010-12-09 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 sci-visualization/pycha-0.5.3 %a
 REM 2010-12-09 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/showme-1.0.0 %a
