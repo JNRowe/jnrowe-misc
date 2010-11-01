@@ -19,7 +19,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="examples"
 
-DEPEND=""
+DEPEND="!mail-filter/maildirproc"
 RDEPEND="${DEPEND}"
 
 src_prepare() {
