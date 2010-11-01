@@ -1,0 +1,22 @@
+>=app-admin/eselect-python-20091230 || ( =dev-lang/python-3.2* =dev-lang/python-3.1* =dev-lang/python-3.0* =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* ) test? ( dev-python/nose )
+dev-python/ply >=app-admin/eselect-python-20091230 || ( =dev-lang/python-3.2* =dev-lang/python-3.1* =dev-lang/python-3.0* =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* )
+0
+http://pycparser.googlecode.com/files/pycparser-2.00.zip
+
+http://code.google.com/p/pycparser/
+LGPL-3
+C parser and AST generator written in Python
+~amd64
+distutils multilib python toolchain-funcs
+examples test
+
+
+
+3
+
+compile install postinst postrm prepare test
+
+
+
+
+

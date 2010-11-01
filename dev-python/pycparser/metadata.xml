@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		pycparser is a complete parser for the C language, written in pure
+		Python. It is a module designed to be easily integrated into
+		applications that need to parse C source code.
+
+		The following are some uses for pycparser, taken from real user reports:
+
+		* C code obfuscator
+		* Front-end for various specialized C compilers
+		* Static code checker
+		* Automatic unit-test discovery
+		* Adding specialized extensions to the C language
+	</longdescription>
+	<upstream>
+		<doc lang="en">http://code.google.com/p/pycparser/w/list</doc>
+		<remote-id type="google-code">pycparser</remote-id>
+		<bugs-to>http://code.google.com/p/pycparser/issues/list</bugs-to>
+	</upstream>
+</pkgmetadata>
