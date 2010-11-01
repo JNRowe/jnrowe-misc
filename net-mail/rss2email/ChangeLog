@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  01 Nov 2010; James Rowe <jnrowe@gmail.com>
+  +files/rss2email-2.66-Resynced-debian-2.65-1.patch,
+  -rss2email-2.67.ebuild, rss2email-2.68.ebuild:
+  Keyworded x86.
+
   01 Nov 2010; James Rowe <jnrowe@gmail.com> rss2email-2.68.ebuild:
   Keyworded amd64.
 
