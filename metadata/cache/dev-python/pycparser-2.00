@@ -6,7 +6,7 @@ http://pycparser.googlecode.com/files/pycparser-2.00.zip
 http://code.google.com/p/pycparser/
 LGPL-3
 C parser and AST generator written in Python
-~amd64
+~amd64 ~x86
 distutils multilib python toolchain-funcs
 examples test
 
