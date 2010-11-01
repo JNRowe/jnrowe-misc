@@ -27,7 +27,8 @@ all: $(HTML) profiles/categories profiles/use.local.desc $(MANIFESTS) \
 	fi
 
 %.txt.asc: %.txt
-	[ -z "$(SIGN_KEY)" ] && exit 1
+	[ -z "$(SIGN_KEY)" ] && exit 1 || true
+	rm -f $@
 	gpg --local-user $(SIGN_KEY) --detach-sign --armor $<
 
 profiles/categories: $(CATEGORIES)
