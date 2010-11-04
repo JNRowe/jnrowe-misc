@@ -1,0 +1,22 @@
+dev-python/setuptools dev-python/sphinx >=app-admin/eselect-python-20091230 =dev-lang/python-2* test? ( dev-python/nose )
+dev-python/setuptools dev-python/sphinx >=app-admin/eselect-python-20091230 =dev-lang/python-2*
+0
+http://grapefruit.googlecode.com/files/grapefruit-0.1a3.tar.gz
+
+http://code.google.com/p/grapefruit/
+Apache-2.0
+A module to manipulate color information easily.
+~amd64
+distutils multilib python toolchain-funcs
+doc test
+
+
+
+3
+
+compile install postinst postrm prepare test unpack
+
+
+
+
+
