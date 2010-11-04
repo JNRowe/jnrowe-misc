@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Fabulous is a Python library designed to make the output of terminal
+		applications look fabulous. Fabulous allows you to print colors, images,
+		and stylized text to the console (without curses.) Fabulous also offers
+		features to improve the usability of Python's standard logging system.
+	</longdescription>
+	<upstream>
+		<doc lang="en">http://lobstertech.com/fabulous.html</doc>
+	</upstream>
+</pkgmetadata>
