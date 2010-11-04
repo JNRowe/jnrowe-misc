@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  04 Nov 2010; James Rowe <jnrowe@gmail.com> fabulous-0.1.5.ebuild:
+  Keyworded ~x86.
+
 *fabulous-0.1.5 (04 Nov 2010)
 
   04 Nov 2010; James Rowe <jnrowe@gmail.com> +fabulous-0.1.5.ebuild,
