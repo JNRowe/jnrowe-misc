@@ -48,6 +48,13 @@ src_compile(){
 	fi
 }
 
+src_test() {
+	testing() {
+		nosetests-${PYTHON_ABI} ${PN}_test.py || die "nosetests failed"
+	}
+	python_execute_function testing
+}
+
 src_install(){
 	distutils_src_install
 
