@@ -3,6 +3,9 @@
 # $Header: $
 
   04 Nov 2010; James Rowe <jnrowe@gmail.com> grapefruit-0.1_alpha3.ebuild:
+  Keyworded ~x86.
+
+  04 Nov 2010; James Rowe <jnrowe@gmail.com> grapefruit-0.1_alpha3.ebuild:
   Fixed test runner, previously failed to pick up testsuite.
 
 *grapefruit-0.1_alpha3 (04 Nov 2010)
