@@ -1,5 +1,4 @@
 REM 2010-11-05 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/funcparserlib-0.3.4 %a
-REM 2010-11-05 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/blockdiag-0.3.1 %a
 REM 2010-11-05 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/blockdiag-0.3.1 %a
 REM 2010-11-05 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/sphinxcontrib-blockdiag-0.3.1 %a
 REM 2010-11-05 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/sphinxcontrib-blockdiag-0.3.1 %a
