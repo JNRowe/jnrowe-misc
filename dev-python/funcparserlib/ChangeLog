@@ -3,6 +3,9 @@
 # $Header: $
 
   05 Nov 2010; James Rowe <jnrowe@gmail.com> funcparserlib-0.3.4.ebuild:
+  Keyworded x86.
+
+  05 Nov 2010; James Rowe <jnrowe@gmail.com> funcparserlib-0.3.4.ebuild:
   Keyworded amd64.
 
   06 Oct 2010; James Rowe <jnrowe@gmail.com> funcparserlib-0.3.4.ebuild:
