@@ -4,6 +4,10 @@
 
   05 Nov 2010; James Rowe <jnrowe@gmail.com>
   sphinxcontrib-blockdiag-0.3.1.ebuild:
+  Keyworded x86.
+
+  05 Nov 2010; James Rowe <jnrowe@gmail.com>
+  sphinxcontrib-blockdiag-0.3.1.ebuild:
   Keyworded amd64.
 
 *sphinxcontrib-blockdiag-0.5 (29 Oct 2010)
