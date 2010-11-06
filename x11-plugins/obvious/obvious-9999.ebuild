@@ -21,7 +21,7 @@ IUSE=""
 DEPEND=""
 # All these tools are needed because initialisation fails without them
 # regardless of the module being used
-RDEPEND="dev-libs/luasocket
+RDEPEND="dev-lua/luasocket
 	media-sound/alsa-utils
 	sys-power/acpi
 	x11-wm/awesome"
