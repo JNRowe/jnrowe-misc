@@ -6,6 +6,7 @@ app-vim
 dev-db
 dev-lang
 dev-libs
+dev-lua
 dev-perl
 dev-python
 dev-tcltk
