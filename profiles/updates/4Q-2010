@@ -1,1 +1,2 @@
 move dev-libs/luainotify dev-lua/luainotify
+move dev-libs/luaposix dev-lua/luaposix
