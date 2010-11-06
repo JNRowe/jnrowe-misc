@@ -23,4 +23,3 @@ DEPEND=""
 RDEPEND=""
 
 PYTHON_MODNAME="texttable.py"
-
