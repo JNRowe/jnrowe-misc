@@ -14,7 +14,7 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="pypi">gitserve</remote-id>
-		<doc lang="en">http://github.com/jezdez/git-serve/raw/master/README.txt</doc>
-		<bugs-to>http://github.com/jezdez/git-serve/issues</bugs-to>
+		<doc lang="en">https://github.com/jezdez/git-serve/raw/master/README.txt</doc>
+		<bugs-to>https://github.com/jezdez/git-serve/issues</bugs-to>
 	</upstream>
 </pkgmetadata>

@@ -1,9 +1,9 @@
 dev-python/setuptools >=app-admin/eselect-python-20091230 dev-lang/python
 dev-vcs/git >=app-admin/eselect-python-20091230 dev-lang/python
 0
-mirror://pypi/g/gitserve/gitserve-0.2.0.tar.gz http://github.com/downloads/JNRowe/misc-overlay/gitserve-0.2.0-gitweb_1.6.4.4_update.patch.bz2
+mirror://pypi/g/gitserve/gitserve-0.2.0.tar.gz https://github.com/downloads/JNRowe/misc-overlay/gitserve-0.2.0-gitweb_1.6.4.4_update.patch.bz2
 
-http://github.com/jezdez/git-serve/
+https://github.com/jezdez/git-serve/
 GPL-2
 A helper tool for git that mimics mercurial's serve command
 amd64 x86

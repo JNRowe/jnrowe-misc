@@ -2,6 +2,10 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  07 Nov 2010; James Rowe <jnrowe@gmail.com> gitserve-0.2.0-r2.ebuild,
+  metadata.xml:
+  Updated URL for GitHub's recent switch to HTTPS everywhere.
+
   26 Oct 2010; James Rowe <jnrowe@gmail.com> -gitserve-0.2.0-r1.ebuild,
   gitserve-0.2.0-r2.ebuild:
   Keyworded amd64.
