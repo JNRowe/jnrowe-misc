@@ -11,7 +11,7 @@ if [[ ${PV} == "9999" ]]; then
 	SRC_URI=""
 else
 	SRC_URI="http://dev.exherbo.org/~alip/mpdcron/${P}.tar.bz2"
-	#SRC_URI="http://github.com/alip/mpdcron/tarball/v0.3 -> ${P}.tar.gz"
+	#SRC_URI="https://github.com/alip/mpdcron/tarball/v0.3 -> ${P}.tar.gz"
 fi
 
 DESCRIPTION="A hook daemon for mpd, it polls mpd and runs hooks on events"

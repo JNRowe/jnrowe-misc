@@ -21,8 +21,8 @@
 		</flag>
 	</use>
 	<upstream>
-		<changelog>http://github.com/alip/mpdcron/raw/master/NEWS.mkd</changelog>
+		<changelog>https://github.com/alip/mpdcron/raw/master/NEWS.mkd</changelog>
 		<doc lang="en">http://alip.github.com/mpdcron/configuration</doc>
-		<bugs-to>http://github.com/alip/mpdcron/issues</bugs-to>
+		<bugs-to>https://github.com/alip/mpdcron/issues</bugs-to>
 	</upstream>
 </pkgmetadata>
