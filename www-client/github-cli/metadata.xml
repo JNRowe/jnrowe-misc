@@ -16,6 +16,6 @@
 	<upstream>
 		<remote-id type="pypi">github-cli</remote-id>
 		<doc lang="en">http://packages.python.org/github-cli/</doc>
-		<bugs-to>http://github.com/jsmits/github-cli/issues</bugs-to>
+		<bugs-to>https://github.com/jsmits/github-cli/issues</bugs-to>
 	</upstream>
 </pkgmetadata>

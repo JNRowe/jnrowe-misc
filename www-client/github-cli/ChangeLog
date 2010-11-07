@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  07 Nov 2010; James Rowe <jnrowe@gmail.com> metadata.xml:
+  Updated URL for GitHub's recent switch to HTTPS everywhere.
+
   22 Oct 2010; James Rowe <jnrowe@gmail.com> -github-cli-0.2.9.ebuild,
   github-cli-0.3.0.ebuild:
   Keyworded x86.
