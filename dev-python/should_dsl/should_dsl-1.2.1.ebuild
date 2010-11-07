@@ -9,7 +9,7 @@ SUPPORT_PYTHON_ABIS="1"
 inherit jnrowe-pypi
 
 DESCRIPTION="Should assertions in Python as clear and readable as possible"
-HOMEPAGE="http://github.com/hugobr/should-dsl"
+HOMEPAGE="https://github.com/hugobr/should-dsl"
 
 LICENSE="MIT"
 SLOT="0"
