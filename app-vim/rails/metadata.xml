@@ -20,8 +20,8 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<upstream>
-		<doc lang="en">http://github.com/tpope/vim-rails/raw/master/doc/rails.txt</doc>
-		<bugs-to>http://github.com/tpope/vim-rails/issues</bugs-to>
+		<doc lang="en">https://github.com/tpope/vim-rails/raw/master/doc/rails.txt</doc>
+		<bugs-to>https://github.com/tpope/vim-rails/issues</bugs-to>
 		<remote-id type="vim">1567</remote-id>
 	</upstream>
 </pkgmetadata>
