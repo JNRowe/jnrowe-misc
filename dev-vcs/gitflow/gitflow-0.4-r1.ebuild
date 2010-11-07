@@ -13,8 +13,8 @@ COMPL_DIR="bobthecow-git-flow-completion-63fd990"
 
 DESCRIPTION="High-level repository operations for Vincent Driessen's branching model"
 HOMEPAGE="http://nvie.com/archives/323"
-SRC_URI="http://github.com/nvie/gitflow/tarball/${PV} -> ${P}.tar.gz
-	http://github.com/nvie/shFlags/tarball/1.0.3@128 -> shFlags-1.0.3.tar.gz
+SRC_URI="https://github.com/nvie/gitflow/tarball/${PV} -> ${P}.tar.gz
+	https://github.com/nvie/shFlags/tarball/1.0.3@128 -> shFlags-1.0.3.tar.gz
 	bash-completion? ( ${COMPL_URI} )
 	zsh-completion? ( ${COMPL_URI} )"
 

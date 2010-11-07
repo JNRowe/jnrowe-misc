@@ -1,7 +1,7 @@
 
 dev-vcs/git zsh-completion? ( app-shells/zsh ) bash-completion? ( app-admin/eselect )
 0
-http://github.com/nvie/gitflow/tarball/0.4 -> gitflow-0.4.tar.gz http://github.com/nvie/shFlags/tarball/1.0.3@128 -> shFlags-1.0.3.tar.gz bash-completion? ( https://github.com/bobthecow/git-flow-completion/tarball/0.4.0 -> git-flow-completion-0.4.0.tar.gz ) zsh-completion? ( https://github.com/bobthecow/git-flow-completion/tarball/0.4.0 -> git-flow-completion-0.4.0.tar.gz )
+https://github.com/nvie/gitflow/tarball/0.4 -> gitflow-0.4.tar.gz https://github.com/nvie/shFlags/tarball/1.0.3@128 -> shFlags-1.0.3.tar.gz bash-completion? ( https://github.com/bobthecow/git-flow-completion/tarball/0.4.0 -> git-flow-completion-0.4.0.tar.gz ) zsh-completion? ( https://github.com/bobthecow/git-flow-completion/tarball/0.4.0 -> git-flow-completion-0.4.0.tar.gz )
 
 http://nvie.com/archives/323
 BSD-2 bash-completion? ( MIT ) zsh-completion? ( MIT )
