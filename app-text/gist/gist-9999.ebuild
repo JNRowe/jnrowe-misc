@@ -9,7 +9,7 @@ inherit git
 EGIT_REPO_URI="git://github.com/defunkt/gist.git"
 
 DESCRIPTION="Absolutely the best command line gister"
-HOMEPAGE="http://github.com/defunkt/gist"
+HOMEPAGE="https://github.com/defunkt/gist"
 SRC_URI=""
 
 LICENSE="MIT"
