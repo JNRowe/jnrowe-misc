@@ -11,7 +11,7 @@ inherit distutils
 
 DESCRIPTION="maildir processor using Python as its configuration language"
 HOMEPAGE="http://joel.rosdahl.net/maildirproc/"
-SRC_URI="http://github.com/downloads/JNRowe/misc-overlay/${P}.tar.gz"
+SRC_URI="https://github.com/downloads/JNRowe/misc-overlay/${P}.tar.gz"
 #SRC_URI="${HOMEPAGE}${P}.tar.gz"
 
 LICENSE="GPL-2"
