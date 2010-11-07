@@ -10,7 +10,7 @@ RESTRICT_PYTHON_ABIS="3.*"
 inherit jnrowe-pypi
 
 DESCRIPTION="A BDD tool for writing specs using Given-When-Then template"
-HOMEPAGE="http://github.com/hugobr/pyhistorian"
+HOMEPAGE="https://github.com/hugobr/pyhistorian"
 
 LICENSE="MIT"
 SLOT="0"

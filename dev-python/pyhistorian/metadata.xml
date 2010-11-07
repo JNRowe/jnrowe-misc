@@ -15,8 +15,8 @@
 		your preferred.
 	</longdescription>
 	<upstream>
-		<doc lang="en">http://github.com/hugobr/pyhistorian/raw/master/README.rst</doc>
+		<doc lang="en">https://github.com/hugobr/pyhistorian/raw/master/README.rst</doc>
 		<remote-id type="pypi">pyhistorian</remote-id>
-		<bugs-to>http://github.com/hugobr/pyhistorian/issues</bugs-to>
+		<bugs-to>https://github.com/hugobr/pyhistorian/issues</bugs-to>
 	</upstream>
 </pkgmetadata>
