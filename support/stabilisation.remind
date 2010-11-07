@@ -6,7 +6,6 @@ REM 2010-11-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/sphinxcontri
 REM 2010-11-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/sphinxcontrib-gruffygen-0.1.1 %a
 REM 2010-11-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 x11-themes/notify-osd-icons-0.3 %a
 REM 2010-11-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 x11-themes/notify-osd-icons-0.3 %a
-REM 2010-11-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/html-1.13 %a
 REM 2010-11-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/html-1.13 %a
 REM 2010-11-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/mod2doctest-0.2.0 %a
 REM 2010-11-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/mod2doctest-0.2.0 %a
