@@ -3,7 +3,7 @@ dev-python/sphinx >=app-admin/eselect-python-20091230 =dev-lang/python-2*
 0
 
 
-http://github.com/michaeljones/sphinx-to-github
+https://github.com/michaeljones/sphinx-to-github
 BSD
 Script to prepare Sphinx html output for github pages
 

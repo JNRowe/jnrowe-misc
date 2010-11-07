@@ -12,7 +12,7 @@ inherit distutils git
 EGIT_REPO_URI="git://github.com/michaeljones/${PN}.git"
 
 DESCRIPTION="Script to prepare Sphinx html output for github pages"
-HOMEPAGE="http://github.com/michaeljones/sphinx-to-github"
+HOMEPAGE="https://github.com/michaeljones/sphinx-to-github"
 SRC_URI=""
 
 LICENSE="BSD"

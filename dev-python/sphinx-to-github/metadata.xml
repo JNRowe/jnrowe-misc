@@ -14,8 +14,8 @@
 		edits any references to them within the html files.
 	</longdescription>
 	<upstream>
-		<doc lang="en">http://github.com/michaeljones/sphinx-to-github#readme</doc>
-		<changelog>http://github.com/michaeljones/sphinx-to-github/commits/master/</changelog>
-		<bugs-to>http://github.com/michaeljones/sphinx-to-github/issues</bugs-to>
+		<doc lang="en">https://github.com/michaeljones/sphinx-to-github#readme</doc>
+		<changelog>https://github.com/michaeljones/sphinx-to-github/commits/master/</changelog>
+		<bugs-to>https://github.com/michaeljones/sphinx-to-github/issues</bugs-to>
 	</upstream>
 </pkgmetadata>
