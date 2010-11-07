@@ -9,7 +9,7 @@ SUPPORT_PYTHON_ABIS="1"
 inherit jnrowe-pypi
 
 DESCRIPTION="A Given/When/Then BDD stories parser"
-HOMEPAGE="http://github.com/hugobr/story_parser"
+HOMEPAGE="https://github.com/hugobr/story_parser"
 
 LICENSE="MIT"
 SLOT="0"
