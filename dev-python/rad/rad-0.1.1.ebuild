@@ -12,7 +12,7 @@ inherit distutils
 DESCRIPTION="A super easy console highlighter.  Text goes in, colour comes out."
 HOMEPAGE="http://pypi.python.org/pypi/rad/"
 SRC_URI="mirror://pypi/${PN::1}/${PN}/${P}.tar.gz
-	http://github.com/robbles/rad/raw/v0.1.1/README.rst -> ${P}-README.rst"
+	https://github.com/robbles/rad/raw/v0.1.1/README.rst -> ${P}-README.rst"
 
 LICENSE="MIT"
 SLOT="0"
