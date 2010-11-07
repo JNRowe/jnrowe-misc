@@ -8,7 +8,7 @@ inherit base autotools savedconfig
 
 DESCRIPTION="A tiny userspace graphical boot splash screen"
 HOMEPAGE="http://labs.o-hand.com/psplash/"
-SRC_URI="http://github.com/downloads/JNRowe/misc-overlay/${P}.tar.bz2"
+SRC_URI="https://github.com/downloads/JNRowe/misc-overlay/${P}.tar.bz2"
 
 LICENSE="GPL-2"
 SLOT="0"

@@ -1,7 +1,7 @@
 || ( =sys-devel/automake-1.11* ) >=sys-devel/autoconf-2.61 >=sys-devel/libtool-2.2.6b
 
 0
-http://github.com/downloads/JNRowe/misc-overlay/psplash-0.1_p20090528.tar.bz2
+https://github.com/downloads/JNRowe/misc-overlay/psplash-0.1_p20090528.tar.bz2
 
 http://labs.o-hand.com/psplash/
 GPL-2
