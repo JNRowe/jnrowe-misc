@@ -12,6 +12,6 @@
 	<upstream>
 		<doc lang="en">http://lettuce.it/</doc>
 		<remote-id type="pypi">lettuce</remote-id>
-		<bugs-to>http://github.com/gabrielfalcao/lettuce/issues</bugs-to>
+		<bugs-to>https://github.com/gabrielfalcao/lettuce/issues</bugs-to>
 	</upstream>
 </pkgmetadata>
