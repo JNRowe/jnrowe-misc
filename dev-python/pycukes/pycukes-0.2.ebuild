@@ -9,7 +9,7 @@ SUPPORT_PYTHON_ABIS="1"
 inherit jnrowe-pypi
 
 DESCRIPTION="A Cucumber-like BDD framework built on top of Pyhistorian"
-HOMEPAGE="http://github.com/hugobr/pycukes"
+HOMEPAGE="https://github.com/hugobr/pycukes"
 
 LICENSE="MIT"
 SLOT="0"

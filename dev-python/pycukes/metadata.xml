@@ -14,8 +14,8 @@
 		like <pkg>dev-python/pyhistorian</pkg>.
 	</longdescription>
 	<upstream>
-		<doc lang="en">http://github.com/hugobr/pycukes/raw/master/README.rst</doc>
+		<doc lang="en">https://github.com/hugobr/pycukes/raw/master/README.rst</doc>
 		<remote-id type="pypi">pycukes</remote-id>
-		<bugs-to>http://github.com/hugobr/pycukes/issues</bugs-to>
+		<bugs-to>https://github.com/hugobr/pycukes/issues</bugs-to>
 	</upstream>
 </pkgmetadata>
