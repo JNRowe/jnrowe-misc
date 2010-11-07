@@ -3,7 +3,7 @@ dev-perl/JSON-Any dev-perl/libwww-perl dev-vcs/git virtual/perl-Getopt-Long virt
 0
 
 
-http://github.com/bestpractical/git-sync
+https://github.com/bestpractical/git-sync
 || ( Artistic GPL-1 GPL-2 GPL-3 )
 A tool to synchronize multiple git repositories
 

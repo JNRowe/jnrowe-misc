@@ -10,7 +10,7 @@ inherit git
 EGIT_REPO_URI="git://github.com/bestpractical/${PN}.git"
 
 DESCRIPTION="A tool to synchronize multiple git repositories"
-HOMEPAGE="http://github.com/bestpractical/git-sync"
+HOMEPAGE="https://github.com/bestpractical/git-sync"
 
 LICENSE="|| ( Artistic GPL-1 GPL-2 GPL-3 )"
 SLOT="0"

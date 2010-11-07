@@ -23,6 +23,6 @@
 		"git remote update" and "git pull".
 	</longdescription>
 	<upstream>
-		<bugs-to>http://github.com/bestpractical/git-sync/issues</bugs-to>
+		<bugs-to>https://github.com/bestpractical/git-sync/issues</bugs-to>
 	</upstream>
 </pkgmetadata>
