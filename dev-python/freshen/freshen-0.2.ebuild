@@ -10,7 +10,7 @@ RESTRICT_PYTHON_ABIS="2.4 3.*"
 inherit jnrowe-pypi eutils
 
 DESCRIPTION="Clone of the Cucumber BDD framework for Python"
-HOMEPAGE="http://github.com/rlisagor/freshen"
+HOMEPAGE="https://github.com/rlisagor/freshen"
 
 LICENSE="LGPL-3"
 SLOT="0"
