@@ -19,6 +19,6 @@
 	</use>
 	<upstream>
 		<doc lang="en">http://nzjrs.github.com/osm-gps-map/</doc>
-		<bugs-to>http://github.com/nzjrs/osm-gps-map/issues</bugs-to>
+		<bugs-to>https://github.com/nzjrs/osm-gps-map/issues</bugs-to>
 	</upstream>
 </pkgmetadata>
