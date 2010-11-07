@@ -9,7 +9,7 @@ SUPPORT_PYTHON_ABIS="1"
 inherit eutils jnrowe-pypi
 
 DESCRIPTION="A tool to check your Python code against the conventions in PEP 8"
-HOMEPAGE="http://github.com/jcrocholl/pep8"
+HOMEPAGE="https://github.com/jcrocholl/pep8"
 
 LICENSE="MIT"
 SLOT="0"
