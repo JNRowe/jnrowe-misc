@@ -14,8 +14,8 @@
 		It can used on its own or as a git wrapper.
 	</longdescription>
 	<upstream>
-		<changelog>http://github.com/defunkt/hub/raw/master/HISTORY.md</changelog>
-		<doc lang="en">http://github.com/defunkt/hub/raw/master/README.md</doc>
-		<bugs-to>http://github.com/defunkt/hub/issues</bugs-to>
+		<changelog>https://github.com/defunkt/hub/raw/master/HISTORY.md</changelog>
+		<doc lang="en">https://github.com/defunkt/hub/raw/master/README.md</doc>
+		<bugs-to>https://github.com/defunkt/hub/issues</bugs-to>
 	</upstream>
 </pkgmetadata>

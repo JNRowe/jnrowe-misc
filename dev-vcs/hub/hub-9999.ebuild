@@ -9,7 +9,7 @@ inherit ruby git
 EGIT_REPO_URI="git://github.com/defunkt/${PN}.git"
 
 DESCRIPTION="hub is a command line utility which adds GitHub knowledge to git"
-HOMEPAGE="http://github.com/defunkt/hub"
+HOMEPAGE="https://github.com/defunkt/hub"
 SRC_URI=""
 
 LICENSE="MIT"
