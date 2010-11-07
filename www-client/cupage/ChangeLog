@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  07 Nov 2010; James Rowe <jnrowe@gmail.com> cupage-0.5.1.ebuild:
+  Changed homepage to sphinx documentation location.
+
   07 Nov 2010; James Rowe <jnrowe@gmail.com> cupage-0.5.1.ebuild,
   metadata.xml:
   Updated URL for GitHub's recent switch to HTTPS everywhere.

@@ -10,7 +10,7 @@ RESTRICT_PYTHON_ABIS="2.[45] 3.*"
 inherit distutils
 
 DESCRIPTION="A tool to check for updates on web pages"
-HOMEPAGE="https://github.com/JNRowe/cupage"
+HOMEPAGE="http://jnrowe.github.com/cupage"
 SRC_URI="https://github.com/JNRowe/cupage/tarball/${PV} -> ${P}.tar.gz"
 
 LICENSE="GPL-3"
