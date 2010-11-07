@@ -12,7 +12,7 @@
 	<upstream>
 		<doc lang="en">http://inky.github.com/see/</doc>
 		<remote-id type="pypi">see</remote-id>
-		<changelog>http://github.com/inky/see/blob/master/CHANGELOG.markdown#readme</changelog>
-		<bugs-to>http://github.com/inky/see/issues</bugs-to>
+		<changelog>https://github.com/inky/see/blob/master/CHANGELOG.markdown#readme</changelog>
+		<bugs-to>https://github.com/inky/see/issues</bugs-to>
 	</upstream>
 </pkgmetadata>
