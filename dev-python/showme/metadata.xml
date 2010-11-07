@@ -15,6 +15,6 @@
 		<doc lang="en">http://pypi.python.org/pypi/showme/</doc>
 		<remote-id type="pypi">showme</remote-id>
 		<changelog>http://pypi.python.org/pypi/showme/#history</changelog>
-		<bugs-to>http://github.com/kennethreitz/showme/issues</bugs-to>
+		<bugs-to>https://github.com/kennethreitz/showme/issues</bugs-to>
 	</upstream>
 </pkgmetadata>
