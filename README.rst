@@ -133,11 +133,11 @@ cupage_ is used to keep packages in sync with their releases, see
 to make use of this functionality.
 
 .. _email: jnrowe@gmail.com
-.. _issue: http://github.com/JNRowe/misc-overlay/issues
+.. _issue: https://github.com/JNRowe/misc-overlay/issues
 .. _layman: http://layman.sourceforge.net
 .. _eix: http://eix.sourceforge.net
-.. _cupage: http://github.com/JNRowe/cupage
-.. _GitHub: http://github.com/
+.. _cupage: https://github.com/JNRowe/cupage
+.. _GitHub: https://github.com/
 .. _rsync: http://rsync.samba.org/
 .. _Gentoo Python Developers Guide: http://www.gentoo.org/proj/en/Python/developersguide.xml
 

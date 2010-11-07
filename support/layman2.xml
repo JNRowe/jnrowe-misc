@@ -6,12 +6,11 @@
         <email>jnrowe@gmail.com</email>
         <name>James Rowe</name>
     </owner>
-    <homepage>http://github.com/JNRowe/misc-overlay/</homepage>
+    <homepage>https://github.com/JNRowe/misc-overlay/</homepage>
     <description>
         Packages that don't naturally fit in to JNRowe's themed overlays.
     </description>
     <source type="git">git://github.com/JNRowe/misc-overlay.git</source>
-    <feed>http://github.com/feeds/JNRowe/commits/misc-overlay/master</feed>
+    <feed>https://github.com/feeds/JNRowe/commits/misc-overlay/master</feed>
   </repo>
 </layman>
-

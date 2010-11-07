@@ -2,7 +2,7 @@
 <layman>
   <overlay type="git" status="unoffficial" name="jnrowe-misc"
     contact="jnrowe@gmail.com" src="git://github.com/JNRowe/misc-overlay.git">
-    <link>http://github.com/JNRowe/misc-overlay/</link>
+    <link>https://github.com/JNRowe/misc-overlay/</link>
     <description>
         Packages that don't naturally fit in to JNRowe's themed overlays.
     </description>
