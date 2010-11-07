@@ -17,8 +17,8 @@
 			<email>jnrowe@gmail.com</email>
 			<name>James Rowe</name>
 		</maintainer>
-		<changelog>http://github.com/JNRowe/pyisbn/raw/master/NEWS.rst</changelog>
-		<doc lang="en">http://github.com/JNRowe/pyisbn/raw/master/README.rst</doc>
-		<bugs-to>http://github.com/JNRowe/pyisbn/issues</bugs-to>
+		<changelog>https://github.com/JNRowe/pyisbn/raw/master/NEWS.rst</changelog>
+		<doc lang="en">https://github.com/JNRowe/pyisbn/raw/master/README.rst</doc>
+		<bugs-to>https://github.com/JNRowe/pyisbn/issues</bugs-to>
 	</upstream>
 </pkgmetadata>
