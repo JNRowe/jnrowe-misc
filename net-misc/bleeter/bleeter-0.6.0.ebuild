@@ -10,7 +10,7 @@ inherit distutils
 
 DESCRIPTION="Nasty little twitter client"
 HOMEPAGE="http://jnrowe.github.com/bleeter/"
-SRC_URI="http://github.com/JNRowe/bleeter/tarball/${PV} -> ${P}.tar.gz"
+SRC_URI="https://github.com/JNRowe/bleeter/tarball/${PV} -> ${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"

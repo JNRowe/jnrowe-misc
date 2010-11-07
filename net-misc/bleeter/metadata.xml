@@ -19,8 +19,8 @@
 			<email>jnrowe@gmail.com</email>
 			<name>James Rowe</name>
 		</maintainer>
-		<changelog>http://github.com/JNRowe/bleeter/raw/master/NEWS.rst</changelog>
+		<changelog>https://github.com/JNRowe/bleeter/raw/master/NEWS.rst</changelog>
 		<doc lang="en">http://jnrowe.github.com/bleeter</doc>
-		<bugs-to>http://github.com/JNRowe/bleeter/issues</bugs-to>
+		<bugs-to>https://github.com/JNRowe/bleeter/issues</bugs-to>
 	</upstream>
 </pkgmetadata>
