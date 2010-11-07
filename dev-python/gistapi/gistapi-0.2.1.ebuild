@@ -10,7 +10,7 @@ RESTRICT_PYTHON_ABIS="2.4 3.*"
 inherit jnrowe-pypi
 
 DESCRIPTION="A Python wrapper for GitHub's Gist API"
-HOMEPAGE="http://github.com/kennethreitz/gistapi.py"
+HOMEPAGE="https://github.com/kennethreitz/gistapi.py"
 
 LICENSE="MIT"
 SLOT="0"
