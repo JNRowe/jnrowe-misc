@@ -12,8 +12,8 @@
 		"Control Functions for Coded Character Sets" standard.
 	</longdescription>
 	<upstream>
-		<doc lang="en">http://github.com/gfxmonk/termstyle/raw/master/readme.rst</doc>
+		<doc lang="en">https://github.com/gfxmonk/termstyle/raw/master/readme.rst</doc>
 		<remote-id type="pypi">termstyle</remote-id>
-		<bugs-to>http://github.com/gfxmonk/termstyle/issues</bugs-to>
+		<bugs-to>https://github.com/gfxmonk/termstyle/issues</bugs-to>
 	</upstream>
 </pkgmetadata>
