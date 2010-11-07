@@ -12,7 +12,7 @@ if [[ ${PV} == "9999" ]]; then
 else
 	# The upstream tarball is generated with gitweb and its checksum
 	# occasionally changes, so we mirror it.
-	SRC_URI="http://github.com/downloads/JNRowe/misc-overlay/${P}.tar.gz"
+	SRC_URI="https://github.com/downloads/JNRowe/misc-overlay/${P}.tar.gz"
 
 fi
 
