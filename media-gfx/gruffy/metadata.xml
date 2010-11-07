@@ -13,6 +13,6 @@
 	<upstream>
 		<doc lang="en">http://www.hexacosa.net/documents/gruffy/</doc>
 		<remote-id type="pypi">gruffy</remote-id>
-		<bugs-to>http://github.com/hhatto/gruffy/issues</bugs-to>
+		<bugs-to>https://github.com/hhatto/gruffy/issues</bugs-to>
 	</upstream>
 </pkgmetadata>
