@@ -17,7 +17,7 @@ DESCRIPTION="Gruffy is Python implementation of Gruff(Ruby Graphing Library)"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="examples"
 
 RDEPEND="dev-python/pgmagick"
