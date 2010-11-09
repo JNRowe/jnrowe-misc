@@ -14,7 +14,7 @@ bash-completion? ( app-shells/bash-completion )
 
 3
 
-compile configure install postinst postrm prepare unpack
+compile configure install postinst postrm prepare test unpack
 
 
 

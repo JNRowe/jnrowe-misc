@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  09 Nov 2010; James Rowe <jnrowe@gmail.com> notmuch-9999.ebuild:
+  Merged 0.4 changes to live ebuild.
+
 *notmuch-0.4 (09 Nov 2010)
 
   09 Nov 2010; James Rowe <jnrowe@gmail.com> +notmuch-0.4.ebuild,

@@ -38,16 +38,21 @@ DEPEND="dev-util/pkgconfig
 
 SITEFILE="50${PN}-gentoo.el"
 
-DOCS=(AUTHORS NEWS README TODO)
+DOCS=(debian/changelog AUTHORS NEWS README TODO)
 
 src_prepare() {
 	if [[ ${PV} == 9999 ]]; then
 		git_src_prepare
 	fi
-	# We'll process the completion stuff manually, as it should be conditional
-	sed -i 's,completion ,,' Makefile
-
-	use emacs || sed -i 's, emacs , ,' Makefile
+	# Fixes for builds without emacs, needs fixing upstream
+	use emacs || epatch "${FILESDIR}"/${P}-optional_emacs.patch
+	# We'll process the completion/emacs stuff manually, as it should be
+	# conditional
+	sed -i '/^subdirs/s, completion emacs , ,' Makefile
+	# Remove LDFLAGS overriding
+	sed -i '/-Wl,--as-needed/,/^fi$/d' configure
+	# Disable bytecode generation, handled better by elisp-compile
+	sed -i 's,$(emacs_bytecode),,' emacs/Makefile
 }
 
 src_configure() {
@@ -62,16 +67,23 @@ src_compile() {
 	emake V=1 || die "emake failed"
 
 	if use emacs; then
-		elisp-compile ${PN}.el || die "elisp-compile failed"
+		pushd emacs >/dev/null
+		elisp-compile *.el || die "elisp-compile failed"
 		elisp-make-autoload-file ${SITEFILE}
+		popd >/dev/null
 	fi
 
 	if use python; then
-		cd bindings/python
+		pushd bindings/python >/dev/null
 		# Ugly, ugly hack to allow python to import notmuch library
 		LD_LIBRARY_PATH=$PWD/../../lib distutils_src_compile
-		cd ../../
+		popd >/dev/null
 	fi
+}
+
+src_test() {
+	# We manually call test here so that we can set V=1
+	emake V=1 test || die "emake test failed"
 }
 
 src_install() {
@@ -85,8 +97,10 @@ src_install() {
 	dobashcompletion completion/notmuch-completion.bash
 
 	if use emacs; then
-		elisp-install ${PN}{,.el{,c}}
+		pushd emacs >/dev/null
+		elisp-install ${PN} *.{el{,c},png}
 		elisp-site-file-install ${SITEFILE}
+		popd >/dev/null
 
 		if use X; then
 			domenu ${PN}.desktop || die "domenu failed"
@@ -94,20 +108,21 @@ src_install() {
 	fi
 
 	if use vim; then
-		cd vim
+		pushd vim >/dev/null
 		insinto /usr/share/vim/vimfiles/plugin
 		doins plugin/${PN}.vim || die "doins plugin failed"
 		insinto /usr/share/vim/vimfiles/syntax
 		doins syntax/*.vim || die "doins syntax failed"
 		newdoc README README.vim || die "dodoc failed"
+		popd >/dev/null
 	fi
 
 	if use python; then
-		cd bindings/python
+		pushd bindings/python >/dev/null
 		# Workaround distutils.eclass attempting to reinstall DOCS, caused
 		# because it doesn't use namespacing for eclass variables.
 		LD_LIBRARY_PATH=$PWD/../../lib DOCS= distutils_src_install
-		cd ../..
+		popd >/dev/null
 	fi
 }
 
