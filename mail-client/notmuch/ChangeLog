@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*notmuch-0.4 (09 Nov 2010)
+
+  09 Nov 2010; James Rowe <jnrowe@gmail.com> +notmuch-0.4.ebuild,
+  +files/notmuch-0.4-optional_emacs.patch:
+  Version bump [226].
+
   22 Sep 2010; James Rowe <jnrowe@gmail.com> -notmuch-0.1.ebuild,
   notmuch-0.3.ebuild:
   Keyworded x86.

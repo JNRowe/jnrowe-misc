@@ -1,0 +1,153 @@
+diff --git c/Makefile.local i/Makefile.local
+index f9b5a9b..3adec3d 100644
+--- c/Makefile.local
++++ i/Makefile.local
+@@ -277,16 +277,6 @@ ifeq ($(MAKECMDGOALS), install)
+ 	@echo "through the process of configuring notmuch and creating"
+ 	@echo "a database of existing email messages. The \"notmuch\""
+ 	@echo "command will also offer some sample search commands."
+-	@echo ""
+-	@echo "Beyond the command-line interface, notmuch also offers"
+-	@echo "a full-featured interface for reading and writing mail"
+-	@echo "within emacs. To use this, each user should add the"
+-	@echo "following line to the ~/.emacs file:"
+-	@echo ""
+-	@echo "	(require 'notmuch)"
+-	@echo ""
+-	@echo "And then run emacs as \"emacs -f notmuch\" or invoke"
+-	@echo "the command \"M-x notmuch\" from within emacs."
+ endif
+ 
+ .PHONY: install-desktop
+diff --git c/test/emacs i/test/emacs
+deleted file mode 100755
+index 97f4628..0000000
+--- c/test/emacs
++++ /dev/null
+@@ -1,113 +0,0 @@
+-#!/bin/bash
+-test_description="emacs interface"
+-. test-lib.sh
+-
+-EXPECTED=../emacs.expected-output
+-
+-add_email_corpus
+-
+-test_begin_subtest "Basic notmuch-hello view in emacs"
+-output=$(test_emacs '(notmuch-hello) (message (buffer-string))' 2>&1)
+-expected=$(cat $EXPECTED/notmuch-hello)
+-test_expect_equal "$output" "$expected"
+-
+-test_begin_subtest "Saved search with 0 results"
+-output=$(test_emacs '(setq notmuch-show-empty-saved-searches t) (setq notmuch-saved-searches '\''(("inbox" . "tag:inbox") ("unread" . "tag:unread") ("empty" . "tag:doesnotexist"))) (notmuch-hello) (message (buffer-string))' 2>&1)
+-expected=$(cat $EXPECTED/notmuch-hello-with-empty)
+-test_expect_equal "$output" "$expected"
+-
+-test_begin_subtest "No saved searches displayed (all with 0 results)"
+-output=$(test_emacs '(setq notmuch-saved-searches '\''(("empty" . "tag:doesnotexist"))) (notmuch-hello) (message (buffer-string))' 2>&1)
+-expected=$(cat $EXPECTED/notmuch-hello-no-saved-searches)
+-test_expect_equal "$output" "$expected"
+-
+-test_begin_subtest "Basic notmuch-search view in emacs"
+-output=$(test_emacs '(notmuch-search "tag:inbox") (notmuch-test-wait) (message (buffer-string))' 2>&1)
+-expected=$(cat $EXPECTED/notmuch-search-tag-inbox)
+-test_expect_equal "$output" "$expected"
+-
+-test_begin_subtest "Navigation of notmuch-hello to search results
+-	[XXX: Need to decide the correct order of the search results]"
+-output=$(test_emacs '(notmuch-hello) (goto-char (point-min)) (re-search-forward "inbox") (widget-button-press (point)) (notmuch-test-wait) (message (buffer-string))' 2>&1)
+-test_expect_equal_failure "$output" "$expected"
+-
+-test_begin_subtest "Basic notmuch-show view in emacs"
+-maildir_storage_thread=$(notmuch search --output=threads id:20091117190054.GU3165@dottiness.seas.harvard.edu)
+-output=$(test_emacs "(notmuch-show \"$maildir_storage_thread\") (message (buffer-string))" 2>&1)
+-expected=$(cat $EXPECTED/notmuch-show-thread-maildir-storage)
+-test_expect_equal "$output" "$expected"
+-
+-test_begin_subtest "Navigation of notmuch-search to thread view"
+-output=$(test_emacs '(notmuch-search "tag:inbox") (notmuch-test-wait) (goto-char (point-min)) (re-search-forward "Working with Maildir") (notmuch-search-show-thread) (notmuch-test-wait) (message (buffer-string))' 2>&1)
+-test_expect_equal "$output" "$expected"
+-
+-test_begin_subtest "Add tag from search view"
+-os_x_darwin_thread=$(notmuch search --output=threads id:ddd65cda0911171950o4eea4389v86de9525e46052d3@mail.gmail.com)
+-test_emacs "(notmuch-search \"$os_x_darwin_thread\") (notmuch-test-wait) (notmuch-search-add-tag \"tag-from-search-view\")"
+-output=$(notmuch search $os_x_darwin_thread | notmuch_search_sanitize)
+-test_expect_equal "$output" "thread:XXX   2009-11-18 [4/4] Jjgod Jiang, Alexander Botero-Lowry; [notmuch] Mac OS X/Darwin compatibility issues (inbox tag-from-search-view unread)"
+-
+-test_begin_subtest "Remove tag from search view"
+-test_emacs "(notmuch-search \"$os_x_darwin_thread\") (notmuch-test-wait) (notmuch-search-remove-tag \"tag-from-search-view\")"
+-output=$(notmuch search $os_x_darwin_thread | notmuch_search_sanitize)
+-test_expect_equal "$output" "thread:XXX   2009-11-18 [4/4] Jjgod Jiang, Alexander Botero-Lowry; [notmuch] Mac OS X/Darwin compatibility issues (inbox unread)"
+-
+-test_begin_subtest "Add tag from notmuch-show view"
+-test_emacs "(notmuch-show \"$os_x_darwin_thread\") (notmuch-show-add-tag \"tag-from-show-view\")"
+-output=$(notmuch search $os_x_darwin_thread | notmuch_search_sanitize)
+-test_expect_equal "$output" "thread:XXX   2009-11-18 [4/4] Jjgod Jiang, Alexander Botero-Lowry; [notmuch] Mac OS X/Darwin compatibility issues (inbox tag-from-show-view unread)"
+-
+-test_begin_subtest "Remove tag from notmuch-show view"
+-test_emacs "(notmuch-show \"$os_x_darwin_thread\") (notmuch-show-remove-tag \"tag-from-show-view\")"
+-output=$(notmuch search $os_x_darwin_thread | notmuch_search_sanitize)
+-test_expect_equal "$output" "thread:XXX   2009-11-18 [4/4] Jjgod Jiang, Alexander Botero-Lowry; [notmuch] Mac OS X/Darwin compatibility issues (inbox unread)"
+-
+-test_begin_subtest "Message with .. in Message-Id:"
+-add_message [id]=123..456@example '[subject]="Message with .. in Message-Id"'
+-test_emacs '(notmuch-search "id:\"123..456@example\"") (notmuch-test-wait) (notmuch-search-add-tag "search-add") (notmuch-search-add-tag "search-remove") (notmuch-search-remove-tag "search-remove") (notmuch-show "id:\"123..456@example\"") (notmuch-test-wait) (notmuch-show-add-tag "show-add") (notmuch-show-add-tag "show-remove") (notmuch-show-remove-tag "show-remove")'
+-output=$(notmuch search 'id:"123..456@example"' | notmuch_search_sanitize)
+-test_expect_equal "$output" "thread:XXX   2001-01-05 [1/1] Notmuch Test Suite; Message with .. in Message-Id (inbox search-add show-add)"
+-
+-test_begin_subtest "Sending a message via (fake) SMTP"
+-
+-# Before we can send a message, we have to prepare the FCC maildir
+-mkdir -p mail/sent/cur
+-mkdir -p mail/sent/new
+-mkdir -p mail/sent/tmp
+-
+-../smtp-dummy sent_message &
+-smtp_dummy_pid=$!
+-test_emacs "(setq message-send-mail-function 'message-smtpmail-send-it) (setq smtpmail-smtp-server \"localhost\") (setq smtpmail-smtp-service \"25025\") (notmuch-hello) (notmuch-mua-mail) (message-goto-to) (insert \"user@example.com\nDate: Fri, 29 Mar 1974 10:00:00 -0000\") (message-goto-subject) (insert \"Testing message sent via SMTP\") (message-goto-body) (insert \"This is a test that messages are sent via SMTP\") (message-send-and-exit)" >/dev/null 2>&1
+-wait ${smtp_dummy_pid}
+-
+-output=$(sed \
+-    -e s',^User-Agent: Notmuch/.* Emacs/.*,User-Agent: Notmuch/XXX Emacs/XXX,' \
+-    -e s',^Message-ID: <.*>$,Message-ID: <XXX>,' < sent_message)
+-test_expect_equal "$output" "From: Notmuch Test Suite <test_suite@notmuchmail.org>
+-To: user@example.com
+-Subject: Testing message sent via SMTP
+-Date: Fri, 29 Mar 1974 10:00:00 -0000
+-User-Agent: Notmuch/XXX Emacs/XXX
+-Message-ID: <XXX>
+-MIME-Version: 1.0
+-Content-Type: text/plain; charset=us-ascii
+-
+-This is a test that messages are sent via SMTP"
+-
+-test_begin_subtest "Verify that sent messages are saved/searchable (via FCC)"
+-notmuch new > /dev/null
+-output=$(notmuch search 'subject:"testing message sent via SMTP"' | notmuch_search_sanitize)
+-test_expect_equal "$output" "thread:XXX   1974-03-29 [1/1] Notmuch Test Suite; Testing message sent via SMTP (inbox unread)"
+-
+-test_begin_subtest "Reply within emacs"
+-output=$(test_emacs '(notmuch-search "subject:\"testing message sent via SMTP\"") (notmuch-test-wait) (notmuch-search-reply-to-thread) (message (buffer-string))' 2>&1 | sed -e 's/^In-Reply-To: <.*>$/In-Reply-To: <XXX>/')
+-test_expect_equal "$output" "From: Notmuch Test Suite <test_suite@notmuchmail.org>
+-To: user@example.com
+-Subject: Re: Testing message sent via SMTP
+-In-Reply-To: <XXX>
+-Fcc: $(pwd)/mail/sent
+---text follows this line--
+-On Fri, 29 Mar 1974 10:00:00 -0000, Notmuch Test Suite <test_suite@notmuchmail.org> wrote:
+-> This is a test that messages are sent via SMTP"
+-
+-test_done
+diff --git c/test/notmuch-test i/test/notmuch-test
+index 60c3ecb..5ae9eea 100755
+--- c/test/notmuch-test
++++ i/test/notmuch-test
+@@ -16,7 +16,7 @@ fi
+ 
+ cd $(dirname "$0")
+ 
+-TESTS="basic new search json thread-naming reply dump-restore uuencode thread-order author-order from-guessing long-id encoding emacs"
++TESTS="basic new search json thread-naming reply dump-restore uuencode thread-order author-order from-guessing long-id encoding"
+ 
+ # Clean up any results from a previous run
+ rm -r test-results >/dev/null 2>/dev/null
