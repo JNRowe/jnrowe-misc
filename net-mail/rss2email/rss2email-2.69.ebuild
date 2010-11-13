@@ -49,7 +49,7 @@ pkg_postinst() {
 	# to use one.
 	if [ -z "$(best_version virtual/mta)" ]; then
 		einfo "The default installation of rss2email requires"
-		einfo "a /usr/sbin/sendmail" einfo "binary, you may wish to consider"
+		einfo "a /usr/sbin/sendmail binary, you may wish to consider"
 		einfo "mail-mta/msmtp or mail-mta/nbsmtp."
 	fi
 	einfo "There is an example configuration file, config.py, installed in"
