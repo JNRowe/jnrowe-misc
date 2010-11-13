@@ -3,7 +3,11 @@
 # $Header: $
 
 EAPI=3
-PYTHON_DEPEND="*"
+
+SUPPORT_PYTHON_ABIS="1"
+PYTHON_DEPEND="2"
+# 3.x is restricted due to html2text's unicode usage and exception syntax.
+RESTRICT_PYTHON_ABIS="3.*"
 
 inherit eutils distutils
 
@@ -15,17 +19,15 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="dev-lang/python"
+DEPEND=""
 RDEPEND="dev-python/feedparser"
 
-pkg_setup() {
-	export SITEDIR="$(python_get_sitedir)"/${PN}
-}
-
 src_prepare() {
-	epatch "${FILESDIR}"/${PN}-2.66-Resynced-debian-2.65-1.patch
-	sed -i "s,/usr/share/rss2email,${SITEDIR}," r2e
+	distutils_src_prepare
 
+	epatch "${FILESDIR}"/${PN}-2.66-Resynced-debian-2.65-1.patch
+	# Python files installed to sitedir, so fix Debian wrapper.
+	sed -i "s,/usr/share/rss2email/rss2email.py,-m ${PN}.${PN}," r2e
 	epatch "${FILESDIR}"/${PN}-2.65-r2e-chmod.patch
 }
 
@@ -34,10 +36,15 @@ src_compile() {
 }
 
 src_install() {
+	install_files() {
+		local SITEDIR="$(python_get_sitedir)"/${PN}
+		insinto ${SITEDIR}
+		doins html2text.py rss2email.py || die "doins failed"
+		touch "${D}"/${SITEDIR}/__init__.py || die "touch failed"
+	}
+	python_execute_function install_files
+
 	dobin r2e || die "dobin failed"
-	insinto ${SITEDIR}
-	doins html2text.py rss2email.py || die "doins failed"
-	touch "${D}"/${SITEDIR}/__init__.py || die "touch failed"
 	doman r2e.1 || die "doman failed"
 	dodoc config.py || die "dodoc failed"
 	dohtml readme.html || die "dohtml failed"
