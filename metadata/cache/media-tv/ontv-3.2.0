@@ -6,7 +6,7 @@ mirror://gnome/sources/ontv/3.2/ontv-3.2.0.tar.bz2
 http://live.gnome.org/OnTV
 GPL-2
 GNOME Applet for monitoring current and upcoming TV programs
-~amd64
+amd64
 distutils fdo-mime gnome.org gnome2 gnome2-utils libtool multilib python toolchain-funcs
 +xmltv
 
