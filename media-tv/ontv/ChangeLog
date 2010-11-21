@@ -3,6 +3,9 @@
 # $Header: $
 
   21 Nov 2010; James Rowe <jnrowe@gmail.com> ontv-3.2.0.ebuild:
+  Keyworded ~x86.
+
+  21 Nov 2010; James Rowe <jnrowe@gmail.com> ontv-3.2.0.ebuild:
   Keyworded amd64.
 
   26 Oct 2010; James Rowe <jnrowe@gmail.com> ontv-3.2.0.ebuild,
