@@ -55,5 +55,7 @@ REM 2010-12-14 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-perl/Net-Twitter-Lit
 REM 2010-12-21 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-tv/ontv-3.2.0 %a
 REM 2010-12-23 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 sys-libs/libeatmydata-15.4 %a
 REM 2010-12-23 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 sys-libs/libeatmydata-15.4 %a
+REM 2010-12-24 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 mail-client/notmuch-0.5 %a
+REM 2010-12-24 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 mail-client/notmuch-0.5 %a
 
 # vim: set sw=4 sts=4 et tw=120 fenc=utf-8 ft=remind:
