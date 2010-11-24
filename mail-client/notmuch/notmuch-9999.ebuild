@@ -6,8 +6,11 @@ EAPI=3
 SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="python? 2:2.5"
 RESTRICT_PYTHON_ABIS="2.4 3.*"
+USE_RUBY="ruby18"
+RUBY_OPTIONAL="yes"
 
-inherit base distutils eutils toolchain-funcs elisp-common bash-completion
+inherit base distutils eutils toolchain-funcs elisp-common bash-completion \
+	ruby-ng
 
 if [[ ${PV} == "9999" ]]; then
 	EGIT_REPO_URI="git://notmuchmail.org/git/${PN}"
@@ -24,12 +27,14 @@ HOMEPAGE="http://notmuchmail.org/"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS=""
-IUSE="X debug emacs python vim zsh-completion"
+IUSE="X debug emacs python ruby vim zsh-completion"
 
 RDEPEND="sys-libs/talloc
 	>=dev-libs/gmime-2.4
 	dev-libs/xapian
 	emacs? ( virtual/emacs )
+	python? ( || ( >=dev-lang/python-2.6 dev-python/simplejson ) )
+	ruby? ( $(ruby_implementation_depend ruby18) )
 	vim? ( || ( app-editors/vim app-editors/gvim ) )
 	zsh-completion? ( app-shells/zsh )"
 DEPEND="dev-util/pkgconfig
@@ -39,6 +44,11 @@ DEPEND="dev-util/pkgconfig
 SITEFILE="50${PN}-gentoo.el"
 
 DOCS=(debian/changelog AUTHORS NEWS README TODO)
+
+src_unpack() {
+	# Call default explicitly, to avoid ruby-ng's src_unpack.
+	default
+}
 
 src_prepare() {
 	if [[ ${PV} == 9999 ]]; then
@@ -77,6 +87,14 @@ src_compile() {
 		pushd bindings/python >/dev/null
 		# Ugly, ugly hack to allow python to import notmuch library
 		LD_LIBRARY_PATH=$PWD/../../lib distutils_src_compile
+		popd >/dev/null
+	fi
+
+	if use ruby; then
+		pushd bindings/ruby >/dev/null
+		${RUBY:-$(type -p ruby 2>/dev/null)} extconf.rb \
+			|| die "\${RUBY} extconf.rb failed"
+		emake || die "emake in bindings/ruby failed"
 		popd >/dev/null
 	fi
 }
@@ -122,6 +140,15 @@ src_install() {
 		# Workaround distutils.eclass attempting to reinstall DOCS, caused
 		# because it doesn't use namespacing for eclass variables.
 		LD_LIBRARY_PATH=$PWD/../../lib DOCS= distutils_src_install
+		popd >/dev/null
+	fi
+
+	if use ruby; then
+		pushd bindings/ruby >/dev/null
+		# doruby doesn't support setting permissions, so we'll just not care
+		# about the 644 for now.  The important thing is using it works ;)
+		RUBY=${RUBY:-$(type -p ruby 2>/dev/null)} doruby ${PN}.so \
+			|| die "doruby failed"
 		popd >/dev/null
 	fi
 }
