@@ -17,6 +17,11 @@
 		break. I encourage you to explore, and then modify each widget to suit
 		your own needs.
 	</longdescription>
+	<use>
+		<flag name="contrib">
+			Install additional, possibly lower quality, contributed components
+		</flag>
+	</use>
 	<upstream>
 		<changelog>http://git.sysphere.org/vicious/tree/CHANGES</changelog>
 		<doc lang="en">http://awesome.naquadah.org/wiki/Vicious</doc>

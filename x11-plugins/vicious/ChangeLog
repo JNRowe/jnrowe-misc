@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*vicious-2.0.2 (30 Nov 2010)
+
+  30 Nov 2010; James Rowe <jnrowe@gmail.com> +vicious-2.0.2.ebuild,
+  metadata.xml:
+  Version bump [241].
+
   07 Nov 2010; James Rowe <jnrowe@gmail.com> vicious-2.0.1.ebuild,
   vicious-9999.ebuild:
   Updated URL for GitHub's recent switch to HTTPS everywhere.
