@@ -6,7 +6,7 @@ test
 http://pypi.python.org/pypi/github2/
 BSD
 Github API v2 library for Python
-~amd64 ~x86
+amd64 ~x86
 base distutils eutils jnrowe-pypi multilib portability python toolchain-funcs
 examples
 
