@@ -6,7 +6,7 @@ http://jefke.free.fr/stuff/python/texttable/texttable-0.7.0.tar.gz
 http://jefke.free.fr/coding/python/
 LGPL-2.1
 module to generate a formatted text table, using ASCII characters.
-~amd64 ~x86
+amd64 ~x86
 distutils multilib python toolchain-funcs
 
 
