@@ -47,5 +47,7 @@ REM 2010-12-26 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/blockdiag-0.
 REM 2010-12-26 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/blockdiag-0.5.2 %a
 REM 2010-12-30 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 x11-plugins/vicious-2.0.2 %a
 REM 2010-12-30 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 x11-plugins/vicious-2.0.2 %a
+REM 2011-01-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/lettuce-0.1.17 %a
+REM 2011-01-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/lettuce-0.1.17 %a
 
 # vim: set sw=4 sts=4 et tw=120 fenc=utf-8 ft=remind:
