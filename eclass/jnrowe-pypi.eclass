@@ -4,6 +4,11 @@
 
 inherit distutils eutils
 
+case "${EAPI:-0}" in
+	0|1|2|3) ;;
+	*) die "EAPI=${EAPI} is not supported" ;;
+esac
+
 # @ECLASS: jnrowe-pypi.eclass
 # @MAINTAINER:
 # jnrowe@gmail.com
