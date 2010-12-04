@@ -6,7 +6,7 @@ http://joel.rosdahl.net/maildirproc/releases/maildirproc-python2-0.5.0.tar.bz2
 http://joel.rosdahl.net/maildirproc/
 GPL-2
 maildir processor using Python as its configuration language
-amd64 ~x86
+amd64 x86
 distutils multilib python toolchain-funcs
 examples
 
