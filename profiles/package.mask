@@ -5,11 +5,6 @@
 # X-Removal: 2010-12-05
 dev-python/python-gnupg
 
-# James Rowe <jnrowe@gmail.com> (04 Nov 2010)
-# Cost of supporting too high, plenty of alternatives.
-# X-Removal: 2010-12-04
-dev-python/termstyle
-
 # James Rowe <jnrowe@gmail.com> (09 Oct 2010)
 # live ebuild for git-sync
 =dev-vcs/git-sync-9999
