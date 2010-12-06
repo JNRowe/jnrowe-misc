@@ -36,7 +36,7 @@ profiles/categories: $(CATEGORIES)
 	for cat in $(CATEGORIES); do echo $$cat >>$@; done
 
 profiles/use.local.desc: $(METADATA)
-	./support/gen_use_local_desc.py
+	egencache --repo=jnrowe-misc --update-use-local-desc
 
 clean:
 	rm -f $(HTML) profiles/categories
