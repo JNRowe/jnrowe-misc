@@ -1,3 +1,4 @@
+REPO := $(shell cat profiles/repo_name)
 CATEGORIES := $(wildcard *-*)
 HTML := $(patsubst %.rst, %.html, $(wildcard *.rst))
 PACKAGES := $(wildcard *-*/*)
@@ -36,7 +37,7 @@ profiles/categories: $(CATEGORIES)
 	for cat in $(CATEGORIES); do echo $$cat >>$@; done
 
 profiles/use.local.desc: $(METADATA)
-	egencache --repo=jnrowe-misc --update-use-local-desc
+	egencache --repo=$(REPO) --update-use-local-desc
 
 clean:
 	rm -f $(HTML) profiles/categories
