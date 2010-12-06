@@ -20,7 +20,7 @@ all: $(HTML) profiles/categories profiles/use.local.desc $(MANIFESTS) \
 %.html: %.rst
 	rst2html.py --strict $< $@
 
-%/Manifest: %/*.ebuild
+%/Manifest: %/*.ebuild %/ChangeLog %/metadata.xml
 	ebuild $(lastword $(wildcard $(dir $@)*.ebuild)) manifest; \
 	if [ -n "$(SIGN_KEY)" ]; then \
 		gpg --local-user $(SIGN_KEY) --clearsign $@; \
