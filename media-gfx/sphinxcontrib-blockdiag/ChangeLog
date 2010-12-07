@@ -2,6 +2,12 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*sphinxcontrib-blockdiag-0.6 (07 Dec 2010)
+
+  07 Dec 2010; James Rowe <jnrowe@gmail.com>
+  +sphinxcontrib-blockdiag-0.6.ebuild:
+  Version bump [240].
+
   29 Nov 2010; James Rowe <jnrowe@gmail.com>
   -sphinxcontrib-blockdiag-0.4.ebuild, sphinxcontrib-blockdiag-0.5.ebuild:
   Keyworded x86.
