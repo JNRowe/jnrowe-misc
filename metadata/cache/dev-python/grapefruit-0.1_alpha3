@@ -6,7 +6,7 @@ http://grapefruit.googlecode.com/files/grapefruit-0.1a3.tar.gz
 http://code.google.com/p/grapefruit/
 Apache-2.0
 A module to manipulate color information easily.
-~amd64 ~x86
+amd64 ~x86
 distutils multilib python toolchain-funcs
 doc test
 
