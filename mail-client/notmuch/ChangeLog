@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  09 Dec 2010; James Rowe <jnrowe@gmail.com> notmuch-0.4.ebuild:
+  Keyworded amd64.
+
   24 Nov 2010; James Rowe <jnrowe@gmail.com> notmuch-9999.ebuild:
   Merged 0.5 changes to live ebuild.
 
