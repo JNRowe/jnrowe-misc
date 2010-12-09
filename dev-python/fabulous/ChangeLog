@@ -3,6 +3,9 @@
 # $Header: $
 
   09 Dec 2010; James Rowe <jnrowe@gmail.com> fabulous-0.1.5.ebuild:
+  Keyworded x86.
+
+  09 Dec 2010; James Rowe <jnrowe@gmail.com> fabulous-0.1.5.ebuild:
   Keyworded amd64.
 
   04 Nov 2010; James Rowe <jnrowe@gmail.com> fabulous-0.1.5.ebuild:

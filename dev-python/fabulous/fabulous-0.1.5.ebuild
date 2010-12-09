@@ -17,7 +17,7 @@ SRC_URI="http://lobstertech.com/media/file/fabulous/fabulous-0.1.5.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="doc"
 
 DEPEND="dev-python/setuptools
