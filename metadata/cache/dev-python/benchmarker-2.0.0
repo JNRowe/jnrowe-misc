@@ -6,7 +6,7 @@ mirror://pypi/B/Benchmarker/Benchmarker-2.0.0.tar.gz
 http://pypi.python.org/pypi/Benchmarker/
 public-domain
 A small utility to benchmark your Python code
-~amd64 ~x86
+amd64 ~x86
 distutils eutils jnrowe-pypi multilib portability python toolchain-funcs
 
 
