@@ -14,7 +14,7 @@ HOMEPAGE="http://inky.github.com/see/"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE=""
 
 DEPEND=""

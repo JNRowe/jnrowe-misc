@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  10 Dec 2010; James Rowe <jnrowe@gmail.com> see-1.0.1.ebuild:
+  Keyworded amd64.
+
   07 Nov 2010; James Rowe <jnrowe@gmail.com> metadata.xml:
   Updated URL for GitHub's recent switch to HTTPS everywhere.
 
