@@ -13,7 +13,7 @@ inherit eutils distutils
 
 DESCRIPTION="A python script that converts RSS newsfeeds to email"
 HOMEPAGE="http://www.allthingsrss.com/rss2email/"
-SRC_URI="http://www.allthingsrss.com/${PN}/${P}.tar.gz"
+SRC_URI="mirror://gentoo/${P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"

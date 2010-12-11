@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  11 Dec 2010; James Rowe <jnrowe@gmail.com> rss2email-2.69.ebuild:
+  Use a mirrored tarball, as upstream changes the release without bumping.
+
   13 Nov 2010; James Rowe <jnrowe@gmail.com> rss2email-2.69.ebuild:
   Support multiple Python ABIs.
 

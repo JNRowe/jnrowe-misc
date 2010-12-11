@@ -1,7 +1,7 @@
 >=app-admin/eselect-python-20091230 =dev-lang/python-2*
 dev-python/feedparser >=app-admin/eselect-python-20091230 =dev-lang/python-2*
 0
-http://www.allthingsrss.com/rss2email/rss2email-2.69.tar.gz
+mirror://gentoo/rss2email-2.69.tar.gz
 
 http://www.allthingsrss.com/rss2email/
 GPL-2
