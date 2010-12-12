@@ -16,7 +16,7 @@ DESCRIPTION="A super easy console highlighter.  Text goes in, colour comes out."
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools"
