@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*notify-osd-icons-0.7 (14 Dec 2010)
+
+  14 Dec 2010; James Rowe <jnrowe@gmail.com> +notify-osd-icons-0.7.ebuild:
+  Version bump [237].
+
   08 Nov 2010; James Rowe <jnrowe@gmail.com> notify-osd-icons-0.6.ebuild:
   Keyworded x86.
 
