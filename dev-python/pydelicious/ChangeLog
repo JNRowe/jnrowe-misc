@@ -2,6 +2,11 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*pydelicious-0.6 (15 Dec 2010)
+
+  15 Dec 2010; James Rowe <jnrowe@gmail.com> +pydelicious-0.6.ebuild:
+  Version bump [238].
+
   21 Mar 2010; James Rowe <jnrowe@gmail.com> pydelicious-0.5.2_rc2.ebuild:
   Added PYTHON_DEPEND setting.
 
