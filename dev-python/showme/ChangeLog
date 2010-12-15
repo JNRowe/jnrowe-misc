@@ -3,6 +3,9 @@
 # $Header: $
 
   15 Dec 2010; James Rowe <jnrowe@gmail.com> showme-1.0.0.ebuild:
+  Keyworded x86.
+
+  15 Dec 2010; James Rowe <jnrowe@gmail.com> showme-1.0.0.ebuild:
   Keyworded amd64.
 
   07 Nov 2010; James Rowe <jnrowe@gmail.com> metadata.xml:
