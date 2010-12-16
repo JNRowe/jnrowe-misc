@@ -19,6 +19,7 @@ REM 2011-01-13 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 x11-themes/notify-osd-
 REM 2011-01-13 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 x11-themes/notify-osd-icons-0.7 %a
 REM 2011-01-14 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/pydelicious-0.6 %a
 REM 2011-01-14 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/pydelicious-0.6 %a
+REM 2011-01-15 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/isodate-0.4.3 %a
 REM 2011-02-06 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-util/ditz-0.5-r1 %a
 REM 2011-02-06 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-util/ditz-0.5-r1 %a
 REM 2011-02-09 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/rstctl-0.4 %a
