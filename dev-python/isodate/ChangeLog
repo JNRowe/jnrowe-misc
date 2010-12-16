@@ -2,6 +2,9 @@
 # Copyright 1999-2010 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  16 Dec 2010; James Rowe <jnrowe@gmail.com> isodate-0.4.3.ebuild:
+  Keyworded ~x86.
+
 *isodate-0.4.3 (16 Dec 2010)
 
   16 Dec 2010; James Rowe <jnrowe@gmail.com> +isodate-0.4.3.ebuild,
