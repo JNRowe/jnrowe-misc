@@ -2,12 +2,12 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI=3
 SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="2:2.6"
 RESTRICT_PYTHON_ABIS="2.[45] 3.*"
 
-inherit distutils
+inherit eutils distutils
 
 DESCRIPTION="A tool to check for updates on web pages"
 HOMEPAGE="http://jnrowe.github.com/cupage"
@@ -27,6 +27,10 @@ RDEPEND="dev-python/configobj
 S="${WORKDIR}/JNRowe-${PN}-87e5e9d"
 
 PYTHON_MODNAME="libcupage"
+
+src_prepare() {
+	epatch "${FILESDIR}"/${P}-Fixed-usage-without-termstyle.patch
+}
 
 src_compile() {
 	distutils_src_compile
