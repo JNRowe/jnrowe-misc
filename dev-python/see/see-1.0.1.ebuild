@@ -20,4 +20,6 @@ IUSE=""
 DEPEND=""
 RDEPEND=""
 
+PYTHON_MODNAME="${PN}.py"
+
 DOCS="CHANGELOG.markdown"
