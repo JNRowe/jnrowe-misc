@@ -24,7 +24,7 @@ RDEPEND="dev-python/configobj
 	dev-python/httplib2
 	dev-python/lxml"
 
-S="${WORKDIR}/JNRowe-${PN}-44a0bc0"
+S="${WORKDIR}/JNRowe-${PN}-e92dcba"
 
 PYTHON_MODNAME="libcupage"
 
