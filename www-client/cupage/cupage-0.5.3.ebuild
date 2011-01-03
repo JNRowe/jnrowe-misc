@@ -16,13 +16,14 @@ SRC_URI="https://github.com/JNRowe/cupage/tarball/${PV} -> ${P}.tar.gz"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="doc"
+IUSE="doc minimal"
 
 DEPEND="dev-python/docutils
 	doc? ( dev-python/sphinx )"
 RDEPEND="dev-python/configobj
 	dev-python/httplib2
-	dev-python/lxml"
+	dev-python/lxml
+	!minimal? ( dev-python/termcolor )"
 
 S="${WORKDIR}/JNRowe-${PN}-e92dcba"
 
