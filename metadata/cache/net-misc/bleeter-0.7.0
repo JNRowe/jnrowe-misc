@@ -1,5 +1,5 @@
-dev-python/configobj dev-python/notify-python dev-python/tweepy dev-python/pygtk dev-python/docutils doc? ( dev-python/sphinx ) >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* ) test? ( dev-python/nose )
-dev-python/configobj dev-python/notify-python dev-python/tweepy dev-python/pygtk >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* )
+dev-python/configobj dev-python/notify-python dev-python/tweepy dev-python/pygtk minimal? ( dev-python/termcolor ) dev-python/docutils doc? ( dev-python/sphinx ) >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* ) test? ( dev-python/nose )
+dev-python/configobj dev-python/notify-python dev-python/tweepy dev-python/pygtk minimal? ( dev-python/termcolor ) >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* )
 0
 https://github.com/JNRowe/bleeter/tarball/0.7.0 -> bleeter-0.7.0.tar.gz
 test
@@ -8,7 +8,7 @@ GPL-3
 Nasty little twitter client
 ~amd64 ~x86
 distutils multilib python toolchain-funcs
-doc test
+doc minimal test
 
 
 

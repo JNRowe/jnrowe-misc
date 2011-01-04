@@ -15,12 +15,13 @@ SRC_URI="https://github.com/JNRowe/bleeter/tarball/${PV} -> ${P}.tar.gz"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="doc"
+IUSE="doc minimal"
 
 RDEPEND="dev-python/configobj
 	dev-python/notify-python
 	dev-python/tweepy
-	dev-python/pygtk"
+	dev-python/pygtk
+	minimal? ( dev-python/termcolor )"
 DEPEND="${RDEPEND}
 	dev-python/docutils
 	doc? ( dev-python/sphinx )"
