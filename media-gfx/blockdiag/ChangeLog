@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 Jan 2011; James Rowe <jnrowe@gmail.com> -blockdiag-0.5.1.ebuild,
+  blockdiag-0.5.2.ebuild:
+  Keyworded x86.
+
   05 Jan 2011; James Rowe <jnrowe@gmail.com> blockdiag-0.5.2.ebuild:
   Keyworded amd64.
 
