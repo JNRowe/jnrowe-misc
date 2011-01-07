@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  07 Jan 2011; James Rowe <jnrowe@gmail.com> feedgenerator-1.2.1.ebuild:
+  Keyworded ~x86.
+
 *feedgenerator-1.2.1 (07 Jan 2011)
 
   07 Jan 2011; James Rowe <jnrowe@gmail.com> +feedgenerator-1.2.1.ebuild,
