@@ -1,0 +1,14 @@
+Title: app-misc/tudu-0.8 to be dropped
+Author: James Rowe <jnrowe@gmail.com>
+Content-Type: text/plain
+Posted: 2011-01-08
+Revision: 1
+News-Item-Format: 1.0
+Display-If-Installed: app-misc/tudu
+
+Unless somebody steps up to maintain the ebuild tudu will have to be
+dropped.  Recent build system changes make packaging tudu much too
+costly.
+
+Note that stepping up means also taking care of importing the necessary
+build tools for tudu to function, and maintaining those as well.
