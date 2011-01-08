@@ -22,7 +22,6 @@ net-misc
 sci-geosciences
 sci-visualization
 sys-apps
-sys-libs
 www-apps
 www-client
 x11-libs
