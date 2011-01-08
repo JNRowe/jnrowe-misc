@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Jan 2011; James Rowe <jnrowe@gmail.com> sng-1.0.5.ebuild:
+  Keyworded amd64.
+
 *sng-1.0.5 (06 Dec 2010)
 
   06 Dec 2010; James Rowe <jnrowe@gmail.com> +sng-1.0.5.ebuild:

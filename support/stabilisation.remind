@@ -1,5 +1,4 @@
 REM 2011-01-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/lettuce-0.1.17 %a
-REM 2011-01-05 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/sng-1.0.5 %a
 REM 2011-01-05 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/sng-1.0.5 %a
 REM 2011-01-06 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/sphinxcontrib-blockdiag-0.6 %a
 REM 2011-01-06 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/sphinxcontrib-blockdiag-0.6 %a
