@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		This is a fork of Brandon Craigh Rhodes's virtualenv3 tool so that it
+		can build virtual environments for Python 3.
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">virtualenv5</remote-id>
+	</upstream>
+</pkgmetadata>
