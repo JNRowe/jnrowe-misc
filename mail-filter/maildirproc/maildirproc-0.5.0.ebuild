@@ -23,8 +23,13 @@ DEPEND="!mail-filter/maildirproc-python2"
 RDEPEND="${DEPEND}"
 
 src_prepare() {
-	# Fix examples links for post-install location
-	sed -i 's,examples/,../&,' doc/*.html
+	if use examples; then
+		# Fix examples links for post-install location
+		sed -i 's,examples/,../&,' doc/*.html
+	else
+		# Make examples links go to upstream website
+		sed -i "s,examples/,${HOMEPAGE}&," doc/*.html
+	fi
 }
 
 src_install() {
