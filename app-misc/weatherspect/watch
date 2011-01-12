@@ -1,0 +1,4 @@
+url = http://www.robobunny.com/projects/weatherspect/
+select = td a
+match_type = re
+match = weatherspect_v[\d\.]+\.tar\.gz

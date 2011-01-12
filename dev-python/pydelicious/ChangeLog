@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:
+  Added watch file for package updates.
+
 *pydelicious-0.6 (15 Dec 2010)
 
   15 Dec 2010; James Rowe <jnrowe@gmail.com> +pydelicious-0.6.ebuild:

@@ -1,0 +1,3 @@
+url = http://rubyforge.org/frs/?group_id=5929
+select = dd a
+match_type = gem

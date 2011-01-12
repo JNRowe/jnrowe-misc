@@ -1,0 +1,4 @@
+url = http://www.robobunny.com/projects/asciiquarium/
+select = td a
+match_type = re
+match = asciiquarium_[\d\.]+\.tar\.gz

@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:
+  Added watch file for package updates.
+
   05 Jul 2010; James Rowe <jnrowe@gmail.com> -ccontrol-0.9.1.ebuild,
   ccontrol-1.0.ebuild:
   Keyworded x86.

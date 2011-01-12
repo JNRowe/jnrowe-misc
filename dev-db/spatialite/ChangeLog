@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:
+  Added watch file for package updates.
+
   27 Oct 2010; James Rowe <jnrowe@gmail.com> spatialite-2.3.1.ebuild:
   Keyworded x86.
 

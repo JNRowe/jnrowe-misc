@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:
+  Added watch file for package updates.
+
   15 Dec 2010; James Rowe <jnrowe@gmail.com> -rss2email-2.69.ebuild:
   Dropped rss2email-2.69. Upstream's masking is breaking usage anyway, so
   now is as good time as any to move it to ::whiteout.

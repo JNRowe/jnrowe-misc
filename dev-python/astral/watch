@@ -1,0 +1,3 @@
+url = http://www.sffjunkie.co.uk/python-astral.html
+select = td a
+match_type = zip

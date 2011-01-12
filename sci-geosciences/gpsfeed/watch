@@ -1,0 +1,5 @@
+# Incredibly broken naming scheme, so just match anything
+url = http://sourceforge.net/projects/gpsfeed/files/gpsfeed%2B/
+select = div.download-bar a
+match_type = re
+match = .*

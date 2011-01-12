@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:
+  Added watch file for package updates.
+
   07 Nov 2010; James Rowe <jnrowe@gmail.com> gitserve-0.2.0-r2.ebuild,
   metadata.xml:
   Updated URL for GitHub's recent switch to HTTPS everywhere.

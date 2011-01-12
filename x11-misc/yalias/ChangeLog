@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:
+  Added watch file for package updates.
+
   10 Jun 2010; James Rowe <jnrowe@gmail.com> yalias-0.7.ebuild:
   Switched to using base.eclass' src_install.
 

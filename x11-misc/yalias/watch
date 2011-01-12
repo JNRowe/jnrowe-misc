@@ -1,0 +1,3 @@
+url = http://offog.org/files/
+select = td a
+match = yalias-[\d\.]+\.tar.\gz$

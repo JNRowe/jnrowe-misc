@@ -1,0 +1,4 @@
+url = http://www.gaia-gis.it/spatialite/sources.html
+select = td a
+match_type = re
+match = libspatialite-amalgamation-[\d\.]+\.tar\.gz

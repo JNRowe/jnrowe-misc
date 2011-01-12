@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:
+  Added watch file for package updates.
+
   22 Dec 2010; James Rowe <jnrowe@gmail.com> see-1.0.1.ebuild:
   Added missing PYTHON_MODNAME.
 

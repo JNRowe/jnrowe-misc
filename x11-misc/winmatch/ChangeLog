@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:
+  Added watch file for package updates.
+
   12 Feb 2010; James Rowe <jnrowe@gmail.com> winmatch-0.5.ebuild:
   Keyworded x86.
 

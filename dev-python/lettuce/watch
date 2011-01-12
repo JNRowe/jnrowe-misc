@@ -1,0 +1,3 @@
+site = pypi
+match_type = re
+match = lettuce-[\d\.]+(?:rc\d+|)\.tar\.gz

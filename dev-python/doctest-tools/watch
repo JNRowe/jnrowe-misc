@@ -1,0 +1,3 @@
+site = google code
+match_type = re
+match = doctest-tools-[\d]+\.[\da-z]+.zip

@@ -1,0 +1,3 @@
+url = http://offog.org/code/gselt.html
+select = p.download a
+match = gselt-[\d\.]+\.tar\.gz$

@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:
+  Added watch file for package updates.
+
   12 Oct 2010; James Rowe <jnrowe@gmail.com> pinocchio-0.1.ebuild:
   Fixed duplicated test dependencies, caused by now fixed bug in paralax.
 

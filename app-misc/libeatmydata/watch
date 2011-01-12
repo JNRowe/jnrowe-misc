@@ -1,0 +1,3 @@
+site = debian
+# Workaround bug in released version of cupage
+url = http://ftp.debian.org/debian/pool/main/libe/{name}/

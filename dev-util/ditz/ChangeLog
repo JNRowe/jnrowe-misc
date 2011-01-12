@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:
+  Added watch file for package updates.
+
   09 Oct 2010; James Rowe <jnrowe@gmail.com> ditz-0.5-r1.ebuild:
   Dropped stable keywords, to prevent breakage with trollop move to ::gluef.
 

@@ -1,0 +1,4 @@
+url = http://www.vanheusden.com/mboxstats/
+select = td a
+match_type = re
+match = mboxstats-[\d]+\.[\da-z]+.tgz
