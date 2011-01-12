@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*pycha-0.6.0 (12 Jan 2011)
+
+  12 Jan 2011; James Rowe <jnrowe@gmail.com> +pycha-0.6.0.ebuild:
+  Version bump [250].
+
   15 Dec 2010; James Rowe <jnrowe@gmail.com> pycha-0.5.3.ebuild:
   Keyworded x86.
 
