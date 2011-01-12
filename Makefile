@@ -57,11 +57,8 @@ support/cupage.conf: $(patsubst %, %/watch, $(PACKAGES))
 
 check: cupage-check layman-check
 
-cupage-check:
-	for i in $(PACKAGES); do \
-		name=$${i#*/}; \
-		grep -qi "\[$$name\]" support/cupage.conf || echo $$i; \
-	done
+# Make sure a watch file exists for each package
+cupage-check: $(patsubst %, %/watch, $(PACKAGES))
 
 layman-check: $(patsubst %, layman-check-%, layman.xml layman2.xml)
 layman-check-%: support/%
