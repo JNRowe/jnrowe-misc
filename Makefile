@@ -15,7 +15,7 @@ endif
     removal-reminders
 
 all: $(HTML) profiles/categories profiles/use.local.desc $(MANIFESTS) \
-	$(NEWS) stable-candidates removal-reminders
+	$(NEWS) support/cupage.conf stable-candidates removal-reminders
 
 %.html: %.rst
 	rst2html.py --strict $< $@
@@ -51,6 +51,9 @@ support/removal.remind: profiles/package.mask support/gen_removal.py
 	support/gen_removal.py
 removal-reminders: support/removal.remind
 	remind $<
+
+support/cupage.conf: $(patsubst %, %/watch, $(PACKAGES))
+	support/gen_cupage_conf.py >$@
 
 check: cupage-check layman-check
 
