@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*dexml-0.4.0 (13 Jan 2011)
+
+  13 Jan 2011; James Rowe <jnrowe@gmail.com> +dexml-0.4.0.ebuild:
+  Version bump [257].
+
   12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:
   Added watch file for package updates.
 
