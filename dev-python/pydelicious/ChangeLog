@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  13 Jan 2011; James Rowe <jnrowe@gmail.com>
+  -files/pydelicious-0.5.0-hashlib.patch, -pydelicious-0.5.2_rc2.ebuild,
+  -files/pydelicious-0.5.2_rc2-hashlib.patch, pydelicious-0.6.ebuild:
+  Keyworded x86.
+
   13 Jan 2011; James Rowe <jnrowe@gmail.com> pydelicious-0.6.ebuild:
   Keyworded amd64.
 

@@ -15,7 +15,7 @@ SRC_URI="http://pydelicious.googlecode.com/files/${P}.zip"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="minimal"
 
 # Tests span network boundaries, making them totally unusable.
