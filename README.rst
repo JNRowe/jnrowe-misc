@@ -1,9 +1,10 @@
 misc-overlay
 ============
 
-Packages that don't naturally fit in to my other themed overlays.
+This repository is for packages that don't naturally fit in to my other themed
+overlays.
 
-If you find any problems with ebuilds in this overlay either file an issue_ or
+If you find any problems with this overlay then please either file an issue_ or
 drop me an email_.
 
 Contributors
@@ -58,10 +59,11 @@ versions as specified in `Gentoo Python Developers Guide`_.  Unfortunately,
 there are various problems such as broken dependency specification that can't be
 worked around using the prescribed method.
 
-Please, read the ebuild's dependency specification and try to resolve the
-problem yourself before reporting bugs.  There is very little that can be done
-to fix this without breaking compatibility with upstream, so bugs relating to
-multiple ABI support will likely be closed as CANTFIX.
+If you find any dependency problems with the Python packages in this overlay
+please check the ``ebuild`` and try to resolve the problem yourself before
+reporting bugs.  There is very little that can be done to fix this without
+breaking compatibility with upstream, so bugs relating to multiple ABI support
+will likely be closed as CANTFIX.
 
 Hopefully upstream will fix or acknowledge the breakages soon, and then this can
 be resolved correctly.
@@ -85,7 +87,7 @@ To sync the repository::
 ``layman`` integration
 ----------------------
 
-If you use layman_ to sync your repositories you can simply add this repository
+If you use layman_ to sync your repositories you can easily add this repository
 to the supported list.
 
 If you're using layman v1.2.4 or newer, then the ``support/layman2.xml`` should
