@@ -32,6 +32,8 @@ REM 2011-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-perl/Net-Twitter-L
 REM 2011-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-perl/Net-Twitter-Lite-0.10003 %a
 REM 2011-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/dexml-0.4.0 %a
 REM 2011-02-12 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/dexml-0.4.0 %a
+REM 2011-02-13 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/interlude-1.1.1 %a
+REM 2011-02-13 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/interlude-1.1.1 %a
 REM 2011-03-09 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 www-apps/mnemosyne-0.12 %a
 REM 2011-03-09 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 www-apps/mnemosyne-0.12 %a
 

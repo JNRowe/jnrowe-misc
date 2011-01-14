@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*interlude-1.1.1 (14 Jan 2011)
+
+  14 Jan 2011; James Rowe <jnrowe@gmail.com> +interlude-1.1.1.ebuild:
+  Version bump [246].
+
   12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:
   Added watch file for package updates.
 
