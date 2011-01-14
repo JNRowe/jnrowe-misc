@@ -122,14 +122,14 @@ repository::
     # echo "jnrowe-misc" >>/etc/eix-sync.conf # Sync just jnrowe-misc
     # echo "*" >>/etc/eix-sync.conf # or sync all layman managed overlays
 
-Finally, use ``eix-sync`` to update the specified repositories and ``eix``
+Finally, call ``eix-sync`` to update the specified repositories and ``eix``
 package database.
 
 ``cupage`` integration
 ----------------------
 
 cupage_ is used to keep packages in sync with their releases, see
-``support/cupage.conf``.  ``cupage`` v0.4.0, or above, is required if you wish
+``support/cupage.conf``.  ``cupage`` v0.5.2, or above, is required if you wish
 to make use of this functionality.
 
 .. _email: jnrowe@gmail.com
