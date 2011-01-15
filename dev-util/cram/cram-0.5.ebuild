@@ -16,10 +16,11 @@ SRC_URI="http://bitheap.org/cram/${P}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="examples"
+IUSE="examples vim-syntax"
 
 DEPEND=""
-RDEPEND="${DEPEND}"
+RDEPEND="${DEPEND}
+	vim-syntax? ( || ( app-editors/vim app-editors/gvim ) )"
 
 PYTHON_MODNAME="${PN}.py"
 
@@ -29,5 +30,12 @@ src_install() {
 	insinto /usr/share/doc/${PF}
 	if use examples; then
 		doins -r examples
+	fi
+
+	if use vim-syntax; then
+		insinto /usr/share/vim/vimfiles/syntax
+		doins contrib/${PN}.vim || die "doins syntax failed"
+		insinto /usr/share/vim/vimfiles/ftdetect
+		doins "${FILESDIR}"/cram.vim || die "doins ftdetect failed"
 	fi
 }
