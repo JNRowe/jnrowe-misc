@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*cram-0.5 (15 Jan 2011)
+
+  15 Jan 2011; James Rowe <jnrowe@gmail.com> +cram-0.5.ebuild:
+  Version bump [256].
+
   12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:
   Added watch file for package updates.
 
