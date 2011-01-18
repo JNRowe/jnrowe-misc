@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*plac-0.7.5 (18 Jan 2011)
+
+  18 Jan 2011; James Rowe <jnrowe@gmail.com> +plac-0.7.5.ebuild:
+  Version bump [249].
+
   12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:
   Added watch file for package updates.
 
