@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		seqdiag generate sequence-diagram image file from spec-text file.
+
+		Features:
+
+		* Generate sequence-diagram from dot like text (basic feature).
+		* Multilingualization for node-label (utf-8 only).
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">seqdiag</remote-id>
+	</upstream>
+</pkgmetadata>
