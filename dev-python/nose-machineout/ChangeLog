@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/nose-machineout
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*nose-machineout-0.0.20101201 (23 Jan 2011)
+
+  23 Jan 2011; James Rowe <jnrowe@gmail.com>
+  +nose-machineout-0.0.20101201.ebuild, +metadata.xml, +watch:
+  Initial ebuild, by me [223].
+
