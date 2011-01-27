@@ -8,7 +8,7 @@ PYTHON_DEPEND="2"
 # 3.x is restricted due to print and exception syntax
 RESTRICT_PYTHON_ABIS="3.*"
 
-inherit jnrowe-pypi
+inherit base jnrowe-pypi
 
 DESCRIPTION="Extensions for virtualenv"
 
@@ -22,8 +22,15 @@ DEPEND="dev-python/setuptools"
 RDEPEND="${DEPEND}
 	dev-python/virtualenv"
 
+PATCHES=("${FILESDIR}"/${P}-fix_script_location.patch)
+
 # Testsuite is quite faulty, restrict it until it is fixed
 RESTRICT="test"
+
+src_prepare() {
+	base_src_prepare
+	distutils_src_prepare
+}
 
 src_install() {
 	distutils_src_install
@@ -34,4 +41,14 @@ src_install() {
 		docinto html/${lang}
 		dohtml -r docs/html/${lang}/
 	done
+}
+
+pkg_postinst() {
+	distutils_pkg_postinst
+
+	# Note: This location is different from upstream's default as installing the
+	# script in /usr/bin is a massive FHS violation
+	einfo "To enable ${PN}'s shell functions, source"
+	einfo "	'/usr/share/${PN}/${PN}.sh'"
+	einfo "from your shell's startup files."
 }
