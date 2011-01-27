@@ -1,5 +1,11 @@
 # extra line needed because portage is buggy
 
+# James Rowe <jnrowe@gmail.com> (27 Jan 2011)
+# Better alternatives available including busybox's fbsplash, plymouth, ksplash
+# and many others.
+# X-Removal: 2011-02-26
+media-gfx/psplash
+
 # James Rowe <jnrowe@gmail.com> (09 Oct 2010)
 # live ebuild for git-sync
 =dev-vcs/git-sync-9999
