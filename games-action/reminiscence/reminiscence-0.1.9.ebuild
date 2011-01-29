@@ -17,7 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="media-libs/libsdl"
+DEPEND="media-libs/libsdl[audio,joystick,video]"
 RDEPEND="${DEPEND}"
 
 S="${WORKDIR}"/${MY_P}
