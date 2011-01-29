@@ -1,5 +1,11 @@
 # extra line needed because portage is buggy
 
+# James Rowe <jnrowe@gmail.com> (29 Jan 2011)
+# Broken and needs heavy patching, upstream is on launchpad so fixing it is
+# out of the question.
+# X-Removal: 2011-02-28
+dev-python/restview
+
 # James Rowe <jnrowe@gmail.com> (27 Jan 2011)
 # Better alternatives available including busybox's fbsplash, plymouth, ksplash
 # and many others.
