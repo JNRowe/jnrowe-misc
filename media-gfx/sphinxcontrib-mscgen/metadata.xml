@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		This package contains the <pkg>media-gfx/mscgen</pkg>
+		<pkg>dev-python/sphinx</pkg> extension.
+
+		Allow mscgen-formatted Message Sequence Chart (MSC) graphs to be
+		included in Sphinx-generated documents inline.
+	</longdescription>
+	<upstream>
+		<doc lang="en">http://packages.python.org/sphinxcontrib-mscgen/</doc>
+		<remote-id type="pypi">sphinxcontrib-mscgen</remote-id>
+		<changelog>http://packages.python.org/sphinxcontrib-mscgen/#changelog</changelog>
+		<bugs-to>https://bitbucket.org/birkenfeld/sphinx-contrib/issues?status=new&amp;status=open</bugs-to>
+	</upstream>
+</pkgmetadata>
