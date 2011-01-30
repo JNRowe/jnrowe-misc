@@ -1,6 +1,7 @@
 REPO := $(shell cat profiles/repo_name)
 CATEGORIES := $(wildcard *-*)
-HTML := $(patsubst %.rst, %.html, $(wildcard *.rst))
+RST_FILES := $(wildcard *.rst)
+HTML := $(patsubst %.rst, %.html, $(RST_FILES))
 PACKAGES := $(wildcard *-*/*)
 MANIFESTS := $(addsuffix /Manifest, $(PACKAGES))
 METADATA := $(addsuffix /metadata.xml, $(PACKAGES))
@@ -55,7 +56,10 @@ removal-reminders: support/removal.remind
 support/cupage.conf: $(patsubst %, %/watch, $(PACKAGES))
 	support/gen_cupage_conf.py >$@
 
-check: cupage-check layman-check
+check: $(patsubst %, rst-check-%, $(RST_FILES)) cupage-check layman-check
+
+rst-check-%: %
+	rst2html.py --strict $< >/dev/null
 
 # Make sure a watch file exists for each package
 cupage-check: $(patsubst %, %/watch, $(PACKAGES))
