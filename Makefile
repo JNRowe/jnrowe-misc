@@ -34,8 +34,7 @@ all: $(HTML) profiles/categories profiles/use.local.desc $(MANIFESTS) \
 	gpg --local-user $(SIGN_KEY) --detach-sign --armor $<
 
 profiles/categories: $(CATEGORIES)
-	rm -f $@; \
-	for cat in $(CATEGORIES); do echo $$cat >>$@; done
+	echo $(CATEGORIES) | tr ' ' '\n' >> $@
 
 profiles/use.local.desc: $(METADATA)
 	egencache --repo=$(REPO) --update-use-local-desc
