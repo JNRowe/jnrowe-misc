@@ -28,8 +28,9 @@ all: $(HTML) profiles/categories profiles/use.local.desc $(MANIFESTS) \
 	fi
 
 %.txt.asc: %.txt
-	[ -z "$(SIGN_KEY)" ] && exit 1 || true
+	# Delete up front, if we can't sign we shouldn't leave stale signatures
 	rm -f $@
+	[ -z "$(SIGN_KEY)" ] && exit 1 || true
 	gpg --local-user $(SIGN_KEY) --detach-sign --armor $<
 
 profiles/categories: $(CATEGORIES)
