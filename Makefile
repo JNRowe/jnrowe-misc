@@ -12,11 +12,14 @@ ifndef SIGN_KEY
     $(warning Manifests will not be signed, as PORTAGE_GPG_KEY is not set)
 endif
 
-.PHONY: clean check cupage-check distclean layman-check stable-candidates \
+.PHONY: clean check cupage-check distclean doc layman-check stable-candidates \
     removal-reminders
 
 all: $(HTML) profiles/categories profiles/use.local.desc $(MANIFESTS) \
 	$(NEWS) support/cupage.conf stable-candidates removal-reminders
+
+doc:
+	$(MAKE) -C doc/ html
 
 %.html: %.rst
 	rst2html.py --strict $< $@
