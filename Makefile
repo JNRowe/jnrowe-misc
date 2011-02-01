@@ -31,8 +31,8 @@ doc:
 		mv $@.asc $@; \
 	fi
 
+# Delete up front, if we can't sign we shouldn't leave stale signatures
 %.txt.asc: %.txt
-	# Delete up front, if we can't sign we shouldn't leave stale signatures
 	rm -f $@
 	[ -z "$(SIGN_KEY)" ] && exit 1 || true
 	gpg --local-user $(SIGN_KEY) --detach-sign --armor $<
