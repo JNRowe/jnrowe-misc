@@ -22,6 +22,7 @@ Contents
    thanks
    licence
    download
+   cupage
    contact
 
 Indices and tables
