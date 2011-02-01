@@ -1,3 +1,5 @@
+doc/.build/
+
 README.html
 support/cupage.db
 support/removal.remind
