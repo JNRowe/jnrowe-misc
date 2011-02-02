@@ -756,6 +756,14 @@ Packages
 
   * `9999 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/git-sync/git-sync-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
 
+* ``gitdb`` - http://pypi.python.org/pypi/gitdb/
+
+ * GitDB is a pure-Python git object database
+ * Licence: ``BSD``
+ * Versions:
+
+  * `0.5.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/gitdb/gitdb-0.5.2.ebuild>`__  ``~amd64`` (due 2011-03-04)
+
 * ``gitflow`` - http://nvie.com/archives/323
 
  * High-level repository operations for Vincent Driessen's branching model
