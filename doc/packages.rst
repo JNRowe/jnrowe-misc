@@ -1050,8 +1050,7 @@ Packages
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/www-client/cupage/cupage-0.5.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.3 <https://github.com/JNRowe/misc-overlay/blob/master/www-client/cupage/cupage-0.5.3.ebuild>`__  ``amd64``, ``~x86`` (due 2011-02-02)
+  * `0.5.3 <https://github.com/JNRowe/misc-overlay/blob/master/www-client/cupage/cupage-0.5.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``github-cli`` - http://pypi.python.org/pypi/github-cli/
 
