@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/async
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*async-0.6.1 (02 Feb 2011)
+
+  02 Feb 2011; James Rowe <jnrowe@gmail.com> +async-0.6.1.ebuild,
+  +metadata.xml, +watch:
+  Initial ebuild, by me [271]. Required by gitdb.
+

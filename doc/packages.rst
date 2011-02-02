@@ -192,6 +192,14 @@ Packages
 
   * `0.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/astral/astral-0.3.ebuild>`__  ``amd64``, ``x86``
 
+* ``async`` - http://pypi.python.org/pypi/async/
+
+ * A framework to process interdependent tasks in a pool of workers
+ * Licence: ``BSD``
+ * Versions:
+
+  * `0.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/async/async-0.6.1.ebuild>`__  ``~amd64`` (due 2011-03-04)
+
 * ``benchmarker`` - http://pypi.python.org/pypi/Benchmarker/
 
  * A small utility to benchmark your Python code
