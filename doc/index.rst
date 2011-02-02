@@ -11,6 +11,8 @@ Packages that don't naturally fit in to my other themed overlays.
 If you find any problems with ebuilds in this overlay either file an issue_ or
 drop me an email_.
 
+This documentation reflects the overlay state as of |today|.
+
 Contents
 ========
 
