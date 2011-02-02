@@ -38,7 +38,7 @@ doc:
 	gpg --local-user $(SIGN_KEY) --detach-sign --armor $<
 
 profiles/categories: $(CATEGORIES)
-	echo $(CATEGORIES) | tr ' ' '\n' >> $@
+	echo $(CATEGORIES) | tr ' ' '\n' > $@
 
 profiles/use.local.desc: $(METADATA)
 	egencache --repo=$(REPO) --update-use-local-desc
