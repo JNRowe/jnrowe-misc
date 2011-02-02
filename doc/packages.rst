@@ -315,6 +315,14 @@ Packages
 
   * `0.2.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/gistapi/gistapi-0.2.1.ebuild>`__  ``amd64``, ``x86``
 
+* ``git-python`` - http://pypi.python.org/pypi/GitPython/
+
+ * Python Git Library
+ * Licence: ``BSD``
+ * Versions:
+
+  * `0.3.1_beta2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/git-python/git-python-0.3.1_beta2.ebuild>`__  ``~amd64`` (due 2011-03-04)
+
 * ``github2`` - http://pypi.python.org/pypi/github2/
 
  * Github API v2 library for Python
