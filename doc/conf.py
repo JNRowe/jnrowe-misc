@@ -48,8 +48,7 @@ copyright = u'2011, James Rowe'
 # built documents.
 #
 # The short X.Y version.
-import time
-version = time.strftime("%Y-%m-%d")
+version = "1.0"  # Just set 1.0, as it is unused in this document.
 # The full version, including alpha/beta/rc tags.
 release = version
 
