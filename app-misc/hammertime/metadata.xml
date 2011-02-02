@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Git based time tracking. Use it either with your repository you're doing
+		work in, or create a new repository to track your work.
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">hammertime</remote-id>
+		<bugs-to>http://github.com/caffeinehit/hammertime/issues</bugs-to>
+	</upstream>
+</pkgmetadata>

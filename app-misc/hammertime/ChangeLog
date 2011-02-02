@@ -1,0 +1,10 @@
+# ChangeLog for app-misc/hammertime
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*hammertime-0.1.2 (02 Feb 2011)
+
+  02 Feb 2011; James Rowe <jnrowe@gmail.com> +hammertime-0.1.2.ebuild,
+  +metadata.xml, +watch:
+  Initial ebuild, by me [268].
+

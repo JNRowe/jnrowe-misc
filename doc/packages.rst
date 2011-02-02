@@ -31,6 +31,14 @@ Packages
 
   * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/asciiquarium/asciiquarium-1.0.ebuild>`__  ``amd64``, ``x86``
 
+* ``hammertime`` - http://pypi.python.org/pypi/Hammertime/
+
+ * Simple time tracking with git backend
+ * Licence: ``MIT``
+ * Versions:
+
+  * `0.1.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/hammertime/hammertime-0.1.2.ebuild>`__  ``~amd64`` (due 2011-03-04)
+
 * ``libeatmydata`` - http://www.flamingspork.com/projects/libeatmydata/
 
  * Library that disables all forms of writing data safely to disk.
