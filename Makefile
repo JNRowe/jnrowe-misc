@@ -18,8 +18,12 @@ endif
 all: $(HTML) profiles/categories profiles/use.local.desc $(MANIFESTS) \
 	$(NEWS) support/cupage.conf stable-candidates removal-reminders
 
-doc:
+doc: doc/thanks.rst
 	$(MAKE) -C doc/ html
+
+doc/thanks.rst: README.rst
+	sed -E -n -e '/^Contributors/,/Python multi-ABI/p' -e '/^\.\. _(email|GitHub)/p' $< \
+	    | sed -e '/Python multi-ABI/d' -e '/^-/s,-,=,g' -e "/^'/s,',-,g" > $@
 
 %.html: %.rst
 	rst2html.py --strict $< $@
