@@ -1017,8 +1017,7 @@ Packages
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.6.0 <https://github.com/JNRowe/misc-overlay/blob/master/net-misc/bleeter/bleeter-0.6.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.7.0 <https://github.com/JNRowe/misc-overlay/blob/master/net-misc/bleeter/bleeter-0.7.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-02-03)
+  * `0.7.0 <https://github.com/JNRowe/misc-overlay/blob/master/net-misc/bleeter/bleeter-0.7.0.ebuild>`__  ``amd64``, ``x86``
 
 ``sci-geosciences``
 -------------------
