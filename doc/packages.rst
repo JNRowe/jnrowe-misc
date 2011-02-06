@@ -750,7 +750,7 @@ Packages
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.5-r1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-util/ditz/ditz-0.5-r1.ebuild>`__  ``~amd64`` (due 2011-02-06), ``~x86`` (due 2011-02-06)
+  * `0.5-r1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-util/ditz/ditz-0.5-r1.ebuild>`__  ``~amd64`` (due 2011-05-07), ``~x86`` (due 2011-05-07)
   * `9999 <https://github.com/JNRowe/misc-overlay/blob/master/dev-util/ditz/ditz-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
 
 ``dev-vcs``
