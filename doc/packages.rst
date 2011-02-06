@@ -288,7 +288,7 @@ Packages
  * Licence: ``BSD``
  * Versions:
 
-  * `1.2.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/feedgenerator/feedgenerator-1.2.1.ebuild>`__  ``~amd64`` (due 2011-02-06), ``~x86`` (due 2011-02-06)
+  * `1.2.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/feedgenerator/feedgenerator-1.2.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-02-06)
 
 * ``freshen`` - https://github.com/rlisagor/freshen
 
