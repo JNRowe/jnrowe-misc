@@ -70,7 +70,7 @@ Packages
  * Versions:
 
   * `0.7 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/tudu/tudu-0.7.ebuild>`__  ``amd64``, ``x86``
-  * `0.8 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/tudu/tudu-0.8.ebuild>`__  ``~amd64`` (due 2011-02-07), ``~x86`` (due 2011-02-07)
+  * `0.8 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/tudu/tudu-0.8.ebuild>`__  ``amd64``, ``~x86`` (due 2011-02-07)
 
 * ``weatherspect`` - http://www.robobunny.com/projects/weatherspect/html/
 
