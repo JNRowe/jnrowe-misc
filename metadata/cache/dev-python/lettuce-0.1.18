@@ -6,7 +6,7 @@ mirror://pypi/l/lettuce/lettuce-0.1.18.tar.gz
 http://lettuce.it/
 MIT
 Cucumber-ish BDD for python
-amd64 ~x86
+amd64 x86
 distutils eutils jnrowe-pypi multilib portability python toolchain-funcs
 
 

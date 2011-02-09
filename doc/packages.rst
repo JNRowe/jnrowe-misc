@@ -393,8 +393,7 @@ Packages
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1.17 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/lettuce/lettuce-0.1.17.ebuild>`__  ``amd64``, ``x86``
-  * `0.1.18 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/lettuce/lettuce-0.1.18.ebuild>`__  ``amd64``, ``~x86`` (due 2011-02-09)
+  * `0.1.18 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/lettuce/lettuce-0.1.18.ebuild>`__  ``amd64``, ``x86``
   * `0.1.19 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/lettuce/lettuce-0.1.19.ebuild>`__  ``~amd64`` (due 2011-02-21), ``~x86`` (due 2011-02-21)
 
 * ``logbook`` - http://pypi.python.org/pypi/Logbook/
