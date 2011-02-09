@@ -557,7 +557,7 @@ Packages
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2011-02-09), ``~x86`` (due 2011-02-09)
+  * `0.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2011-05-10), ``~x86`` (due 2011-05-10)
 
 * ``scripttest`` - http://pythonpaste.org/scripttest/
 
