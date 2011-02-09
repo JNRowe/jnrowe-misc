@@ -653,7 +653,7 @@ Packages
  * Licence: ``GPL-2``
  * Versions:
 
-  * `0.9 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/tox/tox-0.9.ebuild>`__  ``~amd64`` (due 2011-02-09), ``~x86`` (due 2011-02-11)
+  * `0.9 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/tox/tox-0.9.ebuild>`__  ``amd64``, ``~x86`` (due 2011-02-11)
 
 * ``tweepy`` - http://pypi.python.org/pypi/tweepy/
 
