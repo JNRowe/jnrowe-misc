@@ -693,7 +693,7 @@ Packages
  * Licence: ``MIT``
  * Versions:
 
-  * `1.3.4.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/virtualenv5/virtualenv5-1.3.4.5.ebuild>`__  ``amd64``, ``~x86`` (due 2011-02-09)
+  * `1.3.4.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/virtualenv5/virtualenv5-1.3.4.5.ebuild>`__  ``amd64``, ``x86``
 
 * ``virtualenvwrapper`` - http://pypi.python.org/pypi/virtualenvwrapper/
 
