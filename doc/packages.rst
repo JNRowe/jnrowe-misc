@@ -925,8 +925,7 @@ Packages
  * Licence: ``BSD``
  * Versions:
 
-  * `0.6 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-0.6.ebuild>`__  ``amd64``, ``x86``
-  * `0.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-0.6.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-02-10)
+  * `0.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-0.6.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``sphinxcontrib-gruffygen`` - http://pypi.python.org/pypi/sphinxcontrib-gruffygen/
 
