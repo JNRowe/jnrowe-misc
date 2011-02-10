@@ -878,7 +878,7 @@ Packages
  * Versions:
 
   * `0.5.2 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/blockdiag/blockdiag-0.5.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.6.2 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/blockdiag/blockdiag-0.6.2.ebuild>`__  ``~amd64`` (due 2011-02-10), ``~x86`` (due 2011-02-10)
+  * `0.6.2 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/blockdiag/blockdiag-0.6.2.ebuild>`__  ``amd64``, ``~x86`` (due 2011-02-10)
 
 * ``gruffy`` - http://pypi.python.org/pypi/gruffy/
 
