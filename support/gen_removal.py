@@ -55,7 +55,6 @@ def main():
                 for pkg in pkgs:
                     file.write("REM %s *1 +1 UNTIL 2038-01-19 PRIORITY 2500 "
                                "MSG Removal due for %s %%a\n" % (key, pkg))
-        file.write("\n\n# vim: set sw=4 sts=4 et tw=80 fenc=utf-8 ft=remind:\n")
 
 if __name__ == '__main__':
     sys.exit(main())
