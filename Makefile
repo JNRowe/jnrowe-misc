@@ -33,6 +33,8 @@ doc/thanks.rst: README.rst
 	if [ -n "$(SIGN_KEY)" ]; then \
 		gpg --local-user $(SIGN_KEY) --clearsign $@; \
 		mv $@.asc $@; \
+	else \
+		true; \
 	fi
 
 # Delete up front, if we can't sign we shouldn't leave stale signatures
