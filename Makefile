@@ -22,8 +22,10 @@ doc: doc/thanks.rst
 	$(MAKE) -C doc/ html
 
 doc/thanks.rst: README.rst
-	sed -E -n -e '/^Contributors/,/Python multi-ABI/p' -e '/^\.\. _(email|GitHub)/p' $< \
-	    | sed -e '/Python multi-ABI/d' -e '/^-/s,-,=,g' -e "/^'/s,',-,g" > $@
+	sed -E -n -e '/^Contributors/,/Python multi-ABI/p' \
+		-e '/^\.\. _(email|GitHub)/p' $< \
+		| sed -e '/Python multi-ABI/d' -e '/^-/s,-,=,g' \
+		-e "/^'/s,',-,g" > $@
 
 %.html: %.rst
 	rst2html.py --strict $< $@
