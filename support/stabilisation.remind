@@ -39,6 +39,7 @@ REM 2011-03-09 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 www-apps/mnemosyne-0.1
 REM 2011-03-09 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 www-apps/mnemosyne-0.12 %a
 REM 2011-03-13 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/async-0.6.1 %a
 REM 2011-03-13 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-vcs/gitdb-0.5.2 %a
+REM 2011-03-13 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/git-python-0.3.1_beta2 %a
 REM 2011-05-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-util/ditz-0.5-r1 %a
 REM 2011-05-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-util/ditz-0.5-r1 %a
 REM 2011-05-10 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/rstctl-0.4 %a
