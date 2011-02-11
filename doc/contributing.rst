@@ -31,6 +31,19 @@ problems than a poorly defined call to :command:`sed`.]
    used within an ``ebuild`` will fail if a file doesn't exist or an expression
    doesn't apply.
 
+:command:`do*` and :command:`die`
+'''''''''''''''''''''''''''''''''
+
+It is common practise within the main Gentoo repository that calls to the likes
+of :command:`dodoc` or :command:`doman` do not call :command:`die` on failure.
+This is *not* acceptable in this overlay.
+
+Usage of wildcards in calls to :command:`do*` is also frowned upon, but not
+enough to clean up previous usage [yet].
+
+All entities that should be installed should raise a failure if they are not
+installed, there shouldn't be a middle ground for some types of files.
+
 :file:`stabilisation.remind`
 ----------------------------
 
