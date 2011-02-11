@@ -37,7 +37,7 @@ Packages
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/hammertime/hammertime-0.1.2.ebuild>`__  ``~amd64`` (due 2011-03-04)
+  * `0.1.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/hammertime/hammertime-0.1.2.ebuild>`__  ``~amd64`` (due 2011-03-04), ``~x86`` (due 2011-03-13)
 
 * ``libeatmydata`` - http://www.flamingspork.com/projects/libeatmydata/
 
