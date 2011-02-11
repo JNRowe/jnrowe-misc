@@ -4,6 +4,33 @@ Contributing
 There are few notes beyond the advice in the excellent devmanual_ that should be
 taken in to consideration when contributing to this overlay.
 
+:command:`die` usage
+--------------------
+
+There are few differences between how :command:`die` is commonly used in the
+upstream tree, and how it is used in this overlay.  The rules in the overlay
+aren't always strictly enforced, but documenting this will hopefully reduce the
+number of syntax questions I'm asked.
+
+:command:`sed` and :command:`die`
+'''''''''''''''''''''''''''''''''
+
+:command:`sed` should not be followed by a :command:`die` in any ``ebuild`` in
+this overlay.  Invariably, it leads to a misunderstanding of what is actually
+happening and continuing the usage is quite counter-productive.
+
+The only thing the ``sed || die`` construct achieves is a failure if a specified
+file is missing.  Too many people seem to believe it does other things, such as
+fail if an expression can't be applied.  [And frankly, if your :command:`die`
+calls are triggered because of missing or mispelt files there are much greater
+problems than a poorly defined call to :command:`sed`.]
+
+.. note::
+
+   Users inside the AST firewall should note that our :command:`sed` wrappers
+   used within an ``ebuild`` will fail if a file doesn't exist or an expression
+   doesn't apply.
+
 stabilisation.remind
 --------------------
 
