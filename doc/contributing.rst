@@ -31,8 +31,8 @@ problems than a poorly defined call to :command:`sed`.]
    used within an ``ebuild`` will fail if a file doesn't exist or an expression
    doesn't apply.
 
-stabilisation.remind
---------------------
+:file:`stabilisation.remind`
+----------------------------
 
 :file:`support/stabilisation.remind` is a remind_ compatible data file that
 contains *likely* stabilisation dates for packages.  When a new arch keyword is
@@ -48,8 +48,8 @@ The format is simple enough::
    The initial ``stable date`` value is 30 days in the future, although it can
    be longer if more testing is likely to be necessary.
 
-package.mask
-------------
+:file:`package.mask`
+--------------------
 
 The :file:`profiles/package.mask` file includes special syntax for generating
 removal reminders for packages.  An example should explain it adequately::
