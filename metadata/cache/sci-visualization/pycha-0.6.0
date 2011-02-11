@@ -6,7 +6,7 @@ mirror://pypi/p/pycha/pycha-0.6.0.tar.gz
 http://pypi.python.org/pypi/pycha/
 LGPL-3
 A library for making charts with Python
-~amd64 ~x86
+amd64 x86
 distutils eutils jnrowe-pypi multilib portability python toolchain-funcs
 examples test
 
