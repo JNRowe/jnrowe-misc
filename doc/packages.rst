@@ -1043,8 +1043,7 @@ Packages
  * Licence: ``LGPL-3``
  * Versions:
 
-  * `0.5.3 <https://github.com/JNRowe/misc-overlay/blob/master/sci-visualization/pycha/pycha-0.5.3.ebuild>`__  ``amd64``, ``x86``
-  * `0.6.0 <https://github.com/JNRowe/misc-overlay/blob/master/sci-visualization/pycha/pycha-0.6.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-02-11)
+  * `0.6.0 <https://github.com/JNRowe/misc-overlay/blob/master/sci-visualization/pycha/pycha-0.6.0.ebuild>`__  ``amd64``, ``x86``
 
 ``sys-apps``
 ------------
