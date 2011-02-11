@@ -776,7 +776,7 @@ Packages
  * Licence: ``BSD``
  * Versions:
 
-  * `0.5.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/gitdb/gitdb-0.5.2.ebuild>`__  ``~amd64`` (due 2011-03-04)
+  * `0.5.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/gitdb/gitdb-0.5.2.ebuild>`__  ``~amd64`` (due 2011-03-04), ``~x86`` (due 2011-03-13)
 
 * ``gitflow`` - http://nvie.com/archives/323
 
