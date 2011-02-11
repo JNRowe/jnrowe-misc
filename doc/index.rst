@@ -26,6 +26,7 @@ Contents
    download
    cupage
    contact
+   contributing
 
 Indices and tables
 ==================
