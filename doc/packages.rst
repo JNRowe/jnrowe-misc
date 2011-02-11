@@ -37,7 +37,7 @@ Packages
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/hammertime/hammertime-0.1.2.ebuild>`__  ``~amd64`` (due 2011-03-04)
+  * `0.1.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/hammertime/hammertime-0.1.2.ebuild>`__  ``~amd64`` (due 2011-03-04), ``~x86`` (due 2011-03-13)
 
 * ``libeatmydata`` - http://www.flamingspork.com/projects/libeatmydata/
 
@@ -205,7 +205,7 @@ Packages
  * Licence: ``BSD``
  * Versions:
 
-  * `0.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/async/async-0.6.1.ebuild>`__  ``~amd64`` (due 2011-03-04)
+  * `0.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/async/async-0.6.1.ebuild>`__  ``~amd64`` (due 2011-03-04), ``~x86`` (due 2011-03-13)
 
 * ``benchmarker`` - http://pypi.python.org/pypi/Benchmarker/
 
@@ -328,7 +328,7 @@ Packages
  * Licence: ``BSD``
  * Versions:
 
-  * `0.3.1_beta2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/git-python/git-python-0.3.1_beta2.ebuild>`__  ``~amd64`` (due 2011-03-04)
+  * `0.3.1_beta2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/git-python/git-python-0.3.1_beta2.ebuild>`__  ``~amd64`` (due 2011-03-04), ``~x86`` (due 2011-03-13)
 
 * ``github2`` - http://pypi.python.org/pypi/github2/
 
@@ -776,7 +776,7 @@ Packages
  * Licence: ``BSD``
  * Versions:
 
-  * `0.5.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/gitdb/gitdb-0.5.2.ebuild>`__  ``~amd64`` (due 2011-03-04)
+  * `0.5.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/gitdb/gitdb-0.5.2.ebuild>`__  ``~amd64`` (due 2011-03-04), ``~x86`` (due 2011-03-13)
 
 * ``gitflow`` - http://nvie.com/archives/323
 
