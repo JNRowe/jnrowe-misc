@@ -81,5 +81,26 @@ files.
 A simple, but important, extension that makes it easier to keep on top of admin
 tasks.
 
+:file:`distutils.eclass` usage
+------------------------------
+
+When using ``RESTRICTED_PYTHON_ABIS`` functionality from
+:file:`distutils.eclass` it is important to state the reason why a certain
+Python version is restricted.
+
+This should, in theory, make it easier to track updates and also make it
+immediately clear how much work is required to support a specific version if the
+need arises.
+
+A simple example from the ``ebuild`` for rad_ would be::
+
+    SUPPORT_PYTHON_ABIS="1"
+    PYTHON_DEPEND="2:2.6"
+    # 2.4 is restricted due to relative imports and except...as syntax
+    # 2.5 is restricted due to except...as syntax
+    # 3.x is restricted due to print command
+    RESTRICT_PYTHON_ABIS="2.[45] 3.*"
+
 .. _devmanual: http://devmanual.gentoo.org/
 .. _remind: http://www.roaringpenguin.com/products/remind
+.. _rad: http://pypi.python.org/pypi/rad/
