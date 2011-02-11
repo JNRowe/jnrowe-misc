@@ -44,6 +44,17 @@ enough to clean up previous usage [yet].
 All entities that should be installed should raise a failure if they are not
 installed, there shouldn't be a middle ground for some types of files.
 
+:envvar:`RESTRICT` usage
+------------------------
+
+All usage of :envvar:`RESTRICT` in an ``ebuild`` should be accompanied by an
+explanation of the reason for the restriction.  It should be obvious to someone
+looking at an ``ebuild`` the reason why tests, for example, are blocked for a
+given package.
+
+Of course, it is preferable to fix the underlying reason for needing a
+:envvar:`RESTRICT` definition in the case of ``test`` and ``userpriv``.
+
 :file:`stabilisation.remind`
 ----------------------------
 
