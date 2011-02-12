@@ -19,12 +19,14 @@ IUSE=""
 
 DEPEND="dev-python/setuptools
 	test? ( >=dev-python/pytest-2.0.0 )"
+# argparse is needed regardless of Python version because of package's
+# metadata requirement, needs fixing upstream
 # Setuptools is needed in RDEPEND, because of entrypoint usage
-RDEPEND=">=dev-python/py-1.4.0
+RDEPEND="dev-python/argparse
+	>=dev-python/py-1.4.0
 	dev-python/setuptools
 	dev-python/virtualenv
-	dev-python/virtualenv5
-	|| ( >=dev-lang/python-2.7 dev-python/argparse )"
+	dev-python/virtualenv5"
 
 # Tests are quite broken, and even if they worked they cross network boundaries
 RESTRICT="test"
