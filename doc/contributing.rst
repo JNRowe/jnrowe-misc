@@ -112,6 +112,72 @@ A simple example from the ``ebuild`` for rad_ would be::
     # 3.x is restricted due to print command
     RESTRICT_PYTHON_ABIS="2.[45] 3.*"
 
+:file:`watch` files
+-------------------
+
+Each package directory contains a :file:`watch` file is used to generate
+:file:`support/cupage.conf`.  The file:`support/cupage.conf` is an input file
+for cupage_, which helps us to keep up with new package releases by automating
+the process of checking project sites.
+
+The format is basically quite simple, but there are a few caveats.  First, an
+easy example from ``www-client/cupage``::
+
+    site = github
+    user = JNRowe
+
+This configuration is all that is needed to check for new tags in the
+``JNRowe/cupage`` project on GitHub_.
+
+The output of :program:`cupage.py --list-sites` shows all the possible
+definitions for the ``site`` option.  If the upstream project is located on one
+of those sites the :file:`watch` file should be extremely simple.
+
+For projects not using one of :program:`cupage`'s supported sites a manual
+matcher must be built.  An example from ``dev-python/astral`` should be
+illustrative::
+
+    url = http://www.sffjunkie.co.uk/python-astral.html
+    select = td a
+    match_type = zip
+
+This tells :program:`cupage` to check the defined URL for HTML ``a`` elements
+within HTML ``td`` elements that match ``zip`` filenames.
+
+For more information about configuring :program:`cupage` visit the cupage_
+website.
+
+Caveats
+'''''''
+
+If the package name does not match the project name then the project name should
+be specified in the :file:`watch` file.  A live example from this repository
+would be ``games-action/reminiscence``::
+
+    [REminiscence]
+    url = http://cyxdown.free.fr/reminiscence/
+    select = ul a
+
+.. note::
+
+   Project names are almost always case-sensitive, and project names must be
+   specified when the package and project names differ as in the REminiscence_
+   example above.
+
+For a live ``ebuild`` or an upstream that has since disappeared where
+using :program:`cupage` is unworkable a special entry should be placed in a
+package's :file:`watch` file.
+
+For a live ``ebuild`` add the string ``# Live ebuild`` to the start of the
+file.  It is possible to add other information to the end of the file.
+
+For a package where the upstream site is dead add the string ``upstream is
+dead`` somewhere to the watch file.  It is possible to add informative notes to
+the file, such as the previous location or package author data.
+
 .. _devmanual: http://devmanual.gentoo.org/
 .. _remind: http://www.roaringpenguin.com/products/remind
 .. _rad: http://pypi.python.org/pypi/rad/
+.. _cupage: http://jnrowe.github.com/cupage
+.. _GitHub: https://github.com/
+.. _REminiscence: http://cyxdown.free.fr/reminiscence/
