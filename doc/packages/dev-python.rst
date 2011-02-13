@@ -185,8 +185,7 @@
  * Licence: ``LGPL-2.1``
  * Versions:
 
-  * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/interlude/interlude-1.0.ebuild>`__  ``amd64``, ``x86``
-  * `1.1.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/interlude/interlude-1.1.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-02-13)
+  * `1.1.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/interlude/interlude-1.1.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``isodate`` - http://pypi.python.org/pypi/isodate/
 
