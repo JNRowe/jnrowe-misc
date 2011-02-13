@@ -1,5 +1,12 @@
 # extra line needed because portage is buggy
 
+# James Rowe <jnrowe@gmail.com> (13 Feb 2011)
+# The process this package was used for has been rewritten.  The package imposes
+# a significant maintenance burden for no real use, and is set for removal.  If
+# you do use it speak up soon!
+# X-Removal: 2011-03-15
+dev-python/pgmagick
+
 # James Rowe <jnrowe@gmail.com> (29 Jan 2011)
 # Broken and needs heavy patching, upstream is on launchpad so fixing it is
 # out of the question.
