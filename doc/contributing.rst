@@ -103,7 +103,9 @@ This should, in theory, make it easier to track updates and also make it
 immediately clear how much work is required to support a specific version if the
 need arises.
 
-A simple example from the ``ebuild`` for rad_ would be::
+A simple example from the ``ebuild`` for rad_ would be:
+
+.. code-block:: bash
 
     SUPPORT_PYTHON_ABIS="1"
     PYTHON_DEPEND="2:2.6"
@@ -121,7 +123,9 @@ for cupage_, which helps us to keep up with new package releases by automating
 the process of checking project sites.
 
 The format is basically quite simple, but there are a few caveats.  First, an
-easy example from ``www-client/cupage``::
+easy example from ``www-client/cupage``:
+
+.. code-block:: cfg
 
     site = github
     user = JNRowe
@@ -135,7 +139,9 @@ of those sites the :file:`watch` file should be extremely simple.
 
 For projects not using one of :program:`cupage`'s supported sites a manual
 matcher must be built.  An example from ``dev-python/astral`` should be
-illustrative::
+illustrative:
+
+.. code-block:: cfg
 
     url = http://www.sffjunkie.co.uk/python-astral.html
     select = td a
@@ -152,7 +158,9 @@ Caveats
 
 If the package name does not match the project name then the project name should
 be specified in the :file:`watch` file.  A live example from this repository
-would be ``games-action/reminiscence``::
+would be ``games-action/reminiscence``:
+
+.. code-block:: cfg
 
     [REminiscence]
     url = http://cyxdown.free.fr/reminiscence/
