@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  14 Feb 2011; James Rowe <jnrowe@gmail.com> reminiscence-0.1.9.ebuild:
+  Keyworded amd64.
+
   29 Jan 2011; James Rowe <jnrowe@gmail.com> reminiscence-0.1.9.ebuild:
   Requires libsdl[audio,joystick,video], thanks to Fabien Courtois for
   reporting.

@@ -1,5 +1,4 @@
 REM 2011-02-14 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-util/cram-0.5 %a
-REM 2011-02-14 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 games-action/reminiscence-0.1.9 %a
 REM 2011-02-15 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 games-action/reminiscence-0.1.9 %a
 REM 2011-02-16 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/genzshcomp-0.1 %a
 REM 2011-02-16 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/genzshcomp-0.1 %a
