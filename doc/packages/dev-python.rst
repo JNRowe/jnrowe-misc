@@ -25,6 +25,7 @@
  * Versions:
 
   * `2.0.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/benchmarker/benchmarker-2.0.0.ebuild>`__  ``amd64``, ``x86``
+  * `3.0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/benchmarker/benchmarker-3.0.1.ebuild>`__  ``~amd64`` (due 2011-03-17), ``~x86`` (due 2011-03-17)
 
 * ``clevercss`` - http://pypi.python.org/pypi/CleverCSS/
 
