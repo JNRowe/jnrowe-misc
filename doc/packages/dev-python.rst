@@ -122,8 +122,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.0.8 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/genzshcomp/genzshcomp-0.0.8.ebuild>`__  ``amd64``, ``x86``
-  * `0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/genzshcomp/genzshcomp-0.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-02-16)
+  * `0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/genzshcomp/genzshcomp-0.1.ebuild>`__  ``amd64``, ``x86``
   * `0.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/genzshcomp/genzshcomp-0.2.ebuild>`__  ``~amd64`` (due 2011-03-18), ``~x86`` (due 2011-03-18)
 
 * ``gistapi`` - https://github.com/kennethreitz/gistapi.py
