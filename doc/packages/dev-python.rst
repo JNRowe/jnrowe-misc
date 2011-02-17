@@ -286,8 +286,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.7.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/plac/plac-0.7.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.7.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/plac/plac-0.7.5.ebuild>`__  ``amd64``, ``~x86`` (due 2011-02-17)
+  * `0.7.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/plac/plac-0.7.5.ebuild>`__  ``amd64``, ``x86``
 
 * ``pwtools`` - http://alastairs-place.net/pwtools/
 
