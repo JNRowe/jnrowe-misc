@@ -38,6 +38,8 @@ REM 2011-03-17 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/lettuce-0.1
 REM 2011-03-17 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/lettuce-0.1.20 %a
 REM 2011-03-18 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/genzshcomp-0.2 %a
 REM 2011-03-18 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/genzshcomp-0.2 %a
+REM 2011-03-19 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/blockdiag-0.6.7 %a
+REM 2011-03-19 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/blockdiag-0.6.7 %a
 REM 2011-05-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-util/ditz-0.5-r1 %a
 REM 2011-05-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-util/ditz-0.5-r1 %a
 REM 2011-05-10 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/rstctl-0.4 %a
