@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  18 Feb 2011; James Rowe <jnrowe@gmail.com> commandlineapp-3.0.6.ebuild:
+  Keyworded amd64.
+
 *commandlineapp-3.0.6 (19 Jan 2011)
 
   19 Jan 2011; James Rowe <jnrowe@gmail.com> +commandlineapp-3.0.6.ebuild:
