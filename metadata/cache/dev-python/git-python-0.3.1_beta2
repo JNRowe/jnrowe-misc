@@ -1,4 +1,4 @@
-test? ( dev-python/mock ) >=app-admin/eselect-python-20091230 =dev-lang/python-2*
+>=app-admin/eselect-python-20091230 =dev-lang/python-2*
 >=dev-vcs/gitdb-0.5.1 >=app-admin/eselect-python-20091230 =dev-lang/python-2*
 0
 mirror://pypi/G/GitPython/GitPython-0.3.1-beta2.tar.gz

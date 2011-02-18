@@ -25,7 +25,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="test? ( dev-python/mock )"
+#test? ( dev-python/mock )
+DEPEND=""
 RDEPEND=">=dev-vcs/gitdb-0.5.1"
 
 S="${WORKDIR}"/${MY_PN}-$(get_version_component_range -3)
