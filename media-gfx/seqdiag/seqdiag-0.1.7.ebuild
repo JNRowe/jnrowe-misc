@@ -16,7 +16,7 @@ DESCRIPTION="Generate sequence-diagram image files from spec-text files"
 
 LICENSE="PSF-2.4"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="examples minimal test"
 
 DEPEND="dev-python/setuptools

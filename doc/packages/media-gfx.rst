@@ -40,7 +40,7 @@
  * Licence: ``PSF-2.4``
  * Versions:
 
-  * `0.1.7 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/seqdiag/seqdiag-0.1.7.ebuild>`__  ``amd64``, ``~x86`` (due 2011-02-21)
+  * `0.1.7 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/seqdiag/seqdiag-0.1.7.ebuild>`__  ``amd64``, ``x86``
 
 * ``sng`` - http://www.catb.org/~esr/sng/
 
