@@ -6,7 +6,7 @@ https://github.com/downloads/JNRowe/misc-overlay/nose-machineout-0.0.20101201.ta
 http://code.google.com/p/nose-machineout/
 PSF-2.4
 Machine parsable output plugin for nose
-~amd64 ~x86
+amd64 ~x86
 distutils multilib python toolchain-funcs
 
 
