@@ -4,6 +4,10 @@
 
   22 Feb 2011; James Rowe <jnrowe@gmail.com>
   nose-machineout-0.0.20101201.ebuild:
+  Keyworded x86.
+
+  22 Feb 2011; James Rowe <jnrowe@gmail.com>
+  nose-machineout-0.0.20101201.ebuild:
   Keyworded amd64.
 
 *nose-machineout-0.0.20101201 (23 Jan 2011)

@@ -237,7 +237,7 @@
  * Licence: ``PSF-2.4``
  * Versions:
 
-  * `0.0.20101201 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/nose-machineout/nose-machineout-0.0.20101201.ebuild>`__  ``amd64``, ``~x86`` (due 2011-02-22)
+  * `0.0.20101201 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/nose-machineout/nose-machineout-0.0.20101201.ebuild>`__  ``amd64``, ``x86``
 
 * ``nose-pathmunge`` - http://bitbucket.org/jnoller/nose-pathmunge/
 
