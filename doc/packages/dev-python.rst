@@ -512,7 +512,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `2.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.6.1.ebuild>`__  ``~amd64`` (due 2011-02-23), ``~x86`` (due 2011-02-23)
+  * `2.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.6.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-02-23)
 
 * ``wordish`` - http://pypi.python.org/pypi/wordish/
 
