@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*plac-0.8.0 (23 Feb 2011)
+
+  23 Feb 2011; James Rowe <jnrowe@gmail.com> +plac-0.8.0.ebuild:
+  Version bump [288].
+
   17 Feb 2011; James Rowe <jnrowe@gmail.com> -plac-0.7.4.ebuild,
   plac-0.7.5.ebuild:
   Keyworded x86.
