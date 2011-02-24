@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		A static site generator using <pkg>dev-python/docutils</pkg>
+		and <pkg>dev-python/jinja</pkg>.
+	</longdescription>
+	<upstream>
+		<bugs-to>https://github.com/mitsuhiko/rstblog/issues</bugs-to>
+	</upstream>
+</pkgmetadata>

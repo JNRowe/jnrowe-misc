@@ -1,5 +1,9 @@
 # extra line needed because portage is buggy
 
+# James Rowe <jnrowe@gmail.com> (24 Feb 2011)
+# live ebuild for rstblog
+=www-apps/rstblog-9999
+
 # James Rowe <jnrowe@gmail.com> (29 Jan 2011)
 # Broken and needs heavy patching, upstream is on launchpad so fixing it is
 # out of the question.

@@ -1,0 +1,22 @@
+>=dev-vcs/git-1.6 >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* )
+dev-python/Babel dev-python/blinker dev-python/pyyaml dev-python/werkzeug >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* )
+0
+
+
+https://github.com/mitsuhiko/rstblog
+BSD
+Static site generator using reST for input
+
+distutils eutils git multilib portability python toolchain-funcs
+
+
+
+
+3
+
+compile install postinst postrm prepare unpack
+
+
+
+
+

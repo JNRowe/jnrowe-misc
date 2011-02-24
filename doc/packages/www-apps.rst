@@ -9,3 +9,11 @@
 
   * `0.12 <https://github.com/JNRowe/misc-overlay/blob/master/www-apps/mnemosyne/mnemosyne-0.12.ebuild>`__  ``~amd64`` (due 2011-03-09), ``~x86`` (due 2011-03-09)
 
+* ``rstblog`` - https://github.com/mitsuhiko/rstblog
+
+ * Static site generator using reST for input
+ * Licence: ``BSD``
+ * Versions:
+
+  * `9999 <https://github.com/JNRowe/misc-overlay/blob/master/www-apps/rstblog/rstblog-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
+
