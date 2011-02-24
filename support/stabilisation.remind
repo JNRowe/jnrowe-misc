@@ -38,6 +38,8 @@ REM 2011-03-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/genzshcomp-
 REM 2011-03-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/genzshcomp-0.2.1 %a
 REM 2011-03-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/plac-0.8.0 %a
 REM 2011-03-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/plac-0.8.0 %a
+REM 2011-03-26 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/sphinxcontrib-blockdiag-0.7.0 %a
+REM 2011-03-26 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/sphinxcontrib-blockdiag-0.7.0 %a
 REM 2011-05-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-util/ditz-0.5-r1 %a
 REM 2011-05-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-util/ditz-0.5-r1 %a
 REM 2011-05-10 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/rstctl-0.4 %a
