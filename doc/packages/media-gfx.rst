@@ -26,14 +26,6 @@
 
   * `0.2.2 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/gruffy/gruffy-0.2.2.ebuild>`__  ``amd64``, ``x86``
 
-* ``psplash`` - http://labs.o-hand.com/psplash/
-
- * A tiny userspace graphical boot splash screen
- * Licence: ``GPL-2``
- * Versions:
-
-  * `0.1_p20090528 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/psplash/psplash-0.1_p20090528.ebuild>`__  ``amd64``, ``x86`` (masked by ``package.mask``)
-
 * ``seqdiag`` - http://pypi.python.org/pypi/seqdiag/
 
  * Generate sequence-diagram image files from spec-text files
