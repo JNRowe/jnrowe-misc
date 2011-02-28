@@ -4,12 +4,6 @@
 # live ebuild for rstblog
 =www-apps/rstblog-9999
 
-# James Rowe <jnrowe@gmail.com> (29 Jan 2011)
-# Broken and needs heavy patching, upstream is on launchpad so fixing it is
-# out of the question.
-# X-Removal: 2011-02-28
-dev-python/restview
-
 # James Rowe <jnrowe@gmail.com> (09 Oct 2010)
 # live ebuild for git-sync
 =dev-vcs/git-sync-9999
