@@ -74,5 +74,5 @@
  * Licence: ``BOLA``
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/sphinxcontrib-mscgen/sphinxcontrib-mscgen-0.4.ebuild>`__  ``~amd64`` (due 2011-02-28), ``~x86`` (due 2011-02-28)
+  * `0.4 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/sphinxcontrib-mscgen/sphinxcontrib-mscgen-0.4.ebuild>`__  ``~amd64`` (due 2011-05-29), ``~x86`` (due 2011-05-29)
 
