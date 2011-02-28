@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*astral-0.5 (28 Feb 2011)
+
+  28 Feb 2011; James Rowe <jnrowe@gmail.com> +astral-0.5.ebuild:
+  Version bump [297].
+
 *astral-0.4 (15 Feb 2011)
 
   15 Feb 2011; James Rowe <jnrowe@gmail.com> +astral-0.4.ebuild:
