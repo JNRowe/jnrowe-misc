@@ -40,6 +40,8 @@ REM 2011-03-26 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/sphinxcontri
 REM 2011-03-26 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/sphinxcontrib-blockdiag-0.7.0 %a
 REM 2011-03-30 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/astral-0.5 %a
 REM 2011-03-30 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/astral-0.5 %a
+REM 2011-03-31 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/lettuce-0.1.21 %a
+REM 2011-03-31 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/lettuce-0.1.21 %a
 REM 2011-05-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-util/ditz-0.5-r1 %a
 REM 2011-05-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-util/ditz-0.5-r1 %a
 REM 2011-05-10 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/rstctl-0.4 %a
