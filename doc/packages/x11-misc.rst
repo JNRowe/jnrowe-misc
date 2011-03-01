@@ -16,6 +16,7 @@
  * Versions:
 
   * `0.9.29 <https://github.com/JNRowe/misc-overlay/blob/master/x11-misc/notify-osd/notify-osd-0.9.29.ebuild>`__  ``~amd64`` (indefinite), ``~x86`` (indefinite) (masked by ``package.mask``)
+  * `0.9.30 <https://github.com/JNRowe/misc-overlay/blob/master/x11-misc/notify-osd/notify-osd-0.9.30.ebuild>`__  ``~amd64`` (indefinite), ``~x86`` (indefinite) (masked by ``package.mask``)
 
 * ``winmatch`` - no upstream
 
