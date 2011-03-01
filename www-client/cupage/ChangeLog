@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  01 Mar 2011; James Rowe <jnrowe@gmail.com>
+  -files/cupage-0.5.1-Fixed-usage-without-termstyle.patch:
+  Remove obsolete files.
+
 *cupage-0.5.4 (01 Mar 2011)
 
   01 Mar 2011; James Rowe <jnrowe@gmail.com> +cupage-0.5.4.ebuild:
