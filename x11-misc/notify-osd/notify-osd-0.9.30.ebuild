@@ -13,7 +13,7 @@ SRC_URI="http://launchpad.net/${PN}/natty/natty-alpha3/+download/${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS=""
 IUSE="examples"
 
 RDEPEND="dev-libs/dbus-glib
