@@ -1,0 +1,22 @@
+dev-python/setuptools >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* )
+dev-python/funcparserlib dev-python/imaging pdf? ( dev-python/reportlab ) >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* )
+0
+mirror://pypi/b/blockdiag/blockdiag-0.7.0.tar.gz
+
+http://pypi.python.org/pypi/blockdiag/
+PSF-2.4
+Generate block-diagram image files from text(like dot)
+~amd64 ~x86
+distutils eutils jnrowe-pypi multilib portability python toolchain-funcs
+examples pdf
+
+
+
+3
+
+compile install postinst postrm prepare test
+
+
+
+
+
