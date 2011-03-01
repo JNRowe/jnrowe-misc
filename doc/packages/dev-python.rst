@@ -44,13 +44,14 @@
 
   * `0.1.18 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/colorama/colorama-0.1.18.ebuild>`__  ``amd64``, ``x86``
 
-* ``commandlineapp`` - http://www.doughellmann.com/projects/CommandLineApp/
+* ``commandlineapp`` - http://pypi.python.org/pypi/CommandLineApp/
 
  * Makes creating apps as simple as defining callbacks to handle options
  * Licence: ``MIT``
  * Versions:
 
   * `3.0.6 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/commandlineapp/commandlineapp-3.0.6.ebuild>`__  ``amd64``, ``x86``
+  * `3.0.7 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/commandlineapp/commandlineapp-3.0.7.ebuild>`__  ``~amd64`` (due 2011-03-31), ``~x86`` (due 2011-03-31)
 
 * ``dexml`` - http://pypi.python.org/pypi/dexml/
 
