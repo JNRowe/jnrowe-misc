@@ -2,11 +2,15 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI=3
 SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*"
+PYTHON_DEPEND="2"
+# This package supports Python 3, but working around distutils eclass to
+# support it is far too much effort for far too little gain.  If you
+# would like to see Python 3 support for twython open a bug.
+RESTRICT_PYTHON_ABIS="3.*"
 
-inherit base jnrowe-pypi
+inherit jnrowe-pypi
 
 DESCRIPTION="An easy (and up to date) way to access Twitter data with Python."
 
@@ -19,10 +23,7 @@ DEPEND="dev-python/setuptools"
 RDEPEND="|| ( >=dev-lang/python-2.6 dev-python/simplejson )
 	dev-python/oauth2"
 
-PATCHES=("${FILESDIR}"/${P}-build_fixes.patch)
-
 src_prepare() {
-	base_src_prepare
 	# Duplicate from README.markdown
 	rm "${S}"/README.txt || die "rm README.txt failed"
 	distutils_src_prepare
