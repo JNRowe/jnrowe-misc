@@ -269,6 +269,14 @@
 
   * `0.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/nosetty/nosetty-0.4.ebuild>`__  ``amd64``, ``x86``
 
+* ``pdbpp`` - http://pypi.python.org/pypi/pdbpp/
+
+ * An enhanced drop-in replacement for pdb
+ * Licence: ``BSD``
+ * Versions:
+
+  * `0.6 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pdbpp/pdbpp-0.6.ebuild>`__  ``~amd64`` (indefinite)
+
 * ``pep8`` - https://github.com/jcrocholl/pep8
 
  * A tool to check your Python code against the conventions in PEP 8
