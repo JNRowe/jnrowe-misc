@@ -342,6 +342,14 @@
 
   * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyisbn/pyisbn-0.5.1.ebuild>`__  ``amd64``, ``x86``
 
+* ``pyrepl`` - http://pypi.python.org/pypi/pyrepl/
+
+ * A library for building flexible Python command line interfaces
+ * Licence: ``MIT``
+ * Versions:
+
+  * `0.8.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyrepl/pyrepl-0.8.2.ebuild>`__  ``~amd64`` (due 2011-03-31)
+
 * ``python-osmgpsmap`` - http://nzjrs.github.com/osm-gps-map/
 
  * Python bindings for osm-gps-map
