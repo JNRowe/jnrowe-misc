@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/wmctrl
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*wmctrl-0.1 (02 Mar 2011)
+
+  02 Mar 2011; James Rowe <jnrowe@gmail.com> +wmctrl-0.1.ebuild,
+  +metadata.xml, +watch:
+  Initial ebuild, by me. Required by pdbpp.
+

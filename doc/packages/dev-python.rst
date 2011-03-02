@@ -528,6 +528,14 @@
 
   * `2.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.6.1.ebuild>`__  ``amd64``, ``x86``
 
+* ``wmctrl`` - http://pypi.python.org/pypi/wmctrl/
+
+ * A tool to programmatically control windows inside X
+ * Licence: ``BSD``
+ * Versions:
+
+  * `0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/wmctrl/wmctrl-0.1.ebuild>`__  ``~amd64`` (due 2011-03-31)
+
 * ``wordish`` - http://pypi.python.org/pypi/wordish/
 
  * Parses a shell session, test the commands compare the output
