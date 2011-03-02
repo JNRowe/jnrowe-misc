@@ -23,3 +23,5 @@ RDEPEND="dev-python/setuptools
 # aafigure is in pdepend to allow working package managers to break the cyclic
 # dependency.
 PDEPEND=">=media-gfx/aafigure-0.3"
+
+PYTHON_MODNAME="${PN/-//}.py"
