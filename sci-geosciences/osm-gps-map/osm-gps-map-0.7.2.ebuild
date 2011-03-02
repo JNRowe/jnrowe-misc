@@ -15,7 +15,7 @@ IUSE="doc +introspection"
 
 RDEPEND="net-libs/libsoup
 	x11-libs/cairo
-	x11-libs/gtk+
+	x11-libs/gtk+:2
 	introspection? ( >=dev-libs/gobject-introspection-0.6.4 )"
 DEPEND="${RDEPEND}
 	doc? ( dev-util/gtk-doc )
