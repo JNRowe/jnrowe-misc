@@ -56,6 +56,7 @@ REM 2011-03-31 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/pyrepl-0.8.
 REM 2011-03-31 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/fancycompleter-0.2 %a
 REM 2011-03-31 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/wmctrl-0.1 %a
 REM 2011-03-31 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/pdb-0.6 %a
+REM 2011-03-31 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/pyscss-1.0.3 %a
 REM 2011-05-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-util/ditz-0.5-r1 %a
 REM 2011-05-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-util/ditz-0.5-r1 %a
 REM 2011-05-10 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/rstctl-0.4 %a

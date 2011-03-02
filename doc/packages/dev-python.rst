@@ -366,6 +366,14 @@
 
   * `0.8.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyrepl/pyrepl-0.8.2.ebuild>`__  ``~amd64`` (due 2011-03-31)
 
+* ``pyscss`` - http://pypi.python.org/pypi/pyScss/
+
+ * A Scss compiler for Python
+ * Licence: ``MIT``
+ * Versions:
+
+  * `1.0.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyscss/pyscss-1.0.3.ebuild>`__  ``~amd64`` (due 2011-03-31)
+
 * ``python-osmgpsmap`` - http://nzjrs.github.com/osm-gps-map/
 
  * Python bindings for osm-gps-map

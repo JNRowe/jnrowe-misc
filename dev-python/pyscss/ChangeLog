@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/pyscss
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*pyscss-1.0.3 (02 Mar 2011)
+
+  02 Mar 2011; James Rowe <jnrowe@gmail.com> +pyscss-1.0.3.ebuild,
+  +metadata.xml, +watch:
+  Initial ebuild, by me [299].
+
