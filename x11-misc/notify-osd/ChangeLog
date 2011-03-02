@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  02 Mar 2011; James Rowe <jnrowe@gmail.com> notify-osd-0.9.30.ebuild:
+  Slot GTK+ dependency.
+
   01 Mar 2011; James Rowe <jnrowe@gmail.com> -notify-osd-0.9.29.ebuild:
   Removed obsolete version.
 

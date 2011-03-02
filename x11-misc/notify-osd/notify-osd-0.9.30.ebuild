@@ -18,7 +18,7 @@ IUSE="examples"
 
 RDEPEND="dev-libs/dbus-glib
 	gnome-base/gconf
-	>=x11-libs/gtk+-2.22
+	>=x11-libs/gtk+-2.22:2
 	>=x11-libs/libnotify-0.4.5
 	x11-libs/libwnck
 	x11-libs/pixman

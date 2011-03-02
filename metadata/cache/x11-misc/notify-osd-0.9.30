@@ -1,5 +1,5 @@
-dev-libs/dbus-glib gnome-base/gconf >=x11-libs/gtk+-2.22 >=x11-libs/libnotify-0.4.5 x11-libs/libwnck x11-libs/pixman !x11-misc/notification-daemon !x11-misc/xfce4-notifyd dev-util/pkgconfig >=sys-apps/sed-4
-dev-libs/dbus-glib gnome-base/gconf >=x11-libs/gtk+-2.22 >=x11-libs/libnotify-0.4.5 x11-libs/libwnck x11-libs/pixman !x11-misc/notification-daemon !x11-misc/xfce4-notifyd
+dev-libs/dbus-glib gnome-base/gconf >=x11-libs/gtk+-2.22:2 >=x11-libs/libnotify-0.4.5 x11-libs/libwnck x11-libs/pixman !x11-misc/notification-daemon !x11-misc/xfce4-notifyd dev-util/pkgconfig >=sys-apps/sed-4
+dev-libs/dbus-glib gnome-base/gconf >=x11-libs/gtk+-2.22:2 >=x11-libs/libnotify-0.4.5 x11-libs/libwnck x11-libs/pixman !x11-misc/notification-daemon !x11-misc/xfce4-notifyd
 0
 http://launchpad.net/notify-osd/natty/natty-alpha3/+download/notify-osd-0.9.30.tar.gz
 test
