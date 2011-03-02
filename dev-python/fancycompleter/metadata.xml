@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		fancycompleter is a module to improve your experience in
+		<pkg>dev-lang/python</pkg> by adding TAB completion to the
+		interactive prompt.  It is an extension of the stdlib's
+		rlcompleter module.
+
+		Its best feature is that the completions are displayed in
+		different colors, depending on their type.
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">fancycompleter</remote-id>
+	</upstream>
+</pkgmetadata>

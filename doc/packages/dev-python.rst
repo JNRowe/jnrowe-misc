@@ -85,6 +85,14 @@
 
   * `0.1.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/fabulous/fabulous-0.1.5.ebuild>`__  ``amd64``, ``x86``
 
+* ``fancycompleter`` - http://pypi.python.org/pypi/fancycompleter/
+
+ * Colourful TAB completion for Python prompt
+ * Licence: ``BSD``
+ * Versions:
+
+  * `0.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/fancycompleter/fancycompleter-0.2.ebuild>`__  ``~amd64`` (due 2011-03-31)
+
 * ``feedcache`` - http://www.doughellmann.com/projects/feedcache/
 
  * Wrapper for the Universal Feed Parser which caches the results
