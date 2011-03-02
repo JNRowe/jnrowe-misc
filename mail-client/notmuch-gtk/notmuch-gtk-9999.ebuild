@@ -20,7 +20,7 @@ IUSE=""
 DEPEND="dev-lang/vala
 	dev-libs/libgee
 	${RDEPEND}"
-RDEPEND="x11-libs/gtk+"
+RDEPEND="x11-libs/gtk+:2"
 
 src_prepare() {
 	local ACFLAGS=(${CFLAGS})

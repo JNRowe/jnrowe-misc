@@ -1,5 +1,5 @@
 dev-lang/vala dev-libs/libgee >=dev-vcs/git-1.6
-x11-libs/gtk+
+x11-libs/gtk+:2
 0
 
 
