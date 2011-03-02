@@ -26,4 +26,4 @@ RDEPEND="${DEPEND}
 
 DOCS="CHANGES"
 
-PYTHON_MODNAME="sphinxcontrib/mscgen.py"
+PYTHON_MODNAME="${PN/-//}.py"

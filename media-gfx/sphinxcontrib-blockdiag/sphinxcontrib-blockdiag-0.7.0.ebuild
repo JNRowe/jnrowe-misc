@@ -24,4 +24,4 @@ RDEPEND="${DEPEND}
 	>=media-gfx/blockdiag-0.6.7
 	pdf? ( dev-python/reportlab )"
 
-PYTHON_MODNAME="sphinxcontrib/blockdiag.py"
+PYTHON_MODNAME="${PN/-//}.py"

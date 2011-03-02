@@ -23,4 +23,4 @@ DEPEND=""
 RDEPEND="${DEPEND}
 	dev-python/python-dateutil"
 
-PYTHON_MODNAME="gpxdata.py"
+PYTHON_MODNAME="${PN}.py"

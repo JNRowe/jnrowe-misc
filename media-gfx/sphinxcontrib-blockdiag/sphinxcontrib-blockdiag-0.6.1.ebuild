@@ -23,4 +23,4 @@ RDEPEND="${DEPEND}
 	dev-python/sphinx
 	>=media-gfx/blockdiag-0.6.1"
 
-PYTHON_MODNAME="sphinxcontrib/blockdiag.py"
+PYTHON_MODNAME="${PN/-//}.py"

@@ -26,7 +26,7 @@ DEPEND="dev-python/setuptools
 	dev-python/sphinx"
 RDEPEND="${DEPEND}"
 
-PYTHON_MODNAME="grapefruit.py"
+PYTHON_MODNAME="${PN}.py"
 
 S="${WORKDIR}"/${MY_P}
 

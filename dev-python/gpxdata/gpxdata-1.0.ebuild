@@ -23,4 +23,4 @@ DEPEND=""
 RDEPEND="${DEPEND}
 	dev-python/egenix-mx-base"
 
-PYTHON_MODNAME="gpxdata.py"
+PYTHON_MODNAME="${PN}.py"

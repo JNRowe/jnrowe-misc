@@ -23,7 +23,7 @@ RDEPEND="${DEPEND}
 	dev-python/sphinx
 	media-gfx/gruffy"
 
-PYTHON_MODNAME="sphinxcontrib/gruffygen.py"
+PYTHON_MODNAME="${PN/-//}.py"
 
 src_prepare() {
 	distutils_src_prepare

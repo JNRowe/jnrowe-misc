@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  02 Mar 2011; James Rowe <jnrowe@gmail.com> gpxdata-1.0.ebuild,
+  gpxdata-1.0.2.ebuild, gpxdata-1.1.0.ebuild:
+  Use PN in PYTHON_MODNAME [cosmetic].
+
 *gpxdata-1.0.2 (22 Feb 2011)
 
   22 Feb 2011; James Rowe <jnrowe@gmail.com> +gpxdata-1.0.2.ebuild:

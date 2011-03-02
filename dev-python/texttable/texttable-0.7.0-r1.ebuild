@@ -22,4 +22,4 @@ IUSE=""
 DEPEND=""
 RDEPEND=""
 
-PYTHON_MODNAME="texttable.py"
+PYTHON_MODNAME="${PN}.py"
