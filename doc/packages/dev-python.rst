@@ -372,7 +372,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyscss/pyscss-1.0.3.ebuild>`__  ``~amd64`` (due 2011-03-31)
+  * `1.0.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyscss/pyscss-1.0.3.ebuild>`__  ``~amd64`` (due 2011-03-31), ``~x86`` (due 2011-04-01)
 
 * ``python-osmgpsmap`` - http://nzjrs.github.com/osm-gps-map/
 
