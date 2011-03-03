@@ -44,6 +44,9 @@ fi
 module_script_wrapper() {
 	local wrapper=${1:-${PN}} module=${2:-${PN}} function=${3:-main} path=$4
 	local tmpwrapper=$(emktemp)
+
+	ewarn "${FUNCNAME}: Deprecated, please use setuptools entry_points!" >&2
+
 	cat << EOF > "${tmpwrapper}"
 #! /usr/bin/python
 
