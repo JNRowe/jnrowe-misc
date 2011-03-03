@@ -550,7 +550,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/wmctrl/wmctrl-0.1.ebuild>`__  ``~amd64`` (due 2011-03-31)
+  * `0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/wmctrl/wmctrl-0.1.ebuild>`__  ``~amd64`` (due 2011-03-31), ``~x86`` (due 2011-04-01)
 
 * ``wordish`` - http://pypi.python.org/pypi/wordish/
 
