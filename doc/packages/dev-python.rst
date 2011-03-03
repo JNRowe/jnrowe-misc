@@ -374,6 +374,14 @@
 
   * `1.0.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyscss/pyscss-1.0.3.ebuild>`__  ``~amd64`` (due 2011-03-31), ``~x86`` (due 2011-04-01)
 
+* ``python-faker`` - http://pypi.python.org/pypi/python-faker/
+
+ * Generate placeholder data
+ * Licence: ``BSD``
+ * Versions:
+
+  * `0.2.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/python-faker/python-faker-0.2.4.ebuild>`__  ``~amd64`` (due 2011-04-01)
+
 * ``python-osmgpsmap`` - http://nzjrs.github.com/osm-gps-map/
 
  * Python bindings for osm-gps-map
