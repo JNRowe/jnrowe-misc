@@ -1,0 +1,21 @@
+diff --git i/setup.py w/setup.py
+index 6c0be85..4fa4391 100644
+--- i/setup.py
++++ w/setup.py
+@@ -69,7 +69,7 @@ output of the above file::
+ But that's only a small example of what you can do with CleverCSS.  Have a look
+ at the following documentation of CleverCSS for more details.
+ """
+-from distutils.core import setup
++from setuptools import setup
+ setup(
+     name='CleverCSS',
+     author='Armin Ronacher',
+@@ -77,6 +77,7 @@ setup(
+     version='0.1',
+     url='http://sandbox.pocoo.org/clevercss/',
+     py_modules=['clevercss'],
++    entry_points={'console_scripts': ['clevercss = clevercss:main', ]},
+     description='funky css preprocessor dammit',
+     description_full=__doc__,
+     classifiers=[

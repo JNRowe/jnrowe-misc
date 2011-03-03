@@ -10,7 +10,7 @@ RESTRICT_PYTHON_ABIS="3.*"
 MY_PN="CleverCSS"
 MY_P=${MY_PN}-${PV}
 
-inherit jnrowe-pypi
+inherit base jnrowe-pypi
 
 DESCRIPTION="Funky sass-a-like CSS preprocessor"
 
@@ -19,18 +19,16 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""
 
-DEPEND=""
-RDEPEND="${DEPEND}"
+DEPEND="dev-python/setuptools"
+RDEPEND=""
+
+PATCHES=("${FILESDIR}"/${P}-entry_point.patch)
 
 PYTHON_MODNAME="${PN}.py"
 
 S="${WORKDIR}"/${MY_P}
 
-src_install() {
-	distutils_src_install
-
-	install_script() {
-		module_script_wrapper ${PN}-${PYTHON_ABI}
-	}
-	python_execute_function install_script
+src_prepare() {
+	base_src_prepare
+	distutils_src_prepare
 }

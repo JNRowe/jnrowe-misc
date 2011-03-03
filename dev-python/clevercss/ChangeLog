@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  03 Mar 2011; James Rowe <jnrowe@gmail.com> clevercss-0.1.ebuild,
+  +files/clevercss-0.1-entry_point.patch:
+  Use setuptools entry points for wrapper.
+
   12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:
   Added watch file for package updates.
 
