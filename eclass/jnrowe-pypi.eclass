@@ -25,13 +25,9 @@ HOMEPAGE="http://pypi.python.org/pypi/${MY_PN:-${PN}}/"
 # Can be redefined.
 : ${PYPI_ARCHIVE_SUFFIX:=tar.gz}
 
-# Unfortunately, you can't use ${MY_PN::1:-${PN::1}} so...
-if [[ -n "${MY_P}" && -n "${MY_PN}" ]]; then
-	debug-print "Using MY_P SRC_URI override"
-	SRC_URI="mirror://pypi/${MY_PN::1}/${MY_PN}/${MY_P}.${PYPI_ARCHIVE_SUFFIX}"
-else
-	SRC_URI="mirror://pypi/${PN::1}/${PN}/${P}.${PYPI_ARCHIVE_SUFFIX}"
-fi
+# Unfortunately, you can't use ${MY_PN::1:-${PN::1}} [without switching to zsh ;)]
+_PYPI_NAME=${MY_PN:-${PN}}
+SRC_URI="mirror://pypi/${_PYPI_NAME::1}/${_PYPI_NAME}/${MY_P:-${P}}.${PYPI_ARCHIVE_SUFFIX}"
 
 # Based on make_wrapper from eutils.eclass
 # @FUNCTION: module_script_wrapper
