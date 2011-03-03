@@ -1,0 +1,13 @@
+diff --git i/setup.py w/setup.py
+index ec5f573..728baa5 100644
+--- i/setup.py
++++ w/setup.py
+@@ -48,7 +48,7 @@ setup(
+     packages=find_packages('src'),
+     package_dir={'':'src'},
+     package_data={'': ['media/*.*', '*.cgi', '*.conf'],},
+-    entry_points={'console_scripts': ['gitserve = gitserve:main',],},
++    entry_points={'console_scripts': ['git-serve = gitserve:main',],},
+     zip_safe=False,
+     include_package_data = True,
+ )

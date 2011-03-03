@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*gitserve-0.2.0-r3 (03 Mar 2011)
+
+  03 Mar 2011; James Rowe <jnrowe@gmail.com> +gitserve-0.2.0-r3.ebuild,
+  +files/gitserve-0.2.0-callable_from_git_ui.patch:
+  Use setuptools entry points for wrapper, fixed to use git-serve so it
+  callable from git as 'git serve'.
+
   12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:
   Added watch file for package updates.
 

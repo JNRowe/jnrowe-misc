@@ -41,6 +41,7 @@
  * Versions:
 
   * `0.2.0-r2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/gitserve/gitserve-0.2.0-r2.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.0-r3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/gitserve/gitserve-0.2.0-r3.ebuild>`__  ``~amd64`` (due 2011-04-01), ``~x86`` (due 2011-04-01)
 
 * ``hub`` - https://github.com/defunkt/hub
 
