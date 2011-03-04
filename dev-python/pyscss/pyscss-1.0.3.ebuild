@@ -11,7 +11,6 @@ RESTRICT_PYTHON_ABIS="2.4 3.*"
 #DISTUTILS_SRC_TEST="nosetests"
 
 MY_PN="pyScss"
-MY_P=${MY_PN}-${PV}
 
 inherit jnrowe-pypi
 
@@ -24,8 +23,6 @@ IUSE=""
 
 DEPEND="dev-python/setuptools"
 RDEPEND=""
-
-S="${WORKDIR}"/${MY_P}
 
 PYTHON_MODNAME="scss.py"
 
