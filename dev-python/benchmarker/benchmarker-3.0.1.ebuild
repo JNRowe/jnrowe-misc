@@ -7,7 +7,6 @@ SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="*"
 
 MY_PN="Benchmarker"
-MY_P=${MY_PN}-${PV}
 
 inherit jnrowe-pypi
 
@@ -22,8 +21,6 @@ DEPEND=""
 RDEPEND="${DEPEND}"
 
 PYTHON_MODNAME="${PN}.py"
-
-S="${WORKDIR}"/${MY_P}
 
 DOCS="CHANGES.txt"
 
