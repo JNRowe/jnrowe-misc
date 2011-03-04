@@ -9,7 +9,6 @@ RESTRICT_PYTHON_ABIS="3.*"
 DISTUTILS_SRC_TEST="nosetests"
 
 MY_PN="CommandLineApp"
-MY_P=${MY_PN}-${PV}
 
 inherit jnrowe-pypi
 
@@ -23,8 +22,6 @@ IUSE=""
 # Should switch to system dev-python/paver when it supports multi-ABI.
 DEPEND=""
 RDEPEND="${DEPEND}"
-
-S="${WORKDIR}"/${MY_P}
 
 PYTHON_MODNAME="${PN}.py"
 
