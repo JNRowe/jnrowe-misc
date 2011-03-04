@@ -7,7 +7,6 @@ PYTHON_DEPEND="*"
 SUPPORT_PYTHON_ABIS="1"
 
 MY_PN="ScriptTest"
-MY_P=${MY_PN}-${PV}
 
 inherit jnrowe-pypi
 
@@ -21,5 +20,3 @@ IUSE=""
 
 DEPEND=""
 RDEPEND="${DEPEND}"
-
-S="${WORKDIR}"/${MY_P}
