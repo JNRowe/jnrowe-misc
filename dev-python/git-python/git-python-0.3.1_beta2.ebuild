@@ -14,7 +14,6 @@ RESTRICT_PYTHON_ABIS="3.*"
 MY_PN=GitPython
 # Can't use versionator here, because of tangled pypi←→versionator chain
 MY_PV=${PV/_/-}
-MY_P=${MY_PN}-${MY_PV}
 
 inherit jnrowe-pypi versionator
 

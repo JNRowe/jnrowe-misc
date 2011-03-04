@@ -3,6 +3,9 @@
 # $Header: $
 
   04 Mar 2011; James Rowe <jnrowe@gmail.com> git-python-0.3.1_beta2.ebuild:
+  Make use of jnrowe-pypi S mangling.
+
+  04 Mar 2011; James Rowe <jnrowe@gmail.com> git-python-0.3.1_beta2.ebuild:
   Keyworded amd64.
 
   18 Feb 2011; James Rowe <jnrowe@gmail.com> git-python-0.3.1_beta2.ebuild:
