@@ -26,8 +26,9 @@ HOMEPAGE="http://pypi.python.org/pypi/${MY_PN:-${PN}}/"
 : ${PYPI_ARCHIVE_SUFFIX:=tar.gz}
 
 # Unfortunately, you can't use ${MY_PN::1:-${PN::1}} [without switching to zsh ;)]
-_PYPI_NAME=${MY_PN:-${PN}}
-SRC_URI="mirror://pypi/${_PYPI_NAME::1}/${_PYPI_NAME}/${MY_P:-${P}}.${PYPI_ARCHIVE_SUFFIX}"
+_PYPI_PN=${MY_PN:-${PN}}
+_PYPI_P=${MY_P:-${_PYPI_PN}-${MY_PV:-${PV}}}
+SRC_URI="mirror://pypi/${_PYPI_PN::1}/${_PYPI_PN}/${_PYPI_P}.${PYPI_ARCHIVE_SUFFIX}"
 
 # Based on make_wrapper from eutils.eclass
 # @FUNCTION: module_script_wrapper
