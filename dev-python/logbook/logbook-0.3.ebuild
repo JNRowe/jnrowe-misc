@@ -10,7 +10,6 @@ RESTRICT_PYTHON_ABIS="2.4"
 DISTUTILS_SRC_TEST="nosetests"
 
 MY_PN="Logbook"
-MY_P=${MY_PN}-${PV}
 
 inherit jnrowe-pypi
 
@@ -24,8 +23,6 @@ IUSE=""
 DEPEND=""
 RDEPEND="${DEPEND}
 	|| ( >=dev-lang/python-2.6 dev-python/simplejson )"
-
-S="${WORKDIR}"/${MY_P}
 
 DOCS="CHANGES"
 
