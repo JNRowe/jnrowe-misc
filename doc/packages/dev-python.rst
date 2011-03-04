@@ -151,7 +151,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.3.1_beta2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/git-python/git-python-0.3.1_beta2.ebuild>`__  ``~amd64`` (due 2011-03-04), ``~x86`` (due 2011-03-13)
+  * `0.3.1_beta2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/git-python/git-python-0.3.1_beta2.ebuild>`__  ``amd64``, ``~x86`` (due 2011-03-13)
 
 * ``github2`` - http://pypi.python.org/pypi/github2/
 
