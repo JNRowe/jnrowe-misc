@@ -9,7 +9,6 @@ PYTHON_DEPEND="2"
 RESTRICT_PYTHON_ABIS="3.*"
 
 MY_PN="Hammertime"
-MY_P=${MY_PN}-${PV}
 
 inherit jnrowe-pypi
 
@@ -25,8 +24,6 @@ DEPEND="dev-python/setuptools"
 RDEPEND="${DEPEND}
 	>=dev-python/git-python-0.3.0
 	|| ( >=dev-lang/python-2.6 dev-python/simplejson )"
-
-S="${WORKDIR}"/${MY_P}
 
 src_prepare() {
 	# README.rst and README.md are copies of eachother using different syntaxes,
