@@ -8,7 +8,6 @@ PYTHON_DEPEND="2"
 RESTRICT_PYTHON_ABIS="3.*"
 
 MY_PN="CleverCSS"
-MY_P=${MY_PN}-${PV}
 
 inherit base jnrowe-pypi
 
@@ -25,8 +24,6 @@ RDEPEND=""
 PATCHES=("${FILESDIR}"/${P}-entry_point.patch)
 
 PYTHON_MODNAME="${PN}.py"
-
-S="${WORKDIR}"/${MY_P}
 
 src_prepare() {
 	base_src_prepare
