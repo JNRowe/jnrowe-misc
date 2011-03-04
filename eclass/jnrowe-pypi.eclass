@@ -30,6 +30,9 @@ _PYPI_PN=${MY_PN:-${PN}}
 _PYPI_P=${MY_P:-${_PYPI_PN}-${MY_PV:-${PV}}}
 SRC_URI="mirror://pypi/${_PYPI_PN::1}/${_PYPI_PN}/${_PYPI_P}.${PYPI_ARCHIVE_SUFFIX}"
 
+# Override S for PN mangling.
+S="${WORKDIR}"/${_PYPI_P}
+
 # Based on make_wrapper from eutils.eclass
 # @FUNCTION: module_script_wrapper
 # @USAGE: [<wrapper>] [<module>] [function] [installpath]
