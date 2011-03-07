@@ -55,17 +55,17 @@ given package.
 Of course, it is preferable to fix the underlying reason for needing a
 :envvar:`RESTRICT` definition in the case of ``test`` and ``userpriv``.
 
-:file:`stabilisation.remind`
-----------------------------
+:file:`stabilisation.org`
+-------------------------
 
-:file:`support/stabilisation.remind` is a remind_ compatible data file that
+:file:`support/stabilisation.org` is an org-mode_ compatible data file that
 contains *likely* stabilisation dates for packages.  When a new arch keyword is
 added or a package receives a version bump this file is updated to reflect the
 earliest possible time a package can migrate to stable.
 
 The format is simple enough::
 
-    REM <stable date> *1 +1 UNTIL 2038-01-19 MSG Stabilise <arch> <CPV> %a
+    * TODO |CPV|  |arch| SCHEDULED: <|stable_date|>
 
 .. note::
 
@@ -86,7 +86,7 @@ removal reminders for packages.  An example should explain it adequately::
 
 The format is identical to that defined in :manpage:`portage(5)` with the
 addition of the ``X-Removal`` tag that is used by the
-:program:`support/gen_removal.py` script to create remind_ compatible data
+:program:`support/gen_removal.py` script to create org-mode_ compatible data
 files.
 
 A simple, but important, extension that makes it easier to keep on top of admin
@@ -113,5 +113,5 @@ A simple example from the ``ebuild`` for rad_ would be::
     RESTRICT_PYTHON_ABIS="2.[45] 3.*"
 
 .. _devmanual: http://devmanual.gentoo.org/
-.. _remind: http://www.roaringpenguin.com/products/remind
+.. _org-mode: http://www.orgmode.org/
 .. _rad: http://pypi.python.org/pypi/rad/
