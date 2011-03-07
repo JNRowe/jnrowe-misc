@@ -65,7 +65,7 @@ earliest possible time a package can migrate to stable.
 
 The format is simple enough::
 
-    * TODO |CPV|  |arch| SCHEDULED: <|stable_date|>
+    * |CPV|  |arch| SCHEDULED: <|stable_date|>
 
 .. note::
 
