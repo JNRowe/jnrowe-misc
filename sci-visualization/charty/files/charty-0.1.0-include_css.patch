@@ -1,0 +1,17 @@
+diff --git i/setup.py w/setup.py
+index ec5ccce..2fd3c27 100644
+--- i/setup.py
++++ w/setup.py
+@@ -7,9 +7,12 @@ setup(
+     author='Kaitlin Lee',
+     author_email='klee@sunlightfoundation.com',
+     packages=['charty', 'charty.utils'],
++    include_package_data=True,
++    package_data={'': ['css/*.css', ], },
+     url='http://github.com:sunlightlabs/Charty/',
+     license='LICENSE.txt',
+     description='Another Python SVG Chart Generator that uses CSS smartly',
+     long_description=open('README').read(),
++
+ )
+ 

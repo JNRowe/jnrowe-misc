@@ -1,6 +1,14 @@
 ``sci-visualization``
 ---------------------
 
+* ``charty`` - http://pypi.python.org/pypi/Charty/
+
+ * Another Python SVG Chart Generator that uses CSS smartly
+ * Licence: ``BSD GPL-2``
+ * Versions:
+
+  * `0.1.0 <https://github.com/JNRowe/misc-overlay/blob/master/sci-visualization/charty/charty-0.1.0.ebuild>`__  ``~amd64`` (due 2011-04-06)
+
 * ``pycha`` - http://pypi.python.org/pypi/pycha/
 
  * A library for making charts with Python

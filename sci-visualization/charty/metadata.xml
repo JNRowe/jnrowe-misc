@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Charty is a <pkg>dev-lang/python</pkg> library that generates
+		SVG charts that use cascading stylesheets to alter their style
+		and appearance. The file example.py included in the project
+		includes some example usage for creating bar, line and pie
+		charts. In general, you want to pass in height, width, data, css
+		file name and other option parameters to the constructor and
+		then call the output method to write the svg to a file. Every
+		SVG node is classed explicitly and these can be styled as
+		necessary. There are example css files in the css folder of the
+		project, but below is an explicit description of the classes.
+	</longdescription>
+	<upstream>
+		<doc lang="en">http://pypi.python.org/pypi/Charty/</doc>
+		<remote-id type="pypi">Charty</remote-id>
+		<bugs-to>https://github.com/sunlightlabs/Charty/issues</bugs-to>
+	</upstream>
+</pkgmetadata>

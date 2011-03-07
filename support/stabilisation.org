@@ -67,6 +67,7 @@
 * TODO media-gfx/seqdiag-0.2.1                    x86 SCHEDULED: <2011-04-04 Mon>
 * TODO dev-python/virtualenvwrapper-2.6.3       amd64 SCHEDULED: <2011-04-04 Mon>
 * TODO dev-python/virtualenvwrapper-2.6.3         x86 SCHEDULED: <2011-04-04 Mon>
+* TODO sci-visualization/charty-0.1.0           amd64 SCHEDULED: <2011-04-06 Wed>
 * TODO dev-util/ditz-0.5-r1                       x86 SCHEDULED: <2011-05-07 Sat>
 * TODO dev-util/ditz-0.5-r1                     amd64 SCHEDULED: <2011-05-07 Sat>
 * TODO dev-python/rstctl-0.4                    amd64 SCHEDULED: <2011-05-10 Tue>
