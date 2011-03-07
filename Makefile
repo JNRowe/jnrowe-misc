@@ -12,10 +12,10 @@ ifndef SIGN_KEY
     $(warning Manifests will not be signed, as PORTAGE_GPG_KEY is not set)
 endif
 
-.PHONY: clean check cupage-check distclean doc layman-check stable-candidates
+.PHONY: clean check cupage-check distclean doc layman-check
 
 all: $(HTML) profiles/categories profiles/use.local.desc $(MANIFESTS) \
-	$(NEWS) support/cupage.conf stable-candidates support/removal.org
+	$(NEWS) support/cupage.conf support/removal.org
 
 doc: doc/thanks.rst
 	$(MAKE) -C doc/ html
@@ -54,9 +54,6 @@ clean:
 	rm -f $(HTML) profiles/categories
 distclean: clean
 	rm -f $(MANIFESTS)
-
-stable-candidates: support/stabilisation.remind
-	remind $<
 
 support/removal.org: profiles/package.mask support/gen_removal.py
 	support/gen_removal.py
