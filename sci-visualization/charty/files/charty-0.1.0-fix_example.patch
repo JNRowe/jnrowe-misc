@@ -1,0 +1,56 @@
+diff --git c/charty/example.py i/charty/example.py
+index b1245d8..674d0a1 100644
+--- c/charty/example.py
++++ i/charty/example.py
+@@ -1,3 +1,6 @@
++import os
++
++css_path = os.path.dirname(__file__)
+ 
+ from charty import Column, Line, Pie
+ 
+@@ -11,7 +14,7 @@ g = Column( 600, 300,
+                      ('cccc', 300)
+                     ]
+                 ], 
+-                "css/barchart.css", 
++                css_path + "/css/barchart.css", 
+                 label_rotate=-45, 
+                 y_padding=30
+             )
+@@ -30,7 +33,7 @@ h = Column( 600, 300,
+                      (2004, 50)
+                     ]
+                 ], 
+-                'css/barchart.css', 
++                css_path + '/css/barchart.css', 
+                 label_intervals=2, 
+                 x_padding=15
+             )
+@@ -50,7 +53,7 @@ h = Pie( 500, 500,
+                  (30, 3234)
+                 ]
+             ], 
+-            'css/piechart.css', 
++            css_path + '/css/piechart.css', 
+             y_padding=70, 
+             x_padding=70
+         )
+@@ -65,7 +68,7 @@ risk_transfers = Column( 370, 185,
+                                  ('Subsidy', 114141251)
+                                 ]
+                             ], 
+-                            "css/barchart.css", 
++                            css_path + "/css/barchart.css", 
+                             padding=10, 
+                             currency=True
+                        )
+@@ -90,7 +93,7 @@ contracts = Line( 515, 330,
+                          (2009, 16226290107)
+                         ]
+                     ], 
+-                    'css/linechart.css', 
++                    css_path + '/css/linechart.css', 
+                     label_intervals=3, 
+                     x_padding=40, 
+                     units=True, 

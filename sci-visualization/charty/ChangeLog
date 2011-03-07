@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  07 Mar 2011; James Rowe <jnrowe@gmail.com> charty-0.1.0.ebuild,
+  +files/charty-0.1.0-fix_example.patch:
+  Fix links to CSS in examples.
+
 *charty-0.1.0 (07 Mar 2011)
 
   07 Mar 2011; James Rowe <jnrowe@gmail.com> +charty-0.1.0.ebuild,

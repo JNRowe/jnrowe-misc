@@ -22,7 +22,7 @@ IUSE=""
 DEPEND=""
 RDEPEND=""
 
-PATCHES=("${FILESDIR}"/${P}-include_css.patch)
+PATCHES=("${FILESDIR}"/${P}-include_css.patch "${FILESDIR}"/${P}-fix_example.patch)
 
 src_prepare() {
 	base_src_prepare
