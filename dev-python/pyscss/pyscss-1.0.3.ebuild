@@ -12,7 +12,7 @@ RESTRICT_PYTHON_ABIS="2.4 3.*"
 
 MY_PN="pyScss"
 
-inherit jnrowe-pypi
+inherit base jnrowe-pypi
 
 DESCRIPTION="A Scss compiler for Python"
 
@@ -22,9 +22,17 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools"
-RDEPEND=""
+# setuptools is required in RDEPEND for entry points
+RDEPEND="dev-python/setuptools"
+
+PATCHES=("${FILESDIR}"/${P}-entry_point.patch)
 
 PYTHON_MODNAME="scss.py"
 
 # Tests are currently broken, when they're re-enabled run with nosetests --with-doctest
 RESTRICT="test"
+
+src_prepare() {
+	base_src_prepare
+	distutils_src_prepare
+}

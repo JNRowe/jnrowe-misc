@@ -1,5 +1,5 @@
 dev-python/setuptools >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* )
->=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* )
+dev-python/setuptools >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* )
 0
 mirror://pypi/p/pyScss/pyScss-1.0.3.tar.gz
 test
@@ -7,14 +7,14 @@ http://pypi.python.org/pypi/pyScss/
 MIT
 A Scss compiler for Python
 ~amd64 ~x86
-distutils eutils jnrowe-pypi multilib portability python toolchain-funcs
+base distutils eutils jnrowe-pypi multilib portability python toolchain-funcs
 
 
 
 
 3
 
-compile install postinst postrm prepare
+compile configure install postinst postrm prepare unpack
 
 
 
