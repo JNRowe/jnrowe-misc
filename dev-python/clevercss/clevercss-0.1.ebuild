@@ -19,7 +19,8 @@ KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools"
-RDEPEND=""
+# setuptools is required in RDEPEND for entry points
+RDEPEND="${DEPEND}"
 
 PATCHES=("${FILESDIR}"/${P}-entry_point.patch)
 
