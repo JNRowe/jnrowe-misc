@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Mar 2011; James Rowe <jnrowe@gmail.com> python-faker-0.2.4.ebuild:
+  Keyworded ~x86.
+
 *python-faker-0.2.4 (03 Mar 2011)
 
   03 Mar 2011; James Rowe <jnrowe@gmail.com> +python-faker-0.2.4.ebuild,
