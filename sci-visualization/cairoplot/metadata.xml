@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Using <pkg>dev-lang/python</pkg> and
+		<pkg>dev-python/pycairo</pkg> to develop a module to plot
+		graphics in an easy and intuitive way, creating beautiful
+		results to presentations.
+	</longdescription>
+</pkgmetadata>

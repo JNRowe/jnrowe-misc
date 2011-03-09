@@ -1,6 +1,14 @@
 ``sci-visualization``
 ---------------------
 
+* ``cairoplot`` - https://launchpad.net/cairoplot
+
+ * Cairo-based graph plotting module
+ * Licence: ``LGPL-2.1``
+ * Versions:
+
+  * `1.1 <https://github.com/JNRowe/misc-overlay/blob/master/sci-visualization/cairoplot/cairoplot-1.1.ebuild>`__  ``~amd64`` (due 2011-04-08)
+
 * ``charty`` - http://pypi.python.org/pypi/Charty/
 
  * Another Python SVG Chart Generator that uses CSS smartly
