@@ -1,6 +1,14 @@
 ``dev-python``
 --------------
 
+* ``argh`` - http://pypi.python.org/pypi/argh/
+
+ * A simple argparse wrapper for an easier life
+ * Licence: ``GPL-3``
+ * Versions:
+
+  * `0.14.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/argh/argh-0.14.0.ebuild>`__  ``~amd64`` (due 2011-04-08)
+
 * ``astral`` - http://pypi.python.org/pypi/astral/
 
  * Calculations for the position of the sun and moon

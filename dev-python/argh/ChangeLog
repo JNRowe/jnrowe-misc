@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/argh
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*argh-0.14.0 (09 Mar 2011)
+
+  09 Mar 2011; James Rowe <jnrowe@gmail.com> +argh-0.14.0.ebuild,
+  +metadata.xml, +watch:
+  Initial ebuild, by me [305].
+

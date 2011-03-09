@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Did you ever say "argh" trying to remember the details of
+		optparse or <pkg>dev-python/argparse</pkg> API?  If yes, this
+		package may be useful for you.  It provides a very simple
+		wrapper for argparse with support for hierarchical commands that
+		can be bound to modules or classes.  Argparse can do it; argh
+		makes it easy.
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">argh</remote-id>
+		<doc lang="en">http://packages.python.org/argh/</doc>
+		<bugs-to>https://bitbucket.org/neithere/argh/issues?status=new&amp;status=open</bugs-to>
+	</upstream>
+</pkgmetadata>
