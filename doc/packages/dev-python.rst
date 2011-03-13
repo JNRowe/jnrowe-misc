@@ -25,7 +25,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/async/async-0.6.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-03-13)
+  * `0.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/async/async-0.6.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``benchmarker`` - http://pypi.python.org/pypi/Benchmarker/
 
