@@ -7,7 +7,7 @@
  * Licence: ``LGPL-2.1``
  * Versions:
 
-  * `1.1 <https://github.com/JNRowe/misc-overlay/blob/master/sci-visualization/cairoplot/cairoplot-1.1.ebuild>`__  ``~amd64`` (due 2011-04-08)
+  * `1.1 <https://github.com/JNRowe/misc-overlay/blob/master/sci-visualization/cairoplot/cairoplot-1.1.ebuild>`__  ``~amd64`` (due 2011-04-08), ``~x86`` (due 2011-04-20)
 
 * ``charty`` - http://pypi.python.org/pypi/Charty/
 
