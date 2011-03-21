@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  21 Mar 2011; James Rowe <jnrowe@gmail.com> argh-0.14.0.ebuild:
+  Keyworded ~x86.
+
 *argh-0.14.0 (09 Mar 2011)
 
   09 Mar 2011; James Rowe <jnrowe@gmail.com> +argh-0.14.0.ebuild,
