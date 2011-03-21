@@ -32,7 +32,7 @@
  * Versions:
 
   * `0.4-r1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/gitflow/gitflow-0.4-r1.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/gitflow/gitflow-0.4.1.ebuild>`__  ``~amd64`` (due 2011-03-17), ``~x86`` (due 2011-03-17)
+  * `0.4.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/gitflow/gitflow-0.4.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-03-17)
 
 * ``gitserve`` - https://github.com/jezdez/git-serve/
 
