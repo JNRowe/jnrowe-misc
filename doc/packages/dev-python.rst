@@ -16,7 +16,7 @@
  * Versions:
 
   * `0.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/astral/astral-0.3.ebuild>`__  ``amd64``, ``x86``
-  * `0.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/astral/astral-0.4.ebuild>`__  ``~amd64`` (due 2011-03-17), ``~x86`` (due 2011-03-17)
+  * `0.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/astral/astral-0.4.ebuild>`__  ``amd64``, ``~x86`` (due 2011-03-17)
   * `0.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/astral/astral-0.5.ebuild>`__  ``~amd64`` (due 2011-03-30), ``~x86`` (due 2011-03-30)
 
 * ``async`` - http://pypi.python.org/pypi/async/
