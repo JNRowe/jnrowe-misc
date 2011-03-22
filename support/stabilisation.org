@@ -1,6 +1,5 @@
 * dev-python/lettuce-0.1.20                  x86 SCHEDULED: <2011-03-17 Thu>
 * dev-python/genzshcomp-0.2                  x86 SCHEDULED: <2011-03-18 Fri>
-* media-gfx/blockdiag-0.6.7                amd64 SCHEDULED: <2011-03-19 Sat>
 * media-gfx/blockdiag-0.6.7                  x86 SCHEDULED: <2011-03-19 Sat>
 * media-gfx/sphinxcontrib-blockdiag-0.6.3  amd64 SCHEDULED: <2011-03-19 Sat>
 * media-gfx/sphinxcontrib-blockdiag-0.6.3    x86 SCHEDULED: <2011-03-19 Sat>
