@@ -30,6 +30,10 @@ RDEPEND="dev-python/setuptools
 
 DOCS="src/README.txt src/TODO.txt"
 
+# Would prefer Sphinx extension in sphinxcontrib/, but keep up
+# compatibilty with upstream
+PYTHON_MODNAME="${PN} sphinxcontrib_${PN}.py"
+
 src_install() {
 	distutils_src_install
 
