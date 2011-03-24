@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  24 Mar 2011; James Rowe <jnrowe@gmail.com> funcparserlib-0.3.5.ebuild:
+  Keyworded amd64.
+
 *funcparserlib-0.3.5 (18 Feb 2011)
 
   18 Feb 2011; James Rowe <jnrowe@gmail.com> +funcparserlib-0.3.5.ebuild:
