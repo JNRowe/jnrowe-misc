@@ -481,7 +481,7 @@
  * Versions:
 
   * `0.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/termcolor/termcolor-0.2.ebuild>`__  ``amd64``, ``x86``
-  * `1.1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/termcolor/termcolor-1.1.0.ebuild>`__  ``~amd64`` (due 2011-03-20), ``~x86`` (due 2011-03-20)
+  * `1.1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/termcolor/termcolor-1.1.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-03-20)
 
 * ``texttable`` - http://jefke.free.fr/coding/python/
 
