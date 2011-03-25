@@ -129,8 +129,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.3.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/funcparserlib/funcparserlib-0.3.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.3.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/funcparserlib/funcparserlib-0.3.5.ebuild>`__  ``amd64``, ``~x86`` (due 2011-03-20)
+  * `0.3.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/funcparserlib/funcparserlib-0.3.5.ebuild>`__  ``amd64``, ``x86``
 
 * ``genzshcomp`` - http://bitbucket.org/hhatto/genzshcomp/
 

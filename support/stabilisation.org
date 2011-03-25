@@ -1,4 +1,3 @@
-* dev-python/funcparserlib-0.3.5             x86 SCHEDULED: <2011-03-20 Sun>
 * dev-python/gistapi-0.2.2                   x86 SCHEDULED: <2011-03-21 Mon>
 * dev-python/gpxdata-1.0.2                 amd64 SCHEDULED: <2011-03-24 Thu>
 * dev-python/gpxdata-1.0.2                   x86 SCHEDULED: <2011-03-24 Thu>
