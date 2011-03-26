@@ -310,7 +310,7 @@
  * Versions:
 
   * `0.7.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/plac/plac-0.7.5.ebuild>`__  ``amd64``, ``x86``
-  * `0.8.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/plac/plac-0.8.0.ebuild>`__  ``~amd64`` (due 2011-03-25), ``~x86`` (due 2011-03-25)
+  * `0.8.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/plac/plac-0.8.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-03-25)
 
 * ``pwtools`` - http://alastairs-place.net/pwtools/
 

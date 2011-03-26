@@ -1,12 +1,12 @@
-dev-python/setuptools >=app-admin/eselect-python-20091230 || ( =dev-lang/python-3.2* =dev-lang/python-3.1* =dev-lang/python-3.0* =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* )
-|| ( dev-python/argparse >=dev-lang/python-2.7 ) || ( dev-python/multiprocessing >=dev-lang/python-2.6 ) tk? ( dev-lang/python[tk] ) >=app-admin/eselect-python-20091230 || ( =dev-lang/python-3.2* =dev-lang/python-3.1* =dev-lang/python-3.0* =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* )
+dev-python/setuptools >=app-admin/eselect-python-20091230 || ( =dev-lang/python-3.3* =dev-lang/python-3.2* =dev-lang/python-3.1* =dev-lang/python-3.0* =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* )
+|| ( dev-python/argparse >=dev-lang/python-2.7 ) || ( dev-python/multiprocessing >=dev-lang/python-2.6 ) tk? ( dev-lang/python[tk] ) >=app-admin/eselect-python-20091230 || ( =dev-lang/python-3.3* =dev-lang/python-3.2* =dev-lang/python-3.1* =dev-lang/python-3.0* =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* )
 0
 mirror://pypi/p/plac/plac-0.8.0.tar.gz
 
 http://pypi.python.org/pypi/plac/
 BSD
 The smartest command line arguments parser in the world
-~amd64 ~x86
+amd64 ~x86
 distutils eutils jnrowe-pypi multilib portability python toolchain-funcs
 examples tk
 
