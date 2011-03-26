@@ -1,5 +1,4 @@
 * dev-python/gpxdata-1.0.2                   x86 SCHEDULED: <2011-03-24 Thu>
-* dev-python/genzshcomp-0.2.1              amd64 SCHEDULED: <2011-03-25 Fri>
 * dev-python/genzshcomp-0.2.1                x86 SCHEDULED: <2011-03-25 Fri>
 * dev-python/plac-0.8.0                    amd64 SCHEDULED: <2011-03-25 Fri>
 * dev-python/plac-0.8.0                      x86 SCHEDULED: <2011-03-25 Fri>

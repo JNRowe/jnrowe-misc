@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  26 Mar 2011; James Rowe <jnrowe@gmail.com> genzshcomp-0.2.1.ebuild:
+  Keyworded amd64.
+
   23 Mar 2011; James Rowe <jnrowe@gmail.com> -genzshcomp-0.1.ebuild,
   genzshcomp-0.2.ebuild:
   Keyworded x86.
