@@ -1,4 +1,3 @@
-* media-gfx/sphinxcontrib-blockdiag-0.7.0    x86 SCHEDULED: <2011-03-26 Sat>
 * dev-python/astral-0.5                    amd64 SCHEDULED: <2011-03-30 Wed>
 * dev-python/astral-0.5                      x86 SCHEDULED: <2011-03-30 Wed>
 * dev-python/lettuce-0.1.21                amd64 SCHEDULED: <2011-03-31 Thu>
