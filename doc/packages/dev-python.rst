@@ -15,8 +15,7 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/astral/astral-0.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/astral/astral-0.5.ebuild>`__  ``amd64``, ``~x86`` (due 2011-03-30)
+  * `0.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/astral/astral-0.5.ebuild>`__  ``amd64``, ``x86``
 
 * ``async`` - http://pypi.python.org/pypi/async/
 
