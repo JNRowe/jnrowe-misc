@@ -16,7 +16,7 @@ DESCRIPTION="Makes creating apps as simple as defining callbacks to handle optio
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE=""
 
 # Should switch to system dev-python/paver when it supports multi-ABI.

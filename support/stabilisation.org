@@ -1,6 +1,5 @@
 * dev-python/lettuce-0.1.21                  x86 SCHEDULED: <2011-03-31 Thu>
 * www-client/cupage-0.5.4                    x86 SCHEDULED: <2011-03-31 Thu>
-* dev-python/commandlineapp-3.0.7          amd64 SCHEDULED: <2011-03-31 Thu>
 * dev-python/commandlineapp-3.0.7            x86 SCHEDULED: <2011-03-31 Thu>
 * dev-python/twython-1.4.1                 amd64 SCHEDULED: <2011-03-31 Thu>
 * dev-python/twython-1.4.1                   x86 SCHEDULED: <2011-03-31 Thu>
