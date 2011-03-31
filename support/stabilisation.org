@@ -1,8 +1,6 @@
 * dev-python/lettuce-0.1.21                  x86 SCHEDULED: <2011-03-31 Thu>
 * www-client/cupage-0.5.4                    x86 SCHEDULED: <2011-03-31 Thu>
 * dev-python/commandlineapp-3.0.7            x86 SCHEDULED: <2011-03-31 Thu>
-* dev-python/twython-1.4.1                 amd64 SCHEDULED: <2011-03-31 Thu>
-* dev-python/twython-1.4.1                   x86 SCHEDULED: <2011-03-31 Thu>
 * media-gfx/blockdiag-0.7.0                amd64 SCHEDULED: <2011-03-31 Thu>
 * media-gfx/blockdiag-0.7.0                  x86 SCHEDULED: <2011-03-31 Thu>
 * dev-python/gpxdata-1.1.0                 amd64 SCHEDULED: <2011-03-31 Thu>
@@ -45,3 +43,5 @@
 * media-gfx/sphinxcontrib-mscgen-0.4         x86 SCHEDULED: <2011-05-29 Sun>
 * www-apps/mnemosyne-0.12                  amd64 SCHEDULED: <2011-06-07 Tue>
 * www-apps/mnemosyne-0.12                    x86 SCHEDULED: <2011-06-07 Tue>
+* dev-python/twython-1.4.1                 amd64 SCHEDULED: <2011-06-29 Wed>
+* dev-python/twython-1.4.1                   x86 SCHEDULED: <2011-06-29 Wed>
