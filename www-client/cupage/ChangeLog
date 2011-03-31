@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  31 Mar 2011; James Rowe <jnrowe@gmail.com> cupage-0.5.4.ebuild:
+  Keyworded amd64.
+
   01 Mar 2011; James Rowe <jnrowe@gmail.com>
   -files/cupage-0.5.1-Fixed-usage-without-termstyle.patch:
   Remove obsolete files.
