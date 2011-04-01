@@ -169,7 +169,7 @@
  * Versions:
 
   * `1.0.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/gpxdata/gpxdata-1.0.2.ebuild>`__  ``amd64``, ``x86``
-  * `1.1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/gpxdata/gpxdata-1.1.0.ebuild>`__  ``~amd64`` (due 2011-03-31), ``~x86`` (due 2011-03-31)
+  * `1.1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/gpxdata/gpxdata-1.1.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-03-31)
 
 * ``grapefruit`` - http://code.google.com/p/grapefruit/
 
