@@ -55,8 +55,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `3.0.6 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/commandlineapp/commandlineapp-3.0.6.ebuild>`__  ``amd64``, ``x86``
-  * `3.0.7 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/commandlineapp/commandlineapp-3.0.7.ebuild>`__  ``amd64``, ``~x86`` (due 2011-03-31)
+  * `3.0.7 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/commandlineapp/commandlineapp-3.0.7.ebuild>`__  ``amd64``, ``x86``
 
 * ``dexml`` - http://pypi.python.org/pypi/dexml/
 
