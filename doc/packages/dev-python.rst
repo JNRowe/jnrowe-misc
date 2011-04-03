@@ -95,7 +95,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/fancycompleter/fancycompleter-0.2.ebuild>`__  ``~amd64`` (due 2011-03-31), ``~x86`` (due 2011-04-01)
+  * `0.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/fancycompleter/fancycompleter-0.2.ebuild>`__  ``amd64``, ``~x86`` (due 2011-04-01)
 
 * ``feedcache`` - http://www.doughellmann.com/projects/feedcache/
 
