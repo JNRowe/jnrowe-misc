@@ -1,4 +1,3 @@
-* dev-python/pyrepl-0.8.2                  amd64 SCHEDULED: <2011-03-31 Thu>
 * dev-python/fancycompleter-0.2            amd64 SCHEDULED: <2011-03-31 Thu>
 * dev-python/wmctrl-0.1                    amd64 SCHEDULED: <2011-03-31 Thu>
 * dev-python/pdbpp-0.6                     amd64 SCHEDULED: <2011-03-31 Thu>
