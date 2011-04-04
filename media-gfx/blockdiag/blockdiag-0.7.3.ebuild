@@ -15,7 +15,7 @@ DESCRIPTION="Generate block-diagram image files from text(like dot)"
 
 LICENSE="PSF-2.4"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="examples pdf"
 
 DEPEND="dev-python/setuptools"
