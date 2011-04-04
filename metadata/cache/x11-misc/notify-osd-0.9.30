@@ -7,7 +7,7 @@ https://launchpad.net/notify-osd
 GPL-3
 Canonical's on-screen-display notification agent
 
-fdo-mime gnome.org gnome2 gnome2-utils libtool multilib toolchain-funcs
+eutils fdo-mime gnome.org gnome2 gnome2-utils libtool multilib portability toolchain-funcs versionator
 examples
 
 

@@ -7,7 +7,7 @@ http://live.gnome.org/OnTV
 GPL-2
 GNOME Applet for monitoring current and upcoming TV programs
 amd64 x86
-distutils fdo-mime gnome.org gnome2 gnome2-utils libtool multilib python toolchain-funcs
+distutils eutils fdo-mime gnome.org gnome2 gnome2-utils libtool multilib portability python toolchain-funcs versionator
 +xmltv
 
 
