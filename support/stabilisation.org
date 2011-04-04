@@ -1,5 +1,4 @@
 * media-gfx/blockdiag-0.7.3                  x86 SCHEDULED: <2011-04-03 Sun>
-* media-gfx/seqdiag-0.2.1                  amd64 SCHEDULED: <2011-04-04 Mon>
 * media-gfx/seqdiag-0.2.1                    x86 SCHEDULED: <2011-04-04 Mon>
 * dev-python/virtualenvwrapper-2.6.3       amd64 SCHEDULED: <2011-04-04 Mon>
 * dev-python/virtualenvwrapper-2.6.3         x86 SCHEDULED: <2011-04-04 Mon>

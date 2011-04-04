@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  04 Apr 2011; James Rowe <jnrowe@gmail.com> seqdiag-0.2.1.ebuild:
+  Keyworded amd64.
+
   24 Mar 2011; James Rowe <jnrowe@gmail.com> seqdiag-0.1.7.ebuild,
   seqdiag-0.2.1.ebuild:
   Byte compile the Sphinx extension.
