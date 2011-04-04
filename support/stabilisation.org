@@ -1,4 +1,3 @@
-* dev-python/virtualenvwrapper-2.6.3         x86 SCHEDULED: <2011-04-04 Mon>
 * sci-visualization/charty-0.1.0           amd64 SCHEDULED: <2011-04-06 Wed>
 * dev-python/python-faker-0.2.4              x86 SCHEDULED: <2011-04-07 Thu>
 * sci-visualization/charty-0.1.0             x86 SCHEDULED: <2011-04-07 Thu>
