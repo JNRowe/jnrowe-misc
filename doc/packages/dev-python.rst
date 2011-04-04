@@ -545,7 +545,7 @@
  * Versions:
 
   * `2.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.6.1.ebuild>`__  ``amd64``, ``x86``
-  * `2.6.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.6.3.ebuild>`__  ``~amd64`` (due 2011-04-04), ``~x86`` (due 2011-04-04)
+  * `2.6.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.6.3.ebuild>`__  ``amd64``, ``~x86`` (due 2011-04-04)
 
 * ``wmctrl`` - http://pypi.python.org/pypi/wmctrl/
 
