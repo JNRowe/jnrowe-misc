@@ -32,37 +32,3 @@ SRC_URI="mirror://pypi/${_PYPI_PN::1}/${_PYPI_PN}/${_PYPI_P}.${PYPI_ARCHIVE_SUFF
 
 # Override S for PN mangling.
 S="${WORKDIR}"/${_PYPI_P}
-
-# Based on make_wrapper from eutils.eclass
-# @FUNCTION: module_script_wrapper
-# @USAGE: [<wrapper>] [<module>] [function] [installpath]
-# @DESCRIPTION:
-# Create a Python wrapper script named wrapper(defaults to ${PN}) in installpath
-# (defaults to bindir) to execute function(defaults to main) from
-# module(defaults to ${PN}).  The main purpose is to wrap modules that require
-# setuptools purely for their scripts, allowing us to remove setuptools.
-module_script_wrapper() {
-	local wrapper=${1:-${PN}} module=${2:-${PN}} function=${3:-main} path=$4
-	local tmpwrapper=$(emktemp)
-
-	ewarn "${FUNCNAME}: Deprecated, please use setuptools entry_points!" >&2
-
-	cat << EOF > "${tmpwrapper}"
-#! /usr/bin/python
-
-import ${module}
-
-${module}.${function:-main}()
-EOF
-	python_convert_shebangs $(python_get_version) ${tmpwrapper}
-	chmod go+rx "${tmpwrapper}"
-	if [[ -n ${path} ]]; then
-		(
-			exeinto "${path}"
-			newexe "${tmpwrapper}" "${wrapper}"
-		) || die
-	else
-		newbin "${tmpwrapper}" "${wrapper}" || die
-	fi
-}
-
