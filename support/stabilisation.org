@@ -1,6 +1,5 @@
 * dev-python/python-faker-0.2.4            amd64 SCHEDULED: <2011-04-01 Fri>
 * dev-vcs/gitserve-0.2.0-r3                amd64 SCHEDULED: <2011-04-01 Fri>
-* dev-vcs/gitserve-0.2.0-r3                  x86 SCHEDULED: <2011-04-01 Fri>
 * media-gfx/blockdiag-0.7.3                amd64 SCHEDULED: <2011-04-03 Sun>
 * media-gfx/blockdiag-0.7.3                  x86 SCHEDULED: <2011-04-03 Sun>
 * media-gfx/seqdiag-0.2.1                  amd64 SCHEDULED: <2011-04-04 Mon>
