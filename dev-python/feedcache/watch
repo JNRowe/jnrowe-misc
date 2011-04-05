@@ -1,2 +1,1 @@
-url = http://www.doughellmann.com/projects/feedcache/
-select = span.project_link a
+site = pypi
