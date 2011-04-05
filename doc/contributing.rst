@@ -1,8 +1,8 @@
 Contributing
 ============
 
-There are few notes beyond the advice in the excellent devmanual_ that should be
-taken in to consideration when contributing to this overlay.
+A few notes, beyond the advice in the excellent devmanual_, that should be taken
+in to consideration when contributing to this overlay.
 
 :command:`die` usage
 --------------------
@@ -10,7 +10,7 @@ taken in to consideration when contributing to this overlay.
 There are few differences between how :command:`die` is commonly used in the
 upstream tree, and how it is used in this overlay.  The rules in the overlay
 aren't always strictly enforced, but documenting this will hopefully reduce the
-number of syntax questions I'm asked.
+number of usage questions I'm asked.
 
 :command:`sed` and :command:`die`
 '''''''''''''''''''''''''''''''''
@@ -28,8 +28,8 @@ problems than a poorly defined call to :command:`sed`.]
 .. note::
 
    Users inside the AST firewall should note that our :command:`sed` wrappers
-   used within an ``ebuild`` will fail if a file doesn't exist or an expression
-   doesn't apply.
+   used within an ``ebuild`` will call ``die`` internally if a file doesn't
+   exist or an expression doesn't apply.
 
 :command:`do*` and :command:`die`
 '''''''''''''''''''''''''''''''''
@@ -42,7 +42,7 @@ Usage of wildcards in calls to :command:`do*` is also frowned upon, but not
 enough to clean up previous usage [yet].
 
 All entities that should be installed should raise a failure if they are not
-installed, there shouldn't be a middle ground for some types of files.
+installed, there is no middle ground for some specific types of files.
 
 :envvar:`RESTRICT` usage
 ------------------------
@@ -53,7 +53,8 @@ looking at an ``ebuild`` the reason why tests, for example, are blocked for a
 given package.
 
 Of course, it is preferable to fix the underlying reason for needing a
-:envvar:`RESTRICT` definition in the case of ``test`` and ``userpriv``.
+:envvar:`RESTRICT` definition, especially in the case of ``test`` and
+``userpriv`` restrictions.
 
 :file:`stabilisation.org`
 -------------------------
@@ -86,11 +87,11 @@ removal reminders for packages.  An example should explain it adequately::
 
 The format is identical to that defined in :manpage:`portage(5)` with the
 addition of the ``X-Removal`` tag that is used by the
-:program:`support/gen_removal.py` script to create org-mode_ compatible data
-files.
+:program:`support/gen_removal.py` script to create an org-mode_ compatible data
+file.
 
-A simple, but important, extension that makes it easier to keep on top of admin
-tasks.
+A simple, but important, extension that makes it easier to keep on top of
+important admin tasks.
 
 :file:`distutils.eclass` usage
 ------------------------------
@@ -117,10 +118,10 @@ A simple example from the ``ebuild`` for rad_ would be:
 :file:`watch` files
 -------------------
 
-Each package directory contains a :file:`watch` file is used to generate
-:file:`support/cupage.conf`.  The file:`support/cupage.conf` is an input file
-for cupage_, which helps us to keep up with new package releases by automating
-the process of checking project sites.
+Each package directory contains a :file:`watch` file that is used to generate
+:file:`support/cupage.conf`.  The :file:`support/cupage.conf` file is a config
+file for cupage_, which helps us to keep up with new package releases by
+automating the process of checking project sites.
 
 The format is basically quite simple, but there are a few caveats.  First, an
 easy example from ``www-client/cupage``:
@@ -135,11 +136,11 @@ This configuration is all that is needed to check for new tags in the
 
 The output of :program:`cupage.py --list-sites` shows all the possible
 definitions for the ``site`` option.  If the upstream project is located on one
-of those sites the :file:`watch` file should be extremely simple.
+of those sites then the :file:`watch` file should be extremely simple.
 
 For projects not using one of :program:`cupage`'s supported sites a manual
 matcher must be built.  An example from ``dev-python/astral`` should be
-illustrative:
+quite illustrative:
 
 .. code-block:: cfg
 
@@ -147,16 +148,16 @@ illustrative:
     select = td a
     match_type = zip
 
-This tells :program:`cupage` to check the defined URL for HTML ``a`` elements
-within HTML ``td`` elements that match ``zip`` filenames.
+This tells :program:`cupage` to check the defined URL for ``a`` tags located
+within ``td`` tags whose ``href`` attributes appear to match ``zip`` file names.
 
 For more information about configuring :program:`cupage` visit the cupage_
-website.
+documentation.
 
 Caveats
 '''''''
 
-If the package name does not match the project name then the project name should
+If the package name does not match the project name then the project name must
 be specified in the :file:`watch` file.  A live example from this repository
 would be ``games-action/reminiscence``:
 
@@ -172,15 +173,15 @@ would be ``games-action/reminiscence``:
    specified when the package and project names differ as in the REminiscence_
    example above.
 
-For a live ``ebuild`` or an upstream that has since disappeared where
-using :program:`cupage` is unworkable a special entry should be placed in a
-package's :file:`watch` file.
+For a live ``ebuild``, or an upstream that has since disappeared, where using
+:program:`cupage` is unworkable a special entry should be placed in a package's
+:file:`watch` file.
 
 For a live ``ebuild`` add the string ``# Live ebuild`` to the start of the
 file.  It is possible to add other information to the end of the file.
 
 For a package where the upstream site is dead add the string ``upstream is
-dead`` somewhere to the watch file.  It is possible to add informative notes to
+dead`` somewhere in the watch file.  It is possible to add informative notes to
 the file, such as the previous location or package author data.
 
 .. _devmanual: http://devmanual.gentoo.org/
