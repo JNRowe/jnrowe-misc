@@ -25,6 +25,14 @@
 
   * `15.4 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/libeatmydata/libeatmydata-15.4.ebuild>`__  ``amd64``, ``x86``
 
+* ``pw`` - http://pypi.python.org/pypi/pw/
+
+ * Grep GnuPG-encrypted YAML password safe
+ * Licence: ``MIT``
+ * Versions:
+
+  * `0.1.3 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/pw/pw-0.1.3.ebuild>`__  ``~amd64`` (due 2011-05-05)
+
 * ``sunwait`` - http://www.risacher.org/sunwait/
 
  * Tool for calculating sunrise and sunset, and sleeping until such an event.

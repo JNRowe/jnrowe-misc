@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Grep <pkg>app-crypt/gnupg</pkg>-encrypted YAML password safe.
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">pw</remote-id>
+		<bugs-to>https://github.com/catch22/pw/issues</bugs-to>
+	</upstream>
+</pkgmetadata>
