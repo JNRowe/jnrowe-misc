@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/xerox
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*xerox-0.2.1 (05 Apr 2011)
+
+  05 Apr 2011; James Rowe <jnrowe@gmail.com> +xerox-0.2.1.ebuild,
+  +metadata.xml, +watch:
+  Initial ebuild, by me. Required for pw.
+

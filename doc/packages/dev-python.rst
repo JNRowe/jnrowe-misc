@@ -562,3 +562,11 @@
 
   * `1.0.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/wordish/wordish-1.0.2.ebuild>`__  ``amd64``, ``x86``
 
+* ``xerox`` - http://pypi.python.org/pypi/xerox/
+
+ * Simple copy and paste in Python
+ * Licence: ``MIT``
+ * Versions:
+
+  * `0.2.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/xerox/xerox-0.2.1.ebuild>`__  ``~amd64`` (due 2011-05-05)
+
