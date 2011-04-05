@@ -14,7 +14,8 @@ DESCRIPTION="Doctest/UnitTest for shell"
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="amd64 x86"
-IUSE=""
+IUSE="minimal"
 
 DEPEND=""
-RDEPEND="dev-python/commandlineapp"
+RDEPEND="dev-python/commandlineapp
+	!minimal? ( dev-python/paramiko )"
