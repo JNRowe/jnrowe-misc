@@ -13,7 +13,7 @@ SRC_URI="mirror://nongnu/${PN}/${P}.tar.bz2"
 LICENSE="LGPL-2.1"
 SLOT="0"
 KEYWORDS="amd64 x86"
-IUSE="id3tag"
+IUSE="+id3tag"
 
 RDEPEND="dev-libs/glib
 	dev-libs/libxml2

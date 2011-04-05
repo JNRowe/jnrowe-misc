@@ -8,7 +8,7 @@ LGPL-2.1
 A simple command-line based RSS enclosure downloader
 amd64 x86
 base eutils multilib portability toolchain-funcs
-id3tag
++id3tag
 
 
 
