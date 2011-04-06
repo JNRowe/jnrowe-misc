@@ -1,0 +1,50 @@
+diff --git i/main.cpp w/main.cpp
+index 2e05d9b..1eed019 100644
+--- i/main.cpp
++++ w/main.cpp
+@@ -15,6 +15,8 @@
+  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  */
+ 
++#include <sys/stat.h>
++
+ #include "file.h"
+ #include "fs.h"
+ #include "game.h"
+@@ -23,11 +25,11 @@
+ static const char *USAGE =
+ 	"REminiscence - Flashback Interpreter\n"
+ 	"Usage: %s [OPTIONS]...\n"
+-	"  --datapath=PATH   Path to data files (default 'DATA')\n"
+-	"  --savepath=PATH   Path to save files (default '.')\n"
++	"  --datapath=PATH   Path to data files (default 'GAMES_DATADIR')\n"
++	"  --savepath=PATH   Path to save files (default '~/.reminiscence')\n"
+ 	"  --levelnum=NUM    Starting level (default '0')";
+ 
+-static bool parseOption(const char *arg, const char *longCmd, const char **opt) {
++static bool parseOption(char *arg, const char *longCmd, char **opt) {
+ 	bool handled = false;
+ 	if (arg[0] == '-' && arg[1] == '-') {
+ 		if (strncmp(arg + 2, longCmd, strlen(longCmd)) == 0) {
+@@ -83,9 +85,18 @@ static Language detectLanguage(FileSystem *fs) {
+ 
+ #undef main
+ int main(int argc, char *argv[]) {
+-	const char *dataPath = "DATA";
+-	const char *savePath = ".";
+-	const char *levelNum = "0";
++	char *dataPath = (char *)"GAMES_DATADIR";
++	char *savePath = (char *)malloc(256);
++	struct stat sb;
++
++	snprintf(savePath, 255, "%s/.reminiscence", getenv("HOME"));
++	if (stat(savePath, &sb)) {
++		if (mkdir(savePath, 0755) == -1) {
++			error("Failed to create save directory(%s)", savePath);
++		}
++	}
++
++	char *levelNum = "0";
+ 	for (int i = 1; i < argc; ++i) {
+ 		bool opt = false;
+ 		if (strlen(argv[i]) >= 2) {
