@@ -15,7 +15,7 @@
  * Licence: ``BSD GPL-2``
  * Versions:
 
-  * `0.1.0 <https://github.com/JNRowe/misc-overlay/blob/master/sci-visualization/charty/charty-0.1.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-04-07)
+  * `0.1.0 <https://github.com/JNRowe/misc-overlay/blob/master/sci-visualization/charty/charty-0.1.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``pycha`` - http://pypi.python.org/pypi/pycha/
 
