@@ -376,7 +376,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.2.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/python-faker/python-faker-0.2.4.ebuild>`__  ``amd64``, ``~x86`` (due 2011-04-07)
+  * `0.2.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/python-faker/python-faker-0.2.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``python-osmgpsmap`` - http://nzjrs.github.com/osm-gps-map/
 
