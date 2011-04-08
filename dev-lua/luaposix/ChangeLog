@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*luaposix-5.1.9 (08 Apr 2011)
+
+  08 Apr 2011; James Rowe <jnrowe@gmail.com> +luaposix-5.1.9.ebuild:
+  Version bump [320].
+
   12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:
   Added watch file for package updates.
 
