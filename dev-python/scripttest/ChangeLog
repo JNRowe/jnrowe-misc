@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*scripttest-1.1.1 (08 Apr 2011)
+
+  08 Apr 2011; James Rowe <jnrowe@gmail.com> +scripttest-1.1.1.ebuild:
+  Version bump [315].
+
   04 Mar 2011; James Rowe <jnrowe@gmail.com> scripttest-1.1.ebuild:
   Make use of jnrowe-pypi S mangling.
 
