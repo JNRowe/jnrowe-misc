@@ -7,7 +7,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.14.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/argh/argh-0.14.0.ebuild>`__  ``~amd64`` (due 2011-04-08), ``~x86`` (due 2011-04-20)
+  * `0.14.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/argh/argh-0.14.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-04-20)
 
 * ``astral`` - http://pypi.python.org/pypi/astral/
 
