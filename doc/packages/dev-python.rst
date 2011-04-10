@@ -143,7 +143,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/gistapi/gistapi-0.2.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/gistapi/gistapi-0.2.2.ebuild>`__  ``amd64``, ``x86`` (masked by ``package.mask``)
 
 * ``git-python`` - http://pypi.python.org/pypi/GitPython/
 

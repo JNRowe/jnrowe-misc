@@ -1,5 +1,10 @@
 # extra line needed because portage is buggy
 
+# James Rowe <jnrowe@gmail.com> (10 Apr 2011)
+# Masked for removal because dependencies are unsupportable
+# X-Removal: 2011-05-10
+dev-python/gistapi
+
 # James Rowe <jnrowe@gmail.com> (24 Feb 2011)
 # live ebuild for rstblog
 =www-apps/rstblog-9999
