@@ -1,0 +1,60 @@
+diff -prauN Unpack-1863/github2-0.3.0/github2.egg-info/SOURCES.txt Unpack-9798/github2-0.3.0/github2.egg-info/SOURCES.txt
+--- Unpack-1863/github2-0.3.0/github2.egg-info/SOURCES.txt	2011-04-13 21:02:22.000000000 +0100
++++ Unpack-9798/github2-0.3.0/github2.egg-info/SOURCES.txt	2011-04-14 00:07:42.000000000 +0100
+@@ -37,4 +37,6 @@ github2.egg-info/requires.txt
+ github2.egg-info/top_level.txt
+ github2/bin/github_manage_collaborators
+ tests/__init__.py
+-tests/unit.py
+\ No newline at end of file
++tests/unit.py
++tests/data/github.com,api,v2,json,user,show,defunkt,379cb3d60bbce3d9b30e6e6aae66840c
++tests/data/github.com,api,v2,json,user,show,mojombo,640a810b9b927be6912b70d53d6b0eb1
+\ No newline at end of file
+diff -prauN Unpack-1863/github2-0.3.0/MANIFEST.in Unpack-9798/github2-0.3.0/MANIFEST.in
+--- Unpack-1863/github2-0.3.0/MANIFEST.in	2011-04-13 20:44:57.000000000 +0100
++++ Unpack-9798/github2-0.3.0/MANIFEST.in	2011-04-14 00:07:30.000000000 +0100
+@@ -9,3 +9,5 @@ include doc/conf.py
+ include doc/Makefile
+ include doc/.templates/layout.html
+ prune doc/.build/
++
++recursive-include tests/data *
+diff -prauN Unpack-1863/github2-0.3.0/tests/data/github.com,api,v2,json,user,show,defunkt,379cb3d60bbce3d9b30e6e6aae66840c Unpack-9798/github2-0.3.0/tests/data/github.com,api,v2,json,user,show,defunkt,379cb3d60bbce3d9b30e6e6aae66840c
+--- Unpack-1863/github2-0.3.0/tests/data/github.com,api,v2,json,user,show,defunkt,379cb3d60bbce3d9b30e6e6aae66840c	1970-01-01 01:00:00.000000000 +0100
++++ Unpack-9798/github2-0.3.0/tests/data/github.com,api,v2,json,user,show,defunkt,379cb3d60bbce3d9b30e6e6aae66840c	2011-04-13 19:30:40.000000000 +0100
+@@ -0,0 +1,14 @@
++status: 200
++x-ratelimit-remaining: 59
++content-location: https://github.com/api/v2/json/user/show/defunkt
++x-runtime: 233ms
++content-length: 390
++server: nginx/0.7.67
++connection: keep-alive
++x-ratelimit-limit: 60
++etag: "53961f440447e2770b1386199b7a6ef3"
++cache-control: private, max-age=0, must-revalidate
++date: Mon, 11 Apr 2011 14:45:49 GMT
++content-type: application/json; charset=utf-8
++
++{"user":{"gravatar_id":"b8dbb1987e8e5318584865f880036796","company":"GitHub","name":"Chris Wanstrath","created_at":"2007/10/19 22:24:19 -0700","location":"San Francisco, CA","public_repo_count":92,"public_gist_count":277,"blog":"http://chriswanstrath.com/","following_count":212,"id":2,"type":"User","permission":null,"followers_count":2244,"login":"defunkt","email":"chris@wanstrath.com"}}
+\ No newline at end of file
+diff -prauN Unpack-1863/github2-0.3.0/tests/data/github.com,api,v2,json,user,show,mojombo,640a810b9b927be6912b70d53d6b0eb1 Unpack-9798/github2-0.3.0/tests/data/github.com,api,v2,json,user,show,mojombo,640a810b9b927be6912b70d53d6b0eb1
+--- Unpack-1863/github2-0.3.0/tests/data/github.com,api,v2,json,user,show,mojombo,640a810b9b927be6912b70d53d6b0eb1	1970-01-01 01:00:00.000000000 +0100
++++ Unpack-9798/github2-0.3.0/tests/data/github.com,api,v2,json,user,show,mojombo,640a810b9b927be6912b70d53d6b0eb1	2011-04-13 19:30:40.000000000 +0100
+@@ -0,0 +1,14 @@
++status: 200
++x-ratelimit-remaining: 58
++content-location: https://github.com/api/v2/json/user/show/mojombo
++x-runtime: 23ms
++content-length: 391
++server: nginx/0.7.67
++connection: keep-alive
++x-ratelimit-limit: 60
++etag: "45a6fa1730ba70b40ccd595130b2390e"
++cache-control: private, max-age=0, must-revalidate
++date: Mon, 11 Apr 2011 14:46:22 GMT
++content-type: application/json; charset=utf-8
++
++{"user":{"gravatar_id":"25c7c18223fb42a4c6ae1c8db6f50f9b","company":"GitHub, Inc.","name":"Tom Preston-Werner","created_at":"2007/10/19 22:24:19 -0700","location":"San Francisco","public_repo_count":49,"public_gist_count":66,"blog":"http://tom.preston-werner.com","following_count":11,"id":1,"type":"User","permission":null,"followers_count":1454,"login":"mojombo","email":"tom@github.com"}}
+\ No newline at end of file
