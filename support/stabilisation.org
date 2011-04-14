@@ -30,6 +30,8 @@
 * dev-python/github2-0.3.0                   x86 SCHEDULED: <2011-05-14 Sat>
 * media-gfx/sphinxcontrib-aafig-1.0-r1     amd64 SCHEDULED: <2011-05-14 Sat>
 * media-gfx/sphinxcontrib-aafig-1.0-r1       x86 SCHEDULED: <2011-05-14 Sat>
+* media-gfx/aafigure-0.5-r2                amd64 SCHEDULED: <2011-05-14 Sat>
+* media-gfx/aafigure-0.5-r2                  x86 SCHEDULED: <2011-05-14 Sat>
 * dev-python/pycparser-2.02                amd64 SCHEDULED: <2011-05-21 Sat>
 * dev-python/pycparser-2.02                  x86 SCHEDULED: <2011-05-21 Sat>
 * media-gfx/sphinxcontrib-mscgen-0.4       amd64 SCHEDULED: <2011-05-29 Sun>
