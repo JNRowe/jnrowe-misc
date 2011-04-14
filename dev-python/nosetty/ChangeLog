@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*nosetty-0.4-r1 (14 Apr 2011)
+
+  14 Apr 2011; James Rowe <jnrowe@gmail.com> +nosetty-0.4-r1.ebuild:
+  Support multi-ABI python [336].
+
   12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:
   Added watch file for package updates.
 

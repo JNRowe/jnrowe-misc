@@ -266,6 +266,7 @@
  * Versions:
 
   * `0.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/nosetty/nosetty-0.4.ebuild>`__  ``amd64``, ``x86``
+  * `0.4-r1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/nosetty/nosetty-0.4-r1.ebuild>`__  ``~amd64`` (due 2011-05-14), ``~x86`` (due 2011-05-14)
 
 * ``pdbpp`` - http://pypi.python.org/pypi/pdbpp/
 
