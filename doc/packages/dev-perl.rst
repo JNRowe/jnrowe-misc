@@ -17,6 +17,7 @@
  * Versions:
 
   * `2.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-perl/Term-Animation/Term-Animation-2.4.ebuild>`__  ``amd64``, ``x86``
+  * `2.6 <https://github.com/JNRowe/misc-overlay/blob/master/dev-perl/Term-Animation/Term-Animation-2.6.ebuild>`__  ``~amd64`` (due 2011-05-17), ``~x86`` (due 2011-05-17)
 
 * ``Weather-Underground`` - http://search.cpan.org/dist/Weather-Underground/
 
