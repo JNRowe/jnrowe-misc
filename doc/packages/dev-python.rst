@@ -389,6 +389,7 @@
  * Versions:
 
   * `0.7.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/python-osmgpsmap/python-osmgpsmap-0.7.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.7.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/python-osmgpsmap/python-osmgpsmap-0.7.3.ebuild>`__  ``~amd64`` (due 2011-05-17), ``~x86`` (due 2011-05-17)
 
 * ``rad`` - http://pypi.python.org/pypi/rad/
 
