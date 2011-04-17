@@ -40,6 +40,8 @@
 * dev-python/lettuce-0.1.26                  x86 SCHEDULED: <2011-05-17 Tue>
 * dev-python/pycparser-2.03                amd64 SCHEDULED: <2011-05-17 Tue>
 * dev-python/pycparser-2.03                  x86 SCHEDULED: <2011-05-17 Tue>
+* dev-perl/Net-Twitter-Lite-0.10004        amd64 SCHEDULED: <2011-05-17 Tue>
+* dev-perl/Net-Twitter-Lite-0.10004          x86 SCHEDULED: <2011-05-17 Tue>
 * dev-python/pycparser-2.02                amd64 SCHEDULED: <2011-05-21 Sat>
 * dev-python/pycparser-2.02                  x86 SCHEDULED: <2011-05-21 Sat>
 * media-gfx/sphinxcontrib-mscgen-0.4       amd64 SCHEDULED: <2011-05-29 Sun>
