@@ -38,6 +38,8 @@
 * dev-python/nosetty-0.4-r1                  x86 SCHEDULED: <2011-05-14 Sat>
 * dev-python/lettuce-0.1.26                amd64 SCHEDULED: <2011-05-17 Tue>
 * dev-python/lettuce-0.1.26                  x86 SCHEDULED: <2011-05-17 Tue>
+* dev-python/dexml-0.4.1                   amd64 SCHEDULED: <2011-05-17 Tue>
+* dev-python/dexml-0.4.1                     x86 SCHEDULED: <2011-05-17 Tue>
 * dev-python/pycparser-2.02                amd64 SCHEDULED: <2011-05-21 Sat>
 * dev-python/pycparser-2.02                  x86 SCHEDULED: <2011-05-21 Sat>
 * media-gfx/sphinxcontrib-mscgen-0.4       amd64 SCHEDULED: <2011-05-29 Sun>

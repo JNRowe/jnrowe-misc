@@ -64,6 +64,7 @@
  * Versions:
 
   * `0.4.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/dexml/dexml-0.4.0.ebuild>`__  ``amd64``, ``x86``
+  * `0.4.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/dexml/dexml-0.4.1.ebuild>`__  ``~amd64`` (due 2011-05-17), ``~x86`` (due 2011-05-17)
 
 * ``doctest-tools`` - http://code.google.com/p/doctest-tools/
 
