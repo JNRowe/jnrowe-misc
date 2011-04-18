@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*github2-0.3.1 (18 Apr 2011)
+
+  18 Apr 2011; James Rowe <jnrowe@gmail.com> +github2-0.3.1.ebuild:
+  Version bump.
+
 *github2-0.3.0 (13 Apr 2011)
 
   13 Apr 2011; James Rowe <jnrowe@gmail.com> +github2-0.3.0.ebuild,
