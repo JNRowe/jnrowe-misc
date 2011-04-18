@@ -54,6 +54,8 @@
 * dev-python/python-osmgpsmap-0.7.3          x86 SCHEDULED: <2011-05-17 Tue>
 * dev-python/github2-0.3.1                 amd64 SCHEDULED: <2011-05-18 Wed>
 * dev-python/github2-0.3.1                   x86 SCHEDULED: <2011-05-18 Wed>
+* dev-python/plac-0.8.1                    amd64 SCHEDULED: <2011-05-18 Wed>
+* dev-python/plac-0.8.1                      x86 SCHEDULED: <2011-05-18 Wed>
 * dev-python/pycparser-2.02                amd64 SCHEDULED: <2011-05-21 Sat>
 * dev-python/pycparser-2.02                  x86 SCHEDULED: <2011-05-21 Sat>
 * media-gfx/sphinxcontrib-mscgen-0.4       amd64 SCHEDULED: <2011-05-29 Sun>
