@@ -1,5 +1,3 @@
-* sci-visualization/cairoplot-1.1            x86 SCHEDULED: <2011-04-20 Wed>
-* dev-python/argh-0.14.0                     x86 SCHEDULED: <2011-04-20 Wed>
 * dev-python/xerox-0.2.1                   amd64 SCHEDULED: <2011-05-05 Thu>
 * app-misc/pw-0.1.3                        amd64 SCHEDULED: <2011-05-05 Thu>
 * dev-python/lettuce-0.1.25                amd64 SCHEDULED: <2011-05-05 Thu>
