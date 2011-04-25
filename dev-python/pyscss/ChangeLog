@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*pyscss-1.0.6 (25 Apr 2011)
+
+  25 Apr 2011; James Rowe <jnrowe@gmail.com> +pyscss-1.0.6.ebuild:
+  Version bump [346].
+
   04 Apr 2011; James Rowe <jnrowe@gmail.com> pyscss-1.0.3.ebuild:
   Keyworded x86.
 

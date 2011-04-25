@@ -378,6 +378,7 @@
 
   * `1.0.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyscss/pyscss-1.0.3.ebuild>`__  ``amd64``, ``x86``
   * `1.0.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyscss/pyscss-1.0.5.ebuild>`__  ``~amd64`` (due 2011-05-09), ``~x86`` (due 2011-05-09)
+  * `1.0.6 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyscss/pyscss-1.0.6.ebuild>`__  ``~amd64`` (due 2011-05-25), ``~x86`` (due 2011-05-25)
 
 * ``python-faker`` - http://pypi.python.org/pypi/python-faker/
 
