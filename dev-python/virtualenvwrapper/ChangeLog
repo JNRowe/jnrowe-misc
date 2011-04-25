@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*virtualenvwrapper-2.7 (25 Apr 2011)
+
+  25 Apr 2011; James Rowe <jnrowe@gmail.com> +virtualenvwrapper-2.7.ebuild:
+  Version bump [348].
+
   04 Apr 2011; James Rowe <jnrowe@gmail.com>
   -virtualenvwrapper-2.6.1.ebuild, virtualenvwrapper-2.6.3.ebuild:
   Keyworded x86.
