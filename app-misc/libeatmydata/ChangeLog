@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*libeatmydata-26.2 (25 Apr 2011)
+
+  25 Apr 2011; James Rowe <jnrowe@gmail.com> +libeatmydata-26.2.ebuild:
+  Version bump [349].
+
   12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:
   Added watch file for package updates.
 
