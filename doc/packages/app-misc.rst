@@ -19,11 +19,12 @@
 
 * ``libeatmydata`` - http://www.flamingspork.com/projects/libeatmydata/
 
- * Library that disables all forms of writing data safely to disk.
+ * Library that disables all forms of writing data safely to disk
  * Licence: ``GPL-3``
  * Versions:
 
   * `15.4 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/libeatmydata/libeatmydata-15.4.ebuild>`__  ``amd64``, ``x86``
+  * `26.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/libeatmydata/libeatmydata-26.2.ebuild>`__  ``~amd64`` (due 2011-05-25), ``~x86`` (due 2011-05-25)
 
 * ``pw`` - http://pypi.python.org/pypi/pw/
 
