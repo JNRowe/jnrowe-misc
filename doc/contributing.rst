@@ -56,17 +56,17 @@ Of course, it is preferable to fix the underlying reason for needing a
 :envvar:`RESTRICT` definition, especially in the case of ``test`` and
 ``userpriv`` restrictions.
 
-:file:`stabilisation.org`
--------------------------
+:file:`stabilisation.remind`
+----------------------------
 
-:file:`support/stabilisation.org` is an org-mode_ compatible data file that
+:file:`support/stabilisation.remind` is a remind_ compatible data file that
 contains *likely* stabilisation dates for packages.  When a new arch keyword is
 added or a package receives a version bump this file is updated to reflect the
 earliest possible time a package can migrate to stable.
 
 The format is simple enough::
 
-    * |CPV|  |arch| SCHEDULED: <|stable_date|>
+    REM <stable date> *1 +1 UNTIL 2038-01-19 MSG Stabilise <arch> <CPV> %a
 
 .. note::
 
@@ -87,7 +87,7 @@ removal reminders for packages.  An example should explain it adequately::
 
 The format is identical to that defined in :manpage:`portage(5)` with the
 addition of the ``X-Removal`` tag that is used by the
-:program:`support/gen_removal.py` script to create an org-mode_ compatible data
+:program:`support/gen_removal.py` script to create a remind_ compatible data
 file.
 
 A simple, but important, extension that makes it easier to keep on top of
@@ -185,7 +185,7 @@ dead`` somewhere in the watch file.  It is possible to add informative notes to
 the file, such as the previous location or package author data.
 
 .. _devmanual: http://devmanual.gentoo.org/
-.. _org-mode: http://www.orgmode.org/
+.. _remind: http://www.roaringpenguin.com/products/remind
 .. _rad: http://pypi.python.org/pypi/rad/
 .. _cupage: http://jnrowe.github.com/cupage
 .. _GitHub: https://github.com/
