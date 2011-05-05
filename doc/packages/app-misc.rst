@@ -32,7 +32,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1.3 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/pw/pw-0.1.3.ebuild>`__  ``~amd64`` (due 2011-05-05), ``~x86`` (due 2011-05-06)
+  * `0.1.3 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/pw/pw-0.1.3.ebuild>`__  ``amd64``, ``~x86`` (due 2011-05-06)
   * `0.1.4 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/pw/pw-0.1.4.ebuild>`__  ``~amd64`` (due 2011-05-18), ``~x86`` (due 2011-05-18)
 
 * ``sunwait`` - http://www.risacher.org/sunwait/
