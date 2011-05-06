@@ -583,5 +583,5 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/xerox/xerox-0.2.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-05-06)
+  * `0.2.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/xerox/xerox-0.2.1.ebuild>`__  ``amd64``, ``x86``
 
