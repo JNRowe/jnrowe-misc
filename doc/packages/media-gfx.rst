@@ -18,7 +18,7 @@
 
   * `0.7.0 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/blockdiag/blockdiag-0.7.0.ebuild>`__  ``amd64``, ``x86``
   * `0.7.3 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/blockdiag/blockdiag-0.7.3.ebuild>`__  ``amd64``, ``x86``
-  * `0.7.7 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/blockdiag/blockdiag-0.7.7.ebuild>`__  ``~amd64`` (due 2011-05-06), ``~x86`` (due 2011-05-06)
+  * `0.7.7 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/blockdiag/blockdiag-0.7.7.ebuild>`__  ``amd64``, ``~x86`` (due 2011-05-06)
 
 * ``gruffy`` - http://pypi.python.org/pypi/gruffy/
 
