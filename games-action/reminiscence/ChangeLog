@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 May 2011; James Rowe <jnrowe@gmail.com> -reminiscence-0.1.9.ebuild,
+  -files/reminiscence-0.1.9-data_paths.patch,
+  -files/reminiscence-0.1.9-type_sizes.patch, reminiscence-0.2.1.ebuild:
+  Keyworded x86.
+
   06 May 2011; James Rowe <jnrowe@gmail.com> reminiscence-0.2.1.ebuild:
   Keyworded amd64.
 
