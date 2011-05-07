@@ -1,7 +1,5 @@
 REM 2011-05-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/seqdiag-0.2.5 %a
 REM 2011-05-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/seqdiag-0.2.5 %a
-REM 2011-05-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-util/ditz-0.5-r1 %a
-REM 2011-05-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-util/ditz-0.5-r1 %a
 REM 2011-05-08 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/scripttest-1.1.1 %a
 REM 2011-05-08 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/scripttest-1.1.1 %a
 REM 2011-05-08 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-lua/luaposix-5.1.9 %a
@@ -66,3 +64,5 @@ REM 2011-06-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 www-apps/mnemosyne-0.1
 REM 2011-06-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 www-apps/mnemosyne-0.12 %a
 REM 2011-06-29 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/twython-1.4.1 %a
 REM 2011-06-29 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/twython-1.4.1 %a
+REM 2011-08-05 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-util/ditz-0.5-r1 %a
+REM 2011-08-05 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-util/ditz-0.5-r1 %a
