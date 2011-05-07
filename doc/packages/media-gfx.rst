@@ -32,8 +32,7 @@
  * Licence: ``PSF-2.4``
  * Versions:
 
-  * `0.2.1 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/seqdiag/seqdiag-0.2.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.5 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/seqdiag/seqdiag-0.2.5.ebuild>`__  ``amd64``, ``~x86`` (due 2011-05-07)
+  * `0.2.5 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/seqdiag/seqdiag-0.2.5.ebuild>`__  ``amd64``, ``x86``
   * `0.2.7 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/seqdiag/seqdiag-0.2.7.ebuild>`__  ``~amd64`` (due 2011-05-25), ``~x86`` (due 2011-05-25)
 
 * ``sng`` - http://www.catb.org/~esr/sng/

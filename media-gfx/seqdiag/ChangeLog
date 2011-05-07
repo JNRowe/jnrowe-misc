@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  07 May 2011; James Rowe <jnrowe@gmail.com> -seqdiag-0.2.1.ebuild,
+  seqdiag-0.2.5.ebuild:
+  Keyworded x86.
+
   07 May 2011; James Rowe <jnrowe@gmail.com> seqdiag-0.2.5.ebuild:
   Keyworded amd64.
 
