@@ -419,8 +419,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/scripttest/scripttest-1.1.ebuild>`__  ``amd64``, ``x86``
-  * `1.1.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/scripttest/scripttest-1.1.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-05-08)
+  * `1.1.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/scripttest/scripttest-1.1.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``see`` - http://inky.github.com/see/
 
