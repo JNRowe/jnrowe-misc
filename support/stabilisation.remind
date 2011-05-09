@@ -66,6 +66,8 @@ REM 2011-06-08 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/blockdiag-0.
 REM 2011-06-08 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/blockdiag-0.8.0 %a
 REM 2011-06-08 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/sphinxcontrib-blockdiag-0.8.0 %a
 REM 2011-06-08 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/sphinxcontrib-blockdiag-0.8.0 %a
+REM 2011-06-08 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/virtualenvwrapper-2.7.1 %a
+REM 2011-06-08 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/virtualenvwrapper-2.7.1 %a
 REM 2011-06-29 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/twython-1.4.1 %a
 REM 2011-06-29 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/twython-1.4.1 %a
 REM 2011-08-05 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-util/ditz-0.5-r1 %a
