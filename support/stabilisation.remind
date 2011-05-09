@@ -62,6 +62,8 @@ REM 2011-06-08 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/seqdiag-0.3.
 REM 2011-06-08 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/seqdiag-0.3.1 %a
 REM 2011-06-08 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/lettuce-0.1.27 %a
 REM 2011-06-08 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/lettuce-0.1.27 %a
+REM 2011-06-08 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/blockdiag-0.8.0 %a
+REM 2011-06-08 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/blockdiag-0.8.0 %a
 REM 2011-06-29 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/twython-1.4.1 %a
 REM 2011-06-29 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/twython-1.4.1 %a
 REM 2011-08-05 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-util/ditz-0.5-r1 %a
