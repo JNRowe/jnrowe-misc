@@ -13,6 +13,6 @@
 	</maintainer>
 	<upstream>
 		<changelog>http://git.alpinelinux.org/cgit/luaposix/plain/ChangeLog</changelog>
-		<doc lang="en">http://git.alpinelinux.org/cgit/luaposix/plain/README</doc>
+		<doc lang="en">http://wiki.alpinelinux.org/wiki/Luaposix</doc>
 	</upstream>
 </pkgmetadata>

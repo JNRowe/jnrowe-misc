@@ -1,0 +1,22 @@
+>=dev-lang/lua-5.1
+>=dev-lang/lua-5.1
+0
+https://github.com/rrthomas/luaposix/tarball/v5.1.11 -> luaposix-5.1.11.tar.gz
+
+http://wiki.alpinelinux.org/wiki/Luaposix
+public-domain
+POSIX function support library for lua
+~amd64 ~x86
+multilib toolchain-funcs
+
+
+
+
+2
+
+compile install prepare
+
+
+
+
+
