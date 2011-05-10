@@ -138,14 +138,6 @@
 
   * `0.2.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/genzshcomp/genzshcomp-0.2.1.ebuild>`__  ``amd64``, ``x86``
 
-* ``gistapi`` - https://github.com/kennethreitz/gistapi.py
-
- * A Python wrapper for GitHub's Gist API
- * Licence: ``MIT``
- * Versions:
-
-  * `0.2.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/gistapi/gistapi-0.2.2.ebuild>`__  ``amd64``, ``x86`` (masked by ``package.mask``)
-
 * ``git-python`` - http://pypi.python.org/pypi/GitPython/
 
  * Python Git Library
