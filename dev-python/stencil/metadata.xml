@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Stencil creates files and directories from templates. It is inspired by
+		Paste Templates, but Stencil has no external dependencies.
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">stencil</remote-id>
+		<bugs-to>https://github.com/trilan/stencil/issues</bugs-to>
+	</upstream>
+</pkgmetadata>

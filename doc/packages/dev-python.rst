@@ -463,6 +463,14 @@
 
   * `0.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sphinxcontrib-cheeseshop/sphinxcontrib-cheeseshop-0.2.ebuild>`__  ``amd64``, ``x86``
 
+* ``stencil`` - http://pypi.python.org/pypi/Stencil/
+
+ * Creates files and directories from templates
+ * Licence: ``BSD-2``
+ * Versions:
+
+  * `0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/stencil/stencil-0.1.ebuild>`__  ``~amd64`` (due 2011-06-10)
+
 * ``story_parser`` - https://github.com/hugobr/story_parser
 
  * A Given/When/Then BDD stories parser
