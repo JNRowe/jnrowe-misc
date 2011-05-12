@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Everyone I know prefers to work with JSON over XML, but sadly there is
+		a sore lack of utilities of the quality or depth of html-xml-utils and
+		XMLStarlet for actually processing JSON data in an automated fashion,
+		short of writing an ad hoc processor in your favourite programming
+		language.
+
+		jsonpipe is a step towards a solution: it traverses a JSON object and
+		produces a simple, line-based textual format which can be processed by
+		all your UNIX favourites like grep, sed, awk, cut and diff. It may also
+		be valuable within programming languages---in fact, it was originally
+		conceived as a way of writing simple test assertions against JSON output
+		without coupling the tests too closely to the specific structure used.
+
+		This implementation (which should be considered the reference) is
+		written in Python.
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">jsonpipe</remote-id>
+		<bugs-to>https://github.com/dvxhouse/jsonpipe/issues</bugs-to>
+	</upstream>
+</pkgmetadata>
