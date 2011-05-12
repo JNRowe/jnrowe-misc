@@ -562,6 +562,14 @@
 
   * `0.2.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/urlunshort/urlunshort-0.2.4.ebuild>`__  ``amd64``, ``x86``
 
+* ``vanity`` - http://pypi.python.org/pypi/vanity/
+
+ * Easy access to PyPI download stats
+ * Licence: ``GPL-2``
+ * Versions:
+
+  * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/vanity/vanity-1.0.ebuild>`__  ``~amd64`` (due 2011-06-11)
+
 * ``virtualenv5`` - http://pypi.python.org/pypi/virtualenv5/
 
  * Virtual Python 3 Environment builder
