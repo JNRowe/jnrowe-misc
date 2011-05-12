@@ -488,6 +488,14 @@
 
   * `0.1.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/story_parser/story_parser-0.1.2.ebuild>`__  ``amd64``, ``x86``
 
+* ``sure`` - http://pypi.python.org/pypi/sure/
+
+ * Assertion toolbox for python
+ * Licence: ``MIT``
+ * Versions:
+
+  * `0.4.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.4.0.ebuild>`__  ``~amd64`` (due 2011-06-11)
+
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
  * ANSI colour formatting for terminals
