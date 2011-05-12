@@ -33,6 +33,14 @@
 
   * `3.0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/benchmarker/benchmarker-3.0.1.ebuild>`__  ``amd64``, ``x86``
 
+* ``calabash`` - http://pypi.python.org/pypi/calabash/
+
+ * Bash-style pipelining syntax for Python generators
+ * Licence: ``public-domain``
+ * Versions:
+
+  * `0.0.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/calabash/calabash-0.0.3.ebuild>`__  ``~amd64`` (due 2011-06-11)
+
 * ``clevercss`` - http://pypi.python.org/pypi/CleverCSS/
 
  * Funky sass-a-like CSS preprocessor
