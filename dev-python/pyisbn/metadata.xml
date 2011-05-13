@@ -18,7 +18,7 @@
 			<name>James Rowe</name>
 		</maintainer>
 		<changelog>https://github.com/JNRowe/pyisbn/raw/master/NEWS.rst</changelog>
-		<doc lang="en">https://github.com/JNRowe/pyisbn/raw/master/README.rst</doc>
-		<bugs-to>https://github.com/JNRowe/pyisbn/issues</bugs-to>
+		<doc lang="en">http://packages.python.org/pyisbn</doc>
+		<bugs-to>https://github.com/JNRowe/pyisbn/issues/</bugs-to>
 	</upstream>
 </pkgmetadata>

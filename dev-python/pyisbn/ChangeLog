@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*pyisbn-0.6.0 (13 May 2011)
+
+  13 May 2011; James Rowe <jnrowe@gmail.com> +pyisbn-0.6.0.ebuild:
+  Version bump [361].
+
   12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:
   Added watch file for package updates.
 

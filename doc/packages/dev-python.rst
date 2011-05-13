@@ -357,13 +357,14 @@
 
   * `0.6.8 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyhistorian/pyhistorian-0.6.8.ebuild>`__  ``amd64``, ``x86``
 
-* ``pyisbn`` - http://www.jnrowe.ukfsn.org/projects/pyisbn.html
+* ``pyisbn`` - http://pypi.python.org/pypi/pyisbn/
 
  * A module for working with 10- and 13-digit ISBNs
  * Licence: ``GPL-3``
  * Versions:
 
   * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyisbn/pyisbn-0.5.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.6.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyisbn/pyisbn-0.6.0.ebuild>`__  ``~amd64`` (due 2011-06-12), ``~x86`` (due 2011-06-12)
 
 * ``pyrepl`` - http://pypi.python.org/pypi/pyrepl/
 

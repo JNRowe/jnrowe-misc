@@ -1,0 +1,22 @@
+dev-python/setuptools doc? ( dev-python/sphinx ) >=app-admin/eselect-python-20091230 dev-lang/python
+>=app-admin/eselect-python-20091230 dev-lang/python
+0
+mirror://pypi/p/pyisbn/pyisbn-0.6.0.tar.gz
+
+http://pypi.python.org/pypi/pyisbn/
+GPL-3
+A module for working with 10- and 13-digit ISBNs
+~amd64 ~x86
+distutils eutils jnrowe-pypi multilib portability python toolchain-funcs
+doc
+
+
+
+2
+
+compile install postinst postrm prepare
+
+
+
+
+
