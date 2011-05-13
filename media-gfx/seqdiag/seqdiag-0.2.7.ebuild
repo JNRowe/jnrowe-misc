@@ -26,7 +26,7 @@ RDEPEND="dev-python/setuptools
 	dev-python/funcparserlib
 	dev-python/imaging
 	>=media-gfx/blockdiag-0.6.7
-	minimal? ( dev-python/sphinx )
+	!minimal? ( dev-python/sphinx )
 	pdf? ( dev-python/reportlab )"
 
 DOCS="src/README.txt src/TODO.txt"
