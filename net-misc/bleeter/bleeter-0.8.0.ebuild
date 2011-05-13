@@ -27,7 +27,7 @@ RDEPEND="dev-python/configobj
 	dev-python/notify-python
 	dev-python/tweepy
 	dev-python/pygtk
-	minimal? (
+	!minimal? (
 		dev-python/termcolor
 		dev-python/setproctitle
 	)"

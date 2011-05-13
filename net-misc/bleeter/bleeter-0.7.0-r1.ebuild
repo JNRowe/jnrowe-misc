@@ -26,7 +26,7 @@ RDEPEND="dev-python/configobj
 	dev-python/notify-python
 	dev-python/tweepy
 	dev-python/pygtk
-	minimal? ( dev-python/termcolor )"
+	!minimal? ( dev-python/termcolor )"
 DEPEND="${RDEPEND}
 	dev-python/docutils
 	doc? ( dev-python/sphinx )"

@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  13 May 2011; James Rowe <jnrowe@gmail.com> bleeter-0.7.0-r1.ebuild,
+  bleeter-0.8.0.ebuild:
+  Fix inverted USE=minimal test.
+
 *bleeter-0.8.0 (13 May 2011)
 
   13 May 2011; James Rowe <jnrowe@gmail.com> +bleeter-0.8.0.ebuild:
