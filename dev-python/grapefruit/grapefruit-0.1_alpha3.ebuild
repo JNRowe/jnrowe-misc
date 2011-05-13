@@ -38,7 +38,7 @@ src_unpack() {
 	unpack ${A}
 }
 
-src_compile(){
+src_compile() {
 	distutils_src_compile
 
 	if use doc; then
@@ -55,7 +55,7 @@ src_test() {
 	python_execute_function testing
 }
 
-src_install(){
+src_install() {
 	distutils_src_install
 
 	if use doc; then

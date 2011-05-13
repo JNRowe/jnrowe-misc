@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  13 May 2011; James Rowe <jnrowe@gmail.com> grapefruit-0.1_alpha3.ebuild:
+  Whitespace fix.
+
   02 Mar 2011; James Rowe <jnrowe@gmail.com> grapefruit-0.1_alpha3.ebuild:
   Use PN in PYTHON_MODNAME [cosmetic].
 
