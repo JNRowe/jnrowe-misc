@@ -25,7 +25,7 @@ DEPEND="dev-python/setuptools
 RDEPEND="dev-python/grapefruit
 	dev-python/imaging"
 
-src_compile(){
+src_compile() {
 	distutils_src_compile
 
 	if use doc; then
@@ -35,7 +35,7 @@ src_compile(){
 	fi
 }
 
-src_install(){
+src_install() {
 	distutils_src_install
 
 	if use doc; then
