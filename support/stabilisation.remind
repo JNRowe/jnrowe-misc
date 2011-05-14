@@ -1,5 +1,4 @@
 REM 2011-05-14 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/github2-0.3.0 %a
-REM 2011-05-14 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/sphinxcontrib-aafig-1.0-r1 %a
 REM 2011-05-14 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/sphinxcontrib-aafig-1.0-r1 %a
 REM 2011-05-14 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/aafigure-0.5-r2 %a
 REM 2011-05-14 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/aafigure-0.5-r2 %a
