@@ -1,12 +1,7 @@
-REM 2011-05-14 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/github2-0.3.0 %a
 REM 2011-05-14 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/github2-0.3.0 %a
-REM 2011-05-14 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/sphinxcontrib-aafig-1.0-r1 %a
 REM 2011-05-14 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/sphinxcontrib-aafig-1.0-r1 %a
-REM 2011-05-14 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/aafigure-0.5-r2 %a
 REM 2011-05-14 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/aafigure-0.5-r2 %a
-REM 2011-05-14 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 net-misc/bleeter-0.7.0-r1 %a
 REM 2011-05-14 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 net-misc/bleeter-0.7.0-r1 %a
-REM 2011-05-14 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/nosetty-0.4-r1 %a
 REM 2011-05-14 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/nosetty-0.4-r1 %a
 REM 2011-05-17 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/lettuce-0.1.26 %a
 REM 2011-05-17 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/lettuce-0.1.26 %a
