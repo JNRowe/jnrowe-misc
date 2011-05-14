@@ -51,8 +51,7 @@
  * Licence: ``BOLA``
  * Versions:
 
-  * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/sphinxcontrib-aafig/sphinxcontrib-aafig-1.0.ebuild>`__  ``amd64``, ``x86``
-  * `1.0-r1 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/sphinxcontrib-aafig/sphinxcontrib-aafig-1.0-r1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-05-14)
+  * `1.0-r1 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/sphinxcontrib-aafig/sphinxcontrib-aafig-1.0-r1.ebuild>`__  ``amd64``, ``x86``
 
 * ``sphinxcontrib-blockdiag`` - http://pypi.python.org/pypi/sphinxcontrib-blockdiag/
 
