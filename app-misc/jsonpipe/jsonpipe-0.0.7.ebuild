@@ -22,5 +22,5 @@ DEPEND="dev-python/setuptools"
 # setuptools is required in RDEPEND for entry points usage
 RDEPEND="${DEPEND}
 	|| ( >=dev-lang/python-2.6 dev-python/simplejson )
-	|| ( dev-python/argpars  >=dev-lang/python-2.7 )
+	|| ( dev-python/argparse >=dev-lang/python-2.7 )
 	dev-python/calabash"
