@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  16 May 2011; James Rowe <jnrowe@gmail.com> watch:
+  Fixed cupage matcher.
+
 *vanity-1.0 (12 May 2011)
 
   12 May 2011; James Rowe <jnrowe@gmail.com> +vanity-1.0.ebuild, +metadata.xml,
