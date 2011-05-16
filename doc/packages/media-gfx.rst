@@ -27,6 +27,14 @@
 
   * `0.2.2 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/gruffy/gruffy-0.2.2.ebuild>`__  ``amd64``, ``x86``
 
+* ``nwdiag`` - http://pypi.python.org/pypi/nwdiag/
+
+ * Generate network-diagram images from spec-text file
+ * Licence: ``Apache-2.0``
+ * Versions:
+
+  * `0.2.3 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/nwdiag/nwdiag-0.2.3.ebuild>`__  ``~amd64`` (due 2011-06-15)
+
 * ``seqdiag`` - http://pypi.python.org/pypi/seqdiag/
 
  * Generate sequence-diagram image files from spec-text files

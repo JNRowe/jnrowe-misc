@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		nwdiag generate network-diagram image file from .diag file. .diag file
+		is similar to DOT file
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">nwdiag</remote-id>
+	</upstream>
+</pkgmetadata>
