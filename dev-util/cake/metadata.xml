@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		It uses a simple python script (Cakefile) located in the project root to
+		define its task. The tasks can also be loaded from random locations.
+		Cake can be run from anywhere within the project.
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">cake</remote-id>
+		<bugs-to>https://github.com/alexcepoi/cake/issues</bugs-to>
+	</upstream>
+</pkgmetadata>
