@@ -12,11 +12,12 @@
 * ``blockdiag`` - http://pypi.python.org/pypi/blockdiag/
 
  * Generate block-diagram image files from text(like dot)
- * Licence: ``PSF-2.4``
+ * Licence: ``Apache-2.0``
  * Versions:
 
   * `0.7.7 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/blockdiag/blockdiag-0.7.7.ebuild>`__  ``amd64``, ``x86``
   * `0.8.0 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/blockdiag/blockdiag-0.8.0.ebuild>`__  ``~amd64`` (due 2011-06-08), ``~x86`` (due 2011-06-08)
+  * `0.8.1 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/blockdiag/blockdiag-0.8.1.ebuild>`__  ``~amd64`` (due 2011-06-15), ``~x86`` (due 2011-06-15)
 
 * ``gruffy`` - http://pypi.python.org/pypi/gruffy/
 
