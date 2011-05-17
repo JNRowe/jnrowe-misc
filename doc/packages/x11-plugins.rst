@@ -15,7 +15,7 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `2.0.2 <https://github.com/JNRowe/misc-overlay/blob/master/x11-plugins/vicious/vicious-2.0.2.ebuild>`__  ``amd64``, ``x86``
+  * `2.0.2 <https://github.com/JNRowe/misc-overlay/blob/master/x11-plugins/vicious/vicious-2.0.2.ebuild>`__  ``amd64``, ``x86`` (masked by ``package.mask``)
   * `9999 <https://github.com/JNRowe/misc-overlay/blob/master/x11-plugins/vicious/vicious-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
 
 * ``wicked`` - http://awesome.naquadah.org/wiki/Wicked

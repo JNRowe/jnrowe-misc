@@ -1,5 +1,11 @@
 # extra line needed because portage is buggy
 
+# James Rowe <jnrowe@gmail.com> (17 May2011)
+# Users should be attempting to migrate to upstream ebuilds.  This is a *final*
+# decision, and this mask won't be withdrawn.
+# X-Removal: 2011-06-16
+x11-plugins/vicious
+
 # James Rowe <jnrowe@gmail.com> (24 Feb 2011)
 # live ebuild for rstblog
 =www-apps/rstblog-9999
