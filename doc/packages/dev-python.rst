@@ -71,8 +71,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.4.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/dexml/dexml-0.4.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/dexml/dexml-0.4.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-05-17)
+  * `0.4.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/dexml/dexml-0.4.1.ebuild>`__  ``amd64``, ``x86``
   * `0.4.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/dexml/dexml-0.4.2.ebuild>`__  ``~amd64`` (due 2011-06-15), ``~x86`` (due 2011-06-15)
 
 * ``doctest-tools`` - http://code.google.com/p/doctest-tools/
