@@ -72,7 +72,7 @@
  * Versions:
 
   * `0.4.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/dexml/dexml-0.4.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/dexml/dexml-0.4.1.ebuild>`__  ``~amd64`` (due 2011-05-17), ``~x86`` (due 2011-05-17)
+  * `0.4.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/dexml/dexml-0.4.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-05-17)
   * `0.4.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/dexml/dexml-0.4.2.ebuild>`__  ``~amd64`` (due 2011-06-15), ``~x86`` (due 2011-06-15)
 
 * ``doctest-tools`` - http://code.google.com/p/doctest-tools/
@@ -220,7 +220,7 @@
  * Versions:
 
   * `0.1.25 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/lettuce/lettuce-0.1.25.ebuild>`__  ``amd64``, ``x86``
-  * `0.1.26 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/lettuce/lettuce-0.1.26.ebuild>`__  ``~amd64`` (due 2011-05-17), ``~x86`` (due 2011-05-17)
+  * `0.1.26 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/lettuce/lettuce-0.1.26.ebuild>`__  ``amd64``, ``~x86`` (due 2011-05-17)
   * `0.1.27 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/lettuce/lettuce-0.1.27.ebuild>`__  ``~amd64`` (due 2011-06-08), ``~x86`` (due 2011-06-08)
 
 * ``logbook`` - http://pypi.python.org/pypi/Logbook/
@@ -399,7 +399,7 @@
  * Versions:
 
   * `0.7.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/python-osmgpsmap/python-osmgpsmap-0.7.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.7.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/python-osmgpsmap/python-osmgpsmap-0.7.3.ebuild>`__  ``~amd64`` (due 2011-05-17), ``~x86`` (due 2011-05-17)
+  * `0.7.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/python-osmgpsmap/python-osmgpsmap-0.7.3.ebuild>`__  ``amd64``, ``~x86`` (due 2011-05-17)
 
 * ``rad`` - http://pypi.python.org/pypi/rad/
 
