@@ -9,7 +9,7 @@ DESCRIPTION="ASCII sprite animation framework"
 
 SLOT="0"
 LICENSE="Artistic"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 SRC_TEST="do"
