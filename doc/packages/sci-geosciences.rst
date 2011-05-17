@@ -16,5 +16,5 @@
  * Versions:
 
   * `0.7.2 <https://github.com/JNRowe/misc-overlay/blob/master/sci-geosciences/osm-gps-map/osm-gps-map-0.7.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.7.3 <https://github.com/JNRowe/misc-overlay/blob/master/sci-geosciences/osm-gps-map/osm-gps-map-0.7.3.ebuild>`__  ``~amd64`` (due 2011-05-17), ``~x86`` (due 2011-05-17)
+  * `0.7.3 <https://github.com/JNRowe/misc-overlay/blob/master/sci-geosciences/osm-gps-map/osm-gps-map-0.7.3.ebuild>`__  ``amd64``, ``~x86`` (due 2011-05-17)
 

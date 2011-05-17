@@ -4,7 +4,6 @@ REM 2011-05-17 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/pycparser-2.0
 REM 2011-05-17 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-perl/Net-Twitter-Lite-0.10004 %a
 REM 2011-05-17 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-perl/Net-Twitter-Lite-0.10004 %a
 REM 2011-05-17 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-perl/Term-Animation-2.6 %a
-REM 2011-05-17 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 sci-geosciences/osm-gps-map-0.7.3 %a
 REM 2011-05-17 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 sci-geosciences/osm-gps-map-0.7.3 %a
 REM 2011-05-17 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 www-client/cupage-0.5.5 %a
 REM 2011-05-17 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 www-client/cupage-0.5.5 %a
