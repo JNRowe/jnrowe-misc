@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  17 May 2011; James Rowe <jnrowe@gmail.com> -Net-Twitter-Lite-0.10003.ebuild:
+  Removed stale ebuild, newer version will be available for stabilisation
+  before this.
+
 *Net-Twitter-Lite-0.10004 (17 Apr 2011)
 
   17 Apr 2011; James Rowe <jnrowe@gmail.com>
