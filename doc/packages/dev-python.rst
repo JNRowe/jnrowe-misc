@@ -219,8 +219,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1.25 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/lettuce/lettuce-0.1.25.ebuild>`__  ``amd64``, ``x86``
-  * `0.1.26 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/lettuce/lettuce-0.1.26.ebuild>`__  ``amd64``, ``~x86`` (due 2011-05-17)
+  * `0.1.26 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/lettuce/lettuce-0.1.26.ebuild>`__  ``amd64``, ``x86``
   * `0.1.27 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/lettuce/lettuce-0.1.27.ebuild>`__  ``~amd64`` (due 2011-06-08), ``~x86`` (due 2011-06-08)
 
 * ``logbook`` - http://pypi.python.org/pypi/Logbook/
