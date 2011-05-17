@@ -330,7 +330,6 @@
  * Licence: ``LGPL-3``
  * Versions:
 
-  * `2.02 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pycparser/pycparser-2.02.ebuild>`__  ``~amd64`` (due 2011-05-21), ``~x86`` (due 2011-05-21)
   * `2.03 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pycparser/pycparser-2.03.ebuild>`__  ``~amd64`` (due 2011-05-17), ``~x86`` (due 2011-05-17)
 
 * ``pycukes`` - https://github.com/hugobr/pycukes
