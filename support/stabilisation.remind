@@ -60,6 +60,8 @@ REM 2011-06-15 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/pgmagick-0.
 REM 2011-06-15 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/pgmagick-0.3.6 %a
 REM 2011-06-15 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/sphinxcontrib-blockdiag-0.8.1 %a
 REM 2011-06-15 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/sphinxcontrib-blockdiag-0.8.1 %a
+REM 2011-06-16 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/pyscss-1.0.8 %a
+REM 2011-06-16 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/pyscss-1.0.8 %a
 REM 2011-06-29 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/twython-1.4.1 %a
 REM 2011-06-29 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/twython-1.4.1 %a
 REM 2011-08-05 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-util/ditz-0.5-r1 %a
