@@ -59,6 +59,7 @@ REM 2011-06-16 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/pyscss-1.0.8 
 REM 2011-06-16 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/seqdiag-0.3.3 %a
 REM 2011-06-16 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/seqdiag-0.3.3 %a
 REM 2011-06-17 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/calabash-0.0.3 %a
+REM 2011-06-17 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/stencil-0.1 %a
 REM 2011-08-05 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-util/ditz-0.5-r1 %a
 REM 2011-08-05 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-util/ditz-0.5-r1 %a
 REM 2011-08-08 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/rstctl-0.4 %a
