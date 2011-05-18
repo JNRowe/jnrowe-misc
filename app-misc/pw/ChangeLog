@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  18 May 2011; James Rowe <jnrowe@gmail.com> -pw-0.1.3.ebuild, pw-0.1.4.ebuild:
+  Keyworded x86.
+
   18 May 2011; James Rowe <jnrowe@gmail.com> pw-0.1.4.ebuild:
   Keyworded amd64.
 

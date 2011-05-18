@@ -15,7 +15,7 @@ DESCRIPTION="Convert JSON to a UNIX-friendly line-based format"
 
 LICENSE="public-domain"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools"

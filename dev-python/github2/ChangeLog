@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  18 May 2011; James Rowe <jnrowe@gmail.com> -github2-0.3.0.ebuild,
+  -files/github2-0.3.0-missing_test_data.patch, github2-0.3.1.ebuild:
+  Keyworded x86.
+
   18 May 2011; James Rowe <jnrowe@gmail.com> github2-0.3.1.ebuild:
   Keyworded amd64.
 

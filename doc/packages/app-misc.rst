@@ -23,7 +23,7 @@
  * Licence: ``public-domain``
  * Versions:
 
-  * `0.0.7 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/jsonpipe/jsonpipe-0.0.7.ebuild>`__  ``~amd64`` (due 2011-06-11)
+  * `0.0.7 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/jsonpipe/jsonpipe-0.0.7.ebuild>`__  ``~amd64`` (due 2011-06-11), ``~x86`` (due 2011-06-17)
 
 * ``libeatmydata`` - http://www.flamingspork.com/projects/libeatmydata/
 
@@ -40,8 +40,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1.3 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/pw/pw-0.1.3.ebuild>`__  ``amd64``, ``x86``
-  * `0.1.4 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/pw/pw-0.1.4.ebuild>`__  ``amd64``, ``~x86`` (due 2011-05-18)
+  * `0.1.4 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/pw/pw-0.1.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``sunwait`` - http://www.risacher.org/sunwait/
 

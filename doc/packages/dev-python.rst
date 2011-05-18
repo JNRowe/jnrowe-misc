@@ -39,7 +39,7 @@
  * Licence: ``public-domain``
  * Versions:
 
-  * `0.0.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/calabash/calabash-0.0.3.ebuild>`__  ``~amd64`` (due 2011-06-11)
+  * `0.0.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/calabash/calabash-0.0.3.ebuild>`__  ``~amd64`` (due 2011-06-11), ``~x86`` (due 2011-06-17)
 
 * ``clevercss`` - http://pypi.python.org/pypi/CleverCSS/
 
@@ -160,8 +160,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.3.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.3.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.3.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.3.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-05-18)
+  * `0.3.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.3.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``gpxdata`` - http://www.kette-links.de/technik.php?lang=en
 
@@ -275,8 +274,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.6 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pdbpp/pdbpp-0.6.ebuild>`__  ``amd64``, ``x86``
-  * `0.7 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pdbpp/pdbpp-0.7.ebuild>`__  ``amd64``, ``~x86`` (due 2011-05-18)
+  * `0.7 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pdbpp/pdbpp-0.7.ebuild>`__  ``amd64``, ``x86``
 
 * ``pep8`` - https://github.com/jcrocholl/pep8
 
@@ -311,8 +309,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.8.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/plac/plac-0.8.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.8.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/plac/plac-0.8.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-05-18)
+  * `0.8.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/plac/plac-0.8.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``pwtools`` - http://alastairs-place.net/pwtools/
 
@@ -476,7 +473,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/stencil/stencil-0.1.ebuild>`__  ``~amd64`` (due 2011-06-10)
+  * `0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/stencil/stencil-0.1.ebuild>`__  ``~amd64`` (due 2011-06-10), ``~x86`` (due 2011-06-10)
 
 * ``story_parser`` - https://github.com/hugobr/story_parser
 
@@ -492,7 +489,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.4.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.4.0.ebuild>`__  ``~amd64`` (due 2011-06-11)
+  * `0.4.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.4.0.ebuild>`__  ``~amd64`` (due 2011-06-11), ``~x86`` (due 2011-06-17)
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
@@ -565,7 +562,7 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/vanity/vanity-1.0.ebuild>`__  ``~amd64`` (due 2011-06-11)
+  * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/vanity/vanity-1.0.ebuild>`__  ``~amd64`` (due 2011-06-11), ``~x86`` (due 2011-06-17)
 
 * ``virtualenv5`` - http://pypi.python.org/pypi/virtualenv5/
 
