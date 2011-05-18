@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  18 May 2011; James Rowe <jnrowe@gmail.com> plac-0.8.1.ebuild:
+  Keyworded amd64.
+
 *plac-0.8.1 (18 Apr 2011)
 
   18 Apr 2011; James Rowe <jnrowe@gmail.com> +plac-0.8.1.ebuild:
