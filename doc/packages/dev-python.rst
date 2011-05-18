@@ -565,7 +565,7 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/vanity/vanity-1.0.ebuild>`__  ``~amd64`` (due 2011-06-11)
+  * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/vanity/vanity-1.0.ebuild>`__  ``~amd64`` (due 2011-06-11), ``~x86`` (due 2011-06-17)
 
 * ``virtualenv5`` - http://pypi.python.org/pypi/virtualenv5/
 
