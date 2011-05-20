@@ -1,0 +1,11 @@
+# ChangeLog for dev-python/socksipy
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*socksipy-1.01 (20 May 2011)
+
+  20 May 2011; James Rowe <jnrowe@gmail.com> +socksipy-1.01.ebuild,
+  +metadata.xml, +watch:
+  Initial ebuild, by me. Required for testing python-github2, and will be a
+  USE=socks dep in new releases.
+

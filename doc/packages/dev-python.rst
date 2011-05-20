@@ -451,6 +451,14 @@
 
   * `1.0.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/showme/showme-1.0.0.ebuild>`__  ``amd64``, ``x86``
 
+* ``socksipy`` - http://pypi.python.org/pypi/SocksiPy-branch/
+
+ * A Python SOCKS protocol module
+ * Licence: ``BSD``
+ * Versions:
+
+  * `1.01 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/socksipy/socksipy-1.01.ebuild>`__  ``~amd64`` (due 2011-06-19)
+
 * ``sphinx-to-github`` - https://github.com/michaeljones/sphinx-to-github
 
  * Script to prepare Sphinx html output for github pages

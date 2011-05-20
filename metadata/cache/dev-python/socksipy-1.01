@@ -1,0 +1,22 @@
+>=app-admin/eselect-python-20091230 dev-lang/python
+>=app-admin/eselect-python-20091230 dev-lang/python
+0
+mirror://pypi/S/SocksiPy-branch/SocksiPy-branch-1.01.tar.gz
+
+http://pypi.python.org/pypi/SocksiPy-branch/
+BSD
+A Python SOCKS protocol module
+~amd64
+distutils eutils jnrowe-pypi multilib portability python toolchain-funcs
+
+
+
+
+3
+
+compile install postinst postrm prepare
+
+
+
+
+
