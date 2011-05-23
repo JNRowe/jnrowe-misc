@@ -13,9 +13,13 @@ DESCRIPTION="Github API v2 library for Python"
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="examples test"
+IUSE="doc examples test"
 
 DEPEND="dev-python/setuptools
+	doc? (
+		dev-python/sphinx
+		dev-python/sphinxcontrib-cheeseshop
+	)
 	test? ( dev-python/nose )"
 RDEPEND="|| ( >=dev-lang/python-2.6 dev-python/simplejson )"
 
@@ -26,6 +30,14 @@ PATCHES=("${FILESDIR}"/${P}-test_build_path.patch)
 src_prepare() {
 	base_src_prepare
 	distutils_src_prepare
+}
+
+src_compile() {
+	distutils_src_compile
+
+	if use doc; then
+		./setup.py build_sphinx
+	fi
 }
 
 src_test() {
@@ -42,5 +54,9 @@ src_install() {
 	if use examples; then
 		insinto /usr/share/doc/${PF}/examples
 		doins examples/*
+	fi
+
+	if use doc; then
+		dohtml -r doc/.build/html/* || die "dohtml failed"
 	fi
 }
