@@ -6,6 +6,7 @@ dev-db/spatialite:geos - Support for sci-libs/geos, increases size considerably
 dev-db/spatialite:proj - Support for sci-libs/proj
 dev-db/spatialite-tools:geos - Support for sci-libs/geos, increases size considerably
 dev-db/spatialite-tools:proj - Support for sci-libs/proj
+dev-python/github2:proxy - Adds support for using a HTTP proxy with dev-python/github2
 mail-client/notmuch:vim - Install the vim interface for notmuch
 media-gfx/aafigure:docutils - Adds a directive for aafigure support to dev-python/docutils
 media-sound/castget:id3tag - Enable support for ID3 tag writing via media-libs/id3lib

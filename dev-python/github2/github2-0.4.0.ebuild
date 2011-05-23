@@ -13,7 +13,7 @@ DESCRIPTION="Github API v2 library for Python"
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="doc examples test"
+IUSE="doc examples proxy test"
 
 DEPEND="dev-python/setuptools
 	doc? (
@@ -21,7 +21,8 @@ DEPEND="dev-python/setuptools
 		dev-python/sphinxcontrib-cheeseshop
 	)
 	test? ( dev-python/nose )"
-RDEPEND="|| ( >=dev-lang/python-2.6 dev-python/simplejson )"
+RDEPEND="|| ( >=dev-lang/python-2.6 dev-python/simplejson )
+	proxy? ( dev-python/socksipy )"
 
 DOCS="NEWS.rst"
 

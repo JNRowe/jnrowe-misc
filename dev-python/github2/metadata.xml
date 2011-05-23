@@ -10,6 +10,11 @@
 		This is an experimental python library implementing all of the features
 		available in version 2 of the Github API.
 	</longdescription>
+	<use>
+		<flag name="proxy" restrict=">=dev-python/github2-0.4.0">
+			Adds support for using a HTTP proxy with <pkg>dev-python/github2</pkg>
+		</flag>
+	</use>
 	<upstream>
 		<doc
 			lang="en">https://github.com/ask/python-github2/blob/master/README.rst#readme</doc>
