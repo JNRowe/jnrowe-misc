@@ -32,7 +32,7 @@
  * Versions:
 
   * `15.4 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/libeatmydata/libeatmydata-15.4.ebuild>`__  ``amd64``, ``x86``
-  * `26.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/libeatmydata/libeatmydata-26.2.ebuild>`__  ``~amd64`` (due 2011-05-25), ``~x86`` (due 2011-05-25)
+  * `26.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/libeatmydata/libeatmydata-26.2.ebuild>`__  ``amd64``, ``~x86`` (due 2011-05-25)
 
 * ``pw`` - http://pypi.python.org/pypi/pw/
 
