@@ -293,7 +293,7 @@
  * Versions:
 
   * `0.3.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pgmagick/pgmagick-0.3.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.3.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pgmagick/pgmagick-0.3.4.ebuild>`__  ``~amd64`` (due 2011-05-25), ``~x86`` (due 2011-05-25)
+  * `0.3.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pgmagick/pgmagick-0.3.4.ebuild>`__  ``amd64``, ``~x86`` (due 2011-05-25)
   * `0.3.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pgmagick/pgmagick-0.3.5.ebuild>`__  ``~amd64`` (due 2011-06-10), ``~x86`` (due 2011-06-10)
   * `0.3.6 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pgmagick/pgmagick-0.3.6.ebuild>`__  ``~amd64`` (due 2011-06-15), ``~x86`` (due 2011-06-15)
 

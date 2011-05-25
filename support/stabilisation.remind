@@ -1,7 +1,6 @@
 REM 2011-05-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/virtualenvwrapper-2.7 %a
 REM 2011-05-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/seqdiag-0.2.7 %a
 REM 2011-05-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/pyscss-1.0.6 %a
-REM 2011-05-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/pgmagick-0.3.4 %a
 REM 2011-05-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/pgmagick-0.3.4 %a
 REM 2011-05-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 app-misc/libeatmydata-26.2 %a
 REM 2011-05-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 app-misc/libeatmydata-26.2 %a
