@@ -16,7 +16,7 @@ SRC_URI="mirror://debian/pool/main/${PN::4}/${PN}/${PN}_${MY_PV}.orig.tar.bz2
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND=""
