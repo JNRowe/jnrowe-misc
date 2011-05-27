@@ -376,8 +376,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyscss/pyscss-1.0.5.ebuild>`__  ``amd64``, ``x86``
-  * `1.0.6 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyscss/pyscss-1.0.6.ebuild>`__  ``amd64``, ``~x86`` (due 2011-05-25)
+  * `1.0.6 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyscss/pyscss-1.0.6.ebuild>`__  ``amd64``, ``x86``
   * `1.0.7 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyscss/pyscss-1.0.7.ebuild>`__  ``~amd64`` (due 2011-06-08), ``~x86`` (due 2011-06-08)
   * `1.0.8 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyscss/pyscss-1.0.8.ebuild>`__  ``~amd64`` (due 2011-06-16), ``~x86`` (due 2011-06-16)
 

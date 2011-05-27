@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  27 May 2011; James Rowe <jnrowe@gmail.com> -pyscss-1.0.5.ebuild,
+  pyscss-1.0.6.ebuild:
+  Keyworded x86.
+
   25 May 2011; James Rowe <jnrowe@gmail.com> pyscss-1.0.6.ebuild:
   Keyworded amd64.
 
