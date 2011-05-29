@@ -9,7 +9,7 @@
 	<longdescription lang="en">
 		Tox as is a generic virtualenv management and test command line tool you
 		can use for:
-		
+
 		* checking your package installs correctly with different Python
 		  versions and interpreters
 		* running your tests in each of the environments, configuring your test
@@ -18,9 +18,9 @@
 		  reducing boilerplate and merging CI and shell-based testing.
 	</longdescription>
 	<upstream>
-		<doc lang="en">http://codespeak.net/tox/</doc>
+		<doc lang="en">http://tox.readthedocs.org/</doc>
 		<remote-id type="pypi">tox</remote-id>
-		<changelog></changelog>
-		<bugs-to>http://code.google.com/p/pytox/issues/list</bugs-to>
+		<changelog>http://tox.readthedocs.org/en/latest/changelog.html</changelog>
+		<bugs-to>https://bitbucket.org/hpk42/tox/issues?status=new&amp;status=open</bugs-to>
 	</upstream>
 </pkgmetadata>

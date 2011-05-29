@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*tox-1.0 (29 May 2011)
+
+  29 May 2011; James Rowe <jnrowe@gmail.com> +tox-1.0.ebuild:
+  Version bump [383].
+
   12 Feb 2011; James Rowe <jnrowe@gmail.com> tox-0.9.ebuild:
   Force dependency on argparse regardless of Python version, because of
   package's metadata requirement.
