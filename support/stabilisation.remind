@@ -1,5 +1,3 @@
-REM 2011-05-29 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/sphinxcontrib-mscgen-0.4 %a
-REM 2011-05-29 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/sphinxcontrib-mscgen-0.4 %a
 REM 2011-06-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 www-apps/mnemosyne-0.12 %a
 REM 2011-06-07 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 www-apps/mnemosyne-0.12 %a
 REM 2011-06-08 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/isodate-0.4.4 %a
@@ -71,3 +69,5 @@ REM 2011-08-15 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-perl/Net-Twitter-L
 REM 2011-08-15 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-perl/Net-Twitter-Lite-0.10004 %a
 REM 2011-08-16 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/twython-1.4.2 %a
 REM 2011-08-16 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/twython-1.4.2 %a
+REM 2011-08-27 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/sphinxcontrib-mscgen-0.4 %a
+REM 2011-08-27 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/sphinxcontrib-mscgen-0.4 %a
