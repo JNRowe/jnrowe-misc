@@ -7,14 +7,14 @@ http://wiki.alpinelinux.org/wiki/Luaposix
 public-domain
 POSIX function support library for lua
 ~amd64 ~x86
-multilib toolchain-funcs
+eutils jnrowe-github multilib portability toolchain-funcs
 
 
 
 
-2
+3
 
-compile install prepare
+compile install prepare unpack
 
 
 

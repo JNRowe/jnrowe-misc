@@ -11,11 +11,13 @@ PYTHON_DEPEND="2:2.6"
 RESTRICT_PYTHON_ABIS="2.[45] 3.*"
 DISTUTILS_SRC_TEST="nosetests"
 
-inherit distutils
+GITHUB_USER="JNRowe"
+
+inherit jnrowe-github distutils
 
 DESCRIPTION="Nasty little twitter client"
 HOMEPAGE="http://jnrowe.github.com/bleeter/"
-SRC_URI="https://github.com/JNRowe/bleeter/tarball/${PV} -> ${P}.tar.gz
+SRC_URI="${SRC_URI}
 	doc? ( https://github.com/JNRowe/sphinx-jnrowe/tarball/0.1.0 -> sphinx-jnrowe-0.1.0.tar.gz )"
 
 LICENSE="GPL-3 doc? ( public-domain )"
@@ -34,8 +36,6 @@ RDEPEND="dev-python/configobj
 DEPEND="${RDEPEND}
 	dev-python/docutils
 	doc? ( dev-python/sphinx )"
-
-S="${WORKDIR}/JNRowe-${PN}-8d0ca08"
 
 # Tests require nose features unavailable in the Gentoo nose package.
 RESTRICT="test"

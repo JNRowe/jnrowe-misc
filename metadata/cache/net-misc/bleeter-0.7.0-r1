@@ -7,14 +7,14 @@ http://jnrowe.github.com/bleeter/
 GPL-3
 Nasty little twitter client
 amd64 x86
-distutils multilib python toolchain-funcs
+distutils eutils jnrowe-github multilib portability python toolchain-funcs
 doc minimal test
 
 
 
 3
 
-compile install postinst postrm prepare test
+compile install postinst postrm prepare test unpack
 
 
 

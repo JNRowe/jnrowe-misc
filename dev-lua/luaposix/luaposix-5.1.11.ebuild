@@ -2,13 +2,14 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI=3
+GITHUB_USER="rrthomas"
+GITHUB_TAG=v${PV}
 
-inherit multilib toolchain-funcs
+inherit jnrowe-github multilib toolchain-funcs
 
 DESCRIPTION="POSIX function support library for lua"
 HOMEPAGE="http://wiki.alpinelinux.org/wiki/Luaposix"
-SRC_URI="https://github.com/rrthomas/${PN}/tarball/v${PV} -> ${P}.tar.gz"
 
 LICENSE="public-domain"
 SLOT="0"
@@ -17,9 +18,6 @@ IUSE=""
 
 DEPEND=">=dev-lang/lua-5.1"
 RDEPEND="${DEPEND}"
-
-S="${WORKDIR}/${PN}"
-S="${WORKDIR}"/rrthomas-${PN}-802ba6c
 
 src_prepare() {
 	sed -i -e 's,/usr/local,/usr,' \
