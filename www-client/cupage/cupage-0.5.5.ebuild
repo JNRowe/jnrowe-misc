@@ -7,11 +7,12 @@ SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="2:2.6"
 RESTRICT_PYTHON_ABIS="2.[45] 3.*"
 
-inherit distutils
+GITHUB_USER="JNRowe"
+
+inherit jnrowe-github distutils
 
 DESCRIPTION="A tool to check for updates on web pages"
 HOMEPAGE="http://jnrowe.github.com/cupage"
-SRC_URI="https://github.com/JNRowe/cupage/tarball/${PV} -> ${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -27,8 +28,6 @@ RDEPEND="dev-python/configobj
 	dev-python/httplib2
 	dev-python/lxml
 	!minimal? ( dev-python/termcolor )"
-
-S="${WORKDIR}/JNRowe-${PN}-3d127f1"
 
 PYTHON_MODNAME="libcupage"
 
