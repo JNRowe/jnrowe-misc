@@ -3,8 +3,9 @@
 # $Header: $
 
 EAPI=3
+GITHUB_USER=nvie
 
-inherit base eutils bash-completion
+inherit base jnrowe-github eutils bash-completion
 
 COMPL_VER="0.4.0"
 COMPL_URI="https://github.com/bobthecow/git-flow-completion/tarball/${COMPL_VER}
@@ -13,7 +14,7 @@ COMPL_DIR="bobthecow-git-flow-completion-63fd990"
 
 DESCRIPTION="High-level repository operations for Vincent Driessen's branching model"
 HOMEPAGE="http://nvie.com/archives/323"
-SRC_URI="https://github.com/nvie/gitflow/tarball/${PV} -> ${P}.tar.gz
+SRC_URI="${SRC_URI}
 	https://github.com/nvie/shFlags/tarball/1.0.3@128 -> shFlags-1.0.3.tar.gz
 	bash-completion? ( ${COMPL_URI} )
 	zsh-completion? ( ${COMPL_URI} )"
@@ -26,8 +27,6 @@ IUSE="zsh-completion"
 DEPEND=""
 RDEPEND="dev-vcs/git
 	zsh-completion? ( app-shells/zsh )"
-
-S="${WORKDIR}"/nvie-${PN}-5b26edc
 
 DOCS=(AUTHORS Changes.mdown README.mdown)
 
