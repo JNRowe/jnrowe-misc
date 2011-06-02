@@ -46,7 +46,7 @@ doc/thanks.rst: README.rst
 	gpg --local-user $(SIGN_KEY) --detach-sign --armor $<
 
 profiles/categories: $(CATEGORIES)
-	echo $(CATEGORIES) | tr ' ' '\n' > $@
+	echo $(CATEGORIES) | tr ' ' '\n' | LC_ALL=C sort > $@
 
 profiles/use.local.desc: $(METADATA)
 	egencache --repo=$(REPO) --update-use-local-desc
