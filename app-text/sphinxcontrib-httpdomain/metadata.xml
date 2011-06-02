@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription lang="en">
+		This contrib extension, sphinxcontrib.httpdomain, provides a
+		<pkg>dev-python/sphinx</pkg> domain for describing RESTful HTTP
+		APIs.
+	</longdescription>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">sphinxcontrib-httpdomain</remote-id>
+		<doc lang="en">http://packages.python.org/sphinxcontrib-httpdomain/</doc>
+		<bugs-to>https://bitbucket.org/birkenfeld/sphinx-contrib/issues?status=new&amp;status=open</bugs-to>
+	</upstream>
+</pkgmetadata>
