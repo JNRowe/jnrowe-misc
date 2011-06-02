@@ -7,5 +7,5 @@
  * Licence: ``CCPL-Attribution-ShareAlike-3.0``
  * Versions:
 
-  * `0.7 <https://github.com/JNRowe/misc-overlay/blob/master/x11-themes/notify-osd-icons/notify-osd-icons-0.7.ebuild>`__  ``amd64``, ``x86``
+  * `0.7 <https://github.com/JNRowe/misc-overlay/blob/master/x11-themes/notify-osd-icons/notify-osd-icons-0.7.ebuild>`__  ``amd64``, ``x86`` (masked by ``package.mask``)
 

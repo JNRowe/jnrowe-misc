@@ -1,5 +1,10 @@
 # extra line needed because portage is buggy
 
+# James Rowe <jnrowe@gmail.com> (08 Oct 2010)
+# They're definitely very pretty, but without notify-osd they provide little additional value.
+# X-Removal: 2011-07-02
+x11-themes/notify-osd-icons
+
 # James Rowe <jnrowe@gmail.com> (17 May2011)
 # Users should be attempting to migrate to upstream ebuilds.  This is a *final*
 # decision, and this mask won't be withdrawn.
