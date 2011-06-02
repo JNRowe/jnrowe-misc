@@ -9,14 +9,6 @@
 
   * `1.2 <https://github.com/JNRowe/misc-overlay/blob/master/x11-misc/gselt/gselt-1.2.ebuild>`__  ``amd64``, ``x86``
 
-* ``notify-osd`` - https://launchpad.net/notify-osd
-
- * Canonical's on-screen-display notification agent
- * Licence: ``GPL-3``
- * Versions:
-
-  * `0.9.30 <https://github.com/JNRowe/misc-overlay/blob/master/x11-misc/notify-osd/notify-osd-0.9.30.ebuild>`__  (masked by ``package.mask``)
-
 * ``winmatch`` - no upstream
 
  * A simple window matching utility, like devilspie

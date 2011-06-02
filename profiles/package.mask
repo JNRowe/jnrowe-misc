@@ -14,11 +14,6 @@ x11-plugins/vicious
 # live ebuild for git-sync
 =dev-vcs/git-sync-9999
 
-# James Rowe <jnrowe@gmail.com> (08 Oct 2010)
-# Testing only, do not use notify-osd on general systems.  Expect your
-# notifications to be broken if you do so anyway.
-x11-misc/notify-osd
-
 # James Rowe <jnrowe@gmail.com> (15 May 2010)
 # live ebuild for sphinx-to-github
 =dev-python/sphinx-to-github-9999
