@@ -44,6 +44,7 @@
   * `0.2.7 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/seqdiag/seqdiag-0.2.7.ebuild>`__  ``amd64``, ``x86``
   * `0.3.1 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/seqdiag/seqdiag-0.3.1.ebuild>`__  ``~amd64`` (due 2011-06-08), ``~x86`` (due 2011-06-08)
   * `0.3.3 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/seqdiag/seqdiag-0.3.3.ebuild>`__  ``~amd64`` (due 2011-06-16), ``~x86`` (due 2011-06-16)
+  * `0.3.5 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/seqdiag/seqdiag-0.3.5.ebuild>`__  ``~amd64`` (due 2011-07-07), ``~x86`` (due 2011-07-07)
 
 * ``sng`` - http://www.catb.org/~esr/sng/
 
