@@ -211,7 +211,7 @@
  * Versions:
 
   * `0.4.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/isodate/isodate-0.4.3.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/isodate/isodate-0.4.4.ebuild>`__  ``~amd64`` (due 2011-06-08), ``~x86`` (due 2011-06-08)
+  * `0.4.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/isodate/isodate-0.4.4.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-08)
 
 * ``lettuce`` - http://lettuce.it/
 
