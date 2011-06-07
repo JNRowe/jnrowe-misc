@@ -323,10 +323,11 @@
 * ``pycparser`` - http://code.google.com/p/pycparser/
 
  * C parser and AST generator written in Python
- * Licence: ``LGPL-3``
+ * Licence: ``BSD``
  * Versions:
 
   * `2.03 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pycparser/pycparser-2.03.ebuild>`__  ``~amd64`` (due 2011-08-15), ``~x86`` (due 2011-08-15)
+  * `2.04 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pycparser/pycparser-2.04.ebuild>`__  ``~amd64`` (due 2011-07-07), ``~x86`` (due 2011-07-07)
 
 * ``pycukes`` - https://github.com/hugobr/pycukes
 
