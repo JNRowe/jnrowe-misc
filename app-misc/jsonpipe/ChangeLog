@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*jsonpipe-0.0.8 (07 Jun 2011)
+
+  07 Jun 2011; James Rowe <jnrowe@gmail.com> +jsonpipe-0.0.8.ebuild:
+  Version bump [385].
+
   18 May 2011; James Rowe <jnrowe@gmail.com> jsonpipe-0.0.7.ebuild:
   Keyworded ~x86.
 
