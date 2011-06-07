@@ -69,8 +69,9 @@
 * ``weatherspect`` - http://www.robobunny.com/projects/weatherspect/html/
 
  * Create an ASCII animation that simulates the weather
- * Licence: ``GPL-2``
+ * Licence: ``Artistic``
  * Versions:
 
   * `1.8 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/weatherspect/weatherspect-1.8.ebuild>`__  ``amd64``, ``x86``
+  * `1.9 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/weatherspect/weatherspect-1.9.ebuild>`__  ``~amd64`` (due 2011-07-07), ``~x86`` (due 2011-07-07)
 
