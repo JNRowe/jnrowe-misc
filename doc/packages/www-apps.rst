@@ -7,7 +7,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.12 <https://github.com/JNRowe/misc-overlay/blob/master/www-apps/mnemosyne/mnemosyne-0.12.ebuild>`__  ``~amd64`` (due 2011-06-07), ``~x86`` (due 2011-06-07)
+  * `0.12 <https://github.com/JNRowe/misc-overlay/blob/master/www-apps/mnemosyne/mnemosyne-0.12.ebuild>`__  ``~amd64`` (due 2011-10-05), ``~x86`` (due 2011-10-05)
 
 * ``rstblog`` - https://github.com/mitsuhiko/rstblog
 

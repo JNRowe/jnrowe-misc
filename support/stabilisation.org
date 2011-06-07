@@ -1,5 +1,3 @@
-* www-apps/mnemosyne-0.12                  amd64 SCHEDULED: <2011-06-07 Tue>
-* www-apps/mnemosyne-0.12                    x86 SCHEDULED: <2011-06-07 Tue>
 * dev-python/isodate-0.4.4                 amd64 SCHEDULED: <2011-06-08 Wed>
 * dev-python/isodate-0.4.4                   x86 SCHEDULED: <2011-06-08 Wed>
 * dev-lua/luaposix-5.1.11                  amd64 SCHEDULED: <2011-06-08 Wed>
@@ -72,3 +70,5 @@
 * dev-python/twython-1.4.2                   x86 SCHEDULED: <2011-08-16 Tue>
 * media-gfx/sphinxcontrib-mscgen-0.4       amd64 SCHEDULED: <2011-08-27 Sat>
 * media-gfx/sphinxcontrib-mscgen-0.4         x86 SCHEDULED: <2011-08-27 Sat>
+* www-apps/mnemosyne-0.12                  amd64 SCHEDULED: <2011-10-05 Wed>
+* www-apps/mnemosyne-0.12                    x86 SCHEDULED: <2011-10-05 Wed>
