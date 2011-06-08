@@ -14,8 +14,8 @@ Or, if you'd rather use the rsync_ mirror::
 
 To sync the repository::
 
-    # oilman --sync jnrowe::misc # Sync this repository only
-    # oilman --sync all # or sync all repositories
+    # oilman --sync jnrowe::misc  # Sync this repository only
+    # oilman --sync all  # or sync all repositories
 
 ``layman`` integration
 ----------------------
@@ -48,15 +48,15 @@ Then you can add the overlay using :command:`layman`::
 To sync the repository you can use :command:`layman` directly, either
 syncing just this overlay or all your overlays at once::
 
-    # layman -s jnrowe-misc # Sync just jnrowe-misc
-    # layman -S # or sync all layman managed overlays
+    # layman -s jnrowe-misc  # Sync just jnrowe-misc
+    # layman -S  # or sync all layman managed overlays
 
 Or if you're an eix_ user you can use :command:`eix-sync` to update
 the repositories and the :program:`eix` database at the same time, first tell
 :command:`eix-sync` to update the repository::
 
-    # echo "jnrowe-misc" >>/etc/eix-sync.conf # Sync just jnrowe-misc
-    # echo "*" >>/etc/eix-sync.conf # or sync all layman managed overlays
+    # echo "jnrowe-misc" >>/etc/eix-sync.conf  # Sync just jnrowe-misc
+    # echo "*" >>/etc/eix-sync.conf  # or sync all layman managed overlays
 
 Finally, call :command:`eix-sync` to update the specified repositories
 and the :program:`eix` package database.
