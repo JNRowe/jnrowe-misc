@@ -59,7 +59,7 @@ the repositories and the :program:`eix` database at the same time, first tell
     # echo "*" >>/etc/eix-sync.conf # or sync all layman managed overlays
 
 Finally, call :command:`eix-sync` to update the specified repositories
-and :program:`eix` package database.
+and the :program:`eix` package database.
 
 Manual installation
 -------------------
@@ -73,4 +73,3 @@ for details.
 .. _layman: http://layman.sourceforge.net
 .. _eix: http://eix.sourceforge.net
 .. _git repository: https://github.com/JNRowe/misc-overlay/
-

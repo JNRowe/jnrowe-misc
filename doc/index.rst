@@ -5,15 +5,16 @@
 
 .. _misc-overlay-label:
 
-Welcome to misc-overlay's documentation!
-========================================
+``misc-overlay`` - Gentoo overlay
+=================================
 
-Packages that don't naturally fit in to my other themed overlays.  You'll find a
-large selection of Python_ packages, a few awesome_ plugins, various tools to
-make working with git_ more fun and various other tools I can't live without..
+``misc-overlay`` is for packages that don't naturally fit in to one of my other
+themed overlays.  You'll find a large selection of Python_ packages, a few
+awesome_ plugins, various tools to make working with git_ more fun and various
+other tools I can't live without.
 
-If you find any problems with ebuilds in this overlay either file an issue_ or
-drop me an email_.
+If you find any problems with the ``ebuild``s in this overlay either file an
+issue_ or drop me an email_.
 
 This documentation reflects the overlay state as of |today|.
 

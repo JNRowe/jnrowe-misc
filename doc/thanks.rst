@@ -1,7 +1,8 @@
 Contributors
 ============
 
-I'd like to thank the following people who have contributed to this repository.
+I'd like to thank the many following people who have contributed to this
+repository.
 
 Patches
 -------

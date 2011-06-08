@@ -60,9 +60,9 @@ Of course, it is preferable to fix the underlying reason for needing a
 -------------------------
 
 :file:`support/stabilisation.org` is an org-mode_ compatible data file that
-contains *likely* stabilisation dates for packages.  When a new arch keyword is
-added or a package receives a version bump this file is updated to reflect the
-earliest possible time a package can migrate to stable.
+contains the *best case* stabilisation dates for packages.  When a new arch
+keyword is added, or a package receives a version bump, this file is updated to
+reflect the earliest possible time a package can migrate to stable.
 
 The format is simple enough::
 
@@ -96,13 +96,13 @@ important admin tasks.
 :file:`distutils.eclass` usage
 ------------------------------
 
-When using ``RESTRICTED_PYTHON_ABIS`` functionality from
+When using the ``RESTRICTED_PYTHON_ABIS`` functionality from
 :file:`distutils.eclass` it is important to state the reason why a certain
 Python version is restricted.
 
-This should, in theory, make it easier to track updates and also make it
-immediately clear how much work is required to support a specific version if the
-need arises.
+This should, in theory, make it easier to track updates.  Also, it should make
+it immediately clear how much work is required to support a specific Python
+version if the need arises.
 
 A simple example from the ``ebuild`` for rad_ would be:
 
@@ -148,8 +148,9 @@ quite illustrative:
     select = td a
     match_type = zip
 
-This tells :program:`cupage` to check the defined URL for ``a`` tags located
-within ``td`` tags whose ``href`` attributes appear to match ``zip`` file names.
+This tells :program:`cupage` to check the defined URL for ``a`` tags that are
+descendants of ``td`` tags, and whose ``href`` attributes appear to match
+``zip`` file names.
 
 For more information about configuring :program:`cupage` visit the cupage_
 documentation.
