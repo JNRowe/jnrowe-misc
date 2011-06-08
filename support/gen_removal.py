@@ -1,5 +1,5 @@
 #! /usr/bin/python -tt
-# vim: set sw=4 sts=4 et tw=80 fileencoding=utf-8:
+# coding=utf-8
 #
 """gen_removal - Generate org-mode compatible cues from package.mask"""
 # Copyright (C) 2010-2011  James Rowe;

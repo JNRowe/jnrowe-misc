@@ -150,6 +150,3 @@ to make use of this functionality.
 .. _GitHub: https://github.com/
 .. _rsync: http://rsync.samba.org/
 .. _Gentoo Python Developers Guide: http://www.gentoo.org/proj/en/Python/developersguide.xml
-
-..
-    vim: set ft=rst ts=4 sw=4 tw=80 et:
