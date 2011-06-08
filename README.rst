@@ -7,6 +7,9 @@ overlays.
 If you find any problems with this overlay then please either file an issue_ or
 drop me an email_.
 
+You can read the `full documentation`_ online, or in the ``doc`` directory if
+you prefer the reST source.
+
 Contributors
 ------------
 
@@ -140,6 +143,7 @@ to make use of this functionality.
 
 .. _email: jnrowe@gmail.com
 .. _issue: https://github.com/JNRowe/misc-overlay/issues
+.. _full documentation: http://jnrowe.github.com/misc-overlay/
 .. _layman: http://layman.sourceforge.net
 .. _eix: http://eix.sourceforge.net
 .. _cupage: https://github.com/JNRowe/cupage
