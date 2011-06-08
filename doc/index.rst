@@ -13,7 +13,7 @@ themed overlays.  You'll find a large selection of Python_ packages, a few
 awesome_ plugins, various tools to make working with git_ more fun and various
 other tools I can't live without.
 
-If you find any problems with the ``ebuild``s in this overlay either file an
+If you find any problems with an ``ebuild`` in this overlay either file an
 issue_ or drop me an email_.
 
 This documentation reflects the overlay state as of |today|.
