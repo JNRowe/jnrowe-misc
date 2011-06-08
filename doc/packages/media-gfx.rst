@@ -66,8 +66,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.7.2 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-0.7.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.8.0 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-0.8.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-08)
+  * `0.8.0 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-0.8.0.ebuild>`__  ``amd64``, ``x86``
   * `0.8.1 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-0.8.1.ebuild>`__  ``~amd64`` (due 2011-06-15), ``~x86`` (due 2011-06-15)
   * `0.8.3 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-0.8.3.ebuild>`__  ``~amd64`` (due 2011-07-07), ``~x86`` (due 2011-07-07)
 

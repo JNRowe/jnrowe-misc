@@ -1,4 +1,3 @@
-* media-gfx/sphinxcontrib-blockdiag-0.8.0    x86 SCHEDULED: <2011-06-08 Wed>
 * dev-python/virtualenvwrapper-2.7.1         x86 SCHEDULED: <2011-06-08 Wed>
 * dev-python/pyscss-1.0.7                    x86 SCHEDULED: <2011-06-08 Wed>
 * dev-python/stencil-0.1                   amd64 SCHEDULED: <2011-06-10 Fri>
