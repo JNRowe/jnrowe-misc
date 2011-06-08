@@ -102,13 +102,13 @@ be added to the ``overlays`` section of ``/etc/layman/layman.conf``, for
 example::
 
     overlays  : http://www.gentoo.org/proj/en/overlays/repositories.xml
-                file:///var/lib/repos/jnrowe-misc/support/layman2.xml
+                https://github.com/JNRowe/misc-overlay/raw/master/support/layman2.xml
 
 If you're using layman v1.2.3 or earlier, then ``support/layman.xml`` should be
 added to the ``overlays`` section of ``/etc/layman/layman.conf``, for example::
 
     overlays  : http://www.gentoo.org/proj/en/overlays/layman-global.txt
-                file:///var/lib/repos/jnrowe-misc/support/layman.xml
+                https://github.com/JNRowe/misc-overlay/raw/master/support/layman.xml
 
 Then you can add the overlay using ``layman``::
 
