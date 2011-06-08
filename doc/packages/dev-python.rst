@@ -210,8 +210,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.4.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/isodate/isodate-0.4.3.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/isodate/isodate-0.4.4.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-08)
+  * `0.4.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/isodate/isodate-0.4.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``lettuce`` - http://lettuce.it/
 
@@ -219,8 +218,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1.26 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/lettuce/lettuce-0.1.26.ebuild>`__  ``amd64``, ``x86``
-  * `0.1.27 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/lettuce/lettuce-0.1.27.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-08)
+  * `0.1.27 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/lettuce/lettuce-0.1.27.ebuild>`__  ``amd64``, ``x86``
 
 * ``logbook`` - http://pypi.python.org/pypi/Logbook/
 
@@ -376,8 +374,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0.6 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyscss/pyscss-1.0.6.ebuild>`__  ``amd64``, ``x86``
-  * `1.0.7 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyscss/pyscss-1.0.7.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-08)
+  * `1.0.7 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyscss/pyscss-1.0.7.ebuild>`__  ``amd64``, ``x86``
   * `1.0.8 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyscss/pyscss-1.0.8.ebuild>`__  ``~amd64`` (due 2011-06-16), ``~x86`` (due 2011-06-16)
 
 * ``python-faker`` - http://pypi.python.org/pypi/python-faker/
@@ -588,8 +585,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `2.7 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.7.ebuild>`__  ``amd64``, ``x86``
-  * `2.7.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.7.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-08)
+  * `2.7.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.7.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``wmctrl`` - http://pypi.python.org/pypi/wmctrl/
 
