@@ -586,8 +586,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `2.7 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.7.ebuild>`__  ``amd64``, ``x86``
-  * `2.7.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.7.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-08)
+  * `2.7.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.7.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``wmctrl`` - http://pypi.python.org/pypi/wmctrl/
 
