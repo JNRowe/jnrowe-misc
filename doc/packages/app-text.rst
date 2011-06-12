@@ -15,6 +15,6 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-httpdomain/sphinxcontrib-httpdomain-1.0.ebuild>`__  ``~amd64`` (due 2011-07-02)
-  * `1.1.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-httpdomain/sphinxcontrib-httpdomain-1.1.2.ebuild>`__  ``~amd64`` (due 2011-07-07)
+  * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-httpdomain/sphinxcontrib-httpdomain-1.0.ebuild>`__  ``~amd64`` (due 2011-07-02), ``~x86`` (indefinite)
+  * `1.1.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-httpdomain/sphinxcontrib-httpdomain-1.1.2.ebuild>`__  ``~amd64`` (due 2011-07-07), ``~x86`` (due 2011-07-07)
 

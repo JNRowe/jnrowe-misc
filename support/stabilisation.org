@@ -1,6 +1,3 @@
-* dev-python/pgmagick-0.3.5                  x86 SCHEDULED: <2011-06-10 Fri>
-* dev-python/pyisbn-0.6.0                    x86 SCHEDULED: <2011-06-12 Sun>
-* net-misc/bleeter-0.8.0                     x86 SCHEDULED: <2011-06-12 Sun>
 * dev-util/cake-0.2                        amd64 SCHEDULED: <2011-06-15 Wed>
 * media-gfx/blockdiag-0.8.1                amd64 SCHEDULED: <2011-06-15 Wed>
 * media-gfx/blockdiag-0.8.1                  x86 SCHEDULED: <2011-06-15 Wed>
@@ -45,6 +42,7 @@
 * app-text/sphinxcontrib-httpdomain-1.1.2    x86 SCHEDULED: <2011-07-07 Thu>
 * app-misc/weatherspect-1.9                amd64 SCHEDULED: <2011-07-07 Thu>
 * app-misc/weatherspect-1.9                  x86 SCHEDULED: <2011-07-07 Thu>
+* app-text/sphinxcontrib-httpdomain-1.1.2    x86 SCHEDULED: <2011-07-12 Tue>
 * dev-util/ditz-0.5-r1                       x86 SCHEDULED: <2011-08-05 Fri>
 * dev-util/ditz-0.5-r1                     amd64 SCHEDULED: <2011-08-05 Fri>
 * dev-python/rstctl-0.4                    amd64 SCHEDULED: <2011-08-08 Mon>
