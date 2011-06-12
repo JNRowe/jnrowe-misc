@@ -39,7 +39,7 @@
  * Licence: ``public-domain``
  * Versions:
 
-  * `0.0.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/calabash/calabash-0.0.3.ebuild>`__  ``~amd64`` (due 2011-06-11), ``~x86`` (due 2011-06-17)
+  * `0.0.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/calabash/calabash-0.0.3.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-17)
 
 * ``clevercss`` - http://pypi.python.org/pypi/CleverCSS/
 
@@ -291,7 +291,7 @@
  * Versions:
 
   * `0.3.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pgmagick/pgmagick-0.3.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.3.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pgmagick/pgmagick-0.3.5.ebuild>`__  ``~amd64`` (due 2011-06-10), ``~x86`` (due 2011-06-10)
+  * `0.3.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pgmagick/pgmagick-0.3.5.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-10)
   * `0.3.6 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pgmagick/pgmagick-0.3.6.ebuild>`__  ``~amd64`` (due 2011-06-15), ``~x86`` (due 2011-06-15)
 
 * ``pinocchio`` - http://darcs.idyll.org/~t/projects/pinocchio/doc/
@@ -358,7 +358,7 @@
  * Versions:
 
   * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyisbn/pyisbn-0.5.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.6.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyisbn/pyisbn-0.6.0.ebuild>`__  ``~amd64`` (due 2011-06-12), ``~x86`` (due 2011-06-12)
+  * `0.6.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyisbn/pyisbn-0.6.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-12)
 
 * ``pyrepl`` - http://pypi.python.org/pypi/pyrepl/
 
@@ -479,7 +479,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/stencil/stencil-0.1.ebuild>`__  ``~amd64`` (due 2011-06-10), ``~x86`` (due 2011-06-10)
+  * `0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/stencil/stencil-0.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-17)
 
 * ``story_parser`` - https://github.com/hugobr/story_parser
 
@@ -495,7 +495,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.4.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.4.0.ebuild>`__  ``~amd64`` (due 2011-06-11), ``~x86`` (due 2011-06-17)
+  * `0.4.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.4.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-17)
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
@@ -569,7 +569,7 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/vanity/vanity-1.0.ebuild>`__  ``~amd64`` (due 2011-06-11), ``~x86`` (due 2011-06-17)
+  * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/vanity/vanity-1.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-17)
 
 * ``virtualenv5`` - http://pypi.python.org/pypi/virtualenv5/
 
