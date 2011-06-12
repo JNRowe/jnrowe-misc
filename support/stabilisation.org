@@ -1,5 +1,4 @@
 * dev-python/pgmagick-0.3.5                  x86 SCHEDULED: <2011-06-10 Fri>
-* dev-python/pyisbn-0.6.0                  amd64 SCHEDULED: <2011-06-12 Sun>
 * dev-python/pyisbn-0.6.0                    x86 SCHEDULED: <2011-06-12 Sun>
 * net-misc/bleeter-0.8.0                   amd64 SCHEDULED: <2011-06-12 Sun>
 * net-misc/bleeter-0.8.0                     x86 SCHEDULED: <2011-06-12 Sun>
