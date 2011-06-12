@@ -39,7 +39,7 @@
  * Licence: ``public-domain``
  * Versions:
 
-  * `0.0.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/calabash/calabash-0.0.3.ebuild>`__  ``~amd64`` (due 2011-06-11), ``~x86`` (due 2011-06-17)
+  * `0.0.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/calabash/calabash-0.0.3.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-17)
 
 * ``clevercss`` - http://pypi.python.org/pypi/CleverCSS/
 

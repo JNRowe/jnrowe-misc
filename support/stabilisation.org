@@ -1,5 +1,4 @@
 * dev-python/pgmagick-0.3.5                  x86 SCHEDULED: <2011-06-10 Fri>
-* dev-python/calabash-0.0.3                amd64 SCHEDULED: <2011-06-11 Sat>
 * app-misc/jsonpipe-0.0.7                  amd64 SCHEDULED: <2011-06-11 Sat>
 * dev-python/sure-0.4.0                    amd64 SCHEDULED: <2011-06-11 Sat>
 * dev-python/vanity-1.0                    amd64 SCHEDULED: <2011-06-11 Sat>
