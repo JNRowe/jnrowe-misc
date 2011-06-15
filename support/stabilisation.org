@@ -1,4 +1,3 @@
-* dev-python/pgmagick-0.3.6                  x86 SCHEDULED: <2011-06-15 Wed>
 * media-gfx/sphinxcontrib-blockdiag-0.8.1    x86 SCHEDULED: <2011-06-15 Wed>
 * dev-python/pyscss-1.0.8                  amd64 SCHEDULED: <2011-06-16 Thu>
 * dev-python/pyscss-1.0.8                    x86 SCHEDULED: <2011-06-16 Thu>
