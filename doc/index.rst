@@ -10,7 +10,7 @@
 
 ``misc-overlay`` is for packages that don't naturally fit in to one of my other
 themed overlays.  You'll find a large selection of Python_ packages, a few
-awesome_ plugins, various tools to make working with git_ more fun and various
+awesome_ plugins, some tools to make working with git_ more fun and various
 other tools I can't live without.
 
 If you find any problems with an ``ebuild`` in this overlay either file an
