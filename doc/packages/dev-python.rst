@@ -71,8 +71,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.4.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/dexml/dexml-0.4.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/dexml/dexml-0.4.2.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-15)
+  * `0.4.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/dexml/dexml-0.4.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``doctest-tools`` - http://code.google.com/p/doctest-tools/
 
@@ -290,8 +289,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.3.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pgmagick/pgmagick-0.3.5.ebuild>`__  ``amd64``, ``x86``
-  * `0.3.6 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pgmagick/pgmagick-0.3.6.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-15)
+  * `0.3.6 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pgmagick/pgmagick-0.3.6.ebuild>`__  ``amd64``, ``x86``
 
 * ``pinocchio`` - http://darcs.idyll.org/~t/projects/pinocchio/doc/
 

@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  15 Jun 2011; James Rowe <jnrowe@gmail.com> -dexml-0.4.1.ebuild,
+  dexml-0.4.2.ebuild:
+  Keyworded x86.
+
   15 Jun 2011; James Rowe <jnrowe@gmail.com> dexml-0.4.2.ebuild:
   Keyworded amd64.
 
