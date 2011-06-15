@@ -16,7 +16,7 @@
  * Versions:
 
   * `0.8.0 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/blockdiag/blockdiag-0.8.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.8.1 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/blockdiag/blockdiag-0.8.1.ebuild>`__  ``~amd64`` (due 2011-06-15), ``~x86`` (due 2011-06-15)
+  * `0.8.1 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/blockdiag/blockdiag-0.8.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-15)
 
 * ``gruffy`` - http://pypi.python.org/pypi/gruffy/
 
@@ -32,7 +32,7 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.2.3 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/nwdiag/nwdiag-0.2.3.ebuild>`__  ``~amd64`` (due 2011-06-15), ``~x86`` (due 2011-06-17)
+  * `0.2.3 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/nwdiag/nwdiag-0.2.3.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-17)
 
 * ``seqdiag`` - http://pypi.python.org/pypi/seqdiag/
 
@@ -67,7 +67,7 @@
  * Versions:
 
   * `0.8.0 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-0.8.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.8.1 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-0.8.1.ebuild>`__  ``~amd64`` (due 2011-06-15), ``~x86`` (due 2011-06-15)
+  * `0.8.1 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-0.8.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-15)
   * `0.8.3 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-0.8.3.ebuild>`__  ``~amd64`` (due 2011-07-07), ``~x86`` (due 2011-07-07)
 
 * ``sphinxcontrib-gruffygen`` - http://pypi.python.org/pypi/sphinxcontrib-gruffygen/
