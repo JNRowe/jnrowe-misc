@@ -1,5 +1,4 @@
 * media-gfx/blockdiag-0.8.1                  x86 SCHEDULED: <2011-06-15 Wed>
-* media-gfx/nwdiag-0.2.3                   amd64 SCHEDULED: <2011-06-15 Wed>
 * dev-python/dexml-0.4.2                   amd64 SCHEDULED: <2011-06-15 Wed>
 * dev-python/dexml-0.4.2                     x86 SCHEDULED: <2011-06-15 Wed>
 * dev-python/pgmagick-0.3.6                amd64 SCHEDULED: <2011-06-15 Wed>
