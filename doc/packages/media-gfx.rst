@@ -15,8 +15,7 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.8.0 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/blockdiag/blockdiag-0.8.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.8.1 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/blockdiag/blockdiag-0.8.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-15)
+  * `0.8.1 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/blockdiag/blockdiag-0.8.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``gruffy`` - http://pypi.python.org/pypi/gruffy/
 
