@@ -490,7 +490,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.4.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.4.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-17)
+  * `0.4.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.4.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
