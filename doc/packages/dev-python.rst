@@ -370,8 +370,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0.7 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyscss/pyscss-1.0.7.ebuild>`__  ``amd64``, ``x86``
-  * `1.0.8 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyscss/pyscss-1.0.8.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-16)
+  * `1.0.8 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyscss/pyscss-1.0.8.ebuild>`__  ``amd64``, ``x86``
 
 * ``python-faker`` - http://pypi.python.org/pypi/python-faker/
 
