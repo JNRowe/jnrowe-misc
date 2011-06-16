@@ -23,8 +23,7 @@
  * Licence: ``public-domain``
  * Versions:
 
-  * `0.0.7 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/jsonpipe/jsonpipe-0.0.7.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-17)
-  * `0.0.8 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/jsonpipe/jsonpipe-0.0.8.ebuild>`__  ``~amd64`` (due 2011-07-07), ``~x86`` (due 2011-07-07)
+  * `0.0.8 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/jsonpipe/jsonpipe-0.0.8.ebuild>`__  ``~amd64`` (due 2011-07-07), ``x86``
 
 * ``libeatmydata`` - http://www.flamingspork.com/projects/libeatmydata/
 

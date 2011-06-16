@@ -1,4 +1,3 @@
-* app-misc/jsonpipe-0.0.7                    x86 SCHEDULED: <2011-06-17 Fri>
 * dev-util/cake-0.2                          x86 SCHEDULED: <2011-06-17 Fri>
 * media-gfx/nwdiag-0.2.3                     x86 SCHEDULED: <2011-06-17 Fri>
 * dev-python/socksipy-1.01                 amd64 SCHEDULED: <2011-06-19 Sun>
