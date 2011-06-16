@@ -474,7 +474,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/stencil/stencil-0.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-17)
+  * `0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/stencil/stencil-0.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``story_parser`` - https://github.com/hugobr/story_parser
 
