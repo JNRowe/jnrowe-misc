@@ -39,7 +39,7 @@
  * Licence: ``public-domain``
  * Versions:
 
-  * `0.0.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/calabash/calabash-0.0.3.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-17)
+  * `0.0.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/calabash/calabash-0.0.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``clevercss`` - http://pypi.python.org/pypi/CleverCSS/
 
@@ -474,7 +474,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/stencil/stencil-0.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-17)
+  * `0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/stencil/stencil-0.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``story_parser`` - https://github.com/hugobr/story_parser
 
@@ -490,7 +490,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.4.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.4.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-17)
+  * `0.4.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.4.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
@@ -564,7 +564,7 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/vanity/vanity-1.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-17)
+  * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/vanity/vanity-1.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``virtualenv5`` - http://pypi.python.org/pypi/virtualenv5/
 
