@@ -5,12 +5,6 @@
 # X-Removal: 2011-07-02
 x11-themes/notify-osd-icons
 
-# James Rowe <jnrowe@gmail.com> (17 May2011)
-# Users should be attempting to migrate to upstream ebuilds.  This is a *final*
-# decision, and this mask won't be withdrawn.
-# X-Removal: 2011-06-16
-x11-plugins/vicious
-
 # James Rowe <jnrowe@gmail.com> (24 Feb 2011)
 # live ebuild for rstblog
 =www-apps/rstblog-9999
@@ -58,6 +52,5 @@ x11-plugins/vicious
 # James Rowe <jnrowe@gmail.com> (17 Sep 2009)
 # Live ebuilds for awesome widgets
 =x11-plugins/obvious-9999
-=x11-plugins/vicious-9999
 =x11-plugins/wicked-9999
 
