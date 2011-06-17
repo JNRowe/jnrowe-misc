@@ -42,3 +42,8 @@ def open_bug(title, body="", label=None):
     new_issue = github.issues.open(project, title, body)
     if label:
         github.issues.add_label(project, new_issue.number, label)
+
+
+@task('Open a version bump bug')
+def bump_pkg(cpv):
+    open_bug('%s version bump.' % cpv, '', 'feature')
