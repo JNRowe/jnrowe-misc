@@ -4,6 +4,7 @@ from glob import glob
 from sys import exit
 
 from cake.helpers import task
+from cake.lib import puts
 
 from utils import dep
 
@@ -27,7 +28,7 @@ def gen_cupage_conf():
                     f.write(watch_data + '\n')
             f.write('# }}}\n\n')
             os.chdir(os.pardir)
-    print 'cupage.conf generated!'
+    puts('{green}cupage.conf generated!')
 
 
 @task('Make sure a watch file exists for each package')
@@ -36,11 +37,11 @@ def cupage_check():
     packages = glob('*-*/*')
     for package in packages:
         if not os.path.isfile(os.path.join(package, 'watch')):
-            print 'Missing watch file in %r' % package
+            puts('{red}Missing watch file in %r' % package)
             failures += 1
     if failures == 0:
-        print 'All watch files present!'
+        puts('{green}All watch files present!')
     else:
-        print '%d watch file%s missing!' % (failures,
-                                            's' if failures > 1 else '')
+        puts('{red}%d watch file%s missing!' % (failures,
+                                                's' if failures > 1 else ''))
         exit(failures)

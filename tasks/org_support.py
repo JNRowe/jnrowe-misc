@@ -2,6 +2,7 @@ from collections import defaultdict
 from datetime import datetime
 
 from cake.helpers import task
+from cake.lib import puts
 
 from utils import dep
 
@@ -24,4 +25,4 @@ def gen_removals():
                 for pkg in pkgs:
                     file.write("** %s SCHEDULED: <%s>\n"
                                % (pkg, date.strftime("%Y-%m-%d %a")))
-    print 'removal.org generated!'
+    puts('{green}removal.org generated!')

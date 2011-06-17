@@ -4,6 +4,7 @@ from sys import exit
 from xml.etree import ElementTree as ET
 
 from cake.helpers import task
+from cake.lib import puts
 
 
 @task('Check basic layman config validity')
@@ -17,6 +18,6 @@ def layman_check():
         try:
             ET.parse(file)
         except ET.ParseError:
-            print 'Parsing error in %r' % file
+            puts('{red}Parsing error in %r' % file)
             exit(1)
-    print 'layman files files are parseable XML!'
+    puts('{green}layman files files are parseable XML!')

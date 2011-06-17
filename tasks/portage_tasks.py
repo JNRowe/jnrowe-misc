@@ -3,6 +3,7 @@ from glob import glob
 from subprocess import (check_call, check_output)
 
 from cake.helpers import task
+from cake.helpers import puts
 
 from utils import (dep, newer)
 
@@ -18,7 +19,7 @@ def gen_use_local_desc():
     # This really shouldn't be handled with subprocess, but portage seemingly
     # goes out of its way to make reasonable use difficult.
     check_call(('egencache --repo=%s --update-use-local-desc' % repo).split())
-    print 'use.local.desc generated!'
+    puts('{green}use.local.desc generated!')
 
 
 @task('Generate categories listing')
@@ -27,7 +28,7 @@ def gen_categories():
     with open('profiles/categories', 'w') as file:
         for cat in sorted(glob('*-*')):
             file.write(cat + '\n')
-    print 'categories list generated!'
+    puts('{green}categories list generated!')
 
 
 @task('Generate Manifest files')

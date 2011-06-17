@@ -7,6 +7,7 @@ from subprocess import check_call
 from sys import exit
 
 from cake.helpers import task
+from cake.lib import puts
 from docutils.core import publish_file
 from docutils.utils import SystemMessage
 
@@ -21,7 +22,7 @@ def rst_check():
                          settings_overrides={'halt_level': 1})
         except SystemMessage:
             exit(1)
-    print 'All reST files pass!'
+    puts('{green}All reST files pass!')
 
 
 @task('Generate HTML output')
@@ -37,7 +38,7 @@ def gen_html():
                          settings_overrides={'halt_level': 1})
         except SystemMessage:
             exit(1)
-    print 'All reST generated!'
+    puts('{green}All reST generated!')
 
 
 @task('Generate Sphinx contributor doc')
@@ -57,7 +58,7 @@ def gen_thanks():
         links = filter(lambda s: s.startswith(('.. _email:', '.. _GitHub:')),
                        data)
         file.writelines(add_nl(links))
-    print 'thanks.rst generated!'
+    puts('{green}thanks.rst generated!')
 
 
 @task('Generate Sphinx HTML output')

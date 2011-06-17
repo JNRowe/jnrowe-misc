@@ -1,9 +1,11 @@
 from functools import update_wrapper
 from os import path
 
+from cake.lib import puts
+
 
 def empty_rule(f):
-    print 'Nothing to do for %r' % f.__name__
+    puts('{yellow}Nothing to do for %r' % f.__name__)
 
 
 def newer(file1, file2):
