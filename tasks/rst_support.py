@@ -10,6 +10,8 @@ from cake.helpers import task
 from docutils.core import publish_file
 from docutils.utils import SystemMessage
 
+from utils import (dep, newer)
+
 
 @task('Check syntax of reST-formatted files')
 def rst_check():
@@ -23,9 +25,13 @@ def rst_check():
 
 
 @task('Generate HTML output')
+@dep(map(lambda s: os.path.splitext(s)[0] + '.html', glob('*.rst')),
+     glob('*.rst'), mapping=True)
 def gen_html():
     for file in glob('*.rst'):
         html_file = os.path.splitext(file)[0] + '.html'
+        if newer(html_file, file):
+            break
         try:
             publish_file(open(file), destination=open(html_file, 'w'),
                          settings_overrides={'halt_level': 1})
@@ -35,6 +41,7 @@ def gen_html():
 
 
 @task('Generate Sphinx contributor doc')
+@dep(['doc/thanks.rst', ], ['README.rst'])
 def gen_thanks():
     data = open('README.rst').read()
     data = sub("\n('+)\n", lambda m: '\n' + "-" * len(m.groups()[0]) + '\n',
@@ -53,5 +60,7 @@ def gen_thanks():
 
 
 @task('Generate Sphinx HTML output')
+@dep(['doc/.build/doctrees/environment.pickle', ],
+     glob('doc/*.rst') + glob('doc/packages/*.rst'))
 def gen_sphinx_html():
     check_call('make -C doc html'.split())

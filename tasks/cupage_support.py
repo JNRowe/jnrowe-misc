@@ -5,8 +5,11 @@ from sys import exit
 
 from cake.helpers import task
 
+from utils import dep
+
 
 @task('Generate a new cupage.conf file')
+@dep(['support/cupage.conf', ], glob('*-*/*/watch'))
 def gen_cupage_conf():
     with open('support/cupage.conf', 'w') as f:
         for category in sorted(glob('*-*')):

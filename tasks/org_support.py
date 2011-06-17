@@ -3,8 +3,11 @@ from datetime import datetime
 
 from cake.helpers import task
 
+from utils import dep
+
 
 @task('Generate org-mode file for package removals')
+@dep(['support/removal.org', ], ['profiles/package.mask', ])
 def gen_removals():
     chunks = open("profiles/package.mask").read().split("\n\n")
     removals = defaultdict(list)
