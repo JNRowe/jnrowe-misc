@@ -18,6 +18,7 @@ def gen_use_local_desc():
     # This really shouldn't be handled with subprocess, but portage seemingly
     # goes out of its way to make reasonable use difficult.
     check_call(('egencache --repo=%s --update-use-local-desc' % repo).split())
+    print 'use.local.desc generated!'
 
 
 @task('Generate categories listing')
@@ -26,6 +27,7 @@ def gen_categories():
     with open('profiles/categories', 'w') as file:
         for cat in sorted(glob('*-*')):
             file.write(cat + '\n')
+    print 'categories list generated!'
 
 
 @task('Generate Manifest files')

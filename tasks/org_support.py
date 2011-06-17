@@ -24,3 +24,4 @@ def gen_removals():
                 for pkg in pkgs:
                     file.write("** %s SCHEDULED: <%s>\n"
                                % (pkg, date.strftime("%Y-%m-%d %a")))
+    print 'removal.org generated!'

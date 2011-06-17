@@ -57,6 +57,7 @@ def gen_thanks():
         links = filter(lambda s: s.startswith(('.. _email:', '.. _GitHub:')),
                        data)
         file.writelines(add_nl(links))
+    print 'thanks.rst generated!'
 
 
 @task('Generate Sphinx HTML output')
