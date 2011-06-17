@@ -1,3 +1,5 @@
+import datetime
+
 from glob import glob
 
 from cake.helpers import task
@@ -16,3 +18,11 @@ def keyword_check():
         if 'x86' not in keywords:
             puts('{red}[~]x86 keyword missing in %r' % pkg)
     puts('{green}All packages checked for keywords')
+
+
+@task('Generate a base stabilsation string for a package')
+def gen_stable(cpv):
+    date = datetime.date.today() + datetime.timedelta(days=30)
+    for arch in ('amd64', 'x86'):
+        print "* %-40s %5s SCHEDULED: <%s>" \
+              % (cpv, arch, date.strftime("%Y-%m-%d %a"))
