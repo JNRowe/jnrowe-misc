@@ -1,4 +1,3 @@
-* dev-python/socksipy-1.01                 amd64 SCHEDULED: <2011-06-19 Sun>
 * dev-python/socksipy-1.01                   x86 SCHEDULED: <2011-06-21 Tue>
 * dev-python/github2-0.4.0                 amd64 SCHEDULED: <2011-06-22 Wed>
 * dev-python/github2-0.4.0                   x86 SCHEDULED: <2011-06-22 Wed>
