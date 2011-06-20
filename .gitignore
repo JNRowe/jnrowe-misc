@@ -1,6 +1,8 @@
 .ropeproject/
 doc/.build/
 
+*.pyc
+
 README.html
 support/cupage.db
 support/removal.org
