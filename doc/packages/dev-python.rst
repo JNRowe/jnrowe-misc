@@ -450,7 +450,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `1.01 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/socksipy/socksipy-1.01.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-21)
+  * `1.01 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/socksipy/socksipy-1.01.ebuild>`__  ``amd64``, ``x86``
 
 * ``sphinx-to-github`` - https://github.com/michaeljones/sphinx-to-github
 
