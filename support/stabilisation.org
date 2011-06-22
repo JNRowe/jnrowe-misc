@@ -19,6 +19,8 @@
 * app-misc/weatherspect-1.9                  x86 SCHEDULED: <2011-07-07 Thu>
 * app-text/sphinxcontrib-httpdomain-1.1.2    x86 SCHEDULED: <2011-07-12 Tue>
 * dev-python/attest-0.5.2                  amd64 SCHEDULED: <2011-07-22 Fri>
+* dev-python/colorama-0.2.3                amd64 SCHEDULED: <2011-07-22 Fri>
+* dev-python/colorama-0.2.3                  x86 SCHEDULED: <2011-07-22 Fri>
 * dev-util/ditz-0.5-r1                       x86 SCHEDULED: <2011-08-05 Fri>
 * dev-util/ditz-0.5-r1                     amd64 SCHEDULED: <2011-08-05 Fri>
 * dev-python/rstctl-0.4                    amd64 SCHEDULED: <2011-08-08 Mon>
