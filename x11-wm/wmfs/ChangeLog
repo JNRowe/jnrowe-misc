@@ -1,0 +1,10 @@
+# ChangeLog for x11-wm/wmfs
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*wmfs-9999 (22 Jun 2011)
+
+  22 Jun 2011; James Rowe <jnrowe@gmail.com> +wmfs-9999.ebuild, +metadata.xml,
+  +watch:
+  Initial ebuild, by me [398].
+
