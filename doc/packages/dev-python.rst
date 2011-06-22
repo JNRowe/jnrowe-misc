@@ -25,6 +25,14 @@
 
   * `0.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/async/async-0.6.1.ebuild>`__  ``amd64``, ``x86``
 
+* ``attest`` - http://pypi.python.org/pypi/Attest/
+
+ * Modern, Pythonic unit testing
+ * Licence: ``BSD-2``
+ * Versions:
+
+  * `0.5.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/attest/attest-0.5.2.ebuild>`__  ``~amd64`` (due 2011-07-22)
+
 * ``benchmarker`` - http://pypi.python.org/pypi/Benchmarker/
 
  * A small utility to benchmark your Python code
