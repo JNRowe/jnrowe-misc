@@ -64,6 +64,7 @@
  * Versions:
 
   * `0.1.18 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/colorama/colorama-0.1.18.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/colorama/colorama-0.2.3.ebuild>`__  ``~amd64`` (due 2011-07-22), ``~x86`` (due 2011-07-22)
 
 * ``commandlineapp`` - http://pypi.python.org/pypi/CommandLineApp/
 
@@ -313,6 +314,7 @@
  * Versions:
 
   * `0.8.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/plac/plac-0.8.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.9.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/plac/plac-0.9.0.ebuild>`__  ``~amd64`` (due 2011-07-22), ``~x86`` (due 2011-07-22)
 
 * ``pwtools`` - http://alastairs-place.net/pwtools/
 
@@ -498,6 +500,7 @@
  * Versions:
 
   * `0.4.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.4.0.ebuild>`__  ``amd64``, ``x86``
+  * `0.5.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.5.0.ebuild>`__  ``~amd64`` (due 2011-07-22), ``~x86`` (due 2011-07-22)
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
