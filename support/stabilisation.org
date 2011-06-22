@@ -25,6 +25,8 @@
 * dev-python/plac-0.9.0                      x86 SCHEDULED: <2011-07-22 Fri>
 * app-text/sphinxcontrib-httpdomain-1.1.4  amd64 SCHEDULED: <2011-07-22 Fri>
 * app-text/sphinxcontrib-httpdomain-1.1.4    x86 SCHEDULED: <2011-07-22 Fri>
+* dev-python/sure-0.5.0                    amd64 SCHEDULED: <2011-07-22 Fri>
+* dev-python/sure-0.5.0                      x86 SCHEDULED: <2011-07-22 Fri>
 * dev-util/ditz-0.5-r1                       x86 SCHEDULED: <2011-08-05 Fri>
 * dev-util/ditz-0.5-r1                     amd64 SCHEDULED: <2011-08-05 Fri>
 * dev-python/rstctl-0.4                    amd64 SCHEDULED: <2011-08-08 Mon>
