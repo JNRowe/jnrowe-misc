@@ -12,13 +12,9 @@ load('tasks/*.py')
 
 @task('Update generated files')
 def all():
-    gen_html()
-    gen_categories()
-    gen_use_local_desc()
-    gen_manifests()
-    gen_news_sigs()
-    gen_cupage_conf()
-    gen_removals()
+    for task in [v for k, v in globals().items()
+                if k.startswith('gen_') and not k == 'gen_stable']:
+        task()
 
 
 @task('Run tests')
