@@ -160,7 +160,7 @@
  * Versions:
 
   * `0.3.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.3.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.4.0.ebuild>`__  ``~amd64`` (due 2011-06-22), ``~x86`` (due 2011-06-22)
+  * `0.4.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.4.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-22)
   * `0.4.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.4.1.ebuild>`__  ``~amd64`` (due 2011-06-23), ``~x86`` (due 2011-06-23)
 
 * ``gpxdata`` - http://www.kette-links.de/technik.php?lang=en
