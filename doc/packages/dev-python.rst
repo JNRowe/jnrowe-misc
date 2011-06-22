@@ -57,6 +57,14 @@
 
   * `0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/clevercss/clevercss-0.1.ebuild>`__  ``amd64``, ``x86``
 
+* ``cloud_sptheme`` - http://pypi.python.org/pypi/cloud_sptheme/
+
+ * A nice sphinx theme named 'Cloud', and some related extensions
+ * Licence: ``BSD``
+ * Versions:
+
+  * `1.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.1.ebuild>`__  ``~amd64`` (due 2011-07-22)
+
 * ``colorama`` - http://pypi.python.org/pypi/colorama/
 
  * Cross-platform colored terminal text

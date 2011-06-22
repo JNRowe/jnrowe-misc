@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		This is a small package containing a
+		<pkg>dev-python/sphinx</pkg> theme named "Cloud", along with
+		some related Sphinx extensions. To see an example of the theme
+		in action, check out it's documentation at
+		http://packages.python.org/cloud_sptheme.
+	</longdescription>
+	<upstream>
+		<doc lang="en">http://packages.python.org/cloud_sptheme</doc>
+		<remote-id type="pypi">cloud_sptheme</remote-id>
+		<bugs-to>https://bitbucket.org/ecollins/cloud_sptheme/issues/new</bugs-to>
+	</upstream>
+</pkgmetadata>
