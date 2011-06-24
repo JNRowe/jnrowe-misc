@@ -63,7 +63,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `1.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.1.ebuild>`__  ``~amd64`` (due 2011-07-22)
+  * `1.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.1.ebuild>`__  ``~amd64`` (due 2011-07-22), ``~x86`` (indefinite)
 
 * ``colorama`` - http://pypi.python.org/pypi/colorama/
 
@@ -176,8 +176,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.4.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.4.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.4.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-23)
+  * `0.4.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.4.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``gpxdata`` - http://www.kette-links.de/technik.php?lang=en
 
