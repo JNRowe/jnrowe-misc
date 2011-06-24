@@ -19,9 +19,12 @@ DESCRIPTION="Modern, Pythonic unit testing"
 LICENSE="BSD-2"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE=""
+IUSE="minimal"
 
 DEPEND=""
-RDEPEND="dev-python/progressbar"
+RDEPEND="!minimal? (
+		dev-python/progressbar
+		dev-python/pygments
+	)"
 
 DOCS="AUTHORS.rst CHANGES.rst"

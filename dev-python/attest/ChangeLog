@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  24 Jun 2011; James Rowe <jnrowe@gmail.com> attest-0.5.2.ebuild:
+  Support installs without fancy output.
+
 *attest-0.5.2 (22 Jun 2011)
 
   22 Jun 2011; James Rowe <jnrowe@gmail.com> +attest-0.5.2.ebuild,
