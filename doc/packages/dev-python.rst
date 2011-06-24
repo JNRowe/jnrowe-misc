@@ -25,6 +25,14 @@
 
   * `0.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/async/async-0.6.1.ebuild>`__  ``amd64``, ``x86``
 
+* ``attest`` - http://pypi.python.org/pypi/Attest/
+
+ * Modern, Pythonic unit testing
+ * Licence: ``BSD-2``
+ * Versions:
+
+  * `0.5.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/attest/attest-0.5.2.ebuild>`__  ``~amd64`` (due 2011-07-22)
+
 * ``benchmarker`` - http://pypi.python.org/pypi/Benchmarker/
 
  * A small utility to benchmark your Python code
@@ -49,6 +57,14 @@
 
   * `0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/clevercss/clevercss-0.1.ebuild>`__  ``amd64``, ``x86``
 
+* ``cloud_sptheme`` - http://pypi.python.org/pypi/cloud_sptheme/
+
+ * A nice sphinx theme named 'Cloud', and some related extensions
+ * Licence: ``BSD``
+ * Versions:
+
+  * `1.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.1.ebuild>`__  ``~amd64`` (due 2011-07-22)
+
 * ``colorama`` - http://pypi.python.org/pypi/colorama/
 
  * Cross-platform colored terminal text
@@ -56,6 +72,7 @@
  * Versions:
 
   * `0.1.18 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/colorama/colorama-0.1.18.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/colorama/colorama-0.2.3.ebuild>`__  ``~amd64`` (due 2011-07-22), ``~x86`` (due 2011-07-22)
 
 * ``commandlineapp`` - http://pypi.python.org/pypi/CommandLineApp/
 
@@ -160,7 +177,7 @@
  * Versions:
 
   * `0.4.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.4.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.4.1.ebuild>`__  ``~amd64`` (due 2011-06-23), ``~x86`` (due 2011-06-23)
+  * `0.4.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.4.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-23)
 
 * ``gpxdata`` - http://www.kette-links.de/technik.php?lang=en
 
@@ -305,6 +322,7 @@
  * Versions:
 
   * `0.8.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/plac/plac-0.8.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.9.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/plac/plac-0.9.0.ebuild>`__  ``~amd64`` (due 2011-07-22), ``~x86`` (due 2011-07-22)
 
 * ``pwtools`` - http://alastairs-place.net/pwtools/
 
@@ -490,6 +508,7 @@
  * Versions:
 
   * `0.4.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.4.0.ebuild>`__  ``amd64``, ``x86``
+  * `0.5.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.5.0.ebuild>`__  ``~amd64`` (due 2011-07-22), ``~x86`` (due 2011-07-22)
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 

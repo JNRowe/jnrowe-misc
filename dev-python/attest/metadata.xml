@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Attest is a unit testing framework built from the ground up with
+		idiomatic Python in mind. Unlike others, it is not built on top
+		of unittest though it provides compatibility by creating
+		TestSuites from Attest collections.
+
+		It has a functional API inspired by <pkg>dev-python/flask</pkg>
+		and a class-based API that mimics Python itself. The core avoids
+		complicated assumptions leaving you free to write tests however
+		you prefer.
+	</longdescription>
+	<upstream>
+		<doc lang="en">http://packages.python.org/Attest/</doc>
+		<remote-id type="pypi">Attest</remote-id>
+		<changelog>https://github.com/dag/attest/blob/master/CHANGES.rst#readme</changelog>
+		<bugs-to>https://github.com/dag/attest/issues</bugs-to>
+	</upstream>
+</pkgmetadata>

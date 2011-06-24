@@ -15,3 +15,5 @@ media-tv/ontv:xmltv - XMLTV is probably required for downloading TV listings, do
 sci-geosciences/osm-gps-map:introspection - Use dev-libs/gobject-introspection for introspection
 x11-misc/winwrangler:daemon - Enable support for winwrangler hotkey daemon
 x11-themes/notify-osd-icons:png-icons - Build and install PNG icons, in addition to SVG.
+x11-wm/wmfs:imlib2 - Enable support for images
+x11-wm/wmfs:xrandr - Enable support for the Xrandr extension

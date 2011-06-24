@@ -1,5 +1,6 @@
+import datetime
+
 from collections import defaultdict
-from datetime import datetime
 
 from cake.helpers import task
 from cake.lib import puts
@@ -14,7 +15,7 @@ def gen_removals():
     removals = defaultdict(list)
     for chunk in filter(lambda s: "\n# X-Removal: " in s, chunks):
         data = chunk[chunk.index("X-Removal"):].split("\n")
-        removal_date = datetime.strptime(data[0][11:], "%Y-%m-%d")
+        removal_date = datetime.datetime.strptime(data[0][11:], "%Y-%m-%d")
         removals[removal_date].append(data[1:])
 
     with open("support/removal.org", "w") as file:
