@@ -17,6 +17,14 @@
 
   * `0.1.3 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/hammertime/hammertime-0.1.3.ebuild>`__  ``amd64``, ``x86``
 
+* ``hubugs`` - http://pypi.python.org/pypi/hubugs/
+
+ * Simple client for GitHub issues
+ * Licence: ``GPL-3``
+ * Versions:
+
+  * `0.9.1 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/hubugs/hubugs-0.9.1.ebuild>`__  ``~amd64`` (due 2011-07-24)
+
 * ``jsonpipe`` - http://pypi.python.org/pypi/jsonpipe/
 
  * Convert JSON to a UNIX-friendly line-based format
