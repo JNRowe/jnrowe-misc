@@ -8,7 +8,7 @@
  * Versions:
 
   * `0.5.5 <https://github.com/JNRowe/misc-overlay/blob/master/www-client/cupage/cupage-0.5.5.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.6 <https://github.com/JNRowe/misc-overlay/blob/master/www-client/cupage/cupage-0.5.6.ebuild>`__  ``~amd64`` (due 2011-06-24), ``~x86`` (due 2011-06-24)
+  * `0.5.6 <https://github.com/JNRowe/misc-overlay/blob/master/www-client/cupage/cupage-0.5.6.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-24)
 
 * ``github-cli`` - http://pypi.python.org/pypi/github-cli/
 
