@@ -14,8 +14,7 @@ inherit base distutils eutils toolchain-funcs elisp-common bash-completion \
 
 if [[ ${PV} == "9999" ]]; then
 	EGIT_REPO_URI="git://notmuchmail.org/git/${PN}"
-	EGIT_BRANCH="master"
-	inherit git
+	inherit git-2
 	SRC_URI=""
 else
 	SRC_URI="http://notmuchmail.org/releases/${P}.tar.gz"
@@ -47,13 +46,14 @@ DOCS=(debian/changelog AUTHORS NEWS README TODO)
 
 src_unpack() {
 	# Call default explicitly, to avoid ruby-ng's src_unpack.
-	default
+	if [[ ${PV} == 9999 ]]; then
+		git-2_src_unpack
+	else
+		default
+	fi
 }
 
 src_prepare() {
-	if [[ ${PV} == 9999 ]]; then
-		git_src_prepare
-	fi
 	# Fixes for builds without emacs, needs fixing upstream
 	use emacs || epatch "${FILESDIR}"/${P}-optional_emacs.patch
 	# We'll process the completion/emacs stuff manually, as it should be
