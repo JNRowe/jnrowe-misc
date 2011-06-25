@@ -4,7 +4,7 @@
 
 EAPI="3"
 
-inherit autotools base bash-completion eutils git
+inherit autotools base bash-completion eutils git-2
 
 EGIT_REPO_URI="git://git.debian.org/surfraw/surfraw.git"
 
