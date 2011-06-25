@@ -3,8 +3,9 @@
 # $Header: $
 
 EAPI="2"
+USE_RUBY="ruby18"
 
-inherit bash-completion ruby
+inherit bash-completion ruby-ng
 
 if [[ ${PV} == "9999" ]]; then
 	EGIT_REPO_URI="git://gitorious.org/ditz/mainline.git"
@@ -26,14 +27,18 @@ IUSE="zsh-completion"
 DEPEND=""
 RDEPEND="dev-ruby/trollop"
 
-USE_RUBY="ruby18"
-
-src_install() {
+each_ruby_install() {
 	${RUBY} setup.rb config --prefix=/usr --mandir=/usr/share/man/man1 \
 		|| die "setup.rb config failed"
 	${RUBY} setup.rb install --prefix="${D}" \
 		|| die "setup.rb install failed"
 	find "${D}" -name trollop.rb -exec rm {} \;
+}
+
+src_install() {
+	ruby-ng_src_install
+
+	pushd "${WORKDIR}"/all/${P} >/dev/null
 	dodoc Changelog PLUGINS.txt README.txt ReleaseNotes || die "dodoc failed"
 
 	dobashcompletion contrib/completion/${PN}.bash ${PN}
@@ -41,4 +46,5 @@ src_install() {
 		insinto /usr/share/zsh/site-functions
 		newins contrib/completion/_ditz.zsh _ditz || die "newins failed"
 	fi
+	popd >/dev/null
 }
