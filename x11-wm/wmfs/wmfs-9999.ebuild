@@ -4,7 +4,7 @@
 
 EAPI=3
 
-inherit base git
+inherit base git-2
 
 EGIT_REPO_URI="git://git.${PN}.info/${PN}.git"
 
