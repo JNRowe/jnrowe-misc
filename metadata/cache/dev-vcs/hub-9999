@@ -1,4 +1,4 @@
-=dev-lang/ruby-1.8* >=dev-vcs/git-1.6
+=dev-lang/ruby-1.8* dev-vcs/git
 =dev-lang/ruby-1.8*
 0
 
@@ -7,14 +7,14 @@ https://github.com/defunkt/hub
 MIT
 hub is a command line utility which adds GitHub knowledge to git
 
-eutils git multilib portability ruby toolchain-funcs
+eutils git-2 multilib portability ruby toolchain-funcs
 
 
 
 
 2
 
-compile install prepare unpack
+compile install unpack
 
 
 
