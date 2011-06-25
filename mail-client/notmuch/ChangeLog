@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  25 Jun 2011; James Rowe <jnrowe@gmail.com>
+  -files/notmuch-0.4-optional_emacs.patch:
+  Removed obsolete patch.
+
   25 Jun 2011; James Rowe <jnrowe@gmail.com> notmuch-9999.ebuild:
   Fix optional emacs in git ebuild.
 
