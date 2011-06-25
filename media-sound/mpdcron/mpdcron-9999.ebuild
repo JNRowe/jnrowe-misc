@@ -5,9 +5,9 @@
 EAPI=2
 
 if [[ ${PV} == "9999" ]]; then
-	EGIT_REPO_URI="git://github.com/alip/mpdcron.git"
-	EGIT_BRANCH="master"
-	inherit autotools git
+	EGIT_REPO_URI="git://github.com/alip/mpdcron.git
+		http://github.com/alip/mpdcron.git"
+	inherit autotools git-2
 	SRC_URI=""
 else
 	SRC_URI="http://dev.exherbo.org/~alip/mpdcron/${P}.tar.bz2"
@@ -35,7 +35,6 @@ DEPEND="${RDEPEND}
 
 src_prepare() {
 	if [[ ${PV} == 9999 ]]; then
-		git_src_prepare
 		eautoreconf
 	fi
 }
