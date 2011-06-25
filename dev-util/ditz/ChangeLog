@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  25 Jun 2011; James Rowe <jnrowe@gmail.com> ditz-0.5-r1.ebuild,
+  ditz-9999.ebuild:
+  Switched to git-2 eclass.
+
   12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:
   Added watch file for package updates.
 
