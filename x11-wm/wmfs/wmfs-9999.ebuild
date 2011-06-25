@@ -19,9 +19,9 @@ IUSE="+imlib2 xinerama xrandr"
 
 DEPEND="x11-libs/libX11
 	x11-libs/libXft
+	x11-libs/libXinerama
 	imlib2? ( media-libs/imlib2 )
-	xrandr? ( x11-libs/libXrandr )
-	xinerama? ( x11-libs/libXinerama )"
+	xrandr? ( x11-libs/libXrandr )"
 RDEPEND="${DEPEND}"
 
 DOCS=("README")
@@ -31,8 +31,7 @@ src_configure() {
 	./configure --prefix "/usr" --xdg-config-dir "/etc/xdg" \
 		--man-prefix "/usr/share/man" \
 		$(use_with imlib2) \
-		$(use_with xrandr) \
-		$(use_with xinerama)
+		$(use_with xrandr)
 }
 
 src_compile() {
