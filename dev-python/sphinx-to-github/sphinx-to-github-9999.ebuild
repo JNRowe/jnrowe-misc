@@ -7,9 +7,10 @@ SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="2"
 RESTRICT_PYTHON_ABIS="3.*"
 
-inherit distutils git
+inherit distutils git-2
 
-EGIT_REPO_URI="git://github.com/michaeljones/${PN}.git"
+EGIT_REPO_URI="git://github.com/michaeljones/${PN}.git
+	http://github.com/michaeljones/${PN}.git"
 
 DESCRIPTION="Script to prepare Sphinx html output for github pages"
 HOMEPAGE="https://github.com/michaeljones/sphinx-to-github"

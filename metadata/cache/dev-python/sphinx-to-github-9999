@@ -1,4 +1,4 @@
-dev-python/setuptools >=app-admin/eselect-python-20091230 =dev-lang/python-2* >=dev-vcs/git-1.6
+dev-python/setuptools >=app-admin/eselect-python-20091230 =dev-lang/python-2* dev-vcs/git
 dev-python/sphinx >=app-admin/eselect-python-20091230 =dev-lang/python-2*
 0
 
@@ -7,7 +7,7 @@ https://github.com/michaeljones/sphinx-to-github
 BSD
 Script to prepare Sphinx html output for github pages
 
-distutils eutils git multilib portability python toolchain-funcs
+distutils git-2 multilib python toolchain-funcs
 
 
 
