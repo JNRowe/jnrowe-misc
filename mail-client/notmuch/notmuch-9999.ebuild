@@ -54,8 +54,6 @@ src_prepare() {
 	if [[ ${PV} == 9999 ]]; then
 		git_src_prepare
 	fi
-	# Fixes for builds without emacs, needs fixing upstream
-	use emacs || epatch "${FILESDIR}"/${P}-optional_emacs.patch
 	# We'll process the completion/emacs stuff manually, as it should be
 	# conditional
 	sed -i '/^subdirs/s, completion emacs , ,' Makefile
