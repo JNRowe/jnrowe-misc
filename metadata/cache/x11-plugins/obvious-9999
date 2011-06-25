@@ -1,4 +1,4 @@
->=dev-vcs/git-1.6
+dev-vcs/git
 dev-lua/luasocket media-sound/alsa-utils sys-power/acpi x11-wm/awesome
 0
 
@@ -7,14 +7,14 @@ http://awesome.naquadah.org/wiki/Obvious
 MIT BSD
 A set of widgets for x11-wm/awesome that provide helpful information.
 
-eutils git multilib portability toolchain-funcs
+git-2 portability
 
 
 
 
 2
 
-install prepare unpack
+install unpack
 
 
 
