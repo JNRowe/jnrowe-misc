@@ -3,6 +3,9 @@
 # $Header: $
 
   25 Jun 2011; James Rowe <jnrowe@gmail.com> hub-9999.ebuild:
+  Switched to ruby-ng eclass.
+
+  25 Jun 2011; James Rowe <jnrowe@gmail.com> hub-9999.ebuild:
   Switched to git-2 eclass.
 
   12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:

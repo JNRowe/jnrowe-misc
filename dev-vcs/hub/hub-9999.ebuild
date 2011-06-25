@@ -3,11 +3,11 @@
 # $Header: $
 
 EAPI="2"
-
-inherit ruby git-2
-
+USE_RUBY="ruby18"
 EGIT_REPO_URI="git://github.com/defunkt/${PN}.git
 	http://github.com/defunkt/${PN}.git"
+
+inherit ruby-ng git-2
 
 DESCRIPTION="hub is a command line utility which adds GitHub knowledge to git"
 HOMEPAGE="https://github.com/defunkt/hub"
@@ -21,9 +21,12 @@ IUSE=""
 DEPEND=""
 RDEPEND=""
 
-USE_RUBY="ruby18"
+src_unpack() {
+	git-2_src_unpack
+	mv ${P} all || die "mv failed"
+}
 
-src_install() {
+each_ruby_install() {
 	local SITEDIR=$(${RUBY} -r rbconfig -e 'print Config::CONFIG["sitedir"]')
 
 	dobin bin/${PN} || die "dobin failed"
@@ -35,6 +38,4 @@ src_install() {
 	insinto ${SITEDIR}/${PN}
 	doins hub/*.rb || die "doins hub/*.rb failed"
 	cd ..
-
-	erubydoc
 }
