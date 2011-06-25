@@ -5,6 +5,9 @@
   25 Jun 2011; James Rowe <jnrowe@gmail.com> notmuch-gtk-9999.ebuild:
   Fixed depend ordering.
 
+  25 Jun 2011; James Rowe <jnrowe@gmail.com> notmuch-gtk-9999.ebuild:
+  Switched to git-2 eclass.
+
   02 Mar 2011; James Rowe <jnrowe@gmail.com> notmuch-gtk-9999.ebuild:
   Slot GTK+ dependency.
 

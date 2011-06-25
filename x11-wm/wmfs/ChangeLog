@@ -5,6 +5,9 @@
   25 Jun 2011; James Rowe <jnrowe@gmail.com> wmfs-9999.ebuild:
   Hard depend on xinerama.
 
+  25 Jun 2011; James Rowe <jnrowe@gmail.com> wmfs-9999.ebuild:
+  Switched to git-2 eclass.
+
 *wmfs-9999 (22 Jun 2011)
 
   22 Jun 2011; James Rowe <jnrowe@gmail.com> +wmfs-9999.ebuild, +metadata.xml,

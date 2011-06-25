@@ -4,9 +4,10 @@
 
 EAPI="2"
 
-inherit git eutils
+inherit git-2 eutils
 
-EGIT_REPO_URI="git://github.com/zigdon/${PN}.git"
+EGIT_REPO_URI="git://github.com/zigdon/${PN}.git
+	http://github.com/zigdon/${PN}.git"
 
 DESCRIPTION="An irssi script allowing the use of Twitter from within irssi"
 HOMEPAGE="http://www.twirssi.com/"

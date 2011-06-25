@@ -4,7 +4,7 @@
 
 EAPI="2"
 
-inherit git portability
+inherit git-2 portability
 
 EGIT_REPO_URI="git://git.mercenariesguild.net/${PN}.git"
 

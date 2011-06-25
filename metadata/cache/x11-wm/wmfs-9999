@@ -1,4 +1,4 @@
-x11-libs/libX11 x11-libs/libXft x11-libs/libXinerama imlib2? ( media-libs/imlib2 ) xrandr? ( x11-libs/libXrandr ) >=dev-vcs/git-1.6
+x11-libs/libX11 x11-libs/libXft x11-libs/libXinerama imlib2? ( media-libs/imlib2 ) xrandr? ( x11-libs/libXrandr ) dev-vcs/git
 x11-libs/libX11 x11-libs/libXft x11-libs/libXinerama imlib2? ( media-libs/imlib2 ) xrandr? ( x11-libs/libXrandr )
 0
 
@@ -7,7 +7,7 @@ http://www.wmfs.info
 BSD
 Windows Manager From Scratch
 
-base eutils git multilib portability toolchain-funcs
+base eutils git-2 multilib portability toolchain-funcs
 +imlib2 xinerama xrandr
 
 

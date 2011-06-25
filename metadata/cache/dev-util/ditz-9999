@@ -1,4 +1,4 @@
-ruby_targets_ruby18? ( dev-lang/ruby:1.8 ) >=dev-vcs/git-1.6
+ruby_targets_ruby18? ( dev-lang/ruby:1.8 ) dev-vcs/git
 dev-ruby/trollop bash-completion? ( app-admin/eselect ) ruby_targets_ruby18? ( dev-lang/ruby:1.8 )
 0
 
@@ -7,7 +7,7 @@ http://ditz.rubyforge.org
 GPL-3
 A simple, light-weight distributed issue tracker designed for dVCS
 
-bash-completion eutils git multilib portability ruby-ng toolchain-funcs
+bash-completion eutils git-2 multilib portability ruby-ng toolchain-funcs
 zsh-completion bash-completion ruby_targets_ruby18
 
 bash-completion? ( app-shells/bash-completion )

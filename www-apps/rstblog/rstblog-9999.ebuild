@@ -10,10 +10,11 @@ PYTHON_DEPEND="2:2.6"
 # 2.5 is restricted due to context managers without __future__ import
 # 3.x is restricted due to Unicode handling
 RESTRICT_PYTHON_ABIS="2.[45] 3.*"
-EGIT_REPO_URI="git://github.com/mitsuhiko/${PN}.git"
-EGIT_BRANCH="master"
 
-inherit git distutils eutils
+EGIT_REPO_URI="git://github.com/mitsuhiko/${PN}.git
+	http://github.com/mitsuhiko/${PN}.git"
+
+inherit git-2 distutils eutils
 
 DESCRIPTION="Static site generator using reST for input"
 HOMEPAGE="https://github.com/mitsuhiko/${PN}"

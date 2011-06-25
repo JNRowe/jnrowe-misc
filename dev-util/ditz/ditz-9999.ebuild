@@ -8,9 +8,11 @@ USE_RUBY="ruby18"
 inherit bash-completion ruby-ng
 
 if [[ ${PV} == "9999" ]]; then
-	EGIT_REPO_URI="git://gitorious.org/ditz/mainline.git"
+	EGIT_REPO_URI="git://gitorious.org/ditz/mainline.git
+		https://git.gitorious.org/ditz/mainline.git"
+	EGIT_PROJECT=${PN}
 	EGIT_BRANCH="master"
-	inherit git
+	inherit git-2
 	SRC_URI=""
 else
 	SRC_URI="mirror://rubyforge/${PN}/${P}.tgz"

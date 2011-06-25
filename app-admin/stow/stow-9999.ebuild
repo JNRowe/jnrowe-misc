@@ -4,7 +4,7 @@
 
 EAPI=3
 
-inherit base git
+inherit base git-2
 
 EGIT_REPO_URI="git://git.savannah.gnu.org/${PN}.git"
 

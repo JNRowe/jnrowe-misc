@@ -5,6 +5,10 @@
   25 Jun 2011; James Rowe <jnrowe@gmail.com> notmuch-9999.ebuild:
   Fix optional emacs in git ebuild.
 
+  25 Jun 2011; James Rowe <jnrowe@gmail.com> notmuch-0.5.ebuild,
+  notmuch-9999.ebuild:
+  Switched to git-2 eclass.
+
   12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:
   Added watch file for package updates.
 

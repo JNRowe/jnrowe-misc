@@ -2,11 +2,12 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI=3
 
-inherit eutils git
+inherit eutils git-2
 
-EGIT_REPO_URI="git://github.com/baruch/${PN}.git"
+EGIT_REPO_URI="git://github.com/baruch/${PN}.git
+	http://github.com/baruch/${PN}.git"
 
 DESCRIPTION="A Gtk+ interface to the notmuch mail client."
 HOMEPAGE="http://baruch.github.com/${PN}"
@@ -18,7 +19,7 @@ KEYWORDS=""
 IUSE=""
 
 RDEPEND="x11-libs/gtk+:2"
-DEPEND="dev-lang/vala
+DEPEND="dev-lang/vala:0.10
 	dev-libs/libgee
 	${RDEPEND}"
 
