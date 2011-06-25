@@ -5,9 +5,10 @@
 EAPI=3
 
 # Not using perl-module eclass, because it breaks builds on parasys.
-inherit git
+inherit git-2
 
-EGIT_REPO_URI="git://github.com/bestpractical/${PN}.git"
+EGIT_REPO_URI="git://github.com/bestpractical/${PN}.git
+	http://github.com/bestpractical/${PN}.git"
 
 DESCRIPTION="A tool to synchronize multiple git repositories"
 HOMEPAGE="https://github.com/bestpractical/git-sync"
