@@ -4,9 +4,10 @@
 
 EAPI="2"
 
-inherit git
+inherit git-2
 
-EGIT_REPO_URI="git://github.com/defunkt/gist.git"
+EGIT_REPO_URI="git://github.com/defunkt/gist.git
+	http://github.com/defunkt/gist.git"
 
 DESCRIPTION="Absolutely the best command line gister"
 HOMEPAGE="https://github.com/defunkt/gist"

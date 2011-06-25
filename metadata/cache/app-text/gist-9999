@@ -1,4 +1,4 @@
->=dev-vcs/git-1.6
+dev-vcs/git
 dev-lang/ruby
 0
 
@@ -7,14 +7,14 @@ https://github.com/defunkt/gist
 MIT
 Absolutely the best command line gister
 
-eutils git multilib portability toolchain-funcs
+git-2
 
 
 
 
 2
 
-install prepare unpack
+install unpack
 
 
 
