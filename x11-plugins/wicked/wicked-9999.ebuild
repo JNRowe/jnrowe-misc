@@ -4,7 +4,7 @@
 
 EAPI="2"
 
-inherit eutils git
+inherit eutils git-2
 
 EGIT_REPO_URI="git://git.glacicle.com/awesome/${PN}.git"
 

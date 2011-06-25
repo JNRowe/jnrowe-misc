@@ -1,4 +1,4 @@
->=dev-vcs/git-1.6
+dev-vcs/git
 x11-wm/awesome
 0
 
@@ -7,7 +7,7 @@ http://awesome.naquadah.org/wiki/Wicked
 WTFPL-2
 Widget creation library for x11-wm/awesome
 
-eutils git multilib portability toolchain-funcs
+eutils git-2 multilib portability toolchain-funcs
 
 
 
