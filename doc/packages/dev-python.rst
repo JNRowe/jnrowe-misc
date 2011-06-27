@@ -73,6 +73,7 @@
 
   * `0.1.18 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/colorama/colorama-0.1.18.ebuild>`__  ``amd64``, ``x86``
   * `0.2.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/colorama/colorama-0.2.3.ebuild>`__  ``~amd64`` (due 2011-07-22), ``~x86`` (due 2011-07-22)
+  * `0.2.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/colorama/colorama-0.2.4.ebuild>`__  ``~amd64`` (due 2011-07-27), ``~x86`` (due 2011-07-27)
 
 * ``commandlineapp`` - http://pypi.python.org/pypi/CommandLineApp/
 
@@ -202,6 +203,7 @@
  * Versions:
 
   * `1.13 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/html/html-1.13.ebuild>`__  ``amd64``, ``x86``
+  * `1.14 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/html/html-1.14.ebuild>`__  ``~amd64`` (due 2011-07-27), ``~x86`` (due 2011-07-27)
 
 * ``html2data`` - http://pypi.python.org/pypi/html2data/
 
@@ -509,6 +511,7 @@
 
   * `0.4.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.4.0.ebuild>`__  ``amd64``, ``x86``
   * `0.5.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.5.0.ebuild>`__  ``~amd64`` (due 2011-07-22), ``~x86`` (due 2011-07-22)
+  * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.5.1.ebuild>`__  ``~amd64`` (due 2011-07-27), ``~x86`` (due 2011-07-27)
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
