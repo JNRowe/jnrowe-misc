@@ -29,6 +29,7 @@
 * dev-python/github2-0.5.0                   x86 SCHEDULED: <2011-07-24 Sun>
 * app-misc/hubugs-0.9.1                    amd64 SCHEDULED: <2011-07-24 Sun>
 * app-misc/hubugs-0.9.1                      x86 SCHEDULED: <2011-07-27 Wed>
+* dev-python/attest-0.5.2                    x86 SCHEDULED: <2011-07-27 Wed>
 * dev-util/ditz-0.5-r1                       x86 SCHEDULED: <2011-08-05 Fri>
 * dev-util/ditz-0.5-r1                     amd64 SCHEDULED: <2011-08-05 Fri>
 * dev-python/rstctl-0.4                    amd64 SCHEDULED: <2011-08-08 Mon>
