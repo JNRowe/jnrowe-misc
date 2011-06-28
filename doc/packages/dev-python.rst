@@ -586,14 +586,6 @@
 
   * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/vanity/vanity-1.0.ebuild>`__  ``amd64``, ``x86``
 
-* ``virtualenv5`` - http://pypi.python.org/pypi/virtualenv5/
-
- * Virtual Python 3 Environment builder
- * Licence: ``MIT``
- * Versions:
-
-  * `1.3.4.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/virtualenv5/virtualenv5-1.3.4.5.ebuild>`__  ``amd64``, ``x86``
-
 * ``virtualenvwrapper`` - http://pypi.python.org/pypi/virtualenvwrapper/
 
  * Extensions for virtualenv
