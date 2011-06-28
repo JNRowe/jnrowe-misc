@@ -541,7 +541,7 @@
  * Versions:
 
   * `0.9 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/tox/tox-0.9.ebuild>`__  ``amd64``, ``x86``
-  * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/tox/tox-1.0.ebuild>`__  ``~amd64`` (due 2011-06-28), ``~x86`` (due 2011-06-28)
+  * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/tox/tox-1.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-06-28)
 
 * ``tweepy`` - http://pypi.python.org/pypi/tweepy/
 

@@ -1,6 +1,5 @@
 * dev-python/github2-0.4.1                   x86 SCHEDULED: <2011-06-23 Thu>
 * www-client/cupage-0.5.6                    x86 SCHEDULED: <2011-06-24 Fri>
-* dev-python/tox-1.0                       amd64 SCHEDULED: <2011-06-28 Tue>
 * dev-python/tox-1.0                         x86 SCHEDULED: <2011-06-28 Tue>
 * app-text/sphinxcontrib-httpdomain-1.0    amd64 SCHEDULED: <2011-07-02 Sat>
 * dev-python/pycparser-2.04                amd64 SCHEDULED: <2011-07-07 Thu>
