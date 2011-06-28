@@ -24,6 +24,7 @@
  * Versions:
 
   * `0.9.1 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/hubugs/hubugs-0.9.1.ebuild>`__  ``~amd64`` (due 2011-07-24), ``~x86`` (due 2011-07-27)
+  * `0.10.0 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/hubugs/hubugs-0.10.0.ebuild>`__  ``~amd64`` (due 2011-07-28), ``~x86`` (due 2011-07-28)
 
 * ``jsonpipe`` - http://pypi.python.org/pypi/jsonpipe/
 
