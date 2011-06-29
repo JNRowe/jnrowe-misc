@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription lang="en">
+		rstSpreadsheet provides the spreadsheet directive for
+		reStructuredText. You can use it from
+		<pkg>dev-python/docutils</pkg> or
+		<pkg>dev-python/sphinx</pkg>. Any python function/module can be
+		used to calculate the cell value.
+	</longdescription>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">rstspreadsheet</remote-id>
+		<doc lang="en">http://tkf.bitbucket.org/rstspreadsheet-doc/</doc>
+		<bugs-to>https://bitbucket.org/tkf/restructured-spreadsheet/issues</bugs-to>
+	</upstream>
+</pkgmetadata>

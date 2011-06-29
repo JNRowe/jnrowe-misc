@@ -9,6 +9,14 @@
 
   * `9999 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/gist/gist-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
 
+* ``rstspreadsheet`` - http://pypi.python.org/pypi/rstspreadsheet/
+
+ * Spreadsheet directive for docutils and Sphinx.
+ * Licence: ``MIT``
+ * Versions:
+
+  * `0.1.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/rstspreadsheet/rstspreadsheet-0.1.2.ebuild>`__  ``~amd64`` (due 2011-07-29)
+
 * ``sphinxcontrib-httpdomain`` - http://packages.python.org/sphinxcontrib-httpdomain/
 
  * dev-python/sphinx extension to document HTTP APIs
