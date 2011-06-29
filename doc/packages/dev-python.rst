@@ -213,6 +213,14 @@
 
   * `0.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/html2data/html2data-0.3.ebuild>`__  ``amd64``, ``x86``
 
+* ``httpretty`` - http://pypi.python.org/pypi/httpretty/
+
+ * HTTP client mocking tool for Python
+ * Licence: ``MIT``
+ * Versions:
+
+  * `0.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/httpretty/httpretty-0.3.ebuild>`__  ``~amd64`` (due 2011-07-29)
+
 * ``interlude`` - https://svn.bluedynamics.eu/svn/public/interlude/
 
  * Provides an interactive console for doctests

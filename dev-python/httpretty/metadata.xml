@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		HTTPretty is a HTTP client mock library for Python 100% inspired
+		by <pkg>dev-ruby/fakeweb</pkg>.
+
+		HTTPretty monkey matches Python's socket core module,
+		reimplementing the HTTP protocol, by mocking requests and
+		responses.
+
+		As for it works in this way, you don't need to worry what http
+		library you're gonna use.
+
+		HTTPretty will mock the response for you :) (and also give you
+		the latest requests so that you can check them)
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">httpretty</remote-id>
+		<bugs-to>https://github.com/gabrielfalcao/httpretty/issues</bugs-to>
+	</upstream>
+</pkgmetadata>
