@@ -29,13 +29,19 @@ src_unpack() {
 each_ruby_install() {
 	local SITEDIR=$(${RUBY} -r rbconfig -e 'print Config::CONFIG["sitedir"]')
 
-	dobin bin/${PN} || die "dobin failed"
-	doman man/${PN}.1 || die "doman failed"
-
 	cd lib
 	insinto ${SITEDIR}
 	doins ${PN}.rb || die "doins ${PN}.rb failed"
 	insinto ${SITEDIR}/${PN}
 	doins hub/*.rb || die "doins hub/*.rb failed"
 	cd ..
+}
+
+src_install() {
+	cd all
+	dobin bin/${PN} || die "dobin failed"
+	doman man/${PN}.1 || die "doman failed"
+	dodoc README.md
+
+	ruby-ng_src_install
 }
