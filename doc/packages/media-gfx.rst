@@ -83,3 +83,11 @@
 
   * `0.4 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/sphinxcontrib-mscgen/sphinxcontrib-mscgen-0.4.ebuild>`__  ``~amd64`` (due 2011-08-27), ``~x86`` (due 2011-08-27)
 
+* ``sxiv`` - https://github.com/muennich/sxiv/
+
+ * Simple (or small or suckless) X Image Viewer
+ * Licence: ``GPL-2``
+ * Versions:
+
+  * `0.8.2 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/sxiv/sxiv-0.8.2.ebuild>`__  ``~amd64`` (due 2011-07-29)
+
