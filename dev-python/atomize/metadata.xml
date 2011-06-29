@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		A pure-Python package for easily generating Atom Syndicated
+		Format feeds.
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">atomize</remote-id>
+		<bugs-to>http://code.google.com/p/atomize/issues/list</bugs-to>
+	</upstream>
+</pkgmetadata>

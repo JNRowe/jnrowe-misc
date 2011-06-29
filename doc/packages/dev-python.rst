@@ -25,6 +25,14 @@
 
   * `0.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/async/async-0.6.1.ebuild>`__  ``amd64``, ``x86``
 
+* ``atomize`` - http://pypi.python.org/pypi/atomize/
+
+ * A simple Python package for easily generating Atom feeds
+ * Licence: ``EPL-1.0``
+ * Versions:
+
+  * `0.1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/atomize/atomize-0.1.0.ebuild>`__  ``~amd64`` (due 2011-07-29)
+
 * ``attest`` - http://pypi.python.org/pypi/Attest/
 
  * Modern, Pythonic unit testing
