@@ -1,0 +1,10 @@
+# ChangeLog for app-misc/repl
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*repl-0.2.1 (29 Jun 2011)
+
+  29 Jun 2011; James Rowe <jnrowe@gmail.com> +repl-0.2.1.ebuild, +metadata.xml,
+  +watch:
+  Initial ebuild, by me [408].
+

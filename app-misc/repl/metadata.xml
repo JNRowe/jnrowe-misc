@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		repl wraps a non-interactive command in an interactive
+		read-eval-print-loop prompt. Each line you type into the prompt
+		is executed as arguments to command. Anything written to
+		standard output or standard error by the command is displayed.
+
+		If you have <pkg>app-misc/rlwrap</pkg> installed you'll
+		automatically get the full benefits of readline: history,
+		reverse searches, etc.
+
+		repl is meant to wrap programs which accept command line
+		arguments and print to the standard output. It keeps no state
+		between executed lines and, as such, cannot be used to replace
+		irb or the Python REPL (for example).
+	</longdescription>
+	<upstream>
+		<doc lang="en">http://defunkt.io/repl/</doc>
+		<bugs-to>https://github.com/defunkt/repl/issues</bugs-to>
+	</upstream>
+</pkgmetadata>

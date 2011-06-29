@@ -50,6 +50,14 @@
 
   * `0.1.4 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/pw/pw-0.1.4.ebuild>`__  ``amd64``, ``x86``
 
+* ``repl`` - http://defunkt.io/repl/
+
+ * Sometimes you need a repl
+ * Licence: ``MIT``
+ * Versions:
+
+  * `0.2.1 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/repl/repl-0.2.1.ebuild>`__  ``~amd64`` (due 2011-07-29)
+
 * ``sunwait`` - http://www.risacher.org/sunwait/
 
  * Tool for calculating sunrise and sunset, and sleeping until such an event.
