@@ -17,6 +17,14 @@
 
   * `0.1.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/rstspreadsheet/rstspreadsheet-0.1.2.ebuild>`__  ``~amd64`` (due 2011-07-29)
 
+* ``sphinxcontrib-ansi`` - http://packages.python.org/sphinxcontrib-ansi/
+
+ * Sphinx extension to convert ANSI colour sequences to coloured HTML output.
+ * Licence: ``BSD-2``
+ * Versions:
+
+  * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-ansi/sphinxcontrib-ansi-0.5.1.ebuild>`__  ``~amd64`` (due 2011-07-30)
+
 * ``sphinxcontrib-httpdomain`` - http://packages.python.org/sphinxcontrib-httpdomain/
 
  * dev-python/sphinx extension to document HTTP APIs
