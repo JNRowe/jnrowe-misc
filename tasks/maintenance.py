@@ -28,7 +28,7 @@ def keyword_check():
 def gen_stable(cpv):
     date = datetime.date.today() + datetime.timedelta(days=30)
     for arch in ('amd64', 'x86'):
-        print "* %-40s %5s SCHEDULED: <%s>" \
+        print "* %-41s %5s SCHEDULED: <%s>" \
               % (cpv, arch, date.strftime("%Y-%m-%d %a"))
 
 
