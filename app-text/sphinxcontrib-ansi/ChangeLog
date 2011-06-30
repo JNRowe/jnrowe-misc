@@ -3,6 +3,9 @@
 # $Header: $
 
   30 Jun 2011; James Rowe <jnrowe@gmail.com> sphinxcontrib-ansi-0.5.1.ebuild:
+  Remove duplication in PYTHON_MODNAME.
+
+  30 Jun 2011; James Rowe <jnrowe@gmail.com> sphinxcontrib-ansi-0.5.1.ebuild:
   Fixed bytecode generation.
 
 *sphinxcontrib-ansi-0.5.1 (30 Jun 2011)

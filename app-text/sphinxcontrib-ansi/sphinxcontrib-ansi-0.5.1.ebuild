@@ -25,6 +25,6 @@ DEPEND="dev-python/setuptools"
 RDEPEND="dev-python/setuptools
 	>=dev-python/sphinx-1.0"
 
-PYTHON_MODNAME="sphinxcontrib/ansi.py"
+PYTHON_MODNAME="${PN/-//}.py"
 
 DOCS="CHANGES.rst"
