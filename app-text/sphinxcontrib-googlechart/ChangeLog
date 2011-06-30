@@ -1,0 +1,10 @@
+# ChangeLog for app-text/sphinxcontrib-googlechart
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*sphinxcontrib-googlechart-0.1.2 (30 Jun 2011)
+
+  30 Jun 2011; James Rowe <jnrowe@gmail.com>
+  +sphinxcontrib-googlechart-0.1.2.ebuild, +metadata.xml, +watch:
+  Initial ebuild, by me [389].
+

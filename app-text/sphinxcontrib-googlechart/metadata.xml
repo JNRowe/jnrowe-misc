@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription lang="en">
+		This is a <pkg>dev-python/sphinx</pkg> extension which render
+		charts and graphs using the Google Chart API.
+	</longdescription>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">sphinxcontrib-googlechart</remote-id>
+		<doc lang="en">http://packages.python.org/sphinxcontrib-googlechart/</doc>
+		<bugs-to>https://bitbucket.org/birkenfeld/sphinx-contrib/issues?status=new&amp;status=open</bugs-to>
+	</upstream>
+</pkgmetadata>

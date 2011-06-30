@@ -25,6 +25,14 @@
 
   * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-ansi/sphinxcontrib-ansi-0.5.1.ebuild>`__  ``~amd64`` (due 2011-07-30)
 
+* ``sphinxcontrib-googlechart`` - http://packages.python.org/sphinxcontrib-googlechart/
+
+ * dev-python/sphinx extension to create charts using the Google API
+ * Licence: ``BSD-2``
+ * Versions:
+
+  * `0.1.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-googlechart/sphinxcontrib-googlechart-0.1.2.ebuild>`__  ``~amd64`` (due 2011-07-30)
+
 * ``sphinxcontrib-httpdomain`` - http://packages.python.org/sphinxcontrib-httpdomain/
 
  * dev-python/sphinx extension to document HTTP APIs
