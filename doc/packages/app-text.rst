@@ -43,3 +43,11 @@
   * `1.1.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-httpdomain/sphinxcontrib-httpdomain-1.1.2.ebuild>`__  ``~amd64`` (due 2011-07-07), ``~x86`` (due 2011-07-07)
   * `1.1.4 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-httpdomain/sphinxcontrib-httpdomain-1.1.4.ebuild>`__  ``~amd64`` (due 2011-07-22), ``~x86`` (due 2011-07-22)
 
+* ``sphinxcontrib-issuetracker`` - http://packages.python.org/sphinxcontrib-issuetracker/
+
+ * dev-python/sphinx extension to create links to issue trackers
+ * Licence: ``BSD-2``
+ * Versions:
+
+  * `0.7.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-issuetracker/sphinxcontrib-issuetracker-0.7.2.ebuild>`__  ``~amd64`` (due 2011-07-30)
+

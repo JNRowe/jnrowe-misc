@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription lang="en">
+		This <pkg>dev-python/sphinx</pkg> extension parses textual issue
+		references like #10 and turns these into references into an
+		issue tracker.
+	</longdescription>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">sphinxcontrib-issuetracker</remote-id>
+		<doc lang="en">http://packages.python.org/sphinxcontrib-issuetracker/</doc>
+		<bugs-to>https://bitbucket.org/birkenfeld/sphinx-contrib/issues?status=new&amp;status=open</bugs-to>
+	</upstream>
+</pkgmetadata>

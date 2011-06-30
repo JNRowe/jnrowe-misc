@@ -45,6 +45,7 @@
 * sci-geosciences/gpxviewer-python-0.4.2   amd64 SCHEDULED: <2011-07-30 Sat>
 * app-text/sphinxcontrib-ansi-0.5.1        amd64 SCHEDULED: <2011-07-30 Sat>
 * app-text/sphinxcontrib-googlechart-0.1.2 amd64 SCHEDULED: <2011-07-30 Sat>
+* app-text/sphinxcontrib-issuetracker-0.7.2 amd64 SCHEDULED: <2011-07-30 Sat>
 * dev-util/ditz-0.5-r1                       x86 SCHEDULED: <2011-08-05 Fri>
 * dev-util/ditz-0.5-r1                     amd64 SCHEDULED: <2011-08-05 Fri>
 * dev-python/rstctl-0.4                    amd64 SCHEDULED: <2011-08-08 Mon>
