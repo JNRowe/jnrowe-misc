@@ -42,6 +42,7 @@
 * app-text/rstspreadsheet-0.1.2            amd64 SCHEDULED: <2011-07-29 Fri>
 * app-misc/repl-0.2.1                      amd64 SCHEDULED: <2011-07-29 Fri>
 * dev-python/httpretty-0.4                 amd64 SCHEDULED: <2011-07-30 Sat>
+* sci-geosciences/gpxviewer-python-0.4.2   amd64 SCHEDULED: <2011-07-30 Sat>
 * dev-util/ditz-0.5-r1                       x86 SCHEDULED: <2011-08-05 Fri>
 * dev-util/ditz-0.5-r1                     amd64 SCHEDULED: <2011-08-05 Fri>
 * dev-python/rstctl-0.4                    amd64 SCHEDULED: <2011-08-08 Mon>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		GPX Viewer is a simple app to look through your GPX trace files
+		that you have from your journeys. This application processes
+		these GPX files and then outputs useful information like Average
+		and Maximum Speeds. You are also able to see the route on a map
+		overlay.
+	</longdescription>
+	<upstream>
+		<bugs-to>https://github.com/andrewgee/gpxviewer/issues</bugs-to>
+	</upstream>
+</pkgmetadata>
