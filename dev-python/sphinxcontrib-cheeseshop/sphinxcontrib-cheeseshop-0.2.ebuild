@@ -23,4 +23,4 @@ DEPEND="dev-python/setuptools"
 RDEPEND="${DEPEND}
 	>=dev-python/sphinx-1.0"
 
-PYTHON_MODNAME="sphinxcontrib/cheeseshop.py"
+PYTHON_MODNAME="${PN/-//}.py"
