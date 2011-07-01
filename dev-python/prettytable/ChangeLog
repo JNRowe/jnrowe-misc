@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  01 Jul 2011; James Rowe <jnrowe@gmail.com> watch:
+  Fixed cupage entry.
+
 *prettytable-0.5 (01 Jul 2011)
 
   01 Jul 2011; James Rowe <jnrowe@gmail.com> +prettytable-0.5.ebuild,

@@ -1,2 +1,5 @@
-[PrettyTable]
-site = pypi
+[prettytable]
+# Can't use pypi matcher because project and archive names don't match
+url = http://pypi.python.org/simple/PrettyTable/
+select = a
+match = prettytable-[\d\.]+\.tar\.gz$
