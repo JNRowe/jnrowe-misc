@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription lang="en">
+		pepper is a flexible command-line tool for retrieving statistics
+		and generating reports from source code repositories. It ships
+		with several graphical and textual reports, and is easily
+		extendable using the Lua scripting language. pepper includes
+		support for multiple version control systems, including Git and
+		Subversion. Using native language bindings, multi-threading and
+		a local revision cache, it provides fast access to repository
+		data.
+	</longdescription>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<use>
+		<flag name='git'>Enable support for processing git repositories</flag>
+		<flag name='mercurial'>Enable support for processing mercurial repositories</flag>
+	</use>
+	<upstream>
+		<doc lang="en">http://scm-pepper.sourceforge.net/documentation/</doc>
+		<remote-id type="sourceforge">pepper</remote-id>
+		<bugs-to>http://sourceforge.net/tracker/?atid=1604684&amp;group_id=386093&amp;func=browse</bugs-to>
+	</upstream>
+</pkgmetadata>

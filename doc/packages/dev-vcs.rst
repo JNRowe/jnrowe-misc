@@ -49,3 +49,11 @@
 
   * `9999 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/hub/hub-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
 
+* ``pepper`` - http://scm-pepper.sourceforge.net/
+
+ * Retrieve statistics and generate reports from source code repositories
+ * Licence: ``GPL-3``
+ * Versions:
+
+  * `0.2.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/pepper/pepper-0.2.3.ebuild>`__  ``~amd64`` (due 2011-07-31)
+
