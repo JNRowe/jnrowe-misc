@@ -9,6 +9,14 @@
 
   * `0.5-r2 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/aafigure/aafigure-0.5-r2.ebuild>`__  ``amd64``, ``x86``
 
+* ``actdiag`` - http://pypi.python.org/pypi/actdiag/
+
+ * Generate activity-diagram image file from spec-text file
+ * Licence: ``Apache-2.0``
+ * Versions:
+
+  * `0.1.5 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/actdiag/actdiag-0.1.5.ebuild>`__  ``~amd64`` (due 2011-07-31)
+
 * ``blockdiag`` - http://pypi.python.org/pypi/blockdiag/
 
  * Generate block-diagram image files from text(like dot)
