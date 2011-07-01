@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		straight.plugin is a Python plugin loader inspired by
+		twisted.plugin with two important distinctions:
+
+		- Fewer dependencies
+		- Python 3 compatible
+
+		The system is used to allow multiple Python packages to provide
+		plugins within a namespace package, where other packages will
+		locate and utilize. The plugins themselves are modules in a
+		namespace package where the namespace identifies the plugins in
+		it for some particular purpose or intent.
+
+		For example, if I was building a log parser, I might tell users
+		that he parser will look for plugins in the `logfilter`
+		namespace. Someone else could then provide a module named
+		`logfilter.normalizedates` and my parser would find this plugin,
+		load it, and use it to filter the log entries.
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">straight.plugin</remote-id>
+		<bugs-to>https://github.com/ironfroggy/straight.plugin/issues</bugs-to>
+	</upstream>
+</pkgmetadata>

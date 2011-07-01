@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/straight-plugin
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*straight-plugin-1.1 (01 Jul 2011)
+
+  01 Jul 2011; James Rowe <jnrowe@gmail.com> +straight-plugin-1.1.ebuild,
+  +metadata.xml, +watch:
+  Initial ebuild, by me [338].
+

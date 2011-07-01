@@ -536,6 +536,14 @@
 
   * `0.1.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/story_parser/story_parser-0.1.2.ebuild>`__  ``amd64``, ``x86``
 
+* ``straight-plugin`` - http://pypi.python.org/pypi/straight.plugin/
+
+ * Simple Python plugin loader inspired by twisted.plugin
+ * Licence: ``MIT``
+ * Versions:
+
+  * `1.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/straight-plugin/straight-plugin-1.1.ebuild>`__  ``~amd64`` (due 2011-07-31)
+
 * ``sure`` - http://pypi.python.org/pypi/sure/
 
  * Assertion toolbox for python
