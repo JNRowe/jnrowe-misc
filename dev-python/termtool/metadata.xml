@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		termtool helps you write subcommand-based command line tools in
+		Python. It collects several Python libraries into a declarative
+		syntax: <pkg>dev-python/argparse</pkg>,
+		<pkg>dev-python/prettytable</pkg>,
+		<pkg>dev-python/progressbar</pkg> and logging.
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">termtool</remote-id>
+		<bugs-to>https://github.com/markpasc/termtool/issues</bugs-to>
+	</upstream>
+</pkgmetadata>

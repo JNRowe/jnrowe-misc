@@ -1,0 +1,25 @@
+From 94d3881d93c80982d4aab75e7e459cad9e30fe16 Mon Sep 17 00:00:00 2001
+From: James Rowe <jnrowe@gmail.com>
+Date: Fri, 1 Jul 2011 15:21:55 +0100
+Subject: [PATCH] Removed unused intersphinx settings.
+
+---
+ docs/conf.py |    4 +---
+ 1 files changed, 1 insertions(+), 3 deletions(-)
+
+diff --git a/docs/conf.py b/docs/conf.py
+index 821b47c..9a6de44 100644
+--- a/docs/conf.py
++++ b/docs/conf.py
+@@ -217,7 +217,5 @@ man_pages = [
+ 
+ 
+ intersphinx_mapping = {
+-    'python': ('http://python.readthedocs.org/en/latest/', None),
+-    'django': ('http://django.readthedocs.org/en/latest/', None),
+-    'sphinx': ('http://sphinx.readthedocs.org/en/latest/', None),
++    'python': ('http://python.readthedocs.org/en/latest/', None)
+ }
+-- 
+1.7.3.4
+

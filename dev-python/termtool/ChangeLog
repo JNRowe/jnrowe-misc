@@ -1,0 +1,11 @@
+# ChangeLog for dev-python/termtool
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*termtool-1.0 (01 Jul 2011)
+
+  01 Jul 2011; James Rowe <jnrowe@gmail.com> +termtool-1.0.ebuild,
+  +files/termtool-1.0-Removed_unused_intersphinx_settings.patch, +metadata.xml,
+  +watch:
+  Initial ebuild, by me [387].
+

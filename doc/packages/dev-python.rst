@@ -343,6 +343,14 @@
   * `0.8.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/plac/plac-0.8.1.ebuild>`__  ``amd64``, ``x86``
   * `0.9.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/plac/plac-0.9.0.ebuild>`__  ``~amd64`` (due 2011-07-22), ``~x86`` (due 2011-07-22)
 
+* ``prettytable`` - http://code.google.com/p/prettytable/
+
+ * Display tabular data in a visually appealing ASCII table
+ * Licence: ``BSD``
+ * Versions:
+
+  * `0.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/prettytable/prettytable-0.5.ebuild>`__  ``~amd64`` (due 2011-07-31)
+
 * ``pwtools`` - http://alastairs-place.net/pwtools/
 
  * Password generation and security checking
@@ -545,6 +553,14 @@
  * Versions:
 
   * `1.1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/termcolor/termcolor-1.1.0.ebuild>`__  ``amd64``, ``x86``
+
+* ``termtool`` - http://pypi.python.org/pypi/termtool/
+
+ * Declarative terminal tool programming
+ * Licence: ``MIT``
+ * Versions:
+
+  * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/termtool/termtool-1.0.ebuild>`__  ``~amd64`` (due 2011-07-31)
 
 * ``texttable`` - http://jefke.free.fr/coding/python/
 
