@@ -480,6 +480,14 @@
 
   * `1.0.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/showme/showme-1.0.0.ebuild>`__  ``amd64``, ``x86``
 
+* ``snot`` - http://pypi.python.org/pypi/snot/
+
+ * nosetests output colourising plugin
+ * Licence: ``MIT``
+ * Versions:
+
+  * `0.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/snot/snot-0.2.ebuild>`__  ``~amd64`` (due 2011-07-31)
+
 * ``socksipy`` - http://pypi.python.org/pypi/SocksiPy-branch/
 
  * A Python SOCKS protocol module
