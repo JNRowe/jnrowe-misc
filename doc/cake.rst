@@ -89,7 +89,42 @@ help page on GitHub` for more information.
    This task fetches the repository identifier from the ``remote.origin.url``
    setting.  See :manpage:`git-config(1)`.
 
+``portage`` support
+-------------------
+
+``gen_categories``
+''''''''''''''''''
+
+This task recreates the overlay's categories list in :file:`profiles/categories`.
+
+``gen_manifests``
+'''''''''''''''''
+
+This task will regenerate any missing, or stale, :file:`Manifest` files.
+
+.. note::
+
+   If you have a :envvar:`PORTAGE_GPG_KEY` setting in :file:`/etc/make.conf` it
+   will use that key to sign the created files.  See :manpage:`make.conf(5)` for
+   more information on :file:`Manifest` signing.
+
+``gen_news_sigs``
+'''''''''''''''''
+
+This task is used regenerate any missing, or stale, signatures for news
+files.  See the `GLEP 42`_ documentation for more information.
+
+``gen_use_local_desc``
+''''''''''''''''''''''
+
+This task generates the :file:`profiles/user.local.desc` file using the ``USE``
+flag information in each package's :file:`metadata.xml` definitions.  See
+:manpage:`egencache(1)` and the `devmanual's metadata.xml`_ documentation for
+more information.
+
 .. _Python: http://python.org/
 .. _layman: http://layman.sourceforge.net
 .. _setup help page on GitHub: http://help.github.com/set-your-user-name-email-and-github-token/
 .. _GitHub repository's: https://github.com/JNRowe/misc-overlay/
+.. _GLEP 42: http://www.gentoo.org/proj/en/glep/glep-0042.html
+.. _devmanual's metadata.xml: http://devmanual.gentoo.org/ebuild-writing/misc-files/metadata/index.html
