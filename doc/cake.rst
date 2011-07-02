@@ -131,9 +131,40 @@ flag information in each package's :file:`metadata.xml` definitions.  See
 :manpage:`egencache(1)` and the `devmanual's metadata.xml`_ documentation for
 more information.
 
+reStructuredText support
+------------------------
+
+``gen_html``
+''''''''''''
+
+This task generates HTML from all files ending in ``.rst``.  It uses the
+equivalent of the :command:`rst2html.py` command's ``--strict`` flag, and will
+fail if any errors or warnings are issued.
+
+
+``gen_sphinx_html``
+'''''''''''''''''''
+
+This task rebuilds the documentation contained in :file:`doc/` using Sphinx_.
+
+``gen_thanks``
+''''''''''''''
+
+This task is used to create :file:`doc/thanks.rst` from :file:`README.rst`, its
+purpose is to remove the necessity to manually edit both files when adding
+contributor information.
+
+``rst_check``
+'''''''''''''
+
+This task parses all files ending in ``.rst``.  It uses the equivalent of the
+:command:`rst2html.py` command's ``--strict`` flag, and will fail if any errors
+or warnings are issued.
+
 .. _Python: http://python.org/
 .. _layman: http://layman.sourceforge.net
 .. _setup help page on GitHub: http://help.github.com/set-your-user-name-email-and-github-token/
 .. _GitHub repository's: https://github.com/JNRowe/misc-overlay/
 .. _GLEP 42: http://www.gentoo.org/proj/en/glep/glep-0042.html
 .. _devmanual's metadata.xml: http://devmanual.gentoo.org/ebuild-writing/misc-files/metadata/index.html
+.. _Sphinx: http://sphinx.pocoo.org/
