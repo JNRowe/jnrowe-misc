@@ -89,6 +89,15 @@ help page on GitHub` for more information.
    This task fetches the repository identifier from the ``remote.origin.url``
    setting.  See :manpage:`git-config(1)`.
 
+``org-mode`` support
+--------------------
+
+``gen_removals``
+''''''''''''''''
+
+This task is used to generate :file:`removals.org`, see the :ref:`package.mask`
+documentation for more information.
+
 ``portage`` support
 -------------------
 

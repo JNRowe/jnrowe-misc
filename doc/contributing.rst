@@ -75,6 +75,8 @@ The format is simple enough::
    The initial ``stable date`` value is 30 days in the future, although it can
    be longer if more testing is likely to be necessary.
 
+.. _package.mask:
+
 :file:`package.mask`
 --------------------
 
