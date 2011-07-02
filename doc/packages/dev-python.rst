@@ -228,7 +228,7 @@
  * Versions:
 
   * `0.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/httpretty/httpretty-0.3.ebuild>`__  ``~amd64`` (due 2011-07-29)
-  * `0.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/httpretty/httpretty-0.4.ebuild>`__  ``~amd64`` (due 2011-07-30)
+  * `0.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/httpretty/httpretty-0.4.ebuild>`__  ``~amd64`` (due 2011-07-30), ``~x86`` (due 2011-08-01)
 
 * ``interlude`` - https://svn.bluedynamics.eu/svn/public/interlude/
 
