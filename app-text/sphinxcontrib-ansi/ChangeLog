@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  02 Jul 2011; James Rowe <jnrowe@gmail.com> sphinxcontrib-ansi-0.5.1.ebuild:
+  Keyworded ~x86.
+
   30 Jun 2011; James Rowe <jnrowe@gmail.com> sphinxcontrib-ansi-0.5.1.ebuild:
   Remove duplication in PYTHON_MODNAME.
 

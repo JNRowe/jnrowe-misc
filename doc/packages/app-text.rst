@@ -23,7 +23,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-ansi/sphinxcontrib-ansi-0.5.1.ebuild>`__  ``~amd64`` (due 2011-07-30)
+  * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-ansi/sphinxcontrib-ansi-0.5.1.ebuild>`__  ``~amd64`` (due 2011-07-30), ``~x86`` (due 2011-08-01)
 
 * ``sphinxcontrib-googlechart`` - http://packages.python.org/sphinxcontrib-googlechart/
 
