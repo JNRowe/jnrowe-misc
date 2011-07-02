@@ -115,6 +115,8 @@ A simple example from the ``ebuild`` for rad_ would be:
     # 3.x is restricted due to print command
     RESTRICT_PYTHON_ABIS="2.[45] 3.*"
 
+.. _watch files:
+
 :file:`watch` files
 -------------------
 
