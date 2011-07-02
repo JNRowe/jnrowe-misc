@@ -56,6 +56,8 @@ Of course, it is preferable to fix the underlying reason for needing a
 :envvar:`RESTRICT` definition, especially in the case of ``test`` and
 ``userpriv`` restrictions.
 
+.. _stabilisation.org:
+
 :file:`stabilisation.org`
 -------------------------
 
