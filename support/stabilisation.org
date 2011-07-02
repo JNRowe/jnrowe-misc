@@ -52,6 +52,7 @@
 * media-gfx/actdiag-0.1.5                   amd64 SCHEDULED: <2011-07-31 Sun>
 * dev-python/straight-plugin-1.1            amd64 SCHEDULED: <2011-07-31 Sun>
 * dev-vcs/pepper-0.2.3                      amd64 SCHEDULED: <2011-07-31 Sun>
+* dev-vcs/pepper-0.2.3                        x86 SCHEDULED: <2011-08-01 Mon>
 * dev-util/ditz-0.5-r1                        x86 SCHEDULED: <2011-08-05 Fri>
 * dev-util/ditz-0.5-r1                      amd64 SCHEDULED: <2011-08-05 Fri>
 * dev-python/rstctl-0.4                     amd64 SCHEDULED: <2011-08-08 Mon>
