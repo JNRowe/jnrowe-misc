@@ -161,6 +161,31 @@ This task parses all files ending in ``.rst``.  It uses the equivalent of the
 :command:`rst2html.py` command's ``--strict`` flag, and will fail if any errors
 or warnings are issued.
 
+``tasks.utils``
+---------------
+
+This module is used to provide support functionality for use in the
+:command:`cake` tasks.  The developer facing functions are described below.
+
+
+.. py:function:: newer(file1, file2) -> Bool
+
+   This function returns ``True`` if ``file1`` is newer than ``file2``.  It
+   handles the case of file arguments that don't yet exist.
+
+.. py:function:: dep(targets, sources[, mapping]) -> function
+
+   ``dep`` is designed to be used as a decorator on tasks for checking whether a
+   target needs rebuilding.  If the target is up to date the task is not run.
+
+   If the ``mappings`` argument is ``True`` then rebuilds are only performed if
+   a source is newer than a target when the the arguments are paired.  If
+   ``False`` a rebuild is performed if *any* source is a newer than a target.
+
+   :param list targets: Targets to check against
+   :param list sources: Sources to check against
+   :param bool mapping: Whether targets map directly to sources
+
 .. _Python: http://python.org/
 .. _layman: http://layman.sourceforge.net
 .. _setup help page on GitHub: http://help.github.com/set-your-user-name-email-and-github-token/
