@@ -97,5 +97,5 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `0.8.2 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/sxiv/sxiv-0.8.2.ebuild>`__  ``~amd64`` (due 2011-07-29)
+  * `0.8.2 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/sxiv/sxiv-0.8.2.ebuild>`__  ``~amd64`` (due 2011-07-29), ``~x86`` (due 2011-08-01)
 
