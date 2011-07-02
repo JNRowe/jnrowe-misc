@@ -32,6 +32,7 @@ Contents
    cupage
    contact
    contributing
+   cake
 
 Indices and tables
 ==================

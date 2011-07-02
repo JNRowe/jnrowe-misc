@@ -56,6 +56,8 @@ Of course, it is preferable to fix the underlying reason for needing a
 :envvar:`RESTRICT` definition, especially in the case of ``test`` and
 ``userpriv`` restrictions.
 
+.. _stabilisation.org:
+
 :file:`stabilisation.org`
 -------------------------
 
@@ -72,6 +74,8 @@ The format is simple enough::
 
    The initial ``stable date`` value is 30 days in the future, although it can
    be longer if more testing is likely to be necessary.
+
+.. _package.mask:
 
 :file:`package.mask`
 --------------------
@@ -114,6 +118,8 @@ A simple example from the ``ebuild`` for rad_ would be:
     # 2.5 is restricted due to except...as syntax
     # 3.x is restricted due to print command
     RESTRICT_PYTHON_ABIS="2.[45] 3.*"
+
+.. _watch files:
 
 :file:`watch` files
 -------------------
