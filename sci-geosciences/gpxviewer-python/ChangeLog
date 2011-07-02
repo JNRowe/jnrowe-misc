@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  02 Jul 2011; James Rowe <jnrowe@gmail.com> gpxviewer-python-0.4.2.ebuild:
+  Keyworded ~x86.
+
 *gpxviewer-python-0.4.2 (30 Jun 2011)
 
   30 Jun 2011; James Rowe <jnrowe@gmail.com> +gpxviewer-python-0.4.2.ebuild,
