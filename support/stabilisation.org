@@ -62,6 +62,7 @@
 * media-gfx/sxiv-0.8.2                        x86 SCHEDULED: <2011-08-01 Mon>
 * media-gfx/actdiag-0.1.5                     x86 SCHEDULED: <2011-08-01 Mon>
 * dev-python/snot-0.2                         x86 SCHEDULED: <2011-08-01 Mon>
+* dev-python/prettytable-0.5                  x86 SCHEDULED: <2011-08-01 Mon>
 * dev-util/ditz-0.5-r1                        x86 SCHEDULED: <2011-08-05 Fri>
 * dev-util/ditz-0.5-r1                      amd64 SCHEDULED: <2011-08-05 Fri>
 * dev-python/rstctl-0.4                     amd64 SCHEDULED: <2011-08-08 Mon>
