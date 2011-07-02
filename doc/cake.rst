@@ -21,6 +21,18 @@ see :ref:`watch files`.
 This task checks a :file:`watch` file exists for every package in the
 repository, see :ref:`watch files`.
 
+``layman`` support
+------------------
+
+``layman_check``
+''''''''''''''''
+
+This task performs a XML syntax check on the layman_ support files.
+
+.. note::
+   It is simply a check for "well formed-ness" as there is apparently no
+   published schema to verify ``layman`` configs against.
+
 Maintenance support tasks
 -------------------------
 
@@ -78,5 +90,6 @@ help page on GitHub` for more information.
    setting.  See :manpage:`git-config(1)`.
 
 .. _Python: http://python.org/
+.. _layman: http://layman.sourceforge.net
 .. _setup help page on GitHub: http://help.github.com/set-your-user-name-email-and-github-token/
 .. _GitHub repository's: https://github.com/JNRowe/misc-overlay/
