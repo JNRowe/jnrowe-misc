@@ -56,7 +56,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.1 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/repl/repl-0.2.1.ebuild>`__  ``~amd64`` (due 2011-07-29)
+  * `0.2.1 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/repl/repl-0.2.1.ebuild>`__  ``~amd64`` (due 2011-07-29), ``~x86`` (due 2011-08-01)
 
 * ``sunwait`` - http://www.risacher.org/sunwait/
 
