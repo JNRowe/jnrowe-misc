@@ -542,7 +542,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/straight-plugin/straight-plugin-1.1.ebuild>`__  ``~amd64`` (due 2011-07-31)
+  * `1.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/straight-plugin/straight-plugin-1.1.ebuild>`__  ``~amd64`` (due 2011-07-31), ``~x86`` (due 2011-08-01)
 
 * ``sure`` - http://pypi.python.org/pypi/sure/
 
