@@ -568,7 +568,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/termtool/termtool-1.0.ebuild>`__  ``~amd64`` (due 2011-07-31)
+  * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/termtool/termtool-1.0.ebuild>`__  ``~amd64`` (due 2011-07-31), ``~x86`` (due 2011-08-01)
 
 * ``texttable`` - http://jefke.free.fr/coding/python/
 

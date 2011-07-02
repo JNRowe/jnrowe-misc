@@ -6,7 +6,7 @@ mirror://pypi/t/termtool/termtool-1.0.zip
 http://pypi.python.org/pypi/termtool/
 MIT
 Declarative terminal tool programming
-~amd64
+~amd64 ~x86
 base distutils eutils jnrowe-pypi multilib portability python toolchain-funcs
 doc
 

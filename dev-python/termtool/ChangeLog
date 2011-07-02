@@ -5,6 +5,9 @@
   02 Jul 2011; James Rowe <jnrowe@gmail.com> termtool-1.0.ebuild:
   Keyworded ~x86.
 
+  02 Jul 2011; James Rowe <jnrowe@gmail.com> termtool-1.0.ebuild:
+  Keyworded ~x86.
+
   01 Jul 2011; James Rowe <jnrowe@gmail.com> watch:
   Fixed cupage entry for termtool.
 
