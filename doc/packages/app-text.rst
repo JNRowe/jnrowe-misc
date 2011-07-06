@@ -9,6 +9,14 @@
 
   * `9999 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/gist/gist-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
 
+* ``html2rest`` - http://pypi.python.org/pypi/html2rest
+
+ * Convert HTML to restructuredText
+ * Licence: ``MIT``
+ * Versions:
+
+  * `0.2.1 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/html2rest/html2rest-0.2.1.ebuild>`__  ``~amd64`` (due 2011-08-05)
+
 * ``rstspreadsheet`` - http://pypi.python.org/pypi/rstspreadsheet/
 
  * Spreadsheet directive for docutils and Sphinx.

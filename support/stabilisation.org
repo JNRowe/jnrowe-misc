@@ -68,6 +68,7 @@
 * dev-python/termtool-1.0                     x86 SCHEDULED: <2011-08-01 Mon>
 * dev-util/ditz-0.5-r1                        x86 SCHEDULED: <2011-08-05 Fri>
 * dev-util/ditz-0.5-r1                      amd64 SCHEDULED: <2011-08-05 Fri>
+* app-text/html2rest-0.2.1                  amd64 SCHEDULED: <2011-08-05 Fri>
 * dev-python/rstctl-0.4                     amd64 SCHEDULED: <2011-08-08 Mon>
 * dev-python/rstctl-0.4                       x86 SCHEDULED: <2011-08-08 Mon>
 * dev-python/pycparser-2.03                 amd64 SCHEDULED: <2011-08-15 Mon>
