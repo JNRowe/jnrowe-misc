@@ -3,6 +3,10 @@
 # $Header: $
 
   07 Jul 2011; James Rowe <jnrowe@gmail.com>
+  -sphinxcontrib-httpdomain-1.0.ebuild, sphinxcontrib-httpdomain-1.1.2.ebuild:
+  Keyworded x86.
+
+  07 Jul 2011; James Rowe <jnrowe@gmail.com>
   sphinxcontrib-httpdomain-1.1.2.ebuild:
   Keyworded amd64.
 
