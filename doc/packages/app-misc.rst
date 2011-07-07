@@ -32,7 +32,7 @@
  * Licence: ``public-domain``
  * Versions:
 
-  * `0.0.8 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/jsonpipe/jsonpipe-0.0.8.ebuild>`__  ``~amd64`` (due 2011-07-07), ``x86``
+  * `0.0.8 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/jsonpipe/jsonpipe-0.0.8.ebuild>`__  ``amd64``, ``x86``
 
 * ``libeatmydata`` - http://www.flamingspork.com/projects/libeatmydata/
 
@@ -89,5 +89,5 @@
  * Versions:
 
   * `1.8 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/weatherspect/weatherspect-1.8.ebuild>`__  ``amd64``, ``x86``
-  * `1.9 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/weatherspect/weatherspect-1.9.ebuild>`__  ``~amd64`` (due 2011-07-07), ``~x86`` (due 2011-07-07)
+  * `1.9 <https://github.com/JNRowe/misc-overlay/blob/master/app-misc/weatherspect/weatherspect-1.9.ebuild>`__  ``amd64``, ``~x86`` (due 2011-07-07)
 

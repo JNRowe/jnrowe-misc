@@ -366,7 +366,7 @@
  * Versions:
 
   * `2.03 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pycparser/pycparser-2.03.ebuild>`__  ``~amd64`` (due 2011-08-15), ``~x86`` (due 2011-08-15)
-  * `2.04 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pycparser/pycparser-2.04.ebuild>`__  ``~amd64`` (due 2011-07-07), ``~x86`` (due 2011-07-07)
+  * `2.04 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pycparser/pycparser-2.04.ebuild>`__  ``~amd64`` (due 2011-10-05), ``~x86`` (due 2011-07-07)
 
 * ``pycukes`` - https://github.com/hugobr/pycukes
 
