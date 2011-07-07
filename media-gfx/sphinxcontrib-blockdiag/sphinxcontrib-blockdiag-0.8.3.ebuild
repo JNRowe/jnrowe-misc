@@ -14,7 +14,7 @@ DESCRIPTION="Sphinx extension to support media-gfx/blockdiag diagrams"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="pdf"
 
 DEPEND="dev-python/setuptools"
