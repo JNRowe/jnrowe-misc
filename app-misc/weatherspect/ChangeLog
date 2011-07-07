@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  07 Jul 2011; James Rowe <jnrowe@gmail.com> weatherspect-1.9.ebuild:
+  Keyworded amd64.
+
 *weatherspect-1.9 (07 Jun 2011)
 
   07 Jun 2011; James Rowe <jnrowe@gmail.com> +weatherspect-1.9.ebuild:
