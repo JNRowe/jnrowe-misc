@@ -12,11 +12,11 @@
 		Features:
 
 		* Generate activity-diagram from dot like text (basic feature).
-		*Multilingualization for node-label (utf-8 only).
+		* Multilingualization for node-label (utf-8 only).
 	</longdescription>
 	<upstream>
 		<remote-id type="pypi">actdiag</remote-id>
-		<doc lang="en">http://tk0miya.bitbucket.org/actdiag/build/html/index.html</doc>
+		<doc lang="en">http://blockdiag.com/actdiag/build/html/index.html</doc>
 		<bugs-to>https://bitbucket.org/tk0miya/actdiag/issues?status=new&amp;status=open</bugs-to>
 	</upstream>
 </pkgmetadata>
