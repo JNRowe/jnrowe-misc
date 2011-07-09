@@ -642,6 +642,14 @@
 
   * `2.7.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.7.1.ebuild>`__  ``amd64``, ``x86``
 
+* ``webcolors`` - http://pypi.python.org/pypi/webcolors/
+
+ * Python library for working with colour names and HTML/CSS values
+ * Licence: ``BSD``
+ * Versions:
+
+  * `1.3.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/webcolors/webcolors-1.3.1.ebuild>`__  ``~amd64`` (due 2011-08-08)
+
 * ``wmctrl`` - http://pypi.python.org/pypi/wmctrl/
 
  * A tool to programmatically control windows inside X
