@@ -648,7 +648,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `1.3.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/webcolors/webcolors-1.3.1.ebuild>`__  ``~amd64`` (due 2011-08-08)
+  * `1.3.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/webcolors/webcolors-1.3.1.ebuild>`__  ``~amd64`` (due 2011-08-08), ``~x86`` (due 2011-08-08)
 
 * ``wmctrl`` - http://pypi.python.org/pypi/wmctrl/
 
