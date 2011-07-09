@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*notmuch-0.6 (09 Jul 2011)
+
+  09 Jul 2011; James Rowe <jnrowe@gmail.com> +notmuch-0.6.ebuild:
+  Version bump [423].
+
   25 Jun 2011; James Rowe <jnrowe@gmail.com>
   -files/notmuch-0.4-optional_emacs.patch:
   Removed obsolete patch.
