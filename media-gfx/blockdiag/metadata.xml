@@ -16,6 +16,7 @@
 	</longdescription>
 	<upstream>
 		<remote-id type="pypi">blockdiag</remote-id>
+		<doc lang="en">http://blockdiag.com/blockdiag/build/html/index.html</doc>
 		<bugs-to>http://bitbucket.org/tk0miya/blockdiag/issues/?status=new&amp;status=open</bugs-to>
 	</upstream>
 </pkgmetadata>

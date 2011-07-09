@@ -212,6 +212,7 @@
 
   * `1.13 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/html/html-1.13.ebuild>`__  ``amd64``, ``x86``
   * `1.14 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/html/html-1.14.ebuild>`__  ``~amd64`` (due 2011-07-27), ``~x86`` (due 2011-07-27)
+  * `1.16 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/html/html-1.16.ebuild>`__  ``~amd64`` (due 2011-08-08), ``~x86`` (due 2011-08-08)
 
 * ``html2data`` - http://pypi.python.org/pypi/html2data/
 
@@ -325,6 +326,7 @@
  * Versions:
 
   * `0.3.6 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pgmagick/pgmagick-0.3.6.ebuild>`__  ``amd64``, ``x86``
+  * `0.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pgmagick/pgmagick-0.4.ebuild>`__  ``~amd64`` (due 2011-08-08), ``~x86`` (due 2011-08-08)
 
 * ``pinocchio`` - http://darcs.idyll.org/~t/projects/pinocchio/doc/
 
@@ -552,6 +554,7 @@
   * `0.4.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.4.0.ebuild>`__  ``amd64``, ``x86``
   * `0.5.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.5.0.ebuild>`__  ``~amd64`` (due 2011-07-22), ``~x86`` (due 2011-07-22)
   * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.5.1.ebuild>`__  ``~amd64`` (due 2011-07-27), ``~x86`` (due 2011-07-27)
+  * `0.6 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.6.ebuild>`__  ``~amd64`` (due 2011-08-08), ``~x86`` (due 2011-08-08)
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
@@ -592,6 +595,7 @@
  * Versions:
 
   * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/tox/tox-1.0.ebuild>`__  ``amd64``, ``x86``
+  * `1.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/tox/tox-1.1.ebuild>`__  ``~amd64`` (due 2011-08-08), ``~x86`` (due 2011-08-08)
 
 * ``tweepy`` - http://pypi.python.org/pypi/tweepy/
 
@@ -641,6 +645,14 @@
  * Versions:
 
   * `2.7.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.7.1.ebuild>`__  ``amd64``, ``x86``
+
+* ``webcolors`` - http://pypi.python.org/pypi/webcolors/
+
+ * Python library for working with colour names and HTML/CSS values
+ * Licence: ``BSD``
+ * Versions:
+
+  * `1.3.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/webcolors/webcolors-1.3.1.ebuild>`__  ``~amd64`` (due 2011-08-08), ``~x86`` (due 2011-08-08)
 
 * ``wmctrl`` - http://pypi.python.org/pypi/wmctrl/
 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription lang="en">
+		This module provides utility functions for working with the color names
+		and color value formats defined by the HTML and CSS specifications for
+		use in documents on the Web.
+	</longdescription>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">webcolors</remote-id>
+		<doc lang="en">http://docs.b-list.org/webcolors/1.3.1</doc>
+		<bugs-to>https://bitbucket.org/ubernostrum/webcolors/issues?status=new&amp;status=open</bugs-to>
+	</upstream>
+</pkgmetadata>
