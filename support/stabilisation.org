@@ -71,6 +71,8 @@
 * dev-python/html-1.16                        x86 SCHEDULED: <2011-08-08 Mon>
 * mail-client/notmuch-0.6                   amd64 SCHEDULED: <2011-08-08 Mon>
 * mail-client/notmuch-0.6                     x86 SCHEDULED: <2011-08-08 Mon>
+* media-gfx/nwdiag-0.2.7                    amd64 SCHEDULED: <2011-08-08 Mon>
+* media-gfx/nwdiag-0.2.7                      x86 SCHEDULED: <2011-08-08 Mon>
 * dev-perl/Net-Twitter-Lite-0.10004         amd64 SCHEDULED: <2011-08-15 Mon>
 * dev-perl/Net-Twitter-Lite-0.10004           x86 SCHEDULED: <2011-08-15 Mon>
 * dev-python/twython-1.4.2                  amd64 SCHEDULED: <2011-08-16 Tue>
