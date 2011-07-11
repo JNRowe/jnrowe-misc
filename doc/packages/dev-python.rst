@@ -361,6 +361,14 @@
 
   * `0.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pwtools/pwtools-0.2.ebuild>`__  ``amd64``, ``x86``
 
+* ``pycallgraph`` - http://pycallgraph.slowchop.com/
+
+ * Use GraphViz to generate call graphs from your Python code
+ * Licence: ``GPL-2``
+ * Versions:
+
+  * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pycallgraph/pycallgraph-0.5.1.ebuild>`__  ``~amd64`` (due 2011-08-10)
+
 * ``pycparser`` - http://code.google.com/p/pycparser/
 
  * C parser and AST generator written in Python
