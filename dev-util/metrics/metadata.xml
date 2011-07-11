@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription lang="en">
+		The metrics software package was born out of the author's frustration
+		about available Open Source metrics packages. There are plenty of them
+		so it is not a problem to find one. But each and every of them has
+		a different focus. Most metrics packages have restrictions towards
+		available metrics and supported languages. Some prominent samples are
+		(CCCC, SLOCCount, PyMetrics, Eclipse-Metrics, Ohcount).
+	</longdescription>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">metrics</remote-id>
+	</upstream>
+</pkgmetadata>
