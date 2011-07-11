@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription lang="en">
+		Python Call Graph uses <pkg>media-gfx/graphviz</pkg> to generate call
+		graphs from one execution of your Python code. It's very easy to use and
+		can point out possible problems with your code execution.
+	</longdescription>
+	<herd>no-herd</herd>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">pycallgraph</remote-id>
+		<doc lang="en">http://pycallgraph.slowchop.com/pycallgraph/wiki/documentation</doc>
+		<bugs-to>https://github.com/gak/pycallgraph/issues/</bugs-to>
+	</upstream>
+</pkgmetadata>
