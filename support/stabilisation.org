@@ -88,6 +88,8 @@
 * dev-python/tox-1.1                          x86 SCHEDULED: <2011-08-08 Mon>
 * dev-python/pycallgraph-0.5.1              amd64 SCHEDULED: <2011-08-10 Wed>
 * dev-util/metrics-0.1_alpha3               amd64 SCHEDULED: <2011-08-10 Wed>
+* dev-python/cloud_sptheme-1.2              amd64 SCHEDULED: <2011-08-11 Thu>
+* dev-python/cloud_sptheme-1.2                x86 SCHEDULED: <2011-08-11 Thu>
 * dev-perl/Net-Twitter-Lite-0.10004         amd64 SCHEDULED: <2011-08-15 Mon>
 * dev-perl/Net-Twitter-Lite-0.10004           x86 SCHEDULED: <2011-08-15 Mon>
 * dev-python/twython-1.4.2                  amd64 SCHEDULED: <2011-08-16 Tue>
