@@ -1,4 +1,3 @@
-* app-text/sphinxcontrib-httpdomain-1.1.2     x86 SCHEDULED: <2011-07-12 Tue>
 * dev-python/attest-0.5.2                   amd64 SCHEDULED: <2011-07-22 Fri>
 * dev-python/colorama-0.2.3                 amd64 SCHEDULED: <2011-07-22 Fri>
 * dev-python/colorama-0.2.3                   x86 SCHEDULED: <2011-07-22 Fri>
