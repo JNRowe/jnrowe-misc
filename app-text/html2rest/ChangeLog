@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  13 Jul 2011; James Rowe <jnrowe@gmail.com> html2rest-0.2.1.ebuild:
+  No need to duplicate HOMEPAGE.
+
 *html2rest-0.2.1 (06 Jul 2011)
 
   06 Jul 2011; James Rowe <jnrowe@gmail.com> +html2rest-0.2.1.ebuild,
