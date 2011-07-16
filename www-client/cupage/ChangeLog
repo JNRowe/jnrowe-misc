@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*cupage-0.5.6-r1 (16 Jul 2011)
+
+  16 Jul 2011; James Rowe <jnrowe@gmail.com> +cupage-0.5.6-r1.ebuild,
+  +files/cupage-0.5.6-httplib2_0_7_support.patch:
+  httplib2 0.7 fix.
+
   24 Jun 2011; James Rowe <jnrowe@gmail.com> -cupage-0.5.5.ebuild,
   cupage-0.5.6.ebuild:
   Keyworded x86.
