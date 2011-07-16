@@ -9,7 +9,7 @@
 
   * `9999 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/gist/gist-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
 
-* ``html2rest`` - http://pypi.python.org/pypi/html2rest
+* ``html2rest`` - http://pypi.python.org/pypi/html2rest/
 
  * Convert HTML to restructuredText
  * Licence: ``MIT``
