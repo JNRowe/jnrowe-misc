@@ -96,6 +96,8 @@
 * dev-perl/Net-Twitter-Lite-0.10004           x86 SCHEDULED: <2011-08-15 Mon>
 * dev-python/twython-1.4.2                  amd64 SCHEDULED: <2011-08-16 Tue>
 * dev-python/twython-1.4.2                    x86 SCHEDULED: <2011-08-16 Tue>
+* www-client/cupage-0.6.0                   amd64 SCHEDULED: <2011-08-19 Fri>
+* www-client/cupage-0.6.0                     x86 SCHEDULED: <2011-08-19 Fri>
 * media-gfx/sphinxcontrib-mscgen-0.4        amd64 SCHEDULED: <2011-08-27 Sat>
 * media-gfx/sphinxcontrib-mscgen-0.4          x86 SCHEDULED: <2011-08-27 Sat>
 * www-apps/mnemosyne-0.12                   amd64 SCHEDULED: <2011-10-05 Wed>
