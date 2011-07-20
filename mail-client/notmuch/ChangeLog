@@ -4,6 +4,10 @@
 
   20 Jul 2011; James Rowe <jnrowe@gmail.com> notmuch-0.5.ebuild,
   notmuch-0.6.ebuild, notmuch-9999.ebuild:
+  Merged 0.6 changes to live ebuild.
+
+  20 Jul 2011; James Rowe <jnrowe@gmail.com> notmuch-0.5.ebuild,
+  notmuch-0.6.ebuild, notmuch-9999.ebuild:
   QA: Minor quoting fixes.
 
 *notmuch-0.6 (09 Jul 2011)

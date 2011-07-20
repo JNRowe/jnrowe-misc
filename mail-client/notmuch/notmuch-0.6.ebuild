@@ -50,7 +50,7 @@ DOCS=(debian/changelog AUTHORS NEWS README TODO)
 src_unpack() {
 	# Call default explicitly, to avoid ruby-ng's src_unpack.
 	if [[ ${PV} == 9999 ]]; then
-		git_src_unpack
+		git-2_src_unpack
 	else
 		default
 	fi
