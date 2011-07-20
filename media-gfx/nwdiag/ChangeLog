@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*nwdiag-0.3.0 (20 Jul 2011)
+
+  20 Jul 2011; James Rowe <jnrowe@gmail.com> +nwdiag-0.3.0.ebuild:
+  Version bump [441].
+
 *nwdiag-0.2.7 (09 Jul 2011)
 
   09 Jul 2011; James Rowe <jnrowe@gmail.com> +nwdiag-0.2.7.ebuild,
