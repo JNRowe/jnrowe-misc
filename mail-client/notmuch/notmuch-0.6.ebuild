@@ -90,7 +90,7 @@ src_compile() {
 	if use python; then
 		pushd bindings/python >/dev/null
 		# Ugly, ugly hack to allow python to import notmuch library
-		LD_LIBRARY_PATH=$PWD/../../lib distutils_src_compile
+		LD_LIBRARY_PATH="$PWD/../../lib" distutils_src_compile
 		popd >/dev/null
 	fi
 
@@ -143,7 +143,7 @@ src_install() {
 		pushd bindings/python >/dev/null
 		# Workaround distutils.eclass attempting to reinstall DOCS, caused
 		# because it doesn't use namespacing for eclass variables.
-		LD_LIBRARY_PATH=$PWD/../../lib DOCS= distutils_src_install
+		LD_LIBRARY_PATH="$PWD/../../lib" DOCS= distutils_src_install
 		popd >/dev/null
 	fi
 
@@ -151,7 +151,7 @@ src_install() {
 		pushd bindings/ruby >/dev/null
 		# doruby doesn't support setting permissions, so we'll just not care
 		# about the 644 for now.  The important thing is using it works ;)
-		RUBY=${RUBY:-$(type -p ruby 2>/dev/null)} doruby ${PN}.so \
+		RUBY="${RUBY:-$(type -p ruby 2>/dev/null)}" doruby ${PN}.so \
 			|| die "doruby failed"
 		popd >/dev/null
 	fi
