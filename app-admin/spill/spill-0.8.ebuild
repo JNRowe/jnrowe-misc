@@ -25,5 +25,5 @@ src_prepare() {
 }
 
 src_configure() {
-	CC=$(tc-getCC) econf
+	CC="$(tc-getCC)" econf
 }
