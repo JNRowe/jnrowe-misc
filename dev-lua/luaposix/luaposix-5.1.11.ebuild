@@ -31,7 +31,7 @@ src_prepare() {
 
 src_compile() {
 	# Fails with emake, patch pushed.
-	make CC=$(tc-getCC) || die "make failed"
+	make CC="$(tc-getCC)" || die "make failed"
 }
 
 src_install() {
