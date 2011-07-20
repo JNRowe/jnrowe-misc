@@ -27,7 +27,7 @@ DOCS="src/README.txt src/TODO.txt"
 
 src_test() {
 	testing() {
-		PYTHONPATH=$PWD/src "$(PYTHON)" src/${PN}/tests/test_parser.py \
+		PYTHONPATH="$PWD/src" "$(PYTHON)" src/${PN}/tests/test_parser.py \
 			|| die "test_parser.py failed"
 	}
 	python_execute_function testing
