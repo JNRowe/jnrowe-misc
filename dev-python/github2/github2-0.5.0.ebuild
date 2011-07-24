@@ -14,7 +14,7 @@ DESCRIPTION="Github API v2 library for Python"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE="doc examples proxy test"
 
 DEPEND="dev-python/setuptools
