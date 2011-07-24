@@ -39,7 +39,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.5.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/attest/attest-0.5.2.ebuild>`__  ``~amd64`` (due 2011-07-22), ``~x86`` (due 2011-07-27)
+  * `0.5.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/attest/attest-0.5.2.ebuild>`__  ``~amd64`` (due 2011-08-21), ``~x86`` (due 2011-07-27)
 
 * ``benchmarker`` - http://pypi.python.org/pypi/Benchmarker/
 
@@ -71,7 +71,8 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `1.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.1.ebuild>`__  ``~amd64`` (due 2011-07-22), ``~x86`` (indefinite)
+  * `1.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.1.ebuild>`__  ``amd64``, ``~x86`` (indefinite)
+  * `1.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.2.ebuild>`__  ``~amd64`` (due 2011-08-11), ``~x86`` (due 2011-08-11)
 
 * ``colorama`` - http://pypi.python.org/pypi/colorama/
 
@@ -80,7 +81,7 @@
  * Versions:
 
   * `0.1.18 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/colorama/colorama-0.1.18.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/colorama/colorama-0.2.3.ebuild>`__  ``~amd64`` (due 2011-07-22), ``~x86`` (due 2011-07-22)
+  * `0.2.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/colorama/colorama-0.2.3.ebuild>`__  ``amd64``, ``~x86`` (due 2011-07-22)
   * `0.2.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/colorama/colorama-0.2.4.ebuild>`__  ``~amd64`` (due 2011-07-27), ``~x86`` (due 2011-07-27)
 
 * ``commandlineapp`` - http://pypi.python.org/pypi/CommandLineApp/
@@ -170,6 +171,7 @@
  * Versions:
 
   * `0.2.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/genzshcomp/genzshcomp-0.2.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/genzshcomp/genzshcomp-0.2.2.ebuild>`__  ``~amd64`` (due 2011-08-19), ``~x86`` (due 2011-08-19)
 
 * ``git-python`` - http://pypi.python.org/pypi/GitPython/
 
@@ -186,7 +188,8 @@
  * Versions:
 
   * `0.4.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.4.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.5.0.ebuild>`__  ``~amd64`` (due 2011-07-24), ``~x86`` (due 2011-07-24)
+  * `0.5.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.5.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-07-24)
+  * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.5.1.ebuild>`__  ``~amd64`` (due 2011-08-19), ``~x86`` (due 2011-08-19)
 
 * ``gpxdata`` - http://www.kette-links.de/technik.php?lang=en
 
@@ -212,6 +215,7 @@
 
   * `1.13 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/html/html-1.13.ebuild>`__  ``amd64``, ``x86``
   * `1.14 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/html/html-1.14.ebuild>`__  ``~amd64`` (due 2011-07-27), ``~x86`` (due 2011-07-27)
+  * `1.16 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/html/html-1.16.ebuild>`__  ``~amd64`` (due 2011-08-08), ``~x86`` (due 2011-08-08)
 
 * ``html2data`` - http://pypi.python.org/pypi/html2data/
 
@@ -309,6 +313,7 @@
  * Versions:
 
   * `0.7 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pdbpp/pdbpp-0.7.ebuild>`__  ``amd64``, ``x86``
+  * `0.7.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pdbpp/pdbpp-0.7.2.ebuild>`__  ``~amd64`` (due 2011-08-19), ``~x86`` (due 2011-08-19)
 
 * ``pep8`` - https://github.com/jcrocholl/pep8
 
@@ -325,6 +330,7 @@
  * Versions:
 
   * `0.3.6 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pgmagick/pgmagick-0.3.6.ebuild>`__  ``amd64``, ``x86``
+  * `0.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pgmagick/pgmagick-0.4.ebuild>`__  ``~amd64`` (due 2011-08-08), ``~x86`` (due 2011-08-08)
 
 * ``pinocchio`` - http://darcs.idyll.org/~t/projects/pinocchio/doc/
 
@@ -341,7 +347,7 @@
  * Versions:
 
   * `0.8.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/plac/plac-0.8.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.9.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/plac/plac-0.9.0.ebuild>`__  ``~amd64`` (due 2011-07-22), ``~x86`` (due 2011-07-22)
+  * `0.9.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/plac/plac-0.9.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-07-22)
 
 * ``prettytable`` - http://code.google.com/p/prettytable/
 
@@ -358,6 +364,14 @@
  * Versions:
 
   * `0.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pwtools/pwtools-0.2.ebuild>`__  ``amd64``, ``x86``
+
+* ``pycallgraph`` - http://pycallgraph.slowchop.com/
+
+ * Use GraphViz to generate call graphs from your Python code
+ * Licence: ``GPL-2``
+ * Versions:
+
+  * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pycallgraph/pycallgraph-0.5.1.ebuild>`__  ``~amd64`` (due 2011-08-10)
 
 * ``pycparser`` - http://code.google.com/p/pycparser/
 
@@ -550,8 +564,10 @@
  * Versions:
 
   * `0.4.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.4.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.5.0.ebuild>`__  ``~amd64`` (due 2011-07-22), ``~x86`` (due 2011-07-22)
+  * `0.5.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.5.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-07-22)
   * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.5.1.ebuild>`__  ``~amd64`` (due 2011-07-27), ``~x86`` (due 2011-07-27)
+  * `0.6 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.6.ebuild>`__  ``~amd64`` (due 2011-08-08), ``~x86`` (due 2011-08-08)
+  * `0.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.6.1.ebuild>`__  ``~amd64`` (due 2011-08-19), ``~x86`` (due 2011-08-19)
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
@@ -592,6 +608,7 @@
  * Versions:
 
   * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/tox/tox-1.0.ebuild>`__  ``amd64``, ``x86``
+  * `1.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/tox/tox-1.1.ebuild>`__  ``~amd64`` (due 2011-08-08), ``~x86`` (due 2011-08-08)
 
 * ``tweepy`` - http://pypi.python.org/pypi/tweepy/
 
@@ -641,6 +658,14 @@
  * Versions:
 
   * `2.7.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.7.1.ebuild>`__  ``amd64``, ``x86``
+
+* ``webcolors`` - http://pypi.python.org/pypi/webcolors/
+
+ * Python library for working with colour names and HTML/CSS values
+ * Licence: ``BSD``
+ * Versions:
+
+  * `1.3.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/webcolors/webcolors-1.3.1.ebuild>`__  ``~amd64`` (due 2011-08-08), ``~x86`` (due 2011-08-08)
 
 * ``wmctrl`` - http://pypi.python.org/pypi/wmctrl/
 

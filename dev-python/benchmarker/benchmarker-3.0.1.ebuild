@@ -31,7 +31,8 @@ src_test() {
 			return
 		fi
 
-		PYTHONPATH=${S} "$(PYTHON)" test/benchmarker_test.py || die "benchmarker_test failed"
+		PYTHONPATH="${S}" "$(PYTHON)" test/benchmarker_test.py \
+			|| die "benchmarker_test failed"
 	}
 	python_execute_function testing
 }

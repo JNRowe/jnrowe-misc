@@ -29,7 +29,7 @@ src_test() {
 	testing() {
 		local file
 		for file in ${files}; do
-			PYTHONPATH=$PWD "$(PYTHON)" ${file} || die "${file} failed"
+			PYTHONPATH="$PWD" "$(PYTHON)" ${file} || die "${file} failed"
 		done
 	}
 	python_execute_function testing

@@ -24,6 +24,7 @@
  * Versions:
 
   * `0.5.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/gitdb/gitdb-0.5.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.5.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/gitdb/gitdb-0.5.4.ebuild>`__  ``~amd64`` (due 2011-08-08), ``~x86`` (due 2011-08-08)
 
 * ``gitflow`` - http://nvie.com/archives/323
 

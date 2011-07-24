@@ -2,6 +2,14 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  24 Jul 2011; James Rowe <jnrowe@gmail.com> cloud_sptheme-1.1.ebuild:
+  Keyworded amd64.
+
+*cloud_sptheme-1.2 (12 Jul 2011)
+
+  12 Jul 2011; James Rowe <jnrowe@gmail.com> +cloud_sptheme-1.2.ebuild:
+  Version bump [433].
+
   25 Jun 2011; James Rowe <jnrowe@gmail.com> cloud_sptheme-1.1.ebuild:
   Whitespace fix.
 

@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*html-1.16 (09 Jul 2011)
+
+  09 Jul 2011; James Rowe <jnrowe@gmail.com> +html-1.16.ebuild:
+  Version bump [422].
+
 *html-1.14 (27 Jun 2011)
 
   27 Jun 2011; James Rowe <jnrowe@gmail.com> +html-1.14.ebuild:

@@ -34,3 +34,11 @@
   * `0.5-r1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-util/ditz/ditz-0.5-r1.ebuild>`__  ``~amd64`` (due 2011-08-05), ``~x86`` (due 2011-08-05)
   * `9999 <https://github.com/JNRowe/misc-overlay/blob/master/dev-util/ditz/ditz-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
 
+* ``metrics`` - http://pypi.python.org/pypi/metrics/
+
+ * Produces metrics for C, C++, Javascript, and Python programs
+ * Licence: ``GPL-2``
+ * Versions:
+
+  * `0.1_alpha3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-util/metrics/metrics-0.1_alpha3.ebuild>`__  ``~amd64`` (due 2011-08-10)
+

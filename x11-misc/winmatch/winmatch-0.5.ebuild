@@ -20,7 +20,7 @@ RDEPEND="${DEPEND}"
 
 src_configure() {
 	# Handmade configure script
-	CC=$(tc-getCC) ./configure || die "configure failed"
+	CC="$(tc-getCC)" ./configure || die "configure failed"
 }
 
 src_install() {

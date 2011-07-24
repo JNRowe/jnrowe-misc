@@ -1,0 +1,5 @@
+# Can't use pypi matcher because the project uses ugly version numbers
+url = http://pypi.python.org/simple/metrics/
+select = a
+match_type = re
+match = metrics-.*\.tar\.gz

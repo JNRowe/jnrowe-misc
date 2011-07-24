@@ -11,7 +11,6 @@ RESTRICT_PYTHON_ABIS="3.*"
 inherit jnrowe-pypi
 
 DESCRIPTION="Convert HTML to restructuredText"
-HOMEPAGE="http://pypi.python.org/pypi/html2rest"
 
 # Despite the BSD licence definition in the package's metadata, the
 # actual licence text in the module is derived from the MIT licence

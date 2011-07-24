@@ -27,7 +27,7 @@ src_prepare() {
 }
 
 src_compile() {
-	make CC=$(tc-getCC) || die "emake failed"
+	make CC="$(tc-getCC)" || die "emake failed"
 }
 
 src_install() {

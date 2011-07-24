@@ -12,5 +12,7 @@
 	</longdescription>
 	<upstream>
 		<remote-id type="pypi">nwdiag</remote-id>
+		<doc lang="en">http://blockdiag.com/nwdiag/build/html/index.html</doc>
+		<bugs-to>http://bitbucket.org/tk0miya/nwdiag/issues/?status=new&amp;status=open</bugs-to>
 	</upstream>
 </pkgmetadata>

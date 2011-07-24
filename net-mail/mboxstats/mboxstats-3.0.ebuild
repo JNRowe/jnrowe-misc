@@ -24,7 +24,7 @@ src_prepare() {
 }
 
 src_compile() {
-	emake CXX=$(tc-getCXX) CC=$(tc-getCC) || die
+	emake CXX="$(tc-getCXX)" CC="$(tc-getCC)" || die
 }
 
 src_install() {

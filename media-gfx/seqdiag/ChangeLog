@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*seqdiag-0.3.7 (09 Jul 2011)
+
+  09 Jul 2011; James Rowe <jnrowe@gmail.com> +seqdiag-0.3.7.ebuild,
+  metadata.xml:
+  Version bump [426].
+
   07 Jul 2011; James Rowe <jnrowe@gmail.com> -seqdiag-0.3.3.ebuild,
   seqdiag-0.3.5.ebuild:
   Keyworded x86.

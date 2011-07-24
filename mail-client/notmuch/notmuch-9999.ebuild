@@ -28,10 +28,13 @@ SLOT="0"
 KEYWORDS=""
 IUSE="X debug emacs python ruby vim zsh-completion"
 
+# No go support, this will change when go is added to main tree
+# Or alternatively, if a mind-blowing tool which needs the go bindings becomes
+# available then the dependency may well be worth carrying in this overlay.
 RDEPEND="sys-libs/talloc
 	>=dev-libs/gmime-2.4
 	dev-libs/xapian
-	emacs? ( virtual/emacs )
+	emacs? ( =virtual/emacs-23 )
 	python? ( || ( >=dev-lang/python-2.6 dev-python/simplejson ) )
 	ruby? ( $(ruby_implementation_depend ruby18) )
 	vim? ( || ( app-editors/vim app-editors/gvim ) )
@@ -54,9 +57,6 @@ src_unpack() {
 }
 
 src_prepare() {
-	# We'll process the completion/emacs stuff manually, as it should be
-	# conditional
-	sed -i '/^subdirs/s, completion emacs , ,' Makefile
 	# Remove LDFLAGS overriding
 	sed -i '/-Wl,--as-needed/,/^fi$/d' configure
 	# Disable bytecode generation, handled better by elisp-compile
@@ -65,8 +65,14 @@ src_prepare() {
 
 src_configure() {
 	# Handmade configure :/  Works with econf currently, thanks to bunch of code
-	# added just to parse common args to configure.
-	CC="$(tc-getCC)" CXX="$(tc-getCXX)" econf || die "configure failed"
+	# added just to parse common args to configure.  We handle completion
+	# ourselves as the build uses the wrong locations, so just disable them
+	# here.
+	CC="$(tc-getCC)" CXX="$(tc-getCXX)" econf \
+		$(use_with emacs) \
+		--without-zsh-completion \
+		--without-bash-completion \
+		|| die "configure failed"
 	# Automagic valgrind detection, needs fixing upstream
 	use debug || sed -i '/^HAVE_VALGRIND =/s,1,0,' Makefile.config
 }
@@ -84,7 +90,7 @@ src_compile() {
 	if use python; then
 		pushd bindings/python >/dev/null
 		# Ugly, ugly hack to allow python to import notmuch library
-		LD_LIBRARY_PATH=$PWD/../../lib distutils_src_compile
+		LD_LIBRARY_PATH="$PWD/../../lib" distutils_src_compile
 		popd >/dev/null
 	fi
 
@@ -137,7 +143,7 @@ src_install() {
 		pushd bindings/python >/dev/null
 		# Workaround distutils.eclass attempting to reinstall DOCS, caused
 		# because it doesn't use namespacing for eclass variables.
-		LD_LIBRARY_PATH=$PWD/../../lib DOCS= distutils_src_install
+		LD_LIBRARY_PATH="$PWD/../../lib" DOCS= distutils_src_install
 		popd >/dev/null
 	fi
 
@@ -145,7 +151,7 @@ src_install() {
 		pushd bindings/ruby >/dev/null
 		# doruby doesn't support setting permissions, so we'll just not care
 		# about the 644 for now.  The important thing is using it works ;)
-		RUBY=${RUBY:-$(type -p ruby 2>/dev/null)} doruby ${PN}.so \
+		RUBY="${RUBY:-$(type -p ruby 2>/dev/null)}" doruby ${PN}.so \
 			|| die "doruby failed"
 		popd >/dev/null
 	fi
@@ -155,6 +161,10 @@ pkg_postinst() {
 	use emacs && elisp-site-regen
 	use python && distutils_pkg_postinst
 	bash-completion_pkg_postinst
+	ewarn "This package may be dropped soon, now is the time to speak up if use"
+	ewarn "it!  The reason is simple: the burden this package carries is way"
+	ewarn "too high, and its future isn't as bright as it once seemed(making"
+	ewarn "the cost feel even heavier)."
 }
 
 pkg_postrm() {
