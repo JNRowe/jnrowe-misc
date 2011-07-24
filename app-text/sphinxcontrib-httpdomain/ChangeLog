@@ -2,6 +2,15 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  24 Jul 2011; James Rowe <jnrowe@gmail.com>
+  -sphinxcontrib-httpdomain-1.1.2.ebuild,
+  sphinxcontrib-httpdomain-1.1.4.ebuild:
+  Keyworded x86.
+
+  24 Jul 2011; James Rowe <jnrowe@gmail.com>
+  sphinxcontrib-httpdomain-1.1.4.ebuild:
+  Keyworded amd64.
+
 *sphinxcontrib-httpdomain-1.1.5 (09 Jul 2011)
 
   09 Jul 2011; James Rowe <jnrowe@gmail.com>

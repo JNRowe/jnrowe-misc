@@ -39,7 +39,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.5.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/attest/attest-0.5.2.ebuild>`__  ``~amd64`` (due 2011-07-22), ``~x86`` (due 2011-07-27)
+  * `0.5.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/attest/attest-0.5.2.ebuild>`__  ``~amd64`` (due 2011-08-21), ``~x86`` (due 2011-07-27)
 
 * ``benchmarker`` - http://pypi.python.org/pypi/Benchmarker/
 
@@ -71,7 +71,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `1.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.1.ebuild>`__  ``~amd64`` (due 2011-07-22), ``~x86`` (indefinite)
+  * `1.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.1.ebuild>`__  ``amd64``, ``~x86`` (indefinite)
   * `1.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.2.ebuild>`__  ``~amd64`` (due 2011-08-11), ``~x86`` (due 2011-08-11)
 
 * ``colorama`` - http://pypi.python.org/pypi/colorama/
@@ -80,8 +80,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.1.18 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/colorama/colorama-0.1.18.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/colorama/colorama-0.2.3.ebuild>`__  ``~amd64`` (due 2011-07-22), ``~x86`` (due 2011-07-22)
+  * `0.2.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/colorama/colorama-0.2.3.ebuild>`__  ``amd64``, ``x86``
   * `0.2.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/colorama/colorama-0.2.4.ebuild>`__  ``~amd64`` (due 2011-07-27), ``~x86`` (due 2011-07-27)
 
 * ``commandlineapp`` - http://pypi.python.org/pypi/CommandLineApp/
@@ -187,8 +186,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.4.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.4.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.5.0.ebuild>`__  ``~amd64`` (due 2011-07-24), ``~x86`` (due 2011-07-24)
+  * `0.5.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.5.0.ebuild>`__  ``amd64``, ``x86``
   * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.5.1.ebuild>`__  ``~amd64`` (due 2011-08-19), ``~x86`` (due 2011-08-19)
 
 * ``gpxdata`` - http://www.kette-links.de/technik.php?lang=en
@@ -346,8 +344,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.8.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/plac/plac-0.8.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.9.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/plac/plac-0.9.0.ebuild>`__  ``~amd64`` (due 2011-07-22), ``~x86`` (due 2011-07-22)
+  * `0.9.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/plac/plac-0.9.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``prettytable`` - http://code.google.com/p/prettytable/
 
@@ -563,8 +560,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.4.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.4.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.5.0.ebuild>`__  ``~amd64`` (due 2011-07-22), ``~x86`` (due 2011-07-22)
+  * `0.5.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.5.0.ebuild>`__  ``amd64``, ``x86``
   * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.5.1.ebuild>`__  ``~amd64`` (due 2011-07-27), ``~x86`` (due 2011-07-27)
   * `0.6 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.6.ebuild>`__  ``~amd64`` (due 2011-08-08), ``~x86`` (due 2011-08-08)
   * `0.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.6.1.ebuild>`__  ``~amd64`` (due 2011-08-19), ``~x86`` (due 2011-08-19)
