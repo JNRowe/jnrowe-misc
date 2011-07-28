@@ -561,7 +561,7 @@
  * Versions:
 
   * `0.5.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.5.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.5.1.ebuild>`__  ``~amd64`` (due 2011-07-27), ``~x86`` (due 2011-07-27)
+  * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.5.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-07-27)
   * `0.6 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.6.ebuild>`__  ``~amd64`` (due 2011-08-08), ``~x86`` (due 2011-08-08)
   * `0.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.6.1.ebuild>`__  ``~amd64`` (due 2011-08-19), ``~x86`` (due 2011-08-19)
 
