@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  28 Jul 2011; James Rowe <jnrowe@gmail.com> -html-1.13.ebuild,
+  html-1.14.ebuild:
+  Keyworded x86.
+
   28 Jul 2011; James Rowe <jnrowe@gmail.com> html-1.14.ebuild:
   Keyworded amd64.
 
