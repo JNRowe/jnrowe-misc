@@ -1,13 +1,3 @@
-* dev-python/html-1.14                      amd64 SCHEDULED: <2011-07-27 Wed>
-* dev-python/html-1.14                        x86 SCHEDULED: <2011-07-27 Wed>
-* dev-python/colorama-0.2.4                 amd64 SCHEDULED: <2011-07-27 Wed>
-* dev-python/colorama-0.2.4                   x86 SCHEDULED: <2011-07-27 Wed>
-* dev-python/sure-0.5.1                     amd64 SCHEDULED: <2011-07-27 Wed>
-* dev-python/sure-0.5.1                       x86 SCHEDULED: <2011-07-27 Wed>
-* app-misc/hubugs-0.9.1                       x86 SCHEDULED: <2011-07-27 Wed>
-* dev-python/attest-0.5.2                     x86 SCHEDULED: <2011-07-27 Wed>
-* app-misc/hubugs-0.10.0                    amd64 SCHEDULED: <2011-07-28 Thu>
-* app-misc/hubugs-0.10.0                      x86 SCHEDULED: <2011-07-28 Thu>
 * media-gfx/sxiv-0.8.2                      amd64 SCHEDULED: <2011-07-29 Fri>
 * dev-python/httpretty-0.3                  amd64 SCHEDULED: <2011-07-29 Fri>
 * dev-python/atomize-0.1.0                  amd64 SCHEDULED: <2011-07-29 Fri>
@@ -101,6 +91,7 @@
 * dev-python/attest-0.5.2                   amd64 SCHEDULED: <2011-08-21 Sun>
 * media-gfx/sphinxcontrib-mscgen-0.4        amd64 SCHEDULED: <2011-08-27 Sat>
 * media-gfx/sphinxcontrib-mscgen-0.4          x86 SCHEDULED: <2011-08-27 Sat>
+* dev-python/attest-0.5.2                     x86 SCHEDULED: <2011-08-27 Sat>
 * www-apps/mnemosyne-0.12                   amd64 SCHEDULED: <2011-10-05 Wed>
 * www-apps/mnemosyne-0.12                     x86 SCHEDULED: <2011-10-05 Wed>
 * dev-python/pycparser-2.04                 amd64 SCHEDULED: <2011-10-05 Wed>
