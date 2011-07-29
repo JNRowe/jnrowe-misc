@@ -3,10 +3,15 @@ import datetime
 from glob import glob
 from re import search
 from subprocess import check_output
+from sys import exit
 
 from cake.helpers import task
 from cake.lib import puts
-from github2.client import Github
+
+try:
+    from github2.client import Github
+except ImportError:
+    Github = None
 
 
 @task('Check for missing keywords')
@@ -34,6 +39,9 @@ def gen_stable(cpv):
 
 @task('Open a new bump bug')
 def open_bug(title, body="", label=None):
+    if not Github:
+        print "Opening bugs requires the github2 Python package"
+        exit(1)
     user = check_output('git config github.user'.split()).strip()
     token = check_output('git config github.token'.split()).strip()
     project_url = check_output('git config remote.origin.url'.split()).strip()
