@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  29 Jul 2011; James Rowe <jnrowe@gmail.com> sxiv-0.8.2.ebuild:
+  Keyworded amd64.
+
   20 Jul 2011; James Rowe <jnrowe@gmail.com> sxiv-0.8.2.ebuild:
   QA: Minor quoting fixes.
 

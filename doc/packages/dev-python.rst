@@ -31,7 +31,7 @@
  * Licence: ``EPL-1.0``
  * Versions:
 
-  * `0.1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/atomize/atomize-0.1.0.ebuild>`__  ``~amd64`` (due 2011-07-29), ``~x86`` (due 2011-08-01)
+  * `0.1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/atomize/atomize-0.1.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-08-01)
 
 * ``attest`` - http://pypi.python.org/pypi/Attest/
 
@@ -227,7 +227,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/httpretty/httpretty-0.3.ebuild>`__  ``~amd64`` (due 2011-07-29)
+  * `0.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/httpretty/httpretty-0.3.ebuild>`__  ``amd64``
   * `0.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/httpretty/httpretty-0.4.ebuild>`__  ``~amd64`` (due 2011-07-30), ``~x86`` (due 2011-08-01)
 
 * ``interlude`` - https://svn.bluedynamics.eu/svn/public/interlude/
