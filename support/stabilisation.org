@@ -1,4 +1,3 @@
-* media-gfx/sxiv-0.8.2                      amd64 SCHEDULED: <2011-07-29 Fri>
 * dev-python/httpretty-0.3                  amd64 SCHEDULED: <2011-07-29 Fri>
 * dev-python/atomize-0.1.0                  amd64 SCHEDULED: <2011-07-29 Fri>
 * app-text/rstspreadsheet-0.1.2             amd64 SCHEDULED: <2011-07-29 Fri>
