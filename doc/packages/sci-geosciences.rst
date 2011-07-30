@@ -15,7 +15,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.4.2 <https://github.com/JNRowe/misc-overlay/blob/master/sci-geosciences/gpxviewer-python/gpxviewer-python-0.4.2.ebuild>`__  ``~amd64`` (due 2011-07-30), ``~x86`` (due 2011-08-01)
+  * `0.4.2 <https://github.com/JNRowe/misc-overlay/blob/master/sci-geosciences/gpxviewer-python/gpxviewer-python-0.4.2.ebuild>`__  ``~amd64`` (due 2011-08-29), ``~x86`` (due 2011-08-01)
 
 * ``osm-gps-map`` - http://nzjrs.github.com/osm-gps-map/
 
