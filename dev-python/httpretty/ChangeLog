@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  30 Jul 2011; James Rowe <jnrowe@gmail.com> -httpretty-0.3.ebuild,
+  httpretty-0.4.ebuild:
+  Keyworded amd64.
+
+  29 Jul 2011; James Rowe <jnrowe@gmail.com> httpretty-0.3.ebuild:
+  Keyworded amd64.
+
   02 Jul 2011; James Rowe <jnrowe@gmail.com> httpretty-0.4.ebuild:
   Keyworded ~x86.
 
