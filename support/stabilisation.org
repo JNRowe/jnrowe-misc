@@ -1,4 +1,3 @@
-* app-misc/repl-0.2.1                         x86 SCHEDULED: <2011-08-01 Mon>
 * app-text/rstspreadsheet-0.1.2               x86 SCHEDULED: <2011-08-01 Mon>
 * app-text/sphinxcontrib-ansi-0.5.1           x86 SCHEDULED: <2011-08-01 Mon>
 * app-text/sphinxcontrib-issuetracker-0.7.2   x86 SCHEDULED: <2011-08-01 Mon>
