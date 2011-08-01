@@ -501,7 +501,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/snot/snot-0.2.ebuild>`__  ``amd64``, ``~x86`` (due 2011-08-01)
+  * `0.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/snot/snot-0.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``socksipy`` - http://pypi.python.org/pypi/SocksiPy-branch/
 
