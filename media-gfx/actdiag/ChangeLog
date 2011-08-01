@@ -3,6 +3,9 @@
 # $Header: $
 
   01 Aug 2011; James Rowe <jnrowe@gmail.com> actdiag-0.1.5.ebuild:
+  Keyworded x86.
+
+  01 Aug 2011; James Rowe <jnrowe@gmail.com> actdiag-0.1.5.ebuild:
   Keyworded amd64.
 
 *actdiag-0.1.7 (09 Jul 2011)

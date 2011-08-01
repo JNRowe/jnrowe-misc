@@ -23,7 +23,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/rstspreadsheet/rstspreadsheet-0.1.2.ebuild>`__  ``amd64``, ``~x86`` (due 2011-08-01)
+  * `0.1.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/rstspreadsheet/rstspreadsheet-0.1.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``sphinxcontrib-ansi`` - http://packages.python.org/sphinxcontrib-ansi/
 
@@ -31,7 +31,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-ansi/sphinxcontrib-ansi-0.5.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-08-01)
+  * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-ansi/sphinxcontrib-ansi-0.5.1.ebuild>`__  ``amd64``, ``x86``
   * `0.6 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-ansi/sphinxcontrib-ansi-0.6.ebuild>`__  ``~amd64`` (due 2011-08-08), ``~x86`` (due 2011-08-08)
 
 * ``sphinxcontrib-googlechart`` - http://packages.python.org/sphinxcontrib-googlechart/
@@ -40,7 +40,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.1.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-googlechart/sphinxcontrib-googlechart-0.1.2.ebuild>`__  ``amd64``, ``~x86`` (due 2011-08-01)
+  * `0.1.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-googlechart/sphinxcontrib-googlechart-0.1.2.ebuild>`__  ``amd64``, ``x86``
   * `0.1.4 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-googlechart/sphinxcontrib-googlechart-0.1.4.ebuild>`__  ``~amd64`` (due 2011-08-08), ``~x86`` (due 2011-08-08)
 
 * ``sphinxcontrib-httpdomain`` - http://packages.python.org/sphinxcontrib-httpdomain/
@@ -58,5 +58,5 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.7.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-issuetracker/sphinxcontrib-issuetracker-0.7.2.ebuild>`__  ``amd64``, ``~x86`` (due 2011-08-01)
+  * `0.7.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-issuetracker/sphinxcontrib-issuetracker-0.7.2.ebuild>`__  ``amd64``, ``x86``
 
