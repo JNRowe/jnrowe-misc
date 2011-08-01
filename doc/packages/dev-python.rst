@@ -349,7 +349,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/prettytable/prettytable-0.5.ebuild>`__  ``amd64``, ``~x86`` (due 2011-08-01)
+  * `0.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/prettytable/prettytable-0.5.ebuild>`__  ``amd64``, ``x86``
 
 * ``pwtools`` - http://alastairs-place.net/pwtools/
 
