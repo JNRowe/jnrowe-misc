@@ -3,6 +3,9 @@
 # $Header: $
 
   01 Aug 2011; James Rowe <jnrowe@gmail.com> straight-plugin-1.1.ebuild:
+  Keyworded x86.
+
+  01 Aug 2011; James Rowe <jnrowe@gmail.com> straight-plugin-1.1.ebuild:
   Keyworded amd64.
 
   02 Jul 2011; James Rowe <jnrowe@gmail.com> straight-plugin-1.1.ebuild:
