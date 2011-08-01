@@ -349,7 +349,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/prettytable/prettytable-0.5.ebuild>`__  ``~amd64`` (due 2011-07-31), ``~x86`` (due 2011-08-01)
+  * `0.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/prettytable/prettytable-0.5.ebuild>`__  ``amd64``, ``~x86`` (due 2011-08-01)
 
 * ``pwtools`` - http://alastairs-place.net/pwtools/
 
@@ -501,7 +501,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/snot/snot-0.2.ebuild>`__  ``~amd64`` (due 2011-07-31), ``~x86`` (due 2011-08-01)
+  * `0.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/snot/snot-0.2.ebuild>`__  ``amd64``, ``~x86`` (due 2011-08-01)
 
 * ``socksipy`` - http://pypi.python.org/pypi/SocksiPy-branch/
 
@@ -549,7 +549,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/straight-plugin/straight-plugin-1.1.ebuild>`__  ``~amd64`` (due 2011-07-31), ``~x86`` (due 2011-08-01)
+  * `1.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/straight-plugin/straight-plugin-1.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-08-01)
 
 * ``sure`` - http://pypi.python.org/pypi/sure/
 
@@ -575,7 +575,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/termtool/termtool-1.0.ebuild>`__  ``~amd64`` (due 2011-07-31), ``~x86`` (due 2011-08-01)
+  * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/termtool/termtool-1.0.ebuild>`__  ``~amd64`` (due 2011-08-31), ``~x86`` (due 2011-08-01)
 
 * ``texttable`` - http://jefke.free.fr/coding/python/
 
