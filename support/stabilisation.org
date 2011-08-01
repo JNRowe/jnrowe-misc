@@ -1,4 +1,3 @@
-* app-text/sphinxcontrib-issuetracker-0.7.2   x86 SCHEDULED: <2011-08-01 Mon>
 * app-text/sphinxcontrib-googlechart-0.1.2    x86 SCHEDULED: <2011-08-01 Mon>
 * media-gfx/sxiv-0.8.2                        x86 SCHEDULED: <2011-08-01 Mon>
 * media-gfx/actdiag-0.1.5                     x86 SCHEDULED: <2011-08-01 Mon>
