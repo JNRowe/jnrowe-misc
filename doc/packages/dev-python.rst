@@ -31,7 +31,7 @@
  * Licence: ``EPL-1.0``
  * Versions:
 
-  * `0.1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/atomize/atomize-0.1.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-08-01)
+  * `0.1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/atomize/atomize-0.1.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``attest`` - http://pypi.python.org/pypi/Attest/
 
