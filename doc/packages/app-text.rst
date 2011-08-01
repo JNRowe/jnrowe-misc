@@ -23,7 +23,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/rstspreadsheet/rstspreadsheet-0.1.2.ebuild>`__  ``amd64``, ``~x86`` (due 2011-08-01)
+  * `0.1.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/rstspreadsheet/rstspreadsheet-0.1.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``sphinxcontrib-ansi`` - http://packages.python.org/sphinxcontrib-ansi/
 
