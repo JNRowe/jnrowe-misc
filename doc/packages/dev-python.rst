@@ -227,7 +227,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/httpretty/httpretty-0.4.ebuild>`__  ``amd64``, ``~x86`` (due 2011-08-01)
+  * `0.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/httpretty/httpretty-0.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``interlude`` - https://svn.bluedynamics.eu/svn/public/interlude/
 
