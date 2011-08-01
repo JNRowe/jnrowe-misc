@@ -56,5 +56,5 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.2.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/pepper/pepper-0.2.3.ebuild>`__  ``amd64``, ``~x86`` (due 2011-08-01)
+  * `0.2.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/pepper/pepper-0.2.3.ebuild>`__  ``amd64``, ``x86``
 

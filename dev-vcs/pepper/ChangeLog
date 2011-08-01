@@ -3,6 +3,9 @@
 # $Header: $
 
   01 Aug 2011; James Rowe <jnrowe@gmail.com> pepper-0.2.3.ebuild:
+  Keyworded x86.
+
+  01 Aug 2011; James Rowe <jnrowe@gmail.com> pepper-0.2.3.ebuild:
   Keyworded amd64.
 
   02 Jul 2011; James Rowe <jnrowe@gmail.com> pepper-0.2.3.ebuild:
