@@ -31,7 +31,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.5-r1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-util/ditz/ditz-0.5-r1.ebuild>`__  ``~amd64`` (due 2011-08-05), ``~x86`` (due 2011-08-05)
+  * `0.5-r1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-util/ditz/ditz-0.5-r1.ebuild>`__  ``~amd64`` (due 2011-11-03), ``~x86`` (due 2011-08-05)
   * `9999 <https://github.com/JNRowe/misc-overlay/blob/master/dev-util/ditz/ditz-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
 
 * ``metrics`` - http://pypi.python.org/pypi/metrics/

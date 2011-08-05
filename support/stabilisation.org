@@ -1,6 +1,4 @@
 * dev-util/ditz-0.5-r1                        x86 SCHEDULED: <2011-08-05 Fri>
-* dev-util/ditz-0.5-r1                      amd64 SCHEDULED: <2011-08-05 Fri>
-* app-text/html2rest-0.2.1                  amd64 SCHEDULED: <2011-08-05 Fri>
 * dev-python/rstctl-0.4                     amd64 SCHEDULED: <2011-08-08 Mon>
 * dev-python/rstctl-0.4                       x86 SCHEDULED: <2011-08-08 Mon>
 * media-gfx/actdiag-0.1.7                   amd64 SCHEDULED: <2011-08-08 Mon>
@@ -69,3 +67,4 @@
 * www-apps/mnemosyne-0.12                     x86 SCHEDULED: <2011-10-05 Wed>
 * dev-python/pycparser-2.04                 amd64 SCHEDULED: <2011-10-05 Wed>
 * dev-python/pycparser-2.04                   x86 SCHEDULED: <2011-10-05 Wed>
+* dev-util/ditz-0.5-r1                      amd64 SCHEDULED: <2011-11-03 Thu>
