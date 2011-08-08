@@ -15,7 +15,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.1 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/html2rest/html2rest-0.2.1.ebuild>`__  ``amd64``
+  * `0.2.1 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/html2rest/html2rest-0.2.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-09-07)
 
 * ``rstspreadsheet`` - http://pypi.python.org/pypi/rstspreadsheet/
 

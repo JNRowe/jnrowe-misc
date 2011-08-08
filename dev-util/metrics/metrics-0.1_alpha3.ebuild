@@ -16,7 +16,7 @@ DESCRIPTION="Produces metrics for C, C++, Javascript, and Python programs"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=""
