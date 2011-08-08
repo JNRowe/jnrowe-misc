@@ -16,7 +16,7 @@ DESCRIPTION="Convert HTML to restructuredText"
 # actual licence text in the module is derived from the MIT licence
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 IUSE=""
 
 DEPEND=""
