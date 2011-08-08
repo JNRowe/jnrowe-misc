@@ -33,6 +33,7 @@
 * sci-geosciences/gpxviewer-python-0.4.2      x86 SCHEDULED: <2011-09-01 Thu>
 * dev-python/termtool-1.0                     x86 SCHEDULED: <2011-09-01 Thu>
 * app-text/html2rest-0.2.1                    x86 SCHEDULED: <2011-09-07 Wed>
+* dev-util/metrics-0.1_alpha3                 x86 SCHEDULED: <2011-09-07 Wed>
 * www-apps/mnemosyne-0.12                   amd64 SCHEDULED: <2011-10-05 Wed>
 * www-apps/mnemosyne-0.12                     x86 SCHEDULED: <2011-10-05 Wed>
 * dev-python/pycparser-2.04                 amd64 SCHEDULED: <2011-10-05 Wed>
