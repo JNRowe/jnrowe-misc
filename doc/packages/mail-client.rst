@@ -7,8 +7,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.5 <https://github.com/JNRowe/misc-overlay/blob/master/mail-client/notmuch/notmuch-0.5.ebuild>`__  ``amd64``, ``x86``
-  * `0.6 <https://github.com/JNRowe/misc-overlay/blob/master/mail-client/notmuch/notmuch-0.6.ebuild>`__  ``amd64``, ``~x86`` (due 2011-08-08)
+  * `0.6 <https://github.com/JNRowe/misc-overlay/blob/master/mail-client/notmuch/notmuch-0.6.ebuild>`__  ``amd64``, ``x86``
   * `0.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/mail-client/notmuch/notmuch-0.6.1.ebuild>`__  ``~amd64`` (due 2011-08-19), ``~x86`` (due 2011-08-19)
   * `9999 <https://github.com/JNRowe/misc-overlay/blob/master/mail-client/notmuch/notmuch-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
 
