@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Aug 2011; James Rowe <jnrowe@gmail.com> -tox-1.0.ebuild,
+  -files/tox-1.0-no_argparse_with_py27.patch, tox-1.1.ebuild:
+  Keyworded x86.
+
   08 Aug 2011; James Rowe <jnrowe@gmail.com> tox-1.1.ebuild:
   Keyworded amd64.
 
