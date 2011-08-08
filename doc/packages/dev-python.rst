@@ -211,7 +211,7 @@
  * Versions:
 
   * `1.14 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/html/html-1.14.ebuild>`__  ``amd64``, ``x86``
-  * `1.16 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/html/html-1.16.ebuild>`__  ``~amd64`` (due 2011-08-08), ``~x86`` (due 2011-08-08)
+  * `1.16 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/html/html-1.16.ebuild>`__  ``amd64``, ``~x86`` (due 2011-08-08)
 
 * ``html2data`` - http://pypi.python.org/pypi/html2data/
 
