@@ -3,6 +3,11 @@
 # $Header: $
 
   08 Aug 2011; James Rowe <jnrowe@gmail.com>
+  -sphinxcontrib-googlechart-0.1.2.ebuild,
+  sphinxcontrib-googlechart-0.1.4.ebuild:
+  Keyworded x86.
+
+  08 Aug 2011; James Rowe <jnrowe@gmail.com>
   sphinxcontrib-googlechart-0.1.4.ebuild:
   Keyworded amd64.
 
