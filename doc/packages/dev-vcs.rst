@@ -23,8 +23,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.5.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/gitdb/gitdb-0.5.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/gitdb/gitdb-0.5.4.ebuild>`__  ``~amd64`` (indefinite), ``~x86`` (due 2011-08-08)
+  * `0.5.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/gitdb/gitdb-0.5.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``gitflow`` - http://nvie.com/archives/323
 
