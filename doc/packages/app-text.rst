@@ -47,8 +47,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `1.1.4 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-httpdomain/sphinxcontrib-httpdomain-1.1.4.ebuild>`__  ``amd64``, ``x86``
-  * `1.1.5 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-httpdomain/sphinxcontrib-httpdomain-1.1.5.ebuild>`__  ``amd64``, ``~x86`` (due 2011-08-08)
+  * `1.1.5 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-httpdomain/sphinxcontrib-httpdomain-1.1.5.ebuild>`__  ``amd64``, ``x86``
 
 * ``sphinxcontrib-issuetracker`` - http://packages.python.org/sphinxcontrib-issuetracker/
 
