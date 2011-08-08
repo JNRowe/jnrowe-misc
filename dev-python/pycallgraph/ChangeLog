@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Aug 2011; James Rowe <jnrowe@gmail.com> pycallgraph-0.5.1.ebuild:
+  Keyworded ~x86.
+
 *pycallgraph-0.5.1 (11 Jul 2011)
 
   11 Jul 2011; James Rowe <jnrowe@gmail.com> +pycallgraph-0.5.1.ebuild,
