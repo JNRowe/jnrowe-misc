@@ -40,5 +40,5 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `0.1_alpha3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-util/metrics/metrics-0.1_alpha3.ebuild>`__  ``~amd64`` (due 2011-08-10), ``~x86`` (due 2011-09-07)
+  * `0.1_alpha3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-util/metrics/metrics-0.1_alpha3.ebuild>`__  ``amd64``, ``~x86`` (due 2011-09-07)
 
