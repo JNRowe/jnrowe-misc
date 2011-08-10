@@ -6,7 +6,7 @@ mirror://pypi/m/metrics/metrics-0.1a3.tar.gz
 http://pypi.python.org/pypi/metrics/
 GPL-2
 Produces metrics for C, C++, Javascript, and Python programs
-~amd64 ~x86
+amd64 ~x86
 distutils eutils jnrowe-pypi multilib portability python toolchain-funcs
 
 
