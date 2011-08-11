@@ -72,7 +72,7 @@
  * Versions:
 
   * `1.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.1.ebuild>`__  ``amd64``, ``~x86`` (indefinite)
-  * `1.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.2.ebuild>`__  ``~amd64`` (due 2011-08-11), ``~x86`` (due 2011-08-11)
+  * `1.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.2.ebuild>`__  ``amd64``, ``~x86`` (due 2011-08-11)
 
 * ``colorama`` - http://pypi.python.org/pypi/colorama/
 
