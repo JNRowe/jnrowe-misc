@@ -6,7 +6,7 @@ https://github.com/JNRowe/cupage/tarball/0.5.6 -> cupage-0.5.6.tar.gz doc? ( htt
 http://jnrowe.github.com/cupage
 GPL-3 doc? ( public-domain )
 A tool to check for updates on web pages
-~amd64 ~x86
+amd64 x86
 base distutils eutils jnrowe-github multilib portability python toolchain-funcs
 doc minimal
 
