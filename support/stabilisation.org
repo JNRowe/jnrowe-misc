@@ -1,4 +1,3 @@
-* dev-python/twython-1.4.2                    x86 SCHEDULED: <2011-08-16 Tue>
 * www-client/cupage-0.6.0                   amd64 SCHEDULED: <2011-08-19 Fri>
 * www-client/cupage-0.6.0                     x86 SCHEDULED: <2011-08-19 Fri>
 * dev-python/github2-0.5.1                  amd64 SCHEDULED: <2011-08-19 Fri>
@@ -37,3 +36,4 @@
 * dev-perl/Net-Twitter-Lite-0.10004         amd64 SCHEDULED: <2011-11-14 Mon>
 * dev-python/twython-1.4.2                  amd64 SCHEDULED: <2011-11-14 Mon>
 * dev-perl/Net-Twitter-Lite-0.10004           x86 SCHEDULED: <2011-11-14 Mon>
+* dev-python/twython-1.4.2                    x86 SCHEDULED: <2011-11-14 Mon>

@@ -612,7 +612,7 @@
  * Versions:
 
   * `1.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/twython/twython-1.2.ebuild>`__  ``amd64``, ``x86``
-  * `1.4.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/twython/twython-1.4.2.ebuild>`__  ``~amd64`` (due 2011-11-14), ``~x86`` (due 2011-08-16)
+  * `1.4.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/twython/twython-1.4.2.ebuild>`__  ``~amd64`` (due 2011-11-14), ``~x86`` (due 2011-11-14)
 
 * ``upoints`` - http://www.jnrowe.ukfsn.org/projects/upoints.html
 
