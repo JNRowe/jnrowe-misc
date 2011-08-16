@@ -7,7 +7,7 @@
  * Licence: ``Artistic``
  * Versions:
 
-  * `0.10004 <https://github.com/JNRowe/misc-overlay/blob/master/dev-perl/Net-Twitter-Lite/Net-Twitter-Lite-0.10004.ebuild>`__  ``~amd64`` (due 2011-08-15), ``~x86`` (due 2011-08-15)
+  * `0.10004 <https://github.com/JNRowe/misc-overlay/blob/master/dev-perl/Net-Twitter-Lite/Net-Twitter-Lite-0.10004.ebuild>`__  ``~amd64`` (due 2011-11-14), ``~x86`` (due 2011-08-15)
 
 * ``Term-Animation`` - http://search.cpan.org/dist/Term-Animation/
 
