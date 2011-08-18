@@ -2,10 +2,6 @@
 # your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using egencache *
 
-dev-db/spatialite:geos - Support for sci-libs/geos, increases size considerably
-dev-db/spatialite:proj - Support for sci-libs/proj
-dev-db/spatialite-tools:geos - Support for sci-libs/geos, increases size considerably
-dev-db/spatialite-tools:proj - Support for sci-libs/proj
 dev-python/github2:proxy - Adds support for using a HTTP proxy with dev-python/github2
 dev-vcs/pepper:git - Enable support for processing git repositories
 dev-vcs/pepper:mercurial - Enable support for processing mercurial repositories
