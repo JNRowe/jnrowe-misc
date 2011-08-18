@@ -56,4 +56,5 @@
  * Versions:
 
   * `0.2.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/pepper/pepper-0.2.3.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/pepper/pepper-0.2.4.ebuild>`__  ``~amd64`` (due 2011-09-17), ``~x86`` (due 2011-09-17)
 
