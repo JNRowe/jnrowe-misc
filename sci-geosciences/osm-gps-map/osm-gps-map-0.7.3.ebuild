@@ -11,22 +11,23 @@ SRC_URI="http://www.johnstowers.co.nz/files/${PN}/${P}.tar.gz"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="amd64 x86"
-IUSE="doc +introspection"
+IUSE="doc"
 
 RDEPEND="net-libs/libsoup
 	x11-libs/cairo
-	x11-libs/gtk+:2
-	introspection? ( >=dev-libs/gobject-introspection-0.6.4 )"
+	x11-libs/gtk+:2"
 DEPEND="${RDEPEND}
 	doc? ( dev-util/gtk-doc )
 	dev-util/pkgconfig
 	gnome-base/gnome-common"
 
 src_configure() {
-	# Disable automake's silent rules should be default for econf really.
+	# Disable automake's silent rules should be default for econf
+	# really.  gobject introspection is broken in current release, and a fix
+	# will likely break compatibility with future releases.
 	econf --disable-silent-rules \
-		$(use doc gtk-doc) \
-		$(use_enable introspection)
+		--disable-introspection \
+		$(use doc gtk-doc)
 }
 
 src_install() {
