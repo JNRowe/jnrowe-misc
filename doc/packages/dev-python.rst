@@ -250,6 +250,7 @@
  * Versions:
 
   * `0.1.27 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/lettuce/lettuce-0.1.27.ebuild>`__  ``amd64``, ``x86``
+  * `0.1.31 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/lettuce/lettuce-0.1.31.ebuild>`__  ``~amd64`` (due 2011-09-17), ``~x86`` (due 2011-09-17)
 
 * ``logbook`` - http://pypi.python.org/pypi/Logbook/
 
