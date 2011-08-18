@@ -35,6 +35,8 @@
 * dev-python/lettuce-0.1.31                   x86 SCHEDULED: <2011-09-17 Sat>
 * mail-client/notmuch-0.7                   amd64 SCHEDULED: <2011-09-17 Sat>
 * mail-client/notmuch-0.7                     x86 SCHEDULED: <2011-09-17 Sat>
+* media-gfx/nwdiag-0.4.0                    amd64 SCHEDULED: <2011-09-17 Sat>
+* media-gfx/nwdiag-0.4.0                      x86 SCHEDULED: <2011-09-17 Sat>
 * www-apps/mnemosyne-0.12                   amd64 SCHEDULED: <2011-10-05 Wed>
 * www-apps/mnemosyne-0.12                     x86 SCHEDULED: <2011-10-05 Wed>
 * dev-python/pycparser-2.04                 amd64 SCHEDULED: <2011-10-05 Wed>

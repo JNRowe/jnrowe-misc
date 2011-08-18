@@ -42,6 +42,7 @@
 
   * `0.2.7 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/nwdiag/nwdiag-0.2.7.ebuild>`__  ``amd64``, ``x86``
   * `0.3.0 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/nwdiag/nwdiag-0.3.0.ebuild>`__  ``~amd64`` (due 2011-08-19), ``~x86`` (due 2011-08-19)
+  * `0.4.0 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/nwdiag/nwdiag-0.4.0.ebuild>`__  ``~amd64`` (due 2011-09-17), ``~x86`` (due 2011-09-17)
 
 * ``seqdiag`` - http://pypi.python.org/pypi/seqdiag/
 
