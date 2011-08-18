@@ -250,6 +250,7 @@
  * Versions:
 
   * `0.1.27 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/lettuce/lettuce-0.1.27.ebuild>`__  ``amd64``, ``x86``
+  * `0.1.31 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/lettuce/lettuce-0.1.31.ebuild>`__  ``~amd64`` (due 2011-09-17), ``~x86`` (due 2011-09-17)
 
 * ``logbook`` - http://pypi.python.org/pypi/Logbook/
 
@@ -323,6 +324,7 @@
  * Versions:
 
   * `0.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pgmagick/pgmagick-0.4.ebuild>`__  ``amd64``, ``x86``
+  * `0.4.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pgmagick/pgmagick-0.4.1.ebuild>`__  ``~amd64`` (due 2011-09-17), ``~x86`` (due 2011-09-17)
 
 * ``pinocchio`` - http://darcs.idyll.org/~t/projects/pinocchio/doc/
 
@@ -531,6 +533,7 @@
  * Versions:
 
   * `0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/stencil/stencil-0.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/stencil/stencil-0.2.1.ebuild>`__  ``~amd64`` (due 2011-09-17), ``~x86`` (due 2011-09-17)
 
 * ``story_parser`` - https://github.com/hugobr/story_parser
 
@@ -613,6 +616,7 @@
 
   * `1.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/twython/twython-1.2.ebuild>`__  ``amd64``, ``x86``
   * `1.4.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/twython/twython-1.4.2.ebuild>`__  ``~amd64`` (due 2011-11-14), ``~x86`` (due 2011-11-14)
+  * `1.4.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/twython/twython-1.4.3.ebuild>`__  ``~amd64`` (due 2011-09-17), ``~x86`` (due 2011-09-17)
 
 * ``upoints`` - http://www.jnrowe.ukfsn.org/projects/upoints.html
 

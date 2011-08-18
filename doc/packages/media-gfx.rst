@@ -24,6 +24,7 @@
  * Versions:
 
   * `0.8.4 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/blockdiag/blockdiag-0.8.4.ebuild>`__  ``amd64``, ``x86``
+  * `0.8.9 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/blockdiag/blockdiag-0.8.9.ebuild>`__  ``~amd64`` (due 2011-09-17), ``~x86`` (due 2011-09-17)
 
 * ``gruffy`` - http://pypi.python.org/pypi/gruffy/
 
@@ -41,6 +42,7 @@
 
   * `0.2.7 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/nwdiag/nwdiag-0.2.7.ebuild>`__  ``amd64``, ``x86``
   * `0.3.0 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/nwdiag/nwdiag-0.3.0.ebuild>`__  ``~amd64`` (due 2011-08-19), ``~x86`` (due 2011-08-19)
+  * `0.4.0 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/nwdiag/nwdiag-0.4.0.ebuild>`__  ``~amd64`` (due 2011-09-17), ``~x86`` (due 2011-09-17)
 
 * ``seqdiag`` - http://pypi.python.org/pypi/seqdiag/
 
@@ -49,6 +51,7 @@
  * Versions:
 
   * `0.3.7 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/seqdiag/seqdiag-0.3.7.ebuild>`__  ``amd64``, ``x86``
+  * `0.3.8 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/seqdiag/seqdiag-0.3.8.ebuild>`__  ``~amd64`` (due 2011-09-17), ``~x86`` (due 2011-09-17)
 
 * ``sng`` - http://www.catb.org/~esr/sng/
 
