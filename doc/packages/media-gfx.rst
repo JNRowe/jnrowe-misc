@@ -76,7 +76,7 @@
  * Versions:
 
   * `0.8.3 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-0.8.3.ebuild>`__  ``amd64``, ``x86``
-  * `0.9.0 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-0.9.0.ebuild>`__  ``~amd64`` (due 2011-08-19), ``~x86`` (due 2011-08-19)
+  * `0.9.0 <https://github.com/JNRowe/misc-overlay/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-0.9.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-08-19)
 
 * ``sphinxcontrib-gruffygen`` - http://pypi.python.org/pypi/sphinxcontrib-gruffygen/
 
