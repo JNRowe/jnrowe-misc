@@ -167,8 +167,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.2.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/genzshcomp/genzshcomp-0.2.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/genzshcomp/genzshcomp-0.2.2.ebuild>`__  ``~amd64`` (due 2011-08-19), ``~x86`` (due 2011-08-19)
+  * `0.2.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/genzshcomp/genzshcomp-0.2.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``git-python`` - http://pypi.python.org/pypi/GitPython/
 
@@ -185,7 +184,7 @@
  * Versions:
 
   * `0.5.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.5.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.5.1.ebuild>`__  ``~amd64`` (due 2011-08-19), ``~x86`` (due 2011-08-19)
+  * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.5.1.ebuild>`__  ``~amd64`` (due 2011-09-18), ``~x86`` (due 2011-09-18)
 
 * ``gpxdata`` - http://www.kette-links.de/technik.php?lang=en
 
@@ -306,8 +305,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.7 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pdbpp/pdbpp-0.7.ebuild>`__  ``amd64``, ``x86``
-  * `0.7.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pdbpp/pdbpp-0.7.2.ebuild>`__  ``~amd64`` (due 2011-08-19), ``~x86`` (due 2011-08-19)
+  * `0.7.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pdbpp/pdbpp-0.7.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``pep8`` - https://github.com/jcrocholl/pep8
 
@@ -557,8 +555,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.6 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.6.ebuild>`__  ``amd64``, ``x86``
-  * `0.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.6.1.ebuild>`__  ``~amd64`` (due 2011-08-19), ``~x86`` (due 2011-08-19)
+  * `0.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.6.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 

@@ -7,8 +7,7 @@
  * Licence: ``GPL-3 doc? ( public-domain )``
  * Versions:
 
-  * `0.5.6-r1 <https://github.com/JNRowe/misc-overlay/blob/master/www-client/cupage/cupage-0.5.6-r1.ebuild>`__  ``amd64``, ``x86``
-  * `0.6.0 <https://github.com/JNRowe/misc-overlay/blob/master/www-client/cupage/cupage-0.6.0.ebuild>`__  ``~amd64`` (due 2011-08-19), ``~x86`` (due 2011-08-19)
+  * `0.6.0 <https://github.com/JNRowe/misc-overlay/blob/master/www-client/cupage/cupage-0.6.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``github-cli`` - http://pypi.python.org/pypi/github-cli/
 
