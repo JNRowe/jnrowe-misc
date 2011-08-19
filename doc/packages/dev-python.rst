@@ -306,8 +306,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.7 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pdbpp/pdbpp-0.7.ebuild>`__  ``amd64``, ``x86``
-  * `0.7.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pdbpp/pdbpp-0.7.2.ebuild>`__  ``amd64``, ``~x86`` (due 2011-08-19)
+  * `0.7.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pdbpp/pdbpp-0.7.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``pep8`` - https://github.com/jcrocholl/pep8
 
