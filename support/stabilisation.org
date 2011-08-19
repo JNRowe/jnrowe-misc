@@ -4,7 +4,6 @@
 * media-gfx/sphinxcontrib-blockdiag-0.9.0     x86 SCHEDULED: <2011-08-19 Fri>
 * dev-python/sure-0.6.1                       x86 SCHEDULED: <2011-08-19 Fri>
 * dev-python/genzshcomp-0.2.2                 x86 SCHEDULED: <2011-08-19 Fri>
-* mail-client/notmuch-0.6.1                 amd64 SCHEDULED: <2011-08-19 Fri>
 * mail-client/notmuch-0.6.1                   x86 SCHEDULED: <2011-08-19 Fri>
 * media-gfx/nwdiag-0.3.0                    amd64 SCHEDULED: <2011-08-19 Fri>
 * media-gfx/nwdiag-0.3.0                      x86 SCHEDULED: <2011-08-19 Fri>

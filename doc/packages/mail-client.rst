@@ -8,7 +8,7 @@
  * Versions:
 
   * `0.6 <https://github.com/JNRowe/misc-overlay/blob/master/mail-client/notmuch/notmuch-0.6.ebuild>`__  ``amd64``, ``x86``
-  * `0.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/mail-client/notmuch/notmuch-0.6.1.ebuild>`__  ``~amd64`` (due 2011-08-19), ``~x86`` (due 2011-08-19)
+  * `0.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/mail-client/notmuch/notmuch-0.6.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-08-19)
   * `0.7 <https://github.com/JNRowe/misc-overlay/blob/master/mail-client/notmuch/notmuch-0.7.ebuild>`__  ``~amd64`` (due 2011-09-17), ``~x86`` (due 2011-09-17)
   * `9999 <https://github.com/JNRowe/misc-overlay/blob/master/mail-client/notmuch/notmuch-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
 
