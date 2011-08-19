@@ -1,5 +1,4 @@
 * www-client/cupage-0.6.0                     x86 SCHEDULED: <2011-08-19 Fri>
-* dev-python/github2-0.5.1                  amd64 SCHEDULED: <2011-08-19 Fri>
 * dev-python/github2-0.5.1                    x86 SCHEDULED: <2011-08-19 Fri>
 * dev-python/pdbpp-0.7.2                    amd64 SCHEDULED: <2011-08-19 Fri>
 * dev-python/pdbpp-0.7.2                      x86 SCHEDULED: <2011-08-19 Fri>
@@ -46,6 +45,7 @@
 * app-misc/tudu-0.8.1                         x86 SCHEDULED: <2011-09-17 Sat>
 * dev-python/twython-1.4.3                  amd64 SCHEDULED: <2011-09-17 Sat>
 * dev-python/twython-1.4.3                    x86 SCHEDULED: <2011-09-17 Sat>
+* dev-python/github2-0.5.1                  amd64 SCHEDULED: <2011-09-18 Sun>
 * www-apps/mnemosyne-0.12                   amd64 SCHEDULED: <2011-10-05 Wed>
 * www-apps/mnemosyne-0.12                     x86 SCHEDULED: <2011-10-05 Wed>
 * dev-python/pycparser-2.04                 amd64 SCHEDULED: <2011-10-05 Wed>
