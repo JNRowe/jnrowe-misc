@@ -43,7 +43,9 @@ src_prepare() {
 
 pkg_postinst() {
 	gnome2_pkg_postinst
-	distutils_pkg_postinst
+
+	python_mod_optimize ${PN}
+
 	if ! use xmltv; then
 		ewarn "You must enable USE=xmltv if you wish to download TV listings!"
 	fi
@@ -51,5 +53,6 @@ pkg_postinst() {
 
 pkg_postrm() {
 	gnome2_pkg_postrm
-	distutils_pkg_postrm
+
+	python_mod_cleanup ${PN}
 }

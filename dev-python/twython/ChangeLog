@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*twython-1.4.3 (18 Aug 2011)
+
+  18 Aug 2011; James Rowe <jnrowe@gmail.com> +twython-1.4.3.ebuild:
+  Version bump [452].
+
   18 May 2011; James Rowe <jnrowe@gmail.com> -twython-1.4.1.ebuild:
   Removed stale ebuild, newer version will be available for stabilisation
   before this.
