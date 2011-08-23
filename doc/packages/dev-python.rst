@@ -557,6 +557,7 @@
  * Versions:
 
   * `0.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.6.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.7.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.7.0.ebuild>`__  ``~amd64`` (due 2011-09-22), ``~x86`` (due 2011-09-22)
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 

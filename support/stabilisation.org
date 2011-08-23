@@ -35,6 +35,8 @@
 * dev-python/attest-0.5.2                   amd64 SCHEDULED: <2011-09-22 Thu>
 * dev-python/pgmagick-0.4.2                 amd64 SCHEDULED: <2011-09-22 Thu>
 * dev-python/pgmagick-0.4.2                   x86 SCHEDULED: <2011-09-22 Thu>
+* dev-python/sure-0.7.0                     amd64 SCHEDULED: <2011-09-22 Thu>
+* dev-python/sure-0.7.0                       x86 SCHEDULED: <2011-09-22 Thu>
 * www-apps/mnemosyne-0.12                   amd64 SCHEDULED: <2011-10-05 Wed>
 * www-apps/mnemosyne-0.12                     x86 SCHEDULED: <2011-10-05 Wed>
 * dev-python/pycparser-2.04                 amd64 SCHEDULED: <2011-10-05 Wed>
