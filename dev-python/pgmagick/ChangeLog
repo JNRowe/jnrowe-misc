@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*pgmagick-0.4.2 (23 Aug 2011)
+
+  23 Aug 2011; James Rowe <jnrowe@gmail.com> +pgmagick-0.4.2.ebuild:
+  Version bump [455].
+
 *pgmagick-0.4.1 (18 Aug 2011)
 
   18 Aug 2011; James Rowe <jnrowe@gmail.com> +pgmagick-0.4.1.ebuild:
