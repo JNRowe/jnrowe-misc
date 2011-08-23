@@ -648,6 +648,7 @@
  * Versions:
 
   * `2.7.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.7.1.ebuild>`__  ``amd64``, ``x86``
+  * `2.8 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.8.ebuild>`__  ``~amd64`` (due 2011-09-22), ``~x86`` (due 2011-09-22)
 
 * ``webcolors`` - http://pypi.python.org/pypi/webcolors/
 
