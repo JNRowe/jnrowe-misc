@@ -12,6 +12,8 @@ esac
 # @ECLASS: jnrowe-github.eclass
 # @MAINTAINER:
 # jnrowe@gmail.com
+# @AUTHOR:
+# jnrowe@gmail.com
 # @BLURB: Simplify ebuilds for GitHub hosted packages
 # @DESCRIPTION:
 # This eclass is designed to to remove some of the duplication necessary

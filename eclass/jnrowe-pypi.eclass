@@ -12,6 +12,8 @@ esac
 # @ECLASS: jnrowe-pypi.eclass
 # @MAINTAINER:
 # jnrowe@gmail.com
+# @AUTHOR:
+# jnrowe@gmail.com
 # @BLURB: Simplify ebuilds for pypi hosted packages
 # @DESCRIPTION:
 # This eclass is a simple wrapper around the distutils eclass, to remove some of
