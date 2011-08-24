@@ -1,0 +1,32 @@
+diff --git i/requests/models.py w/requests/models.py
+index 2d7fc8f..b907a47 100644
+--- i/requests/models.py
++++ w/requests/models.py
+@@ -15,11 +15,12 @@ from urllib2 import HTTPError
+ from urlparse import urlparse, urlunparse, urljoin
+ from datetime import datetime
+ 
++from poster.encode import multipart_encode
++from poster.streaminghttp import register_openers, get_handlers
++
+ from .config import settings
+ from .monkeys import Request as _Request, HTTPBasicAuthHandler, HTTPForcedBasicAuthHandler, HTTPDigestAuthHandler, HTTPRedirectHandler
+ from .structures import CaseInsensitiveDict
+-from .packages.poster.encode import multipart_encode
+-from .packages.poster.streaminghttp import register_openers, get_handlers
+ from .utils import dict_from_cookiejar
+ from .exceptions import RequestException, AuthenticationError, Timeout, URLRequired, InvalidMethod, TooManyRedirects
+ from .status_codes import codes
+diff --git i/setup.py w/setup.py
+index 6b95c31..e66176c 100755
+--- i/setup.py
++++ w/setup.py
+@@ -36,8 +36,6 @@ setup(
+     url='http://python-requests.org',
+     packages= [
+         'requests',
+-        'requests.packages',
+-        'requests.packages.poster'
+     ],
+     install_requires=required,
+     license='ISC',

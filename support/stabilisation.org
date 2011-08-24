@@ -40,6 +40,7 @@
 * dev-python/virtualenvwrapper-2.8          amd64 SCHEDULED: <2011-09-22 Thu>
 * dev-python/virtualenvwrapper-2.8            x86 SCHEDULED: <2011-09-22 Thu>
 * dev-python/poster-0.8.1                   amd64 SCHEDULED: <2011-09-24 Sat>
+* dev-python/requests-0.6.1                 amd64 SCHEDULED: <2011-09-24 Sat>
 * www-apps/mnemosyne-0.12                   amd64 SCHEDULED: <2011-10-05 Wed>
 * www-apps/mnemosyne-0.12                     x86 SCHEDULED: <2011-10-05 Wed>
 * dev-python/pycparser-2.04                 amd64 SCHEDULED: <2011-10-05 Wed>
