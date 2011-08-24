@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/poster
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*poster-0.8.1 (24 Aug 2011)
+
+  24 Aug 2011; James Rowe <jnrowe@gmail.com> +poster-0.8.1.ebuild,
+  +metadata.xml, +watch:
+  Initial ebuild, by me. Required for requests.
+
