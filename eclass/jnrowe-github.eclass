@@ -23,7 +23,7 @@ esac
 # @DEFAULT-UNSET
 # @REQUIRED
 # @DESCRIPTION:
-# GitHub username the project is hosted within
+# GitHub user account the project is hosted within
 
 # @ECLASS-VARIABLE: GITHUB_TAG
 # @DEFAULT-UNSET
