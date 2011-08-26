@@ -21,7 +21,8 @@ IUSE=""
 
 # setuptools is an optional dependency for setup.py, but favour reproducibilty.
 DEPEND="dev-python/setuptools"
-RDEPEND="|| ( >=dev-lang/python-2.6 dev-python/simplejson )"
+RDEPEND="|| ( >=dev-lang/python-2.6 dev-python/simplejson )
+	dev-python/poster"
 
 PATCHES=("${FILESDIR}"/${P}-fix_poster_bundling.patch)
 
