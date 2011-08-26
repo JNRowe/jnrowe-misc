@@ -347,7 +347,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.8.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/poster/poster-0.8.1.ebuild>`__  ``~amd64`` (due 2011-09-24)
+  * `0.8.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/poster/poster-0.8.1.ebuild>`__  ``~amd64`` (due 2011-09-24), ``~x86`` (due 2011-09-25)
 
 * ``prettytable`` - http://code.google.com/p/prettytable/
 
@@ -459,7 +459,7 @@
  * Licence: ``ISC``
  * Versions:
 
-  * `0.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/requests/requests-0.6.1.ebuild>`__  ``~amd64`` (due 2011-09-24)
+  * `0.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/requests/requests-0.6.1.ebuild>`__  ``~amd64`` (due 2011-09-24), ``~x86`` (due 2011-09-25)
 
 * ``rstctl`` - http://pypi.python.org/pypi/rstctl/
 
