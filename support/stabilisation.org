@@ -43,6 +43,10 @@
 * media-gfx/sphinxcontrib-mscgen-0.4        amd64 SCHEDULED: <2011-09-26 Mon>
 * media-gfx/sphinxcontrib-mscgen-0.4          x86 SCHEDULED: <2011-09-26 Mon>
 * dev-python/attest-0.5.2                     x86 SCHEDULED: <2011-09-26 Mon>
+* dev-python/lettuce-0.1.32                 amd64 SCHEDULED: <2011-09-26 Mon>
+* dev-python/lettuce-0.1.32                   x86 SCHEDULED: <2011-09-26 Mon>
+* app-text/sphinxcontrib-issuetracker-0.8   amd64 SCHEDULED: <2011-09-26 Mon>
+* app-text/sphinxcontrib-issuetracker-0.8     x86 SCHEDULED: <2011-09-26 Mon>
 * www-apps/mnemosyne-0.12                   amd64 SCHEDULED: <2011-10-05 Wed>
 * www-apps/mnemosyne-0.12                     x86 SCHEDULED: <2011-10-05 Wed>
 * dev-python/pycparser-2.04                 amd64 SCHEDULED: <2011-10-05 Wed>
