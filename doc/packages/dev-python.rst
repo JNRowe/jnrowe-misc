@@ -39,7 +39,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.5.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/attest/attest-0.5.2.ebuild>`__  ``~amd64`` (due 2011-09-22), ``~x86`` (due 2011-08-27)
+  * `0.5.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/attest/attest-0.5.2.ebuild>`__  ``~amd64`` (due 2011-09-22), ``~x86`` (due 2011-09-26)
 
 * ``benchmarker`` - http://pypi.python.org/pypi/Benchmarker/
 
