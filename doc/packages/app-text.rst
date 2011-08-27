@@ -56,4 +56,5 @@
  * Versions:
 
   * `0.7.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-issuetracker/sphinxcontrib-issuetracker-0.7.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.8 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-issuetracker/sphinxcontrib-issuetracker-0.8.ebuild>`__  ``~amd64`` (due 2011-09-26), ``~x86`` (due 2011-09-26)
 
