@@ -1,5 +1,5 @@
->=app-admin/eselect-python-20091230 dev-lang/python test? ( dev-python/nose )
-dev-python/colorama dev-python/decorator >=app-admin/eselect-python-20091230 dev-lang/python
+>=app-admin/eselect-python-20091230 =dev-lang/python-2* test? ( dev-python/nose )
+dev-python/colorama dev-python/decorator >=app-admin/eselect-python-20091230 =dev-lang/python-2*
 0
 mirror://pypi/s/showme/showme-1.0.0.tar.gz
 
