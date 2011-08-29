@@ -5,6 +5,8 @@
 EAPI=3
 SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="*"
+# Skipping tests with Python v2.4, due to context handlers
+PYTHON_TESTS_RESTRICTED_ABIS="2.4"
 
 MY_PN="Benchmarker"
 
@@ -26,11 +28,6 @@ DOCS="CHANGES.txt"
 
 src_test() {
 	testing() {
-		if [[ "${PYTHON_ABI}" == "2.4" ]]; then
-			einfo "Skipping tests with Python v2.4, due to context handlers"
-			return
-		fi
-
 		PYTHONPATH="${S}" "$(PYTHON)" test/benchmarker_test.py \
 			|| die "benchmarker_test failed"
 	}
