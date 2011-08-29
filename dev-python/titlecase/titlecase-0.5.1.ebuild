@@ -33,14 +33,3 @@ src_prepare() {
 	}
 	python_execute_function prepare
 }
-
-src_test() {
-	testing() {
-		if [ "${PYTHON_ABI::1}" = 3 ]; then
-			einfo "Skipping tests with Python v3, due to lack of nose support"
-			return
-		fi
-		nosetests-${PYTHON_ABI} ${PN} || die "nosetests failed"
-	}
-	python_execute_function testing
-}
