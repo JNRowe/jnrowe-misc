@@ -8,6 +8,7 @@ PYTHON_DEPEND="*:2.5"
 # 2.4 isn't supported because of conditional expressions
 RESTRICT_PYTHON_ABIS="2.4"
 DISTUTILS_SRC_TEST="nosetests"
+PYTHON_TESTS_RESTRICTED_ABIS="3.*"
 
 MY_PN="Logbook"
 
@@ -25,14 +26,3 @@ RDEPEND="${DEPEND}
 	|| ( >=dev-lang/python-2.6 dev-python/simplejson )"
 
 DOCS="CHANGES"
-
-src_test() {
-	testing() {
-		if [ "${PYTHON_ABI::1}" = 3 ]; then
-			einfo "Skipping tests with Python v3, due to lack of nose support"
-			return
-		fi
-		nosetests-${PYTHON_ABI} ${PN} || die "nosetests failed"
-	}
-	python_execute_function testing
-}
