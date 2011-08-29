@@ -1,4 +1,4 @@
-daemon? ( =x11-libs/gtkhotkey-0.2* ) x11-libs/libwnck dev-util/intltool dev-util/pkgconfig || ( =sys-devel/automake-1.11* ) >=sys-devel/autoconf-2.61 >=sys-devel/libtool-2.2.6b
+daemon? ( =x11-libs/gtkhotkey-0.2* ) x11-libs/libwnck dev-util/intltool dev-util/pkgconfig || ( =sys-devel/automake-1.11* ) >=sys-devel/autoconf-2.61 sys-devel/libtool
 daemon? ( =x11-libs/gtkhotkey-0.2* ) x11-libs/libwnck
 0
 http://launchpad.net/winwrangler/0.2/0.2.4/+download/winwrangler-0.2.4.tar.gz

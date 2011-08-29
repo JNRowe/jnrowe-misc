@@ -1,4 +1,4 @@
->=dev-libs/glib-2.18 >=dev-libs/libdaemon-0.13 >=media-libs/libmpdclient-2.1 libnotify? ( x11-libs/libnotify ) scrobbler? ( net-misc/curl ) dev-util/pkgconfig || ( =sys-devel/automake-1.11* ) >=sys-devel/autoconf-2.61 >=sys-devel/libtool-2.2.6b dev-vcs/git
+>=dev-libs/glib-2.18 >=dev-libs/libdaemon-0.13 >=media-libs/libmpdclient-2.1 libnotify? ( x11-libs/libnotify ) scrobbler? ( net-misc/curl ) dev-util/pkgconfig || ( =sys-devel/automake-1.11* ) >=sys-devel/autoconf-2.61 sys-devel/libtool dev-vcs/git
 >=dev-libs/glib-2.18 >=dev-libs/libdaemon-0.13 >=media-libs/libmpdclient-2.1 libnotify? ( x11-libs/libnotify ) scrobbler? ( net-misc/curl )
 0
 
