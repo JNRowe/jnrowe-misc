@@ -18,7 +18,7 @@ HOMEPAGE="http://andrewgee.org/blog/projects/gpxviewer"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE=""
 
 DEPEND="dev-python/python-distutils-extra
