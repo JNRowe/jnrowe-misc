@@ -183,7 +183,6 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.5.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.5.0.ebuild>`__  ``amd64``, ``x86``
   * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.5.1.ebuild>`__  ``~amd64`` (due 2011-09-18), ``~x86`` (due 2011-09-18)
 
 * ``gpxdata`` - http://www.kette-links.de/technik.php?lang=en
