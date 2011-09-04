@@ -7,7 +7,7 @@
  * Licence: ``LGPL-2.1``
  * Versions:
 
-  * `1.1 <https://github.com/JNRowe/misc-overlay/blob/master/sci-visualization/cairoplot/cairoplot-1.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/sci-visualization/cairoplot/cairoplot-1.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``charty`` - http://pypi.python.org/pypi/Charty/
 
@@ -15,7 +15,7 @@
  * Licence: ``BSD GPL-2``
  * Versions:
 
-  * `0.1.0 <https://github.com/JNRowe/misc-overlay/blob/master/sci-visualization/charty/charty-0.1.0.ebuild>`__  ``amd64``, ``x86``
+  * `0.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/sci-visualization/charty/charty-0.1.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``pycha`` - http://pypi.python.org/pypi/pycha/
 
@@ -23,5 +23,5 @@
  * Licence: ``LGPL-3``
  * Versions:
 
-  * `0.6.0 <https://github.com/JNRowe/misc-overlay/blob/master/sci-visualization/pycha/pycha-0.6.0.ebuild>`__  ``amd64``, ``x86``
+  * `0.6.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/sci-visualization/pycha/pycha-0.6.0.ebuild>`__  ``amd64``, ``x86``
 

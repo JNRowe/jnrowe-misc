@@ -7,7 +7,7 @@
  * Licence: ``as-is``
  * Versions:
 
-  * `0.20090818 <https://github.com/JNRowe/misc-overlay/blob/master/dev-lua/luainotify/luainotify-0.20090818.ebuild>`__  ``amd64``, ``x86``
+  * `0.20090818 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-lua/luainotify/luainotify-0.20090818.ebuild>`__  ``amd64``, ``x86``
 
 * ``luaposix`` - http://wiki.alpinelinux.org/wiki/Luaposix
 
@@ -15,5 +15,5 @@
  * Licence: ``public-domain``
  * Versions:
 
-  * `5.1.11 <https://github.com/JNRowe/misc-overlay/blob/master/dev-lua/luaposix/luaposix-5.1.11.ebuild>`__  ``amd64``, ``x86``
+  * `5.1.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-lua/luaposix/luaposix-5.1.11.ebuild>`__  ``amd64``, ``x86``
 

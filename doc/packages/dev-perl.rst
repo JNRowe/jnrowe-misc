@@ -7,7 +7,7 @@
  * Licence: ``Artistic``
  * Versions:
 
-  * `0.10004 <https://github.com/JNRowe/misc-overlay/blob/master/dev-perl/Net-Twitter-Lite/Net-Twitter-Lite-0.10004.ebuild>`__  ``~amd64`` (due 2011-11-14), ``~x86`` (due 2011-11-14)
+  * `0.10004 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-perl/Net-Twitter-Lite/Net-Twitter-Lite-0.10004.ebuild>`__  ``~amd64`` (due 2011-11-14), ``~x86`` (due 2011-11-14)
 
 * ``Term-Animation`` - http://search.cpan.org/dist/Term-Animation/
 
@@ -15,7 +15,7 @@
  * Licence: ``Artistic``
  * Versions:
 
-  * `2.6 <https://github.com/JNRowe/misc-overlay/blob/master/dev-perl/Term-Animation/Term-Animation-2.6.ebuild>`__  ``amd64``, ``x86``
+  * `2.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-perl/Term-Animation/Term-Animation-2.6.ebuild>`__  ``amd64``, ``x86``
 
 * ``Weather-Underground`` - http://search.cpan.org/dist/Weather-Underground/
 
@@ -23,6 +23,6 @@
  * Licence: ``Artistic``
  * Versions:
 
-  * `3.02 <https://github.com/JNRowe/misc-overlay/blob/master/dev-perl/Weather-Underground/Weather-Underground-3.02.ebuild>`__  ``amd64``, ``x86``
-  * `3.03 <https://github.com/JNRowe/misc-overlay/blob/master/dev-perl/Weather-Underground/Weather-Underground-3.03.ebuild>`__  ``~amd64`` (due 2011-09-17), ``~x86`` (due 2011-09-17)
+  * `3.02 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-perl/Weather-Underground/Weather-Underground-3.02.ebuild>`__  ``amd64``, ``x86``
+  * `3.03 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-perl/Weather-Underground/Weather-Underground-3.03.ebuild>`__  ``~amd64`` (due 2011-09-17), ``~x86`` (due 2011-09-17)
 

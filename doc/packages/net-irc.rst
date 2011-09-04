@@ -7,5 +7,5 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `9999 <https://github.com/JNRowe/misc-overlay/blob/master/net-irc/twirssi/twirssi-9999.ebuild>`__ [``git``] 
+  * `9999 <https://github.com/JNRowe/jnrowe-misc/blob/master/net-irc/twirssi/twirssi-9999.ebuild>`__ [``git``] 
 

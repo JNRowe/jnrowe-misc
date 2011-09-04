@@ -12,7 +12,7 @@ DESCRIPTION="Machine parsable output plugin for nose"
 HOMEPAGE="http://code.google.com/p/nose-machineout/"
 # Unfortunately there are no real releases(just eggs) at either PyPI or the
 # Google Code site.
-SRC_URI="https://github.com/downloads/JNRowe/misc-overlay/${P}.tar.bz2"
+SRC_URI="https://github.com/downloads/JNRowe/jnrowe-misc/${P}.tar.bz2"
 
 LICENSE="PSF-2.4"
 SLOT="0"

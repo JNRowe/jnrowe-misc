@@ -28,14 +28,14 @@ If you're using :program:`layman` v1.2.4 or newer, then the
 :file:`/etc/layman/layman.conf`, for example::
 
     overlays  : http://www.gentoo.org/proj/en/overlays/repositories.xml
-                https://github.com/JNRowe/misc-overlay/raw/master/support/layman2.xml
+                https://github.com/JNRowe/jnrowe-misc/raw/master/support/layman2.xml
 
 If you're using :program:`layman` v1.2.3 or earlier, then
 :file:`support/layman.xml` should be added to the ``overlays`` section of
 :file:`/etc/layman/layman.conf`, for example::
 
     overlays  : http://www.gentoo.org/proj/en/overlays/layman-global.txt
-                https://github.com/JNRowe/misc-overlay/raw/master/support/layman.xml
+                https://github.com/JNRowe/jnrowe-misc/raw/master/support/layman.xml
 
 Then you can add the overlay using :command:`layman`::
 
@@ -72,4 +72,4 @@ for details.
 .. _rsync: http://rsync.samba.org/
 .. _layman: http://layman.sourceforge.net
 .. _eix: http://eix.sourceforge.net
-.. _git repository: https://github.com/JNRowe/misc-overlay/
+.. _git repository: https://github.com/JNRowe/jnrowe-misc/

@@ -7,7 +7,7 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `0.5.0 <https://github.com/JNRowe/misc-overlay/blob/master/mail-filter/maildirproc/maildirproc-0.5.0.ebuild>`__  ``amd64``, ``x86``
+  * `0.5.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/mail-filter/maildirproc/maildirproc-0.5.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``maildirproc-python2`` - http://joel.rosdahl.net/maildirproc/
 
@@ -15,7 +15,7 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `0.5.0 <https://github.com/JNRowe/misc-overlay/blob/master/mail-filter/maildirproc-python2/maildirproc-python2-0.5.0.ebuild>`__  ``amd64``, ``x86``
+  * `0.5.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/mail-filter/maildirproc-python2/maildirproc-python2-0.5.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``qsf`` - http://www.ivarch.com/programs/qsf.shtml
 
@@ -23,5 +23,5 @@
  * Licence: ``Artistic-2``
  * Versions:
 
-  * `1.2.7 <https://github.com/JNRowe/misc-overlay/blob/master/mail-filter/qsf/qsf-1.2.7.ebuild>`__  ``amd64``, ``x86``
+  * `1.2.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/mail-filter/qsf/qsf-1.2.7.ebuild>`__  ``amd64``, ``x86``
 

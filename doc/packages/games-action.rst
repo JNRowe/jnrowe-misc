@@ -7,5 +7,5 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.2.1 <https://github.com/JNRowe/misc-overlay/blob/master/games-action/reminiscence/reminiscence-0.2.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/games-action/reminiscence/reminiscence-0.2.1.ebuild>`__  ``amd64``, ``x86``
 

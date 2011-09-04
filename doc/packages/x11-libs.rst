@@ -7,5 +7,5 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.0.1 <https://github.com/JNRowe/misc-overlay/blob/master/x11-libs/ghosd/ghosd-0.0.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/x11-libs/ghosd/ghosd-0.0.1.ebuild>`__  ``amd64``, ``x86``
 

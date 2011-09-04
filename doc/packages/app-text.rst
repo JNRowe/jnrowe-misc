@@ -7,7 +7,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `9999 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/gist/gist-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
+  * `9999 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/gist/gist-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
 
 * ``html2rest`` - http://pypi.python.org/pypi/html2rest/
 
@@ -15,7 +15,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.1 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/html2rest/html2rest-0.2.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-09-07)
+  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/html2rest/html2rest-0.2.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-09-07)
 
 * ``rstspreadsheet`` - http://pypi.python.org/pypi/rstspreadsheet/
 
@@ -23,7 +23,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/rstspreadsheet/rstspreadsheet-0.1.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/rstspreadsheet/rstspreadsheet-0.1.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``sphinxcontrib-ansi`` - http://packages.python.org/sphinxcontrib-ansi/
 
@@ -31,7 +31,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.6 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-ansi/sphinxcontrib-ansi-0.6.ebuild>`__  ``amd64``, ``x86``
+  * `0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/sphinxcontrib-ansi/sphinxcontrib-ansi-0.6.ebuild>`__  ``amd64``, ``x86``
 
 * ``sphinxcontrib-googlechart`` - http://packages.python.org/sphinxcontrib-googlechart/
 
@@ -39,7 +39,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.1.4 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-googlechart/sphinxcontrib-googlechart-0.1.4.ebuild>`__  ``amd64``, ``x86``
+  * `0.1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/sphinxcontrib-googlechart/sphinxcontrib-googlechart-0.1.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``sphinxcontrib-httpdomain`` - http://packages.python.org/sphinxcontrib-httpdomain/
 
@@ -47,7 +47,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `1.1.5 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-httpdomain/sphinxcontrib-httpdomain-1.1.5.ebuild>`__  ``amd64``, ``x86``
+  * `1.1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/sphinxcontrib-httpdomain/sphinxcontrib-httpdomain-1.1.5.ebuild>`__  ``amd64``, ``x86``
 
 * ``sphinxcontrib-issuetracker`` - http://packages.python.org/sphinxcontrib-issuetracker/
 
@@ -55,6 +55,6 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.7.2 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-issuetracker/sphinxcontrib-issuetracker-0.7.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.8 <https://github.com/JNRowe/misc-overlay/blob/master/app-text/sphinxcontrib-issuetracker/sphinxcontrib-issuetracker-0.8.ebuild>`__  ``~amd64`` (due 2011-09-26), ``~x86`` (due 2011-09-26)
+  * `0.7.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/sphinxcontrib-issuetracker/sphinxcontrib-issuetracker-0.7.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/sphinxcontrib-issuetracker/sphinxcontrib-issuetracker-0.8.ebuild>`__  ``~amd64`` (due 2011-09-26), ``~x86`` (due 2011-09-26)
 
