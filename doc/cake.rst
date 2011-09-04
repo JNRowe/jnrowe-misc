@@ -189,7 +189,7 @@ This module is used to provide support functionality for use in the
 .. _Python: http://python.org/
 .. _layman: http://layman.sourceforge.net
 .. _setup help page on GitHub: http://help.github.com/set-your-user-name-email-and-github-token/
-.. _GitHub repository's: https://github.com/JNRowe/misc-overlay/
+.. _GitHub repository's: https://github.com/JNRowe/jnrowe-misc/
 .. _GLEP 42: http://www.gentoo.org/proj/en/glep/glep-0042.html
 .. _devmanual's metadata.xml: http://devmanual.gentoo.org/ebuild-writing/misc-files/metadata/index.html
 .. _Sphinx: http://sphinx.pocoo.org/

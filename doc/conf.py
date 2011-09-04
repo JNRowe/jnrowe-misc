@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# misc-overlay documentation build configuration file, created by
+# jnrowe-misc documentation build configuration file, created by
 # sphinx-quickstart on Tue Feb  1 07:54:18 2011.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -43,7 +43,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'misc-overlay'
+project = u'jnrowe-misc'
 copyright = u'2011, James Rowe'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -169,7 +169,7 @@ html_static_path = ['.static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'misc-overlaydoc'
+htmlhelp_basename = 'jnrowe-miscdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -183,7 +183,7 @@ htmlhelp_basename = 'misc-overlaydoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'misc-overlay.tex', u'misc-overlay Documentation',
+  ('index', 'jnrowe-misc.tex', u'jnrowe-misc Documentation',
    u'James Rowe', 'manual'),
 ]
 
@@ -216,6 +216,6 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'misc-overlay', u'misc-overlay Documentation',
+    ('index', 'jnrowe-misc', u'jnrowe-misc Documentation',
      [u'James Rowe'], 1)
 ]

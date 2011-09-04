@@ -1,5 +1,5 @@
-misc-overlay
-============
+jnrowe-misc
+===========
 
 This repository is for packages that don't naturally fit in to my other themed
 overlays.
@@ -102,13 +102,13 @@ be added to the ``overlays`` section of ``/etc/layman/layman.conf``, for
 example::
 
     overlays  : http://www.gentoo.org/proj/en/overlays/repositories.xml
-                https://github.com/JNRowe/misc-overlay/raw/master/support/layman2.xml
+                https://github.com/JNRowe/jnrowe-misc/raw/master/support/layman2.xml
 
 If you're using layman v1.2.3 or earlier, then ``support/layman.xml`` should be
 added to the ``overlays`` section of ``/etc/layman/layman.conf``, for example::
 
     overlays  : http://www.gentoo.org/proj/en/overlays/layman-global.txt
-                https://github.com/JNRowe/misc-overlay/raw/master/support/layman.xml
+                https://github.com/JNRowe/jnrowe-misc/raw/master/support/layman.xml
 
 Then you can add the overlay using ``layman``::
 
@@ -142,8 +142,8 @@ cupage_ is used to keep packages in sync with their releases, see
 to make use of this functionality.
 
 .. _email: jnrowe@gmail.com
-.. _issue: https://github.com/JNRowe/misc-overlay/issues
-.. _full documentation: http://jnrowe.github.com/misc-overlay/
+.. _issue: https://github.com/JNRowe/jnrowe-misc/issues
+.. _full documentation: http://jnrowe.github.com/jnrowe-misc/
 .. _layman: http://layman.sourceforge.net
 .. _eix: http://eix.sourceforge.net
 .. _cupage: https://github.com/JNRowe/cupage
