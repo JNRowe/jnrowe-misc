@@ -7,7 +7,7 @@
  * Licence: ``GPL-3 doc? ( public-domain )``
  * Versions:
 
-  * `0.6.0 <https://github.com/JNRowe/misc-overlay/blob/master/www-client/cupage/cupage-0.6.0.ebuild>`__  ``amd64``, ``x86``
+  * `0.6.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/cupage/cupage-0.6.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``github-cli`` - http://pypi.python.org/pypi/github-cli/
 
@@ -15,7 +15,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.3.0 <https://github.com/JNRowe/misc-overlay/blob/master/www-client/github-cli/github-cli-0.3.0.ebuild>`__  ``amd64``, ``x86``
+  * `0.3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/github-cli/github-cli-0.3.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``surfraw`` - http://surfraw.alioth.debian.org/
 
@@ -23,5 +23,5 @@
  * Licence: ``public-domain``
  * Versions:
 
-  * `9999 <https://github.com/JNRowe/misc-overlay/blob/master/www-client/surfraw/surfraw-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
+  * `9999 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/surfraw/surfraw-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
 

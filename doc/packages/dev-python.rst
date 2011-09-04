@@ -7,7 +7,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.14.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/argh/argh-0.14.0.ebuild>`__  ``amd64``, ``x86``
+  * `0.14.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/argh/argh-0.14.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``astral`` - http://pypi.python.org/pypi/astral/
 
@@ -15,7 +15,7 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/astral/astral-0.5.ebuild>`__  ``amd64``, ``x86``
+  * `0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.5.ebuild>`__  ``amd64``, ``x86``
 
 * ``async`` - http://pypi.python.org/pypi/async/
 
@@ -23,7 +23,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/async/async-0.6.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/async/async-0.6.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``atomize`` - http://pypi.python.org/pypi/atomize/
 
@@ -31,7 +31,7 @@
  * Licence: ``EPL-1.0``
  * Versions:
 
-  * `0.1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/atomize/atomize-0.1.0.ebuild>`__  ``amd64``, ``x86``
+  * `0.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/atomize/atomize-0.1.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``attest`` - http://pypi.python.org/pypi/Attest/
 
@@ -39,7 +39,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.5.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/attest/attest-0.5.2.ebuild>`__  ``~amd64`` (due 2011-09-22), ``~x86`` (due 2011-09-26)
+  * `0.5.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/attest/attest-0.5.2.ebuild>`__  ``~amd64`` (due 2011-09-22), ``~x86`` (due 2011-09-26)
 
 * ``benchmarker`` - http://pypi.python.org/pypi/Benchmarker/
 
@@ -47,7 +47,7 @@
  * Licence: ``public-domain``
  * Versions:
 
-  * `3.0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/benchmarker/benchmarker-3.0.1.ebuild>`__  ``amd64``, ``x86``
+  * `3.0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/benchmarker/benchmarker-3.0.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``calabash`` - http://pypi.python.org/pypi/calabash/
 
@@ -55,7 +55,7 @@
  * Licence: ``public-domain``
  * Versions:
 
-  * `0.0.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/calabash/calabash-0.0.3.ebuild>`__  ``amd64``, ``x86``
+  * `0.0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/calabash/calabash-0.0.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``clevercss`` - http://pypi.python.org/pypi/CleverCSS/
 
@@ -63,7 +63,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/clevercss/clevercss-0.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/clevercss/clevercss-0.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``cloud_sptheme`` - http://pypi.python.org/pypi/cloud_sptheme/
 
@@ -71,7 +71,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `1.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.2.ebuild>`__  ``amd64``, ``x86``
+  * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``colorama`` - http://pypi.python.org/pypi/colorama/
 
@@ -79,7 +79,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.2.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/colorama/colorama-0.2.4.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/colorama/colorama-0.2.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``commandlineapp`` - http://pypi.python.org/pypi/CommandLineApp/
 
@@ -87,7 +87,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `3.0.7 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/commandlineapp/commandlineapp-3.0.7.ebuild>`__  ``amd64``, ``x86``
+  * `3.0.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/commandlineapp/commandlineapp-3.0.7.ebuild>`__  ``amd64``, ``x86``
 
 * ``dexml`` - http://pypi.python.org/pypi/dexml/
 
@@ -95,7 +95,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.4.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/dexml/dexml-0.4.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/dexml/dexml-0.4.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``doctest-tools`` - http://code.google.com/p/doctest-tools/
 
@@ -103,7 +103,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0_alpha3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/doctest-tools/doctest-tools-1.0_alpha3.ebuild>`__  ``amd64``, ``x86``
+  * `1.0_alpha3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/doctest-tools/doctest-tools-1.0_alpha3.ebuild>`__  ``amd64``, ``x86``
 
 * ``dtopt`` - http://pypi.python.org/pypi/dtopt/
 
@@ -111,7 +111,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/dtopt/dtopt-0.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/dtopt/dtopt-0.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``fabulous`` - http://lobstertech.com/fabulous.html
 
@@ -119,7 +119,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/fabulous/fabulous-0.1.5.ebuild>`__  ``amd64``, ``x86``
+  * `0.1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fabulous/fabulous-0.1.5.ebuild>`__  ``amd64``, ``x86``
 
 * ``fancycompleter`` - http://pypi.python.org/pypi/fancycompleter/
 
@@ -127,7 +127,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/fancycompleter/fancycompleter-0.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fancycompleter/fancycompleter-0.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``feedcache`` - http://www.doughellmann.com/projects/feedcache/
 
@@ -135,7 +135,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.3.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/feedcache/feedcache-1.3.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/feedcache/feedcache-1.3.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``feedgenerator`` - http://pypi.python.org/pypi/feedgenerator/
 
@@ -143,7 +143,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `1.2.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/feedgenerator/feedgenerator-1.2.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/feedgenerator/feedgenerator-1.2.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``freshen`` - https://github.com/rlisagor/freshen
 
@@ -151,7 +151,7 @@
  * Licence: ``LGPL-3``
  * Versions:
 
-  * `0.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/freshen/freshen-0.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/freshen/freshen-0.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``funcparserlib`` - http://pypi.python.org/pypi/funcparserlib/
 
@@ -159,7 +159,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.3.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/funcparserlib/funcparserlib-0.3.5.ebuild>`__  ``amd64``, ``x86``
+  * `0.3.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/funcparserlib/funcparserlib-0.3.5.ebuild>`__  ``amd64``, ``x86``
 
 * ``genzshcomp`` - http://bitbucket.org/hhatto/genzshcomp/
 
@@ -167,7 +167,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.2.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/genzshcomp/genzshcomp-0.2.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/genzshcomp/genzshcomp-0.2.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``git-python`` - http://pypi.python.org/pypi/GitPython/
 
@@ -175,7 +175,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.3.1_beta2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/git-python/git-python-0.3.1_beta2.ebuild>`__  ``amd64``, ``x86``
+  * `0.3.1_beta2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/git-python/git-python-0.3.1_beta2.ebuild>`__  ``amd64``, ``x86``
 
 * ``github2`` - http://pypi.python.org/pypi/github2/
 
@@ -183,7 +183,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/github2/github2-0.5.1.ebuild>`__  ``~amd64`` (due 2011-09-18), ``~x86`` (due 2011-09-18)
+  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.5.1.ebuild>`__  ``~amd64`` (due 2011-09-18), ``~x86`` (due 2011-09-18)
 
 * ``gpxdata`` - http://www.kette-links.de/technik.php?lang=en
 
@@ -191,7 +191,7 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `1.1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/gpxdata/gpxdata-1.1.0.ebuild>`__  ``amd64``, ``x86``
+  * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/gpxdata/gpxdata-1.1.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``grapefruit`` - http://code.google.com/p/grapefruit/
 
@@ -199,7 +199,7 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.1_alpha3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/grapefruit/grapefruit-0.1_alpha3.ebuild>`__  ``amd64``, ``x86``
+  * `0.1_alpha3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/grapefruit/grapefruit-0.1_alpha3.ebuild>`__  ``amd64``, ``x86``
 
 * ``html`` - http://pypi.python.org/pypi/html/
 
@@ -207,7 +207,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `1.16 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/html/html-1.16.ebuild>`__  ``amd64``, ``x86``
+  * `1.16 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html/html-1.16.ebuild>`__  ``amd64``, ``x86``
 
 * ``html2data`` - http://pypi.python.org/pypi/html2data/
 
@@ -215,7 +215,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/html2data/html2data-0.3.ebuild>`__  ``amd64``, ``x86``
+  * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html2data/html2data-0.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``httpretty`` - http://pypi.python.org/pypi/httpretty/
 
@@ -223,7 +223,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/httpretty/httpretty-0.4.ebuild>`__  ``amd64``, ``x86``
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``interlude`` - https://svn.bluedynamics.eu/svn/public/interlude/
 
@@ -231,7 +231,7 @@
  * Licence: ``LGPL-2.1``
  * Versions:
 
-  * `1.1.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/interlude/interlude-1.1.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/interlude/interlude-1.1.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``isodate`` - http://pypi.python.org/pypi/isodate/
 
@@ -239,7 +239,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.4.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/isodate/isodate-0.4.4.ebuild>`__  ``amd64``, ``x86``
+  * `0.4.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/isodate/isodate-0.4.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``lettuce`` - http://lettuce.it/
 
@@ -247,9 +247,9 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1.27 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/lettuce/lettuce-0.1.27.ebuild>`__  ``amd64``, ``x86``
-  * `0.1.31 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/lettuce/lettuce-0.1.31.ebuild>`__  ``~amd64`` (due 2011-09-17), ``~x86`` (due 2011-09-17)
-  * `0.1.32 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/lettuce/lettuce-0.1.32.ebuild>`__  ``~amd64`` (due 2011-09-26), ``~x86`` (due 2011-09-26)
+  * `0.1.27 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.27.ebuild>`__  ``amd64``, ``x86``
+  * `0.1.31 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.31.ebuild>`__  ``~amd64`` (due 2011-09-17), ``~x86`` (due 2011-09-17)
+  * `0.1.32 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.32.ebuild>`__  ``~amd64`` (due 2011-09-26), ``~x86`` (due 2011-09-26)
 
 * ``logbook`` - http://pypi.python.org/pypi/Logbook/
 
@@ -257,7 +257,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/logbook/logbook-0.3.ebuild>`__  ``amd64``, ``x86``
+  * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/logbook/logbook-0.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``mod2doctest`` - http://pypi.python.org/pypi/mod2doctest/
 
@@ -265,7 +265,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/mod2doctest/mod2doctest-0.2.0.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/mod2doctest/mod2doctest-0.2.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``multiprocessing`` - http://pypi.python.org/pypi/multiprocessing/
 
@@ -273,7 +273,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `2.6.2.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/multiprocessing/multiprocessing-2.6.2.1.ebuild>`__  ``amd64``, ``x86``
+  * `2.6.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/multiprocessing/multiprocessing-2.6.2.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``nose-machineout`` - http://code.google.com/p/nose-machineout/
 
@@ -281,7 +281,7 @@
  * Licence: ``PSF-2.4``
  * Versions:
 
-  * `0.0.20101201 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/nose-machineout/nose-machineout-0.0.20101201.ebuild>`__  ``amd64``, ``x86``
+  * `0.0.20101201 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-machineout/nose-machineout-0.0.20101201.ebuild>`__  ``amd64``, ``x86``
 
 * ``nose-pathmunge`` - http://bitbucket.org/jnoller/nose-pathmunge/
 
@@ -289,7 +289,7 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.1.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/nose-pathmunge/nose-pathmunge-0.1.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-pathmunge/nose-pathmunge-0.1.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``nosetty`` - http://code.google.com/p/nosetty/
 
@@ -297,7 +297,7 @@
  * Licence: ``LGPL-2.1``
  * Versions:
 
-  * `0.4-r1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/nosetty/nosetty-0.4-r1.ebuild>`__  ``amd64``, ``x86``
+  * `0.4-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nosetty/nosetty-0.4-r1.ebuild>`__  ``amd64``, ``x86``
 
 * ``pdbpp`` - http://pypi.python.org/pypi/pdbpp/
 
@@ -305,7 +305,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.7.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pdbpp/pdbpp-0.7.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.7.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pdbpp/pdbpp-0.7.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``pep8`` - https://github.com/jcrocholl/pep8
 
@@ -313,7 +313,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pep8/pep8-0.6.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep8/pep8-0.6.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``pgmagick`` - http://pypi.python.org/pypi/pgmagick/
 
@@ -321,9 +321,9 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pgmagick/pgmagick-0.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pgmagick/pgmagick-0.4.1.ebuild>`__  ``~amd64`` (due 2011-09-17), ``~x86`` (due 2011-09-17)
-  * `0.4.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pgmagick/pgmagick-0.4.2.ebuild>`__  ``~amd64`` (due 2011-09-22), ``~x86`` (due 2011-09-22)
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.4.ebuild>`__  ``amd64``, ``x86``
+  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.4.1.ebuild>`__  ``~amd64`` (due 2011-09-17), ``~x86`` (due 2011-09-17)
+  * `0.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.4.2.ebuild>`__  ``~amd64`` (due 2011-09-22), ``~x86`` (due 2011-09-22)
 
 * ``pinocchio`` - http://darcs.idyll.org/~t/projects/pinocchio/doc/
 
@@ -331,7 +331,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pinocchio/pinocchio-0.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pinocchio/pinocchio-0.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``plac`` - http://pypi.python.org/pypi/plac/
 
@@ -339,7 +339,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.9.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/plac/plac-0.9.0.ebuild>`__  ``amd64``, ``x86``
+  * `0.9.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/plac/plac-0.9.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``poster`` - http://pypi.python.org/pypi/poster/
 
@@ -347,7 +347,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.8.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/poster/poster-0.8.1.ebuild>`__  ``~amd64`` (due 2011-09-24), ``~x86`` (due 2011-09-25)
+  * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/poster/poster-0.8.1.ebuild>`__  ``~amd64`` (due 2011-09-24), ``~x86`` (due 2011-09-25)
 
 * ``prettytable`` - http://code.google.com/p/prettytable/
 
@@ -355,7 +355,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.5 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/prettytable/prettytable-0.5.ebuild>`__  ``amd64``, ``x86``
+  * `0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/prettytable/prettytable-0.5.ebuild>`__  ``amd64``, ``x86``
 
 * ``pwtools`` - http://alastairs-place.net/pwtools/
 
@@ -363,7 +363,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pwtools/pwtools-0.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pwtools/pwtools-0.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``pycallgraph`` - http://pycallgraph.slowchop.com/
 
@@ -371,7 +371,7 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pycallgraph/pycallgraph-0.5.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-09-07)
+  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycallgraph/pycallgraph-0.5.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-09-07)
 
 * ``pycparser`` - http://code.google.com/p/pycparser/
 
@@ -379,7 +379,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `2.04 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pycparser/pycparser-2.04.ebuild>`__  ``~amd64`` (due 2011-10-05), ``~x86`` (due 2011-10-05)
+  * `2.04 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycparser/pycparser-2.04.ebuild>`__  ``~amd64`` (due 2011-10-05), ``~x86`` (due 2011-10-05)
 
 * ``pycukes`` - https://github.com/hugobr/pycukes
 
@@ -387,7 +387,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pycukes/pycukes-0.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycukes/pycukes-0.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``pydelicious`` - http://code.google.com/p/pydelicious/
 
@@ -395,7 +395,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.6 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pydelicious/pydelicious-0.6.ebuild>`__  ``amd64``, ``x86``
+  * `0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pydelicious/pydelicious-0.6.ebuild>`__  ``amd64``, ``x86``
 
 * ``pyhistorian`` - https://github.com/hugobr/pyhistorian
 
@@ -403,7 +403,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.6.8 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyhistorian/pyhistorian-0.6.8.ebuild>`__  ``amd64``, ``x86``
+  * `0.6.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyhistorian/pyhistorian-0.6.8.ebuild>`__  ``amd64``, ``x86``
 
 * ``pyisbn`` - http://pypi.python.org/pypi/pyisbn/
 
@@ -411,7 +411,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.6.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyisbn/pyisbn-0.6.0.ebuild>`__  ``amd64``, ``x86``
+  * `0.6.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyisbn/pyisbn-0.6.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``pyrepl`` - http://pypi.python.org/pypi/pyrepl/
 
@@ -419,7 +419,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.8.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyrepl/pyrepl-0.8.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.8.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyrepl/pyrepl-0.8.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``pyscss`` - http://pypi.python.org/pypi/pyScss/
 
@@ -427,7 +427,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0.8 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/pyscss/pyscss-1.0.8.ebuild>`__  ``amd64``, ``x86``
+  * `1.0.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyscss/pyscss-1.0.8.ebuild>`__  ``amd64``, ``x86``
 
 * ``python-faker`` - http://pypi.python.org/pypi/python-faker/
 
@@ -435,7 +435,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.2.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/python-faker/python-faker-0.2.4.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/python-faker/python-faker-0.2.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``python-osmgpsmap`` - http://nzjrs.github.com/osm-gps-map/
 
@@ -443,7 +443,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.7.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/python-osmgpsmap/python-osmgpsmap-0.7.3.ebuild>`__  ``amd64``, ``x86``
+  * `0.7.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/python-osmgpsmap/python-osmgpsmap-0.7.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``rad`` - http://pypi.python.org/pypi/rad/
 
@@ -451,7 +451,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/rad/rad-0.1.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rad/rad-0.1.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``requests`` - http://pypi.python.org/pypi/requests/
 
@@ -459,7 +459,7 @@
  * Licence: ``ISC``
  * Versions:
 
-  * `0.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/requests/requests-0.6.1.ebuild>`__  ``~amd64`` (due 2011-09-24), ``~x86`` (due 2011-09-25)
+  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/requests/requests-0.6.1.ebuild>`__  ``~amd64`` (due 2011-09-24), ``~x86`` (due 2011-09-25)
 
 * ``rstctl`` - http://pypi.python.org/pypi/rstctl/
 
@@ -467,7 +467,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2011-11-06), ``~x86`` (due 2011-11-06)
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2011-11-06), ``~x86`` (due 2011-11-06)
 
 * ``scripttest`` - http://pythonpaste.org/scripttest/
 
@@ -475,7 +475,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.1.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/scripttest/scripttest-1.1.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/scripttest/scripttest-1.1.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``see`` - http://inky.github.com/see/
 
@@ -483,7 +483,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `1.0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/see/see-1.0.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/see/see-1.0.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``shelldoctest`` - http://pypi.python.org/pypi/shelldoctest/
 
@@ -491,7 +491,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.2-r1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/shelldoctest/shelldoctest-0.2-r1.ebuild>`__  ``amd64``, ``x86``
+  * `0.2-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/shelldoctest/shelldoctest-0.2-r1.ebuild>`__  ``amd64``, ``x86``
 
 * ``should_dsl`` - https://github.com/hugobr/should-dsl
 
@@ -499,7 +499,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.2.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/should_dsl/should_dsl-1.2.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/should_dsl/should_dsl-1.2.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``showme`` - http://pypi.python.org/pypi/showme/
 
@@ -507,7 +507,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/showme/showme-1.0.0.ebuild>`__  ``amd64``, ``x86``
+  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/showme/showme-1.0.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``snot`` - http://pypi.python.org/pypi/snot/
 
@@ -515,7 +515,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/snot/snot-0.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/snot/snot-0.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``socksipy`` - http://pypi.python.org/pypi/SocksiPy-branch/
 
@@ -523,7 +523,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `1.01 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/socksipy/socksipy-1.01.ebuild>`__  ``amd64``, ``x86``
+  * `1.01 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/socksipy/socksipy-1.01.ebuild>`__  ``amd64``, ``x86``
 
 * ``sphinx-to-github`` - https://github.com/michaeljones/sphinx-to-github
 
@@ -531,7 +531,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `9999 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sphinx-to-github/sphinx-to-github-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
+  * `9999 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sphinx-to-github/sphinx-to-github-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
 
 * ``sphinxcontrib-cheeseshop`` - http://pypi.python.org/pypi/sphinxcontrib-cheeseshop/
 
@@ -539,7 +539,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sphinxcontrib-cheeseshop/sphinxcontrib-cheeseshop-0.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sphinxcontrib-cheeseshop/sphinxcontrib-cheeseshop-0.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``stencil`` - http://pypi.python.org/pypi/Stencil/
 
@@ -547,8 +547,8 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/stencil/stencil-0.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/stencil/stencil-0.2.1.ebuild>`__  ``~amd64`` (due 2011-09-17), ``~x86`` (due 2011-09-17)
+  * `0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/stencil/stencil-0.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/stencil/stencil-0.2.1.ebuild>`__  ``~amd64`` (due 2011-09-17), ``~x86`` (due 2011-09-17)
 
 * ``story_parser`` - https://github.com/hugobr/story_parser
 
@@ -556,7 +556,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/story_parser/story_parser-0.1.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/story_parser/story_parser-0.1.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``straight-plugin`` - http://pypi.python.org/pypi/straight.plugin/
 
@@ -564,7 +564,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/straight-plugin/straight-plugin-1.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``sure`` - http://pypi.python.org/pypi/sure/
 
@@ -572,8 +572,8 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.6.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.6.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.7.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/sure/sure-0.7.0.ebuild>`__  ``~amd64`` (due 2011-09-22), ``~x86`` (due 2011-09-22)
+  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.6.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.7.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.7.0.ebuild>`__  ``~amd64`` (due 2011-09-22), ``~x86`` (due 2011-09-22)
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
@@ -581,7 +581,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/termcolor/termcolor-1.1.0.ebuild>`__  ``amd64``, ``x86``
+  * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/termcolor/termcolor-1.1.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``termtool`` - http://pypi.python.org/pypi/termtool/
 
@@ -589,7 +589,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/termtool/termtool-1.0.ebuild>`__  ``~amd64`` (due 2011-09-30), ``~x86`` (due 2011-10-01)
+  * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/termtool/termtool-1.0.ebuild>`__  ``~amd64`` (due 2011-09-30), ``~x86`` (due 2011-10-01)
 
 * ``texttable`` - http://jefke.free.fr/coding/python/
 
@@ -597,7 +597,7 @@
  * Licence: ``LGPL-2.1``
  * Versions:
 
-  * `0.7.0-r1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/texttable/texttable-0.7.0-r1.ebuild>`__  ``amd64``, ``x86``
+  * `0.7.0-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/texttable/texttable-0.7.0-r1.ebuild>`__  ``amd64``, ``x86``
 
 * ``titlecase`` - http://pypi.python.org/pypi/titlecase/
 
@@ -605,7 +605,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.5.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/titlecase/titlecase-0.5.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/titlecase/titlecase-0.5.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``tox`` - http://pypi.python.org/pypi/tox/
 
@@ -613,7 +613,7 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `1.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/tox/tox-1.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tox/tox-1.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``tweepy`` - http://pypi.python.org/pypi/tweepy/
 
@@ -621,7 +621,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.7.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/tweepy/tweepy-1.7.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.7.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.7.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``twython`` - http://pypi.python.org/pypi/twython/
 
@@ -629,9 +629,9 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/twython/twython-1.2.ebuild>`__  ``amd64``, ``x86``
-  * `1.4.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/twython/twython-1.4.2.ebuild>`__  ``~amd64`` (due 2011-11-14), ``~x86`` (due 2011-11-14)
-  * `1.4.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/twython/twython-1.4.3.ebuild>`__  ``~amd64`` (due 2011-09-17), ``~x86`` (due 2011-09-17)
+  * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.2.ebuild>`__  ``amd64``, ``x86``
+  * `1.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.4.2.ebuild>`__  ``~amd64`` (due 2011-11-14), ``~x86`` (due 2011-11-14)
+  * `1.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.4.3.ebuild>`__  ``~amd64`` (due 2011-09-17), ``~x86`` (due 2011-09-17)
 
 * ``upoints`` - http://www.jnrowe.ukfsn.org/projects/upoints.html
 
@@ -639,7 +639,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.11.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/upoints/upoints-0.11.0.ebuild>`__  ``amd64``, ``x86``
+  * `0.11.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/upoints/upoints-0.11.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``urlunshort`` - http://bitbucket.org/runeh/urlunshort
 
@@ -647,7 +647,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.2.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/urlunshort/urlunshort-0.2.4.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/urlunshort/urlunshort-0.2.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``vanity`` - http://pypi.python.org/pypi/vanity/
 
@@ -655,7 +655,7 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `1.0 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/vanity/vanity-1.0.ebuild>`__  ``amd64``, ``x86``
+  * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``virtualenvwrapper`` - http://pypi.python.org/pypi/virtualenvwrapper/
 
@@ -663,8 +663,8 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `2.7.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.7.1.ebuild>`__  ``amd64``, ``x86``
-  * `2.8 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.8.ebuild>`__  ``~amd64`` (due 2011-09-22), ``~x86`` (due 2011-09-22)
+  * `2.7.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.7.1.ebuild>`__  ``amd64``, ``x86``
+  * `2.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.8.ebuild>`__  ``~amd64`` (due 2011-09-22), ``~x86`` (due 2011-09-22)
 
 * ``webcolors`` - http://pypi.python.org/pypi/webcolors/
 
@@ -672,7 +672,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `1.3.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/webcolors/webcolors-1.3.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/webcolors/webcolors-1.3.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``wmctrl`` - http://pypi.python.org/pypi/wmctrl/
 
@@ -680,7 +680,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/wmctrl/wmctrl-0.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/wmctrl/wmctrl-0.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``wordish`` - http://pypi.python.org/pypi/wordish/
 
@@ -688,7 +688,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `1.0.2 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/wordish/wordish-1.0.2.ebuild>`__  ``amd64``, ``x86``
+  * `1.0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/wordish/wordish-1.0.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``xerox`` - http://pypi.python.org/pypi/xerox/
 
@@ -696,5 +696,5 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-python/xerox/xerox-0.2.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/xerox/xerox-0.2.1.ebuild>`__  ``amd64``, ``x86``
 

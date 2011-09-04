@@ -7,7 +7,7 @@
  * Licence: ``LGPL-2.1``
  * Versions:
 
-  * `1.1.0 <https://github.com/JNRowe/misc-overlay/blob/master/media-sound/castget/castget-1.1.0.ebuild>`__  ``amd64``, ``x86``
+  * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-sound/castget/castget-1.1.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``mpdcron`` - http://alip.github.com/mpdcron/
 
@@ -15,6 +15,6 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `0.3 <https://github.com/JNRowe/misc-overlay/blob/master/media-sound/mpdcron/mpdcron-0.3.ebuild>`__  ``amd64``, ``x86``
-  * `9999 <https://github.com/JNRowe/misc-overlay/blob/master/media-sound/mpdcron/mpdcron-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
+  * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-sound/mpdcron/mpdcron-0.3.ebuild>`__  ``amd64``, ``x86``
+  * `9999 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-sound/mpdcron/mpdcron-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
 

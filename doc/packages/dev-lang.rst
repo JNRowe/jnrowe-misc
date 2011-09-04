@@ -7,5 +7,5 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `0.1.11 <https://github.com/JNRowe/misc-overlay/blob/master/dev-lang/wirbel/wirbel-0.1.11.ebuild>`__  ``amd64``, ``x86``
+  * `0.1.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-lang/wirbel/wirbel-0.1.11.ebuild>`__  ``amd64``, ``x86``
 

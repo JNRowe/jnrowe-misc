@@ -7,7 +7,7 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `1.3.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/blame/blame-1.3.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/blame/blame-1.3.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``git-sync`` - https://github.com/bestpractical/git-sync
 
@@ -15,7 +15,7 @@
  * Licence: ``|| ( Artistic GPL-1 GPL-2 GPL-3 )``
  * Versions:
 
-  * `9999 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/git-sync/git-sync-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
+  * `9999 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/git-sync/git-sync-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
 
 * ``gitdb`` - http://pypi.python.org/pypi/gitdb/
 
@@ -23,7 +23,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.5.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/gitdb/gitdb-0.5.4.ebuild>`__  ``amd64``, ``x86``
+  * `0.5.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/gitdb/gitdb-0.5.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``gitflow`` - http://nvie.com/archives/323
 
@@ -31,7 +31,7 @@
  * Licence: ``BSD-2 bash-completion? ( MIT ) zsh-completion? ( MIT )``
  * Versions:
 
-  * `0.4.1 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/gitflow/gitflow-0.4.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/gitflow/gitflow-0.4.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``gitserve`` - https://github.com/jezdez/git-serve/
 
@@ -39,7 +39,7 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `0.2.0-r3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/gitserve/gitserve-0.2.0-r3.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.0-r3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/gitserve/gitserve-0.2.0-r3.ebuild>`__  ``amd64``, ``x86``
 
 * ``hub`` - https://github.com/defunkt/hub
 
@@ -47,7 +47,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `9999 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/hub/hub-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
+  * `9999 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/hub/hub-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
 
 * ``pepper`` - http://scm-pepper.sourceforge.net/
 
@@ -55,6 +55,6 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.2.3 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/pepper/pepper-0.2.3.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.4 <https://github.com/JNRowe/misc-overlay/blob/master/dev-vcs/pepper/pepper-0.2.4.ebuild>`__  ``~amd64`` (due 2011-09-17), ``~x86`` (due 2011-09-17)
+  * `0.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/pepper/pepper-0.2.3.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/pepper/pepper-0.2.4.ebuild>`__  ``~amd64`` (due 2011-09-17), ``~x86`` (due 2011-09-17)
 

@@ -7,5 +7,5 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.03 <https://github.com/JNRowe/misc-overlay/blob/master/app-mobilephone/pyhumod/pyhumod-0.03.ebuild>`__  ``amd64``, ``x86``
+  * `0.03 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-mobilephone/pyhumod/pyhumod-0.03.ebuild>`__  ``amd64``, ``x86``
 

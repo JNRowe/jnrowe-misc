@@ -7,7 +7,7 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `0.8 <https://github.com/JNRowe/misc-overlay/blob/master/app-admin/spill/spill-0.8.ebuild>`__  ``amd64``, ``x86``
+  * `0.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-admin/spill/spill-0.8.ebuild>`__  ``amd64``, ``x86``
 
 * ``stow`` - http://savannah.gnu.org/projects/stow/
 
@@ -15,5 +15,5 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `9999 <https://github.com/JNRowe/misc-overlay/blob/master/app-admin/stow/stow-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
+  * `9999 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-admin/stow/stow-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
 
