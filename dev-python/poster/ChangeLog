@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*poster-0.8.1-r1 (05 Sep 2011)
+
+  05 Sep 2011; James Rowe <jnrowe@gmail.com> +poster-0.8.1-r1.ebuild,
+  +files/poster-0.8.1-fix_install_mods.patch:
+  Don't install tests.
+
   26 Aug 2011; James Rowe <jnrowe@gmail.com> poster-0.8.1.ebuild:
   Keyworded ~x86.
 
