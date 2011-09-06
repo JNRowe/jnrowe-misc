@@ -8,6 +8,7 @@
  * Versions:
 
   * `0.14.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/argh/argh-0.14.0.ebuild>`__  ``amd64``, ``x86``
+  * `0.14.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/argh/argh-0.14.1.ebuild>`__  ``~amd64`` (due 2011-10-06), ``~x86`` (due 2011-10-06)
 
 * ``astral`` - http://pypi.python.org/pypi/astral/
 
@@ -184,6 +185,7 @@
  * Versions:
 
   * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.5.1.ebuild>`__  ``~amd64`` (due 2011-09-18), ``~x86`` (due 2011-09-18)
+  * `0.5.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.5.2.ebuild>`__  ``~amd64`` (due 2011-10-06), ``~x86`` (due 2011-10-06)
 
 * ``gpxdata`` - http://www.kette-links.de/technik.php?lang=en
 
@@ -666,6 +668,7 @@
 
   * `2.7.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.7.1.ebuild>`__  ``amd64``, ``x86``
   * `2.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.8.ebuild>`__  ``~amd64`` (due 2011-09-22), ``~x86`` (due 2011-09-22)
+  * `2.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.9.ebuild>`__  ``~amd64`` (due 2011-10-06), ``~x86`` (due 2011-10-06)
 
 * ``webcolors`` - http://pypi.python.org/pypi/webcolors/
 
