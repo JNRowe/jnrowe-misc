@@ -2,7 +2,6 @@
 # your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using egencache *
 
-dev-python/github2:proxy - Adds support for using a HTTP proxy with dev-python/github2
 dev-vcs/pepper:git - Enable support for processing git repositories
 dev-vcs/pepper:mercurial - Enable support for processing mercurial repositories
 mail-client/notmuch:vim - Install the vim interface for notmuch
