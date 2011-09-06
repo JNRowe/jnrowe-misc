@@ -2,9 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=4
 
-inherit base git-2
+inherit git-2
 
 EGIT_REPO_URI="git://git.savannah.gnu.org/${PN}.git"
 
