@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI=4
 USE_RUBY="ruby18"
 EGIT_REPO_URI="git://github.com/defunkt/${PN}.git
 	http://github.com/defunkt/${PN}.git"
@@ -31,16 +31,16 @@ each_ruby_install() {
 
 	cd lib
 	insinto ${SITEDIR}
-	doins ${PN}.rb || die "doins ${PN}.rb failed"
+	doins ${PN}.rb
 	insinto ${SITEDIR}/${PN}
-	doins hub/*.rb || die "doins hub/*.rb failed"
+	doins hub/*.rb
 	cd ..
 }
 
 src_install() {
 	cd all
-	dobin bin/${PN} || die "dobin failed"
-	doman man/${PN}.1 || die "doman failed"
+	dobin bin/${PN}
+	doman man/${PN}.1
 	dodoc README.md
 
 	ruby-ng_src_install
