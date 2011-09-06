@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*rails-4.4 (06 Sep 2011)
+
+  06 Sep 2011; James Rowe <jnrowe@gmail.com> +rails-4.4.ebuild:
+  Version bump [462].
+
   12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:
   Added watch file for package updates.
 
