@@ -2,9 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
-
-inherit base
+EAPI=4
 
 DESCRIPTION="Quick Spam Filter, with support for multiple databases"
 HOMEPAGE="http://www.ivarch.com/programs/qsf.shtml"
