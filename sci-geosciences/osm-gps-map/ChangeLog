@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 Sep 2011; James Rowe <jnrowe@gmail.com> osm-gps-map-0.7.3.ebuild:
+  Switched to EAPI 4.
+
   18 Aug 2011; James Rowe <jnrowe@gmail.com> osm-gps-map-0.7.3.ebuild,
   metadata.xml:
   Disable gobject introspection.
