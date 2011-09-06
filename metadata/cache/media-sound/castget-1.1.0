@@ -7,14 +7,14 @@ http://www.nongnu.org/castget/
 LGPL-2.1
 A simple command-line based RSS enclosure downloader
 amd64 x86
-base eutils multilib portability toolchain-funcs
+
 +id3tag
 
 
 
-3
+4
 
-compile configure install prepare unpack
+configure
 
 
 

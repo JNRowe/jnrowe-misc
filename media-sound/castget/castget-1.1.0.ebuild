@@ -2,9 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
-
-inherit base
+EAPI=4
 
 DESCRIPTION="A simple command-line based RSS enclosure downloader"
 HOMEPAGE="http://www.nongnu.org/castget/"
