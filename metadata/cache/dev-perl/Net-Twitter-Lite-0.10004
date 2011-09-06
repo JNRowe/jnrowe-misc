@@ -12,7 +12,7 @@ base eutils multilib perl-module portability toolchain-funcs
 
 
 
-2
+4
 
 compile configure install prepare test unpack
 
