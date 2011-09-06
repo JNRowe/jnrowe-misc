@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=4
 
 # Not using perl-module eclass, because it breaks builds on parasys.
 inherit git-2
@@ -31,6 +31,6 @@ src_compile() {
 }
 
 src_install() {
-	dobin ${PN} || die "dobin ${PN} failed"
-	doman ${PN}.1 || die "doman ${PN}.1 failed"
+	dobin ${PN}
+	doman ${PN}.1
 }

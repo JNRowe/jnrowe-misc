@@ -2,9 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=4
 
-inherit base toolchain-funcs
+inherit toolchain-funcs
 
 DESCRIPTION="A simple content sensitive command launcher."
 HOMEPAGE="http://offog.org/code/"
@@ -28,5 +28,5 @@ src_prepare() {
 }
 
 src_compile() {
-	emake CC="$(tc-getCC)" || die "emake failed"
+	emake CC="$(tc-getCC)"
 }

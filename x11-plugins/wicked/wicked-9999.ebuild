@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI=4
 
 inherit eutils git-2
 
@@ -26,6 +26,6 @@ src_prepare() {
 
 src_install() {
 	insinto /usr/share/awesome/lib
-	doins wicked.lua || die "doins failed"
-	doman ${PN}.7.gz || die "doman failed"
+	doins wicked.lua
+	doman ${PN}.7.gz
 }

@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=2
+EAPI=4
 
 if [[ ${PV} == "9999" ]]; then
 	EGIT_REPO_URI="git://github.com/alip/mpdcron.git
@@ -60,10 +60,10 @@ src_install() {
 		|| die "emake install failed"
 	# Can't call prepalldocs for compression because of the example files.
 	rm "${D}"/${docdir}/*.mkd
-	dodoc  *.mkd || die "dodoc failed"
+	dodoc  *.mkd
 
 	if use zsh-completion; then
 		insinto /usr/share/zsh/site-functions
-		doins zsh-completion/_${PN} || die "doins zsh failed"
+		doins zsh-completion/_${PN}
 	fi
 }

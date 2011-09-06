@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 Sep 2011; James Rowe <jnrowe@gmail.com> rails-4.3.ebuild,
+  rails-4.4.ebuild:
+  Switched to EAPI 4.
+
 *rails-4.4 (06 Sep 2011)
 
   06 Sep 2011; James Rowe <jnrowe@gmail.com> +rails-4.4.ebuild:

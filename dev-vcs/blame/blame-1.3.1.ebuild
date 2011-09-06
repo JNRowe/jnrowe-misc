@@ -2,9 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
-
-inherit base
+EAPI=4
 
 DESCRIPTION="Annotates RCS files in a style similar to CVS's annotate command"
 HOMEPAGE="http://blame.sourceforge.net/"

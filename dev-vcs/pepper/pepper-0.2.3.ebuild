@@ -2,9 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=4
 
-inherit base autotools
+inherit autotools
 
 DESCRIPTION="Retrieve statistics and generate reports from source code repositories"
 HOMEPAGE="http://scm-pepper.sourceforge.net/"
@@ -33,7 +33,7 @@ RESTRICT="test"
 DOCS=(AUTHORS ChangeLog README)
 
 src_prepare() {
-	base_src_prepare
+	default
 
 	eautoreconf
 }

@@ -2,10 +2,10 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=4
 GITHUB_USER=nvie
 
-inherit base jnrowe-github eutils bash-completion
+inherit jnrowe-github eutils bash-completion
 
 COMPL_VER="0.4.0"
 COMPL_URI="https://github.com/bobthecow/git-flow-completion/tarball/${COMPL_VER}
@@ -44,13 +44,13 @@ src_compile() {
 }
 
 src_install() {
-	base_src_install
+	default
 
 	pushd "${WORKDIR}"/${COMPL_DIR} >/dev/null
 	use bash-completion && dobashcompletion git-flow-completion.bash
 	if use zsh-completion; then
 		insinto /usr/share/zsh/site-functions
-		newins git-flow-completion.zsh _${PN} || die "zsh newins failed"
+		newins git-flow-completion.zsh _${PN}
 	fi
 	popd >/dev/null
 }

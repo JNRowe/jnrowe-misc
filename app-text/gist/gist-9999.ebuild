@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI=4
 
 inherit git-2
 
@@ -22,7 +22,7 @@ DEPEND=""
 RDEPEND="dev-lang/ruby"
 
 src_install() {
-	dobin ${PN} || die "dobin failed"
-	dodoc README.markdown || die "dodoc failed"
-	doman man/${PN}.1 || die "doman failed"
+	dobin ${PN}
+	dodoc README.markdown
+	doman man/${PN}.1
 }

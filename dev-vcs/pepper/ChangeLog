@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 Sep 2011; James Rowe <jnrowe@gmail.com> pepper-0.2.3.ebuild,
+  pepper-0.2.4.ebuild:
+  Switched to EAPI 4.
+
 *pepper-0.2.4 (18 Aug 2011)
 
   18 Aug 2011; James Rowe <jnrowe@gmail.com> +pepper-0.2.4.ebuild,

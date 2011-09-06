@@ -2,9 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=4
 
-inherit base git-2
+inherit git-2
 
 EGIT_REPO_URI="git://git.${PN}.info/${PN}.git"
 
@@ -35,11 +35,11 @@ src_configure() {
 }
 
 src_compile() {
-	emake CC="$(tc-getCC)" || die "emake failed"
+	emake CC="$(tc-getCC)"
 }
 
 src_install() {
-	base_src_install
+	default
 
 	insinto /usr/share/doc/${PF}/examples
 	doins scripts/status.sh

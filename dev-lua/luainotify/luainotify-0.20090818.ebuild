@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI=4
 
 inherit multilib toolchain-funcs versionator
 
@@ -31,8 +31,8 @@ src_compile() {
 }
 
 src_install() {
-	dodoc DOC README || die "dodoc failed"
+	dodoc DOC README
 	insinto /usr/$(get_libdir)/lua/5.1
 	insopts -m755
-	doins inotify.so || die "doins failed"
+	doins inotify.so
 }

@@ -2,9 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=4
 
-inherit base eutils toolchain-funcs versionator
+inherit eutils toolchain-funcs versionator
 
 DESCRIPTION="TuDu is a comand line interface to manage hierarchical todos."
 HOMEPAGE="http://www.cauterized.net/~meskio/tudu/"
@@ -30,9 +30,9 @@ src_prepare() {
 
 src_configure() {
 	# Non-standard configure :/  Works with econf [currently]
-	econf || die "configure failed"
+	econf
 }
 
 src_compile() {
-	emake CXX="$(tc-getCXX)" || die "emake failed"
+	emake CXX="$(tc-getCXX)"
 }

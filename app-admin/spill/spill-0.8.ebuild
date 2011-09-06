@@ -2,9 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=4
 
-inherit base eutils toolchain-funcs
+inherit eutils toolchain-funcs
 
 DESCRIPTION="Creates symlinks from one directory hierarchy to another(like stow)"
 HOMEPAGE="http://www.rpcurnow.force9.co.uk/spill/"

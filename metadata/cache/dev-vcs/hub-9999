@@ -9,10 +9,10 @@ hub is a command line utility which adds GitHub knowledge to git
 
 eutils git-2 multilib portability ruby-ng toolchain-funcs
 ruby_targets_ruby18
+|| ( ruby_targets_ruby18 )
 
 
-
-2
+4
 
 compile configure install prepare setup test unpack
 

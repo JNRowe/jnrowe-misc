@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI=4
 
 DESCRIPTION="Enjoy the mysteries of the sea from the safety of your own terminal"
 HOMEPAGE="http://www.robobunny.com/projects/asciiquarium/html/"
@@ -20,6 +20,6 @@ RDEPEND="dev-perl/Term-Animation"
 S=${WORKDIR}/${PN}_${PV}
 
 src_install() {
-	dobin ${PN} || die "dobin failed"
-	dodoc CHANGES README || die "dodoc failed"
+	dobin ${PN}
+	dodoc CHANGES README
 }

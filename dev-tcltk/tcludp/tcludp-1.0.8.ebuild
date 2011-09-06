@@ -2,9 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
-
-inherit base
+EAPI=4
 
 DESCRIPTION="Create UDP sockets in Tcl"
 HOMEPAGE="http://tcludp.sourceforge.net/"
@@ -23,7 +21,7 @@ src_prepare() {
 }
 
 src_install() {
-	base_src_install
+	default
 
 	if use examples; then
 		insinto /usr/share/doc/${PF}/examples

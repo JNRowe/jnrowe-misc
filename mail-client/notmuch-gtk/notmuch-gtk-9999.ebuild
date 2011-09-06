@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=4
 
 inherit eutils git-2
 
@@ -32,7 +32,7 @@ src_prepare() {
 }
 
 src_install() {
-	dobin ${PN/-/_} || die "dobin failed"
+	dobin ${PN/-/_}
 	insinto /usr/share/${PN}
-	doins glade/${PN}.glade || die "doins failed"
+	doins glade/${PN}.glade
 }

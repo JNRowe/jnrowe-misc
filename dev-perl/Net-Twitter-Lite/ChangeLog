@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 Sep 2011; James Rowe <jnrowe@gmail.com> Net-Twitter-Lite-0.10004.ebuild:
+  Switched to EAPI 4.
+
   17 May 2011; James Rowe <jnrowe@gmail.com> -Net-Twitter-Lite-0.10003.ebuild:
   Removed stale ebuild, newer version will be available for stabilisation
   before this.

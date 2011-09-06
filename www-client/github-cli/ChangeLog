@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 Sep 2011; James Rowe <jnrowe@gmail.com> github-cli-0.3.0.ebuild:
+  Switched to EAPI 4.
+
   12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:
   Added watch file for package updates.
 

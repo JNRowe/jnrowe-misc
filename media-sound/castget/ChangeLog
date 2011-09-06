@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 Sep 2011; James Rowe <jnrowe@gmail.com> castget-1.1.0.ebuild:
+  Switched to EAPI 4.
+
   05 Apr 2011; James Rowe <jnrowe@gmail.com> castget-1.1.0.ebuild:
   Enable id3tag USE, as its functionality is mentioned all over the
   documentation.

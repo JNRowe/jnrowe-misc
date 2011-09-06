@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI=4
 
 inherit eutils multilib
 
@@ -36,10 +36,10 @@ src_configure() {
 }
 
 src_install() {
-	emake prefix="${D}" install{bin,lib,man} || die "make install failed"
+	emake prefix="${D}" install{bin,lib,man}
 	if use gtk; then
-		emake prefix="${D}" installgui || die "make installgui failed"
+		emake prefix="${D}" installgui
 	fi
 
-	dodoc CHANGES README TODO || die "dodoc failed"
+	dodoc CHANGES README TODO
 }

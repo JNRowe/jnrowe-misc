@@ -7,14 +7,14 @@ http://savannah.gnu.org/projects/stow/
 GPL-2
 Manage installation of software in via symlinks
 
-base eutils git-2 multilib portability toolchain-funcs
+git-2
 test
 
 
 
-3
+4
 
-compile configure install prepare unpack
+unpack
 
 
 

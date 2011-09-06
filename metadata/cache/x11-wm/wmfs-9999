@@ -7,14 +7,14 @@ http://www.wmfs.info
 BSD
 Windows Manager From Scratch
 
-base eutils git-2 multilib portability toolchain-funcs
+git-2
 +imlib2 xinerama xrandr
 
 
 
-3
+4
 
-compile configure install prepare unpack
+compile configure install unpack
 
 
 

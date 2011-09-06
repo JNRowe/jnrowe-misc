@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI=4
 
 inherit git-2 eutils
 
@@ -33,8 +33,8 @@ src_prepare() {
 
 src_install() {
 	insinto /usr/share/irssi/scripts
-	doins ${PN}.pl || die "doins failed"
-	dohtml html/*.html || die "dohtml failed"
+	doins ${PN}.pl
+	dohtml html/*.html
 }
 
 pkg_postinst() {

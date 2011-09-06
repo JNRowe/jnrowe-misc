@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI=4
 
 inherit autotools eutils versionator
 
@@ -38,5 +38,4 @@ src_install() {
 	emake DESTDIR="${D}" winwranglerdocdir='${datadir}/doc/${P}' install \
 		|| die "emake install failed."
 	rm "${D}"/usr/share/doc/${P}/{COPYING,INSTALL}
-	prepalldocs
 }

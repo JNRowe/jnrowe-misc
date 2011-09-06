@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI=4
 USE_RUBY="ruby18"
 
 inherit bash-completion ruby-ng
@@ -41,12 +41,12 @@ src_install() {
 	ruby-ng_src_install
 
 	pushd "${WORKDIR}"/all/${P} >/dev/null
-	dodoc Changelog PLUGINS.txt README.txt ReleaseNotes || die "dodoc failed"
+	dodoc Changelog PLUGINS.txt README.txt ReleaseNotes
 
 	dobashcompletion contrib/completion/${PN}.bash ${PN}
 	if use zsh-completion; then
 		insinto /usr/share/zsh/site-functions
-		newins contrib/completion/_ditz.zsh _ditz || die "newins failed"
+		newins contrib/completion/_ditz.zsh _ditz
 	fi
 	popd >/dev/null
 }

@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=4
 GITHUB_USER=defunkt
 GITHUB_TAG=v0.2.1
 
@@ -24,8 +24,8 @@ src_compile() {
 }
 
 src_install() {
-	dobin bin/${PN} || die "dobin failed"
-	doman man/${PN}.1 || die "doman failed"
-	dohtml man/${PN}.1.html || die "dohtml failed"
-	dodoc README.md || die "dodoc failed"
+	dobin bin/${PN}
+	doman man/${PN}.1
+	dohtml man/${PN}.1.html
+	dodoc README.md
 }

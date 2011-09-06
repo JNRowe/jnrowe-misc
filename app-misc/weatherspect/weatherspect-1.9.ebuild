@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=4
 
 DESCRIPTION="Create an ASCII animation that simulates the weather"
 HOMEPAGE="http://www.robobunny.com/projects/weatherspect/html/"
@@ -22,6 +22,6 @@ RDEPEND=">=dev-perl/Term-Animation-2.5"
 S=${WORKDIR}/${PN}_v${PV}
 
 src_install() {
-	dobin ${PN} || die "dobin failed"
-	dodoc CHANGES README || die "dodoc failed"
+	dobin ${PN}
+	dodoc CHANGES README
 }

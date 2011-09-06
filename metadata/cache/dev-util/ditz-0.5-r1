@@ -9,10 +9,10 @@ A simple, light-weight distributed issue tracker designed for dVCS
 ~amd64 ~x86
 bash-completion eutils multilib portability ruby-ng toolchain-funcs
 zsh-completion bash-completion ruby_targets_ruby18
-
+|| ( ruby_targets_ruby18 )
 bash-completion? ( app-shells/bash-completion )
 
-2
+4
 
 compile configure install postinst prepare setup test unpack
 
