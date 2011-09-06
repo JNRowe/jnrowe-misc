@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI=4
 
 DESCRIPTION="A compiled programming language with syntax and semantics similar to Python"
 HOMEPAGE="http://mathias-kettner.de/wirbel.html"
