@@ -8,6 +8,7 @@
  * Versions:
 
   * `0.14.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/argh/argh-0.14.0.ebuild>`__  ``amd64``, ``x86``
+  * `0.14.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/argh/argh-0.14.1.ebuild>`__  ``~amd64`` (due 2011-10-06), ``~x86`` (due 2011-10-06)
 
 * ``astral`` - http://pypi.python.org/pypi/astral/
 

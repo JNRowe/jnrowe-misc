@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*argh-0.14.1 (06 Sep 2011)
+
+  06 Sep 2011; James Rowe <jnrowe@gmail.com> +argh-0.14.1.ebuild:
+  Version bump [463].
+
   20 Apr 2011; James Rowe <jnrowe@gmail.com> argh-0.14.0.ebuild:
   Keyworded x86.
 
