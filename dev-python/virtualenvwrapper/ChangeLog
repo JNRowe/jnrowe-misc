@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*virtualenvwrapper-2.9 (06 Sep 2011)
+
+  06 Sep 2011; James Rowe <jnrowe@gmail.com> +virtualenvwrapper-2.9.ebuild:
+  Version bump [466].
+
 *virtualenvwrapper-2.8 (23 Aug 2011)
 
   23 Aug 2011; James Rowe <jnrowe@gmail.com> +virtualenvwrapper-2.8.ebuild:
