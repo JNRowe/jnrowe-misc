@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*hubugs-0.11.0 (06 Sep 2011)
+
+  06 Sep 2011; James Rowe <jnrowe@gmail.com> +hubugs-0.11.0.ebuild:
+  Version bump [468].
+
   28 Jul 2011; James Rowe <jnrowe@gmail.com> -hubugs-0.9.1.ebuild,
   hubugs-0.10.0.ebuild:
   Keyworded x86.
