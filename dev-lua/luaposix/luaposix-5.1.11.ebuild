@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=4
 GITHUB_USER="rrthomas"
 GITHUB_TAG=v${PV}
 
@@ -35,8 +35,8 @@ src_compile() {
 }
 
 src_install() {
-	emake PREFIX="${D}usr" install || die "emake install failed"
-	dodoc ChangeLog.old README || die "dodoc failed"
+	emake PREFIX="${D}usr" install
+	dodoc ChangeLog.old README
 	docinto examples
-	dodoc tree.lua || die "dodoc examples failed"
+	dodoc tree.lua
 }
