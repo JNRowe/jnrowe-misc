@@ -1,0 +1,22 @@
+dev-python/setuptools doc? ( dev-python/cloud_sptheme dev-python/sphinx dev-python/sphinxcontrib-cheeseshop ) test? ( dev-python/nose dev-python/mock ) >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* ) test? ( dev-python/nose )
+dev-python/setuptools dev-python/argh >=dev-python/github2-0.5.0 dev-python/jinja dev-python/pygments >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* )
+0
+mirror://pypi/h/hubugs/hubugs-0.11.0.tar.gz
+
+http://pypi.python.org/pypi/hubugs/
+GPL-3
+Simple client for GitHub issues
+~amd64 ~x86
+distutils eutils jnrowe-pypi multilib portability python toolchain-funcs
+doc test test
+
+
+
+3
+
+compile install postinst postrm prepare test
+
+
+
+
+
