@@ -7,14 +7,14 @@ http://surfraw.alioth.debian.org/
 public-domain
 A fast unix command line interface to WWW
 
-autotools base bash-completion eutils git-2 libtool multilib portability toolchain-funcs
+autotools bash-completion eutils git-2 libtool multilib portability toolchain-funcs
 bash-completion
 
 bash-completion? ( app-shells/bash-completion )
 
-3
+4
 
-compile configure install postinst preinst prepare unpack
+configure install postinst preinst prepare unpack
 
 
 

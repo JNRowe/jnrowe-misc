@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  06 Sep 2011; James Rowe <jnrowe@gmail.com> surfraw-9999.ebuild:
+  Synced with upstream's current 2.2.8 ebuild, no important user visible
+  changes.
+
   25 Jun 2011; James Rowe <jnrowe@gmail.com> surfraw-9999.ebuild:
   Switched to git-2 eclass.
 

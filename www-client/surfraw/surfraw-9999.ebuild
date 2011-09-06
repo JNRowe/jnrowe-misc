@@ -1,10 +1,10 @@
 # Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/www-client/surfraw/surfraw-2.2.7.ebuild,v 1.7 2011/01/25 17:57:13 darkside Exp $
+# $Header: /var/cvsroot/gentoo-x86/www-client/surfraw/surfraw-2.2.8.ebuild,v 1.2 2011/07/12 15:38:31 jer Exp $
 
-EAPI="3"
+EAPI="4"
 
-inherit autotools base bash-completion eutils git-2
+inherit autotools bash-completion eutils git-2
 
 EGIT_REPO_URI="git://git.debian.org/surfraw/surfraw.git"
 
@@ -27,13 +27,11 @@ src_prepare() {
 }
 
 src_configure() {
-	econf \
-		--with-elvidir='$(datadir)'/surfraw \
-		--disable-opensearch
+	econf --with-elvidir='$(datadir)'/surfraw
 }
 
 src_install() {
-	make DESTDIR="${D}" install || die "make install failed"
+	default
 	dodoc AUTHORS ChangeLog HACKING NEWS README TODO
 
 	dobashcompletion surfraw-bash-completion
