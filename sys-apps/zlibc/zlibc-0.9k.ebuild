@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI=4
 
 inherit autotools
 
@@ -27,13 +27,13 @@ src_prepare() {
 }
 
 src_compile() {
-	emake all info || die "emake failed"
+	emake all info
 }
 
 src_install() {
 	# Makefile is massively broken, and installing a few files manually is much
 	# faster than rewriting the Makefile.
-	dolib uncompress.so || die "dolib failed"
-	doinfo ${PN}.info || die "doinfo failed"
-	dodoc CHANGES README ${PN}.conf.sample || die "dodoc failed"
+	dolib uncompress.so
+	doinfo ${PN}.info
+	dodoc CHANGES README ${PN}.conf.sample
 }
