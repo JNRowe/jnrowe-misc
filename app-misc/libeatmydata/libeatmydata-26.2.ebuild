@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=4
 
 inherit autotools versionator
 
@@ -33,7 +33,7 @@ src_prepare() {
 }
 
 src_compile() {
-	emake CC="$(tc-getCC)" || die "emake failed"
+	emake CC="$(tc-getCC)"
 }
 
 src_test() {
@@ -48,9 +48,9 @@ src_test() {
 }
 
 src_install() {
-	dobin "${WORKDIR}"/debian/bin/eatmydata || die "dobin eatmydata failed"
+	dobin "${WORKDIR}"/debian/bin/eatmydata
 	dolib ${PN}.so
-	doman "${WORKDIR}"/debian/eatmydata.1 || die "doman eatmydata.1 failed"
+	doman "${WORKDIR}"/debian/eatmydata.1
 	insinto /usr/share/${PN}
 	doins "${WORKDIR}"/debian/lib/eatmydata.sh \
 		|| die "doins eatmydata.sh failed"
