@@ -2,9 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=4
 
-inherit base toolchain-funcs
+inherit toolchain-funcs
 
 DESCRIPTION="Utilities to record and replay a terminal program session"
 HOMEPAGE="http://os.ghalkes.nl/termdebug.html"
@@ -23,7 +23,7 @@ PATCHES=("${FILESDIR}"/${P}-destdir_support.patch)
 DOCS=(Changelog README)
 
 src_prepare() {
-	base_src_prepare
+	default
 
 	# Handle docs install manually, for compression support.
 	sed -i '/$(docdir)/d' Makefile.in
