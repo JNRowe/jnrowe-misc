@@ -1,0 +1,36 @@
+diff --git i/baustones/httpd/httpd.cc w/baustones/httpd/httpd.cc
+index d4747d0..f8de02d 100644
+--- i/baustones/httpd/httpd.cc
++++ w/baustones/httpd/httpd.cc
+@@ -22,6 +22,7 @@
+ // to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, 
+ // Boston, MA 02110-1301 USA.
+ 
++#include <stdint.h>
+ #include "log.cc"
+ #include "HTTPRequest.cc"
+ #include "HTML.cc"
+diff --git i/src/Location.cc w/src/Location.cc
+index b64f9f1..03df539 100644
+--- i/src/Location.cc
++++ w/src/Location.cc
+@@ -23,6 +23,7 @@
+ // Boston, MA 02110-1301 USA.
+ 
+ 
++#include <cstdio>
+ #include <string.h>
+ 
+ #include "Location.h"
+diff --git i/src/Type.cc w/src/Type.cc
+index 72993e0..146f46a 100644
+--- i/src/Type.cc
++++ w/src/Type.cc
+@@ -23,6 +23,7 @@
+ // Boston, MA 02110-1301 USA.
+ 
+ 
++#include <cstdio>
+ #include <string.h>
+ 
+ #include "Type.h"

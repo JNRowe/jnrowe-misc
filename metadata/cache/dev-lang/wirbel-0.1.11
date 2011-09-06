@@ -7,14 +7,14 @@ http://mathias-kettner.de/wirbel.html
 GPL-2
 A compiled programming language with syntax and semantics similar to Python
 amd64 x86
-
+eutils multilib portability toolchain-funcs
 
 
 
 
 4
 
-install
+install prepare
 
 
 
