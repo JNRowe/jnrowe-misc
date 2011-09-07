@@ -374,7 +374,7 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycallgraph/pycallgraph-0.5.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-09-07)
+  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycallgraph/pycallgraph-0.5.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``pycparser`` - http://code.google.com/p/pycparser/
 
