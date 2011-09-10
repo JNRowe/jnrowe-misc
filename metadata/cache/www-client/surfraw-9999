@@ -1,5 +1,5 @@
 || ( =sys-devel/automake-1.11* ) >=sys-devel/autoconf-2.61 sys-devel/libtool dev-vcs/git
-bash-completion? ( app-admin/eselect )
+
 0
 
 test
@@ -7,10 +7,10 @@ http://surfraw.alioth.debian.org/
 public-domain
 A fast unix command line interface to WWW
 
-autotools bash-completion eutils git-2 libtool multilib portability toolchain-funcs
-bash-completion
+autotools bash-completion-r1 eutils git-2 libtool multilib portability toolchain-funcs
 
-bash-completion? ( app-shells/bash-completion )
+
+
 
 4
 

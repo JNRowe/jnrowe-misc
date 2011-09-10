@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  10 Sep 2011; James Rowe <jnrowe@gmail.com> ditz-0.5-r1.ebuild,
+  ditz-9999.ebuild:
+  Switched to bash-completion-r1 eclass.
+
   06 Sep 2011; James Rowe <jnrowe@gmail.com> ditz-0.5-r1.ebuild,
   ditz-9999.ebuild:
   Switched to EAPI 4.

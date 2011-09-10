@@ -60,6 +60,12 @@
 * dev-python/virtualenvwrapper-2.9            x86 SCHEDULED: <2011-10-06 Thu>
 * app-misc/hubugs-0.11.0                    amd64 SCHEDULED: <2011-10-06 Thu>
 * app-misc/hubugs-0.11.0                      x86 SCHEDULED: <2011-10-06 Thu>
+* dev-vcs/gitflow-0.4.1-r1                  amd64 SCHEDULED: <2011-10-10 Mon>
+* dev-vcs/gitflow-0.4.1-r1                    x86 SCHEDULED: <2011-10-10 Mon>
+* mail-client/notmuch-0.6.1-r1              amd64 SCHEDULED: <2011-10-10 Mon>
+* mail-client/notmuch-0.6.1-r1                x86 SCHEDULED: <2011-10-10 Mon>
+* mail-client/notmuch-0.7-r1                amd64 SCHEDULED: <2011-10-10 Mon>
+* mail-client/notmuch-0.7-r1                  x86 SCHEDULED: <2011-10-10 Mon>
 * dev-util/ditz-0.5-r1                      amd64 SCHEDULED: <2011-11-03 Thu>
 * dev-util/ditz-0.5-r1                        x86 SCHEDULED: <2011-11-03 Thu>
 * dev-python/rstctl-0.4                     amd64 SCHEDULED: <2011-11-06 Sun>

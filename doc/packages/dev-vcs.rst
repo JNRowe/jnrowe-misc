@@ -28,10 +28,11 @@
 * ``gitflow`` - http://nvie.com/archives/323
 
  * High-level repository operations for Vincent Driessen's branching model
- * Licence: ``BSD-2 bash-completion? ( MIT ) zsh-completion? ( MIT )``
+ * Licence: ``BSD-2 MIT``
  * Versions:
 
   * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/gitflow/gitflow-0.4.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.4.1-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/gitflow/gitflow-0.4.1-r1.ebuild>`__  ``~amd64`` (due 2011-10-10), ``~x86`` (due 2011-10-10)
 
 * ``gitserve`` - https://github.com/jezdez/git-serve/
 
