@@ -5,7 +5,7 @@
 EAPI=4
 USE_RUBY="ruby18"
 
-inherit bash-completion ruby-ng
+inherit bash-completion-r1 ruby-ng
 
 if [[ ${PV} == "9999" ]]; then
 	EGIT_REPO_URI="git://gitorious.org/ditz/mainline.git
@@ -43,7 +43,7 @@ src_install() {
 	pushd "${WORKDIR}"/all/${P} >/dev/null
 	dodoc Changelog PLUGINS.txt README.txt ReleaseNotes
 
-	dobashcompletion contrib/completion/${PN}.bash ${PN}
+	newbashcomp contrib/completion/${PN}.bash ${PN}
 	if use zsh-completion; then
 		insinto /usr/share/zsh/site-functions
 		newins contrib/completion/_ditz.zsh _ditz
