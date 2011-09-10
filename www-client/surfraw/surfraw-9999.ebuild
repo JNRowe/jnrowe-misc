@@ -4,7 +4,7 @@
 
 EAPI="4"
 
-inherit autotools bash-completion eutils git-2
+inherit autotools bash-completion-r1 eutils git-2
 
 EGIT_REPO_URI="git://git.debian.org/surfraw/surfraw.git"
 
@@ -34,7 +34,7 @@ src_install() {
 	default
 	dodoc AUTHORS ChangeLog HACKING NEWS README TODO
 
-	dobashcompletion surfraw-bash-completion
+	newbashcomp surfraw-bash-completion ${PN}
 
 	docinto examples
 	dodoc examples/README
@@ -50,7 +50,6 @@ pkg_preinst() {
 pkg_postinst() {
 	local moves f
 
-	bash-completion_pkg_postinst
 	einfo
 	einfo "You can get a list of installed elvi by just typing 'surfraw' or"
 	einfo "the abbreviated 'sr'."
