@@ -8,7 +8,7 @@ GPL-2
 A hook daemon for mpd, it polls mpd and runs hooks on events
 
 autotools eutils git-2 libtool multilib portability toolchain-funcs
-libnotify scrobbler zsh-completion
+libnotify scrobbler
 
 
 
