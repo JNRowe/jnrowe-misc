@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  10 Sep 2011; James Rowe <jnrowe@gmail.com> notmuch-0.6.1-r1.ebuild,
+  notmuch-0.7-r1.ebuild, notmuch-9999.ebuild:
+  zsh completion no longer USE configurable.
+
   10 Sep 2011; James Rowe <jnrowe@gmail.com> +notmuch-0.6.1-r1.ebuild,
   +notmuch-0.7.ebuild, notmuch-9999.ebuild:
   Switched to bash-completion-r1 eclass.

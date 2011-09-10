@@ -26,7 +26,7 @@ HOMEPAGE="http://notmuchmail.org/"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="X debug emacs python ruby vim zsh-completion"
+IUSE="X debug emacs python ruby vim"
 
 # No go support, this will change when go is added to main tree
 # Or alternatively, if a mind-blowing tool which needs the go bindings becomes
@@ -37,8 +37,7 @@ RDEPEND="sys-libs/talloc
 	emacs? ( =virtual/emacs-23 )
 	python? ( || ( >=dev-lang/python-2.6 dev-python/simplejson ) )
 	ruby? ( $(ruby_implementation_depend ruby18) )
-	vim? ( || ( app-editors/vim app-editors/gvim ) )
-	zsh-completion? ( app-shells/zsh )"
+	vim? ( || ( app-editors/vim app-editors/gvim ) )"
 DEPEND="dev-util/pkgconfig
 	debug? ( dev-util/valgrind )
 	${RDEPEND}"
@@ -111,10 +110,8 @@ src_test() {
 src_install() {
 	base_src_install
 
-	if use zsh-completion; then
-		insinto /usr/share/zsh/site-functions
-		newins completion/notmuch-completion.zsh _notmuch || die "newins failed"
-	fi
+	insinto /usr/share/zsh/site-functions
+	newins completion/notmuch-completion.zsh _notmuch || die "newins failed"
 
 	newbashcomp completion/notmuch-completion.bash ${PN}
 

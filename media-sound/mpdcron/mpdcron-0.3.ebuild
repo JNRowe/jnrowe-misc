@@ -20,7 +20,7 @@ HOMEPAGE="http://alip.github.com/mpdcron/"
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="amd64 x86"
-IUSE="libnotify scrobbler zsh-completion"
+IUSE="libnotify scrobbler"
 
 RDEPEND=">=dev-libs/glib-2.18
 	>=dev-libs/libdaemon-0.13
@@ -62,8 +62,6 @@ src_install() {
 	rm "${D}"/${docdir}/*.mkd
 	dodoc  *.mkd
 
-	if use zsh-completion; then
-		insinto /usr/share/zsh/site-functions
-		doins zsh-completion/_${PN}
-	fi
+	insinto /usr/share/zsh/site-functions
+	doins zsh-completion/_${PN}
 }

@@ -21,11 +21,10 @@ SRC_URI="${SRC_URI}
 LICENSE="BSD-2 MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="zsh-completion"
+IUSE=""
 
 DEPEND=""
-RDEPEND="dev-vcs/git
-	zsh-completion? ( app-shells/zsh )"
+RDEPEND="dev-vcs/git"
 
 DOCS=(AUTHORS Changes.mdown README.mdown)
 
@@ -47,9 +46,7 @@ src_install() {
 
 	pushd "${WORKDIR}"/${COMPL_DIR} >/dev/null
 	newbashcomp git-flow-completion.bash ${PN}
-	if use zsh-completion; then
-		insinto /usr/share/zsh/site-functions
-		newins git-flow-completion.zsh _${PN}
-	fi
+	insinto /usr/share/zsh/site-functions
+	newins git-flow-completion.zsh _${PN}
 	popd >/dev/null
 }

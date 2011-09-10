@@ -24,7 +24,7 @@ HOMEPAGE="http://ditz.rubyforge.org"
 LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS=""
-IUSE="zsh-completion"
+IUSE=""
 
 DEPEND=""
 RDEPEND="dev-ruby/trollop"
@@ -44,9 +44,7 @@ src_install() {
 	dodoc Changelog PLUGINS.txt README.txt ReleaseNotes
 
 	newbashcomp contrib/completion/${PN}.bash ${PN}
-	if use zsh-completion; then
-		insinto /usr/share/zsh/site-functions
-		newins contrib/completion/_ditz.zsh _ditz
-	fi
+	insinto /usr/share/zsh/site-functions
+	newins contrib/completion/_ditz.zsh _ditz
 	popd >/dev/null
 }
