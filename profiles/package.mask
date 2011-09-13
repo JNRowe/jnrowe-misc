@@ -1,5 +1,1 @@
 # extra line needed because portage is buggy
-
-# James Rowe <jnrowe@gmail.com> (22 Jun 2011)
-# live ebuild for wmfs
-=x11-wm/wmfs-9999
