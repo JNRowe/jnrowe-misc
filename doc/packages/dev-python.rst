@@ -448,14 +448,6 @@
 
   * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2011-11-06), ``~x86`` (due 2011-11-06)
 
-* ``scripttest`` - http://pythonpaste.org/scripttest/
-
- * Helper to test command-line scripts
- * Licence: ``MIT``
- * Versions:
-
-  * `1.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/scripttest/scripttest-1.1.1.ebuild>`__  ``amd64``, ``x86``
-
 * ``see`` - http://inky.github.com/see/
 
  * A human-readable alternative to Python's dir()
