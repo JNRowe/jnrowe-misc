@@ -3,8 +3,3 @@
 # James Rowe <jnrowe@gmail.com> (22 Jun 2011)
 # live ebuild for wmfs
 =x11-wm/wmfs-9999
-
-# James Rowe <jnrowe@gmail.com> (17 Sep 2009)
-# Live ebuilds for awesome widgets
-=x11-plugins/wicked-9999
-
