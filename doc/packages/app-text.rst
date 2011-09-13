@@ -1,14 +1,6 @@
 ``app-text``
 ------------
 
-* ``gist`` - https://github.com/defunkt/gist
-
- * Absolutely the best command line gister
- * Licence: ``MIT``
- * Versions:
-
-  * `9999 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/gist/gist-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
-
 * ``html2rest`` - http://pypi.python.org/pypi/html2rest/
 
  * Convert HTML to restructuredText
