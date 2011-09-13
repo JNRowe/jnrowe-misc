@@ -26,14 +26,6 @@
 
   * `0.2.0-r3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/gitserve/gitserve-0.2.0-r3.ebuild>`__  ``amd64``, ``x86``
 
-* ``hub`` - https://github.com/defunkt/hub
-
- * hub is a command line utility which adds GitHub knowledge to git
- * Licence: ``MIT``
- * Versions:
-
-  * `9999 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/hub/hub-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
-
 * ``pepper`` - http://scm-pepper.sourceforge.net/
 
  * Retrieve statistics and generate reports from source code repositories

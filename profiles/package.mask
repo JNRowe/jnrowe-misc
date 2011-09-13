@@ -12,10 +12,6 @@
 # live ebuild for mpdcron
 =media-sound/mpdcron-9999
 
-# James Rowe <jnrowe@gmail.com> (1 Jan 2010)
-# live ebuild for hub
-=dev-vcs/hub-9999
-
 # James Rowe <jnrowe@gmail.com> (9 Dec 2009)
 # live ebuild for notmuch-gtk
 =mail-client/notmuch-gtk-9999
