@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  13 Sep 2011; James Rowe <jnrowe@gmail.com> -hubugs-0.10.0.ebuild:
+  Removed obsolete ebuild.
+
 *hubugs-0.11.0 (06 Sep 2011)
 
   06 Sep 2011; James Rowe <jnrowe@gmail.com> +hubugs-0.11.0.ebuild:
