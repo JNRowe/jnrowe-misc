@@ -17,11 +17,3 @@
 
   * `0.3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/github-cli/github-cli-0.3.0.ebuild>`__  ``amd64``, ``x86``
 
-* ``surfraw`` - http://surfraw.alioth.debian.org/
-
- * A fast unix command line interface to WWW
- * Licence: ``public-domain``
- * Versions:
-
-  * `9999 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/surfraw/surfraw-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
-
