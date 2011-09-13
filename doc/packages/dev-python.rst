@@ -496,14 +496,6 @@
 
   * `1.01 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/socksipy/socksipy-1.01.ebuild>`__  ``amd64``, ``x86``
 
-* ``sphinx-to-github`` - https://github.com/michaeljones/sphinx-to-github
-
- * Script to prepare Sphinx html output for github pages
- * Licence: ``BSD``
- * Versions:
-
-  * `9999 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sphinx-to-github/sphinx-to-github-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
-
 * ``sphinxcontrib-cheeseshop`` - http://pypi.python.org/pypi/sphinxcontrib-cheeseshop/
 
  * dev-python/sphinx extension to support generate links to PyPI

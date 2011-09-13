@@ -10,5 +10,3 @@ media-sound/castget:id3tag - Enable support for ID3 tag writing via media-libs/i
 media-sound/mpdcron:scrobbler - Enable support for last.fm aka audioscrobbler
 media-tv/ontv:xmltv - XMLTV is probably required for downloading TV listings, do *NOT* unset this flag unless you understand the consequences.
 x11-misc/winwrangler:daemon - Enable support for winwrangler hotkey daemon
-x11-wm/wmfs:imlib2 - Enable support for images
-x11-wm/wmfs:xrandr - Enable support for the Xrandr extension

@@ -9,14 +9,6 @@
 
   * `1.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/blame/blame-1.3.1.ebuild>`__  ``amd64``, ``x86``
 
-* ``git-sync`` - https://github.com/bestpractical/git-sync
-
- * A tool to synchronize multiple git repositories
- * Licence: ``|| ( Artistic GPL-1 GPL-2 GPL-3 )``
- * Versions:
-
-  * `9999 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/git-sync/git-sync-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
-
 * ``gitflow`` - http://nvie.com/archives/323
 
  * High-level repository operations for Vincent Driessen's branching model
@@ -33,14 +25,6 @@
  * Versions:
 
   * `0.2.0-r3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/gitserve/gitserve-0.2.0-r3.ebuild>`__  ``amd64``, ``x86``
-
-* ``hub`` - https://github.com/defunkt/hub
-
- * hub is a command line utility which adds GitHub knowledge to git
- * Licence: ``MIT``
- * Versions:
-
-  * `9999 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/hub/hub-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
 
 * ``pepper`` - http://scm-pepper.sourceforge.net/
 
