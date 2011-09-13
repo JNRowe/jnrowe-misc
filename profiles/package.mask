@@ -8,10 +8,6 @@
 # live ebuild for rstblog
 =www-apps/rstblog-9999
 
-# James Rowe <jnrowe@gmail.com> (09 Oct 2010)
-# live ebuild for git-sync
-=dev-vcs/git-sync-9999
-
 # James Rowe <jnrowe@gmail.com> (9 Jan 2010)
 # live ebuild for mpdcron
 =media-sound/mpdcron-9999
