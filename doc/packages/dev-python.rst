@@ -18,14 +18,6 @@
 
   * `0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.5.ebuild>`__  ``amd64``, ``x86``
 
-* ``async`` - http://pypi.python.org/pypi/async/
-
- * A framework to process interdependent tasks in a pool of workers
- * Licence: ``BSD``
- * Versions:
-
-  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/async/async-0.6.1.ebuild>`__  ``amd64``, ``x86``
-
 * ``atomize`` - http://pypi.python.org/pypi/atomize/
 
  * A simple Python package for easily generating Atom feeds
