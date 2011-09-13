@@ -48,8 +48,6 @@
 * dev-python/pycparser-2.04                   x86 SCHEDULED: <2011-10-05 Wed>
 * dev-python/poster-0.8.1-r1                amd64 SCHEDULED: <2011-10-05 Wed>
 * dev-python/poster-0.8.1-r1                  x86 SCHEDULED: <2011-10-05 Wed>
-* app-vim/rails-4.4                         amd64 SCHEDULED: <2011-10-06 Thu>
-* app-vim/rails-4.4                           x86 SCHEDULED: <2011-10-06 Thu>
 * dev-python/argh-0.14.1                    amd64 SCHEDULED: <2011-10-06 Thu>
 * dev-python/argh-0.14.1                      x86 SCHEDULED: <2011-10-06 Thu>
 * dev-python/github2-0.5.2                  amd64 SCHEDULED: <2011-10-06 Thu>
@@ -66,6 +64,8 @@
 * mail-client/notmuch-0.6.1-r1                x86 SCHEDULED: <2011-10-10 Mon>
 * mail-client/notmuch-0.7-r1                amd64 SCHEDULED: <2011-10-10 Mon>
 * mail-client/notmuch-0.7-r1                  x86 SCHEDULED: <2011-10-10 Mon>
+* app-misc/hammertime-0.1.3                 amd64 SCHEDULED: <2011-10-13 Thu>
+* app-misc/hammertime-0.1.3                   x86 SCHEDULED: <2011-10-13 Thu>
 * dev-util/ditz-0.5-r1                      amd64 SCHEDULED: <2011-11-03 Thu>
 * dev-util/ditz-0.5-r1                        x86 SCHEDULED: <2011-11-03 Thu>
 * dev-python/rstctl-0.4                     amd64 SCHEDULED: <2011-11-06 Sun>

@@ -18,14 +18,6 @@
 
   * `0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.5.ebuild>`__  ``amd64``, ``x86``
 
-* ``async`` - http://pypi.python.org/pypi/async/
-
- * A framework to process interdependent tasks in a pool of workers
- * Licence: ``BSD``
- * Versions:
-
-  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/async/async-0.6.1.ebuild>`__  ``amd64``, ``x86``
-
 * ``atomize`` - http://pypi.python.org/pypi/atomize/
 
  * A simple Python package for easily generating Atom feeds
@@ -170,14 +162,6 @@
 
   * `0.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/genzshcomp/genzshcomp-0.2.2.ebuild>`__  ``amd64``, ``x86``
 
-* ``git-python`` - http://pypi.python.org/pypi/GitPython/
-
- * Python Git Library
- * Licence: ``BSD``
- * Versions:
-
-  * `0.3.1_beta2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/git-python/git-python-0.3.1_beta2.ebuild>`__  ``amd64``, ``x86``
-
 * ``github2`` - http://pypi.python.org/pypi/github2/
 
  * Github API v2 library for Python
@@ -308,14 +292,6 @@
  * Versions:
 
   * `0.7.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pdbpp/pdbpp-0.7.2.ebuild>`__  ``amd64``, ``x86``
-
-* ``pep8`` - https://github.com/jcrocholl/pep8
-
- * A tool to check your Python code against the conventions in PEP 8
- * Licence: ``MIT``
- * Versions:
-
-  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep8/pep8-0.6.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``pgmagick`` - http://pypi.python.org/pypi/pgmagick/
 
@@ -471,14 +447,6 @@
  * Versions:
 
   * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2011-11-06), ``~x86`` (due 2011-11-06)
-
-* ``scripttest`` - http://pythonpaste.org/scripttest/
-
- * Helper to test command-line scripts
- * Licence: ``MIT``
- * Versions:
-
-  * `1.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/scripttest/scripttest-1.1.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``see`` - http://inky.github.com/see/
 
