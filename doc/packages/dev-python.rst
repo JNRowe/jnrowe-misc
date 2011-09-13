@@ -293,14 +293,6 @@
 
   * `0.7.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pdbpp/pdbpp-0.7.2.ebuild>`__  ``amd64``, ``x86``
 
-* ``pep8`` - https://github.com/jcrocholl/pep8
-
- * A tool to check your Python code against the conventions in PEP 8
- * Licence: ``MIT``
- * Versions:
-
-  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep8/pep8-0.6.1.ebuild>`__  ``amd64``, ``x86``
-
 * ``pgmagick`` - http://pypi.python.org/pypi/pgmagick/
 
  * Yet Another Python wrapper for GraphicsMagick
