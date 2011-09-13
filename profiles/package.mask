@@ -4,10 +4,6 @@
 # live ebuild for wmfs
 =x11-wm/wmfs-9999
 
-# James Rowe <jnrowe@gmail.com> (24 Feb 2011)
-# live ebuild for rstblog
-=www-apps/rstblog-9999
-
 # James Rowe <jnrowe@gmail.com> (17 Sep 2009)
 # Live ebuilds for awesome widgets
 =x11-plugins/obvious-9999
