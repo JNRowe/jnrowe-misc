@@ -8,10 +8,6 @@
 # live ebuild for rstblog
 =www-apps/rstblog-9999
 
-# James Rowe <jnrowe@gmail.com> (9 Jan 2010)
-# live ebuild for mpdcron
-=media-sound/mpdcron-9999
-
 # James Rowe <jnrowe@gmail.com> (17 Sep 2009)
 # Live ebuilds for awesome widgets
 =x11-plugins/obvious-9999

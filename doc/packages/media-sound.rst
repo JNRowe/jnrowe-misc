@@ -16,5 +16,4 @@
  * Versions:
 
   * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-sound/mpdcron/mpdcron-0.3.ebuild>`__  ``amd64``, ``x86``
-  * `9999 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-sound/mpdcron/mpdcron-9999.ebuild>`__ [``git``] (masked by ``package.mask``)
 
