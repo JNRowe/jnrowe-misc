@@ -12,10 +12,6 @@
 # live ebuild for mpdcron
 =media-sound/mpdcron-9999
 
-# James Rowe <jnrowe@gmail.com> (13 Nov 2009)
-# live ebuild for notmuch
-=mail-client/notmuch-9999
-
 # James Rowe <jnrowe@gmail.com> (17 Sep 2009)
 # Live ebuilds for awesome widgets
 =x11-plugins/obvious-9999
