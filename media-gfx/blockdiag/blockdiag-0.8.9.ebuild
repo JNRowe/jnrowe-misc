@@ -24,6 +24,7 @@ DEPEND="dev-python/setuptools
 	dev-python/imaging"
 RDEPEND="dev-python/funcparserlib
 	dev-python/imaging
+	dev-python/webcolors
 	pdf? ( dev-python/reportlab )"
 
 DOCS="src/README.txt src/TODO.txt"
