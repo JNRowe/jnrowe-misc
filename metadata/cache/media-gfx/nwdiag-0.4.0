@@ -6,7 +6,7 @@ mirror://pypi/n/nwdiag/nwdiag-0.4.0.tar.gz
 http://pypi.python.org/pypi/nwdiag/
 Apache-2.0
 Generate network-diagram images from spec-text file
-~amd64 ~x86
+amd64 ~x86
 distutils eutils jnrowe-pypi multilib portability python toolchain-funcs
 examples minimal
 
