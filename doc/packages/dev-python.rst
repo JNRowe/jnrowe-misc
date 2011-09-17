@@ -511,7 +511,7 @@
  * Versions:
 
   * `0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/stencil/stencil-0.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/stencil/stencil-0.2.1.ebuild>`__  ``~amd64`` (due 2011-09-17), ``~x86`` (due 2011-09-17)
+  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/stencil/stencil-0.2.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-09-17)
 
 * ``story_parser`` - https://github.com/hugobr/story_parser
 

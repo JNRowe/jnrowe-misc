@@ -1,4 +1,3 @@
-* dev-python/stencil-0.2.1                  amd64 SCHEDULED: <2011-09-17 Sat>
 * dev-python/stencil-0.2.1                    x86 SCHEDULED: <2011-09-17 Sat>
 * dev-perl/Weather-Underground-3.03         amd64 SCHEDULED: <2011-09-17 Sat>
 * dev-perl/Weather-Underground-3.03           x86 SCHEDULED: <2011-09-17 Sat>
