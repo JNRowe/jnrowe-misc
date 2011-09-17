@@ -24,5 +24,5 @@
  * Versions:
 
   * `3.02 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-perl/Weather-Underground/Weather-Underground-3.02.ebuild>`__  ``amd64``, ``x86``
-  * `3.03 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-perl/Weather-Underground/Weather-Underground-3.03.ebuild>`__  ``~amd64`` (due 2011-09-17), ``~x86`` (due 2011-09-17)
+  * `3.03 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-perl/Weather-Underground/Weather-Underground-3.03.ebuild>`__  ``amd64``, ``~x86`` (due 2011-09-17)
 
