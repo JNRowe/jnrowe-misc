@@ -6,7 +6,7 @@ mirror://cpan/authors/id/M/MN/MNAGUIB/Weather-Underground-3.03.tar.gz
 http://search.cpan.org/dist/Weather-Underground/
 Artistic
 Extension for retrieving weather information from wunderground.com
-~amd64 ~x86
+amd64 x86
 base eutils multilib perl-module portability toolchain-funcs
 
 
