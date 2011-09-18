@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  18 Sep 2011; James Rowe <jnrowe@gmail.com> -files/tudu-0.7-build_fixes.patch,
+  -tudu-0.8.ebuild, tudu-0.8.1.ebuild, -files/tudu-0.8-as_needed_fix.patch:
+  Keyworded x86.
+
   17 Sep 2011; James Rowe <jnrowe@gmail.com> tudu-0.8.1.ebuild:
   Keyworded amd64.
 
