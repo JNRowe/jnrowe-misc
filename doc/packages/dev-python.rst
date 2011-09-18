@@ -298,8 +298,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.4.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-09-17)
+  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.4.1.ebuild>`__  ``amd64``, ``x86``
   * `0.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.4.2.ebuild>`__  ``~amd64`` (due 2011-09-22), ``~x86`` (due 2011-09-22)
 
 * ``pinocchio`` - http://darcs.idyll.org/~t/projects/pinocchio/doc/
