@@ -168,7 +168,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.5.1.ebuild>`__  ``~amd64`` (due 2011-09-18), ``~x86`` (due 2011-09-18)
+  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.5.1.ebuild>`__  ``~amd64`` (due 2011-09-18), ``~x86`` (due 2011-10-18)
   * `0.5.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.5.2.ebuild>`__  ``~amd64`` (due 2011-10-06), ``~x86`` (due 2011-10-06)
 
 * ``gpxdata`` - http://www.kette-links.de/technik.php?lang=en
@@ -233,8 +233,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1.27 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.27.ebuild>`__  ``amd64``, ``x86``
-  * `0.1.31 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.31.ebuild>`__  ``amd64``, ``~x86`` (due 2011-09-17)
+  * `0.1.31 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.31.ebuild>`__  ``amd64``, ``x86``
   * `0.1.32 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.32.ebuild>`__  ``~amd64`` (due 2011-09-26), ``~x86`` (due 2011-09-26)
 
 * ``logbook`` - http://pypi.python.org/pypi/Logbook/
@@ -299,8 +298,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.4.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-09-17)
+  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.4.1.ebuild>`__  ``amd64``, ``x86``
   * `0.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.4.2.ebuild>`__  ``~amd64`` (due 2011-09-22), ``~x86`` (due 2011-09-22)
 
 * ``pinocchio`` - http://darcs.idyll.org/~t/projects/pinocchio/doc/
@@ -510,8 +508,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/stencil/stencil-0.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/stencil/stencil-0.2.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-09-17)
+  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/stencil/stencil-0.2.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``story_parser`` - https://github.com/hugobr/story_parser
 
@@ -594,7 +591,7 @@
 
   * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.2.ebuild>`__  ``amd64``, ``x86``
   * `1.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.4.2.ebuild>`__  ``~amd64`` (due 2011-11-14), ``~x86`` (due 2011-11-14)
-  * `1.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.4.3.ebuild>`__  ``~amd64`` (due 2011-10-17), ``~x86`` (due 2011-09-17)
+  * `1.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.4.3.ebuild>`__  ``~amd64`` (due 2011-10-17), ``~x86`` (due 2011-10-18)
 
 * ``upoints`` - http://www.jnrowe.ukfsn.org/projects/upoints.html
 

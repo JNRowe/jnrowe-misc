@@ -24,7 +24,7 @@
  * Versions:
 
   * `0.8.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-0.8.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.8.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-0.8.9.ebuild>`__  ``amd64``, ``~x86`` (due 2011-09-17)
+  * `0.8.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-0.8.9.ebuild>`__  ``amd64``, ``x86``
 
 * ``gruffy`` - http://pypi.python.org/pypi/gruffy/
 
@@ -40,8 +40,7 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.3.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.4.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-09-17)
+  * `0.4.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.4.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``seqdiag`` - http://pypi.python.org/pypi/seqdiag/
 
@@ -49,7 +48,7 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.3.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.3.8.ebuild>`__  ``~amd64`` (due 2011-10-17), ``~x86`` (due 2011-09-17)
+  * `0.3.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.3.8.ebuild>`__  ``~amd64`` (due 2011-10-17), ``~x86`` (due 2011-10-18)
 
 * ``sng`` - http://www.catb.org/~esr/sng/
 
