@@ -40,8 +40,7 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.3.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.4.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-09-17)
+  * `0.4.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.4.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``seqdiag`` - http://pypi.python.org/pypi/seqdiag/
 
