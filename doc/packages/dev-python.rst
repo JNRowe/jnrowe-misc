@@ -531,8 +531,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.6.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.7.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.7.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-09-22)
+  * `0.7.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.7.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
