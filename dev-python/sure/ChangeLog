@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  22 Sep 2011; James Rowe <jnrowe@gmail.com> -sure-0.6.1.ebuild,
+  sure-0.7.0.ebuild:
+  Keyworded x86.
+
+  22 Sep 2011; James Rowe <jnrowe@gmail.com> sure-0.7.0.ebuild:
+  Keyworded amd64.
+
 *sure-0.7.0 (23 Aug 2011)
 
   23 Aug 2011; James Rowe <jnrowe@gmail.com> +sure-0.7.0.ebuild:
