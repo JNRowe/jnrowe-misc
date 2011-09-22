@@ -1,4 +1,3 @@
-* dev-python/pgmagick-0.4.2                 amd64 SCHEDULED: <2011-09-22 Thu>
 * dev-python/pgmagick-0.4.2                   x86 SCHEDULED: <2011-09-22 Thu>
 * dev-python/sure-0.7.0                     amd64 SCHEDULED: <2011-09-22 Thu>
 * dev-python/sure-0.7.0                       x86 SCHEDULED: <2011-09-22 Thu>
