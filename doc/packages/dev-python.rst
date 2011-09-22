@@ -32,7 +32,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.5.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/attest/attest-0.5.2.ebuild>`__  ``~amd64`` (due 2011-09-22), ``~x86`` (due 2011-09-26)
+  * `0.5.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/attest/attest-0.5.2.ebuild>`__  ``~amd64`` (due 2011-10-22), ``~x86`` (due 2011-09-26)
 
 * ``benchmarker`` - http://pypi.python.org/pypi/Benchmarker/
 
@@ -168,7 +168,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.5.1.ebuild>`__  ``~amd64`` (due 2011-09-18), ``~x86`` (due 2011-10-18)
+  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.5.1.ebuild>`__  ``~amd64`` (due 2011-10-18), ``~x86`` (due 2011-10-18)
   * `0.5.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.5.2.ebuild>`__  ``~amd64`` (due 2011-10-06), ``~x86`` (due 2011-10-06)
 
 * ``gpxdata`` - http://www.kette-links.de/technik.php?lang=en
@@ -299,7 +299,7 @@
  * Versions:
 
   * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.4.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.4.2.ebuild>`__  ``~amd64`` (due 2011-09-22), ``~x86`` (due 2011-09-22)
+  * `0.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.4.2.ebuild>`__  ``amd64``, ``~x86`` (due 2011-09-22)
 
 * ``pinocchio`` - http://darcs.idyll.org/~t/projects/pinocchio/doc/
 
@@ -533,7 +533,7 @@
  * Versions:
 
   * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.6.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.7.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.7.0.ebuild>`__  ``~amd64`` (due 2011-09-22), ``~x86`` (due 2011-09-22)
+  * `0.7.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.7.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-09-22)
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
@@ -624,7 +624,7 @@
  * Versions:
 
   * `2.7.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.7.1.ebuild>`__  ``amd64``, ``x86``
-  * `2.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.8.ebuild>`__  ``~amd64`` (due 2011-09-22), ``~x86`` (due 2011-09-22)
+  * `2.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.8.ebuild>`__  ``amd64``, ``~x86`` (due 2011-09-22)
   * `2.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.9.ebuild>`__  ``~amd64`` (due 2011-10-06), ``~x86`` (due 2011-10-06)
 
 * ``webcolors`` - http://pypi.python.org/pypi/webcolors/

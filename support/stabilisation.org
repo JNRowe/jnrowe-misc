@@ -1,10 +1,5 @@
-* dev-python/github2-0.5.1                  amd64 SCHEDULED: <2011-09-18 Sun>
-* dev-python/attest-0.5.2                   amd64 SCHEDULED: <2011-09-22 Thu>
-* dev-python/pgmagick-0.4.2                 amd64 SCHEDULED: <2011-09-22 Thu>
 * dev-python/pgmagick-0.4.2                   x86 SCHEDULED: <2011-09-22 Thu>
-* dev-python/sure-0.7.0                     amd64 SCHEDULED: <2011-09-22 Thu>
 * dev-python/sure-0.7.0                       x86 SCHEDULED: <2011-09-22 Thu>
-* dev-python/virtualenvwrapper-2.8          amd64 SCHEDULED: <2011-09-22 Thu>
 * dev-python/virtualenvwrapper-2.8            x86 SCHEDULED: <2011-09-22 Thu>
 * dev-python/poster-0.8.1                   amd64 SCHEDULED: <2011-09-24 Sat>
 * dev-python/requests-0.6.1                 amd64 SCHEDULED: <2011-09-24 Sat>
@@ -45,7 +40,9 @@
 * dev-python/twython-1.4.3                  amd64 SCHEDULED: <2011-10-17 Mon>
 * media-gfx/seqdiag-0.3.8                     x86 SCHEDULED: <2011-10-18 Tue>
 * dev-python/twython-1.4.3                    x86 SCHEDULED: <2011-10-18 Tue>
+* dev-python/github2-0.5.1                  amd64 SCHEDULED: <2011-10-18 Tue>
 * dev-python/github2-0.5.1                    x86 SCHEDULED: <2011-10-18 Tue>
+* dev-python/attest-0.5.2                   amd64 SCHEDULED: <2011-10-22 Sat>
 * dev-util/ditz-0.5-r1                      amd64 SCHEDULED: <2011-11-03 Thu>
 * dev-util/ditz-0.5-r1                        x86 SCHEDULED: <2011-11-03 Thu>
 * dev-python/rstctl-0.4                     amd64 SCHEDULED: <2011-11-06 Sun>
