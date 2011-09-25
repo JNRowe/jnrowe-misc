@@ -1,5 +1,3 @@
-* dev-python/poster-0.8.1                   amd64 SCHEDULED: <2011-09-24 Sat>
-* dev-python/requests-0.6.1                 amd64 SCHEDULED: <2011-09-24 Sat>
 * dev-python/poster-0.8.1                     x86 SCHEDULED: <2011-09-25 Sun>
 * dev-python/requests-0.6.1                   x86 SCHEDULED: <2011-09-25 Sun>
 * media-gfx/sphinxcontrib-mscgen-0.4        amd64 SCHEDULED: <2011-09-26 Mon>
