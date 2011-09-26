@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  26 Sep 2011; James Rowe <jnrowe@gmail.com>
+  sphinxcontrib-issuetracker-0.8.ebuild:
+  Keyworded amd64.
+
 *sphinxcontrib-issuetracker-0.9 (06 Sep 2011)
 
   06 Sep 2011; James Rowe <jnrowe@gmail.com>
