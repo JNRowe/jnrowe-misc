@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  26 Sep 2011; James Rowe <jnrowe@gmail.com> -lettuce-0.1.31.ebuild,
+  lettuce-0.1.32.ebuild:
+  Keyworded x86.
+
   26 Sep 2011; James Rowe <jnrowe@gmail.com> lettuce-0.1.32.ebuild:
   Keyworded amd64.
 

@@ -1,4 +1,3 @@
-* dev-python/lettuce-0.1.32                   x86 SCHEDULED: <2011-09-26 Mon>
 * app-text/sphinxcontrib-issuetracker-0.8     x86 SCHEDULED: <2011-09-26 Mon>
 * dev-python/termtool-1.0                   amd64 SCHEDULED: <2011-09-30 Fri>
 * dev-python/termtool-1.0                     x86 SCHEDULED: <2011-10-01 Sat>
