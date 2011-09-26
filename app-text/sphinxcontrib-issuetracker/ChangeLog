@@ -3,6 +3,11 @@
 # $Header: $
 
   26 Sep 2011; James Rowe <jnrowe@gmail.com>
+  -sphinxcontrib-issuetracker-0.7.2.ebuild,
+  sphinxcontrib-issuetracker-0.8.ebuild:
+  Keyworded x86.
+
+  26 Sep 2011; James Rowe <jnrowe@gmail.com>
   sphinxcontrib-issuetracker-0.8.ebuild:
   Keyworded amd64.
 
