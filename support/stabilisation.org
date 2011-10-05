@@ -1,5 +1,4 @@
 * www-apps/mnemosyne-0.12                     x86 SCHEDULED: <2011-10-05 Wed>
-* dev-python/pycparser-2.04                 amd64 SCHEDULED: <2011-10-05 Wed>
 * dev-python/pycparser-2.04                   x86 SCHEDULED: <2011-10-05 Wed>
 * dev-python/poster-0.8.1-r1                amd64 SCHEDULED: <2011-10-05 Wed>
 * dev-python/poster-0.8.1-r1                  x86 SCHEDULED: <2011-10-05 Wed>
@@ -40,3 +39,4 @@
 * dev-perl/Net-Twitter-Lite-0.10004           x86 SCHEDULED: <2011-11-14 Mon>
 * dev-python/twython-1.4.2                    x86 SCHEDULED: <2011-11-14 Mon>
 * www-apps/mnemosyne-0.12                   amd64 SCHEDULED: <2012-02-02 Thu>
+* dev-python/pycparser-2.04                 amd64 SCHEDULED: <2012-02-02 Thu>
