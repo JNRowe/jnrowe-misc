@@ -1,4 +1,3 @@
-* dev-python/poster-0.8.1-r1                  x86 SCHEDULED: <2011-10-05 Wed>
 * dev-python/argh-0.14.1                    amd64 SCHEDULED: <2011-10-06 Thu>
 * dev-python/argh-0.14.1                      x86 SCHEDULED: <2011-10-06 Thu>
 * dev-python/github2-0.5.2                  amd64 SCHEDULED: <2011-10-06 Thu>

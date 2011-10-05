@@ -321,8 +321,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/poster/poster-0.8.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.8.1-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/poster/poster-0.8.1-r1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-10-05)
+  * `0.8.1-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/poster/poster-0.8.1-r1.ebuild>`__  ``amd64``, ``x86``
 
 * ``prettytable`` - http://code.google.com/p/prettytable/
 
