@@ -2,6 +2,13 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  05 Oct 2011; James Rowe <jnrowe@gmail.com> -poster-0.8.1.ebuild,
+  poster-0.8.1-r1.ebuild:
+  Keyworded x86.
+
+  05 Oct 2011; James Rowe <jnrowe@gmail.com> poster-0.8.1-r1.ebuild:
+  Keyworded amd64.
+
   25 Sep 2011; James Rowe <jnrowe@gmail.com> poster-0.8.1.ebuild:
   Keyworded x86.
 
