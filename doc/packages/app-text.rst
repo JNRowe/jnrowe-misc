@@ -48,5 +48,5 @@
  * Versions:
 
   * `0.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/sphinxcontrib-issuetracker/sphinxcontrib-issuetracker-0.8.ebuild>`__  ``amd64``, ``x86``
-  * `0.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/sphinxcontrib-issuetracker/sphinxcontrib-issuetracker-0.9.ebuild>`__  ``~amd64`` (due 2011-10-06), ``~x86`` (due 2011-10-06)
+  * `0.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/sphinxcontrib-issuetracker/sphinxcontrib-issuetracker-0.9.ebuild>`__  ``amd64``, ``~x86`` (due 2011-10-06)
 
