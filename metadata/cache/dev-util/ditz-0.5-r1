@@ -7,8 +7,8 @@ http://ditz.rubyforge.org
 GPL-3
 A simple, light-weight distributed issue tracker designed for dVCS
 ~amd64 ~x86
-bash-completion-r1 eutils multilib portability ruby-ng toolchain-funcs
-ruby_targets_ruby18
+bash-completion-r1 eutils java-utils-2 multilib portability ruby-ng toolchain-funcs versionator
+elibc_FreeBSD ruby_targets_ruby18
 || ( ruby_targets_ruby18 )
 
 
