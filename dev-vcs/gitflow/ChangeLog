@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  10 Oct 2011; James Rowe <jnrowe@gmail.com> gitflow-0.4.1-r1.ebuild:
+  Keyworded amd64.
+
   10 Sep 2011; James Rowe <jnrowe@gmail.com> gitflow-0.4.1-r1.ebuild:
   zsh completion no longer USE configurable.
 
