@@ -6,7 +6,7 @@ http://notmuchmail.org/releases/notmuch-0.7.tar.gz
 http://notmuchmail.org/
 GPL-3
 Thread-based email index, search and tagging.
-amd64 ~x86
+amd64 x86
 base bash-completion-r1 distutils elisp-common eutils java-utils-2 multilib portability python ruby-ng toolchain-funcs versionator
 X debug emacs python ruby vim elibc_FreeBSD ruby_targets_ruby18
 

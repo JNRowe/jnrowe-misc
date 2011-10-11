@@ -6,7 +6,7 @@ https://github.com/nvie/gitflow/tarball/0.4.1 -> gitflow-0.4.1.tar.gz https://gi
 http://nvie.com/archives/323
 BSD-2 MIT
 High-level repository operations for Vincent Driessen's branching model
-amd64 ~x86
+amd64 x86
 bash-completion-r1 eutils jnrowe-github multilib portability toolchain-funcs
 
 

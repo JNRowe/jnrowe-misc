@@ -25,7 +25,7 @@ HOMEPAGE="http://notmuchmail.org/"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="X debug emacs python ruby vim"
 
 # No go support, this will change when go is added to main tree

@@ -1,5 +1,3 @@
-* dev-vcs/gitflow-0.4.1-r1                    x86 SCHEDULED: <2011-10-10 Mon>
-* mail-client/notmuch-0.7-r1                  x86 SCHEDULED: <2011-10-10 Mon>
 * app-misc/hammertime-0.1.3                 amd64 SCHEDULED: <2011-10-13 Thu>
 * app-misc/hammertime-0.1.3                   x86 SCHEDULED: <2011-10-13 Thu>
 * media-gfx/seqdiag-0.3.8                   amd64 SCHEDULED: <2011-10-17 Mon>
