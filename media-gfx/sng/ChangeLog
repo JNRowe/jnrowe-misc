@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  17 Oct 2011; James Rowe <jnrowe@gmail.com>
+  files/sng-1.0.2-libpng_1_4_fix.patch:
+  Added patch description.
+
   06 Sep 2011; James Rowe <jnrowe@gmail.com> sng-1.0.5.ebuild:
   Switched to EAPI 4.
 
