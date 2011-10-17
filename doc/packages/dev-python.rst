@@ -586,7 +586,7 @@
 
   * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.2.ebuild>`__  ``amd64``, ``x86``
   * `1.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.4.2.ebuild>`__  ``~amd64`` (due 2011-11-14), ``~x86`` (due 2011-11-14)
-  * `1.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.4.3.ebuild>`__  ``~amd64`` (due 2011-10-17), ``~x86`` (due 2011-10-18)
+  * `1.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.4.3.ebuild>`__  ``~amd64`` (due 2012-01-15), ``~x86`` (due 2011-10-18)
 
 * ``upoints`` - http://www.jnrowe.ukfsn.org/projects/upoints.html
 
