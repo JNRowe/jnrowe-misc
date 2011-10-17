@@ -1,3 +1,7 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Unbundle libraries, to fight off the QA nazis^wfolks
+Status: LOCAL
+
 diff --git a/requests.egg-info/SOURCES.txt b/requests.egg-info/SOURCES.txt
 index 65c3b1d..573f0ec 100644
 --- a/requests.egg-info/SOURCES.txt
