@@ -1,15 +1,6 @@
-From 1549a2f4c2943bb88a4d92e489b5095f90f5c87b Mon Sep 17 00:00:00 2001
 From: James Rowe <jnrowe@gmail.com>
-Date: Wed, 15 Sep 2010 16:33:50 +0100
-Subject: [PATCH] Use the standard library version of simplejson, if available.
-
-simplejson has been included since Python 2.6.
-
-Signed-off-by: James Rowe <jnrowe@gmail.com>
----
- setup.py             |    7 ++++++-
- src/github/issues.py |   11 +++++++----
- 2 files changed, 13 insertions(+), 5 deletions(-)
+Subject: Use the standard library version of simplejson, if available.
+Status: LOCAL
 
 diff --git a/setup.py b/setup.py
 index e7f10ec..70c6208 100644
@@ -66,6 +57,3 @@ index 46a3a35..cb82a49 100644
          page.close()
          if result.get('error'):
              handle_error(result)
--- 
-1.7.2.2
-
