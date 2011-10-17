@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  17 Oct 2011; James Rowe <jnrowe@gmail.com>
+  files/winwrangler-0.2.4-no_gtkhotkey.patch:
+  Added patch description.
+
   06 Sep 2011; James Rowe <jnrowe@gmail.com> winwrangler-0.2.4-r1.ebuild:
   Switched to EAPI 4.
 
