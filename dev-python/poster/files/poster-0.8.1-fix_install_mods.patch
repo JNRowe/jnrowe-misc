@@ -1,3 +1,7 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Correctly installs only poster package
+Status: LOCAL
+
 diff --git i/setup.py w/setup.py
 index eb6775a..312529b 100644
 --- i/setup.py

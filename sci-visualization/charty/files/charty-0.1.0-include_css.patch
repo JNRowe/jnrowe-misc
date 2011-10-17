@@ -1,3 +1,7 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Install data files
+Status: LOCAL
+
 diff --git i/setup.py w/setup.py
 index ec5ccce..2fd3c27 100644
 --- i/setup.py

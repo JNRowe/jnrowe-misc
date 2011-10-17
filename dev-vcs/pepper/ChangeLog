@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  17 Oct 2011; James Rowe <jnrowe@gmail.com>
+  files/pepper-0.2.4-honour_cflags.patch:
+  Added patch description.
+
   18 Sep 2011; James Rowe <jnrowe@gmail.com> -pepper-0.2.3.ebuild,
   -files/pepper-0.2.3-honour_cflags.patch, pepper-0.2.4.ebuild:
   Keyworded x86.

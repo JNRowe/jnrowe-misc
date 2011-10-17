@@ -1,3 +1,7 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Modern libpng support
+Status: LOCAL
+
 diff --git i/sngd.c w/sngd.c
 index 28e3775..ed887ea 100644
 --- i/sngd.c

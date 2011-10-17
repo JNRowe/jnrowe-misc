@@ -1,3 +1,7 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Modern GCC support
+Status: LOCAL
+
 diff --git i/baustones/httpd/httpd.cc w/baustones/httpd/httpd.cc
 index d4747d0..f8de02d 100644
 --- i/baustones/httpd/httpd.cc

@@ -27,7 +27,6 @@ RDEPEND="dev-python/python-osmgpsmap"
 
 PYTHON_MODNAME=${MY_PN}
 
-# Applied in upstream already, awaiting release
 PATCHES=("${FILESDIR}"/${P}-fix_xdg_cache_home.patch)
 
 src_prepare() {

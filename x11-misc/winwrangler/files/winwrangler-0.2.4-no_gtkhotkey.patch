@@ -1,3 +1,7 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Remove gtkhotplug dependency
+Status: LOCAL
+
 diff --git c/README i/README
 index b9991e4..9cbccee 100644
 --- c/README

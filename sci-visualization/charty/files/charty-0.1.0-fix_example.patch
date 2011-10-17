@@ -1,3 +1,7 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Path fixes for installed data files
+Status: LOCAL
+
 diff --git c/charty/example.py i/charty/example.py
 index b1245d8..674d0a1 100644
 --- c/charty/example.py

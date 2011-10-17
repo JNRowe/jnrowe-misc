@@ -1,3 +1,7 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Handle DESTDIR
+Status: LOCAL
+
 diff --git i/Makefile.in w/Makefile.in
 index 9cecfe2..643b6a3 100644
 --- i/Makefile.in

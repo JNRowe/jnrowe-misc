@@ -1,12 +1,6 @@
-From edb9e6dbf662c900bd675d3cc53682c8c08c5157 Mon Sep 17 00:00:00 2001
 From: James Rowe <jnrowe@gmail.com>
-Date: Mon, 6 Jun 2011 14:20:42 +0100
-Subject: [PATCH] Use glib.get_user_cache_dir() for correct handling of
- $XDG_CACHE_HOME.
-
----
- gpxviewer/ui.py |    5 ++++-
- 1 files changed, 4 insertions(+), 1 deletions(-)
+Subject: Use glib.get_user_cache_dir() for correct handling of $XDG_CACHE_HOME.
+Status: MERGED
 
 diff --git a/gpxviewer/ui.py b/gpxviewer/ui.py
 index b7267ed..da47c75 100644
@@ -31,6 +25,3 @@ index b7267ed..da47c75 100644
  		self.map.layer_add(
  					osmgpsmap.GpsMapOsd(
  						show_dpad=False,
--- 
-1.7.5.4
-
