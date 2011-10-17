@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI=4
+AUTOTOOLS_AUTO_DEPEND=no
 
 inherit autotools eutils versionator
 
@@ -20,6 +21,7 @@ IUSE="daemon"
 RDEPEND="daemon? ( =x11-libs/gtkhotkey-0.2* )
 	x11-libs/libwnck"
 DEPEND="${RDEPEND}
+	!daemon? ( ${AUTOTOOLS_DEPEND} )
 	dev-util/intltool
 	dev-util/pkgconfig"
 
