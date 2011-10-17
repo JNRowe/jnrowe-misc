@@ -48,7 +48,7 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.3.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.3.8.ebuild>`__  ``~amd64`` (due 2011-10-17), ``~x86`` (due 2011-10-18)
+  * `0.3.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.3.8.ebuild>`__  ``~amd64`` (due 2012-01-15), ``~x86`` (due 2011-10-18)
 
 * ``sng`` - http://www.catb.org/~esr/sng/
 
