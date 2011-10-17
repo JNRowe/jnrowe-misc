@@ -1,3 +1,7 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: LDFLAGS support and -O3 removal
+Status: LOCAL
+
 diff --git i/Makefile.in w/Makefile.in
 index 952b8e3..867303d 100644
 --- i/Makefile.in
