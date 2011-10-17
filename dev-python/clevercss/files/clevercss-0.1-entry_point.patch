@@ -1,3 +1,7 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Add setuptools entry point for multi-ABI support
+Status: LOCAL
+
 diff --git i/setup.py w/setup.py
 index 6c0be85..4fa4391 100644
 --- i/setup.py
