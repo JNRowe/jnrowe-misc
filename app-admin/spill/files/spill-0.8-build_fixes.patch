@@ -1,3 +1,7 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Handle DESTDIR, and support LDFLAGS
+Status: LOCAL
+
 diff --git i/Makefile.in w/Makefile.in
 index 43dfd13..7d65728 100644
 --- i/Makefile.in
