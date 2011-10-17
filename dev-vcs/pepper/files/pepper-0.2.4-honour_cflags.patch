@@ -1,3 +1,7 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Disable optimisation flags
+Status: LOCAL
+
 diff --git i/configure.ac w/configure.ac
 index acbdc0f..87f2fba 100644
 --- i/configure.ac
