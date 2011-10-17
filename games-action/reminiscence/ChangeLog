@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  17 Oct 2011; James Rowe <jnrowe@gmail.com>
+  files/reminiscence-0.2.1-data_paths.patch:
+  Added patch description.
+
   06 Sep 2011; James Rowe <jnrowe@gmail.com> reminiscence-0.2.1.ebuild:
   Switched to EAPI 4.
 
