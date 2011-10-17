@@ -1,3 +1,7 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Path fix for multi-ABI support (Gentoo only)
+Status: REJECTED
+
 diff --git i/tests/_setup.py w/tests/_setup.py
 index c410274..a23ca5b 100644
 --- i/tests/_setup.py
