@@ -1,3 +1,7 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Install to /usr, DESTDIR support, FHS compliance
+Status: LOCAL
+
 diff --git i/Makefile w/Makefile
 index 6f82544..78c7f16 100644
 --- i/Makefile
