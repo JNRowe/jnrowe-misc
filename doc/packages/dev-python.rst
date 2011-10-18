@@ -167,7 +167,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.5.1.ebuild>`__  ``~amd64`` (due 2011-10-18), ``~x86`` (due 2012-01-16)
+  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.5.1.ebuild>`__  ``~amd64`` (due 2012-01-16), ``~x86`` (due 2012-01-16)
   * `0.5.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.5.2.ebuild>`__  ``~amd64`` (due 2011-11-05), ``~x86`` (due 2011-11-05)
 
 * ``gpxdata`` - http://www.kette-links.de/technik.php?lang=en
