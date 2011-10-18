@@ -1,7 +1,4 @@
-* media-gfx/seqdiag-0.3.8                     x86 SCHEDULED: <2011-10-18 Tue>
-* dev-python/twython-1.4.3                    x86 SCHEDULED: <2011-10-18 Tue>
 * dev-python/github2-0.5.1                  amd64 SCHEDULED: <2011-10-18 Tue>
-* dev-python/github2-0.5.1                    x86 SCHEDULED: <2011-10-18 Tue>
 * dev-python/attest-0.5.2                   amd64 SCHEDULED: <2011-10-22 Sat>
 * media-gfx/sphinxcontrib-mscgen-0.4        amd64 SCHEDULED: <2011-10-26 Wed>
 * media-gfx/sphinxcontrib-mscgen-0.4          x86 SCHEDULED: <2011-10-26 Wed>
@@ -24,6 +21,9 @@
 * app-misc/hammertime-0.1.3                   x86 SCHEDULED: <2012-01-11 Wed>
 * media-gfx/seqdiag-0.3.8                   amd64 SCHEDULED: <2012-01-15 Sun>
 * dev-python/twython-1.4.3                  amd64 SCHEDULED: <2012-01-15 Sun>
+* media-gfx/seqdiag-0.3.8                     x86 SCHEDULED: <2012-01-16 Mon>
+* dev-python/twython-1.4.3                    x86 SCHEDULED: <2012-01-16 Mon>
+* dev-python/github2-0.5.1                    x86 SCHEDULED: <2012-01-16 Mon>
 * www-apps/mnemosyne-0.12                   amd64 SCHEDULED: <2012-02-02 Thu>
 * www-apps/mnemosyne-0.12                     x86 SCHEDULED: <2012-02-02 Thu>
 * dev-python/pycparser-2.04                 amd64 SCHEDULED: <2012-02-02 Thu>

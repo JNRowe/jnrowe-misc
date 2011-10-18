@@ -167,7 +167,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.5.1.ebuild>`__  ``~amd64`` (due 2011-10-18), ``~x86`` (due 2011-10-18)
+  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.5.1.ebuild>`__  ``~amd64`` (due 2011-10-18), ``~x86`` (due 2012-01-16)
   * `0.5.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.5.2.ebuild>`__  ``~amd64`` (due 2011-11-05), ``~x86`` (due 2011-11-05)
 
 * ``gpxdata`` - http://www.kette-links.de/technik.php?lang=en
@@ -585,8 +585,7 @@
  * Versions:
 
   * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.2.ebuild>`__  ``amd64``, ``x86``
-  * `1.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.4.2.ebuild>`__  ``~amd64`` (due 2011-11-14), ``~x86`` (due 2011-11-14)
-  * `1.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.4.3.ebuild>`__  ``~amd64`` (due 2012-01-15), ``~x86`` (due 2011-10-18)
+  * `1.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.4.3.ebuild>`__  ``~amd64`` (due 2012-01-15), ``~x86`` (due 2012-01-16)
 
 * ``upoints`` - http://www.jnrowe.ukfsn.org/projects/upoints.html
 
