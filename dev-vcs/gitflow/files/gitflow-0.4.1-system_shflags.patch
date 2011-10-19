@@ -1,0 +1,36 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Use system shflags, don't install local copy
+Status: LOCAL
+
+diff --git i/Makefile w/Makefile
+index 78c7f16..cb3b120 100644
+--- i/Makefile
++++ w/Makefile
+@@ -39,14 +39,12 @@ SCRIPT_FILES+=git-flow-release
+ SCRIPT_FILES+=git-flow-support
+ SCRIPT_FILES+=git-flow-version
+ SCRIPT_FILES+=gitflow-common
+-SCRIPT_FILES+=gitflow-shFlags
+ 
+ all:
+ 	@echo "usage: make install"
+ 	@echo "       make uninstall"
+ 
+ install:
+-	@test -f gitflow-shFlags || (echo "Run 'git submodule init && git submodule update' first." ; exit 1 )
+ 	install -d $(DESTDIR)$(prefix)/bin
+ 	install -d $(DESTDIR)$(prefix)/share/gitflow
+ 	install $(EXEC_FILES) $(DESTDIR)$(prefix)/bin
+diff --git i/git-flow w/git-flow
+index e526a00..7335ca9 100755
+--- i/git-flow
++++ w/git-flow
+@@ -73,7 +73,7 @@ main() {
+ 	export POSIXLY_CORRECT=1
+ 
+ 	# use the shFlags project to parse the command line arguments
+-	. "$GITFLOW_DIR/gitflow-shFlags"
++	. /usr/share/misc/shflags
+ 	FLAGS_PARENT="git flow"
+ 	FLAGS "$@" || exit $?
+ 	eval set -- "${FLAGS_ARGV}"

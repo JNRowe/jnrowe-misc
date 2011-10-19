@@ -16,6 +16,7 @@
  * Versions:
 
   * `0.4.1-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/gitflow/gitflow-0.4.1-r1.ebuild>`__  ``amd64``, ``x86``
+  * `0.4.1-r2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/gitflow/gitflow-0.4.1-r2.ebuild>`__  ``~amd64`` (due 2011-11-18), ``~x86`` (due 2011-11-18)
 
 * ``gitserve`` - https://github.com/jezdez/git-serve/
 
