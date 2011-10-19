@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*notmuch-0.8 (19 Oct 2011)
+
+  19 Oct 2011; James Rowe <jnrowe@gmail.com> +notmuch-0.8.ebuild:
+  Version bump [475].
+
   11 Oct 2011; James Rowe <jnrowe@gmail.com> -notmuch-0.7.ebuild,
   notmuch-0.7-r1.ebuild:
   Keyworded x86.
