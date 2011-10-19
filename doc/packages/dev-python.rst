@@ -8,6 +8,7 @@
  * Versions:
 
   * `0.14.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/argh/argh-0.14.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.14.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/argh/argh-0.14.2.ebuild>`__  ``~amd64`` (due 2011-11-18), ``~x86`` (due 2011-11-18)
 
 * ``astral`` - http://pypi.python.org/pypi/astral/
 
@@ -170,13 +171,14 @@
   * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.5.1.ebuild>`__  ``~amd64`` (due 2012-01-16), ``~x86`` (due 2012-01-16)
   * `0.5.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.5.2.ebuild>`__  ``~amd64`` (due 2011-11-05), ``~x86`` (due 2011-11-05)
 
-* ``gpxdata`` - http://www.kette-links.de/technik.php?lang=en
+* ``gpxdata`` - http://www.kette-links.de/technik/
 
  * OO representation of GPX and conversion utilities between GPX, KML and OVL
  * Licence: ``GPL-2``
  * Versions:
 
   * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/gpxdata/gpxdata-1.1.0.ebuild>`__  ``amd64``, ``x86``
+  * `1.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/gpxdata/gpxdata-1.2.0.ebuild>`__  ``~amd64`` (due 2011-11-18), ``~x86`` (due 2011-11-18)
 
 * ``grapefruit`` - http://code.google.com/p/grapefruit/
 
@@ -233,6 +235,7 @@
  * Versions:
 
   * `0.1.32 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.32.ebuild>`__  ``amd64``, ``x86``
+  * `0.1.33 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.33.ebuild>`__  ``~amd64`` (due 2011-11-18), ``~x86`` (due 2011-11-18)
 
 * ``logbook`` - http://pypi.python.org/pypi/Logbook/
 
@@ -546,13 +549,14 @@
 
   * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/termtool/termtool-1.0.ebuild>`__  ``~amd64`` (due 2011-10-30), ``~x86`` (due 2011-10-31)
 
-* ``texttable`` - http://jefke.free.fr/coding/python/
+* ``texttable`` - http://foutaise.org/code/
 
  * module to generate a formatted text table, using ASCII characters.
  * Licence: ``LGPL-2.1``
  * Versions:
 
   * `0.7.0-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/texttable/texttable-0.7.0-r1.ebuild>`__  ``amd64``, ``x86``
+  * `0.8.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/texttable/texttable-0.8.0.ebuild>`__  ``~amd64`` (due 2011-11-18), ``~x86`` (due 2011-11-18)
 
 * ``titlecase`` - http://pypi.python.org/pypi/titlecase/
 
