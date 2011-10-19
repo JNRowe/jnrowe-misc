@@ -548,13 +548,14 @@
 
   * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/termtool/termtool-1.0.ebuild>`__  ``~amd64`` (due 2011-10-30), ``~x86`` (due 2011-10-31)
 
-* ``texttable`` - http://jefke.free.fr/coding/python/
+* ``texttable`` - http://foutaise.org/code/
 
  * module to generate a formatted text table, using ASCII characters.
  * Licence: ``LGPL-2.1``
  * Versions:
 
   * `0.7.0-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/texttable/texttable-0.7.0-r1.ebuild>`__  ``amd64``, ``x86``
+  * `0.8.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/texttable/texttable-0.8.0.ebuild>`__  ``~amd64`` (due 2011-11-18), ``~x86`` (due 2011-11-18)
 
 * ``titlecase`` - http://pypi.python.org/pypi/titlecase/
 
