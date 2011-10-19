@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*lettuce-0.1.33 (19 Oct 2011)
+
+  19 Oct 2011; James Rowe <jnrowe@gmail.com> +lettuce-0.1.33.ebuild:
+  Version bump [473].
+
   26 Sep 2011; James Rowe <jnrowe@gmail.com> -lettuce-0.1.31.ebuild,
   lettuce-0.1.32.ebuild:
   Keyworded x86.
