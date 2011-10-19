@@ -171,13 +171,14 @@
   * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.5.1.ebuild>`__  ``~amd64`` (due 2012-01-16), ``~x86`` (due 2012-01-16)
   * `0.5.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.5.2.ebuild>`__  ``~amd64`` (due 2011-11-05), ``~x86`` (due 2011-11-05)
 
-* ``gpxdata`` - http://www.kette-links.de/technik.php?lang=en
+* ``gpxdata`` - http://www.kette-links.de/technik/
 
  * OO representation of GPX and conversion utilities between GPX, KML and OVL
  * Licence: ``GPL-2``
  * Versions:
 
   * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/gpxdata/gpxdata-1.1.0.ebuild>`__  ``amd64``, ``x86``
+  * `1.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/gpxdata/gpxdata-1.2.0.ebuild>`__  ``~amd64`` (due 2011-11-18), ``~x86`` (due 2011-11-18)
 
 * ``grapefruit`` - http://code.google.com/p/grapefruit/
 

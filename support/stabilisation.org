@@ -18,6 +18,8 @@
 * dev-python/twython-1.4.2                    x86 SCHEDULED: <2011-11-14 Mon>
 * dev-python/argh-0.14.2                    amd64 SCHEDULED: <2011-11-18 Fri>
 * dev-python/argh-0.14.2                      x86 SCHEDULED: <2011-11-18 Fri>
+* dev-python/gpxdata-1.2.0                  amd64 SCHEDULED: <2011-11-18 Fri>
+* dev-python/gpxdata-1.2.0                    x86 SCHEDULED: <2011-11-18 Fri>
 * app-misc/hammertime-0.1.3                 amd64 SCHEDULED: <2012-01-10 Tue>
 * app-misc/hammertime-0.1.3                   x86 SCHEDULED: <2012-01-11 Wed>
 * media-gfx/seqdiag-0.3.8                   amd64 SCHEDULED: <2012-01-15 Sun>
