@@ -1,2 +1,4 @@
-url = http://alastairs-place.net/pwtools/
+url = http://alastairs-place.net/projects/pwtools/
 select = a
+match_type = re
+match = pwtools-[\d\.]+[\d]-py[\d\.]+.egg
