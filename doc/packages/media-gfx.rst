@@ -78,6 +78,7 @@
  * Versions:
 
   * `0.9.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-0.9.0.ebuild>`__  ``amd64``, ``x86``
+  * `0.9.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-0.9.2.ebuild>`__  ``~amd64`` (due 2011-11-21), ``~x86`` (due 2011-11-21)
 
 * ``sphinxcontrib-gruffygen`` - http://pypi.python.org/pypi/sphinxcontrib-gruffygen/
 
