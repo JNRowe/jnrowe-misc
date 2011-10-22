@@ -11,8 +11,8 @@ RESTRICT_PYTHON_ABIS="3.*"
 inherit distutils
 
 DESCRIPTION="Password generation and security checking"
-HOMEPAGE="http://alastairs-place.net/pwtools/"
-SRC_URI="${HOMEPAGE}${P}.tar.bz2"
+HOMEPAGE="http://alastairs-place.net/projects/pwtools/"
+SRC_URI="https://github.com/downloads/JNRowe/jnrowe-misc/${P}.tar.bz2"
 
 LICENSE="MIT"
 SLOT="0"

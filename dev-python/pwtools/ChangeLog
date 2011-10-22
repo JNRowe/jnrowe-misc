@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  22 Oct 2011; James Rowe <jnrowe@gmail.com> pwtools-0.2.ebuild:
+  Use a mirror of the tarball as it is no longer available.
+
   22 Oct 2011; James Rowe <jnrowe@gmail.com> watch:
   Fixed watch file for upstream changes [487].
 
