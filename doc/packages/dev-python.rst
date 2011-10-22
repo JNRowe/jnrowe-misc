@@ -356,6 +356,7 @@
  * Versions:
 
   * `2.04 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycparser/pycparser-2.04.ebuild>`__  ``~amd64`` (due 2012-02-02), ``~x86`` (due 2012-02-02)
+  * `2.05 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycparser/pycparser-2.05.ebuild>`__  ``~amd64`` (due 2011-11-21), ``~x86`` (due 2011-11-21)
 
 * ``pycukes`` - https://github.com/hugobr/pycukes
 
@@ -590,6 +591,7 @@
 
   * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.2.ebuild>`__  ``amd64``, ``x86``
   * `1.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.4.3.ebuild>`__  ``~amd64`` (due 2012-01-15), ``~x86`` (due 2012-01-16)
+  * `1.4.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.4.4.ebuild>`__  ``~amd64`` (due 2011-11-21), ``~x86`` (due 2011-11-21)
 
 * ``upoints`` - http://www.jnrowe.ukfsn.org/projects/upoints.html
 
@@ -622,6 +624,7 @@
  * Versions:
 
   * `2.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.9.ebuild>`__  ``amd64``, ``x86``
+  * `2.10.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.10.1.ebuild>`__  ``~amd64`` (due 2011-11-21), ``~x86`` (due 2011-11-21)
 
 * ``webcolors`` - http://pypi.python.org/pypi/webcolors/
 

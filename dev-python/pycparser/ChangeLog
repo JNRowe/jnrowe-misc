@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*pycparser-2.05 (22 Oct 2011)
+
+  22 Oct 2011; James Rowe <jnrowe@gmail.com> +pycparser-2.05.ebuild:
+  Version bump [483].
+
   07 Jul 2011; James Rowe <jnrowe@gmail.com> -pycparser-2.03.ebuild:
   Removed stale ebuild.
 

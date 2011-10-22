@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*virtualenvwrapper-2.10.1 (22 Oct 2011)
+
+  22 Oct 2011; James Rowe <jnrowe@gmail.com> +virtualenvwrapper-2.10.1.ebuild:
+  Version bump [479].
+
   17 Oct 2011; James Rowe <jnrowe@gmail.com>
   files/virtualenvwrapper-2.6.1-fix_script_location.patch:
   Added patch description.
