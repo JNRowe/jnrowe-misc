@@ -52,6 +52,7 @@
  * Versions:
 
   * `0.3.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.3.8.ebuild>`__  ``~amd64`` (due 2012-01-15), ``~x86`` (due 2012-01-16)
+  * `0.5.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.5.0.ebuild>`__  ``~amd64`` (due 2011-11-21), ``~x86`` (due 2011-11-21)
 
 * ``sng`` - http://www.catb.org/~esr/sng/
 
