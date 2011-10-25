@@ -333,7 +333,7 @@
 
   * `0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/prettytable/prettytable-0.5.ebuild>`__  ``amd64``, ``x86``
 
-* ``pwtools`` - http://alastairs-place.net/pwtools/
+* ``pwtools`` - http://alastairs-place.net/projects/pwtools/
 
  * Password generation and security checking
  * Licence: ``MIT``
