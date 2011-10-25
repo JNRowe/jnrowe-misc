@@ -1,0 +1,10 @@
+# ChangeLog for games-puzzle/gbrainy
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*gbrainy-2.03 (25 Oct 2011)
+
+  25 Oct 2011; James Rowe <jnrowe@gmail.com> +gbrainy-2.03.ebuild,
+  +metadata.xml, +watch:
+  Initial ebuild, by me [488].
+

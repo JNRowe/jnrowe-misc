@@ -53,3 +53,5 @@
 * dev-python/twython-1.4.2                  amd64 SCHEDULED: <2011-11-14 Mon>
 * dev-perl/Net-Twitter-Lite-0.10004           x86 SCHEDULED: <2011-11-14 Mon>
 * dev-python/twython-1.4.2                    x86 SCHEDULED: <2011-11-14 Mon>
+* games-puzzle/gbrainy-2.03                 amd64 SCHEDULED: <2011-11-24 Thu>
+* games-puzzle/gbrainy-2.03                   x86 SCHEDULED: <2011-11-24 Thu>
