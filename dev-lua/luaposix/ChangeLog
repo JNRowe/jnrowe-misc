@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*luaposix-5.1.15 (25 Oct 2011)
+
+  25 Oct 2011; James Rowe <jnrowe@gmail.com> +luaposix-5.1.15.ebuild:
+  Version bump [474].
+
   06 Sep 2011; James Rowe <jnrowe@gmail.com> luaposix-5.1.11.ebuild:
   Switched to EAPI 4.
 
