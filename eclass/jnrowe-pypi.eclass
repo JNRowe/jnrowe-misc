@@ -21,7 +21,7 @@ esac
 
 HOMEPAGE="http://pypi.python.org/pypi/${MY_PN:-${PN}}/"
 
-# @ECLASS-VARIABLE: PYPI_ARCHIVE_SUFFIX
+# @VARIABLE: PYPI_ARCHIVE_SUFFIX
 # @DESCRIPTION:
 # Archive suffix for package source, defaults to "tar.gz".
 # Can be redefined.

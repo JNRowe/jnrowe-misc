@@ -19,13 +19,13 @@ esac
 # This eclass is designed to to remove some of the duplication necessary
 # in supporting packages hosed on Github.
 
-# @ECLASS-VARIABLE: GITHUB_USER
+# @VARIABLE: GITHUB_USER
 # @DEFAULT-UNSET
 # @REQUIRED
 # @DESCRIPTION:
 # GitHub user account the project is hosted within
 
-# @ECLASS-VARIABLE: GITHUB_TAG
+# @VARIABLE: GITHUB_TAG
 # @DEFAULT-UNSET
 # @DESCRIPTION:
 # Tag to download tarball for, if unset defaults to ${PV}
