@@ -2,6 +2,12 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*requests-0.7.3 (26 Oct 2011)
+
+  26 Oct 2011; James Rowe <jnrowe@gmail.com> +requests-0.7.3.ebuild,
+  +files/requests-0.7.3-fix_poster_bundling.patch:
+  Version bump [491].
+
 *requests-0.6.6 (25 Oct 2011)
 
   25 Oct 2011; James Rowe <jnrowe@gmail.com> +requests-0.6.6.ebuild,
