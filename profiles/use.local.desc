@@ -2,10 +2,10 @@
 # your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using egencache *
 
+app-text/notmuch:vim - Install the vim interface for notmuch
 dev-vcs/pepper:git - Enable support for processing git repositories
 dev-vcs/pepper:mercurial - Enable support for processing mercurial repositories
 games-puzzle/gbrainy:plugins - Support for adding extra games via mono-addins
-mail-client/notmuch:vim - Install the vim interface for notmuch
 media-gfx/aafigure:docutils - Adds a directive for aafigure support to dev-python/docutils
 media-sound/castget:id3tag - Enable support for ID3 tag writing via media-libs/id3lib
 media-sound/mpdcron:scrobbler - Enable support for last.fm aka audioscrobbler
