@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst postrm prepare
+DEPEND=>=app-admin/eselect-python-20091230 =dev-lang/python-2*
+DESCRIPTION=Accessing Huawei modems in Python, including SMS and data calls.
+EAPI=2
+HOMEPAGE=http://code.google.com/p/pyhumod/
+IUSE=dbus
+KEYWORDS=amd64 x86
+LICENSE=BSD
+RDEPEND=dev-python/pyserial net-dialup/ppp dbus? ( dev-python/dbus-python ) >=app-admin/eselect-python-20091230 =dev-lang/python-2*
+SLOT=0
+SRC_URI=http://pyhumod.googlecode.com/files/pyhumod-0.03.tar.gz
+_eclasses_=distutils	b4c334e216d998c4ce4b750cb091e42e	multilib	c4883399ddd3e1d2bd291607b30fded4	python	6bbd984910e27780e5d0ea543d83ef84	toolchain-funcs	39892b66d54a54fdd2b28731b975d8bf
+_md5_=b08b7ac1988cfe787880c985e5d8b538

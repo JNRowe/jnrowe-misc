@@ -7,6 +7,12 @@ overlays.
 If you find any problems with this overlay then please either file an issue_ or
 drop me an email_.
 
+.. warning::
+
+   This repository uses thin manifests, which requires a moderately recent
+   version of ``portage`` to function correctly(2.1.10.18 or newer).  Using
+   older versions is not supported!
+
 You can read the `full documentation`_ online, or in the ``doc`` directory if
 you prefer the reST source.
 

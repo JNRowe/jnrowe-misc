@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=dev-lang/lua
+DESCRIPTION=a Lua interface to the Linux inotify subsystem
+EAPI=4
+HOMEPAGE=http://www3.telus.net/taj_khattra/luainotify.html
+KEYWORDS=amd64 x86
+LICENSE=as-is
+RDEPEND=dev-lang/lua
+SLOT=0
+SRC_URI=http://www3.telus.net/taj_khattra/luainotify/luainotify-20090818.tar.gz
+_eclasses_=eutils	33ef77a15337022e05342d2c772a7a5a	multilib	c4883399ddd3e1d2bd291607b30fded4	portability	068c15f252b74e92d1c8a40f78735c58	toolchain-funcs	39892b66d54a54fdd2b28731b975d8bf	user	c92b0fe8fc686f88dfd912d880501e9c	versionator	24e30b509d090def3c702b79efea99bc
+_md5_=0591f977e7593fd69bddbe6837d75900

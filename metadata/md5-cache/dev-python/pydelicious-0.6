@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install postinst postrm prepare unpack
+DEPEND=app-arch/unzip dev-python/setuptools >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* )
+DESCRIPTION=Access the web service of del.icio.us via it's API through python
+EAPI=3
+HOMEPAGE=http://code.google.com/p/pydelicious/
+IUSE=minimal
+KEYWORDS=amd64 x86
+LICENSE=BSD
+RDEPEND=!minimal? ( dev-python/feedparser ) >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* )
+RESTRICT=test
+SLOT=0
+SRC_URI=http://pydelicious.googlecode.com/files/pydelicious-0.6.zip
+_eclasses_=distutils	b4c334e216d998c4ce4b750cb091e42e	eutils	33ef77a15337022e05342d2c772a7a5a	multilib	c4883399ddd3e1d2bd291607b30fded4	portability	068c15f252b74e92d1c8a40f78735c58	python	6bbd984910e27780e5d0ea543d83ef84	toolchain-funcs	39892b66d54a54fdd2b28731b975d8bf	user	c92b0fe8fc686f88dfd912d880501e9c	versionator	24e30b509d090def3c702b79efea99bc
+_md5_=251fab91e4f04a3ac5010bccc8a00863

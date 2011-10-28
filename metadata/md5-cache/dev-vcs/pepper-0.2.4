@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure prepare
+DEPEND=dev-lang/lua git? ( dev-vcs/git ) gnuplot? ( sci-visualization/gnuplot ) mercurial? ( dev-vcs/mercurial ) doc? ( app-text/asciidoc app-text/xmlto ) || ( =sys-devel/automake-1.11* ) >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Retrieve statistics and generate reports from source code repositories
+EAPI=4
+HOMEPAGE=http://scm-pepper.sourceforge.net/
+IUSE=doc git gnuplot mercurial
+KEYWORDS=amd64 x86
+LICENSE=GPL-3
+RDEPEND=dev-lang/lua git? ( dev-vcs/git ) gnuplot? ( sci-visualization/gnuplot ) mercurial? ( dev-vcs/mercurial )
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://sourceforge/scm-pepper/pepper-0.2.4.tar.bz2
+_eclasses_=autotools	ec412d0c6e5cbe85d280312b6337c016	eutils	33ef77a15337022e05342d2c772a7a5a	libtool	390d374bfc41723a51e3bafbb77c9325	multilib	c4883399ddd3e1d2bd291607b30fded4	portability	068c15f252b74e92d1c8a40f78735c58	toolchain-funcs	39892b66d54a54fdd2b28731b975d8bf	user	c92b0fe8fc686f88dfd912d880501e9c
+_md5_=124b5d2dadb2c7c734abc7be665a71c6

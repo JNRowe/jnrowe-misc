@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install prepare
+DESCRIPTION=Tool for calculating sunrise and sunset, and sleeping until such an event.
+EAPI=4
+HOMEPAGE=http://www.risacher.org/sunwait/
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://www.risacher.org/sunwait/sunwait-20041208.tar.gz
+_eclasses_=multilib	c4883399ddd3e1d2bd291607b30fded4	toolchain-funcs	39892b66d54a54fdd2b28731b975d8bf
+_md5_=e704e9aa3d71d68481ff0b343ffc91d3

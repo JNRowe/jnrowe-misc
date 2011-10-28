@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=|| ( =sys-devel/automake-1.11* ) >=sys-devel/autoconf-2.61 sys-devel/libtool
+DESCRIPTION=Read-only compressed file-system emulation.
+EAPI=4
+HOMEPAGE=http://zlibc.linux.lu/
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=http://zlibc.linux.lu//zlibc-0.9k.tar.gz
+_eclasses_=autotools	ec412d0c6e5cbe85d280312b6337c016	eutils	33ef77a15337022e05342d2c772a7a5a	libtool	390d374bfc41723a51e3bafbb77c9325	multilib	c4883399ddd3e1d2bd291607b30fded4	portability	068c15f252b74e92d1c8a40f78735c58	toolchain-funcs	39892b66d54a54fdd2b28731b975d8bf	user	c92b0fe8fc686f88dfd912d880501e9c
+_md5_=a25f09dd48f46227a643e4cf03e3e15f
