@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-lang/perl[-build]
+DESCRIPTION=Extension for retrieving weather information from wunderground.com
+EAPI=4
+HOMEPAGE=http://search.cpan.org/dist/Weather-Underground/
+KEYWORDS=amd64 x86
+LICENSE=Artistic
+RDEPEND=dev-perl/HTML-TokeParser-Simple dev-perl/libwww-perl dev-lang/perl[-build]
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MN/MNAGUIB/Weather-Underground-3.03.tar.gz
+_eclasses_=base	dba02c674ce4dff67657c692954d7ef0	eutils	33ef77a15337022e05342d2c772a7a5a	multilib	c4883399ddd3e1d2bd291607b30fded4	perl-module	01501a30505074cd0012cabbf5d99447	portability	068c15f252b74e92d1c8a40f78735c58	toolchain-funcs	39892b66d54a54fdd2b28731b975d8bf	user	c92b0fe8fc686f88dfd912d880501e9c
+_md5_=50054167571d79e700d5476630fabfdb

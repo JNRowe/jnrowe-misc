@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst prepare unpack
+DEPEND=dev-python/gnome-python dev-python/pygtk dev-python/notify-python gnome-base/gconf x11-libs/vte[python] dev-util/intltool dev-util/pkgconfig >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* ) >=sys-apps/sed-4
+DESCRIPTION=GNOME Applet for monitoring current and upcoming TV programs
+EAPI=3
+HOMEPAGE=http://live.gnome.org/OnTV
+IUSE=+xmltv
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=dev-python/gnome-python dev-python/pygtk dev-python/notify-python gnome-base/gconf x11-libs/vte[python] dev-python/dbus-python xmltv? ( media-tv/xmltv ) >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* )
+SLOT=0
+SRC_URI=mirror://gnome/sources/ontv/3.2/ontv-3.2.0.tar.bz2
+_eclasses_=distutils	b4c334e216d998c4ce4b750cb091e42e	eutils	33ef77a15337022e05342d2c772a7a5a	fdo-mime	0acfe1a88fd8751a1d5dc671168219fa	gnome.org	8fef8f967214f56e08fa92d61163d891	gnome2	e249cd17f6b7bb1cdc4a5fbaf231ad38	gnome2-utils	7c56a862ce35774a39626e6b86568269	libtool	390d374bfc41723a51e3bafbb77c9325	multilib	c4883399ddd3e1d2bd291607b30fded4	portability	068c15f252b74e92d1c8a40f78735c58	python	6bbd984910e27780e5d0ea543d83ef84	toolchain-funcs	39892b66d54a54fdd2b28731b975d8bf	user	c92b0fe8fc686f88dfd912d880501e9c	versionator	24e30b509d090def3c702b79efea99bc
+_md5_=cac2b81f685305e0b8a1e94815a368f6

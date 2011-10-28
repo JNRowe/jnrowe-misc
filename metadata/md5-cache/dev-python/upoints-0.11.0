@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst postrm prepare test
+DEPEND=>=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* )
+DESCRIPTION=Modules for working with points on Earth
+EAPI=2
+HOMEPAGE=http://www.jnrowe.ukfsn.org/projects/upoints.html
+KEYWORDS=amd64 x86
+LICENSE=GPL-3
+RDEPEND=>=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* )
+SLOT=0
+SRC_URI=http://www.jnrowe.ukfsn.org/_downloads/upoints-0.11.0.tar.bz2
+_eclasses_=distutils	b4c334e216d998c4ce4b750cb091e42e	multilib	c4883399ddd3e1d2bd291607b30fded4	python	6bbd984910e27780e5d0ea543d83ef84	toolchain-funcs	39892b66d54a54fdd2b28731b975d8bf
+_md5_=bf2a19b6703ff04625c271c3ee622527

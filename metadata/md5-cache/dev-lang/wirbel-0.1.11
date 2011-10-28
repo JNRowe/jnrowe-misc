@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare
+DEPEND=sys-devel/bison sys-devel/flex
+DESCRIPTION=A compiled programming language with syntax and semantics similar to Python
+EAPI=4
+HOMEPAGE=http://mathias-kettner.de/wirbel.html
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/readline
+RESTRICT=test
+SLOT=0
+SRC_URI=http://mathias-kettner.de/download/wirbel-0.1.11.tar.gz
+_eclasses_=eutils	33ef77a15337022e05342d2c772a7a5a	multilib	c4883399ddd3e1d2bd291607b30fded4	portability	068c15f252b74e92d1c8a40f78735c58	toolchain-funcs	39892b66d54a54fdd2b28731b975d8bf	user	c92b0fe8fc686f88dfd912d880501e9c
+_md5_=f6015bd374fd5637744f716cb63111d3

@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=app-text/asciidoc app-text/xmlto test? ( dev-util/valgrind )
+DESCRIPTION=Utility to manage ccache and distcc
+EAPI=4
+HOMEPAGE=http://ccontrol.ozlabs.org/
+IUSE=gtk test
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=gtk? ( dev-python/pygtk )
+RESTRICT=test
+SLOT=0
+SRC_URI=http://ccontrol.ozlabs.org//releases/ccontrol-1.0.tar.bz2
+_eclasses_=eutils	33ef77a15337022e05342d2c772a7a5a	multilib	c4883399ddd3e1d2bd291607b30fded4	portability	068c15f252b74e92d1c8a40f78735c58	toolchain-funcs	39892b66d54a54fdd2b28731b975d8bf	user	c92b0fe8fc686f88dfd912d880501e9c
+_md5_=2932bb0d9df24b47074ad974bc138a94

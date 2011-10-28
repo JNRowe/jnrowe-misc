@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare unpack
+DEPEND=dev-python/setuptools >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* )
+DESCRIPTION=Python HTTP for Humans
+EAPI=3
+HOMEPAGE=http://pypi.python.org/pypi/requests/
+IUSE=minimal
+KEYWORDS=~amd64 ~x86
+LICENSE=ISC
+RDEPEND=|| ( >=dev-lang/python-2.6 dev-python/simplejson ) dev-python/poster !minimal? ( dev-python/gevent ) >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* )
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://pypi/r/requests/requests-0.7.3.tar.gz
+_eclasses_=base	dba02c674ce4dff67657c692954d7ef0	distutils	b4c334e216d998c4ce4b750cb091e42e	eutils	33ef77a15337022e05342d2c772a7a5a	jnrowe-pypi	4211dd4b4d8a9d76f3899257c8b7bbad	multilib	c4883399ddd3e1d2bd291607b30fded4	portability	068c15f252b74e92d1c8a40f78735c58	python	6bbd984910e27780e5d0ea543d83ef84	toolchain-funcs	39892b66d54a54fdd2b28731b975d8bf	user	c92b0fe8fc686f88dfd912d880501e9c
+_md5_=7323829992a5fa15db16eb0d8c743fb6
