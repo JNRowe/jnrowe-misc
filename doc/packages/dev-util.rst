@@ -31,7 +31,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.5-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/ditz/ditz-0.5-r1.ebuild>`__  ``~amd64`` (due 2012-05-01), ``~x86`` (due 2011-11-03)
+  * `0.5-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/ditz/ditz-0.5-r1.ebuild>`__  ``~amd64`` (due 2012-05-01), ``~x86`` (due 2012-05-01)
 
 * ``metrics`` - http://pypi.python.org/pypi/metrics/
 
