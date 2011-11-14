@@ -1,0 +1,70 @@
+# ChangeLog for eclass
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  25 Oct 2011; James Rowe <jnrowe@gmail.com> jnrowe-github.eclass,
+  jnrowe-pypi.eclass:  Fixed eclass documentation VARIABLE usage.
+
+  25 Aug 2011; James Rowe <jnrowe@gmail.com> jnrowe-github.eclass: Slight reword
+  of jnrowe-github's GITHUB_USER description.
+
+  23 Aug 2011; James Rowe <jnrowe@gmail.com> jnrowe-github.eclass: Add @AUTHOR
+  tags to eclasses.
+
+  31 May 2011; James Rowe <jnrowe@gmail.com> jnrowe-github.eclass: Fixed blurb
+  for jnrowe-pypi eclass.
+
+  31 May 2011; James Rowe <jnrowe@gmail.com> jnrowe-github.eclass: Added simple
+  GitHub eclass.
+
+  04 Apr 2011; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass: Finally removed
+  obsolete jnrowe-pypi's module_script_wrapper function.
+
+  04 Mar 2011; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass: Mangle S when
+  PN is set in jnrowe-pypi eclass.
+
+  04 Mar 2011; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass: Suppoer PV
+  mangling in jnrowe-pypi eclass.
+
+  03 Mar 2011; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass: Simplified
+  jnrowe-pypi's SRC_URI setting.
+
+  03 Mar 2011; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass: Added
+  deprecation notice to jnrowe-pypis module_script_wrapper.
+
+  03 Jan 2011; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass: Updated
+  copyright years.
+
+  09 Dec 2010; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass: Updated missed
+  copyright header, with a whole 23 days until the next year.
+
+  04 Dec 2010; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass: Die in
+  jnrowe-pypi with unknown EAPI.
+
+  27 Aug 2010; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass: Added missing
+  eclass header for man page generation.
+
+  10 Aug 2010; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass: Switched
+  jnrowe-pypi eclass to use mirror://pypi/.
+
+  05 Mar 2010; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass: [337: Fixed]
+  python.eclass changes emit warnings with jnrowe-pypi:module_script_wrapper().
+
+  04 Mar 2010; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass: [137: Fixed]
+  dev-python/pycukes fails with recent distutills.eclass changes.
+
+  15 Jan 2010; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass: [c53: Fixed]
+  jnrowe-pypi eclass should support different archive types.
+
+  10 Jan 2010; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass: [479: Fixed]
+  Support MY_PN in jnrowe-pypi.eclass.
+
+  18 Oct 2009; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass: [68d: Fixed]
+  Added module_script_wrapper function to pypi eclass.  The main purpose of this
+  function is to create wrapper scripts for modules, in the same
+  vein as setuptools entry points but allowing us to remove setuptools from
+  RDEPEND.
+
+  14 Oct 2009; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass: [680: Fixed]
+  Added initial jnrowe-pypi eclass.  Switched potential users over to the new
+  eclass.
