@@ -1,0 +1,465 @@
+# ChangeLog for profiles
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  26 Oct 2011; James Rowe <jnrowe@gmail.com> categories, updates/4Q-2011,
+  use.local.desc:  Moved notmuch to match upstream's new package.  Unfortunately
+  this can't be a drop-in replacement as the upstream ebuild is missing
+  features.
+
+  25 Oct 2011; James Rowe <jnrowe@gmail.com> categories, use.local.desc:
+  Initial gbrainy ebuild.  Closes #488.
+
+  17 Sep 2011; James Rowe <jnrowe@gmail.com> categories: Resynced categories
+  list.
+
+  13 Sep 2011; James Rowe <jnrowe@gmail.com> package.mask, use.local.desc:
+  wmfs moved to ::live.  Maintenance is passing to mleighy's group.
+
+  13 Sep 2011; James Rowe <jnrowe@gmail.com> package.mask: wicked moved to
+  ::live.  Maintenance is passing to mleighy's group.
+
+  13 Sep 2011; James Rowe <jnrowe@gmail.com> package.mask: obvious moved to
+  ::live.  Maintenance is passing to mleighy's group.
+
+  13 Sep 2011; James Rowe <jnrowe@gmail.com> package.mask: rstblog moved to
+  ::live.  Maintenance is passing to mleighy's group.
+
+  13 Sep 2011; James Rowe <jnrowe@gmail.com> categories, package.mask: twirssi
+  moved to ::live.  Maintenance is passing to mleighy's group.
+
+  13 Sep 2011; James Rowe <jnrowe@gmail.com> package.mask: mpdcron live ebuild
+  moved to ::live.  Maintenance is passing to mleighy's group.
+
+  13 Sep 2011; James Rowe <jnrowe@gmail.com> package.mask: notmuch live ebuild
+  moved to ::live.  Maintenance is passing to mleighy's group.
+
+  13 Sep 2011; James Rowe <jnrowe@gmail.com> package.mask: notmuch-gtk moved to
+  ::live.  Maintenance is passing to mleighy's group.
+
+  13 Sep 2011; James Rowe <jnrowe@gmail.com> package.mask: hub moved to ::live.
+  Maintenance is passing to mleighy's group.
+
+  13 Sep 2011; James Rowe <jnrowe@gmail.com> package.mask: git-sync moved to
+  ::live.  Maintenance is passing to mleighy's group.
+
+  13 Sep 2011; James Rowe <jnrowe@gmail.com> package.mask: ditz live ebuild
+  moved to ::live.  Maintenance is passing to mleighy's group.
+
+  13 Sep 2011; James Rowe <jnrowe@gmail.com> package.mask: sphinx-to-github
+  moved to ::live.  Maintenance is passing to mleighy's group.
+
+  13 Sep 2011; James Rowe <jnrowe@gmail.com> package.mask: gist moved to ::live.
+  Maintenance is passing to mleighy's group.
+
+  13 Sep 2011; James Rowe <jnrowe@gmail.com> package.mask: surfraw moved to
+  ::shadow.  This was causing problems with kinesis resolver.
+
+  13 Sep 2011; James Rowe <jnrowe@gmail.com> categories: rails moved to
+  ::shadow.  This was causing problems with kinesis resolver.
+
+  13 Sep 2011; James Rowe <jnrowe@gmail.com> package.mask: stow moved to
+  ::shadow.  This was causing problems with kinesis resolver.
+
+  06 Sep 2011; James Rowe <jnrowe@gmail.com> use.local.desc: Removed unused
+  USE=proxy description from github2.
+
+  18 Aug 2011; James Rowe <jnrowe@gmail.com> use.local.desc: Disable gobject
+  introspection in osm-gps-map.  Closes #454.
+
+  18 Aug 2011; James Rowe <jnrowe@gmail.com> categories, use.local.desc: Moved
+  spatialite{,-tools} to ::internal.
+
+  06 Aug 2011; James Rowe <jnrowe@gmail.com> categories: Synced meta files for
+  x11-themes removal.
+
+  02 Jul 2011; James Rowe <jnrowe@gmail.com> use.local.desc: Resynced
+  use.local.desc.
+
+  02 Jul 2011; James Rowe <jnrowe@gmail.com> package.mask, use.local.desc:
+  x11-themes/notify-osd-icons removed.
+
+  22 Jun 2011; James Rowe <jnrowe@gmail.com> categories, package.mask,
+  use.local.desc: Initial wmfs ebuild.  Closes #398.
+
+  16 Jun 2011; James Rowe <jnrowe@gmail.com> package.mask, use.local.desc:
+  Removed x11-plugins/vicious.  Users should've be attempting to migrate to
+  upstream ebuilds.
+
+  02 Jun 2011; James Rowe <jnrowe@gmail.com> package.mask: Masked
+  x11-themes/notify-osd-icons for removal.  Of little use without notify-osd.
+
+  02 Jun 2011; James Rowe <jnrowe@gmail.com> package.mask: Removed notify-osd,
+  it really is unsupportable.  Luckily this was never unmasked, so doesn't need
+  a grace period.
+
+  23 May 2011; James Rowe <jnrowe@gmail.com> use.local.desc: Added proxy support
+  to github2.
+
+  17 May 2011; James Rowe <jnrowe@gmail.com> package.mask: Masked vicious for
+  removal.  The maintenance burden of shadowing an upstream ebuild is too high,
+  for too little gain.  Sorry, if you have trouble migrating.
+
+  10 May 2011; James Rowe <jnrowe@gmail.com> package.mask: Removed gistapi.
+  Masked for removal because the dependencies in new releases are unsupportable.
+
+  10 Apr 2011; James Rowe <jnrowe@gmail.com> package.mask: Masked
+  dev-python/gistapi for removal on 2011-05-10.
+
+  28 Feb 2011; James Rowe <jnrowe@gmail.com> package.mask: restview removed.
+  Broken and needs heavy patching, upstream is on launchpad so fixing it is out
+  of the question.
+
+  26 Feb 2011; James Rowe <jnrowe@gmail.com> package.mask: psplash removed.
+  Better alternatives exist, including busyboxs fbsplash and plymouth. Closes
+  #141.
+
+  24 Feb 2011; James Rowe <jnrowe@gmail.com> package.mask: Initial rstblog
+  ebuild.  Closes #290.
+
+  16 Feb 2011; James Rowe <jnrowe@gmail.com> package.mask: Revert "Masked
+  media-gfx/pgmagick for removal on 2011-03-15."  This reverts commit
+  87ec92935d1a812b9a3ca7c508dde664c2ef2c53.  Nathan wants gruffy saved, so this
+  must stay for the time being.
+
+  13 Feb 2011; James Rowe <jnrowe@gmail.com> package.mask:  Masked
+  media-gfx/pgmagick for removal on 2011-03-15.  The process this package was
+  used for has been rewritten.  The package imposes a significant maintenance
+  burden for no real use, and is set for removal.  If you do use it speak up
+  soon!
+
+  29 Jan 2011; James Rowe <jnrowe@gmail.com> package.mask: Masked restview for
+  removal.
+
+  27 Jan 2011; James Rowe <jnrowe@gmail.com> package.mask: Masked psplash for
+  removal.  Better alternatives available including busybox's fbsplash,
+  plymouth, ksplash, etc.
+
+  15 Jan 2011; James Rowe <jnrowe@gmail.com> categories: Initial reminiscence
+  ebuild.  Closes #263, after a couple of labourous hours testing ;)
+
+  08 Jan 2011; James Rowe <jnrowe@gmail.com> categories, updates/1Q-2011: Moved
+  libeatmydata to app-misc.  It doesn't belong in sys-libs, and despite the name
+  includes command line functionality.
+
+  06 Dec 2010; James Rowe <jnrowe@gmail.com> use.local.desc: Regenerated
+  use.local.desc.
+
+  05 Dec 2010; James Rowe <jnrowe@gmail.com> package.mask: Removed python-gnupg.
+  Alternatives exist, maintenance burden too high.
+
+  04 Dec 2010; James Rowe <jnrowe@gmail.com> use.local.desc: Regenerated
+  use.local.desc.  Broken mtime check in builder caused this not to be added
+  when vicious was updated.
+
+  04 Dec 2010; James Rowe <jnrowe@gmail.com> package.mask: Removed termstyle.
+  Cost of supporting too high, plenty of alternatives.
+
+  23 Nov 2010; James Rowe <jnrowe@gmail.com> categories: Initial libeatmydata
+  ebuild.  Closes #235.
+
+  13 Nov 2010; James Rowe <jnrowe@gmail.com> categories: Resynced categories
+  list.
+
+  06 Nov 2010; James Rowe <jnrowe@gmail.com> updated/4Q-2010: luaposix moved to
+  dev-lua.
+
+  06 Nov 2010; James Rowe <jnrowe@gmail.com> categories, updated/4Q-2010:
+  luainotify moved to dev-lua.
+
+  05 Nov 2010; James Rowe <jnrowe@gmail.com> package.mask: python-gnupg masked
+  for removal.
+
+  04 Nov 2010; James Rowe <jnrowe@gmail.com> package.mask: termstyle masked for
+  removal.  Cost of supporting too high, plenty of alternatives.
+
+  26 Oct 2010; James Rowe <jnrowe@gmail.com> use.local.desc: Make ontv's xmltv
+  dependency optional.
+
+  22 Oct 2010; James Rowe <jnrowe@gmail.com> categories: Initial ontv ebuild.
+  Closes #205.
+
+  21 Oct 2010; James Rowe <jnrowe@gmail.com> package.mask: Removed rednose.
+  Doesn't work correctly with doctests.
+
+  21 Oct 2010; James Rowe <jnrowe@gmail.com> package.mask:  Removed rudolf.
+  Unacceptable runtime increase, breaks reporting for other plugins.
+
+  12 Oct 2010; James Rowe <jnrowe@gmail.com> categories:  Initial pycha ebuild.
+  Closes #202.
+
+  09 Oct 2010; James Rowe <jnrowe@gmail.com> package.mask: Initial git-sync
+  ebuild.  Closes #201.
+
+  09 Oct 2010; James Rowe <jnrowe@gmail.com> categories: Moved dev-ruby/trollop
+  to ::gluef.  Closes #91.
+
+  09 Oct 2010; James Rowe <jnrowe@gmail.com> use.local.desc: Moved
+  dev-util/geany-plugins to ::gluef.  Closes #166.
+
+  08 Oct 2010; James Rowe <jnrowe@gmail.com> categories: Moved x11-wm/parti to
+  ::fixes. Closes #6.
+
+  08 Oct 2010; James Rowe <jnrowe@gmail.com> package.mask: Removed
+  notify-osd-icons from package.mask.  These icons are quite nice, and are
+  usable without notify-osd.
+
+  08 Oct 2010; James Rowe <jnrowe@gmail.com> categories, package.mask,
+  use.local.desc: Initial notify-osd-icons ebuild.
+
+  08 Oct 2010; James Rowe <jnrowe@gmail.com> package.mask: Initial notify-osd
+  ebuild.  Closes #193.
+
+  05 Oct 2010; James Rowe <jnrowe@gmail.com> updates/3Q-2010: Moved taskwarrior
+  to app-misc/task.
+
+  28 Sep 2010; James Rowe <jnrowe@gmail.com> package.mask: Unmasked cram, added
+  stabilisation reminders.
+
+  25 Sep 2010; James Rowe <jnrowe@gmail.com> package.mask: Initial cram ebuild.
+  Closes #187.
+
+  24 Sep 2010; James Rowe <jnrowe@gmail.com> package.mask: Removed missingh.
+  Only used by hpodder, which has been removed.
+
+  24 Sep 2010; James Rowe <jnrowe@gmail.com> categories, package.mask: Removed
+  configfile.  Only used by hpodder, which has been removed.
+
+  24 Sep 2010; James Rowe <jnrowe@gmail.com> package.mask: Removed hpodder.
+  Haskell support is too brittle to keep this.
+
+  23 Sep 2010; James Rowe <jnrowe@gmail.com> use.local.desc: Initial
+  spatialite-tools ebuild.
+
+  23 Sep 2010; James Rowe <jnrowe@gmail.com> categories, use.local.desc: Initial
+  spatialite ebuild.
+
+  21 Sep 2010; James Rowe <jnrowe@gmail.com> package.mask: Removed cleancss, as
+  it doesn't support enough CSS syntax to be usable.
+
+  21 Sep 2010; James Rowe <jnrowe@gmail.com> package.mask: Removed clevercss2,
+  as it is too broken to use.
+
+  21 Sep 2010; James Rowe <jnrowe@gmail.com> package.mask: Initial cleancss
+  ebuild.
+
+  21 Sep 2010; James Rowe <jnrowe@gmail.com> package.mask: Initial clevercss2
+  ebuild. Closes #181.
+
+  21 Sep 2010; James Rowe <jnrowe@gmail.com> package.mask: Initial codetalker
+  ebuild.
+
+  25 Aug 2010; James Rowe <jnrowe@gmail.com> package.mask: Masked hpodder and
+  dependencies for removal.  Haskell support is too brittle to keep this.  Step
+  up if you want it to stay!
+
+  25 Aug 2010; James Rowe <jnrowe@gmail.com> use.local.desc: Renamed id3 USE
+  flag to id3tag in castget.  It is the more common name throughout the tree for
+  this functionality.
+
+  25 Aug 2010; James Rowe <jnrowe@gmail.com> use.local.desc: [8f7: Fixed] Add
+  ebuild for castget.
+
+  22 Aug 2010; James Rowe <jnrowe@gmail.com> package.mask: dev-python/rudolf
+  masked for removal.  Unacceptable runtime increase, breaks reporting for other
+  plugins.  See bug 7fc.
+
+  22 Aug 2010; James Rowe <jnrowe@gmail.com> package.mask: dev-python/rednose
+  masked for removal.  Doesn't work correctly with doctests, see bug 7fc.
+
+  08 Aug 2010; James Rowe <jnrowe@gmail.com> package.mask: opera-remote removed.
+  Doesn't work with recent Opera versions.
+
+  03 Aug 2010; James Rowe <jnrowe@gmail.com> use.local.desc: Regenerated
+  use.local.desc, for old portage tools.
+
+  07 Jul 2010; James Rowe <jnrowe@gmail.com> package.mask: [afa: Wontfix]
+  www-client/opera-remote cupage check blocked by robots.txt.
+
+  15 Jun 2010; James Rowe <jnrowe@gmail.com> use.local.desc: Resynced
+  use.local.desc.
+
+  11 Jun 2010; James Rowe <jnrowe@gmail.com> categories: Initial gpsfeed ebuild.
+
+  11 Jun 2010; James Rowe <jnrowe@gmail.com> categories: Initial tcludp ebuild,
+  for gpsfeed.
+
+  17 May 2010; James Rowe <jnrowe@gmail.com> package.mask: Dropping live git
+  ebuild for freshen.
+
+  15 May 2010; James Rowe <jnrowe@gmail.com> package.mask: Initial
+  sphinx-to-github ebuild.
+
+  04 May 2010; James Rowe <jnrowe@gmail.com> categories: Initial bleeter ebuild.
+
+  04 Apr 2010; James Rowe <jnrowe@gmail.com> use.local.desc: Add support for
+  disabling winwrangler's gtkhotkey daemon.
+
+  04 Apr 2010; James Rowe <jnrowe@gmail.com> package.mask: dev-util/be finally
+  removed.  Incompatible with new "releases", new code is too slow and far too
+  buggy for everyday use.  Alternatives to Bugs Everywhere such as ditz exist.
+
+  30 Mar 2010; James Rowe <jnrowe@gmail.com> use.local.desc: Made the
+  use.local.desc header a little more meaningful.
+
+  30 Mar 2010; James Rowe <jnrowe@gmail.com> package.mask: Added tool to
+  generate package removal reminders.  The display of removal reminders is
+  called with the default make target.  The package.mask file is updated to use
+  gen_removal.py compliant syntax.
+
+  16 Mar 2010; James Rowe <jnrowe@gmail.com> categories: Initial twirssi ebuild.
+
+  12 Mar 2010; James Rowe <jnrowe@gmail.com> package.mask: Removed obsolete
+  wordish beta version.
+
+  09 Mar 2010; James Rowe <jnrowe@gmail.com> package.mask, updates/1Q-2010:
+  Moved dev-util/hub to dev-vcs.
+
+  09 Mar 2010; James Rowe <jnrowe@gmail.com> updates/1Q-2010: Moved
+  dev-util/gitserve to dev-vcs.
+
+  09 Mar 2010; James Rowe <jnrowe@gmail.com> categories, updates/1Q-2010: Moved
+  dev-util/blame to dev-vcs.
+
+  04 Mar 2010; James Rowe <jnrowe@gmail.com> package.mask: Removed subtle, as it
+  is unsupportable in its current state.
+
+  03 Mar 2010; James Rowe <jnrowe@gmail.com> package.mask: Pitz is unworkable in
+  its current state, and is dropped.  clepy is gone too, as it is only a dep for
+  pitz.
+
+  03 Mar 2010; James Rowe <jnrowe@gmail.com> categories: Added initial zlibc
+  ebuild.
+
+  27 Feb 2010; James Rowe <jnrowe@gmail.com> package.mask: wingide finally
+  removed.  The upstream packaging is a shocking mess.  Both versions supported
+  by the ebuilds contain bundled releases of Python and GTK+ with easily
+  exploitable security vulnerabilities, and only the GTK+ problems are easily
+  worked around.  After some months, nobody has stepped up to maintain the
+  ebuilds beyond one-off bugfixes.
+
+  16 Feb 2010; James Rowe <jnrowe@gmail.com> package.mask: wordish-1.0.0_beta4
+  version bump.
+
+  13 Feb 2010; James Rowe <jnrowe@gmail.com> package.mask: Added initial pitz
+  ebuild.
+
+  08 Feb 2010; James Rowe <jnrowe@gmail.com> use.local.desc: Added <pkg> tags to
+  metadata.xml descriptions.
+
+  02 Feb 2010; James Rowe <jnrowe@gmail.com> package.mask: Bugs Everywhere
+  masked.  The snapshot is incompatible with the newest upstream sources, and
+  the new code is neither released or an improvement.
+
+  30 Jan 2010; James Rowe <jnrowe@gmail.com> package.mask: Masked subtle for
+  removal.
+
+  20 Jan 2010; James Rowe <jnrowe@gmail.com> categories: unionfs-fuse ebuilds
+  have moved to ::fixes. There is now a version in the tree, and the ebuilds
+  will still exist in ::fixes until a version has equal keywords.  See AST
+  #249971 for some unfortunate details of the upgrade path.
+
+  14 Jan 2010; James Rowe <jnrowe@gmail.com> categories: Initial pyhumod ebuild.
+
+  13 Jan 2010; James Rowe <jnrowe@gmail.com> categories: Regenerated categories
+  file.
+
+  12 Jan 2010; James Rowe <jnrowe@gmail.com> categories: Initial gselt ebuild.
+
+  12 Jan 2010; James Rowe <jnrowe@gmail.com> package.mask: Initial gist ebuild.
+
+  09 Jan 2010; James Rowe <jnrowe@gmail.com> use.local.desc: Added libnotify and
+  scrobbler mpdcron modules support.
+
+  09 Jan 2010; James Rowe <jnrowe@gmail.com> package.mask: Added live mpdcron
+  ebuild.
+
+  09 Jan 2010; James Rowe <jnrowe@gmail.com> categories: Removed redundant
+  categories entry.
+
+  09 Jan 2010; James Rowe <jnrowe@gmail.com> categories: Initial ghosd ebuild.
+
+  01 Jan 2010; James Rowe <jnrowe@gmail.com> package.mask: [71a: Fixed] Add
+  initial hub ebuild.
+
+  09 Dec 2009; James Rowe <jnrowe@gmail.com> package.mask: [99c: Fixed] Add
+  mail-client/notmuch-gtk live ebuild.
+
+  01 Dec 2009; James Rowe <jnrowe@gmail.com> categories: Fixed missing
+  categories file(9e91402 breakage).  Bad script-fu caused broken categories
+  file to be checked in.
+
+  01 Dec 2009; James Rowe <jnrowe@gmail.com> package.mask: [e3f: Closed]
+  dev-util/wingide-3.2.2 version bump.
+
+  01 Dec 2009; James Rowe <jnrowe@gmail.com> categories: Resynced categories.
+
+  28 Nov 2009; James Rowe <jnrowe@gmail.com> use.local.desc: [f74: Fixed]
+  Optionally install vim plugin for notmuch.
+
+  18 Nov 2009; James Rowe <jnrowe@gmail.com> package.mask: Added initial live
+  notmuch ebuild.
+
+  17 Nov 2009; James Rowe <jnrowe@gmail.com> categories: Resynced categories
+  listing.
+
+  13 Nov 2009; James Rowe <jnrowe@gmail.com> package.mask: [5b5: Fixed] Added
+  initial live stow ebuild.
+
+  17 Oct 2009; James Rowe <jnrowe@gmail.com> categories: Resynced categories
+  list.
+
+  14 Oct 2009; James Rowe <jnrowe@gmail.com> package.mask: [b72: Fixed] Add
+  a live surfraw ebuild.
+
+  13 Oct 2009; James Rowe <jnrowe@gmail.com> package.mask: Fixed incorrect
+  package.mask entry.
+
+  08 Oct 2009; James Rowe <jnrowe@gmail.com> package.mask: [275: Fixed] Added
+  a live ditz ebuild.
+
+  06 Oct 2009; James Rowe <jnrowe@gmail.com> package.mask: [67f: New] Add
+  dev-python/freshen.
+
+  30 Sep 2009; James Rowe <jnrowe@gmail.com> use.local.desc: Strip surrounding
+  space from use descriptions.
+
+  29 Sep 2009; James Rowe <jnrowe@gmail.com> use.local.desc: [759: Fixed]
+  dev-python/restview, initial ebuild.
+
+  29 Sep 2009; James Rowe <jnrowe@gmail.com> package.mask: Added
+  x11-plugins/vicious live git ebuild.
+
+  22 Sep 2009; James Rowe <jnrowe@gmail.com> use.local.desc: [583: Fixed] Added
+  script to generate profiles/use.local.desc files.
+
+  17 Sep 2009; James Rowe <jnrowe@gmail.com> package.mask: Fix package.mask
+  error messages when using portage.
+
+  17 Sep 2009; James Rowe <jnrowe@gmail.com> package.mask: Mask live ebuilds.
+
+  22 Aug 2009; James Rowe <jnrowe@gmail.com> package.mask: Removed pydelicious
+  release candidate from package.mask.
+
+  19 Aug 2009; James Rowe <jnrowe@gmail.com> updates/3Q-2009:
+  games-puzzle/puzzles moved to games-puzzle/sgt-puzzles  The current ebuild
+  will stay here until an upstream version is stabilised, so we don't break
+  upgrades for users.
+
+  01 Aug 2009; James Rowe <jnrowe@gmail.com> categories: Removed unused
+  categories entries.
+
+  28 Jul 2009; James Rowe <jnrowe@gmail.com> updates/3Q-2009: [c0a: New] Moved
+  rss2email to net-mail.
+
+  14 Jul 2009; James Rowe <jnrowe@gmail.com> categories: Updated categories
+  list.
+
+  19 Jun 2009; James Rowe <jnrowe@gmail.com> package.mask: pydelicious bump for
+  0.5.2 release candidate.
+
+  24 May 2009; James Rowe <jnrowe@gmail.com> categories: Added
+  profiles/categories.
+
+  21 Apr 2009; James Rowe <jnrowe@gmail.com> repo_name:
+  Added repository identifier.
