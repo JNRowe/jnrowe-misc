@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  14 Nov 2011; James Rowe <jnrowe@gmail.com> metadata.xml:
+  Removed redundant herd info.
+
 *gpxdata-1.2.0 (19 Oct 2011)
 
   19 Oct 2011; James Rowe <jnrowe@gmail.com> +gpxdata-1.2.0.ebuild:

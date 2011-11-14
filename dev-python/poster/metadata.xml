@@ -9,7 +9,6 @@
 		poster provides support for both streaming POST requests as well
 		as multipart/form-data encoding of string or file parameters
 	</longdescription>
-	<herd>no-herd</herd>
 	<maintainer>
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>

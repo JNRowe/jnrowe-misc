@@ -12,7 +12,6 @@
 		automatically fetches the download links for the latest release of the
 		given package and displays them as a list.
 	</longdescription>
-	<herd>no-herd</herd>
 	<maintainer>
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>

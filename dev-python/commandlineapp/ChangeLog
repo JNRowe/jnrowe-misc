@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  14 Nov 2011; James Rowe <jnrowe@gmail.com> metadata.xml:
+  Removed redundant herd info.
+
   01 Apr 2011; James Rowe <jnrowe@gmail.com> -commandlineapp-3.0.6.ebuild,
   commandlineapp-3.0.7.ebuild:
   Keyworded x86.

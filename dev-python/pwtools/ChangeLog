@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  14 Nov 2011; James Rowe <jnrowe@gmail.com> metadata.xml:
+  Removed redundant herd info.
+
   22 Oct 2011; James Rowe <jnrowe@gmail.com> pwtools-0.2.ebuild:
   Use a mirror of the tarball as it is no longer available.
 
