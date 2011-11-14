@@ -5,6 +5,10 @@
   14 Nov 2011; James Rowe <jnrowe@gmail.com> metadata.xml:
   Removed redundant herd info.
 
+  14 Nov 2011; James Rowe <jnrowe@gmail.com> -twython-1.4.3.ebuild:
+  Removed stale ebuild, 1.4.4 is eligible for stabilisation before 1.4.3 will
+  be eligible again.
+
 *twython-1.4.4 (22 Oct 2011)
 
   22 Oct 2011; James Rowe <jnrowe@gmail.com> +twython-1.4.4.ebuild:
