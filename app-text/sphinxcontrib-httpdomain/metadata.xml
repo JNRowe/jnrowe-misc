@@ -6,7 +6,6 @@
 		<pkg>dev-python/sphinx</pkg> domain for describing RESTful HTTP
 		APIs.
 	</longdescription>
-	<herd>no-herd</herd>
 	<maintainer>
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>

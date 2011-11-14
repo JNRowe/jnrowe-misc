@@ -5,7 +5,6 @@
 		A <pkg>dev-python/sphinx</pkg> extension, which turns ANSI
 		colour sequences in Sphinx documents into coloured HTML output.
 	</longdescription>
-	<herd>no-herd</herd>
 	<maintainer>
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
