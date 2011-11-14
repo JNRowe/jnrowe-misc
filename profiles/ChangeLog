@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  14 Nov 2011; James Rowe <jnrowe@gmail.com> package.mask:
+  Masked notmuch for removal on 2011-12-14.
+
   26 Oct 2011; James Rowe <jnrowe@gmail.com> categories, updates/4Q-2011,
   use.local.desc:  Moved notmuch to match upstream's new package.  Unfortunately
   this can't be a drop-in replacement as the upstream ebuild is missing
