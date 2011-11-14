@@ -9,7 +9,6 @@
 		available metrics and supported languages. Some prominent samples are
 		(CCCC, SLOCCount, PyMetrics, Eclipse-Metrics, Ohcount).
 	</longdescription>
-	<herd>no-herd</herd>
 	<maintainer>
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
