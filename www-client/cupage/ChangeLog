@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  14 Nov 2011; James Rowe <jnrowe@gmail.com> metadata.xml:
+  Removed redundant herd info.
+
   19 Aug 2011; James Rowe <jnrowe@gmail.com> -cupage-0.5.6-r1.ebuild,
   -files/cupage-0.5.6-httplib2_0_7_support.patch, cupage-0.6.0.ebuild:
   Keyworded x86.

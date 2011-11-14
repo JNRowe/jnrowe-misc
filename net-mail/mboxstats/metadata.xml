@@ -6,7 +6,6 @@
 		message in mbox-format, including: writers, receivers, subjects,
 		TLDs, organisations.
 	</longdescription>
-	<herd>no-herd</herd>
 	<maintainer>
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>

@@ -11,7 +11,6 @@
 		a local revision cache, it provides fast access to repository
 		data.
 	</longdescription>
-	<herd>no-herd</herd>
 	<maintainer>
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>

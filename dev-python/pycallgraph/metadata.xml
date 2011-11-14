@@ -6,7 +6,6 @@
 		graphs from one execution of your Python code. It's very easy to use and
 		can point out possible problems with your code execution.
 	</longdescription>
-	<herd>no-herd</herd>
 	<maintainer>
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>

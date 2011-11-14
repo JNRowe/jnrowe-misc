@@ -6,7 +6,6 @@
 		references like #10 and turns these into references into an
 		issue tracker.
 	</longdescription>
-	<herd>no-herd</herd>
 	<maintainer>
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>

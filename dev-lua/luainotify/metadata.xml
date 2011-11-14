@@ -4,7 +4,6 @@
 	<longdescription lang="en">
 		a Lua interface to the Linux v2.6.13+ inotify subsystem
 	</longdescription>
-	<herd>no-herd</herd>
 	<maintainer>
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>

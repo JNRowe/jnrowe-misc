@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  14 Nov 2011; James Rowe <jnrowe@gmail.com> metadata.xml:
+  Removed redundant herd info.
+
 *gevent-0.13.6 (25 Oct 2011)
 
   25 Oct 2011; James Rowe <jnrowe@gmail.com> +gevent-0.13.6.ebuild,

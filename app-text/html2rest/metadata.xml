@@ -5,7 +5,6 @@
 		Convert HTML to restructuredText. Very limited, but intended as
 		a "50%" tool, to be followed by manual editing.
 	</longdescription>
-	<herd>no-herd</herd>
 	<maintainer>
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>

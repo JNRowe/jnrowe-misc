@@ -5,7 +5,6 @@
 		This is a <pkg>dev-python/sphinx</pkg> extension which render
 		charts and graphs using the Google Chart API.
 	</longdescription>
-	<herd>no-herd</herd>
 	<maintainer>
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
