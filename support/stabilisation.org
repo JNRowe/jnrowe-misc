@@ -3,7 +3,6 @@
 * dev-python/rstctl-0.4                     amd64 SCHEDULED: <2011-11-06 Sun>
 * dev-perl/Net-Twitter-Lite-0.10004         amd64 SCHEDULED: <2011-11-14 Mon>
 * dev-python/twython-1.4.2                  amd64 SCHEDULED: <2011-11-14 Mon>
-* dev-python/twython-1.4.2                    x86 SCHEDULED: <2011-11-14 Mon>
 * dev-vcs/gitflow-0.4.1-r2                  amd64 SCHEDULED: <2011-11-18 Fri>
 * dev-vcs/gitflow-0.4.1-r2                    x86 SCHEDULED: <2011-11-18 Fri>
 * dev-python/argh-0.14.2                    amd64 SCHEDULED: <2011-11-18 Fri>
@@ -60,7 +59,6 @@
 * media-gfx/seqdiag-0.3.8                   amd64 SCHEDULED: <2012-01-15 Sun>
 * dev-python/twython-1.4.3                  amd64 SCHEDULED: <2012-01-15 Sun>
 * media-gfx/seqdiag-0.3.8                     x86 SCHEDULED: <2012-01-16 Mon>
-* dev-python/twython-1.4.3                    x86 SCHEDULED: <2012-01-16 Mon>
 * dev-python/github2-0.5.1                  amd64 SCHEDULED: <2012-01-16 Mon>
 * dev-python/github2-0.5.1                    x86 SCHEDULED: <2012-01-16 Mon>
 * media-gfx/sphinxcontrib-mscgen-0.4        amd64 SCHEDULED: <2012-01-24 Tue>
