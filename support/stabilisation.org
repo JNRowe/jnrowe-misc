@@ -1,4 +1,3 @@
-* dev-python/texttable-0.8.0                  x86 SCHEDULED: <2011-11-18 Fri>
 * dev-python/lettuce-0.1.33                   x86 SCHEDULED: <2011-11-18 Fri>
 * media-gfx/actdiag-0.1.8                     x86 SCHEDULED: <2011-11-18 Fri>
 * dev-python/attest-0.5.2                   amd64 SCHEDULED: <2011-12-21 Wed>
