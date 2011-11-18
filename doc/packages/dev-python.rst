@@ -7,8 +7,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.14.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/argh/argh-0.14.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.14.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/argh/argh-0.14.2.ebuild>`__  ``amd64``, ``~x86`` (due 2011-11-18)
+  * `0.14.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/argh/argh-0.14.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``astral`` - http://pypi.python.org/pypi/astral/
 
@@ -185,8 +184,7 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/gpxdata/gpxdata-1.1.0.ebuild>`__  ``amd64``, ``x86``
-  * `1.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/gpxdata/gpxdata-1.2.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-11-18)
+  * `1.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/gpxdata/gpxdata-1.2.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``grapefruit`` - http://code.google.com/p/grapefruit/
 
@@ -242,8 +240,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1.32 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.32.ebuild>`__  ``amd64``, ``x86``
-  * `0.1.33 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.33.ebuild>`__  ``amd64``, ``~x86`` (due 2011-11-18)
+  * `0.1.33 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.33.ebuild>`__  ``amd64``, ``x86``
 
 * ``logbook`` - http://pypi.python.org/pypi/Logbook/
 
@@ -566,8 +563,7 @@
  * Licence: ``LGPL-2.1``
  * Versions:
 
-  * `0.7.0-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/texttable/texttable-0.7.0-r1.ebuild>`__  ``amd64``, ``x86``
-  * `0.8.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/texttable/texttable-0.8.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-11-18)
+  * `0.8.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/texttable/texttable-0.8.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``titlecase`` - http://pypi.python.org/pypi/titlecase/
 

@@ -2,6 +2,10 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  18 Nov 2011; James Rowe <jnrowe@gmail.com> -gpxdata-1.1.0.ebuild,
+  gpxdata-1.2.0.ebuild:
+  Keyworded x86.
+
   18 Nov 2011; James Rowe <jnrowe@gmail.com> gpxdata-1.2.0.ebuild:
   Keyworded amd64.
 

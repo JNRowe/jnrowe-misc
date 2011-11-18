@@ -1,9 +1,3 @@
-* dev-vcs/gitflow-0.4.1-r2                    x86 SCHEDULED: <2011-11-18 Fri>
-* dev-python/argh-0.14.2                      x86 SCHEDULED: <2011-11-18 Fri>
-* dev-python/gpxdata-1.2.0                    x86 SCHEDULED: <2011-11-18 Fri>
-* dev-python/texttable-0.8.0                  x86 SCHEDULED: <2011-11-18 Fri>
-* dev-python/lettuce-0.1.33                   x86 SCHEDULED: <2011-11-18 Fri>
-* media-gfx/actdiag-0.1.8                     x86 SCHEDULED: <2011-11-18 Fri>
 * dev-python/attest-0.5.2                   amd64 SCHEDULED: <2011-12-21 Wed>
 * media-gfx/blockdiag-0.9.6                 amd64 SCHEDULED: <2011-11-21 Mon>
 * media-gfx/blockdiag-0.9.6                   x86 SCHEDULED: <2011-11-21 Mon>
@@ -40,6 +34,7 @@
 * dev-python/vanity-1.1.0                   amd64 SCHEDULED: <2011-11-25 Fri>
 * dev-python/vanity-1.1.0                     x86 SCHEDULED: <2011-11-25 Fri>
 * dev-vcs/gitflow-0.4.1-r2                  amd64 SCHEDULED: <2011-12-18 Sun>
+* dev-vcs/gitflow-0.4.1-r2                    x86 SCHEDULED: <2011-12-18 Sun>
 * app-misc/hammertime-0.1.3                 amd64 SCHEDULED: <2012-01-10 Tue>
 * app-misc/hammertime-0.1.3                   x86 SCHEDULED: <2012-01-11 Wed>
 * media-gfx/seqdiag-0.3.8                   amd64 SCHEDULED: <2012-01-15 Sun>
