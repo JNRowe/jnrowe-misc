@@ -3,10 +3,10 @@ DEPEND=>=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/
 DESCRIPTION=module to generate a formatted text table, using ASCII characters.
 EAPI=3
 HOMEPAGE=http://foutaise.org/code/
-KEYWORDS=~amd64 ~x86
+KEYWORDS=amd64 ~x86
 LICENSE=LGPL-2.1
 RDEPEND=>=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* )
 SLOT=0
 SRC_URI=http://foutaise.org/code/texttable/texttable-0.8.0.tar.gz
 _eclasses_=distutils	b4c334e216d998c4ce4b750cb091e42e	multilib	c4883399ddd3e1d2bd291607b30fded4	python	6bbd984910e27780e5d0ea543d83ef84	toolchain-funcs	39892b66d54a54fdd2b28731b975d8bf
-_md5_=e5aba8ac40a4495da967e3950dd10b6e
+_md5_=f6e00fa660841f3c22cc86c281e680b7
