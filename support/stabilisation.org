@@ -1,5 +1,4 @@
 * dev-vcs/gitflow-0.4.1-r2                    x86 SCHEDULED: <2011-11-18 Fri>
-* dev-python/argh-0.14.2                    amd64 SCHEDULED: <2011-11-18 Fri>
 * dev-python/argh-0.14.2                      x86 SCHEDULED: <2011-11-18 Fri>
 * dev-python/gpxdata-1.2.0                  amd64 SCHEDULED: <2011-11-18 Fri>
 * dev-python/gpxdata-1.2.0                    x86 SCHEDULED: <2011-11-18 Fri>
