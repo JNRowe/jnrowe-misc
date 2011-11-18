@@ -1,4 +1,3 @@
-* media-gfx/actdiag-0.1.8                     x86 SCHEDULED: <2011-11-18 Fri>
 * dev-python/attest-0.5.2                   amd64 SCHEDULED: <2011-12-21 Wed>
 * media-gfx/blockdiag-0.9.6                 amd64 SCHEDULED: <2011-11-21 Mon>
 * media-gfx/blockdiag-0.9.6                   x86 SCHEDULED: <2011-11-21 Mon>
