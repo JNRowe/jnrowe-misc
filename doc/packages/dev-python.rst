@@ -184,8 +184,7 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/gpxdata/gpxdata-1.1.0.ebuild>`__  ``amd64``, ``x86``
-  * `1.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/gpxdata/gpxdata-1.2.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-11-18)
+  * `1.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/gpxdata/gpxdata-1.2.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``grapefruit`` - http://code.google.com/p/grapefruit/
 
