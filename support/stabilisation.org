@@ -2,7 +2,6 @@
 * dev-python/argh-0.14.2                      x86 SCHEDULED: <2011-11-18 Fri>
 * dev-python/gpxdata-1.2.0                    x86 SCHEDULED: <2011-11-18 Fri>
 * dev-python/texttable-0.8.0                  x86 SCHEDULED: <2011-11-18 Fri>
-* dev-python/lettuce-0.1.33                 amd64 SCHEDULED: <2011-11-18 Fri>
 * dev-python/lettuce-0.1.33                   x86 SCHEDULED: <2011-11-18 Fri>
 * media-gfx/actdiag-0.1.8                   amd64 SCHEDULED: <2011-11-18 Fri>
 * media-gfx/actdiag-0.1.8                     x86 SCHEDULED: <2011-11-18 Fri>

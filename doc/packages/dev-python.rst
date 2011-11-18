@@ -243,7 +243,7 @@
  * Versions:
 
   * `0.1.32 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.32.ebuild>`__  ``amd64``, ``x86``
-  * `0.1.33 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.33.ebuild>`__  ``~amd64`` (due 2011-11-18), ``~x86`` (due 2011-11-18)
+  * `0.1.33 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.33.ebuild>`__  ``amd64``, ``~x86`` (due 2011-11-18)
 
 * ``logbook`` - http://pypi.python.org/pypi/Logbook/
 
