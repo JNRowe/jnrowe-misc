@@ -39,9 +39,9 @@ Maintenance support tasks
 ``gen_stable``
 ''''''''''''''
 
-This task creates a :file:`support/stabilisation.org` snippet.  It requires a
-full ``<category>/<package>-<version>`` string as its only argument.  See
-the :ref:`stabilisation.org` documentation.
+This task creates a :file:`support/stabilisation.rem` snippet.  It requires
+a full ``<category>/<package>-<version>`` string as its only argument.  See the
+:ref:`stabilisation.rem` documentation.
 
 ``keyword_check``
 '''''''''''''''''
@@ -89,13 +89,13 @@ help page on GitHub` for more information.
    This task fetches the repository identifier from the ``remote.origin.url``
    setting.  See :manpage:`git-config(1)`.
 
-``org-mode`` support
---------------------
+``remind`` support
+------------------
 
 ``gen_removals``
 ''''''''''''''''
 
-This task is used to generate :file:`removals.org`, see the :ref:`package.mask`
+This task is used to generate :file:`removals.rem`, see the :ref:`package.mask`
 documentation for more information.
 
 ``portage`` support
