@@ -4,7 +4,6 @@ REM 2011-11-21 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/seqdiag-0.5.0 
 REM 2011-11-21 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/virtualenvwrapper-2.10.1 %a
 REM 2011-11-21 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/actdiag-0.2.0 %a
 REM 2011-11-21 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/pycparser-2.05 %a
-REM 2011-11-21 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/sphinxcontrib-blockdiag-0.9.2 %a
 REM 2011-11-21 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/sphinxcontrib-blockdiag-0.9.2 %a
 REM 2011-11-21 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/twython-1.4.4 %a
 REM 2011-11-21 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/twython-1.4.4 %a
