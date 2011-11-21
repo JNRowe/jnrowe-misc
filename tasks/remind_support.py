@@ -1,5 +1,3 @@
-import datetime
-
 from collections import defaultdict
 
 from cake.helpers import (task, sh)
