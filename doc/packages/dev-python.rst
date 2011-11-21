@@ -629,8 +629,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `2.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.9.ebuild>`__  ``amd64``, ``x86``
-  * `2.10.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.10.1.ebuild>`__  ``amd64``, ``~x86`` (due 2011-11-21)
+  * `2.10.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.10.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``webcolors`` - http://pypi.python.org/pypi/webcolors/
 
