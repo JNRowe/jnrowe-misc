@@ -1,5 +1,4 @@
 REM 2011-11-21 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/blockdiag-0.9.6 %a
-REM 2011-11-21 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/nwdiag-0.5.1 %a
 REM 2011-11-21 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/nwdiag-0.5.1 %a
 REM 2011-11-21 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/seqdiag-0.5.0 %a
 REM 2011-11-21 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/seqdiag-0.5.0 %a
