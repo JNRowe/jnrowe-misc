@@ -8,7 +8,6 @@ PYTHON_DEPEND="2:2.5"
 # 2.4 is restricted due to missing dependency support
 # 3.x is restricted due to print syntax
 RESTRICT_PYTHON_ABIS="2.4 3.*"
-DISTUTILS_SRC_TEST="nosetests"
 
 inherit jnrowe-pypi
 
@@ -17,10 +16,9 @@ DESCRIPTION="Generate sequence-diagram image files from spec-text files"
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="examples minimal pdf test"
+IUSE="examples minimal pdf"
 
-DEPEND="dev-python/setuptools
-	test? ( dev-python/pep8 )"
+DEPEND="dev-python/setuptools"
 # Setuptools is required at runtime for wrapper scripts
 RDEPEND="dev-python/setuptools
 	dev-python/funcparserlib

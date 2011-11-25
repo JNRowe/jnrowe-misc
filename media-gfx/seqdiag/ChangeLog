@@ -2,6 +2,14 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  21 Nov 2011; James Rowe <jnrowe@gmail.com> seqdiag-0.5.1.ebuild:
+  Removed dependency on pep8, the test provides no real user value and holds up
+  stabilisation.
+
+  21 Nov 2011; James Rowe <jnrowe@gmail.com> -seqdiag-0.3.8.ebuild,
+  -seqdiag-0.5.0.ebuild:
+  Removed obsolete ebuilds.
+
   14 Nov 2011; James Rowe <jnrowe@gmail.com> metadata.xml:
   Removed redundant herd info.
 

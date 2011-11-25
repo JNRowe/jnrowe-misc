@@ -1,5 +1,3 @@
-import datetime
-
 from collections import defaultdict
 
 from cake.helpers import (task, sh)
@@ -27,3 +25,9 @@ def gen_removals():
                     file.write("REM %s *1 +1 UNTIL 2038-01-19 PRIORITY 2500 "
                                "MSG Removal due for %s %%a\n" % (date, pkg))
     puts('{green}removal.rem generated!')
+
+
+@task('Display repository reminders')
+def reminders():
+    sh('remind support/removal.rem')
+    sh('remind support/stabilisation.rem')
