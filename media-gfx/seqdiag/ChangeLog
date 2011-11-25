@@ -3,6 +3,9 @@
 # $Header: $
 
   25 Nov 2011; James Rowe <jnrowe@gmail.com> seqdiag-0.5.1.ebuild:
+  Keyworded x86.
+
+  25 Nov 2011; James Rowe <jnrowe@gmail.com> seqdiag-0.5.1.ebuild:
   Keyworded amd64.
 
   21 Nov 2011; James Rowe <jnrowe@gmail.com> seqdiag-0.5.1.ebuild:
