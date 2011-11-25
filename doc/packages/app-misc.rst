@@ -15,7 +15,6 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hammertime/hammertime-0.1.3.ebuild>`__  ``~amd64`` (due 2012-01-10), ``~x86`` (due 2012-01-11)
   * `0.1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hammertime/hammertime-0.1.4.ebuild>`__  ``~amd64`` (due 2011-12-25), ``~x86`` (due 2011-12-25)
 
 * ``hubugs`` - http://pypi.python.org/pypi/hubugs/
