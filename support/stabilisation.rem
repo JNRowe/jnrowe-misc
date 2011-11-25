@@ -9,7 +9,6 @@ REM 2011-11-21 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/twython-1.4.4
 REM 2011-11-24 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 games-puzzle/gbrainy-2.03 %a
 REM 2011-11-24 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/gevent-0.13.6 %a
 REM 2011-11-24 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/requests-0.6.6 %a
-REM 2011-11-24 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-lua/luaposix-5.1.15 %a
 REM 2011-11-24 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-lua/luaposix-5.1.15 %a
 REM 2011-11-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 games-puzzle/gbrainy-2.04 %a
 REM 2011-11-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 games-puzzle/gbrainy-2.04 %a
