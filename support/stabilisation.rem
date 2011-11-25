@@ -8,6 +8,7 @@ REM 2011-12-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 app-misc/hammertime-0.
 REM 2011-12-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 app-misc/hammertime-0.1.4 %a
 REM 2011-12-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/requests-0.7.3 %a
 REM 2011-12-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/requests-0.7.3 %a
+
 REM 2012-01-16 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/github2-0.5.1 %a
 REM 2012-01-16 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/github2-0.5.1 %a
 REM 2012-01-24 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 media-gfx/sphinxcontrib-mscgen-0.4 %a
@@ -15,6 +16,7 @@ REM 2012-01-24 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/sphinxcontrib-
 REM 2012-01-24 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/attest-0.5.2 %a
 REM 2012-01-29 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/termtool-1.0 %a
 REM 2012-01-29 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/termtool-1.0 %a
+
 REM 2012-02-02 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 www-apps/mnemosyne-0.12 %a
 REM 2012-02-02 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 www-apps/mnemosyne-0.12 %a
 REM 2012-02-02 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/pycparser-2.04 %a
@@ -29,7 +31,9 @@ REM 2012-02-19 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/pycparser-2
 REM 2012-02-19 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/pycparser-2.05 %a
 REM 2012-02-19 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/twython-1.4.4 %a
 REM 2012-02-19 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/twython-1.4.4 %a
+
 REM 2012-03-13 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-perl/Net-Twitter-Lite-0.10004 %a
 REM 2012-03-13 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-perl/Net-Twitter-Lite-0.10004 %a
+
 REM 2012-05-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-util/ditz-0.5-r1 %a
 REM 2012-05-01 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-util/ditz-0.5-r1 %a
