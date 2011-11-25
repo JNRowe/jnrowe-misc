@@ -6,7 +6,6 @@ REM 2011-11-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 games-puzzle/gbrainy-2.0
 REM 2011-11-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 app-misc/hammertime-0.1.4 %a
 REM 2011-11-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/requests-0.7.3 %a
 REM 2011-11-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 media-gfx/seqdiag-0.5.1 %a
-REM 2011-11-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-python/vanity-1.1.0 %a
 REM 2011-11-25 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-python/vanity-1.1.0 %a
 REM 2011-12-18 *1 +1 UNTIL 2038-01-19 MSG Stabilise amd64 dev-vcs/gitflow-0.4.1-r2 %a
 REM 2011-12-18 *1 +1 UNTIL 2038-01-19 MSG Stabilise x86 dev-vcs/gitflow-0.4.1-r2 %a
