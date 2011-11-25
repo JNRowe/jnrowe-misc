@@ -167,7 +167,7 @@
  * Licence: ``BSD MIT``
  * Versions:
 
-  * `0.13.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/gevent/gevent-0.13.6.ebuild>`__  ``~amd64`` (due 2011-12-24), ``~x86`` (due 2011-11-24)
+  * `0.13.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/gevent/gevent-0.13.6.ebuild>`__  ``~amd64`` (due 2011-12-24), ``~x86`` (due 2011-12-24)
 
 * ``github2`` - http://pypi.python.org/pypi/github2/
 
@@ -442,8 +442,8 @@
  * Versions:
 
   * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/requests/requests-0.6.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.6.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/requests/requests-0.6.6.ebuild>`__  ``~amd64`` (due 2011-12-24), ``~x86`` (due 2011-11-24)
-  * `0.7.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/requests/requests-0.7.3.ebuild>`__  ``~amd64`` (due 2011-12-25), ``~x86`` (due 2011-11-25)
+  * `0.6.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/requests/requests-0.6.6.ebuild>`__  ``~amd64`` (due 2011-12-24), ``~x86`` (due 2011-12-24)
+  * `0.7.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/requests/requests-0.7.3.ebuild>`__  ``~amd64`` (due 2011-12-25), ``~x86`` (due 2011-12-25)
 
 * ``rstctl`` - http://pypi.python.org/pypi/rstctl/
 
@@ -620,8 +620,7 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.0.ebuild>`__  ``amd64``, ``x86``
-  * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.1.0.ebuild>`__  ``amd64``, ``~x86`` (due 2011-11-25)
+  * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.1.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``virtualenvwrapper`` - http://pypi.python.org/pypi/virtualenvwrapper/
 
