@@ -2,6 +2,9 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  17 Dec 2011; James Rowe <jnrowe@gmail.com> package.mask:
+  Removed obsolete notmuch entry.
+
   14 Nov 2011; James Rowe <jnrowe@gmail.com> package.mask:
   Masked notmuch for removal on 2011-12-14.
 

@@ -9,16 +9,6 @@
 
   * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/html2rest/html2rest-0.2.1.ebuild>`__  ``amd64``, ``x86``
 
-* ``notmuch`` - http://notmuchmail.org/
-
- * Thread-based email index, search and tagging.
- * Licence: ``GPL-3``
- * Versions:
-
-  * `0.7-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/notmuch/notmuch-0.7-r1.ebuild>`__  ``amd64``, ``x86`` (masked by ``package.mask``)
-  * `0.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/notmuch/notmuch-0.8.ebuild>`__  ``~amd64`` (indefinite), ``~x86`` (indefinite) (masked by ``package.mask``)
-  * `0.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/notmuch/notmuch-0.9.ebuild>`__  ``~amd64`` (indefinite), ``~x86`` (indefinite) (masked by ``package.mask``)
-
 * ``rstspreadsheet`` - http://pypi.python.org/pypi/rstspreadsheet/
 
  * Spreadsheet directive for docutils and Sphinx.
