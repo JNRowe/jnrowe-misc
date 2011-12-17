@@ -564,6 +564,7 @@
  * Versions:
 
   * `0.8.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/texttable/texttable-0.8.0.ebuild>`__  ``amd64``, ``x86``
+  * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/texttable/texttable-0.8.1.ebuild>`__  ``~amd64`` (due 2012-01-16), ``~x86`` (due 2012-01-16)
 
 * ``titlecase`` - http://pypi.python.org/pypi/titlecase/
 
