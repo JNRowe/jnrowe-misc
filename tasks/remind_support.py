@@ -22,8 +22,8 @@ def gen_removals():
         for date, items in sorted(removals.items(), reverse=True):
             for pkgs in items:
                 for pkg in filter(None, pkgs):
-                    file.write("REM %s *1 +1 UNTIL 2038-01-19 PRIORITY 2500 "
-                               "MSG Removal due for %s %%a\n" % (date, pkg))
+                    file.write("REM %s *1 +1 PRIORITY 2500 "
+                               'MSG %%"Removal due for %s%%" %%a\n' % (date, pkg))
     puts('{green}removal.rem generated!')
 
 

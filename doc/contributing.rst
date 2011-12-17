@@ -68,7 +68,7 @@ reflect the earliest possible time a package can migrate to stable.
 
 The format is simple enough::
 
-    REM <|stable_date|> *1 +1 UNTIL 2038-01-19 MSG Stabilise |arch| |CPV| %a
+    REM <|stable_date|> *1 MSG %"Stabilise |arch| |CPV|%" %a
 
 .. note::
 
