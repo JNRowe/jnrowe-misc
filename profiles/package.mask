@@ -1,8 +1,9 @@
 # extra line needed because portage is buggy
 
-# James Rowe <jnrowe@gmail.com> (14 Nov 2011)
-# There is an ebuild upstream for notmuch now, and the local version will be
-# removed.  The upgrade path is incredibly ugly and some features are not
-# supported, but this is a final decision as shadowing is even nastier.
-# X-Removal: 2011-12-14
-app-text/notmuch
+# James Rowe <jnrowe@gmail.com> (17 Dec 2011)
+# New releases bundle even more libraries, which makes supporting this package
+# even more laborious and prone to error.  The latest releases are incompatible
+# with the currently packaged versions.  See mleighy if you need help porting
+# packages with dependencies on requests to alternatives.
+# X-Removal: 2012-01-16
+dev-python/requests
