@@ -620,6 +620,7 @@
  * Versions:
 
   * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.1.0.ebuild>`__  ``amd64``, ``x86``
+  * `1.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.1.2.ebuild>`__  ``~amd64`` (due 2012-01-16), ``~x86`` (due 2012-01-16)
 
 * ``virtualenvwrapper`` - http://pypi.python.org/pypi/virtualenvwrapper/
 
