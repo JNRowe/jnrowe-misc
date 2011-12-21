@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*blockdiag-1.1.1 (21 Dec 2011)
+
+  21 Dec 2011; James Rowe <jnrowe@gmail.com> +blockdiag-1.1.1.ebuild:
+  Version bump [496].
+
   21 Nov 2011; James Rowe <jnrowe@gmail.com> -blockdiag-0.8.4.ebuild,
   -blockdiag-0.8.9.ebuild, blockdiag-0.9.6.ebuild:
   Keyworded x86.

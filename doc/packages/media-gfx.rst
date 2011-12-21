@@ -24,6 +24,7 @@
  * Versions:
 
   * `0.9.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-0.9.6.ebuild>`__  ``amd64``, ``x86``
+  * `1.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.1.1.ebuild>`__  ``~amd64`` (due 2012-01-20), ``~x86`` (due 2012-01-20)
 
 * ``gruffy`` - http://pypi.python.org/pypi/gruffy/
 
