@@ -40,6 +40,7 @@
  * Versions:
 
   * `1.1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/sphinxcontrib-httpdomain/sphinxcontrib-httpdomain-1.1.5.ebuild>`__  ``amd64``, ``x86``
+  * `1.1.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/sphinxcontrib-httpdomain/sphinxcontrib-httpdomain-1.1.6.ebuild>`__  ``~amd64`` (due 2012-01-20), ``~x86`` (due 2012-01-20)
 
 * ``sphinxcontrib-issuetracker`` - http://packages.python.org/sphinxcontrib-issuetracker/
 

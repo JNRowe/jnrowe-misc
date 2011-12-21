@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile install postinst postrm prepare test
-DEPEND=dev-python/setuptools dev-python/imaging >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* )
+DEPEND=dev-python/setuptools dev-python/imaging >=app-admin/eselect-python-20091230 =dev-lang/python-2.7*
 DESCRIPTION=Generate block-diagram image files from text(like dot)
 EAPI=3
 HOMEPAGE=http://pypi.python.org/pypi/blockdiag/
 IUSE=examples pdf
-KEYWORDS=amd64 x86
+KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0
-RDEPEND=dev-python/funcparserlib dev-python/imaging dev-python/webcolors pdf? ( dev-python/reportlab ) >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* )
+RDEPEND=dev-python/funcparserlib dev-python/imaging dev-python/webcolors pdf? ( dev-python/reportlab ) >=app-admin/eselect-python-20091230 =dev-lang/python-2.7*
 SLOT=0
-SRC_URI=mirror://pypi/b/blockdiag/blockdiag-0.9.6.tar.gz
+SRC_URI=mirror://pypi/b/blockdiag/blockdiag-1.1.1.tar.gz
 _eclasses_=distutils	b4c334e216d998c4ce4b750cb091e42e	eutils	ac049c4fa17000293228df51f9460566	jnrowe-pypi	4211dd4b4d8a9d76f3899257c8b7bbad	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	portability	0d9341be2bffb3ace510580f192f231e	python	68cfdfd857b7b9e8f75a3fa84d60be94	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
-_md5_=950001b9e014c93e9f8bd7eec07ae0f5
+_md5_=90f295239427a7262ca4cd1745598acf

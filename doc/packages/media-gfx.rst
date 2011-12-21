@@ -16,6 +16,7 @@
  * Versions:
 
   * `0.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.2.0.ebuild>`__  ``amd64``, ``x86``
+  * `0.3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.3.0.ebuild>`__  ``~amd64`` (due 2012-01-20), ``~x86`` (due 2012-01-20)
 
 * ``blockdiag`` - http://pypi.python.org/pypi/blockdiag/
 
@@ -24,6 +25,7 @@
  * Versions:
 
   * `0.9.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-0.9.6.ebuild>`__  ``amd64``, ``x86``
+  * `1.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.1.1.ebuild>`__  ``~amd64`` (due 2012-01-20), ``~x86`` (due 2012-01-20)
 
 * ``gruffy`` - http://pypi.python.org/pypi/gruffy/
 
@@ -72,6 +74,7 @@
  * Versions:
 
   * `0.9.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-0.9.2.ebuild>`__  ``amd64``, ``x86``
+  * `1.0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-1.0.1.ebuild>`__  ``~amd64`` (due 2012-01-20), ``~x86`` (due 2012-01-20)
 
 * ``sphinxcontrib-gruffygen`` - http://pypi.python.org/pypi/sphinxcontrib-gruffygen/
 

@@ -24,6 +24,7 @@
  * Versions:
 
   * `0.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/atomize/atomize-0.1.0.ebuild>`__  ``amd64``, ``x86``
+  * `0.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/atomize/atomize-0.1.1.ebuild>`__  ``~amd64`` (due 2012-01-20), ``~x86`` (due 2012-01-20)
 
 * ``attest`` - http://pypi.python.org/pypi/Attest/
 
@@ -209,6 +210,7 @@
  * Versions:
 
   * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html2data/html2data-0.3.ebuild>`__  ``amd64``, ``x86``
+  * `0.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html2data/html2data-0.4.3.ebuild>`__  ``~amd64`` (due 2012-01-20), ``~x86`` (due 2012-01-20)
 
 * ``httpretty`` - http://pypi.python.org/pypi/httpretty/
 
@@ -581,6 +583,7 @@
  * Versions:
 
   * `1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tox/tox-1.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tox/tox-1.2.ebuild>`__  ``~amd64`` (due 2012-01-20), ``~x86`` (due 2012-01-20)
 
 * ``tweepy`` - http://pypi.python.org/pypi/tweepy/
 
