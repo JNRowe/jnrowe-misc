@@ -17,9 +17,8 @@
 		  reducing boilerplate and merging CI and shell-based testing.
 	</longdescription>
 	<upstream>
-		<doc lang="en">http://tox.readthedocs.org/</doc>
+		<doc lang="en">http://tox.testrun.org/latest/</doc>
 		<remote-id type="pypi">tox</remote-id>
-		<changelog>http://tox.readthedocs.org/en/latest/changelog.html</changelog>
 		<bugs-to>https://bitbucket.org/hpk42/tox/issues?status=new&amp;status=open</bugs-to>
 	</upstream>
 </pkgmetadata>
