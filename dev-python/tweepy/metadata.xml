@@ -16,9 +16,9 @@
 		  + Cache system (memory, file)
 	</longdescription>
 	<upstream>
-		<changelog>https://github.com/joshthecoder/tweepy/raw/master/CHANGELOG</changelog>
-		<doc lang="en">http://joshthecoder.github.com/tweepy/docs/index.html</doc>
+		<changelog>https://github.com/tweepy/tweepy/raw/master/CHANGELOG</changelog>
+		<doc lang="en">http://tweepy.github.com/</doc>
 		<remote-id type="pypi">tweepy</remote-id>
-		<bugs-to>https://github.com/joshthecoder/tweepy/issues</bugs-to>
+		<bugs-to>https://github.com/tweepy/tweepy/issues</bugs-to>
 	</upstream>
 </pkgmetadata>

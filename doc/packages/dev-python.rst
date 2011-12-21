@@ -593,6 +593,7 @@
  * Versions:
 
   * `1.7.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.7.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.8.ebuild>`__  ``~amd64`` (due 2012-01-20), ``~x86`` (due 2012-01-20)
 
 * ``twython`` - http://pypi.python.org/pypi/twython/
 
