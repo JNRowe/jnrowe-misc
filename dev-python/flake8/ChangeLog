@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/flake8
+# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*flake8-1.0 (21 Dec 2011)
+
+  21 Dec 2011; James Rowe <jnrowe@gmail.com> +flake8-1.0.ebuild, +metadata.xml,
+  +watch:
+  Initial ebuild, by me [512].
+
