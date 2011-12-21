@@ -210,6 +210,7 @@
  * Versions:
 
   * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html2data/html2data-0.3.ebuild>`__  ``amd64``, ``x86``
+  * `0.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html2data/html2data-0.4.3.ebuild>`__  ``~amd64`` (due 2012-01-20), ``~x86`` (due 2012-01-20)
 
 * ``httpretty`` - http://pypi.python.org/pypi/httpretty/
 
