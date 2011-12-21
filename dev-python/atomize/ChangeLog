@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*atomize-0.1.1 (21 Dec 2011)
+
+  21 Dec 2011; James Rowe <jnrowe@gmail.com> +atomize-0.1.1.ebuild:
+  Version bump [495].
+
   14 Nov 2011; James Rowe <jnrowe@gmail.com> metadata.xml:
   Removed redundant herd info.
 

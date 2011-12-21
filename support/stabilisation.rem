@@ -23,6 +23,8 @@ REM 2012-01-20 *1 MSG %"Stabilise amd64 media-gfx/blockdiag-1.1.1%" %a
 REM 2012-01-20 *1 MSG %"Stabilise x86 media-gfx/blockdiag-1.1.1%" %a
 REM 2012-01-20 *1 MSG %"Stabilise amd64 media-gfx/actdiag-0.3.0%" %a
 REM 2012-01-20 *1 MSG %"Stabilise x86 media-gfx/actdiag-0.3.0%" %a
+REM 2012-01-20 *1 MSG %"Stabilise amd64 dev-python/atomize-0.1.1%" %a
+REM 2012-01-20 *1 MSG %"Stabilise x86 dev-python/atomize-0.1.1%" %a
 REM 2012-01-24 *1 MSG %"Stabilise amd64 media-gfx/sphinxcontrib-mscgen-0.4%" %a
 REM 2012-01-24 *1 MSG %"Stabilise x86 media-gfx/sphinxcontrib-mscgen-0.4%" %a
 REM 2012-01-24 *1 MSG %"Stabilise x86 dev-python/attest-0.5.2%" %a
