@@ -2,6 +2,11 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*twython-1.4.5 (21 Dec 2011)
+
+  21 Dec 2011; James Rowe <jnrowe@gmail.com> +twython-1.4.5.ebuild:
+  Version bump [510].
+
   14 Nov 2011; James Rowe <jnrowe@gmail.com> metadata.xml:
   Removed redundant herd info.
 

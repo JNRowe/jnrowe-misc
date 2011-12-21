@@ -1,12 +1,12 @@
-DEFINED_PHASES=compile install postinst postrm prepare unpack
-DEPEND=>=app-admin/eselect-python-20091230 =dev-lang/python-2*
+DEFINED_PHASES=compile install postinst postrm prepare
+DEPEND=dev-python/setuptools >=app-admin/eselect-python-20091230 =dev-lang/python-2*
 DESCRIPTION=An easy (and up to date) way to access Twitter data with Python.
-EAPI=2
+EAPI=3
 HOMEPAGE=http://pypi.python.org/pypi/twython/
-KEYWORDS=amd64 x86
+KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-RDEPEND=|| ( >=dev-lang/python-2.6 dev-python/simplejson ) >=app-admin/eselect-python-20091230 =dev-lang/python-2*
+RDEPEND=|| ( >=dev-lang/python-2.6 dev-python/simplejson ) dev-python/httplib2 dev-python/oauth2 >=app-admin/eselect-python-20091230 =dev-lang/python-2*
 SLOT=0
-SRC_URI=mirror://pypi/t/twython/twython-1.2.tar.gz https://github.com/ryanmcgrath/twython/raw/221b3377987951dee4c8af7668096bc94f03e7ab/README.markdown -> twython-1.2-README.markdown
+SRC_URI=mirror://pypi/t/twython/twython-1.4.5.tar.gz
 _eclasses_=distutils	b4c334e216d998c4ce4b750cb091e42e	eutils	ac049c4fa17000293228df51f9460566	jnrowe-pypi	4211dd4b4d8a9d76f3899257c8b7bbad	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	portability	0d9341be2bffb3ace510580f192f231e	python	68cfdfd857b7b9e8f75a3fa84d60be94	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
-_md5_=b639875521f07242ead68494f2f54996
+_md5_=5ed37ab69229b186188dd9e2cc35fdff
