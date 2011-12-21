@@ -185,7 +185,7 @@
  * Versions:
 
   * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.5.1.ebuild>`__  ``~amd64`` (due 2012-01-16), ``~x86`` (due 2012-01-16)
-  * `0.5.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.5.2.ebuild>`__  ``~amd64`` (due 2012-02-06), ``~x86`` (due 2012-02-04)
+  * `0.6.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.6.0.ebuild>`__  ``~amd64`` (due 2012-01-20), ``~x86`` (due 2012-01-20)
 
 * ``gpxdata`` - http://www.kette-links.de/technik/
 
@@ -542,6 +542,7 @@
  * Versions:
 
   * `1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.2.ebuild>`__  ``~amd64`` (due 2012-01-20), ``~x86`` (due 2012-01-20)
 
 * ``sure`` - http://pypi.python.org/pypi/sure/
 
@@ -592,6 +593,7 @@
 
   * `1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tox/tox-1.1.ebuild>`__  ``amd64``, ``x86``
   * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tox/tox-1.2.ebuild>`__  ``~amd64`` (due 2012-01-20), ``~x86`` (due 2012-01-20)
+  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tox/tox-1.3.ebuild>`__  ``~amd64`` (due 2012-01-20), ``~x86`` (due 2012-01-20)
 
 * ``tweepy`` - http://pypi.python.org/pypi/tweepy/
 
@@ -600,6 +602,7 @@
  * Versions:
 
   * `1.7.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.7.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.8.ebuild>`__  ``~amd64`` (due 2012-01-20), ``~x86`` (due 2012-01-20)
 
 * ``twython`` - http://pypi.python.org/pypi/twython/
 
@@ -608,7 +611,7 @@
  * Versions:
 
   * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.2.ebuild>`__  ``amd64``, ``x86``
-  * `1.4.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.4.4.ebuild>`__  ``~amd64`` (due 2012-02-19), ``~x86`` (due 2012-02-19)
+  * `1.4.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.4.5.ebuild>`__  ``~amd64`` (due 2012-01-20), ``~x86`` (due 2012-01-20)
 
 * ``upoints`` - http://www.jnrowe.ukfsn.org/projects/upoints.html
 

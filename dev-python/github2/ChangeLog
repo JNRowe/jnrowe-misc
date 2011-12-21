@@ -2,6 +2,16 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  21 Dec 2011; James Rowe <jnrowe@gmail.com> -github2-0.5.2.ebuild:
+  Removed stale ebuild, 0.6.0 is eligible for stabilisation before 0.5.2 will
+  be eligible again.
+
+*github2-0.6.0 (21 Dec 2011)
+
+  21 Dec 2011; James Rowe <jnrowe@gmail.com> +github2-0.6.0.ebuild,
+  +files/github2-0.6.0-Python_2_4_fix.patch:
+  Version bump [514].
+
   14 Nov 2011; James Rowe <jnrowe@gmail.com> metadata.xml:
   Removed redundant herd info.
 

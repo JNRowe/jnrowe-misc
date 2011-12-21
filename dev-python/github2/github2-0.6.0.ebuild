@@ -7,6 +7,7 @@ SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="2"
 # No python-dateutil support for 3.x in official tree
 RESTRICT_PYTHON_ABIS="3.*"
+DISTUTILS_SRC_TEST="nosetests"
 
 inherit base jnrowe-pypi
 
@@ -32,7 +33,7 @@ RDEPEND="|| ( >=dev-lang/python-2.6 dev-python/simplejson )
 
 DOCS="NEWS.rst"
 
-PATCHES=("${FILESDIR}"/${PN}-0.4.0-test_build_path.patch)
+PATCHES=("${FILESDIR}"/${P}-Python_2_4_fix.patch)
 
 src_prepare() {
 	base_src_prepare
@@ -45,13 +46,6 @@ src_compile() {
 	if use doc; then
 		$(PYTHON -2) setup.py build_sphinx
 	fi
-}
-
-src_test() {
-	testing() {
-		nosetests-${PYTHON_ABI} tests/ || die "nosetests failed"
-	}
-	python_execute_function testing
 }
 
 src_install() {

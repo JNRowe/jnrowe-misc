@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install postinst postrm prepare test
+DEPEND=dev-python/setuptools test? ( >=dev-python/pytest-2.0.0 ) >=app-admin/eselect-python-20091230 dev-lang/python test? ( dev-python/pytest )
+DESCRIPTION=virtualenv-based automation of test activities
+EAPI=3
+HOMEPAGE=http://pypi.python.org/pypi/tox/
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=|| ( dev-python/argparse >=dev-lang/python-2.7 ) >=dev-python/py-1.4.3 dev-python/setuptools >=dev-python/virtualenv-1.6.4 >=app-admin/eselect-python-20091230 dev-lang/python
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://pypi/t/tox/tox-1.3.zip
+_eclasses_=distutils	b4c334e216d998c4ce4b750cb091e42e	eutils	ac049c4fa17000293228df51f9460566	jnrowe-pypi	4211dd4b4d8a9d76f3899257c8b7bbad	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	portability	0d9341be2bffb3ace510580f192f231e	python	68cfdfd857b7b9e8f75a3fa84d60be94	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=c338e2f2b4a062f52c3592bb964bf9f1
