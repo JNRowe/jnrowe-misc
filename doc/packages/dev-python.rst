@@ -138,6 +138,14 @@
 
   * `1.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/feedgenerator/feedgenerator-1.2.1.ebuild>`__  ``amd64``, ``x86``
 
+* ``flake8`` - http://pypi.python.org/pypi/flake8/
+
+ * Python code checking using pep8 and pyflakes
+ * Licence: ``MIT``
+ * Versions:
+
+  * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.0.ebuild>`__  ``~amd64`` (due 2012-01-20), ``~x86`` (due 2012-01-20)
+
 * ``freshen`` - https://github.com/rlisagor/freshen
 
  * Clone of the Cucumber BDD framework for Python

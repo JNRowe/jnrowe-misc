@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription lang="en">
+		Flake8 is a wrapper around <pkg>dev-python/pyflakes</pkg>,
+		<pkg>dev-python/pep8</pkg> and Ned's MacCabe script.
+	</longdescription>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">flake8</remote-id>
+		<bugs-to>https://bitbucket.org/tarek/flake8/issues?status=new&amp;status=open</bugs-to>
+	</upstream>
+</pkgmetadata>
