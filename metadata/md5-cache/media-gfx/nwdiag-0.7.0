@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile install postinst postrm prepare
-DEPEND=dev-python/setuptools >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* )
+DEPEND=dev-python/setuptools >=app-admin/eselect-python-20091230 =dev-lang/python-2.7*
 DESCRIPTION=Generate network-diagram images from spec-text file
 EAPI=3
 HOMEPAGE=http://pypi.python.org/pypi/nwdiag/
 IUSE=examples minimal
-KEYWORDS=amd64 x86
+KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0
-RDEPEND=dev-python/setuptools dev-python/funcparserlib dev-python/imaging >=media-gfx/blockdiag-0.9.5 !minimal? ( dev-python/sphinx ) >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* )
+RDEPEND=dev-python/setuptools >=media-gfx/blockdiag-1.1.0 !minimal? ( dev-python/sphinx ) >=app-admin/eselect-python-20091230 =dev-lang/python-2.7*
 SLOT=0
-SRC_URI=mirror://pypi/n/nwdiag/nwdiag-0.5.1.tar.gz
+SRC_URI=mirror://pypi/n/nwdiag/nwdiag-0.7.0.tar.gz
 _eclasses_=distutils	b4c334e216d998c4ce4b750cb091e42e	eutils	ac049c4fa17000293228df51f9460566	jnrowe-pypi	4211dd4b4d8a9d76f3899257c8b7bbad	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	portability	0d9341be2bffb3ace510580f192f231e	python	68cfdfd857b7b9e8f75a3fa84d60be94	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
-_md5_=2faec864fed5318b82091e2d516f15bc
+_md5_=094fc226409dcc4a46615f5f836deb66
