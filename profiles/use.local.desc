@@ -2,7 +2,6 @@
 # your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using egencache *
 
-app-text/notmuch:vim - Install the vim interface for notmuch
 dev-vcs/pepper:git - Enable support for processing git repositories
 dev-vcs/pepper:mercurial - Enable support for processing mercurial repositories
 games-puzzle/gbrainy:plugins - Support for adding extra games via mono-addins

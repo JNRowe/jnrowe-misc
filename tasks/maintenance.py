@@ -29,12 +29,11 @@ def keyword_check():
     puts('{green}All packages checked for keywords')
 
 
-@task('Generate a base stabilsation string for a package')
+@task('Generate a base stabilisation string for a package')
 def gen_stable(cpv):
     date = datetime.date.today() + datetime.timedelta(days=30)
     for arch in ('amd64', 'x86'):
-        print "* %-41s %5s SCHEDULED: <%s>" \
-              % (cpv, arch, date.strftime("%Y-%m-%d %a"))
+        print 'REM %s *1 MSG %%"Stabilise %s %s%%" %%a' % (date, arch, cpv)
 
 
 @task('Open a new bump bug')
