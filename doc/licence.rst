@@ -5,7 +5,7 @@ The contents of this repository are licensed under the `GPL v2`_.
 
 ::
 
-    Copyright (C) 2007-2011  James Rowe <jnrowe@gmail.com>
+    Copyright (C) 2007-2012  James Rowe <jnrowe@gmail.com>
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
