@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -8,7 +8,7 @@ inherit multilib
 
 DESCRIPTION="POSIX function support library for lua"
 HOMEPAGE="http://wiki.alpinelinux.org/wiki/Luaposix"
-SRC_URI="https://github.com/downloads/rrthomas/${PN}/${P}.tar.gz"
+SRC_URI="mirror://github/rrthomas/${PN}/${P}.tar.gz"
 
 LICENSE="public-domain"
 SLOT="0"

@@ -8,6 +8,6 @@ LICENSE=public-domain
 RDEPEND=>=dev-lang/lua-5.1
 RESTRICT=test
 SLOT=0
-SRC_URI=https://github.com/downloads/rrthomas/luaposix/luaposix-5.1.15.tar.gz
-_eclasses_=multilib	c4883399ddd3e1d2bd291607b30fded4	toolchain-funcs	39892b66d54a54fdd2b28731b975d8bf
-_md5_=ad2ff7c3040202b768f27844a235a5f6
+SRC_URI=mirror://github/rrthomas/luaposix/luaposix-5.1.15.tar.gz
+_eclasses_=multilib	5f4ad6cf85e365e8f0c6050ddd21659e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68
+_md5_=8e6be71de1f31d15ceaeee6a330f52c6
