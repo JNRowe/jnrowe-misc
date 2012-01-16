@@ -445,15 +445,6 @@
 
   * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rad/rad-0.1.2.ebuild>`__  ``amd64``, ``x86``
 
-* ``requests`` - http://pypi.python.org/pypi/requests/
-
- * Python HTTP for Humans
- * Licence: ``ISC``
- * Versions:
-
-  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/requests/requests-0.6.1.ebuild>`__  ``amd64``, ``x86`` (masked by ``package.mask``)
-  * `0.7.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/requests/requests-0.7.3.ebuild>`__  ``~amd64`` (due 2012-02-23), ``~x86`` (due 2012-02-23) (masked by ``package.mask``)
-
 * ``rstctl`` - http://pypi.python.org/pypi/rstctl/
 
  * A script to help you with authoring reStructuredText
