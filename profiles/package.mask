@@ -1,9 +1,1 @@
 # extra line needed because portage is buggy
-
-# James Rowe <jnrowe@gmail.com> (17 Dec 2011)
-# New releases bundle even more libraries, which makes supporting this package
-# even more laborious and prone to error.  The latest releases are incompatible
-# with the currently packaged versions.  See mleighy if you need help porting
-# packages with dependencies on requests to alternatives.
-# X-Removal: 2012-01-16
-dev-python/requests
