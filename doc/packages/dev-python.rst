@@ -332,14 +332,6 @@
 
   * `0.9.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/plac/plac-0.9.0.ebuild>`__  ``amd64``, ``x86``
 
-* ``poster`` - http://pypi.python.org/pypi/poster/
-
- * Streaming HTTP uploads and multipart/form-data encoding
- * Licence: ``MIT``
- * Versions:
-
-  * `0.8.1-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/poster/poster-0.8.1-r1.ebuild>`__  ``amd64``, ``x86``
-
 * ``prettytable`` - http://code.google.com/p/prettytable/
 
  * Display tabular data in a visually appealing ASCII table
