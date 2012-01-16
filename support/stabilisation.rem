@@ -1,10 +1,5 @@
-REM 2012-01-16 *1 MSG %"Stabilise amd64 dev-python/github2-0.5.1%" %a
-REM 2012-01-16 *1 MSG %"Stabilise x86 dev-python/github2-0.5.1%" %a
-REM 2012-01-16 *1 MSG %"Stabilise amd64 dev-python/vanity-1.1.2%" %a
 REM 2012-01-16 *1 MSG %"Stabilise x86 dev-python/vanity-1.1.2%" %a
-REM 2012-01-16 *1 MSG %"Stabilise amd64 dev-python/snot-0.6%" %a
 REM 2012-01-16 *1 MSG %"Stabilise x86 dev-python/snot-0.6%" %a
-REM 2012-01-16 *1 MSG %"Stabilise amd64 dev-python/texttable-0.8.1%" %a
 REM 2012-01-16 *1 MSG %"Stabilise x86 dev-python/texttable-0.8.1%" %a
 REM 2012-01-20 *1 MSG %"Stabilise amd64 dev-python/tox-1.2%" %a
 REM 2012-01-20 *1 MSG %"Stabilise x86 dev-python/tox-1.2%" %a

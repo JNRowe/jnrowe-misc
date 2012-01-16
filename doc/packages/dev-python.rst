@@ -184,7 +184,6 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.5.1.ebuild>`__  ``~amd64`` (due 2012-01-16), ``~x86`` (due 2012-01-16)
   * `0.6.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.6.0.ebuild>`__  ``~amd64`` (due 2012-01-20), ``~x86`` (due 2012-01-20)
 
 * ``gpxdata`` - http://www.kette-links.de/technik/
@@ -501,7 +500,7 @@
  * Versions:
 
   * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/snot/snot-0.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/snot/snot-0.6.ebuild>`__  ``~amd64`` (due 2012-01-16), ``~x86`` (due 2012-01-16)
+  * `0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/snot/snot-0.6.ebuild>`__  ``amd64``, ``~x86`` (due 2012-01-16)
 
 * ``socksipy`` - http://pypi.python.org/pypi/SocksiPy-branch/
 
@@ -575,7 +574,7 @@
  * Versions:
 
   * `0.8.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/texttable/texttable-0.8.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/texttable/texttable-0.8.1.ebuild>`__  ``~amd64`` (due 2012-01-16), ``~x86`` (due 2012-01-16)
+  * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/texttable/texttable-0.8.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-01-16)
 
 * ``titlecase`` - http://pypi.python.org/pypi/titlecase/
 
@@ -636,7 +635,7 @@
  * Versions:
 
   * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.1.0.ebuild>`__  ``amd64``, ``x86``
-  * `1.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.1.2.ebuild>`__  ``~amd64`` (due 2012-01-16), ``~x86`` (due 2012-01-16)
+  * `1.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.1.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-01-16)
 
 * ``virtualenvwrapper`` - http://pypi.python.org/pypi/virtualenvwrapper/
 

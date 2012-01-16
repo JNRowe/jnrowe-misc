@@ -1,6 +1,9 @@
 # ChangeLog for dev-python/vanity
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  16 Jan 2012; James Rowe <jnrowe@gmail.com> vanity-1.1.2.ebuild:
+  Keyworded amd64.
 
 *vanity-1.1.2 (17 Dec 2011)
 
