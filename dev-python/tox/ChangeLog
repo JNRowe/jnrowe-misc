@@ -1,6 +1,9 @@
 # ChangeLog for dev-python/tox
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  16 Jan 2012; James Rowe <jnrowe@gmail.com> Manifest:
+  Fixing broken manifest.
 
   21 Dec 2011; James Rowe <jnrowe@gmail.com> +tox-1.3.ebuild, metadata.xml:
   Version bump [515].
