@@ -466,8 +466,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/snot/snot-0.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/snot/snot-0.6.ebuild>`__  ``amd64``, ``~x86`` (due 2012-01-16)
+  * `0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/snot/snot-0.6.ebuild>`__  ``amd64``, ``x86``
 
 * ``socksipy`` - http://pypi.python.org/pypi/SocksiPy-branch/
 
@@ -540,8 +539,7 @@
  * Licence: ``LGPL-2.1``
  * Versions:
 
-  * `0.8.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/texttable/texttable-0.8.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/texttable/texttable-0.8.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-01-16)
+  * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/texttable/texttable-0.8.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``titlecase`` - http://pypi.python.org/pypi/titlecase/
 
@@ -601,8 +599,7 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.1.0.ebuild>`__  ``amd64``, ``x86``
-  * `1.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.1.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-01-16)
+  * `1.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.1.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``virtualenvwrapper`` - http://pypi.python.org/pypi/virtualenvwrapper/
 
