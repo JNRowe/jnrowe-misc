@@ -170,14 +170,6 @@
 
   * `0.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/genzshcomp/genzshcomp-0.2.2.ebuild>`__  ``amd64``, ``x86``
 
-* ``gevent`` - http://gevent.org/
-
- * Network library using greenlet and libevent for scalable concurrency
- * Licence: ``BSD MIT``
- * Versions:
-
-  * `0.13.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/gevent/gevent-0.13.6.ebuild>`__  ``~amd64`` (due 2012-02-22), ``~x86`` (due 2012-02-22)
-
 * ``github2`` - http://pypi.python.org/pypi/github2/
 
  * Github API v2 library for Python
