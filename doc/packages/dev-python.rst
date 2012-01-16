@@ -244,14 +244,6 @@
 
   * `0.1.33 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.33.ebuild>`__  ``amd64``, ``x86``
 
-* ``logbook`` - http://pypi.python.org/pypi/Logbook/
-
- * A logging module replacement for Python
- * Licence: ``BSD``
- * Versions:
-
-  * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/logbook/logbook-0.3.ebuild>`__  ``amd64``, ``x86``
-
 * ``mod2doctest`` - http://pypi.python.org/pypi/mod2doctest/
 
  * Convert any Python module to a doctest ready doc string
