@@ -1,6 +1,11 @@
 # ChangeLog for dev-python/isodate
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*isodate-0.4.6 (18 Jan 2012)
+
+  18 Jan 2012; James Rowe <jnrowe@gmail.com> +isodate-0.4.6.ebuild:
+  Version bump [521].
 
   14 Nov 2011; James Rowe <jnrowe@gmail.com> metadata.xml:
   Removed redundant herd info.

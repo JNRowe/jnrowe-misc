@@ -234,6 +234,7 @@
  * Versions:
 
   * `0.4.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/isodate/isodate-0.4.4.ebuild>`__  ``amd64``, ``x86``
+  * `0.4.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/isodate/isodate-0.4.6.ebuild>`__  ``~amd64`` (due 2012-02-17), ``~x86`` (due 2012-02-17)
 
 * ``lettuce`` - http://lettuce.it/
 
