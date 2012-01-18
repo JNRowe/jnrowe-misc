@@ -1,6 +1,11 @@
 # ChangeLog for dev-python/xerox
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*xerox-0.3.1 (18 Jan 2012)
+
+  18 Jan 2012; James Rowe <jnrowe@gmail.com> +xerox-0.3.1.ebuild:
+  Version bump [527].
 
   14 Nov 2011; James Rowe <jnrowe@gmail.com> metadata.xml:
   Removed redundant herd info.
