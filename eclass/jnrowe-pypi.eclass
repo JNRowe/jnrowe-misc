@@ -21,6 +21,16 @@ esac
 # @DESCRIPTION:
 # This eclass is a simple wrapper around the distutils eclass, to remove some of
 # the boilerplate necessary for ebuilds for packages on PyPI.
+# @EXAMPLE:
+#
+# @CODE
+# EAPI=3
+#
+# PYPI_ARCHIVE_SUFFIX="zip"
+# MY_PN="CapitalisedName"
+#
+# inherit jnrowe-pypi
+# @CODE
 
 HOMEPAGE="http://pypi.python.org/pypi/${MY_PN:-${PN}}/"
 
