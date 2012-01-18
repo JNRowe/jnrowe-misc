@@ -2,8 +2,7 @@ import os
 from glob import glob
 from subprocess import (check_call, check_output)
 
-from cake.helpers import task
-from cake.helpers import puts
+from cake.lib import (puts, task)
 
 from utils import (dep, newer)
 

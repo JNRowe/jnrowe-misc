@@ -1,7 +1,7 @@
 from collections import defaultdict
+from subprocess import call
 
-from cake.helpers import (task, sh)
-from cake.lib import puts
+from cake.lib import (puts, task)
 
 from utils import dep
 
@@ -29,5 +29,5 @@ def gen_removals():
 
 @task('Display repository reminders')
 def reminders():
-    sh('remind support/removal.rem')
-    sh('remind support/stabilisation.rem')
+    call('remind support/removal.rem', shell=True)
+    call('remind support/stabilisation.rem', shell=True)

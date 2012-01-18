@@ -5,8 +5,7 @@ from re import search
 from subprocess import check_output
 from sys import exit
 
-from cake.helpers import task
-from cake.lib import puts
+from cake.lib import (puts, task)
 
 try:
     from github2.client import Github

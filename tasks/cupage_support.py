@@ -3,8 +3,7 @@ import os
 from glob import glob
 from sys import exit
 
-from cake.helpers import task
-from cake.lib import puts
+from cake.lib import (puts, task)
 
 from utils import dep
 

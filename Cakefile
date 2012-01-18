@@ -5,9 +5,9 @@ import sys
 
 from glob import glob
 
-sys.path.append('tasks')
+from cake.lib import task
 
-load('tasks/*.py')
+from tasks import *
 
 
 @task('Update generated files')

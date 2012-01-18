@@ -6,8 +6,7 @@ from re import sub
 from subprocess import check_call
 from sys import exit
 
-from cake.helpers import task
-from cake.lib import puts
+from cake.lib import (puts, task)
 from docutils.core import publish_file
 from docutils.utils import SystemMessage
 

@@ -3,8 +3,7 @@ from sys import exit
 
 from xml.etree import ElementTree as ET
 
-from cake.helpers import task
-from cake.lib import puts
+from cake.lib import (puts, task)
 
 
 @task('Check basic layman config validity')
