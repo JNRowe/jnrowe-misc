@@ -2,6 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+if [[ -z ${__ECLASS_IMPORTED_JNROWE_GITHUB} ]]; then
+	__ECLASS_IMPORTED_JNROWE_GITHUB=1
+
 inherit eutils
 
 case "${EAPI:-0}" in
@@ -41,3 +44,5 @@ jnrowe-github_src_unpack() {
 	mv ${GITHUB_USER}-${MY_PN:-${PN}}-*/ "${S}" \
 		|| die "Moving unpacked tarball failed"
 }
+
+fi
