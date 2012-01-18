@@ -21,6 +21,16 @@ esac
 # @DESCRIPTION:
 # This eclass is designed to to remove some of the duplication necessary
 # in supporting packages hosed on Github.
+# @EXAMPLE:
+#
+# @CODE
+# EAPI=4
+#
+# GITHUB_USER=JNRowe
+# GITHUB_TAG=v0.4.1
+#
+# inherit jnrowe-github
+# @CODE
 
 # @VARIABLE: GITHUB_USER
 # @DEFAULT-UNSET
