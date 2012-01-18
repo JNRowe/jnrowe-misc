@@ -2,6 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+if [[ -z ${__ECLASS_IMPORTED_JNROWE_PYPI} ]]; then
+	__ECLASS_IMPORTED_JNROWE_PYPI=1
+
 inherit distutils eutils
 
 case "${EAPI:-0}" in
@@ -34,3 +37,5 @@ SRC_URI="mirror://pypi/${_PYPI_PN::1}/${_PYPI_PN}/${_PYPI_P}.${PYPI_ARCHIVE_SUFF
 
 # Override S for PN mangling.
 S="${WORKDIR}"/${_PYPI_P}
+
+fi
