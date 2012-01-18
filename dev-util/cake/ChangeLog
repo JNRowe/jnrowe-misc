@@ -1,6 +1,11 @@
 # ChangeLog for dev-util/cake
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*cake-0.2.2 (18 Jan 2012)
+
+  18 Jan 2012; James Rowe <jnrowe@gmail.com> +cake-0.2.2.ebuild:
+  Version bump [518].
 
   14 Nov 2011; James Rowe <jnrowe@gmail.com> metadata.xml:
   Removed redundant herd info.
