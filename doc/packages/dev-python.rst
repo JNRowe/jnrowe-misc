@@ -557,8 +557,7 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tox/tox-1.1.ebuild>`__  ``amd64``, ``x86``
-  * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tox/tox-1.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-01-20)
+  * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tox/tox-1.2.ebuild>`__  ``amd64``, ``x86``
   * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tox/tox-1.3.ebuild>`__  ``amd64``, ``~x86`` (due 2012-01-20)
 
 * ``tweepy`` - http://pypi.python.org/pypi/tweepy/
