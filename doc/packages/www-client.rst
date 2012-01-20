@@ -16,5 +16,5 @@
  * Versions:
 
   * `0.3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/github-cli/github-cli-0.3.0.ebuild>`__  ``amd64``, ``x86``
-  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/github-cli/github-cli-1.0.0.ebuild>`__  ``~amd64`` (due 2012-01-20), ``~x86`` (due 2012-01-20)
+  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/github-cli/github-cli-1.0.0.ebuild>`__  ``~amd64`` (indefinite), ``~x86`` (due 2012-01-20)
 
