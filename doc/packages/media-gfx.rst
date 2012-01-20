@@ -15,8 +15,7 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.2.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.3.0.ebuild>`__  ``amd64``, ``~x86`` (due 2012-01-20)
+  * `0.3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.3.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``blockdiag`` - http://pypi.python.org/pypi/blockdiag/
 
