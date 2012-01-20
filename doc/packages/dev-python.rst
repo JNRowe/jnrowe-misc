@@ -24,7 +24,7 @@
  * Versions:
 
   * `0.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/atomize/atomize-0.1.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/atomize/atomize-0.1.1.ebuild>`__  ``~amd64`` (due 2012-01-20), ``~x86`` (due 2012-01-20)
+  * `0.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/atomize/atomize-0.1.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-01-20)
 
 * ``attest`` - http://pypi.python.org/pypi/Attest/
 
