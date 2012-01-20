@@ -1,19 +1,3 @@
-REM 2012-01-20 *1 MSG %"Stabilise x86 dev-python/tox-1.2%" %a
-REM 2012-01-20 *1 MSG %"Stabilise x86 media-gfx/blockdiag-1.1.1%" %a
-REM 2012-01-20 *1 MSG %"Stabilise x86 media-gfx/actdiag-0.3.0%" %a
-REM 2012-01-20 *1 MSG %"Stabilise x86 dev-python/atomize-0.1.1%" %a
-REM 2012-01-20 *1 MSG %"Stabilise x86 dev-python/html2data-0.4.3%" %a
-REM 2012-01-20 *1 MSG %"Stabilise x86 media-gfx/sphinxcontrib-blockdiag-1.0.1%" %a
-REM 2012-01-20 *1 MSG %"Stabilise x86 app-text/sphinxcontrib-httpdomain-1.1.6%" %a
-REM 2012-01-20 *1 MSG %"Stabilise x86 dev-python/flake8-1.0%" %a
-REM 2012-01-20 *1 MSG %"Stabilise x86 www-client/github-cli-1.0.0%" %a
-REM 2012-01-20 *1 MSG %"Stabilise x86 media-gfx/nwdiag-0.7.0%" %a
-REM 2012-01-20 *1 MSG %"Stabilise x86 media-gfx/seqdiag-0.7.2%" %a
-REM 2012-01-20 *1 MSG %"Stabilise x86 dev-python/straight-plugin-1.2%" %a
-REM 2012-01-20 *1 MSG %"Stabilise x86 dev-python/tweepy-1.8%" %a
-REM 2012-01-20 *1 MSG %"Stabilise x86 dev-python/twython-1.4.5%" %a
-REM 2012-01-20 *1 MSG %"Stabilise x86 dev-python/github2-0.6.0%" %a
-REM 2012-01-20 *1 MSG %"Stabilise x86 dev-python/tox-1.3%" %a
 REM 2012-01-24 *1 MSG %"Stabilise amd64 media-gfx/sphinxcontrib-mscgen-0.4%" %a
 REM 2012-01-24 *1 MSG %"Stabilise x86 media-gfx/sphinxcontrib-mscgen-0.4%" %a
 REM 2012-01-24 *1 MSG %"Stabilise x86 dev-python/attest-0.5.2%" %a
@@ -53,7 +37,9 @@ REM 2012-02-23 *1 MSG %"Stabilise x86 app-misc/hammertime-0.1.4%" %a
 REM 2012-03-13 *1 MSG %"Stabilise amd64 dev-perl/Net-Twitter-Lite-0.10004%" %a
 REM 2012-03-13 *1 MSG %"Stabilise x86 dev-perl/Net-Twitter-Lite-0.10004%" %a
 REM 2012-03-20 *1 MSG %"Stabilise amd64 dev-python/twython-1.4.5%" %a
+REM 2012-03-20 *1 MSG %"Stabilise x86 dev-python/twython-1.4.5%" %a
 REM 2012-03-20 *1 MSG %"Stabilise amd64 dev-python/github2-0.6.0%" %a
+REM 2012-03-20 *1 MSG %"Stabilise x86 dev-python/github2-0.6.0%" %a
 
 REM 2012-05-01 *1 MSG %"Stabilise amd64 dev-util/ditz-0.5-r1%" %a
 REM 2012-05-01 *1 MSG %"Stabilise x86 dev-util/ditz-0.5-r1%" %a

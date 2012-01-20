@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  20 Jan 2012; James Rowe <jnrowe@gmail.com> -straight-plugin-1.1.ebuild,
+  straight-plugin-1.2.ebuild:
+  Keyworded x86.
+
   20 Jan 2012; James Rowe <jnrowe@gmail.com> straight-plugin-1.2.ebuild:
   Keyworded amd64.
 

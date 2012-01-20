@@ -23,8 +23,7 @@
  * Licence: ``EPL-1.0``
  * Versions:
 
-  * `0.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/atomize/atomize-0.1.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/atomize/atomize-0.1.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-01-20)
+  * `0.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/atomize/atomize-0.1.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``attest`` - http://pypi.python.org/pypi/Attest/
 
@@ -144,7 +143,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.0.ebuild>`__  ``amd64``, ``~x86`` (due 2012-01-20)
+  * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``freshen`` - https://github.com/rlisagor/freshen
 
@@ -176,7 +175,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.6.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.6.0.ebuild>`__  ``~amd64`` (due 2012-03-20), ``~x86`` (due 2012-01-20)
+  * `0.6.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.6.0.ebuild>`__  ``~amd64`` (due 2012-03-20), ``~x86`` (due 2012-03-20)
 
 * ``gpxdata`` - http://www.kette-links.de/technik/
 
@@ -208,8 +207,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html2data/html2data-0.3.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html2data/html2data-0.4.3.ebuild>`__  ``amd64``, ``~x86`` (due 2012-01-20)
+  * `0.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html2data/html2data-0.4.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``httpretty`` - http://pypi.python.org/pypi/httpretty/
 
@@ -508,8 +506,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.1.ebuild>`__  ``amd64``, ``x86``
-  * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-01-20)
+  * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``sure`` - http://pypi.python.org/pypi/sure/
 
@@ -557,9 +554,7 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tox/tox-1.1.ebuild>`__  ``amd64``, ``x86``
-  * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tox/tox-1.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-01-20)
-  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tox/tox-1.3.ebuild>`__  ``amd64``, ``~x86`` (due 2012-01-20)
+  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tox/tox-1.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``tweepy`` - http://pypi.python.org/pypi/tweepy/
 
@@ -567,8 +562,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.7.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.7.1.ebuild>`__  ``amd64``, ``x86``
-  * `1.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.8.ebuild>`__  ``amd64``, ``~x86`` (due 2012-01-20)
+  * `1.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.8.ebuild>`__  ``amd64``, ``x86``
 
 * ``twython`` - http://pypi.python.org/pypi/twython/
 
@@ -577,7 +571,7 @@
  * Versions:
 
   * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.2.ebuild>`__  ``amd64``, ``x86``
-  * `1.4.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.4.5.ebuild>`__  ``~amd64`` (due 2012-03-20), ``~x86`` (due 2012-01-20)
+  * `1.4.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.4.5.ebuild>`__  ``~amd64`` (due 2012-03-20), ``~x86`` (due 2012-03-20)
 
 * ``upoints`` - http://www.jnrowe.ukfsn.org/projects/upoints.html
 

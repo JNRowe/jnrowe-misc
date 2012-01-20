@@ -15,8 +15,7 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.2.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.3.0.ebuild>`__  ``amd64``, ``~x86`` (due 2012-01-20)
+  * `0.3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.3.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``blockdiag`` - http://pypi.python.org/pypi/blockdiag/
 
@@ -24,8 +23,7 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.9.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-0.9.6.ebuild>`__  ``amd64``, ``x86``
-  * `1.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.1.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-01-20)
+  * `1.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.1.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``gruffy`` - http://pypi.python.org/pypi/gruffy/
 
@@ -41,8 +39,7 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.5.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.7.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.7.0.ebuild>`__  ``amd64``, ``~x86`` (due 2012-01-20)
+  * `0.7.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.7.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``seqdiag`` - http://pypi.python.org/pypi/seqdiag/
 
@@ -50,8 +47,7 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.5.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.7.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.7.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-01-20)
+  * `0.7.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.7.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``sng`` - http://www.catb.org/~esr/sng/
 
@@ -75,8 +71,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.9.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-0.9.2.ebuild>`__  ``amd64``, ``x86``
-  * `1.0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-1.0.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-01-20)
+  * `1.0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-1.0.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``sphinxcontrib-gruffygen`` - http://pypi.python.org/pypi/sphinxcontrib-gruffygen/
 
