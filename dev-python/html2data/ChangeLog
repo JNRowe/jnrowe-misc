@@ -1,6 +1,9 @@
 # ChangeLog for dev-python/html2data
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  20 Jan 2012; James Rowe <jnrowe@gmail.com> html2data-0.4.3.ebuild:
+  Keyworded amd64.
 
 *html2data-0.4.3 (21 Dec 2011)
 
