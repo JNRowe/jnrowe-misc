@@ -144,7 +144,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.0.ebuild>`__  ``~amd64`` (due 2012-01-20), ``~x86`` (due 2012-01-20)
+  * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.0.ebuild>`__  ``amd64``, ``~x86`` (due 2012-01-20)
 
 * ``freshen`` - https://github.com/rlisagor/freshen
 
