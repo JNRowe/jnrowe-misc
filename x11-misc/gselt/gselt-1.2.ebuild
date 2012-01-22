@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -18,3 +18,13 @@ DEPEND="${RDEPEND}
 	dev-util/pkgconfig"
 
 DOCS=(NEWS README)
+
+src_install() {
+	default
+
+	# Overkill to edit Makefile.am, and run autotools just to kill a single file
+	rm -rf "${D}"/usr/share/${PN}
+
+	insinto /usr/share/doc/${PF}/examples
+	doins dot-gselt
+}
