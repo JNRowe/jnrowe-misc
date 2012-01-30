@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  30 Jan 2012; James Rowe <jnrowe@gmail.com> pytrainer-1.9.1.ebuild:
+  Keyworded ~x86.
+
 *pytrainer-1.9.1 (30 Jan 2012)
 
   30 Jan 2012; James Rowe <jnrowe@gmail.com> +pytrainer-1.9.1.ebuild,
