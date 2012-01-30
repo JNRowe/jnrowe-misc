@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription lang="en">
+		behave is behaviour-driven development, Python style.
+
+		Behavior-driven development (or BDD) is an agile software development
+		technique that encourages collaboration between developers, QA and
+		non-technical or business participants in a software project. We have
+		a page further describing this philosophy.
+
+		behave uses tests written in a natural language style, backed up by
+		Python code.
+	</longdescription>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">behave</remote-id>
+		<doc lang="en">http://packages.python.org/behave</doc>
+		<bugs-to>https://github.com/jeamland/behave/issues</bugs-to>
+	</upstream>
+</pkgmetadata>

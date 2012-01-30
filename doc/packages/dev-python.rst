@@ -33,6 +33,14 @@
 
   * `0.5.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/attest/attest-0.5.2.ebuild>`__  ``~amd64`` (due 2012-02-19), ``~x86`` (due 2012-03-24)
 
+* ``behave`` - http://pypi.python.org/pypi/behave/
+
+ * Behaviour-driven development, Python style
+ * Licence: ``BSD``
+ * Versions:
+
+  * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.1.0.ebuild>`__  ``~amd64`` (due 2012-02-29)
+
 * ``benchmarker`` - http://pypi.python.org/pypi/Benchmarker/
 
  * A small utility to benchmark your Python code
