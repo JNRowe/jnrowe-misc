@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription lang="en">
+		Parse strings using a specification based on the
+		<pkg>dev-lang/python</pkg> format() syntax.
+	</longdescription>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">parse</remote-id>
+		<bugs-to>https://github.com/r1chardj0n3s/parse/issues</bugs-to>
+	</upstream>
+</pkgmetadata>

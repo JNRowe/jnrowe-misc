@@ -282,6 +282,14 @@
 
   * `0.4-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nosetty/nosetty-0.4-r1.ebuild>`__  ``amd64``, ``x86``
 
+* ``parse`` - http://pypi.python.org/pypi/parse/
+
+ * Parse using a specification based on the Python format() syntax
+ * Licence: ``MIT``
+ * Versions:
+
+  * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.4.ebuild>`__  ``~amd64`` (due 2012-02-29)
+
 * ``pdbpp`` - http://pypi.python.org/pypi/pdbpp/
 
  * An enhanced drop-in replacement for pdb
