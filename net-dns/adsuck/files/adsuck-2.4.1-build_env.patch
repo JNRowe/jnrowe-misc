@@ -1,0 +1,35 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Use system environment standards
+Status: LOCAL
+
+diff --git i/GNUmakefile w/GNUmakefile
+index 275e34e..2ed4ba8 100644
+--- i/GNUmakefile
++++ w/GNUmakefile
+@@ -1,12 +1,10 @@
+ # $adsuck$
+ 
+-CFLAGS+= -O2 -Wall -ggdb -D_GNU_SOURCE -D_BSD_SOURCE -I.
++CFLAGS+= -Wall -D_GNU_SOURCE -D_BSD_SOURCE -I.
+ LDFLAGS+=
+ 
+ LDADD+= -lldns -levent
+ 
+-CC= gcc
+-
+ adsuck: adsuck.o log.o linux/strlcpy.o
+ 	$(CC) $(LDFLAGS) -o $@ $+ $(LDADD)
+ 
+diff --git i/adsuck.c w/adsuck.c
+index a141af3..fa3449f 100644
+--- i/adsuck.c
++++ w/adsuck.c
+@@ -50,7 +50,7 @@
+ #define MAXLINE		(256)
+ #define INBUF_SIZE	(4096)
+ #define LOCALIP		"127.0.0.1"
+-#define ADSUCK_USER	"_adsuck"
++#define ADSUCK_USER	"adsuck"
+ 
+ struct ev_args {
+ 	char		**argv;

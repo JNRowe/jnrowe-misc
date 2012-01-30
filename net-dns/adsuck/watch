@@ -1,0 +1,4 @@
+url = https://opensource.conformal.com/snapshots/adsuck/
+select = a
+match_type = re
+match = adsuck-[\d\.]+\.tgz

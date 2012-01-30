@@ -1,0 +1,10 @@
+# ChangeLog for net-dns/adsuck
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*adsuck-2.4.1 (30 Jan 2012)
+
+  30 Jan 2012; James Rowe <jnrowe@gmail.com> +adsuck-2.4.1.ebuild,
+  +files/adsuck-2.4.1-build_env.patch, +metadata.xml, +watch:
+  Initial ebuild, by me [526].
+
