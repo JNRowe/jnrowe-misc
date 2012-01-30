@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/behave
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*behave-1.1.0 (30 Jan 2012)
+
+  30 Jan 2012; James Rowe <jnrowe@gmail.com> +behave-1.1.0.ebuild,
+  +metadata.xml, +watch:
+  Initial ebuild, by me [516].
+

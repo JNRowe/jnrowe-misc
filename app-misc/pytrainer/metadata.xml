@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Pytrainer is a tool to log all your sport excursion coming from GPS
+		devices (with a focus on ForeRunner 205, 305 and 405) or GPX
+		(http://www.topografix.com) files. Pytrainer supports GPS track files
+		and displays it in graphs, maps...
+	</longdescription>
+	<use>
+		<flag name="import">Enable importing from standard GPS formats</flag>
+		<flag name="elevation">Support fixing elevation data using SRTM data</flag>
+	</use>
+	<upstream>
+		<changelog>https://github.com/pytrainer/pytrainer/blob/master/CHANGES#readme</changelog>
+		<bugs-to>https://github.com/pytrainer/pytrainer/issues</bugs-to>
+	</upstream>
+</pkgmetadata>

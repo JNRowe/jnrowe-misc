@@ -33,6 +33,14 @@
 
   * `0.5.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/attest/attest-0.5.2.ebuild>`__  ``~amd64`` (due 2012-02-19), ``~x86`` (due 2012-03-24)
 
+* ``behave`` - http://pypi.python.org/pypi/behave/
+
+ * Behaviour-driven development, Python style
+ * Licence: ``BSD``
+ * Versions:
+
+  * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.1.0.ebuild>`__  ``~amd64`` (due 2012-02-29)
+
 * ``benchmarker`` - http://pypi.python.org/pypi/Benchmarker/
 
  * A small utility to benchmark your Python code
@@ -281,6 +289,14 @@
  * Versions:
 
   * `0.4-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nosetty/nosetty-0.4-r1.ebuild>`__  ``amd64``, ``x86``
+
+* ``parse`` - http://pypi.python.org/pypi/parse/
+
+ * Parse using a specification based on the Python format() syntax
+ * Licence: ``MIT``
+ * Versions:
+
+  * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.4.ebuild>`__  ``~amd64`` (due 2012-02-29)
 
 * ``pdbpp`` - http://pypi.python.org/pypi/pdbpp/
 

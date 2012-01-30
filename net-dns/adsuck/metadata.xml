@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		adsuck is a small DNS server that spoofs blacklisted addresses and
+		forwards all other queries. The idea is to be able to prevent
+		connections to undesirable sites such as ad servers, crawlers and other
+		nasties. It can be used locally, for the road warrior, or on the network
+		perimeter in order to protect machines from malicious sites. It also has
+		the capability to match website names using regex and there is also
+		a mechanism to spoof DNS queries to specified IP addresses.
+	</longdescription>
+	<upstream>
+		<doc lang="en">https://opensource.conformal.com/cgi-bin/man-cgi?adsuck</doc>
+		<bugs-to>https://opensource.conformal.com/flyspray/index.php?project=4</bugs-to>
+	</upstream>
+</pkgmetadata>

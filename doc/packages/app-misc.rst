@@ -50,6 +50,14 @@
 
   * `0.1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pw/pw-0.1.4.ebuild>`__  ``amd64``, ``x86``
 
+* ``pytrainer`` - https://github.com/pytrainer/pytrainer
+
+ * A tool to log and analyse your exercise regime
+ * Licence: ``GPL-2``
+ * Versions:
+
+  * `1.9.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pytrainer/pytrainer-1.9.1.ebuild>`__  ``~amd64`` (due 2012-02-29)
+
 * ``repl`` - http://defunkt.io/repl/
 
  * Sometimes you need a repl
