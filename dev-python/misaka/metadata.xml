@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription lang="en">
+		Misaka is a Python (2.7 and 3.2) and PyPy (1.6) binding for Sundown. And
+		Sundown is a Markdown library written in C and it's really fast.
+	</longdescription>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">misaka</remote-id>
+		<doc lang="en">http://misaka.61924.nl/</doc>
+		<bugs-to>https://github.com/FSX/misaka/issues</bugs-to>
+	</upstream>
+</pkgmetadata>
