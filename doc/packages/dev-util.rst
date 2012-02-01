@@ -9,6 +9,7 @@
 
   * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/cake/cake-0.2.ebuild>`__  ``amd64``, ``x86``
   * `0.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/cake/cake-0.2.2.ebuild>`__  ``~amd64`` (due 2012-02-17), ``~x86`` (due 2012-02-17)
+  * `0.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/cake/cake-0.2.3.ebuild>`__  ``~amd64`` (due 2012-03-02), ``~x86`` (due 2012-03-02)
 
 * ``ccontrol`` - http://ccontrol.ozlabs.org/
 
