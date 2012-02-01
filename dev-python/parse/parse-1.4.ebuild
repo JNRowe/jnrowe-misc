@@ -22,5 +22,3 @@ DEPEND=""
 RDEPEND=""
 
 PYTHON_MODNAME="${PN}.py"
-
-DOCS="README.rst"
