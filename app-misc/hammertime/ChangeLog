@@ -1,6 +1,11 @@
 # ChangeLog for app-misc/hammertime
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*hammertime-0.2.4 (01 Feb 2012)
+
+  01 Feb 2012; James Rowe <jnrowe@gmail.com> +hammertime-0.2.4.ebuild:
+  Version bump [531].
 
   25 Nov 2011; James Rowe <jnrowe@gmail.com> -hammertime-0.1.3.ebuild:
   Removed stale ebuild, 0.1.4 is eligible for stabilisation before 0.1.3 will
