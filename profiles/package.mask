@@ -1,1 +1,8 @@
 # extra line needed because portage is buggy
+
+# James Rowe <jnrowe@gmail.com> (01 Feb 2012)
+# The latest release, 1.4.6, has a dependency on requests and as such will be
+# unusable on our systems.  Switch to tweepy as soon as possible, this won't be
+# reverted!  If you need help with switching you can contact me directly
+# X-Removal: 2012-03-02
+dev-python/twython

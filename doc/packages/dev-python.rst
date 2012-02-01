@@ -586,8 +586,8 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.2.ebuild>`__  ``amd64``, ``x86``
-  * `1.4.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.4.5.ebuild>`__  ``~amd64`` (due 2012-03-20), ``~x86`` (due 2012-03-20)
+  * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.2.ebuild>`__  ``amd64``, ``x86`` (masked by ``package.mask``)
+  * `1.4.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.4.5.ebuild>`__  ``~amd64`` (indefinite), ``~x86`` (indefinite) (masked by ``package.mask``)
 
 * ``upoints`` - http://www.jnrowe.ukfsn.org/projects/upoints.html
 
