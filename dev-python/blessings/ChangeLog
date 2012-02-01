@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/blessings
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*blessings-1.3 (01 Feb 2012)
+
+  01 Feb 2012; James Rowe <jnrowe@gmail.com> +blessings-1.3.ebuild,
+  +metadata.xml, +watch:
+  Initial ebuild, by me [539].
+
