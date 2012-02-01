@@ -49,6 +49,14 @@
 
   * `3.0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/benchmarker/benchmarker-3.0.1.ebuild>`__  ``amd64``, ``x86``
 
+* ``blessings`` - http://pypi.python.org/pypi/blessings/
+
+ * Thin and practical terminal formatting, positioning, and more
+ * Licence: ``MIT``
+ * Versions:
+
+  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.3.ebuild>`__  ``~amd64`` (due 2012-03-02)
+
 * ``calabash`` - http://pypi.python.org/pypi/calabash/
 
  * Bash-style pipelining syntax for Python generators
