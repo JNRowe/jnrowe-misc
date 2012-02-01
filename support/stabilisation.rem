@@ -37,7 +37,9 @@ REM 2012-02-29 *1 MSG %"Stabilise amd64 dev-python/behave-1.1.0%" %a
 REM 2012-02-29 *1 MSG %"Stabilise x86 dev-python/behave-1.1.0%" %a
 
 REM 2012-03-02 *1 MSG %"Stabilise amd64 dev-python/misaka-0.4.2%" %a
+REM 2012-03-02 *1 MSG %"Stabilise x86 dev-python/misaka-0.4.2%" %a
 REM 2012-03-02 *1 MSG %"Stabilise amd64 dev-python/blessings-1.3%" %a
+REM 2012-03-02 *1 MSG %"Stabilise x86 dev-python/blessings-1.3%" %a
 REM 2012-03-02 *1 MSG %"Stabilise amd64 media-gfx/blockdiag-1.1.2%" %a
 REM 2012-03-02 *1 MSG %"Stabilise x86 media-gfx/blockdiag-1.1.2%" %a
 REM 2012-03-02 *1 MSG %"Stabilise amd64 dev-python/isodate-0.4.7%" %a
