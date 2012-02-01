@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -24,5 +24,4 @@ RDEPEND="${DEPEND}"
 # because of float repr changes.
 RESTRICT="test"
 
-DOCS="CHANGES README doc/Brackets.md doc/FAQ.md doc/Illustrated.md
-	doc/Tutorial.md"
+DOCS="CHANGES doc/Brackets.md doc/FAQ.md doc/Illustrated.md doc/Tutorial.md"
