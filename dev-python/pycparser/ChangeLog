@@ -1,6 +1,10 @@
 # ChangeLog for dev-python/pycparser
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  02 Feb 2012; James Rowe <jnrowe@gmail.com> -pycparser-2.04.ebuild:
+  Removed stale ebuild, newer version will be available for stabilisation
+  before 2.04.
 
   14 Nov 2011; James Rowe <jnrowe@gmail.com> metadata.xml:
   Removed redundant herd info.
