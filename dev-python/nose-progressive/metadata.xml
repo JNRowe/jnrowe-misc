@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription lang="en">
+		nose-progressive is a <pkg>dev-python/nose</pkg> plugin which displays
+		progress in a stationary progress bar, freeing the rest of the screen
+		(as well as the scrollback buffer) for the compact display of test
+		failures, which it formats beautifully and usefully. It displays
+		failures and errors as soon as they occur and avoids scrolling them off
+		the screen in favor of less useful output. It also offers a number of
+		other human-centric features to speed the debugging process.
+	</longdescription>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">nose-progressive</remote-id>
+		<bugs-to>https://github.com/erikrose/nose-progressive/issues</bugs-to>
+	</upstream>
+</pkgmetadata>

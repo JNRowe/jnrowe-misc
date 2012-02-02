@@ -298,6 +298,14 @@
 
   * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-pathmunge/nose-pathmunge-0.1.2.ebuild>`__  ``amd64``, ``x86``
 
+* ``nose-progressive`` - http://pypi.python.org/pypi/nose-progressive/
+
+ * Nose plugin to show progress bar and tracebacks during tests
+ * Licence: ``MIT``
+ * Versions:
+
+  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-progressive/nose-progressive-1.3.ebuild>`__  ``~amd64`` (due 2012-03-03)
+
 * ``nosetty`` - http://code.google.com/p/nosetty/
 
  * A plugin to run nosetests more interactively
