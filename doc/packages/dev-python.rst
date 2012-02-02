@@ -304,7 +304,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-progressive/nose-progressive-1.3.ebuild>`__  ``~amd64`` (due 2012-03-03)
+  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-progressive/nose-progressive-1.3.ebuild>`__  ``~amd64`` (due 2012-03-03), ``~x86`` (due 2012-03-03)
 
 * ``nosetty`` - http://code.google.com/p/nosetty/
 
