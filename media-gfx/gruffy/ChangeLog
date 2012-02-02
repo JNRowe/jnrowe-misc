@@ -1,6 +1,11 @@
 # ChangeLog for media-gfx/gruffy
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*gruffy-0.3 (02 Feb 2012)
+
+  02 Feb 2012; James Rowe <jnrowe@gmail.com> +gruffy-0.3.ebuild:
+  Version bump [520].
 
   14 Nov 2011; James Rowe <jnrowe@gmail.com> metadata.xml:
   Removed redundant herd info.
