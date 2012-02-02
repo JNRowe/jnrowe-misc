@@ -1,4 +1,3 @@
-REM 2012-02-02 *1 MSG %"Stabilise x86 www-apps/mnemosyne-0.12%" %a
 REM 2012-02-04 *1 MSG %"Stabilise amd64 dev-python/rstctl-0.4%" %a
 REM 2012-02-04 *1 MSG %"Stabilise x86 app-misc/hubugs-0.11.0%" %a
 REM 2012-02-04 *1 MSG %"Stabilise x86 dev-python/rstctl-0.4%" %a
@@ -54,6 +53,7 @@ REM 2012-03-03 *1 MSG %"Stabilise x86 dev-python/pgmagick-0.5.1%" %a
 REM 2012-03-03 *1 MSG %"Stabilise amd64 media-gfx/gruffy-0.3%" %a
 REM 2012-03-03 *1 MSG %"Stabilise x86 media-gfx/gruffy-0.3%" %a
 REM 2012-03-03 *1 MSG %"Stabilise amd64 dev-python/nose-progressive-1.3%" %a
+REM 2012-03-03 *1 MSG %"Stabilise x86 dev-python/nose-progressive-1.3%" %a
 REM 2012-03-13 *1 MSG %"Stabilise amd64 dev-perl/Net-Twitter-Lite-0.10004%" %a
 REM 2012-03-13 *1 MSG %"Stabilise x86 dev-perl/Net-Twitter-Lite-0.10004%" %a
 REM 2012-03-20 *1 MSG %"Stabilise amd64 dev-python/github2-0.6.0%" %a
@@ -68,3 +68,4 @@ REM 2012-04-23 *1 MSG %"Stabilise x86 media-gfx/sphinxcontrib-mscgen-0.4%" %a
 REM 2012-05-01 *1 MSG %"Stabilise amd64 dev-util/ditz-0.5-r1%" %a
 REM 2012-05-01 *1 MSG %"Stabilise x86 dev-util/ditz-0.5-r1%" %a
 REM 2012-05-02 *1 MSG %"Stabilise amd64 www-apps/mnemosyne-0.12%" %a
+REM 2012-05-02 *1 MSG %"Stabilise x86 www-apps/mnemosyne-0.12%" %a
