@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  02 Feb 2012; James Rowe <jnrowe@gmail.com> fslint-2.42.ebuild:
+  Keyworded ~x86.
+
 *fslint-2.42 (02 Feb 2012)
 
   02 Feb 2012; James Rowe <jnrowe@gmail.com> +fslint-2.42.ebuild,

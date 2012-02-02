@@ -55,6 +55,7 @@ REM 2012-03-03 *1 MSG %"Stabilise x86 media-gfx/gruffy-0.3%" %a
 REM 2012-03-03 *1 MSG %"Stabilise amd64 dev-python/nose-progressive-1.3%" %a
 REM 2012-03-03 *1 MSG %"Stabilise x86 dev-python/nose-progressive-1.3%" %a
 REM 2012-03-03 *1 MSG %"Stabilise amd64 sys-fs/fslint-2.42%" %a
+REM 2012-03-03 *1 MSG %"Stabilise x86 sys-fs/fslint-2.42%" %a
 REM 2012-03-13 *1 MSG %"Stabilise amd64 dev-perl/Net-Twitter-Lite-0.10004%" %a
 REM 2012-03-13 *1 MSG %"Stabilise x86 dev-perl/Net-Twitter-Lite-0.10004%" %a
 REM 2012-03-20 *1 MSG %"Stabilise amd64 dev-python/github2-0.6.0%" %a
