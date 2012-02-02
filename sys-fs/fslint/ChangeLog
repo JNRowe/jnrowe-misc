@@ -1,0 +1,10 @@
+# ChangeLog for sys-fs/fslint
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*fslint-2.42 (02 Feb 2012)
+
+  02 Feb 2012; James Rowe <jnrowe@gmail.com> +fslint-2.42.ebuild,
+  +files/fslint-2.42-install_locations.patch, +metadata.xml, +watch:
+  Initial ebuild, by me [542].
+
