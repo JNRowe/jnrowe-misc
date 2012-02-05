@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -24,9 +24,3 @@ DEPEND="dev-python/setuptools"
 RDEPEND="${DEPEND}
 	>=dev-python/git-python-0.3.0
 	|| ( >=dev-lang/python-2.6 dev-python/simplejson )"
-
-src_prepare() {
-	# README.rst and README.md are copies of eachother using different syntaxes,
-	# we don't need both.
-	rm README.md
-}

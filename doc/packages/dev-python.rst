@@ -55,7 +55,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.3.ebuild>`__  ``~amd64`` (due 2012-03-02)
+  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.3.ebuild>`__  ``~amd64`` (due 2012-03-02), ``~x86`` (due 2012-03-02)
 
 * ``calabash`` - http://pypi.python.org/pypi/calabash/
 
@@ -266,7 +266,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/misaka/misaka-0.4.2.ebuild>`__  ``~amd64`` (due 2012-03-02)
+  * `0.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/misaka/misaka-0.4.2.ebuild>`__  ``~amd64`` (due 2012-03-02), ``~x86`` (due 2012-03-02)
 
 * ``mod2doctest`` - http://pypi.python.org/pypi/mod2doctest/
 
@@ -306,7 +306,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-progressive/nose-progressive-1.3.ebuild>`__  ``~amd64`` (due 2012-03-03)
+  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-progressive/nose-progressive-1.3.ebuild>`__  ``~amd64`` (due 2012-03-03), ``~x86`` (due 2012-03-03)
 
 * ``nosetty`` - http://code.google.com/p/nosetty/
 
@@ -388,7 +388,6 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `2.04 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycparser/pycparser-2.04.ebuild>`__  ``~amd64`` (due 2012-02-02), ``~x86`` (due 2012-02-02)
   * `2.05 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycparser/pycparser-2.05.ebuild>`__  ``~amd64`` (due 2012-02-19), ``~x86`` (due 2012-02-19)
 
 * ``pycukes`` - https://github.com/hugobr/pycukes
@@ -470,7 +469,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2012-02-04), ``~x86`` (due 2012-02-04)
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2012-02-04), ``~x86`` (due 2012-05-04)
 
 * ``see`` - http://inky.github.com/see/
 
@@ -614,8 +613,8 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.2.ebuild>`__  ``amd64``, ``x86``
-  * `1.4.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.4.5.ebuild>`__  ``~amd64`` (due 2012-03-20), ``~x86`` (due 2012-03-20)
+  * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.2.ebuild>`__  ``amd64``, ``x86`` (masked by ``package.mask``)
+  * `1.4.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.4.5.ebuild>`__  ``~amd64`` (indefinite), ``~x86`` (indefinite) (masked by ``package.mask``)
 
 * ``upoints`` - http://www.jnrowe.ukfsn.org/projects/upoints.html
 

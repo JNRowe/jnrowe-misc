@@ -10,5 +10,5 @@ RDEPEND=dev-ruby/trollop ruby_targets_ruby18? ( dev-lang/ruby:1.8 )
 REQUIRED_USE=|| ( ruby_targets_ruby18 )
 SLOT=0
 SRC_URI=mirror://rubyforge/ditz/ditz-0.5.tgz
-_eclasses_=bash-completion-r1	3480f8385cb9e31797e7b659e366e2d2	eutils	d92f291efb4ef0595cb90e4b4e7e6b6c	java-utils-2	0b830e0a2e6c4bdf1c81fec1b53d95f1	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	portability	536c5e70c5fb252ed3b769e04aa3f05b	ruby-ng	4f1be3b6db6ebad08d2c6d7996907767	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e	versionator	6601b4c5b3f019a993db59a50e1854e4
+_eclasses_=bash-completion-r1	3480f8385cb9e31797e7b659e366e2d2	eutils	87297b51c585746a3759c390fa2cf24f	java-utils-2	0b830e0a2e6c4bdf1c81fec1b53d95f1	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	portability	536c5e70c5fb252ed3b769e04aa3f05b	ruby-ng	4f1be3b6db6ebad08d2c6d7996907767	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e	versionator	6601b4c5b3f019a993db59a50e1854e4
 _md5_=dd9c334dc1ea3ac2bc45796f59fc9832
