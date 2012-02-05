@@ -267,6 +267,7 @@
  * Versions:
 
   * `0.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/misaka/misaka-0.4.2.ebuild>`__  ``~amd64`` (due 2012-03-02), ``~x86`` (due 2012-03-02)
+  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/misaka/misaka-1.0.0.ebuild>`__  ``~amd64`` (due 2012-03-06), ``~x86`` (due 2012-03-06)
 
 * ``mod2doctest`` - http://pypi.python.org/pypi/mod2doctest/
 
@@ -323,6 +324,7 @@
  * Versions:
 
   * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.4.ebuild>`__  ``~amd64`` (due 2012-02-29), ``~x86`` (due 2012-02-29)
+  * `1.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.4.1.ebuild>`__  ``~amd64`` (due 2012-03-06), ``~x86`` (due 2012-03-06)
 
 * ``pdbpp`` - http://pypi.python.org/pypi/pdbpp/
 
@@ -468,7 +470,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2012-04-04), ``~x86`` (due 2012-02-04)
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2012-04-04), ``~x86`` (due 2012-05-04)
 
 * ``see`` - http://inky.github.com/see/
 
@@ -647,6 +649,7 @@
 
   * `2.10.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.10.1.ebuild>`__  ``amd64``, ``x86``
   * `2.11.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.11.1.ebuild>`__  ``~amd64`` (due 2012-02-17), ``~x86`` (due 2012-02-17)
+  * `3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-3.0.ebuild>`__  ``~amd64`` (due 2012-03-06), ``~x86`` (due 2012-03-06)
 
 * ``webcolors`` - http://pypi.python.org/pypi/webcolors/
 
