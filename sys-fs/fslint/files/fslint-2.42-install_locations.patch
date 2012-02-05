@@ -1,0 +1,60 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: File location fixes for system install
+Status: LOCAL
+
+diff --git i/fslint-gui w/fslint-gui
+index 6394cfa..03cac23 100755
+--- i/fslint-gui
++++ w/fslint-gui
+@@ -34,18 +34,15 @@ time_commands=False #print sub commands timing on status line
+ def puts(string=""): #print is problematic in python 3
+     sys.stdout.write(string+'\n')
+ 
+-liblocation=os.path.dirname(os.path.abspath(sys.argv[0]))
+-locale_base=liblocation+'/po/locale'
++liblocation = '/usr/share/fslint'
+ try:
+     import fslint
+     if sys.argv[0][0] != '/':
+         #If relative probably debugging so don't use system files if possible
+         if not os.path.exists(liblocation+'/fslint'):
+             liblocation = fslint.liblocation
+-            locale_base = None #sys default
+     else:
+         liblocation = fslint.liblocation
+-        locale_base = None #sys default
+ except:
+     pass
+ 
+@@ -59,15 +56,15 @@ class i18n:
+     def _init_translations(self):
+         #gtk2 only understands utf-8 so convert to unicode
+         #which will be automatically converted to utf-8 by pygtk
+-        gettext.install("fslint", locale_base, unicode=1)
++        gettext.install("fslint", unicode=1)
+         global N_ #translate string but not at point of definition
+         def N_(string): return string
+-        gettext.bindtextdomain("fslint",locale_base)
++        gettext.bindtextdomain("fslint")
+         gettext.textdomain("fslint")
+         #Note gettext does not set libc's domain as
+         #libc and Python may have different message catalog
+         #formats (e.g. on Solaris). So make explicit calls.
+-        locale.bindtextdomain("fslint",locale_base)
++        locale.bindtextdomain("fslint", None)
+         locale.textdomain("fslint")
+ 
+     def _init_locale(self):
+diff --git i/fslint.glade w/fslint.glade
+index cd8cfdc..71f2e50 100644
+--- i/fslint.glade
++++ w/fslint.glade
+@@ -13,7 +13,7 @@
+   <property name="default_height">600</property>
+   <property name="resizable">True</property>
+   <property name="destroy_with_parent">False</property>
+-  <property name="icon">fslint_icon.png</property>
++  <property name="icon">/usr/share/pixmaps/fslint_icon.png</property>
+   <property name="decorated">True</property>
+   <property name="skip_taskbar_hint">False</property>
+   <property name="skip_pager_hint">False</property>

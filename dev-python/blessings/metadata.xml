@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription lang="en">
+		A thin, practical wrapper around terminal formatting, positioning, and
+		more.
+
+		Blessings lifts several of curses' limiting assumptions, and it makes
+		your code pretty, too:
+
+		* Use styles, color, and maybe a little positioning without clearing the
+		  whole screen first.
+		* Leave more than one screenful of scrollback in the buffer after your
+		  program exits, like a well-behaved command-line app should.
+		* Get rid of all those noisy, C-like calls to tigetstr and tparm, so
+		  your code doesn't get crowded out by terminal bookkeeping.
+		* Act intelligently when somebody redirects your output to a file,
+		  omitting the terminal control codes the user doesn't want to see
+		  (optional).
+	</longdescription>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">blessings</remote-id>
+		<doc lang="en">http://packages.python.org/blessings/</doc>
+		<bugs-to>https://github.com/erikrose/blessings/issues</bugs-to>
+	</upstream>
+</pkgmetadata>

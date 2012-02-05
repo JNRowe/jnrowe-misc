@@ -49,6 +49,14 @@
 
   * `3.0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/benchmarker/benchmarker-3.0.1.ebuild>`__  ``amd64``, ``x86``
 
+* ``blessings`` - http://pypi.python.org/pypi/blessings/
+
+ * Thin and practical terminal formatting, positioning, and more
+ * Licence: ``MIT``
+ * Versions:
+
+  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.3.ebuild>`__  ``~amd64`` (due 2012-03-02)
+
 * ``calabash`` - http://pypi.python.org/pypi/calabash/
 
  * Bash-style pipelining syntax for Python generators
@@ -252,6 +260,14 @@
   * `0.1.33 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.33.ebuild>`__  ``amd64``, ``x86``
   * `0.1.34 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.34.ebuild>`__  ``~amd64`` (due 2012-03-02), ``~x86`` (due 2012-03-02)
 
+* ``misaka`` - http://pypi.python.org/pypi/misaka/
+
+ * Python binding for the Sundown Markdown parser
+ * Licence: ``MIT``
+ * Versions:
+
+  * `0.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/misaka/misaka-0.4.2.ebuild>`__  ``~amd64`` (due 2012-03-02)
+
 * ``mod2doctest`` - http://pypi.python.org/pypi/mod2doctest/
 
  * Convert any Python module to a doctest ready doc string
@@ -283,6 +299,14 @@
  * Versions:
 
   * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-pathmunge/nose-pathmunge-0.1.2.ebuild>`__  ``amd64``, ``x86``
+
+* ``nose-progressive`` - http://pypi.python.org/pypi/nose-progressive/
+
+ * Nose plugin to show progress bar and tracebacks during tests
+ * Licence: ``MIT``
+ * Versions:
+
+  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-progressive/nose-progressive-1.3.ebuild>`__  ``~amd64`` (due 2012-03-03)
 
 * ``nosetty`` - http://code.google.com/p/nosetty/
 
