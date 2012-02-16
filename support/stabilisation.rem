@@ -1,4 +1,3 @@
-REM 2012-02-16 *1 MSG %"Stabilise x86 dev-vcs/gitflow-0.4.1-r2%" %a
 REM 2012-02-17 *1 MSG %"Stabilise amd64 app-misc/hubugs-0.12.0%" %a
 REM 2012-02-17 *1 MSG %"Stabilise x86 app-misc/hubugs-0.12.0%" %a
 REM 2012-02-17 *1 MSG %"Stabilise amd64 dev-python/xerox-0.3.1%" %a
@@ -83,3 +82,4 @@ REM 2012-05-01 *1 MSG %"Stabilise x86 dev-util/ditz-0.5-r1%" %a
 REM 2012-05-02 *1 MSG %"Stabilise amd64 www-apps/mnemosyne-0.12%" %a
 REM 2012-05-02 *1 MSG %"Stabilise x86 www-apps/mnemosyne-0.12%" %a
 REM 2012-05-04 *1 MSG %"Stabilise x86 dev-python/rstctl-0.4%" %a
+REM 2012-05-16 *1 MSG %"Stabilise x86 dev-vcs/gitflow-0.4.1-r2%" %a
