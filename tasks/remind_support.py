@@ -1,7 +1,6 @@
 from collections import defaultdict
-from subprocess import call
 
-from utils import (command, dep, success)
+from utils import (cmd_output, command, dep, success)
 
 
 @command
@@ -30,5 +29,8 @@ def gen_removals(args):
 @command
 def reminders(args):
     """Display repository reminders"""
-    call('remind support/removal.rem', shell=True)
-    call('remind support/stabilisation.rem', shell=True)
+    output = lambda f: "\n".join(cmd_output('remind %s' % f).splitlines()[1:])
+    yield 'Removals:'
+    yield output('support/removal.rem')
+    yield 'Stabilisation:'
+    yield output('support/stabilisation.rem')
