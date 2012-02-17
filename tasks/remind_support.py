@@ -7,7 +7,7 @@ from utils import (command, dep, success)
 @command
 def gen_removals(args):
     """Generate remind file for package removals"""
-    dep(args, ['support/removal.rem', ], ['profiles/package.mask', ])
+    dep(['support/removal.rem', ], ['profiles/package.mask', ])
     chunks = open("profiles/package.mask").read().split("\n\n")
     removals = defaultdict(list)
     for chunk in filter(lambda s: "\n# X-Removal: " in s, chunks):

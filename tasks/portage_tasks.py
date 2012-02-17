@@ -14,7 +14,7 @@ except OSError:
 @command
 def gen_use_local_desc(args):
     """Generate use.local.desc"""
-    dep(args, ['profiles/use.local.desc', ], glob('*-*/*/metadata.xml'))
+    dep(['profiles/use.local.desc', ], glob('*-*/*/metadata.xml'))
     repo = open('profiles/repo_name').read().strip()
     # This really shouldn't be handled with subprocess, but portage seemingly
     # goes out of its way to make reasonable use difficult.
@@ -25,7 +25,7 @@ def gen_use_local_desc(args):
 @command
 def gen_categories(args):
     """Generate categories listing"""
-    dep(args, ['profiles/categories', ], glob('*-*'))
+    dep(['profiles/categories', ], glob('*-*'))
     with open('profiles/categories', 'w') as file:
         for cat in sorted(glob('*-*')):
             file.write(cat + '\n')
@@ -35,7 +35,7 @@ def gen_categories(args):
 @command
 def gen_manifests(args):
     """Generate Manifest files"""
-    dep(args, glob('*-*/*/Manifest'), glob('*-*/*/*'))
+    dep(glob('*-*/*/Manifest'), glob('*-*/*/*'))
     base_dir = os.path.abspath(os.curdir)
     for package in sorted(glob('*-*/*')):
         try:
@@ -55,7 +55,7 @@ def gen_manifests(args):
 @command
 def gen_news_sigs(args):
     """Generate news file signatures"""
-    dep(args, map(lambda s: s + '.asc', glob('metadata/news/*/*.txt')),
+    dep(map(lambda s: s + '.asc', glob('metadata/news/*/*.txt')),
         glob('metadata/news/*/*.txt'), mapping=True)
     if not SIGN_KEY:
         raise ValueError('No GnuPG key set!')

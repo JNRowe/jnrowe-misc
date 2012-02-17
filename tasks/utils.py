@@ -1,3 +1,4 @@
+from inspect import stack
 from os import path
 from subprocess import check_output
 
@@ -51,7 +52,7 @@ def newer(file1, file2):
     return file1_time > file2_time
 
 
-def dep(args, targets, sources, mapping=False):
+def dep(targets, sources, mapping=False):
     rebuild = False
     if not all(map(path.exists, targets)):
         rebuild = True
@@ -64,8 +65,8 @@ def dep(args, targets, sources, mapping=False):
             rebuild = not all(newer(s, t)
                               for s, t in zip(targets, sources))
     if not rebuild:
-        raise argh.CommandError('Nothing to do for %s'
-                                % args.function.__name__)
+        f_name = stack()[1][0].f_locals['args'].function.func_name
+        raise argh.CommandError('Nothing to do for %s' % f_name)
 
 
 def cmd_output(command):

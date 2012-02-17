@@ -9,7 +9,7 @@ from utils import (command, dep, fail, success)
 @command
 def gen_cupage_conf(args):
     """Generate a new cupage.conf file"""
-    dep(args, ['support/cupage.conf', ], glob('*-*/*/watch'))
+    dep(['support/cupage.conf', ], glob('*-*/*/watch'))
     with open('support/cupage.conf', 'w') as f:
         for category in sorted(glob('*-*')):
             os.chdir(category)

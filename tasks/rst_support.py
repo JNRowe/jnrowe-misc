@@ -27,8 +27,8 @@ def rst_check(args):
 @command
 def gen_html(args):
     """Generate HTML output"""
-    dep(args, map(lambda s: os.path.splitext(s)[0] + '.html', glob('*.rst')),
-                  glob('*.rst'), mapping=True)
+    dep(map(lambda s: os.path.splitext(s)[0] + '.html', glob('*.rst')),
+            glob('*.rst'), mapping=True)
     for file in glob('*.rst'):
         html_file = os.path.splitext(file)[0] + '.html'
         if newer(html_file, file):
@@ -45,7 +45,7 @@ def gen_html(args):
 @command
 def gen_thanks(args):
     """Generate Sphinx contributor doc"""
-    dep(args, ['doc/thanks.rst', ], ['README.rst'])
+    dep(['doc/thanks.rst', ], ['README.rst'])
     data = open('README.rst').read()
     data = sub("\n('+)\n", lambda m: '\n' + "-" * len(m.groups()[0]) + '\n',
                data)
@@ -66,6 +66,6 @@ def gen_thanks(args):
 @command
 def gen_sphinx_html(args):
     """Generate Sphinx HTML output"""
-    dep(args, ['doc/.build/doctrees/environment.pickle', ],
+    dep(['doc/.build/doctrees/environment.pickle', ],
         glob('doc/*.rst') + glob('doc/packages/*.rst'))
     check_call('make -C doc html'.split())
