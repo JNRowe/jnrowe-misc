@@ -27,7 +27,7 @@ import cloud_sptheme as csp
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ["sphinx.ext.%s" % ext for ext in []] + \
+extensions = ["sphinx.ext.%s" % ext for ext in ['intersphinx', ]] + \
     ["sphinxcontrib.%s" % ext for ext in ['cheeseshop', ]]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -219,3 +219,7 @@ man_pages = [
     ('index', 'jnrowe-misc', u'jnrowe-misc Documentation',
      [u'James Rowe'], 1)
 ]
+
+intersphinx_mapping = {
+    'python': ('http://docs.python.org/', os.getenv('SPHINX_PYTHON_OBJECTS'))
+}
