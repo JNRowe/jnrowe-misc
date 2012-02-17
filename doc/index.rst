@@ -35,10 +35,10 @@ Contents
    thanks
    licence
    download
+   maintenance
    cupage
    contact
    contributing
-   cake
 
 Indices and tables
 ==================
