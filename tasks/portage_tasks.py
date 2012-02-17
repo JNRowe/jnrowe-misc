@@ -2,37 +2,38 @@ import os
 from glob import glob
 from subprocess import (check_call, check_output)
 
-from cake.lib import (puts, task)
-
-from utils import (dep, newer)
+from utils import (command, dep, newer, success)
 
 
 SIGN_KEY = check_output('. /etc/make.conf; echo $PORTAGE_GPG_KEY',
                         shell=True).strip()
 
 
-@task('Generate use.local.desc')
-@dep(['profiles/use.local.desc', ], glob('*-*/*/metadata.xml'))
-def gen_use_local_desc():
+@command
+def gen_use_local_desc(args):
+    """Generate use.local.desc"""
+    dep(args, ['profiles/use.local.desc', ], glob('*-*/*/metadata.xml'))
     repo = open('profiles/repo_name').read().strip()
     # This really shouldn't be handled with subprocess, but portage seemingly
     # goes out of its way to make reasonable use difficult.
     check_call(('egencache --repo=%s --update-use-local-desc' % repo).split())
-    puts('{green}use.local.desc generated!')
+    yield success('use.local.desc generated!')
 
 
-@task('Generate categories listing')
-@dep(['profiles/categories', ], glob('*-*'))
-def gen_categories():
+@command
+def gen_categories(args):
+    """Generate categories listing"""
+    dep(args, ['profiles/categories', ], glob('*-*'))
     with open('profiles/categories', 'w') as file:
         for cat in sorted(glob('*-*')):
             file.write(cat + '\n')
-    puts('{green}categories list generated!')
+    yield success('categories list generated!')
 
 
-@task('Generate Manifest files')
-@dep(glob('*-*/*/Manifest'), glob('*-*/*/*'))
-def gen_manifests():
+@command
+def gen_manifests(args):
+    """Generate Manifest files"""
+    dep(args, glob('*-*/*/Manifest'), glob('*-*/*/*'))
     base_dir = os.path.abspath(os.curdir)
     for package in sorted(glob('*-*/*')):
         try:
@@ -49,10 +50,11 @@ def gen_manifests():
             os.chdir(base_dir)
 
 
-@task('Generate news file signatures')
-@dep(map(lambda s: s + '.asc', glob('metadata/news/*/*.txt')),
-     glob('metadata/news/*/*.txt'), mapping=True)
-def gen_news_sigs():
+@command
+def gen_news_sigs(args):
+    """Generate news file signatures"""
+    dep(args, map(lambda s: s + '.asc', glob('metadata/news/*/*.txt')),
+        glob('metadata/news/*/*.txt'), mapping=True)
     if not SIGN_KEY:
         raise ValueError('No GnuPG key set!')
     base_dir = os.path.abspath(os.curdir)

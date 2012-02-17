@@ -1,14 +1,13 @@
 from collections import defaultdict
 from subprocess import call
 
-from cake.lib import (puts, task)
-
-from utils import dep
+from utils import (command, dep, success)
 
 
-@task('Generate remind file for package removals')
-@dep(['support/removal.rem', ], ['profiles/package.mask', ])
-def gen_removals():
+@command
+def gen_removals(args):
+    """Generate remind file for package removals"""
+    dep(args, ['support/removal.rem', ], ['profiles/package.mask', ])
     chunks = open("profiles/package.mask").read().split("\n\n")
     removals = defaultdict(list)
     for chunk in filter(lambda s: "\n# X-Removal: " in s, chunks):
@@ -23,11 +22,13 @@ def gen_removals():
             for pkgs in items:
                 for pkg in filter(None, pkgs):
                     file.write("REM %s *1 +1 PRIORITY 2500 "
-                               'MSG %%"Removal due for %s%%" %%a\n' % (date, pkg))
-    puts('{green}removal.rem generated!')
+                               'MSG %%"Removal due for %s%%" %%a\n'
+                               % (date, pkg))
+    yield success('removal.rem generated!')
 
 
-@task('Display repository reminders')
-def reminders():
+@command
+def reminders(args):
+    """Display repository reminders"""
     call('remind support/removal.rem', shell=True)
     call('remind support/stabilisation.rem', shell=True)

@@ -3,14 +3,13 @@ import os
 from glob import glob
 from sys import exit
 
-from cake.lib import (puts, task)
-
-from utils import dep
+from utils import (command, dep, fail, success)
 
 
-@task('Generate a new cupage.conf file')
-@dep(['support/cupage.conf', ], glob('*-*/*/watch'))
-def gen_cupage_conf():
+@command
+def gen_cupage_conf(args):
+    """Generate a new cupage.conf file"""
+    dep(args, ['support/cupage.conf', ], glob('*-*/*/watch'))
     with open('support/cupage.conf', 'w') as f:
         for category in sorted(glob('*-*')):
             os.chdir(category)
@@ -27,20 +26,21 @@ def gen_cupage_conf():
                     f.write(watch_data + '\n')
             f.write('# }}}\n\n')
             os.chdir(os.pardir)
-    puts('{green}cupage.conf generated!')
+    yield success('cupage.conf generated!')
 
 
-@task('Make sure a watch file exists for each package')
-def cupage_check():
+@command
+def cupage_check(args):
+    """Make sure a watch file exists for each package"""
     failures = 0
     packages = glob('*-*/*')
     for package in packages:
         if not os.path.isfile(os.path.join(package, 'watch')):
-            puts('{red}Missing watch file in %r' % package)
+            yield fail('Missing watch file in %r' % package)
             failures += 1
     if failures == 0:
-        puts('{green}All watch files present!')
+        yield success('All watch files present!')
     else:
-        puts('{red}%d watch file%s missing!' % (failures,
-                                                's' if failures > 1 else ''))
+        yield fail('%d watch file%s missing!' % (failures,
+                                             's' if failures > 1 else ''))
         exit(failures)
