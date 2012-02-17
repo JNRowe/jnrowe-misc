@@ -41,7 +41,7 @@ def gen_stable(args):
 
 @command
 @argh.arg('title', help='Title for bug')
-@argh.arg('body', help='Body for bug')
+@argh.arg('body', nargs='?', default='', help='Body for bug')
 @argh.arg('label', nargs='?', help='Initial label for bug')
 def open_bug(args):
     """Open a new bump bug"""
