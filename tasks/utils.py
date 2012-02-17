@@ -66,7 +66,7 @@ def dep(targets, sources, mapping=False):
                               for s, t in zip(targets, sources))
     if not rebuild:
         f_name = stack()[1][0].f_locals['args'].function.func_name
-        raise argh.CommandError('Nothing to do for %s' % f_name)
+        raise argh.CommandError(success('Nothing to do for %s' % f_name))
 
 
 def cmd_output(command):
