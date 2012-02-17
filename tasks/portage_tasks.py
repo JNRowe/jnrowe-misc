@@ -4,9 +4,11 @@ from subprocess import (check_call, check_output)
 
 from utils import (command, dep, newer, success)
 
-
-SIGN_KEY = check_output('. /etc/make.conf; echo $PORTAGE_GPG_KEY',
-                        shell=True).strip()
+try:
+    SIGN_KEY = check_output('. /etc/make.conf; echo $PORTAGE_GPG_KEY',
+                            shell=True).strip()
+except OSError:
+    SIGN_KEY = None
 
 
 @command
