@@ -46,8 +46,8 @@ def gen_stable(args):
 def open_bug(args):
     """Open a new bump bug"""
     if not Github:
-        yield fail("Opening bugs requires the github2 Python package")
-        exit(1)
+        raise argh.CommandError(fail("Opening bugs requires the github2 "
+                                     "Python package"))
     user = cmd_output('git config github.user')
     token = cmd_output('git config github.token')
     project_url = cmd_output('git config remote.origin.url')

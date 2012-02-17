@@ -2,6 +2,8 @@ import os
 from glob import glob
 from subprocess import (check_call, check_output)
 
+import argh
+
 from utils import (command, dep, newer, success)
 
 try:
@@ -58,7 +60,7 @@ def gen_news_sigs(args):
     dep(map(lambda s: s + '.asc', glob('metadata/news/*/*.txt')),
         glob('metadata/news/*/*.txt'), mapping=True)
     if not SIGN_KEY:
-        raise ValueError('No GnuPG key set!')
+        raise argh.CommandError(fail('No GnuPG key set!'))
     base_dir = os.path.abspath(os.curdir)
     for path in glob('metadata/news/*/*.txt'):
         try:
