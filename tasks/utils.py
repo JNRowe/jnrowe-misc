@@ -1,4 +1,5 @@
 from os import path
+from subprocess import check_output
 
 import argh
 import blessings
@@ -65,3 +66,7 @@ def dep(args, targets, sources, mapping=False):
     if not rebuild:
         raise argh.CommandError('Nothing to do for %s'
                                 % args.function.__name__)
+
+
+def cmd_output(command):
+    return check_output(command.split()).strip()

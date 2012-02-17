@@ -2,7 +2,6 @@ import datetime
 
 from glob import glob
 from re import search
-from subprocess import check_output
 from sys import exit
 import argh
 
@@ -11,7 +10,7 @@ try:
 except ImportError:
     Github = None  # NOQA
 
-from utils import (command, fail, success)
+from utils import (cmd_output, command, fail, success)
 
 
 @command
@@ -49,9 +48,9 @@ def open_bug(args):
     if not Github:
         yield fail("Opening bugs requires the github2 Python package")
         exit(1)
-    user = check_output('git config github.user'.split()).strip()
-    token = check_output('git config github.token'.split()).strip()
-    project_url = check_output('git config remote.origin.url'.split()).strip()
+    user = cmd_output('git config github.user')
+    token = cmd_output('git config github.token')
+    project_url = cmd_output('git config remote.origin.url')
     project = search('github.com[:/]([^/]+/.*).git', project_url).groups()[0]
     github = Github(username=user, api_token=token)
     new_issue = github.issues.open(project, args.title, args.body)

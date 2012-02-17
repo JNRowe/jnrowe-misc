@@ -21,7 +21,6 @@ import os
 import sys
 
 from glob import glob
-from subprocess import check_output
 
 import argh
 
@@ -29,7 +28,7 @@ from tasks import *  # NOQA
 
 
 try:
-    VERSION = check_output('git describe --always'.split()).strip()
+    VERSION = cmd_output('git describe --always')
 except OSError:
     VERSION = 'unknown'
 
