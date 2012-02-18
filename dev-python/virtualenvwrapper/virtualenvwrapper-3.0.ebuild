@@ -4,10 +4,11 @@
 
 EAPI=3
 SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2:2.6"
+PYTHON_DEPEND="*:2.6"
 # 2.{4,5} is restricted due to 0o octal syntax
-# 3.x is restricted due to print and exception syntax
-RESTRICT_PYTHON_ABIS="2.[45] 3.*"
+RESTRICT_PYTHON_ABIS="2.[45]"
+
+LANGS="en es"
 
 inherit base jnrowe-pypi
 
@@ -15,8 +16,11 @@ DESCRIPTION="Extensions for virtualenv"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
+for _lang in ${LANGS}; do
+	IUSE="${IUSE} linguas_${_lang}"
+done
 
 DEPEND="dev-python/setuptools"
 # setuptools is required in RDEPEND for plugin functionality.
@@ -25,7 +29,7 @@ RDEPEND="${DEPEND}
 
 PATCHES=("${FILESDIR}"/${PN}-2.6.1-fix_script_location.patch)
 
-# Testsuite is quite faulty, restrict it until it is fixed
+# Testsuite is really quite faulty, restrict it until it is fixed
 RESTRICT="test"
 
 src_prepare() {
@@ -36,7 +40,8 @@ src_prepare() {
 src_install() {
 	distutils_src_install
 
-	for lang in en es; do
+	for lang in ${LANGS}; do
+		has ${lang} ${LINGUAS} || continue
 		docinto ${lang}
 		dodoc docs/${lang}/*
 		docinto html/${lang}

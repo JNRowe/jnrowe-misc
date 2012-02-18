@@ -16,7 +16,7 @@
  * Versions:
 
   * `0.4.1-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/gitflow/gitflow-0.4.1-r1.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.1-r2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/gitflow/gitflow-0.4.1-r2.ebuild>`__  ``~amd64`` (due 2012-02-16), ``~x86`` (due 2012-05-16)
+  * `0.4.1-r2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/gitflow/gitflow-0.4.1-r2.ebuild>`__  ``~amd64`` (due 2012-04-16), ``~x86`` (due 2012-05-16)
 
 * ``gitserve`` - https://github.com/jezdez/git-serve/
 
@@ -33,5 +33,5 @@
  * Versions:
 
   * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/pepper/pepper-0.2.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/pepper/pepper-0.3.ebuild>`__  ``~amd64`` (due 2012-02-17), ``~x86`` (due 2012-02-17)
+  * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/pepper/pepper-0.3.ebuild>`__  ``amd64``, ``~x86`` (due 2012-02-17)
 
