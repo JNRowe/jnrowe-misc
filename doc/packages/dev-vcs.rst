@@ -32,6 +32,5 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/pepper/pepper-0.2.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/pepper/pepper-0.3.ebuild>`__  ``amd64``, ``~x86`` (due 2012-02-17)
+  * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/pepper/pepper-0.3.ebuild>`__  ``amd64``, ``x86``
 

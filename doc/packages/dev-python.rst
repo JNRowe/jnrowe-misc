@@ -247,8 +247,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.4.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/isodate/isodate-0.4.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/isodate/isodate-0.4.6.ebuild>`__  ``amd64``, ``~x86`` (due 2012-02-17)
+  * `0.4.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/isodate/isodate-0.4.6.ebuild>`__  ``amd64``, ``x86``
   * `0.4.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/isodate/isodate-0.4.7.ebuild>`__  ``~amd64`` (due 2012-03-02), ``~x86`` (due 2012-03-02)
 
 * ``lettuce`` - http://lettuce.it/
@@ -437,8 +436,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyscss/pyscss-1.0.8.ebuild>`__  ``amd64``, ``x86``
-  * `1.1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyscss/pyscss-1.1.3.ebuild>`__  ``amd64``, ``~x86`` (due 2012-02-17)
+  * `1.1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyscss/pyscss-1.1.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``python-faker`` - http://pypi.python.org/pypi/python-faker/
 
@@ -647,8 +645,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `2.10.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.10.1.ebuild>`__  ``amd64``, ``x86``
-  * `2.11.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.11.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-02-17)
+  * `2.11.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.11.1.ebuild>`__  ``amd64``, ``x86``
   * `3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-3.0.ebuild>`__  ``~amd64`` (due 2012-03-06), ``~x86`` (due 2012-03-06)
 
 * ``webcolors`` - http://pypi.python.org/pypi/webcolors/
@@ -681,6 +678,5 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/xerox/xerox-0.2.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/xerox/xerox-0.3.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-02-17)
+  * `0.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/xerox/xerox-0.3.1.ebuild>`__  ``amd64``, ``x86``
 
