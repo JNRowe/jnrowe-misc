@@ -352,12 +352,12 @@ culled.
 ``wingide``
 '''''''''''
 
-    The upstream packaging is a shocking mess.  Both versions supported by the
+    The upstream packaging was a shocking mess.  Both versions supported by the
     ``ebuilds`` contain bundled releases of ``Python`` and ``GTK+`` with easily
     exploitable security vulnerabilities, and only the ``GTK+`` problems are
     easily worked around.
 
-    After some months, nobody has stepped up to maintain the ``ebuilds`` beyond
+    After some months, nobody stepped up to maintain the ``ebuilds`` beyond
     one-off bugfixes.
 
 :Reason: Culled
