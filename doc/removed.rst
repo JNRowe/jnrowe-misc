@@ -391,7 +391,8 @@ culled.
 ``sgt-puzzles``
 '''''''''''''''
 
-    This still exists as we're waiting for a version to be stabilised.
+    This exists in ``::shadow`` until an upstream ``ebuild`` has equivalent
+    keywords.
 
 :Reason: Moved to ``::shadow``
 :Commit: 36eb5d0922efb058f8c0feea29564a9e4e5ae48e
