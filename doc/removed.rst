@@ -225,7 +225,7 @@ culled.
 ``rednose``
 '''''''''''
 
-    Doesn't work correctly with doctests.
+    Doesn't work correctly with ``doctests``, alternatives exist.
 
 :Reason: Culled
 :Commit: 343993fe02cecbbdf1b57880e41b4e393a6345df
