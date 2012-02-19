@@ -388,7 +388,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `2.05 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycparser/pycparser-2.05.ebuild>`__  ``~amd64`` (due 2012-02-19), ``~x86`` (due 2012-02-19)
+  * `2.05 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycparser/pycparser-2.05.ebuild>`__  ``~amd64`` (due 2012-02-19), ``~x86`` (due 2012-06-18)
 
 * ``pycukes`` - https://github.com/hugobr/pycukes
 
