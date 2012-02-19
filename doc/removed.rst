@@ -518,7 +518,8 @@ culled.
 ``opera-remote``
 ''''''''''''''''
 
-    Doesn't work with recent ``Opera`` versions.
+    Doesn't work correctly with recent ``Opera`` versions, and the built-in
+    command line interface has improved greatly.
 
 :Reason: Culled
 :Commit: 77683d8f8f9061c539be6dbfa1ede8386d0333e3
