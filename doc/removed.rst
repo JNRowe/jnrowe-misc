@@ -599,11 +599,12 @@ culled.
 ``parti``
 '''''''''
 
-    Closes #6.
+    An ``ebuild`` now exists upstream.
 
 :Reason: Moved to ``::shadow``
 :Commit: c3d01805b7faa124f507f80b635f0608030a4a5c
 :Removal date: 2010-10-08
+:Issues: #6
 
 ``subtle``
 ''''''''''
