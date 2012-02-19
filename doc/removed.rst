@@ -258,7 +258,8 @@ culled.
 ``rudolf``
 ''''''''''
 
-    Unacceptable runtime increase, breaks reporting for other plugins.
+    Significantly increased ``nose`` run time, and broke reporting for other
+    plugins we commonly used.
 
 :Reason: Culled
 :Commit: 646671c0a6236338c1e17482834c7a3ae3b939e4
