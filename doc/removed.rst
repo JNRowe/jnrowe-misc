@@ -248,8 +248,8 @@ culled.
 ``restview``
 ''''''''''''
 
-    Broken and needs heavy patching, upstream is on launchpad so fixing it is
-    out of the question.
+    Buggy in places, and upstream is unfortunately on launchpad.  ``rstctl``
+    provides similar functionality.
 
 :Reason: Culled
 :Commit: 9271790e1475cf035340c6d2ab9a0b31f44e431b
