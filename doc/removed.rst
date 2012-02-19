@@ -328,11 +328,13 @@ culled.
 ``fossil``
 ''''''''''
 
-    There is now a version in the tree, and the ``ebuilds`` will still exist in
-    ``::fixes`` until a version has equal keywords.  The upgrade isn't exactly
-    seamless, but shouldn't cause significant problems.
+    There is now a version in the tree, although the ``ebuilds`` will still
+    exist in ``::fixes`` until an upstream ``ebuild`` has equivalent keywords.
+    The upgrade isn't exactly seamless, but shouldn't cause significant
+    problems.
 
-    Note the version numbers in the in-tree versions.
+    Note the version numbers in the in-tree versions, if you're authoring
+    ``ebuilds`` with dependencies on ``fossil``
 
 :Reason: Moved to ``::shadow``
 :Commit: 1954746e2645ae789cf4aeba7fb5e5ca8985d803
