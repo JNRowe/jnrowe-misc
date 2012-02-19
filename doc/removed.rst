@@ -308,8 +308,9 @@ culled.
 ``be``
 ''''''
 
-    Incompatible with new "releases", new code is too slow and far too buggy for
-    everyday use.  Alternatives to ``Bugs Everywhere`` such as ``ditz`` exist.
+    The release we were using is incompatible with the then current codebase.
+    The newer code was far slower and a little too unstable for everyday use.
+    Alternatives to ``Bugs Everywhere`` such as ``ditz`` exist.
 
 :Reason: Culled
 :Commit: b24e7c8e618b8c0f485f8dcdb2744b6275f8c5b1
