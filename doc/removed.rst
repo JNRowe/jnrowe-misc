@@ -562,7 +562,9 @@ culled.
 ``vicious``
 '''''''''''
 
-    Users should've be attempting to migrate to upstream ebuilds.
+    Users should have migrated to the new upstream ``ebuilds``, but the upgrade
+    path isn't very clean so it is expected some ``ebuilds`` will remain in
+    ``::shadow`` for some time.
 
 :Reason: Moved to ``::shadow``
 :Commit: 9072fe6a9985758724f45d68a8825b1fb9f0491d
