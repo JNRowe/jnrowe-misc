@@ -540,9 +540,8 @@ culled.
 ``notify-osd``
 ''''''''''''''
 
-    It really is unsupportable.
-
-    Luckily this was never unmasked, so doesn't need a grace period.
+    This packages was found to be unsupportable, even to the level required
+    while it was masked.
 
 :Reason: Moved to ``::shadow``
 :Commit: d8741f966e518b7bba6e93744f16676d75674f34
