@@ -152,7 +152,7 @@ culled.
 ``gevent``
 ''''''''''
 
-    This was only required by ``requests``.
+    This was only required by ``requests``, which has been removed.
 
 :Reason: Culled
 :Commit: 8373189cae83217b14ece3466b51b7eeb3d0f32e
@@ -207,7 +207,7 @@ culled.
 ``poster``
 ''''''''''
 
-    This was only every needed by ``requests``.
+    This was only needed by ``requests``, which has been removed.
 
 :Reason: Culled
 :Commit: 0195603d254d954ba75b0318426b8170840f6c12
@@ -234,14 +234,12 @@ culled.
 ``requests``
 ''''''''''''
 
-    New releases bundle even more libraries, which makes supporting this package
-    even more laborious and prone to error.  The latest releases are
-    incompatible with the currently packaged versions.
+    New releases bundle libraries, which makes supporting this package quite
+    laborious and prone to error.  Releases at the time of removal were
+    not very stable.
 
     See ``mleighy`` if you need help porting packages with dependencies on
-    ``requests`` to alternatives.  Note that even though a version is now
-    packaged in the upstream tree it will remain masked across our sites, as it
-    is heavily broken.
+    ``requests`` to alternatives.
 
 :Reason: Culled
 :Commit: 050c16c71805668c9e21576f09efc2e4b692002d
