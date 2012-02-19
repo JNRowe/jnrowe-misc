@@ -132,7 +132,7 @@ culled.
 ``clevercss2``
 ''''''''''''''
 
-    It is too broken to use.
+    The implementation was not suitable for our needs
 
 :Reason: Culled
 :Commit: 89dffdfd2ec84a4259ce73819711f46b2f806cb4
