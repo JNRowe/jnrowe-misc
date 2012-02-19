@@ -478,9 +478,8 @@ culled.
     This one was a very, very, very long time coming...
 
     This can't be handled by just moving the current ``ebuild`` to ``::fixes``,
-    as the upgrade path is fiercely ugly.  The in-tree ``ebuild`` installs to
-    non-standard locations, has a lower version number and still isn't
-    keyworded.
+    as the upgrade path is fiercely ugly.  The shadowed ``ebuild`` is expected
+    to be around for quite some time still.
 
 :Reason: Moved to ``::shadow``
 :Commit: 2f09d163876dcc7832509844a7e6160598c8ed75
