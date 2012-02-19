@@ -161,8 +161,8 @@ culled.
 ``gistapi``
 '''''''''''
 
-    Masked for removal because the dependencies in new releases are
-    unsupportable.
+    Masked for removal because the dependencies in new releases aren't
+    supported on our deploy systems.
 
 :Reason: Culled
 :Commit: df715ff0624155460d12a74d245a4d4418794306
