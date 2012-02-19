@@ -114,7 +114,9 @@ culled.
 ``bpython``
 '''''''''''
 
-    It is too broken for day-to-day usage, and is practically unsupportable.
+    Its line editing support is quite weak, and it provides little benefit over
+    the standard ``python`` interpreter.  The level of maintenance needed was
+    higher than the benefit it gave.
 
 :Reason: Culled
 :Commit: 36cf5f2e3d542acba23668658d19cb4cd9144ab7
