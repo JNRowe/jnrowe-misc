@@ -427,14 +427,13 @@ culled.
 ``psplash``
 '''''''''''
 
-    Better alternatives exist, including ``busybox``'s ``fbsplash`` and
+    Supported alternatives exist, including ``busybox``'s ``fbsplash`` and
     ``plymouth``.
-
-    Closes #141.
 
 :Reason: Culled
 :Commit: 39fc52f8ff06e8a87c905f666fe73535fb8fe05a
 :Removal date: 2011-02-26
+:Issues: #141
 
 ``sxiv``
 ''''''''
