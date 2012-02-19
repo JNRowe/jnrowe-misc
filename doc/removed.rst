@@ -83,7 +83,8 @@ culled.
 ``hpodder``
 '''''''''''
 
-    Haskell support is too brittle to keep this.
+    Haskell support was too brittle to keep this, and ``castget`` is
+    a reasonable replacement.
 
 :Reason: Culled
 :Commit: ecf3e6886a0586acfb3fdd64b62ddf4a871b8486
