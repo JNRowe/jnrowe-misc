@@ -440,11 +440,10 @@ culled.
 
     Package now exists upstream.
 
-    Refs #457.
-
 :Reason: Culled
 :Commit: 523c04503755e308d1384cebe3bf4403dec5aa51
 :Removal date: 2011-08-27
+:Issues: #457
 
 ``media-sound``
 ~~~~~~~~~~~~~~~
