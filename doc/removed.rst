@@ -286,7 +286,8 @@ culled.
 ``termstyle``
 '''''''''''''
 
-    Cost of supporting too high, plenty of alternatives.
+    Unfortunately no longer packaged in a standard manner, and plenty of
+    alternatives exist.
 
 :Reason: Culled
 :Commit: 06e15f172e696c40db3a369f0389aa34f9f9c28b
