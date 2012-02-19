@@ -589,7 +589,7 @@ culled.
 ``matwm2``
 ''''''''''
 
-    Moved to ``::fixes`` until a working version with equal keywords is
+    Moved to ``::fixes`` until a working version with equivalent keywords is
     available.
 
 :Reason: Moved to ``::shadow``
