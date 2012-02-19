@@ -492,12 +492,13 @@ culled.
 ''''''''''''''''
 
     There is now a version in the tree, and the ``ebuilds`` will still exist in
-    ``::fixes`` until a version has equal keywords.  See AST #249971 for some
-    unfortunate details of the upgrade path.
+    ``::fixes`` until a version has equivalent keywords.  See the linked bug for
+    some unfortunate details of the upgrade path.
 
 :Reason: Moved to ``::shadow``
 :Commit: 61af9a273236cf988095914cde2769b19c8d5a25
 :Removal date: 2010-01-20
+:Issues: AST#249971
 
 ``www-apps``
 ~~~~~~~~~~~~
