@@ -216,7 +216,7 @@ culled.
 ``python-gnupg``
 ''''''''''''''''
 
-    Alternatives exist, maintenance burden too high.
+    Alternatives exist, maintenance costs higher than benefit.
 
 :Reason: Culled
 :Commit: c350e281c851b12eb9c459d51f5d1d0db0fef4af
