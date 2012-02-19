@@ -123,7 +123,7 @@ culled.
 ``cleancss``
 ''''''''''''
 
-    It doesn't support enough CSS syntax to be usable.
+    It didn't support enough CSS syntax to be usable for our needs.
 
 :Reason: Culled
 :Commit: 38a03c8326c6f61694f7cd41bc7556b6dc354f0e
