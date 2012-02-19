@@ -404,9 +404,9 @@ culled.
 ``notmuch``
 '''''''''''
 
-    There is an ``ebuild`` upstream for ``notmuch`` now, and the local version
-    will be removed.  The upgrade path is incredibly ugly and some features are
-    not supported, but this is a final decision as shadowing is even nastier.
+    There is now an upstream ``ebuild`` for ``notmuch``, and the local version
+    will be removed at some point.  The upgrade path is incredibly ugly and some
+    features are not supported, so this situation may last sometime.
 
 :Reason: Moved to ``::shadow``
 :Commit: 66e7659e2d393dff924062b06348bd4f6cb51043
