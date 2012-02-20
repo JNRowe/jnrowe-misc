@@ -16,5 +16,5 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/github-cli/github-cli-1.0.0.ebuild>`__  ``amd64``, ``x86``
+  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/github-cli/github-cli-1.0.0.ebuild>`__  ``amd64``, ``x86`` (masked by ``package.mask``)
 
