@@ -433,7 +433,7 @@ culled.
 :Reason: Culled
 :Commit: `39fc52f8 <https://github.com/JNRowe/jnrowe-misc/commit/39fc52f8ff06e8a87c905f666fe73535fb8fe05a>`__
 :Removal date: 2011-02-26
-:Issues: #141
+:Issues: `#141 <http://github.com/JNRowe/jnrowe-misc/issues/141>`__
 
 ``sxiv``
 ''''''''
@@ -443,7 +443,7 @@ culled.
 :Reason: Culled
 :Commit: `523c0450 <https://github.com/JNRowe/jnrowe-misc/commit/523c04503755e308d1384cebe3bf4403dec5aa51>`__
 :Removal date: 2011-08-27
-:Issues: #457
+:Issues: `#457 <http://github.com/JNRowe/jnrowe-misc/issues/457>`__
 
 ``media-sound``
 ~~~~~~~~~~~~~~~
@@ -604,7 +604,7 @@ culled.
 :Reason: Moved to ``::shadow``
 :Commit: `c3d01805 <https://github.com/JNRowe/jnrowe-misc/commit/c3d01805b7faa124f507f80b635f0608030a4a5c>`__
 :Removal date: 2010-10-08
-:Issues: #6
+:Issues: `#6 <http://github.com/JNRowe/jnrowe-misc/issues/6>`__
 
 ``subtle``
 ''''''''''
