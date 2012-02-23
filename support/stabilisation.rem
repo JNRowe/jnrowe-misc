@@ -1,4 +1,3 @@
-REM 2012-02-23 *1 MSG %"Stabilise amd64 app-misc/hammertime-0.1.4%" %a
 REM 2012-02-23 *1 MSG %"Stabilise x86 app-misc/hammertime-0.1.4%" %a
 REM 2012-02-29 *1 MSG %"Stabilise amd64 app-misc/pytrainer-1.9.1%" %a
 REM 2012-02-29 *1 MSG %"Stabilise x86 app-misc/pytrainer-1.9.1%" %a
@@ -63,6 +62,7 @@ REM 2012-04-16 *1 MSG %"Stabilise amd64 dev-vcs/gitflow-0.4.1-r2%" %a
 REM 2012-04-17 *1 MSG %"Stabilise amd64 app-misc/hubugs-0.12.0%" %a
 REM 2012-04-23 *1 MSG %"Stabilise amd64 media-gfx/sphinxcontrib-mscgen-0.4%" %a
 REM 2012-04-23 *1 MSG %"Stabilise x86 media-gfx/sphinxcontrib-mscgen-0.4%" %a
+REM 2012-04-23 *1 MSG %"Stabilise amd64 app-misc/hammertime-0.1.4%" %a
 
 REM 2012-05-01 *1 MSG %"Stabilise amd64 dev-util/ditz-0.5-r1%" %a
 REM 2012-05-01 *1 MSG %"Stabilise x86 dev-util/ditz-0.5-r1%" %a
