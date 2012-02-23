@@ -63,4 +63,14 @@ def open_bug(args):
 @argh.arg('cpv', help='Fully qualified package identifier')
 def bump_pkg(args):
     """Open a version bump bug"""
-    open_bug('%s version bump.' % args.cpv, '', 'feature')
+    if not Github:
+        raise argh.CommandError(fail("Opening bugs requires the github2 "
+                                     "Python package"))
+    user = cmd_output('git config github.user')
+    token = cmd_output('git config github.token')
+    project_url = cmd_output('git config remote.origin.url')
+    project = search('github.com[:/]([^/]+/.*).git', project_url).groups()[0]
+    github = Github(username=user, api_token=token)
+    new_issue = github.issues.open(project, '%s version bump.' % args.cpv, '')
+    github.issues.add_label(project, new_issue.number, 'feature')
+    yield success("Issue #%d opened!" % new_issue.number)
