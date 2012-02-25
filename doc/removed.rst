@@ -177,6 +177,19 @@ culled.
 :Commit: `1bdc71fe <https://github.com/JNRowe/jnrowe-misc/commit/1bdc71fe54b695ed4e93b9a9828da165f4718284>`__
 :Removal date: 2011-09-13
 
+``github2``
+'''''''''''
+
+    ``github2`` now packaged upstream.
+
+    Upgrade path is ugly.  No Python 3 support in Gentoo's ``httplib2``, no built
+    docs, no 2.4 or 2.5 support.  Will be supported for the foreseeable future.
+
+:Reason: Moved to ``::shadow``
+:Commit: `fc7d12f8 <https://github.com/JNRowe/jnrowe-misc/commit/fc7d12f8a451ed83dfecdb6976a3800c3fbb148b>`__
+:Removal date: 2012-02-26
+:Issues: :issue:`{issue.title} (#{issue.id}) <551>`
+
 ``git-python``
 ''''''''''''''
 
