@@ -185,14 +185,6 @@
 
   * `0.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/genzshcomp/genzshcomp-0.2.2.ebuild>`__  ``amd64``, ``x86``
 
-* ``github2`` - http://pypi.python.org/pypi/github2/
-
- * Github API v2 library for Python
- * Licence: ``BSD``
- * Versions:
-
-  * `0.6.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.6.0.ebuild>`__  ``~amd64`` (due 2012-03-20), ``~x86`` (due 2012-03-20)
-
 * ``gpxdata`` - http://www.kette-links.de/technik/
 
  * OO representation of GPX and conversion utilities between GPX, KML and OVL

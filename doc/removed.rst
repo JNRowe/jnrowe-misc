@@ -177,6 +177,16 @@ culled.
 :Commit: `1bdc71fe <https://github.com/JNRowe/jnrowe-misc/commit/1bdc71fe54b695ed4e93b9a9828da165f4718284>`__
 :Removal date: 2011-09-13
 
+``github2``
+'''''''''''
+
+    ``github2`` now packaged upstream.
+
+:Reason: Moved to ``::shadow``
+:Commit: 
+:Removal date: 2012-02-26
+:Issues: :issue:`{issue.title} (#{issue.id}) <551>`
+
 ``git-python``
 ''''''''''''''
 
