@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*flake8-1.1 (25 Feb 2012)
+
+  25 Feb 2012; James Rowe <jnrowe@gmail.com> +flake8-1.1.ebuild:
+  Version bump [558].
+
   20 Jan 2012; James Rowe <jnrowe@gmail.com> flake8-1.0.ebuild:
   Keyworded x86.
 
