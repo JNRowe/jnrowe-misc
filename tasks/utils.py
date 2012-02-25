@@ -1,9 +1,15 @@
 from inspect import stack
 from os import path
+from re import search
 from subprocess import check_output
 
 import argh
 import blessings
+
+try:
+    from github2.client import Github
+except ImportError:
+    Github = None  # NOQA
 
 
 T = blessings.Terminal()
@@ -71,3 +77,17 @@ def dep(targets, sources, mapping=False):
 
 def cmd_output(command):
     return check_output(command.split()).strip()
+
+
+def create_gh_client():
+    if not Github:
+        raise argh.CommandError(fail("Opening bugs requires the github2 "
+                                     "Python package"))
+    user = cmd_output('git config github.user')
+    token = cmd_output('git config github.token')
+    return Github(username=user, api_token=token)
+
+
+def fetch_project_name():
+    project_url = cmd_output('git config remote.origin.url')
+    return search('github.com[:/]([^/]+/.*).git', project_url).groups()[0]

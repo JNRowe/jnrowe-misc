@@ -1,16 +1,10 @@
 import datetime
 
 from glob import glob
-from re import search
-from sys import exit
 import argh
 
-try:
-    from github2.client import Github
-except ImportError:
-    Github = None  # NOQA
-
-from utils import (cmd_output, command, fail, success)
+from utils import (command, create_gh_client, fail, fetch_project_name,
+                   success)
 
 
 @command
@@ -45,14 +39,8 @@ def gen_stable(args):
 @argh.arg('label', nargs='?', help='Initial label for bug')
 def open_bug(args):
     """Open a new bump bug"""
-    if not Github:
-        raise argh.CommandError(fail("Opening bugs requires the github2 "
-                                     "Python package"))
-    user = cmd_output('git config github.user')
-    token = cmd_output('git config github.token')
-    project_url = cmd_output('git config remote.origin.url')
-    project = search('github.com[:/]([^/]+/.*).git', project_url).groups()[0]
-    github = Github(username=user, api_token=token)
+    github = create_gh_client()
+    project = fetch_project_name()
     new_issue = github.issues.open(project, args.title, args.body)
     if args.label:
         github.issues.add_label(project, new_issue.number, args.label)
@@ -63,14 +51,9 @@ def open_bug(args):
 @argh.arg('cpv', help='Fully qualified package identifier')
 def bump_pkg(args):
     """Open a version bump bug"""
-    if not Github:
-        raise argh.CommandError(fail("Opening bugs requires the github2 "
-                                     "Python package"))
-    user = cmd_output('git config github.user')
-    token = cmd_output('git config github.token')
-    project_url = cmd_output('git config remote.origin.url')
-    project = search('github.com[:/]([^/]+/.*).git', project_url).groups()[0]
-    github = Github(username=user, api_token=token)
+    github = create_gh_client()
+    project = fetch_project_name()
+    new_issue = github.issues.open(project, args.title, args.body)
     new_issue = github.issues.open(project, '%s version bump.' % args.cpv, '')
     github.issues.add_label(project, new_issue.number, 'feature')
     yield success("Issue #%d opened!" % new_issue.number)
