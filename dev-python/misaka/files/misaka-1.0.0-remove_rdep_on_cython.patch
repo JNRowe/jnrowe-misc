@@ -1,0 +1,12 @@
+diff --git i/setup.py w/setup.py
+index cca1ff3..bf741c7 100644
+--- i/setup.py
++++ w/setup.py
+@@ -17,7 +17,6 @@ setup(
+     url='http://misaka.61924.nl/',
+     license='MIT',
+     long_description=open('README.rst').read(),
+-    install_requires=['cython'],
+     cmdclass = {'build_ext': build_ext},
+     ext_modules=[Extension('misaka', [
+         'src/misaka.pyx',
