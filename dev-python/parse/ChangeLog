@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*parse-1.4.1 (05 Feb 2012)
+
+  05 Feb 2012; James Rowe <jnrowe@gmail.com> +parse-1.4.1.ebuild:
+  Version bump [543].
+
   01 Feb 2012; James Rowe <jnrowe@gmail.com> parse-1.4.ebuild:
   Removed README.rst from DOCS, it is handled by eclass.
 

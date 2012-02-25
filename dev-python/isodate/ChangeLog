@@ -2,6 +2,18 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  18 Feb 2012; James Rowe <jnrowe@gmail.com> -isodate-0.4.4.ebuild,
+  isodate-0.4.6.ebuild:
+  Keyworded x86.
+
+  17 Feb 2012; James Rowe <jnrowe@gmail.com> isodate-0.4.6.ebuild:
+  Keyworded amd64.
+
+*isodate-0.4.7 (01 Feb 2012)
+
+  01 Feb 2012; James Rowe <jnrowe@gmail.com> +isodate-0.4.7.ebuild:
+  Version bump [534].
+
 *isodate-0.4.6 (18 Jan 2012)
 
   18 Jan 2012; James Rowe <jnrowe@gmail.com> +isodate-0.4.6.ebuild:

@@ -15,7 +15,8 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hammertime/hammertime-0.1.4.ebuild>`__  ``~amd64`` (due 2012-02-23), ``~x86`` (due 2012-02-23)
+  * `0.1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hammertime/hammertime-0.1.4.ebuild>`__  ``~amd64`` (due 2012-04-23), ``~x86`` (due 2012-05-23)
+  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hammertime/hammertime-0.2.4.ebuild>`__  ``~amd64`` (due 2012-03-02), ``~x86`` (due 2012-03-02)
 
 * ``hubugs`` - http://pypi.python.org/pypi/hubugs/
 
@@ -23,8 +24,8 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.11.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.11.0.ebuild>`__  ``~amd64`` (due 2012-02-06), ``~x86`` (due 2012-02-04)
-  * `0.12.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.12.0.ebuild>`__  ``~amd64`` (due 2012-02-17), ``~x86`` (due 2012-02-17)
+  * `0.11.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.11.0.ebuild>`__  ``~amd64`` (due 2012-04-06), ``~x86`` (due 2012-04-04)
+  * `0.12.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.12.0.ebuild>`__  ``~amd64`` (due 2012-04-17), ``~x86`` (due 2012-05-17)
 
 * ``jsonpipe`` - http://pypi.python.org/pypi/jsonpipe/
 
@@ -33,6 +34,7 @@
  * Versions:
 
   * `0.0.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/jsonpipe/jsonpipe-0.0.8.ebuild>`__  ``amd64``, ``x86``
+  * `0.0.8-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/jsonpipe/jsonpipe-0.0.8-r1.ebuild>`__  ``~amd64`` (due 2012-03-21), ``~x86`` (due 2012-03-21)
 
 * ``libeatmydata`` - http://www.flamingspork.com/projects/libeatmydata/
 

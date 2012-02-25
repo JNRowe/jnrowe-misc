@@ -9,5 +9,5 @@ LICENSE=BSD
 RDEPEND=dev-python/pyserial net-dialup/ppp dbus? ( dev-python/dbus-python ) >=app-admin/eselect-python-20091230 =dev-lang/python-2*
 SLOT=0
 SRC_URI=http://pyhumod.googlecode.com/files/pyhumod-0.03.tar.gz
-_eclasses_=distutils	c8b0cab86443a130f3737ad1456d57d3	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	5526ca0199105d7b31120cf9d0bda586	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68
+_eclasses_=distutils	c8b0cab86443a130f3737ad1456d57d3	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	ba318f39f69a4478c5097f9ccf8c1173	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68
 _md5_=b08b7ac1988cfe787880c985e5d8b538

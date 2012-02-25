@@ -1,11 +1,41 @@
-from functools import update_wrapper
+from inspect import stack
 from os import path
+from subprocess import check_output
 
-from cake.lib import puts
+import argh
+import blessings
 
 
-def empty_rule(f):
-    puts('{yellow}Nothing to do for %r' % f.__name__)
+T = blessings.Terminal()
+
+
+def success(text):
+    return T.bright_green(text)
+
+
+def fail(text):
+    return T.bright_red(text)
+
+
+def warn(text):
+    return T.bright_yellow(text)
+
+
+COMMANDS = []
+
+
+def command(func):
+    """Simple decorator to add function to ``COMMANDS`` list
+
+    The purpose of this decorator is to make the definition of commands simpler
+    by reducing duplication, it is purely a convenience.
+
+    :param func func: Function to wrap
+    :rtype: func
+    :returns: Original function
+    """
+    COMMANDS.append(func)
+    return func
 
 
 def newer(file1, file2):
@@ -23,21 +53,21 @@ def newer(file1, file2):
 
 
 def dep(targets, sources, mapping=False):
-    def wrapper(f):
-        rebuild = False
-        if not all(map(path.exists, targets)):
-            rebuild = True
+    rebuild = False
+    if not all(map(path.exists, targets)):
+        rebuild = True
+    else:
+        if not mapping:
+            target_mtime = min(map(path.getmtime, targets))
+            if any(filter(lambda x: newer(x, target_mtime), sources)):
+                rebuild = True
         else:
-            if not mapping:
-                target_mtime = min(map(path.getmtime, targets))
-                if any(filter(lambda x: newer(x, target_mtime), sources)):
-                    rebuild = True
-            else:
-                rebuild = not all(newer(s, t)
-                                  for s, t in zip(targets, sources))
-        if rebuild:
-            return f
-        else:
-            return update_wrapper(lambda: empty_rule(f), f)
+            rebuild = not all(newer(s, t)
+                              for s, t in zip(targets, sources))
+    if not rebuild:
+        f_name = stack()[1][0].f_locals['args'].function.func_name
+        raise argh.CommandError(success('Nothing to do for %s' % f_name))
 
-    return wrapper
+
+def cmd_output(command):
+    return check_output(command.split()).strip()

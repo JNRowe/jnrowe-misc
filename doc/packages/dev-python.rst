@@ -31,7 +31,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.5.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/attest/attest-0.5.2.ebuild>`__  ``~amd64`` (due 2012-02-19), ``~x86`` (due 2012-03-24)
+  * `0.5.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/attest/attest-0.5.2.ebuild>`__  ``~amd64`` (due 2012-03-20), ``~x86`` (due 2012-03-24)
 
 * ``behave`` - http://pypi.python.org/pypi/behave/
 
@@ -48,6 +48,14 @@
  * Versions:
 
   * `3.0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/benchmarker/benchmarker-3.0.1.ebuild>`__  ``amd64``, ``x86``
+
+* ``blessings`` - http://pypi.python.org/pypi/blessings/
+
+ * Thin and practical terminal formatting, positioning, and more
+ * Licence: ``MIT``
+ * Versions:
+
+  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.3.ebuild>`__  ``~amd64`` (due 2012-03-02), ``~x86`` (due 2012-03-02)
 
 * ``calabash`` - http://pypi.python.org/pypi/calabash/
 
@@ -239,8 +247,8 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.4.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/isodate/isodate-0.4.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/isodate/isodate-0.4.6.ebuild>`__  ``~amd64`` (due 2012-02-17), ``~x86`` (due 2012-02-17)
+  * `0.4.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/isodate/isodate-0.4.6.ebuild>`__  ``amd64``, ``x86``
+  * `0.4.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/isodate/isodate-0.4.7.ebuild>`__  ``~amd64`` (due 2012-03-02), ``~x86`` (due 2012-03-02)
 
 * ``lettuce`` - http://lettuce.it/
 
@@ -249,6 +257,16 @@
  * Versions:
 
   * `0.1.33 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.33.ebuild>`__  ``amd64``, ``x86``
+  * `0.1.34 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.34.ebuild>`__  ``~amd64`` (due 2012-03-02), ``~x86`` (due 2012-03-02)
+
+* ``misaka`` - http://pypi.python.org/pypi/misaka/
+
+ * Python binding for the Sundown Markdown parser
+ * Licence: ``MIT``
+ * Versions:
+
+  * `0.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/misaka/misaka-0.4.2.ebuild>`__  ``~amd64`` (due 2012-03-02), ``~x86`` (due 2012-03-02)
+  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/misaka/misaka-1.0.0.ebuild>`__  ``~amd64`` (due 2012-03-06), ``~x86`` (due 2012-03-06)
 
 * ``mod2doctest`` - http://pypi.python.org/pypi/mod2doctest/
 
@@ -282,6 +300,14 @@
 
   * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-pathmunge/nose-pathmunge-0.1.2.ebuild>`__  ``amd64``, ``x86``
 
+* ``nose-progressive`` - http://pypi.python.org/pypi/nose-progressive/
+
+ * Nose plugin to show progress bar and tracebacks during tests
+ * Licence: ``MIT``
+ * Versions:
+
+  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-progressive/nose-progressive-1.3.ebuild>`__  ``~amd64`` (due 2012-03-03), ``~x86`` (due 2012-03-03)
+
 * ``nosetty`` - http://code.google.com/p/nosetty/
 
  * A plugin to run nosetests more interactively
@@ -297,6 +323,7 @@
  * Versions:
 
   * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.4.ebuild>`__  ``~amd64`` (due 2012-02-29), ``~x86`` (due 2012-02-29)
+  * `1.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.4.1.ebuild>`__  ``~amd64`` (due 2012-03-06), ``~x86`` (due 2012-03-06)
 
 * ``pdbpp`` - http://pypi.python.org/pypi/pdbpp/
 
@@ -313,6 +340,7 @@
  * Versions:
 
   * `0.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.4.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.5.1.ebuild>`__  ``~amd64`` (due 2012-03-03), ``~x86`` (due 2012-03-03)
 
 * ``pinocchio`` - http://darcs.idyll.org/~t/projects/pinocchio/doc/
 
@@ -360,8 +388,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `2.04 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycparser/pycparser-2.04.ebuild>`__  ``~amd64`` (due 2012-02-02), ``~x86`` (due 2012-02-02)
-  * `2.05 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycparser/pycparser-2.05.ebuild>`__  ``~amd64`` (due 2012-02-19), ``~x86`` (due 2012-02-19)
+  * `2.05 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycparser/pycparser-2.05.ebuild>`__  ``~amd64`` (due 2012-05-19), ``~x86`` (due 2012-06-18)
 
 * ``pycukes`` - https://github.com/hugobr/pycukes
 
@@ -409,8 +436,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyscss/pyscss-1.0.8.ebuild>`__  ``amd64``, ``x86``
-  * `1.1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyscss/pyscss-1.1.3.ebuild>`__  ``~amd64`` (due 2012-02-17), ``~x86`` (due 2012-02-17)
+  * `1.1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyscss/pyscss-1.1.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``python-faker`` - http://pypi.python.org/pypi/python-faker/
 
@@ -442,7 +468,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2012-02-04), ``~x86`` (due 2012-02-04)
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2012-04-04), ``~x86`` (due 2012-05-04)
 
 * ``see`` - http://inky.github.com/see/
 
@@ -619,8 +645,8 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `2.10.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.10.1.ebuild>`__  ``amd64``, ``x86``
-  * `2.11.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.11.1.ebuild>`__  ``~amd64`` (due 2012-02-17), ``~x86`` (due 2012-02-17)
+  * `2.11.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.11.1.ebuild>`__  ``amd64``, ``x86``
+  * `3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-3.0.ebuild>`__  ``~amd64`` (due 2012-03-06), ``~x86`` (due 2012-03-06)
 
 * ``webcolors`` - http://pypi.python.org/pypi/webcolors/
 
@@ -652,6 +678,5 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/xerox/xerox-0.2.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/xerox/xerox-0.3.1.ebuild>`__  ``~amd64`` (due 2012-02-17), ``~x86`` (due 2012-02-17)
+  * `0.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/xerox/xerox-0.3.1.ebuild>`__  ``amd64``, ``x86``
 
