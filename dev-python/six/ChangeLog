@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/six
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*six-1.1.0 (25 Feb 2012)
+
+  25 Feb 2012; James Rowe <jnrowe@gmail.com> +six-1.1.0.ebuild, +metadata.xml,
+  +watch:
+  Initial ebuild, required for argh-0.15.0 [555].
+

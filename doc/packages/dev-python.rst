@@ -500,6 +500,14 @@
 
   * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/showme/showme-1.0.0.ebuild>`__  ``amd64``, ``x86``
 
+* ``six`` - http://pypi.python.org/pypi/six/
+
+ * Python 2 and 3 compatibility utilities
+ * Licence: ``MIT``
+ * Versions:
+
+  * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/six/six-1.1.0.ebuild>`__  ``~amd64`` (due 2012-03-26)
+
 * ``snot`` - http://pypi.python.org/pypi/snot/
 
  * nosetests output colourising plugin
