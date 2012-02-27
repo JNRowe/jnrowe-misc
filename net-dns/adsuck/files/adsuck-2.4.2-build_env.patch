@@ -1,0 +1,70 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Use system environment standards
+Status: LOCAL
+
+diff --git i/GNUmakefile w/GNUmakefile
+index a78fb9f..767127b 100644
+--- i/GNUmakefile
++++ w/GNUmakefile
+@@ -1,34 +1,32 @@
+-PREFIX?= /usr/local
++PREFIX?= /usr
+ BINDIR?= $(PREFIX)/bin
+ MANDIR?= $(PREFIX)/share/man
+ 
+-CFLAGS+= -O2 -Wall -ggdb -D_GNU_SOURCE -D_BSD_SOURCE -I.
++CFLAGS+= -Wall -D_GNU_SOURCE -D_BSD_SOURCE -I.
+ LDFLAGS+=
+ 
+ LDADD+= -lldns -levent
+ 
+-CC= gcc
+-
+ adsuck: adsuck.o log.o linux/strlcpy.o
+ 	$(CC) $(LDFLAGS) -o $@ $+ $(LDADD)
+ 
+ clean:
+ 	rm -f adsuck *.o linux/*.o
+ 
+-install: all
++install: adsuck
+ 	install -m 755 -d $(DESTDIR)$(BINDIR)
+-	install -m 755 -d $(DESTDIR)$(MANDIR)/man1
++	install -m 755 -d $(DESTDIR)$(MANDIR)/man8
+ 	install -m 755 adsuck $(DESTDIR)$(BINDIR)
+-	install -m 644 adsuck.1 $(DESTDIR)$(MANDIR)/man1/adsuck.1
+-	install -m 755 -d /var/adsuck/files
+-	install -m 644 files/hosts.small /var/adsuck/files
+-	install -m 644 files/hosts.yoyo /var/adsuck/files
+-	install -m 644 files/Hosts.blc /var/adsuck/files
+-	install -m 644 files/Hosts.mis /var/adsuck/files
+-	install -m 644 files/Hosts.pub /var/adsuck/files
+-	install -m 644 files/Hosts.rsk /var/adsuck/files
+-	install -m 644 files/Hosts.sex /var/adsuck/files
+-	install -m 644 files/Hosts.trc /var/adsuck/files
++	install -m 644 adsuck.8 $(DESTDIR)$(MANDIR)/man8
++	install -m 755 -d $(DESTDIR)/var/lib/adsuck/files
++	install -m 644 files/hosts.small $(DESTDIR)/var/lib/adsuck/files
++	install -m 644 files/hosts.yoyo $(DESTDIR)/var/lib/adsuck/files
++	install -m 644 files/Hosts.blc $(DESTDIR)/var/lib/adsuck/files
++	install -m 644 files/Hosts.mis $(DESTDIR)/var/lib/adsuck/files
++	install -m 644 files/Hosts.pub $(DESTDIR)/var/lib/adsuck/files
++	install -m 644 files/Hosts.rsk $(DESTDIR)/var/lib/adsuck/files
++	install -m 644 files/Hosts.sex $(DESTDIR)/var/lib/adsuck/files
++	install -m 644 files/Hosts.trc $(DESTDIR)/var/lib/adsuck/files
+ 
+ uninstall:
+ 	rm -f $(DESTDIR)$(BINDIR)/adsuck
+diff --git i/adsuck.c w/adsuck.c
+index a141af3..fa3449f 100644
+--- i/adsuck.c
++++ w/adsuck.c
+@@ -50,7 +50,7 @@
+ #define MAXLINE		(256)
+ #define INBUF_SIZE	(4096)
+ #define LOCALIP		"127.0.0.1"
+-#define ADSUCK_USER	"_adsuck"
++#define ADSUCK_USER	"adsuck"
+ 
+ struct ev_args {
+ 	char		**argv;
