@@ -5,3 +5,4 @@ Packages
    :glob:
 
    packages/*
+   removed

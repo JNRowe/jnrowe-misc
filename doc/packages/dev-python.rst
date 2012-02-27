@@ -32,7 +32,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.5.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/attest/attest-0.5.2.ebuild>`__  ``~amd64`` (due 2012-02-19), ``~x86`` (due 2012-03-24)
+  * `0.5.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/attest/attest-0.5.2.ebuild>`__  ``~amd64`` (due 2012-03-20), ``~x86`` (due 2012-03-24)
 
 * ``behave`` - http://pypi.python.org/pypi/behave/
 
@@ -187,14 +187,6 @@
  * Versions:
 
   * `0.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/genzshcomp/genzshcomp-0.2.2.ebuild>`__  ``amd64``, ``x86``
-
-* ``github2`` - http://pypi.python.org/pypi/github2/
-
- * Github API v2 library for Python
- * Licence: ``BSD``
- * Versions:
-
-  * `0.6.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.6.0.ebuild>`__  ``~amd64`` (due 2012-03-20), ``~x86`` (due 2012-03-20)
 
 * ``gpxdata`` - http://www.kette-links.de/technik/
 
@@ -392,7 +384,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `2.05 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycparser/pycparser-2.05.ebuild>`__  ``~amd64`` (due 2012-02-19), ``~x86`` (due 2012-06-18)
+  * `2.05 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycparser/pycparser-2.05.ebuild>`__  ``~amd64`` (due 2012-05-19), ``~x86`` (due 2012-06-18)
 
 * ``pycukes`` - https://github.com/hugobr/pycukes
 
