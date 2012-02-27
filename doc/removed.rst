@@ -334,6 +334,8 @@ culled.
 
     Maintenance is passing to ``mleighy``'s group.
 
+    Releases still maintained in ``jnrowe-misc``.
+
 :Reason: Moved to ``::live``
 :Commit: `d5058365 <https://github.com/JNRowe/jnrowe-misc/commit/d50583659e031f3487ecb8afd800175cf3f44611>`__
 :Removal date: 2011-09-13
@@ -465,6 +467,8 @@ culled.
 '''''''''''
 
     Maintenance is passing to ``mleighy``'s group.
+
+    Releases still maintained in ``jnrowe-misc``.
 
 :Reason: Moved to ``::live``
 :Commit: `6ab396d7 <https://github.com/JNRowe/jnrowe-misc/commit/6ab396d748e197c7eaf307be4e9374a40ce65604>`__
