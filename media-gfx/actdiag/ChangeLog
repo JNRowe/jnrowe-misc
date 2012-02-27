@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*actdiag-0.3.1 (27 Feb 2012)
+
+  27 Feb 2012; James Rowe <jnrowe@gmail.com> +actdiag-0.3.1.ebuild:
+  Version bump [552].
+
   20 Jan 2012; James Rowe <jnrowe@gmail.com> -actdiag-0.2.0.ebuild,
   actdiag-0.3.0.ebuild:
   Keyworded x86.

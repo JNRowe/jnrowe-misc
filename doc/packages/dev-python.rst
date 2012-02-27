@@ -137,6 +137,7 @@
  * Versions:
 
   * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fancycompleter/fancycompleter-0.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fancycompleter/fancycompleter-0.3.ebuild>`__  ``~amd64`` (due 2012-03-28), ``~x86`` (due 2012-03-28)
 
 * ``feedcache`` - http://www.doughellmann.com/projects/feedcache/
 
