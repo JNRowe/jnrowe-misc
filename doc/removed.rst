@@ -26,8 +26,8 @@ culled.
 ``app-text``
 ~~~~~~~~~~~~
 
-``gist-9999``
-'''''''''''''
+``gist``
+''''''''
 
     Maintenance is passing to ``mleighy``'s group.
 
