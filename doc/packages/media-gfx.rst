@@ -59,7 +59,7 @@
  * Licence: ``ZLIB as-is``
  * Versions:
 
-  * `1.0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sng/sng-1.0.5.ebuild>`__  ``amd64``, ``x86``
+  * `1.0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sng/sng-1.0.5.ebuild>`__  ``amd64``, ``x86`` (masked by ``package.mask``)
 
 * ``sphinxcontrib-aafig`` - http://packages.python.org/sphinxcontrib-aafig/
 
