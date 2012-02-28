@@ -53,7 +53,6 @@ def bump_pkg(args):
     """Open a version bump bug"""
     github = create_gh_client()
     project = fetch_project_name()
-    new_issue = github.issues.open(project, args.title, args.body)
     new_issue = github.issues.open(project, '%s version bump.' % args.cpv, '')
     github.issues.add_label(project, new_issue.number, 'feature')
     yield success("Issue #%d opened!" % new_issue.number)
