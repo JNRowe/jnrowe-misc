@@ -1,4 +1,4 @@
-url = http://zlibc.linux.lu/download.html
+url = http://www.zlibc.linux.lu/download.html
 select = ul a
 match_type = re
 match = zlibc-[\d]+\.[\da-z]+\.tar\.gz
