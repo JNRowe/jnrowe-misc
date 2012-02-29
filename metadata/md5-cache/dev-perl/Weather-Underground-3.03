@@ -8,5 +8,5 @@ LICENSE=Artistic
 RDEPEND=dev-perl/HTML-TokeParser-Simple dev-perl/libwww-perl dev-lang/perl[-build]
 SLOT=0
 SRC_URI=mirror://cpan/authors/id/M/MN/MNAGUIB/Weather-Underground-3.03.tar.gz
-_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	bd31a910fcf7757bdb34af6ea39f8ae0	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	01501a30505074cd0012cabbf5d99447	portability	536c5e70c5fb252ed3b769e04aa3f05b	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	80d5ff61404a8ac834527cfb70ab2fae	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	perl-module	01501a30505074cd0012cabbf5d99447	portability	536c5e70c5fb252ed3b769e04aa3f05b	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
 _md5_=50054167571d79e700d5476630fabfdb
