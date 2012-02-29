@@ -3,6 +3,9 @@
 # $Header: $
 
   29 Feb 2012; James Rowe <jnrowe@gmail.com> adsuck-2.4.1.ebuild:
+  Keyworded x86.
+
+  29 Feb 2012; James Rowe <jnrowe@gmail.com> adsuck-2.4.1.ebuild:
   Keyworded amd64.
 
 *adsuck-2.4.2 (27 Feb 2012)

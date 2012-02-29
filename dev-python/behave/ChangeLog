@@ -3,6 +3,9 @@
 # $Header: $
 
   29 Feb 2012; James Rowe <jnrowe@gmail.com> behave-1.1.0.ebuild:
+  Keyworded x86.
+
+  29 Feb 2012; James Rowe <jnrowe@gmail.com> behave-1.1.0.ebuild:
   Keyworded amd64.
 
   30 Jan 2012; James Rowe <jnrowe@gmail.com> behave-1.1.0.ebuild:
