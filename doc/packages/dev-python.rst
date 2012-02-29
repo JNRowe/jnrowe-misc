@@ -318,7 +318,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.4.ebuild>`__  ``~amd64`` (due 2012-02-29), ``~x86`` (due 2012-02-29)
+  * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.4.ebuild>`__  ``amd64``, ``~x86`` (due 2012-02-29)
   * `1.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.4.1.ebuild>`__  ``~amd64`` (due 2012-03-06), ``~x86`` (due 2012-03-06)
 
 * ``pdbpp`` - http://pypi.python.org/pypi/pdbpp/
