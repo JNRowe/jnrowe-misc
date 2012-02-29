@@ -2,6 +2,15 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  25 Feb 2012; James Rowe <jnrowe@gmail.com> misaka-1.0.0.ebuild,
+  +files/misaka-1.0.0-remove_rdep_on_cython.patch:
+  Fixed invalid RDEPEND on cython [562].
+
+*misaka-1.0.1 (25 Feb 2012)
+
+  25 Feb 2012; James Rowe <jnrowe@gmail.com> +misaka-1.0.1.ebuild:
+  Version bump [550].
+
 *misaka-1.0.0 (05 Feb 2012)
 
   05 Feb 2012; James Rowe <jnrowe@gmail.com> +misaka-1.0.0.ebuild:

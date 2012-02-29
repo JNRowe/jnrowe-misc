@@ -8,6 +8,7 @@
  * Versions:
 
   * `0.14.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/argh/argh-0.14.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.15.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/argh/argh-0.15.0.ebuild>`__  ``~amd64`` (due 2012-03-26), ``~x86`` (due 2012-03-26)
 
 * ``astral`` - http://pypi.python.org/pypi/astral/
 
@@ -136,6 +137,7 @@
  * Versions:
 
   * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fancycompleter/fancycompleter-0.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fancycompleter/fancycompleter-0.3.ebuild>`__  ``~amd64`` (due 2012-03-28), ``~x86`` (due 2012-03-28)
 
 * ``feedcache`` - http://www.doughellmann.com/projects/feedcache/
 
@@ -160,6 +162,7 @@
  * Versions:
 
   * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.0.ebuild>`__  ``amd64``, ``x86``
+  * `1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.1.ebuild>`__  ``~amd64`` (due 2012-03-26), ``~x86`` (due 2012-03-26)
 
 * ``freshen`` - https://github.com/rlisagor/freshen
 
@@ -184,14 +187,6 @@
  * Versions:
 
   * `0.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/genzshcomp/genzshcomp-0.2.2.ebuild>`__  ``amd64``, ``x86``
-
-* ``github2`` - http://pypi.python.org/pypi/github2/
-
- * Github API v2 library for Python
- * Licence: ``BSD``
- * Versions:
-
-  * `0.6.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/github2/github2-0.6.0.ebuild>`__  ``~amd64`` (due 2012-03-20), ``~x86`` (due 2012-03-20)
 
 * ``gpxdata`` - http://www.kette-links.de/technik/
 
@@ -247,8 +242,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.4.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/isodate/isodate-0.4.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/isodate/isodate-0.4.6.ebuild>`__  ``amd64``, ``~x86`` (due 2012-02-17)
+  * `0.4.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/isodate/isodate-0.4.6.ebuild>`__  ``amd64``, ``x86``
   * `0.4.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/isodate/isodate-0.4.7.ebuild>`__  ``~amd64`` (due 2012-03-02), ``~x86`` (due 2012-03-02)
 
 * ``lettuce`` - http://lettuce.it/
@@ -268,6 +262,7 @@
 
   * `0.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/misaka/misaka-0.4.2.ebuild>`__  ``~amd64`` (due 2012-03-02), ``~x86`` (due 2012-03-02)
   * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/misaka/misaka-1.0.0.ebuild>`__  ``~amd64`` (due 2012-03-06), ``~x86`` (due 2012-03-06)
+  * `1.0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/misaka/misaka-1.0.1.ebuild>`__  ``~amd64`` (due 2012-03-26), ``~x86`` (due 2012-03-26)
 
 * ``mod2doctest`` - http://pypi.python.org/pypi/mod2doctest/
 
@@ -389,7 +384,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `2.05 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycparser/pycparser-2.05.ebuild>`__  ``~amd64`` (due 2012-05-19), ``~x86`` (due 2012-02-19)
+  * `2.05 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycparser/pycparser-2.05.ebuild>`__  ``~amd64`` (due 2012-05-19), ``~x86`` (due 2012-06-18)
 
 * ``pycukes`` - https://github.com/hugobr/pycukes
 
@@ -437,8 +432,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyscss/pyscss-1.0.8.ebuild>`__  ``amd64``, ``x86``
-  * `1.1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyscss/pyscss-1.1.3.ebuild>`__  ``amd64``, ``~x86`` (due 2012-02-17)
+  * `1.1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyscss/pyscss-1.1.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``python-faker`` - http://pypi.python.org/pypi/python-faker/
 
@@ -503,6 +497,14 @@
  * Versions:
 
   * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/showme/showme-1.0.0.ebuild>`__  ``amd64``, ``x86``
+
+* ``six`` - http://pypi.python.org/pypi/six/
+
+ * Python 2 and 3 compatibility utilities
+ * Licence: ``MIT``
+ * Versions:
+
+  * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/six/six-1.1.0.ebuild>`__  ``~amd64`` (due 2012-03-26), ``~x86`` (due 2012-03-26)
 
 * ``snot`` - http://pypi.python.org/pypi/snot/
 
@@ -647,9 +649,8 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `2.10.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.10.1.ebuild>`__  ``amd64``, ``x86``
-  * `2.11.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.11.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-02-17)
-  * `3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-3.0.ebuild>`__  ``~amd64`` (due 2012-03-06), ``~x86`` (due 2012-03-06)
+  * `2.11.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-2.11.1.ebuild>`__  ``amd64``, ``x86`` (masked by ``package.mask``)
+  * `3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-3.0.ebuild>`__  ``~amd64`` (due 2012-03-06), ``~x86`` (due 2012-03-06) (masked by ``package.mask``)
 
 * ``webcolors`` - http://pypi.python.org/pypi/webcolors/
 
@@ -658,6 +659,7 @@
  * Versions:
 
   * `1.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/webcolors/webcolors-1.3.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/webcolors/webcolors-1.4.ebuild>`__  ``~amd64`` (due 2012-03-26), ``~x86`` (due 2012-03-26)
 
 * ``wmctrl`` - http://pypi.python.org/pypi/wmctrl/
 
@@ -681,6 +683,5 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/xerox/xerox-0.2.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/xerox/xerox-0.3.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-02-17)
+  * `0.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/xerox/xerox-0.3.1.ebuild>`__  ``amd64``, ``x86``
 

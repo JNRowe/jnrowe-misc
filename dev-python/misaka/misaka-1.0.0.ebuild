@@ -7,7 +7,7 @@ SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="*:2.5"
 RESTRICT_PYTHON_ABIS="2.4"
 
-inherit jnrowe-pypi
+inherit base jnrowe-pypi
 
 DESCRIPTION="Python binding for the Sundown Markdown parser"
 
@@ -21,9 +21,16 @@ DEPEND=">=dev-python/cython-0.15
 	doc? ( dev-python/sphinx )"
 RDEPEND=""
 
+PATCHES=("${FILESDIR}"/${P}-remove_rdep_on_cython.patch)
+
 # Include the benchmarking suite's test file, as it is a useful doc for writing
 # Markdown
 DOCS="THANKS benchmark/markdown-syntax.md"
+
+src_prepare() {
+	base_src_prepare
+	distutils_src_prepare
+}
 
 src_compile() {
 	distutils_src_compile

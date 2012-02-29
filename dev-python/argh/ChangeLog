@@ -1,6 +1,11 @@
 # ChangeLog for dev-python/argh
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*argh-0.15.0 (25 Feb 2012)
+
+  25 Feb 2012; James Rowe <jnrowe@gmail.com> +argh-0.15.0.ebuild:
+  Version bump [555].
 
   18 Nov 2011; James Rowe <jnrowe@gmail.com> -argh-0.14.1.ebuild,
   argh-0.14.2.ebuild:
