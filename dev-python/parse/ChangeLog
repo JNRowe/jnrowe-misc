@@ -3,6 +3,9 @@
 # $Header: $
 
   29 Feb 2012; James Rowe <jnrowe@gmail.com> parse-1.4.ebuild:
+  Keyworded x86.
+
+  29 Feb 2012; James Rowe <jnrowe@gmail.com> parse-1.4.ebuild:
   Keyworded amd64.
 
 *parse-1.4.1 (05 Feb 2012)
