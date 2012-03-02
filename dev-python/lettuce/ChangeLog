@@ -5,6 +5,10 @@
   02 Mar 2012; James Rowe <jnrowe@gmail.com> lettuce-0.1.34.ebuild:
   Keyworded amd64.
 
+  02 Mar 2012; James Rowe <jnrowe@gmail.com> -lettuce-0.1.33.ebuild,
+  lettuce-0.1.34.ebuild:
+  Keyworded x86.
+
 *lettuce-0.1.34 (01 Feb 2012)
 
   01 Feb 2012; James Rowe <jnrowe@gmail.com> +lettuce-0.1.34.ebuild:

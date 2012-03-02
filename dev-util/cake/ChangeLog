@@ -5,6 +5,10 @@
   02 Mar 2012; James Rowe <jnrowe@gmail.com> cake-0.2.3.ebuild:
   Keyworded amd64.
 
+  02 Mar 2012; James Rowe <jnrowe@gmail.com> -cake-0.2.2.ebuild,
+  cake-0.2.3.ebuild:
+  Keyworded x86.
+
   18 Feb 2012; James Rowe <jnrowe@gmail.com> -cake-0.2.ebuild,
   cake-0.2.2.ebuild:
   Keyworded x86.

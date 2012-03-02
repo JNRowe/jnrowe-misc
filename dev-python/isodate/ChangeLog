@@ -5,6 +5,10 @@
   02 Mar 2012; James Rowe <jnrowe@gmail.com> isodate-0.4.7.ebuild:
   Keyworded amd64.
 
+  02 Mar 2012; James Rowe <jnrowe@gmail.com> -isodate-0.4.6.ebuild,
+  isodate-0.4.7.ebuild:
+  Keyworded x86.
+
   18 Feb 2012; James Rowe <jnrowe@gmail.com> -isodate-0.4.4.ebuild,
   isodate-0.4.6.ebuild:
   Keyworded x86.

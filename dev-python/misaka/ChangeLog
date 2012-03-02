@@ -5,6 +5,9 @@
   02 Mar 2012; James Rowe <jnrowe@gmail.com> misaka-0.4.2.ebuild:
   Keyworded amd64.
 
+  02 Mar 2012; James Rowe <jnrowe@gmail.com> misaka-0.4.2.ebuild:
+  Keyworded x86.
+
   25 Feb 2012; James Rowe <jnrowe@gmail.com> misaka-1.0.0.ebuild,
   +files/misaka-1.0.0-remove_rdep_on_cython.patch:
   Fixed invalid RDEPEND on cython [562].
