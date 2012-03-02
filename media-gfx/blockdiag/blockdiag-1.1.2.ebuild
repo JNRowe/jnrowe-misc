@@ -17,7 +17,7 @@ DESCRIPTION="Generate block-diagram image files from text(like dot)"
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64 x86"
 IUSE="examples pdf"
 
 # dev-python/imaging has to be in DEPEND, because of the automagic
