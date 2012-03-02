@@ -16,7 +16,7 @@
  * Versions:
 
   * `0.1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hammertime/hammertime-0.1.4.ebuild>`__  ``~amd64`` (due 2012-04-23), ``~x86`` (due 2012-05-23)
-  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hammertime/hammertime-0.2.4.ebuild>`__  ``~amd64`` (due 2012-03-02), ``~x86`` (due 2012-03-02)
+  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hammertime/hammertime-0.2.4.ebuild>`__  ``~amd64`` (due 2012-03-02), ``~x86`` (due 2012-05-31)
 
 * ``hubugs`` - http://pypi.python.org/pypi/hubugs/
 
