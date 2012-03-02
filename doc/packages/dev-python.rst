@@ -56,7 +56,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.3.ebuild>`__  ``~amd64`` (due 2012-03-02), ``~x86`` (due 2012-03-02)
+  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.3.ebuild>`__  ``amd64``, ``~x86`` (due 2012-03-02)
 
 * ``calabash`` - http://pypi.python.org/pypi/calabash/
 
@@ -243,7 +243,7 @@
  * Versions:
 
   * `0.4.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/isodate/isodate-0.4.6.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/isodate/isodate-0.4.7.ebuild>`__  ``~amd64`` (due 2012-03-02), ``~x86`` (due 2012-03-02)
+  * `0.4.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/isodate/isodate-0.4.7.ebuild>`__  ``amd64``, ``~x86`` (due 2012-03-02)
 
 * ``lettuce`` - http://lettuce.it/
 
@@ -252,7 +252,7 @@
  * Versions:
 
   * `0.1.33 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.33.ebuild>`__  ``amd64``, ``x86``
-  * `0.1.34 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.34.ebuild>`__  ``~amd64`` (due 2012-03-02), ``~x86`` (due 2012-03-02)
+  * `0.1.34 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.34.ebuild>`__  ``amd64``, ``~x86`` (due 2012-03-02)
 
 * ``misaka`` - http://pypi.python.org/pypi/misaka/
 
@@ -260,7 +260,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/misaka/misaka-0.4.2.ebuild>`__  ``~amd64`` (due 2012-03-02), ``~x86`` (due 2012-03-02)
+  * `0.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/misaka/misaka-0.4.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-03-02)
   * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/misaka/misaka-1.0.0.ebuild>`__  ``~amd64`` (due 2012-03-06), ``~x86`` (due 2012-03-06)
   * `1.0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/misaka/misaka-1.0.1.ebuild>`__  ``~amd64`` (due 2012-03-26), ``~x86`` (due 2012-03-26)
 
