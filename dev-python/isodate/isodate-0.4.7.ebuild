@@ -14,7 +14,7 @@ DESCRIPTION="An ISO 8601 date/time/duration parser and formater"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE=""
 
 # setuptools is an optional dependency for setup.py, but favour reproducibilty.
