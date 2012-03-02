@@ -311,7 +311,7 @@ culled.
 
 
     The latest release, 1.4.6, has unsupported dependencies and as such is
-    unusable on our systems.  Alternatives include ``tweepy``, which is
+    unusable on our systems.  Alternatives include :pypi:`tweepy`, which is
     available in this overlay.
 
 :Reason: Culled
