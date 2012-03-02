@@ -306,6 +306,18 @@ culled.
 :Commit: `06e15f17 <https://github.com/JNRowe/jnrowe-misc/commit/06e15f172e696c40db3a369f0389aa34f9f9c28b>`__
 :Removal date: 2010-12-04
 
+``twython``
+'''''''''''
+
+
+    The latest release, 1.4.6, has unsupported dependencies and as such is
+    unusable on our systems.  Alternatives include :pypi:`tweepy`, which is
+    available in this overlay.
+
+:Reason: Culled
+:Commit: 090e1c3cbd230e9c9ff624f5f2d3ba0b9d987fee
+:Removal data: 2012-03-02
+
 ``virtualenv5``
 '''''''''''''''
 
