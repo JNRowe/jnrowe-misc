@@ -34,7 +34,7 @@ DEPEND="${CDEPEND}
 RDEPEND="${CDEPEND}
 	dev-python/argh
 	dev-python/blessings
-	>=dev-python/github2-0.5.0
+	>=dev-python/github2-0.6.0
 	dev-python/html2text
 	dev-python/jinja
 	dev-python/misaka

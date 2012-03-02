@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  02 Mar 2012; James Rowe <jnrowe@gmail.com> hubugs-0.13.0.ebuild:
+  Required github2-0.6 or newer.
+
 *hubugs-0.13.0 (25 Feb 2012)
 
   25 Feb 2012; James Rowe <jnrowe@gmail.com> +hubugs-0.13.0.ebuild:
