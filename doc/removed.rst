@@ -309,12 +309,13 @@ culled.
 ``twython``
 '''''''''''
 
-    The latest release, 1.4.6, has a dependency on requests and as such will be
-    unusable on our systems.  Switch to tweepy as soon as possible, this won't be
-    reverted!  If you need help with switching you can contact me directly
+
+    The latest release, 1.4.6, has unsupported dependencies and as such is
+    unusable on our systems.  Alternatives include ``tweepy``, which is
+    available in this overlay.
 
 :Reason: Culled
-:Commit:
+:Commit: 090e1c3cbd230e9c9ff624f5f2d3ba0b9d987fee
 :Removal data: 2012-03-02
 
 ``virtualenv5``
