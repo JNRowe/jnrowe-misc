@@ -27,6 +27,7 @@
   * `0.11.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.11.0.ebuild>`__  ``~amd64`` (due 2012-04-06), ``~x86`` (due 2012-04-04)
   * `0.12.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.12.0.ebuild>`__  ``~amd64`` (due 2012-04-17), ``~x86`` (due 2012-05-17)
   * `0.13.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.13.0.ebuild>`__  ``~amd64`` (due 2012-03-26), ``~x86`` (due 2012-03-26)
+  * `0.13.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.13.1.ebuild>`__  ``~amd64`` (due 2012-04-01), ``~x86`` (due 2012-04-01)
 
 * ``jsonpipe`` - http://pypi.python.org/pypi/jsonpipe/
 
