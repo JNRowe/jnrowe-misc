@@ -7,8 +7,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/cake/cake-0.2.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/cake/cake-0.2.3.ebuild>`__  ``~amd64`` (due 2012-03-02), ``~x86`` (due 2012-03-02)
+  * `0.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/cake/cake-0.2.3.ebuild>`__  ``~amd64`` (due 2012-03-02), ``x86``
 
 * ``ccontrol`` - http://ccontrol.ozlabs.org/
 
