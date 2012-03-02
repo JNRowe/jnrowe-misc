@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=dev-python/setuptools dev-python/argh >=dev-python/github2-0.5.0 dev-python/jinja dev-python/pygments >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* )
 SLOT=0
 SRC_URI=mirror://pypi/h/hubugs/hubugs-0.11.0.tar.gz
-_eclasses_=distutils	c8b0cab86443a130f3737ad1456d57d3	eutils	80d5ff61404a8ac834527cfb70ab2fae	jnrowe-pypi	ec904774b8c8477cdb89043eb65c764c	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	portability	536c5e70c5fb252ed3b769e04aa3f05b	python	06dff99bcab2fd584bd6d2aa6019ee19	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_eclasses_=distutils	c8b0cab86443a130f3737ad1456d57d3	eutils	ba24d79270ea0022703f16b5de80051c	jnrowe-pypi	ec904774b8c8477cdb89043eb65c764c	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	06dff99bcab2fd584bd6d2aa6019ee19	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
 _md5_=36294d5d925739994b6fd43fc000315c
