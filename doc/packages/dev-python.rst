@@ -610,15 +610,6 @@
 
   * `1.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.8.ebuild>`__  ``amd64``, ``x86``
 
-* ``twython`` - http://pypi.python.org/pypi/twython/
-
- * An easy (and up to date) way to access Twitter data with Python.
- * Licence: ``MIT``
- * Versions:
-
-  * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.2.ebuild>`__  ``amd64``, ``x86`` (masked by ``package.mask``)
-  * `1.4.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/twython/twython-1.4.5.ebuild>`__  ``~amd64`` (indefinite), ``~x86`` (indefinite) (masked by ``package.mask``)
-
 * ``upoints`` - http://www.jnrowe.ukfsn.org/projects/upoints.html
 
  * Modules for working with points on Earth

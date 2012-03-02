@@ -306,6 +306,17 @@ culled.
 :Commit: `06e15f17 <https://github.com/JNRowe/jnrowe-misc/commit/06e15f172e696c40db3a369f0389aa34f9f9c28b>`__
 :Removal date: 2010-12-04
 
+``twython``
+'''''''''''
+
+    The latest release, 1.4.6, has a dependency on requests and as such will be
+    unusable on our systems.  Switch to tweepy as soon as possible, this won't be
+    reverted!  If you need help with switching you can contact me directly
+
+:Reason: Culled
+:Commit:
+:Removal data: 2012-03-02
+
 ``virtualenv5``
 '''''''''''''''
 
