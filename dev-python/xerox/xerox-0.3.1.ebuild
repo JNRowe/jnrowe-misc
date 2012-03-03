@@ -5,9 +5,8 @@
 EAPI=3
 SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="*:2.6"
-# 2.4 isn't supported because of relative imports
 # 2.5 isn't supported because of wildcard imports
-RESTRICT_PYTHON_ABIS="2.[45]"
+RESTRICT_PYTHON_ABIS="2.5"
 #DISTUTILS_SRC_TEST="nosetests"
 
 inherit jnrowe-pypi
