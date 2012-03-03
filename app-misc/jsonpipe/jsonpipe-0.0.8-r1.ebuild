@@ -4,10 +4,9 @@
 
 EAPI=3
 SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2:2.5"
-# 2.4 is restricted due to missing dependencies
+PYTHON_DEPEND="2"
 # 3.x is restricted due to print syntax, and Unicode literals
-RESTRICT_PYTHON_ABIS="2.4 3.*"
+RESTRICT_PYTHON_ABIS="3.*"
 
 inherit base jnrowe-pypi
 
