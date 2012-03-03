@@ -4,8 +4,7 @@
 
 EAPI=3
 SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*:2.5"
-RESTRICT_PYTHON_ABIS="2.4"
+PYTHON_DEPEND="*"
 
 inherit base jnrowe-pypi
 
