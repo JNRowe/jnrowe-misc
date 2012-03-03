@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  03 Mar 2012; James Rowe <jnrowe@gmail.com> -hubugs-0.11.0.ebuild,
+  -hubugs-0.12.0.ebuild, -hubugs-0.13.0.ebuild:
+  Removed stale ebuild, newer version will be available for stabilisation
+  around the same time.
+
   02 Mar 2012; James Rowe <jnrowe@gmail.com> hubugs-0.13.0.ebuild:
   Required github2-0.6 or newer.
 
