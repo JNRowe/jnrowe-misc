@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  03 Mar 2012; James Rowe <jnrowe@gmail.com> -hammertime-0.1.4.ebuild:
+  Removed stale ebuild, newer version will be available for stabilisation
+  around the same time.
+
   01 Feb 2012; James Rowe <jnrowe@gmail.com> hammertime-0.1.4.ebuild:
   Removed old src_prepare, README.md hasn't been included since 0.1.3.
 
