@@ -3,6 +3,9 @@
 # $Header: $
 
   03 Mar 2012; James Rowe <jnrowe@gmail.com> fslint-2.42.ebuild:
+  Keyworded x86.
+
+  03 Mar 2012; James Rowe <jnrowe@gmail.com> fslint-2.42.ebuild:
   Keyworded amd64.
 
   02 Feb 2012; James Rowe <jnrowe@gmail.com> fslint-2.42.ebuild:

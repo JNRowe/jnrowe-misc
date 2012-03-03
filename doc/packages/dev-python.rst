@@ -300,7 +300,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-progressive/nose-progressive-1.3.ebuild>`__  ``amd64``, ``~x86`` (due 2012-03-03)
+  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-progressive/nose-progressive-1.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``nosetty`` - http://code.google.com/p/nosetty/
 
@@ -333,8 +333,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.4.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.5.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-03-03)
+  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.5.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``pinocchio`` - http://darcs.idyll.org/~t/projects/pinocchio/doc/
 
