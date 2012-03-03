@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  03 Mar 2012; James Rowe <jnrowe@gmail.com> hammertime-0.2.4.ebuild:
+  Removed Python 2.4 support.
+
   03 Mar 2012; James Rowe <jnrowe@gmail.com> -hammertime-0.1.4.ebuild:
   Removed stale ebuild, newer version will be available for stabilisation
   around the same time.
