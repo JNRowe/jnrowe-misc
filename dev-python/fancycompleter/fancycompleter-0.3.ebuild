@@ -5,9 +5,8 @@
 EAPI=3
 SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="*:2.6"
-# 2.4 is restricted due to context handlers
 # 2.5 is restricted due to context handler usage without __future__
-RESTRICT_PYTHON_ABIS="2.[45]"
+RESTRICT_PYTHON_ABIS="2.5"
 
 inherit jnrowe-pypi
 

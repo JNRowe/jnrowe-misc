@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  03 Mar 2012; James Rowe <jnrowe@gmail.com> fancycompleter-0.3.ebuild:
+  Removed Python 2.4 support.
+
 *fancycompleter-0.3 (27 Feb 2012)
 
   27 Feb 2012; James Rowe <jnrowe@gmail.com> +fancycompleter-0.3.ebuild:
