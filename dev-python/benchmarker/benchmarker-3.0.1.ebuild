@@ -1,12 +1,10 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=3
 SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="*"
-# Skipping tests with Python v2.4, due to context handlers
-PYTHON_TESTS_RESTRICTED_ABIS="2.4"
 
 MY_PN="Benchmarker"
 

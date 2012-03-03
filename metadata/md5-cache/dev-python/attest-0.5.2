@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile install postinst postrm prepare test
-DEPEND=>=app-admin/eselect-python-20091230 || ( =dev-lang/python-3.2* =dev-lang/python-3.1* =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* )
+DEPEND=>=app-admin/eselect-python-20091230 dev-lang/python
 DESCRIPTION=Modern, Pythonic unit testing
 EAPI=3
 HOMEPAGE=http://pypi.python.org/pypi/Attest/
 IUSE=minimal
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD-2
-RDEPEND=!minimal? ( dev-python/progressbar dev-python/pygments ) >=app-admin/eselect-python-20091230 || ( =dev-lang/python-3.2* =dev-lang/python-3.1* =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* )
+RDEPEND=!minimal? ( dev-python/progressbar dev-python/pygments ) >=app-admin/eselect-python-20091230 dev-lang/python
 SLOT=0
 SRC_URI=mirror://pypi/A/Attest/Attest-0.5.2.tar.gz
 _eclasses_=distutils	c8b0cab86443a130f3737ad1456d57d3	eutils	ba24d79270ea0022703f16b5de80051c	jnrowe-pypi	ec904774b8c8477cdb89043eb65c764c	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	06dff99bcab2fd584bd6d2aa6019ee19	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
-_md5_=3ecaee98bdab74d4cba401ca4f2fd6da
+_md5_=4f56e54dcbb7c45a7ea446fafb8746f5

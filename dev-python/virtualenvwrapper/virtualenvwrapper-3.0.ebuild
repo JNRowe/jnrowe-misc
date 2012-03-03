@@ -5,8 +5,8 @@
 EAPI=3
 SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="*:2.6"
-# 2.{4,5} is restricted due to 0o octal syntax
-RESTRICT_PYTHON_ABIS="2.[45]"
+# 2.5 is restricted due to 0o octal syntax
+RESTRICT_PYTHON_ABIS="2.5"
 
 LANGS="en es"
 

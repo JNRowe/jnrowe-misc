@@ -4,10 +4,9 @@
 
 EAPI="2"
 SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2:2.5"
-# 2.5 is required for conditional expressions
+PYTHON_DEPEND="2"
 # 3.x is restricted due to print syntax
-RESTRICT_PYTHON_ABIS="2.4 3.*"
+RESTRICT_PYTHON_ABIS="3.*"
 # Tests are basically just demos, with no obvious way to check whether they pass
 # or fail.  If that changes uncomment the next line.
 #DISTUTILS_SRC_TEST="nosetests"

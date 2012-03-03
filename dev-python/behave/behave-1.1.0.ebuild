@@ -4,9 +4,7 @@
 
 EAPI=3
 SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*:2.5"
-# 2.4 is restricted due to generator usage
-RESTRICT_PYTHON_ABIS="2.4"
+PYTHON_DEPEND="*"
 
 inherit jnrowe-pypi
 

@@ -5,9 +5,9 @@
 EAPI=3
 SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="2:2.6"
-# <2.6 aren't supported upstream, so we'll kill them here too
+# 2.5 isn't supported upstream, so we'll kill them here too
 # 3.x is restricted due to print syntax
-RESTRICT_PYTHON_ABIS="2.[45] 3.*"
+RESTRICT_PYTHON_ABIS="2.5 3.*"
 
 MY_PN="Hammertime"
 

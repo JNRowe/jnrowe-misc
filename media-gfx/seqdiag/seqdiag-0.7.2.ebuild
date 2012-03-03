@@ -7,7 +7,7 @@ SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="2:2.7"
 # <2.7 is restricted until the blockdiag ebuild has support
 # 3.x is restricted due to print syntax
-RESTRICT_PYTHON_ABIS="2.[456] 3.*"
+RESTRICT_PYTHON_ABIS="2.[56] 3.*"
 
 inherit jnrowe-pypi
 
