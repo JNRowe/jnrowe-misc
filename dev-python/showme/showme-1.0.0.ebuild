@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -7,8 +7,6 @@ SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="2"
 RESTRICT_PYTHON_ABIS="3.*"
 DISTUTILS_SRC_TEST="nosetests"
-# Skipping tests with Python v2.4, due to colorama dependency
-PYTHON_TESTS_RESTRICTED_ABIS="2.4 3.*"
 
 inherit jnrowe-pypi
 
