@@ -5,10 +5,9 @@
 EAPI=3
 
 PYTHON_DEPEND="2:2.6"
-# 2.4 is restricted due to conditional expressions, exception syntax, etc
 # 2.5 is restricted due to exception syntax
 # 3.x is restricted due to unicode literals, print statements, etc
-RESTRICT_PYTHON_ABIS="2.[45] 3.*"
+RESTRICT_PYTHON_ABIS="2.5 3.*"
 SUPPORT_PYTHON_ABIS="1"
 
 inherit distutils
