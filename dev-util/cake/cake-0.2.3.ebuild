@@ -5,9 +5,9 @@
 EAPI=3
 SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="2:2.6"
-# Python 2.[45] are resticted due to new exception handling syntax
-# Python 3 are resticted due to print syntax
-RESTRICT_PYTHON_ABIS="2.[45] 3.*"
+# Python 2.5 is resticted due to new exception handling syntax
+# Python 3 is resticted due to print syntax
+RESTRICT_PYTHON_ABIS="2.5 3.*"
 
 inherit jnrowe-pypi
 
