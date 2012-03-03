@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -23,11 +23,11 @@ RDEPEND=""
 src_prepare() {
 	distutils_src_prepare
 
-	# Remove ez_setup crap
 	prepare() {
+		# Remove ez_setup automagic
 		sed -i '/use_setuptools/d' "${WORKDIR}"/${P}-${PYTHON_ABI}/setup.py
+
 		if [ "${PYTHON_ABI::1}" = 3 ]; then
-			# sed -i 's,\(print\) \(.*\)$,\1(\2),' ${PN}/tests.py
 			2to3 -w "${WORKDIR}"/${P}-${PYTHON_ABI}/${PN}/tests.py
 		fi
 	}
