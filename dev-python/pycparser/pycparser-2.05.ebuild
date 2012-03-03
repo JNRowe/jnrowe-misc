@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -6,9 +6,8 @@ EAPI=3
 SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="*:2.6"
 DISTUTILS_SRC_TEST="nosetests"
-# 2.4 isn't supported because of relative imports
 # 2.5 isn't supported because of context managers
-RESTRICT_PYTHON_ABIS="2.[45]"
+RESTRICT_PYTHON_ABIS="2.5"
 
 inherit distutils
 
