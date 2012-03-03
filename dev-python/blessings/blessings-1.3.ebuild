@@ -4,11 +4,10 @@
 
 EAPI=3
 SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*:2.5"
-# 2.4 is restricted due to conditional expressions
+PYTHON_DEPEND="*"
 # < 3.2.3 is restricted due to http://bugs.python.org/issue10570
 # TODO: revisit this when 3.2.3 or 3.3 is available in the tree
-RESTRICT_PYTHON_ABIS="2.4 3.[12]"
+RESTRICT_PYTHON_ABIS="3.[12]"
 DISTUTILS_SRC_TEST="nosetests"
 
 inherit jnrowe-pypi
