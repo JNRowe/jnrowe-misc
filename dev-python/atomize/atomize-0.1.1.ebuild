@@ -4,10 +4,9 @@
 
 EAPI=3
 SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2:2.5"
-# 2.4 isn't supported because it depends on stdlib name for etree
+PYTHON_DEPEND="2"
 # 3.x isn't supported due to StringIO changes
-RESTRICT_PYTHON_ABIS="2.4 3.*"
+RESTRICT_PYTHON_ABIS="3.*"
 
 inherit jnrowe-pypi
 
