@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  03 Mar 2012; James Rowe <jnrowe@gmail.com> -pgmagick-0.4.2.ebuild,
+  pgmagick-0.5.1.ebuild:
+  Keyworded x86.
+
   03 Mar 2012; James Rowe <jnrowe@gmail.com> pgmagick-0.5.1.ebuild:
   Keyworded amd64.
 
