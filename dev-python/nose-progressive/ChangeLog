@@ -3,6 +3,9 @@
 # $Header: $
 
   03 Mar 2012; James Rowe <jnrowe@gmail.com> nose-progressive-1.3.ebuild:
+  Removed Python 2.4 support.
+
+  03 Mar 2012; James Rowe <jnrowe@gmail.com> nose-progressive-1.3.ebuild:
   Keyworded x86.
 
   03 Mar 2012; James Rowe <jnrowe@gmail.com> nose-progressive-1.3.ebuild:
