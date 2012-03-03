@@ -1,11 +1,11 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI="2"
 SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="2:2.6"
-RESTRICT_PYTHON_ABIS="2.[45] 3.*"
+RESTRICT_PYTHON_ABIS="2.5 3.*"
 DISTUTILS_SRC_TEST="nosetests"
 
 inherit jnrowe-pypi
