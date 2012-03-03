@@ -13,7 +13,7 @@ SRC_URI="http://www.pixelbeat.org/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="nls"
 
 DEPEND="nls? ( sys-devel/gettext )"

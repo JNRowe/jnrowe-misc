@@ -4,10 +4,10 @@ DESCRIPTION=Utilities to find file system lint(duplicate files, empty dirs, etc)
 EAPI=3
 HOMEPAGE=http://www.pixelbeat.org/fslint/
 IUSE=nls
-KEYWORDS=amd64 ~x86
+KEYWORDS=amd64 x86
 LICENSE=GPL-2
 RDEPEND=dev-python/pygtk >=app-admin/eselect-python-20091230 =dev-lang/python-2*
 SLOT=0
 SRC_URI=http://www.pixelbeat.org/fslint/fslint-2.42.tar.gz
 _eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	ba24d79270ea0022703f16b5de80051c	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	06dff99bcab2fd584bd6d2aa6019ee19	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
-_md5_=86a4b5f785b90dc2c8674e2d5701a6a8
+_md5_=9c7d260d8dffc7a081043106cc6a66d0
