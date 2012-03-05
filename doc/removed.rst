@@ -324,7 +324,7 @@ culled.
     available in this overlay.
 
 :Reason: Culled
-:Commit: 090e1c3cbd230e9c9ff624f5f2d3ba0b9d987fee
+:Commit: `090e1c3c <https://github.com/JNRowe/jnrowe-misc/commit/090e1c3cbd230e9c9ff624f5f2d3ba0b9d987fee>`__
 :Removal data: 2012-03-02
 
 ``virtualenv5``
