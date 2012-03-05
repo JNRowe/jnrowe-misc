@@ -591,14 +591,6 @@
 
   * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/titlecase/titlecase-0.5.1.ebuild>`__  ``amd64``, ``x86``
 
-* ``tox`` - http://pypi.python.org/pypi/tox/
-
- * virtualenv-based automation of test activities
- * Licence: ``GPL-2``
- * Versions:
-
-  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tox/tox-1.3.ebuild>`__  ``amd64``, ``x86``
-
 * ``tweepy`` - http://pypi.python.org/pypi/tweepy/
 
  * Twitter library for python

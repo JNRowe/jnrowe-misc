@@ -20,7 +20,7 @@ culled.
     This was causing problems with the ``kinesis`` resolver.
 
 :Reason: Moved to ``::shadow``
-:Commit: `6a24dd9c <https://github.com/JNRowe/jnrowe-misc/commit/6a24dd9c97515b41e1d9bd68d4ff3f1674002a6b>`__
+:Commit: :commit:`6a24dd9c97515b41e1d9bd68d4ff3f1674002a6b`
 :Removal date: 2011-09-13
 
 ``app-text``
@@ -32,7 +32,7 @@ culled.
     Maintenance is passing to ``mleighy``'s group.
 
 :Reason: Moved to ``::live``
-:Commit: `3bdea61f <https://github.com/JNRowe/jnrowe-misc/commit/3bdea61f4884a5dfc1c54e0cb9bf16306485221c>`__
+:Commit: :commit:`3bdea61f4884a5dfc1c54e0cb9bf16306485221c`
 :Removal date: 2011-09-13
 
 ``app-vim``
@@ -44,7 +44,7 @@ culled.
     This was causing problems with the ``kinesis`` resolver.
 
 :Reason: Moved to ``::shadow``
-:Commit: `274adfb0 <https://github.com/JNRowe/jnrowe-misc/commit/274adfb03c017c6fe590b5ae1adf3d7f927171cd>`__
+:Commit: :commit:`274adfb03c017c6fe590b5ae1adf3d7f927171cd`
 :Removal date: 2011-09-13
 
 ``snipmate``
@@ -53,7 +53,7 @@ culled.
     Available in the main tree.
 
 :Reason: Moved to ``::shadow``
-:Commit: `9073e7c0 <https://github.com/JNRowe/jnrowe-misc/commit/9073e7c02eca64dd7dbc8d654414c5bbfc9a8c74>`__
+:Commit: :commit:`9073e7c02eca64dd7dbc8d654414c5bbfc9a8c74`
 :Removal date: 2011-09-13
 
 ``dev-lua``
@@ -65,7 +65,7 @@ culled.
     Available in the main tree.
 
 :Reason: Moved to ``::shadow``
-:Commit: `e6cbe716 <https://github.com/JNRowe/jnrowe-misc/commit/e6cbe7161dea24cfa98abb873813bce5fd6f8850>`__
+:Commit: :commit:`e6cbe7161dea24cfa98abb873813bce5fd6f8850`
 :Removal date: 2009-09-29
 
 ``dev-haskell``
@@ -77,7 +77,7 @@ culled.
     Only used by ``hpodder``, which has been removed.
 
 :Reason: Culled
-:Commit: `9f861263 <https://github.com/JNRowe/jnrowe-misc/commit/9f8612632f97e54a92aa3a605e106d44aa941ff4>`__
+:Commit: :commit:`9f8612632f97e54a92aa3a605e106d44aa941ff4`
 :Removal date: 2010-09-24
 
 ``hpodder``
@@ -87,7 +87,7 @@ culled.
     a reasonable replacement.
 
 :Reason: Culled
-:Commit: `ecf3e688 <https://github.com/JNRowe/jnrowe-misc/commit/ecf3e6886a0586acfb3fdd64b62ddf4a871b8486>`__
+:Commit: :commit:`ecf3e6886a0586acfb3fdd64b62ddf4a871b8486`
 :Removal date: 2010-09-24
 
 ``missingh``
@@ -96,7 +96,7 @@ culled.
     Only used by ``hpodder``, which has been removed.
 
 :Reason: Culled
-:Commit: `fbe106cc <https://github.com/JNRowe/jnrowe-misc/commit/fbe106cc1f72bf684c5a1782b50773b7a4f1a763>`__
+:Commit: :commit:`fbe106cc1f72bf684c5a1782b50773b7a4f1a763`
 :Removal date: 2010-09-24
 
 ``dev-python``
@@ -108,7 +108,7 @@ culled.
     This was causing problems with the ``kinesis`` resolver.
 
 :Reason: Moved to ``::shadow``
-:Commit: `7ef5cf4b <https://github.com/JNRowe/jnrowe-misc/commit/7ef5cf4b8ca09f4199f5677970c15c8132a3484f>`__
+:Commit: :commit:`7ef5cf4b8ca09f4199f5677970c15c8132a3484f`
 :Removal date: 2011-09-13
 
 ``bpython``
@@ -119,7 +119,7 @@ culled.
     higher than the benefit it gave.
 
 :Reason: Culled
-:Commit: `36cf5f2e <https://github.com/JNRowe/jnrowe-misc/commit/36cf5f2e3d542acba23668658d19cb4cd9144ab7>`__
+:Commit: :commit:`36cf5f2e3d542acba23668658d19cb4cd9144ab7`
 :Removal date: 2009-08-12
 
 ``cleancss``
@@ -128,7 +128,7 @@ culled.
     It didn't support enough CSS syntax to be usable for our needs.
 
 :Reason: Culled
-:Commit: `38a03c83 <https://github.com/JNRowe/jnrowe-misc/commit/38a03c8326c6f61694f7cd41bc7556b6dc354f0e>`__
+:Commit: :commit:`38a03c8326c6f61694f7cd41bc7556b6dc354f0e`
 :Removal date: 2010-09-21
 
 ``clevercss2``
@@ -137,7 +137,7 @@ culled.
     The implementation was not suitable for our needs
 
 :Reason: Culled
-:Commit: `89dffdfd <https://github.com/JNRowe/jnrowe-misc/commit/89dffdfd2ec84a4259ce73819711f46b2f806cb4>`__
+:Commit: :commit:`89dffdfd2ec84a4259ce73819711f46b2f806cb4`
 :Removal date: 2010-09-21
 
 ``dulwich``
@@ -146,7 +146,7 @@ culled.
     Available in the main tree.
 
 :Reason: Moved to ``::shadow``
-:Commit: `d7b758ee <https://github.com/JNRowe/jnrowe-misc/commit/d7b758eea5c3d344375e0e07773ee520b7e2417b>`__
+:Commit: :commit:`d7b758eea5c3d344375e0e07773ee520b7e2417b`
 :Removal date: 2010-01-05
 
 ``gevent``
@@ -155,7 +155,7 @@ culled.
     This was only required by ``requests``, which has been removed.
 
 :Reason: Culled
-:Commit: `8373189c <https://github.com/JNRowe/jnrowe-misc/commit/8373189cae83217b14ece3466b51b7eeb3d0f32e>`__
+:Commit: :commit:`8373189cae83217b14ece3466b51b7eeb3d0f32e`
 :Removal date: 2012-01-16
 
 ``gistapi``
@@ -165,7 +165,7 @@ culled.
     supported on our deploy systems.
 
 :Reason: Culled
-:Commit: `df715ff0 <https://github.com/JNRowe/jnrowe-misc/commit/df715ff0624155460d12a74d245a4d4418794306>`__
+:Commit: :commit:`df715ff0624155460d12a74d245a4d4418794306`
 :Removal date: 2011-05-10
 
 ``gitdb``
@@ -174,7 +174,7 @@ culled.
     This was causing problems with the ``kinesis`` resolver.
 
 :Reason: Moved to ``::shadow``
-:Commit: `1bdc71fe <https://github.com/JNRowe/jnrowe-misc/commit/1bdc71fe54b695ed4e93b9a9828da165f4718284>`__
+:Commit: :commit:`1bdc71fe54b695ed4e93b9a9828da165f4718284`
 :Removal date: 2011-09-13
 
 ``github2``
@@ -186,7 +186,7 @@ culled.
     docs, no 2.4 or 2.5 support.  Will be supported for the foreseeable future.
 
 :Reason: Moved to ``::shadow``
-:Commit: `fc7d12f8 <https://github.com/JNRowe/jnrowe-misc/commit/fc7d12f8a451ed83dfecdb6976a3800c3fbb148b>`__
+:Commit: :commit:`fc7d12f8a451ed83dfecdb6976a3800c3fbb148b`
 :Removal date: 2012-02-26
 :Issues: :issue:`{issue.title} (#{issue.id}) <551>`
 
@@ -196,7 +196,7 @@ culled.
     This was causing problems with the ``kinesis`` resolver.
 
 :Reason: Moved to ``::shadow``
-:Commit: `3384cfe9 <https://github.com/JNRowe/jnrowe-misc/commit/3384cfe90fd22f77fb8a1c4f1b9e999e2d75bb00>`__
+:Commit: :commit:`3384cfe90fd22f77fb8a1c4f1b9e999e2d75bb00`
 :Removal date: 2011-09-13
 
 ``logbook``
@@ -205,7 +205,7 @@ culled.
     This was causing problems with the ``kinesis`` resolver.
 
 :Reason: Moved to ``::shadow``
-:Commit: `bd89ae1b <https://github.com/JNRowe/jnrowe-misc/commit/bd89ae1b2eec91e50591c07c9b6b9ea4cea557ac>`__
+:Commit: :commit:`bd89ae1b2eec91e50591c07c9b6b9ea4cea557ac`
 :Removal date: 2012-01-16
 
 ``pep8``
@@ -214,7 +214,7 @@ culled.
     This was causing problems with the ``kinesis`` resolver.
 
 :Reason: Moved to ``::shadow``
-:Commit: `7b637d57 <https://github.com/JNRowe/jnrowe-misc/commit/7b637d57ec60e1f6d04055370b99f094e4e71ccd>`__
+:Commit: :commit:`7b637d57ec60e1f6d04055370b99f094e4e71ccd`
 :Removal date: 2011-09-13
 
 ``poster``
@@ -223,7 +223,7 @@ culled.
     This was only needed by ``requests``, which has been removed.
 
 :Reason: Culled
-:Commit: `0195603d <https://github.com/JNRowe/jnrowe-misc/commit/0195603d254d954ba75b0318426b8170840f6c12>`__
+:Commit: :commit:`0195603d254d954ba75b0318426b8170840f6c12`
 :Removal date: 2012-01-16
 
 ``python-gnupg``
@@ -232,7 +232,7 @@ culled.
     Alternatives exist, maintenance costs higher than benefit.
 
 :Reason: Culled
-:Commit: `c350e281 <https://github.com/JNRowe/jnrowe-misc/commit/c350e281c851b12eb9c459d51f5d1d0db0fef4af>`__
+:Commit: :commit:`c350e281c851b12eb9c459d51f5d1d0db0fef4af`
 :Removal date: 2010-12-05
 
 ``rednose``
@@ -241,7 +241,7 @@ culled.
     Doesn't work correctly with ``doctests``, alternatives exist.
 
 :Reason: Culled
-:Commit: `343993fe <https://github.com/JNRowe/jnrowe-misc/commit/343993fe02cecbbdf1b57880e41b4e393a6345df>`__
+:Commit: :commit:`343993fe02cecbbdf1b57880e41b4e393a6345df`
 :Removal date: 2010-10-21
 
 ``requests``
@@ -255,7 +255,7 @@ culled.
     ``requests`` to alternatives.
 
 :Reason: Culled
-:Commit: `050c16c7 <https://github.com/JNRowe/jnrowe-misc/commit/050c16c71805668c9e21576f09efc2e4b692002d>`__
+:Commit: :commit:`050c16c71805668c9e21576f09efc2e4b692002d`
 :Removal date: 2012-01-16
 
 ``restview``
@@ -265,7 +265,7 @@ culled.
     provides similar functionality.
 
 :Reason: Culled
-:Commit: `9271790e <https://github.com/JNRowe/jnrowe-misc/commit/9271790e1475cf035340c6d2ab9a0b31f44e431b>`__
+:Commit: :commit:`9271790e1475cf035340c6d2ab9a0b31f44e431b`
 :Removal date: 2011-02-28
 
 ``rudolf``
@@ -275,7 +275,7 @@ culled.
     plugins we commonly used.
 
 :Reason: Culled
-:Commit: `646671c0 <https://github.com/JNRowe/jnrowe-misc/commit/646671c0a6236338c1e17482834c7a3ae3b939e4>`__
+:Commit: :commit:`646671c0a6236338c1e17482834c7a3ae3b939e4`
 :Removal date: 2010-10-21
 
 ``scripttest``
@@ -284,7 +284,7 @@ culled.
     This was causing problems with the ``kinesis`` resolver.
 
 :Reason: Moved to ``::shadow``
-:Commit: `088ab46a <https://github.com/JNRowe/jnrowe-misc/commit/088ab46a2c1fdb110eab905692c15ebae262b952>`__
+:Commit: :commit:`088ab46a2c1fdb110eab905692c15ebae262b952`
 :Removal date: 2011-09-13
 
 ``sphinx-to-github``
@@ -293,7 +293,7 @@ culled.
     Maintenance is passing to ``mleighy``'s group.
 
 :Reason: Moved to ``::live``
-:Commit: `740ada6b <https://github.com/JNRowe/jnrowe-misc/commit/740ada6bbcab5d5c0ad356eefa489299eada69a7>`__
+:Commit: :commit:`740ada6bbcab5d5c0ad356eefa489299eada69a7`
 :Removal date: 2011-09-13
 
 ``termstyle``
@@ -303,8 +303,20 @@ culled.
     alternatives exist.
 
 :Reason: Culled
-:Commit: `06e15f17 <https://github.com/JNRowe/jnrowe-misc/commit/06e15f172e696c40db3a369f0389aa34f9f9c28b>`__
+:Commit: :commit:`06e15f172e696c40db3a369f0389aa34f9f9c28b`
 :Removal date: 2010-12-04
+
+``tox``
+'''''''
+
+    Available in the main tree.
+
+    This will remain in ``::shadow`` until upstream has an ``ebuild`` available
+    with equal keywords.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`b65bcbc0b6039eccdd1d47976c4660025671d69f`
+:Removal date: 2012-03-05
 
 ``twython``
 '''''''''''
@@ -315,7 +327,7 @@ culled.
     available in this overlay.
 
 :Reason: Culled
-:Commit: 090e1c3cbd230e9c9ff624f5f2d3ba0b9d987fee
+:Commit: :commit:`090e1c3cbd230e9c9ff624f5f2d3ba0b9d987fee`
 :Removal data: 2012-03-02
 
 ``virtualenv5``
@@ -324,7 +336,7 @@ culled.
     No longer needed by ``tox``.
 
 :Reason: Culled
-:Commit: `fe12bc3b <https://github.com/JNRowe/jnrowe-misc/commit/fe12bc3b40a1bfcb2e621564a7ac28818ac248c1>`__
+:Commit: :commit:`fe12bc3b40a1bfcb2e621564a7ac28818ac248c1`
 :Removal date: 2011-06-28
 
 ``dev-util``
@@ -338,7 +350,7 @@ culled.
     Alternatives to ``Bugs Everywhere`` such as ``ditz`` exist.
 
 :Reason: Culled
-:Commit: `b24e7c8e <https://github.com/JNRowe/jnrowe-misc/commit/b24e7c8e618b8c0f485f8dcdb2744b6275f8c5b1>`__
+:Commit: :commit:`b24e7c8e618b8c0f485f8dcdb2744b6275f8c5b1`
 :Removal date: 2010-04-04
 
 ``ditz``
@@ -349,7 +361,7 @@ culled.
     Releases still maintained in ``jnrowe-misc``.
 
 :Reason: Moved to ``::live``
-:Commit: `d5058365 <https://github.com/JNRowe/jnrowe-misc/commit/d50583659e031f3487ecb8afd800175cf3f44611>`__
+:Commit: :commit:`d50583659e031f3487ecb8afd800175cf3f44611`
 :Removal date: 2011-09-13
 
 ``fossil``
@@ -364,7 +376,7 @@ culled.
     ``ebuilds`` with dependencies on ``fossil``
 
 :Reason: Moved to ``::shadow``
-:Commit: `1954746e <https://github.com/JNRowe/jnrowe-misc/commit/1954746e2645ae789cf4aeba7fb5e5ca8985d803>`__
+:Commit: :commit:`1954746e2645ae789cf4aeba7fb5e5ca8985d803`
 :Removal date: 2010-01-26
 
 ``hg-git``
@@ -373,7 +385,7 @@ culled.
     Available in the main tree.
 
 :Reason: Moved to ``::shadow``
-:Commit: `e4f47fae <https://github.com/JNRowe/jnrowe-misc/commit/e4f47fae5ec7538d6121ab78c69bd0eca7e88482>`__
+:Commit: :commit:`e4f47fae5ec7538d6121ab78c69bd0eca7e88482`
 :Removal date: 2009-12-08
 
 ``wingide``
@@ -388,7 +400,7 @@ culled.
     one-off bugfixes.
 
 :Reason: Culled
-:Commit: `52a983f5 <https://github.com/JNRowe/jnrowe-misc/commit/52a983f50d5e41317c1b9282a5a0146e9a71c89f>`__
+:Commit: :commit:`52a983f50d5e41317c1b9282a5a0146e9a71c89f`
 :Removal date: 2010-02-27
 
 ``dev-vcs``
@@ -400,7 +412,7 @@ culled.
     Maintenance is passing to ``mleighy``'s group.
 
 :Reason: Moved to ``::live``
-:Commit: `a49d852e <https://github.com/JNRowe/jnrowe-misc/commit/a49d852e55d3c78b8eab1a18fdb6684345b152b7>`__
+:Commit: :commit:`a49d852e55d3c78b8eab1a18fdb6684345b152b7`
 :Removal date: 2011-09-13
 
 ``hub``
@@ -409,7 +421,7 @@ culled.
     Maintenance is passing to ``mleighy``'s group.
 
 :Reason: Moved to ``::live``
-:Commit: `2b66e43f <https://github.com/JNRowe/jnrowe-misc/commit/2b66e43f7a5ef7a3dbc5ea9bbad966a408f8c5a2>`__
+:Commit: :commit:`2b66e43f7a5ef7a3dbc5ea9bbad966a408f8c5a2`
 :Removal date: 2011-09-13
 
 ``games-puzzle``
@@ -422,7 +434,7 @@ culled.
     keywords.
 
 :Reason: Moved to ``::shadow``
-:Commit: `36eb5d09 <https://github.com/JNRowe/jnrowe-misc/commit/36eb5d0922efb058f8c0feea29564a9e4e5ae48e>`__
+:Commit: :commit:`36eb5d0922efb058f8c0feea29564a9e4e5ae48e`
 :Removal date: 2010-01-08
 
 ``mail-client``
@@ -436,7 +448,7 @@ culled.
     features are not supported, so this situation may last sometime.
 
 :Reason: Moved to ``::shadow``
-:Commit: `66e7659e <https://github.com/JNRowe/jnrowe-misc/commit/66e7659e2d393dff924062b06348bd4f6cb51043>`__
+:Commit: :commit:`66e7659e2d393dff924062b06348bd4f6cb51043`
 :Removal date: 2011-12-13
 
 ``notmuch-gtk``
@@ -445,7 +457,7 @@ culled.
     Maintenance is passing to ``mleighy``'s group.
 
 :Reason: Moved to ``::live``
-:Commit: `fe7077bc <https://github.com/JNRowe/jnrowe-misc/commit/fe7077bca2118cfb7bda2c1544cd403b6b660d16>`__
+:Commit: :commit:`fe7077bca2118cfb7bda2c1544cd403b6b660d16`
 :Removal date: 2011-09-13
 
 ``media-gfx``
@@ -458,7 +470,7 @@ culled.
     ``plymouth``.
 
 :Reason: Culled
-:Commit: `39fc52f8 <https://github.com/JNRowe/jnrowe-misc/commit/39fc52f8ff06e8a87c905f666fe73535fb8fe05a>`__
+:Commit: :commit:`39fc52f8ff06e8a87c905f666fe73535fb8fe05a`
 :Removal date: 2011-02-26
 :Issues: :issue:`{issue.title} (#{issue.id}) <141>`
 
@@ -468,7 +480,7 @@ culled.
     Package now exists upstream.
 
 :Reason: Culled
-:Commit: `523c0450 <https://github.com/JNRowe/jnrowe-misc/commit/523c04503755e308d1384cebe3bf4403dec5aa51>`__
+:Commit: :commit:`523c04503755e308d1384cebe3bf4403dec5aa51`
 :Removal date: 2011-08-27
 :Issues: :issue:`{issue.title} (#{issue.id}) <457>`
 
@@ -483,7 +495,7 @@ culled.
     Releases still maintained in ``jnrowe-misc``.
 
 :Reason: Moved to ``::live``
-:Commit: `6ab396d7 <https://github.com/JNRowe/jnrowe-misc/commit/6ab396d748e197c7eaf307be4e9374a40ce65604>`__
+:Commit: :commit:`6ab396d748e197c7eaf307be4e9374a40ce65604`
 :Removal date: 2011-09-13
 
 ``net-irc``
@@ -495,7 +507,7 @@ culled.
     Maintenance is passing to ``mleighy``'s group.
 
 :Reason: Moved to ``::live``
-:Commit: `9c9b2cf7 <https://github.com/JNRowe/jnrowe-misc/commit/9c9b2cf7baa0c8ec7e6fb1de447b3d6c1bac7e47>`__
+:Commit: :commit:`9c9b2cf7baa0c8ec7e6fb1de447b3d6c1bac7e47`
 :Removal date: 2011-09-13
 
 ``net-mail``
@@ -511,7 +523,7 @@ culled.
     to be around for quite some time still.
 
 :Reason: Moved to ``::shadow``
-:Commit: `2f09d163 <https://github.com/JNRowe/jnrowe-misc/commit/2f09d163876dcc7832509844a7e6160598c8ed75>`__
+:Commit: :commit:`2f09d163876dcc7832509844a7e6160598c8ed75`
 :Removal date: 2011-05-12
 
 ``sys-fs``
@@ -525,7 +537,7 @@ culled.
     some unfortunate details of the upgrade path.
 
 :Reason: Moved to ``::shadow``
-:Commit: `61af9a27 <https://github.com/JNRowe/jnrowe-misc/commit/61af9a273236cf988095914cde2769b19c8d5a25>`__
+:Commit: :commit:`61af9a273236cf988095914cde2769b19c8d5a25`
 :Removal date: 2010-01-20
 :Issues: AST#249971
 
@@ -538,7 +550,7 @@ culled.
     Maintenance is passing to ``mleighy``'s group.
 
 :Reason: Moved to ``::live``
-:Commit: `06351abd <https://github.com/JNRowe/jnrowe-misc/commit/06351abddc94317d33f47c9f2643b0fad3cf5a0c>`__
+:Commit: :commit:`06351abddc94317d33f47c9f2643b0fad3cf5a0c`
 :Removal date: 2011-09-13
 
 ``www-client``
@@ -551,7 +563,7 @@ culled.
     command line interface has improved greatly.
 
 :Reason: Culled
-:Commit: `77683d8f <https://github.com/JNRowe/jnrowe-misc/commit/77683d8f8f9061c539be6dbfa1ede8386d0333e3>`__
+:Commit: :commit:`77683d8f8f9061c539be6dbfa1ede8386d0333e3`
 :Removal date: 2010-08-08
 
 ``surfraw``
@@ -560,7 +572,7 @@ culled.
     This was causing problems with the ``kinesis`` resolver.
 
 :Reason: Moved to ``::shadow``
-:Commit: `29d5b356 <https://github.com/JNRowe/jnrowe-misc/commit/29d5b3560f5271ca74ba69b505ecbfb6be938795>`__
+:Commit: :commit:`29d5b3560f5271ca74ba69b505ecbfb6be938795`
 :Removal date: 2011-09-13
 
 ``x11-misc``
@@ -573,7 +585,7 @@ culled.
     while it was masked.
 
 :Reason: Moved to ``::shadow``
-:Commit: `d8741f96 <https://github.com/JNRowe/jnrowe-misc/commit/d8741f966e518b7bba6e93744f16676d75674f34>`__
+:Commit: :commit:`d8741f966e518b7bba6e93744f16676d75674f34`
 :Removal date: 2011-06-02
 
 ``x11-plugins``
@@ -585,7 +597,7 @@ culled.
     Maintenance is passing to ``mleighy``'s group.
 
 :Reason: Moved to ``::live``
-:Commit: `a240cd77 <https://github.com/JNRowe/jnrowe-misc/commit/a240cd778395974c8267424dcea18a2f33625cfe>`__
+:Commit: :commit:`a240cd778395974c8267424dcea18a2f33625cfe`
 :Removal date: 2011-09-13`
 
 ``vicious``
@@ -596,7 +608,7 @@ culled.
     ``::shadow`` for some time.
 
 :Reason: Moved to ``::shadow``
-:Commit: `9072fe6a <https://github.com/JNRowe/jnrowe-misc/commit/9072fe6a9985758724f45d68a8825b1fb9f0491d>`__
+:Commit: :commit:`9072fe6a9985758724f45d68a8825b1fb9f0491d`
 :Removal date: 2011-06-16
 
 ``x11-themes``
@@ -609,7 +621,7 @@ culled.
     little additional value.
 
 :Reason: Culled
-:Commit: `0ccd124c <https://github.com/JNRowe/jnrowe-misc/commit/0ccd124c287f12c78ed4771a078b281131dd04e9>`__
+:Commit: :commit:`0ccd124c287f12c78ed4771a078b281131dd04e9`
 :Removal date: 2011-07-02
 
 ``x11-wm``
@@ -622,7 +634,7 @@ culled.
     available.
 
 :Reason: Moved to ``::shadow``
-:Commit: `e36fcf7b <https://github.com/JNRowe/jnrowe-misc/commit/e36fcf7b61f68c74d3b3ddb505782a65a07c5517>`__
+:Commit: :commit:`e36fcf7b61f68c74d3b3ddb505782a65a07c5517`
 :Removal date: 2010-01-06
 
 ``parti``
@@ -631,7 +643,7 @@ culled.
     An ``ebuild`` now exists upstream.
 
 :Reason: Moved to ``::shadow``
-:Commit: `c3d01805 <https://github.com/JNRowe/jnrowe-misc/commit/c3d01805b7faa124f507f80b635f0608030a4a5c>`__
+:Commit: :commit:`c3d01805b7faa124f507f80b635f0608030a4a5c`
 :Removal date: 2010-10-08
 :Issues: :issue:`{issue.title} (#{issue.id}) <6>`
 
@@ -641,7 +653,7 @@ culled.
     It is unsupportable in its current state.
 
 :Reason: Culled
-:Commit: `a6d131d3 <https://github.com/JNRowe/jnrowe-misc/commit/a6d131d358b51d677f1a24b8f01dbc887f13b781>`__
+:Commit: :commit:`a6d131d358b51d677f1a24b8f01dbc887f13b781`
 :Removal date: 2010-03-04
 
 ``wmfs``
@@ -650,5 +662,5 @@ culled.
     Maintenance is passing to ``mleighy``'s group.
 
 :Reason: Moved to ``::live``
-:Commit: `a73b09d3 <https://github.com/JNRowe/jnrowe-misc/commit/a73b09d3ff9b249db075bb4d716201957dfb182f>`__
+:Commit: :commit:`a73b09d3ff9b249db075bb4d716201957dfb182f`
 :Removal date: 2011-09-13
