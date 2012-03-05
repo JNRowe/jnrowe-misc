@@ -311,8 +311,11 @@ culled.
 
     Available in the main tree.
 
+    This will remain in ``::shadow`` until upstream has an ``ebuild`` available
+    with equal keywords.
+
 :Reason: Moved to ``::shadow``
-:Commit:
+:Commit: `b65bcbc0 <https://github.com/JNRowe/jnrowe-misc/commit/b65bcbc0b6039eccdd1d47976c4660025671d69f>`__
 :Removal date: 2012-03-05
 
 ``twython``
