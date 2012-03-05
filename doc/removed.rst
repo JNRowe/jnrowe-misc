@@ -306,6 +306,15 @@ culled.
 :Commit: `06e15f17 <https://github.com/JNRowe/jnrowe-misc/commit/06e15f172e696c40db3a369f0389aa34f9f9c28b>`__
 :Removal date: 2010-12-04
 
+``tox``
+'''''''
+
+    Available in the main tree.
+
+:Reason: Moved to ``::shadow``
+:Commit:
+:Removal date: 2012-03-05
+
 ``twython``
 '''''''''''
 
