@@ -8,5 +8,5 @@
  * Versions:
 
   * `2.05 <https://github.com/JNRowe/jnrowe-misc/blob/master/games-puzzle/gbrainy/gbrainy-2.05.ebuild>`__  ``amd64``, ``x86``
-  * `2.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/games-puzzle/gbrainy/gbrainy-2.1.1.ebuild>`__  ``~amd64`` (due 2012-03-06), ``~x86`` (due 2012-03-06)
+  * `2.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/games-puzzle/gbrainy/gbrainy-2.1.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-03-06)
 

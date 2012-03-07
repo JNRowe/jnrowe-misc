@@ -4,10 +4,10 @@ DESCRIPTION=A tool to check for updates on web pages
 EAPI=3
 HOMEPAGE=http://jnrowe.github.com/cupage/
 IUSE=doc test
-KEYWORDS=~amd64 ~x86
+KEYWORDS=amd64 ~x86
 LICENSE=GPL-3
 RDEPEND=dev-python/blessings dev-python/configobj dev-python/httplib2 dev-python/lxml >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* )
 SLOT=0
 SRC_URI=https://github.com/JNRowe/cupage/tarball/v0.7.0 -> cupage-0.7.0.tar.gz
 _eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	distutils	c8b0cab86443a130f3737ad1456d57d3	eutils	ba24d79270ea0022703f16b5de80051c	jnrowe-github	db33350ee3db4172cb5a73df80c5e589	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	06dff99bcab2fd584bd6d2aa6019ee19	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
-_md5_=3dbf005fd30ab1facd5068d0ff7f7050
+_md5_=63aa1b0f3e1ada6ae199162d5c19de00
