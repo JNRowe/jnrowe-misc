@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*luaposix-5.1.17 (09 Mar 2012)
+
+  09 Mar 2012; James Rowe <jnrowe@gmail.com> +luaposix-5.1.17.ebuild:
+  Version bump [559].
+
   14 Jan 2012; James Rowe <jnrowe@gmail.com> luaposix-5.1.15.ebuild:
   Switched to mirror://github for SRC_URI.
 
