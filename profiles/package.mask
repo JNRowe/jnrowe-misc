@@ -1,21 +1,21 @@
 # extra line needed because portage is buggy
 
-# James Rowe <jnrowe@gmail.com> (20 Feb 2012)
+# James Rowe <jnrowe@gmail.com> (13 Mar 2012)
 # No longer used at our site.  Speak up if you want it to stay.
-# X-Removal: 2012-03-21
-www-client/github-cli
-
-# James Rowe <jnrowe@gmail.com> (27 Feb 2012)
-# Entirely obsolete at our site.  Speak up if you want it to stay.  [560]
-# X-Removal: 2012-03-28
-dev-python/virtualenvwrapper
+# X-Removal: 2012-04-12
+dev-perl/Net-Twitter-Lite
 
 # James Rowe <jnrowe@gmail.com> (28 Feb 2012)
 # Made obsolete by upng.
 # X-Removal: 2012-03-29
 media-gfx/sng
 
-# James Rowe <jnrowe@gmail.com> (13 Mar 2012)
+# James Rowe <jnrowe@gmail.com> (27 Feb 2012)
+# Entirely obsolete at our site.  Speak up if you want it to stay.  [560]
+# X-Removal: 2012-03-28
+dev-python/virtualenvwrapper
+
+# James Rowe <jnrowe@gmail.com> (20 Feb 2012)
 # No longer used at our site.  Speak up if you want it to stay.
-# X-Removal: 2012-04-12
-dev-perl/Net-Twitter-Lite
+# X-Removal: 2012-03-21
+www-client/github-cli
