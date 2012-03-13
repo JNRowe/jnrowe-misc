@@ -14,3 +14,8 @@ dev-python/virtualenvwrapper
 # Made obsolete by upng.
 # X-Removal: 2012-03-29
 media-gfx/sng
+
+# James Rowe <jnrowe@gmail.com> (13 Mar 2012)
+# No longer used at our site.  Speak up if you want it to stay.
+# X-Removal: 2012-04-12
+dev-perl/Net-Twitter-Lite
