@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  13 Mar 2012; James Rowe <jnrowe@gmail.com> attest-0.5.3.ebuild:
+  simplejson and lxml are required for a few assertions, but may not always be
+  needed.
+
 *attest-0.5.3 (09 Mar 2012)
 
   09 Mar 2012; James Rowe <jnrowe@gmail.com> +attest-0.5.3.ebuild:

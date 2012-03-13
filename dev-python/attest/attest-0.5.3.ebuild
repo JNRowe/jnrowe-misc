@@ -25,8 +25,10 @@ IUSE="minimal test"
 # eclass.
 DEPEND="test? ( dev-python/simplejson )"
 RDEPEND="!minimal? (
+		dev-python/lxml
 		dev-python/progressbar
 		dev-python/pygments
+		|| ( >=dev-lang/python-2.6 dev-python/simplejson )
 	)"
 
 DOCS="AUTHORS.rst CHANGES.rst"
