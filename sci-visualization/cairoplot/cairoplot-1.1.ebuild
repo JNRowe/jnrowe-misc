@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -9,7 +9,7 @@ PYTHON_DEPEND="*"
 inherit distutils
 
 DESCRIPTION="Cairo-based graph plotting module"
-HOMEPAGE="https://launchpad.net/cairoplot"
+HOMEPAGE="https://launchpad.net/${PN}"
 SRC_URI="http://launchpad.net/${PN}/${PV}/${PV}/+download/${P}.tar.gz"
 
 LICENSE="LGPL-2.1"

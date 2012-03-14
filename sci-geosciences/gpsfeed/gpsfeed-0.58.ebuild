@@ -1,11 +1,11 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=4
 
 DESCRIPTION="A utility that generates continuous GPS data for running tests"
-HOMEPAGE="http://users.hol.gr/~dzach/gpsfeed/index.html"
+HOMEPAGE="http://users.hol.gr/~dzach/${PN}/index.html"
 SRC_URI="mirror://sourceforge/gpsfeed/gpsfeed+.zip"
 
 LICENSE="GPL-2"

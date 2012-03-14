@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -11,7 +11,7 @@ RESTRICT_PYTHON_ABIS="2.*"
 inherit distutils
 
 DESCRIPTION="maildir processor using Python as its configuration language"
-HOMEPAGE="http://joel.rosdahl.net/maildirproc/"
+HOMEPAGE="http://joel.rosdahl.net/${PN}/"
 SRC_URI="http://joel.rosdahl.net/maildirproc/releases/${P}.tar.bz2"
 
 LICENSE="GPL-2"

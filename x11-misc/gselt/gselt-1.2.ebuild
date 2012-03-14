@@ -5,7 +5,7 @@
 EAPI=4
 
 DESCRIPTION="Watches the X selection and displays context sensitive actions"
-HOMEPAGE="http://offog.org/code/gselt.html"
+HOMEPAGE="http://offog.org/code/${PN}.html"
 SRC_URI="http://offog.org/files/${P}.tar.gz"
 
 LICENSE="GPL-2"

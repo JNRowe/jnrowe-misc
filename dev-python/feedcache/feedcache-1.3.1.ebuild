@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -10,7 +10,7 @@ RESTRICT_PYTHON_ABIS="3.*"
 inherit distutils
 
 DESCRIPTION="Wrapper for the Universal Feed Parser which caches the results"
-HOMEPAGE="http://www.doughellmann.com/projects/feedcache/"
+HOMEPAGE="http://www.doughellmann.com/projects/${PN}/"
 SRC_URI="http://www.doughellmann.com/downloads/${P}.tar.gz"
 
 LICENSE="MIT"

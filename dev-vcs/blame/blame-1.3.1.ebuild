@@ -1,11 +1,11 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=4
 
 DESCRIPTION="Annotates RCS files in a style similar to CVS's annotate command"
-HOMEPAGE="http://blame.sourceforge.net/"
+HOMEPAGE="http://${PN}.sourceforge.net/"
 SRC_URI="mirror://sourceforge/blame/${P}.tar.gz"
 
 LICENSE="GPL-2"

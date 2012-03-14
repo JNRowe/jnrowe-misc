@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -9,7 +9,7 @@ SUPPORT_PYTHON_ABIS="1"
 inherit jnrowe-pypi
 
 DESCRIPTION="Provides an interactive console for doctests"
-HOMEPAGE="https://svn.bluedynamics.eu/svn/public/interlude/"
+HOMEPAGE="https://svn.bluedynamics.eu/svn/public/${PN}/"
 
 LICENSE="LGPL-2.1"
 SLOT="0"

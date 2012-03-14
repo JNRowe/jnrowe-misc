@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -7,7 +7,7 @@ EAPI=4
 inherit eutils multilib
 
 DESCRIPTION="Utility to manage ccache and distcc"
-HOMEPAGE="http://ccontrol.ozlabs.org/"
+HOMEPAGE="http://${PN}.ozlabs.org/"
 SRC_URI="${HOMEPAGE}/releases/${P}.tar.bz2"
 
 LICENSE="GPL-2"

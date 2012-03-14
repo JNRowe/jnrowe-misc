@@ -10,4 +10,4 @@ RESTRICT=test
 SLOT=0
 SRC_URI=http://mathias-kettner.de/download/wirbel-0.1.11.tar.gz
 _eclasses_=eutils	ba24d79270ea0022703f16b5de80051c	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
-_md5_=f6015bd374fd5637744f716cb63111d3
+_md5_=637a4f88e91f65d7a910258b593ee418

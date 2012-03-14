@@ -12,7 +12,7 @@ RESTRICT_PYTHON_ABIS="2.5"
 inherit distutils
 
 DESCRIPTION="C parser and AST generator written in Python"
-HOMEPAGE="http://code.google.com/p/pycparser/"
+HOMEPAGE="http://code.google.com/p/${PN}/"
 SRC_URI="http://${PN}.googlecode.com/files/${P}.zip"
 
 LICENSE="BSD"

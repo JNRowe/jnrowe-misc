@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -8,7 +8,7 @@ AUTOTOOLS_AUTO_DEPEND=no
 inherit autotools eutils versionator
 
 DESCRIPTION="WM agnostic tool to perform window tiling"
-HOMEPAGE="https://launchpad.net/winwrangler"
+HOMEPAGE="https://launchpad.net/${PN}"
 SRC_URI="http://launchpad.net/${PN}/$(get_version_component_range -2)/${PV}/+download/${P}.tar.gz"
 
 LICENSE="LGPL-3"

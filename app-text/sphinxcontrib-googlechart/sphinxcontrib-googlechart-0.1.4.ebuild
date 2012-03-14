@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -10,7 +10,7 @@ RESTRICT_PYTHON_ABIS="3.*"
 inherit jnrowe-pypi
 
 DESCRIPTION="dev-python/sphinx extension to create charts using the Google API"
-HOMEPAGE="http://packages.python.org/sphinxcontrib-googlechart/"
+HOMEPAGE="http://packages.python.org/${PN}/"
 
 LICENSE="BSD-2"
 SLOT="0"

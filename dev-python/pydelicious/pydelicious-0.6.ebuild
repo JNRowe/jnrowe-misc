@@ -10,7 +10,7 @@ RESTRICT_PYTHON_ABIS="3.*"
 inherit distutils eutils versionator
 
 DESCRIPTION="Access the web service of del.icio.us via it's API through python"
-HOMEPAGE="http://code.google.com/p/pydelicious/"
+HOMEPAGE="http://code.google.com/p/${PN}/"
 SRC_URI="http://pydelicious.googlecode.com/files/${P}.zip"
 
 LICENSE="BSD"

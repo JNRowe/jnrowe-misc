@@ -11,4 +11,4 @@ REQUIRED_USE=|| ( ruby_targets_ruby18 )
 SLOT=0
 SRC_URI=mirror://rubyforge/ditz/ditz-0.5.tgz
 _eclasses_=bash-completion-r1	3480f8385cb9e31797e7b659e366e2d2	eutils	ba24d79270ea0022703f16b5de80051c	java-utils-2	0b830e0a2e6c4bdf1c81fec1b53d95f1	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	ruby-ng	927a565459a62f2839d06e03cfbe1440	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e	versionator	6601b4c5b3f019a993db59a50e1854e4
-_md5_=dd9c334dc1ea3ac2bc45796f59fc9832
+_md5_=157f7983d55ebdcded043caf8f089fb9

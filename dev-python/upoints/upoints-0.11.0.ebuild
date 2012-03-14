@@ -10,7 +10,7 @@ RESTRICT_PYTHON_ABIS="3.*"
 inherit distutils
 
 DESCRIPTION="Modules for working with points on Earth"
-HOMEPAGE="http://www.jnrowe.ukfsn.org/projects/upoints.html"
+HOMEPAGE="http://www.jnrowe.ukfsn.org/projects/${PN}.html"
 SRC_URI="http://www.jnrowe.ukfsn.org/_downloads/${P}.tar.bz2"
 
 LICENSE="GPL-3"

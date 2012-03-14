@@ -14,7 +14,7 @@ GITHUB_USER="JNRowe"
 inherit base jnrowe-github distutils
 
 DESCRIPTION="A tool to check for updates on web pages"
-HOMEPAGE="http://jnrowe.github.com/cupage/"
+HOMEPAGE="http://jnrowe.github.com/${PN}/"
 
 LICENSE="GPL-3"
 SLOT="0"

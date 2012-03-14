@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -11,7 +11,7 @@ RESTRICT_PYTHON_ABIS="3.*"
 inherit eutils jnrowe-pypi
 
 DESCRIPTION="ASCII art figures parsed and output as SVG, PNG, and more"
-HOMEPAGE="https://launchpad.net/aafigure"
+HOMEPAGE="https://launchpad.net/${PN}"
 
 LICENSE="BSD"
 SLOT="0"

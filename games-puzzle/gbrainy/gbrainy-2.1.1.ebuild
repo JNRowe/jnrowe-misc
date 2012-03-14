@@ -7,7 +7,7 @@ EAPI=3
 inherit games
 
 DESCRIPTION="Brain teaser game/trainer to have fun and keep your brain trained"
-HOMEPAGE="http://live.gnome.org/gbrainy"
+HOMEPAGE="http://live.gnome.org/${PN}"
 SRC_URI="http://gent.softcatala.org/jmas/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-2"

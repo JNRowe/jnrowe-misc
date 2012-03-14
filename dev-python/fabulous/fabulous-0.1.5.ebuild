@@ -11,7 +11,7 @@ RESTRICT_PYTHON_ABIS="3.*"
 inherit distutils
 
 DESCRIPTION="Makes your terminal output totally fabulous"
-HOMEPAGE="http://lobstertech.com/fabulous.html"
+HOMEPAGE="http://lobstertech.com/${PN}.html"
 SRC_URI="http://lobstertech.com/media/file/fabulous/fabulous-0.1.5.tar.gz"
 
 LICENSE="MIT"

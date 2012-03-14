@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  14 Mar 2012; James Rowe <jnrowe@gmail.com> adsuck-2.4.1.ebuild,
+  adsuck-2.4.2.ebuild:
+  Use ${PN} in ${HOMEPAGE}.
+
   29 Feb 2012; James Rowe <jnrowe@gmail.com> adsuck-2.4.1.ebuild:
   Keyworded x86.
 

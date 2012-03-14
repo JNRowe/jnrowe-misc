@@ -10,4 +10,4 @@ RDEPEND=dev-python/setuptools dev-python/sphinx >=app-admin/eselect-python-20091
 SLOT=0
 SRC_URI=http://grapefruit.googlecode.com/files/grapefruit-0.1a3.tar.gz
 _eclasses_=distutils	c8b0cab86443a130f3737ad1456d57d3	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	dc3993dc1961bbb13c11bb835390ca29	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68
-_md5_=c62e747b531b98d955d31957105f57ce
+_md5_=3cc4fee5005989b0d705bde980a31627

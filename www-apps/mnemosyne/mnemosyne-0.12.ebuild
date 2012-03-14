@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -10,7 +10,7 @@ RESTRICT_PYTHON_ABIS="3.*"
 inherit distutils
 
 DESCRIPTION="A static weblog compiler, using maildirs and reST"
-HOMEPAGE="http://www.red-bean.com/decklin/mnemosyne/"
+HOMEPAGE="http://www.red-bean.com/decklin/${PN}/"
 SRC_URI="${HOMEPAGE}/${P}.tar.gz"
 
 LICENSE="MIT"

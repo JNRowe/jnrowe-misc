@@ -8,7 +8,7 @@ PYTHON_DEPEND="2"
 inherit base eutils python
 
 DESCRIPTION="Utilities to find file system lint(duplicate files, empty dirs, etc)"
-HOMEPAGE="http://www.pixelbeat.org/fslint/"
+HOMEPAGE="http://www.pixelbeat.org/${PN}/"
 SRC_URI="http://www.pixelbeat.org/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-2"

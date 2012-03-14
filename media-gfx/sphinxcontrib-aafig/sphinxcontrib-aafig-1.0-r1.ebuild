@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -9,7 +9,7 @@ PYTHON_DEPEND="*"
 inherit jnrowe-pypi
 
 DESCRIPTION="dev-python/sphinx extension to support media-gfx/aafigure"
-HOMEPAGE="http://packages.python.org/sphinxcontrib-aafig/"
+HOMEPAGE="http://packages.python.org/${PN}/"
 
 LICENSE="BOLA"
 SLOT="0"

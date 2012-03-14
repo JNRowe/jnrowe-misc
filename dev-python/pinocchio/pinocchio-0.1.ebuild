@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -9,7 +9,7 @@ SUPPORT_PYTHON_ABIS="1"
 inherit distutils
 
 DESCRIPTION="Extensions for the nose testing framework"
-HOMEPAGE="http://darcs.idyll.org/~t/projects/pinocchio/doc/"
+HOMEPAGE="http://darcs.idyll.org/~t/projects/${PN}/doc/"
 SRC_URI="http://darcs.idyll.org/~t/projects/${P}.tar.gz"
 
 LICENSE="MIT"

@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -15,7 +15,7 @@ else
 fi
 
 DESCRIPTION="A hook daemon for mpd, it polls mpd and runs hooks on events"
-HOMEPAGE="http://alip.github.com/mpdcron/"
+HOMEPAGE="http://alip.github.com/${PN}/"
 
 LICENSE="GPL-2"
 SLOT="0"

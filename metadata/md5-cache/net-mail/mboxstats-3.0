@@ -7,4 +7,4 @@ LICENSE=GPL-2
 SLOT=0
 SRC_URI=http://www.vanheusden.com/mboxstats//mboxstats-3.0.tgz
 _eclasses_=multilib	5f4ad6cf85e365e8f0c6050ddd21659e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68
-_md5_=399996e49b16933892b871e7219b8188
+_md5_=15b81a5f4a97d0e200d1a91d418ffd0e

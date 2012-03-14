@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -11,7 +11,7 @@ RESTRICT_PYTHON_ABIS="3.*"
 inherit jnrowe-pypi
 
 DESCRIPTION="A plugin to run nosetests more interactively"
-HOMEPAGE="http://code.google.com/p/nosetty/"
+HOMEPAGE="http://code.google.com/p/${PN}/"
 
 LICENSE="LGPL-2.1"
 SLOT="0"

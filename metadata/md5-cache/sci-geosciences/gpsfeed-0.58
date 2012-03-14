@@ -7,4 +7,4 @@ LICENSE=GPL-2
 RDEPEND=dev-lang/tk dev-tcltk/tcludp
 SLOT=0
 SRC_URI=mirror://sourceforge/gpsfeed/gpsfeed+.zip
-_md5_=4984023e6bb8d26d25033640ad7516b6
+_md5_=33995264008899d9ffb0014973c286cb

@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -11,7 +11,7 @@ RESTRICT_PYTHON_ABIS="3.*"
 inherit distutils
 
 DESCRIPTION="Password generation and security checking"
-HOMEPAGE="http://alastairs-place.net/projects/pwtools/"
+HOMEPAGE="http://alastairs-place.net/projects/${PN}/"
 SRC_URI="https://github.com/downloads/JNRowe/jnrowe-misc/${P}.tar.bz2"
 
 LICENSE="MIT"

@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -9,7 +9,7 @@ PYTHON_DEPEND="*"
 inherit distutils
 
 DESCRIPTION="Machine parsable output plugin for nose"
-HOMEPAGE="http://code.google.com/p/nose-machineout/"
+HOMEPAGE="http://code.google.com/p/${PN}/"
 # Unfortunately there are no real releases(just eggs) at either PyPI or the
 # Google Code site.
 SRC_URI="https://github.com/downloads/JNRowe/jnrowe-misc/${P}.tar.bz2"

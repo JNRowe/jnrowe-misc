@@ -10,7 +10,7 @@ inherit distutils
 MY_P="${P/_alpha/a}"
 
 DESCRIPTION="Tools to run doctests on code and text files within a directory"
-HOMEPAGE="http://code.google.com/p/doctest-tools/"
+HOMEPAGE="http://code.google.com/p/${PN}/"
 SRC_URI="http://${PN}.googlecode.com/files/${MY_P}.zip"
 
 LICENSE="MIT"

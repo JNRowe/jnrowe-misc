@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -9,7 +9,7 @@ PYTHON_DEPEND="*"
 inherit distutils
 
 DESCRIPTION="Use GraphViz to generate call graphs from your Python code"
-HOMEPAGE="http://pycallgraph.slowchop.com/"
+HOMEPAGE="http://${PN}.slowchop.com/"
 SRC_URI="http://pycallgraph.slowchop.com/files/download/${P}.tar.gz"
 
 LICENSE="GPL-2"

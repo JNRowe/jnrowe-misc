@@ -9,7 +9,7 @@ GITHUB_TAG=v${PV}
 inherit jnrowe-github
 
 DESCRIPTION="Sometimes you need a repl"
-HOMEPAGE="http://defunkt.io/repl/"
+HOMEPAGE="http://defunkt.io/${PN}/"
 
 LICENSE="MIT"
 SLOT="0"

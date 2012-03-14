@@ -13,7 +13,7 @@ SUPPORT_PYTHON_ABIS="1"
 inherit distutils
 
 DESCRIPTION="A tool to log and analyse your exercise regime"
-HOMEPAGE="https://github.com/pytrainer/pytrainer"
+HOMEPAGE="https://github.com/${PN}/${PN}"
 SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-2"
