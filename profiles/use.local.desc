@@ -10,5 +10,5 @@ games-puzzle/gbrainy:plugins - Support for adding extra games via mono-addins
 media-gfx/aafigure:docutils - Adds a directive for aafigure support to dev-python/docutils
 media-sound/castget:id3tag - Enable support for ID3 tag writing via media-libs/id3lib
 media-sound/mpdcron:scrobbler - Enable support for last.fm aka audioscrobbler
-media-tv/ontv:xmltv - XMLTV is probably required for downloading TV listings, do *NOT* unset this flag unless you understand the consequences.
+media-tv/ontv:xmltv - XMLTV is normally required for downloading TV listings, do *NOT* unset this flag unless you understand the consequences.
 x11-misc/winwrangler:daemon - Enable support for winwrangler hotkey daemon

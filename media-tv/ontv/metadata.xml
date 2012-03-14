@@ -20,7 +20,7 @@
 	</longdescription>
 	<use>
 		<flag name="xmltv">
-			XMLTV is probably required for downloading TV listings, do *NOT*
+			XMLTV is normally required for downloading TV listings, do *NOT*
 			unset this flag unless you understand the consequences.
 		</flag>
 	</use>
