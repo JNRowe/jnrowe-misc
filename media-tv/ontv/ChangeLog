@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  14 Mar 2012; James Rowe <jnrowe@gmail.com> ontv-3.2.0.ebuild:
+  Updated dependencies for upstream package moves.
+
   14 Mar 2012; James Rowe <jnrowe@gmail.com> metadata.xml:
   Small rewording of xmltv USE description.
 

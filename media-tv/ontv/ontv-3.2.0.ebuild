@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -17,8 +17,7 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="+xmltv"
 
-COMMON_DEPEND="dev-python/gnome-python
-	dev-python/pygtk
+COMMON_DEPEND="dev-python/gnome-applets-python
 	dev-python/notify-python
 	gnome-base/gconf
 	x11-libs/vte[python]"
