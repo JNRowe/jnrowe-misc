@@ -1,7 +1,7 @@
-DEFINED_PHASES=compile install postinst postrm prepare
+DEFINED_PHASES=compile install postinst postrm prepare setup
 DEPEND=doc? ( media-gfx/sphinxcontrib-aafig ) dev-python/imaging docutils? ( >=dev-python/docutils-0.5 dev-python/setuptools ) pdf? ( dev-python/reportlab ) >=app-admin/eselect-python-20091230 =dev-lang/python-2*
 DESCRIPTION=ASCII art figures parsed and output as SVG, PNG, and more
-EAPI=3
+EAPI=4
 HOMEPAGE=https://launchpad.net/aafigure
 IUSE=doc docutils examples pdf
 KEYWORDS=amd64 x86
@@ -10,4 +10,4 @@ RDEPEND=dev-python/imaging docutils? ( >=dev-python/docutils-0.5 dev-python/setu
 SLOT=0
 SRC_URI=mirror://pypi/a/aafigure/aafigure-0.5.tar.gz
 _eclasses_=distutils	15ae23f6f8219a009bfcfff7724fe727	eutils	ba24d79270ea0022703f16b5de80051c	jnrowe-pypi	c6b06bd5e6250ef1ef368932ebd260cf	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	dc3993dc1961bbb13c11bb835390ca29	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
-_md5_=d97af6484610a9af20914a530f155933
+_md5_=dd59eed0ee9cd94dfa86d5b639fe07ff
