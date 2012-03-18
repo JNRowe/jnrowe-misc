@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=dev-vcs/git >=app-admin/eselect-python-20091230 dev-lang/python
 SLOT=0
 SRC_URI=mirror://pypi/g/gitserve/gitserve-0.2.0.tar.gz https://github.com/downloads/JNRowe/jnrowe-misc/gitserve-0.2.0-gitweb_1.6.4.4_update.patch.bz2
-_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	distutils	c8b0cab86443a130f3737ad1456d57d3	eutils	ba24d79270ea0022703f16b5de80051c	jnrowe-pypi	ec904774b8c8477cdb89043eb65c764c	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	dc3993dc1961bbb13c11bb835390ca29	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	distutils	15ae23f6f8219a009bfcfff7724fe727	eutils	ba24d79270ea0022703f16b5de80051c	jnrowe-pypi	ec904774b8c8477cdb89043eb65c764c	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	dc3993dc1961bbb13c11bb835390ca29	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
 _md5_=93dc883f12c011c3331778bc5c616a92
