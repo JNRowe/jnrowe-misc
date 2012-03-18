@@ -22,8 +22,11 @@ DEPEND=""
 RDEPEND=""
 
 src_test() {
-	# Don't use test_doc as it requires net access
-	./setup.py test_code
+	testing() {
+		# Don't use test_doc as it requires net access
+		./setup.py test_code
+	}
+	python_execute_function testing
 }
 
 src_install() {
