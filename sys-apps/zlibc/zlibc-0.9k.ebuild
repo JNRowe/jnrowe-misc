@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -7,7 +7,7 @@ EAPI=4
 inherit autotools
 
 DESCRIPTION="Read-only compressed file-system emulation."
-HOMEPAGE="http://zlibc.linux.lu/"
+HOMEPAGE="http://${PN}.linux.lu/"
 SRC_URI="${HOMEPAGE}/${P}.tar.gz"
 
 LICENSE="GPL-2"

@@ -5,6 +5,13 @@
   18 Mar 2012; James Rowe <jnrowe@gmail.com> upoints-0.11.0.ebuild:
   Execute tests for all supported Python ABIs.
 
+  18 Mar 2012; James Rowe <jnrowe@gmail.com> upoints-0.11.0.ebuild,
+  metadata.xml:
+  Use GitHub for homepage/downloads.
+
+  14 Mar 2012; James Rowe <jnrowe@gmail.com> upoints-0.11.0.ebuild:
+  Use ${PN} in ${HOMEPAGE}.
+
   03 Mar 2012; James Rowe <jnrowe@gmail.com> upoints-0.11.0.ebuild:
   Removed Python 2.4 support.
 

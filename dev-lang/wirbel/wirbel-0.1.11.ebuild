@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -7,7 +7,7 @@ EAPI=4
 inherit eutils
 
 DESCRIPTION="A compiled programming language with syntax and semantics similar to Python"
-HOMEPAGE="http://mathias-kettner.de/wirbel.html"
+HOMEPAGE="http://mathias-kettner.de/${PN}.html"
 SRC_URI="http://mathias-kettner.de/download/${P}.tar.gz"
 
 LICENSE="GPL-2"

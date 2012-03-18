@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -7,7 +7,7 @@ EAPI=4
 inherit toolchain-funcs
 
 DESCRIPTION="Generate statistics from mbox and maildir folders"
-HOMEPAGE="http://www.vanheusden.com/mboxstats/"
+HOMEPAGE="http://www.vanheusden.com/${PN}/"
 SRC_URI="${HOMEPAGE}/${P}.tgz"
 
 LICENSE="GPL-2"

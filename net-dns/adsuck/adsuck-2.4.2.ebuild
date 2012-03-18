@@ -7,7 +7,7 @@ EAPI=4
 inherit base toolchain-funcs user
 
 DESCRIPTION="Small DNS server that spoofs blacklisted addresses"
-HOMEPAGE="https://opensource.conformal.com/wiki/adsuck"
+HOMEPAGE="https://opensource.conformal.com/wiki/${PN}"
 SRC_URI="https://opensource.conformal.com/snapshots/${PN}/${P}.tgz"
 
 KEYWORDS="~amd64 ~x86"

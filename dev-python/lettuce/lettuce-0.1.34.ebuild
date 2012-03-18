@@ -10,7 +10,7 @@ RESTRICT_PYTHON_ABIS="3.*"
 inherit jnrowe-pypi
 
 DESCRIPTION="Cucumber-ish BDD for python"
-HOMEPAGE="http://lettuce.it/"
+HOMEPAGE="http://${PN}.it/"
 
 LICENSE="MIT"
 SLOT="0"

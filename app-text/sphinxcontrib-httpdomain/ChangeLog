@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  14 Mar 2012; James Rowe <jnrowe@gmail.com>
+  sphinxcontrib-httpdomain-1.1.6.ebuild:
+  Use ${PN} in ${HOMEPAGE}.
+
   20 Jan 2012; James Rowe <jnrowe@gmail.com>
   -sphinxcontrib-httpdomain-1.1.5.ebuild,
   sphinxcontrib-httpdomain-1.1.6.ebuild:

@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -10,7 +10,7 @@ MY_PV=$(get_major_version)
 PATCHLEVEL=$(get_after_major_version)
 
 DESCRIPTION="Library that disables all forms of writing data safely to disk"
-HOMEPAGE="http://www.flamingspork.com/projects/libeatmydata/"
+HOMEPAGE="http://www.flamingspork.com/projects/${PN}/"
 SRC_URI="mirror://debian/pool/main/${PN::4}/${PN}/${PN}_${MY_PV}.orig.tar.bz2
 	mirror://debian/pool/main/${PN::4}/${PN}/${PN}_${MY_PV}-${PATCHLEVEL}.debian.tar.gz"
 

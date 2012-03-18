@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -7,7 +7,7 @@ EAPI=4
 inherit toolchain-funcs
 
 DESCRIPTION="Utilities to record and replay a terminal program session"
-HOMEPAGE="http://os.ghalkes.nl/termdebug.html"
+HOMEPAGE="http://os.ghalkes.nl/${PN}.html"
 SRC_URI="http://os.ghalkes.nl/dist/termdebug-1.1.tgz"
 
 LICENSE="GPL-3"

@@ -1,11 +1,11 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=4
 
 DESCRIPTION="A Gtk+ Widget for Displaying OpenStreetMap tiles"
-HOMEPAGE="http://nzjrs.github.com/osm-gps-map/"
+HOMEPAGE="http://nzjrs.github.com/${PN}/"
 SRC_URI="http://www.johnstowers.co.nz/files/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-3"

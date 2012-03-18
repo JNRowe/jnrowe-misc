@@ -1,11 +1,11 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=4
 
 DESCRIPTION="Quick Spam Filter, with support for multiple databases"
-HOMEPAGE="http://www.ivarch.com/programs/qsf.shtml"
+HOMEPAGE="http://www.ivarch.com/programs/${PN}.shtml"
 SRC_URI="mirror://sourceforge/qsf/${P}.tar.bz2"
 SLOT="0"
 LICENSE="Artistic-2"

@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -10,7 +10,7 @@ PYPI_ARCHIVE_SUFFIX="tar.bz2"
 inherit jnrowe-pypi
 
 DESCRIPTION="A human-readable alternative to Python's dir()"
-HOMEPAGE="http://inky.github.com/see/"
+HOMEPAGE="http://inky.github.com/${PN}/"
 
 LICENSE="BSD"
 SLOT="0"

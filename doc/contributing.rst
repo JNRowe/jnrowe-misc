@@ -44,6 +44,15 @@ enough to clean up previous usage [yet].
 All entities that should be installed should raise a failure if they are not
 installed, there is no middle ground for some specific types of files.
 
+:envvar:`HOMEPAGE` usage
+------------------------
+
+Against the advice given in the `ebuild variables`_ section of the devmanual_,
+you should feel free to refer to variables in the :envvar:`HOMEPAGE` definition.
+
+Even within the upstream repository this advice is seemingly ignored at will, as
+it serves little purpose.
+
 :envvar:`RESTRICT` usage
 ------------------------
 
@@ -192,6 +201,7 @@ dead`` somewhere in the watch file.  It is possible to add informative notes to
 the file, such as the previous location or package author data.
 
 .. _devmanual: http://devmanual.gentoo.org/
+.. _ebuild variables: http://devmanual.gentoo.org/ebuild-writing/variables/index.html
 .. _remind: http://www.roaringpenguin.com/products/remind
 .. _rad: http://pypi.python.org/pypi/rad/
 .. _cupage: http://jnrowe.github.com/cupage

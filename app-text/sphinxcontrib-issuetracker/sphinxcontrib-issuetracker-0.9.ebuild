@@ -11,7 +11,7 @@ RESTRICT_PYTHON_ABIS="2.5 3.*"
 inherit jnrowe-pypi
 
 DESCRIPTION="dev-python/sphinx extension to create links to issue trackers"
-HOMEPAGE="http://packages.python.org/sphinxcontrib-issuetracker/"
+HOMEPAGE="http://packages.python.org/${PN}/"
 
 LICENSE="BSD-2"
 SLOT="0"

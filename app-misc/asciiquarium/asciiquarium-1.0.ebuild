@@ -1,11 +1,11 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
 EAPI=4
 
 DESCRIPTION="Enjoy the mysteries of the sea from the safety of your own terminal"
-HOMEPAGE="http://www.robobunny.com/projects/asciiquarium/html/"
+HOMEPAGE="http://www.robobunny.com/projects/${PN}/html/"
 SRC_URI="http://www.robobunny.com/projects/asciiquarium/asciiquarium.tar.gz
 	-> ${P}.tar.gz"
 

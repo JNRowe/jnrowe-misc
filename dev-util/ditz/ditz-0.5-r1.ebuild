@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -19,7 +19,7 @@ else
 fi
 
 DESCRIPTION="A simple, light-weight distributed issue tracker designed for dVCS"
-HOMEPAGE="http://ditz.rubyforge.org"
+HOMEPAGE="http://${PN}.rubyforge.org"
 
 LICENSE="GPL-3"
 SLOT="0"

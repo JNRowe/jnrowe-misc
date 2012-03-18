@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -9,7 +9,7 @@ SUPPORT_PYTHON_ABIS="1"
 inherit jnrowe-pypi
 
 DESCRIPTION="A Cucumber-like BDD framework built on top of Pyhistorian"
-HOMEPAGE="https://github.com/hugobr/pycukes"
+HOMEPAGE="https://github.com/hugobr/${PN}"
 
 LICENSE="MIT"
 SLOT="0"

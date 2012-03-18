@@ -11,7 +11,7 @@ RESTRICT_PYTHON_ABIS="2.5 3.*"
 inherit jnrowe-pypi
 
 DESCRIPTION="Sphinx extension to convert ANSI colour sequences to coloured HTML output."
-HOMEPAGE="http://packages.python.org/sphinxcontrib-ansi/"
+HOMEPAGE="http://packages.python.org/${PN}/"
 
 LICENSE="BSD-2"
 SLOT="0"

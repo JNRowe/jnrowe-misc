@@ -1,6 +1,9 @@
 # ChangeLog for eclass
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  18 Mar 2012; James Rowe <jnrowe@gmail.com> jnrowe-github.eclass:
+  [QA] Fixed typo
 
   25 Oct 2011; James Rowe <jnrowe@gmail.com> jnrowe-github.eclass,
   jnrowe-pypi.eclass:  Fixed eclass documentation VARIABLE usage.

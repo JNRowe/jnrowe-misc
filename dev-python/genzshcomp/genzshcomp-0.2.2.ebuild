@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -12,7 +12,7 @@ DISTUTILS_SRC_TEST="nosetests"
 inherit jnrowe-pypi
 
 DESCRIPTION="Automatic generation of zsh completion functions"
-HOMEPAGE="http://bitbucket.org/hhatto/genzshcomp/"
+HOMEPAGE="http://bitbucket.org/hhatto/${PN}/"
 
 LICENSE="BSD"
 SLOT="0"

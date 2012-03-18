@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -7,7 +7,7 @@ EAPI=4
 inherit toolchain-funcs
 
 DESCRIPTION="TuDu is a comand line interface to manage hierarchical todos."
-HOMEPAGE="http://www.cauterized.net/~meskio/tudu/"
+HOMEPAGE="http://www.cauterized.net/~meskio/${PN}/"
 SRC_URI="http://www.cauterized.net/~meskio/tudu/${P}.tar.gz"
 
 LICENSE="GPL-3"

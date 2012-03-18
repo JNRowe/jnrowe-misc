@@ -1,6 +1,10 @@
 # ChangeLog for dev-python/nose-machineout
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  14 Mar 2012; James Rowe <jnrowe@gmail.com>
+  nose-machineout-0.0.20101201.ebuild:
+  Use ${PN} in ${HOMEPAGE}.
 
   14 Nov 2011; James Rowe <jnrowe@gmail.com> metadata.xml:
   Removed redundant herd info.

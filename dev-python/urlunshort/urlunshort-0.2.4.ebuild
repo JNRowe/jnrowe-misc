@@ -11,7 +11,7 @@ DISTUTILS_SRC_TEST="nosetests"
 inherit jnrowe-pypi
 
 DESCRIPTION="Tools for detecting and expanding shortened URLs"
-HOMEPAGE="http://bitbucket.org/runeh/urlunshort"
+HOMEPAGE="http://bitbucket.org/runeh/${PN}"
 
 LICENSE="BSD-2"
 SLOT="0"

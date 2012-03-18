@@ -2,16 +2,16 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="2"
+EAPI=4
 SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="2"
 RESTRICT_PYTHON_ABIS="3.*"
 
-inherit distutils
+GITHUB_USER="JNRowe"
+
+inherit distutils jnrowe-github
 
 DESCRIPTION="Modules for working with points on Earth"
-HOMEPAGE="http://www.jnrowe.ukfsn.org/projects/upoints.html"
-SRC_URI="http://www.jnrowe.ukfsn.org/_downloads/${P}.tar.bz2"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -31,5 +31,5 @@ src_test() {
 
 src_install() {
 	distutils_src_install
-	dohtml -r doc/* || die "dohtml failed"
+	dodoc doc/*.txt
 }

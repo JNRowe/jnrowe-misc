@@ -10,7 +10,7 @@ RESTRICT_PYTHON_ABIS="3.*"
 inherit jnrowe-pypi
 
 DESCRIPTION="dev-python/sphinx extension to document HTTP APIs"
-HOMEPAGE="http://packages.python.org/sphinxcontrib-httpdomain/"
+HOMEPAGE="http://packages.python.org/${PN}/"
 
 LICENSE="BSD-2"
 SLOT="0"

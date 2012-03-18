@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -10,7 +10,7 @@ RESTRICT_PYTHON_ABIS="3.*"
 inherit jnrowe-pypi
 
 DESCRIPTION="A BDD tool for writing specs using Given-When-Then template"
-HOMEPAGE="https://github.com/hugobr/pyhistorian"
+HOMEPAGE="https://github.com/hugobr/${PN}"
 
 LICENSE="MIT"
 SLOT="0"

@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -20,7 +20,7 @@ esac
 # @BLURB: Simplify ebuilds for GitHub hosted packages
 # @DESCRIPTION:
 # This eclass is designed to to remove some of the duplication necessary
-# in supporting packages hosed on Github.
+# in supporting packages hosted on Github.
 # @EXAMPLE:
 #
 # @CODE

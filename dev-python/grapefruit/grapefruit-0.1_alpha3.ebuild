@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -14,7 +14,7 @@ inherit distutils
 MY_P=${P/_alpha/a}
 
 DESCRIPTION="A module to manipulate color information easily."
-HOMEPAGE="http://code.google.com/p/grapefruit/"
+HOMEPAGE="http://code.google.com/p/${PN}/"
 SRC_URI="http://${PN}.googlecode.com/files/${MY_P}.tar.gz"
 
 LICENSE="Apache-2.0"

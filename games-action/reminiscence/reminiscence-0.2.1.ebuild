@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -9,7 +9,7 @@ inherit eutils games toolchain-funcs
 MY_P=REminiscence-${PV}
 
 DESCRIPTION="A rewrite of the engine used in the game Flashback"
-HOMEPAGE="http://cyxdown.free.fr/reminiscence/"
+HOMEPAGE="http://cyxdown.free.fr/${PN}/"
 SRC_URI="http://cyxdown.free.fr/reminiscence/${MY_P}.tar.bz2"
 
 LICENSE="GPL-3"

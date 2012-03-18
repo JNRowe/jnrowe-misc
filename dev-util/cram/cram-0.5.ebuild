@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -10,7 +10,7 @@ DISTUTILS_SRC_TEST="setup.py"
 inherit distutils
 
 DESCRIPTION="A simple testing framework for command line applications"
-HOMEPAGE="http://bitheap.org/cram/"
+HOMEPAGE="http://bitheap.org/${PN}/"
 SRC_URI="http://bitheap.org/cram/${P}.tar.gz"
 
 LICENSE="GPL-2"
