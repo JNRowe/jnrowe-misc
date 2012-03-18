@@ -1,7 +1,7 @@
-DEFINED_PHASES=compile install postinst postrm prepare test
+DEFINED_PHASES=compile install postinst postrm prepare setup test
 DEPEND=dev-python/setuptools doc? ( dev-python/sphinx ) >=app-admin/eselect-python-20091230 || ( =dev-lang/python-2.7* =dev-lang/python-2.6* =dev-lang/python-2.5* ) test? ( dev-python/nose )
 DESCRIPTION=Offers both local and remote concurrency, by using subprocesses
-EAPI=3
+EAPI=4
 HOMEPAGE=http://pypi.python.org/pypi/multiprocessing/
 IUSE=doc test
 KEYWORDS=amd64 x86
@@ -11,4 +11,4 @@ RESTRICT=test
 SLOT=0
 SRC_URI=mirror://pypi/m/multiprocessing/multiprocessing-2.6.2.1.tar.gz
 _eclasses_=distutils	15ae23f6f8219a009bfcfff7724fe727	eutils	ba24d79270ea0022703f16b5de80051c	jnrowe-pypi	c6b06bd5e6250ef1ef368932ebd260cf	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	dc3993dc1961bbb13c11bb835390ca29	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
-_md5_=ab43c3129c0fce169088d3469b6d705a
+_md5_=e78c2f58edca24d18b80413acc0b94ea
