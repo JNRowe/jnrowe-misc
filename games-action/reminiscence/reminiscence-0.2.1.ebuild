@@ -2,6 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
+# No EAPI-4, because of games eclass
 EAPI=3
 
 inherit eutils games toolchain-funcs

@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  19 Mar 2012; James Rowe <jnrowe@gmail.com> gbrainy-2.1.1.ebuild,
+  gbrainy-2.1.2.ebuild:
+  [QA] Added no-eapi4 note.
+
   14 Mar 2012; James Rowe <jnrowe@gmail.com> gbrainy-2.1.1.ebuild,
   gbrainy-2.1.2.ebuild:
   Use ${PN} in ${HOMEPAGE}.
