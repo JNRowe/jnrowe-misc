@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=4
 PYTHON_DEPEND="*:2.6"
 SUPPORT_PYTHON_ABIS="1"
 # 2.5 is unsupported because of print function syntax, temporary fix
