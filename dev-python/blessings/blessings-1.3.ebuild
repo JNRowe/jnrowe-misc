@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=3
+EAPI=4
 SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="*"
 # < 3.2.3 is restricted due to http://bugs.python.org/issue10570

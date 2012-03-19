@@ -1,7 +1,7 @@
-DEFINED_PHASES=compile install postinst postrm prepare
+DEFINED_PHASES=compile install postinst postrm prepare setup
 DEPEND=dev-python/setuptools >=app-admin/eselect-python-20091230 =dev-lang/python-2*
 DESCRIPTION=A plugin to run nosetests more interactively
-EAPI=3
+EAPI=4
 HOMEPAGE=http://code.google.com/p/nosetty/
 IUSE=examples
 KEYWORDS=amd64 x86
@@ -9,5 +9,5 @@ LICENSE=LGPL-2.1
 RDEPEND=dev-python/nose >=app-admin/eselect-python-20091230 =dev-lang/python-2*
 SLOT=0
 SRC_URI=mirror://pypi/n/nosetty/nosetty-0.4.tar.gz
-_eclasses_=distutils	15ae23f6f8219a009bfcfff7724fe727	eutils	ba24d79270ea0022703f16b5de80051c	jnrowe-pypi	ec904774b8c8477cdb89043eb65c764c	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	dc3993dc1961bbb13c11bb835390ca29	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
-_md5_=a2d9f4142a418c63b5c2d2aa9cb0669c
+_eclasses_=distutils	15ae23f6f8219a009bfcfff7724fe727	eutils	ba24d79270ea0022703f16b5de80051c	jnrowe-pypi	c6b06bd5e6250ef1ef368932ebd260cf	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	dc3993dc1961bbb13c11bb835390ca29	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=f4978c23f74a657b8de782102700a536

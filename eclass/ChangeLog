@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  18 Mar 2012; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass:
+  Support EAPI4.
+
   18 Mar 2012; James Rowe <jnrowe@gmail.com> jnrowe-github.eclass:
   [QA] Fixed typo
 

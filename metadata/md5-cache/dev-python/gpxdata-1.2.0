@@ -1,7 +1,7 @@
-DEFINED_PHASES=compile install postinst postrm prepare
+DEFINED_PHASES=compile install postinst postrm prepare setup
 DEPEND=>=app-admin/eselect-python-20091230 dev-lang/python
 DESCRIPTION=OO representation of GPX and conversion utilities between GPX, KML and OVL
-EAPI=3
+EAPI=4
 HOMEPAGE=http://www.kette-links.de/technik/
 KEYWORDS=amd64 x86
 LICENSE=GPL-2
@@ -9,4 +9,4 @@ RDEPEND=dev-python/python-dateutil >=app-admin/eselect-python-20091230 dev-lang/
 SLOT=0
 SRC_URI=http://www.kette-links.de/software/gpxdata-1.2.0.tar.gz
 _eclasses_=distutils	15ae23f6f8219a009bfcfff7724fe727	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	dc3993dc1961bbb13c11bb835390ca29	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68
-_md5_=8a7b735e3aab05ebe0e045970db0652f
+_md5_=c1c693cffdc6e63bfddd6581b6aba4e7

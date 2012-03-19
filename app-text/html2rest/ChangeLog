@@ -1,6 +1,9 @@
 # ChangeLog for app-text/html2rest
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  19 Mar 2012; James Rowe <jnrowe@gmail.com> html2rest-0.2.1.ebuild:
+  Switched to EAPI4.
 
   14 Nov 2011; James Rowe <jnrowe@gmail.com> metadata.xml:
   Removed redundant herd info.
