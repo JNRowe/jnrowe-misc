@@ -1,7 +1,7 @@
-DEFINED_PHASES=compile install postinst postrm prepare
+DEFINED_PHASES=compile install postinst postrm prepare setup
 DEPEND=>=app-admin/eselect-python-20091230 =dev-lang/python-2*
 DESCRIPTION=Doctest/UnitTest for shell
-EAPI=2
+EAPI=4
 HOMEPAGE=http://pypi.python.org/pypi/shelldoctest/
 IUSE=minimal
 KEYWORDS=amd64 x86
@@ -10,4 +10,4 @@ RDEPEND=dev-python/commandlineapp !minimal? ( dev-python/paramiko ) >=app-admin/
 SLOT=0
 SRC_URI=mirror://pypi/s/shelldoctest/shelldoctest-0.2.tar.gz
 _eclasses_=distutils	15ae23f6f8219a009bfcfff7724fe727	eutils	ba24d79270ea0022703f16b5de80051c	jnrowe-pypi	c6b06bd5e6250ef1ef368932ebd260cf	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	dc3993dc1961bbb13c11bb835390ca29	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
-_md5_=95af955f1efc8480d3ddc42a7f06ffc4
+_md5_=c4265f553e67c991b99e53887934b29e
