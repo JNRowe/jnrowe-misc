@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*fancycompleter-0.4 (19 Mar 2012)
+
+  19 Mar 2012; James Rowe <jnrowe@gmail.com> +fancycompleter-0.4.ebuild:
+  Version bump [572].
+
   19 Mar 2012; James Rowe <jnrowe@gmail.com> fancycompleter-0.2.ebuild,
   fancycompleter-0.3.ebuild:
   Switched to EAPI4.
