@@ -600,7 +600,7 @@
 
   * `1.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.8.ebuild>`__  ``amd64``, ``x86``
 
-* ``upoints`` - http://www.jnrowe.ukfsn.org/projects/upoints.html
+* ``upoints`` - https://github.com/JNRowe/upoints/
 
  * Modules for working with points on Earth
  * Licence: ``GPL-3``
