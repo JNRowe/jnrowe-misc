@@ -9,6 +9,7 @@
 
   * `0.14.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/argh/argh-0.14.2.ebuild>`__  ``amd64``, ``x86``
   * `0.15.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/argh/argh-0.15.0.ebuild>`__  ``~amd64`` (due 2012-03-26), ``~x86`` (due 2012-03-26)
+  * `0.15.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/argh/argh-0.15.1.ebuild>`__  ``~amd64`` (due 2012-04-18), ``~x86`` (due 2012-04-18)
 
 * ``astral`` - http://pypi.python.org/pypi/astral/
 
