@@ -629,14 +629,6 @@
 
   * `1.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.1.2.ebuild>`__  ``amd64``, ``x86``
 
-* ``virtualenvwrapper`` - http://pypi.python.org/pypi/virtualenvwrapper/
-
- * Extensions for virtualenv
- * Licence: ``MIT``
- * Versions:
-
-  * `3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/virtualenvwrapper/virtualenvwrapper-3.0.ebuild>`__  ``amd64``, ``x86`` (masked by ``package.mask``)
-
 * ``webcolors`` - http://pypi.python.org/pypi/webcolors/
 
  * Python library for working with colour names and HTML/CSS values
