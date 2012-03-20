@@ -2,6 +2,12 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*sphinxcontrib-blockdiag-1.0.2 (20 Mar 2012)
+
+  20 Mar 2012; James Rowe <jnrowe@gmail.com>
+  +sphinxcontrib-blockdiag-1.0.2.ebuild:
+  Version bump [576].
+
   19 Mar 2012; James Rowe <jnrowe@gmail.com>
   sphinxcontrib-blockdiag-1.0.1.ebuild:
   Switched to EAPI4.
