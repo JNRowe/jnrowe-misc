@@ -39,8 +39,13 @@ DEPEND="${RDEPEND}
 # Tests require nose features unavailable in the Gentoo nose package.
 RESTRICT="test"
 
-src_prepare() {
-	distutils_src_prepare
+src_unpack() {
+	default
+
+	# vcs-snapshot via jnrowe-github doesn't handle this package correctly as we
+	# use multiple sources from GitHub.  See
+	# c15c71be7e79aa144367dd0d5b801b212f112b8e for more info.
+	mv ${GITHUB_USER}-${PN}-*/ "${S}" || die "Moving unpacked tarball failed"
 
 	if use doc; then
 		mv "${WORKDIR}"/JNRowe-sphinx-jnrowe-c071fd6/* "${S}"/doc/jnrowe
