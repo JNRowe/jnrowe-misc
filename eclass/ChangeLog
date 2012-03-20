@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  20 Mar 2012; James Rowe <jnrowe@gmail.com> jnrowe-github.eclass:
+  Use vcs-import instead of custom src_unpack, it is slightly less rigorous but
+  should work in almost all cases [580].
+
   18 Mar 2012; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass:
   Support EAPI4.
 

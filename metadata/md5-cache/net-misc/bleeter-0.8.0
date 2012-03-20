@@ -10,5 +10,5 @@ RDEPEND=dev-python/configobj dev-python/notify-python dev-python/tweepy dev-pyth
 RESTRICT=test
 SLOT=0
 SRC_URI=https://github.com/JNRowe/bleeter/tarball/0.8.0 -> bleeter-0.8.0.tar.gz doc? ( https://github.com/JNRowe/sphinx-jnrowe/tarball/0.1.0 -> sphinx-jnrowe-0.1.0.tar.gz )
-_eclasses_=distutils	15ae23f6f8219a009bfcfff7724fe727	eutils	ba24d79270ea0022703f16b5de80051c	jnrowe-github	92b391803e7cb263d90ecd222f021e99	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	dc3993dc1961bbb13c11bb835390ca29	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
-_md5_=eb5102a076da8a47325c2ac74816295b
+_eclasses_=distutils	15ae23f6f8219a009bfcfff7724fe727	jnrowe-github	7c62d974ce317cc87e5ed0011d9f3bad	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	dc3993dc1961bbb13c11bb835390ca29	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	vcs-snapshot	da01f8084931ab770fd9ddf7e537a262
+_md5_=bfba731b531ddfdf7a79b7a8c204ecf0
