@@ -603,6 +603,7 @@
  * Versions:
 
   * `1.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.8.ebuild>`__  ``amd64``, ``x86``
+  * `1.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.9.ebuild>`__  ``~amd64`` (due 2012-04-19), ``~x86`` (due 2012-04-19)
 
 * ``upoints`` - http://www.jnrowe.ukfsn.org/projects/upoints.html
 
