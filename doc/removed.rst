@@ -343,16 +343,16 @@ culled.
 '''''''''''''''''''''
 
     An ebuild is now available upstream, unfortunately the upgrade path is
-    incredibly messy. The upstream ebuild installs to invalid paths, has
+    incredibly messy.  Upstream's ebuild installs to invalid paths, has
     incorrect python dependencies and doesn't include documentation.
 
-    The package was already masked for removal in
-    :commit:`5b1273c <5b1273ce283e8e1f842dd4cf547cc5bf7e28e7df>`, but this
-    breakage means it is moving to ::shadow immediately.  It will be maintained
-    there until a usable upgrade oath is available.
+    This package was already masked for removal in
+    :commit:`5b1273c <5b1273ce283e8e1f842dd4cf547cc5bf7e28e7df>`, but the
+    breakage introduced now means it is moving to ::shadow immediately.  It will
+    be maintained there until a usable upgrade path is available.
 
 :Reason: Moved to ``::shadow``
-:Commit:
+:Commit: :commit:`409c46c3 <409c46c30b838de0bc8bc39a3e3150c38b7f4cfa>`
 :Removal date: 2012-03-20
 
 ``dev-util``
