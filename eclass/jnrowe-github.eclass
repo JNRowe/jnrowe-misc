@@ -5,7 +5,7 @@
 if [[ -z ${__ECLASS_IMPORTED_JNROWE_GITHUB} ]]; then
 	__ECLASS_IMPORTED_JNROWE_GITHUB=1
 
-inherit eutils
+inherit vcs-snapshot
 
 case "${EAPI:-0}" in
 	2|3|4) ;;
@@ -45,14 +45,5 @@ esac
 
 HOMEPAGE="https://github.com/${GITHUB_USER}/${MY_PN:-${PN}}/"
 SRC_URI="https://github.com/${GITHUB_USER}/${MY_PN:-${PN}}/tarball/${GITHUB_TAG:-${PV}} -> ${P}.tar.gz"
-
-EXPORT_FUNCTIONS src_unpack
-
-jnrowe-github_src_unpack() {
-	default
-
-	mv ${GITHUB_USER}-${MY_PN:-${PN}}-*/ "${S}" \
-		|| die "Moving unpacked tarball failed"
-}
 
 fi
