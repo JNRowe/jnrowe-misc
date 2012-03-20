@@ -52,6 +52,7 @@
  * Versions:
 
   * `0.7.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.7.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.7.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.7.3.ebuild>`__  ``~amd64`` (due 2012-04-19), ``~x86`` (due 2012-04-19)
 
 * ``sng`` - http://www.catb.org/~esr/sng/
 
@@ -76,6 +77,7 @@
  * Versions:
 
   * `1.0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-1.0.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-1.0.2.ebuild>`__  ``~amd64`` (due 2012-04-19), ``~x86`` (due 2012-04-19)
 
 * ``sphinxcontrib-gruffygen`` - http://pypi.python.org/pypi/sphinxcontrib-gruffygen/
 

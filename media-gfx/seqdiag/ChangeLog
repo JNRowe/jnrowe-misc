@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*seqdiag-0.7.3 (20 Mar 2012)
+
+  20 Mar 2012; James Rowe <jnrowe@gmail.com> +seqdiag-0.7.3.ebuild:
+  Version bump [575].
+
   18 Mar 2012; James Rowe <jnrowe@gmail.com> seqdiag-0.7.2.ebuild:
   Switched to EAPI4.
 
