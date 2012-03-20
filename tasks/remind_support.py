@@ -20,7 +20,7 @@ def gen_removals(args):
         for date, items in sorted(removals.items()):
             for pkgs in items:
                 for pkg in filter(None, pkgs):
-                    file.write("REM %s *1 +1 PRIORITY 2500 "
+                    file.write("REM %s *1 PRIORITY 2500 "
                                'MSG %%"Removal due for %s%%" %%a\n'
                                % (date, pkg))
     yield success('removal.rem generated!')
