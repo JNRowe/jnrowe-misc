@@ -33,7 +33,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.5.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/attest/attest-0.5.2.ebuild>`__  ``~amd64`` (due 2012-03-20), ``~x86`` (due 2012-03-24)
+  * `0.5.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/attest/attest-0.5.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-03-24)
   * `0.5.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/attest/attest-0.5.3.ebuild>`__  ``~amd64`` (due 2012-04-08), ``~x86`` (due 2012-04-08)
 
 * ``behave`` - http://pypi.python.org/pypi/behave/
