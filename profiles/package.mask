@@ -10,11 +10,6 @@ dev-perl/Net-Twitter-Lite
 # X-Removal: 2012-03-29
 media-gfx/sng
 
-# James Rowe <jnrowe@gmail.com> (27 Feb 2012)
-# Entirely obsolete at our site.  Speak up if you want it to stay.  [560]
-# X-Removal: 2012-03-28
-dev-python/virtualenvwrapper
-
 # James Rowe <jnrowe@gmail.com> (20 Feb 2012)
 # No longer used at our site.  Speak up if you want it to stay.
 # X-Removal: 2012-03-21
