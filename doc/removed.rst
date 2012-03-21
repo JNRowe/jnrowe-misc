@@ -572,6 +572,15 @@ culled.
 ``www-client``
 ~~~~~~~~~~~~~~
 
+``github-cli``
+''''''''''''''
+
+    No longer used at our site.
+
+:Reason: Culled
+:Commit:
+:Removal date: 2012-03-21
+
 ``opera-remote``
 ''''''''''''''''
 
