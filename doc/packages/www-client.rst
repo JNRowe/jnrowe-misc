@@ -9,11 +9,3 @@
 
   * `0.7.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/cupage/cupage-0.7.0.ebuild>`__  ``amd64``, ``x86``
 
-* ``github-cli`` - http://pypi.python.org/pypi/github-cli/
-
- * A command-line interface to the GitHub Issues API v2
- * Licence: ``BSD``
- * Versions:
-
-  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/github-cli/github-cli-1.0.0.ebuild>`__  ``amd64``, ``x86`` (masked by ``package.mask``)
-

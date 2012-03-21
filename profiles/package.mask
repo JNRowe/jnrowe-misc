@@ -9,8 +9,3 @@ dev-perl/Net-Twitter-Lite
 # Made obsolete by upng.
 # X-Removal: 2012-03-29
 media-gfx/sng
-
-# James Rowe <jnrowe@gmail.com> (20 Feb 2012)
-# No longer used at our site.  Speak up if you want it to stay.
-# X-Removal: 2012-03-21
-www-client/github-cli
