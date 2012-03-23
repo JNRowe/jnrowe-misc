@@ -11,6 +11,7 @@
 		and manage SMS messages.
 	</longdescription>
 	<upstream>
+		<remote-id type="google-code">pyhumod</remote-id>
 		<doc lang="en">http://code.google.com/p/pyhumod/wiki/Main</doc>
 		<bugs-to>http://code.google.com/p/pyhumod/issues/list</bugs-to>
 	</upstream>

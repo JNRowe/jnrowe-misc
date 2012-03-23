@@ -15,4 +15,7 @@
 		for your program to run is derived through introspection. Common options
 		and behavior can be shared by applications through inheritance.
 	</longdescription>
+	<upstream>
+		<remote-id type="pypi">CommandLineApp</remote-id>
+	</upstream>
 </pkgmetadata>

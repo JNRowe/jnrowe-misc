@@ -23,6 +23,7 @@
 		with Python 2.5 through Python 3.
 	</longdescription>
 	<upstream>
+		<remote-id type="google-code">doctest-tools</remote-id>
 		<changelog>http://code.google.com/p/doctest-tools/source/browse/RELEASE_NOTES.txt</changelog>
 		<doc lang="en">http://code.google.com/p/doctest-tools/w/list</doc>
 		<bugs-to>http://code.google.com/p/doctest-tools/issues/list</bugs-to>
