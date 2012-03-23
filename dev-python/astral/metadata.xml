@@ -12,6 +12,7 @@
 		a particular time for any latitude and longitude.
 	</longdescription>
 	<upstream>
+		<remote-id type="pypi">astral</remote-id>
 		<doc lang="en">http://www.sffjunkie.co.uk/python-astral.html</doc>
 		<bugs-to>https://bugs.launchpad.net/astral</bugs-to>
 	</upstream>
