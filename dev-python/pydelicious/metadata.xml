@@ -9,6 +9,7 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<upstream>
+		<remote-id type="google-code">pydelicious</remote-id>
 		<changelog>http://pydelicious.googlecode.com/svn/trunk/CHANGELOG</changelog>
 		<doc lang="en">http://pydelicious.googlecode.com/svn/trunk/README.rst</doc>
 		<bugs-to>http://code.google.com/p/pydelicious/issues/list</bugs-to>
