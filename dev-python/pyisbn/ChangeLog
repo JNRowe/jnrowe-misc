@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  23 Mar 2012; James Rowe <jnrowe@gmail.com> metadata.xml:
+  Added missing remote-id metadata entry.
+
   18 Mar 2012; James Rowe <jnrowe@gmail.com> pyisbn-0.6.0.ebuild:
   Switched to EAPI4.
 

@@ -12,6 +12,7 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<upstream>
+		<remote-id type="pypi">pyisbn</remote-id>
 		<maintainer status="active">
 			<email>jnrowe@gmail.com</email>
 			<name>James Rowe</name>
