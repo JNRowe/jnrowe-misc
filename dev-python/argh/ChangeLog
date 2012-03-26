@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  26 Mar 2012; James Rowe <jnrowe@gmail.com> argh-0.15.0.ebuild:
+  Keyworded amd64.
+
 *argh-0.15.1 (19 Mar 2012)
 
   19 Mar 2012; James Rowe <jnrowe@gmail.com> +argh-0.15.1.ebuild:
