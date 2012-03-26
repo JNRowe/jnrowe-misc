@@ -264,7 +264,7 @@
 
   * `0.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/misaka/misaka-0.4.2.ebuild>`__  ``amd64``, ``x86``
   * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/misaka/misaka-1.0.0.ebuild>`__  ``~amd64`` (due 2012-04-05), ``~x86`` (due 2012-05-05)
-  * `1.0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/misaka/misaka-1.0.1.ebuild>`__  ``~amd64`` (due 2012-03-26), ``~x86`` (due 2012-03-26)
+  * `1.0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/misaka/misaka-1.0.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-03-26)
 
 * ``mod2doctest`` - http://pypi.python.org/pypi/mod2doctest/
 
