@@ -165,7 +165,7 @@
  * Versions:
 
   * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.0.ebuild>`__  ``amd64``, ``x86``
-  * `1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.1.ebuild>`__  ``~amd64`` (due 2012-03-26), ``~x86`` (due 2012-03-26)
+  * `1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-03-26)
   * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.2.ebuild>`__  ``~amd64`` (due 2012-04-18), ``~x86`` (due 2012-04-18)
 
 * ``freshen`` - https://github.com/rlisagor/freshen
