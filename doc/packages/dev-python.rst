@@ -504,7 +504,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/six/six-1.1.0.ebuild>`__  ``amd64``, ``~x86`` (due 2012-03-26)
+  * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/six/six-1.1.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``snot`` - http://pypi.python.org/pypi/snot/
 
