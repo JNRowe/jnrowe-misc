@@ -5,7 +5,6 @@ REM 2012-03-26 *1 MSG %"Stabilise x86 dev-python/argh-0.15.0%" %a
 REM 2012-03-26 *1 MSG %"Stabilise x86 dev-python/misaka-1.0.1%" %a
 REM 2012-03-26 *1 MSG %"Stabilise x86 dev-python/flake8-1.1%" %a
 REM 2012-03-26 *1 MSG %"Stabilise x86 dev-python/webcolors-1.4%" %a
-REM 2012-03-28 *1 MSG %"Stabilise amd64 media-gfx/actdiag-0.3.1%" %a
 REM 2012-03-28 *1 MSG %"Stabilise x86 media-gfx/actdiag-0.3.1%" %a
 REM 2012-03-28 *1 MSG %"Stabilise amd64 media-gfx/blockdiag-1.1.3%" %a
 REM 2012-03-28 *1 MSG %"Stabilise x86 media-gfx/blockdiag-1.1.3%" %a
