@@ -10,7 +10,7 @@ DESCRIPTION="Small DNS server that spoofs blacklisted addresses"
 HOMEPAGE="https://opensource.conformal.com/wiki/${PN}"
 SRC_URI="https://opensource.conformal.com/snapshots/${PN}/${P}.tgz"
 
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 SLOT="0"
 LICENSE="as-is"
 IUSE=""
