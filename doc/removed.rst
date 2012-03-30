@@ -490,6 +490,15 @@ culled.
 :Removal date: 2011-02-26
 :Issues: :issue:`{issue.title} (#{issue.id}) <141>`
 
+``sng``
+'''''''
+
+    Made obsolete by ``upng``.
+
+:Reason: Culled
+:Commit:
+:Removal date: 2012-03-30
+
 ``sxiv``
 ''''''''
 

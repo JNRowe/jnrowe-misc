@@ -4,8 +4,3 @@
 # No longer used at our site.  Speak up if you want it to stay.
 # X-Removal: 2012-04-12
 dev-perl/Net-Twitter-Lite
-
-# James Rowe <jnrowe@gmail.com> (28 Feb 2012)
-# Made obsolete by upng.
-# X-Removal: 2012-03-29
-media-gfx/sng
