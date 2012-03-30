@@ -490,6 +490,16 @@ culled.
 :Removal date: 2011-02-26
 :Issues: :issue:`{issue.title} (#{issue.id}) <141>`
 
+``sng``
+'''''''
+
+    Made obsolete by ``upng``, which is available from the AST ``::graphics``
+    overlay.
+
+:Reason: Culled
+:Commit: :commit:`c88cb29d <c88cb29de19448a77d4aa25a69f5096da26511af>`
+:Removal date: 2012-03-30
+
 ``sxiv``
 ''''''''
 

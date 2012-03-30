@@ -53,14 +53,6 @@
   * `0.7.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.7.2.ebuild>`__  ``amd64``, ``x86``
   * `0.7.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.7.3.ebuild>`__  ``~amd64`` (due 2012-04-19), ``~x86`` (due 2012-04-19)
 
-* ``sng`` - http://www.catb.org/~esr/sng/
-
- * SNG is a DSL to represent a PNG file in an editable form
- * Licence: ``ZLIB as-is``
- * Versions:
-
-  * `1.0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sng/sng-1.0.5.ebuild>`__  ``amd64``, ``x86`` (masked by ``package.mask``)
-
 * ``sphinxcontrib-aafig`` - http://packages.python.org/sphinxcontrib-aafig/
 
  * dev-python/sphinx extension to support media-gfx/aafigure
