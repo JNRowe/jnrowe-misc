@@ -16,7 +16,7 @@ DESCRIPTION="Declarative terminal tool programming"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE="doc"
 
 DEPEND="doc? ( dev-python/sphinx )"
