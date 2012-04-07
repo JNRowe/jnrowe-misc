@@ -41,11 +41,3 @@
 
   * `1.1.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/sphinxcontrib-httpdomain/sphinxcontrib-httpdomain-1.1.6.ebuild>`__  ``amd64``, ``x86``
 
-* ``sphinxcontrib-issuetracker`` - http://packages.python.org/sphinxcontrib-issuetracker/
-
- * dev-python/sphinx extension to create links to issue trackers
- * Licence: ``BSD-2``
- * Versions:
-
-  * `0.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/sphinxcontrib-issuetracker/sphinxcontrib-issuetracker-0.9.ebuild>`__  ``amd64``, ``x86``
-

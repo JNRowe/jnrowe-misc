@@ -35,6 +35,15 @@ culled.
 :Commit: :commit:`3bdea61f <3bdea61f4884a5dfc1c54e0cb9bf16306485221c>`
 :Removal date: 2011-09-13
 
+``sphinxcontrib-issuetracker``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    ``sphinxcontrib-issuetracker`` now packaged upstream.
+
+:Reason: Moved to ``::shadow``
+:Commit:
+:Removal date: 2012-04-07
+
 ``app-vim``
 ~~~~~~~~~~~
 
