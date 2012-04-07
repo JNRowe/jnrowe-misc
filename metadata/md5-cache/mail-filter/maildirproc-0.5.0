@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile install postinst postrm prepare setup
-DEPEND=!mail-filter/maildirproc-python2 >=app-admin/eselect-python-20091230 =dev-lang/python-3*
+DEPEND=!mail-filter/maildirproc-python2 =dev-lang/python-3*
 DESCRIPTION=maildir processor using Python as its configuration language
 EAPI=4
 HOMEPAGE=http://joel.rosdahl.net/maildirproc/
 IUSE=examples
 KEYWORDS=amd64 x86
 LICENSE=GPL-2
-RDEPEND=!mail-filter/maildirproc-python2 >=app-admin/eselect-python-20091230 =dev-lang/python-3*
+RDEPEND=!mail-filter/maildirproc-python2 =dev-lang/python-3*
 SLOT=0
 SRC_URI=http://joel.rosdahl.net/maildirproc/releases/maildirproc-0.5.0.tar.bz2
-_eclasses_=distutils	15ae23f6f8219a009bfcfff7724fe727	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	dc3993dc1961bbb13c11bb835390ca29	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68
+_eclasses_=distutils	15ae23f6f8219a009bfcfff7724fe727	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	36d7e2b7aa4dce62364c72eec96610cf	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68
 _md5_=c649ec7f9171a305ced5c60811453ac9

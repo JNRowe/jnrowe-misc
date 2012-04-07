@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst postrm prepare setup test unpack
-DEPEND=>=app-admin/eselect-python-20091230 =dev-lang/python-2*
+DEPEND==dev-lang/python-2*
 DESCRIPTION=Modules for working with points on Earth
 EAPI=4
 HOMEPAGE=https://github.com/JNRowe/upoints/
 KEYWORDS=amd64 x86
 LICENSE=GPL-3
-RDEPEND=>=app-admin/eselect-python-20091230 =dev-lang/python-2*
+RDEPEND==dev-lang/python-2*
 SLOT=0
 SRC_URI=https://github.com/JNRowe/upoints/tarball/0.11.0 -> upoints-0.11.0.tar.gz
-_eclasses_=distutils	15ae23f6f8219a009bfcfff7724fe727	jnrowe-github	7c62d974ce317cc87e5ed0011d9f3bad	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	dc3993dc1961bbb13c11bb835390ca29	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	vcs-snapshot	da01f8084931ab770fd9ddf7e537a262
+_eclasses_=distutils	15ae23f6f8219a009bfcfff7724fe727	jnrowe-github	7c62d974ce317cc87e5ed0011d9f3bad	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	36d7e2b7aa4dce62364c72eec96610cf	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	vcs-snapshot	da01f8084931ab770fd9ddf7e537a262
 _md5_=67370de6eba864614ca4e20e2edf3339
