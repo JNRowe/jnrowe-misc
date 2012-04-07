@@ -35,6 +35,18 @@ culled.
 :Commit: :commit:`3bdea61f <3bdea61f4884a5dfc1c54e0cb9bf16306485221c>`
 :Removal date: 2011-09-13
 
+``sphinxcontrib-issuetracker``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    ``sphinxcontrib-issuetracker`` now packaged upstream.
+
+    Upgrade path is clean.  The ``ebuild`` will exist in ``::shadow`` until
+    a version with matching keywords is available upstream.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`8a2dc994 <8a2dc994629ff8fefc6f972a51a799025af145a4>`
+:Removal date: 2012-04-07
+
 ``app-vim``
 ~~~~~~~~~~~
 
