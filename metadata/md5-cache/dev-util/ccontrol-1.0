@@ -10,5 +10,5 @@ RDEPEND=gtk? ( dev-python/pygtk )
 RESTRICT=test
 SLOT=0
 SRC_URI=http://ccontrol.ozlabs.org//releases/ccontrol-1.0.tar.bz2
-_eclasses_=eutils	ba24d79270ea0022703f16b5de80051c	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_eclasses_=eutils	6891f6f484e3b44a0a15e1b0c0fc9a14	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
 _md5_=74a559e3f7cf45108c4589fbc5ef1a90
