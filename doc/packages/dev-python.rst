@@ -253,6 +253,7 @@
  * Versions:
 
   * `0.1.34 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.34.ebuild>`__  ``amd64``, ``x86``
+  * `0.1.35 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.35.ebuild>`__  ``~amd64`` (due 2012-05-07), ``~x86`` (due 2012-05-07)
 
 * ``misaka`` - http://pypi.python.org/pypi/misaka/
 
