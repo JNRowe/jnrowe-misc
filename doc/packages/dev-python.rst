@@ -164,6 +164,7 @@
 
   * `1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.1.ebuild>`__  ``amd64``, ``x86``
   * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.2.ebuild>`__  ``~amd64`` (due 2012-04-18), ``~x86`` (due 2012-04-18)
+  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.3.ebuild>`__  ``~amd64`` (due 2012-05-07), ``~x86`` (due 2012-05-07)
 
 * ``freshen`` - https://github.com/rlisagor/freshen
 
@@ -252,6 +253,7 @@
  * Versions:
 
   * `0.1.34 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.34.ebuild>`__  ``amd64``, ``x86``
+  * `0.1.35 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.35.ebuild>`__  ``~amd64`` (due 2012-05-07), ``~x86`` (due 2012-05-07)
 
 * ``misaka`` - http://pypi.python.org/pypi/misaka/
 
@@ -558,6 +560,7 @@
 
   * `0.7.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.7.0.ebuild>`__  ``amd64``, ``x86``
   * `0.10.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.10.0.ebuild>`__  ``~amd64`` (due 2012-04-08), ``~x86`` (due 2012-04-08)
+  * `0.10.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.10.3.ebuild>`__  ``~amd64`` (due 2012-05-07), ``~x86`` (due 2012-05-07)
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
