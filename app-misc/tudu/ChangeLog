@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  07 Apr 2012; James Rowe <jnrowe@gmail.com> tudu-0.8.1.ebuild, watch:
+  Updated homepage, and watch file.
+
   14 Mar 2012; James Rowe <jnrowe@gmail.com> tudu-0.8.1.ebuild:
   Use ${PN} in ${HOMEPAGE}.
 

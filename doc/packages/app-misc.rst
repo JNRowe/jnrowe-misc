@@ -81,7 +81,7 @@
 
   * `1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/termdebug/termdebug-1.1.ebuild>`__  ``amd64``, ``x86``
 
-* ``tudu`` - http://www.cauterized.net/~meskio/tudu/
+* ``tudu`` - http://code.meskio.net/tudu/
 
  * TuDu is a comand line interface to manage hierarchical todos.
  * Licence: ``GPL-3``

@@ -7,8 +7,8 @@ EAPI=4
 inherit toolchain-funcs
 
 DESCRIPTION="TuDu is a comand line interface to manage hierarchical todos."
-HOMEPAGE="http://www.cauterized.net/~meskio/${PN}/"
-SRC_URI="http://www.cauterized.net/~meskio/tudu/${P}.tar.gz"
+HOMEPAGE="http://code.meskio.net/${PN}/"
+SRC_URI="${HOMEPAGE}${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
