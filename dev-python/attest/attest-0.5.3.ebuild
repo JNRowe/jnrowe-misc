@@ -17,7 +17,7 @@ DESCRIPTION="Modern, Pythonic unit testing"
 
 LICENSE="BSD-2"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE="minimal test"
 
 # The package correctly handles the 2.6 json module, but there is no *usable*
