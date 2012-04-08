@@ -8,6 +8,7 @@ PYTHON_DEPEND="2"
 RESTRICT_PYTHON_ABIS="3.*"
 DISTUTILS_SRC_TEST="nosetests"
 PYPI_ARCHIVE_SUFFIX="zip"
+PYPI_OLD_DISTUTILS=1
 
 inherit jnrowe-pypi
 
@@ -25,6 +26,7 @@ PYTHON_MODNAME="${PN}.py"
 
 src_install() {
 	distutils_src_install
+
 	# Install .txt sources too, so we don't have broken links.
 	dohtml -A txt -r doc/ || die "dohtml failed"
 }
