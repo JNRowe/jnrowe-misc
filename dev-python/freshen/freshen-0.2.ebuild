@@ -3,9 +3,7 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
-RESTRICT_PYTHON_ABIS="3.*"
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
 inherit jnrowe-pypi eutils
 
@@ -22,13 +20,17 @@ RDEPEND="dev-python/nose
 	dev-python/pyparsing
 	dev-python/pyyaml"
 
-DOCS="cuke-comparison.txt todo.txt"
+DOCS=(cuke-comparison.txt todo.txt)
 
-src_install() {
-	distutils_src_install
-
+python_install_all() {
 	insinto /usr/share/doc/${PF}
 	if use examples; then
 		doins -r examples
 	fi
+}
+
+src_install() {
+	default
+
+	python-distutils-ng_src_install
 }
