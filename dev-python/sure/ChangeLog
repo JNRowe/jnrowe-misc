@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Apr 2012; James Rowe <jnrowe@gmail.com> sure-0.10.0.ebuild:
+  Keyworded amd64.
+
 *sure-0.10.3 (07 Apr 2012)
 
   07 Apr 2012; James Rowe <jnrowe@gmail.com> +sure-0.10.3.ebuild:
