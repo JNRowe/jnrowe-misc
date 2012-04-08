@@ -3,11 +3,10 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
-RESTRICT_PYTHON_ABIS="3.*"
 
-inherit distutils
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
+
+inherit python-distutils-ng
 
 DESCRIPTION="A static weblog compiler, using maildirs and reST"
 HOMEPAGE="http://www.red-bean.com/decklin/${PN}/"
@@ -22,12 +21,21 @@ DEPEND=""
 RDEPEND="dev-python/docutils
 	dev-python/kid"
 
-src_install() {
-	distutils_src_install
+DOCS=(NEWS README)
+
+python_install_all() {
+	python-distutils-ng_redoscript "/usr/bin/${PN}"
 
 	insinto /usr/share/doc/${PF}
 	doins -r contrib/ || die "doins failed"
+
 	if use examples; then
 		doins -r examples || die "doins examples failed"
 	fi
+}
+
+src_install() {
+	default
+
+	python-distutils-ng_src_install
 }
