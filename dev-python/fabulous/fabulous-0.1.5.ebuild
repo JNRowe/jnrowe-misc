@@ -3,12 +3,11 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
-# 3.x is restricted due to print syntax and unicode support
-RESTRICT_PYTHON_ABIS="3.*"
 
-inherit distutils
+# 3.x is restricted due to print syntax and unicode support
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
+
+inherit python-distutils-ng
 
 DESCRIPTION="Makes your terminal output totally fabulous"
 HOMEPAGE="http://lobstertech.com/${PN}.html"
@@ -25,7 +24,7 @@ RDEPEND="dev-python/grapefruit
 	dev-python/imaging"
 
 src_compile() {
-	distutils_src_compile
+	python-distutils-ng_src_compile
 
 	if use doc; then
 		pushd docs >/dev/null
@@ -34,9 +33,7 @@ src_compile() {
 	fi
 }
 
-src_install() {
-	distutils_src_install
-
+python_install_all() {
 	if use doc; then
 		dohtml -r docs/_build/html/* || die "dohtml failed"
 	fi
