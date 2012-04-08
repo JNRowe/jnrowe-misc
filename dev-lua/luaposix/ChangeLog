@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Apr 2012; James Rowe <jnrowe@gmail.com> luaposix-5.1.17.ebuild:
+  Keyworded amd64.
+
 *luaposix-5.1.18 (07 Apr 2012)
 
   07 Apr 2012; James Rowe <jnrowe@gmail.com> +luaposix-5.1.18.ebuild:
