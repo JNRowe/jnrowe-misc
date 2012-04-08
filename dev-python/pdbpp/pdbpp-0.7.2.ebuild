@@ -3,10 +3,8 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
 # 3.x is restricted due to exception syntax
-RESTRICT_PYTHON_ABIS="3.*"
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
 inherit jnrowe-pypi
 
@@ -23,4 +21,10 @@ RDEPEND="dev-python/fancycompleter
 	dev-python/wmctrl
 	dev-python/pygments"
 
-PYTHON_MODNAME="pdb.py"
+DOCS=(README)
+
+src_install() {
+	default
+
+	python-distutils-ng_src_install
+}
