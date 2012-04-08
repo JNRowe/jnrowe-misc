@@ -3,10 +3,8 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
 # 3.x is restricted due to invalid octal tokens in os.chmod args
-RESTRICT_PYTHON_ABIS="3.*"
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
 inherit jnrowe-pypi
 
@@ -21,18 +19,22 @@ IUSE="examples"
 DEPEND="dev-python/setuptools"
 RDEPEND="dev-python/nose"
 
-DOCS="CHANGELOG.txt"
+DOCS=(CHANGELOG.txt README.txt)
 
-src_prepare() {
+python_prepare_all() {
 	# Fix file permission for data file
 	sed -i 's,700,600,' -i nosetty/nosetty.py
 }
 
-src_install() {
-	distutils_src_install
-
+python_install_all() {
 	insinto /usr/share/doc/${PF}
 	if use examples; then
 		doins -r examples
 	fi
+}
+
+src_install() {
+	default
+
+	python-distutils-ng_src_install
 }
