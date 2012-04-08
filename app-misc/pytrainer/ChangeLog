@@ -5,6 +5,9 @@
   08 Apr 2012; James Rowe <jnrowe@gmail.com> pytrainer-1.9.1.ebuild:
   Slot workaround for dateutil no longer needed.
 
+  08 Apr 2012; James Rowe <jnrowe@gmail.com> pytrainer-1.9.1.ebuild:
+  Switched to python-distutils-ng eclass.
+
   18 Mar 2012; James Rowe <jnrowe@gmail.com> pytrainer-1.9.1.ebuild:
   Switched to EAPI4.
 
