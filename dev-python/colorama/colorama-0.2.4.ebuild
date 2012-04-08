@@ -3,8 +3,8 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*"
+
+PYTHON_COMPAT="python2_5 python2_6 python2_7 python3_1 python3_2"
 
 inherit jnrowe-pypi
 
@@ -18,11 +18,17 @@ IUSE="examples"
 DEPEND=""
 RDEPEND="${DEPEND}"
 
-src_install() {
-	distutils_src_install
+DOCS=(README.txt)
 
+python_install_all() {
 	if use examples; then
 		insinto /usr/share/doc/${PF}/examples
 		doins demos/*
 	fi
+}
+
+src_install() {
+	default
+
+	python-distutils-ng_src_install
 }
