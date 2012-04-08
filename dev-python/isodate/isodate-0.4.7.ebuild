@@ -7,6 +7,7 @@ SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="*"
 RESTRICT_PYTHON_ABIS=""
 DISTUTILS_SRC_TEST="setup.py"
+PYPI_OLD_DISTUTILS=1
 
 inherit jnrowe-pypi
 
@@ -24,4 +25,5 @@ RDEPEND=""
 DOCS="CHANGES.txt TODO.txt"
 
 # Tests are broken with <2.7 and 3.1, patch pushed
+PYPI_OLD_DISTUTILS=1
 RESTRICT="test"
