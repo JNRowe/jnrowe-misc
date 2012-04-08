@@ -7,6 +7,5 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `2.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/games-puzzle/gbrainy/gbrainy-2.1.1.ebuild>`__  ``amd64``, ``x86``
-  * `2.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/games-puzzle/gbrainy/gbrainy-2.1.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-04-08)
+  * `2.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/games-puzzle/gbrainy/gbrainy-2.1.2.ebuild>`__  ``amd64``, ``x86``
 
