@@ -28,7 +28,7 @@ RDEPEND="${DEPEND}
 	dev-python/lxml
 	dev-python/matplotlib
 	dev-python/pygtk
-	dev-python/python-dateutil:python-2
+	dev-python/python-dateutil
 	dev-python/pywebkitgtk
 	dev-python/sqlalchemy-migrate
 	import? ( sci-geosciences/gpsbabel )
