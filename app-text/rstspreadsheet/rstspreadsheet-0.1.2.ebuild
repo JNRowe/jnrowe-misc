@@ -3,10 +3,8 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
 # 3.x is restricted due to exec usage
-RESTRICT_PYTHON_ABIS="3.*"
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
 inherit jnrowe-pypi
 
@@ -19,5 +17,3 @@ IUSE=""
 
 DEPEND="dev-python/setuptools"
 RDEPEND="dev-python/docutils"
-
-PYTHON_MODNAME="${PN/-//}.py"
