@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Apr 2012; James Rowe <jnrowe@gmail.com> doctest-tools-1.0_alpha3.ebuild:
+  Switched to python-distutils-ng eclass.
+
   23 Mar 2012; James Rowe <jnrowe@gmail.com> metadata.xml:
   Added missing remote-id metadata entry.
 

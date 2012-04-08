@@ -3,10 +3,11 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*"
 
-inherit distutils
+PYTHON_COMPAT="python2_5 python2_6 python2_7 python3_1 python3_2"
+
+inherit python-distutils-ng
+
 MY_P="${P/_alpha/a}"
 
 DESCRIPTION="Tools to run doctests on code and text files within a directory"
