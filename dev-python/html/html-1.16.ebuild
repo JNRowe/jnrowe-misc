@@ -3,8 +3,7 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*"
+PYTHON_COMPAT="python2_5 python2_6 python2_7 python3_1 python3_2"
 
 inherit jnrowe-pypi
 
@@ -18,11 +17,15 @@ IUSE=""
 DEPEND=""
 RDEPEND=""
 
-PYTHON_MODNAME="${PN}.py"
+DOCS=(README.html)
 
-src_prepare() {
-	distutils_src_prepare
-
+python_prepare_all() {
 	# Workaround __doc__ string encoding error
 	sed "s,\.decode('utf8'),," -i setup.py
+}
+
+src_install() {
+	default
+
+	python-distutils-ng_src_install
 }
