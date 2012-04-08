@@ -3,10 +3,8 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2:2.6"
 # 2.5 is restricted due to use of context handlers, without __future__ import
-RESTRICT_PYTHON_ABIS="2.5 3.*"
+PYTHON_COMPAT="python2_6 python2_7"
 
 inherit jnrowe-pypi
 
@@ -24,6 +22,10 @@ DEPEND="dev-python/setuptools"
 RDEPEND="dev-python/setuptools
 	>=dev-python/sphinx-1.0"
 
-PYTHON_MODNAME="${PN/-//}.py"
+DOCS=(CHANGES.rst)
 
-DOCS="CHANGES.rst"
+src_install() {
+	default
+
+	python-distutils-ng_src_install
+}
