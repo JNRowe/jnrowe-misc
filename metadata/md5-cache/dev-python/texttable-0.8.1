@@ -1,12 +1,14 @@
-DEFINED_PHASES=compile install postinst postrm prepare setup
-DEPEND==dev-lang/python-2*
+DEFINED_PHASES=compile configure install prepare pretend test
+DEPEND=python_targets_python2_5? ( dev-lang/python:2.5 ) python_targets_python2_6? ( dev-lang/python:2.6 ) python_targets_python2_7? ( dev-lang/python:2.7 )
 DESCRIPTION=module to generate a formatted text table, using ASCII characters.
 EAPI=4
 HOMEPAGE=http://foutaise.org/code/
+IUSE=python_targets_python2_5 python_targets_python2_6 python_targets_python2_7
 KEYWORDS=amd64 x86
 LICENSE=LGPL-2.1
-RDEPEND==dev-lang/python-2*
+RDEPEND=python_targets_python2_5? ( dev-lang/python:2.5 ) python_targets_python2_6? ( dev-lang/python:2.6 ) python_targets_python2_7? ( dev-lang/python:2.7 )
+REQUIRED_USE=|| ( python_targets_python2_5 python_targets_python2_6 python_targets_python2_7 )
 SLOT=0
 SRC_URI=http://foutaise.org/code/texttable/texttable-0.8.1.tar.gz
-_eclasses_=distutils	15ae23f6f8219a009bfcfff7724fe727	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	36d7e2b7aa4dce62364c72eec96610cf	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68
-_md5_=58f3e39b09df37c105a11a0f473a6ef0
+_eclasses_=python-distutils-ng	9c728fa97679b3ca2742cf8ccd260599
+_md5_=c46dc3b58ca8653c0ac0d19d208cd98a
