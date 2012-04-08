@@ -3,10 +3,8 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*:2.6"
 # 2.5 is restricted due to context handler usage without __future__
-RESTRICT_PYTHON_ABIS="2.5"
+PYTHON_COMPAT="python2_6 python2_7 python3_1 python3_2"
 
 inherit jnrowe-pypi
 
@@ -20,4 +18,10 @@ IUSE=""
 DEPEND="dev-python/setuptools"
 RDEPEND="dev-python/pyrepl"
 
-PYTHON_MODNAME="${PN}.py"
+DOCS=(README)
+
+src_install() {
+	default
+
+	python-distutils-ng_src_install
+}
