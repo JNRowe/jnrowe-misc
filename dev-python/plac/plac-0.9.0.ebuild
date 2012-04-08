@@ -3,8 +3,7 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*"
+PYTHON_COMPAT="python2_5 python2_6 python2_7 python3_1 python3_2"
 
 inherit jnrowe-pypi
 
@@ -20,10 +19,10 @@ RDEPEND="|| ( dev-python/argparse >=dev-lang/python-2.7 )
 	|| ( dev-python/multiprocessing >=dev-lang/python-2.6 )
 	tk? ( dev-lang/python[tk] )"
 
-PYTHON_MODNAME="${PN}.py ${PN}_core.py ${PN}_ext.py"
+DOCS=(CHANGES.txt README.txt)
 
-src_install() {
-	distutils_src_install
+python_install_all() {
+	python-distutils-ng_redoscript "/usr/bin/${PN}_runner.py"
 
 	dodoc doc/plac*.{pdf,txt}
 	dohtml doc/*.html
@@ -32,4 +31,10 @@ src_install() {
 	if use examples; then
 		doins doc/*.{help,py}
 	fi
+}
+
+src_install() {
+	default
+
+	python-distutils-ng_src_install
 }
