@@ -3,11 +3,10 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2:2.6"
+
 # 2.5 isn't supported upstream, so we'll kill them here too
 # 3.x is restricted due to print syntax
-RESTRICT_PYTHON_ABIS="2.5 3.*"
+PYTHON_COMPAT="python2_6 python2_7"
 
 MY_PN="Hammertime"
 
@@ -24,3 +23,7 @@ DEPEND="dev-python/setuptools"
 # setuptools needed in RDEPEND for wrapper scripts
 RDEPEND="${DEPEND}
 	>=dev-python/git-python-0.3.0"
+
+python_install_all() {
+	python-distutils-ng_redoscript "/usr/bin/git-time"
+}
