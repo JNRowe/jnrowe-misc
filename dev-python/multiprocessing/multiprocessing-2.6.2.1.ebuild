@@ -8,6 +8,7 @@ PYTHON_DEPEND="2:2.5"
 # Multiprocessing is included in Python since 2.6
 RESTRICT_PYTHON_ABIS="2.[67] 3.*"
 DISTUTILS_SRC_TEST="nosetests"
+PYPI_OLD_DISTUTILS=1
 
 inherit jnrowe-pypi
 
