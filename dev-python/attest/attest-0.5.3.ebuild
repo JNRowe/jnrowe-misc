@@ -8,6 +8,7 @@ PYTHON_DEPEND="*"
 # 3.2 is restricted due to contextlib.nested usage
 RESTRICT_PYTHON_ABIS="3.2"
 DISTUTILS_SRC_TEST="setup.py"
+PYPI_OLD_DISTUTILS=1
 
 MY_PN="Attest"
 
