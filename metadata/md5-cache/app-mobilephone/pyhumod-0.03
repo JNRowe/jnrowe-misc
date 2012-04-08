@@ -1,13 +1,14 @@
-DEFINED_PHASES=compile install postinst postrm prepare setup
-DEPEND==dev-lang/python-2*
+DEFINED_PHASES=compile configure install postinst prepare pretend test
+DEPEND=python_targets_python2_5? ( dev-lang/python:2.5 ) python_targets_python2_6? ( dev-lang/python:2.6 ) python_targets_python2_7? ( dev-lang/python:2.7 )
 DESCRIPTION=Accessing Huawei modems in Python, including SMS and data calls.
 EAPI=4
 HOMEPAGE=http://code.google.com/p/pyhumod/
-IUSE=dbus
+IUSE=dbus python_targets_python2_5 python_targets_python2_6 python_targets_python2_7
 KEYWORDS=amd64 x86
 LICENSE=BSD
-RDEPEND=dev-python/pyserial net-dialup/ppp dbus? ( dev-python/dbus-python ) =dev-lang/python-2*
+RDEPEND=dev-python/pyserial net-dialup/ppp dbus? ( dev-python/dbus-python ) python_targets_python2_5? ( dev-lang/python:2.5 ) python_targets_python2_6? ( dev-lang/python:2.6 ) python_targets_python2_7? ( dev-lang/python:2.7 )
+REQUIRED_USE=|| ( python_targets_python2_5 python_targets_python2_6 python_targets_python2_7 )
 SLOT=0
 SRC_URI=http://pyhumod.googlecode.com/files/pyhumod-0.03.tar.gz
-_eclasses_=distutils	15ae23f6f8219a009bfcfff7724fe727	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	36d7e2b7aa4dce62364c72eec96610cf	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68
-_md5_=6a302f1230f7cef882cde621d366e845
+_eclasses_=python-distutils-ng	9c728fa97679b3ca2742cf8ccd260599
+_md5_=b0f79c01559d9203c01037e3326fad83

@@ -3,11 +3,10 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
-RESTRICT_PYTHON_ABIS="3.*"
 
-inherit distutils
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
+
+inherit python-distutils-ng
 
 DESCRIPTION="Accessing Huawei modems in Python, including SMS and data calls."
 HOMEPAGE="http://code.google.com/p/${PN}/"
@@ -25,20 +24,16 @@ RDEPEND="dev-python/pyserial
 
 PYTHON_MODNAME="humod"
 
-src_prepare() {
+python_prepare_all() {
 	sed -i -e '/^CONFIG_FILES/,/^$/d' -e '/CONFIG_FILES/d' setup.py
 }
 
-src_install() {
-	distutils_src_install
-
+python_install_all() {
 	insinto /etc/ppp/peers/
 	doins conf/humod || die "doins failed"
 }
 
 pkg_postinst() {
-	distutils_pkg_postinst
-
 	if ! use dbus; then
 		elog "dbus support is required for modem detection.  Either rebuild with"
 		elog "USE=dbus or manually install dev-python/dbus-python."
