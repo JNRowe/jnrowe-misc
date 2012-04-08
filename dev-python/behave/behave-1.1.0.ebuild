@@ -3,8 +3,7 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*"
+PYTHON_COMPAT="python2_5 python2_6 python2_7 python3_1 python3_2"
 
 inherit jnrowe-pypi
 
@@ -17,8 +16,13 @@ IUSE=""
 
 DEPEND="dev-python/setuptools"
 RDEPEND="dev-python/parse
-	|| ( >=dev-lang/python-2.7 dev-python/argparse )
-	|| ( >=dev-lang/python-2.6 dev-python/simplejson )"
+	python_targets_python2_5? ( dev-python/argparse )
+	python_targets_python2_6? ( dev-python/argparse )
+	python_targets_python2_5? ( dev-python/simplejson )"
 
 # Tests are unusable within portage environment
 RESTRICT="test"
+
+python_install_all() {
+	python-distutils-ng_redoscript "/usr/bin/${PN}"
+}
