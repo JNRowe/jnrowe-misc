@@ -3,16 +3,14 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2:2.6"
+
 # 2.5 is restricted due to exception syntax
 # 3.x is restricted due to missing dependencies
-RESTRICT_PYTHON_ABIS="2.5 3.*"
-DISTUTILS_SRC_TEST="nosetests"
+PYTHON_COMPAT="python2_6 python2_7"
 
 GITHUB_USER="JNRowe"
 
-inherit jnrowe-github distutils
+inherit jnrowe-github python-distutils-ng
 
 DESCRIPTION="Nasty little twitter client"
 HOMEPAGE="http://jnrowe.github.com/${PN}/"
@@ -36,9 +34,6 @@ DEPEND="${RDEPEND}
 	dev-python/docutils
 	doc? ( dev-python/sphinx )"
 
-# Tests require nose features unavailable in the Gentoo nose package.
-RESTRICT="test"
-
 src_unpack() {
 	default
 
@@ -53,7 +48,7 @@ src_unpack() {
 }
 
 src_compile() {
-	distutils_src_compile
+	python-distutils-ng_src_compile
 
 	rst2man.py doc/${PN}.1.rst doc/${PN}.1 || die "rst2man.py failed"
 	if use doc; then
@@ -62,13 +57,7 @@ src_compile() {
 	fi
 }
 
-src_test() {
-	nosetests --with-doctest ${PN}.py
-}
-
-src_install() {
-	distutils_src_install
-
+python_install_all() {
 	dodoc doc/*.rst || die "dodoc failed"
 	doman doc/${PN}.1 || die "doman failed"
 	if use doc; then
