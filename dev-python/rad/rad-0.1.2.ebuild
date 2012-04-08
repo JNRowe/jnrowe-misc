@@ -3,11 +3,9 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2:2.6"
 # 2.5 is restricted due to except...as syntax
 # 3.x is restricted due to print command
-RESTRICT_PYTHON_ABIS="2.5 3.*"
+PYTHON_COMPAT="python2_6 python2_7"
 
 inherit jnrowe-pypi
 
@@ -22,3 +20,15 @@ DEPEND="dev-python/setuptools"
 RDEPEND="dev-python/colorama
 	dev-python/plac
 	dev-python/pyyaml"
+
+DOCS=(README.rst)
+
+python_install_all() {
+	python-distutils-ng_redoscript "/usr/bin/${PN}"
+}
+
+src_install() {
+	default
+
+	python-distutils-ng_src_install
+}
