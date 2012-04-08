@@ -3,11 +3,9 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
-RESTRICT_PYTHON_ABIS="3.*"
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
-inherit distutils
+inherit python-distutils-ng
 
 DESCRIPTION="Wrapper for the Universal Feed Parser which caches the results"
 HOMEPAGE="http://www.doughellmann.com/projects/${PN}/"
