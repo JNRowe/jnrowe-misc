@@ -22,7 +22,7 @@ DEPEND="dev-python/setuptools"
 RDEPEND="dev-python/setuptools
 	>=dev-python/sphinx-1.0"
 
-DOCS=(CHANGES.rst)
+DOCS=(CHANGES.rst README)
 
 src_install() {
 	default
