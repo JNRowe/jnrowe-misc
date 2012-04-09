@@ -3,10 +3,8 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
 # 3.x is not supported because of exception syntax.
-RESTRICT_PYTHON_ABIS="3.*"
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
 inherit jnrowe-pypi
 
@@ -24,6 +22,10 @@ RDEPEND="${DEPEND}
 	media-gfx/mscgen
 	pdf? ( dev-texlive/texlive-fontutils )"
 
-DOCS="CHANGES"
+DOCS=(CHANGES README)
 
-PYTHON_MODNAME="${PN/-//}.py"
+src_install() {
+	default
+
+	python-distutils-ng_src_install
+}
