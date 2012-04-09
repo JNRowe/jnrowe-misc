@@ -28,9 +28,3 @@ python_prepare_all() {
 	ln -s src ${PN}
 	sed -i 's,@python src/,@cd src; PYTHONPATH=$(shell pwd) python ,' Makefile
 }
-
-src_install() {
-	default
-
-	python-distutils-ng_src_install
-}
