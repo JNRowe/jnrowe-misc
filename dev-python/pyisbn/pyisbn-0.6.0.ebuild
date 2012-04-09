@@ -35,9 +35,3 @@ python_install_all() {
 		dohtml -r doc/.build/html/* || die "dohtml failed"
 	fi
 }
-
-src_install() {
-	default
-
-	python-distutils-ng_src_install
-}
