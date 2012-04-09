@@ -288,7 +288,7 @@
 
 * ``nose-pathmunge`` - http://bitbucket.org/jnoller/nose-pathmunge/
 
- * Add additional directories to sys.path for nose.
+ * Add additional directories to sys.path for nose
  * Licence: ``Apache-2.0``
  * Versions:
 
