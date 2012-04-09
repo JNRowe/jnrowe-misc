@@ -26,9 +26,3 @@ src_unpack() {
 	mkdir "${S}"; cd "${S}"
 	unpack ${A}
 }
-
-src_install() {
-	default
-
-	python-distutils-ng_src_install
-}
