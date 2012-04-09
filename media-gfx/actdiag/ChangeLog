@@ -4,6 +4,10 @@
 
   09 Apr 2012; James Rowe <jnrowe@gmail.com> actdiag-0.3.1.ebuild,
   actdiag-0.3.2.ebuild:
+  src_install default hack now in jnrowe-pypi eclass.
+
+  09 Apr 2012; James Rowe <jnrowe@gmail.com> actdiag-0.3.1.ebuild,
+  actdiag-0.3.2.ebuild:
   Switched to python-distutils-ng eclass.
 
   28 Mar 2012; James Rowe <jnrowe@gmail.com> -actdiag-0.3.0.ebuild,
