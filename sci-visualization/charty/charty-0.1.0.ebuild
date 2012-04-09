@@ -21,6 +21,7 @@ IUSE=""
 DEPEND=""
 RDEPEND=""
 
-PATCHES=("${FILESDIR}"/${P}-include_css.patch "${FILESDIR}"/${P}-fix_example.patch)
+PATCHES=("${FILESDIR}"/${P}-include_css.patch \
+	"${FILESDIR}"/${P}-fix_example.patch)
 
 DOCS=(CHANGES.txt README)
