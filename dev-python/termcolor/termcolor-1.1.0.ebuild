@@ -3,11 +3,9 @@
 # $Header: $
 
 EAPI=4
-PYTHON_DEPEND="*:2.6"
-SUPPORT_PYTHON_ABIS="1"
 # 2.5 is unsupported because of print function syntax, temporary fix
 # would be to disable cprint for those versions if support is needed.
-RESTRICT_PYTHON_ABIS="2.5"
+PYTHON_COMPAT="python2_6 python2_7 python3_1 python3_2"
 
 inherit jnrowe-pypi
 
@@ -21,6 +19,10 @@ IUSE=""
 DEPEND=""
 RDEPEND=""
 
-PYTHON_MODNAME="${PN}.py"
+DOCS=(CHANGES.rst README.rst)
 
-DOCS="CHANGES.rst"
+src_install() {
+	default
+
+	python-distutils-ng_src_install
+}
