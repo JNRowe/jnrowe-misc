@@ -29,9 +29,3 @@ src_prepare() {
 
 	python-distutils-ng_src_prepare
 }
-
-src_install() {
-	default
-
-	python-distutils-ng_src_install
-}
