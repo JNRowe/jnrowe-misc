@@ -25,9 +25,3 @@ RDEPEND="${DEPEND}
 PDEPEND=">=media-gfx/aafigure-0.3"
 
 DOCS=(CHANGES README)
-
-src_install() {
-	default
-
-	python-distutils-ng_src_install
-}
