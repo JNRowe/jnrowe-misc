@@ -11,4 +11,4 @@ REQUIRED_USE=|| ( python_targets_python2_5 python_targets_python2_6 python_targe
 SLOT=0
 SRC_URI=http://pyhumod.googlecode.com/files/pyhumod-0.03.tar.gz
 _eclasses_=python-distutils-ng	9c728fa97679b3ca2742cf8ccd260599
-_md5_=b0f79c01559d9203c01037e3326fad83
+_md5_=a9801181be4be4a96ea7071e7302aa8f

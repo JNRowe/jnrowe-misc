@@ -35,7 +35,8 @@ python_install_all() {
 
 pkg_postinst() {
 	if ! use dbus; then
-		elog "dbus support is required for modem detection.  Either rebuild with"
-		elog "USE=dbus or manually install dev-python/dbus-python."
+		elog "dbus support is required for automatic modem detection.  Either "
+		elog "rebuild with USE=dbus or manually install "
+		elog "dev-python/dbus-python."
 	fi
 }
