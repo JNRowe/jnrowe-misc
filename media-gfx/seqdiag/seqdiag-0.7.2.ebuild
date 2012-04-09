@@ -30,9 +30,7 @@ python_install_all() {
 	if use examples ; then
 		doins -r examples || die "doins failed"
 	fi
-}
 
-python_install_all() {
 	python-distutils-ng_redoscript "/usr/bin/${PN}"
 }
 
