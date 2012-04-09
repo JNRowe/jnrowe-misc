@@ -28,9 +28,3 @@ python_install_all() {
 		doins -r examples
 	fi
 }
-
-src_install() {
-	default
-
-	python-distutils-ng_src_install
-}
