@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  09 Apr 2012; James Rowe <jnrowe@gmail.com> titlecase-0.5.1.ebuild:
+  Use distutils.eclass via jnrowe-pypi.
+
   18 Mar 2012; James Rowe <jnrowe@gmail.com> titlecase-0.5.1.ebuild:
   Switched to EAPI4.
 
