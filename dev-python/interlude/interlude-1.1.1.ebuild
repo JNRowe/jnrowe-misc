@@ -19,9 +19,3 @@ DEPEND="dev-python/setuptools"
 RDEPEND=""
 
 DOCS=(CHANGELOG.rst README.rst)
-
-src_install() {
-	default
-
-	python-distutils-ng_src_install
-}
