@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -6,7 +6,7 @@ EAPI=4
 
 inherit toolchain-funcs
 
-DESCRIPTION="A simple content sensitive command launcher."
+DESCRIPTION="A simple content sensitive command launcher"
 HOMEPAGE="http://offog.org/code/"
 SRC_URI="http://offog.org/files/${P}.tar.gz"
 
