@@ -3,11 +3,9 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2:2.6"
 # Python 2.5 is resticted due to new exception handling syntax
 # Python 3 is resticted due to print syntax
-RESTRICT_PYTHON_ABIS="2.5 3.*"
+PYTHON_COMPAT="python2_6 python2_7"
 
 inherit jnrowe-pypi
 
@@ -21,3 +19,15 @@ IUSE=""
 DEPEND=""
 RDEPEND="${DEPEND}
 	dev-python/colorama"
+
+DOCS=(README.rst)
+
+python_install_all() {
+	python-distutils-ng_redoscript "/usr/bin/${PN}"
+}
+
+src_install() {
+	default
+
+	python-distutils-ng_src_install
+}
