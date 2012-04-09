@@ -10,8 +10,8 @@ inherit eutils
 if [[ -n ${PYPI_OLD_DISTUTILS} ]]; then
 	inherit distutils
 else
-	inherit python-distutils-ng
-	EXPORT_FUNCTIONS src_install
+	inherit base python-distutils-ng
+	EXPORT_FUNCTIONS src_prepare src_install
 fi
 
 case "${EAPI:-0}" in
@@ -61,6 +61,12 @@ SRC_URI="mirror://pypi/${_PYPI_PN::1}/${_PYPI_PN}/${_PYPI_P}.${PYPI_ARCHIVE_SUFF
 S="${WORKDIR}"/${_PYPI_P}
 
 if [[ -z ${PYPI_OLD_DISTUTILS} ]]; then
+	jnrowe-pypi_src_prepare() {
+		base_src_prepare
+
+		python-distutils-ng_src_prepare
+	}
+
 	jnrowe-pypi_src_install() {
 		default
 
