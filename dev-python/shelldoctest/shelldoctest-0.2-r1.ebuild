@@ -21,7 +21,7 @@ RDEPEND="dev-python/commandlineapp
 DOCS=(README)
 
 python_install_all() {
-	python-distutils-ng_redoscript "/usr/bin/${PN}"
+	python-distutils-ng_redoscript "/usr/bin/shell-doctest"
 }
 
 src_install() {
