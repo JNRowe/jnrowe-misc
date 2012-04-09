@@ -6,7 +6,7 @@ EAPI=4
 SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="*:2.6"
 # 2.5 is restricted due to except...as syntax
-RESTRICT_PYTHON_ABIS="2.5" #3.*"
+RESTRICT_PYTHON_ABIS="2.5"
 DISTUTILS_SRC_TEST="nosetests"
 PYPI_OLD_DISTUTILS=1
 
