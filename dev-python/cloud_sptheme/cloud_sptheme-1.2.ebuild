@@ -33,9 +33,3 @@ python_install_all() {
 		dohtml -r build/sphinx/html
 	fi
 }
-
-src_install() {
-	default
-
-	python-distutils-ng_src_install
-}
