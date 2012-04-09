@@ -18,9 +18,3 @@ DEPEND=""
 RDEPEND="${DEPEND}"
 
 DOCS=(README)
-
-src_install() {
-	default
-
-	python-distutils-ng_src_install
-}
