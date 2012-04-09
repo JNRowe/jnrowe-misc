@@ -3,11 +3,8 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*:2.6"
 # 2.5 isn't supported because of wildcard imports
-RESTRICT_PYTHON_ABIS="2.5"
-#DISTUTILS_SRC_TEST="nosetests"
+PYTHON_COMPAT="python2_6 python2_7 python3_1 python3_2"
 
 inherit jnrowe-pypi
 
@@ -26,3 +23,11 @@ RDEPEND="${DEPEND}
 # setting.  Frankly, this isn't an interesting enough project to warrant
 # a fake X session for a single test.
 RESTRICT="test"
+
+DOCS=(README.rst)
+
+src_install() {
+	default
+
+	python-distutils-ng_src_install
+}
