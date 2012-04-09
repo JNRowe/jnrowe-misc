@@ -3,8 +3,7 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*"
+PYTHON_COMPAT="python2_5 python2_6 python2_7 python3_1 python3_2"
 
 inherit jnrowe-pypi
 
@@ -17,5 +16,3 @@ IUSE=""
 
 DEPEND=""
 RDEPEND="dev-python/nose"
-
-PYTHON_MODNAME="${PN}.py"
