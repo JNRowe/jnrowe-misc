@@ -23,9 +23,3 @@ python_prepare_all() {
 	# Workaround __doc__ string encoding error
 	sed "s,\.decode('utf8'),," -i setup.py
 }
-
-src_install() {
-	default
-
-	python-distutils-ng_src_install
-}
