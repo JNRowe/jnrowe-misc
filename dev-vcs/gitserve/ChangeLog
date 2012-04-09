@@ -3,6 +3,9 @@
 # $Header: $
 
   09 Apr 2012; James Rowe <jnrowe@gmail.com> gitserve-0.2.0-r3.ebuild:
+  [QA] Wrap over long PATCHES line.
+
+  09 Apr 2012; James Rowe <jnrowe@gmail.com> gitserve-0.2.0-r3.ebuild:
   PATCHES src_prepare workaround now in jnrowe-pypi eclass.
 
   09 Apr 2012; James Rowe <jnrowe@gmail.com> gitserve-0.2.0-r3.ebuild:

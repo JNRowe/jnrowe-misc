@@ -21,7 +21,8 @@ IUSE=""
 DEPEND="dev-python/setuptools"
 RDEPEND="dev-vcs/git"
 
-PATCHES=("${FILESDIR}"/${P}-callable_from_git_ui.patch "${WORKDIR}"/${P}-gitweb_1.6.4.4_update.patch)
+PATCHES=("${FILESDIR}"/${P}-callable_from_git_ui.patch \
+	"${WORKDIR}"/${P}-gitweb_1.6.4.4_update.patch)
 
 DOCS=(README.txt)
 
