@@ -199,7 +199,7 @@
 
 * ``grapefruit`` - http://code.google.com/p/grapefruit/
 
- * A module to manipulate color information easily.
+ * A module to manipulate color information easily
  * Licence: ``Apache-2.0``
  * Versions:
 
