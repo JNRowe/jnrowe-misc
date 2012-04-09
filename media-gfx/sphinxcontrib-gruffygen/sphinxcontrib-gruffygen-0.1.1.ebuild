@@ -3,10 +3,8 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
 # 3.x is not supported because of exec usage.
-RESTRICT_PYTHON_ABIS="3.*"
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
 inherit jnrowe-pypi
 
@@ -23,12 +21,10 @@ RDEPEND="${DEPEND}
 	dev-python/sphinx
 	media-gfx/gruffy"
 
-PYTHON_MODNAME="${PN/-//}.py"
-
 src_prepare() {
-	distutils_src_prepare
-
 	# README.rst is missing from tarball, it is only used for the description in
 	# setuptools so we just use an empty file.
 	touch README.rst
+
+	python-distutils-ng_src_prepare
 }
