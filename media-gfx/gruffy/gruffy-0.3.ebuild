@@ -10,6 +10,7 @@ RESTRICT_PYTHON_ABIS="3.*"
 # Tests are basically just demos, with no obvious way to check whether they pass
 # or fail.  If that changes uncomment the next line.
 #DISTUTILS_SRC_TEST="nosetests"
+PYPI_OLD_DISTUTILS=1
 
 inherit jnrowe-pypi
 
