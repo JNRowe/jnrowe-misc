@@ -448,7 +448,7 @@
 
 * ``rad`` - http://pypi.python.org/pypi/rad/
 
- * A super easy console highlighter. Text goes in, colour comes out.
+ * A super easy console highlighter. Text goes in, colour comes out
  * Licence: ``MIT``
  * Versions:
 
