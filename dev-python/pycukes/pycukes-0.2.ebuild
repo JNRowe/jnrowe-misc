@@ -20,9 +20,3 @@ RDEPEND="dev-python/story_parser
 	dev-python/pyhistorian"
 
 DOCS=(README.rst)
-
-src_install() {
-	default
-
-	python-distutils-ng_src_install
-}
