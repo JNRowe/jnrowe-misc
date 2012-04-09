@@ -11,7 +11,7 @@ PYPI_OLD_DISTUTILS=1
 
 inherit jnrowe-pypi
 
-DESCRIPTION="A simple way to transform a HTML file or URL to structured data."
+DESCRIPTION="A simple way to transform a HTML file or URL to structured data"
 
 LICENSE="BSD"
 SLOT="0"

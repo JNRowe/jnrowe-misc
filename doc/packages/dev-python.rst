@@ -215,7 +215,7 @@
 
 * ``html2data`` - http://pypi.python.org/pypi/html2data/
 
- * A simple way to transform a HTML file or URL to structured data.
+ * A simple way to transform a HTML file or URL to structured data
  * Licence: ``BSD``
  * Versions:
 
