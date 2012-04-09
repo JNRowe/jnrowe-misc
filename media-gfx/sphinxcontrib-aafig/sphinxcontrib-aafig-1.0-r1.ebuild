@@ -3,8 +3,7 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*"
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
 inherit jnrowe-pypi
 
@@ -19,10 +18,16 @@ IUSE=""
 DEPEND="dev-python/setuptools"
 # setuptools is needed in RDEPEND because it installs a setuptools-based plugin
 # for docutils.
-RDEPEND="dev-python/setuptools
+RDEPEND="${DEPEND}
 	>=dev-python/sphinx-0.6"
 # aafigure is in PDEPEND to allow working package managers to break the cyclic
 # dependency.
 PDEPEND=">=media-gfx/aafigure-0.3"
 
-PYTHON_MODNAME="${PN/-//}.py"
+DOCS=(CHANGES README)
+
+src_install() {
+	default
+
+	python-distutils-ng_src_install
+}
