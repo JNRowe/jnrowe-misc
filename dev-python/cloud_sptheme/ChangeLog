@@ -3,6 +3,9 @@
 # $Header: $
 
   09 Apr 2012; James Rowe <jnrowe@gmail.com> cloud_sptheme-1.2.ebuild:
+  Support Python 3, now that Sphinx does.
+
+  09 Apr 2012; James Rowe <jnrowe@gmail.com> cloud_sptheme-1.2.ebuild:
   src_install default hack now in jnrowe-pypi eclass.
 
   08 Apr 2012; James Rowe <jnrowe@gmail.com> cloud_sptheme-1.2.ebuild:
