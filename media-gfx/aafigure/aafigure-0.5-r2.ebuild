@@ -60,12 +60,9 @@ src_install() {
 
 	insinto /usr/share/doc/${PF}
 	if use doc ; then
-		local sphinxdocs
-		eshopts_push -s extglob
-		sphinxdocs="documentation/!(index.rst)"
-		dodoc ${sphinxdocs} || die "dodoc ${sphinxdocs} failed"
+		dodoc documentation/*.rst || die "dodoc *.rst failed"
+		rm "${D}"/usr/share/doc/${PF}/index.rst
 		dohtml -A svg -r documentation/_build/html/* || die "dohtml failed"
-		eshopts_pop
 	fi
 	if use examples ; then
 		doins -r examples || die "doins failed"

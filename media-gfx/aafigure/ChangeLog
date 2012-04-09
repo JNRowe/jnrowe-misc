@@ -3,6 +3,9 @@
 # $Header: $
 
   09 Apr 2012; James Rowe <jnrowe@gmail.com> aafigure-0.5-r2.ebuild:
+  Fix broken pattern matching with recent dodoc changes.
+
+  09 Apr 2012; James Rowe <jnrowe@gmail.com> aafigure-0.5-r2.ebuild:
   Use distutils.eclass via jnrowe-pypi.
 
   18 Mar 2012; James Rowe <jnrowe@gmail.com> aafigure-0.5-r2.ebuild:
