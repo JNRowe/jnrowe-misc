@@ -8,7 +8,7 @@ PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
 MY_PN="Charty"
 
-inherit base jnrowe-pypi
+inherit jnrowe-pypi
 
 DESCRIPTION="Another Python SVG Chart Generator that uses CSS smartly"
 
@@ -23,9 +23,3 @@ RDEPEND=""
 PATCHES=("${FILESDIR}"/${P}-include_css.patch "${FILESDIR}"/${P}-fix_example.patch)
 
 DOCS=(CHANGES.txt README)
-
-src_prepare() {
-	base_src_prepare
-
-	python-distutils-ng_src_prepare
-}
