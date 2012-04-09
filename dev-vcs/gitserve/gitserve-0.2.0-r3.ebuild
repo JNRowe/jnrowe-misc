@@ -3,7 +3,7 @@
 # $Header: $
 
 EAPI=4
-PYTHON_DEPEND="*"
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
 inherit base eutils jnrowe-pypi
 
@@ -23,7 +23,20 @@ RDEPEND="dev-vcs/git"
 
 PATCHES=("${FILESDIR}"/${P}-callable_from_git_ui.patch "${WORKDIR}"/${P}-gitweb_1.6.4.4_update.patch)
 
+DOCS=(README.txt)
+
 src_prepare() {
 	base_src_prepare
-	distutils_src_prepare
+
+	python-distutils-ng_src_prepare
+}
+
+python_install_all() {
+	python-distutils-ng_redoscript "/usr/bin/git-serve"
+}
+
+src_install() {
+	default
+
+	python-distutils-ng_src_install
 }
