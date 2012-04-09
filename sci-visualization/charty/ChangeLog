@@ -3,6 +3,9 @@
 # $Header: $
 
   09 Apr 2012; James Rowe <jnrowe@gmail.com> charty-0.1.0.ebuild:
+  PATCHES src_prepare workaround now in jnrowe-pypi eclass.
+
+  09 Apr 2012; James Rowe <jnrowe@gmail.com> charty-0.1.0.ebuild:
   src_install default hack now in jnrowe-pypi eclass.
 
   09 Apr 2012; James Rowe <jnrowe@gmail.com> charty-0.1.0.ebuild:
