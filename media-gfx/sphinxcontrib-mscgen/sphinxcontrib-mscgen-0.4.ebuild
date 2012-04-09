@@ -23,9 +23,3 @@ RDEPEND="${DEPEND}
 	pdf? ( dev-texlive/texlive-fontutils )"
 
 DOCS=(CHANGES README)
-
-src_install() {
-	default
-
-	python-distutils-ng_src_install
-}
