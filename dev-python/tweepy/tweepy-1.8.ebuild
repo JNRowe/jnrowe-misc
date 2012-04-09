@@ -21,9 +21,3 @@ RDEPEND="python_targets_python2_5? ( dev-python/simplejson )
 	python_targets_python2_6? ( dev-python/simplejson )"
 
 DOCS=(README)
-
-src_install() {
-	default
-
-	python-distutils-ng_src_install
-}
