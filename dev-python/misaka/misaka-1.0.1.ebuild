@@ -35,9 +35,3 @@ src_compile() {
 python_install_all() {
 	use doc && dohtml -r docs/_build/html/*
 }
-
-src_install() {
-	default
-
-	python-distutils-ng_src_install
-}
