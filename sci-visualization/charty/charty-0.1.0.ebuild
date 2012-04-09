@@ -3,10 +3,8 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
 # 3.x is restricted due to print syntax
-RESTRICT_PYTHON_ABIS="3.*"
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
 MY_PN="Charty"
 
@@ -24,7 +22,16 @@ RDEPEND=""
 
 PATCHES=("${FILESDIR}"/${P}-include_css.patch "${FILESDIR}"/${P}-fix_example.patch)
 
+DOCS=(CHANGES.txt README)
+
 src_prepare() {
 	base_src_prepare
-	distutils_src_prepare
+
+	python-distutils-ng_src_prepare
+}
+
+src_install() {
+	default
+
+	python-distutils-ng_src_install
 }
