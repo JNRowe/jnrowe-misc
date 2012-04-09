@@ -239,7 +239,7 @@
 
 * ``isodate`` - http://pypi.python.org/pypi/isodate/
 
- * An ISO 8601 date/time/duration parser and formater
+ * An ISO 8601 date/time/duration parser and formatter
  * Licence: ``BSD``
  * Versions:
 
