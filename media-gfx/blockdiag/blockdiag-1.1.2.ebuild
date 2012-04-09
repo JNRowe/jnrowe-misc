@@ -10,6 +10,7 @@ PYTHON_DEPEND="2:2.7"
 # <2.7 is required to ignore the OrderedDict dependency, if you really need
 # support for earlier Python version open an issue
 RESTRICT_PYTHON_ABIS="2.[56] 3.*"
+PYPI_OLD_DISTUTILS=1
 
 inherit eutils jnrowe-pypi
 
