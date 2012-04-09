@@ -29,9 +29,3 @@ DOCS=(HISTORY.rst README.rst)
 python_install_all() {
 	python-distutils-ng_redoscript "/usr/bin/${PN}"
 }
-
-src_install() {
-	default
-
-	python-distutils-ng_src_install
-}

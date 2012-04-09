@@ -4,6 +4,10 @@
 
   09 Apr 2012; James Rowe <jnrowe@gmail.com> tweepy-1.8.ebuild,
   tweepy-1.9.ebuild:
+  src_install default hack now in jnrowe-pypi eclass.
+
+  09 Apr 2012; James Rowe <jnrowe@gmail.com> tweepy-1.8.ebuild,
+  tweepy-1.9.ebuild:
   Switched to python-distutils-ng eclass.
 
 *tweepy-1.9 (20 Mar 2012)

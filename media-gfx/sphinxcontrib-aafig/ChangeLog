@@ -3,6 +3,9 @@
 # $Header: $
 
   09 Apr 2012; James Rowe <jnrowe@gmail.com> sphinxcontrib-aafig-1.0-r1.ebuild:
+  src_install default hack now in jnrowe-pypi eclass.
+
+  09 Apr 2012; James Rowe <jnrowe@gmail.com> sphinxcontrib-aafig-1.0-r1.ebuild:
   Switched to python-distutils-ng eclass.
 
   19 Mar 2012; James Rowe <jnrowe@gmail.com> sphinxcontrib-aafig-1.0-r1.ebuild:

@@ -20,9 +20,3 @@ DEPEND=""
 RDEPEND=""
 
 DOCS=(CHANGES.rst README.rst)
-
-src_install() {
-	default
-
-	python-distutils-ng_src_install
-}

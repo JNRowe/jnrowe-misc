@@ -37,12 +37,6 @@ python_install_all() {
 	done
 }
 
-src_install() {
-	default
-
-	python-distutils-ng_src_install
-}
-
 pkg_postinst() {
 	if use minimal && ! has_version dev-python/sphinx; then
 		einfo "${PN} installs a sphinx plugin, to make use of it you must"

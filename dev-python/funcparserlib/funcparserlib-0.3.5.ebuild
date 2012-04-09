@@ -23,9 +23,3 @@ RDEPEND="${DEPEND}"
 RESTRICT="test"
 
 DOCS=(CHANGES doc/Brackets.md doc/FAQ.md doc/Illustrated.md doc/Tutorial.md)
-
-src_install() {
-	default
-
-	python-distutils-ng_src_install
-}

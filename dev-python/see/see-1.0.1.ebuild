@@ -20,9 +20,3 @@ DEPEND=""
 RDEPEND=""
 
 DOCS=(CHANGELOG.markdown README)
-
-src_install() {
-	default
-
-	python-distutils-ng_src_install
-}

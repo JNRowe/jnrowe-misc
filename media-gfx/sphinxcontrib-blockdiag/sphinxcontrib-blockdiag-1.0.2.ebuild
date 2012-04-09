@@ -23,9 +23,3 @@ RDEPEND="${DEPEND}
 	>=media-gfx/blockdiag-1.1.0"
 
 DOCS=(AUTHORS README)
-
-src_install() {
-	default
-
-	python-distutils-ng_src_install
-}

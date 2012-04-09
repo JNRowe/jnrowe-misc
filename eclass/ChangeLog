@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  09 Apr 2012; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass:
+  Call default in src_install, basically just for DOCS usage.
+
   08 Apr 2012; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass:
   Added python-distutils-ng support to jnrowe-pypi eclass.
 

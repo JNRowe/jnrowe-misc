@@ -4,6 +4,10 @@
 
   09 Apr 2012; James Rowe <jnrowe@gmail.com>
   sphinxcontrib-blockdiag-1.0.1.ebuild, sphinxcontrib-blockdiag-1.0.2.ebuild:
+  src_install default hack now in jnrowe-pypi eclass.
+
+  09 Apr 2012; James Rowe <jnrowe@gmail.com>
+  sphinxcontrib-blockdiag-1.0.1.ebuild, sphinxcontrib-blockdiag-1.0.2.ebuild:
   Switched to python-distutils-ng eclass.
 
 *sphinxcontrib-blockdiag-1.0.2 (20 Mar 2012)

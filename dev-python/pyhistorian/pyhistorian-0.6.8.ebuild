@@ -23,9 +23,3 @@ RDEPEND="dev-python/should_dsl
 RESTRICT="test"
 
 DOCS=(README.rst)
-
-src_install() {
-	default
-
-	python-distutils-ng_src_install
-}

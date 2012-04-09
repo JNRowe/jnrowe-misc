@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  09 Apr 2012; James Rowe <jnrowe@gmail.com> pdbpp-0.7.2.ebuild:
+  src_install default hack now in jnrowe-pypi eclass.
+
   08 Apr 2012; James Rowe <jnrowe@gmail.com> pdbpp-0.7.2.ebuild:
   Switched to python-distutils-ng eclass.
 

@@ -4,6 +4,10 @@
 
   09 Apr 2012; James Rowe <jnrowe@gmail.com> straight-plugin-1.2.ebuild,
   straight-plugin-1.3.ebuild:
+  src_install default hack now in jnrowe-pypi eclass.
+
+  09 Apr 2012; James Rowe <jnrowe@gmail.com> straight-plugin-1.2.ebuild,
+  straight-plugin-1.3.ebuild:
   Switched to python-distutils-ng eclass.
 
 *straight-plugin-1.3 (20 Mar 2012)

@@ -23,9 +23,3 @@ RDEPEND="dev-python/setuptools
 	>=dev-python/sphinx-1.0"
 
 DOCS=(CHANGES.rst README)
-
-src_install() {
-	default
-
-	python-distutils-ng_src_install
-}

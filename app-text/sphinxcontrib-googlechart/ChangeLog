@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  09 Apr 2012; James Rowe <jnrowe@gmail.com>
+  sphinxcontrib-googlechart-0.1.4.ebuild,
+  sphinxcontrib-googlechart-0.1.5.ebuild:
+  src_install default hack now in jnrowe-pypi eclass.
+
   08 Apr 2012; James Rowe <jnrowe@gmail.com>
   sphinxcontrib-googlechart-0.1.4.ebuild:
   Switched to python-distutils-ng eclass.

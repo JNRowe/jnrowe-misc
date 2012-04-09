@@ -10,5 +10,5 @@ RDEPEND=dev-python/pygments python_targets_python2_6? ( dev-lang/python:2.6 ) py
 REQUIRED_USE=|| ( python_targets_python2_6 python_targets_python2_7 )
 SLOT=0
 SRC_URI=mirror://pypi/m/metrics/metrics-0.1a3.tar.gz
-_eclasses_=eutils	6891f6f484e3b44a0a15e1b0c0fc9a14	jnrowe-pypi	b21e6e140e73d92d8e0c0a639a9d2fe7	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python-distutils-ng	9c728fa97679b3ca2742cf8ccd260599	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
-_md5_=b8a2520c48f1607b8f7dc1a3715793f7
+_eclasses_=eutils	6891f6f484e3b44a0a15e1b0c0fc9a14	jnrowe-pypi	2a731c2f3dfb2808624d1093883f62e1	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python-distutils-ng	9c728fa97679b3ca2742cf8ccd260599	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=7aaca021c477dec9fc0055ef91cf11b7
