@@ -3,11 +3,10 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
-RESTRICT_PYTHON_ABIS="3.*"
 
-inherit distutils
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
+
+inherit python-distutils-ng
 
 DESCRIPTION="Python bindings for osm-gps-map"
 HOMEPAGE="http://nzjrs.github.com/osm-gps-map/"
@@ -22,11 +21,3 @@ RDEPEND="dev-python/pygtk
 	~sci-geosciences/osm-gps-map-${PV}"
 DEPEND="${RDEPEND}
 	dev-util/pkgconfig"
-
-# Results from make check aren't tests
-RESTRICT="test"
-
-src_configure() {
-	# No-op configure, so econf isn't called as we're using the setup.py
-	:
-}

@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Apr 2012; James Rowe <jnrowe@gmail.com> misaka-1.0.1.ebuild:
+  Switched to python-distutils-ng eclass.
+
   26 Mar 2012; James Rowe <jnrowe@gmail.com> -misaka-0.4.2.ebuild,
   -misaka-1.0.0.ebuild, -files/misaka-1.0.0-remove_rdep_on_cython.patch,
   misaka-1.0.1.ebuild:

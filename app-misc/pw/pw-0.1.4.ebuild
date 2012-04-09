@@ -3,11 +3,8 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*"
 # 3.x is restricted due to non-relative imports
-#RESTRICT_PYTHON_ABIS="3.*"
-#DISTUTILS_SRC_TEST="nosetests"
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
 inherit jnrowe-pypi
 
@@ -22,3 +19,7 @@ DEPEND=""
 RDEPEND="${DEPEND}
 	dev-python/pyyaml
 	dev-python/xerox"
+
+python_install_all() {
+	python-distutils-ng_redoscript "/usr/bin/${PN}"
+}

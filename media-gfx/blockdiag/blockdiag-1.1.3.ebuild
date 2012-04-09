@@ -11,6 +11,7 @@ PYTHON_DEPEND="2:2.7"
 # support for earlier Python version open an issue
 RESTRICT_PYTHON_ABIS="2.[56] 3.*"
 DISTUTILS_SRC_TEST="nosetests"
+PYPI_OLD_DISTUTILS=1
 
 inherit eutils jnrowe-pypi
 

@@ -4,13 +4,11 @@
 
 EAPI=4
 
-PYTHON_DEPEND="2:2.6"
 # 2.5 is restricted due to exception syntax
 # 3.x is restricted due to unicode literals, print statements, etc
-RESTRICT_PYTHON_ABIS="2.5 3.*"
-SUPPORT_PYTHON_ABIS="1"
+PYTHON_COMPAT="python2_6 python2_7"
 
-inherit distutils
+inherit python-distutils-ng
 
 DESCRIPTION="A tool to log and analyse your exercise regime"
 HOMEPAGE="https://github.com/${PN}/${PN}"
@@ -35,3 +33,7 @@ RDEPEND="${DEPEND}
 	elevation? ( sci-libs/gdal[python] )"
 
 DOCS="CHANGES PLUGINS.README"
+
+python_install_all() {
+	python-distutils-ng_redoscript "/usr/bin/${PN}"
+}

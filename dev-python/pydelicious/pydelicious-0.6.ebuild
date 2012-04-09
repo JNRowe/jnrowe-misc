@@ -3,11 +3,10 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
-RESTRICT_PYTHON_ABIS="3.*"
 
-inherit distutils eutils versionator
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
+
+inherit python-distutils-ng
 
 DESCRIPTION="Access the web service of del.icio.us via it's API through python"
 HOMEPAGE="http://code.google.com/p/${PN}/"
@@ -33,4 +32,8 @@ src_unpack() {
 	# Doesn't unpack in to its own top-level directory.
 	mkdir "${S}"; cd "${S}"
 	unpack ${A}
+}
+
+python_install_all() {
+	python-distutils-ng_redoscript "/usr/bin/dlcs"
 }

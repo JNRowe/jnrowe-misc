@@ -3,10 +3,9 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*:2.6"
+
 # 2.5 is restricted due to exception syntax and wildcard relative imports
-RESTRICT_PYTHON_ABIS="2.5"
+PYTHON_COMPAT="python2_6 python2_7 python3_1 python3_2"
 
 inherit jnrowe-pypi
 
@@ -18,5 +17,5 @@ KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools"
-RDEPEND="|| ( dev-python/argparse >=dev-lang/python-2.7 )
-	dev-python/six"
+RDEPEND="dev-python/six
+	python_targets_python2_6? ( dev-python/argparse )"

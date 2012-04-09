@@ -3,11 +3,9 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2:2.7"
 # <2.7 is restricted until the blockdiag ebuild has support
 # 3.x is not supported because of exception syntax.
-RESTRICT_PYTHON_ABIS="2.[56] 3.*"
+PYTHON_COMPAT="python2_7"
 
 inherit jnrowe-pypi
 
@@ -24,4 +22,10 @@ RDEPEND="${DEPEND}
 	dev-python/sphinx
 	>=media-gfx/blockdiag-1.1.0"
 
-PYTHON_MODNAME="${PN/-//}.py"
+DOCS=(AUTHORS README)
+
+src_install() {
+	default
+
+	python-distutils-ng_src_install
+}

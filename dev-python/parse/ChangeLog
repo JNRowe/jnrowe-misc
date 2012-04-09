@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Apr 2012; James Rowe <jnrowe@gmail.com> parse-1.4.1.ebuild:
+  Use distutils.eclass via jnrowe-pypi.
+
   19 Mar 2012; James Rowe <jnrowe@gmail.com> parse-1.4.1.ebuild:
   Switched to EAPI4.
 

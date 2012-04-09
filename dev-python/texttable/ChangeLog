@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  08 Apr 2012; James Rowe <jnrowe@gmail.com> texttable-0.8.1.ebuild:
+  Switched to python-distutils-ng eclass.
+
   18 Mar 2012; James Rowe <jnrowe@gmail.com> texttable-0.8.1.ebuild:
   Switched to EAPI4.
 

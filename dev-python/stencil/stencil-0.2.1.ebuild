@@ -3,11 +3,9 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2:2.6"
 # 2.5 is restricted due to context handlers(without __future__ import)
 # 3.x is restricted due to octal syntax
-RESTRICT_PYTHON_ABIS="2.5 3.*"
+PYTHON_COMPAT="python2_6 python2_7"
 
 MY_PN="Stencil"
 
@@ -26,4 +24,14 @@ RDEPEND="${DEPEND}
 	|| ( dev-python/argparse >=dev-lang/python-2.7 )
 	dev-python/jinja"
 
-DOCS="HISTORY.rst"
+DOCS=(HISTORY.rst README.rst)
+
+python_install_all() {
+	python-distutils-ng_redoscript "/usr/bin/${PN}"
+}
+
+src_install() {
+	default
+
+	python-distutils-ng_src_install
+}

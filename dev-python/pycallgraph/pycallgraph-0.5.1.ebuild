@@ -3,10 +3,10 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*"
 
-inherit distutils
+PYTHON_COMPAT="python2_5 python2_6 python2_7 python3_1 python3_2"
+
+inherit python-distutils-ng
 
 DESCRIPTION="Use GraphViz to generate call graphs from your Python code"
 HOMEPAGE="http://${PN}.slowchop.com/"
@@ -20,10 +20,8 @@ IUSE="examples"
 DEPEND=""
 RDEPEND="media-gfx/graphviz"
 
-PYTHON_MODNAME="${PN}.py"
-
-src_install() {
-	distutils_src_install
+python_install_all() {
+	python-distutils-ng_redoscript "/usr/bin/${PN}"
 
 	doman man/${PN}.1
 

@@ -3,12 +3,11 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
-# 3.* isn't supported because of relative imports
-RESTRICT_PYTHON_ABIS="3.*"
 
-inherit distutils
+# 3.* isn't supported because of relative imports
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
+
+inherit python-distutils-ng
 
 DESCRIPTION="Password generation and security checking"
 HOMEPAGE="http://alastairs-place.net/projects/${PN}/"
@@ -25,7 +24,6 @@ RDEPEND="sys-apps/miscfiles"
 S="${WORKDIR}"/${PN}
 
 pkg_postinst() {
-	distutils_pkg_postinst
 	einfo "Be aware that many of the password quality checks assume US"
 	einfo "keyboards, and will pass obvious passwords on other layouts."
 }

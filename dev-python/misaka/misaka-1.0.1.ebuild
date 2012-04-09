@@ -3,8 +3,7 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*"
+PYTHON_COMPAT="python2_5 python2_6 python2_7 python3_1 python3_2"
 
 inherit jnrowe-pypi
 
@@ -21,10 +20,10 @@ RDEPEND=""
 
 # Include the benchmarking suite's test file, as it is a useful doc for writing
 # Markdown
-DOCS="THANKS benchmark/markdown-syntax.md"
+DOCS=(THANKS benchmark/markdown-syntax.md)
 
 src_compile() {
-	distutils_src_compile
+	python-distutils-ng_src_compile
 
 	if use doc; then
 		pushd docs >/dev/null
@@ -33,8 +32,12 @@ src_compile() {
 	fi
 }
 
-src_install() {
-	distutils_src_install
-
+python_install_all() {
 	use doc && dohtml -r docs/_build/html/*
+}
+
+src_install() {
+	default
+
+	python-distutils-ng_src_install
 }

@@ -8,6 +8,7 @@ PYTHON_DEPEND="2"
 # 3.x is restricted until blessings is available for 3.x
 RESTRICT_PYTHON_ABIS="3.*"
 DISTUTILS_SRC_TEST="nosetests"
+PYPI_OLD_DISTUTILS=1
 
 inherit jnrowe-pypi
 

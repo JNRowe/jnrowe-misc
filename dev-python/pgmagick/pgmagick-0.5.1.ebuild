@@ -3,10 +3,8 @@
 # $Header: $
 
 EAPI=4
-PYTHON_DEPEND="2"
-SUPPORT_PYTHON_ABIS="1"
 # Incompatible with 3.x
-RESTRICT_PYTHON_ABIS="3.*"
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
 inherit jnrowe-pypi
 
@@ -24,3 +22,11 @@ DEPEND="${RDEPEND}
 
 # The upstream test runner is incomplete in the released tarball
 RESTRICT="test"
+
+DOCS=(README.rst)
+
+src_install() {
+	default
+
+	python-distutils-ng_src_install
+}

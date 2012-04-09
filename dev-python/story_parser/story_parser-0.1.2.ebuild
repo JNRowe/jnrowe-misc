@@ -3,8 +3,7 @@
 # $Header: $
 
 EAPI=4
-PYTHON_DEPEND="*"
-SUPPORT_PYTHON_ABIS="1"
+PYTHON_COMPAT="python2_5 python2_6 python2_7 python3_1 python3_2"
 
 inherit jnrowe-pypi
 
@@ -20,7 +19,18 @@ DEPEND="dev-python/setuptools
 	test? ( dev-python/should_dsl )"
 RDEPEND=""
 
-src_prepare() {
+# Tests aren't usable in portage environment in current release
+RESTRICT="test"
+
+DOCS=(README.rst)
+
+python_prepare_all() {
 	ln -s src ${PN}
 	sed -i 's,@python src/,@cd src; PYTHONPATH=$(shell pwd) python ,' Makefile
+}
+
+src_install() {
+	default
+
+	python-distutils-ng_src_install
 }

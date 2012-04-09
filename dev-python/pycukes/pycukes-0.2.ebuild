@@ -3,8 +3,7 @@
 # $Header: $
 
 EAPI=4
-PYTHON_DEPEND="*"
-SUPPORT_PYTHON_ABIS="1"
+PYTHON_COMPAT="python2_5 python2_6 python2_7 python3_1 python3_2"
 
 inherit jnrowe-pypi
 
@@ -19,3 +18,11 @@ IUSE=""
 DEPEND="dev-python/setuptools"
 RDEPEND="dev-python/story_parser
 	dev-python/pyhistorian"
+
+DOCS=(README.rst)
+
+src_install() {
+	default
+
+	python-distutils-ng_src_install
+}

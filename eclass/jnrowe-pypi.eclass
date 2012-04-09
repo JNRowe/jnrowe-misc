@@ -5,7 +5,13 @@
 if [[ -z ${__ECLASS_IMPORTED_JNROWE_PYPI} ]]; then
 	__ECLASS_IMPORTED_JNROWE_PYPI=1
 
-inherit distutils eutils
+inherit eutils
+
+if [[ -n ${PYPI_OLD_DISTUTILS} ]]; then
+	inherit distutils
+else
+	inherit python-distutils-ng
+fi
 
 case "${EAPI:-0}" in
 	0|1|2|3|4) ;;
@@ -33,6 +39,11 @@ esac
 # @CODE
 
 HOMEPAGE="http://pypi.python.org/pypi/${MY_PN:-${PN}}/"
+
+# @VARIABLE: PYPI_OLD_DISTUTILS
+# @DEFAULT_UNSET
+# @DESCRIPTION:
+# If set use distutils.eclass, else python-distutils-ng.eclass
 
 # @VARIABLE: PYPI_ARCHIVE_SUFFIX
 # @DESCRIPTION:

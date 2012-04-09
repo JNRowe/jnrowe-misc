@@ -3,10 +3,9 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
+
 # 3.x is restricted due to print syntax, and Unicode literals
-RESTRICT_PYTHON_ABIS="3.*"
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
 inherit base jnrowe-pypi
 
@@ -21,13 +20,20 @@ DEPEND="dev-python/setuptools"
 # setuptools is required in RDEPEND for entry points usage
 # We can't use 2.6's json because we need ordered dictionary support
 RDEPEND="${DEPEND}
-	|| ( >=dev-lang/python-2.7 dev-python/simplejson )
-	|| ( >=dev-lang/python-2.7 dev-python/argparse )
+	python_targets_python2_6? ( dev-python/simplejson dev-python/argparse )
 	dev-python/calabash"
 
 PATCHES=("${FILESDIR}"/${P}-use_stdlib_json.patch)
 
 src_prepare() {
 	base_src_prepare
-	distutils_src_prepare
+
+	python-distutils-ng_src_prepare
+}
+
+python_install_all() {
+	local file
+	for file in json{,un}pipe; do
+		python-distutils-ng_redoscript "/usr/bin/${file}"
+	done
 }

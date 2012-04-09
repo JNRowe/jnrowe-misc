@@ -3,12 +3,11 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
-# This version is specifically for Python 2
-RESTRICT_PYTHON_ABIS="3.*"
 
-inherit distutils
+# This version is specifically for Python 2
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
+
+inherit python-distutils-ng
 
 DESCRIPTION="maildir processor using Python as its configuration language"
 HOMEPAGE="http://joel.rosdahl.net/maildirproc/"
@@ -22,7 +21,7 @@ IUSE="examples"
 DEPEND="!mail-filter/maildirproc"
 RDEPEND="${DEPEND}"
 
-src_prepare() {
+python_prepare_all() {
 	if use examples; then
 		# Fix examples links for post-install location
 		sed -i 's,examples/,../&,' doc/*.html
@@ -32,10 +31,11 @@ src_prepare() {
 	fi
 }
 
-src_install() {
-	distutils_src_install
+python_install_all() {
+	python-distutils-ng_redoscript "/usr/bin/${PN}"
 
 	dohtml doc/*.{css,html}
+
 	if use examples; then
 		insinto /usr/share/doc/${PF}
 		doins -r doc/examples
@@ -43,8 +43,6 @@ src_install() {
 }
 
 pkg_postinst() {
-	distutils_pkg_postinst
-
 	elog "If you wish to take advantage of a specific Python version, or"
 	elog "require a module only available for one python version use the"
 	elog "${PN}-\$python_version wrapper"

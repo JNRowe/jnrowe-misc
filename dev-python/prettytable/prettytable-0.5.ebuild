@@ -3,12 +3,11 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
-# 3.x isn't supported because of print syntax
-RESTRICT_PYTHON_ABIS="3.*"
 
-inherit distutils
+# 3.x isn't supported because of print syntax
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
+
+inherit python-distutils-ng
 
 DESCRIPTION="Display tabular data in a visually appealing ASCII table"
 HOMEPAGE="http://code.google.com/p/${PN}/"
@@ -21,5 +20,3 @@ IUSE=""
 
 DEPEND=""
 RDEPEND=""
-
-PYTHON_MODNAME="${PN}.py"

@@ -3,10 +3,10 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*"
 
-inherit distutils
+PYTHON_COMPAT="python2_5 python2_6 python2_7 python3_1 python3_2"
+
+inherit python-distutils-ng
 
 DESCRIPTION="OO representation of GPX and conversion utilities between GPX, KML and OVL"
 HOMEPAGE="http://www.kette-links.de/technik/"
@@ -21,4 +21,9 @@ DEPEND=""
 RDEPEND="${DEPEND}
 	dev-python/python-dateutil"
 
-PYTHON_MODNAME="${PN}.py"
+python_install_all() {
+	local file
+	for file in ovl2kml ovl2gpx kml2ovl kml2gpx gpx2ovl gpx2kml; do
+		python-distutils-ng_redoscript "/usr/bin/${file}.py"
+	done
+}

@@ -9,6 +9,7 @@ PYTHON_DEPEND="*"
 # TODO: revisit this when 3.2.3 or 3.3 is available in the tree
 RESTRICT_PYTHON_ABIS="3.[12]"
 DISTUTILS_SRC_TEST="nosetests"
+PYPI_OLD_DISTUTILS=1
 
 inherit jnrowe-pypi
 

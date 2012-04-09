@@ -3,9 +3,8 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
-RESTRICT_PYTHON_ABIS="3.*"
+
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
 MY_PN="CleverCSS"
 
@@ -24,9 +23,12 @@ RDEPEND="${DEPEND}"
 
 PATCHES=("${FILESDIR}"/${P}-entry_point.patch)
 
-PYTHON_MODNAME="${PN}.py"
-
 src_prepare() {
 	base_src_prepare
-	distutils_src_prepare
+
+	python-distutils-ng_src_prepare
+}
+
+python_install_all() {
+	python-distutils-ng_redoscript "/usr/bin/${PN}"
 }

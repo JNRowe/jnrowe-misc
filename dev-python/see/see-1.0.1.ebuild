@@ -3,8 +3,7 @@
 # $Header: $
 
 EAPI=4
-PYTHON_DEPEND="*"
-SUPPORT_PYTHON_ABIS="1"
+PYTHON_COMPAT="python2_5 python2_6 python2_7 python3_1 python3_2"
 PYPI_ARCHIVE_SUFFIX="tar.bz2"
 
 inherit jnrowe-pypi
@@ -20,6 +19,10 @@ IUSE=""
 DEPEND=""
 RDEPEND=""
 
-PYTHON_MODNAME="${PN}.py"
+DOCS=(CHANGELOG.markdown README)
 
-DOCS="CHANGELOG.markdown"
+src_install() {
+	default
+
+	python-distutils-ng_src_install
+}

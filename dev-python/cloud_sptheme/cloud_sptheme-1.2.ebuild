@@ -3,10 +3,8 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
 # 3.x is restricted due to dependency on Sphinx
-RESTRICT_PYTHON_ABIS="3.*"
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
 inherit jnrowe-pypi
 
@@ -20,20 +18,24 @@ IUSE="doc"
 RDEPEND="dev-python/sphinx"
 DEPEND="doc? ( ${RDEPEND} )"
 
-DOCS="CHANGES"
+DOCS="CHANGES README"
 
 src_compile() {
-	distutils_src_compile
+	python-distutils-ng_src_compile
 
 	if use doc; then
-		$(PYTHON -2) setup.py build_sphinx
+		./setup.py build_sphinx
+	fi
+}
+
+python_install_all() {
+	if use doc; then
+		dohtml -r build/sphinx/html
 	fi
 }
 
 src_install() {
-	distutils_src_install
+	default
 
-	if use doc; then
-		dohtml -r build/sphinx/html
-	fi
+	python-distutils-ng_src_install
 }

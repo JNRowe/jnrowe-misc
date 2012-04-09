@@ -3,8 +3,7 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*"
+PYTHON_COMPAT="python2_5 python2_6 python2_7 python3_1 python3_2"
 MY_PN="${PN/-/.}"
 
 inherit jnrowe-pypi
@@ -19,4 +18,10 @@ IUSE=""
 DEPEND=""
 RDEPEND=""
 
-PYTHON_MODNAME="straight"
+DOCS=(README)
+
+src_install() {
+	default
+
+	python-distutils-ng_src_install
+}

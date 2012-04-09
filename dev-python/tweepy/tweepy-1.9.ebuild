@@ -3,9 +3,7 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
-RESTRICT_PYTHON_ABIS="3.*"
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
 inherit jnrowe-pypi
 
@@ -19,4 +17,13 @@ IUSE=""
 DEPEND=""
 # We should depend on dev-python/oauth, and strip the bundled versions but the
 # ebuild in the main tree has no support for multiple Python versions.
-RDEPEND="|| ( >=dev-lang/python-2.6 dev-python/simplejson )"
+RDEPEND="python_targets_python2_5? ( dev-python/simplejson )
+	python_targets_python2_6? ( dev-python/simplejson )"
+
+DOCS=(README)
+
+src_install() {
+	default
+
+	python-distutils-ng_src_install
+}

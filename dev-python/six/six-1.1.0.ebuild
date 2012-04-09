@@ -3,8 +3,7 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*"
+PYTHON_COMPAT="python2_5 python2_6 python2_7 python3_1 python3_2"
 
 inherit jnrowe-pypi
 
@@ -18,10 +17,10 @@ IUSE="doc"
 DEPEND="doc? ( dev-python/sphinx )"
 RDEPEND=""
 
-PYTHON_MODNAME="${PN}.py"
+DOCS=(README documentation/index.rst)
 
 src_compile() {
-	distutils_src_compile
+	python-distutils-ng_src_compile
 
 	if use doc; then
 		pushd documentation >/dev/null
@@ -30,10 +29,14 @@ src_compile() {
 	fi
 }
 
-src_install() {
-	distutils_src_install
-
+python_install_all() {
 	if use doc; then
 		dohtml -r documentation/_build/html/* || die "dohtml failed"
 	fi
+}
+
+src_install() {
+	default
+
+	python-distutils-ng_src_install
 }

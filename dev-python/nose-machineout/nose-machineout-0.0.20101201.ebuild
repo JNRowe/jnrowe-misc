@@ -3,10 +3,10 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*"
 
-inherit distutils
+PYTHON_COMPAT="python2_5 python2_6 python2_7 python3_1 python3_2"
+
+inherit python-distutils-ng
 
 DESCRIPTION="Machine parsable output plugin for nose"
 HOMEPAGE="http://code.google.com/p/${PN}/"
@@ -21,5 +21,3 @@ IUSE=""
 
 DEPEND=""
 RDEPEND="dev-python/nose"
-
-PYTHON_MODNAME="machineout.py"

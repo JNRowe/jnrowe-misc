@@ -3,11 +3,9 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2:2.7"
 # <2.7 is restricted until the blockdiag ebuild has support
 # 3.x is restricted due to print syntax
-RESTRICT_PYTHON_ABIS="2.[56] 3.*"
+PYTHON_COMPAT="python2_7"
 
 inherit jnrowe-pypi
 
@@ -24,13 +22,9 @@ RDEPEND="dev-python/setuptools
 	>=media-gfx/blockdiag-1.1.1
 	!minimal? ( dev-python/sphinx )"
 
-DOCS="src/README.txt src/TODO.txt"
+DOCS=(src/README.txt src/TODO.txt)
 
-PYTHON_MODNAME="${PN} ${PN}_sphinxhelper.py"
-
-src_install() {
-	distutils_src_install
-
+python_install_all() {
 	doman ${PN}.1
 	insinto /usr/share/doc/${PF}
 	if use examples ; then
@@ -38,9 +32,17 @@ src_install() {
 	fi
 }
 
-pkg_postinst() {
-	distutils_pkg_postinst
+python_install_all() {
+	python-distutils-ng_redoscript "/usr/bin/${PN}"
+}
 
+src_install() {
+	default
+
+	python-distutils-ng_src_install
+}
+
+pkg_postinst() {
 	if use minimal && ! has_version dev-python/sphinx; then
 		einfo "${PN} installs a sphinx plugin, to make use of it you must"
 		einfo "install sphinx."

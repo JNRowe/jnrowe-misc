@@ -6,6 +6,7 @@ EAPI=4
 SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="*"
 DISTUTILS_SRC_TEST="nosetests"
+PYPI_OLD_DISTUTILS=1
 
 inherit jnrowe-pypi
 
