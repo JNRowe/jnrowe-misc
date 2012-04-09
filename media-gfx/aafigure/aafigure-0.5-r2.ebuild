@@ -7,6 +7,7 @@ SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="2"
 # 3.x is not supported because of exception syntax
 RESTRICT_PYTHON_ABIS="3.*"
+PYPI_OLD_DISTUTILS=1
 
 inherit eutils jnrowe-pypi
 
