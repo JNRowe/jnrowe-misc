@@ -3,7 +3,7 @@
 
 * ``zlibc`` - http://zlibc.linux.lu/
 
- * Read-only compressed file-system emulation.
+ * Read-only compressed file-system emulation
  * Licence: ``GPL-2``
  * Versions:
 
