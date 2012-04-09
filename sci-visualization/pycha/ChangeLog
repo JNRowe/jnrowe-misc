@@ -3,6 +3,9 @@
 # $Header: $
 
   09 Apr 2012; James Rowe <jnrowe@gmail.com> pycha-0.6.0.ebuild:
+  Added missing 2.5 to RESTRICT_PYTHON_ABIS.
+
+  09 Apr 2012; James Rowe <jnrowe@gmail.com> pycha-0.6.0.ebuild:
   Use distutils.eclass via jnrowe-pypi.
 
   18 Mar 2012; James Rowe <jnrowe@gmail.com> pycha-0.6.0.ebuild:
