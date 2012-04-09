@@ -22,9 +22,3 @@ RDEPEND="${DEPEND}
 	>=dev-python/sphinx-1.0"
 
 DOCS=(README)
-
-src_install() {
-	default
-
-	python-distutils-ng_src_install
-}
