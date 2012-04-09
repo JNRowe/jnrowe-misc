@@ -8,7 +8,7 @@ PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
 MY_PN="CleverCSS"
 
-inherit base jnrowe-pypi
+inherit jnrowe-pypi
 
 DESCRIPTION="Funky sass-a-like CSS preprocessor"
 
@@ -22,12 +22,6 @@ DEPEND="dev-python/setuptools"
 RDEPEND="${DEPEND}"
 
 PATCHES=("${FILESDIR}"/${P}-entry_point.patch)
-
-src_prepare() {
-	base_src_prepare
-
-	python-distutils-ng_src_prepare
-}
 
 python_install_all() {
 	python-distutils-ng_redoscript "/usr/bin/${PN}"
