@@ -578,7 +578,7 @@
 
 * ``texttable`` - http://foutaise.org/code/
 
- * module to generate a formatted text table, using ASCII characters.
+ * Module to generate a formatted text table, using ASCII characters
  * Licence: ``LGPL-2.1``
  * Versions:
 
