@@ -7,7 +7,7 @@ EAPI=4
 # 3.x is restricted due to print syntax, and Unicode literals
 PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
-inherit base jnrowe-pypi
+inherit jnrowe-pypi
 
 DESCRIPTION="Convert JSON to a UNIX-friendly line-based format"
 
@@ -24,12 +24,6 @@ RDEPEND="${DEPEND}
 	dev-python/calabash"
 
 PATCHES=("${FILESDIR}"/${P}-use_stdlib_json.patch)
-
-src_prepare() {
-	base_src_prepare
-
-	python-distutils-ng_src_prepare
-}
 
 python_install_all() {
 	local file
