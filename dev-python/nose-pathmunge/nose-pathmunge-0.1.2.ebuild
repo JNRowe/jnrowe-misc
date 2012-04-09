@@ -19,9 +19,3 @@ DEPEND="dev-python/setuptools"
 RDEPEND="dev-python/nose"
 
 DOCS=(README.txt)
-
-src_install() {
-	default
-
-	python-distutils-ng_src_install
-}
