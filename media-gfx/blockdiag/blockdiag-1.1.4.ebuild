@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI=4
+
 SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="2:2.7"
 # 2.5 is required for funcparserlib dependency, 3.x is not supported because of

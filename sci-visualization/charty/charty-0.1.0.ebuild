@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI=4
+
 # 3.x is restricted due to print syntax
 PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
@@ -20,6 +21,7 @@ IUSE=""
 DEPEND=""
 RDEPEND=""
 
-PATCHES=("${FILESDIR}"/${P}-include_css.patch "${FILESDIR}"/${P}-fix_example.patch)
+PATCHES=("${FILESDIR}"/${P}-include_css.patch \
+	"${FILESDIR}"/${P}-fix_example.patch)
 
 DOCS=(CHANGES.txt README)

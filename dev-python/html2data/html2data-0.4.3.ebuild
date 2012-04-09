@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI=4
+
 SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="2"
 RESTRICT_PYTHON_ABIS="3.*"
@@ -11,7 +12,7 @@ PYPI_OLD_DISTUTILS=1
 
 inherit jnrowe-pypi
 
-DESCRIPTION="A simple way to transform a HTML file or URL to structured data."
+DESCRIPTION="A simple way to transform a HTML file or URL to structured data"
 
 LICENSE="BSD"
 SLOT="0"

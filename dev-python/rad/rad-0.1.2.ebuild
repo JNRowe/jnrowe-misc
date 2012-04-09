@@ -3,13 +3,14 @@
 # $Header: $
 
 EAPI=4
+
 # 2.5 is restricted due to except...as syntax
 # 3.x is restricted due to print command
 PYTHON_COMPAT="python2_6 python2_7"
 
 inherit jnrowe-pypi
 
-DESCRIPTION="A super easy console highlighter.  Text goes in, colour comes out."
+DESCRIPTION="A super easy console highlighter.  Text goes in, colour comes out"
 
 LICENSE="MIT"
 SLOT="0"

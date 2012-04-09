@@ -67,7 +67,7 @@
 
 * ``sunwait`` - http://www.risacher.org/sunwait/
 
- * Tool for calculating sunrise and sunset, and sleeping until such an event.
+ * Tool for calculating sunrise and sunset, and sleeping until such an event
  * Licence: ``GPL-2``
  * Versions:
 

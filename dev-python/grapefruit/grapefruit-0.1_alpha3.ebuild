@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI=4
+
 SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="2"
 # 3.x restricted due to exception syntax
@@ -13,7 +14,7 @@ inherit distutils
 
 MY_P=${P/_alpha/a}
 
-DESCRIPTION="A module to manipulate color information easily."
+DESCRIPTION="A module to manipulate color information easily"
 HOMEPAGE="http://code.google.com/p/${PN}/"
 SRC_URI="http://${PN}.googlecode.com/files/${MY_P}.tar.gz"
 

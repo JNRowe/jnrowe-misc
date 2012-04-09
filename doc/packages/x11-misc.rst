@@ -27,7 +27,7 @@
 
 * ``yalias`` - http://offog.org/code/
 
- * A simple content sensitive command launcher.
+ * A simple content sensitive command launcher
  * Licence: ``GPL-2``
  * Versions:
 

@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI=4
+
 SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="*"
 # 3.2 is restricted due to contextlib.nested usage

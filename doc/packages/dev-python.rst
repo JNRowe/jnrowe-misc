@@ -199,7 +199,7 @@
 
 * ``grapefruit`` - http://code.google.com/p/grapefruit/
 
- * A module to manipulate color information easily.
+ * A module to manipulate color information easily
  * Licence: ``Apache-2.0``
  * Versions:
 
@@ -215,7 +215,7 @@
 
 * ``html2data`` - http://pypi.python.org/pypi/html2data/
 
- * A simple way to transform a HTML file or URL to structured data.
+ * A simple way to transform a HTML file or URL to structured data
  * Licence: ``BSD``
  * Versions:
 
@@ -239,7 +239,7 @@
 
 * ``isodate`` - http://pypi.python.org/pypi/isodate/
 
- * An ISO 8601 date/time/duration parser and formater
+ * An ISO 8601 date/time/duration parser and formatter
  * Licence: ``BSD``
  * Versions:
 
@@ -288,7 +288,7 @@
 
 * ``nose-pathmunge`` - http://bitbucket.org/jnoller/nose-pathmunge/
 
- * Add additional directories to sys.path for nose.
+ * Add additional directories to sys.path for nose
  * Licence: ``Apache-2.0``
  * Versions:
 
@@ -448,7 +448,7 @@
 
 * ``rad`` - http://pypi.python.org/pypi/rad/
 
- * A super easy console highlighter. Text goes in, colour comes out.
+ * A super easy console highlighter. Text goes in, colour comes out
  * Licence: ``MIT``
  * Versions:
 
@@ -578,7 +578,7 @@
 
 * ``texttable`` - http://foutaise.org/code/
 
- * module to generate a formatted text table, using ASCII characters.
+ * Module to generate a formatted text table, using ASCII characters
  * Licence: ``LGPL-2.1``
  * Versions:
 

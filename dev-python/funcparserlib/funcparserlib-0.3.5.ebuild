@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI=4
+
 # 3.x is unsupported because of exception syntax.
 PYTHON_COMPAT="python2_5 python2_6 python2_7"
 

@@ -6,7 +6,7 @@ EAPI=4
 
 inherit autotools
 
-DESCRIPTION="Read-only compressed file-system emulation."
+DESCRIPTION="Read-only compressed file-system emulation"
 HOMEPAGE="http://${PN}.linux.lu/"
 SRC_URI="${HOMEPAGE}/${P}.tar.gz"
 

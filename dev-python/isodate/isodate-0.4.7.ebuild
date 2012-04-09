@@ -11,7 +11,7 @@ PYPI_OLD_DISTUTILS=1
 
 inherit jnrowe-pypi
 
-DESCRIPTION="An ISO 8601 date/time/duration parser and formater"
+DESCRIPTION="An ISO 8601 date/time/duration parser and formatter"
 
 LICENSE="BSD"
 SLOT="0"

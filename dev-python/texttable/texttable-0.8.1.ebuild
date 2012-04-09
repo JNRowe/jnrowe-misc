@@ -9,7 +9,7 @@ PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
 inherit python-distutils-ng
 
-DESCRIPTION="module to generate a formatted text table, using ASCII characters."
+DESCRIPTION="Module to generate a formatted text table, using ASCII characters"
 HOMEPAGE="http://foutaise.org/code/"
 SRC_URI="http://foutaise.org/code/${PN}/${P}.tar.gz"
 

@@ -1,4 +1,4 @@
-# Copyright 1999-2011 Gentoo Foundation
+# Copyright 1999-2012 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -6,7 +6,7 @@ EAPI=4
 
 inherit toolchain-funcs
 
-DESCRIPTION="Tool for calculating sunrise and sunset, and sleeping until such an event."
+DESCRIPTION="Tool for calculating sunrise and sunset, and sleeping until such an event"
 HOMEPAGE="http://www.risacher.org/${PN}/"
 SRC_URI="http://www.risacher.org/${PN}/${P}.tar.gz"
 

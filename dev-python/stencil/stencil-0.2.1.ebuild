@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI=4
+
 # 2.5 is restricted due to context handlers(without __future__ import)
 # 3.x is restricted due to octal syntax
 PYTHON_COMPAT="python2_6 python2_7"

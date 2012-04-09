@@ -3,6 +3,9 @@
 # $Header: $
 
   09 Apr 2012; James Rowe <jnrowe@gmail.com> rad-0.1.2.ebuild:
+  [QA] Fix DESCRIPTION's punctuation.
+
+  09 Apr 2012; James Rowe <jnrowe@gmail.com> rad-0.1.2.ebuild:
   src_install default hack now in jnrowe-pypi eclass.
 
   08 Apr 2012; James Rowe <jnrowe@gmail.com> rad-0.1.2.ebuild:

@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI=4
+
 # Needs absolute import fixes
 PYTHON_COMPAT="python2_5 python2_6 python2_7"
 

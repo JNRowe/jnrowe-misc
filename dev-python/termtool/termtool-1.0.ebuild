@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI=4
+
 # 2.5 isn't supported because of conditional expressions with __future__ import
 # 3.x isn't supported because of octal syntax
 PYTHON_COMPAT="python2_6 python2_7"

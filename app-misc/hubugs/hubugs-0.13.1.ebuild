@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI=4
+
 SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="2:2.6"
 # 2.5 is restricted due to unavailable dependencies and 2.6+ syntax
