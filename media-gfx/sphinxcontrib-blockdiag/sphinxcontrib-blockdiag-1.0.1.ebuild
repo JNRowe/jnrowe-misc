@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI=4
+
 # <2.7 is restricted until the blockdiag ebuild has support
 # 3.x is not supported because of exception syntax.
 PYTHON_COMPAT="python2_7"

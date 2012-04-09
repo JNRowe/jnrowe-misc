@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI=4
+
 # 2.5 isn't supported because of wildcard imports
 PYTHON_COMPAT="python2_6 python2_7 python3_1 python3_2"
 

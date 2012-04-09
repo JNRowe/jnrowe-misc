@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI=4
+
 GITHUB_USER=defunkt
 GITHUB_TAG=v${PV}
 

@@ -10,4 +10,4 @@ RDEPEND=dev-python/gnome-applets-python dev-python/notify-python gnome-base/gcon
 SLOT=0
 SRC_URI=mirror://gnome/sources/ontv/3.2/ontv-3.2.0.tar.bz2
 _eclasses_=distutils	15ae23f6f8219a009bfcfff7724fe727	eutils	6891f6f484e3b44a0a15e1b0c0fc9a14	fdo-mime	0acfe1a88fd8751a1d5dc671168219fa	gnome.org	8fef8f967214f56e08fa92d61163d891	gnome2	490ce89f5d905297c7a34898fa498bd0	gnome2-utils	9d3cc9ffeb792a88ed8580de1a099b44	libtool	5f623f5a211fb1b2d84d88ee49959a54	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	36d7e2b7aa4dce62364c72eec96610cf	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e	versionator	6601b4c5b3f019a993db59a50e1854e4
-_md5_=0a184c354c9a6c1f55de5ebc407401ad
+_md5_=904383407bae296ce00d56e70487d1c4

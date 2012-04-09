@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI=4
+
 # 3.x is restricted due to dependency on Sphinx
 PYTHON_COMPAT="python2_5 python2_6 python2_7"
 

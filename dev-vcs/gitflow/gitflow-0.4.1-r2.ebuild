@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI=4
+
 GITHUB_USER=nvie
 
 inherit jnrowe-github eutils bash-completion-r1

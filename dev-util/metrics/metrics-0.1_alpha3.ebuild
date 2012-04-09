@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI=4
+
 # 2.5 is restricted due to bytes syntax
 # 3.* is restricted due to print and Unicode syntax
 PYTHON_COMPAT="python2_6 python2_7"

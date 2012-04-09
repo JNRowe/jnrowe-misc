@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI=4
+
 # 2.5 is restricted due to source encoding issues
 # 3.x is restricted due to Unicode literals
 PYTHON_COMPAT="python2_6 python2_7"

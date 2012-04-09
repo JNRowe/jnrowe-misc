@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI=4
+
 # 2.5 is restricted due to except...as syntax
 PYTHON_COMPAT="python2_7 python3_1 python3_2"
 

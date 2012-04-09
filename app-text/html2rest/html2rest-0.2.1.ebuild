@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI=4
+
 # 3.x is restricted due to use of print syntax
 PYTHON_COMPAT="python2_5 python2_6 python2_7"
 

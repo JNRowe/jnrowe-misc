@@ -3,9 +3,10 @@
 # $Header: $
 
 EAPI=4
-PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
 PYPI_ARCHIVE_SUFFIX="zip"
+
 inherit jnrowe-pypi
 
 DESCRIPTION="Convert any Python module to a doctest ready doc string"
