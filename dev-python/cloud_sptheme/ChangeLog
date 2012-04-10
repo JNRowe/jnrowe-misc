@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  10 Apr 2012; James Rowe <jnrowe@gmail.com> cloud_sptheme-1.2.ebuild,
+  +files/cloud_sptheme-1.2-Python3_compatibility.patch:
+  Patch setup.py for Python 3 compatibility.
+
   09 Apr 2012; James Rowe <jnrowe@gmail.com> cloud_sptheme-1.2.ebuild:
   Support Python 3, now that Sphinx does.
 

@@ -20,6 +20,8 @@ DEPEND="doc? ( ${RDEPEND} )"
 
 DOCS="CHANGES README"
 
+PATCHES=("${FILESDIR}"/${P}-Python3_compatibility.patch)
+
 src_compile() {
 	python-distutils-ng_src_compile
 
