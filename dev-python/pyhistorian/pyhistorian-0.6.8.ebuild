@@ -24,3 +24,10 @@ RDEPEND="dev-python/should_dsl
 RESTRICT="test"
 
 DOCS=(README.rst)
+
+src_prepare() {
+	# Not needed, and interferes with src_install
+	rm Makefile
+
+	python-distutils-ng_src_prepare
+}
