@@ -20,3 +20,10 @@ RDEPEND="dev-python/story_parser
 	dev-python/pyhistorian"
 
 DOCS=(README.rst)
+
+src_prepare() {
+	# Not needed, and interferes with src_install
+	rm Makefile
+
+	python-distutils-ng_src_prepare
+}
