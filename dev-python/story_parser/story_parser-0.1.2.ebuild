@@ -25,7 +25,9 @@ RESTRICT="test"
 
 DOCS=(README.rst)
 
-python_prepare_all() {
-	ln -s src ${PN}
-	sed -i 's,@python src/,@cd src; PYTHONPATH=$(shell pwd) python ,' Makefile
+src_prepare() {
+	# Not needed, and interferes with src_install
+	rm Makefile
+
+	python-distutils-ng_src_prepare
 }
