@@ -1,0 +1,22 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Use system oauth library.
+Status: LOCAL
+
+The oauth.py must also be removed to stop the import precedence causing
+breakage.
+
+diff --git a/tweepy/auth.py b/tweepy/auth.py
+index b770ebb..5039b5b 100644
+--- a/tweepy/auth.py
++++ b/tweepy/auth.py
+@@ -5,7 +5,8 @@
+ from urllib2 import Request, urlopen
+ import base64
+ 
+-from tweepy import oauth
++from oauth import oauth
++
+ from tweepy.error import TweepError
+ from tweepy.api import API
+ 
+

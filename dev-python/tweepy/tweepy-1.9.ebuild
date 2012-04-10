@@ -18,7 +18,15 @@ IUSE=""
 DEPEND=""
 # We should depend on dev-python/oauth, and strip the bundled versions but the
 # ebuild in the main tree has no support for multiple Python versions.
-RDEPEND="python_targets_python2_5? ( dev-python/simplejson )
+RDEPEND="dev-python/oauth
+	python_targets_python2_5? ( dev-python/simplejson )
 	python_targets_python2_6? ( dev-python/simplejson )"
 
 DOCS=(README)
+
+PATCHES=("${FILESDIR}"/${P}-Use_system_oauth.patch)
+
+python_prepare_all() {
+	# Remove bundled library
+	rm ${PN}/oauth.py
+}
