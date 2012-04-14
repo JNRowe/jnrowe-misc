@@ -103,7 +103,7 @@ culled.
 :Removal date: 2010-09-24
 
 ``missingh``
-''''''''''''''''''''''''
+''''''''''''
 
     Only used by ``hpodder``, which has been removed.
 
