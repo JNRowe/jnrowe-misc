@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  14 Apr 2012; James Rowe <jnrowe@gmail.com> pwtools-0.2.ebuild:
+  Use mirror://github for SRC_URI.
+
   08 Apr 2012; James Rowe <jnrowe@gmail.com> pwtools-0.2.ebuild:
   Switched to python-distutils-ng eclass.
 
