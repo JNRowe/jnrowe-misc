@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  14 Apr 2012; James Rowe <jnrowe@gmail.com> gitserve-0.2.0-r3.ebuild:
+  Use mirror://github for SRC_URI.
+
   09 Apr 2012; James Rowe <jnrowe@gmail.com> gitserve-0.2.0-r3.ebuild:
   [QA] Wrap over long PATCHES line.
 
