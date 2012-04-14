@@ -11,7 +11,6 @@ if [[ ${PV} == "9999" ]]; then
 	SRC_URI=""
 else
 	SRC_URI="http://dev.exherbo.org/~alip/mpdcron/${P}.tar.bz2"
-	#SRC_URI="https://github.com/alip/mpdcron/tarball/v0.3 -> ${P}.tar.gz"
 fi
 
 DESCRIPTION="A hook daemon for mpd, it polls mpd and runs hooks on events"
@@ -29,9 +28,6 @@ RDEPEND=">=dev-libs/glib-2.18
 	scrobbler? ( net-misc/curl )"
 DEPEND="${RDEPEND}
 	dev-util/pkgconfig"
-
-# If we were using github downloads.
-#S="${WORKDIR}/alip-${PN}-69078ad"
 
 src_prepare() {
 	if [[ ${PV} == 9999 ]]; then
