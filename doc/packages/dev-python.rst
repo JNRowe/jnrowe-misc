@@ -263,6 +263,7 @@
  * Versions:
 
   * `1.0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/misaka/misaka-1.0.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/misaka/misaka-1.0.2.ebuild>`__  ``~amd64`` (due 2012-05-14), ``~x86`` (due 2012-05-14)
 
 * ``mod2doctest`` - http://pypi.python.org/pypi/mod2doctest/
 
