@@ -120,7 +120,7 @@ culled.
     No longer used at our site.
 
 :Reason: Culled
-:Commit:
+:Commit: :commit:`fd868494 <fd868494388aadfbe59802a51a616c744a5435ff>`
 :Removal date: 2012-04-14
 
 ``dev-python``
