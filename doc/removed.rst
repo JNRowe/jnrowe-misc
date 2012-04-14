@@ -111,6 +111,18 @@ culled.
 :Commit: :commit:`fbe106cc <fbe106cc1f72bf684c5a1782b50773b7a4f1a763>`
 :Removal date: 2010-09-24
 
+``dev-perl``
+~~~~~~~~~~~~
+
+``Net-Twitter-Lite``
+''''''''''''''''''''
+
+    No longer used at our site.
+
+:Reason: Culled
+:Commit:
+:Removal date: 2012-04-14
+
 ``dev-python``
 ~~~~~~~~~~~~~~
 
