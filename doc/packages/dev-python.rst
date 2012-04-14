@@ -139,13 +139,14 @@
   * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fancycompleter/fancycompleter-0.3.ebuild>`__  ``amd64``, ``x86``
   * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fancycompleter/fancycompleter-0.4.ebuild>`__  ``~amd64`` (due 2012-04-18), ``~x86`` (due 2012-04-18)
 
-* ``feedcache`` - http://www.doughellmann.com/projects/feedcache/
+* ``feedcache`` - http://pypi.python.org/pypi/feedcache/
 
  * Wrapper for the Universal Feed Parser which caches the results
  * Licence: ``MIT``
  * Versions:
 
   * `1.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/feedcache/feedcache-1.3.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/feedcache/feedcache-1.4.ebuild>`__  ``~amd64`` (due 2012-05-14), ``~x86`` (due 2012-05-14)
 
 * ``feedgenerator`` - http://pypi.python.org/pypi/feedgenerator/
 
