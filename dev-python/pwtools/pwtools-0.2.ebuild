@@ -11,7 +11,7 @@ inherit python-distutils-ng
 
 DESCRIPTION="Password generation and security checking"
 HOMEPAGE="http://alastairs-place.net/projects/${PN}/"
-SRC_URI="https://github.com/downloads/JNRowe/jnrowe-misc/${P}.tar.bz2"
+SRC_URI="mirror://github/JNRowe/jnrowe-misc/${P}.tar.bz2"
 
 LICENSE="MIT"
 SLOT="0"
