@@ -4,7 +4,7 @@ from subprocess import (check_call, check_output)
 
 import argh
 
-from utils import (command, dep, fail, newer, success)
+from utils import (command, dep, fail, newer, success, warn)
 
 try:
     SIGN_KEY = check_output('. /etc/make.conf; echo $PORTAGE_GPG_KEY',
@@ -30,6 +30,10 @@ def gen_categories(args):
     dep(['profiles/categories', ], glob('*-*'))
     with open('profiles/categories', 'w') as file:
         for cat in sorted(glob('*-*')):
+            if not os.path.isdir(cat):
+                yield warn('Category match on %s, may cause problems with '
+                           'portage' % cat)
+                continue
             file.write(cat + '\n')
     yield success('categories list generated!')
 
