@@ -52,8 +52,8 @@ def gen_manifests(args):
                 break
             check_call(['repoman', 'manifest'])
             if SIGN_KEY:
-                command = 'gpg --local-user %s --clearsign Manifest' % SIGN_KEY
-                check_call(command.split())
+                check_call(['gpg', '--local-user', SIGN_KEY, '--clearsign',
+                            'Manifest'])
                 os.rename('Manifest.asc', 'Manifest')
         finally:
             os.chdir(base_dir)
@@ -78,8 +78,7 @@ def gen_news_sigs(args):
             # signatures
             if os.path.exists(sign_file):
                 os.unlink(sign_file)
-            command = 'gpg --local-user %s --detach-sign --armor %s' \
-                % (SIGN_KEY, file)
-            check_call(command.split())
+            check_call(['gpg', '--local-user', SIGN_KEY, '--detach-sign',
+                        '--armor', file])
         finally:
             os.chdir(base_dir)
