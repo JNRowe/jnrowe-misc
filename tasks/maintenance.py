@@ -39,14 +39,12 @@ def gen_stable(args):
 @command
 @argh.arg('title', help='title for bug')
 @argh.arg('body', nargs='?', default='', help='body for bug')
-@argh.arg('label', nargs='?', help='initial label for bug')
+@argh.arg('labels', nargs='*', help='initial label for bug')
 def open_bug(args):
     """Open a new bump bug"""
     github = create_gh_client()
     project = fetch_project_name()
-    data = {'title': args.title, 'body': args.body}
-    if args.label:
-        data['labels'] = [args.label, ]
+    data = {'title': args.title, 'body': args.body, 'labels': args.labels}
     req = github.post('https://api.github.com/repos/%s/issues' % project,
                       data=dumps(data))
     new_issue = loads(req.content)
