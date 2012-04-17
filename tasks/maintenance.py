@@ -11,7 +11,7 @@ from utils import (command, create_gh_client, fail, fetch_project_name,
 def keyword_check(args):
     """Check for missing keywords"""
     for file in glob('metadata/cache/*/*'):
-        # Skip live packages, they shouldn't be keyworded anyway
+        # Skip live packages, they shouldn't have stable keywords anyway
         if file.endswith('-9999'):
             continue
         keywords = open(file).readlines()[8]
