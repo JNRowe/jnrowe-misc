@@ -1,7 +1,6 @@
 import datetime
 
 from glob import glob
-from json import (dumps, loads)
 
 import argh
 
@@ -45,10 +44,9 @@ def open_bug(args):
     github = create_gh_client()
     project = fetch_project_name()
     data = {'title': args.title, 'body': args.body, 'labels': args.labels}
-    req = github.post('https://api.github.com/repos/%s/issues' % project,
-                      data=dumps(data))
-    new_issue = loads(req.content)
-    yield success("Issue #%d opened!" % new_issue['number'])
+    new_issue = github.post('https://api.github.com/repos/%s/issues' % project,
+                            data=data)
+    yield success("Issue #%d opened!" % new_issue.content['number'])
 
 
 @command
@@ -62,7 +60,6 @@ def bump_pkg(args):
         'body': '',
         'labels': ['feature', ]
     }
-    req = github.post('https://api.github.com/repos/%s/issues' % project,
-                      data=dumps(data))
-    new_issue = loads(req.content)
-    yield success("Issue #%d opened!" % new_issue['number'])
+    new_issue = github.post('https://api.github.com/repos/%s/issues' % project,
+                            data=data)
+    yield success("Issue #%d opened!" % new_issue.content['number'])

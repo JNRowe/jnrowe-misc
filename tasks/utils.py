@@ -1,4 +1,5 @@
 from inspect import stack
+from json import (dumps, loads)
 from os import path
 from re import search
 from subprocess import (CalledProcessError, check_output)
@@ -83,13 +84,23 @@ def create_gh_client():
     if not requests:
         raise argh.CommandError(fail("Opening bugs requires the requests "
                                      "Python package"))
+
+    def from_json(r):
+        r._content = loads(r.content)
+
+    def to_json(r):
+        r['data'] = dumps(r['data'])
+
     repo = open('profiles/repo_name').read().strip()
     try:
         token = cmd_output('git config %s.token' % repo)
     except CalledProcessError:
         raise argh.CommandError('Missing %s.token API token in git config'
                                 % repo)
-    session = requests.session(headers={"Authorization": "token %s" % token})
+    # I wouldn't recommend supporting JSON in the following manner, but this
+    # isn't MC in any way
+    session = requests.session(headers={"Authorization": "token %s" % token},
+                               hooks={'args': to_json, 'response': from_json})
     return session
 
 
