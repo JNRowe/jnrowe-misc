@@ -1,15 +1,15 @@
 from inspect import stack
 from os import path
 from re import search
-from subprocess import check_output
+from subprocess import (CalledProcessError, check_output)
 
 import argh
 import blessings
 
 try:
-    from github2.client import Github
+    import requests
 except ImportError:
-    Github = None  # NOQA
+    requests = None  # NOQA
 
 
 T = blessings.Terminal()
@@ -80,12 +80,17 @@ def cmd_output(command):
 
 
 def create_gh_client():
-    if not Github:
-        raise argh.CommandError(fail("Opening bugs requires the github2 "
+    if not requests:
+        raise argh.CommandError(fail("Opening bugs requires the requests "
                                      "Python package"))
-    user = cmd_output('git config github.user')
-    token = cmd_output('git config github.token')
-    return Github(username=user, api_token=token)
+    repo = open('profiles/repo_name').read().strip()
+    try:
+        token = cmd_output('git config %s.token' % repo)
+    except CalledProcessError:
+        raise argh.CommandError('Missing %s.token API token in git config'
+                                % repo)
+    session = requests.session(headers={"Authorization": "token %s" % token})
+    return session
 
 
 def fetch_project_name():

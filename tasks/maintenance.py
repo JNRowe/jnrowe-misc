@@ -1,6 +1,8 @@
 import datetime
 
 from glob import glob
+from json import (dumps, loads)
+
 import argh
 
 from utils import (command, create_gh_client, fail, fetch_project_name,
@@ -42,10 +44,13 @@ def open_bug(args):
     """Open a new bump bug"""
     github = create_gh_client()
     project = fetch_project_name()
-    new_issue = github.issues.open(project, args.title, args.body)
+    data = {'title': args.title, 'body': args.body}
     if args.label:
-        github.issues.add_label(project, new_issue.number, args.label)
-    yield success("Issue #%d opened!" % new_issue.number)
+        data['labels'] = [args.label, ]
+    req = github.post('https://api.github.com/repos/%s/issues' % project,
+                      data=dumps(data))
+    new_issue = loads(req.content)
+    yield success("Issue #%d opened!" % new_issue['number'])
 
 
 @command
@@ -54,6 +59,12 @@ def bump_pkg(args):
     """Open a version bump bug"""
     github = create_gh_client()
     project = fetch_project_name()
-    new_issue = github.issues.open(project, '%s version bump.' % args.cpv, '')
-    github.issues.add_label(project, new_issue.number, 'feature')
-    yield success("Issue #%d opened!" % new_issue.number)
+    data = {
+        'title': '%s version bump.' % args.cpv,
+        'body': '',
+        'labels': ['feature', ]
+    }
+    req = github.post('https://api.github.com/repos/%s/issues' % project,
+                      data=dumps(data))
+    new_issue = loads(req.content)
+    yield success("Issue #%d opened!" % new_issue['number'])
