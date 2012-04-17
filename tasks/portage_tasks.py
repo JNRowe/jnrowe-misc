@@ -62,12 +62,12 @@ def gen_manifests(args):
 @command
 def gen_news_sigs(args):
     """Generate news file signatures"""
-    dep(map(lambda s: s + '.asc', glob('metadata/news/*/*.txt')),
-        glob('metadata/news/*/*.txt'), mapping=True)
+    news_files = glob('metadata/news/*/*.txt')
+    dep(map(lambda s: s + '.asc', news_files), news_files, mapping=True)
     if not SIGN_KEY:
         raise argh.CommandError(fail('No GnuPG key set!'))
     base_dir = os.path.abspath(os.curdir)
-    for path in glob('metadata/news/*/*.txt'):
+    for path in news_files:
         try:
             dir, file = os.path.split(path)
             os.chdir(dir)
