@@ -50,8 +50,7 @@ def gen_manifests(args):
             os.chdir(package)
             if not any(map(lambda f: newer(f, 'Manifest'), glob('*'))):
                 break
-            ebuild = glob('*.ebuild')[0]
-            check_call(('ebuild %s manifest' % ebuild).split())
+            check_call(['repoman', 'manifest'])
             if SIGN_KEY:
                 command = 'gpg --local-user %s --clearsign Manifest' % SIGN_KEY
                 check_call(command.split())
