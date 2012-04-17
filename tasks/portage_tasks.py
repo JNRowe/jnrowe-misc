@@ -4,7 +4,7 @@ from subprocess import (check_call, check_output)
 
 import argh
 
-from utils import (command, dep, newer, success)
+from utils import (command, dep, fail, newer, success)
 
 try:
     SIGN_KEY = check_output('. /etc/make.conf; echo $PORTAGE_GPG_KEY',
