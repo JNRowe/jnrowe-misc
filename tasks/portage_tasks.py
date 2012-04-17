@@ -43,6 +43,8 @@ def gen_manifests(args):
     """Generate Manifest files"""
     dep(glob('*-*/*/Manifest'), glob('*-*/*/*'))
     base_dir = os.path.abspath(os.curdir)
+    if not SIGN_KEY:
+        yield warn('No GnuPG key set!')
     for package in sorted(glob('*-*/*')):
         try:
             os.chdir(package)
