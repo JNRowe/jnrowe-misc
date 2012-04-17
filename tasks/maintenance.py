@@ -25,9 +25,10 @@ def keyword_check(args):
 
 @command
 @argh.arg('cpv', help='Fully qualified package identifier')
+@argh.arg('days', nargs='?', default=30, help='Number of days to wait')
 def gen_stable(args):
     """Generate a base stabilisation string for a package"""
-    date = datetime.date.today() + datetime.timedelta(days=30)
+    date = datetime.date.today() + datetime.timedelta(days=args.days)
     for arch in ('amd64', 'x86'):
         yield 'REM %s *1 MSG %%"Stabilise %s %s%%" %%a' % (date, arch,
                                                            args.cpv)
