@@ -10,15 +10,15 @@ from utils import (command, create_gh_client, fail, fetch_project_name,
 @command
 def keyword_check(args):
     """Check for missing keywords"""
-    for file in glob('metadata/cache/*/*'):
+    for file in glob('metadata/md5-cache/*/*'):
         # Skip live packages, they shouldn't have stable keywords anyway
         if file.endswith('-9999'):
             continue
-        keywords = open(file).readlines()[8]
+        meta = dict([line.strip().split('=', 1) for line in open(file)])
         pkg = file.split('/', 2)[2]
-        if 'amd64' not in keywords:
+        if 'amd64' not in meta['KEYWORDS']:
             yield fail('[~]amd64 keyword missing in %r' % pkg)
-        if 'x86' not in keywords:
+        if 'x86' not in meta['KEYWORDS']:
             yield fail('[~]x86 keyword missing in %r' % pkg)
     yield success('All packages checked for keywords')
 
