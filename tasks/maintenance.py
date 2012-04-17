@@ -24,8 +24,8 @@ def keyword_check(args):
 
 
 @command
-@argh.arg('cpv', help='Fully qualified package identifier')
-@argh.arg('days', nargs='?', default=30, help='Number of days to wait')
+@argh.arg('cpv', help='fully qualified package identifier')
+@argh.arg('days', nargs='?', default=30, help='number of days to wait')
 def gen_stable(args):
     """Generate a base stabilisation string for a package"""
     date = datetime.date.today() + datetime.timedelta(days=args.days)
@@ -35,9 +35,9 @@ def gen_stable(args):
 
 
 @command
-@argh.arg('title', help='Title for bug')
-@argh.arg('body', nargs='?', default='', help='Body for bug')
-@argh.arg('label', nargs='?', help='Initial label for bug')
+@argh.arg('title', help='title for bug')
+@argh.arg('body', nargs='?', default='', help='body for bug')
+@argh.arg('label', nargs='?', help='initial label for bug')
 def open_bug(args):
     """Open a new bump bug"""
     github = create_gh_client()
@@ -49,7 +49,7 @@ def open_bug(args):
 
 
 @command
-@argh.arg('cpv', help='Fully qualified package identifier')
+@argh.arg('cpv', help='fully qualified package identifier')
 def bump_pkg(args):
     """Open a version bump bug"""
     github = create_gh_client()
