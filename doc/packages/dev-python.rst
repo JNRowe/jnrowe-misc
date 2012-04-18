@@ -135,8 +135,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fancycompleter/fancycompleter-0.3.ebuild>`__  ``amd64``, ``x86``
-  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fancycompleter/fancycompleter-0.4.ebuild>`__  ``amd64``, ``~x86`` (due 2012-04-18)
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fancycompleter/fancycompleter-0.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``feedcache`` - http://pypi.python.org/pypi/feedcache/
 

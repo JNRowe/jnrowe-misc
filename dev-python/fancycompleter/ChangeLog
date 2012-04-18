@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  18 Apr 2012; James Rowe <jnrowe@gmail.com> -fancycompleter-0.3.ebuild,
+  fancycompleter-0.4.ebuild:
+  Keyworded x86.
+
   18 Apr 2012; James Rowe <jnrowe@gmail.com> fancycompleter-0.4.ebuild:
   Keyworded amd64.
 
