@@ -7,8 +7,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.15.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/argh/argh-0.15.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.15.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/argh/argh-0.15.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-04-18)
+  * `0.15.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/argh/argh-0.15.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``astral`` - http://pypi.python.org/pypi/astral/
 
@@ -136,8 +135,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fancycompleter/fancycompleter-0.3.ebuild>`__  ``amd64``, ``x86``
-  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fancycompleter/fancycompleter-0.4.ebuild>`__  ``amd64``, ``~x86`` (due 2012-04-18)
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fancycompleter/fancycompleter-0.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``feedcache`` - http://pypi.python.org/pypi/feedcache/
 
@@ -162,8 +160,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.1.ebuild>`__  ``amd64``, ``x86``
-  * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-04-18)
+  * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.2.ebuild>`__  ``amd64``, ``x86``
   * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.3.ebuild>`__  ``~amd64`` (due 2012-05-07), ``~x86`` (due 2012-05-07)
 
 * ``freshen`` - https://github.com/rlisagor/freshen
