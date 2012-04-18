@@ -3,7 +3,6 @@ REM 2012-04-18 *1 MSG %"Stabilise x86 dev-python/argh-0.15.1%" %a
 REM 2012-04-18 *1 MSG %"Stabilise x86 media-gfx/blockdiag-1.1.4%" %a
 REM 2012-04-18 *1 MSG %"Stabilise x86 dev-python/fancycompleter-0.4%" %a
 REM 2012-04-18 *1 MSG %"Stabilise x86 dev-python/flake8-1.2%" %a
-REM 2012-04-18 *1 MSG %"Stabilise amd64 dev-vcs/pepper-0.3.1%" %a
 REM 2012-04-18 *1 MSG %"Stabilise x86 dev-vcs/pepper-0.3.1%" %a
 REM 2012-04-19 *1 MSG %"Stabilise amd64 media-gfx/seqdiag-0.7.3%" %a
 REM 2012-04-19 *1 MSG %"Stabilise x86 media-gfx/seqdiag-0.7.3%" %a
