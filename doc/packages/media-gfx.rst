@@ -49,8 +49,7 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.7.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.7.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.7.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.7.3.ebuild>`__  ``amd64``, ``~x86`` (due 2012-04-19)
+  * `0.7.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.7.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``sphinxcontrib-aafig`` - http://packages.python.org/sphinxcontrib-aafig/
 
