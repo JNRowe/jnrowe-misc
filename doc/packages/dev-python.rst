@@ -557,7 +557,7 @@
  * Versions:
 
   * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.2.ebuild>`__  ``amd64``, ``x86``
-  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.3.ebuild>`__  ``~amd64`` (due 2012-04-19), ``~x86`` (due 2012-04-19)
+  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.3.ebuild>`__  ``amd64``, ``~x86`` (due 2012-04-19)
 
 * ``sure`` - http://pypi.python.org/pypi/sure/
 
@@ -607,7 +607,7 @@
  * Versions:
 
   * `1.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.8.ebuild>`__  ``amd64``, ``x86``
-  * `1.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.9.ebuild>`__  ``~amd64`` (due 2012-04-19), ``~x86`` (due 2012-04-19)
+  * `1.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.9.ebuild>`__  ``amd64``, ``~x86`` (due 2012-04-19)
 
 * ``upoints`` - https://github.com/JNRowe/upoints/
 
