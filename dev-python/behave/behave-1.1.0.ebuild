@@ -17,9 +17,8 @@ IUSE=""
 
 DEPEND="dev-python/setuptools"
 RDEPEND="dev-python/parse
-	python_targets_python2_5? ( dev-python/argparse )
-	python_targets_python2_6? ( dev-python/argparse )
-	python_targets_python2_5? ( dev-python/simplejson )"
+	python_targets_python2_5? ( dev-python/argparse dev-python/simplejson )
+	python_targets_python2_6? ( dev-python/argparse )"
 
 # Tests are unusable within portage environment
 RESTRICT="test"
