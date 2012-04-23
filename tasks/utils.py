@@ -86,7 +86,7 @@ def create_gh_client():
                                      "Python package"))
 
     def from_json(r):
-        r._content = loads(r.content)
+        r._content = loads(r.text)
 
     def to_json(r):
         r['data'] = dumps(r['data'])
