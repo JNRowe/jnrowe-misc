@@ -7,5 +7,5 @@ LICENSE=BSD-2 MIT
 RDEPEND=dev-vcs/git
 SLOT=0
 SRC_URI=https://github.com/nvie/gitflow/tarball/0.4.1 -> gitflow-0.4.1.tar.gz https://github.com/nvie/shFlags/tarball/1.0.3@128 -> shFlags-1.0.3.tar.gz https://github.com/bobthecow/git-flow-completion/tarball/0.4.0 -> git-flow-completion-0.4.0.tar.gz
-_eclasses_=bash-completion-r1	3480f8385cb9e31797e7b659e366e2d2	eutils	4e234f0a75d16eabe69191b391892d7b	jnrowe-github	7c62d974ce317cc87e5ed0011d9f3bad	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e	vcs-snapshot	da01f8084931ab770fd9ddf7e537a262
+_eclasses_=bash-completion-r1	3480f8385cb9e31797e7b659e366e2d2	eutils	74d9118e657da5b1db0c36f5dea88e57	jnrowe-github	7c62d974ce317cc87e5ed0011d9f3bad	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e	vcs-snapshot	da01f8084931ab770fd9ddf7e537a262
 _md5_=a0ea2d1b0321fb379c5a02d9827360dd

@@ -9,5 +9,5 @@ LICENSE=LGPL-3
 RDEPEND=daemon? ( =x11-libs/gtkhotkey-0.2* ) x11-libs/libwnck
 SLOT=0
 SRC_URI=http://launchpad.net/winwrangler/0.2/0.2.4/+download/winwrangler-0.2.4.tar.gz
-_eclasses_=autotools	addbdf6cce5024ac93ad2084ad5e1d2d	eutils	4e234f0a75d16eabe69191b391892d7b	libtool	5f623f5a211fb1b2d84d88ee49959a54	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e	versionator	6601b4c5b3f019a993db59a50e1854e4
+_eclasses_=autotools	addbdf6cce5024ac93ad2084ad5e1d2d	eutils	74d9118e657da5b1db0c36f5dea88e57	libtool	5f623f5a211fb1b2d84d88ee49959a54	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e	versionator	6601b4c5b3f019a993db59a50e1854e4
 _md5_=a62983c2f6b0669869b9fd427def956a
