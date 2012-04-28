@@ -9,5 +9,7 @@
 		Object-Oriented representation of GPX files and utilities for converting
 		between GPX, KML and OVL
 	</longdescription>
-	<!-- no usable data for upstream tag -->
+	<upstream>
+		<remote-id type="pypi">gpxdata</remote-id>
+	</upstream>
 </pkgmetadata>
