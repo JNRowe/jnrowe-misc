@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  28 Apr 2012; James Rowe <jnrowe@gmail.com> metadata.xml:
+  [QA] Added missing remote-id to metadata.xml.
+
 *feedcache-1.4 (14 Apr 2012)
 
   14 Apr 2012; James Rowe <jnrowe@gmail.com> +feedcache-1.4.ebuild:
