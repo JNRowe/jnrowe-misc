@@ -17,6 +17,7 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<upstream>
+		<remote-id type="sourceforge">qsf</remote-id>
 		<changelog>http://www.ivarch.com/programs/qsf/#news</changelog>
 		<doc lang="en">http://www.ivarch.com/programs/qsf/manual.shtml</doc>
 	</upstream>
