@@ -12,6 +12,7 @@
 		features to improve the usability of Python's standard logging system.
 	</longdescription>
 	<upstream>
+		<remote-id type="pypi">fabulous</remote-id>
 		<doc lang="en">http://lobstertech.com/fabulous.html</doc>
 	</upstream>
 </pkgmetadata>

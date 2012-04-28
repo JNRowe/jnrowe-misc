@@ -10,6 +10,7 @@
 		based on <pkg>dev-vcs/mercurial</pkg>'s unified test format.
 	</longdescription>
 	<upstream>
+		<remote-id type="pypi">cram</remote-id>
 		<doc lang="en">http://bitheap.org/cram/</doc>
 		<bugs-to>http://bitbucket.org/brodie/cram/issues/?status=new&amp;status=open</bugs-to>
 	</upstream>

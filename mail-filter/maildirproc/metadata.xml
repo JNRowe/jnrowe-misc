@@ -14,4 +14,7 @@
 		maildirproc only processes already delivered mail. And that's a feature,
 		not a bug.
 	</longdescription>
+	<upstream>
+		<remote-id type="pypi">maildirproc</remote-id>
+	</upstream>
 </pkgmetadata>

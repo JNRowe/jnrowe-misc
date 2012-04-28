@@ -16,6 +16,7 @@
 		<flag name="elevation">Support fixing elevation data using SRTM data</flag>
 	</use>
 	<upstream>
+		<remote-id type="sourceforge">pytrainer</remote-id>
 		<changelog>https://github.com/pytrainer/pytrainer/blob/master/CHANGES#readme</changelog>
 		<bugs-to>https://github.com/pytrainer/pytrainer/issues</bugs-to>
 	</upstream>

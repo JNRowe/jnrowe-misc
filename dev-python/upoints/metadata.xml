@@ -17,6 +17,7 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<upstream>
+		<remote-id type="pypi">upoints</remote-id>
 		<maintainer status="active">
 			<email>jnrowe@gmail.com</email>
 			<name>James Rowe</name>

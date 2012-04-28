@@ -13,4 +13,7 @@
 		project, but have been re-implemented in Python for increased
 		portability.
 	</longdescription>
+	<upstream>
+		<remote-id type="pypi">pwtools</remote-id>
+	</upstream>
 </pkgmetadata>

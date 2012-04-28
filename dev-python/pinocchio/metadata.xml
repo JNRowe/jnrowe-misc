@@ -16,4 +16,7 @@
 		* outputsave -- save your stdout into files
 		* spec -- generate test description from test class/method names
 	</longdescription>
+	<upstream>
+		<remote-id type="pypi">pinocchio</remote-id>
+	</upstream>
 </pkgmetadata>
