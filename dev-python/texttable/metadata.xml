@@ -9,6 +9,7 @@
 		Module for creating simple ASCII tables with Python.
 	</longdescription>
 	<upstream>
+		<remote-id type="pypi">texttable</remote-id>
 		<doc lang="en">http://foutaise.org/code/texttable/</doc>
 	</upstream>
 </pkgmetadata>
