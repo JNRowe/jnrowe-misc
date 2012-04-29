@@ -1,0 +1,19 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Use system six package
+Status: LOCAL
+
+Strip usage of bundled six, this allows installation on AST hosts.
+
+diff --git a/argh/helpers.py b/argh/helpers.py
+index 8894c60..755ec13 100644
+--- a/argh/helpers.py
++++ b/argh/helpers.py
+@@ -17,7 +17,7 @@ import locale
+ import sys
+ from types import GeneratorType
+ 
+-from argh.six import b, u, string_types, text_type, BytesIO, PY3
++from six import b, u, string_types, text_type, BytesIO, PY3
+ from argh.exceptions import CommandError
+ from argh.utils import get_subparsers
+ from argh.completion import autocomplete
