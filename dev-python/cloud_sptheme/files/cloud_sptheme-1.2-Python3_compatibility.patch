@@ -15,3 +15,13 @@ index 5ce0829..a8354c1 100644
  VERSION = re.search(r'^__version__\s*=\s*"(.*?)"\s*$', vh.read(), re.M).group(1)
  vh.close()
  #=========================================================
+@@ -56,7 +56,8 @@ at `<http://packages.python.org/cloud_sptheme>`_.
+         'Programming Language :: Python',
+         'Topic :: Documentation',
+         'Topic :: Software Development :: Documentation',
+-    ]
++    ],
++    use_2to3 = True,
+ )
+ #=========================================================
+ #EOF
