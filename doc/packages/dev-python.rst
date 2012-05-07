@@ -161,8 +161,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.2.ebuild>`__  ``amd64``, ``x86``
-  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.3.ebuild>`__  ``amd64``, ``~x86`` (due 2012-05-07)
+  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``freshen`` - https://github.com/rlisagor/freshen
 
@@ -251,8 +250,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1.34 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.34.ebuild>`__  ``amd64``, ``x86``
-  * `0.1.35 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.35.ebuild>`__  ``amd64``, ``~x86`` (due 2012-05-07)
+  * `0.1.35 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.35.ebuild>`__  ``amd64``, ``x86``
 
 * ``micromodels`` - http://pypi.python.org/pypi/micromodels/
 
@@ -567,7 +565,7 @@
  * Versions:
 
   * `0.10.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.10.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.10.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.10.3.ebuild>`__  ``~amd64`` (due 2012-06-06), ``~x86`` (due 2012-05-07)
+  * `0.10.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.10.3.ebuild>`__  ``~amd64`` (due 2012-06-06), ``~x86`` (due 2012-07-06)
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
