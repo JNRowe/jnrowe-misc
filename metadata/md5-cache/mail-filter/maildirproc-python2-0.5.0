@@ -10,5 +10,5 @@ RDEPEND=!mail-filter/maildirproc python_targets_python2_5? ( dev-lang/python:2.5
 REQUIRED_USE=|| ( python_targets_python2_5 python_targets_python2_6 python_targets_python2_7 )
 SLOT=0
 SRC_URI=http://joel.rosdahl.net/maildirproc/releases/maildirproc-python2-0.5.0.tar.bz2
-_eclasses_=python-distutils-ng	9c728fa97679b3ca2742cf8ccd260599
+_eclasses_=python-distutils-ng	1168c2a6b014e0d981b0c5e620915dfa
 _md5_=d357cc26ac1688682471301ac7f2aeb2
