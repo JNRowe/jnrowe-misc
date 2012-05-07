@@ -31,8 +31,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/sphinxcontrib-googlechart/sphinxcontrib-googlechart-0.1.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/sphinxcontrib-googlechart/sphinxcontrib-googlechart-0.1.5.ebuild>`__  ``amd64``, ``~x86`` (due 2012-05-07)
+  * `0.1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/sphinxcontrib-googlechart/sphinxcontrib-googlechart-0.1.5.ebuild>`__  ``amd64``, ``x86``
 
 * ``sphinxcontrib-httpdomain`` - http://packages.python.org/sphinxcontrib-httpdomain/
 
