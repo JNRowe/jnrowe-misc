@@ -3,6 +3,10 @@
 # $Header: $
 
   14 May 2012; James Rowe <jnrowe@gmail.com>
+  -sphinxcontrib-blockdiag-1.0.2.ebuild, sphinxcontrib-blockdiag-1.1.0.ebuild:
+  Keyworded x86.
+
+  14 May 2012; James Rowe <jnrowe@gmail.com>
   sphinxcontrib-blockdiag-1.1.0.ebuild:
   Keyworded amd64.
 
