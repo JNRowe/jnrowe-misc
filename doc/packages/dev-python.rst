@@ -186,7 +186,7 @@
  * Versions:
 
   * `0.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/genzshcomp/genzshcomp-0.2.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/genzshcomp/genzshcomp-0.3.ebuild>`__  ``~amd64`` (due 2012-05-14), ``~x86`` (due 2012-05-14)
+  * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/genzshcomp/genzshcomp-0.3.ebuild>`__  ``amd64``, ``~x86`` (due 2012-05-14)
 
 * ``gpxdata`` - http://www.kette-links.de/technik/
 
