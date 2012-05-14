@@ -1,4 +1,3 @@
-REM 2012-05-14 *1 MSG %"Stabilise x86 app-text/sphinxcontrib-httpdomain-1.1.7%" %a
 REM 2012-05-16 *1 MSG %"Stabilise x86 dev-vcs/gitflow-0.4.1-r2%" %a
 REM 2012-05-16 *1 MSG %"Stabilise amd64 dev-vcs/gitflow-0.4.1-r2%" %a
 REM 2012-05-18 *1 MSG %"Stabilise amd64 media-gfx/blockdiag-1.1.4%" %a
