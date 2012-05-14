@@ -40,5 +40,5 @@
  * Versions:
 
   * `1.1.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/sphinxcontrib-httpdomain/sphinxcontrib-httpdomain-1.1.6.ebuild>`__  ``amd64``, ``x86``
-  * `1.1.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/sphinxcontrib-httpdomain/sphinxcontrib-httpdomain-1.1.7.ebuild>`__  ``~amd64`` (due 2012-05-14), ``~x86`` (due 2012-05-14)
+  * `1.1.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/sphinxcontrib-httpdomain/sphinxcontrib-httpdomain-1.1.7.ebuild>`__  ``amd64``, ``~x86`` (due 2012-05-14)
 
