@@ -18,7 +18,7 @@ SRC_URI="http://${PN}.googlecode.com/files/${P}.zip"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE="examples"
 
 # pyyaml is needed at build-time if we start regenerating c_ast.py.
