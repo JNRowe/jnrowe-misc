@@ -256,7 +256,7 @@
  * Licence: ``Unlicense``
  * Versions:
 
-  * `0.5.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/micromodels/micromodels-0.5.0.ebuild>`__  ``~amd64`` (due 2012-05-18), ``~x86`` (due 2012-06-13)
+  * `0.5.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/micromodels/micromodels-0.5.0.ebuild>`__  ``amd64``, ``~x86`` (due 2012-06-13)
 
 * ``misaka`` - http://pypi.python.org/pypi/misaka/
 
@@ -385,7 +385,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `2.05 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycparser/pycparser-2.05.ebuild>`__  ``~amd64`` (due 2012-05-19), ``~x86`` (due 2012-06-18)
+  * `2.05 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycparser/pycparser-2.05.ebuild>`__  ``amd64``, ``~x86`` (due 2012-06-18)
 
 * ``pycukes`` - https://github.com/hugobr/pycukes
 
