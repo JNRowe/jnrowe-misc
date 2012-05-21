@@ -21,7 +21,7 @@ RDEPEND="dev-dotnet/gtk-sharp
 DEPEND="${RDEPEND}
 	app-text/gnome-doc-utils
 	dev-util/intltool
-	dev-util/pkgconfig"
+	virtual/pkgconfig"
 
 # Tests are broken in the current release
 RESTRICT="test"
