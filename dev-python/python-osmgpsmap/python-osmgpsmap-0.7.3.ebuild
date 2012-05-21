@@ -20,4 +20,4 @@ IUSE=""
 RDEPEND="dev-python/pygtk
 	~sci-geosciences/osm-gps-map-${PV}"
 DEPEND="${RDEPEND}
-	dev-util/pkgconfig"
+	virtual/pkgconfig"
