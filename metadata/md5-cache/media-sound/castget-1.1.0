@@ -1,5 +1,5 @@
 DEFINED_PHASES=configure
-DEPEND=dev-util/pkgconfig
+DEPEND=virtual/pkgconfig
 DESCRIPTION=A simple command-line based RSS enclosure downloader
 EAPI=4
 HOMEPAGE=http://www.nongnu.org/castget/
@@ -9,4 +9,4 @@ LICENSE=LGPL-2.1
 RDEPEND=dev-libs/glib dev-libs/libxml2 net-misc/curl id3tag? ( media-libs/id3lib )
 SLOT=0
 SRC_URI=mirror://nongnu/castget/castget-1.1.0.tar.bz2
-_md5_=5955e045961c6b65c6636dee9d1c2f56
+_md5_=a86caf59f18ce6f00dcd95cc06065918
