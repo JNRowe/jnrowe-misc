@@ -27,7 +27,7 @@ RDEPEND=">=dev-libs/glib-2.18
 	libnotify? ( x11-libs/libnotify )
 	scrobbler? ( net-misc/curl )"
 DEPEND="${RDEPEND}
-	dev-util/pkgconfig"
+	virtual/pkgconfig"
 
 src_prepare() {
 	if [[ ${PV} == 9999 ]]; then
