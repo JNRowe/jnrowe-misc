@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install prepare pretend test unpack
-DEPEND=app-arch/unzip dev-python/setuptools python_targets_python2_5? ( dev-lang/python:2.5 ) python_targets_python2_6? ( dev-lang/python:2.6 ) python_targets_python2_7? ( dev-lang/python:2.7 )
+DEPEND=app-arch/unzip dev-python/setuptools !<sys-apps/portage-2.1.10.58 python_targets_python2_5? ( dev-lang/python:2.5 ) python_targets_python2_6? ( dev-lang/python:2.6 ) python_targets_python2_7? ( dev-lang/python:2.7 )
 DESCRIPTION=Access the web service of del.icio.us via it's API through python
 EAPI=4
 HOMEPAGE=http://code.google.com/p/pydelicious/
@@ -11,5 +11,5 @@ REQUIRED_USE=|| ( python_targets_python2_5 python_targets_python2_6 python_targe
 RESTRICT=test
 SLOT=0
 SRC_URI=http://pydelicious.googlecode.com/files/pydelicious-0.6.zip
-_eclasses_=python-distutils-ng	1168c2a6b014e0d981b0c5e620915dfa
+_eclasses_=python-distutils-ng	8c886b302e84484445035b8ce3174ade
 _md5_=f57f581542b6d462849e8d9100d89451

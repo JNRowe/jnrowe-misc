@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install postinst prepare pretend test
-DEPEND=!mail-filter/maildirproc python_targets_python2_5? ( dev-lang/python:2.5 ) python_targets_python2_6? ( dev-lang/python:2.6 ) python_targets_python2_7? ( dev-lang/python:2.7 )
+DEPEND=!mail-filter/maildirproc !<sys-apps/portage-2.1.10.58 python_targets_python2_5? ( dev-lang/python:2.5 ) python_targets_python2_6? ( dev-lang/python:2.6 ) python_targets_python2_7? ( dev-lang/python:2.7 )
 DESCRIPTION=maildir processor using Python as its configuration language
 EAPI=4
 HOMEPAGE=http://joel.rosdahl.net/maildirproc/
@@ -10,5 +10,5 @@ RDEPEND=!mail-filter/maildirproc python_targets_python2_5? ( dev-lang/python:2.5
 REQUIRED_USE=|| ( python_targets_python2_5 python_targets_python2_6 python_targets_python2_7 )
 SLOT=0
 SRC_URI=http://joel.rosdahl.net/maildirproc/releases/maildirproc-python2-0.5.0.tar.bz2
-_eclasses_=python-distutils-ng	1168c2a6b014e0d981b0c5e620915dfa
+_eclasses_=python-distutils-ng	8c886b302e84484445035b8ce3174ade
 _md5_=d357cc26ac1688682471301ac7f2aeb2

@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install prepare pretend test unpack
-DEPEND=dev-python/setuptools python_targets_python2_6? ( dev-lang/python:2.6 ) python_targets_python2_7? ( dev-lang/python:2.7 )
+DEPEND=dev-python/setuptools !<sys-apps/portage-2.1.10.58 python_targets_python2_6? ( dev-lang/python:2.6 ) python_targets_python2_7? ( dev-lang/python:2.7 )
 DESCRIPTION=Assertion toolbox for python
 EAPI=4
 HOMEPAGE=http://pypi.python.org/pypi/sure/
@@ -10,5 +10,5 @@ RDEPEND=dev-python/setuptools dev-python/nose python_targets_python2_6? ( dev-la
 REQUIRED_USE=|| ( python_targets_python2_6 python_targets_python2_7 )
 SLOT=0
 SRC_URI=mirror://pypi/s/sure/sure-0.10.0.tar.gz
-_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	74d9118e657da5b1db0c36f5dea88e57	jnrowe-pypi	9789fd5aecac33fd48a8bcd9d1dc98e0	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python-distutils-ng	1168c2a6b014e0d981b0c5e620915dfa	toolchain-funcs	6526ac6fc9aedf391efb91fcd75ace68	user	32a09e82e2f592bf88ad2fd08525166e
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	39af24987a4a7a34dccf2ef9cc6af3f7	jnrowe-pypi	9789fd5aecac33fd48a8bcd9d1dc98e0	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python-distutils-ng	8c886b302e84484445035b8ce3174ade	toolchain-funcs	f71b9936acc911ed1cc84557d3b5c2b3	user	32a09e82e2f592bf88ad2fd08525166e
 _md5_=a6869459cd1350068493e1a116f88e3b

@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install prepare pretend test
-DEPEND=python_targets_python2_6? ( dev-lang/python:2.6 ) python_targets_python2_7? ( dev-lang/python:2.7 )
+DEPEND=!<sys-apps/portage-2.1.10.58 python_targets_python2_6? ( dev-lang/python:2.6 ) python_targets_python2_7? ( dev-lang/python:2.7 )
 DESCRIPTION=A tool to log and analyse your exercise regime
 EAPI=4
 HOMEPAGE=https://github.com/pytrainer/pytrainer
@@ -10,5 +10,5 @@ RDEPEND=dev-libs/libxml2[python] dev-libs/libxslt[python] dev-python/lxml dev-py
 REQUIRED_USE=|| ( python_targets_python2_6 python_targets_python2_7 )
 SLOT=0
 SRC_URI=mirror://sourceforge/pytrainer/pytrainer-1.9.1.tar.gz
-_eclasses_=python-distutils-ng	1168c2a6b014e0d981b0c5e620915dfa
+_eclasses_=python-distutils-ng	8c886b302e84484445035b8ce3174ade
 _md5_=94511a8c0798d06e5b276ea3d4d408ff

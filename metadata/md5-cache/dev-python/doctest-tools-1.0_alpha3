@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install prepare pretend test
-DEPEND=python_targets_python2_5? ( dev-lang/python:2.5 ) python_targets_python2_6? ( dev-lang/python:2.6 ) python_targets_python2_7? ( dev-lang/python:2.7 ) python_targets_python3_1? ( dev-lang/python:3.1 ) python_targets_python3_2? ( dev-lang/python:3.2 )
+DEPEND=!<sys-apps/portage-2.1.10.58 python_targets_python2_5? ( dev-lang/python:2.5 ) python_targets_python2_6? ( dev-lang/python:2.6 ) python_targets_python2_7? ( dev-lang/python:2.7 ) python_targets_python3_1? ( dev-lang/python:3.1 ) python_targets_python3_2? ( dev-lang/python:3.2 )
 DESCRIPTION=Tools to run doctests on code and text files within a directory
 EAPI=4
 HOMEPAGE=http://code.google.com/p/doctest-tools/
@@ -10,5 +10,5 @@ RDEPEND=python_targets_python2_5? ( dev-lang/python:2.5 ) python_targets_python2
 REQUIRED_USE=|| ( python_targets_python2_5 python_targets_python2_6 python_targets_python2_7 python_targets_python3_1 python_targets_python3_2 )
 SLOT=0
 SRC_URI=http://doctest-tools.googlecode.com/files/doctest-tools-1.0a3.zip
-_eclasses_=python-distutils-ng	1168c2a6b014e0d981b0c5e620915dfa
+_eclasses_=python-distutils-ng	8c886b302e84484445035b8ce3174ade
 _md5_=5d4ea02493d52620d155107c228243c1
