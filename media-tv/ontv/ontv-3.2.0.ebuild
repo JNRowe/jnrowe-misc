@@ -26,7 +26,7 @@ RDEPEND="${COMMON_DEPEND}
 	xmltv? ( media-tv/xmltv )"
 DEPEND="${COMMON_DEPEND}
 	dev-util/intltool
-	dev-util/pkgconfig"
+	virtual/pkgconfig"
 
 DOCS="AUTHORS ChangeLog FAQ HACKING NEWS README THANKS TODO"
 

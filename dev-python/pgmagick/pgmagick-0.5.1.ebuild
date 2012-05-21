@@ -19,7 +19,7 @@ IUSE=""
 RDEPEND="media-gfx/graphicsmagick
 	dev-libs/boost[python]"
 DEPEND="${RDEPEND}
-	dev-util/pkgconfig"
+	virtual/pkgconfig"
 
 # The upstream test runner is incomplete in the released tarball
 RESTRICT="test"

@@ -18,7 +18,7 @@ RDEPEND="net-libs/libsoup
 	x11-libs/gtk+:2"
 DEPEND="${RDEPEND}
 	doc? ( dev-util/gtk-doc )
-	dev-util/pkgconfig
+	virtual/pkgconfig
 	gnome-base/gnome-common"
 
 src_configure() {

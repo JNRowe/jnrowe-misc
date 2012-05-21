@@ -18,7 +18,7 @@ RDEPEND="dev-libs/glib
 	net-misc/curl
 	id3tag? ( media-libs/id3lib )"
 DEPEND="${DEPEND}
-	dev-util/pkgconfig"
+	virtual/pkgconfig"
 
 DOCS=(AUTHORS ChangeLog NEWS README TODO castgetrc.example)
 

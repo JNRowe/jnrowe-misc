@@ -23,7 +23,7 @@ RDEPEND="daemon? ( =x11-libs/gtkhotkey-0.2* )
 DEPEND="${RDEPEND}
 	!daemon? ( ${AUTOTOOLS_DEPEND} )
 	dev-util/intltool
-	dev-util/pkgconfig"
+	virtual/pkgconfig"
 
 src_prepare() {
 	if ! use daemon; then
