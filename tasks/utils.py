@@ -1,3 +1,4 @@
+from functools import partial
 from inspect import stack
 from json import (dumps, loads)
 from os import path
@@ -8,9 +9,9 @@ import argh
 import blessings
 
 try:
-    import requests
+    import httplib2
 except ImportError:
-    requests = None  # NOQA
+    httplib2 = None  # NOQA
 
 
 T = blessings.Terminal()
@@ -81,15 +82,17 @@ def cmd_output(command):
 
 
 def create_gh_client():
-    if not requests:
-        raise argh.CommandError(fail("Opening bugs requires the requests "
+    if not httplib2:
+        raise argh.CommandError(fail("Opening bugs requires the httplib2 "
                                      "Python package"))
 
-    def from_json(r):
-        r._content = loads(r.text)
-
-    def to_json(r):
-        r['data'] = dumps(r['data'])
+    def request(uri, method='GET', body=None):
+        if body:
+            body = dumps(body)
+        r, c = session.request(uri, method, body,
+                               {"Authorization": "token %s" % token})
+        r.content = loads(c)
+        return r
 
     repo = open('profiles/repo_name').read().strip()
     try:
@@ -97,10 +100,10 @@ def create_gh_client():
     except CalledProcessError:
         raise argh.CommandError('Missing %s.token API token in git config'
                                 % repo)
-    # I wouldn't recommend supporting JSON in the following manner, but this
-    # isn't MC in any way
-    session = requests.session(headers={"Authorization": "token %s" % token},
-                               hooks={'args': to_json, 'response': from_json})
+
+    session = httplib2.Http(disable_ssl_certificate_validation=True)
+    session.get = partial(request, method='GET')
+    session.post = partial(request, method='POST')
     return session
 
 

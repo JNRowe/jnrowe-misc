@@ -45,7 +45,7 @@ def open_bug(args):
     project = fetch_project_name()
     data = {'title': args.title, 'body': args.body, 'labels': args.labels}
     new_issue = github.post('https://api.github.com/repos/%s/issues' % project,
-                            data=data)
+                            data)
     yield success("Issue #%d opened!" % new_issue.content['number'])
 
 
@@ -61,5 +61,5 @@ def bump_pkg(args):
         'labels': ['feature', ]
     }
     new_issue = github.post('https://api.github.com/repos/%s/issues' % project,
-                            data=data)
+                            data)
     yield success("Issue #%d opened!" % new_issue.content['number'])
