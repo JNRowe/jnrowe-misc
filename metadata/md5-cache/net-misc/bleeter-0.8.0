@@ -10,5 +10,5 @@ RDEPEND=dev-python/configobj dev-python/notify-python dev-python/tweepy dev-pyth
 REQUIRED_USE=|| ( python_targets_python2_6 python_targets_python2_7 )
 SLOT=0
 SRC_URI=https://github.com/JNRowe/bleeter/tarball/0.8.0 -> bleeter-0.8.0.tar.gz doc? ( https://github.com/JNRowe/sphinx-jnrowe/tarball/0.1.0 -> sphinx-jnrowe-0.1.0.tar.gz )
-_eclasses_=jnrowe-github	7c62d974ce317cc87e5ed0011d9f3bad	python-distutils-ng	9649998e4ceeb56a6745cc819dbafcb6	vcs-snapshot	da01f8084931ab770fd9ddf7e537a262
+_eclasses_=jnrowe-github	b741804b023ae991a31d18ff9072f1de	python-distutils-ng	9649998e4ceeb56a6745cc819dbafcb6	vcs-snapshot	da01f8084931ab770fd9ddf7e537a262
 _md5_=9ff553482fe6eafae5c13b1bd3086889

@@ -33,13 +33,13 @@ esac
 # @CODE
 
 # @VARIABLE: GITHUB_USER
-# @DEFAULT-UNSET
+# @DEFAULT_UNSET
 # @REQUIRED
 # @DESCRIPTION:
 # GitHub user account the project is hosted within
 
 # @VARIABLE: GITHUB_TAG
-# @DEFAULT-UNSET
+# @DEFAULT_UNSET
 # @DESCRIPTION:
 # Tag to download tarball for, if unset defaults to ${PV}
 
