@@ -1,11 +1,12 @@
 import datetime
 
 from glob import glob
+from subprocess import (Popen, PIPE, check_output)
 
 import argh
 
 from utils import (command, create_gh_client, fail, fetch_project_name,
-                   success)
+                   success, warn)
 
 
 @command
@@ -22,6 +23,22 @@ def keyword_check(args):
         if 'x86' not in meta['KEYWORDS']:
             yield fail('[~]x86 keyword missing in %r' % pkg)
     yield success('All packages checked for keywords')
+
+
+@command
+def eclass_doc_check(args):
+    """Check eclass documentation syntax"""
+    portdir = check_output(['portageq', 'envvar', 'PORTDIR']).strip()
+    awk_file = portdir + '/' + \
+        'app-portage/eclass-manpages/files/eclass-to-manpage.awk'
+    eclasses = glob('eclass/*.eclass')
+    for eclass in eclasses:
+        proc = Popen(['gawk', '-f', awk_file], stdin=PIPE, stdout=PIPE,
+                     stderr=PIPE)
+        out, err = proc.communicate(open(eclass).read())
+        if err:
+            yield warn('>>> %s' % eclass)
+            print err
 
 
 @command
