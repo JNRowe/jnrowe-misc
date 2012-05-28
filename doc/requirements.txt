@@ -1,0 +1,4 @@
+sphinx >= 1.0
+sphinxcontrib-cheeseshop >= 0.2
+sphinxcontrib-issuetracker >= 0.9
+
