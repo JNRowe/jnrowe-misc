@@ -578,7 +578,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/termtool/termtool-1.0.ebuild>`__  ``amd64``, ``~x86`` (due 2012-05-28)
+  * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/termtool/termtool-1.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``texttable`` - http://foutaise.org/code/
 
