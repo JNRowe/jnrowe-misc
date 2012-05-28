@@ -32,13 +32,13 @@ esac
 # inherit jnrowe-github
 # @CODE
 
-# @VARIABLE: GITHUB_USER
+# @ECLASS-VARIABLE: GITHUB_USER
 # @DEFAULT_UNSET
 # @REQUIRED
 # @DESCRIPTION:
 # GitHub user account the project is hosted within
 
-# @VARIABLE: GITHUB_TAG
+# @ECLASS-VARIABLE: GITHUB_TAG
 # @DEFAULT_UNSET
 # @DESCRIPTION:
 # Tag to download tarball for, if unset defaults to ${PV}

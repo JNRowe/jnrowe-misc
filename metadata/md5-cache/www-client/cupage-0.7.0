@@ -9,5 +9,5 @@ LICENSE=GPL-3
 RDEPEND=dev-python/blessings dev-python/configobj dev-python/httplib2 dev-python/lxml || ( =dev-lang/python-2.7* =dev-lang/python-2.6* )
 SLOT=0
 SRC_URI=https://github.com/JNRowe/cupage/tarball/v0.7.0 -> cupage-0.7.0.tar.gz
-_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	distutils	15ae23f6f8219a009bfcfff7724fe727	eutils	39af24987a4a7a34dccf2ef9cc6af3f7	jnrowe-github	b741804b023ae991a31d18ff9072f1de	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	36d7e2b7aa4dce62364c72eec96610cf	toolchain-funcs	f71b9936acc911ed1cc84557d3b5c2b3	user	32a09e82e2f592bf88ad2fd08525166e	vcs-snapshot	da01f8084931ab770fd9ddf7e537a262
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	distutils	15ae23f6f8219a009bfcfff7724fe727	eutils	39af24987a4a7a34dccf2ef9cc6af3f7	jnrowe-github	62d191d431628ee6e3a49eb2e9920c6f	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	36d7e2b7aa4dce62364c72eec96610cf	toolchain-funcs	f71b9936acc911ed1cc84557d3b5c2b3	user	32a09e82e2f592bf88ad2fd08525166e	vcs-snapshot	da01f8084931ab770fd9ddf7e537a262
 _md5_=8bbb867d59131ec8c30c1ecfb4d7718f
