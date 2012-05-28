@@ -14,6 +14,8 @@ except ImportError:
     httplib2 = None  # NOQA
 
 
+CA_CERTS = '/etc/ssl/certs/ca-certificates.crt'
+
 T = blessings.Terminal()
 
 
@@ -85,6 +87,8 @@ def create_gh_client():
     if not httplib2:
         raise argh.CommandError(fail("Opening bugs requires the httplib2 "
                                      "Python package"))
+    if not path.exists(CA_CERTS):
+        raise argh.CommandError(fail("Unable to find system SSL certificates"))
 
     def request(uri, method='GET', body=None):
         if body:
@@ -101,7 +105,7 @@ def create_gh_client():
         raise argh.CommandError('Missing %s.token API token in git config'
                                 % repo)
 
-    session = httplib2.Http(disable_ssl_certificate_validation=True)
+    session = httplib2.Http(ca_certs=CA_CERTS)
     session.get = partial(request, method='GET')
     session.post = partial(request, method='POST')
     return session
