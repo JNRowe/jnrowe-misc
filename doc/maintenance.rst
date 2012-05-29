@@ -35,6 +35,12 @@ This task removes generated files, such as HTML generated from reST sources.
 In addition to the files removed by the clean_ target this task also removes
 all the :file:`Manifest` files in the repository.
 
+``eclass-doc-check``
+''''''''''''''''''''
+
+Check the syntax of eclass documentation using the ``awk`` script from
+``app-portage/eclass-manpages``.
+
 ``task-doc-check``
 ''''''''''''''''''
 
