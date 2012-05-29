@@ -3,10 +3,7 @@
 # $Header: $
 
 EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*"
-PYPI_OLD_DISTUTILS=1
-
+PYTHON_COMPAT="python2_5 python2_6 python2_7 python3_1 python3_2"
 MY_PN="Benchmarker"
 
 inherit jnrowe-pypi
@@ -25,17 +22,12 @@ PYTHON_MODNAME="${PN}.py"
 
 DOCS="CHANGES.txt"
 
-src_test() {
-	testing() {
-		PYTHONPATH="${S}" "$(PYTHON)" test/benchmarker_test.py \
-			|| die "benchmarker_test failed"
-	}
-	python_execute_function testing
+python_test() {
+	PYTHONPATH="${S}" "${PYTHON}" test/benchmarker_test.py \
+		|| die "benchmarker_test failed"
 }
 
-src_install() {
-	distutils_src_install
-
+python_install_all() {
 	insinto /usr/share/doc/${PF}
 	if use examples; then
 		doins -r examples
