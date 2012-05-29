@@ -3,12 +3,8 @@
 # $Header: $
 
 EAPI=4
-
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
 # 3.x is not supported because of exception syntax
-RESTRICT_PYTHON_ABIS="3.*"
-PYPI_OLD_DISTUTILS=1
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
 inherit eutils jnrowe-pypi
 
@@ -28,14 +24,14 @@ RDEPEND="dev-python/imaging
 DEPEND="doc? ( media-gfx/sphinxcontrib-aafig )
 	${RDEPEND}"
 
-src_prepare() {
+python_prepare_all() {
 	mv docutils/setup{-docutils-plugin,}.py
 	# Workaround a option parsing bug in the current release
 	sed -i '/^ \+:aspect\|scale:/d' documentation/*.rst
 }
 
 src_compile() {
-	distutils_src_compile
+	python-distutils-ng_src_compile
 
 	if use doc; then
 		cd documentation
@@ -45,20 +41,23 @@ src_compile() {
 
 	if use docutils; then
 		cd docutils
-		distutils_src_compile
+		${PYTHON} ./setup.py build || die "build in docutils failed"
 		cd ..
 	fi
 }
 
-src_install() {
-	distutils_src_install
+python_install() {
+	_python-distutils-ng_default_distutils_install
 
 	if use docutils; then
 		cd docutils
-		distutils_src_install
+		"${PYTHON}" setup.py install ${compile_flags} --root="${D}" \
+			|| die "install in docutils failed"
 		cd ../
 	fi
+}
 
+python_install_all() {
 	insinto /usr/share/doc/${PF}
 	if use doc ; then
 		dodoc documentation/*.rst || die "dodoc *.rst failed"
