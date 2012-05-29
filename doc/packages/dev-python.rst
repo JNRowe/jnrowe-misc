@@ -8,7 +8,7 @@
  * Versions:
 
   * `0.15.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/argh/argh-0.15.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.15.1-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/argh/argh-0.15.1-r1.ebuild>`__  ``~amd64`` (due 2012-05-29), ``~x86`` (due 2012-05-29)
+  * `0.15.1-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/argh/argh-0.15.1-r1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-05-29)
 
 * ``astral`` - http://pypi.python.org/pypi/astral/
 
@@ -353,7 +353,7 @@
  * Versions:
 
   * `0.9.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/plac/plac-0.9.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.9.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/plac/plac-0.9.1.ebuild>`__  ``~amd64`` (due 2012-05-29), ``~x86`` (due 2012-05-29)
+  * `0.9.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/plac/plac-0.9.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-05-29)
 
 * ``prettytable`` - http://code.google.com/p/prettytable/
 
