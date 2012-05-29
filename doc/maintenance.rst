@@ -10,6 +10,20 @@ choice.
 Repository level support
 ------------------------
 
+``all``
+'''''''
+
+This task performs all building tasks for the repository.  It is purely
+a wrapper that executes any taks whose name begins with ``gen-``, and doesn't
+need to be manually updated for new generators.
+
+``check``
+'''''''''
+
+This task runs all the defined checks for the repository.  It is simply
+a wrapper that executes any task whose name ends with ``-check``, and doesn't
+need to be manually updated for new checks.
+
 ``clean``
 '''''''''
 
@@ -20,6 +34,18 @@ This task removes generated files, such as HTML generated from reST sources.
 
 In addition to the files removed by the clean_ target this task also removes
 all the :file:`Manifest` files in the repository.
+
+``eclass-doc-check``
+''''''''''''''''''''
+
+Check the syntax of eclass documentation using the ``awk`` script from
+``app-portage/eclass-manpages``.
+
+``task-doc-check``
+''''''''''''''''''
+
+Check all tasks are documented *here*.
+
 
 ``cupage`` support
 ------------------
@@ -86,7 +112,7 @@ The examples below should make the usage clear:
     ▶ ./Makefile.py open-bug 'title' '' 'initial label'
 
 It reads your GitHub authentication data using ``git config``, see the `setup
-help page on GitHub` for more information.
+help page on GitHub`_ for more information.
 
 .. note::
    This task fetches the repository identifier from the ``remote.origin.url``
@@ -100,7 +126,7 @@ bump requests with the minimum of fuss.  It requires a full
 ``<category>/<package>-<version>`` string as its only argument.
 
 It reads your GitHub authentication data using ``git config``, see the `setup
-help page on GitHub` for more information.
+help page on GitHub`_ for more information.
 
 .. note::
    This task fetches the repository identifier from the ``remote.origin.url``
@@ -154,7 +180,7 @@ This task is used to generate :file:`removals.rem`, see the :ref:`package.mask`
 documentation for more information.
 
 ``reminders``
-'''''''''''`''
+'''''''''''''
 
 This task is just a shortcut for using remind_ to display the currently active
 stabilisation and removal records.
