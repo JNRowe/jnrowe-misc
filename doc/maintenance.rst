@@ -154,7 +154,7 @@ This task is used to generate :file:`removals.rem`, see the :ref:`package.mask`
 documentation for more information.
 
 ``reminders``
-'''''''''''`''
+'''''''''''''
 
 This task is just a shortcut for using remind_ to display the currently active
 stabilisation and removal records.
