@@ -81,7 +81,7 @@ def main():
     parser = argh.ArghParser(description=description, epilog=epilog,
                              version="%%(prog)s (%s)" % VERSION)
     parser.add_commands(COMMANDS)
-    parser.dispatch()
+    parser.dispatch(pre_call=lambda args: setattr(args, 'commands', COMMANDS))
 
 
 if __name__ == '__main__':

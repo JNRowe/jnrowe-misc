@@ -1,6 +1,8 @@
 import datetime
 
 from glob import glob
+from operator import attrgetter
+from re import match
 from subprocess import (Popen, PIPE)
 
 import argh
@@ -39,6 +41,26 @@ def eclass_doc_check(args):
         if err:
             yield warn('>>> %s' % eclass)
             print err
+
+
+@command
+def task_doc_check(args):
+    """Check tasks are documented"""
+    # This should be far easier to write, if only we could rely on the Sphinx
+    # cache or mock the Sphinx extensions simply and use the docutils parser
+    lines = open('doc/maintenance.rst').readlines()
+    commands = []
+    for n, line in enumerate(lines):
+        if match("^'+\n$", line):
+            commands.append(lines[n - 1][2:-3])
+
+    for command in sorted(args.commands, key=attrgetter('__name__')):
+        if hasattr(command, 'argh_alias'):
+            name = command.argh_alias.replace('_', '-')
+        else:
+            name = command.__name__.replace('_', '-')
+        if not name in commands:
+            print warn('%s undocumented' % name)
 
 
 @command
