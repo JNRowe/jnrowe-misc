@@ -12,7 +12,7 @@ DESCRIPTION="The smartest command line arguments parser in the world"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE="examples tk"
 
 DEPEND="dev-python/setuptools"
