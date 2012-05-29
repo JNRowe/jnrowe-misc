@@ -86,7 +86,7 @@ The examples below should make the usage clear:
     ▶ ./Makefile.py open-bug 'title' '' 'initial label'
 
 It reads your GitHub authentication data using ``git config``, see the `setup
-help page on GitHub` for more information.
+help page on GitHub`_ for more information.
 
 .. note::
    This task fetches the repository identifier from the ``remote.origin.url``
@@ -100,7 +100,7 @@ bump requests with the minimum of fuss.  It requires a full
 ``<category>/<package>-<version>`` string as its only argument.
 
 It reads your GitHub authentication data using ``git config``, see the `setup
-help page on GitHub` for more information.
+help page on GitHub`_ for more information.
 
 .. note::
    This task fetches the repository identifier from the ``remote.origin.url``
