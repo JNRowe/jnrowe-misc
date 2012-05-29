@@ -1,12 +1,12 @@
 import datetime
 
 from glob import glob
-from subprocess import (Popen, PIPE, check_output)
+from subprocess import (Popen, PIPE)
 
 import argh
 
-from utils import (command, create_gh_client, fail, fetch_project_name,
-                   success, warn)
+from utils import (command, cmd_output, create_gh_client, fail,
+                   fetch_project_name, success, warn)
 
 
 @command
@@ -28,7 +28,7 @@ def keyword_check(args):
 @command
 def eclass_doc_check(args):
     """Check eclass documentation syntax"""
-    portdir = check_output(['portageq', 'envvar', 'PORTDIR']).strip()
+    portdir = cmd_output('portageq envvar PORTDIR')
     awk_file = portdir + '/' + \
         'app-portage/eclass-manpages/files/eclass-to-manpage.awk'
     eclasses = glob('eclass/*.eclass')
