@@ -1,13 +1,14 @@
-DEFINED_PHASES=compile install postinst postrm prepare setup test
-DEPEND=dev-python/setuptools || ( =dev-lang/python-2.7* =dev-lang/python-2.6* )
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-python/setuptools !<sys-apps/portage-2.1.10.58 python_targets_python2_6? ( dev-lang/python:2.6 ) python_targets_python2_7? ( dev-lang/python:2.7 )
 DESCRIPTION=A library for making charts with Python
 EAPI=4
 HOMEPAGE=http://pypi.python.org/pypi/pycha/
-IUSE=examples test
+IUSE=examples test python_targets_python2_6 python_targets_python2_7
 KEYWORDS=amd64 x86
 LICENSE=LGPL-3
-RDEPEND=dev-python/pycairo dev-python/pygtk || ( =dev-lang/python-2.7* =dev-lang/python-2.6* )
+RDEPEND=dev-python/pycairo dev-python/pygtk python_targets_python2_6? ( dev-lang/python:2.6 ) python_targets_python2_7? ( dev-lang/python:2.7 )
+REQUIRED_USE=|| ( python_targets_python2_6 python_targets_python2_7 )
 SLOT=0
 SRC_URI=mirror://pypi/p/pycha/pycha-0.6.0.tar.gz
-_eclasses_=distutils	15ae23f6f8219a009bfcfff7724fe727	eutils	a95b1bf9d854485ca6fdbb47df2975aa	jnrowe-pypi	9789fd5aecac33fd48a8bcd9d1dc98e0	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python	36d7e2b7aa4dce62364c72eec96610cf	toolchain-funcs	f71b9936acc911ed1cc84557d3b5c2b3	user	32a09e82e2f592bf88ad2fd08525166e
-_md5_=6a8b9a473548190689f00875930e9869
+_eclasses_=base	5f35078c26d6c60556d5c8a2feb4f84f	eutils	a95b1bf9d854485ca6fdbb47df2975aa	jnrowe-pypi	9789fd5aecac33fd48a8bcd9d1dc98e0	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	python-distutils-ng	9649998e4ceeb56a6745cc819dbafcb6	toolchain-funcs	f71b9936acc911ed1cc84557d3b5c2b3	user	32a09e82e2f592bf88ad2fd08525166e
+_md5_=2b2b9bdad0f5ad28a74fce890b6aa817
