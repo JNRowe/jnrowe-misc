@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  29 May 2012; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass:
+  Depend on unzip if archive is a zip file. [Workaround purely for those using
+  portage.]
+
   09 Apr 2012; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass:
   Call base_src_prepare in jnrowe-pypi's src_install when using
   python-distutils-ng.

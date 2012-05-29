@@ -52,6 +52,10 @@ HOMEPAGE="http://pypi.python.org/pypi/${MY_PN:-${PN}}/"
 # Can be redefined.
 : ${PYPI_ARCHIVE_SUFFIX:=tar.gz}
 
+if [[ ${PYPI_ARCHIVE_SUFFIX} == zip ]]; then
+	DEPEND="${DEPEND} app-arch/unzip"
+fi
+
 # Unfortunately, you can't use ${MY_PN::1:-${PN::1}} [without switching to zsh ;)]
 _PYPI_PN=${MY_PN:-${PN}}
 _PYPI_P=${MY_P:-${_PYPI_PN}-${MY_PV:-${PV}}}
