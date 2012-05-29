@@ -3,12 +3,8 @@
 # $Header: $
 
 EAPI=4
-
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2:2.6"
 # Python 2.5 and 3.x aren't supported because of pycairo dep
-RESTRICT_PYTHON_ABIS="2.[45] 3.*"
-PYPI_OLD_DISTUTILS=1
+PYTHON_COMPAT="python2_6 python2_7"
 
 inherit jnrowe-pypi
 
@@ -23,23 +19,18 @@ DEPEND="dev-python/setuptools"
 RDEPEND="dev-python/pycairo
 	dev-python/pygtk"
 
-DOCS="CHANGES.txt"
+DOCS=(CHANGES.txt)
 
-src_test() {
+python_test() {
 	# How I wish we could just use nose...
-	local files=tests/*.py
-	testing() {
-		local file
-		for file in ${files}; do
-			PYTHONPATH="$PWD" "$(PYTHON)" ${file} || die "${file} failed"
-		done
-	}
-	python_execute_function testing
+	local file files=tests/*.py
+	for file in ${files}; do
+		PYTHONPATH=${PWD} "${PYTHON}" ${file} \
+			|| die "${file} failed with ${PYTHON}"
+	done
 }
 
-src_install() {
-	distutils_src_install
-
+python_install_all() {
 	insinto /usr/share/doc/${PF}
 	if use examples; then
 		doins -r examples
