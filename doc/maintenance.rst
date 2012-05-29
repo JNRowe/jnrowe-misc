@@ -17,6 +17,13 @@ This task performs all building tasks for the repository.  It is purely
 a wrapper that executes any taks whose name begins with ``gen-``, and doesn't
 need to be manually updated for new generators.
 
+``check``
+'''''''''
+
+This task runs all the defined checks for the repository.  It is simply
+a wrapper that executes any task whose name ends with ``-check``, and doesn't
+need to be manually updated for new checks.
+
 ``clean``
 '''''''''
 
