@@ -39,7 +39,7 @@ def make_all(args):
     """Update generated files"""
     for task in [v for k, v in globals().items()
                 if k.startswith('gen_') and not k == 'gen_stable']:
-        task()
+        task(args)
 
 
 @command
