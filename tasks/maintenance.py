@@ -1,12 +1,14 @@
 import datetime
 
 from glob import glob
-from subprocess import (Popen, PIPE, check_output)
+from operator import attrgetter
+from re import match
+from subprocess import (Popen, PIPE)
 
 import argh
 
-from utils import (command, create_gh_client, fail, fetch_project_name,
-                   success, warn)
+from utils import (command, cmd_output, create_gh_client, fail,
+                   fetch_project_name, success, warn)
 
 
 @command
@@ -28,7 +30,7 @@ def keyword_check(args):
 @command
 def eclass_doc_check(args):
     """Check eclass documentation syntax"""
-    portdir = check_output(['portageq', 'envvar', 'PORTDIR']).strip()
+    portdir = cmd_output('portageq envvar PORTDIR')
     awk_file = portdir + '/' + \
         'app-portage/eclass-manpages/files/eclass-to-manpage.awk'
     eclasses = glob('eclass/*.eclass')
@@ -39,6 +41,26 @@ def eclass_doc_check(args):
         if err:
             yield warn('>>> %s' % eclass)
             print err
+
+
+@command
+def task_doc_check(args):
+    """Check tasks are documented"""
+    # This should be far easier to write, if only we could rely on the Sphinx
+    # cache or mock the Sphinx extensions simply and use the docutils parser
+    lines = open('doc/maintenance.rst').readlines()
+    commands = []
+    for n, line in enumerate(lines):
+        if match("^'+\n$", line):
+            commands.append(lines[n - 1][2:-3])
+
+    for command in sorted(args.commands, key=attrgetter('__name__')):
+        if hasattr(command, 'argh_alias'):
+            name = command.argh_alias.replace('_', '-')
+        else:
+            name = command.__name__.replace('_', '-')
+        if not name in commands:
+            print warn('%s undocumented' % name)
 
 
 @command
