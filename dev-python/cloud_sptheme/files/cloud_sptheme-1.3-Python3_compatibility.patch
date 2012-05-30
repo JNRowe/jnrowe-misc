@@ -1,0 +1,18 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Use 2to3 for Python 3 compatibility.
+Status: LOCAL
+
+diff --git i/setup.py w/setup.py
+index 9341f94..5c9fc37 100644
+--- i/setup.py
++++ w/setup.py
+@@ -54,7 +54,8 @@ at `<http://packages.python.org/cloud_sptheme>`_.
+         'Programming Language :: Python',
+         'Topic :: Documentation',
+         'Topic :: Software Development :: Documentation',
+-    ]
++    ],
++    use_2to3 = True,
+ )
+ #=========================================================
+ #EOF
