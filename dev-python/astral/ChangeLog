@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*astral-0.6.1 (30 May 2012)
+
+  30 May 2012; James Rowe <jnrowe@gmail.com> +astral-0.6.1.ebuild:
+  Version bump [603].
+
   29 May 2012; James Rowe <jnrowe@gmail.com> astral-0.5.ebuild:
   Switched to python-distutils-ng eclass.
 
