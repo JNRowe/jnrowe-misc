@@ -23,6 +23,8 @@ REM 2012-06-29 *1 MSG %"Stabilise amd64 dev-python/astral-0.6.1%" %a
 REM 2012-06-29 *1 MSG %"Stabilise x86 dev-python/astral-0.6.1%" %a
 REM 2012-06-29 *1 MSG %"Stabilise amd64 dev-python/cloud_sptheme-1.3%" %a
 REM 2012-06-29 *1 MSG %"Stabilise x86 dev-python/cloud_sptheme-1.3%" %a
+REM 2012-06-29 *1 MSG %"Stabilise amd64 dev-python/flake8-1.3.1%" %a
+REM 2012-06-29 *1 MSG %"Stabilise x86 dev-python/flake8-1.3.1%" %a
 REM 2012-06-30 *1 MSG %"Stabilise x86 dev-util/ditz-0.5-r1%" %a
 
 REM 2012-07-01 *1 MSG %"Stabilise x86 www-apps/mnemosyne-0.12%" %a
