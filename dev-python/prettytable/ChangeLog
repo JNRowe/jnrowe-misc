@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*prettytable-0.6 (30 May 2012)
+
+  30 May 2012; James Rowe <jnrowe@gmail.com> +prettytable-0.6.ebuild:
+  Version bump [610].
+
   08 Apr 2012; James Rowe <jnrowe@gmail.com> prettytable-0.5.ebuild:
   Switched to python-distutils-ng eclass.
 

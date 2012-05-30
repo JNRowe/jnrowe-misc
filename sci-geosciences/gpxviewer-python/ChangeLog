@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*gpxviewer-python-0.4.3 (30 May 2012)
+
+  30 May 2012; James Rowe <jnrowe@gmail.com> +gpxviewer-python-0.4.3.ebuild:
+  Version bump [608].
+
   08 Apr 2012; James Rowe <jnrowe@gmail.com> gpxviewer-python-0.4.2.ebuild:
   Switched to python-distutils-ng eclass.
 
