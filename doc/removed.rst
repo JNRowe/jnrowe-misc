@@ -232,7 +232,7 @@ culled.
     foreseeable future.
 
 :Reason: Moved to ``::shadow``
-:Commit: 
+:Commit: :commit:`d639d9f5 <d639d9f5882a75f092f82c53c07438c2c61558fb>`
 :Removal date: 2012-05-30
 :Issues: :issue:`{issue.title} (#{issue.id}) <613>`
 
