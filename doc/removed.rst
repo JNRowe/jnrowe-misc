@@ -223,6 +223,19 @@ culled.
 :Commit: :commit:`3384cfe9 <3384cfe90fd22f77fb8a1c4f1b9e999e2d75bb00>`
 :Removal date: 2011-09-13
 
+``isodate``
+'''''''''''
+
+    Now packaged upstream.
+
+    Upgrade path isn't very clean, and this package will be supported for the
+    foreseeable future.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`d639d9f5 <d639d9f5882a75f092f82c53c07438c2c61558fb>`
+:Removal date: 2012-05-30
+:Issues: :issue:`{issue.title} (#{issue.id}) <613>`
+
 ``logbook``
 '''''''''''
 

@@ -233,14 +233,6 @@
 
   * `1.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/interlude/interlude-1.1.1.ebuild>`__  ``amd64``, ``x86``
 
-* ``isodate`` - http://pypi.python.org/pypi/isodate/
-
- * An ISO 8601 date/time/duration parser and formatter
- * Licence: ``BSD``
- * Versions:
-
-  * `0.4.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/isodate/isodate-0.4.7.ebuild>`__  ``amd64``, ``x86``
-
 * ``lettuce`` - http://lettuce.it/
 
  * Cucumber-ish BDD for python
