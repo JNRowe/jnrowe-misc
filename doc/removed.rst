@@ -324,6 +324,19 @@ culled.
 :Commit: :commit:`088ab46a <088ab46a2c1fdb110eab905692c15ebae262b952>`
 :Removal date: 2011-09-13
 
+``six``
+'''''''
+
+    Now packaged upstream.
+
+    This will remain in ``::shadow`` until upstream has an ``ebuild`` available
+    with equal keywords
+
+:Reason: Moved to ``::shadow``
+:Commit:
+:Removal date: 2012-05-31
+:Issues: :issue:`{issue.title} (#{issue.id}) <614>`
+
 ``sphinx-to-github``
 ''''''''''''''''''''
 
