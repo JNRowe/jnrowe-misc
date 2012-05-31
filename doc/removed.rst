@@ -333,7 +333,7 @@ culled.
     with equal keywords
 
 :Reason: Moved to ``::shadow``
-:Commit:
+:Commit: :commit:`dafa80f2 <dafa80f2ddfaad1e2fb4a7aec6aa2ede8a2b5152>`
 :Removal date: 2012-05-31
 :Issues: :issue:`{issue.title} (#{issue.id}) <614>`
 
