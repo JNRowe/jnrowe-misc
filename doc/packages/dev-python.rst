@@ -420,6 +420,7 @@
  * Versions:
 
   * `0.8.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyrepl/pyrepl-0.8.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.8.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyrepl/pyrepl-0.8.4.ebuild>`__  ``~amd64`` (due 2012-06-30), ``~x86`` (due 2012-06-30)
 
 * ``pyscss`` - http://pypi.python.org/pypi/pyScss/
 
@@ -548,6 +549,7 @@
  * Versions:
 
   * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.3.ebuild>`__  ``amd64``, ``x86``
+  * `1.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.3.1.ebuild>`__  ``~amd64`` (due 2012-06-30), ``~x86`` (due 2012-06-30)
 
 * ``sure`` - http://pypi.python.org/pypi/sure/
 
