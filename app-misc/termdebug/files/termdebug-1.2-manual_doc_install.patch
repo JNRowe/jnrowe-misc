@@ -1,0 +1,14 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Install docs manually for correct compression/dir
+Status: LOCAL
+
+diff --git i/Makefile.in w/Makefile.in
+index b345519..6045b7a 100644
+--- i/Makefile.in
++++ w/Makefile.in
+@@ -76,5 +76,3 @@ install: all
+ 	cd "$(_bindir)" && ln -s termdebug tdview
+ 	$(INSTALL) -d "$(_mandir)/man1"
+ 	$(INSTALL) -m 644 man/*.1 "$(_mandir)/man1"
+-	$(INSTALL) -d "$(_docdir)"
+-	$(INSTALL) -m 644 README COPYING Changelog "$(_docdir)"

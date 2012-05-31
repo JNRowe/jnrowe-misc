@@ -81,6 +81,7 @@
  * Versions:
 
   * `1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/termdebug/termdebug-1.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/termdebug/termdebug-1.2.ebuild>`__  ``~amd64`` (due 2012-06-30), ``~x86`` (due 2012-06-30)
 
 * ``tudu`` - http://code.meskio.net/tudu/
 
