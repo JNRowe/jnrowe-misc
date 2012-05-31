@@ -15,7 +15,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hammertime/hammertime-0.2.4.ebuild>`__  ``~amd64`` (due 2012-05-31), ``~x86`` (due 2012-07-30)
+  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hammertime/hammertime-0.2.4.ebuild>`__  ``~amd64`` (due 2012-06-30), ``~x86`` (due 2012-07-30)
 
 * ``hubugs`` - http://pypi.python.org/pypi/hubugs/
 
@@ -23,7 +23,6 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.13.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.13.1.ebuild>`__  ``~amd64`` (due 2012-05-31), ``~x86`` (due 2012-07-30)
   * `0.14.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.14.0.ebuild>`__  ``~amd64`` (due 2012-06-01), ``~x86`` (due 2012-06-01)
 
 * ``jsonpipe`` - http://pypi.python.org/pypi/jsonpipe/
