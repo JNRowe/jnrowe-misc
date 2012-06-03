@@ -460,7 +460,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2012-06-03), ``~x86`` (due 2012-08-02)
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2012-07-18), ``~x86`` (due 2012-08-02)
 
 * ``see`` - http://inky.github.com/see/
 
