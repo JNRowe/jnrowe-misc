@@ -12,7 +12,7 @@ DESCRIPTION="Declarative dictionary-based model classes for Python"
 
 LICENSE="Unlicense"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="doc"
 
 DEPEND=""
