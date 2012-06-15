@@ -42,6 +42,8 @@ REM 2012-07-15 *1 MSG %"Stabilise amd64 dev-python/lettuce-0.2.1%" %a
 REM 2012-07-15 *1 MSG %"Stabilise x86 dev-python/lettuce-0.2.1%" %a
 REM 2012-07-15 *1 MSG %"Stabilise amd64 dev-vcs/pepper-0.3.2%" %a
 REM 2012-07-15 *1 MSG %"Stabilise x86 dev-vcs/pepper-0.3.2%" %a
+REM 2012-07-15 *1 MSG %"Stabilise amd64 www-client/httpshell-0.8.0%" %a
+REM 2012-07-15 *1 MSG %"Stabilise x86 www-client/httpshell-0.8.0%" %a
 REM 2012-07-18 *1 MSG %"Stabilise amd64 dev-python/rstctl-0.4%" %a
 REM 2012-07-21 *1 MSG %"Stabilise amd64 dev-python/sure-0.10.3%" %a
 REM 2012-07-28 *1 MSG %"Stabilise x86 media-gfx/blockdiag-1.1.5%" %a
