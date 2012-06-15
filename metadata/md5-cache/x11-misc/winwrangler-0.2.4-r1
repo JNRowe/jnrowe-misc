@@ -1,5 +1,5 @@
 DEFINED_PHASES=configure install prepare
-DEPEND=daemon? ( =x11-libs/gtkhotkey-0.2* ) x11-libs/libwnck !daemon? ( || ( >=sys-devel/automake-1.11.1:1.11 ) >=sys-devel/autoconf-2.68 sys-devel/libtool ) dev-util/intltool virtual/pkgconfig
+DEPEND=daemon? ( =x11-libs/gtkhotkey-0.2* ) x11-libs/libwnck !daemon? ( || ( >=sys-devel/automake-1.11.1:1.11 >=sys-devel/automake-1.12:1.12 ) >=sys-devel/autoconf-2.68 sys-devel/libtool ) dev-util/intltool virtual/pkgconfig
 DESCRIPTION=WM agnostic tool to perform window tiling
 EAPI=4
 HOMEPAGE=https://launchpad.net/winwrangler
@@ -9,5 +9,5 @@ LICENSE=LGPL-3
 RDEPEND=daemon? ( =x11-libs/gtkhotkey-0.2* ) x11-libs/libwnck
 SLOT=0
 SRC_URI=http://launchpad.net/winwrangler/0.2/0.2.4/+download/winwrangler-0.2.4.tar.gz
-_eclasses_=autotools	9379e4c8f662d374e1ad511530869282	eutils	a95b1bf9d854485ca6fdbb47df2975aa	libtool	46e19fa7553f66c48ebc7cf025acd3ed	multilib	5f4ad6cf85e365e8f0c6050ddd21659e	toolchain-funcs	f71b9936acc911ed1cc84557d3b5c2b3	user	32a09e82e2f592bf88ad2fd08525166e	versionator	6601b4c5b3f019a993db59a50e1854e4
+_eclasses_=autotools	9d170f07df0e48055093b8c6a60d0fba	eutils	7b605062b7d609ee1d0b225de9eccbe2	libtool	46e19fa7553f66c48ebc7cf025acd3ed	multilib	5782800349f728f725f9378105c6a2ab	multiprocessing	1512bdfe7004902b8cd2c466fc3df772	toolchain-funcs	e575dd4d4682fc3539829c52d8382856	user	32a09e82e2f592bf88ad2fd08525166e	versionator	6601b4c5b3f019a993db59a50e1854e4
 _md5_=966ec2f8b0b803bf386a385ec607f403
