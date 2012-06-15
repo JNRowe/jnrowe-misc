@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*pepper-0.3.2 (15 Jun 2012)
+
+  15 Jun 2012; James Rowe <jnrowe@gmail.com> +pepper-0.3.2.ebuild:
+  Version bump [619].
+
   18 Apr 2012; James Rowe <jnrowe@gmail.com> -pepper-0.3.ebuild,
   pepper-0.3.1.ebuild:
   Keyworded x86.

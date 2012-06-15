@@ -57,6 +57,7 @@
  * Versions:
 
   * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.3.ebuild>`__  ``amd64``, ``x86``
+  * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.4.ebuild>`__  ``~amd64`` (due 2012-07-15), ``~x86`` (due 2012-07-15)
 
 * ``calabash`` - http://pypi.python.org/pypi/calabash/
 
@@ -180,6 +181,14 @@
 
   * `0.3.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/funcparserlib/funcparserlib-0.3.5.ebuild>`__  ``amd64``, ``x86``
 
+* ``fuzzywuzzy`` - http://pypi.python.org/pypi/fuzzywuzzy/
+
+ * Fuzzy string matching in python
+ * Licence: ``MIT``
+ * Versions:
+
+  * `0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fuzzywuzzy/fuzzywuzzy-0.1.ebuild>`__  ``~amd64`` (due 2012-07-15), ``~x86`` (due 2012-07-15)
+
 * ``genzshcomp`` - http://bitbucket.org/hhatto/genzshcomp/
 
  * Automatic generation of zsh completion functions
@@ -243,6 +252,7 @@
  * Versions:
 
   * `0.1.35 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.1.35.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.1.ebuild>`__  ``~amd64`` (due 2012-07-15), ``~x86`` (due 2012-07-15)
 
 * ``micromodels`` - http://pypi.python.org/pypi/micromodels/
 
