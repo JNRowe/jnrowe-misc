@@ -17,5 +17,6 @@
 		<doc lang="en">http://search.cpan.org/dist/Term-Animation/lib/Term/Animation.pm</doc>
 		<bugs-to>https://rt.cpan.org/Public/Bug/Report.html?Queue=Term-Animation</bugs-to>
 		<remote-id type="cpan">Term-Animation</remote-id>
+		<remote-id type="cpan-module">Term::Animation</remote-id>
 	</upstream>
 </pkgmetadata>
