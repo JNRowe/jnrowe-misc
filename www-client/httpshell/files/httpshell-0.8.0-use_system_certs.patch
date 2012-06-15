@@ -1,0 +1,17 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Use systems certs with httplib2
+Status: LOCAL
+
+diff --git i/httpshell/http.py w/httpshell/http.py
+index 676ff5b..e011175 100644
+--- i/httpshell/http.py
++++ w/httpshell/http.py
+@@ -75,7 +75,7 @@ class Http(object):
+                 self.logger.print_error(
+                     "Failed reading OAuth data from: " + keysfile)
+         else:
+-            http = httplib2.Http()
++            http = httplib2.Http(ca_certs='/etc/ssl/certs/ca-certificates.crt')
+ 
+         return http
+ 
