@@ -15,5 +15,6 @@
 		<doc lang="en">http://search.cpan.org/dist/Weather-Underground/Underground.pm</doc>
 		<bugs-to>https://rt.cpan.org/Public/Bug/Report.html?Queue=Weather-Underground</bugs-to>
 		<remote-id type="cpan">Weather-Underground</remote-id>
+		<remote-id type="cpan-module">Weather::Underground</remote-id>
 	</upstream>
 </pkgmetadata>
