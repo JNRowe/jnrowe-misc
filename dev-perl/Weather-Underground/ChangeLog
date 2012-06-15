@@ -1,6 +1,9 @@
 # ChangeLog for dev-perl/Weather-Underground
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  15 Jun 2012; James Rowe <jnrowe@gmail.com> metadata.xml:
+  Added cpan-module remote-id attribute.
 
   14 Nov 2011; James Rowe <jnrowe@gmail.com> metadata.xml:
   Removed redundant herd info.
