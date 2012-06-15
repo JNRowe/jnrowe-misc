@@ -18,7 +18,8 @@ IUSE=""
 
 # setuptools is required in RDEPEND for entry points
 DEPEND="dev-python/setuptools"
-RDEPEND="${DEPEND}"
+RDEPEND="${DEPEND}
+	dev-python/fuzzywuzzy"
 
 DOCS=(README.md RELEASE-NOTES.md)
 
