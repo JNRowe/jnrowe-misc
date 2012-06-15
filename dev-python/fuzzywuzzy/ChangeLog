@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/fuzzywuzzy
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*fuzzywuzzy-0.1 (15 Jun 2012)
+
+  15 Jun 2012; James Rowe <jnrowe@gmail.com> +fuzzywuzzy-0.1.ebuild,
+  +metadata.xml, +watch:
+  Initial ebuild, required by lettuce-0.2 [618].
+

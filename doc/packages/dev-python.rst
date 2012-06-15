@@ -181,6 +181,14 @@
 
   * `0.3.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/funcparserlib/funcparserlib-0.3.5.ebuild>`__  ``amd64``, ``x86``
 
+* ``fuzzywuzzy`` - http://pypi.python.org/pypi/fuzzywuzzy/
+
+ * Fuzzy string matching in python
+ * Licence: ``MIT``
+ * Versions:
+
+  * `0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fuzzywuzzy/fuzzywuzzy-0.1.ebuild>`__  ``~amd64`` (due 2012-07-15), ``~x86`` (due 2012-07-15)
+
 * ``genzshcomp`` - http://bitbucket.org/hhatto/genzshcomp/
 
  * Automatic generation of zsh completion functions
