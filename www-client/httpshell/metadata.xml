@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription lang="en">
+		An interactive shell for issuing HTTP commands to a web server or REST
+		API.
+
+		Issue HTTP commands (HEAD, GET, POST, PUT, DELETE, OPTIONS, TRACE) to
+		a server with interactive feedback.  Makes debugging and testing REST
+		services and public APIs much easier than with cURL.
+	</longdescription>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="pypi">httpshell</remote-id>
+		<bugs-to>https://github.com/chrislongo/HttpShell/issues</bugs-to>
+	</upstream>
+</pkgmetadata>
