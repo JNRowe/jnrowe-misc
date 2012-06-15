@@ -34,6 +34,8 @@ REM 2012-07-06 *1 MSG %"Stabilise x86 dev-python/sure-0.10.3%" %a
 REM 2012-07-15 *1 MSG %"Stabilise x86 dev-vcs/gitflow-0.4.1-r2%" %a
 REM 2012-07-15 *1 MSG %"Stabilise amd64 dev-python/blessings-1.4%" %a
 REM 2012-07-15 *1 MSG %"Stabilise x86 dev-python/blessings-1.4%" %a
+REM 2012-07-15 *1 MSG %"Stabilise amd64 media-gfx/blockdiag-1.1.6%" %a
+REM 2012-07-15 *1 MSG %"Stabilise x86 media-gfx/blockdiag-1.1.6%" %a
 REM 2012-07-18 *1 MSG %"Stabilise amd64 dev-python/rstctl-0.4%" %a
 REM 2012-07-21 *1 MSG %"Stabilise amd64 dev-python/sure-0.10.3%" %a
 REM 2012-07-28 *1 MSG %"Stabilise x86 media-gfx/blockdiag-1.1.5%" %a
