@@ -1,6 +1,10 @@
 # ChangeLog for dev-vcs/gitflow
-# Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+  15 Jun 2012; James Rowe <jnrowe@gmail.com> gitflow-0.4.1-r1.ebuild,
+  gitflow-0.4.1-r2.ebuild:
+  Fix breakage caused by *exciting* incompatible changes to vcs-snapshot.
 
   14 Nov 2011; James Rowe <jnrowe@gmail.com> metadata.xml:
   Removed redundant herd info.
