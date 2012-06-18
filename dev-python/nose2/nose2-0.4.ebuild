@@ -13,7 +13,7 @@ DESCRIPTION="The next generation of nicer testing for Python"
 
 LICENSE="BSD-2"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE="doc"
 
 DEPEND="dev-python/setuptools"

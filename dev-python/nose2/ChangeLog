@@ -3,6 +3,9 @@
 # $Header: $
 
   18 Jun 2012; James Rowe <jnrowe@gmail.com> nose2-0.4.ebuild:
+  Keyworded ~x86.
+
+  18 Jun 2012; James Rowe <jnrowe@gmail.com> nose2-0.4.ebuild:
   Removed redundant src_prepare.
 
 *nose2-0.4 (18 Jun 2012)
