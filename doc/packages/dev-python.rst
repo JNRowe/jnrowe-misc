@@ -132,6 +132,14 @@
 
   * `0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/dtopt/dtopt-0.1.ebuild>`__  ``amd64``, ``x86``
 
+* ``expecter`` - http://pypi.python.org/pypi/expecter/
+
+ * Expecter Gadget, a better expectation (assertion) library
+ * Licence: ``BSD``
+ * Versions:
+
+  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/expecter/expecter-0.2.1.ebuild>`__  ``~amd64`` (due 2012-07-18)
+
 * ``fabulous`` - http://lobstertech.com/fabulous.html
 
  * Makes your terminal output totally fabulous
