@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/cov-core
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*cov-core-1.6 (18 Jun 2012)
+
+  18 Jun 2012; James Rowe <jnrowe@gmail.com> +cov-core-1.6.ebuild,
+  +files/cov-core-1.6-fix_subprocess_hack_install.patch, +metadata.xml, +watch:
+  Initial ebuild, required by nose2-cov [621].
+
