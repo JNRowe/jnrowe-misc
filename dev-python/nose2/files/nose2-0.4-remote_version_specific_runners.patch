@@ -1,0 +1,33 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Remove version specific runners.
+Status: LOCAL
+
+This is handled far better by the package manager, as we can actually generate
+runners for all supported Python versions.
+
+diff --git i/setup.py w/setup.py
+index 13e711c..d0ff85a 100644
+--- i/setup.py
++++ w/setup.py
+@@ -47,11 +47,6 @@ params = dict(
+ )
+ 
+ 
+-py_version = sys.version[:3]
+-
+-SCRIPT1 = 'nose2'
+-SCRIPT2 = 'nose2-%s' % (py_version,)
+-
+ try:
+     from setuptools import setup
+ except ImportError:
+@@ -64,8 +59,7 @@ else:
+ 
+     params['entry_points'] = {
+         'console_scripts': [
+-            '%s = nose2:discover' % SCRIPT1,
+-            '%s = nose2:discover' % SCRIPT2,
++            'nose2 = nose2:discover',
+         ],
+     }
+     params['install_requires'] = REQS

@@ -1,0 +1,22 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Include nose2.tools in installed packages
+Status: PUSHED
+
+See nose-devs/nose2#44.
+
+diff --git a/setup.py b/setup.py
+index 13e711c..3ac6633 100644
+--- a/setup.py
++++ b/setup.py
+@@ -3,7 +3,7 @@ import sys
+ 
+ NAME = 'nose2'
+ VERSION = '0.4'
+-PACKAGES = ['nose2', 'nose2.plugins', 'nose2.plugins.loader',
++PACKAGES = ['nose2', 'nose2.plugins', 'nose2.plugins.loader', 'nose2.tools',
+             'nose2.tests', 'nose2.tests.functional', 'nose2.tests.unit']
+ SCRIPTS = ['bin/nose2']
+ DESCRIPTION = 'nose2 is the next generation of nicer testing for Python'
+-- 
+1.7.10.2
+
