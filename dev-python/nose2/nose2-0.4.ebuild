@@ -28,12 +28,6 @@ PATCHES=("${FILESDIR}"/${P}-remote_version_specific_runners.patch
 
 DOCS=(AUTHORS NOTES README.rst TODO)
 
-src_prepare() {
-	base_src_prepare
-
-	python-distutils-ng_src_prepare
-}
-
 src_compile() {
 	python-distutils-ng_src_compile
 
