@@ -4,10 +4,8 @@
 
 EAPI=4
 PYTHON_COMPAT="python2_5 python2_6 python2_7 python3_1 python3_2"
-GITHUB_USER="nose-devs"
 
-# We're using the github download because the release on PyPI is broken.
-inherit jnrowe-pypi jnrowe-github
+inherit jnrowe-pypi
 
 DESCRIPTION="The next generation of nicer testing for Python"
 
@@ -23,10 +21,9 @@ RDEPEND="${DEPEND}
 	python_targets_python2_5? ( dev-python/argparse dev-python/unittest2 )
 	python_targets_python2_6? ( dev-python/argparse dev-python/unittest2 )"
 
-PATCHES=("${FILESDIR}"/${P}-remote_version_specific_runners.patch
-	"${FILESDIR}"/${P}-include_nose2_tools.patch)
+	PATCHES=("${FILESDIR}"/${PN}-0.4-remote_version_specific_runners.patch)
 
-DOCS=(AUTHORS NOTES README.rst TODO)
+DOCS=(AUTHORS README.rst)
 
 src_compile() {
 	python-distutils-ng_src_compile
