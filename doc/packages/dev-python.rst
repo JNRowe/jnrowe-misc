@@ -326,13 +326,13 @@
 
   * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-progressive/nose-progressive-1.3.ebuild>`__  ``amd64``, ``x86``
 
-* ``nose2`` - https://github.com/nose-devs/nose2/
+* ``nose2`` - http://pypi.python.org/pypi/nose2/
 
  * The next generation of nicer testing for Python
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.ebuild>`__  ``~amd64`` (due 2012-07-18), ``~x86`` (due 2012-07-18)
+  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.1.ebuild>`__  ``~amd64`` (due 2012-07-18), ``~x86`` (due 2012-07-18)
 
 * ``nose2-cov`` - http://pypi.python.org/pypi/nose2-cov/
 
