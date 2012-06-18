@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Expecter Gadget helps you to write assertions. Never again will you
+		forget which is expected and which is actual!
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">expecter</remote-id>
+	</upstream>
+</pkgmetadata>

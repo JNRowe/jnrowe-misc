@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		nose2 is the next generation of nicer testing for
+		<pkg>dev-lang/python</pkg>, based on the plugins branch of
+		<pkg>dev-python/unittest2</pkg>.  nose2 aims to improve on
+		<pkg>dev-python/nose</pkg> by:
+
+		* providing a better plugin api
+		* being easier for users to configure
+		* simplifying internal interfaces and processes
+		* supporting Python 2 and 3 from the same codebase, without translation
+		* encourging greater community involvment in its development
+	</longdescription>
+	<upstream>
+		<doc lang="en">http://nose2.readthedocs.org/</doc>
+		<remote-id type="pypi">nose2</remote-id>
+		<bugs-to>https://github.com/nose-devs/nose2/issues</bugs-to>
+	</upstream>
+</pkgmetadata>

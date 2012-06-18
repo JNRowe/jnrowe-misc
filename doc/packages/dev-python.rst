@@ -100,6 +100,14 @@
 
   * `3.0.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/commandlineapp/commandlineapp-3.0.7.ebuild>`__  ``amd64``, ``x86``
 
+* ``cov-core`` - http://pypi.python.org/pypi/cov-core/
+
+ * Plugin core for use by pytest-cov, nose-cov and nose2-cov
+ * Licence: ``MIT``
+ * Versions:
+
+  * `1.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cov-core/cov-core-1.6.ebuild>`__  ``~amd64`` (due 2012-07-18)
+
 * ``dexml`` - http://pypi.python.org/pypi/dexml/
 
  * A dead-simple Object-XML mapper for Python
@@ -123,6 +131,14 @@
  * Versions:
 
   * `0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/dtopt/dtopt-0.1.ebuild>`__  ``amd64``, ``x86``
+
+* ``expecter`` - http://pypi.python.org/pypi/expecter/
+
+ * Expecter Gadget, a better expectation (assertion) library
+ * Licence: ``BSD``
+ * Versions:
+
+  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/expecter/expecter-0.2.1.ebuild>`__  ``~amd64`` (due 2012-07-18)
 
 * ``fabulous`` - http://lobstertech.com/fabulous.html
 
@@ -309,6 +325,22 @@
  * Versions:
 
   * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-progressive/nose-progressive-1.3.ebuild>`__  ``amd64``, ``x86``
+
+* ``nose2`` - https://github.com/nose-devs/nose2/
+
+ * The next generation of nicer testing for Python
+ * Licence: ``BSD-2``
+ * Versions:
+
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.ebuild>`__  ``~amd64`` (due 2012-07-18)
+
+* ``nose2-cov`` - http://pypi.python.org/pypi/nose2-cov/
+
+ * nose2 plugin for coverage reporting
+ * Licence: ``MIT``
+ * Versions:
+
+  * `1.0_alpha4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2-cov/nose2-cov-1.0_alpha4.ebuild>`__  ``~amd64`` (due 2012-07-18)
 
 * ``nosetty`` - http://code.google.com/p/nosetty/
 

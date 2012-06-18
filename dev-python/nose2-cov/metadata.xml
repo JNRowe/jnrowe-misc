@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		This plugin produces coverage reports for <pkg>dev-python/nose2</pkg>
+		runs. It also supports coverage of subprocesses.
+
+		All features offered by the <pkg>dev-python/coverage</pkg> package
+		should be available, either through nose2-cov or through coverage's
+		config file.
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">nose2-cov</remote-id>
+		<bugs-to>https://bitbucket.org/memedough/nose2-cov/issues?status=new&amp;status=open</bugs-to>
+	</upstream>
+</pkgmetadata>

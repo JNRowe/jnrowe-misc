@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/nose2-cov
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*nose2-cov-1.0_alpha4 (18 Jun 2012)
+
+  18 Jun 2012; James Rowe <jnrowe@gmail.com> +nose2-cov-1.0_alpha4.ebuild,
+  +metadata.xml, +watch:
+  Initial ebuild, by me [621].
+
