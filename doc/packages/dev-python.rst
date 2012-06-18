@@ -332,7 +332,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.ebuild>`__  ``~amd64`` (due 2012-07-18)
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.ebuild>`__  ``~amd64`` (due 2012-07-18), ``~x86`` (due 2012-07-18)
 
 * ``nose2-cov`` - http://pypi.python.org/pypi/nose2-cov/
 
