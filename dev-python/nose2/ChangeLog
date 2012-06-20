@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  20 Jun 2012; James Rowe <jnrowe@gmail.com> nose2-0.4.1.ebuild:
+  Python 2.5 isn't supported.
+
   18 Jun 2012; James Rowe <jnrowe@gmail.com> -nose2-0.4.ebuild,
   -files/nose2-0.4-include_nose2_tools.patch:
   Version bump [623].

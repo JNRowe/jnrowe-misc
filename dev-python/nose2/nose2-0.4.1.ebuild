@@ -3,7 +3,7 @@
 # $Header: $
 
 EAPI=4
-PYTHON_COMPAT="python2_5 python2_6 python2_7 python3_1 python3_2"
+PYTHON_COMPAT="python2_6 python2_7 python3_1 python3_2"
 
 inherit jnrowe-pypi
 
@@ -18,7 +18,6 @@ DEPEND="dev-python/setuptools"
 # setuptools is required in RDEPEND for entry points
 RDEPEND="${DEPEND}
 	dev-python/six
-	python_targets_python2_5? ( dev-python/argparse dev-python/unittest2 )
 	python_targets_python2_6? ( dev-python/argparse dev-python/unittest2 )"
 
 	PATCHES=("${FILESDIR}"/${PN}-0.4-remote_version_specific_runners.patch)
