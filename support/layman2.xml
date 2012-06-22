@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <layman>
-  <repo quality="testing" status="unoffficial">
+  <repo quality="testing" status="unofficial">
     <name>jnrowe-misc</name>
     <owner>
         <email>jnrowe@gmail.com</email>

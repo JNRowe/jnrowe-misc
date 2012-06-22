@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <layman>
-  <overlay type="git" status="unoffficial" name="jnrowe-misc"
+  <overlay type="git" status="unofficial" name="jnrowe-misc"
     contact="jnrowe@gmail.com" src="git://github.com/JNRowe/jnrowe-misc.git">
     <link>https://github.com/JNRowe/jnrowe-misc/</link>
     <description>
