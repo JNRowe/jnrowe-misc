@@ -1,16 +1,16 @@
 <?xml version="1.0" ?>
-<layman>
+<repositories>
   <repo quality="testing" status="unofficial">
     <name>jnrowe-misc</name>
+    <description>
+        Packages that don't naturally fit in to JNRowe's themed overlays.
+    </description>
+    <homepage>https://github.com/JNRowe/jnrowe-misc/</homepage>
     <owner>
         <email>jnrowe@gmail.com</email>
         <name>James Rowe</name>
     </owner>
-    <homepage>https://github.com/JNRowe/jnrowe-misc/</homepage>
-    <description>
-        Packages that don't naturally fit in to JNRowe's themed overlays.
-    </description>
     <source type="git">git://github.com/JNRowe/jnrowe-misc.git</source>
     <feed>https://github.com/feeds/JNRowe/commits/jnrowe-misc/master</feed>
   </repo>
-</layman>
+</repositories>
