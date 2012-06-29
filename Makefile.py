@@ -57,14 +57,16 @@ def clean(args):
         html_file = os.path.splitext(file)[0] + '.html'
         try:
             os.unlink(html_file)
-            yield warn('%s removed' % html_file)
         except OSError:
             pass
+        else:
+            yield warn('%s removed' % html_file)
     try:
         os.unlink('profiles/categories')
-        yield warn('profiles/categories removed')
     except OSError:
         pass
+    else:
+        yield warn('profiles/categories removed')
 
 
 @command
