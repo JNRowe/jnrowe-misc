@@ -114,3 +114,11 @@ def create_gh_client():
 def fetch_project_name():
     project_url = cmd_output('git config remote.origin.url')
     return search('github.com[:/]([^/]+/.*).git', project_url).groups()[0]
+
+
+def open_issue(data):
+    github = create_gh_client()
+    project = fetch_project_name()
+    new_issue = github.post('https://api.github.com/repos/%s/issues' % project,
+                            body=data)
+    yield success("Issue #%d opened!" % new_issue.content['number'])

@@ -7,8 +7,7 @@ from subprocess import (Popen, PIPE)
 
 import argh
 
-from utils import (command, cmd_output, create_gh_client, fail,
-                   fetch_project_name, success, warn)
+from utils import (command, cmd_output, fail, open_issue, success, warn)
 
 
 @command
@@ -89,25 +88,17 @@ def gen_stable(args):
 @argh.arg('labels', nargs='*', help='initial label for bug')
 def open_bug(args):
     """open a new bump bug"""
-    github = create_gh_client()
-    project = fetch_project_name()
     data = {'title': args.title, 'body': args.body, 'labels': args.labels}
-    new_issue = github.post('https://api.github.com/repos/%s/issues' % project,
-                            body=data)
-    yield success("Issue #%d opened!" % new_issue.content['number'])
+    open_issue(data)
 
 
 @command
 @argh.arg('cpv', help='fully qualified package identifier')
 def bump_pkg(args):
     """open a version bump bug"""
-    github = create_gh_client()
-    project = fetch_project_name()
     data = {
         'title': '%s version bump.' % args.cpv,
         'body': '',
         'labels': ['feature', ]
     }
-    new_issue = github.post('https://api.github.com/repos/%s/issues' % project,
-                            body=data)
-    yield success("Issue #%d opened!" % new_issue.content['number'])
+    open_issue(data)
