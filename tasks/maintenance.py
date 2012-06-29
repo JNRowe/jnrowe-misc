@@ -64,12 +64,14 @@ def task_doc_check(args):
 
 
 @command
+@argh.arg('--arches', default=['amd64', 'x86'],
+          help='architectures to generate reminder for')
 @argh.arg('cpv', help='fully qualified package identifier')
 @argh.arg('days', nargs='?', default=30, help='number of days to wait')
 def gen_stable(args):
     """generate a base stabilisation string for a package"""
     date = datetime.date.today() + datetime.timedelta(days=args.days)
-    for arch in ('amd64', 'x86'):
+    for arch in args.arches:
         yield 'REM %s *1 MSG %%"Stabilise %s %s%%" %%a' % (date, arch,
                                                            args.cpv)
 
