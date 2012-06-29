@@ -8,7 +8,7 @@ from utils import (command, dep, fail, success)
 
 @command
 def gen_cupage_conf(args):
-    """Generate a new cupage.conf file"""
+    """generate a new cupage.conf file"""
     dep(['support/cupage.conf', ], glob('*-*/*/watch'))
     with open('support/cupage.conf', 'w') as f:
         for category in sorted(glob('*-*')):
@@ -31,7 +31,7 @@ def gen_cupage_conf(args):
 
 @command
 def cupage_check(args):
-    """Make sure a watch file exists for each package"""
+    """make sure a watch file exists for each package"""
     failures = 0
     packages = glob('*-*/*')
     for package in packages:
@@ -42,5 +42,5 @@ def cupage_check(args):
         yield success('All watch files present!')
     else:
         yield fail('%d watch file%s missing!' % (failures,
-                                             's' if failures > 1 else ''))
+                                                 's' if failures > 1 else ''))
         exit(failures)

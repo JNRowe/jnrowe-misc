@@ -15,18 +15,18 @@ except OSError:
 
 @command
 def gen_use_local_desc(args):
-    """Generate use.local.desc"""
+    """generate use.local.desc"""
     dep(['profiles/use.local.desc', ], glob('*-*/*/metadata.xml'))
     repo = open('profiles/repo_name').read().strip()
     # This really shouldn't be handled with subprocess, but portage seemingly
     # goes out of its way to make reasonable use difficult.
-    check_call(('egencache --repo=%s --update-use-local-desc' % repo).split())
+    check_call(['egencache', '--repo=%s' % repo, '--update-use-local-desc'])
     yield success('use.local.desc generated!')
 
 
 @command
 def gen_categories(args):
-    """Generate categories listing"""
+    """generate categories listing"""
     dep(['profiles/categories', ], glob('*-*'))
     with open('profiles/categories', 'w') as file:
         for cat in sorted(glob('*-*')):
@@ -40,7 +40,7 @@ def gen_categories(args):
 
 @command
 def gen_manifests(args):
-    """Generate Manifest files"""
+    """generate Manifest files"""
     dep(glob('*-*/*/Manifest'), glob('*-*/*/*'))
     base_dir = os.path.abspath(os.curdir)
     if not SIGN_KEY:
@@ -61,7 +61,7 @@ def gen_manifests(args):
 
 @command
 def gen_news_sigs(args):
-    """Generate news file signatures"""
+    """generate news file signatures"""
     news_files = glob('metadata/news/*/*.txt')
     dep(map(lambda s: s + '.asc', news_files), news_files, mapping=True)
     if not SIGN_KEY:

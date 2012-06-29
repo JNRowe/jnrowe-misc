@@ -1,5 +1,3 @@
-import os
-
 from StringIO import StringIO
 from glob import glob
 from re import sub
@@ -14,7 +12,7 @@ from utils import (command, dep, newer, success)
 
 @command
 def rst_check(args):
-    """Check syntax of reST-formatted files"""
+    """check syntax of reST-formatted files"""
     for file in glob('*.rst'):
         try:
             publish_file(open(file), destination=StringIO(),
@@ -26,11 +24,11 @@ def rst_check(args):
 
 @command
 def gen_html(args):
-    """Generate HTML output"""
-    dep(map(lambda s: os.path.splitext(s)[0] + '.html', glob('*.rst')),
-            glob('*.rst'), mapping=True)
+    """generate HTML output"""
+    rst_files = glob('*.rst')
+    dep(map(lambda s: s[:-4] + '.html', rst_files), rst_files, mapping=True)
     for file in glob('*.rst'):
-        html_file = os.path.splitext(file)[0] + '.html'
+        html_file = file[:-4] + '.html'
         if newer(html_file, file):
             break
         try:
@@ -44,7 +42,7 @@ def gen_html(args):
 
 @command
 def gen_thanks(args):
-    """Generate Sphinx contributor doc"""
+    """generate Sphinx contributor doc"""
     dep(['doc/thanks.rst', ], ['README.rst'])
     data = open('README.rst').read()
     data = sub("\n('+)\n", lambda m: '\n' + "-" * len(m.groups()[0]) + '\n',
@@ -65,7 +63,7 @@ def gen_thanks(args):
 
 @command
 def gen_sphinx_html(args):
-    """Generate Sphinx HTML output"""
+    """generate Sphinx HTML output"""
     dep(['doc/.build/doctrees/environment.pickle', ],
         glob('doc/*.rst') + glob('doc/packages/*.rst'))
-    check_call('make -C doc html'.split())
+    check_call(['make', '-C', 'doc', 'html'])

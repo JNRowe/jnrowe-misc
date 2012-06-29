@@ -36,49 +36,52 @@ except OSError:
 @command
 @argh.alias('all')
 def make_all(args):
-    """Update generated files"""
-    for task in [v for k, v in globals().items()
-                if k.startswith('gen_') and not k == 'gen_stable']:
-        task(args)
+    """update generated files"""
+    for name in globals():
+        if name.startswith('gen_') and not name == 'gen_stable':
+            globals()['name'](args)
 
 
 @command
 def check(args):
-    """Run tests"""
-    for task in [v for k, v in globals().items() if k.endswith('_check')]:
-        yield task(None)
+    """run tests"""
+    for name in globals():
+        if name.endswith('_check'):
+            yield globals()['name'](None)
 
 
 @command
 def clean(args):
-    """Clean repo"""
+    """clean repo"""
     for file in glob('*.rst'):
         html_file = os.path.splitext(file)[0] + '.html'
         try:
             os.unlink(html_file)
-            yield warn('%s removed' % html_file)
         except OSError:
             pass
+        else:
+            yield warn('%s removed' % html_file)
     try:
         os.unlink('profiles/categories')
-        yield warn('profiles/categories removed')
     except OSError:
         pass
+    else:
+        yield warn('profiles/categories removed')
 
 
 @command
 def distclean(args):
-    """Clean repo, deeply"""
+    """clean repo, deeply"""
     clean()
     for file in glob('*-*/*/Manifest'):
         os.unlink(file)
 
 
 def main():
-    """Main script"""
+    """main script"""
     description = __doc__.splitlines()[0].split("-", 1)[1]
-    epilog = "Please report bugs to jnrowe@gmail.com"
-    parser = argh.ArghParser(description=description, epilog=epilog,
+    epi = "Please report bugs at https://github.com/JNRowe/jnrowe-misc/issues/"
+    parser = argh.ArghParser(description=description, epilog=epi,
                              version="%%(prog)s (%s)" % VERSION)
     parser.add_commands(COMMANDS)
     parser.dispatch(pre_call=lambda args: setattr(args, 'commands', COMMANDS))
