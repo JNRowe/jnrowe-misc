@@ -16,7 +16,7 @@
  * Versions:
 
   * `0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.5.ebuild>`__  ``amd64``, ``x86``
-  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.6.1.ebuild>`__  ``~amd64`` (due 2012-06-29), ``~x86`` (due 2012-06-29)
+  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.6.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-06-29)
 
 * ``atomize`` - http://pypi.python.org/pypi/atomize/
 
@@ -82,7 +82,7 @@
  * Versions:
 
   * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.2.ebuild>`__  ``amd64``, ``x86``
-  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.3.ebuild>`__  ``~amd64`` (due 2012-06-29), ``~x86`` (due 2012-06-29)
+  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.3.ebuild>`__  ``amd64``, ``~x86`` (due 2012-06-29)
 
 * ``colorama`` - http://pypi.python.org/pypi/colorama/
 
@@ -179,7 +179,7 @@
  * Versions:
 
   * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.3.ebuild>`__  ``amd64``, ``x86``
-  * `1.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.3.1.ebuild>`__  ``~amd64`` (due 2012-06-29), ``~x86`` (due 2012-06-29)
+  * `1.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.3.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-06-29)
 
 * ``freshen`` - https://github.com/rlisagor/freshen
 
@@ -397,7 +397,7 @@
  * Versions:
 
   * `0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/prettytable/prettytable-0.5.ebuild>`__  ``amd64``, ``x86``
-  * `0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/prettytable/prettytable-0.6.ebuild>`__  ``~amd64`` (due 2012-06-29), ``~x86`` (due 2012-06-29)
+  * `0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/prettytable/prettytable-0.6.ebuild>`__  ``amd64``, ``~x86`` (due 2012-06-29)
 
 * ``pwtools`` - http://alastairs-place.net/projects/pwtools/
 
