@@ -30,7 +30,11 @@ def gen_removals(args):
 def reminders(args):
     """display repository reminders"""
     output = lambda f: "\n".join(cmd_output('remind %s' % f).splitlines()[1:])
-    yield 'Removals:'
-    yield output('support/removal.rem')
-    yield 'Stabilisation:'
-    yield output('support/stabilisation.rem')
+    removals = output('support/removal.rem')
+    if removals:
+        yield 'Removals:'
+        yield removals
+    stable_candidates = output('support/stabilisation.rem')
+    if stable_candidates:
+        yield 'Stabilisation:'
+        yield stable_candidates
