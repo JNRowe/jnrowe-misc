@@ -16,7 +16,7 @@
  * Versions:
 
   * `0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.5.ebuild>`__  ``amd64``, ``x86``
-  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.6.1.ebuild>`__  ``~amd64`` (due 2012-06-29), ``~x86`` (due 2012-06-29)
+  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.6.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-06-29)
 
 * ``atomize`` - http://pypi.python.org/pypi/atomize/
 
