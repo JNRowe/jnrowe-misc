@@ -15,8 +15,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/sci-geosciences/gpxviewer-python/gpxviewer-python-0.4.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/sci-geosciences/gpxviewer-python/gpxviewer-python-0.4.3.ebuild>`__  ``amd64``, ``~x86`` (due 2012-06-29)
+  * `0.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/sci-geosciences/gpxviewer-python/gpxviewer-python-0.4.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``osm-gps-map`` - http://nzjrs.github.com/osm-gps-map/
 

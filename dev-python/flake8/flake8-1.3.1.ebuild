@@ -17,7 +17,7 @@ DESCRIPTION="Python code checking using pep8 and pyflakes"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 # Unfortunately, this package bundles slightly modified versions of pep8 and
