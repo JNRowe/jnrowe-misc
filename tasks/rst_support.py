@@ -1,5 +1,3 @@
-import os
-
 from StringIO import StringIO
 from glob import glob
 from re import sub
@@ -27,10 +25,10 @@ def rst_check(args):
 @command
 def gen_html(args):
     """generate HTML output"""
-    dep(map(lambda s: os.path.splitext(s)[0] + '.html', glob('*.rst')),
-            glob('*.rst'), mapping=True)
+    rst_files = glob('*.rst')
+    dep(map(lambda s: s[:-4] + '.html', rst_files), rst_files, mapping=True)
     for file in glob('*.rst'):
-        html_file = os.path.splitext(file)[0] + '.html'
+        html_file = file[:-4] + '.html'
         if newer(html_file, file):
             break
         try:
@@ -68,4 +66,4 @@ def gen_sphinx_html(args):
     """generate Sphinx HTML output"""
     dep(['doc/.build/doctrees/environment.pickle', ],
         glob('doc/*.rst') + glob('doc/packages/*.rst'))
-    check_call('make -C doc html'.split())
+    check_call(['make', '-C', 'doc', 'html'])

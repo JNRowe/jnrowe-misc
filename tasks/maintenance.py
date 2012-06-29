@@ -37,7 +37,7 @@ def eclass_doc_check(args):
     for eclass in eclasses:
         proc = Popen(['gawk', '-f', awk_file], stdin=PIPE, stdout=PIPE,
                      stderr=PIPE)
-        out, err = proc.communicate(open(eclass).read())
+        _, err = proc.communicate(open(eclass).read())
         if err:
             yield warn('>>> %s' % eclass)
             print err
@@ -56,11 +56,12 @@ def task_doc_check(args):
 
     for command in sorted(args.commands, key=attrgetter('__name__')):
         if hasattr(command, 'argh_alias'):
-            name = command.argh_alias.replace('_', '-')
+            name = command.argh_alias
         else:
-            name = command.__name__.replace('_', '-')
+            name = command.__name__
+        name = name.replace('_', '-')
         if not name in commands:
-            print warn('%s undocumented' % name)
+            print warn('%s task undocumented' % name)
 
 
 @command

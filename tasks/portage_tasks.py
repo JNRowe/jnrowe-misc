@@ -20,7 +20,7 @@ def gen_use_local_desc(args):
     repo = open('profiles/repo_name').read().strip()
     # This really shouldn't be handled with subprocess, but portage seemingly
     # goes out of its way to make reasonable use difficult.
-    check_call(('egencache --repo=%s --update-use-local-desc' % repo).split())
+    check_call(['egencache', '--repo=%s' % repo, '--update-use-local-desc'])
     yield success('use.local.desc generated!')
 
 

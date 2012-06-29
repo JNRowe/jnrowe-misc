@@ -42,5 +42,5 @@ def cupage_check(args):
         yield success('All watch files present!')
     else:
         yield fail('%d watch file%s missing!' % (failures,
-                                             's' if failures > 1 else ''))
+                                                 's' if failures > 1 else ''))
         exit(failures)
