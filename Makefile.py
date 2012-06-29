@@ -77,8 +77,8 @@ def distclean(args):
 def main():
     """main script"""
     description = __doc__.splitlines()[0].split("-", 1)[1]
-    epilog = "Please report bugs to jnrowe@gmail.com"
-    parser = argh.ArghParser(description=description, epilog=epilog,
+    epi = "Please report bugs at https://github.com/JNRowe/jnrowe-misc/issues/"
+    parser = argh.ArghParser(description=description, epilog=epi,
                              version="%%(prog)s (%s)" % VERSION)
     parser.add_commands(COMMANDS)
     parser.dispatch(pre_call=lambda args: setattr(args, 'commands', COMMANDS))
