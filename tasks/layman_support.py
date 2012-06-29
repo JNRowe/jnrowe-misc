@@ -8,7 +8,7 @@ from utils import (command, fail, success)
 
 @command
 def layman_check(args):
-    """Check basic layman config validity"""
+    """check basic layman config validity"""
     # This would be a whole lot more useful if there was a published schema to
     # test against
     for file in glob('support/layman*.xml'):

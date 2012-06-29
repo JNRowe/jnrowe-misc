@@ -5,7 +5,7 @@ from utils import (cmd_output, command, dep, success)
 
 @command
 def gen_removals(args):
-    """Generate remind file for package removals"""
+    """generate remind file for package removals"""
     dep(['support/removal.rem', ], ['profiles/package.mask', ])
     chunks = open("profiles/package.mask").read().split("\n\n")
     removals = defaultdict(list)
@@ -28,7 +28,7 @@ def gen_removals(args):
 
 @command
 def reminders(args):
-    """Display repository reminders"""
+    """display repository reminders"""
     output = lambda f: "\n".join(cmd_output('remind %s' % f).splitlines()[1:])
     yield 'Removals:'
     yield output('support/removal.rem')

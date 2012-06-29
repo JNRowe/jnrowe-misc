@@ -13,7 +13,7 @@ from utils import (command, cmd_output, create_gh_client, fail,
 
 @command
 def keyword_check(args):
-    """Check for missing keywords"""
+    """check for missing keywords"""
     for file in glob('metadata/md5-cache/*/*'):
         # Skip live packages, they shouldn't have stable keywords anyway
         if file.endswith('-9999'):
@@ -29,7 +29,7 @@ def keyword_check(args):
 
 @command
 def eclass_doc_check(args):
-    """Check eclass documentation syntax"""
+    """check eclass documentation syntax"""
     portdir = cmd_output('portageq envvar PORTDIR')
     awk_file = portdir + '/' + \
         'app-portage/eclass-manpages/files/eclass-to-manpage.awk'
@@ -45,7 +45,7 @@ def eclass_doc_check(args):
 
 @command
 def task_doc_check(args):
-    """Check tasks are documented"""
+    """check tasks are documented"""
     # This should be far easier to write, if only we could rely on the Sphinx
     # cache or mock the Sphinx extensions simply and use the docutils parser
     lines = open('doc/maintenance.rst').readlines()
@@ -67,7 +67,7 @@ def task_doc_check(args):
 @argh.arg('cpv', help='fully qualified package identifier')
 @argh.arg('days', nargs='?', default=30, help='number of days to wait')
 def gen_stable(args):
-    """Generate a base stabilisation string for a package"""
+    """generate a base stabilisation string for a package"""
     date = datetime.date.today() + datetime.timedelta(days=args.days)
     for arch in ('amd64', 'x86'):
         yield 'REM %s *1 MSG %%"Stabilise %s %s%%" %%a' % (date, arch,
@@ -79,7 +79,7 @@ def gen_stable(args):
 @argh.arg('body', nargs='?', default='', help='body for bug')
 @argh.arg('labels', nargs='*', help='initial label for bug')
 def open_bug(args):
-    """Open a new bump bug"""
+    """open a new bump bug"""
     github = create_gh_client()
     project = fetch_project_name()
     data = {'title': args.title, 'body': args.body, 'labels': args.labels}
@@ -91,7 +91,7 @@ def open_bug(args):
 @command
 @argh.arg('cpv', help='fully qualified package identifier')
 def bump_pkg(args):
-    """Open a version bump bug"""
+    """open a version bump bug"""
     github = create_gh_client()
     project = fetch_project_name()
     data = {

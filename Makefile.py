@@ -36,7 +36,7 @@ except OSError:
 @command
 @argh.alias('all')
 def make_all(args):
-    """Update generated files"""
+    """update generated files"""
     for task in [v for k, v in globals().items()
                 if k.startswith('gen_') and not k == 'gen_stable']:
         task(args)
@@ -44,14 +44,14 @@ def make_all(args):
 
 @command
 def check(args):
-    """Run tests"""
+    """run tests"""
     for task in [v for k, v in globals().items() if k.endswith('_check')]:
         yield task(None)
 
 
 @command
 def clean(args):
-    """Clean repo"""
+    """clean repo"""
     for file in glob('*.rst'):
         html_file = os.path.splitext(file)[0] + '.html'
         try:
@@ -68,14 +68,14 @@ def clean(args):
 
 @command
 def distclean(args):
-    """Clean repo, deeply"""
+    """clean repo, deeply"""
     clean()
     for file in glob('*-*/*/Manifest'):
         os.unlink(file)
 
 
 def main():
-    """Main script"""
+    """main script"""
     description = __doc__.splitlines()[0].split("-", 1)[1]
     epilog = "Please report bugs to jnrowe@gmail.com"
     parser = argh.ArghParser(description=description, epilog=epilog,
