@@ -457,8 +457,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.8.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyrepl/pyrepl-0.8.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.8.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyrepl/pyrepl-0.8.4.ebuild>`__  ``amd64``, ``~x86`` (due 2012-06-30)
+  * `0.8.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyrepl/pyrepl-0.8.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``pyscss`` - http://pypi.python.org/pypi/pyScss/
 

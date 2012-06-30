@@ -13,7 +13,7 @@ DESCRIPTION="A library for building flexible Python command line interfaces"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools"
