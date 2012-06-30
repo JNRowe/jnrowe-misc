@@ -15,7 +15,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hammertime/hammertime-0.2.4.ebuild>`__  ``~amd64`` (due 2012-06-30), ``~x86`` (due 2012-07-30)
+  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hammertime/hammertime-0.2.4.ebuild>`__  ``~amd64`` (due 2012-08-14), ``~x86`` (due 2012-07-30)
 
 * ``hubugs`` - http://pypi.python.org/pypi/hubugs/
 
@@ -80,7 +80,7 @@
  * Versions:
 
   * `1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/termdebug/termdebug-1.1.ebuild>`__  ``amd64``, ``x86``
-  * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/termdebug/termdebug-1.2.ebuild>`__  ``~amd64`` (due 2012-06-30), ``~x86`` (due 2012-06-30)
+  * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/termdebug/termdebug-1.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-06-30)
 
 * ``tudu`` - http://code.meskio.net/tudu/
 
