@@ -37,17 +37,21 @@ except OSError:
 @argh.alias('all')
 def make_all(args):
     """update generated files"""
-    for name in globals():
+    for name in sorted(globals()):
         if name.startswith('gen_') and not name == 'gen_stable':
-            globals()['name'](args)
+            # Nasty hack to re-yield output
+            for res in globals()[name](args):
+                yield res
 
 
 @command
 def check(args):
     """run tests"""
-    for name in globals():
+    for name in sorted(globals()):
         if name.endswith('_check'):
-            yield globals()['name'](None)
+            # Nasty hack to re-yield output
+            for res in globals()[name](args):
+                yield res
 
 
 @command
