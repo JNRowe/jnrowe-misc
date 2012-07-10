@@ -39,7 +39,7 @@ def eclass_doc_check(args):
         _, err = proc.communicate(open(eclass).read())
         if err:
             yield warn('>>> %s' % eclass)
-            print err
+            yield err
 
 
 @command
@@ -60,7 +60,7 @@ def task_doc_check(args):
             name = command.__name__
         name = name.replace('_', '-')
         if not name in commands:
-            print warn('%s task undocumented' % name)
+            yield warn('%s task undocumented' % name)
 
 
 @command
