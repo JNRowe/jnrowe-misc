@@ -55,8 +55,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.3.ebuild>`__  ``amd64``, ``x86``
-  * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.4.ebuild>`__  ``amd64``, ``~x86`` (due 2012-07-15)
+  * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``calabash`` - http://pypi.python.org/pypi/calabash/
 
