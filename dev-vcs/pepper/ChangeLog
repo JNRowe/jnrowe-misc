@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  16 Jul 2012; James Rowe <jnrowe@gmail.com> pepper-0.3.2.ebuild:
+  Keyworded amd64.
+
 *pepper-0.3.2 (15 Jun 2012)
 
   15 Jun 2012; James Rowe <jnrowe@gmail.com> +pepper-0.3.2.ebuild:
