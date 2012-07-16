@@ -200,7 +200,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fuzzywuzzy/fuzzywuzzy-0.1.ebuild>`__  ``~amd64`` (due 2012-07-15), ``~x86`` (due 2012-07-15)
+  * `0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fuzzywuzzy/fuzzywuzzy-0.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-07-15)
 
 * ``genzshcomp`` - http://bitbucket.org/hhatto/genzshcomp/
 
