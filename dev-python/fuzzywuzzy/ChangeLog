@@ -3,6 +3,9 @@
 # $Header: $
 
   16 Jul 2012; James Rowe <jnrowe@gmail.com> fuzzywuzzy-0.1.ebuild:
+  Keyworded x86.
+
+  16 Jul 2012; James Rowe <jnrowe@gmail.com> fuzzywuzzy-0.1.ebuild:
   Keyworded amd64.
 
 *fuzzywuzzy-0.1 (15 Jun 2012)
