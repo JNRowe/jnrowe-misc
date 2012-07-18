@@ -103,7 +103,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cov-core/cov-core-1.6.ebuild>`__  ``~amd64`` (due 2012-07-18), ``~x86`` (due 2012-07-18)
+  * `1.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cov-core/cov-core-1.6.ebuild>`__  ``amd64``, ``~x86`` (due 2012-07-18)
 
 * ``dexml`` - http://pypi.python.org/pypi/dexml/
 
@@ -135,7 +135,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/expecter/expecter-0.2.1.ebuild>`__  ``~amd64`` (due 2012-07-18), ``~x86`` (due 2012-07-18)
+  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/expecter/expecter-0.2.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-07-18)
 
 * ``fabulous`` - http://lobstertech.com/fabulous.html
 
@@ -327,7 +327,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.1.ebuild>`__  ``~amd64`` (due 2012-07-18), ``~x86`` (due 2012-07-18)
+  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.1.ebuild>`__  ``~amd64`` (due 2012-08-17), ``~x86`` (due 2012-07-18)
 
 * ``nose2-cov`` - http://pypi.python.org/pypi/nose2-cov/
 
@@ -335,7 +335,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0_alpha4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2-cov/nose2-cov-1.0_alpha4.ebuild>`__  ``~amd64`` (due 2012-07-18), ``~x86`` (due 2012-07-18)
+  * `1.0_alpha4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2-cov/nose2-cov-1.0_alpha4.ebuild>`__  ``~amd64`` (due 2012-08-17), ``~x86`` (due 2012-07-18)
 
 * ``nosetty`` - http://code.google.com/p/nosetty/
 
@@ -495,7 +495,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2012-07-18), ``~x86`` (due 2012-08-02)
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2012-09-01), ``~x86`` (due 2012-08-02)
 
 * ``see`` - http://inky.github.com/see/
 
