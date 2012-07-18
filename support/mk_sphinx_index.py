@@ -16,18 +16,24 @@ REPO = portage.config().repositories.prepos['jnrowe-misc']
 CACHE = REPO.iter_pregenerated_caches('').next()
 
 
+DUE = {'amd64': {}, 'x86': {}}
+for line in open("support/stabilisation.%s" % ("rem" if REMIND else "org")):
+    if not line.strip():
+        continue
+    words = line.split()
+    if REMIND:
+        DUE[words[5]][words[6][:-2]] = words[1]
+    else:
+        DUE[words[2]][words[1]] = words[4][1:]
+
+
 def keywords(atom, keywords):
     cpv = atom[1:]
 
     def due(kw):
-        date = filter(lambda s: cpv in s and kw[1:] in s,
-                      open("support/stabilisation.%s"
-                           % ("rem" if REMIND else "org")))
+        date = DUE[kw[1:]].get(cpv)
         if date:
-            if REMIND:
-                return "due %s" % date[0].split()[1]
-            else:
-                return "due %s" % date[0].split()[4][1:]
+            return "due %s" % date
         else:
             return "indefinite"
 
