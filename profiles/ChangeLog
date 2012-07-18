@@ -2,6 +2,54 @@
 # Copyright 1999-2011 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  14 Apr 2012; James Rowe <jnrowe@gmail.com> package.mask:
+  Removed Net-Twitter-Lite.
+
+  07 Apr 2012; James Rowe <jnrowe@gmail.com> package.mask:
+  Removed sphinxcontrib-issuetracker.
+
+  30 Mar 2012; James Rowe <jnrowe@gmail.com> package.mask:
+  Removed sng.
+
+  21 Mar 2012; James Rowe <jnrowe@gmail.com> package.mask:
+  Removed github-cli.
+
+  20 Mar 2012; James Rowe <jnrowe@gmail.com> package.mask:
+  virtualenvwrapper moved to ::shadow.
+
+  13 Mar 2012; James Rowe <jnrowe@gmail.com> package.mask:
+  Use newest first ordering in package.mask.
+
+  13 Mar 2012; James Rowe <jnrowe@gmail.com> package.mask:
+  Masked Net-Twitter-Lite for removal.
+
+  02 Mar 2012; James Rowe <jnrowe@gmail.com> package.mask:
+  dev-python/twython removed.
+
+  28 Feb 2012; James Rowe <jnrowe@gmail.com> package.mask:
+  Masked sng for removal.
+
+  20 Feb 2012; James Rowe <jnrowe@gmail.com> package.mask:
+  Masked virtualenv for removal.
+
+  20 Feb 2012; James Rowe <jnrowe@gmail.com> package.mask:
+  Masked github-cli for removal on 2012-03-21.
+
+  02 Feb 2012; James Rowe <jnrowe@gmail.com> categories:
+  Initial fslint ebuild.
+
+  01 Feb 2012; James Rowe <jnrowe@gmail.com> package.mask:
+  Masked twython for removal on 2012-03-02.
+
+  30 Jan 2012; James Rowe <jnrowe@gmail.com> categories:
+  Regenerated categories list.
+
+  16 Jan 2012; James Rowe <jnrowe@gmail.com> package.mask:
+  dev-python/requests removed.
+
+  17 Dec 2011; James Rowe <jnrowe@gmail.com> package.mask:
+  Masked requests for removal on 2012-01-16.
+
   17 Dec 2011; James Rowe <jnrowe@gmail.com> package.mask:
   Removed obsolete notmuch entry.
 
