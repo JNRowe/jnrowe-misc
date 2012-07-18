@@ -15,7 +15,7 @@ REM 2012-08-17 *1 MSG %"Stabilise amd64 dev-python/nose2-cov-1.0_alpha4%" %a
 REM 2012-08-29 *1 MSG %"Stabilise amd64 media-gfx/blockdiag-1.1.6%" %a
 
 REM 2012-09-01 *1 MSG %"Stabilise amd64 dev-python/rstctl-0.4%" %a
-REM 2012-09-13 *1 MSG %"Stabilise x86 dev-vcs/gitflow-0.4.1-r2%" %a
+REM 2012-09-13 *1 MSG %"Stabilise amd64 dev-vcs/gitflow-0.4.1-r2%" %a
 REM 2012-09-20 *1 MSG %"Stabilise x86 media-gfx/sphinxcontrib-mscgen-0.4%" %a
 REM 2012-09-26 *1 MSG %"Stabilise x86 app-misc/pytrainer-1.9.1%" %a
 REM 2012-09-28 *1 MSG %"Stabilise x86 dev-util/ditz-0.5-r1%" %a
