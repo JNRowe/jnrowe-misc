@@ -13,7 +13,7 @@ DESCRIPTION="Expecter Gadget, a better expectation (assertion) library"
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="amd64 x86"
-IUSE="doc"
+IUSE=""
 
 DEPEND="dev-python/setuptools"
 RDEPEND=""
