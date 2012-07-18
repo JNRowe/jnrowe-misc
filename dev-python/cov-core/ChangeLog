@@ -3,6 +3,9 @@
 # $Header: $
 
   18 Jul 2012; James Rowe <jnrowe@gmail.com> cov-core-1.6.ebuild:
+  [QA] Removed unused doc USE flag.
+
+  18 Jul 2012; James Rowe <jnrowe@gmail.com> cov-core-1.6.ebuild:
   Keyworded x86.
 
   18 Jul 2012; James Rowe <jnrowe@gmail.com> cov-core-1.6.ebuild:
