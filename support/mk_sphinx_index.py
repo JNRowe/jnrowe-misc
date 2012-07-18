@@ -1,4 +1,11 @@
-#! /usr/bin/python
+#! /usr/bin/python -tt
+
+# This whole script is an ugly hack.  It only exists because Mark's excellent
+# tool for generating documentation trees has unfortunately become unusable for
+# me, due to unavailable dependencies on my development box.
+#
+# Summary: Do *NOT* use this, use Mark's tool.  It is faster, less brittle and
+# doesn't make you want to find a gun to eat.
 
 import os
 import sys
