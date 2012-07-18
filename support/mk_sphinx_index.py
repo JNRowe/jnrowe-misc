@@ -26,6 +26,12 @@ for line in open("support/stabilisation.%s" % ("rem" if REMIND else "org")):
     else:
         DUE[words[2]][words[1]] = words[4][1:]
 
+MASKED = []
+for line in open('profiles/package.mask'):
+    if not line.strip() or line.startswith('#'):
+        continue
+    MASKED.append(line.strip())
+
 
 def keywords(atom, keywords):
     cpv = atom[1:]
@@ -48,8 +54,7 @@ def keywords(atom, keywords):
     else:
         text = ""
 
-    if filter(lambda s: s == "=%s\n" % cpv or s == "%s/%s\n" % (cat, pkg),
-              open("profiles/package.mask")):
+    if atom in MASKED or atom.cp in MASKED:
         if text:
             text += " "
         text += "(masked by ``package.mask``)"
