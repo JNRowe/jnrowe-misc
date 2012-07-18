@@ -8,11 +8,13 @@ sys.path.insert(0, "/usr/lib/portage/pym")
 import portage
 
 
+REPO_NAME = open('profiles/repo_name').read().strip()
+
 REMIND = True
 
 # This is awful, but portage really doesn't provide a much better way to get
 # the data
-REPO = portage.config().repositories.prepos['jnrowe-misc']
+REPO = portage.config().repositories.prepos[REPO_NAME]
 CACHE = REPO.iter_pregenerated_caches('').next()
 
 
@@ -109,8 +111,8 @@ for package, meta in sorted(CACHE.items()):
         output.append(' * Versions:\n')
         pkg = p
 
-    gh = ("https://github.com/JNRowe/jnrowe-misc/blob/master/"
-          "%s/%s/%s-%s.ebuild" % (c, p, p, atom.version))
+    gh = "https://github.com/JNRowe/%s/blob/master/%s/%s/%s-%s.ebuild" \
+        % (REPO_NAME, c, p, p, atom.version)
     output.append('  * `%s <%s>`__ %s %s' % (atom.version, gh,
                                              live(atom, meta['_eclasses_']),
                                              keywords(atom, meta['KEYWORDS'])))
