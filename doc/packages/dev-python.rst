@@ -136,7 +136,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/expecter/expecter-0.2.1.ebuild>`__  ``~amd64`` (due 2012-07-18), ``~x86`` (due 2012-07-18)
+  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/expecter/expecter-0.2.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-07-18)
 
 * ``fabulous`` - http://lobstertech.com/fabulous.html
 
