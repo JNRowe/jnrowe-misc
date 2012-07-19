@@ -9,8 +9,6 @@ RESTRICT_PYTHON_ABIS="3.*"
 DISTUTILS_SRC_TEST="nosetests"
 PYPI_OLD_DISTUTILS=1
 
-MY_PN="CommandLineApp"
-
 inherit jnrowe-pypi
 
 DESCRIPTION="Makes creating apps as simple as defining callbacks to handle options"
@@ -24,7 +22,7 @@ IUSE=""
 DEPEND=""
 RDEPEND="${DEPEND}"
 
-PYTHON_MODNAME="${PN}.py"
+PYTHON_MODNAME="commandlineapp.py"
 
 src_install() {
 	distutils_src_install

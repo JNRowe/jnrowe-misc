@@ -3,3 +3,4 @@ move app-misc/hammertime app-misc/Hammertime
 move dev-python/attest dev-python/Attest
 move dev-python/benchmarker dev-python/Benchmarker
 move dev-python/clevercss dev-python/CleverCSS
+move dev-python/commandlineapp dev-python/CommandLineApp

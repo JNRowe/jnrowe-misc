@@ -16,7 +16,7 @@ KEYWORDS="amd64 x86"
 IUSE="minimal"
 
 DEPEND=""
-RDEPEND="dev-python/commandlineapp
+RDEPEND="dev-python/CommandLineApp
 	!minimal? ( dev-python/paramiko )"
 
 DOCS=(README)

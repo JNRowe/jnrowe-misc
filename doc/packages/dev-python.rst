@@ -25,6 +25,14 @@
 
   * `0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/CleverCSS/CleverCSS-0.1.ebuild>`__  ``amd64``, ``x86``
 
+* ``CommandLineApp`` - http://pypi.python.org/pypi/CommandLineApp/
+
+ * Makes creating apps as simple as defining callbacks to handle options
+ * Licence: ``MIT``
+ * Versions:
+
+  * `3.0.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/CommandLineApp/CommandLineApp-3.0.7.ebuild>`__  ``amd64``, ``x86``
+
 * ``argh`` - http://pypi.python.org/pypi/argh/
 
  * A simple argparse wrapper for an easier life
@@ -88,14 +96,6 @@
  * Versions:
 
   * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/colorama/colorama-0.2.4.ebuild>`__  ``amd64``, ``x86``
-
-* ``commandlineapp`` - http://pypi.python.org/pypi/CommandLineApp/
-
- * Makes creating apps as simple as defining callbacks to handle options
- * Licence: ``MIT``
- * Versions:
-
-  * `3.0.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/commandlineapp/commandlineapp-3.0.7.ebuild>`__  ``amd64``, ``x86``
 
 * ``cov-core`` - http://pypi.python.org/pypi/cov-core/
 
