@@ -1,0 +1,51 @@
+# ChangeLog for dev-python/CleverCSS
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  09 Apr 2012; James Rowe <jnrowe@gmail.com> clevercss-0.1.ebuild:
+  PATCHES src_prepare workaround now in jnrowe-pypi eclass.
+
+  08 Apr 2012; James Rowe <jnrowe@gmail.com> clevercss-0.1.ebuild:
+  Switched to python-distutils-ng eclass.
+
+  18 Mar 2012; James Rowe <jnrowe@gmail.com> clevercss-0.1.ebuild:
+  Switched to EAPI4.
+
+  14 Nov 2011; James Rowe <jnrowe@gmail.com> metadata.xml:
+  Removed redundant herd info.
+
+  17 Oct 2011; James Rowe <jnrowe@gmail.com>
+  files/clevercss-0.1-entry_point.patch:
+  Added patch description.
+
+  08 Mar 2011; James Rowe <jnrowe@gmail.com> clevercss-0.1.ebuild:
+  Added missing RDEPEND on setuptools.
+
+  04 Mar 2011; James Rowe <jnrowe@gmail.com> clevercss-0.1.ebuild:
+  Make use of jnrowe-pypi S mangling.
+
+  03 Mar 2011; James Rowe <jnrowe@gmail.com> clevercss-0.1.ebuild,
+  +files/clevercss-0.1-entry_point.patch:
+  Use setuptools entry points for wrapper.
+
+  12 Jan 2011; James Rowe <jnrowe@gmail.com> +watch:
+  Added watch file for package updates.
+
+  21 Oct 2010; James Rowe <jnrowe@gmail.com> clevercss-0.1.ebuild:
+  Keyworded x86.
+
+  21 Oct 2010; James Rowe <jnrowe@gmail.com> clevercss-0.1.ebuild:
+  Keyworded amd64.
+
+  06 Oct 2010; James Rowe <jnrowe@gmail.com> metadata.xml:
+  Added remote-id to metadata.
+
+  21 Sep 2010; James Rowe <jnrowe@gmail.com> clevercss-0.1.ebuild:
+  Keyworded ~x86.
+
+*clevercss-0.1 (21 Sep 2010)
+
+  21 Sep 2010; James Rowe <jnrowe@gmail.com> +clevercss-0.1.ebuild,
+  +metadata.xml:
+  Initial ebuild, by me. Original implementation, see #181.
+

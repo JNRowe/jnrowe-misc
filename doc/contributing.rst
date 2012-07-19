@@ -4,6 +4,13 @@ Contributing
 A few notes, beyond the advice in the excellent devmanual_, that should be taken
 in to consideration when contributing to this overlay.
 
+Package naming
+--------------
+
+The devmanual's suggestion that filenames should not contain uppercase
+characters only causes complex :envvar:`$PN`/:envvar:`$P` rewriting or
+duplication, and as such is ignored in this overlay.
+
 :command:`die` usage
 --------------------
 
@@ -175,19 +182,17 @@ Caveats
 
 If the package name does not match the project name then the project name must
 be specified in the :file:`watch` file.  A live example from this repository
-would be ``games-action/reminiscence``:
+would be ``dev-python/straight-plugin``:
 
 .. code-block:: cfg
 
-    [REminiscence]
-    url = http://cyxdown.free.fr/reminiscence/
-    select = ul a
+    [straight.plugin]
+    site = pypi
 
 .. note::
 
    Project names are almost always case-sensitive, and project names must be
-   specified when the package and project names differ as in the REminiscence_
-   example above.
+   specified when the package and project names differ as in the example above.
 
 For a live ``ebuild``, or an upstream that has since disappeared, where using
 :program:`cupage` is unworkable a special entry should be placed in a package's

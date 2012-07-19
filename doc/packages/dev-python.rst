@@ -1,6 +1,46 @@
 ``dev-python``
 --------------
 
+* ``Attest`` - http://pypi.python.org/pypi/Attest/
+
+ * Modern, Pythonic unit testing
+ * Licence: ``BSD-2``
+ * Versions:
+
+  * `0.5.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Attest/Attest-0.5.3.ebuild>`__  ``amd64``, ``x86``
+
+* ``Benchmarker`` - http://pypi.python.org/pypi/Benchmarker/
+
+ * A small utility to benchmark your Python code
+ * Licence: ``public-domain``
+ * Versions:
+
+  * `3.0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Benchmarker/Benchmarker-3.0.1.ebuild>`__  ``amd64``, ``x86``
+
+* ``CleverCSS`` - http://pypi.python.org/pypi/CleverCSS/
+
+ * Funky sass-a-like CSS preprocessor
+ * Licence: ``BSD``
+ * Versions:
+
+  * `0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/CleverCSS/CleverCSS-0.1.ebuild>`__  ``amd64``, ``x86``
+
+* ``CommandLineApp`` - http://pypi.python.org/pypi/CommandLineApp/
+
+ * Makes creating apps as simple as defining callbacks to handle options
+ * Licence: ``MIT``
+ * Versions:
+
+  * `3.0.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/CommandLineApp/CommandLineApp-3.0.7.ebuild>`__  ``amd64``, ``x86``
+
+* ``Stencil`` - http://pypi.python.org/pypi/Stencil/
+
+ * Creates files and directories from templates
+ * Licence: ``BSD-2``
+ * Versions:
+
+  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Stencil/Stencil-0.2.1.ebuild>`__  ``amd64``, ``x86``
+
 * ``argh`` - http://pypi.python.org/pypi/argh/
 
  * A simple argparse wrapper for an easier life
@@ -25,14 +65,6 @@
 
   * `0.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/atomize/atomize-0.1.1.ebuild>`__  ``amd64``, ``x86``
 
-* ``attest`` - http://pypi.python.org/pypi/Attest/
-
- * Modern, Pythonic unit testing
- * Licence: ``BSD-2``
- * Versions:
-
-  * `0.5.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/attest/attest-0.5.3.ebuild>`__  ``amd64``, ``x86``
-
 * ``behave`` - http://pypi.python.org/pypi/behave/
 
  * Behaviour-driven development, Python style
@@ -40,14 +72,6 @@
  * Versions:
 
   * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.1.0.ebuild>`__  ``amd64``, ``x86``
-
-* ``benchmarker`` - http://pypi.python.org/pypi/Benchmarker/
-
- * A small utility to benchmark your Python code
- * Licence: ``public-domain``
- * Versions:
-
-  * `3.0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/benchmarker/benchmarker-3.0.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``blessings`` - http://pypi.python.org/pypi/blessings/
 
@@ -65,14 +89,6 @@
 
   * `0.0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/calabash/calabash-0.0.3.ebuild>`__  ``amd64``, ``x86``
 
-* ``clevercss`` - http://pypi.python.org/pypi/CleverCSS/
-
- * Funky sass-a-like CSS preprocessor
- * Licence: ``BSD``
- * Versions:
-
-  * `0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/clevercss/clevercss-0.1.ebuild>`__  ``amd64``, ``x86``
-
 * ``cloud_sptheme`` - http://pypi.python.org/pypi/cloud_sptheme/
 
  * A nice sphinx theme named 'Cloud', and some related extensions
@@ -88,14 +104,6 @@
  * Versions:
 
   * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/colorama/colorama-0.2.4.ebuild>`__  ``amd64``, ``x86``
-
-* ``commandlineapp`` - http://pypi.python.org/pypi/CommandLineApp/
-
- * Makes creating apps as simple as defining callbacks to handle options
- * Licence: ``MIT``
- * Versions:
-
-  * `3.0.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/commandlineapp/commandlineapp-3.0.7.ebuild>`__  ``amd64``, ``x86``
 
 * ``cov-core`` - http://pypi.python.org/pypi/cov-core/
 
@@ -401,6 +409,14 @@
 
   * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pwtools/pwtools-0.2.ebuild>`__  ``amd64``, ``x86``
 
+* ``pyScss`` - http://pypi.python.org/pypi/pyScss/
+
+ * A Scss compiler for Python
+ * Licence: ``MIT``
+ * Versions:
+
+  * `1.1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyScss/pyScss-1.1.3.ebuild>`__  ``amd64``, ``x86``
+
 * ``pycallgraph`` - http://pycallgraph.slowchop.com/
 
  * Use GraphViz to generate call graphs from your Python code
@@ -456,14 +472,6 @@
  * Versions:
 
   * `0.8.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyrepl/pyrepl-0.8.4.ebuild>`__  ``amd64``, ``x86``
-
-* ``pyscss`` - http://pypi.python.org/pypi/pyScss/
-
- * A Scss compiler for Python
- * Licence: ``MIT``
- * Versions:
-
-  * `1.1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyscss/pyscss-1.1.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``python-faker`` - http://pypi.python.org/pypi/python-faker/
 
@@ -552,14 +560,6 @@
  * Versions:
 
   * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sphinxcontrib-cheeseshop/sphinxcontrib-cheeseshop-0.2.ebuild>`__  ``amd64``, ``x86``
-
-* ``stencil`` - http://pypi.python.org/pypi/Stencil/
-
- * Creates files and directories from templates
- * Licence: ``BSD-2``
- * Versions:
-
-  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/stencil/stencil-0.2.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``story_parser`` - https://github.com/hugobr/story_parser
 
