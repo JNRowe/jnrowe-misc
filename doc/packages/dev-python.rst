@@ -1,6 +1,14 @@
 ``dev-python``
 --------------
 
+* ``Attest`` - http://pypi.python.org/pypi/Attest/
+
+ * Modern, Pythonic unit testing
+ * Licence: ``BSD-2``
+ * Versions:
+
+  * `0.5.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Attest/Attest-0.5.3.ebuild>`__  ``amd64``, ``x86``
+
 * ``argh`` - http://pypi.python.org/pypi/argh/
 
  * A simple argparse wrapper for an easier life
@@ -24,14 +32,6 @@
  * Versions:
 
   * `0.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/atomize/atomize-0.1.1.ebuild>`__  ``amd64``, ``x86``
-
-* ``attest`` - http://pypi.python.org/pypi/Attest/
-
- * Modern, Pythonic unit testing
- * Licence: ``BSD-2``
- * Versions:
-
-  * `0.5.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/attest/attest-0.5.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``behave`` - http://pypi.python.org/pypi/behave/
 
