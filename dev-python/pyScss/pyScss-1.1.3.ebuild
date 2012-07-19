@@ -12,8 +12,6 @@ RESTRICT_PYTHON_ABIS="2.5 3.*"
 DISTUTILS_SRC_TEST="nosetests"
 PYPI_OLD_DISTUTILS=1
 
-MY_PN="pyScss"
-
 inherit jnrowe-pypi
 
 DESCRIPTION="A Scss compiler for Python"
