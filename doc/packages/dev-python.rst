@@ -9,6 +9,14 @@
 
   * `0.5.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Attest/Attest-0.5.3.ebuild>`__  ``amd64``, ``x86``
 
+* ``Benchmarker`` - http://pypi.python.org/pypi/Benchmarker/
+
+ * A small utility to benchmark your Python code
+ * Licence: ``public-domain``
+ * Versions:
+
+  * `3.0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Benchmarker/Benchmarker-3.0.1.ebuild>`__  ``amd64``, ``x86``
+
 * ``argh`` - http://pypi.python.org/pypi/argh/
 
  * A simple argparse wrapper for an easier life
@@ -40,14 +48,6 @@
  * Versions:
 
   * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.1.0.ebuild>`__  ``amd64``, ``x86``
-
-* ``benchmarker`` - http://pypi.python.org/pypi/Benchmarker/
-
- * A small utility to benchmark your Python code
- * Licence: ``public-domain``
- * Versions:
-
-  * `3.0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/benchmarker/benchmarker-3.0.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``blessings`` - http://pypi.python.org/pypi/blessings/
 
