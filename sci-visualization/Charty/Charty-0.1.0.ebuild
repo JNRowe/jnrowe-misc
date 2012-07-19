@@ -7,8 +7,6 @@ EAPI=4
 # 3.x is restricted due to print syntax
 PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
-MY_PN="Charty"
-
 inherit jnrowe-pypi
 
 DESCRIPTION="Another Python SVG Chart Generator that uses CSS smartly"
