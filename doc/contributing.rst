@@ -4,6 +4,13 @@ Contributing
 A few notes, beyond the advice in the excellent devmanual_, that should be taken
 in to consideration when contributing to this overlay.
 
+Package naming
+--------------
+
+The devmanual's suggestion that filenames should not contain uppercase
+characters only causes complex :envvar:`$PN`/:envvar:`$P` rewriting or
+duplication, and as such is ignored in this overlay.
+
 :command:`die` usage
 --------------------
 
