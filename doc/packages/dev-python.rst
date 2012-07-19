@@ -17,6 +17,14 @@
 
   * `3.0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Benchmarker/Benchmarker-3.0.1.ebuild>`__  ``amd64``, ``x86``
 
+* ``CleverCSS`` - http://pypi.python.org/pypi/CleverCSS/
+
+ * Funky sass-a-like CSS preprocessor
+ * Licence: ``BSD``
+ * Versions:
+
+  * `0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/CleverCSS/CleverCSS-0.1.ebuild>`__  ``amd64``, ``x86``
+
 * ``argh`` - http://pypi.python.org/pypi/argh/
 
  * A simple argparse wrapper for an easier life
@@ -64,14 +72,6 @@
  * Versions:
 
   * `0.0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/calabash/calabash-0.0.3.ebuild>`__  ``amd64``, ``x86``
-
-* ``clevercss`` - http://pypi.python.org/pypi/CleverCSS/
-
- * Funky sass-a-like CSS preprocessor
- * Licence: ``BSD``
- * Versions:
-
-  * `0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/clevercss/clevercss-0.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``cloud_sptheme`` - http://pypi.python.org/pypi/cloud_sptheme/
 
