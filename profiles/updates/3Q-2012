@@ -6,3 +6,4 @@ move dev-python/clevercss dev-python/CleverCSS
 move dev-python/commandlineapp dev-python/CommandLineApp
 move dev-python/pyscss dev-python/pyScss
 move dev-python/stencil dev-python/Stencil
+move games-action/reminiscence games-action/REminiscence

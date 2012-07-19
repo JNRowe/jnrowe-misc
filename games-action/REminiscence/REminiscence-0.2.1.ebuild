@@ -7,11 +7,9 @@ EAPI=3
 
 inherit eutils games toolchain-funcs
 
-MY_P=REminiscence-${PV}
-
 DESCRIPTION="A rewrite of the engine used in the game Flashback"
-HOMEPAGE="http://cyxdown.free.fr/${PN}/"
-SRC_URI="http://cyxdown.free.fr/reminiscence/${MY_P}.tar.bz2"
+HOMEPAGE="http://cyxdown.free.fr/reminiscence"
+SRC_URI="http://cyxdown.free.fr/reminiscence/${P}.tar.bz2"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -20,8 +18,6 @@ IUSE=""
 
 DEPEND="media-libs/libsdl[audio,joystick,video]"
 RDEPEND="${DEPEND}"
-
-S="${WORKDIR}"/${MY_P}
 
 src_prepare() {
 	# Include user's CXXFLAGS
