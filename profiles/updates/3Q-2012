@@ -1,1 +1,2 @@
 move sci-visualization/charty sci-visualization/Charty
+move app-misc/hammertime app-misc/Hammertime

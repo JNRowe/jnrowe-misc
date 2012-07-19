@@ -1,6 +1,14 @@
 ``app-misc``
 ------------
 
+* ``Hammertime`` - http://pypi.python.org/pypi/Hammertime/
+
+ * Simple time tracking with git backend
+ * Licence: ``MIT``
+ * Versions:
+
+  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/Hammertime/Hammertime-0.2.4.ebuild>`__  ``~amd64`` (indefinite), ``~x86`` (indefinite)
+
 * ``asciiquarium`` - http://www.robobunny.com/projects/asciiquarium/html/
 
  * Enjoy the mysteries of the sea from the safety of your own terminal
@@ -8,14 +16,6 @@
  * Versions:
 
   * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/asciiquarium/asciiquarium-1.0.ebuild>`__  ``amd64``, ``x86``
-
-* ``hammertime`` - http://pypi.python.org/pypi/Hammertime/
-
- * Simple time tracking with git backend
- * Licence: ``MIT``
- * Versions:
-
-  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hammertime/hammertime-0.2.4.ebuild>`__  ``~amd64`` (due 2012-08-14), ``~x86`` (due 2012-07-30)
 
 * ``hubugs`` - http://pypi.python.org/pypi/hubugs/
 

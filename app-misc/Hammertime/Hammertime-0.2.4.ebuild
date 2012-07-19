@@ -8,8 +8,6 @@ EAPI=4
 # 3.x is restricted due to print syntax
 PYTHON_COMPAT="python2_6 python2_7"
 
-MY_PN="Hammertime"
-
 inherit jnrowe-pypi
 
 DESCRIPTION="Simple time tracking with git backend"
