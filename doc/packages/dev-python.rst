@@ -33,6 +33,14 @@
 
   * `3.0.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/CommandLineApp/CommandLineApp-3.0.7.ebuild>`__  ``amd64``, ``x86``
 
+* ``Stencil`` - http://pypi.python.org/pypi/Stencil/
+
+ * Creates files and directories from templates
+ * Licence: ``BSD-2``
+ * Versions:
+
+  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Stencil/Stencil-0.2.1.ebuild>`__  ``amd64``, ``x86``
+
 * ``argh`` - http://pypi.python.org/pypi/argh/
 
  * A simple argparse wrapper for an easier life
@@ -552,14 +560,6 @@
  * Versions:
 
   * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sphinxcontrib-cheeseshop/sphinxcontrib-cheeseshop-0.2.ebuild>`__  ``amd64``, ``x86``
-
-* ``stencil`` - http://pypi.python.org/pypi/Stencil/
-
- * Creates files and directories from templates
- * Licence: ``BSD-2``
- * Versions:
-
-  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/stencil/stencil-0.2.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``story_parser`` - https://github.com/hugobr/story_parser
 

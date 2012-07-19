@@ -8,8 +8,6 @@ EAPI=4
 # 3.x is restricted due to octal syntax
 PYTHON_COMPAT="python2_6 python2_7"
 
-MY_PN="Stencil"
-
 inherit jnrowe-pypi
 
 DESCRIPTION="Creates files and directories from templates"
@@ -28,5 +26,5 @@ RDEPEND="${DEPEND}
 DOCS=(HISTORY.rst README.rst)
 
 python_install_all() {
-	python-distutils-ng_redoscript "/usr/bin/${PN}"
+	python-distutils-ng_redoscript "/usr/bin/stencil"
 }
