@@ -173,6 +173,18 @@ culled.
 :Commit: :commit:`d7b758ee <d7b758eea5c3d344375e0e07773ee520b7e2417b>`
 :Removal date: 2010-01-05
 
+``feedgenerator``
+~~~~~~~~~~~~~~~~~
+
+    ``feedgenerator`` now packaged upstream.
+
+    Upgrade path is clean.  The ``ebuild`` will exist in ``::shadow`` until
+    a version with matching keywords is available upstream.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`f8628c6 <f8628c6ff1af9522f154c7c04edcab727b58201d>``
+:Removal date: 2012-07-20
+
 ``gevent``
 ''''''''''
 
