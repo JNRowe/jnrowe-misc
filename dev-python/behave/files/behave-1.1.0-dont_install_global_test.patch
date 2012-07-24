@@ -1,0 +1,17 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Don't install global test packages
+Status: LOCAL
+
+diff --git i/setup.py w/setup.py
+index cf2cb9c..8cacef0 100644
+--- i/setup.py
++++ w/setup.py
+@@ -21,7 +21,7 @@ setup(
+     author='Benno Rice and Richard Jones',
+     author_email='behave-users@googlegroups.com',
+     url='http://github.com/jeamland/behave',
+-    packages=find_packages(),
++    packages=find_packages(exclude=['test', ]),
+     scripts=['bin/behave'],
+     install_requires=requirements,
+     use_2to3=True,
