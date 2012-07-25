@@ -68,11 +68,7 @@ repository, see :ref:`watch files`.
 ``layman-check``
 ''''''''''''''''
 
-This task performs a XML syntax check on the layman_ support files.
-
-.. note::
-   It is simply a check for "well formed-ness" as there is apparently no
-   published schema to verify ``layman`` configuration files against.
+This task performs a XML validation check on the layman_ support files.
 
 Maintenance support tasks
 -------------------------
