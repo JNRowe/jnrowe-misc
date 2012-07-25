@@ -105,7 +105,7 @@ def create_gh_client():
         raise argh.CommandError('Missing %s.token API token in git config'
                                 % repo)
 
-    session = httplib2.Http(ca_certs=CA_CERTS)
+    session = httplib2.Http(cache='.http_cache', ca_certs=CA_CERTS)
     session.get = partial(request, method='GET')
     session.post = partial(request, method='POST')
     return session
