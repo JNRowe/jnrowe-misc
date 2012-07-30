@@ -576,7 +576,7 @@
  * Versions:
 
   * `0.10.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.10.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.10.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.10.3.ebuild>`__  ``~amd64`` (due 2012-07-21), ``~x86`` (due 2012-10-04)
+  * `0.10.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.10.3.ebuild>`__  ``~amd64`` (due 2012-08-20), ``~x86`` (due 2012-10-04)
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
