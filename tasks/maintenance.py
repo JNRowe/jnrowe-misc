@@ -89,7 +89,8 @@ def gen_stable(args):
 def open_bug(args):
     """open a new bump bug"""
     data = {'title': args.title, 'body': args.body, 'labels': args.labels}
-    open_issue(data)
+    for res in open_issue(data):
+        yield res
 
 
 @command
@@ -101,4 +102,5 @@ def bump_pkg(args):
         'body': '',
         'labels': ['feature', ]
     }
-    open_issue(data)
+    for res in open_issue(data):
+        yield res
