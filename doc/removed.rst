@@ -275,6 +275,18 @@ culled.
 :Commit: :commit:`0195603d <0195603d254d954ba75b0318426b8170840f6c12>`
 :Removal date: 2012-01-16
 
+``pycparser``
+~~~~~~~~~~~~~
+
+    ``pycparser`` now packaged upstream.
+
+    Upgrade path isn't clean.  The ``ebuild`` will exist in ``::shadow`` for
+    the foreseeable future.
+
+:Reason: Moved to ``::shadow``
+:Commit:
+:Removal date: 2012-07-31
+
 ``python-gnupg``
 ''''''''''''''''
 
