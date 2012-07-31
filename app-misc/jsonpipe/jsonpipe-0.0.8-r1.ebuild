@@ -24,10 +24,3 @@ RDEPEND="${DEPEND}
 	dev-python/calabash"
 
 PATCHES=("${FILESDIR}"/${P}-use_stdlib_json.patch)
-
-python_install_all() {
-	local file
-	for file in json{,un}pipe; do
-		python-distutils-ng_redoscript "/usr/bin/${file}"
-	done
-}
