@@ -23,7 +23,3 @@ RDEPEND="dev-python/beaker
 	dev-python/sphinx"
 
 DOCS=(README.txt)
-
-python_install_all() {
-	python-distutils-ng_redoscript "/usr/bin/${PN}"
-}
