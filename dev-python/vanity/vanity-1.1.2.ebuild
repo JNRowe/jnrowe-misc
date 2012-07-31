@@ -23,7 +23,3 @@ RDEPEND="${DEPEND}
 	dev-python/setuptools"
 
 DOCS=(README.rst docs/HISTORY.txt)
-
-python_install_all() {
-	python-distutils-ng_redoscript "/usr/bin/${PN}"
-}
