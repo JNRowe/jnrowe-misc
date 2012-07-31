@@ -24,8 +24,6 @@ RDEPEND="dev-python/docutils
 DOCS=(NEWS README)
 
 python_install_all() {
-	python-distutils-ng_redoscript "/usr/bin/${PN}"
-
 	insinto /usr/share/doc/${PF}
 	doins -r contrib/ || die "doins failed"
 

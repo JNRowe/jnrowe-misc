@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  31 Jul 2012; James Rowe <jnrowe@gmail.com> gpxviewer-python-0.4.3.ebuild:
+  Don't run python-distutils-ng_redoscript, as recent silent updates to
+  python-distutils-ng now run it and break packages.
+
   29 Jun 2012; James Rowe <jnrowe@gmail.com> -gpxviewer-python-0.4.2.ebuild,
   -files/gpxviewer-python-0.4.2-fix_xdg_cache_home.patch,
   gpxviewer-python-0.4.3.ebuild:

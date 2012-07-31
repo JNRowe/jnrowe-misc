@@ -24,8 +24,6 @@ RDEPEND=">=media-gfx/blockdiag-1.1.2
 DOCS=(src/README.txt src/TODO.txt)
 
 python_install_all() {
-	python-distutils-ng_redoscript "/usr/bin/${PN}"
-
 	doman ${PN}.1
 }
 

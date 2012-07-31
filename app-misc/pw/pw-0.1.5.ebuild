@@ -21,7 +21,3 @@ RDEPEND="${DEPEND}
 	dev-python/pyyaml
 	dev-python/termcolor
 	dev-python/xerox"
-
-python_install_all() {
-	python-distutils-ng_redoscript "/usr/bin/${PN}"
-}

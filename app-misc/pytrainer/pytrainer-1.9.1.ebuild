@@ -33,7 +33,3 @@ RDEPEND="${DEPEND}
 	elevation? ( sci-libs/gdal[python] )"
 
 DOCS="CHANGES PLUGINS.README"
-
-python_install_all() {
-	python-distutils-ng_redoscript "/usr/bin/${PN}"
-}

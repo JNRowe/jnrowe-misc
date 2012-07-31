@@ -23,8 +23,6 @@ RDEPEND="|| ( dev-python/argparse >=dev-lang/python-2.7 )
 DOCS=(CHANGES.txt README.txt)
 
 python_install_all() {
-	python-distutils-ng_redoscript "/usr/bin/${PN}_runner.py"
-
 	dodoc doc/plac*.{pdf,txt}
 	dohtml doc/*.html
 

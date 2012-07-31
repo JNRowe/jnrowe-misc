@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  31 Jul 2012; James Rowe <jnrowe@gmail.com> lettuce-0.2.1.ebuild,
+  lettuce-0.2.6.ebuild:
+  Don't run python-distutils-ng_redoscript, as recent silent updates to
+  python-distutils-ng now run it and break packages.
+
 *lettuce-0.2.6 (31 Jul 2012)
 
   31 Jul 2012; James Rowe <jnrowe@gmail.com> +lettuce-0.2.6.ebuild:

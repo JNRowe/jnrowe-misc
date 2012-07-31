@@ -21,7 +21,3 @@ DEPEND="dev-python/setuptools"
 # setuptools needed in RDEPEND for wrapper scripts
 RDEPEND="${DEPEND}
 	>=dev-python/git-python-0.3.0"
-
-python_install_all() {
-	python-distutils-ng_redoscript "/usr/bin/git-time"
-}

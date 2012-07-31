@@ -25,7 +25,3 @@ PATCHES=("${FILESDIR}"/${P}-callable_from_git_ui.patch \
 	"${WORKDIR}"/${P}-gitweb_1.6.4.4_update.patch)
 
 DOCS=(README.txt)
-
-python_install_all() {
-	python-distutils-ng_redoscript "/usr/bin/git-serve"
-}
