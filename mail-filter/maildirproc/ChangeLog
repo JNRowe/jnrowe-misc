@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  31 Jul 2012; James Rowe <jnrowe@gmail.com> maildirproc-0.5.0.ebuild:
+  Don't run python-distutils-ng_redoscript, as recent silent updates to
+  python-distutils-ng now run it and break packages.
+
   28 Apr 2012; James Rowe <jnrowe@gmail.com> metadata.xml:
   [QA] Added missing remote-id to metadata.xml.
 
