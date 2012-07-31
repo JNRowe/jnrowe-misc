@@ -22,7 +22,3 @@ RDEPEND="${DEPEND}
 	dev-python/fuzzywuzzy"
 
 DOCS=(README.md RELEASE-NOTES.md)
-
-python_install_all() {
-	python-distutils-ng_redoscript "/usr/bin/${PN}"
-}
