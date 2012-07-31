@@ -22,7 +22,3 @@ RDEPEND="${DEPEND}
 	dev-python/colorama"
 
 DOCS=(README.rst)
-
-python_install_all() {
-	python-distutils-ng_redoscript "/usr/bin/${PN}"
-}
