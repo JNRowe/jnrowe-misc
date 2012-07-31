@@ -20,7 +20,3 @@ IUSE=""
 
 DEPEND=""
 RDEPEND="${DEPEND}"
-
-python_install_all() {
-	python-distutils-ng_redoscript "/usr/bin/${PN}"
-}
