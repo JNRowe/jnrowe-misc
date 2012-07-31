@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/importlib
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*importlib-1.0.2 (31 Jul 2012)
+
+  31 Jul 2012; James Rowe <jnrowe@gmail.com> +importlib-1.0.2.ebuild,
+  +metadata.xml, +watch:
+  Initial ebuild, by me. Required by straight-plugin [636].
+
