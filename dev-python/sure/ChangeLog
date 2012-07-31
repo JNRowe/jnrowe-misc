@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  31 Jul 2012; James Rowe <jnrowe@gmail.com> -sure-0.10.3.ebuild:
+  0.10.4 will be available for stabilisation before 0.10.3 is tested again.
+
 *sure-0.10.4 (31 Jul 2012)
 
   31 Jul 2012; James Rowe <jnrowe@gmail.com> +sure-0.10.4.ebuild:
