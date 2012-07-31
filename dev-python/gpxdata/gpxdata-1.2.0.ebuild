@@ -19,10 +19,3 @@ IUSE=""
 DEPEND=""
 RDEPEND="${DEPEND}
 	dev-python/python-dateutil"
-
-python_install_all() {
-	local file
-	for file in ovl2kml ovl2gpx kml2ovl kml2gpx gpx2ovl gpx2kml; do
-		python-distutils-ng_redoscript "/usr/bin/${file}.py"
-	done
-}
