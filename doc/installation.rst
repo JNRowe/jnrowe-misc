@@ -65,7 +65,7 @@ Manual installation
 -------------------
 
 To manually manage this overlay just clone the `git repository`_ to a location
-accessible by :program:`portage`, and edit :file:`/etc/make.conf`'s
+accessible by :program:`portage`, and edit :file:`/etc/portage/make.conf`'s
 :envvar:`PORTDIR_OVERLAY` setting.  See the :manpage:`make.conf(5)` manual page
 for details.
 
