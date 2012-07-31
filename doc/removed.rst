@@ -284,7 +284,7 @@ culled.
     the foreseeable future.
 
 :Reason: Moved to ``::shadow``
-:Commit:
+:Commit: :commit:`b27b6de2 <b27b6de2a2586b7809939732f5d65886e64b588f>`
 :Removal date: 2012-07-31
 
 ``python-gnupg``
