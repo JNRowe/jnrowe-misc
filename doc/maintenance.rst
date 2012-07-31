@@ -145,9 +145,10 @@ repository.
 
 .. note::
 
-   If you have a :envvar:`PORTAGE_GPG_KEY` setting in :file:`/etc/make.conf` it
-   will use that key to sign the created files.  See :manpage:`make.conf(5)` for
-   more information on :file:`Manifest` signing.
+   If you have a :envvar:`PORTAGE_GPG_KEY` setting in
+   :file:`/etc/portage/make.conf` it will use that key to sign the created
+   files.  See :manpage:`make.conf(5)` for more information on :file:`Manifest`
+   signing.
 
 ``gen-news-sigs``
 '''''''''''''''''
@@ -156,7 +157,8 @@ This task is used regenerate any missing, or stale, signatures for news
 files.  See the `GLEP 42`_ documentation for more information.
 
 This task requires you have :envvar:`PORTAGE_GPG_KEY` set in
-:file:`/etc/make.conf` to function, see :manpage:`make.conf(5)` for details.
+:file:`/etc/portage/make.conf` to function, see :manpage:`make.conf(5)` for
+details.
 
 ``gen-use-local-desc``
 ''''''''''''''''''''''
