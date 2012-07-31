@@ -32,8 +32,6 @@ python_prepare_all() {
 }
 
 python_install_all() {
-	python-distutils-ng_redoscript "/usr/bin/${PN}"
-
 	dohtml doc/*.{css,html}
 
 	if use examples; then
