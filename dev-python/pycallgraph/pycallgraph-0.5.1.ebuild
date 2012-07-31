@@ -21,8 +21,6 @@ DEPEND=""
 RDEPEND="media-gfx/graphviz"
 
 python_install_all() {
-	python-distutils-ng_redoscript "/usr/bin/${PN}"
-
 	doman man/${PN}.1
 
 	if use examples; then
