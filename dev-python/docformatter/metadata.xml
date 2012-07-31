@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		docformatter currently automatically formats docstrings to follow
+		a subset of the PEP 257 conventions. Below are the relevant items quoted
+		from PEP 257.
+
+		* For consistency, always use triple double quotes around docstrings.
+		* Triple quotes are used even though the string fits on one line.
+		* Multi-line docstrings consist of a summary line just like a one-line
+		  docstring, followed by a blank line, followed by a more elaborate
+		  description.
+		* The BDFL recommends inserting a blank line between the last paragraph in
+		  a multi-line docstring and its closing quotes, placing the closing
+		  quotes on a line by themselves.
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">docformatter</remote-id>
+		<doc lang="en">http://www.python.org/dev/peps/pep-0257/</doc>
+		<bugs-to>https://github.com/myint/docformatter/issues</bugs-to>
+	</upstream>
+</pkgmetadata>
