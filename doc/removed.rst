@@ -184,6 +184,7 @@ culled.
 :Reason: Moved to ``::shadow``
 :Commit: :commit:`f8628c6 <f8628c6ff1af9522f154c7c04edcab727b58201d>``
 :Removal date: 2012-07-20
+:Issues: :issue:`{issue.title} (#{issue.id}) <639>`
 
 ``gevent``
 ''''''''''
@@ -286,6 +287,7 @@ culled.
 :Reason: Moved to ``::shadow``
 :Commit: :commit:`b27b6de2 <b27b6de2a2586b7809939732f5d65886e64b588f>`
 :Removal date: 2012-07-31
+:Issues: :issue:`{issue.title} (#{issue.id}) <643>`
 
 ``python-gnupg``
 ''''''''''''''''
