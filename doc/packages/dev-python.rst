@@ -121,6 +121,14 @@
 
   * `0.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/dexml/dexml-0.4.2.ebuild>`__  ``amd64``, ``x86``
 
+* ``docformatter`` - http://pypi.python.org/pypi/docformatter/
+
+ * Formats docstrings to follow PEP 257
+ * Licence: ``MIT``
+ * Versions:
+
+  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.4.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
+
 * ``doctest-tools`` - http://code.google.com/p/doctest-tools/
 
  * Tools to run doctests on code and text files within a directory
