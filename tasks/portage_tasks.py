@@ -1,15 +1,14 @@
 import os
 from glob import glob
-from subprocess import (check_call, check_output)
+from subprocess import (CalledProcessError, check_call, check_output)
 
 import argh
 
 from utils import (command, dep, fail, newer, success, warn)
 
 try:
-    SIGN_KEY = check_output('. /etc/make.conf; echo $PORTAGE_GPG_KEY',
-                            shell=True).strip()
-except OSError:
+    SIGN_KEY = check_output(['portageq', 'envvar', 'PORTAGE_GPG_KEY']).strip()
+except CalledProcessError:
     SIGN_KEY = None
 
 
