@@ -441,14 +441,6 @@
 
   * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycallgraph/pycallgraph-0.5.1.ebuild>`__  ``amd64``, ``x86``
 
-* ``pycparser`` - http://code.google.com/p/pycparser/
-
- * C parser and AST generator written in Python
- * Licence: ``BSD``
- * Versions:
-
-  * `2.05 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycparser/pycparser-2.05.ebuild>`__  ``amd64``, ``x86``
-
 * ``pycukes`` - https://github.com/hugobr/pycukes
 
  * A Cucumber-like BDD framework built on top of Pyhistorian
