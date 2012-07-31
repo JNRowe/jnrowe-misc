@@ -48,6 +48,7 @@
  * Versions:
 
   * `0.1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pw/pw-0.1.4.ebuild>`__  ``amd64``, ``x86``
+  * `0.1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pw/pw-0.1.5.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
 
 * ``pytrainer`` - https://github.com/pytrainer/pytrainer
 

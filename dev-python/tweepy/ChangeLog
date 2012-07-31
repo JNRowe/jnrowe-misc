@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*tweepy-1.10 (31 Jul 2012)
+
+  31 Jul 2012; James Rowe <jnrowe@gmail.com> +tweepy-1.10.ebuild:
+  Version bump [638].
+
   19 Apr 2012; James Rowe <jnrowe@gmail.com> -tweepy-1.8.ebuild,
   tweepy-1.9.ebuild:
   Keyworded x86.

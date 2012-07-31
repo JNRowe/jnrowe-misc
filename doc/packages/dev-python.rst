@@ -80,6 +80,7 @@
  * Versions:
 
   * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.4.ebuild>`__  ``amd64``, ``x86``
+  * `1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.5.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
 
 * ``calabash`` - http://pypi.python.org/pypi/calabash/
 
@@ -152,6 +153,7 @@
  * Versions:
 
   * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/expecter/expecter-0.2.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/expecter/expecter-0.2.2.ebuild>`__  ``~amd64`` (due 2012-08-19), ``~x86`` (due 2012-08-19)
 
 * ``fabulous`` - http://lobstertech.com/fabulous.html
 
@@ -184,6 +186,7 @@
  * Versions:
 
   * `1.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.3.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.4.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
 
 * ``freshen`` - https://github.com/rlisagor/freshen
 
@@ -216,6 +219,7 @@
  * Versions:
 
   * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/genzshcomp/genzshcomp-0.3.ebuild>`__  ``amd64``, ``x86``
+  * `0.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/genzshcomp/genzshcomp-0.3.1.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
 
 * ``gpxdata`` - http://www.kette-links.de/technik/
 
@@ -257,6 +261,14 @@
 
   * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.4.ebuild>`__  ``amd64``, ``x86``
 
+* ``importlib`` - http://pypi.python.org/pypi/importlib/
+
+ * Backport of importlib.import_module() from Python 2.7
+ * Licence: ``PSF-2.4``
+ * Versions:
+
+  * `1.0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/importlib/importlib-1.0.2.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
+
 * ``interlude`` - https://svn.bluedynamics.eu/svn/public/interlude/
 
  * Provides an interactive console for doctests
@@ -272,6 +284,7 @@
  * Versions:
 
   * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.6.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
 
 * ``micromodels`` - http://pypi.python.org/pypi/micromodels/
 
@@ -376,6 +389,7 @@
  * Versions:
 
   * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.5.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.5.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.5.3.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
 
 * ``pinocchio`` - http://darcs.idyll.org/~t/projects/pinocchio/doc/
 
@@ -576,6 +590,7 @@
  * Versions:
 
   * `1.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.3.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.4.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.4.0.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
 
 * ``sure`` - http://pypi.python.org/pypi/sure/
 
@@ -585,6 +600,7 @@
 
   * `0.10.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.10.0.ebuild>`__  ``amd64``, ``x86``
   * `0.10.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.10.3.ebuild>`__  ``~amd64`` (due 2012-08-20), ``~x86`` (due 2012-10-04)
+  * `0.10.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.10.4.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
@@ -624,6 +640,7 @@
  * Licence: ``MIT``
  * Versions:
 
+  * `1.10 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.10.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
   * `1.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.9.ebuild>`__  ``amd64``, ``x86``
 
 * ``upoints`` - https://github.com/JNRowe/upoints/

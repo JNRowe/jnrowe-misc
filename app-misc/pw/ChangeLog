@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*pw-0.1.5 (31 Jul 2012)
+
+  31 Jul 2012; James Rowe <jnrowe@gmail.com> +pw-0.1.5.ebuild:
+  Version bump [634].
+
   08 Apr 2012; James Rowe <jnrowe@gmail.com> pw-0.1.4.ebuild:
   Switched to python-distutils-ng eclass.
 
