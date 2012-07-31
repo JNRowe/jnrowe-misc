@@ -15,7 +15,7 @@
 	<upstream>
 		<remote-id type="pypi">feedcache</remote-id>
 		<changelog>http://bitbucket.org/dhellmann/feedcache/raw/33e02e8a27fb/ChangeLog</changelog>
-		<doc lang="en">http://bitbucket.org/dhellmann/feedcache/raw/33e02e8a27fb/README.txt</doc>
+		<doc lang="en">http://feedcache.readthedocs.org</doc>
 		<bugs-to>http://bitbucket.org/dhellmann/feedcache/issues/?status=new&amp;status=open</bugs-to>
 	</upstream>
 </pkgmetadata>

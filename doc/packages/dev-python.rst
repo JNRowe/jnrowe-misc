@@ -170,6 +170,7 @@
  * Versions:
 
   * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/feedcache/feedcache-1.4.ebuild>`__  ``amd64``, ``x86``
+  * `1.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/feedcache/feedcache-1.4.1.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
 
 * ``feedgenerator`` - http://pypi.python.org/pypi/feedgenerator/
 
