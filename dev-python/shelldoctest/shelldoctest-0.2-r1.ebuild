@@ -20,7 +20,3 @@ RDEPEND="dev-python/CommandLineApp
 	!minimal? ( dev-python/paramiko )"
 
 DOCS=(README)
-
-python_install_all() {
-	python-distutils-ng_redoscript "/usr/bin/shell-doctest"
-}
