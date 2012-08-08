@@ -7,11 +7,11 @@ from sys import exit
 from docutils.core import publish_file
 from docutils.utils import SystemMessage
 
-from utils import (command, dep, newer, success)
+from utils import (APP, dep, newer, success)
 
 
-@command
-def rst_check(args):
+@APP.cmd(name='rst-check')
+def rst_check():
     """check syntax of reST-formatted files"""
     for file in glob('*.rst'):
         try:
@@ -19,11 +19,11 @@ def rst_check(args):
                          settings_overrides={'halt_level': 1})
         except SystemMessage:
             exit(1)
-    yield success('All reST files pass!')
+    print(success('All reST files pass!'))
 
 
-@command
-def gen_html(args):
+@APP.cmd(name='gen-html')
+def gen_html():
     """generate HTML output"""
     rst_files = glob('*.rst')
     dep(map(lambda s: s[:-4] + '.html', rst_files), rst_files, mapping=True)
@@ -36,12 +36,12 @@ def gen_html(args):
                          settings_overrides={'halt_level': 1})
         except SystemMessage:
             exit(1)
-        yield success('%s generated!' % file)
-    yield success('All reST generated!')
+        print(success('%s generated!' % file))
+    print(success('All reST generated!'))
 
 
-@command
-def gen_thanks(args):
+@APP.cmd(name='gen-thanks')
+def gen_thanks():
     """generate Sphinx contributor doc"""
     dep(['doc/thanks.rst', ], ['README.rst'])
     data = open('README.rst').read()
@@ -58,11 +58,11 @@ def gen_thanks(args):
         links = filter(lambda s: s.startswith(('.. _email:', '.. _GitHub:')),
                        data)
         file.writelines(add_nl(links))
-    yield success('thanks.rst generated!')
+    print(success('thanks.rst generated!'))
 
 
-@command
-def gen_sphinx_html(args):
+@APP.cmd(name='gen-sphinx-html')
+def gen_sphinx_html():
     """generate Sphinx HTML output"""
     dep(['doc/.build/doctrees/environment.pickle', ],
         glob('doc/*.rst') + glob('doc/packages/*.rst'))

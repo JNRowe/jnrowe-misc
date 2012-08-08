@@ -1,10 +1,10 @@
 from collections import defaultdict
 
-from utils import (cmd_output, command, dep, success)
+from utils import (APP, cmd_output, dep, success)
 
 
-@command
-def gen_removals(args):
+@APP.cmd(name='gen-removals')
+def gen_removals():
     """generate remind file for package removals"""
     dep(['support/removal.rem', ], ['profiles/package.mask', ])
     chunks = open("profiles/package.mask").read().split("\n\n")
@@ -23,18 +23,18 @@ def gen_removals(args):
                     file.write("REM %s *1 PRIORITY 2500 "
                                'MSG %%"Removal due for %s%%" %%a\n'
                                % (date, pkg))
-    yield success('removal.rem generated!')
+    print(success('removal.rem generated!'))
 
 
-@command
-def reminders(args):
+@APP.cmd
+def reminders():
     """display repository reminders"""
     output = lambda f: "\n".join(cmd_output('remind %s' % f).splitlines()[1:])
     removals = output('support/removal.rem')
     if removals:
-        yield 'Removals:'
-        yield removals
+        print('Removals:')
+        print(removals)
     stable_candidates = output('support/stabilisation.rem')
     if stable_candidates:
-        yield 'Stabilisation:'
-        yield stable_candidates
+        print('Stabilisation:')
+        print(stable_candidates)

@@ -1,10 +1,8 @@
 from StringIO import StringIO
 
-import argh
-
 from lxml import etree
 
-from utils import (command, fail, success)
+from utils import (APP, CommandError, fail, success)
 
 try:
     import httplib2
@@ -16,16 +14,16 @@ except ImportError:
     lxml = None  # NOQA
 
 
-@command
-def layman_check(args):
+@APP.cmd(name='layman-check')
+def layman_check():
     """check basic layman config validity"""
     dtd_loc = ('http://git.overlays.gentoo.org/gitweb/?'
                'p=proj/repositories-xml-format.git;a=blob_plain;'
                'f=schema/%s;hb=HEAD')
 
     if not lxml or not httplib2:
-        raise argh.CommandError(fail("Layman validity checks require the "
-                                     "httplib2 and lxml Python packages"))
+        raise CommandError(fail("Layman validity checks require the httplib2 "
+                                "and lxml Python packages"))
 
     http = httplib2.Http(cache='.http_cache')
 
@@ -37,8 +35,8 @@ def layman_check(args):
         dtd = etree.DTD(StringIO(dtd))
         doc = etree.parse('support/%s' % file)
         if not dtd.validate(doc):
-            yield fail('%s is invalid' % file)
+            print(fail('%s is invalid' % file))
             failed = True
 
     if not failed:
-        yield success('layman files valid!')
+        print(success('layman files valid!'))

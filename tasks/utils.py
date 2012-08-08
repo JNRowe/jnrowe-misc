@@ -5,7 +5,6 @@ from os import path
 from re import search
 from subprocess import (CalledProcessError, check_output)
 
-import argh
 import blessings
 
 try:
@@ -15,6 +14,8 @@ except ImportError:
 
 
 CA_CERTS = '/etc/ssl/certs/ca-certificates.crt'
+
+APP = stack()[-1][0].f_globals['APP']
 
 T = blessings.Terminal()
 
@@ -31,21 +32,8 @@ def warn(text):
     return T.bright_yellow(text)
 
 
-COMMANDS = []
-
-
-def command(func):
-    """Simple decorator to add function to ``COMMANDS`` list
-
-    The purpose of this decorator is to make the definition of commands simpler
-    by reducing duplication, it is purely a convenience.
-
-    :param func func: Function to wrap
-    :rtype: func
-    :returns: Original function
-    """
-    COMMANDS.append(func)
-    return func
+class CommandError(ValueError):
+    pass
 
 
 def newer(file1, file2):
@@ -75,8 +63,7 @@ def dep(targets, sources, mapping=False):
             rebuild = not all(newer(s, t)
                               for s, t in zip(targets, sources))
     if not rebuild:
-        f_name = stack()[1][0].f_locals['args'].function.func_name
-        raise argh.CommandError(success('Nothing to do for %s' % f_name))
+        raise CommandError(success('Nothing to do!'))
 
 
 def cmd_output(command):
@@ -85,10 +72,10 @@ def cmd_output(command):
 
 def create_gh_client():
     if not httplib2:
-        raise argh.CommandError(fail("Opening bugs requires the httplib2 "
+        raise CommandError(fail("Opening bugs requires the httplib2 "
                                      "Python package"))
     if not path.exists(CA_CERTS):
-        raise argh.CommandError(fail("Unable to find system SSL certificates"))
+        raise CommandError(fail("Unable to find system SSL certificates"))
 
     def request(uri, method='GET', body=None):
         if body:
@@ -102,7 +89,7 @@ def create_gh_client():
     try:
         token = cmd_output('git config %s.token' % repo)
     except CalledProcessError:
-        raise argh.CommandError('Missing %s.token API token in git config'
+        raise CommandError('Missing %s.token API token in git config'
                                 % repo)
 
     session = httplib2.Http(cache='.http_cache', ca_certs=CA_CERTS)
@@ -121,4 +108,4 @@ def open_issue(data):
     project = fetch_project_name()
     new_issue = github.post('https://api.github.com/repos/%s/issues' % project,
                             body=data)
-    yield success("Issue #%d opened!" % new_issue.content['number'])
+    print(success("Issue #%d opened!" % new_issue.content['number']))

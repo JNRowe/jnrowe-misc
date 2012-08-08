@@ -221,10 +221,6 @@ fail if any errors or warnings are issued.
 This module is used to provide support functionality for use in other tasks. The
 few developer facing functions are described below.
 
-.. function:: command(func) -> func
-
-   This decorator registers a function for command line access using argh_
-
 .. function:: newer(file1, file2) -> Bool
 
    This function returns ``True`` if ``file1`` is newer than ``file2``.  It
@@ -257,4 +253,3 @@ few developer facing functions are described below.
 .. _GLEP 42: http://www.gentoo.org/proj/en/glep/glep-0042.html
 .. _devmanual's metadata.xml: http://devmanual.gentoo.org/ebuild-writing/misc-files/metadata/index.html
 .. _Sphinx: http://sphinx.pocoo.org/
-.. _argh: http://pypi.python.org/pypi/argh/
