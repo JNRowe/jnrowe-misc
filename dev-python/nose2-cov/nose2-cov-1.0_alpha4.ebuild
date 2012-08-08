@@ -14,7 +14,7 @@ DESCRIPTION="nose2 plugin for coverage reporting"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="doc"
+IUSE=""
 
 DEPEND="dev-python/setuptools"
 RDEPEND="dev-python/cov-core
