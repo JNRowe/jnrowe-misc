@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/aaargh
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*aaargh-0.3 (08 Aug 2012)
+
+  08 Aug 2012; James Rowe <jnrowe@gmail.com> +aaargh-0.3.ebuild, +metadata.xml,
+  +watch:
+  Initial ebuild, by me [648].
+
