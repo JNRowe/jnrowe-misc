@@ -41,6 +41,14 @@
 
   * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Stencil/Stencil-0.2.1.ebuild>`__  ``amd64``, ``x86``
 
+* ``aaargh`` - http://pypi.python.org/pypi/aaargh/
+
+ * An astonishingly awesome application argument helper
+ * Licence: ``BSD``
+ * Versions:
+
+  * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/aaargh/aaargh-0.3.ebuild>`__  ``~amd64`` (due 2012-09-07)
+
 * ``argh`` - http://pypi.python.org/pypi/argh/
 
  * A simple argparse wrapper for an easier life

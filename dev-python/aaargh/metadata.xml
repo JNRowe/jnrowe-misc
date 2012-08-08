@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Aaargh is a <pkg>dev-lang/python</pkg> module that makes building
+		friendly command line applications really easy. Applications built with
+		Aaargh provide a single executable with a subcommand for each exposed
+		Python function.  Each subcommand may have its own command line
+		arguments. This is similar to the way version control systems provide
+		multiple commands using a single entry point. (Examples include bzr
+		commit and git checkout).
+
+		Aaargh is named after one of the castles in the movie Monty Python and
+		the Holy Grail. The acronym Aaargh stands for an astonishingly awesome
+		application argument helper, but omits a few letters to make it triple
+		A.
+
+		Aaargh is compatible with both Python 2.6+ and Python 3.
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">aaargh</remote-id>
+		<bugs-to>https://github.com/wbolster/aaargh/issues</bugs-to>
+	</upstream>
+</pkgmetadata>
