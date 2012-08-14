@@ -1,50 +1,47 @@
 import os
 from glob import glob
-from subprocess import (check_call, check_output)
+from subprocess import (CalledProcessError, check_call, check_output)
 
-import argh
-
-from utils import (command, dep, fail, newer, success, warn)
+from utils import (APP, CommandError, dep, fail, newer, success, warn)
 
 try:
-    SIGN_KEY = check_output('. /etc/make.conf; echo $PORTAGE_GPG_KEY',
-                            shell=True).strip()
-except OSError:
+    SIGN_KEY = check_output(['portageq', 'envvar', 'PORTAGE_GPG_KEY']).strip()
+except CalledProcessError:
     SIGN_KEY = None
 
 
-@command
-def gen_use_local_desc(args):
+@APP.cmd(name='gen-use-local-desc')
+def gen_use_local_desc():
     """generate use.local.desc"""
     dep(['profiles/use.local.desc', ], glob('*-*/*/metadata.xml'))
     repo = open('profiles/repo_name').read().strip()
     # This really shouldn't be handled with subprocess, but portage seemingly
     # goes out of its way to make reasonable use difficult.
     check_call(['egencache', '--repo=%s' % repo, '--update-use-local-desc'])
-    yield success('use.local.desc generated!')
+    print(success('use.local.desc generated!'))
 
 
-@command
-def gen_categories(args):
+@APP.cmd(name='gen-categories')
+def gen_categories():
     """generate categories listing"""
     dep(['profiles/categories', ], glob('*-*'))
     with open('profiles/categories', 'w') as file:
         for cat in sorted(glob('*-*')):
             if not os.path.isdir(cat):
-                yield warn('Category match on %s, may cause problems with '
-                           'portage' % cat)
+                print(warn('Category match on %s, may cause problems with '
+                           'portage' % cat))
                 continue
             file.write(cat + '\n')
-    yield success('categories list generated!')
+    print(success('categories list generated!'))
 
 
-@command
-def gen_manifests(args):
+@APP.cmd(name='gen-manifests')
+def gen_manifests():
     """generate Manifest files"""
     dep(glob('*-*/*/Manifest'), glob('*-*/*/*'))
     base_dir = os.path.abspath(os.curdir)
     if not SIGN_KEY:
-        yield warn('No GnuPG key set!')
+        print(warn('No GnuPG key set!'))
     for package in sorted(glob('*-*/*')):
         try:
             os.chdir(package)
@@ -59,13 +56,13 @@ def gen_manifests(args):
             os.chdir(base_dir)
 
 
-@command
-def gen_news_sigs(args):
+@APP.cmd(name='gen-news-sigs')
+def gen_news_sigs():
     """generate news file signatures"""
     news_files = glob('metadata/news/*/*.txt')
     dep(map(lambda s: s + '.asc', news_files), news_files, mapping=True)
     if not SIGN_KEY:
-        raise argh.CommandError(fail('No GnuPG key set!'))
+        raise CommandError(fail('No GnuPG key set!'))
     base_dir = os.path.abspath(os.curdir)
     for path in news_files:
         try:

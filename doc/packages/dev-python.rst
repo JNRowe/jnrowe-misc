@@ -41,6 +41,14 @@
 
   * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Stencil/Stencil-0.2.1.ebuild>`__  ``amd64``, ``x86``
 
+* ``aaargh`` - http://pypi.python.org/pypi/aaargh/
+
+ * An astonishingly awesome application argument helper
+ * Licence: ``BSD``
+ * Versions:
+
+  * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/aaargh/aaargh-0.3.ebuild>`__  ``~amd64`` (due 2012-09-07), ``~x86`` (due 2012-09-07)
+
 * ``argh`` - http://pypi.python.org/pypi/argh/
 
  * A simple argparse wrapper for an easier life
@@ -80,6 +88,7 @@
  * Versions:
 
   * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.4.ebuild>`__  ``amd64``, ``x86``
+  * `1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.5.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
 
 * ``calabash`` - http://pypi.python.org/pypi/calabash/
 
@@ -96,6 +105,7 @@
  * Versions:
 
   * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.3.ebuild>`__  ``amd64``, ``x86``
+  * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.4.ebuild>`__  ``~amd64`` (due 2012-09-07), ``~x86`` (due 2012-09-07)
 
 * ``colorama`` - http://pypi.python.org/pypi/colorama/
 
@@ -121,6 +131,14 @@
 
   * `0.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/dexml/dexml-0.4.2.ebuild>`__  ``amd64``, ``x86``
 
+* ``docformatter`` - http://pypi.python.org/pypi/docformatter/
+
+ * Formats docstrings to follow PEP 257
+ * Licence: ``MIT``
+ * Versions:
+
+  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.4.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
+
 * ``doctest-tools`` - http://code.google.com/p/doctest-tools/
 
  * Tools to run doctests on code and text files within a directory
@@ -144,6 +162,7 @@
  * Versions:
 
   * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/expecter/expecter-0.2.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/expecter/expecter-0.2.2.ebuild>`__  ``~amd64`` (due 2012-08-19), ``~x86`` (due 2012-08-19)
 
 * ``fabulous`` - http://lobstertech.com/fabulous.html
 
@@ -168,6 +187,7 @@
  * Versions:
 
   * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/feedcache/feedcache-1.4.ebuild>`__  ``amd64``, ``x86``
+  * `1.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/feedcache/feedcache-1.4.1.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
 
 * ``flake8`` - http://pypi.python.org/pypi/flake8/
 
@@ -176,6 +196,7 @@
  * Versions:
 
   * `1.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.3.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.4.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
 
 * ``freshen`` - https://github.com/rlisagor/freshen
 
@@ -208,6 +229,7 @@
  * Versions:
 
   * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/genzshcomp/genzshcomp-0.3.ebuild>`__  ``amd64``, ``x86``
+  * `0.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/genzshcomp/genzshcomp-0.3.1.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
 
 * ``gpxdata`` - http://www.kette-links.de/technik/
 
@@ -249,6 +271,14 @@
 
   * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.4.ebuild>`__  ``amd64``, ``x86``
 
+* ``importlib`` - http://pypi.python.org/pypi/importlib/
+
+ * Backport of importlib.import_module() from Python 2.7
+ * Licence: ``PSF-2.4``
+ * Versions:
+
+  * `1.0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/importlib/importlib-1.0.2.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
+
 * ``interlude`` - https://svn.bluedynamics.eu/svn/public/interlude/
 
  * Provides an interactive console for doctests
@@ -257,6 +287,14 @@
 
   * `1.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/interlude/interlude-1.1.1.ebuild>`__  ``amd64``, ``x86``
 
+* ``kitchen`` - http://pypi.python.org/pypi/kitchen/
+
+ * Kitchen contains a cornucopia of useful code for Python
+ * Licence: ``LGPL-2.1``
+ * Versions:
+
+  * `1.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/kitchen/kitchen-1.1.1.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
+
 * ``lettuce`` - http://lettuce.it/
 
  * Cucumber-ish BDD for python
@@ -264,6 +302,7 @@
  * Versions:
 
   * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.6.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
 
 * ``micromodels`` - http://pypi.python.org/pypi/micromodels/
 
@@ -368,6 +407,7 @@
  * Versions:
 
   * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.5.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.5.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.5.3.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
 
 * ``pinocchio`` - http://darcs.idyll.org/~t/projects/pinocchio/doc/
 
@@ -392,6 +432,7 @@
  * Versions:
 
   * `0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/prettytable/prettytable-0.6.ebuild>`__  ``amd64``, ``x86``
+  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/prettytable/prettytable-0.6.1.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
 
 * ``pwtools`` - http://alastairs-place.net/projects/pwtools/
 
@@ -416,14 +457,6 @@
  * Versions:
 
   * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycallgraph/pycallgraph-0.5.1.ebuild>`__  ``amd64``, ``x86``
-
-* ``pycparser`` - http://code.google.com/p/pycparser/
-
- * C parser and AST generator written in Python
- * Licence: ``BSD``
- * Versions:
-
-  * `2.05 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycparser/pycparser-2.05.ebuild>`__  ``amd64``, ``x86``
 
 * ``pycukes`` - https://github.com/hugobr/pycukes
 
@@ -495,7 +528,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2012-09-01), ``~x86`` (due 2012-08-02)
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2012-09-01), ``~x86`` (due 2012-10-31)
 
 * ``see`` - http://inky.github.com/see/
 
@@ -568,6 +601,7 @@
  * Versions:
 
   * `1.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.3.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.4.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.4.0.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
 
 * ``sure`` - http://pypi.python.org/pypi/sure/
 
@@ -576,7 +610,7 @@
  * Versions:
 
   * `0.10.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.10.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.10.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.10.3.ebuild>`__  ``~amd64`` (due 2012-07-21), ``~x86`` (due 2012-10-04)
+  * `0.10.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.10.4.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
@@ -616,6 +650,7 @@
  * Licence: ``MIT``
  * Versions:
 
+  * `1.10 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.10.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
   * `1.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.9.ebuild>`__  ``amd64``, ``x86``
 
 * ``upoints`` - https://github.com/JNRowe/upoints/
@@ -641,6 +676,7 @@
  * Versions:
 
   * `1.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.1.2.ebuild>`__  ``amd64``, ``x86``
+  * `1.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.2.ebuild>`__  ``~amd64`` (due 2012-09-07), ``~x86`` (due 2012-09-07)
 
 * ``webcolors`` - http://pypi.python.org/pypi/webcolors/
 

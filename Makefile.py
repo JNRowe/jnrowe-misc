@@ -22,40 +22,40 @@ import sys
 
 from glob import glob
 
-import argh
+import aaargh
+
+
+APP = aaargh.App(description=__doc__.splitlines()[0].split("-", 1)[1],
+                 epilog=("Please report bugs at "
+                         "https://github.com/JNRowe/jnrowe-misc/issues/"))
 
 from tasks import *  # NOQA
-
 
 try:
     VERSION = cmd_output('git describe --always')
 except OSError:
     VERSION = 'unknown'
+APP.arg('--version', action='version', version='%%(prog)s (%s)' % VERSION)
 
 
-@command
-@argh.alias('all')
-def make_all(args):
+@APP.cmd(name='all')
+def make_all():
     """update generated files"""
     for name in sorted(globals()):
         if name.startswith('gen_') and not name == 'gen_stable':
-            # Nasty hack to re-yield output
-            for res in globals()[name](args):
-                yield res
+            globals()[name]()
 
 
-@command
-def check(args):
+@APP.cmd
+def check():
     """run tests"""
     for name in sorted(globals()):
         if name.endswith('_check'):
-            # Nasty hack to re-yield output
-            for res in globals()[name](args):
-                yield res
+            globals()[name]()
 
 
-@command
-def clean(args):
+@APP.cmd
+def clean():
     """clean repo"""
     for file in glob('*.rst'):
         html_file = os.path.splitext(file)[0] + '.html'
@@ -64,17 +64,17 @@ def clean(args):
         except OSError:
             pass
         else:
-            yield warn('%s removed' % html_file)
+            print(warn('%s removed' % html_file))
     try:
         os.unlink('profiles/categories')
     except OSError:
         pass
     else:
-        yield warn('profiles/categories removed')
+        print(warn('profiles/categories removed'))
 
 
-@command
-def distclean(args):
+@APP.cmd
+def distclean():
     """clean repo, deeply"""
     clean()
     for file in glob('*-*/*/Manifest'):
@@ -83,12 +83,10 @@ def distclean(args):
 
 def main():
     """main script"""
-    description = __doc__.splitlines()[0].split("-", 1)[1]
-    epi = "Please report bugs at https://github.com/JNRowe/jnrowe-misc/issues/"
-    parser = argh.ArghParser(description=description, epilog=epi,
-                             version="%%(prog)s (%s)" % VERSION)
-    parser.add_commands(COMMANDS)
-    parser.dispatch(pre_call=lambda args: setattr(args, 'commands', COMMANDS))
+    try:
+        APP.run()
+    except CommandError as e:
+        APP._parser.exit(message=e.args[0] + '\n')
 
 
 if __name__ == '__main__':

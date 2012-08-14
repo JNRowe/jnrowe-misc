@@ -24,7 +24,3 @@ RDEPEND="${DEPEND}
 	dev-python/jinja"
 
 DOCS=(HISTORY.rst README.rst)
-
-python_install_all() {
-	python-distutils-ng_redoscript "/usr/bin/stencil"
-}

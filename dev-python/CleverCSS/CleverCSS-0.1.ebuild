@@ -22,7 +22,3 @@ DEPEND="dev-python/setuptools"
 RDEPEND="${DEPEND}"
 
 PATCHES=("${FILESDIR}"/${P}-entry_point.patch)
-
-python_install_all() {
-	python-distutils-ng_redoscript "/usr/bin/clevercss"
-}

@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*luaposix-5.1.20 (31 Jul 2012)
+
+  31 Jul 2012; James Rowe <jnrowe@gmail.com> +luaposix-5.1.20.ebuild:
+  Version bump [631].
+
   14 May 2012; James Rowe <jnrowe@gmail.com> -luaposix-5.1.18.ebuild,
   luaposix-5.1.19.ebuild:
   Keyworded x86.

@@ -7,7 +7,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/Hammertime/Hammertime-0.2.4.ebuild>`__  ``~amd64`` (indefinite), ``~x86`` (indefinite)
+  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/Hammertime/Hammertime-0.2.4.ebuild>`__  ``~amd64`` (due 2012-08-14), ``~x86`` (due 2012-10-28)
 
 * ``asciiquarium`` - http://www.robobunny.com/projects/asciiquarium/html/
 
@@ -23,7 +23,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.14.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.14.0.ebuild>`__  ``~amd64`` (due 2012-08-15), ``~x86`` (due 2012-07-31)
+  * `0.14.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.14.0.ebuild>`__  ``~amd64`` (due 2012-08-15), ``~x86`` (due 2012-10-29)
 
 * ``jsonpipe`` - http://pypi.python.org/pypi/jsonpipe/
 
@@ -48,6 +48,7 @@
  * Versions:
 
   * `0.1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pw/pw-0.1.4.ebuild>`__  ``amd64``, ``x86``
+  * `0.1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pw/pw-0.1.5.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
 
 * ``pytrainer`` - https://github.com/pytrainer/pytrainer
 

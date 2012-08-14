@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install
+DEPEND=>=dev-lang/lua-5.1
+DESCRIPTION=POSIX function support library for lua
+EAPI=4
+HOMEPAGE=http://wiki.alpinelinux.org/wiki/Luaposix
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-lang/lua-5.1
+RESTRICT=test
+SLOT=0
+SRC_URI=mirror://github/rrthomas/luaposix/luaposix-5.1.20.tar.gz
+_eclasses_=multilib	5782800349f728f725f9378105c6a2ab	toolchain-funcs	d3b5812eeab360bc41aa48b6cdbbc142
+_md5_=886fa07f7b606e272f956a750bc3248b

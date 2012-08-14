@@ -33,7 +33,3 @@ src_unpack() {
 	mkdir "${S}"; cd "${S}"
 	unpack ${A}
 }
-
-python_install_all() {
-	python-distutils-ng_redoscript "/usr/bin/dlcs"
-}

@@ -23,6 +23,4 @@ RDEPEND="dev-python/parse
 # Tests are unusable within portage environment
 RESTRICT="test"
 
-python_install_all() {
-	python-distutils-ng_redoscript "/usr/bin/${PN}"
-}
+PATCHES=("${FILESDIR}"/${P}-dont_install_global_test.patch)

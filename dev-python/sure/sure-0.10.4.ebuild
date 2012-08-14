@@ -18,5 +18,4 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools"
-RDEPEND="dev-python/ipdb
-	dev-python/nose"
+RDEPEND="dev-python/nose"

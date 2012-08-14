@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  31 Jul 2012; James Rowe <jnrowe@gmail.com> CleverCSS-0.1.ebuild:
+  Don't run python-distutils-ng_redoscript, as recent silent updates to
+  python-distutils-ng now run it and break packages.
+
   09 Apr 2012; James Rowe <jnrowe@gmail.com> clevercss-0.1.ebuild:
   PATCHES src_prepare workaround now in jnrowe-pypi eclass.
 

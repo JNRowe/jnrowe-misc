@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  31 Jul 2012; James Rowe <jnrowe@gmail.com> gitserve-0.2.0-r3.ebuild:
+  Don't run python-distutils-ng_redoscript, as recent silent updates to
+  python-distutils-ng now run it and break packages.
+
   14 Apr 2012; James Rowe <jnrowe@gmail.com> gitserve-0.2.0-r3.ebuild:
   Use mirror://github for SRC_URI.
 

@@ -23,7 +23,3 @@ IUSE=""
 DEPEND="dev-python/python-distutils-extra
 	dev-util/intltool"
 RDEPEND="dev-python/python-osmgpsmap"
-
-python_install_all() {
-	python-distutils-ng_redoscript "/usr/bin/${PN%-*}"
-}

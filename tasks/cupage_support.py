@@ -3,11 +3,11 @@ import os
 from glob import glob
 from sys import exit
 
-from utils import (command, dep, fail, success)
+from utils import (APP, dep, fail, success)
 
 
-@command
-def gen_cupage_conf(args):
+@APP.cmd(name='gen-cupage-conf')
+def gen_cupage_conf():
     """generate a new cupage.conf file"""
     dep(['support/cupage.conf', ], glob('*-*/*/watch'))
     with open('support/cupage.conf', 'w') as f:
@@ -26,21 +26,21 @@ def gen_cupage_conf(args):
                     f.write(watch_data + '\n')
             f.write('# }}}\n\n')
             os.chdir(os.pardir)
-    yield success('cupage.conf generated!')
+    print(success('cupage.conf generated!'))
 
 
-@command
-def cupage_check(args):
+@APP.cmd(name='cupage-check')
+def cupage_check():
     """make sure a watch file exists for each package"""
     failures = 0
     packages = glob('*-*/*')
     for package in packages:
         if not os.path.isfile(os.path.join(package, 'watch')):
-            yield fail('Missing watch file in %r' % package)
+            print(fail('Missing watch file in %r' % package))
             failures += 1
     if failures == 0:
-        yield success('All watch files present!')
+        print(success('All watch files present!'))
     else:
-        yield fail('%d watch file%s missing!' % (failures,
-                                                 's' if failures > 1 else ''))
+        print(fail('%d watch file%s missing!'
+                   % (failures, 's' if failures > 1 else '')))
         exit(failures)

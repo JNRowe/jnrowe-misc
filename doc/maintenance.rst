@@ -68,11 +68,7 @@ repository, see :ref:`watch files`.
 ``layman-check``
 ''''''''''''''''
 
-This task performs a XML syntax check on the layman_ support files.
-
-.. note::
-   It is simply a check for "well formed-ness" as there is apparently no
-   published schema to verify ``layman`` configuration files against.
+This task performs a XML validation check on the layman_ support files.
 
 Maintenance support tasks
 -------------------------
@@ -149,9 +145,10 @@ repository.
 
 .. note::
 
-   If you have a :envvar:`PORTAGE_GPG_KEY` setting in :file:`/etc/make.conf` it
-   will use that key to sign the created files.  See :manpage:`make.conf(5)` for
-   more information on :file:`Manifest` signing.
+   If you have a :envvar:`PORTAGE_GPG_KEY` setting in
+   :file:`/etc/portage/make.conf` it will use that key to sign the created
+   files.  See :manpage:`make.conf(5)` for more information on :file:`Manifest`
+   signing.
 
 ``gen-news-sigs``
 '''''''''''''''''
@@ -160,7 +157,8 @@ This task is used regenerate any missing, or stale, signatures for news
 files.  See the `GLEP 42`_ documentation for more information.
 
 This task requires you have :envvar:`PORTAGE_GPG_KEY` set in
-:file:`/etc/make.conf` to function, see :manpage:`make.conf(5)` for details.
+:file:`/etc/portage/make.conf` to function, see :manpage:`make.conf(5)` for
+details.
 
 ``gen-use-local-desc``
 ''''''''''''''''''''''
@@ -223,10 +221,6 @@ fail if any errors or warnings are issued.
 This module is used to provide support functionality for use in other tasks. The
 few developer facing functions are described below.
 
-.. function:: command(func) -> func
-
-   This decorator registers a function for command line access using argh_
-
 .. function:: newer(file1, file2) -> Bool
 
    This function returns ``True`` if ``file1`` is newer than ``file2``.  It
@@ -259,4 +253,3 @@ few developer facing functions are described below.
 .. _GLEP 42: http://www.gentoo.org/proj/en/glep/glep-0042.html
 .. _devmanual's metadata.xml: http://devmanual.gentoo.org/ebuild-writing/misc-files/metadata/index.html
 .. _Sphinx: http://sphinx.pocoo.org/
-.. _argh: http://pypi.python.org/pypi/argh/

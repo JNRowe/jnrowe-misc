@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*straight-plugin-1.4.0 (31 Jul 2012)
+
+  31 Jul 2012; James Rowe <jnrowe@gmail.com> +straight-plugin-1.4.0.ebuild:
+  Version bump [636].
+
   30 Jun 2012; James Rowe <jnrowe@gmail.com> -straight-plugin-1.3.ebuild,
   straight-plugin-1.3.1.ebuild:
   Keyworded x86.

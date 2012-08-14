@@ -5,13 +5,11 @@ from operator import attrgetter
 from re import match
 from subprocess import (Popen, PIPE)
 
-import argh
-
-from utils import (command, cmd_output, fail, open_issue, success, warn)
+from utils import (APP, cmd_output, fail, open_issue, success, warn)
 
 
-@command
-def keyword_check(args):
+@APP.cmd(name='keyword-check')
+def keyword_check():
     """check for missing keywords"""
     for file in glob('metadata/md5-cache/*/*'):
         # Skip live packages, they shouldn't have stable keywords anyway
@@ -20,14 +18,14 @@ def keyword_check(args):
         meta = dict([line.strip().split('=', 1) for line in open(file)])
         pkg = file.split('/', 2)[2]
         if 'amd64' not in meta['KEYWORDS']:
-            yield fail('[~]amd64 keyword missing in %r' % pkg)
+            print(fail('[~]amd64 keyword missing in %r' % pkg))
         if 'x86' not in meta['KEYWORDS']:
-            yield fail('[~]x86 keyword missing in %r' % pkg)
-    yield success('All packages checked for keywords')
+            print(fail('[~]x86 keyword missing in %r' % pkg))
+    print(success('All packages checked for keywords'))
 
 
-@command
-def eclass_doc_check(args):
+@APP.cmd(name='eclass-doc-check')
+def eclass_doc_check():
     """check eclass documentation syntax"""
     portdir = cmd_output('portageq envvar PORTDIR')
     awk_file = portdir + '/' + \
@@ -38,12 +36,12 @@ def eclass_doc_check(args):
                      stderr=PIPE)
         _, err = proc.communicate(open(eclass).read())
         if err:
-            yield warn('>>> %s' % eclass)
-            yield err
+            print(warn('>>> %s' % eclass))
+            print(err)
 
 
-@command
-def task_doc_check(args):
+@APP.cmd(name='task-doc-check')
+def task_doc_check():
     """check tasks are documented"""
     # This should be far easier to write, if only we could rely on the Sphinx
     # cache or mock the Sphinx extensions simply and use the docutils parser
@@ -53,51 +51,51 @@ def task_doc_check(args):
         if match("^'+\n$", line):
             commands.append(lines[n - 1][2:-3])
 
-    for command in sorted(args.commands, key=attrgetter('__name__')):
+    for command in sorted(commands, key=attrgetter('__name__')):
         if hasattr(command, 'argh_alias'):
             name = command.argh_alias
         else:
             name = command.__name__
         name = name.replace('_', '-')
         if not name in commands:
-            yield warn('%s task undocumented' % name)
+            print(warn('%s task undocumented' % name))
 
 
-@command
-@argh.arg('--arches', default=['amd64', 'x86'],
+@APP.cmd(name='gen-stable')
+@APP.cmd_arg('--arches', default=['amd64', 'x86'],
           help='architectures to generate reminder for')
-@argh.arg('-s', '--selection', default=False,
+@APP.cmd_arg('-s', '--selection', default=False,
           help='copy reminder to primary selection')
-@argh.arg('cpv', help='fully qualified package identifier')
-@argh.arg('days', nargs='?', default=30, help='number of days to wait')
-def gen_stable(args):
+@APP.cmd_arg('cpv', help='fully qualified package identifier')
+@APP.cmd_arg('days', nargs='?', default=30, help='number of days to wait')
+def gen_stable(arches, selection, cpv, days):
     """generate a base stabilisation string for a package"""
-    date = datetime.date.today() + datetime.timedelta(days=args.days)
-    for arch in args.arches:
+    date = datetime.date.today() + datetime.timedelta(days=days)
+    for arch in arches:
         reminder = 'REM %s *1 MSG %%"Stabilise %s %s%%" %%a' % (date, arch,
-                                                                args.cpv)
-        yield reminder
-        if args.selection:
+                                                                cpv)
+        print(reminder)
+        if selection:
             proc = Popen(['xsel'], stdin=PIPE)
             proc.communicate(reminder)
 
 
-@command
-@argh.arg('title', help='title for bug')
-@argh.arg('body', nargs='?', default='', help='body for bug')
-@argh.arg('labels', nargs='*', help='initial label for bug')
-def open_bug(args):
+@APP.cmd(name='open-bug')
+@APP.cmd_arg('title', help='title for bug')
+@APP.cmd_arg('body', nargs='?', default='', help='body for bug')
+@APP.cmd_arg('labels', nargs='*', help='initial label for bug')
+def open_bug(title, body, labels):
     """open a new bump bug"""
-    data = {'title': args.title, 'body': args.body, 'labels': args.labels}
+    data = {'title': title, 'body': body, 'labels': labels}
     open_issue(data)
 
 
-@command
-@argh.arg('cpv', help='fully qualified package identifier')
-def bump_pkg(args):
+@APP.cmd
+@APP.cmd_arg('cpv', help='fully qualified package identifier')
+def bump_pkg(cpv):
     """open a version bump bug"""
     data = {
-        'title': '%s version bump.' % args.cpv,
+        'title': '%s version bump.' % cpv,
         'body': '',
         'labels': ['feature', ]
     }
