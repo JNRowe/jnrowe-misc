@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		pep257 is a static analysis tool for checking compliance with Python PEP
+		257: http://www.python.org/dev/peps/pep-0257/.
+
+		The framework for checking docstring style is flexible, and custom
+		checks can be easily added.
+
+		Adding new checks is described in docstring of pep257.py file.
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">pep257</remote-id>
+		<bugs-to>https://github.com/GreenSteam/pep257/issues</bugs-to>
+	</upstream>
+</pkgmetadata>
