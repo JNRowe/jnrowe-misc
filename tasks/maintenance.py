@@ -1,7 +1,6 @@
 import datetime
 
 from glob import glob
-from operator import attrgetter
 from re import match
 from subprocess import (Popen, PIPE)
 
@@ -51,12 +50,7 @@ def task_doc_check():
         if match("^'+\n$", line):
             commands.append(lines[n - 1][2:-3])
 
-    for command in sorted(commands, key=attrgetter('__name__')):
-        if hasattr(command, 'argh_alias'):
-            name = command.argh_alias
-        else:
-            name = command.__name__
-        name = name.replace('_', '-')
+    for name in sorted(APP._subparsers.choices):
         if not name in commands:
             print(warn('%s task undocumented' % name))
 
