@@ -406,7 +406,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep257/pep257-0.2.0.ebuild>`__  ``~amd64`` (due 2012-09-13)
+  * `0.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep257/pep257-0.2.0.ebuild>`__  ``~amd64`` (due 2012-09-13), ``~x86`` (due 2012-09-13)
 
 * ``pgmagick`` - http://pypi.python.org/pypi/pgmagick/
 
