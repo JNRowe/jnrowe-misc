@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*pyScss-1.1.4 (14 Aug 2012)
+
+  14 Aug 2012; James Rowe <jnrowe@gmail.com> +pyScss-1.1.4.ebuild:
+  Version bump [649].
+
   08 Apr 2012; James Rowe <jnrowe@gmail.com> pyscss-1.1.3.ebuild:
   Use distutils.eclass via jnrowe-pypi.
 
