@@ -400,6 +400,14 @@
 
   * `0.7.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pdbpp/pdbpp-0.7.2.ebuild>`__  ``amd64``, ``x86``
 
+* ``pep257`` - http://pypi.python.org/pypi/pep257/
+
+ * Python docstring style checker
+ * Licence: ``MIT``
+ * Versions:
+
+  * `0.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep257/pep257-0.2.0.ebuild>`__  ``~amd64`` (due 2012-09-13)
+
 * ``pgmagick`` - http://pypi.python.org/pypi/pgmagick/
 
  * Yet Another Python wrapper for GraphicsMagick
