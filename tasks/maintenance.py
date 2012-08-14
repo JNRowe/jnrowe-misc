@@ -90,7 +90,7 @@ def open_bug(title, body, labels):
     open_issue(data)
 
 
-@APP.cmd
+@APP.cmd(name='bump-pkg')
 @APP.cmd_arg('cpv', help='fully qualified package identifier')
 def bump_pkg(cpv):
     """open a version bump bug"""
