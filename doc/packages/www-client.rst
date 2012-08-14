@@ -15,5 +15,5 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.8.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/httpshell/httpshell-0.8.0.ebuild>`__  ``~amd64`` (due 2012-08-14), ``~x86`` (due 2012-10-13)
+  * `0.8.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/httpshell/httpshell-0.8.0.ebuild>`__  ``~amd64`` (due 2012-09-28), ``~x86`` (due 2012-10-13)
 
