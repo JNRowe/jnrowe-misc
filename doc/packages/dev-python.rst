@@ -162,7 +162,7 @@
  * Versions:
 
   * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/expecter/expecter-0.2.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/expecter/expecter-0.2.2.ebuild>`__  ``~amd64`` (due 2012-08-19), ``~x86`` (due 2012-08-19)
+  * `0.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/expecter/expecter-0.2.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-08-19)
 
 * ``fabulous`` - http://lobstertech.com/fabulous.html
 
@@ -366,7 +366,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.1.ebuild>`__  ``~amd64`` (due 2012-08-17), ``~x86`` (due 2012-10-16)
+  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-10-16)
 
 * ``nose2-cov`` - http://pypi.python.org/pypi/nose2-cov/
 
@@ -374,7 +374,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0_alpha4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2-cov/nose2-cov-1.0_alpha4.ebuild>`__  ``~amd64`` (due 2012-08-17), ``~x86`` (due 2012-10-16)
+  * `1.0_alpha4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2-cov/nose2-cov-1.0_alpha4.ebuild>`__  ``amd64``, ``~x86`` (due 2012-10-16)
 
 * ``nosetty`` - http://code.google.com/p/nosetty/
 
