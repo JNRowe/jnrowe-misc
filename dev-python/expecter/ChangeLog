@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  19 Aug 2012; James Rowe <jnrowe@gmail.com> -expecter-0.2.1.ebuild,
+  expecter-0.2.2.ebuild:
+  Keyworded x86.
+
   19 Aug 2012; James Rowe <jnrowe@gmail.com> expecter-0.2.2.ebuild:
   Keyworded amd64.
 
