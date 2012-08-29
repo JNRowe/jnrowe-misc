@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  29 Aug 2012; James Rowe <jnrowe@gmail.com> blockdiag-1.1.6.ebuild:
+  Keyworded amd64.
+
   16 Jul 2012; James Rowe <jnrowe@gmail.com> -blockdiag-1.1.5.ebuild:
   1.1.6 will be available for stabilisation before 1.1.5 is tested again.
 
