@@ -603,8 +603,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.3.1.ebuild>`__  ``amd64``, ``x86``
-  * `1.4.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.4.0.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
+  * `1.4.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.4.0.ebuild>`__  ``~amd64`` (due 2012-08-30), ``x86``
 
 * ``sure`` - http://pypi.python.org/pypi/sure/
 
