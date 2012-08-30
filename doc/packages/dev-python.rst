@@ -302,7 +302,7 @@
  * Versions:
 
   * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.6.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
+  * `0.2.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.6.ebuild>`__  ``amd64``, ``~x86`` (due 2012-08-30)
 
 * ``micromodels`` - http://pypi.python.org/pypi/micromodels/
 
