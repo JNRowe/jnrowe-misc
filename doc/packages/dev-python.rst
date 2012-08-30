@@ -88,7 +88,7 @@
  * Versions:
 
   * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.4.ebuild>`__  ``amd64``, ``x86``
-  * `1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.5.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
+  * `1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.5.ebuild>`__  ``amd64``, ``~x86`` (due 2012-08-30)
 
 * ``calabash`` - http://pypi.python.org/pypi/calabash/
 
@@ -137,7 +137,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.4.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
+  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.4.ebuild>`__  ``amd64``, ``~x86`` (due 2012-08-30)
 
 * ``doctest-tools`` - http://code.google.com/p/doctest-tools/
 
@@ -186,7 +186,7 @@
  * Versions:
 
   * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/feedcache/feedcache-1.4.ebuild>`__  ``amd64``, ``x86``
-  * `1.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/feedcache/feedcache-1.4.1.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
+  * `1.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/feedcache/feedcache-1.4.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-08-30)
 
 * ``flake8`` - http://pypi.python.org/pypi/flake8/
 
@@ -195,7 +195,7 @@
  * Versions:
 
   * `1.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.3.1.ebuild>`__  ``amd64``, ``x86``
-  * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.4.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
+  * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.4.ebuild>`__  ``amd64``, ``~x86`` (due 2012-08-30)
 
 * ``freshen`` - https://github.com/rlisagor/freshen
 
@@ -228,7 +228,7 @@
  * Versions:
 
   * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/genzshcomp/genzshcomp-0.3.ebuild>`__  ``amd64``, ``x86``
-  * `0.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/genzshcomp/genzshcomp-0.3.1.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
+  * `0.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/genzshcomp/genzshcomp-0.3.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-08-30)
 
 * ``gpxdata`` - http://www.kette-links.de/technik/
 
@@ -276,7 +276,7 @@
  * Licence: ``PSF-2.4``
  * Versions:
 
-  * `1.0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/importlib/importlib-1.0.2.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
+  * `1.0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/importlib/importlib-1.0.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-08-30)
 
 * ``interlude`` - https://svn.bluedynamics.eu/svn/public/interlude/
 
@@ -292,7 +292,7 @@
  * Licence: ``LGPL-2.1``
  * Versions:
 
-  * `1.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/kitchen/kitchen-1.1.1.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
+  * `1.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/kitchen/kitchen-1.1.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-08-30)
 
 * ``lettuce`` - http://lettuce.it/
 
@@ -301,7 +301,7 @@
  * Versions:
 
   * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.6.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
+  * `0.2.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.6.ebuild>`__  ``amd64``, ``~x86`` (due 2012-08-30)
 
 * ``micromodels`` - http://pypi.python.org/pypi/micromodels/
 
@@ -414,7 +414,7 @@
  * Versions:
 
   * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.5.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.5.3.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
+  * `0.5.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.5.3.ebuild>`__  ``amd64``, ``~x86`` (due 2012-08-30)
 
 * ``pinocchio`` - http://darcs.idyll.org/~t/projects/pinocchio/doc/
 
@@ -439,7 +439,7 @@
  * Versions:
 
   * `0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/prettytable/prettytable-0.6.ebuild>`__  ``amd64``, ``x86``
-  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/prettytable/prettytable-0.6.1.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
+  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/prettytable/prettytable-0.6.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-08-30)
 
 * ``pwtools`` - http://alastairs-place.net/projects/pwtools/
 
@@ -609,7 +609,7 @@
  * Versions:
 
   * `1.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.3.1.ebuild>`__  ``amd64``, ``x86``
-  * `1.4.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.4.0.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
+  * `1.4.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.4.0.ebuild>`__  ``amd64``, ``~x86`` (due 2012-08-30)
 
 * ``sure`` - http://pypi.python.org/pypi/sure/
 
@@ -618,7 +618,7 @@
  * Versions:
 
   * `0.10.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.10.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.10.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.10.4.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
+  * `0.10.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.10.4.ebuild>`__  ``amd64``, ``~x86`` (due 2012-08-30)
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
@@ -658,7 +658,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.10 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.10.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
+  * `1.10 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.10.ebuild>`__  ``amd64``, ``~x86`` (due 2012-08-30)
   * `1.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.9.ebuild>`__  ``amd64``, ``x86``
 
 * ``upoints`` - https://github.com/JNRowe/upoints/

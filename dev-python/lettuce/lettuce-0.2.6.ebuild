@@ -13,7 +13,7 @@ HOMEPAGE="http://${PN}.it/"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE=""
 
 # setuptools is required in RDEPEND for entry points

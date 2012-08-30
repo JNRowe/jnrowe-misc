@@ -11,7 +11,7 @@ DESCRIPTION="Wrapper for the Universal Feed Parser which caches the results"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE="doc"
 
 DEPEND="doc? ( dev-python/sphinx )"
