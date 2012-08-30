@@ -273,7 +273,7 @@
  * Licence: ``PSF-2.4``
  * Versions:
 
-  * `1.0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/importlib/importlib-1.0.2.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
+  * `1.0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/importlib/importlib-1.0.2.ebuild>`__  ``~amd64`` (due 2012-08-30), ``x86``
 
 * ``interlude`` - https://svn.bluedynamics.eu/svn/public/interlude/
 

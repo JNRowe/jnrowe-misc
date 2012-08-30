@@ -9,7 +9,6 @@ REM 2012-08-30 *1 MSG %"Stabilise amd64 dev-python/pgmagick-0.5.3%" %a
 REM 2012-08-30 *1 MSG %"Stabilise amd64 app-misc/pw-0.1.5%" %a
 REM 2012-08-30 *1 MSG %"Stabilise amd64 media-gfx/sphinxcontrib-blockdiag-1.1.2%" %a
 REM 2012-08-30 *1 MSG %"Stabilise amd64 dev-python/importlib-1.0.2%" %a
-REM 2012-08-30 *1 MSG %"Stabilise x86 dev-python/importlib-1.0.2%" %a
 REM 2012-08-30 *1 MSG %"Stabilise amd64 dev-python/straight-plugin-1.4.0%" %a
 REM 2012-08-30 *1 MSG %"Stabilise x86 dev-python/straight-plugin-1.4.0%" %a
 REM 2012-08-30 *1 MSG %"Stabilise amd64 dev-python/sure-0.10.4%" %a
