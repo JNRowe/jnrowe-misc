@@ -610,7 +610,7 @@
  * Versions:
 
   * `0.10.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.10.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.10.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.10.4.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
+  * `0.10.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.10.4.ebuild>`__  ``amd64``, ``~x86`` (due 2012-08-30)
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
@@ -650,7 +650,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.10 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.10.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
+  * `1.10 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.10.ebuild>`__  ``amd64``, ``~x86`` (due 2012-08-30)
   * `1.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.9.ebuild>`__  ``amd64``, ``x86``
 
 * ``upoints`` - https://github.com/JNRowe/upoints/
