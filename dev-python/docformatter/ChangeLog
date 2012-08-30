@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  30 Aug 2012; James Rowe <jnrowe@gmail.com> docformatter-0.2.4.ebuild:
+  Keyworded x86.
+
 *docformatter-0.2.4 (31 Jul 2012)
 
   31 Jul 2012; James Rowe <jnrowe@gmail.com> +docformatter-0.2.4.ebuild,
