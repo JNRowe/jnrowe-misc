@@ -13,7 +13,7 @@ DESCRIPTION="Backport of importlib.import_module() from Python 2.7"
 
 LICENSE="PSF-2.4"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND=""

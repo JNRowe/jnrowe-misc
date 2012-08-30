@@ -6,6 +6,9 @@
   sphinxcontrib-blockdiag-1.1.2.ebuild:
   Keyworded amd64.
 
+  -sphinxcontrib-blockdiag-1.1.1.ebuild, sphinxcontrib-blockdiag-1.1.2.ebuild:
+  Keyworded x86.
+
 *sphinxcontrib-blockdiag-1.1.2 (31 Jul 2012)
 
   31 Jul 2012; James Rowe <jnrowe@gmail.com>

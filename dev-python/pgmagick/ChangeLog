@@ -5,6 +5,10 @@
   30 Aug 2012; James Rowe <jnrowe@gmail.com> pgmagick-0.5.3.ebuild:
   Keyworded amd64.
 
+  30 Aug 2012; James Rowe <jnrowe@gmail.com> -pgmagick-0.5.1.ebuild,
+  pgmagick-0.5.3.ebuild:
+  Keyworded x86.
+
 *pgmagick-0.5.3 (31 Jul 2012)
 
   31 Jul 2012; James Rowe <jnrowe@gmail.com> +pgmagick-0.5.3.ebuild:

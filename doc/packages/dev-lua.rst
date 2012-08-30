@@ -15,6 +15,5 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `5.1.19 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-lua/luaposix/luaposix-5.1.19.ebuild>`__  ``amd64``, ``x86``
-  * `5.1.20 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-lua/luaposix/luaposix-5.1.20.ebuild>`__  ``amd64``, ``~x86`` (due 2012-08-30)
+  * `5.1.20 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-lua/luaposix/luaposix-5.1.20.ebuild>`__  ``amd64``, ``x86``
 

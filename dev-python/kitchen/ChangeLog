@@ -5,6 +5,8 @@
   30 Aug 2012; James Rowe <jnrowe@gmail.com> kitchen-1.1.1.ebuild:
   Keyworded amd64.
 
+  Keyworded x86.
+
 *kitchen-1.1.1 (31 Jul 2012)
 
   31 Jul 2012; James Rowe <jnrowe@gmail.com> +kitchen-1.1.1.ebuild,

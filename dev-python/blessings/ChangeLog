@@ -5,6 +5,10 @@
   30 Aug 2012; James Rowe <jnrowe@gmail.com> blessings-1.5.ebuild:
   Keyworded amd64.
 
+  30 Aug 2012; James Rowe <jnrowe@gmail.com> -blessings-1.4.ebuild,
+  blessings-1.5.ebuild:
+  Keyworded x86.
+
 *blessings-1.5 (31 Jul 2012)
 
   31 Jul 2012; James Rowe <jnrowe@gmail.com> +blessings-1.5.ebuild:

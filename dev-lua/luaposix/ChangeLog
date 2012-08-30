@@ -5,6 +5,10 @@
   30 Aug 2012; James Rowe <jnrowe@gmail.com> luaposix-5.1.20.ebuild:
   Keyworded amd64.
 
+  30 Aug 2012; James Rowe <jnrowe@gmail.com> -luaposix-5.1.19.ebuild,
+  luaposix-5.1.20.ebuild:
+  Keyworded x86.
+
 *luaposix-5.1.20 (31 Jul 2012)
 
   31 Jul 2012; James Rowe <jnrowe@gmail.com> +luaposix-5.1.20.ebuild:
