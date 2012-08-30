@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  30 Aug 2012; James Rowe <jnrowe@gmail.com> blockdiag-1.1.6.ebuild:
+  Remove test dependencies from DEPEND, to workaround portage stupidity.
+
   29 Aug 2012; James Rowe <jnrowe@gmail.com> -blockdiag-1.1.2.ebuild:
   Removing stale 1.1.2 ebuild.
 

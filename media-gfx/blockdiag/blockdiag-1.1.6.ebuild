@@ -26,11 +26,11 @@ IUSE="examples pdf test"
 # dev-python/imaging has to be in DEPEND, because of the automagic
 # foolishness that occurs in setup.py
 DEPEND="dev-python/setuptools
-	dev-python/imaging
-	test? (
-		dev-python/pep8
-		dev-python/reportlab
-	)"
+	dev-python/imaging"
+	#test? (
+	#	dev-python/pep8
+	#	dev-python/reportlab
+	#)
 RDEPEND="dev-python/funcparserlib
 	dev-python/imaging
 	dev-python/webcolors
