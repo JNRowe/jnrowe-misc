@@ -23,7 +23,7 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `1.1.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.1.6.ebuild>`__  ``amd64``, ``~x86`` (due 2012-10-13)
+  * `1.1.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.1.6.ebuild>`__  ``amd64``, ``x86``
 
 * ``gruffy`` - http://pypi.python.org/pypi/gruffy/
 

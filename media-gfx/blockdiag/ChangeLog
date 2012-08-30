@@ -3,6 +3,9 @@
 # $Header: $
 
   30 Aug 2012; James Rowe <jnrowe@gmail.com> blockdiag-1.1.6.ebuild:
+  Keyworded x86.
+
+  30 Aug 2012; James Rowe <jnrowe@gmail.com> blockdiag-1.1.6.ebuild:
   Remove test dependencies from DEPEND, to workaround portage stupidity.
 
   29 Aug 2012; James Rowe <jnrowe@gmail.com> -blockdiag-1.1.2.ebuild:
