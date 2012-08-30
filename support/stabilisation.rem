@@ -12,7 +12,6 @@ REM 2012-08-30 *1 MSG %"Stabilise x86 dev-python/importlib-1.0.2%" %a
 REM 2012-08-30 *1 MSG %"Stabilise x86 dev-python/straight-plugin-1.4.0%" %a
 REM 2012-08-30 *1 MSG %"Stabilise x86 dev-python/sure-0.10.4%" %a
 REM 2012-08-30 *1 MSG %"Stabilise x86 dev-python/tweepy-1.10%" %a
-REM 2012-08-30 *1 MSG %"Stabilise amd64 dev-python/docformatter-0.2.4%" %a
 REM 2012-08-30 *1 MSG %"Stabilise x86 dev-python/docformatter-0.2.4%" %a
 REM 2012-08-30 *1 MSG %"Stabilise amd64 dev-python/feedcache-1.4.1%" %a
 REM 2012-08-30 *1 MSG %"Stabilise x86 dev-python/feedcache-1.4.1%" %a
