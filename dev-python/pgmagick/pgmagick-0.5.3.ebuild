@@ -13,7 +13,7 @@ DESCRIPTION="Yet Another Python wrapper for GraphicsMagick"
 
 SLOT="0"
 LICENSE="MIT"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64 x86"
 IUSE=""
 
 RDEPEND="media-gfx/graphicsmagick
