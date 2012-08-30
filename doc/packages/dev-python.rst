@@ -432,7 +432,7 @@
  * Versions:
 
   * `0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/prettytable/prettytable-0.6.ebuild>`__  ``amd64``, ``x86``
-  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/prettytable/prettytable-0.6.1.ebuild>`__  ``~amd64`` (due 2012-08-30), ``~x86`` (due 2012-08-30)
+  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/prettytable/prettytable-0.6.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-08-30)
 
 * ``pwtools`` - http://alastairs-place.net/projects/pwtools/
 
