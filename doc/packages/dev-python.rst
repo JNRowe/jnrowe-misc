@@ -47,7 +47,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/aaargh/aaargh-0.3.ebuild>`__  ``amd64``, ``~x86`` (due 2012-09-07)
+  * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/aaargh/aaargh-0.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``argh`` - http://pypi.python.org/pypi/argh/
 
@@ -103,8 +103,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.3.ebuild>`__  ``amd64``, ``x86``
-  * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.4.ebuild>`__  ``amd64``, ``~x86`` (due 2012-09-07)
+  * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``colorama`` - http://pypi.python.org/pypi/colorama/
 
@@ -673,8 +672,7 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `1.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.1.2.ebuild>`__  ``amd64``, ``x86``
-  * `1.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-09-07)
+  * `1.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.2.ebuild>`__  ``amd64``, ``x86``
   * `1.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.3.ebuild>`__  ``~amd64`` (due 2012-09-13), ``~x86`` (due 2012-09-13)
 
 * ``webcolors`` - http://pypi.python.org/pypi/webcolors/
