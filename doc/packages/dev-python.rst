@@ -674,7 +674,7 @@
  * Versions:
 
   * `1.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.1.2.ebuild>`__  ``amd64``, ``x86``
-  * `1.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.2.ebuild>`__  ``~amd64`` (due 2012-09-07), ``~x86`` (due 2012-09-07)
+  * `1.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-09-07)
   * `1.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.3.ebuild>`__  ``~amd64`` (due 2012-09-13), ``~x86`` (due 2012-09-13)
 
 * ``webcolors`` - http://pypi.python.org/pypi/webcolors/
