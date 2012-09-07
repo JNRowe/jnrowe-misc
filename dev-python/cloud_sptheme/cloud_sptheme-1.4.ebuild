@@ -12,7 +12,7 @@ DESCRIPTION="A nice sphinx theme named 'Cloud', and some related extensions"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64 x86"
 IUSE="doc"
 
 RDEPEND=">=dev-python/sphinx-1.1"
