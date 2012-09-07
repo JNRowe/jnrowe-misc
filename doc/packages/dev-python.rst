@@ -47,7 +47,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/aaargh/aaargh-0.3.ebuild>`__  ``~amd64`` (due 2012-09-07), ``~x86`` (due 2012-09-07)
+  * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/aaargh/aaargh-0.3.ebuild>`__  ``amd64``, ``~x86`` (due 2012-09-07)
 
 * ``argh`` - http://pypi.python.org/pypi/argh/
 
