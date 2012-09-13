@@ -399,7 +399,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep257/pep257-0.2.0.ebuild>`__  ``amd64``, ``~x86`` (due 2012-09-13)
+  * `0.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep257/pep257-0.2.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``pgmagick`` - http://pypi.python.org/pypi/pgmagick/
 
@@ -447,8 +447,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyScss/pyScss-1.1.3.ebuild>`__  ``amd64``, ``x86``
-  * `1.1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyScss/pyScss-1.1.4.ebuild>`__  ``amd64``, ``~x86`` (due 2012-09-13)
+  * `1.1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyScss/pyScss-1.1.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``pycallgraph`` - http://pycallgraph.slowchop.com/
 
@@ -672,8 +671,7 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `1.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.2.ebuild>`__  ``amd64``, ``x86``
-  * `1.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.3.ebuild>`__  ``amd64``, ``~x86`` (due 2012-09-13)
+  * `1.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``webcolors`` - http://pypi.python.org/pypi/webcolors/
 
