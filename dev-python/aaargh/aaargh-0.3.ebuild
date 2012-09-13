@@ -11,7 +11,7 @@ DESCRIPTION="An astonishingly awesome application argument helper"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 RDEPEND="|| ( dev-python/argparse >=dev-lang/python-2.7 )"

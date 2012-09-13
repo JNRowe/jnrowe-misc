@@ -6,6 +6,9 @@
   cloud_sptheme-1.4.ebuild:
   Keyworded x86.
 
+  07 Sep 2012; James Rowe <jnrowe@gmail.com> cloud_sptheme-1.4.ebuild:
+  Keyworded amd64.
+
 *cloud_sptheme-1.4 (08 Aug 2012)
 
   08 Aug 2012; James Rowe <jnrowe@gmail.com> +cloud_sptheme-1.4.ebuild:
