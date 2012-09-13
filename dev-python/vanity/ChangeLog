@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  13 Sep 2012; James Rowe <jnrowe@gmail.com> vanity-1.2.3.ebuild:
+  Keyworded amd64.
+
   07 Sep 2012; James Rowe <jnrowe@gmail.com> -vanity-1.1.2.ebuild,
   vanity-1.2.2.ebuild:
   Keyworded x86.
