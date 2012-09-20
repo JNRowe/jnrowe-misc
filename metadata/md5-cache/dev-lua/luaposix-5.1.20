@@ -9,5 +9,5 @@ RDEPEND=>=dev-lang/lua-5.1
 RESTRICT=test
 SLOT=0
 SRC_URI=mirror://github/rrthomas/luaposix/luaposix-5.1.20.tar.gz
-_eclasses_=multilib	5782800349f728f725f9378105c6a2ab	toolchain-funcs	d3b5812eeab360bc41aa48b6cdbbc142
+_eclasses_=multilib	c2b85b5c63a44798c1e442147ac14c5c	toolchain-funcs	53a27e9e8acf42332c82a7838d84773f
 _md5_=4dcd7022e2b85af2d4429480e55d4524

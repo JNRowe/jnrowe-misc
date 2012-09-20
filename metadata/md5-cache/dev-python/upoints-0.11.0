@@ -8,5 +8,5 @@ LICENSE=GPL-3
 RDEPEND==dev-lang/python-2*
 SLOT=0
 SRC_URI=https://github.com/JNRowe/upoints/tarball/0.11.0 -> upoints-0.11.0.tar.gz
-_eclasses_=distutils	15ae23f6f8219a009bfcfff7724fe727	jnrowe-github	62d191d431628ee6e3a49eb2e9920c6f	multilib	5782800349f728f725f9378105c6a2ab	python	a0b470c1fca4658ffc97f0df0f25dcdc	toolchain-funcs	d3b5812eeab360bc41aa48b6cdbbc142	vcs-snapshot	07df4a337a309c0aa605525027917677
+_eclasses_=distutils	15ae23f6f8219a009bfcfff7724fe727	jnrowe-github	62d191d431628ee6e3a49eb2e9920c6f	multilib	c2b85b5c63a44798c1e442147ac14c5c	python	a0b470c1fca4658ffc97f0df0f25dcdc	toolchain-funcs	53a27e9e8acf42332c82a7838d84773f	vcs-snapshot	07df4a337a309c0aa605525027917677
 _md5_=67370de6eba864614ca4e20e2edf3339
