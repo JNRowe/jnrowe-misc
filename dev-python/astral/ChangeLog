@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*astral-0.6.2 (25 Sep 2012)
+
+  25 Sep 2012; James Rowe <jnrowe@gmail.com> +astral-0.6.2.ebuild:
+  Version bump.  No longer ships docs.
+
   29 Jun 2012; James Rowe <jnrowe@gmail.com> -astral-0.5.ebuild,
   astral-0.6.1.ebuild:
   Keyworded x86.
