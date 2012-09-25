@@ -8,6 +8,6 @@ LICENSE=MIT
 RDEPEND=>=dev-lang/lua-5.1
 RESTRICT=test
 SLOT=0
-SRC_URI=mirror://github/rrthomas/luaposix/luaposix-5.1.20.tar.gz
+SRC_URI=mirror://github/luaposix/luaposix/luaposix-5.1.20.tar.gz
 _eclasses_=multilib	c2b85b5c63a44798c1e442147ac14c5c	toolchain-funcs	53a27e9e8acf42332c82a7838d84773f
-_md5_=4dcd7022e2b85af2d4429480e55d4524
+_md5_=c8226b3b3d18d14cd66f7085229f8859

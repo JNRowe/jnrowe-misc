@@ -8,7 +8,7 @@ inherit multilib
 
 DESCRIPTION="POSIX function support library for lua"
 HOMEPAGE="http://wiki.alpinelinux.org/wiki/Luaposix"
-SRC_URI="mirror://github/rrthomas/${PN}/${P}.tar.gz"
+SRC_URI="mirror://github/${PN}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
