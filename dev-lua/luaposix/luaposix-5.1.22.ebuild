@@ -12,11 +12,12 @@ SRC_URI="mirror://github/${PN}/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=">=dev-lang/lua-5.1"
-RDEPEND="${DEPEND}"
+RDEPEND="${DEPEND}
+	dev-lua/LuaBitOp"
 
 # Tests are broken, and have unpackaged dependencies
 RESTRICT="test"

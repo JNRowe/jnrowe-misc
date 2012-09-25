@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst prepare test unpack
+DEPEND=dev-python/setuptools !<sys-apps/portage-2.1.10.58 python_targets_python2_7? ( dev-lang/python:2.7 )
+DESCRIPTION=Generate network-diagram images from spec-text file
+EAPI=4
+HOMEPAGE=http://pypi.python.org/pypi/nwdiag/
+IUSE=examples minimal python_targets_python2_7
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=dev-python/setuptools >=media-gfx/blockdiag-1.1.2 !minimal? ( dev-python/sphinx ) python_targets_python2_7? ( dev-lang/python:2.7 )
+REQUIRED_USE=|| ( python_targets_python2_7 )
+SLOT=0
+SRC_URI=mirror://pypi/n/nwdiag/nwdiag-0.8.1.tar.gz
+_eclasses_=base	d40e074a6349af3ea5e937210630bdc1	eutils	6e25eb368f2a449bd6f5f8b55eadba30	jnrowe-pypi	686cf6e0feaf26499041ad17392c3774	multilib	c2b85b5c63a44798c1e442147ac14c5c	python-distutils-ng	6786a3ab681bb2f21310183278f72e33	toolchain-funcs	53a27e9e8acf42332c82a7838d84773f	user	d0a4d0735a6c0183d707ca919bd72f28
+_md5_=e723e71e48f1092f9e03cdeeef5d0a7f

@@ -3,11 +3,11 @@ DEPEND=>=dev-lang/lua-5.1
 DESCRIPTION=POSIX function support library for lua
 EAPI=4
 HOMEPAGE=http://wiki.alpinelinux.org/wiki/Luaposix
-KEYWORDS=amd64 x86
+KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-RDEPEND=>=dev-lang/lua-5.1
+RDEPEND=>=dev-lang/lua-5.1 dev-lua/LuaBitOp
 RESTRICT=test
 SLOT=0
-SRC_URI=mirror://github/luaposix/luaposix/luaposix-5.1.20.tar.gz
+SRC_URI=mirror://github/luaposix/luaposix/luaposix-5.1.22.tar.gz
 _eclasses_=multilib	c2b85b5c63a44798c1e442147ac14c5c	toolchain-funcs	53a27e9e8acf42332c82a7838d84773f
-_md5_=c8226b3b3d18d14cd66f7085229f8859
+_md5_=a4e49a2b1414bb51f0fd4ba337dbac76
