@@ -122,6 +122,7 @@
  * Versions:
 
   * `1.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cov-core/cov-core-1.6.ebuild>`__  ``amd64``, ``x86``
+  * `1.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cov-core/cov-core-1.7.ebuild>`__  ``~amd64`` (due 2012-10-25), ``~x86`` (due 2012-10-25)
 
 * ``dexml`` - http://pypi.python.org/pypi/dexml/
 

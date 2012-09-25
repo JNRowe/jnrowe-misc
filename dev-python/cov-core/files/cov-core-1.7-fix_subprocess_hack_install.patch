@@ -1,0 +1,17 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Fix installation of pth files
+Status: LOCAL
+
+diff --git i/setup.py w/setup.py
+index 86550e1..2fb5b4f 100644
+--- i/setup.py
++++ w/setup.py
+@@ -50,7 +50,7 @@ if sys.argv[1] in ('install', 'develop'):
+         if (path.endswith('site-packages')) or (path.endswith('dist-packages') and 'local' in path):
+             path = os.path.join(path, PTH_FILE_NAME)
+             try:
+-                pth_file = open(path, 'w')
++                pth_file = open(os.environ['DESTDIR'] + path, 'w')
+                 pth_file.write(PTH_FILE)
+                 pth_file.close()
+                 sys.stdout.write('\nWrote pth file for subprocess measurement to %s\n' % path)
