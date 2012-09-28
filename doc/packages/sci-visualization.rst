@@ -12,7 +12,7 @@
 * ``cairoplot`` - https://launchpad.net/cairoplot
 
  * Cairo-based graph plotting module
- * Licence: ``LGPL-2.1``
+ * Licence: ``LGPL-2.1+``
  * Versions:
 
   * `1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/sci-visualization/cairoplot/cairoplot-1.1.ebuild>`__  ``amd64``, ``x86``
