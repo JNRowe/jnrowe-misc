@@ -488,7 +488,7 @@
 * ``pyisbn`` - http://pypi.python.org/pypi/pyisbn/
 
  * A module for working with 10- and 13-digit ISBNs
- * Licence: ``GPL-3``
+ * Licence: ``GPL-3+``
  * Versions:
 
   * `0.6.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyisbn/pyisbn-0.6.0.ebuild>`__  ``amd64``, ``x86``

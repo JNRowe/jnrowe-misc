@@ -9,7 +9,7 @@ inherit jnrowe-pypi
 
 DESCRIPTION="A module for working with 10- and 13-digit ISBNs"
 
-LICENSE="GPL-3"
+LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="doc"
