@@ -28,7 +28,7 @@
 * ``yalias`` - http://offog.org/code/
 
  * A simple content sensitive command launcher
- * Licence: ``GPL-2``
+ * Licence: ``GPL-2+``
  * Versions:
 
   * `0.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/x11-misc/yalias/yalias-0.7.ebuild>`__  ``amd64``, ``x86``
