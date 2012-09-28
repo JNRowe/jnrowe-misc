@@ -287,7 +287,7 @@
 * ``kitchen`` - http://pypi.python.org/pypi/kitchen/
 
  * Kitchen contains a cornucopia of useful code for Python
- * Licence: ``LGPL-2.1``
+ * Licence: ``GPL-2+ LGPL-2.1+``
  * Versions:
 
   * `1.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/kitchen/kitchen-1.1.1.ebuild>`__  ``amd64``, ``x86``
