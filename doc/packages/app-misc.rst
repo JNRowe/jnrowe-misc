@@ -36,7 +36,7 @@
 * ``libeatmydata`` - http://www.flamingspork.com/projects/libeatmydata/
 
  * Library that disables all forms of writing data safely to disk
- * Licence: ``GPL-3``
+ * Licence: ``GPL-3+``
  * Versions:
 
   * `26.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/libeatmydata/libeatmydata-26.2.ebuild>`__  ``amd64``, ``x86``
