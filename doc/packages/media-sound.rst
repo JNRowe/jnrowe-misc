@@ -4,7 +4,7 @@
 * ``castget`` - http://www.nongnu.org/castget/
 
  * A simple command-line based RSS enclosure downloader
- * Licence: ``LGPL-2.1``
+ * Licence: ``GPL-2+ LGPL-2.1+``
  * Versions:
 
   * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-sound/castget/castget-1.1.0.ebuild>`__  ``amd64``, ``x86``
