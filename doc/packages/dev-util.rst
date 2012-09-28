@@ -12,7 +12,7 @@
 * ``ccontrol`` - http://ccontrol.ozlabs.org/
 
  * Utility to manage ccache and distcc
- * Licence: ``GPL-2``
+ * Licence: ``GPL-2+``
  * Versions:
 
   * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/ccontrol/ccontrol-1.0.ebuild>`__  ``amd64``, ``x86``
