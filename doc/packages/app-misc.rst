@@ -12,7 +12,7 @@
 * ``asciiquarium`` - http://www.robobunny.com/projects/asciiquarium/html/
 
  * Enjoy the mysteries of the sea from the safety of your own terminal
- * Licence: ``GPL-2``
+ * Licence: ``GPL-2+``
  * Versions:
 
   * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/asciiquarium/asciiquarium-1.0.ebuild>`__  ``amd64``, ``x86``
