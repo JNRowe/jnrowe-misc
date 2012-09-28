@@ -199,7 +199,7 @@
 * ``freshen`` - https://github.com/rlisagor/freshen
 
  * Clone of the Cucumber BDD framework for Python
- * Licence: ``LGPL-3``
+ * Licence: ``GPL-3+``
  * Versions:
 
   * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/freshen/freshen-0.2.ebuild>`__  ``amd64``, ``x86``
