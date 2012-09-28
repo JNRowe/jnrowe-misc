@@ -659,7 +659,7 @@
 * ``upoints`` - https://github.com/JNRowe/upoints/
 
  * Modules for working with points on Earth
- * Licence: ``GPL-3``
+ * Licence: ``GPL-3+``
  * Versions:
 
   * `0.11.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/upoints/upoints-0.11.0.ebuild>`__  ``amd64``, ``x86``
