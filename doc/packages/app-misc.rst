@@ -77,7 +77,7 @@
 * ``termdebug`` - http://os.ghalkes.nl/termdebug.html
 
  * Utilities to record and replay a terminal program session
- * Licence: ``GPL-3``
+ * Licence: ``GPL-3+``
  * Versions:
 
   * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/termdebug/termdebug-1.2.ebuild>`__  ``amd64``, ``x86``
