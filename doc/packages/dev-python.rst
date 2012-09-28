@@ -512,7 +512,7 @@
 * ``python-osmgpsmap`` - http://nzjrs.github.com/osm-gps-map/
 
  * Python bindings for osm-gps-map
- * Licence: ``GPL-3``
+ * Licence: ``GPL-3+``
  * Versions:
 
   * `0.7.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/python-osmgpsmap/python-osmgpsmap-0.7.3.ebuild>`__  ``amd64``, ``x86``
