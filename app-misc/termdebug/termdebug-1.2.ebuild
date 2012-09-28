@@ -16,7 +16,7 @@ KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="virtual/pkgconfig"
-RDEPEND="${DEPEND}"
+RDEPEND=""
 
 PATCHES=("${FILESDIR}"/${P}-manual_doc_install.patch)
 
