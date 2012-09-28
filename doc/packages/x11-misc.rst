@@ -4,7 +4,7 @@
 * ``gselt`` - http://offog.org/code/gselt.html
 
  * Watches the X selection and displays context sensitive actions
- * Licence: ``GPL-2``
+ * Licence: ``GPL-2+``
  * Versions:
 
   * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/x11-misc/gselt/gselt-1.2.ebuild>`__  ``amd64``, ``x86``
