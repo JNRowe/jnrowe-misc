@@ -69,7 +69,7 @@
 * ``sunwait`` - http://www.risacher.org/sunwait/
 
  * Tool for calculating sunrise and sunset, and sleeping until such an event
- * Licence: ``GPL-2``
+ * Licence: ``GPL-2+``
  * Versions:
 
   * `20041208 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/sunwait/sunwait-20041208.ebuild>`__  ``amd64``, ``x86``
