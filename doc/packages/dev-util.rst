@@ -36,7 +36,7 @@
 * ``metrics`` - http://pypi.python.org/pypi/metrics/
 
  * Produces metrics for C, C++, Javascript, and Python programs
- * Licence: ``GPL-2``
+ * Licence: ``LGPL-2.1``
  * Versions:
 
   * `0.1_alpha3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/metrics/metrics-0.1_alpha3.ebuild>`__  ``amd64``, ``x86``
