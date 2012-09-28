@@ -456,7 +456,7 @@
 * ``pycallgraph`` - http://pycallgraph.slowchop.com/
 
  * Use GraphViz to generate call graphs from your Python code
- * Licence: ``GPL-2``
+ * Licence: ``GPL-2+``
  * Versions:
 
   * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycallgraph/pycallgraph-0.5.1.ebuild>`__  ``amd64``, ``x86``
