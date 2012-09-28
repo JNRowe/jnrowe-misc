@@ -12,7 +12,7 @@
 * ``winmatch`` - no upstream
 
  * A simple window matching utility, like devilspie
- * Licence: ``GPL-2``
+ * Licence: ``GPL-2+``
  * Versions:
 
   * `0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/x11-misc/winmatch/winmatch-0.5.ebuild>`__  ``amd64``, ``x86``
