@@ -85,7 +85,7 @@
 * ``tudu`` - http://code.meskio.net/tudu/
 
  * TuDu is a comand line interface to manage hierarchical todos.
- * Licence: ``GPL-3``
+ * Licence: ``GPL-3+``
  * Versions:
 
   * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/tudu/tudu-0.8.1.ebuild>`__  ``amd64``, ``x86``
