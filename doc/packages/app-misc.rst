@@ -53,7 +53,7 @@
 * ``pytrainer`` - https://github.com/pytrainer/pytrainer
 
  * A tool to log and analyse your exercise regime
- * Licence: ``GPL-2``
+ * Licence: ``GPL-2+``
  * Versions:
 
   * `1.9.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pytrainer/pytrainer-1.9.1.ebuild>`__  ``~amd64`` (due 2012-10-11), ``~x86`` (due 2012-12-25)
