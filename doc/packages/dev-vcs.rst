@@ -4,7 +4,7 @@
 * ``blame`` - http://blame.sourceforge.net/
 
  * Annotates RCS files in a style similar to CVS's annotate command
- * Licence: ``GPL-2``
+ * Licence: ``GPL-2+``
  * Versions:
 
   * `1.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/blame/blame-1.3.1.ebuild>`__  ``amd64``, ``x86``
@@ -29,7 +29,7 @@
 * ``pepper`` - http://scm-pepper.sourceforge.net/
 
  * Retrieve statistics and generate reports from source code repositories
- * Licence: ``GPL-3``
+ * Licence: ``GPL-3+``
  * Versions:
 
   * `0.3.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/pepper/pepper-0.3.2.ebuild>`__  ``amd64``, ``x86``

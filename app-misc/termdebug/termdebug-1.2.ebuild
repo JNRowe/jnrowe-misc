@@ -10,7 +10,7 @@ DESCRIPTION="Utilities to record and replay a terminal program session"
 HOMEPAGE="http://os.ghalkes.nl/${PN}.html"
 SRC_URI="http://os.ghalkes.nl/dist/${P}.tgz"
 
-LICENSE="GPL-3"
+LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""

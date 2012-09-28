@@ -5,10 +5,10 @@ EAPI=4
 HOMEPAGE=http://pypi.python.org/pypi/hubugs/
 IUSE=doc test python_targets_python2_6 python_targets_python2_7
 KEYWORDS=~amd64 ~x86
-LICENSE=GPL-3
+LICENSE=GPL-3+
 RDEPEND=dev-python/setuptools dev-python/argh dev-python/blessings dev-python/html2text >=dev-python/httplib2-0.7.4 dev-python/jinja dev-python/micromodels dev-python/pygments python_targets_python2_6? ( dev-lang/python:2.6 ) python_targets_python2_7? ( dev-lang/python:2.7 )
 REQUIRED_USE=|| ( python_targets_python2_6 python_targets_python2_7 )
 SLOT=0
 SRC_URI=mirror://pypi/h/hubugs/hubugs-0.14.0.tar.gz
 _eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	f6eb5ff7b97c845050d7d54f4a2eac07	jnrowe-pypi	686cf6e0feaf26499041ad17392c3774	multilib	c2b85b5c63a44798c1e442147ac14c5c	python-distutils-ng	3e9b44e207485638f0e2b21c6749bf7e	toolchain-funcs	5854b2d3aad3a0952e435fad0e557020	user	d0a4d0735a6c0183d707ca919bd72f28
-_md5_=5018bc9ba30efa779e6873b264471670
+_md5_=70ae997aadaab0e64a9785925f336aab

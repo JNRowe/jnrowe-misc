@@ -9,7 +9,7 @@ HOMEPAGE="http://www.robobunny.com/projects/${PN}/html/"
 SRC_URI="http://www.robobunny.com/projects/asciiquarium/asciiquarium.tar.gz
 	-> ${P}.tar.gz"
 
-LICENSE="GPL-2"
+LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""

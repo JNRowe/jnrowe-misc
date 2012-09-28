@@ -12,7 +12,7 @@
 * ``asciiquarium`` - http://www.robobunny.com/projects/asciiquarium/html/
 
  * Enjoy the mysteries of the sea from the safety of your own terminal
- * Licence: ``GPL-2``
+ * Licence: ``GPL-2+``
  * Versions:
 
   * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/asciiquarium/asciiquarium-1.0.ebuild>`__  ``amd64``, ``x86``
@@ -20,7 +20,7 @@
 * ``hubugs`` - http://pypi.python.org/pypi/hubugs/
 
  * Simple client for GitHub issues
- * Licence: ``GPL-3``
+ * Licence: ``GPL-3+``
  * Versions:
 
   * `0.14.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.14.0.ebuild>`__  ``~amd64`` (due 2012-09-29), ``~x86`` (due 2012-10-29)
@@ -36,7 +36,7 @@
 * ``libeatmydata`` - http://www.flamingspork.com/projects/libeatmydata/
 
  * Library that disables all forms of writing data safely to disk
- * Licence: ``GPL-3``
+ * Licence: ``GPL-3+``
  * Versions:
 
   * `26.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/libeatmydata/libeatmydata-26.2.ebuild>`__  ``amd64``, ``x86``
@@ -53,7 +53,7 @@
 * ``pytrainer`` - https://github.com/pytrainer/pytrainer
 
  * A tool to log and analyse your exercise regime
- * Licence: ``GPL-2``
+ * Licence: ``GPL-2+``
  * Versions:
 
   * `1.9.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pytrainer/pytrainer-1.9.1.ebuild>`__  ``~amd64`` (due 2012-10-11), ``~x86`` (due 2012-12-25)
@@ -69,7 +69,7 @@
 * ``sunwait`` - http://www.risacher.org/sunwait/
 
  * Tool for calculating sunrise and sunset, and sleeping until such an event
- * Licence: ``GPL-2``
+ * Licence: ``GPL-2+``
  * Versions:
 
   * `20041208 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/sunwait/sunwait-20041208.ebuild>`__  ``amd64``, ``x86``
@@ -77,7 +77,7 @@
 * ``termdebug`` - http://os.ghalkes.nl/termdebug.html
 
  * Utilities to record and replay a terminal program session
- * Licence: ``GPL-3``
+ * Licence: ``GPL-3+``
  * Versions:
 
   * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/termdebug/termdebug-1.2.ebuild>`__  ``amd64``, ``x86``
@@ -85,7 +85,7 @@
 * ``tudu`` - http://code.meskio.net/tudu/
 
  * TuDu is a comand line interface to manage hierarchical todos.
- * Licence: ``GPL-3``
+ * Licence: ``GPL-3+``
  * Versions:
 
   * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/tudu/tudu-0.8.1.ebuild>`__  ``amd64``, ``x86``

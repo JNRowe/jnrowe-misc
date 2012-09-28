@@ -10,7 +10,7 @@ DESCRIPTION="A simple content sensitive command launcher"
 HOMEPAGE="http://offog.org/code/"
 SRC_URI="http://offog.org/files/${P}.tar.gz"
 
-LICENSE="GPL-2"
+LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""

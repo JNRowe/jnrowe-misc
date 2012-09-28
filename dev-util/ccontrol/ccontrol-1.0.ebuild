@@ -10,7 +10,7 @@ DESCRIPTION="Utility to manage ccache and distcc"
 HOMEPAGE="http://${PN}.ozlabs.org/"
 SRC_URI="${HOMEPAGE}/releases/${P}.tar.bz2"
 
-LICENSE="GPL-2"
+LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="gtk test"
