@@ -12,7 +12,7 @@
 * ``mpdcron`` - http://alip.github.com/mpdcron/
 
  * A hook daemon for mpd, it polls mpd and runs hooks on events
- * Licence: ``GPL-2``
+ * Licence: ``GPL-2+``
  * Versions:
 
   * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-sound/mpdcron/mpdcron-0.3.ebuild>`__  ``amd64``, ``x86``
