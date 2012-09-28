@@ -675,7 +675,7 @@
 * ``vanity`` - http://pypi.python.org/pypi/vanity/
 
  * Easy access to PyPI download stats
- * Licence: ``GPL-2``
+ * Licence: ``GPL-2+``
  * Versions:
 
   * `1.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.3.ebuild>`__  ``amd64``, ``x86``
