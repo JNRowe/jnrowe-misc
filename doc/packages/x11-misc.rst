@@ -20,7 +20,7 @@
 * ``winwrangler`` - https://launchpad.net/winwrangler
 
  * WM agnostic tool to perform window tiling
- * Licence: ``LGPL-3``
+ * Licence: ``LGPL-3+``
  * Versions:
 
   * `0.2.4-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/x11-misc/winwrangler/winwrangler-0.2.4-r1.ebuild>`__  ``amd64``, ``x86``

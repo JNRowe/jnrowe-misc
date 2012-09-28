@@ -11,7 +11,7 @@ DESCRIPTION="WM agnostic tool to perform window tiling"
 HOMEPAGE="https://launchpad.net/${PN}"
 SRC_URI="http://launchpad.net/${PN}/$(get_version_component_range -2)/${PV}/+download/${P}.tar.gz"
 
-LICENSE="LGPL-3"
+LICENSE="LGPL-3+"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="daemon"
