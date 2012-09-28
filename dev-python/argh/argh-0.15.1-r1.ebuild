@@ -11,7 +11,7 @@ inherit jnrowe-pypi
 
 DESCRIPTION="A simple argparse wrapper for an easier life"
 
-LICENSE="GPL-3"
+LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""
