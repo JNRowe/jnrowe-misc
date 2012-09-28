@@ -5,9 +5,9 @@ EAPI=4
 HOMEPAGE=http://jnrowe.github.com/cupage/
 IUSE=doc test
 KEYWORDS=amd64 x86
-LICENSE=GPL-3
+LICENSE=GPL-3+
 RDEPEND=dev-python/blessings dev-python/configobj dev-python/httplib2 dev-python/lxml || ( =dev-lang/python-2.7* =dev-lang/python-2.6* )
 SLOT=0
 SRC_URI=https://github.com/JNRowe/cupage/tarball/v0.7.0 -> cupage-0.7.0.tar.gz
-_eclasses_=base	d40e074a6349af3ea5e937210630bdc1	distutils	15ae23f6f8219a009bfcfff7724fe727	eutils	6e25eb368f2a449bd6f5f8b55eadba30	jnrowe-github	62d191d431628ee6e3a49eb2e9920c6f	multilib	c2b85b5c63a44798c1e442147ac14c5c	python	a0b470c1fca4658ffc97f0df0f25dcdc	toolchain-funcs	53a27e9e8acf42332c82a7838d84773f	user	d0a4d0735a6c0183d707ca919bd72f28	vcs-snapshot	07df4a337a309c0aa605525027917677
-_md5_=8bbb867d59131ec8c30c1ecfb4d7718f
+_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	distutils	15ae23f6f8219a009bfcfff7724fe727	eutils	f6eb5ff7b97c845050d7d54f4a2eac07	jnrowe-github	62d191d431628ee6e3a49eb2e9920c6f	multilib	c2b85b5c63a44798c1e442147ac14c5c	python	28966d5e48c30d472afcbe998dbdb14e	toolchain-funcs	5854b2d3aad3a0952e435fad0e557020	user	d0a4d0735a6c0183d707ca919bd72f28	vcs-snapshot	d7572a392e0bd8e207deae5414f6a887
+_md5_=02a61597acd212348061e3aada2ed899
