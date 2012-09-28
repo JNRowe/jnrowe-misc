@@ -4,7 +4,7 @@
 * ``blame`` - http://blame.sourceforge.net/
 
  * Annotates RCS files in a style similar to CVS's annotate command
- * Licence: ``GPL-2``
+ * Licence: ``GPL-2+``
  * Versions:
 
   * `1.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/blame/blame-1.3.1.ebuild>`__  ``amd64``, ``x86``
