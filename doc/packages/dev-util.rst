@@ -20,7 +20,7 @@
 * ``cram`` - http://bitheap.org/cram/
 
  * A simple testing framework for command line applications
- * Licence: ``GPL-2``
+ * Licence: ``GPL-2+``
  * Versions:
 
   * `0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/cram/cram-0.5.ebuild>`__  ``amd64``, ``x86``
