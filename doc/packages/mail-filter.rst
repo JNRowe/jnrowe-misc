@@ -4,7 +4,7 @@
 * ``maildirproc`` - http://joel.rosdahl.net/maildirproc/
 
  * maildir processor using Python as its configuration language
- * Licence: ``GPL-2``
+ * Licence: ``GPL-2+``
  * Versions:
 
   * `0.5.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/mail-filter/maildirproc/maildirproc-0.5.0.ebuild>`__  ``amd64``, ``x86``
