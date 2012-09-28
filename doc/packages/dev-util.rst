@@ -28,7 +28,7 @@
 * ``ditz`` - http://ditz.rubyforge.org
 
  * A simple, light-weight distributed issue tracker designed for dVCS
- * Licence: ``GPL-3``
+ * Licence: ``GPL-3+``
  * Versions:
 
   * `0.5-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/ditz/ditz-0.5-r1.ebuild>`__  ``~amd64`` (due 2012-11-12), ``~x86`` (due 2012-12-27)
