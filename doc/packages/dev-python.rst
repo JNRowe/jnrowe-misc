@@ -49,14 +49,6 @@
 
   * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/aaargh/aaargh-0.3.ebuild>`__  ``amd64``, ``x86``
 
-* ``argh`` - http://pypi.python.org/pypi/argh/
-
- * A simple argparse wrapper for an easier life
- * Licence: ``GPL-3+``
- * Versions:
-
-  * `0.15.1-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/argh/argh-0.15.1-r1.ebuild>`__  ``amd64``, ``x86``
-
 * ``astral`` - http://pypi.python.org/pypi/astral/
 
  * Calculations for the position of the sun and moon
