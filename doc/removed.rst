@@ -126,6 +126,19 @@ culled.
 ``dev-python``
 ~~~~~~~~~~~~~~
 
+``argh``
+''''''''
+
+    An ebuild is now available upstream, unfortunately the upgrade path is
+    currently unusable as it uses the bundled version of ``six``.
+
+    It will be maintained there until a usable upgrade path is available,
+    including matching keywords.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`b28c2424 <b28c24242727a87720acd0f51b7a71b6da53e41d>`
+:Removal date: 2012-10-06
+
 ``async``
 '''''''''
 

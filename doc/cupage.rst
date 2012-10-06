@@ -13,7 +13,7 @@ file :file:`support/cupage.conf`, and those entries are generated from the
 
 For packages hosted on one of the hosting sites supported by ``cupage`` a
 :file:`watch` file can be very simple [#]_.  For example, the :file:`watch` file
-for ``dev-python/argh`` contains only one line:
+for ``dev-python/aaargh`` contains only one line:
 
 .. code-block:: ini
 
