@@ -136,7 +136,7 @@ culled.
     including matching keywords.
 
 :Reason: Moved to ``::shadow``
-:Commit:
+:Commit: :commit:`b28c2424 <b28c24242727a87720acd0f51b7a71b6da53e41d>`
 :Removal date: 2012-10-06
 
 ``async``
