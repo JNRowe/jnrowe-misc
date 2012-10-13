@@ -391,6 +391,7 @@
  * Versions:
 
   * `1.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.4.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.5.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.5.2.ebuild>`__  ``~amd64`` (due 2012-11-13), ``~x86`` (due 2012-11-13)
 
 * ``pdbpp`` - http://pypi.python.org/pypi/pdbpp/
 
