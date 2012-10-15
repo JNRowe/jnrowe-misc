@@ -43,6 +43,7 @@ Bug reports
 * Dennis Bruce
 * Kristian Cole
 * Fabien Courtois
+* Stephen Cutts
 * Ed Lyle
 * anna ruda
 * Erin Sandusky
