@@ -14,7 +14,7 @@ DESCRIPTION="A simple testing framework for command line applications"
 HOMEPAGE="http://bitheap.org/${PN}/"
 SRC_URI="http://bitheap.org/cram/${P}.tar.gz"
 
-LICENSE="GPL-2"
+LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="examples vim-syntax"

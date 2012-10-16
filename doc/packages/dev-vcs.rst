@@ -4,7 +4,7 @@
 * ``blame`` - http://blame.sourceforge.net/
 
  * Annotates RCS files in a style similar to CVS's annotate command
- * Licence: ``GPL-2``
+ * Licence: ``GPL-2+``
  * Versions:
 
   * `1.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/blame/blame-1.3.1.ebuild>`__  ``amd64``, ``x86``
@@ -16,7 +16,7 @@
  * Versions:
 
   * `0.4.1-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/gitflow/gitflow-0.4.1-r1.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.1-r2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/gitflow/gitflow-0.4.1-r2.ebuild>`__  ``~amd64`` (due 2012-10-28), ``~x86`` (due 2012-10-13)
+  * `0.4.1-r2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/gitflow/gitflow-0.4.1-r2.ebuild>`__  ``~amd64`` (due 2012-10-28), ``~x86`` (due 2013-01-11)
 
 * ``gitserve`` - https://github.com/jezdez/git-serve/
 
@@ -29,7 +29,7 @@
 * ``pepper`` - http://scm-pepper.sourceforge.net/
 
  * Retrieve statistics and generate reports from source code repositories
- * Licence: ``GPL-3``
+ * Licence: ``GPL-3+``
  * Versions:
 
   * `0.3.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-vcs/pepper/pepper-0.3.2.ebuild>`__  ``amd64``, ``x86``

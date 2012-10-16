@@ -7,6 +7,9 @@
   13 Oct 2012; James Rowe <jnrowe@gmail.com> +tudu-0.8.2.ebuild:
   Version bump [678].
 
+  28 Sep 2012; James Rowe <jnrowe@gmail.com> tudu-0.8.1.ebuild:
+  Uses 'or any later version' GPL license.
+
   07 Apr 2012; James Rowe <jnrowe@gmail.com> tudu-0.8.1.ebuild, watch:
   Updated homepage, and watch file.
 

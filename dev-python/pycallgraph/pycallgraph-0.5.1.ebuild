@@ -12,7 +12,7 @@ DESCRIPTION="Use GraphViz to generate call graphs from your Python code"
 HOMEPAGE="http://${PN}.slowchop.com/"
 SRC_URI="http://pycallgraph.slowchop.com/files/download/${P}.tar.gz"
 
-LICENSE="GPL-2"
+LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="examples"

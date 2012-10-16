@@ -7,6 +7,9 @@
   13 Oct 2012; James Rowe <jnrowe@gmail.com> +cloud_sptheme-1.5.ebuild:
   Version bump [669].
 
+  28 Sep 2012; James Rowe <jnrowe@gmail.com> cloud_sptheme-1.4.ebuild:
+  doc missing from IUSE.
+
   07 Sep 2012; James Rowe <jnrowe@gmail.com> -cloud_sptheme-1.3.ebuild,
   cloud_sptheme-1.4.ebuild:
   Keyworded x86.

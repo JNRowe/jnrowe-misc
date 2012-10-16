@@ -12,7 +12,7 @@ inherit distutils gnome2
 DESCRIPTION="GNOME Applet for monitoring current and upcoming TV programs"
 HOMEPAGE="http://live.gnome.org/OnTV"
 
-LICENSE="GPL-2"
+LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="+xmltv"

@@ -49,14 +49,6 @@
 
   * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/aaargh/aaargh-0.3.ebuild>`__  ``amd64``, ``x86``
 
-* ``argh`` - http://pypi.python.org/pypi/argh/
-
- * A simple argparse wrapper for an easier life
- * Licence: ``GPL-3``
- * Versions:
-
-  * `0.15.1-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/argh/argh-0.15.1-r1.ebuild>`__  ``amd64``, ``x86``
-
 * ``astral`` - http://pypi.python.org/pypi/astral/
 
  * Calculations for the position of the sun and moon
@@ -202,7 +194,7 @@
 * ``freshen`` - https://github.com/rlisagor/freshen
 
  * Clone of the Cucumber BDD framework for Python
- * Licence: ``LGPL-3``
+ * Licence: ``GPL-3+``
  * Versions:
 
   * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/freshen/freshen-0.2.ebuild>`__  ``amd64``, ``x86``
@@ -290,7 +282,7 @@
 * ``kitchen`` - http://pypi.python.org/pypi/kitchen/
 
  * Kitchen contains a cornucopia of useful code for Python
- * Licence: ``LGPL-2.1``
+ * Licence: ``GPL-2+ LGPL-2.1+``
  * Versions:
 
   * `1.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/kitchen/kitchen-1.1.1.ebuild>`__  ``amd64``, ``x86``
@@ -366,7 +358,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-10-16)
+  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``nose2-cov`` - http://pypi.python.org/pypi/nose2-cov/
 
@@ -374,7 +366,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0_alpha4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2-cov/nose2-cov-1.0_alpha4.ebuild>`__  ``amd64``, ``~x86`` (due 2012-10-16)
+  * `1.0_alpha4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2-cov/nose2-cov-1.0_alpha4.ebuild>`__  ``amd64``, ``x86``
 
 * ``nosetty`` - http://code.google.com/p/nosetty/
 
@@ -460,7 +452,7 @@
 * ``pycallgraph`` - http://pycallgraph.slowchop.com/
 
  * Use GraphViz to generate call graphs from your Python code
- * Licence: ``GPL-2``
+ * Licence: ``GPL-2+``
  * Versions:
 
   * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycallgraph/pycallgraph-0.5.1.ebuild>`__  ``amd64``, ``x86``
@@ -492,7 +484,7 @@
 * ``pyisbn`` - http://pypi.python.org/pypi/pyisbn/
 
  * A module for working with 10- and 13-digit ISBNs
- * Licence: ``GPL-3``
+ * Licence: ``GPL-3+``
  * Versions:
 
   * `0.6.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyisbn/pyisbn-0.6.0.ebuild>`__  ``amd64``, ``x86``
@@ -516,7 +508,7 @@
 * ``python-osmgpsmap`` - http://nzjrs.github.com/osm-gps-map/
 
  * Python bindings for osm-gps-map
- * Licence: ``GPL-3``
+ * Licence: ``GPL-3+``
  * Versions:
 
   * `0.7.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/python-osmgpsmap/python-osmgpsmap-0.7.3.ebuild>`__  ``amd64``, ``x86``
@@ -535,7 +527,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2012-10-16), ``~x86`` (due 2012-10-31)
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2012-12-15), ``~x86`` (due 2012-10-31)
 
 * ``see`` - http://inky.github.com/see/
 
@@ -663,7 +655,7 @@
 * ``upoints`` - https://github.com/JNRowe/upoints/
 
  * Modules for working with points on Earth
- * Licence: ``GPL-3``
+ * Licence: ``GPL-3+``
  * Versions:
 
   * `0.11.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/upoints/upoints-0.11.0.ebuild>`__  ``amd64``, ``x86``
@@ -679,7 +671,7 @@
 * ``vanity`` - http://pypi.python.org/pypi/vanity/
 
  * Easy access to PyPI download stats
- * Licence: ``GPL-2``
+ * Licence: ``GPL-2+``
  * Versions:
 
   * `1.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.3.ebuild>`__  ``amd64``, ``x86``

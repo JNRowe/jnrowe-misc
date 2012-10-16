@@ -4,7 +4,7 @@ Content-Type: text/plain
 Posted: 2010-11-01
 Revision: 1
 News-Item-Format: 1.0
-Display-If-Installed: mail-filter/maildirproc-0.4.3
+Display-If-Installed: <=mail-filter/maildirproc-0.4.3
 
 mail-filter/maildirproc is for Python 3 only, if you wish to use Python
 2 with maildirproc install maildirproc-python2.
