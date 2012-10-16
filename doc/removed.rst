@@ -33,7 +33,7 @@ culled.
     will be maintained in ``::shadow`` for the foreseeable future.
 
 :Reason: Moved to ``::shadow``
-:Commit:
+:Commit: :commit:`a95b3182 <a95b31820bc8dc2c5a3be24359aedfb02cdefa2c>`
 :Removal date: 2012-10-16
 
 ``app-text``
