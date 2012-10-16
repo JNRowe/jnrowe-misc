@@ -8,6 +8,12 @@
 ``jnrowe-misc`` - Gentoo overlay
 =================================
 
+.. note::
+
+   This repository is heading in to maintenance mode.  The environments where
+   I can use Gentoo are dwindling, and at some point they will cease to exist.
+   No planned date yet, but it will come. [#]_
+
 ``jnrowe-misc`` is for packages that don't naturally fit in to one of my other
 themed overlays.  You'll find a large selection of Python_ packages, some tools
 to make working with git_ more fun and various other things I can't live
@@ -45,6 +51,11 @@ Indices and tables
 
 * :ref:`genindex`
 * :ref:`search`
+
+.. [#]
+   If you want to hear the many and varied reasons, ask me in person the next
+   time we meet at a conference.  It will cost you a beer or two, but you'll
+   be able to enjoy the relentless chadenfraude of my disappointment.
 
 .. _Python: http://python.org/
 .. _awesome: http://awesome.naquadah.org/

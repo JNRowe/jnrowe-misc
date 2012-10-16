@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  28 Sep 2012; James Rowe <jnrowe@gmail.com> blame-1.3.1.ebuild:
+  Uses 'or any later version' GPL license.
+
   14 Mar 2012; James Rowe <jnrowe@gmail.com> blame-1.3.1.ebuild:
   Use ${PN} in ${HOMEPAGE}.
 

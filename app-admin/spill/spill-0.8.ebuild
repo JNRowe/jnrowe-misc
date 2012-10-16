@@ -10,7 +10,7 @@ DESCRIPTION="Creates symlinks from one directory hierarchy to another(like stow)
 HOMEPAGE="http://www.rpcurnow.force9.co.uk/${PN}/"
 SRC_URI="${HOMEPAGE}/${P}.tar.gz"
 
-LICENSE="GPL-2"
+LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""

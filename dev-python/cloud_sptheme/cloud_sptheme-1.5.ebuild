@@ -12,15 +12,13 @@ DESCRIPTION="A nice sphinx theme named 'Cloud', and some related extensions"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="doc"
 
-RDEPEND="dev-python/sphinx"
+RDEPEND=">=dev-python/sphinx-1.1"
 DEPEND="doc? ( ${RDEPEND} )"
 
 DOCS="CHANGES README"
-
-PATCHES=("${FILESDIR}"/${P}-Python3_compatibility.patch)
 
 src_compile() {
 	python-distutils-ng_src_compile

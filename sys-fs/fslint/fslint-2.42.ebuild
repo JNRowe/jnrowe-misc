@@ -11,7 +11,7 @@ DESCRIPTION="Utilities to find file system lint(duplicate files, empty dirs, etc
 HOMEPAGE="http://www.pixelbeat.org/${PN}/"
 SRC_URI="http://www.pixelbeat.org/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-2"
+LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="nls"

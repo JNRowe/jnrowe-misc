@@ -3,6 +3,9 @@
 # $Header: $
 
   13 Sep 2012; James Rowe <jnrowe@gmail.com> pep257-0.2.0.ebuild:
+  Keyworded x86.
+
+  13 Sep 2012; James Rowe <jnrowe@gmail.com> pep257-0.2.0.ebuild:
   Keyworded amd64.
 
   14 Aug 2012; James Rowe <jnrowe@gmail.com> pep257-0.2.0.ebuild:

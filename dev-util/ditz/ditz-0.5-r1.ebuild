@@ -21,7 +21,7 @@ fi
 DESCRIPTION="A simple, light-weight distributed issue tracker designed for dVCS"
 HOMEPAGE="http://${PN}.rubyforge.org"
 
-LICENSE="GPL-3"
+LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""

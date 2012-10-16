@@ -19,6 +19,7 @@
 	</longdescription>
 	<upstream>
 		<remote-id type="pypi">dexml</remote-id>
+		<doc lang="en">http://packages.python.org/dexml</doc>
 		<bugs-to>https://github.com/rfk/dexml/issues</bugs-to>
 	</upstream>
 </pkgmetadata>

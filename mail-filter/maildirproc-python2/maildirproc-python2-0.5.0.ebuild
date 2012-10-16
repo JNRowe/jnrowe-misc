@@ -13,7 +13,7 @@ DESCRIPTION="maildir processor using Python as its configuration language"
 HOMEPAGE="http://joel.rosdahl.net/maildirproc/"
 SRC_URI="http://joel.rosdahl.net/maildirproc/releases/${P}.tar.bz2"
 
-LICENSE="GPL-2"
+LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="examples"

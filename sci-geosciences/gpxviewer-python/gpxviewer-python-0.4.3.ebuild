@@ -15,7 +15,7 @@ inherit base python-distutils-ng jnrowe-github
 DESCRIPTION="GPXViewer GPS trace viewer"
 HOMEPAGE="http://andrewgee.org/blog/projects/gpxviewer"
 
-LICENSE="GPL-3"
+LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""

@@ -1,6 +1,12 @@
 jnrowe-misc
 ===========
 
+.. note::
+
+   This repository is heading in to maintenance mode.  The environments where
+   I can use Gentoo are dwindling, and at some point they will cease to exist.
+   No planned date yet, but it will come.
+
 This repository is for packages that don't naturally fit in to my other themed
 overlays.
 
@@ -37,6 +43,7 @@ Bug reports
 * Dennis Bruce
 * Kristian Cole
 * Fabien Courtois
+* Stephen Cutts
 * Ed Lyle
 * anna ruda
 * Erin Sandusky

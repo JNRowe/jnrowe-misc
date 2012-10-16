@@ -8,7 +8,7 @@ DESCRIPTION="Watches the X selection and displays context sensitive actions"
 HOMEPAGE="http://offog.org/code/${PN}.html"
 SRC_URI="http://offog.org/files/${P}.tar.gz"
 
-LICENSE="GPL-2"
+LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""
