@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*seqdiag-0.7.5 (16 Oct 2012)
+
+  16 Oct 2012; James Rowe <jnrowe@gmail.com> +seqdiag-0.7.5.ebuild:
+  Version bump [677].
+
   31 Jul 2012; James Rowe <jnrowe@gmail.com> seqdiag-0.7.3.ebuild:
   Don't run python-distutils-ng_redoscript, as recent silent updates to
   python-distutils-ng now run it and break packages.

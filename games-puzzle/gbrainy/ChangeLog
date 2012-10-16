@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*gbrainy-2.1.5 (16 Oct 2012)
+
+  16 Oct 2012; James Rowe <jnrowe@gmail.com> +gbrainy-2.1.5.ebuild:
+  Version bump [671].
+
   28 Sep 2012; James Rowe <jnrowe@gmail.com> gbrainy-2.1.4.ebuild:
   Uses 'or any later version' GPL license.
 
