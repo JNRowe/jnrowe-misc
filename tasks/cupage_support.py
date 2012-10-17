@@ -3,12 +3,11 @@ import os
 from glob import glob
 from sys import exit
 
-from utils import (APP, dep, fail, success)
+from utils import (dep, fail, success)
 
 
-@APP.cmd(name='gen-cupage-conf')
-def gen_cupage_conf():
-    """generate a new cupage.conf file"""
+def gen_cupage_conf(args):
+    """Generate a new cupage.conf file."""
     dep(['support/cupage.conf', ], glob('*-*/*/watch'))
     with open('support/cupage.conf', 'w') as f:
         for category in sorted(glob('*-*')):
@@ -29,9 +28,8 @@ def gen_cupage_conf():
     print(success('cupage.conf generated!'))
 
 
-@APP.cmd(name='cupage-check')
-def cupage_check():
-    """make sure a watch file exists for each package"""
+def cupage_check(args):
+    """Make sure a watch file exists for each package."""
     failures = 0
     packages = glob('*-*/*')
     for package in packages:
