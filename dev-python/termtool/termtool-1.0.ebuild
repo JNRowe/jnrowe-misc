@@ -19,7 +19,7 @@ KEYWORDS="amd64 x86"
 IUSE="doc"
 
 DEPEND="doc? ( dev-python/sphinx )"
-RDEPEND="|| ( dev-python/argparse >=dev-lang/python-2.7 )
+RDEPEND="python_targets_python2_6? ( dev-python/argparse )
 	dev-python/prettytable
 	dev-python/progressbar"
 
