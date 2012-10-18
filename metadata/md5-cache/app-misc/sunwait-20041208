@@ -6,5 +6,5 @@ KEYWORDS=amd64 x86
 LICENSE=GPL-2+
 SLOT=0
 SRC_URI=http://www.risacher.org/sunwait/sunwait-20041208.tar.gz
-_eclasses_=multilib	c2b85b5c63a44798c1e442147ac14c5c	toolchain-funcs	134429b842a6c67254bfd76a8753e4d4
+_eclasses_=multilib	9aa8a023e062fca0ba79362d9d0cc488	toolchain-funcs	134429b842a6c67254bfd76a8753e4d4
 _md5_=30202a8c105a45b32d79af1431dc8d9d
