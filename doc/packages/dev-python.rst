@@ -531,6 +531,14 @@
 
   * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2012-12-15), ``~x86`` (due 2012-10-31)
 
+* ``schematics`` - http://pypi.python.org/pypi/schematics/
+
+ * Structured Data for Humans
+ * Licence: ``BSD``
+ * Versions:
+
+  * `0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/schematics/schematics-0.5.ebuild>`__  ``~amd64`` (due 2012-11-17), ``~x86`` (due 2012-11-17)
+
 * ``see`` - http://inky.github.com/see/
 
  * A human-readable alternative to Python's dir()
