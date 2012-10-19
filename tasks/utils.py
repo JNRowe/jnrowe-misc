@@ -1,5 +1,4 @@
 from functools import partial
-from inspect import stack
 from json import (dumps, loads)
 from os import path
 from re import search
@@ -14,8 +13,6 @@ except ImportError:
 
 
 CA_CERTS = '/etc/ssl/certs/ca-certificates.crt'
-
-APP = stack()[-1][0].f_globals['APP']
 
 T = blessings.Terminal()
 

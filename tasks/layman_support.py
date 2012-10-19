@@ -2,7 +2,7 @@ from StringIO import StringIO
 
 from lxml import etree
 
-from utils import (APP, CommandError, fail, success)
+from utils import (CommandError, fail, success)
 
 try:
     import httplib2
@@ -14,9 +14,8 @@ except ImportError:
     lxml = None  # NOQA
 
 
-@APP.cmd(name='layman-check')
-def layman_check():
-    """check basic layman config validity"""
+def layman_check(args):
+    """Check basic layman config validity."""
     dtd_loc = ('http://git.overlays.gentoo.org/gitweb/?'
                'p=proj/repositories-xml-format.git;a=blob_plain;'
                'f=schema/%s;hb=HEAD')

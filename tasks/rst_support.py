@@ -7,12 +7,11 @@ from sys import exit
 from docutils.core import publish_file
 from docutils.utils import SystemMessage
 
-from utils import (APP, dep, newer, success)
+from utils import (dep, newer, success)
 
 
-@APP.cmd(name='rst-check')
-def rst_check():
-    """check syntax of reST-formatted files"""
+def rst_check(args):
+    """Check syntax of reST-formatted files."""
     for file in glob('*.rst'):
         try:
             publish_file(open(file), destination=StringIO(),
@@ -22,9 +21,8 @@ def rst_check():
     print(success('All reST files pass!'))
 
 
-@APP.cmd(name='gen-html')
-def gen_html():
-    """generate HTML output"""
+def gen_html(args):
+    """Generate HTML output."""
     rst_files = glob('*.rst')
     dep(map(lambda s: s[:-4] + '.html', rst_files), rst_files, mapping=True)
     for file in glob('*.rst'):
@@ -40,9 +38,8 @@ def gen_html():
     print(success('All reST generated!'))
 
 
-@APP.cmd(name='gen-thanks')
-def gen_thanks():
-    """generate Sphinx contributor doc"""
+def gen_thanks(args):
+    """Generate Sphinx contributor doc."""
     dep(['doc/thanks.rst', ], ['README.rst'])
     data = open('README.rst').read()
     data = sub("\n('+)\n", lambda m: '\n' + "-" * len(m.groups()[0]) + '\n',
@@ -61,9 +58,8 @@ def gen_thanks():
     print(success('thanks.rst generated!'))
 
 
-@APP.cmd(name='gen-sphinx-html')
-def gen_sphinx_html():
-    """generate Sphinx HTML output"""
+def gen_sphinx_html(args):
+    """Generate Sphinx HTML output."""
     dep(['doc/.build/doctrees/environment.pickle', ],
         glob('doc/*.rst') + glob('doc/packages/*.rst'))
     check_call(['make', '-C', 'doc', 'html'])
