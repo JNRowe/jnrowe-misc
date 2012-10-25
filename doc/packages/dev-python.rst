@@ -56,8 +56,7 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.6.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.6.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.6.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-10-25)
+  * `0.6.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.6.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``atomize`` - http://pypi.python.org/pypi/atomize/
 
@@ -73,8 +72,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.1.0.ebuild>`__  ``amd64``, ``x86``
-  * `1.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.2.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-10-25)
+  * `1.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.2.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``blessings`` - http://pypi.python.org/pypi/blessings/
 
@@ -115,8 +113,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cov-core/cov-core-1.6.ebuild>`__  ``amd64``, ``x86``
-  * `1.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cov-core/cov-core-1.7.ebuild>`__  ``amd64``, ``~x86`` (due 2012-10-25)
+  * `1.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cov-core/cov-core-1.7.ebuild>`__  ``amd64``, ``x86``
 
 * ``dexml`` - http://pypi.python.org/pypi/dexml/
 
@@ -294,8 +291,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.6.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.9.ebuild>`__  ``amd64``, ``~x86`` (due 2012-10-25)
+  * `0.2.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.9.ebuild>`__  ``amd64``, ``x86``
 
 * ``micromodels`` - http://pypi.python.org/pypi/micromodels/
 
