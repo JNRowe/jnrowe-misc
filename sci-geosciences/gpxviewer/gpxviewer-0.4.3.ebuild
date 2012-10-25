@@ -5,12 +5,11 @@
 EAPI=4
 
 # 3.x is restricted due to lack of support in python-distutils-extra
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_5 python2_6 python2_7"
+PYTHON_COMPAT=(python2_5 python2_6 python2_7)
 
 GITHUB_USER=andrewgee
 
-inherit base python-distutils-ng jnrowe-github
+inherit distutils-r1 jnrowe-github
 
 DESCRIPTION="GPXViewer GPS trace viewer"
 HOMEPAGE="http://andrewgee.org/blog/projects/gpxviewer"
