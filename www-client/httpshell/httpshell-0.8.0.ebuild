@@ -3,13 +3,14 @@
 # $Header: $
 
 EAPI=4
+
 # 2.5 is restricted due to exception syntax and context handlers
 # 3.x is restricted due to print syntax
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_6 python2_7"
+PYTHON_COMPAT=(python2_6 python2_7)
+
 GITHUB_USER=chrislongo
 
-inherit base python-distutils-ng jnrowe-github
+inherit distutils-r1 jnrowe-github
 
 DESCRIPTION="Interactive shell for issuing HTTP commands to a REST API"
 
@@ -25,17 +26,3 @@ RDEPEND="dev-python/pygments
 	python_targets_python2_6? ( dev-python/argparse )"
 
 PATCHES=("${FILESDIR}"/${P}-use_system_certs.patch)
-
-DOCS=(README.md)
-
-src_prepare() {
-	base_src_prepare
-
-	python-distutils-ng_src_prepare
-}
-
-src_install() {
-	default
-
-	python-distutils-ng_src_install
-}
