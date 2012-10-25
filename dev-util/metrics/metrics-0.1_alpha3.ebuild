@@ -6,6 +6,7 @@ EAPI=4
 
 # 2.5 is restricted due to bytes syntax
 # 3.* is restricted due to print and Unicode syntax
+PYPI_OLD_DISTUTILS_NG=1
 PYTHON_COMPAT="python2_6 python2_7"
 MY_P="${P/_alpha/a}"
 
