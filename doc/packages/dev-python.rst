@@ -72,8 +72,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.1.0.ebuild>`__  ``amd64``, ``x86``
-  * `1.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.2.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-10-25)
+  * `1.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.2.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``blessings`` - http://pypi.python.org/pypi/blessings/
 
