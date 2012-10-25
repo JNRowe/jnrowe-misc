@@ -10,7 +10,7 @@ DESCRIPTION="A compiled programming language with syntax and semantics similar t
 HOMEPAGE="http://mathias-kettner.de/${PN}.html"
 SRC_URI="http://mathias-kettner.de/download/${P}.tar.gz"
 
-LICENSE="GPL-2"
+LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""

@@ -11,7 +11,7 @@ DESCRIPTION="Brain teaser game/trainer to have fun and keep your brain trained"
 HOMEPAGE="http://live.gnome.org/${PN}"
 SRC_URI="http://gent.softcatala.org/jmas/${PN}/${P}.tar.gz"
 
-LICENSE="GPL-2"
+LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="plugins"

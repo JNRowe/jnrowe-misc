@@ -16,7 +16,7 @@ fi
 DESCRIPTION="A hook daemon for mpd, it polls mpd and runs hooks on events"
 HOMEPAGE="http://alip.github.com/${PN}/"
 
-LICENSE="GPL-2"
+LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="libnotify scrobbler"

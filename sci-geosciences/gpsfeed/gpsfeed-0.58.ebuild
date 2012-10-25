@@ -8,7 +8,7 @@ DESCRIPTION="A utility that generates continuous GPS data for running tests"
 HOMEPAGE="http://users.hol.gr/~dzach/${PN}/index.html"
 SRC_URI="mirror://sourceforge/gpsfeed/gpsfeed+.zip"
 
-LICENSE="GPL-2"
+LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""

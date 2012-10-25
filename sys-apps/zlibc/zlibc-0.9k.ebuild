@@ -10,7 +10,7 @@ DESCRIPTION="Read-only compressed file-system emulation"
 HOMEPAGE="http://${PN}.linux.lu/"
 SRC_URI="${HOMEPAGE}/${P}.tar.gz"
 
-LICENSE="GPL-2"
+LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""

@@ -12,7 +12,7 @@ inherit jnrowe-pypi
 
 DESCRIPTION="Easy access to PyPI download stats"
 
-LICENSE="GPL-2"
+LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""

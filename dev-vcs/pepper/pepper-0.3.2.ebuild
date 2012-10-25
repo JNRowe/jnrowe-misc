@@ -8,7 +8,7 @@ DESCRIPTION="Retrieve statistics and generate reports from source code repositor
 HOMEPAGE="http://scm-pepper.sourceforge.net/"
 SRC_URI="mirror://sourceforge/scm-pepper/${P}.tar.bz2"
 
-LICENSE="GPL-3"
+LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="doc git +gnuplot mercurial"

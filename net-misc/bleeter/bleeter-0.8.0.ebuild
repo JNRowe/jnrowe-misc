@@ -17,7 +17,7 @@ HOMEPAGE="http://jnrowe.github.com/${PN}/"
 SRC_URI="${SRC_URI}
 	doc? ( https://github.com/JNRowe/sphinx-jnrowe/tarball/0.1.0 -> sphinx-jnrowe-0.1.0.tar.gz )"
 
-LICENSE="GPL-3 doc? ( public-domain )"
+LICENSE="GPL-3+ doc? ( public-domain )"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="doc minimal"
