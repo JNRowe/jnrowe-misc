@@ -11,7 +11,7 @@ DESCRIPTION="Plugin core for use by pytest-cov, nose-cov and nose2-cov"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools"
