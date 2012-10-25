@@ -5,6 +5,7 @@
 EAPI=4
 # 2.5 is restricted due to collections.namedtuple use
 # 3.x is restricted due to non-relative imports
+PYPI_OLD_DISTUTILS_NG=1
 PYTHON_COMPAT="python2_6 python2_7"
 
 inherit jnrowe-pypi

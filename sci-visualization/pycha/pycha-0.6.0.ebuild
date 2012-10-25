@@ -4,6 +4,7 @@
 
 EAPI=4
 # Python 2.5 and 3.x aren't supported because of pycairo dep
+PYPI_OLD_DISTUTILS_NG=1
 PYTHON_COMPAT="python2_6 python2_7"
 
 inherit jnrowe-pypi

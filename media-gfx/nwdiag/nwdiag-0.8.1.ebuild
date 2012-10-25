@@ -6,6 +6,7 @@ EAPI=4
 
 # <2.7 is restricted until the blockdiag ebuild has support
 # 3.x is restricted due to print syntax
+PYPI_OLD_DISTUTILS_NG=1
 PYTHON_COMPAT="python2_7"
 
 inherit eutils jnrowe-pypi
