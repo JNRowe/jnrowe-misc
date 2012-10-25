@@ -1,0 +1,2 @@
+move app-misc/libeatmydata sys-fs/libeatmydata
+move sci-geosciences/gpxviewer-python sci-geosciences/gpxviewer

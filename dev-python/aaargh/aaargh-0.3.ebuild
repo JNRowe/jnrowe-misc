@@ -14,7 +14,8 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""
 
-RDEPEND="|| ( dev-python/argparse >=dev-lang/python-2.7 )"
+RDEPEND="python_targets_python2_5? ( dev-python/argparse )
+	python_targets_python2_6? ( dev-python/argparse )"
 DEPEND="${RDEPEND}
 	dev-python/setuptools"
 

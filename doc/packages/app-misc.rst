@@ -24,6 +24,7 @@
  * Versions:
 
   * `0.14.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.14.0.ebuild>`__  ``~amd64`` (due 2012-11-13), ``~x86`` (due 2012-10-29)
+  * `0.15.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.15.0.ebuild>`__  ``~amd64`` (due 2012-11-17), ``~x86`` (due 2012-11-17)
 
 * ``jsonpipe`` - http://pypi.python.org/pypi/jsonpipe/
 
@@ -32,14 +33,6 @@
  * Versions:
 
   * `0.0.8-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/jsonpipe/jsonpipe-0.0.8-r1.ebuild>`__  ``amd64``, ``x86``
-
-* ``libeatmydata`` - http://www.flamingspork.com/projects/libeatmydata/
-
- * Library that disables all forms of writing data safely to disk
- * Licence: ``GPL-3+``
- * Versions:
-
-  * `26.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/libeatmydata/libeatmydata-26.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``pw`` - http://pypi.python.org/pypi/pw/
 

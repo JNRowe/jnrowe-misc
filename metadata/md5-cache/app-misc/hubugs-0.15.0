@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-python/setuptools doc? ( dev-python/cloud_sptheme dev-python/sphinx dev-python/sphinxcontrib-cheeseshop ) test? ( dev-python/nose2-cov dev-python/mock ) !<sys-apps/portage-2.1.10.58 python_targets_python2_6? ( dev-lang/python:2.6 ) python_targets_python2_7? ( dev-lang/python:2.7 )
+DESCRIPTION=Simple client for GitHub issues
+EAPI=4
+HOMEPAGE=http://pypi.python.org/pypi/hubugs/
+IUSE=doc test python_targets_python2_6 python_targets_python2_7
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=dev-python/setuptools dev-python/argh dev-python/blessings dev-python/html2text >=dev-python/httplib2-0.7.4 dev-python/jinja dev-python/kitchen dev-python/pygments dev-python/schematics python_targets_python2_6? ( dev-lang/python:2.6 ) python_targets_python2_7? ( dev-lang/python:2.7 )
+REQUIRED_USE=|| ( python_targets_python2_6 python_targets_python2_7 )
+SLOT=0
+SRC_URI=mirror://pypi/h/hubugs/hubugs-0.15.0.tar.gz
+_eclasses_=base	ec46b36a6f6fd1d0b505a33e0b74e413	eutils	5a98daf52f7430a4a6f46cee24cfe3e2	jnrowe-pypi	686cf6e0feaf26499041ad17392c3774	multilib	9aa8a023e062fca0ba79362d9d0cc488	python-distutils-ng	3e9b44e207485638f0e2b21c6749bf7e	toolchain-funcs	134429b842a6c67254bfd76a8753e4d4	user	d0a4d0735a6c0183d707ca919bd72f28
+_md5_=bd7db5c07a360f9e63a620d7ffbbcf6f

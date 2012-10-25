@@ -1,6 +1,12 @@
-# ChangeLog for sci-geosciences/gpxviewer-python
+# ChangeLog for sci-geosciences/gpxviewer
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
+
+*gpxviewer-0.4.3 (16 Oct 2012)
+
+  16 Oct 2012; James Rowe <jnrowe@gmail.com> +gpxviewer-0.4.3.ebuild,
+  +metadata.xml, +watch:
+  Renamed to match upstream [683].
 
   28 Sep 2012; James Rowe <jnrowe@gmail.com> gpxviewer-python-0.4.3.ebuild:
   Uses 'or any later version' GPL license.

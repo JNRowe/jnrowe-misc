@@ -23,6 +23,19 @@ culled.
 :Commit: :commit:`6a24dd9c <6a24dd9c97515b41e1d9bd68d4ff3f1674002a6b>`
 :Removal date: 2011-09-13
 
+``app-misc``
+~~~~~~~~~~~~
+
+``libeatmydata``
+''''''''''''''''
+
+    Now available upstream.  The upgrade path is very messy, and the package
+    will be maintained in ``::shadow`` for the foreseeable future.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`a95b3182 <a95b31820bc8dc2c5a3be24359aedfb02cdefa2c>`
+:Removal date: 2012-10-16
+
 ``app-text``
 ~~~~~~~~~~~~
 

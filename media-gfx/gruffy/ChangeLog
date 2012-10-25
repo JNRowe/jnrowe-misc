@@ -2,6 +2,11 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+*gruffy-0.3.1 (16 Oct 2012)
+
+  16 Oct 2012; James Rowe <jnrowe@gmail.com> +gruffy-0.3.1.ebuild:
+  Version bump [672].
+
   09 Apr 2012; James Rowe <jnrowe@gmail.com> gruffy-0.3.ebuild:
   Switched to python-distutils-ng eclass.
 

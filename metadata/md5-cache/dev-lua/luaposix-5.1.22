@@ -9,5 +9,5 @@ RDEPEND=>=dev-lang/lua-5.1 dev-lua/LuaBitOp
 RESTRICT=test
 SLOT=0
 SRC_URI=mirror://github/luaposix/luaposix/luaposix-5.1.22.tar.gz
-_eclasses_=multilib	c2b85b5c63a44798c1e442147ac14c5c	toolchain-funcs	134429b842a6c67254bfd76a8753e4d4
+_eclasses_=multilib	9aa8a023e062fca0ba79362d9d0cc488	toolchain-funcs	134429b842a6c67254bfd76a8753e4d4
 _md5_=a4e49a2b1414bb51f0fd4ba337dbac76

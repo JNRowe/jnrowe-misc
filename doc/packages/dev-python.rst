@@ -48,6 +48,7 @@
  * Versions:
 
   * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/aaargh/aaargh-0.3.ebuild>`__  ``amd64``, ``x86``
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/aaargh/aaargh-0.4.ebuild>`__  ``~amd64`` (due 2012-11-17), ``~x86`` (due 2012-11-17)
 
 * ``astral`` - http://pypi.python.org/pypi/astral/
 
@@ -384,6 +385,7 @@
 
   * `1.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.4.1.ebuild>`__  ``amd64``, ``x86``
   * `1.5.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.5.2.ebuild>`__  ``~amd64`` (due 2012-11-13), ``~x86`` (due 2012-11-13)
+  * `1.5.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.5.3.ebuild>`__  ``~amd64`` (due 2012-11-15), ``~x86`` (due 2012-11-15)
 
 * ``pdbpp`` - http://pypi.python.org/pypi/pdbpp/
 
@@ -408,6 +410,7 @@
  * Versions:
 
   * `0.5.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.5.3.ebuild>`__  ``amd64``, ``x86``
+  * `0.5.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.5.4.ebuild>`__  ``~amd64`` (due 2012-11-15), ``~x86`` (due 2012-11-15)
 
 * ``pinocchio`` - http://darcs.idyll.org/~t/projects/pinocchio/doc/
 
@@ -528,6 +531,14 @@
  * Versions:
 
   * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2012-12-15), ``~x86`` (due 2012-10-31)
+
+* ``schematics`` - http://pypi.python.org/pypi/schematics/
+
+ * Structured Data for Humans
+ * Licence: ``BSD``
+ * Versions:
+
+  * `0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/schematics/schematics-0.5.ebuild>`__  ``~amd64`` (due 2012-11-17), ``~x86`` (due 2012-11-17)
 
 * ``see`` - http://inky.github.com/see/
 

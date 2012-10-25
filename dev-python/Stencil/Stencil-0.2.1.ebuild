@@ -20,7 +20,7 @@ IUSE=""
 DEPEND="dev-python/setuptools"
 # setuptools is required in RDEPEND for entry points usage
 RDEPEND="${DEPEND}
-	|| ( dev-python/argparse >=dev-lang/python-2.7 )
+	python_targets_python2_6? ( dev-python/argparse )
 	dev-python/jinja"
 
 DOCS=(HISTORY.rst README.rst)
