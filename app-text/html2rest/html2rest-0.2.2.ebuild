@@ -13,7 +13,7 @@ DESCRIPTION="Convert HTML to reStructuredText"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND=""
