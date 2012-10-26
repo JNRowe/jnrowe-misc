@@ -559,7 +559,7 @@
  * Versions:
 
   * `1.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/should_dsl/should_dsl-1.2.1.ebuild>`__  ``amd64``, ``x86``
-  * `2.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/should_dsl/should_dsl-2.1.1.ebuild>`__  ``~amd64`` (due 2012-10-26), ``~x86`` (due 2012-10-26)
+  * `2.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/should_dsl/should_dsl-2.1.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-10-26)
 
 * ``showme`` - http://pypi.python.org/pypi/showme/
 
@@ -616,7 +616,7 @@
  * Versions:
 
   * `0.10.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.10.4.ebuild>`__  ``amd64``, ``x86``
-  * `1.0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-1.0.6.ebuild>`__  ``~amd64`` (due 2012-10-26), ``~x86`` (due 2012-10-26)
+  * `1.0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-1.0.6.ebuild>`__  ``amd64``, ``~x86`` (due 2012-10-26)
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
@@ -657,7 +657,7 @@
  * Versions:
 
   * `1.10 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.10.ebuild>`__  ``amd64``, ``x86``
-  * `1.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.11.ebuild>`__  ``~amd64`` (due 2012-10-26), ``~x86`` (due 2012-10-26)
+  * `1.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.11.ebuild>`__  ``amd64``, ``~x86`` (due 2012-10-26)
 
 * ``upoints`` - https://github.com/JNRowe/upoints/
 
