@@ -650,7 +650,7 @@
  * Versions:
 
   * `1.10 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.10.ebuild>`__  ``amd64``, ``x86``
-  * `1.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.11.ebuild>`__  ``~amd64`` (due 2012-10-26), ``~x86`` (due 2012-10-26)
+  * `1.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.11.ebuild>`__  ``amd64``, ``~x86`` (due 2012-10-26)
 
 * ``upoints`` - https://github.com/JNRowe/upoints/
 
