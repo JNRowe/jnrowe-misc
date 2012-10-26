@@ -612,11 +612,10 @@
 * ``sure`` - http://pypi.python.org/pypi/sure/
 
  * Assertion toolbox for python
- * Licence: ``MIT``
+ * Licence: ``GPL-3``
  * Versions:
 
-  * `0.10.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.10.4.ebuild>`__  ``amd64``, ``x86``
-  * `1.0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-1.0.6.ebuild>`__  ``~amd64`` (due 2012-10-26), ``~x86`` (due 2012-10-26)
+  * `1.0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-1.0.6.ebuild>`__  ``~amd64`` (due 2012-10-26), ``x86``
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
