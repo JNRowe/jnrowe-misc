@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  01 Nov 2012; James Rowe <jnrowe@gmail.com> httpshell-0.8.0.ebuild:
+  Switched to virtual/python-argparse.
+
   25 Oct 2012; James Rowe <jnrowe@gmail.com> httpshell-0.8.0.ebuild:
   Updated for distutils-r1 usage.
 
