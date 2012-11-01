@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 RDEPEND="python_targets_python2_5? ( dev-python/argparse )
-	python_targets_python2_6? ( dev-python/argparse )"
+	virtual/python-argparse"
 DEPEND="${RDEPEND}
 	dev-python/setuptools"
 

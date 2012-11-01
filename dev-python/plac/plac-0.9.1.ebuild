@@ -18,7 +18,7 @@ IUSE="examples tk"
 
 DEPEND="dev-python/setuptools"
 RDEPEND="python_targets_python2_5? ( dev-python/multiprocessing )
-	python_targets_python2_6? ( dev-python/argparse )
+	virtual/python-argparse
 	python_targets_python2_7? ( dev-python/argparse )
 	tk? ( dev-lang/python[tk] )"
 

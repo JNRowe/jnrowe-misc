@@ -23,6 +23,6 @@ DEPEND="dev-python/setuptools"
 RDEPEND="dev-python/pygments
 	>=dev-python/httplib2-0.7.0
 	dev-python/oauth2
-	python_targets_python2_6? ( dev-python/argparse )"
+	virtual/python-argparse"
 
 PATCHES=("${FILESDIR}"/${P}-use_system_certs.patch)
