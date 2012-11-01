@@ -21,7 +21,7 @@ DEPEND="dev-python/setuptools"
 # setuptools is required in RDEPEND for entry points usage
 # We can't use 2.6's json because we need ordered dictionary support
 RDEPEND="${DEPEND}
-	python_targets_python2_6? ( dev-python/simplejson dev-python/argparse )
+	virtual/python-argparse
 	dev-python/calabash"
 
 PATCHES=("${FILESDIR}"/${P}-use_stdlib_json.patch)
