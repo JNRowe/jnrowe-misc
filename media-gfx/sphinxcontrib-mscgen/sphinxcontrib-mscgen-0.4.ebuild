@@ -13,7 +13,7 @@ DESCRIPTION="Sphinx extension to include mscgen's sequence charts"
 
 LICENSE="BOLA"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE="pdf"
 
 DEPEND="dev-python/setuptools"

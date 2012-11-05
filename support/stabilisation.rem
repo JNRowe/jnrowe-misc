@@ -1,4 +1,3 @@
-REM 2012-11-04 *1 MSG %"Stabilise amd64 media-gfx/sphinxcontrib-mscgen-0.4%" %a
 REM 2012-11-12 *1 MSG %"Stabilise amd64 app-misc/Hammertime-0.2.4%" %a
 REM 2012-11-12 *1 MSG %"Stabilise amd64 dev-util/ditz-0.5-r1%" %a
 REM 2012-11-12 *1 MSG %"Stabilise amd64 www-client/httpshell-0.8.0%" %a
