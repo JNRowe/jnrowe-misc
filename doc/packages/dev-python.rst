@@ -96,8 +96,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.4.ebuild>`__  ``amd64``, ``x86``
-  * `1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.5.ebuild>`__  ``amd64``, ``~x86`` (due 2012-11-12)
+  * `1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.5.ebuild>`__  ``amd64``, ``x86``
 
 * ``colorama`` - http://pypi.python.org/pypi/colorama/
 
