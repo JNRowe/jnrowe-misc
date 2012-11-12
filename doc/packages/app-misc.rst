@@ -7,7 +7,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/Hammertime/Hammertime-0.2.4.ebuild>`__  ``~amd64`` (due 2012-11-12), ``~x86`` (due 2012-10-28)
+  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/Hammertime/Hammertime-0.2.4.ebuild>`__  ``~amd64`` (due 2012-11-12), ``~x86`` (due 2013-01-26)
 
 * ``asciiquarium`` - http://www.robobunny.com/projects/asciiquarium/html/
 
@@ -23,7 +23,8 @@
  * Licence: ``GPL-3+``
  * Versions:
 
-  * `0.14.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.14.0.ebuild>`__  ``~amd64`` (due 2012-11-13), ``~x86`` (due 2012-10-29)
+  * `0.14.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.14.0.ebuild>`__  ``~amd64`` (due 2012-11-13), ``~x86`` (due 2013-01-27)
+  * `0.15.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.15.0.ebuild>`__  ``~amd64`` (due 2012-11-17), ``~x86`` (due 2012-11-17)
 
 * ``jsonpipe`` - http://pypi.python.org/pypi/jsonpipe/
 
@@ -33,22 +34,13 @@
 
   * `0.0.8-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/jsonpipe/jsonpipe-0.0.8-r1.ebuild>`__  ``amd64``, ``x86``
 
-* ``libeatmydata`` - http://www.flamingspork.com/projects/libeatmydata/
-
- * Library that disables all forms of writing data safely to disk
- * Licence: ``GPL-3+``
- * Versions:
-
-  * `26.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/libeatmydata/libeatmydata-26.2.ebuild>`__  ``amd64``, ``x86``
-
 * ``pw`` - http://pypi.python.org/pypi/pw/
 
  * Grep GnuPG-encrypted YAML password safe
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pw/pw-0.1.5.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pw/pw-0.2.3.ebuild>`__  ``amd64``, ``~x86`` (due 2012-10-25)
+  * `0.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pw/pw-0.2.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``pytrainer`` - https://github.com/pytrainer/pytrainer
 

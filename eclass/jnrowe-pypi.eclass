@@ -9,15 +9,27 @@ inherit eutils
 
 if [[ -n ${PYPI_OLD_DISTUTILS} ]]; then
 	inherit distutils
-else
+
+	case "${EAPI:-0}" in
+		0|1|2|3|4) ;;
+		*) die "EAPI=${EAPI} is not supported" ;;
+	esac
+elif [[ -n ${PYPI_OLD_DISTUTILS_NG} ]]; then
 	inherit base python-distutils-ng
 	EXPORT_FUNCTIONS src_prepare src_install
-fi
 
-case "${EAPI:-0}" in
-	0|1|2|3|4) ;;
-	*) die "EAPI=${EAPI} is not supported" ;;
-esac
+	case "${EAPI:-0}" in
+		0|1|2|3|4) ;;
+		*) die "EAPI=${EAPI} is not supported" ;;
+	esac
+else
+	inherit distutils-r1
+
+	case "${EAPI:-0}" in
+		4|5) ;;
+		*) die "EAPI=${EAPI} is not supported" ;;
+	esac
+fi
 
 # @ECLASS: jnrowe-pypi.eclass
 # @MAINTAINER:
@@ -44,7 +56,12 @@ HOMEPAGE="http://pypi.python.org/pypi/${MY_PN:-${PN}}/"
 # @VARIABLE: PYPI_OLD_DISTUTILS
 # @DEFAULT_UNSET
 # @DESCRIPTION:
-# If set use distutils.eclass, else python-distutils-ng.eclass
+# If set use distutils.eclass, else distutils-r1.eclass
+
+# @VARIABLE: PYPI_OLD_DISTUTILS_NG
+# @DEFAULT_UNSET
+# @DESCRIPTION:
+# If set use python-distutils-ng.eclass, else distutils-r1.eclass
 
 # @VARIABLE: PYPI_ARCHIVE_SUFFIX
 # @DESCRIPTION:
@@ -64,7 +81,7 @@ SRC_URI="mirror://pypi/${_PYPI_PN::1}/${_PYPI_PN}/${_PYPI_P}.${PYPI_ARCHIVE_SUFF
 # Override S for PN mangling.
 S="${WORKDIR}"/${_PYPI_P}
 
-if [[ -z ${PYPI_OLD_DISTUTILS} ]]; then
+if [[ -n ${PYPI_OLD_DISTUTILS_NG} ]]; then
 	jnrowe-pypi_src_prepare() {
 		base_src_prepare
 

@@ -6,6 +6,7 @@ EAPI=4
 
 # Python 2.5 is resticted due to new exception handling syntax
 # Python 3 is resticted due to print syntax
+PYPI_OLD_DISTUTILS_NG=1
 PYTHON_COMPAT="python2_6 python2_7"
 
 inherit jnrowe-pypi

@@ -5,6 +5,7 @@
 EAPI=4
 
 # No python 3 support because of Unicode literals
+PYPI_OLD_DISTUTILS_NG=1
 PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
 inherit jnrowe-pypi

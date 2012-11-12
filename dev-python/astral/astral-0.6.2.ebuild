@@ -3,6 +3,7 @@
 # $Header: $
 
 EAPI=4
+PYPI_OLD_DISTUTILS_NG=1
 PYTHON_COMPAT="python2_5 python2_6 python2_7 python3_1 python3_2"
 PYPI_ARCHIVE_SUFFIX="zip"
 
@@ -12,7 +13,7 @@ DESCRIPTION="Calculations for the position of the sun and moon"
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND=""

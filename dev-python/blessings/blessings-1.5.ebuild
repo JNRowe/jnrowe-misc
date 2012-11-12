@@ -5,6 +5,7 @@
 EAPI=4
 # < 3.2.3 is restricted due to http://bugs.python.org/issue10570
 # TODO: revisit this when 3.2.3 or 3.3 is available in the tree
+PYPI_OLD_DISTUTILS_NG=1
 PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
 inherit jnrowe-pypi

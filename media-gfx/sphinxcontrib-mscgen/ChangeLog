@@ -5,6 +5,9 @@
   05 Nov 2012; James Rowe <jnrowe@gmail.com> sphinxcontrib-mscgen-0.4.ebuild:
   Keyworded amd64.
 
+  25 Oct 2012; James Rowe <jnrowe@gmail.com> sphinxcontrib-mscgen-0.4.ebuild:
+  Updated for distutils-r1 usage.
+
   09 Apr 2012; James Rowe <jnrowe@gmail.com> sphinxcontrib-mscgen-0.4.ebuild:
   src_install default hack now in jnrowe-pypi eclass.
 

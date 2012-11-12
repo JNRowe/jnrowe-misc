@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  26 Oct 2012; James Rowe <jnrowe@gmail.com> -tweepy-1.10.ebuild,
+  tweepy-1.11.ebuild:
+  Keyworded x86.
+
   26 Oct 2012; James Rowe <jnrowe@gmail.com> tweepy-1.11.ebuild:
   Keyworded amd64.
 

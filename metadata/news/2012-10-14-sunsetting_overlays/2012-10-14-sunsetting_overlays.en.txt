@@ -5,7 +5,7 @@ Posted: 2012-10-14
 Revision: 1
 News-Item-Format: 1.0
 
-The `jnrowe-misc`` repository is heading in to maintenance mode.  The
+The ``jnrowe-misc`` repository is heading in to maintenance mode.  The
 environments where I can use Gentoo are dwindling, and at some point
 they will cease to exist.
 

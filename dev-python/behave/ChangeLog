@@ -2,6 +2,13 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  01 Nov 2012; James Rowe <jnrowe@gmail.com> behave-1.2.2.ebuild:
+  Switched to virtual/python-argparse.
+
+  25 Oct 2012; James Rowe <jnrowe@gmail.com> -behave-1.1.0.ebuild,
+  -files/behave-1.1.0-dont_install_global_test.patch, behave-1.2.2.ebuild:
+  Keyworded x86.
+
   25 Oct 2012; James Rowe <jnrowe@gmail.com> behave-1.2.2.ebuild:
   Keyworded amd64.
 

@@ -11,4 +11,4 @@ REQUIRED_USE=|| ( python_targets_python2_5 python_targets_python2_6 python_targe
 SLOT=0
 SRC_URI=http://doctest-tools.googlecode.com/files/doctest-tools-1.0a3.zip
 _eclasses_=python-distutils-ng	3e9b44e207485638f0e2b21c6749bf7e
-_md5_=5d4ea02493d52620d155107c228243c1
+_md5_=74c7ad4be2f9517b2dcb7b0e786b59c1

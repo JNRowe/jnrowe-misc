@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Schematics is an easy way to model data. It provides mechanisms for
+		structuring data, initializing data, serializing data, formatting data
+		and validating data against type definitions, like an email address.
+
+		The library provides data types, in the form of fields. Each field
+		controls the details of how its data should look in various formats. It
+		also provides a validate() function which is responsible for determining
+		if the data looks correct.
+
+		Schematics' main goal is to provide similar functionality to a type
+		system along with a way to generate the schematics we send to the
+		Internet, or store in a database, or send to some Java process, or
+		basically any use case with structured data.
+	</longdescription>
+	<upstream>
+		<remote-id type="pypi">schematics</remote-id>
+		<bugs-to>https://github.com/j2labs/schematics/issues</bugs-to>
+	</upstream>
+</pkgmetadata>

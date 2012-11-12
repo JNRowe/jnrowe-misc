@@ -6,6 +6,7 @@ EAPI=4
 
 # <2.7 is restricted until the blockdiag ebuild has support
 # 3.x is restricted due to print syntax
+PYPI_OLD_DISTUTILS_NG=1
 PYTHON_COMPAT="python2_7"
 
 inherit eutils jnrowe-pypi
@@ -14,7 +15,7 @@ DESCRIPTION="Generate network-diagram images from spec-text file"
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="examples minimal"
 
 DEPEND="dev-python/setuptools"

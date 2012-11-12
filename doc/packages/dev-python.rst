@@ -48,6 +48,7 @@
  * Versions:
 
   * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/aaargh/aaargh-0.3.ebuild>`__  ``amd64``, ``x86``
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/aaargh/aaargh-0.4.ebuild>`__  ``~amd64`` (due 2012-11-17), ``~x86`` (due 2012-11-17)
 
 * ``astral`` - http://pypi.python.org/pypi/astral/
 
@@ -55,8 +56,7 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.6.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.6.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.6.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-10-25)
+  * `0.6.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.6.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``atomize`` - http://pypi.python.org/pypi/atomize/
 
@@ -72,8 +72,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.1.0.ebuild>`__  ``amd64``, ``x86``
-  * `1.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.2.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-10-25)
+  * `1.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.2.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``blessings`` - http://pypi.python.org/pypi/blessings/
 
@@ -114,8 +113,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cov-core/cov-core-1.6.ebuild>`__  ``amd64``, ``x86``
-  * `1.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cov-core/cov-core-1.7.ebuild>`__  ``amd64``, ``~x86`` (due 2012-10-25)
+  * `1.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cov-core/cov-core-1.7.ebuild>`__  ``amd64``, ``x86``
 
 * ``dexml`` - http://pypi.python.org/pypi/dexml/
 
@@ -293,8 +291,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.6.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.9.ebuild>`__  ``amd64``, ``~x86`` (due 2012-10-25)
+  * `0.2.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.9.ebuild>`__  ``amd64``, ``x86``
 
 * ``micromodels`` - http://pypi.python.org/pypi/micromodels/
 
@@ -358,7 +355,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-10-16)
+  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``nose2-cov`` - http://pypi.python.org/pypi/nose2-cov/
 
@@ -366,7 +363,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0_alpha4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2-cov/nose2-cov-1.0_alpha4.ebuild>`__  ``amd64``, ``~x86`` (due 2012-10-16)
+  * `1.0_alpha4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2-cov/nose2-cov-1.0_alpha4.ebuild>`__  ``amd64``, ``x86``
 
 * ``nosetty`` - http://code.google.com/p/nosetty/
 
@@ -384,6 +381,7 @@
 
   * `1.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.4.1.ebuild>`__  ``amd64``, ``x86``
   * `1.5.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.5.2.ebuild>`__  ``~amd64`` (due 2012-11-13), ``~x86`` (due 2012-11-13)
+  * `1.5.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.5.3.ebuild>`__  ``~amd64`` (due 2012-11-15), ``~x86`` (due 2012-11-15)
 
 * ``pdbpp`` - http://pypi.python.org/pypi/pdbpp/
 
@@ -408,6 +406,7 @@
  * Versions:
 
   * `0.5.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.5.3.ebuild>`__  ``amd64``, ``x86``
+  * `0.5.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.5.4.ebuild>`__  ``~amd64`` (due 2012-11-15), ``~x86`` (due 2012-11-15)
 
 * ``pinocchio`` - http://darcs.idyll.org/~t/projects/pinocchio/doc/
 
@@ -527,7 +526,15 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2012-12-15), ``~x86`` (due 2012-10-31)
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2012-12-15), ``~x86`` (due 2013-01-29)
+
+* ``schematics`` - http://pypi.python.org/pypi/schematics/
+
+ * Structured Data for Humans
+ * Licence: ``BSD``
+ * Versions:
+
+  * `0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/schematics/schematics-0.5.ebuild>`__  ``~amd64`` (due 2012-11-17), ``~x86`` (due 2012-11-17)
 
 * ``see`` - http://inky.github.com/see/
 
@@ -551,8 +558,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/should_dsl/should_dsl-1.2.1.ebuild>`__  ``amd64``, ``x86``
-  * `2.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/should_dsl/should_dsl-2.1.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-10-26)
+  * `2.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/should_dsl/should_dsl-2.1.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``showme`` - http://pypi.python.org/pypi/showme/
 
@@ -605,11 +611,10 @@
 * ``sure`` - http://pypi.python.org/pypi/sure/
 
  * Assertion toolbox for python
- * Licence: ``MIT``
+ * Licence: ``GPL-3``
  * Versions:
 
-  * `0.10.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-0.10.4.ebuild>`__  ``amd64``, ``x86``
-  * `1.0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-1.0.6.ebuild>`__  ``amd64``, ``~x86`` (due 2012-10-26)
+  * `1.0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-1.0.6.ebuild>`__  ``amd64``, ``x86``
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
@@ -649,8 +654,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.10 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.10.ebuild>`__  ``amd64``, ``x86``
-  * `1.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.11.ebuild>`__  ``amd64``, ``~x86`` (due 2012-10-26)
+  * `1.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.11.ebuild>`__  ``amd64``, ``x86``
 
 * ``upoints`` - https://github.com/JNRowe/upoints/
 

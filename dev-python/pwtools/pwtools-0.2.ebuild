@@ -5,6 +5,7 @@
 EAPI=4
 
 # 3.* isn't supported because of relative imports
+PYPI_OLD_DISTUTILS_NG=1
 PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
 inherit python-distutils-ng
