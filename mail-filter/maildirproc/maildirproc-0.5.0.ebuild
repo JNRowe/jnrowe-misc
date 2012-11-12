@@ -5,9 +5,9 @@
 EAPI=4
 
 # This version is specifically for Python 3
-PYTHON_COMPAT="python3_1 python3_2"
+PYTHON_COMPAT=(python3_1 python3_2)
 
-inherit python-distutils-ng
+inherit distutils-r1
 
 DESCRIPTION="maildir processor using Python as its configuration language"
 HOMEPAGE="http://joel.rosdahl.net/${PN}/"

@@ -4,6 +4,7 @@
 
 EAPI=4
 
+PYPI_OLD_DISTUTILS_NG=1
 PYTHON_COMPAT="python2_5 python2_6 python2_7 python3_1 python3_2"
 
 inherit jnrowe-pypi
@@ -12,7 +13,7 @@ DESCRIPTION="A nice sphinx theme named 'Cloud', and some related extensions"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE="doc"
 
 RDEPEND=">=dev-python/sphinx-1.1"

@@ -6,6 +6,7 @@ EAPI=4
 
 # 2.5 is restricted due to exception syntax
 # 3.x is restricted due to unicode literals, print statements, etc
+PYPI_OLD_DISTUTILS_NG=1
 PYTHON_COMPAT="python2_6 python2_7"
 
 inherit python-distutils-ng

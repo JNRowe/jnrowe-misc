@@ -97,7 +97,7 @@
  * Versions:
 
   * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.4.ebuild>`__  ``amd64``, ``x86``
-  * `1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.5.ebuild>`__  ``~amd64`` (due 2012-11-12), ``~x86`` (due 2012-11-12)
+  * `1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.5.ebuild>`__  ``amd64``, ``~x86`` (due 2012-11-12)
 
 * ``colorama`` - http://pypi.python.org/pypi/colorama/
 
@@ -122,7 +122,7 @@
  * Versions:
 
   * `0.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/dexml/dexml-0.4.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/dexml/dexml-0.5.0.ebuild>`__  ``~amd64`` (due 2012-11-12), ``~x86`` (due 2012-11-12)
+  * `0.5.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/dexml/dexml-0.5.0.ebuild>`__  ``amd64``, ``~x86`` (due 2012-11-12)
 
 * ``docformatter`` - http://pypi.python.org/pypi/docformatter/
 
@@ -558,7 +558,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `2.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/should_dsl/should_dsl-2.1.1.ebuild>`__  ``~amd64`` (due 2012-10-26), ``x86``
+  * `2.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/should_dsl/should_dsl-2.1.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``showme`` - http://pypi.python.org/pypi/showme/
 
@@ -614,7 +614,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `1.0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-1.0.6.ebuild>`__  ``~amd64`` (due 2012-10-26), ``x86``
+  * `1.0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-1.0.6.ebuild>`__  ``amd64``, ``x86``
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
@@ -654,7 +654,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.11.ebuild>`__  ``~amd64`` (due 2012-10-26), ``x86``
+  * `1.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.11.ebuild>`__  ``amd64``, ``x86``
 
 * ``upoints`` - https://github.com/JNRowe/upoints/
 

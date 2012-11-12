@@ -5,7 +5,7 @@
 EAPI=4
 
 # 3.x is not supported because of exception syntax.
-PYTHON_COMPAT="python2_5 python2_6 python2_7"
+PYTHON_COMPAT=(python2_5 python2_6 python2_7)
 
 inherit jnrowe-pypi
 
@@ -13,7 +13,7 @@ DESCRIPTION="Sphinx extension to include mscgen's sequence charts"
 
 LICENSE="BOLA"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE="pdf"
 
 DEPEND="dev-python/setuptools"
@@ -22,5 +22,3 @@ RDEPEND="${DEPEND}
 	dev-python/sphinx
 	media-gfx/mscgen
 	pdf? ( dev-texlive/texlive-fontutils )"
-
-DOCS=(CHANGES README)

@@ -6,6 +6,7 @@ EAPI=4
 
 # 2.5 isn't supported because of conditional expressions with __future__ import
 # 3.x isn't supported because of octal syntax
+PYPI_OLD_DISTUTILS_NG=1
 PYTHON_COMPAT="python2_6 python2_7"
 PYPI_ARCHIVE_SUFFIX="zip"
 
@@ -19,7 +20,7 @@ KEYWORDS="amd64 x86"
 IUSE="doc"
 
 DEPEND="doc? ( dev-python/sphinx )"
-RDEPEND="python_targets_python2_6? ( dev-python/argparse )
+RDEPEND="virtual/python-argparse
 	dev-python/prettytable
 	dev-python/progressbar"
 
