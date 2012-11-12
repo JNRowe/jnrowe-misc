@@ -120,8 +120,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.4.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/dexml/dexml-0.4.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/dexml/dexml-0.5.0.ebuild>`__  ``amd64``, ``~x86`` (due 2012-11-12)
+  * `0.5.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/dexml/dexml-0.5.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``docformatter`` - http://pypi.python.org/pypi/docformatter/
 
