@@ -23,7 +23,7 @@
  * Licence: ``GPL-3+``
  * Versions:
 
-  * `0.14.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.14.0.ebuild>`__  ``~amd64`` (due 2012-11-13), ``~x86`` (due 2013-01-27)
+  * `0.14.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.14.0.ebuild>`__  ``~amd64`` (due 2012-12-28), ``~x86`` (due 2013-01-27)
   * `0.15.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.15.0.ebuild>`__  ``~amd64`` (due 2012-11-17), ``~x86`` (due 2012-11-17)
 
 * ``jsonpipe`` - http://pypi.python.org/pypi/jsonpipe/
@@ -81,7 +81,7 @@
  * Versions:
 
   * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/tudu/tudu-0.8.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.8.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/tudu/tudu-0.8.2.ebuild>`__  ``~amd64`` (due 2012-11-13), ``~x86`` (due 2012-11-13)
+  * `0.8.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/tudu/tudu-0.8.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-11-13)
 
 * ``weatherspect`` - http://www.robobunny.com/projects/weatherspect/html/
 
