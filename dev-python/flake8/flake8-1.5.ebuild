@@ -17,7 +17,7 @@ DESCRIPTION="Python code checking using pep8 and pyflakes"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 # tl;dr This package is masked on genesis, because it bundles libs
