@@ -185,7 +185,7 @@
  * Versions:
 
   * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.4.ebuild>`__  ``amd64``, ``x86``
-  * `1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.5.ebuild>`__  ``~amd64`` (due 2012-11-13), ``~x86`` (due 2012-11-13)
+  * `1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.5.ebuild>`__  ``amd64``, ``~x86`` (due 2012-11-13)
 
 * ``freshen`` - https://github.com/rlisagor/freshen
 
@@ -378,7 +378,7 @@
  * Versions:
 
   * `1.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.4.1.ebuild>`__  ``amd64``, ``x86``
-  * `1.5.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.5.2.ebuild>`__  ``~amd64`` (due 2012-11-13), ``~x86`` (due 2012-11-13)
+  * `1.5.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.5.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-11-13)
   * `1.5.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.5.3.ebuild>`__  ``~amd64`` (due 2012-11-15), ``~x86`` (due 2012-11-15)
 
 * ``pdbpp`` - http://pypi.python.org/pypi/pdbpp/
