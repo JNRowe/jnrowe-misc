@@ -80,8 +80,7 @@
  * Licence: ``GPL-3+``
  * Versions:
 
-  * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/tudu/tudu-0.8.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.8.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/tudu/tudu-0.8.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-11-13)
+  * `0.8.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/tudu/tudu-0.8.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``weatherspect`` - http://www.robobunny.com/projects/weatherspect/html/
 
