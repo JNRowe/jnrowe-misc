@@ -43,7 +43,7 @@
  * Versions:
 
   * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.8.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.8.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.8.2.ebuild>`__  ``~amd64`` (due 2012-11-15), ``~x86`` (due 2012-11-15)
+  * `0.8.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.8.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-11-15)
 
 * ``seqdiag`` - http://pypi.python.org/pypi/seqdiag/
 
