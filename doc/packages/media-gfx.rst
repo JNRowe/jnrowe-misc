@@ -32,7 +32,7 @@
  * Versions:
 
   * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/gruffy/gruffy-0.3.ebuild>`__  ``amd64``, ``x86``
-  * `0.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/gruffy/gruffy-0.3.1.ebuild>`__  ``~amd64`` (due 2012-11-15), ``~x86`` (due 2012-11-15)
+  * `0.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/gruffy/gruffy-0.3.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-11-15)
 
 * ``nwdiag`` - http://pypi.python.org/pypi/nwdiag/
 
@@ -41,7 +41,7 @@
  * Versions:
 
   * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.8.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.8.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.8.2.ebuild>`__  ``~amd64`` (due 2012-11-15), ``~x86`` (due 2012-11-15)
+  * `0.8.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.8.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-11-15)
 
 * ``seqdiag`` - http://pypi.python.org/pypi/seqdiag/
 
@@ -50,7 +50,7 @@
  * Versions:
 
   * `0.7.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.7.3.ebuild>`__  ``amd64``, ``x86``
-  * `0.7.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.7.5.ebuild>`__  ``~amd64`` (due 2012-11-15), ``~x86`` (due 2012-11-15)
+  * `0.7.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.7.5.ebuild>`__  ``amd64``, ``~x86`` (due 2012-11-15)
 
 * ``sphinxcontrib-aafig`` - http://packages.python.org/sphinxcontrib-aafig/
 
