@@ -2,6 +2,10 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  17 Nov 2012; James Rowe <jnrowe@gmail.com> -hubugs-0.14.0.ebuild:
+  Removed stale ebuild, newer version will be available for stabilisation
+  around the same time.
+
   25 Oct 2012; James Rowe <jnrowe@gmail.com> hubugs-0.14.0.ebuild,
   hubugs-0.15.0.ebuild:
   Updated for distutils-r1 usage.
