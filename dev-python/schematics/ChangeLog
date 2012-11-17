@@ -3,6 +3,9 @@
 # $Header: $
 
   17 Nov 2012; James Rowe <jnrowe@gmail.com> schematics-0.5.ebuild:
+  Keyworded x86.
+
+  17 Nov 2012; James Rowe <jnrowe@gmail.com> schematics-0.5.ebuild:
   Keyworded amd64.
 
   25 Oct 2012; James Rowe <jnrowe@gmail.com> schematics-0.5.ebuild:
