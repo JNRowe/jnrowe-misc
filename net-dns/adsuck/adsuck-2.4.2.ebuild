@@ -12,7 +12,7 @@ SRC_URI="https://opensource.conformal.com/snapshots/${PN}/${P}.tgz"
 
 KEYWORDS="amd64 x86"
 SLOT="0"
-LICENSE="as-is"
+LICENSE="MIT"
 IUSE=""
 
 DEPEND="dev-libs/libevent
