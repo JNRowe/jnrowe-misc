@@ -1,7 +1,7 @@
 DEFINED_PHASES=compile configure install prepare test
 DEPEND=!<sys-apps/portage-2.1.10.58 python_targets_python2_5? ( dev-lang/python:2.5 ) python_targets_python2_6? ( dev-lang/python:2.6 ) python_targets_python2_7? ( dev-lang/python:2.7 ) python_targets_python3_1? ( dev-lang/python:3.1 ) python_targets_python3_2? ( dev-lang/python:3.2 )
 DESCRIPTION=OO representation of GPX and conversion utilities between GPX, KML and OVL
-EAPI=4
+EAPI=5
 HOMEPAGE=http://www.kette-links.de/technik/
 IUSE=python_targets_python2_5 python_targets_python2_6 python_targets_python2_7 python_targets_python3_1 python_targets_python3_2
 KEYWORDS=amd64 x86
@@ -11,4 +11,4 @@ REQUIRED_USE=|| ( python_targets_python2_5 python_targets_python2_6 python_targe
 SLOT=0
 SRC_URI=http://www.kette-links.de/software/gpxdata-1.2.0.tar.gz
 _eclasses_=python-distutils-ng	b6176485a30153729ae856cd37d0174c
-_md5_=f440aeee6955747e31ee7b7e75557b14
+_md5_=fc83cec4e43be33fe17839350235c352
