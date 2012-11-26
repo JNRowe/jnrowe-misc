@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 # 2.5 isn't supported because of socket.create_connection
 # 3.x isn't supported because of Unicode literal syntax
