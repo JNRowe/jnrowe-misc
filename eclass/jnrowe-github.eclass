@@ -8,7 +8,7 @@ if [[ -z ${__ECLASS_IMPORTED_JNROWE_GITHUB} ]]; then
 inherit vcs-snapshot
 
 case "${EAPI:-0}" in
-	2|3|4) ;;
+	2|3|4|5) ;;
 	*) die "EAPI=${EAPI} is not supported" ;;
 esac
 
