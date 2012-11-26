@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 # 2.5 is restricted due to unavailable dependencies and 2.6+ syntax
 # 3.x is restricted due to blessings dependency
