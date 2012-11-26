@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> asciiquarium-1.0.ebuild:
+  Switched to EAPI-5.
+
   28 Sep 2012; James Rowe <jnrowe@gmail.com> asciiquarium-1.0.ebuild:
   Uses 'or any later version' GPL license.
 
