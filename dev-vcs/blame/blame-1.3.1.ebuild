@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 DESCRIPTION="Annotates RCS files in a style similar to CVS's annotate command"
 HOMEPAGE="http://${PN}.sourceforge.net/"
