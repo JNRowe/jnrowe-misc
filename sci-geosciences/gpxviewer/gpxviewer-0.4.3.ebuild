@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 # 3.x is restricted due to lack of support in python-distutils-extra
 PYTHON_COMPAT=(python2_5 python2_6 python2_7)
