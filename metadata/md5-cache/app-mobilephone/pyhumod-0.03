@@ -1,7 +1,7 @@
 DEFINED_PHASES=compile configure install postinst prepare test
 DEPEND=!<sys-apps/portage-2.1.10.58 python_targets_python2_5? ( dev-lang/python:2.5 ) python_targets_python2_6? ( dev-lang/python:2.6 ) python_targets_python2_7? ( dev-lang/python:2.7 )
 DESCRIPTION=Accessing Huawei modems in Python, including SMS and data calls.
-EAPI=4
+EAPI=5
 HOMEPAGE=http://code.google.com/p/pyhumod/
 IUSE=dbus python_targets_python2_5 python_targets_python2_6 python_targets_python2_7
 KEYWORDS=amd64 x86
@@ -11,4 +11,4 @@ REQUIRED_USE=|| ( python_targets_python2_5 python_targets_python2_6 python_targe
 SLOT=0
 SRC_URI=http://pyhumod.googlecode.com/files/pyhumod-0.03.tar.gz
 _eclasses_=python-distutils-ng	b6176485a30153729ae856cd37d0174c
-_md5_=f631d67a4b70d5bd19444e1c994f3f64
+_md5_=aa71c02d3a14d8ed67bff6e0319c4f5c
