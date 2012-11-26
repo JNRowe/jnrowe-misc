@@ -5,9 +5,10 @@
 EAPI=4
 
 # This version is specifically for Python 2
-PYTHON_COMPAT=(python2_5 python2_6 python2_7)
+PYPI_OLD_DISTUTILS_NG=1
+PYTHON_COMPAT="python2_5 python2_6 python2_7"
 
-inherit distutils-r1
+inherit python-distutils-ng
 
 DESCRIPTION="maildir processor using Python as its configuration language"
 HOMEPAGE="http://joel.rosdahl.net/maildirproc/"
