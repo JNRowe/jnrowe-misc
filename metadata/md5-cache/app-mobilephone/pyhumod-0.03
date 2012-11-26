@@ -10,5 +10,5 @@ RDEPEND=dev-python/pyserial net-dialup/ppp dbus? ( dev-python/dbus-python ) pyth
 REQUIRED_USE=|| ( python_targets_python2_5 python_targets_python2_6 python_targets_python2_7 )
 SLOT=0
 SRC_URI=http://pyhumod.googlecode.com/files/pyhumod-0.03.tar.gz
-_eclasses_=python-distutils-ng	3e9b44e207485638f0e2b21c6749bf7e
+_eclasses_=python-distutils-ng	b6176485a30153729ae856cd37d0174c
 _md5_=f631d67a4b70d5bd19444e1c994f3f64
