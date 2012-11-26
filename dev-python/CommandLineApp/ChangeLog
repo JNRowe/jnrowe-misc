@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> CommandLineApp-3.0.7.ebuild:
+  Switched to EAPI-5.
+
   08 Apr 2012; James Rowe <jnrowe@gmail.com> commandlineapp-3.0.7.ebuild:
   Use distutils.eclass via jnrowe-pypi.
 
