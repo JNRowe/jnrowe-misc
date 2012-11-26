@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 DESCRIPTION="Retrieve statistics and generate reports from source code repositories"
 HOMEPAGE="http://scm-pepper.sourceforge.net/"
