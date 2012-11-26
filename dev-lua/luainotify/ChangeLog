@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> luainotify-0.20090818.ebuild:
+  Use public-domain for licence, not as-is.
+
   14 Mar 2012; James Rowe <jnrowe@gmail.com> luainotify-0.20090818.ebuild:
   Use ${PN} in ${HOMEPAGE}.
 

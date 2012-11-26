@@ -12,7 +12,7 @@ DESCRIPTION="a Lua interface to the Linux inotify subsystem"
 HOMEPAGE="http://www3.telus.net/taj_khattra/${PN}.html"
 SRC_URI="http://www3.telus.net/taj_khattra/${PN}/${MY_P}.tar.gz"
 
-LICENSE="as-is"
+LICENSE="public-domain"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""
