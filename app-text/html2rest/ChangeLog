@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> html2rest-0.2.2.ebuild:
+  Switched to EAPI-5.
+
   25 Oct 2012; James Rowe <jnrowe@gmail.com> -html2rest-0.2.1.ebuild,
   html2rest-0.2.2.ebuild:
   Keyworded x86.
