@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 # This version is specifically for Python 3
 PYPI_OLD_DISTUTILS_NG=1
