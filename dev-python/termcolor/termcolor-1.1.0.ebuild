@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 # 2.5 is unsupported because of print function syntax, temporary fix
 # would be to disable cprint for those versions if support is needed.
 PYPI_OLD_DISTUTILS_NG=1
