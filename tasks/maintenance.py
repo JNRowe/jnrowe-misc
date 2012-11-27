@@ -57,9 +57,9 @@ def task_doc_check():
 
 @APP.cmd(name='gen-stable')
 @APP.cmd_arg('--arches', default=['amd64', 'x86'],
-          help='architectures to generate reminder for')
+             help='architectures to generate reminder for')
 @APP.cmd_arg('-s', '--selection', default=False,
-          help='copy reminder to primary selection')
+             help='copy reminder to primary selection')
 @APP.cmd_arg('cpv', help='fully qualified package identifier')
 @APP.cmd_arg('days', nargs='?', default=30, help='number of days to wait')
 def gen_stable(arches, selection, cpv, days):

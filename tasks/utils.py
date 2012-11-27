@@ -73,7 +73,7 @@ def cmd_output(command):
 def create_gh_client():
     if not httplib2:
         raise CommandError(fail("Opening bugs requires the httplib2 "
-                                     "Python package"))
+                                "Python package"))
     if not path.exists(CA_CERTS):
         raise CommandError(fail("Unable to find system SSL certificates"))
 
@@ -90,7 +90,7 @@ def create_gh_client():
         token = cmd_output('git config %s.token' % repo)
     except CalledProcessError:
         raise CommandError('Missing %s.token API token in git config'
-                                % repo)
+                           % repo)
 
     session = httplib2.Http(cache='.http_cache', ca_certs=CA_CERTS)
     session.get = partial(request, method='GET')
