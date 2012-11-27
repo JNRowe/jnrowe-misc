@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  27 Nov 2012; James Rowe <jnrowe@gmail.com> aaargh-0.4.ebuild:
+  Supports Python 3.3.
+
   17 Nov 2012; James Rowe <jnrowe@gmail.com> -aaargh-0.3.ebuild,
   aaargh-0.4.ebuild:
   Keyworded x86.

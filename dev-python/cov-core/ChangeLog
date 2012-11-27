@@ -2,6 +2,9 @@
 # Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  27 Nov 2012; James Rowe <jnrowe@gmail.com> cov-core-1.7.ebuild:
+  Supports Python 3.3.
+
   25 Oct 2012; James Rowe <jnrowe@gmail.com> -cov-core-1.6.ebuild,
   -files/cov-core-1.6-fix_subprocess_hack_install.patch, cov-core-1.7.ebuild:
   Keyworded x86.
