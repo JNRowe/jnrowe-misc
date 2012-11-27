@@ -5,9 +5,13 @@
   27 Nov 2012; James Rowe <jnrowe@gmail.com> docformatter-0.2.4.ebuild:
   Supports Python 3.3.
 
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> docformatter-0.2.4.ebuild:
+  Switched to EAPI-5.
+
   30 Aug 2012; James Rowe <jnrowe@gmail.com> docformatter-0.2.4.ebuild:
   Keyworded amd64.
 
+  30 Aug 2012; James Rowe <jnrowe@gmail.com> docformatter-0.2.4.ebuild:
   Keyworded x86.
 
 *docformatter-0.2.4 (31 Jul 2012)

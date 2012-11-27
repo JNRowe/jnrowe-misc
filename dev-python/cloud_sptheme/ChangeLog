@@ -5,6 +5,9 @@
   27 Nov 2012; James Rowe <jnrowe@gmail.com> cloud_sptheme-1.5.ebuild:
   Supports Python 3.3.
 
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> cloud_sptheme-1.5.ebuild:
+  Switched to EAPI-5.
+
   12 Nov 2012; James Rowe <jnrowe@gmail.com> -cloud_sptheme-1.4.ebuild,
   cloud_sptheme-1.5.ebuild:
   Keyworded x86.

@@ -11,7 +11,7 @@ if [[ -n ${PYPI_OLD_DISTUTILS} ]]; then
 	inherit distutils
 
 	case "${EAPI:-0}" in
-		0|1|2|3|4) ;;
+		0|1|2|3|4|5) ;;
 		*) die "EAPI=${EAPI} is not supported" ;;
 	esac
 elif [[ -n ${PYPI_OLD_DISTUTILS_NG} ]]; then
@@ -19,7 +19,7 @@ elif [[ -n ${PYPI_OLD_DISTUTILS_NG} ]]; then
 	EXPORT_FUNCTIONS src_prepare src_install
 
 	case "${EAPI:-0}" in
-		0|1|2|3|4) ;;
+		0|1|2|3|4|5) ;;
 		*) die "EAPI=${EAPI} is not supported" ;;
 	esac
 else

@@ -5,6 +5,9 @@
   27 Nov 2012; James Rowe <jnrowe@gmail.com> micromodels-0.5.0.ebuild:
   Supports Python 3.3.
 
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> micromodels-0.5.0.ebuild:
+  Switched to EAPI-5.
+
   14 Jun 2012; James Rowe <jnrowe@gmail.com> micromodels-0.5.0.ebuild:
   Keyworded x86.
 

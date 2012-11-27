@@ -5,6 +5,9 @@
   27 Nov 2012; James Rowe <jnrowe@gmail.com> pyisbn-0.6.0.ebuild:
   Supports Python 3.3.
 
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> pyisbn-0.6.0.ebuild:
+  Switched to EAPI-5.
+
   28 Sep 2012; James Rowe <jnrowe@gmail.com> pyisbn-0.6.0.ebuild:
   Uses 'or any later version' GPL license.
 

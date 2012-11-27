@@ -5,6 +5,9 @@
   27 Nov 2012; James Rowe <jnrowe@gmail.com> expecter-0.2.2.ebuild:
   Supports Python 3.3.
 
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> expecter-0.2.2.ebuild:
+  Switched to EAPI-5.
+
   19 Aug 2012; James Rowe <jnrowe@gmail.com> -expecter-0.2.1.ebuild,
   expecter-0.2.2.ebuild:
   Keyworded x86.

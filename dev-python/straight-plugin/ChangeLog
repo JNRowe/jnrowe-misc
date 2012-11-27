@@ -5,6 +5,9 @@
   27 Nov 2012; James Rowe <jnrowe@gmail.com> straight-plugin-1.4.0.ebuild:
   Supports Python 3.3.
 
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> straight-plugin-1.4.0.ebuild:
+  Switched to EAPI-5.
+
   30 Aug 2012; James Rowe <jnrowe@gmail.com> straight-plugin-1.4.0.ebuild:
   Keyworded amd64.
 

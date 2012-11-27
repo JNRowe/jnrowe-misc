@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 # Python 2.5 isn't supported by nose2
 PYPI_OLD_DISTUTILS_NG=1
 PYTHON_COMPAT="python2_6 python2_7 python3_1 python3_2 python3_3"

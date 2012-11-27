@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 # 3.x is restricted due to exception syntax
 PYPI_OLD_DISTUTILS_NG=1
 PYTHON_COMPAT="python2_5 python2_6 python2_7"

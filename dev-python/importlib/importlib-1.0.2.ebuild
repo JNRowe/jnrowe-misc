@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 # importlib is available in >=2.7 or >=3.1, and unlike most similar modules this
 # refuses to install to site-packages for those versions
 PYPI_OLD_DISTUTILS_NG=1

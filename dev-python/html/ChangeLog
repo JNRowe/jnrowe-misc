@@ -6,6 +6,9 @@
   Supports Python 3.3.
 
   26 Nov 2012; James Rowe <jnrowe@gmail.com> html-1.16.ebuild:
+  Switched to EAPI-5.
+
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> html-1.16.ebuild:
   Removed invalid DOCS entry.
 
   09 Apr 2012; James Rowe <jnrowe@gmail.com> html-1.16.ebuild:

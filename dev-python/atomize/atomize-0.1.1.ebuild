@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 # 3.x isn't supported due to StringIO changes
 PYPI_OLD_DISTUTILS_NG=1

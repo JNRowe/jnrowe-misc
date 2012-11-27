@@ -6,6 +6,10 @@
   nose-machineout-0.0.20101201.ebuild:
   Supports Python 3.3.
 
+  26 Nov 2012; James Rowe <jnrowe@gmail.com>
+  nose-machineout-0.0.20101201.ebuild:
+  Switched to EAPI-5.
+
   14 Apr 2012; James Rowe <jnrowe@gmail.com>
   nose-machineout-0.0.20101201.ebuild:
   Use mirror://github for SRC_URI.

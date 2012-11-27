@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 DESCRIPTION="Enjoy the mysteries of the sea from the safety of your own terminal"
 HOMEPAGE="http://www.robobunny.com/projects/${PN}/html/"

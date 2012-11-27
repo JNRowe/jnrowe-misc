@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 # 2.5 is restricted due to use of context handlers, without __future__ import
 PYPI_OLD_DISTUTILS_NG=1
 PYTHON_COMPAT="python2_6 python2_7"

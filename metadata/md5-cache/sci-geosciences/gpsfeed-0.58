@@ -1,10 +1,10 @@
 DEFINED_PHASES=install prepare
 DESCRIPTION=A utility that generates continuous GPS data for running tests
-EAPI=4
+EAPI=5
 HOMEPAGE=http://users.hol.gr/~dzach/gpsfeed/index.html
 KEYWORDS=amd64 x86
 LICENSE=GPL-2+
 RDEPEND=dev-lang/tk dev-tcltk/tcludp
 SLOT=0
 SRC_URI=mirror://sourceforge/gpsfeed/gpsfeed+.zip
-_md5_=b95316f39e1da8d3f51d0c59427699a4
+_md5_=bc510de467eb00ebdc2009bbc660d4f3

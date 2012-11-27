@@ -5,6 +5,9 @@
   27 Nov 2012; James Rowe <jnrowe@gmail.com> gpxdata-1.2.0.ebuild:
   Supports Python 3.3.
 
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> gpxdata-1.2.0.ebuild:
+  Switched to EAPI-5.
+
   31 Jul 2012; James Rowe <jnrowe@gmail.com> gpxdata-1.2.0.ebuild:
   Don't run python-distutils-ng_redoscript, as recent silent updates to
   python-distutils-ng now run it and break packages.

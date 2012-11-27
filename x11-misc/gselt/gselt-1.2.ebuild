@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 DESCRIPTION="Watches the X selection and displays context sensitive actions"
 HOMEPAGE="http://offog.org/code/${PN}.html"

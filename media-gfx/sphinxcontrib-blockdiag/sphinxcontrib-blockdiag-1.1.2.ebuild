@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 # <2.7 is restricted until the blockdiag ebuild has support
 # 3.x is not supported because of exception syntax.
 PYPI_OLD_DISTUTILS_NG=1

@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 # 2.5 is restricted due to except...as syntax
 # 3.x is restricted due to print command

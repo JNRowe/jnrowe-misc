@@ -5,6 +5,9 @@
   27 Nov 2012; James Rowe <jnrowe@gmail.com> should_dsl-2.1.1.ebuild:
   Supports Python 3.3.
 
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> should_dsl-2.1.1.ebuild:
+  Switched to EAPI-5.
+
   26 Oct 2012; James Rowe <jnrowe@gmail.com> -should_dsl-1.2.1.ebuild,
   should_dsl-2.1.1.ebuild:
   Keyworded x86.

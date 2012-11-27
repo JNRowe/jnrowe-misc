@@ -5,6 +5,9 @@
   27 Nov 2012; James Rowe <jnrowe@gmail.com> nose2-0.4.1.ebuild:
   Supports Python 3.3.
 
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> nose2-0.4.1.ebuild:
+  Switched to EAPI-5.
+
   16 Oct 2012; James Rowe <jnrowe@gmail.com> nose2-0.4.1.ebuild:
   Keyworded x86.
 

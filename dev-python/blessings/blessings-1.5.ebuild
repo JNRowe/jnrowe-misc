@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 # < 3.2.3 is restricted due to http://bugs.python.org/issue10570
 # TODO: revisit this when 3.2.3 or 3.3 is available in the tree
 PYPI_OLD_DISTUTILS_NG=1

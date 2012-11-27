@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 DESCRIPTION="A utility that generates continuous GPS data for running tests"
 HOMEPAGE="http://users.hol.gr/~dzach/${PN}/index.html"

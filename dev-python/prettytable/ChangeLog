@@ -5,6 +5,9 @@
   27 Nov 2012; James Rowe <jnrowe@gmail.com> prettytable-0.6.1.ebuild:
   Supports Python 3.3.
 
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> prettytable-0.6.1.ebuild:
+  Switched to EAPI-5.
+
   30 Aug 2012; James Rowe <jnrowe@gmail.com> prettytable-0.6.1.ebuild:
   Keyworded amd64.
 

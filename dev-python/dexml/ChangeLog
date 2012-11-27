@@ -5,6 +5,9 @@
   27 Nov 2012; James Rowe <jnrowe@gmail.com> dexml-0.5.0.ebuild:
   Supports Python 3.3.
 
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> dexml-0.5.0.ebuild:
+  Switched to EAPI-5.
+
   12 Nov 2012; James Rowe <jnrowe@gmail.com> -dexml-0.4.2.ebuild,
   dexml-0.5.0.ebuild:
   Keyworded x86.

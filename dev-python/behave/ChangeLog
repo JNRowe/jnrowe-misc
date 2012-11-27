@@ -5,6 +5,9 @@
   27 Nov 2012; James Rowe <jnrowe@gmail.com> behave-1.2.2.ebuild:
   Supports Python 3.3.
 
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> behave-1.2.2.ebuild:
+  Switched to EAPI-5.
+
   01 Nov 2012; James Rowe <jnrowe@gmail.com> behave-1.2.2.ebuild:
   Switched to virtual/python-argparse.
 

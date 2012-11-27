@@ -5,6 +5,9 @@
   27 Nov 2012; James Rowe <jnrowe@gmail.com> Benchmarker-3.0.1.ebuild:
   Supports Python 3.3.
 
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> Benchmarker-3.0.1.ebuild:
+  Switched to EAPI-5.
+
   29 May 2012; James Rowe <jnrowe@gmail.com> benchmarker-3.0.1.ebuild:
   Switched to python-distutils-ng eclass.
 

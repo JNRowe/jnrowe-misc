@@ -5,6 +5,9 @@
   27 Nov 2012; James Rowe <jnrowe@gmail.com> schematics-0.5.ebuild:
   Supports Python 3.3.
 
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> schematics-0.5.ebuild:
+  Switched to EAPI-5.
+
   17 Nov 2012; James Rowe <jnrowe@gmail.com> schematics-0.5.ebuild:
   Keyworded x86.
 

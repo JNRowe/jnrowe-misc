@@ -1,7 +1,7 @@
 DEFINED_PHASES=compile configure install prepare test unpack
 DEPEND=dev-python/configobj dev-python/notify-python dev-python/tweepy dev-python/pygtk !minimal? ( dev-python/termcolor dev-python/setproctitle ) dev-python/docutils doc? ( dev-python/sphinx ) !<sys-apps/portage-2.1.10.58 python_targets_python2_6? ( dev-lang/python:2.6 ) python_targets_python2_7? ( dev-lang/python:2.7 )
 DESCRIPTION=Nasty little twitter client
-EAPI=4
+EAPI=5
 HOMEPAGE=http://jnrowe.github.com/bleeter/
 IUSE=doc minimal python_targets_python2_6 python_targets_python2_7
 KEYWORDS=amd64 x86
@@ -10,5 +10,5 @@ RDEPEND=dev-python/configobj dev-python/notify-python dev-python/tweepy dev-pyth
 REQUIRED_USE=|| ( python_targets_python2_6 python_targets_python2_7 )
 SLOT=0
 SRC_URI=https://github.com/JNRowe/bleeter/tarball/0.8.0 -> bleeter-0.8.0.tar.gz doc? ( https://github.com/JNRowe/sphinx-jnrowe/tarball/0.1.0 -> sphinx-jnrowe-0.1.0.tar.gz )
-_eclasses_=jnrowe-github	62d191d431628ee6e3a49eb2e9920c6f	python-distutils-ng	b6176485a30153729ae856cd37d0174c	vcs-snapshot	d7572a392e0bd8e207deae5414f6a887
-_md5_=f9c0e0bf90579a630f126292393c43b1
+_eclasses_=jnrowe-github	05114b48f13abc2053c702a111b47ee4	python-distutils-ng	b6176485a30153729ae856cd37d0174c	vcs-snapshot	d7572a392e0bd8e207deae5414f6a887
+_md5_=10058e79e4dafac6a4d18117a5da12ef

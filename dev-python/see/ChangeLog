@@ -5,6 +5,9 @@
   27 Nov 2012; James Rowe <jnrowe@gmail.com> see-1.0.1.ebuild:
   Supports Python 3.3.
 
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> see-1.0.1.ebuild:
+  Switched to EAPI-5.
+
   09 Apr 2012; James Rowe <jnrowe@gmail.com> see-1.0.1.ebuild:
   src_install default hack now in jnrowe-pypi eclass.
 

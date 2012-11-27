@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 AUTOTOOLS_AUTO_DEPEND=no
 
 inherit autotools eutils versionator
