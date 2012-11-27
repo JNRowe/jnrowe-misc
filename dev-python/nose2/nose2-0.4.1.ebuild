@@ -4,7 +4,7 @@
 
 EAPI=4
 PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_6 python2_7 python3_1 python3_2"
+PYTHON_COMPAT="python2_6 python2_7 python3_1 python3_2 python3_3"
 
 inherit jnrowe-pypi
 
@@ -21,7 +21,7 @@ RDEPEND="${DEPEND}
 	dev-python/six
 	python_targets_python2_6? ( dev-python/argparse dev-python/unittest2 )"
 
-	PATCHES=("${FILESDIR}"/${PN}-0.4-remote_version_specific_runners.patch)
+PATCHES=("${FILESDIR}"/${PN}-0.4-remote_version_specific_runners.patch)
 
 DOCS=(AUTHORS README.rst)
 
