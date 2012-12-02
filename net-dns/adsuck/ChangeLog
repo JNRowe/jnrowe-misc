@@ -1,5 +1,6 @@
 # ChangeLog for net-dns/adsuck
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright © 2012  James Rowe <jnrowe@gmail.com>
+# Distributed under the GPL v2
 # $Header: $
 
   26 Nov 2012; James Rowe <jnrowe@gmail.com> adsuck-2.4.2.ebuild:

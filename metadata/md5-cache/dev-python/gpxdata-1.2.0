@@ -11,4 +11,4 @@ REQUIRED_USE=|| ( python_targets_python2_5 python_targets_python2_6 python_targe
 SLOT=0
 SRC_URI=http://www.kette-links.de/software/gpxdata-1.2.0.tar.gz
 _eclasses_=python-distutils-ng	b6176485a30153729ae856cd37d0174c
-_md5_=4502c1b2786996f8dab7540264fd3b09
+_md5_=b2c1b966ffcb4a514deeed87ac17972b
