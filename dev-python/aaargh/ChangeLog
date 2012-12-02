@@ -1,5 +1,6 @@
 # ChangeLog for dev-python/aaargh
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright © 2012  James Rowe <jnrowe@gmail.com>
+# Distributed under the GPL v2
 # $Header: $
 
   27 Nov 2012; James Rowe <jnrowe@gmail.com> aaargh-0.4.ebuild:

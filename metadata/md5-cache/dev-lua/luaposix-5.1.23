@@ -10,4 +10,4 @@ RESTRICT=test
 SLOT=0
 SRC_URI=mirror://github/luaposix/luaposix/luaposix-5.1.23.tar.gz
 _eclasses_=multilib	9aa8a023e062fca0ba79362d9d0cc488	toolchain-funcs	134429b842a6c67254bfd76a8753e4d4
-_md5_=fa6faac7afcdb84792a5e76fe9c69000
+_md5_=d3f8d04929d4c426fea80f45502a0788

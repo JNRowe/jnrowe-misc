@@ -11,4 +11,4 @@ REQUIRED_USE=|| ( python_targets_python3_1 python_targets_python3_2 python_targe
 SLOT=0
 SRC_URI=http://joel.rosdahl.net/maildirproc/releases/maildirproc-0.5.0.tar.bz2
 _eclasses_=python-distutils-ng	b6176485a30153729ae856cd37d0174c
-_md5_=0ee642a860a20186f59d0d68f7c6f59f
+_md5_=09d84b23b269f3d169c0917f0b11f25e

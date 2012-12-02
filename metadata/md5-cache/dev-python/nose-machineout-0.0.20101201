@@ -11,4 +11,4 @@ REQUIRED_USE=|| ( python_targets_python2_5 python_targets_python2_6 python_targe
 SLOT=0
 SRC_URI=mirror://github/JNRowe/jnrowe-misc/nose-machineout-0.0.20101201.tar.bz2
 _eclasses_=python-distutils-ng	b6176485a30153729ae856cd37d0174c
-_md5_=6b3fc7062508f65aaf861bfaa9fd41a7
+_md5_=0806b6ef94f2b4f67e817cf515695c54

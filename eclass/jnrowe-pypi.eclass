@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 2009, 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 

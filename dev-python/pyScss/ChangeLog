@@ -1,5 +1,6 @@
 # ChangeLog for dev-python/pyScss
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright © 2012  James Rowe <jnrowe@gmail.com>
+# Distributed under the GPL v2
 # $Header: $
 
   26 Nov 2012; James Rowe <jnrowe@gmail.com> pyScss-1.1.4.ebuild:

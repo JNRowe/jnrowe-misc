@@ -11,4 +11,4 @@ RESTRICT=test
 SLOT=0
 SRC_URI=http://ccontrol.ozlabs.org//releases/ccontrol-1.0.tar.bz2
 _eclasses_=eutils	d40dc948067bd3db1c8ebf7d51897313	multilib	9aa8a023e062fca0ba79362d9d0cc488	toolchain-funcs	134429b842a6c67254bfd76a8753e4d4	user	d0a4d0735a6c0183d707ca919bd72f28
-_md5_=71eadea0486c0e238f2dd9ac56856592
+_md5_=68e73ce6ae501e395de16f75199574e7
