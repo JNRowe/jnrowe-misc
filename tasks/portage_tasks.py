@@ -10,9 +10,9 @@ except CalledProcessError:
     SIGN_KEY = None
 
 
-@APP.cmd(name='gen-use-local-desc')
+@APP.cmd(name='gen-use-local-desc', help='generate use.local.desc')
 def gen_use_local_desc():
-    """generate use.local.desc"""
+    """Generate use.local.desc"""
     dep(['profiles/use.local.desc', ], glob('*-*/*/metadata.xml'))
     repo = open('profiles/repo_name').read().strip()
     # This really shouldn't be handled with subprocess, but portage seemingly
@@ -21,9 +21,9 @@ def gen_use_local_desc():
     print(success('use.local.desc generated!'))
 
 
-@APP.cmd(name='gen-categories')
+@APP.cmd(name='gen-categories', help='generate categories listing')
 def gen_categories():
-    """generate categories listing"""
+    """Generate categories listing"""
     dep(['profiles/categories', ], glob('*-*'))
     with open('profiles/categories', 'w') as file:
         for cat in sorted(glob('*-*')):
@@ -35,9 +35,9 @@ def gen_categories():
     print(success('categories list generated!'))
 
 
-@APP.cmd(name='gen-manifests')
+@APP.cmd(name='gen-manifests', help='generate Manifest files')
 def gen_manifests():
-    """generate Manifest files"""
+    """Generate Manifest files"""
     dep(glob('*-*/*/Manifest'), glob('*-*/*/*'))
     base_dir = os.path.abspath(os.curdir)
     if not SIGN_KEY:
@@ -56,9 +56,9 @@ def gen_manifests():
             os.chdir(base_dir)
 
 
-@APP.cmd(name='gen-news-sigs')
+@APP.cmd(name='gen-news-sigs', help='generate news file signatures')
 def gen_news_sigs():
-    """generate news file signatures"""
+    """Generate news file signatures"""
     news_files = glob('metadata/news/*/*.txt')
     dep(map(lambda s: s + '.asc', news_files), news_files, mapping=True)
     if not SIGN_KEY:

@@ -14,9 +14,9 @@ except ImportError:
     lxml = None  # NOQA
 
 
-@APP.cmd(name='layman-check')
+@APP.cmd(name='layman-check', help='check basic layman config validity')
 def layman_check():
-    """check basic layman config validity"""
+    """Check basic layman config validity"""
     dtd_loc = ('http://git.overlays.gentoo.org/gitweb/?'
                'p=proj/repositories-xml-format.git;a=blob_plain;'
                'f=schema/%s;hb=HEAD')
