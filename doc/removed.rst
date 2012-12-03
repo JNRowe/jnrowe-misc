@@ -443,6 +443,19 @@ culled.
 :Commit: :commit:`b65bcbc0 <b65bcbc0b6039eccdd1d47976c4660025671d69f>`
 :Removal date: 2012-03-05
 
+``tweepy``
+''''''''''
+
+    An ebuild is now available upstream.  Unfortunately it can't be used as it
+    bundles dependencies.
+
+    It will be maintained there until a usable upgrade path is available,
+    including matching keywords.
+
+:Reason: Moved to ``::shadow``
+:Commit:
+:Removal date: 2012-12-03
+
 ``twython``
 '''''''''''
 

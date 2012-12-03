@@ -625,14 +625,6 @@
 
   * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/titlecase/titlecase-0.5.1.ebuild>`__  ``amd64``, ``x86``
 
-* ``tweepy`` - http://pypi.python.org/pypi/tweepy/
-
- * Twitter library for python
- * Licence: ``MIT``
- * Versions:
-
-  * `1.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.11.ebuild>`__  ``amd64``, ``x86``
-
 * ``upoints`` - https://github.com/JNRowe/upoints/
 
  * Modules for working with points on Earth
