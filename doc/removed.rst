@@ -190,6 +190,20 @@ culled.
 :Commit: :commit:`89dffdfd <89dffdfd2ec84a4259ce73819711f46b2f806cb4>`
 :Removal date: 2010-09-21
 
+``cov-core``
+''''''''''''
+
+    An ebuild is now available upstream.  Unfortunately it can't be used as it
+    has incorrect dependencies, invalid Python configuration and broken
+    ``subprocess`` support.
+
+    It will be maintained there until a usable upgrade path is available,
+    including matching keywords.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`ccb15265 <ccb152651d2961147cd793fbfd7dd8d23c36c152>`
+:Removal date: 2012-12-03
+
 ``dulwich``
 '''''''''''
 
@@ -301,6 +315,15 @@ culled.
 :Reason: Culled
 :Commit: :commit:`0195603d <0195603d254d954ba75b0318426b8170840f6c12>`
 :Removal date: 2012-01-16
+
+``prettytable``
+'''''''''''''''
+
+    An ebuild is now available upstream.
+
+:Reason: Culled
+:Commit: :commit:`57e69871 <57e69871b0de7598b108e60ce9fc2be90969fd2f>`
+:Removal date: 2012-12-03
 
 ``pycparser``
 ~~~~~~~~~~~~~
@@ -420,9 +443,21 @@ culled.
 :Commit: :commit:`b65bcbc0 <b65bcbc0b6039eccdd1d47976c4660025671d69f>`
 :Removal date: 2012-03-05
 
+``tweepy``
+''''''''''
+
+    An ebuild is now available upstream.  Unfortunately it can't be used as it
+    bundles dependencies.
+
+    It will be maintained there until a usable upgrade path is available,
+    including matching keywords.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`f961a594 <f961a594299b8525f237c590b9f63097c4aca305>`
+:Removal date: 2012-12-03
+
 ``twython``
 '''''''''''
-
 
     The latest release, 1.4.6, has unsupported dependencies and as such is
     unusable on our systems.  Alternatives include :pypi:`tweepy`, which is

@@ -105,14 +105,6 @@
 
   * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/colorama/colorama-0.2.4.ebuild>`__  ``amd64``, ``x86``
 
-* ``cov-core`` - http://pypi.python.org/pypi/cov-core/
-
- * Plugin core for use by pytest-cov, nose-cov and nose2-cov
- * Licence: ``MIT``
- * Versions:
-
-  * `1.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cov-core/cov-core-1.7.ebuild>`__  ``amd64``, ``x86``
-
 * ``dexml`` - http://pypi.python.org/pypi/dexml/
 
  * A dead-simple Object-XML mapper for Python
@@ -420,14 +412,6 @@
 
   * `0.9.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/plac/plac-0.9.1.ebuild>`__  ``amd64``, ``x86``
 
-* ``prettytable`` - http://code.google.com/p/prettytable/
-
- * Display tabular data in a visually appealing ASCII table
- * Licence: ``BSD``
- * Versions:
-
-  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/prettytable/prettytable-0.6.1.ebuild>`__  ``amd64``, ``x86``
-
 * ``pwtools`` - http://alastairs-place.net/projects/pwtools/
 
  * Password generation and security checking
@@ -643,14 +627,6 @@
  * Versions:
 
   * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/titlecase/titlecase-0.5.1.ebuild>`__  ``amd64``, ``x86``
-
-* ``tweepy`` - http://pypi.python.org/pypi/tweepy/
-
- * Twitter library for python
- * Licence: ``MIT``
- * Versions:
-
-  * `1.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.11.ebuild>`__  ``amd64``, ``x86``
 
 * ``upoints`` - https://github.com/JNRowe/upoints/
 
