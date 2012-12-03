@@ -316,6 +316,15 @@ culled.
 :Commit: :commit:`0195603d <0195603d254d954ba75b0318426b8170840f6c12>`
 :Removal date: 2012-01-16
 
+``prettytable``
+'''''''''''''''
+
+    An ebuild is now available upstream.
+
+:Reason: Culled
+:Commit:
+:Removal date: 2012-12-03
+
 ``pycparser``
 ~~~~~~~~~~~~~
 

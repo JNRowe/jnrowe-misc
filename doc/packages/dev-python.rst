@@ -409,14 +409,6 @@
 
   * `0.9.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/plac/plac-0.9.1.ebuild>`__  ``amd64``, ``x86``
 
-* ``prettytable`` - http://code.google.com/p/prettytable/
-
- * Display tabular data in a visually appealing ASCII table
- * Licence: ``BSD``
- * Versions:
-
-  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/prettytable/prettytable-0.6.1.ebuild>`__  ``amd64``, ``x86``
-
 * ``pwtools`` - http://alastairs-place.net/projects/pwtools/
 
  * Password generation and security checking
