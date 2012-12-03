@@ -201,7 +201,7 @@ culled.
     including matching keywords.
 
 :Reason: Moved to ``::shadow``
-:Commit:
+:Commit: :commit:`ccb15265 <ccb152651d2961147cd793fbfd7dd8d23c36c152>`
 :Removal date: 2012-12-03
 
 ``dulwich``
@@ -322,7 +322,7 @@ culled.
     An ebuild is now available upstream.
 
 :Reason: Culled
-:Commit:
+:Commit: :commit:`57e69871 <57e69871b0de7598b108e60ce9fc2be90969fd2f>`
 :Removal date: 2012-12-03
 
 ``pycparser``
@@ -453,12 +453,11 @@ culled.
     including matching keywords.
 
 :Reason: Moved to ``::shadow``
-:Commit:
+:Commit: :commit:`f961a594 <f961a594299b8525f237c590b9f63097c4aca305>`
 :Removal date: 2012-12-03
 
 ``twython``
 '''''''''''
-
 
     The latest release, 1.4.6, has unsupported dependencies and as such is
     unusable on our systems.  Alternatives include :pypi:`tweepy`, which is
