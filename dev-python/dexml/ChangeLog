@@ -3,6 +3,11 @@
 # Distributed under the GPL v2
 # $Header: $
 
+*dexml-0.5.1 (03 Dec 2012)
+
+  03 Dec 2012; James Rowe <jnrowe@gmail.com> +dexml-0.5.1.ebuild:
+  Version bump [690].
+
   27 Nov 2012; James Rowe <jnrowe@gmail.com> dexml-0.5.0.ebuild:
   Supports Python 3.3.
 
