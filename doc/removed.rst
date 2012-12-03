@@ -190,6 +190,20 @@ culled.
 :Commit: :commit:`89dffdfd <89dffdfd2ec84a4259ce73819711f46b2f806cb4>`
 :Removal date: 2010-09-21
 
+``cov-core``
+''''''''''''
+
+    An ebuild is now available upstream.  Unfortunately it can't be used as it
+    has incorrect dependencies, invalid Python configuration and broken
+    ``subprocess`` support.
+
+    It will be maintained there until a usable upgrade path is available,
+    including matching keywords.
+
+:Reason: Moved to ``::shadow``
+:Commit:
+:Removal date: 2012-12-03
+
 ``dulwich``
 '''''''''''
 

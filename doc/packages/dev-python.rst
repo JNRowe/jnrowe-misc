@@ -105,14 +105,6 @@
 
   * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/colorama/colorama-0.2.4.ebuild>`__  ``amd64``, ``x86``
 
-* ``cov-core`` - http://pypi.python.org/pypi/cov-core/
-
- * Plugin core for use by pytest-cov, nose-cov and nose2-cov
- * Licence: ``MIT``
- * Versions:
-
-  * `1.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cov-core/cov-core-1.7.ebuild>`__  ``amd64``, ``x86``
-
 * ``dexml`` - http://pypi.python.org/pypi/dexml/
 
  * A dead-simple Object-XML mapper for Python
