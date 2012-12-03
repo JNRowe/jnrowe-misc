@@ -3,6 +3,11 @@
 # Distributed under the GPL v2
 # $Header: $
 
+*blockdiag-1.2.4 (03 Dec 2012)
+
+  03 Dec 2012; James Rowe <jnrowe@gmail.com> +blockdiag-1.2.4.ebuild:
+  Version bump [689].
+
   26 Nov 2012; James Rowe <jnrowe@gmail.com> blockdiag-1.1.8.ebuild:
   Switched to EAPI-5.
 
