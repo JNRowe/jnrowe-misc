@@ -3,6 +3,11 @@
 # Distributed under the GPL v2
 # $Header: $
 
+*flake8-1.6.2 (03 Dec 2012)
+
+  03 Dec 2012; James Rowe <jnrowe@gmail.com> +flake8-1.6.2.ebuild:
+  Version bump [692].
+
   26 Nov 2012; James Rowe <jnrowe@gmail.com> flake8-1.5.ebuild:
   Switched to EAPI-5.
 
