@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Search, index, record and stream BBC's iplayer content
+EAPI=5
+HOMEPAGE=http://www.infradead.org/get_iplayer/html/get_iplayer.html
+IUSE=minimal
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=dev-perl/libwww-perl media-video/flvstreamer !minimal? ( virtual/ffmpeg )
+SLOT=0
+SRC_URI=ftp://ftp.infradead.org/pub/get_iplayer/get_iplayer-2.82.tar.gz
+_md5_=3fbb5a53e94c1a7aa405eab8e396a5cf
