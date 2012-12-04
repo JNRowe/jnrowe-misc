@@ -1,1 +1,6 @@
 # extra line needed because portage is buggy
+
+# James Rowe <jnrowe@gmail.com> (4 Dec 2012)
+# No longer used at our site.  Speak up if you want it to stay.
+# X-Removal: 2013-01-03
+x11-libs/ghosd
