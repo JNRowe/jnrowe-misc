@@ -3,6 +3,12 @@
 # Distributed under the GPL v2
 # $Header: $
 
+*sphinxcontrib-blockdiag-1.2.0 (04 Dec 2012)
+
+  04 Dec 2012; James Rowe <jnrowe@gmail.com>
+  +sphinxcontrib-blockdiag-1.2.0.ebuild:
+  Version bump [700].
+
   26 Nov 2012; James Rowe <jnrowe@gmail.com>
   sphinxcontrib-blockdiag-1.1.2.ebuild:
   Switched to EAPI-5.
