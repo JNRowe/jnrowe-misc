@@ -3,6 +3,11 @@
 # Distributed under the GPL v2
 # $Header: $
 
+*sure-1.1.4 (04 Dec 2012)
+
+  04 Dec 2012; James Rowe <jnrowe@gmail.com> +sure-1.1.4.ebuild:
+  Version bump [706].
+
   26 Nov 2012; James Rowe <jnrowe@gmail.com> sure-1.0.6.ebuild:
   Switched to EAPI-5.
 
