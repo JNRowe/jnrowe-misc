@@ -4,9 +4,14 @@
 
 EAPI=5
 
+inherit eutils
+
+DEBIAN_PATCH=2
+
 DESCRIPTION="Search, index, record and stream BBC's iplayer content"
 HOMEPAGE="http://www.infradead.org/get_iplayer/html/get_iplayer.html"
-SRC_URI="ftp://ftp.infradead.org/pub/${PN}/${P}.tar.gz"
+SRC_URI="ftp://ftp.infradead.org/pub/${PN}/${P}.tar.gz
+	mirror://debian/pool/main/g/${PN/_/-}/${PN/_/-}_${PV}-${DEBIAN_PATCH}.debian.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
@@ -21,6 +26,10 @@ RDEPEND="dev-perl/libwww-perl
 DEPEND=""
 
 DOCS=(CHANGELOG.txt CONTRIBUTORS README.txt)
+
+src_prepare() {
+	epatch "${WORKDIR}"/debian/patches/livetv.patch
+}
 
 src_install() {
 	dobin ${PN}
