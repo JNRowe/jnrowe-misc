@@ -10,7 +10,7 @@ SRC_URI="ftp://ftp.infradead.org/pub/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE="minimal"
 
 RDEPEND="dev-perl/libwww-perl
