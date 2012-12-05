@@ -3,6 +3,9 @@
 # Distributed under the GPL v2
 # $Header: $
 
+  05 Dec 2012; James Rowe <jnrowe@gmail.com> should_dsl-2.1.2.ebuild:
+  Updated for distutils-r1 usage.
+
 *should_dsl-2.1.2 (04 Dec 2012)
 
   04 Dec 2012; James Rowe <jnrowe@gmail.com> +should_dsl-2.1.2.ebuild:
