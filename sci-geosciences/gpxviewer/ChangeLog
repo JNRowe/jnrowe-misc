@@ -3,6 +3,10 @@
 # Distributed under the GPL v2
 # $Header: $
 
+  05 Dec 2012; James Rowe <jnrowe@gmail.com> gpxviewer-0.4.3.ebuild,
+  +files/gpxviewer-0.4.3-valid_desktop.patch:
+  Fix .desktop file's validation errors [708].
+
   26 Nov 2012; James Rowe <jnrowe@gmail.com> gpxviewer-0.4.3.ebuild:
   Switched to EAPI-5.
 

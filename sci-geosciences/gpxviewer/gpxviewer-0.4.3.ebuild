@@ -9,7 +9,7 @@ PYTHON_COMPAT=(python2_5 python2_6 python2_7)
 
 GITHUB_USER=andrewgee
 
-inherit distutils-r1 jnrowe-github
+inherit eutils distutils-r1 jnrowe-github
 
 DESCRIPTION="GPXViewer GPS trace viewer"
 HOMEPAGE="http://andrewgee.org/blog/projects/gpxviewer"
@@ -22,3 +22,5 @@ IUSE=""
 DEPEND="dev-python/python-distutils-extra
 	dev-util/intltool"
 RDEPEND="dev-python/python-osmgpsmap"
+
+PATCHES=("${FILESDIR}"/${P}-valid_desktop.patch)
