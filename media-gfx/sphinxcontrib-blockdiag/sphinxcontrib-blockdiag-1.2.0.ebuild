@@ -5,8 +5,7 @@
 EAPI=5
 # <2.7 is restricted until the blockdiag ebuild has support
 # 3.x is not supported because of exception syntax.
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_7"
+PYTHON_COMPAT=(python2_7)
 
 inherit jnrowe-pypi
 
