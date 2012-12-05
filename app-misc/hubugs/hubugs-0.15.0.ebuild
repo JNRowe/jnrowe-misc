@@ -39,8 +39,10 @@ RDEPEND="${CDEPEND}
 	dev-python/pygments
 	dev-python/schematics"
 
+DOCS=(NEWS.rst README.rst)
+
 src_compile() {
-	python-distutils-ng_src_compile
+	distutils-r1_src_compile
 
 	if use doc; then
 		./setup.py build_sphinx
@@ -55,6 +57,8 @@ python_test() {
 }
 
 python_install_all() {
+	distutils-r1_python_install_all
+
 	if use doc; then
 		dohtml -r doc/.build/html/* || die "dohtml failed"
 	fi

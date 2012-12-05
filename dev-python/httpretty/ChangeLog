@@ -3,6 +3,9 @@
 # Distributed under the GPL v2
 # $Header: $
 
+  05 Dec 2012; James Rowe <jnrowe@gmail.com> httpretty-0.5.4.ebuild:
+  Updated for distutils-r1 usage.
+
 *httpretty-0.5.4 (04 Dec 2012)
 
   04 Dec 2012; James Rowe <jnrowe@gmail.com> +httpretty-0.5.4.ebuild:

@@ -4,8 +4,7 @@
 
 EAPI=5
 
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_5 python2_6 python2_7"
+PYTHON_COMPAT=(python2_5 python2_6 python2_7)
 
 inherit jnrowe-pypi
 

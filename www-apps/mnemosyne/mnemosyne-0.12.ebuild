@@ -22,6 +22,8 @@ RDEPEND="dev-python/docutils
 	dev-python/kid"
 
 python_install_all() {
+	distutils-r1_python_install_all
+
 	insinto /usr/share/doc/${PF}
 	doins -r contrib/ || die "doins failed"
 

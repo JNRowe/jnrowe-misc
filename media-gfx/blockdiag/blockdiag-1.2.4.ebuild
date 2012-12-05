@@ -4,15 +4,11 @@
 
 EAPI=5
 
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2:2.7"
 # 2.5 is required for funcparserlib dependency, 3.x is not supported because of
 # print syntax.
 # <2.7 is required to ignore the OrderedDict dependency, if you really need
 # support for earlier Python version open an issue
-RESTRICT_PYTHON_ABIS="2.[56] 3.*"
-DISTUTILS_SRC_TEST="nosetests"
-PYPI_OLD_DISTUTILS=1
+PYTHON_COMPAT=(python2_7)
 
 inherit eutils jnrowe-pypi
 
@@ -36,22 +32,19 @@ RDEPEND="dev-python/funcparserlib
 	dev-python/webcolors
 	pdf? ( dev-python/reportlab )"
 
-DOCS="src/README.txt src/TODO.txt"
+DOCS=(src/README.txt src/TODO.txt)
 
 # Some tests are currently broken upstream, and others span the network
 # boundary.
 RESTRICT="test"
 
-src_test() {
-	testing() {
-		PYTHONPATH="$PWD/src" nosetests-${PYTHON_ABI} src \
-			|| die "nosetests failed"
-	}
-	python_execute_function testing
+python_test() {
+	PYTHONPATH="$PWD/src" nosetests-${PYTHON_ABI} src \
+		|| die "nosetests failed"
 }
 
 src_install() {
-	distutils_src_install
+	distutils-r1_src_install
 
 	doman ${PN}.1
 	insinto /usr/share/doc/${PF}
