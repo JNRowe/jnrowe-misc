@@ -48,6 +48,9 @@ src_compile() {
 }
 
 python_test() {
+	# This is here to workaround upstream's cov-core ebuild.  Yeah, *I* hate
+	# *me* so much right now.
+	[ "${PYTHON##*/}" == python2.6 ] && return
 	"${PYTHON}" /usr/bin/nose2 || die "nose2 failed with ${PYTHON}"
 }
 
