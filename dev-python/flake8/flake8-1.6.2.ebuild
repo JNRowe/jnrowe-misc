@@ -4,12 +4,7 @@
 
 EAPI=5
 
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*:2.6"
-# 2.5 is restricted due to except...as syntax
-RESTRICT_PYTHON_ABIS="2.5"
-DISTUTILS_SRC_TEST="nosetests"
-PYPI_OLD_DISTUTILS=1
+PYTHON_COMPAT=(python2_5 python2_6 python2_7 python3_1 python3_2 python3_3)
 
 inherit jnrowe-pypi
 
@@ -35,6 +30,6 @@ RESTRICT="test"
 # as installation varies when it is available.
 DEPEND="dev-python/setuptools"
 # setuptools is required in RDEPEND for entry points usage
-RDEPEND=""
+RDEPEND="dev-python/setuptools"
 
-DOCS="CONTRIBUTORS.txt"
+DOCS=(CONTRIBUTORS.txt README)
