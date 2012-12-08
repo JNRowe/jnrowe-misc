@@ -87,5 +87,6 @@
  * Licence: ``Artistic``
  * Versions:
 
+  * `1.10 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/weatherspect/weatherspect-1.10.ebuild>`__  ``~amd64`` (due 2013-01-07), ``~x86`` (due 2013-01-07)
   * `1.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/weatherspect/weatherspect-1.9.ebuild>`__  ``amd64``, ``x86``
 
