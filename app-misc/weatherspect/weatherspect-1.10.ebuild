@@ -17,7 +17,8 @@ IUSE=""
 DEPEND=""
 # This bundles a copy of dev-perl/Weather-Underground to work around
 # breakages, normally it would mean a package.mask but as this is just a toy...
-RDEPEND=">=dev-perl/Term-Animation-2.5"
+RDEPEND=">=dev-perl/Term-Animation-2.5
+	dev-perl/libwww-perl"
 
 S=${WORKDIR}/${PN}_v${PV}
 
