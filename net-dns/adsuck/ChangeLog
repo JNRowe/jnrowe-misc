@@ -3,6 +3,12 @@
 # Distributed under the GPL v2
 # $Header: $
 
+*adsuck-2.4.3 (08 Dec 2012)
+
+  08 Dec 2012; James Rowe <jnrowe@gmail.com> +adsuck-2.4.3.ebuild,
+  +files/adsuck-2.4.3-build_env.patch:
+  Version bump [667].
+
   26 Nov 2012; James Rowe <jnrowe@gmail.com> adsuck-2.4.2.ebuild:
   Switched to EAPI-5.
 
