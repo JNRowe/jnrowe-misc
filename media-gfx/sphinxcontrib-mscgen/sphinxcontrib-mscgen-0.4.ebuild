@@ -16,7 +16,7 @@ SLOT="0"
 KEYWORDS="amd64 ~x86"
 IUSE="pdf"
 
-DEPEND="dev-python/setuptools"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 # Setuptools is needed in RDEPEND for package namespacing.
 RDEPEND="${DEPEND}
 	dev-python/sphinx
