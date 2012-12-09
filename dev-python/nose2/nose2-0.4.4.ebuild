@@ -18,7 +18,8 @@ DEPEND="dev-python/setuptools"
 # setuptools is required in RDEPEND for entry points
 RDEPEND="${DEPEND}
 	dev-python/six
-	python_targets_python2_6? ( dev-python/argparse dev-python/unittest2 )"
+	virtual/python-argparse[${PYTHON_USEDEP}]
+	python_targets_python2_6? ( dev-python/unittest2 )"
 
 PATCHES=("${FILESDIR}"/${PN}-0.4-remote_version_specific_runners.patch)
 
