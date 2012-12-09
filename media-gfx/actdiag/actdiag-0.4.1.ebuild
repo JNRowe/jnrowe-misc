@@ -17,8 +17,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="minimal"
 
-DEPEND="dev-python/setuptools"
-RDEPEND=">=media-gfx/blockdiag-1.2.0
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
+RDEPEND=">=media-gfx/blockdiag-1.2.0[${PYTHON_USEDEP}]
 	!minimal? (
 		dev-python/docutils
 		dev-python/sphinx
