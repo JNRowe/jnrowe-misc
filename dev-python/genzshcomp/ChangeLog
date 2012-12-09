@@ -3,6 +3,9 @@
 # Distributed under the GPL v2
 # $Header: $
 
+  09 Dec 2012; James Rowe <jnrowe@gmail.com> genzshcomp-0.3.1.ebuild:
+  Switched to virtual/python-argparse.
+
   26 Nov 2012; James Rowe <jnrowe@gmail.com> genzshcomp-0.3.1.ebuild:
   Switched to EAPI-5.
 
