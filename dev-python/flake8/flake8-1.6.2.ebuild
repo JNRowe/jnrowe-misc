@@ -28,8 +28,8 @@ RESTRICT="test"
 
 # setuptools is an optional dependency for setup.py, but favour reproducibilty
 # as installation varies when it is available.
-DEPEND="dev-python/setuptools"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 # setuptools is required in RDEPEND for entry points usage
-RDEPEND="dev-python/setuptools"
+RDEPEND="${DEPEND}"
 
 DOCS=(CONTRIBUTORS.txt README)
