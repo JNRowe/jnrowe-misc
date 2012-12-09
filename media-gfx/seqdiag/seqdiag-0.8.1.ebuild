@@ -16,10 +16,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="examples minimal"
 
-DEPEND="dev-python/setuptools"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 # Setuptools is required at runtime for wrapper scripts
-RDEPEND="dev-python/setuptools
-	>=media-gfx/blockdiag-1.2.0
+RDEPEND="${DEPEND}
+	>=media-gfx/blockdiag-1.2.0[${PYTHON_USEDEP}]
 	!minimal? (
 		dev-python/docutils
 		dev-python/sphinx
