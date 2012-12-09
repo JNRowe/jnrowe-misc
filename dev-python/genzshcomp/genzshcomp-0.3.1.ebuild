@@ -21,7 +21,7 @@ IUSE=""
 
 # argparse is optional since 0.3, but until there is a better way to express
 # suggested dependencies we'll keep the dep for Python <2.7
-DEPEND="|| ( dev-python/argparse >=dev-lang/python-2.7 )"
+DEPEND="virtual/python-argparse"
 RDEPEND="${DEPEND}"
 
 PYTHON_MODNAME="${PN}.py"
