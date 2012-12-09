@@ -17,8 +17,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 # setuptools is required in RDEPEND for entry points
-DEPEND="dev-python/setuptools"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="${DEPEND}
-	dev-python/fuzzywuzzy"
+	dev-python/fuzzywuzzy[${PYTHON_USEDEP}]"
 
 DOCS=(README.md RELEASE-NOTES.md)
