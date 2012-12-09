@@ -18,26 +18,26 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc test"
 
 # setuptools is needed for command line wrappers
-CDEPEND="dev-python/setuptools"
+CDEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 DEPEND="${CDEPEND}
 	doc? (
-		dev-python/cloud_sptheme
+		dev-python/cloud_sptheme[${PYTHON_USEDEP}]
 		dev-python/sphinx
-		dev-python/sphinxcontrib-cheeseshop
+		dev-python/sphinxcontrib-cheeseshop[${PYTHON_USEDEP}]
 	)
 	test? (
-		dev-python/nose2-cov
+		dev-python/nose2-cov[${PYTHON_USEDEP}]
 		dev-python/mock
 	)"
 RDEPEND="${CDEPEND}
 	dev-python/argh
-	dev-python/blessings
+	dev-python/blessings[${PYTHON_USEDEP}]
 	dev-python/html2text
 	>=dev-python/httplib2-0.7.4
 	dev-python/jinja
-	dev-python/kitchen
+	dev-python/kitchen[${PYTHON_USEDEP}]
 	dev-python/pygments
-	dev-python/schematics"
+	dev-python/schematics[${PYTHON_USEDEP}]"
 
 DOCS=(NEWS.rst README.rst)
 
