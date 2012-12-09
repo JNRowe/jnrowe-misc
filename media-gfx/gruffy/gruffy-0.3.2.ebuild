@@ -19,8 +19,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="examples"
 
-RDEPEND="dev-python/pgmagick"
-DEPEND="dev-python/setuptools"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/pgmagick[${PYTHON_USEDEP}]"
 
 src_install() {
 	distutils-r1_src_install
