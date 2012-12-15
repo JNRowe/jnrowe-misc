@@ -3,6 +3,9 @@
 # Distributed under the GPL v2
 # $Header: $
 
+  15 Dec 2012; James Rowe <jnrowe@gmail.com> lettuce-0.2.11.ebuild:
+  Use brace expansion for PYTHON_TARGETS.
+
   09 Dec 2012; James Rowe <jnrowe@gmail.com> lettuce-0.2.11.ebuild:
   Use distutils-r1's PYTHON_USEDEPs where possible.
 
