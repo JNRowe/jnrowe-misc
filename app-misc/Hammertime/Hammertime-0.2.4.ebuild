@@ -6,7 +6,7 @@ EAPI=5
 
 # 2.5 isn't supported upstream, so we'll kill them here too
 # 3.x is restricted due to print syntax
-PYTHON_COMPAT=(python2_6 python2_7)
+PYTHON_COMPAT=(python2_{6,7})
 
 inherit jnrowe-pypi
 
