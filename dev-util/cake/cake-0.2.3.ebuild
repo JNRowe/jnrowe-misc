@@ -6,8 +6,7 @@ EAPI=5
 
 # Python 2.5 is resticted due to new exception handling syntax
 # Python 3 is resticted due to print syntax
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_6 python2_7"
+PYTHON_COMPAT=(python2_{6,7})
 
 inherit jnrowe-pypi
 
@@ -19,7 +18,6 @@ KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND=""
-RDEPEND="${DEPEND}
-	dev-python/colorama"
+RDEPEND="dev-python/colorama[${PYTHON_USEDEP}]"
 
 DOCS=(README.rst)
