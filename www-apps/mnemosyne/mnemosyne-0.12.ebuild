@@ -18,7 +18,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="examples"
 
 DEPEND=""
-RDEPEND="dev-python/docutils
+RDEPEND="dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/kid"
 
 python_install_all() {
