@@ -4,8 +4,7 @@
 
 EAPI=5
 # 3.x is not supported because of exception syntax
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_5 python2_6 python2_7"
+PYTHON_COMPAT=(python2_{5,6,7})
 
 inherit eutils jnrowe-pypi
 
@@ -22,8 +21,10 @@ IUSE="doc docutils examples pdf"
 RDEPEND="dev-python/imaging
 	docutils? ( >=dev-python/docutils-0.5 dev-python/setuptools )
 	pdf? ( dev-python/reportlab )"
-DEPEND="doc? ( media-gfx/sphinxcontrib-aafig )
-	${RDEPEND}"
+RDEPEND="${RDEPEND}
+	doc? ( media-gfx/sphinxcontrib-aafig[${PYTHON_USEDEP}] )"
+
+DOCS=(CHANGES.txt README.txt)
 
 python_prepare_all() {
 	mv docutils/setup{-docutils-plugin,}.py
@@ -31,9 +32,7 @@ python_prepare_all() {
 	sed -i '/^ \+:aspect\|scale:/d' documentation/*.rst
 }
 
-src_compile() {
-	python-distutils-ng_src_compile
-
+python_compile_all() {
 	if use doc; then
 		cd documentation
 		make html || die "make documentation failed"
@@ -48,17 +47,18 @@ src_compile() {
 }
 
 python_install() {
-	_python-distutils-ng_default_distutils_install
+	distutils-r1_python_install
 
 	if use docutils; then
 		cd docutils
-		"${PYTHON}" setup.py install ${compile_flags} --root="${D}" \
-			|| die "install in docutils failed"
+		distutils-r1_python_install
 		cd ../
 	fi
 }
 
 python_install_all() {
+	distutils-r1_python_install_all
+
 	insinto /usr/share/doc/${PF}
 	if use doc ; then
 		dodoc documentation/*.rst || die "dodoc *.rst failed"
