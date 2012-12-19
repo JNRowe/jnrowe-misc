@@ -3,6 +3,9 @@
 # Distributed under the GPL v2
 # $Header: $
 
+  19 Dec 2012; James Rowe <jnrowe@gmail.com> docformatter-0.2.4.ebuild:
+  Updated for distutils-r1 usage.
+
   15 Dec 2012; James Rowe <jnrowe@gmail.com> docformatter-0.2.5.ebuild:
   Use brace expansion for PYTHON_TARGETS.
 
