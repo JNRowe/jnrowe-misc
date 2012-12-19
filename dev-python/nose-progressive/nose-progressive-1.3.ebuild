@@ -4,12 +4,8 @@
 
 EAPI=5
 
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
 # 3.x is restricted until blessings is available for 3.x
-RESTRICT_PYTHON_ABIS="3.*"
-DISTUTILS_SRC_TEST="nosetests"
-PYPI_OLD_DISTUTILS=1
+PYTHON_COMPAT=(python2_{5,6,7})
 
 inherit jnrowe-pypi
 
@@ -26,14 +22,9 @@ RDEPEND="${DEPEND}
 	dev-python/blessings
 	dev-python/nose"
 
-PYTHON_MODNAME="${PN/-/}"
+# The tests aren't useful in portage environment
+RESTRICT="test"
 
-src_test() {
-	testing() {
-		# Have to do this to make sure we pick up test in the 2to3 generated
-		# tree for Python 3.x
-		cd build-${PYTHON_ABI}/lib
-		nosetests-${PYTHON_ABI} || die "nosetests failed"
-	}
-	python_execute_function testing
+python_test() {
+	nosetests || die
 }
