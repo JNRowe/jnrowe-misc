@@ -3,6 +3,10 @@
 # Distributed under the GPL v2
 # $Header: $
 
+  19 Dec 2012; James Rowe <jnrowe@gmail.com> html2data-0.4.3.ebuild,
+  +files/html2data-0.4.3-no_toplevel_tests.patch:
+  Don't install top-level tests package.
+
   26 Nov 2012; James Rowe <jnrowe@gmail.com> html2data-0.4.3.ebuild:
   Switched to EAPI-5.
 

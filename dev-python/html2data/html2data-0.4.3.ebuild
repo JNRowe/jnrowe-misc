@@ -25,3 +25,5 @@ RDEPEND="dev-python/httplib2
 
 # Unsupported dependencies required by tests
 RESTRICT="test"
+
+PATCHES=("${FILESDIR}"/${P}-no_toplevel_tests.patch)
