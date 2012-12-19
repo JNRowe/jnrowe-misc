@@ -3,14 +3,13 @@
 # $Header: $
 
 EAPI=5
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_5 python2_6 python2_7"
+PYTHON_COMPAT=(python2_{5,6,7})
 
 inherit eutils jnrowe-pypi
 
 DESCRIPTION="A helper tool for git that mimics mercurial's serve command"
 HOMEPAGE="https://github.com/jezdez/git-serve/"
-SRC_URI="mirror://pypi/${PN::1}/${PN}/${P}.tar.gz
+SRC_URI="${SRC_URI}
 	mirror://github/JNRowe/jnrowe-misc/${P}-gitweb_1.6.4.4_update.patch.bz2"
 
 LICENSE="GPL-2"
