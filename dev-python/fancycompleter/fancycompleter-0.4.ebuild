@@ -5,8 +5,8 @@
 EAPI=5
 
 # 2.5 is restricted due to except...as syntax
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_7 python3_1 python3_2 python3_3"
+# No 3.x - missing pyrepl
+PYTHON_COMPAT=(python2_7)
 
 inherit jnrowe-pypi
 
@@ -18,6 +18,6 @@ KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools"
-RDEPEND="dev-python/pyrepl"
+RDEPEND="dev-python/pyrepl[${PYTHON_USEDEP}]"
 
 DOCS=(README)
