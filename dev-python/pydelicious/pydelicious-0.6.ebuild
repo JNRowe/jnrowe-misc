@@ -4,10 +4,9 @@
 
 EAPI=5
 
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_5 python2_6 python2_7"
+PYTHON_COMPAT=(python2_{5,6,7})
 
-inherit python-distutils-ng
+inherit distutils-r1
 
 DESCRIPTION="Access the web service of del.icio.us via it's API through python"
 HOMEPAGE="http://code.google.com/p/${PN}/"
