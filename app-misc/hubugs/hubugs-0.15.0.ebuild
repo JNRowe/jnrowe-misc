@@ -3,7 +3,6 @@
 # $Header: $
 
 EAPI=5
-
 # 2.5 is restricted due to unavailable dependencies and 2.6+ syntax
 # 3.x is restricted due to blessings dependency
 PYTHON_COMPAT=(python2_{6,7})
@@ -41,16 +40,14 @@ RDEPEND="${CDEPEND}
 
 DOCS=(NEWS.rst README.rst)
 
-src_compile() {
-	distutils-r1_src_compile
-
+python_compile_all() {
 	if use doc; then
 		./setup.py build_sphinx
 	fi
 }
 
 python_test() {
-	"${PYTHON}" /usr/bin/nose2 || die "nose2 failed with ${PYTHON}"
+	nose2 || die "nose2 failed with ${PYTHON}"
 }
 
 python_install_all() {
