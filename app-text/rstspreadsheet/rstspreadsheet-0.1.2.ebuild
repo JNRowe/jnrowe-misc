@@ -3,10 +3,8 @@
 # $Header: $
 
 EAPI=5
-
 # 3.x is restricted due to exec usage
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_5 python2_6 python2_7"
+PYTHON_COMPAT=(python2_{5,6,7})
 
 inherit jnrowe-pypi
 
