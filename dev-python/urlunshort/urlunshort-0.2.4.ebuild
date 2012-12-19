@@ -3,12 +3,7 @@
 # $Header: $
 
 EAPI=5
-
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
-RESTRICT_PYTHON_ABIS="3.*"
-DISTUTILS_SRC_TEST="nosetests"
-PYPI_OLD_DISTUTILS=1
+PYTHON_COMPAT=(python2_{5,6,7})
 
 inherit jnrowe-pypi
 
