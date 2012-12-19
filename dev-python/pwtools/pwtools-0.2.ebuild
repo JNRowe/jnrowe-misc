@@ -5,10 +5,9 @@
 EAPI=5
 
 # 3.* isn't supported because of relative imports
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_5 python2_6 python2_7"
+PYTHON_COMPAT=(python2_{5,6,7})
 
-inherit python-distutils-ng
+inherit distutils-r1
 
 DESCRIPTION="Password generation and security checking"
 HOMEPAGE="http://alastairs-place.net/projects/${PN}/"
