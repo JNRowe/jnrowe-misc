@@ -3,9 +3,7 @@
 # $Header: $
 
 EAPI=5
-
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_5 python2_6 python2_7"
+PYTHON_COMPAT=(python2_{5,6,7})
 
 inherit jnrowe-pypi
 
@@ -19,8 +17,6 @@ IUSE=""
 DEPEND=""
 RDEPEND=""
 
-src_install() {
-	python-distutils-ng_src_install
-
+python_install_all() {
 	newdoc docs/index.txt README.rst
 }
