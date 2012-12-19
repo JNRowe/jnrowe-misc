@@ -3,9 +3,7 @@
 # $Header: $
 
 EAPI=5
-
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_5 python2_6 python2_7"
+PYTHON_COMPAT=(python2_{5,6,7})
 
 inherit jnrowe-pypi
 
@@ -20,7 +18,7 @@ IUSE=""
 DEPEND="dev-python/setuptools"
 # setuptools is needed in RDEPEND because it installs a setuptools-based plugin
 # for Sphinx.
-RDEPEND="dev-python/setuptools
+RDEPEND="${DEPEND}
 	>=dev-python/sphinx-1.0"
 
 DOCS=(README)
