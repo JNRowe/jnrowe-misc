@@ -3,6 +3,9 @@
 # Distributed under the GPL v2
 # $Header: $
 
+  19 Dec 2012; James Rowe <jnrowe@gmail.com> CleverCSS-0.1.ebuild:
+  Updated for distutils-r1 usage.
+
   26 Nov 2012; James Rowe <jnrowe@gmail.com> CleverCSS-0.1.ebuild:
   Switched to EAPI-5.
 
