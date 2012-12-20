@@ -6,12 +6,11 @@ EAPI=5
 
 # 2.5 is restricted due to exception syntax
 # 3.x is restricted due to missing dependencies
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_6 python2_7"
+PYTHON_COMPAT=(python2_{6,7})
 
 GITHUB_USER="JNRowe"
 
-inherit jnrowe-github python-distutils-ng
+inherit jnrowe-github distutils-r1
 
 DESCRIPTION="Nasty little twitter client"
 HOMEPAGE="http://jnrowe.github.com/${PN}/"
@@ -28,7 +27,7 @@ RDEPEND="dev-python/configobj
 	dev-python/tweepy
 	dev-python/pygtk
 	!minimal? (
-		dev-python/termcolor
+		dev-python/termcolor[${PYTHON_USEDEP}]
 		dev-python/setproctitle
 	)"
 DEPEND="${RDEPEND}
@@ -47,9 +46,7 @@ src_unpack() {
 	fi
 }
 
-src_compile() {
-	python-distutils-ng_src_compile
-
+python_compile_all() {
 	rst2man.py doc/${PN}.1.rst doc/${PN}.1 || die "rst2man.py failed"
 	if use doc; then
 		cd doc

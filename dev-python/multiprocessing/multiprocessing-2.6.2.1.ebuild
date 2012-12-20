@@ -3,13 +3,8 @@
 # $Header: $
 
 EAPI=5
-
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2:2.5"
 # Multiprocessing is included in Python since 2.6
-RESTRICT_PYTHON_ABIS="2.[67] 3.*"
-DISTUTILS_SRC_TEST="nosetests"
-PYPI_OLD_DISTUTILS=1
+PYTHON_COMPAT=(python2_5)
 
 inherit jnrowe-pypi
 
@@ -27,27 +22,14 @@ RDEPEND=""
 # Tests are phenomenally broken
 RESTRICT="test"
 
-src_compile() {
-	distutils_src_compile
-
+python_compile_all() {
 	if use doc; then
 		einfo "Generation of documentation"
 		sphinx-build -b html Doc Doc_build || die "sphinx-build failed"
 	fi
 }
 
-src_test() {
-	testing() {
-		pushd build-${PYTHON_ABI}/* >/dev/null
-		nosetests-${PYTHON_ABI} ${PN} || die "nosetests failed"
-		popd >/dev/null
-	}
-	python_execute_function testing
-}
-
-src_install() {
-	distutils_src_install
-
+python_install_all() {
 	if use doc; then
 		docinto html
 		dohtml -r Doc_build/ || die "HTML installation failed"

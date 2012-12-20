@@ -4,8 +4,7 @@
 
 EAPI=5
 # Python 3.x isn't supported due to Unicode literal syntax
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_5 python2_6 python2_7"
+PYTHON_COMPAT=(python2_{5,6,7})
 
 inherit jnrowe-pypi
 
@@ -21,9 +20,7 @@ RDEPEND=""
 
 DOCS=(HACKING README)
 
-src_compile() {
-	python-distutils-ng_src_compile
-
+python_compile_all() {
 	if use doc; then
 		python ./setup.py build_sphinx || die "build_sphinx failed"
 	fi

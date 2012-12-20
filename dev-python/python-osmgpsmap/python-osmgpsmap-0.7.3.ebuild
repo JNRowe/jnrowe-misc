@@ -3,11 +3,9 @@
 # $Header: $
 
 EAPI=5
+PYTHON_COMPAT=(python2_{5,6,7})
 
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_5 python2_6 python2_7"
-
-inherit python-distutils-ng
+inherit distutils-r1
 
 DESCRIPTION="Python bindings for osm-gps-map"
 HOMEPAGE="http://nzjrs.github.com/osm-gps-map/"

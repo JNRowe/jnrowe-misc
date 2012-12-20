@@ -3,6 +3,9 @@
 # Distributed under the GPL v2
 # $Header: $
 
+  19 Dec 2012; James Rowe <jnrowe@gmail.com> cloud_sptheme-1.5.ebuild:
+  Updated for distutils-r1 usage.
+
   27 Nov 2012; James Rowe <jnrowe@gmail.com> cloud_sptheme-1.5.ebuild:
   Supports Python 3.3.
 

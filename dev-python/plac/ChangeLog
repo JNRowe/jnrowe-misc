@@ -3,6 +3,9 @@
 # Distributed under the GPL v2
 # $Header: $
 
+  18 Dec 2012; James Rowe <jnrowe@gmail.com> plac-0.9.1.ebuild:
+  Updated for distutils-r1 usage.
+
   09 Dec 2012; James Rowe <jnrowe@gmail.com> plac-0.9.1.ebuild:
   Removed redundant argparse depend.
 

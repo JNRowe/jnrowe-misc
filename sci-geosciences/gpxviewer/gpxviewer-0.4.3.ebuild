@@ -21,6 +21,6 @@ IUSE=""
 
 DEPEND="dev-python/python-distutils-extra
 	dev-util/intltool"
-RDEPEND="dev-python/python-osmgpsmap"
+RDEPEND="dev-python/python-osmgpsmap[${PYTHON_USEDEP}]"
 
 PATCHES=("${FILESDIR}"/${P}-valid_desktop.patch)

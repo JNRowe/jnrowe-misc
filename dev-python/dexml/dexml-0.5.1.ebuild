@@ -3,7 +3,6 @@
 # $Header: $
 
 EAPI=5
-
 PYTHON_COMPAT=(python{2_{5,6,7},3_{1,2,3}})
 
 inherit jnrowe-pypi
@@ -21,5 +20,5 @@ RDEPEND=""
 DOCS=(ChangeLog.txt README.rst)
 
 python_test() {
-	"${PYTHON}" ./setup.py test || die "Tests failed with ${PYTHON}"
+	"${EPYTHON}" ./setup.py test || die "Tests failed with ${EPYTHON}"
 }

@@ -3,12 +3,9 @@
 # $Header: $
 
 EAPI=5
+PYTHON_COMPAT=(python{2_{5,6,7},3_{1,2,3}})
 
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*"
-DISTUTILS_SRC_TEST="setup.py"
-
-inherit distutils
+inherit distutils-r1
 
 DESCRIPTION="A simple testing framework for command line applications"
 HOMEPAGE="http://bitheap.org/${PN}/"
@@ -23,10 +20,14 @@ DEPEND=""
 RDEPEND="${DEPEND}
 	vim-syntax? ( || ( app-editors/vim app-editors/gvim ) )"
 
-PYTHON_MODNAME="${PN}.py"
+	DOCS=(README.txt TODO.txt)
 
-src_install() {
-	distutils_src_install
+python_test() {
+	"${EPYTHON}" setup.py test
+}
+
+python_install_all() {
+	distutils-r1_python_install_all
 
 	insinto /usr/share/doc/${PF}
 	if use examples; then
