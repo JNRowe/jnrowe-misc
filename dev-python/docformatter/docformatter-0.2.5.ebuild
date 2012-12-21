@@ -4,7 +4,7 @@
 
 EAPI=5
 # 2.5 is restricted due to context handlers(without __future__ import)
-PYTHON_COMPAT=(python{2_{6,7},3_{1,2,3}})
+PYTHON_COMPAT=(python{2_{6,7},3_{1..3}})
 
 inherit jnrowe-pypi
 
