@@ -4,7 +4,7 @@
 
 EAPI=5
 # Python 3.x isn't supported due to Unicode literal syntax
-PYTHON_COMPAT=(python2_{5,6,7})
+PYTHON_COMPAT=(python2_{5..7})
 
 inherit jnrowe-pypi
 
