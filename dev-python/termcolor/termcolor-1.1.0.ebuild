@@ -5,7 +5,7 @@
 EAPI=5
 # 2.5 is unsupported because of print function syntax, temporary fix
 # would be to disable cprint for those versions if support is needed.
-PYTHON_COMPAT=(python{2_{6,7},3_{1,2,3}})
+PYTHON_COMPAT=(python{2_{6,7},3_{1..3}})
 
 inherit jnrowe-pypi
 

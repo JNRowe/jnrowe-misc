@@ -3,7 +3,7 @@
 # $Header: $
 
 EAPI=5
-PYTHON_COMPAT=(python{2_{5,6,7},3_{1,2,3}})
+PYTHON_COMPAT=(python{2_{5..7},3_{1..3}})
 PYPI_ARCHIVE_SUFFIX="zip"
 
 inherit jnrowe-pypi

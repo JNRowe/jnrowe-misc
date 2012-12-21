@@ -3,7 +3,7 @@
 # $Header: $
 
 EAPI=5
-PYTHON_COMPAT=(python2_{5,6,7})
+PYTHON_COMPAT=(python2_{5..7})
 GITHUB_USER="JNRowe"
 
 inherit distutils-r1 jnrowe-github
