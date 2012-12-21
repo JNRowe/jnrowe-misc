@@ -4,7 +4,7 @@
 
 EAPI=5
 # Python 2.5 isn't supported by nose2
-PYTHON_COMPAT=(python{2_{6,7},3_{1,2,3}})
+PYTHON_COMPAT=(python{2_{6,7},3_{1..3}})
 MY_PV="${PV/_alpha/a}"
 
 inherit jnrowe-pypi
