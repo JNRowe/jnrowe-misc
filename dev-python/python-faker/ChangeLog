@@ -3,6 +3,9 @@
 # Distributed under the GPL v2
 # $Header: $
 
+  20 Dec 2012; Matt Leighy <mleighy@gmail.com> python-faker-0.2.4.ebuild:
+  Use ranges for PYTHON_COMPAT readability.
+
   19 Dec 2012; James Rowe <jnrowe@gmail.com> python-faker-0.2.4.ebuild:
   Updated for distutils-r1 usage.
 
