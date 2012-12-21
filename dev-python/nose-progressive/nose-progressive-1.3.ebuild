@@ -5,7 +5,7 @@
 EAPI=5
 
 # 3.x is restricted until blessings is available for 3.x
-PYTHON_COMPAT=(python2_{5,6,7})
+PYTHON_COMPAT=(python2_{5..7})
 
 inherit jnrowe-pypi
 
