@@ -1,8 +1,8 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 DESCRIPTION="Enjoy the mysteries of the sea from the safety of your own terminal"
 HOMEPAGE="http://www.robobunny.com/projects/${PN}/html/"

@@ -1,8 +1,8 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 inherit multilib toolchain-funcs versionator
 
@@ -12,7 +12,7 @@ DESCRIPTION="a Lua interface to the Linux inotify subsystem"
 HOMEPAGE="http://www3.telus.net/taj_khattra/${PN}.html"
 SRC_URI="http://www3.telus.net/taj_khattra/${PN}/${MY_P}.tar.gz"
 
-LICENSE="as-is"
+LICENSE="public-domain"
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""

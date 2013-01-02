@@ -1,3 +1,22 @@
+#
+# -*- coding: utf-8 -*-
+"""utils - Helpers for tasks"""
+# Copyright © 2011, 2012  James Rowe <jnrowe@gmail.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+
 from functools import partial
 from inspect import stack
 from json import (dumps, loads)
@@ -73,7 +92,7 @@ def cmd_output(command):
 def create_gh_client():
     if not httplib2:
         raise CommandError(fail("Opening bugs requires the httplib2 "
-                                     "Python package"))
+                                "Python package"))
     if not path.exists(CA_CERTS):
         raise CommandError(fail("Unable to find system SSL certificates"))
 
@@ -90,7 +109,7 @@ def create_gh_client():
         token = cmd_output('git config %s.token' % repo)
     except CalledProcessError:
         raise CommandError('Missing %s.token API token in git config'
-                                % repo)
+                           % repo)
 
     session = httplib2.Http(cache='.http_cache', ca_certs=CA_CERTS)
     session.get = partial(request, method='GET')

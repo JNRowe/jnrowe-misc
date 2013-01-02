@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		This tool allows you to search, index and record/stream:
+
+		* BBC iPlayer TV - up to 3200 kbps HD 720p H.264 / Quicktime / MP4
+		* BBC Live TV - 500 kbps H.264 / MP4
+		* BBC iPlayer Radio - up to 192 kbps MP3 / AAC and Realaudio
+		* BBC Live Radio - up to 192 kbps MP3 / AAC, WMA and Realaudio
+		* BBC Podcasts - up to 192 kbps MP3 / AAC
+		* BBC iPlayer TV subtitles - SubRip / srt
+
+		Unlike the web sites, get_iplayer has PVR-like capabilities (like Sky+
+		/ TiVo / Series-Link); You can save lists of programme searches which
+		are automatically recorded when they become available so that you can
+		watch them when you choose and on devices that cannot run Adobe Flash
+		Player - even if you don’t have adequate broadband speeds or if your
+		broadband streams too slowly at peak hours when you want to watch
+		a programme.
+	</longdescription>
+</pkgmetadata>

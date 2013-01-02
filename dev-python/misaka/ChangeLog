@@ -1,6 +1,19 @@
 # ChangeLog for dev-python/misaka
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright © 2012  James Rowe <jnrowe@gmail.com>
+# Distributed under the GPL v2
 # $Header: $
+
+  20 Dec 2012; Matt Leighy <mleighy@gmail.com> misaka-1.0.2.ebuild:
+  Use ranges for PYTHON_COMPAT readability.
+
+  19 Dec 2012; James Rowe <jnrowe@gmail.com> misaka-1.0.2.ebuild:
+  Updated for distutils-r1 usage.
+
+  27 Nov 2012; James Rowe <jnrowe@gmail.com> misaka-1.0.2.ebuild:
+  Supports Python 3.3.
+
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> misaka-1.0.2.ebuild:
+  Switched to EAPI-5.
 
   14 May 2012; James Rowe <jnrowe@gmail.com> -misaka-1.0.1.ebuild,
   misaka-1.0.2.ebuild:

@@ -1,12 +1,12 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright © 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 # 2.5 is restricted due to except...as syntax
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_7 python3_1 python3_2"
+# No 3.x - missing pyrepl
+PYTHON_COMPAT=(python2_7)
 
 inherit jnrowe-pypi
 
@@ -18,6 +18,6 @@ KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools"
-RDEPEND="dev-python/pyrepl"
+RDEPEND="dev-python/pyrepl[${PYTHON_USEDEP}]"
 
 DOCS=(README)

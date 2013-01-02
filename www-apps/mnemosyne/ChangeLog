@@ -1,6 +1,22 @@
 # ChangeLog for www-apps/mnemosyne
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Distributed under the GPL v2
 # $Header: $
+
+  20 Dec 2012; Matt Leighy <mleighy@gmail.com> mnemosyne-0.12.ebuild:
+  Use ranges for PYTHON_COMPAT readability.
+
+  18 Dec 2012; James Rowe <jnrowe@gmail.com> mnemosyne-0.12.ebuild:
+  Use $PYTHON_USEDEP, where possible.
+
+  15 Dec 2012; James Rowe <jnrowe@gmail.com> mnemosyne-0.12.ebuild:
+  Use brace expansion for PYTHON_TARGETS.
+
+  05 Dec 2012; James Rowe <jnrowe@gmail.com> mnemosyne-0.12.ebuild:
+  Call distutils-r1_python_install_all, to handle default docs.
+
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> mnemosyne-0.12.ebuild:
+  Switched to EAPI-5.
 
   25 Oct 2012; James Rowe <jnrowe@gmail.com> mnemosyne-0.12.ebuild:
   Updated for distutils-r1 usage.

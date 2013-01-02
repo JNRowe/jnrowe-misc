@@ -1,8 +1,8 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright © 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="2:2.7"
@@ -20,7 +20,7 @@ DESCRIPTION="Generate block-diagram image files from text(like dot)"
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="examples pdf test"
 
 # dev-python/imaging has to be in DEPEND, because of the automagic

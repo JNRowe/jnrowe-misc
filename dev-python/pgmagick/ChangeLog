@@ -1,6 +1,20 @@
 # ChangeLog for dev-python/pgmagick
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Distributed under the GPL v2
 # $Header: $
+
+  20 Dec 2012; Matt Leighy <mleighy@gmail.com> pgmagick-0.5.4.ebuild:
+  Use ranges for PYTHON_COMPAT readability.
+
+  19 Dec 2012; James Rowe <jnrowe@gmail.com> pgmagick-0.5.4.ebuild:
+  Updated for distutils-r1 usage.
+
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> pgmagick-0.5.4.ebuild:
+  Switched to EAPI-5.
+
+  15 Nov 2012; James Rowe <jnrowe@gmail.com> -pgmagick-0.5.3.ebuild,
+  pgmagick-0.5.4.ebuild:
+  Keyworded x86.
 
   15 Nov 2012; James Rowe <jnrowe@gmail.com> pgmagick-0.5.4.ebuild:
   Keyworded amd64.

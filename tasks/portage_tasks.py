@@ -1,3 +1,22 @@
+#
+# -*- coding: utf-8 -*-
+"""portage_taks - Portage support tasks"""
+# Copyright © 2011, 2012  James Rowe <jnrowe@gmail.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+
 import os
 from glob import glob
 from subprocess import (CalledProcessError, check_call, check_output)
@@ -10,9 +29,9 @@ except CalledProcessError:
     SIGN_KEY = None
 
 
-@APP.cmd(name='gen-use-local-desc')
+@APP.cmd(name='gen-use-local-desc', help='generate use.local.desc')
 def gen_use_local_desc():
-    """generate use.local.desc"""
+    """Generate use.local.desc"""
     dep(['profiles/use.local.desc', ], glob('*-*/*/metadata.xml'))
     repo = open('profiles/repo_name').read().strip()
     # This really shouldn't be handled with subprocess, but portage seemingly
@@ -21,9 +40,9 @@ def gen_use_local_desc():
     print(success('use.local.desc generated!'))
 
 
-@APP.cmd(name='gen-categories')
+@APP.cmd(name='gen-categories', help='generate categories listing')
 def gen_categories():
-    """generate categories listing"""
+    """Generate categories listing"""
     dep(['profiles/categories', ], glob('*-*'))
     with open('profiles/categories', 'w') as file:
         for cat in sorted(glob('*-*')):
@@ -35,9 +54,9 @@ def gen_categories():
     print(success('categories list generated!'))
 
 
-@APP.cmd(name='gen-manifests')
+@APP.cmd(name='gen-manifests', help='generate Manifest files')
 def gen_manifests():
-    """generate Manifest files"""
+    """Generate Manifest files"""
     dep(glob('*-*/*/Manifest'), glob('*-*/*/*'))
     base_dir = os.path.abspath(os.curdir)
     if not SIGN_KEY:
@@ -56,9 +75,9 @@ def gen_manifests():
             os.chdir(base_dir)
 
 
-@APP.cmd(name='gen-news-sigs')
+@APP.cmd(name='gen-news-sigs', help='generate news file signatures')
 def gen_news_sigs():
-    """generate news file signatures"""
+    """Generate news file signatures"""
     news_files = glob('metadata/news/*/*.txt')
     dep(map(lambda s: s + '.asc', news_files), news_files, mapping=True)
     if not SIGN_KEY:

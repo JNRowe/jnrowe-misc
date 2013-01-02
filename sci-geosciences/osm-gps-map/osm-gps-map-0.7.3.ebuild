@@ -1,8 +1,8 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright © 2011, 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 DESCRIPTION="A Gtk+ Widget for Displaying OpenStreetMap tiles"
 HOMEPAGE="http://nzjrs.github.com/${PN}/"
@@ -23,11 +23,9 @@ DEPEND="${RDEPEND}
 	gnome-base/gnome-common"
 
 src_configure() {
-	# Disable automake's silent rules should be default for econf
-	# really.  gobject introspection is broken in current release, and a fix
-	# will likely break compatibility with future releases.
-	econf --disable-silent-rules \
-		--disable-introspection \
+	# gobject introspection is broken in current release, and a fix will likely
+	# break compatibility with future releases.
+	econf --disable-introspection \
 		$(use doc gtk-doc)
 }
 

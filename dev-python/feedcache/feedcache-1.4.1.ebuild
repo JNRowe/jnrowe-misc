@@ -1,10 +1,9 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright © 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_5 python2_6 python2_7"
+EAPI=5
+PYTHON_COMPAT=(python2_{5..7})
 
 inherit jnrowe-pypi
 
@@ -18,9 +17,7 @@ IUSE="doc"
 DEPEND="doc? ( dev-python/sphinx )"
 RDEPEND="dev-python/feedparser"
 
-src_compile() {
-	python-distutils-ng_src_compile
-
+python_compile_all() {
 	if use doc; then
 		# The tarball is missing files needed for a complete doc build, but
 		# *some* docs are better than nothing.

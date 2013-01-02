@@ -1,6 +1,19 @@
 # ChangeLog for media-gfx/sphinxcontrib-mscgen
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright © 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Distributed under the GPL v2
 # $Header: $
+
+  20 Dec 2012; Matt Leighy <mleighy@gmail.com> sphinxcontrib-mscgen-0.4.ebuild:
+  Use ranges for PYTHON_COMPAT readability.
+
+  15 Dec 2012; James Rowe <jnrowe@gmail.com> sphinxcontrib-mscgen-0.4.ebuild:
+  Use brace expansion for PYTHON_TARGETS.
+
+  09 Dec 2012; James Rowe <jnrowe@gmail.com> sphinxcontrib-mscgen-0.4.ebuild:
+  Use distutils-r1's PYTHON_USEDEPs where possible.
+
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> sphinxcontrib-mscgen-0.4.ebuild:
+  Switched to EAPI-5.
 
   05 Nov 2012; James Rowe <jnrowe@gmail.com> sphinxcontrib-mscgen-0.4.ebuild:
   Keyworded amd64.

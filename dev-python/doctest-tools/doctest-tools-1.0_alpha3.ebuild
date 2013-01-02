@@ -1,13 +1,11 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
+PYTHON_COMPAT=(python{2_{5..7},3_{1..3}})
 
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_5 python2_6 python2_7 python3_1 python3_2"
-
-inherit python-distutils-ng
+inherit distutils-r1
 
 MY_P="${P/_alpha/a}"
 
@@ -25,4 +23,4 @@ RDEPEND=""
 
 S="${WORKDIR}/${MY_P}"
 
-DOCS="RELEASE_NOTES.txt"
+DOCS=(RELEASE_NOTES.txt)

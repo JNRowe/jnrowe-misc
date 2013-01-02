@@ -1,4 +1,4 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright 2009, 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -11,7 +11,7 @@ if [[ -n ${PYPI_OLD_DISTUTILS} ]]; then
 	inherit distutils
 
 	case "${EAPI:-0}" in
-		0|1|2|3|4) ;;
+		0|1|2|3|4|5) ;;
 		*) die "EAPI=${EAPI} is not supported" ;;
 	esac
 elif [[ -n ${PYPI_OLD_DISTUTILS_NG} ]]; then
@@ -19,7 +19,7 @@ elif [[ -n ${PYPI_OLD_DISTUTILS_NG} ]]; then
 	EXPORT_FUNCTIONS src_prepare src_install
 
 	case "${EAPI:-0}" in
-		0|1|2|3|4) ;;
+		0|1|2|3|4|5) ;;
 		*) die "EAPI=${EAPI} is not supported" ;;
 	esac
 else

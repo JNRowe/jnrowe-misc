@@ -1,3 +1,22 @@
+#
+# -*- coding: utf-8 -*-
+"""cupage_support - cupage support tasks"""
+# Copyright © 2011, 2012  James Rowe <jnrowe@gmail.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+
 import os
 
 from glob import glob
@@ -6,9 +25,9 @@ from sys import exit
 from utils import (APP, dep, fail, success)
 
 
-@APP.cmd(name='gen-cupage-conf')
+@APP.cmd(name='gen-cupage-conf', help='generate a new cupage.conf file')
 def gen_cupage_conf():
-    """generate a new cupage.conf file"""
+    """Generate a new cupage.conf file"""
     dep(['support/cupage.conf', ], glob('*-*/*/watch'))
     with open('support/cupage.conf', 'w') as f:
         for category in sorted(glob('*-*')):
@@ -29,9 +48,10 @@ def gen_cupage_conf():
     print(success('cupage.conf generated!'))
 
 
-@APP.cmd(name='cupage-check')
+@APP.cmd(name='cupage-check',
+         help='make sure a watch file exists for each package')
 def cupage_check():
-    """make sure a watch file exists for each package"""
+    """Make sure a watch file exists for each package"""
     failures = 0
     packages = glob('*-*/*')
     for package in packages:

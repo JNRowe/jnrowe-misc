@@ -1,9 +1,8 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright © 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-# No EAPI-4, because of games eclass
-EAPI=3
+EAPI=5
 
 inherit games
 
@@ -13,7 +12,7 @@ SRC_URI="http://gent.softcatala.org/jmas/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-2+"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="plugins"
 
 RDEPEND="dev-dotnet/gtk-sharp

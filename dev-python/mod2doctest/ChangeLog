@@ -1,6 +1,16 @@
 # ChangeLog for dev-python/mod2doctest
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Distributed under the GPL v2
 # $Header: $
+
+  20 Dec 2012; Matt Leighy <mleighy@gmail.com> mod2doctest-0.2.0.ebuild:
+  Use ranges for PYTHON_COMPAT readability.
+
+  19 Dec 2012; James Rowe <jnrowe@gmail.com> mod2doctest-0.2.0.ebuild:
+  Updated for distutils-r1 usage.
+
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> mod2doctest-0.2.0.ebuild:
+  Switched to EAPI-5.
 
   08 Apr 2012; James Rowe <jnrowe@gmail.com> mod2doctest-0.2.0.ebuild:
   Switched to python-distutils-ng eclass.

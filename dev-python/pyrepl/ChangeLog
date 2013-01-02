@@ -1,6 +1,13 @@
 # ChangeLog for dev-python/pyrepl
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright © 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Distributed under the GPL v2
 # $Header: $
+
+  18 Dec 2012; James Rowe <jnrowe@gmail.com> pyrepl-0.8.4.ebuild:
+  Updated for distutils-r1 usage.
+
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> pyrepl-0.8.4.ebuild:
+  Switched to EAPI-5.
 
   30 Jun 2012; James Rowe <jnrowe@gmail.com> -pyrepl-0.8.2.ebuild,
   pyrepl-0.8.4.ebuild:

@@ -1,6 +1,10 @@
 # ChangeLog for app-misc/repl
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright © 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Distributed under the GPL v2
 # $Header: $
+
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> repl-0.2.1.ebuild:
+  Switched to EAPI-5.
 
   14 Mar 2012; James Rowe <jnrowe@gmail.com> repl-0.2.1.ebuild:
   Use ${PN} in ${HOMEPAGE}.

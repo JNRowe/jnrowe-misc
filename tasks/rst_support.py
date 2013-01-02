@@ -1,3 +1,22 @@
+#
+# -*- coding: utf-8 -*-
+"""rst_support - reStructuredText support tasks"""
+# Copyright © 2011, 2012  James Rowe <jnrowe@gmail.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+
 from StringIO import StringIO
 from glob import glob
 from re import sub
@@ -10,9 +29,9 @@ from docutils.utils import SystemMessage
 from utils import (APP, dep, newer, success)
 
 
-@APP.cmd(name='rst-check')
+@APP.cmd(name='rst-check', help='check syntax of reST-formatted files')
 def rst_check():
-    """check syntax of reST-formatted files"""
+    """Check syntax of reST-formatted files"""
     for file in glob('*.rst'):
         try:
             publish_file(open(file), destination=StringIO(),
@@ -22,9 +41,9 @@ def rst_check():
     print(success('All reST files pass!'))
 
 
-@APP.cmd(name='gen-html')
+@APP.cmd(name='gen-html', help='generate HTML output')
 def gen_html():
-    """generate HTML output"""
+    """Generate HTML output"""
     rst_files = glob('*.rst')
     dep(map(lambda s: s[:-4] + '.html', rst_files), rst_files, mapping=True)
     for file in glob('*.rst'):
@@ -40,9 +59,9 @@ def gen_html():
     print(success('All reST generated!'))
 
 
-@APP.cmd(name='gen-thanks')
+@APP.cmd(name='gen-thanks', help='generate Sphinx contributor doc')
 def gen_thanks():
-    """generate Sphinx contributor doc"""
+    """Generate Sphinx contributor doc"""
     dep(['doc/thanks.rst', ], ['README.rst'])
     data = open('README.rst').read()
     data = sub("\n('+)\n", lambda m: '\n' + "-" * len(m.groups()[0]) + '\n',
@@ -61,9 +80,9 @@ def gen_thanks():
     print(success('thanks.rst generated!'))
 
 
-@APP.cmd(name='gen-sphinx-html')
+@APP.cmd(name='gen-sphinx-html', help='generate Sphinx HTML output')
 def gen_sphinx_html():
-    """generate Sphinx HTML output"""
+    """Generate Sphinx HTML output"""
     dep(['doc/.build/doctrees/environment.pickle', ],
         glob('doc/*.rst') + glob('doc/packages/*.rst'))
     check_call(['make', '-C', 'doc', 'html'])

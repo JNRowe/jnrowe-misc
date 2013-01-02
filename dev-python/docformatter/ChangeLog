@@ -1,10 +1,36 @@
 # ChangeLog for dev-python/docformatter
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright © 2012  James Rowe <jnrowe@gmail.com>
+# Distributed under the GPL v2
 # $Header: $
+
+  20 Dec 2012; Matt Leighy <mleighy@gmail.com> docformatter-0.2.4.ebuild,
+  docformatter-0.2.5.ebuild:
+  Use ranges for PYTHON_COMPAT readability.
+
+  19 Dec 2012; James Rowe <jnrowe@gmail.com> docformatter-0.2.4.ebuild:
+  Updated for distutils-r1 usage.
+
+  15 Dec 2012; James Rowe <jnrowe@gmail.com> docformatter-0.2.5.ebuild:
+  Use brace expansion for PYTHON_TARGETS.
+
+  05 Dec 2012; James Rowe <jnrowe@gmail.com> docformatter-0.2.5.ebuild:
+  Updated for distutils-r1 usage.
+
+*docformatter-0.2.5 (03 Dec 2012)
+
+  03 Dec 2012; James Rowe <jnrowe@gmail.com> +docformatter-0.2.5.ebuild:
+  Version bump [691].
+
+  27 Nov 2012; James Rowe <jnrowe@gmail.com> docformatter-0.2.4.ebuild:
+  Supports Python 3.3.
+
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> docformatter-0.2.4.ebuild:
+  Switched to EAPI-5.
 
   30 Aug 2012; James Rowe <jnrowe@gmail.com> docformatter-0.2.4.ebuild:
   Keyworded amd64.
 
+  30 Aug 2012; James Rowe <jnrowe@gmail.com> docformatter-0.2.4.ebuild:
   Keyworded x86.
 
 *docformatter-0.2.4 (31 Jul 2012)

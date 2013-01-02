@@ -1,6 +1,25 @@
 # ChangeLog for media-gfx/seqdiag
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright © 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Distributed under the GPL v2
 # $Header: $
+
+  09 Dec 2012; James Rowe <jnrowe@gmail.com> seqdiag-0.8.1.ebuild:
+  Use distutils-r1's PYTHON_USEDEPs where possible.
+
+  05 Dec 2012; James Rowe <jnrowe@gmail.com> seqdiag-0.8.1.ebuild:
+  Updated for distutils-r1 usage.
+
+*seqdiag-0.8.1 (04 Dec 2012)
+
+  04 Dec 2012; James Rowe <jnrowe@gmail.com> +seqdiag-0.8.1.ebuild:
+  Version bump [698].
+
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> seqdiag-0.7.5.ebuild:
+  Switched to EAPI-5.
+
+  15 Nov 2012; James Rowe <jnrowe@gmail.com> -seqdiag-0.7.3.ebuild,
+  seqdiag-0.7.5.ebuild:
+  Keyworded x86.
 
   15 Nov 2012; James Rowe <jnrowe@gmail.com> seqdiag-0.7.5.ebuild:
   Keyworded amd64.

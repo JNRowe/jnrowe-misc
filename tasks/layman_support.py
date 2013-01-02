@@ -1,3 +1,22 @@
+#
+# -*- coding: utf-8 -*-
+"""layman_support - layman support taks"""
+# Copyright © 2011, 2012  James Rowe <jnrowe@gmail.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+
 from StringIO import StringIO
 
 from lxml import etree
@@ -14,9 +33,9 @@ except ImportError:
     lxml = None  # NOQA
 
 
-@APP.cmd(name='layman-check')
+@APP.cmd(name='layman-check', help='check basic layman config validity')
 def layman_check():
-    """check basic layman config validity"""
+    """Check basic layman config validity"""
     dtd_loc = ('http://git.overlays.gentoo.org/gitweb/?'
                'p=proj/repositories-xml-format.git;a=blob_plain;'
                'f=schema/%s;hb=HEAD')

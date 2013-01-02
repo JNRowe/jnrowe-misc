@@ -1,6 +1,16 @@
 # ChangeLog for media-gfx/sphinxcontrib-aafig
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright © 2009, 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Distributed under the GPL v2
 # $Header: $
+
+  20 Dec 2012; Matt Leighy <mleighy@gmail.com> sphinxcontrib-aafig-1.0-r1.ebuild:
+  Use ranges for PYTHON_COMPAT readability.
+
+  18 Dec 2012; James Rowe <jnrowe@gmail.com> sphinxcontrib-aafig-1.0-r1.ebuild:
+  Updated for distutils-r1 usage.
+
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> sphinxcontrib-aafig-1.0-r1.ebuild:
+  Switched to EAPI-5.
 
   09 Apr 2012; James Rowe <jnrowe@gmail.com> sphinxcontrib-aafig-1.0-r1.ebuild:
   src_install default hack now in jnrowe-pypi eclass.

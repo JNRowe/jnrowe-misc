@@ -1,7 +1,7 @@
 #! /usr/bin/python -tt
-#
+# -*- coding: utf-8 -*-
 """Makefile - Overlay maintenance helpers"""
-# Copyright (C) 2009-2012  James Rowe <jnrowe@gmail.com>
+# Copyright (C) 2012  James Rowe <jnrowe@gmail.com>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -38,25 +38,25 @@ except OSError:
 APP.arg('--version', action='version', version='%%(prog)s (%s)' % VERSION)
 
 
-@APP.cmd(name='all')
+@APP.cmd(name='all', help='update generated files')
 def make_all():
-    """update generated files"""
+    """Update generated files"""
     for name in sorted(globals()):
         if name.startswith('gen_') and not name == 'gen_stable':
             globals()[name]()
 
 
-@APP.cmd
+@APP.cmd(help='run tests')
 def check():
-    """run tests"""
+    """Run tests"""
     for name in sorted(globals()):
         if name.endswith('_check'):
             globals()[name]()
 
 
-@APP.cmd
+@APP.cmd(help='clean repo')
 def clean():
-    """clean repo"""
+    """Clean repo"""
     for file in glob('*.rst'):
         html_file = os.path.splitext(file)[0] + '.html'
         try:
@@ -73,9 +73,9 @@ def clean():
         print(warn('profiles/categories removed'))
 
 
-@APP.cmd
+@APP.cmd(help='clean repo, deeply')
 def distclean():
-    """clean repo, deeply"""
+    """Clean repo, deeply"""
     clean()
     for file in glob('*-*/*/Manifest'):
         os.unlink(file)

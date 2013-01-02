@@ -1,11 +1,10 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
-
+EAPI=5
 # This version is specifically for Python 3
-PYTHON_COMPAT=(python3_1 python3_2)
+PYTHON_COMPAT=(python3_{1..3})
 
 inherit distutils-r1
 
@@ -21,6 +20,9 @@ IUSE="examples"
 DEPEND="!mail-filter/maildirproc-python2"
 RDEPEND="${DEPEND}"
 
+DOCS=(NEWS README)
+HTML_DOCS=(doc/)
+
 python_prepare_all() {
 	if use examples; then
 		# Fix examples links for post-install location
@@ -32,7 +34,7 @@ python_prepare_all() {
 }
 
 python_install_all() {
-	dohtml doc/*.{css,html}
+	distutils-r1_python_install_all
 
 	if use examples; then
 		insinto /usr/share/doc/${PF}

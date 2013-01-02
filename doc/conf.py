@@ -185,8 +185,8 @@ htmlhelp_basename = 'jnrowe-miscdoc'
 # (source start file, target name, title, author, documentclass
 # [howto/manual]).
 latex_documents = [
-  ('index', 'jnrowe-misc.tex', u'jnrowe-misc Documentation',
-   u'James Rowe', 'manual'),
+    ('index', 'jnrowe-misc.tex', u'jnrowe-misc Documentation',
+     u'James Rowe', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of

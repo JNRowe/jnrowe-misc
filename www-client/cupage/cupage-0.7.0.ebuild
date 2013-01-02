@@ -1,18 +1,13 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright © 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
-
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2:2.6"
-RESTRICT_PYTHON_ABIS="2.5 3.*"
-DISTUTILS_SRC_TEST="nosetests"
-
+EAPI=5
+PYTHON_COMPAT=(python2_{6,7})
 GITHUB_TAG=v${PV}
 GITHUB_USER="JNRowe"
 
-inherit base jnrowe-github distutils
+inherit base jnrowe-github distutils-r1
 
 DESCRIPTION="A tool to check for updates on web pages"
 HOMEPAGE="http://jnrowe.github.com/${PN}/"
@@ -24,40 +19,32 @@ IUSE="doc"
 
 DEPEND="dev-python/docutils
 	doc? (
-		dev-python/cloud_sptheme
+		dev-python/cloud_sptheme[${PYTHON_USEDEP}]
 		dev-python/sphinx
 		media-gfx/sphinxcontrib-blockdiag
 	)"
-RDEPEND="dev-python/blessings
+RDEPEND="dev-python/blessings[${PYTHON_USEDEP}]
 	dev-python/configobj
 	dev-python/httplib2
 	dev-python/lxml"
 
 PATCHES=("${FILESDIR}"/${P}-fix_distribute_entry_point.patch)
 
-src_prepare() {
-	base_src_prepare
-	distutils_src_prepare
-}
+DOCS=(NEWS.rst README.rst)
 
-src_compile() {
-	distutils_src_compile
-
+python_compile_all() {
 	if use doc; then
 		./setup.py build_sphinx || die "make documentation failed"
 		sphinx-build -b man doc doc/.build/man
 	fi
 }
 
-src_test() {
-	testing() {
-		nosetests-${PYTHON_ABI} --with-doctest || die "nosetests failed"
-	}
-	python_execute_function testing
+python_test() {
+	nosetests --with-doctest || die "nosetests failed"
 }
 
-src_install() {
-	distutils_src_install
+python_install_all() {
+	distutils-r1_python_install_all
 
 	dodoc doc/*.rst || die "dodoc failed"
 	if use doc; then

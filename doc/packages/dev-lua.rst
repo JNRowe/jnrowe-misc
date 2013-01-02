@@ -4,10 +4,10 @@
 * ``luainotify`` - http://www3.telus.net/taj_khattra/luainotify.html
 
  * a Lua interface to the Linux inotify subsystem
- * Licence: ``as-is``
+ * Licence: ``public-domain``
  * Versions:
 
-  * `0.20090818 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-lua/luainotify/luainotify-0.20090818.ebuild>`__  ``amd64``, ``x86``
+  * `0.20090818 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-lua/luainotify/luainotify-0.20090818.ebuild>`__  ``amd64``, ``x86`` (masked by ``package.mask``)
 
 * ``luaposix`` - http://wiki.alpinelinux.org/wiki/Luaposix
 
@@ -16,5 +16,5 @@
  * Versions:
 
   * `5.1.20 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-lua/luaposix/luaposix-5.1.20.ebuild>`__  ``amd64``, ``x86``
-  * `5.1.23 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-lua/luaposix/luaposix-5.1.23.ebuild>`__  ``~amd64`` (due 2012-12-30), ``~x86`` (due 2012-11-15)
+  * `5.1.23 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-lua/luaposix/luaposix-5.1.23.ebuild>`__  ``~amd64`` (due 2012-12-30), ``~x86`` (due 2013-02-13)
 

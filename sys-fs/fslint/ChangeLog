@@ -1,6 +1,10 @@
 # ChangeLog for sys-fs/fslint
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright © 2012  James Rowe <jnrowe@gmail.com>
+# Distributed under the GPL v2
 # $Header: $
+
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> fslint-2.42.ebuild:
+  Switched to EAPI-5.
 
   28 Sep 2012; James Rowe <jnrowe@gmail.com> fslint-2.42.ebuild:
   Uses 'or any later version' GPL license.

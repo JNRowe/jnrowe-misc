@@ -15,8 +15,8 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.3.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.3.3.ebuild>`__  ``amd64``, ``x86``
-  * `0.3.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.3.4.ebuild>`__  ``amd64``, ``~x86`` (due 2012-11-12)
+  * `0.3.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.3.4.ebuild>`__  ``amd64``, ``x86``
+  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.4.1.ebuild>`__  ``~amd64`` (due 2013-01-02), ``~x86`` (due 2013-01-02)
 
 * ``blockdiag`` - http://pypi.python.org/pypi/blockdiag/
 
@@ -24,8 +24,8 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `1.1.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.1.6.ebuild>`__  ``amd64``, ``x86``
-  * `1.1.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.1.8.ebuild>`__  ``amd64``, ``~x86`` (due 2012-11-12)
+  * `1.1.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.1.8.ebuild>`__  ``amd64``, ``x86``
+  * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.2.4.ebuild>`__  ``~amd64`` (due 2013-01-02), ``~x86`` (due 2013-01-02)
 
 * ``gruffy`` - http://pypi.python.org/pypi/gruffy/
 
@@ -33,8 +33,8 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/gruffy/gruffy-0.3.ebuild>`__  ``amd64``, ``x86``
-  * `0.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/gruffy/gruffy-0.3.1.ebuild>`__  ``amd64``, ``~x86`` (due 2012-11-15)
+  * `0.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/gruffy/gruffy-0.3.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.3.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/gruffy/gruffy-0.3.2.ebuild>`__  ``~amd64`` (due 2013-01-03), ``~x86`` (due 2013-01-03)
 
 * ``nwdiag`` - http://pypi.python.org/pypi/nwdiag/
 
@@ -42,8 +42,8 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.8.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.8.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.8.2.ebuild>`__  ``amd64``, ``~x86`` (due 2012-11-15)
+  * `0.8.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.8.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.9.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.9.2.ebuild>`__  ``~amd64`` (due 2013-01-03), ``~x86`` (due 2013-01-03)
 
 * ``seqdiag`` - http://pypi.python.org/pypi/seqdiag/
 
@@ -51,8 +51,8 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.7.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.7.3.ebuild>`__  ``amd64``, ``x86``
-  * `0.7.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.7.5.ebuild>`__  ``amd64``, ``~x86`` (due 2012-11-15)
+  * `0.7.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.7.5.ebuild>`__  ``amd64``, ``x86``
+  * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.8.1.ebuild>`__  ``~amd64`` (due 2013-01-03), ``~x86`` (due 2013-01-03)
 
 * ``sphinxcontrib-aafig`` - http://packages.python.org/sphinxcontrib-aafig/
 
@@ -69,6 +69,7 @@
  * Versions:
 
   * `1.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-1.1.2.ebuild>`__  ``amd64``, ``x86``
+  * `1.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-1.2.0.ebuild>`__  ``~amd64`` (due 2013-01-03), ``~x86`` (due 2013-01-03)
 
 * ``sphinxcontrib-gruffygen`` - http://pypi.python.org/pypi/sphinxcontrib-gruffygen/
 
@@ -84,5 +85,5 @@
  * Licence: ``BOLA``
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-mscgen/sphinxcontrib-mscgen-0.4.ebuild>`__  ``amd64``, ``~x86`` (due 2012-12-19)
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-mscgen/sphinxcontrib-mscgen-0.4.ebuild>`__  ``amd64``, ``~x86`` (due 2013-03-19)
 

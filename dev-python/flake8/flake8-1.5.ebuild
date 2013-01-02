@@ -1,8 +1,8 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright © 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 
 SUPPORT_PYTHON_ABIS="1"
 PYTHON_DEPEND="*:2.6"
@@ -17,7 +17,7 @@ DESCRIPTION="Python code checking using pep8 and pyflakes"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 # tl;dr This package is masked on genesis, because it bundles libs

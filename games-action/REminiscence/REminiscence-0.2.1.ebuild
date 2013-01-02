@@ -1,9 +1,8 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright © 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-# No EAPI-4, because of games eclass
-EAPI=3
+EAPI=5
 
 inherit eutils games toolchain-funcs
 

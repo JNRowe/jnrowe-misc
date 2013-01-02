@@ -1,12 +1,11 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright © 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
 # 2.5 is restricted due to collections.namedtuple use
 # 3.x is restricted due to non-relative imports
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_6 python2_7"
+PYTHON_COMPAT=(python2_{6,7})
 
 inherit jnrowe-pypi
 
@@ -21,12 +20,7 @@ DEPEND="dev-python/setuptools"
 # setuptools is required in RDEPEND for entry points usage
 RDEPEND="${DEPEND}
 	dev-python/pyyaml
-	dev-python/termcolor
-	dev-python/xerox"
+	dev-python/termcolor[${PYTHON_USEDEP}]
+	dev-python/xerox[${PYTHON_USEDEP}]"
 
-src_install() {
-	jnrowe-pypi_src_install
-
-	# Duplicate of README.rst
-	rm "${D}"/usr/share/doc/${PF}/README.txt
-}
+DOCS=(README.rst)

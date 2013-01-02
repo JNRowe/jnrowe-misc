@@ -1,10 +1,10 @@
 DEFINED_PHASES=compile install prepare
 DESCRIPTION=Generate statistics from mbox and maildir folders
-EAPI=4
+EAPI=5
 HOMEPAGE=http://www.vanheusden.com/mboxstats/
 KEYWORDS=amd64 x86
 LICENSE=GPL-2
 SLOT=0
 SRC_URI=http://www.vanheusden.com/mboxstats//mboxstats-3.0.tgz
 _eclasses_=multilib	9aa8a023e062fca0ba79362d9d0cc488	toolchain-funcs	134429b842a6c67254bfd76a8753e4d4
-_md5_=15b81a5f4a97d0e200d1a91d418ffd0e
+_md5_=256a205eb22f851d78060b4e379e7607

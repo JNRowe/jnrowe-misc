@@ -1,6 +1,31 @@
 # ChangeLog for media-gfx/gruffy
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Distributed under the GPL v2
 # $Header: $
+
+  20 Dec 2012; Matt Leighy <mleighy@gmail.com> gruffy-0.3.2.ebuild:
+  Use ranges for PYTHON_COMPAT readability.
+
+  15 Dec 2012; James Rowe <jnrowe@gmail.com> gruffy-0.3.2.ebuild:
+  Use brace expansion for PYTHON_TARGETS.
+
+  09 Dec 2012; James Rowe <jnrowe@gmail.com> gruffy-0.3.2.ebuild:
+  Use distutils-r1's PYTHON_USEDEPs where possible.
+
+  05 Dec 2012; James Rowe <jnrowe@gmail.com> gruffy-0.3.2.ebuild:
+  Updated for distutils-r1 usage.
+
+*gruffy-0.3.2 (04 Dec 2012)
+
+  04 Dec 2012; James Rowe <jnrowe@gmail.com> +gruffy-0.3.2.ebuild:
+  Version bump [693].
+
+  26 Nov 2012; James Rowe <jnrowe@gmail.com> gruffy-0.3.1.ebuild:
+  Switched to EAPI-5.
+
+  15 Nov 2012; James Rowe <jnrowe@gmail.com> -gruffy-0.3.ebuild,
+  gruffy-0.3.1.ebuild:
+  Keyworded x86.
 
   15 Nov 2012; James Rowe <jnrowe@gmail.com> gruffy-0.3.1.ebuild:
   Keyworded amd64.

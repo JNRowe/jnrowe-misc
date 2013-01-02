@@ -1,0 +1,16 @@
+# ChangeLog for media-tv/get_iplayer
+# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  04 Dec 2012; James Rowe <jnrowe@gmail.com> get_iplayer-2.82.ebuild:
+  Keyworded ~x86.
+
+  04 Dec 2012; James Rowe <jnrowe@gmail.com> get_iplayer-2.82.ebuild:
+  Apply the live TV fix from Debian.
+
+*get_iplayer-2.82 (04 Dec 2012)
+
+  04 Dec 2012; James Rowe <jnrowe@gmail.com> +get_iplayer-2.82.ebuild,
+  +metadata.xml, +watch:
+  Initial ebuild, by me [707].
+

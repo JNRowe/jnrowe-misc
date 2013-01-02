@@ -1,6 +1,19 @@
 # ChangeLog for app-text/sphinxcontrib-httpdomain
-# Copyright 1999-2012 Gentoo Foundation; Distributed under the GPL v2
+# Copyright © 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Distributed under the GPL v2
 # $Header: $
+
+  20 Dec 2012; Matt Leighy <mleighy@gmail.com>
+  sphinxcontrib-httpdomain-1.1.7.ebuild:
+  Use ranges for PYTHON_COMPAT readability.
+
+  19 Dec 2012; James Rowe <jnrowe@gmail.com>
+  sphinxcontrib-httpdomain-1.1.7.ebuild:
+  Updated for distutils-r1 usage.
+
+  26 Nov 2012; James Rowe <jnrowe@gmail.com>
+  sphinxcontrib-httpdomain-1.1.7.ebuild:
+  Switched to EAPI-5.
 
   14 May 2012; James Rowe <jnrowe@gmail.com>
   -sphinxcontrib-httpdomain-1.1.6.ebuild,

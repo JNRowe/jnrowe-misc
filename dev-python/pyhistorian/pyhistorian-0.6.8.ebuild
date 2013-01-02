@@ -1,11 +1,10 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
-
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_5 python2_6 python2_7"
+EAPI=5
+# No 2.5 - missing termcolor
+PYTHON_COMPAT=(python2_{6,7})
 
 inherit jnrowe-pypi
 
@@ -18,17 +17,10 @@ KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools"
-RDEPEND="dev-python/should_dsl
-	dev-python/termcolor"
+RDEPEND="dev-python/should_dsl[${PYTHON_USEDEP}]
+	dev-python/termcolor[${PYTHON_USEDEP}]"
 
 # Files required for tests are missing from archive
 RESTRICT="test"
 
 DOCS=(README.rst)
-
-src_prepare() {
-	# Not needed, and interferes with src_install
-	rm Makefile
-
-	python-distutils-ng_src_prepare
-}

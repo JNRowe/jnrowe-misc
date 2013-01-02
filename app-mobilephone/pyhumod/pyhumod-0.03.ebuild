@@ -1,13 +1,11 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
+EAPI=5
+PYTHON_COMPAT=(python2_{5..7})
 
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_5 python2_6 python2_7"
-
-inherit python-distutils-ng
+inherit distutils-r1
 
 DESCRIPTION="Accessing Huawei modems in Python, including SMS and data calls."
 HOMEPAGE="http://code.google.com/p/${PN}/"
@@ -23,8 +21,6 @@ RDEPEND="dev-python/pyserial
 	net-dialup/ppp
 	dbus? ( dev-python/dbus-python )"
 
-PYTHON_MODNAME="humod"
-
 python_prepare_all() {
 	sed -i -e '/^CONFIG_FILES/,/^$/d' -e '/CONFIG_FILES/d' setup.py
 }
@@ -38,6 +34,6 @@ pkg_postinst() {
 	if ! use dbus; then
 		elog "dbus support is required for automatic modem detection.  Either "
 		elog "rebuild with USE=dbus or manually install "
-		elog "dev-python/dbus-python."
+		elog "dev-python/dbus-python."[${PYTHON_USEDEP}]
 	fi
 }

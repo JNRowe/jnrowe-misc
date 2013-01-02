@@ -1,11 +1,30 @@
+#
+# -*- coding: utf-8 -*-
+"""remind_support - remind support tasks"""
+# Copyright © 2011, 2012  James Rowe <jnrowe@gmail.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+
 from collections import defaultdict
 
 from utils import (APP, cmd_output, dep, success)
 
 
-@APP.cmd(name='gen-removals')
+@APP.cmd(name='gen-removals', help='generate remind file for package removals')
 def gen_removals():
-    """generate remind file for package removals"""
+    """Generate remind file for package removals"""
     dep(['support/removal.rem', ], ['profiles/package.mask', ])
     chunks = open("profiles/package.mask").read().split("\n\n")
     removals = defaultdict(list)
@@ -26,9 +45,9 @@ def gen_removals():
     print(success('removal.rem generated!'))
 
 
-@APP.cmd
+@APP.cmd(help='display repository reminders')
 def reminders():
-    """display repository reminders"""
+    """Display repository reminders"""
     output = lambda f: "\n".join(cmd_output('remind %s' % f).splitlines()[1:])
     removals = output('support/removal.rem')
     if removals:

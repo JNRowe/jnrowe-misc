@@ -1,15 +1,12 @@
-# Copyright 1999-2012 Gentoo Foundation
+# Copyright © 2009, 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI=4
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
-RESTRICT_PYTHON_ABIS="3.*"
-
+EAPI=5
+PYTHON_COMPAT=(python2_{5..7})
 GITHUB_USER="JNRowe"
 
-inherit distutils jnrowe-github
+inherit distutils-r1 jnrowe-github
 
 DESCRIPTION="Modules for working with points on Earth"
 
@@ -21,15 +18,16 @@ IUSE=""
 DEPEND=""
 RDEPEND=""
 
-src_test() {
-	testing() {
-		# Don't use test_doc as it requires net access
-		./setup.py test_code
-	}
-	python_execute_function testing
+DOCS=(NEWS README)
+
+python_test() {
+	# Don't use test_doc as it requires net access
+	./setup.py test_code
 }
 
-src_install() {
-	distutils_src_install
+python_install_all() {
+	distutils-r1_python_install_all
+
+	docinto usage
 	dodoc doc/*.txt
 }
