@@ -112,7 +112,7 @@
  * Versions:
 
   * `0.5.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/dexml/dexml-0.5.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/dexml/dexml-0.5.1.ebuild>`__  ``~amd64`` (due 2013-01-02), ``~x86`` (due 2013-01-02)
+  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/dexml/dexml-0.5.1.ebuild>`__  ``~amd64`` (due 2013-02-01), ``~x86`` (due 2013-01-02)
 
 * ``docformatter`` - http://pypi.python.org/pypi/docformatter/
 
@@ -121,7 +121,7 @@
  * Versions:
 
   * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.5.ebuild>`__  ``~amd64`` (due 2013-01-02), ``~x86`` (due 2013-01-02)
+  * `0.2.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.5.ebuild>`__  ``amd64``, ``~x86`` (due 2013-01-02)
 
 * ``doctest-tools`` - http://code.google.com/p/doctest-tools/
 
@@ -178,7 +178,7 @@
  * Versions:
 
   * `1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.5.ebuild>`__  ``amd64``, ``x86``
-  * `1.6.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.6.2.ebuild>`__  ``~amd64`` (due 2013-01-02), ``~x86`` (due 2013-01-02)
+  * `1.6.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.6.2.ebuild>`__  ``~amd64`` (due 2013-02-01), ``~x86`` (due 2013-01-02)
 
 * ``freshen`` - https://github.com/rlisagor/freshen
 
