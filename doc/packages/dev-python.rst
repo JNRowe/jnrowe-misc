@@ -120,8 +120,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.5.ebuild>`__  ``amd64``, ``~x86`` (due 2013-01-02)
+  * `0.2.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.5.ebuild>`__  ``amd64``, ``x86``
 
 * ``doctest-tools`` - http://code.google.com/p/doctest-tools/
 
