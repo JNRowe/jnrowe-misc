@@ -22,7 +22,7 @@ REMIND = True
 # This is awful, but portage really doesn't provide a much better way to get
 # the data
 REPO = portage.config().repositories.prepos[REPO_NAME]
-CACHE = REPO.iter_pregenerated_caches('').next()
+CACHE = next(REPO.iter_pregenerated_caches(''))
 
 
 DUE = {'amd64': {}, 'x86': {}}
