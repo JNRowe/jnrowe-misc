@@ -52,7 +52,7 @@ def eclass_doc_check():
     for eclass in eclasses:
         proc = Popen(['gawk', '-f', awk_file], stdin=PIPE, stdout=PIPE,
                      stderr=PIPE)
-        _, err = proc.communicate(open(eclass).read())
+        _, err = proc.communicate(open(eclass, 'rb').read())
         if err:
             print(warn('>>> %s' % eclass))
             print(err)
