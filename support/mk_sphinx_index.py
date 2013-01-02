@@ -109,12 +109,15 @@ for package, meta in sorted(CACHE.items()):
         output.append("``%s``" % cat)
         output.append("--" + "-" * len(cat) + "--")
     if not p == pkg:
-        if not meta["HOMEPAGE"] == "DEAD":
+        if not meta.get("HOMEPAGE") in ("DEAD", None):
             output.append('\n* ``%(NAME)s`` - %(HOMEPAGE)s' % meta)
         else:
             output.append('\n* ``%(NAME)s`` - no upstream' % meta)
         output.append('\n * %(DESCRIPTION)s' % meta)
-        output.append(' * Licence: ``%(LICENSE)s``' % meta)
+        if meta.get("LICENSE"):
+            output.append(' * Licence: ``%(LICENSE)s``' % meta)
+        else:
+            output.append(' * Licence: no source')
         output.append(' * Versions:\n')
         pkg = p
 
