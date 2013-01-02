@@ -2,7 +2,6 @@ REM 2012-12-25 *1 MSG %"Stabilise x86 app-misc/pytrainer-1.9.1%" %a
 REM 2012-12-27 *1 MSG %"Stabilise x86 dev-util/ditz-0.5-r1%" %a
 REM 2012-12-28 *1 MSG %"Stabilise x86 www-apps/mnemosyne-0.12%" %a
 
-REM 2013-01-02 *1 MSG %"Stabilise amd64 media-gfx/blockdiag-1.2.4%" %a
 REM 2013-01-02 *1 MSG %"Stabilise x86 media-gfx/blockdiag-1.2.4%" %a
 REM 2013-01-02 *1 MSG %"Stabilise amd64 media-gfx/actdiag-0.4.1%" %a
 REM 2013-01-02 *1 MSG %"Stabilise x86 media-gfx/actdiag-0.4.1%" %a
