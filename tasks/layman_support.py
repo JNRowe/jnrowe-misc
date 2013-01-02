@@ -17,11 +17,14 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-from StringIO import StringIO
+try:  # Python 3
+    from io import StringIO
+except ImportError:  # Python 2
+    from StringIO import StringIO  # NOQA
 
 from lxml import etree
 
-from utils import (APP, CommandError, fail, success)
+from tasks.utils import (APP, CommandError, fail, success)
 
 try:
     import httplib2

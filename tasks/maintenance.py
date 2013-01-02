@@ -23,7 +23,7 @@ from glob import glob
 from re import match
 from subprocess import (Popen, PIPE)
 
-from utils import (APP, cmd_output, fail, open_issue, success, warn)
+from tasks.utils import (APP, cmd_output, fail, open_issue, success, warn)
 
 
 @APP.cmd(name='keyword-check', help='check for missing keywords')

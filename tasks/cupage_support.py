@@ -22,7 +22,7 @@ import os
 from glob import glob
 from sys import exit
 
-from utils import (APP, dep, fail, success)
+from tasks.utils import (APP, dep, fail, success)
 
 
 @APP.cmd(name='gen-cupage-conf', help='generate a new cupage.conf file')
