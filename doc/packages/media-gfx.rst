@@ -16,7 +16,7 @@
  * Versions:
 
   * `0.3.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.3.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.4.1.ebuild>`__  ``~amd64`` (due 2013-01-02), ``~x86`` (due 2013-01-02)
+  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.4.1.ebuild>`__  ``amd64``, ``~x86`` (due 2013-01-02)
 
 * ``blockdiag`` - http://pypi.python.org/pypi/blockdiag/
 
