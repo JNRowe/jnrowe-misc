@@ -3,10 +3,9 @@
 # $Header: $
 
 EAPI=5
-PYTHON_DEPEND="*"
-SUPPORT_PYTHON_ABIS="1"
+PYTHON_COMPAT=(python{2_{5..7},3_{1..3}})
 
-inherit distutils
+inherit distutils-r1
 
 DESCRIPTION="Extensions for the nose testing framework"
 HOMEPAGE="http://darcs.idyll.org/~t/projects/${PN}/doc/"
@@ -23,18 +22,9 @@ RDEPEND="dev-python/nose"
 # Tests fail to show usage
 RESTRICT="test"
 
-DOCS="IDEAS"
+DOCS=(IDEAS)
 
-src_test() {
-	testing() {
-		nosetests examples
-	}
-	python_execute_function testing
-}
-
-src_install() {
-	distutils_src_install
-
+python_install_all() {
 	dodoc doc/ChangeLog doc/*.txt || die "dodoc failed"
 	if use doc; then
 		dohtml doc/index.html doc/default.css || die "dohtml failed"

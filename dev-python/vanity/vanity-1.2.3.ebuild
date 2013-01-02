@@ -5,8 +5,7 @@
 EAPI=5
 
 # 3.x is restricted due to print syntax
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_5 python2_6 python2_7"
+PYTHON_COMPAT=(python2_{5..7})
 PYPI_ARCHIVE_SUFFIX="zip"
 
 inherit jnrowe-pypi
@@ -20,7 +19,6 @@ IUSE=""
 
 DEPEND="dev-python/setuptools"
 # setuptools is required in RDEPEND for entry points usage
-RDEPEND="${DEPEND}
-	dev-python/setuptools"
+RDEPEND="${DEPEND}"
 
 DOCS=(README.rst docs/HISTORY.txt)

@@ -4,12 +4,7 @@
 
 EAPI=5
 
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*:2.6"
-# 2.5 is restricted due to except...as syntax
-RESTRICT_PYTHON_ABIS="2.5"
-DISTUTILS_SRC_TEST="nosetests"
-PYPI_OLD_DISTUTILS=1
+PYTHON_COMPAT=(python{2_{5..7},3_{1..3}})
 
 inherit jnrowe-pypi
 
@@ -33,8 +28,8 @@ RESTRICT="test"
 
 # setuptools is an optional dependency for setup.py, but favour reproducibilty
 # as installation varies when it is available.
-DEPEND="dev-python/setuptools"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 # setuptools is required in RDEPEND for entry points usage
-RDEPEND=""
+RDEPEND="${DEPEND}"
 
-DOCS="CONTRIBUTORS.txt"
+DOCS=(CONTRIBUTORS.txt README)

@@ -3,6 +3,23 @@
 # Distributed under the GPL v2
 # $Header: $
 
+  19 Dec 2012; James Rowe <jnrowe@gmail.com> hubugs-0.15.0.ebuild:
+  Use python_compile_all instead of overriding src_compile.
+
+  15 Dec 2012; James Rowe <jnrowe@gmail.com> hubugs-0.15.0.ebuild:
+  Use brace expansion for PYTHON_TARGETS.
+
+  09 Dec 2012; James Rowe <jnrowe@gmail.com> hubugs-0.15.0.ebuild:
+  Use distutils-r1's PYTHON_USEDEPs where possible.
+
+  05 Dec 2012; James Rowe <jnrowe@gmail.com> hubugs-0.15.0.ebuild:
+  Fixed distutils-r1 usage.
+
+  05 Dec 2012; James Rowe <jnrowe@gmail.com> hubugs-0.15.0.ebuild:
+  Disable tests for Python 2.6, to workaround upstream's cov-core ebuild. This
+  is the simplest way to handle this for people who use the public GitHub
+  branch of this repository :(
+
   26 Nov 2012; James Rowe <jnrowe@gmail.com> hubugs-0.15.0.ebuild:
   Switched to EAPI-5.
 

@@ -3,11 +3,7 @@
 # $Header: $
 
 EAPI=5
-
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*"
-DISTUTILS_SRC_TEST="nosetests"
-PYPI_OLD_DISTUTILS=1
+PYTHON_COMPAT=(python{2_{5..7},3_{1..3}})
 
 inherit jnrowe-pypi
 
@@ -21,7 +17,9 @@ IUSE=""
 
 # argparse is optional since 0.3, but until there is a better way to express
 # suggested dependencies we'll keep the dep for Python <2.7
-DEPEND="|| ( dev-python/argparse >=dev-lang/python-2.7 )"
+DEPEND="virtual/python-argparse[${PYTHON_USEDEP}]"
 RDEPEND="${DEPEND}"
 
-PYTHON_MODNAME="${PN}.py"
+python_test() {
+	nosetests || die
+}

@@ -4,7 +4,7 @@
 
 EAPI=5
 
-PYTHON_COMPAT=(python2_5 python2_6 python2_7)
+PYTHON_COMPAT=(python2_{5..7})
 
 inherit jnrowe-pypi
 
@@ -15,8 +15,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND=""
-RDEPEND="dev-python/beaker
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
+# setuptools needed in RDEPEND for wrapper scripts
+RDEPEND="${DEPEND}
+	dev-python/beaker
 	dev-python/docutils
 	dev-python/mako
 	dev-python/pastescript

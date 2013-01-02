@@ -4,8 +4,7 @@
 
 EAPI=5
 
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_5 python2_6 python2_7"
+PYTHON_COMPAT=(python2_{5..7})
 
 inherit jnrowe-pypi
 
@@ -24,6 +23,6 @@ RDEPEND="${DEPEND}
 	>=dev-python/sphinx-0.6"
 # aafigure is in PDEPEND to allow working package managers to break the cyclic
 # dependency.
-PDEPEND=">=media-gfx/aafigure-0.3"
+PDEPEND=">=media-gfx/aafigure-0.3[${PYTHON_USEDEP}]"
 
 DOCS=(CHANGES README)

@@ -3,14 +3,10 @@
 # $Header: $
 
 EAPI=5
-
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
 # 3.x restricted due to exception syntax
-RESTRICT_PYTHON_ABIS="3.*"
-DISTUTILS_SRC_TEST="nosetests"
+PYTHON_COMPAT=(python2_{5..7})
 
-inherit distutils
+inherit distutils-r1
 
 MY_P=${P/_alpha/a}
 
@@ -27,11 +23,9 @@ DEPEND="dev-python/setuptools
 	dev-python/sphinx"
 RDEPEND="${DEPEND}"
 
-PYTHON_MODNAME="${PN}.py"
-
 S="${WORKDIR}"/${MY_P}
 
-DOCS="CHANGES"
+DOCS=(CHANGES)
 
 src_unpack() {
 	# Broken tarball, with no toplevel directory
@@ -39,9 +33,7 @@ src_unpack() {
 	unpack ${A}
 }
 
-src_compile() {
-	distutils_src_compile
-
+python_compile_all() {
 	if use doc; then
 		pushd doc >/dev/null
 		emake html || die "emake html failed"
@@ -49,15 +41,12 @@ src_compile() {
 	fi
 }
 
-src_test() {
-	testing() {
-		nosetests-${PYTHON_ABI} ${PN}_test.py || die "nosetests failed"
-	}
-	python_execute_function testing
+python_test() {
+	nosetests grapefruit_test.py || die
 }
 
-src_install() {
-	distutils_src_install
+python_install_all() {
+	distutils-r1_python_install_all
 
 	if use doc; then
 		dohtml -r doc/_build/html/* || die "dohtml failed"

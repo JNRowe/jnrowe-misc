@@ -3,11 +3,9 @@
 # $Header: $
 
 EAPI=5
-
 # 2.5 is restricted due to except...as syntax
 # 3.x is restricted due to print command
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_6 python2_7"
+PYTHON_COMPAT=(python2_{6,7})
 
 inherit jnrowe-pypi
 
@@ -19,8 +17,8 @@ KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools"
-RDEPEND="dev-python/colorama
-	dev-python/plac
+RDEPEND="dev-python/colorama[${PYTHON_USEDEP}]
+	dev-python/plac[${PYTHON_USEDEP}]
 	dev-python/pyyaml"
 
 DOCS=(README.rst)

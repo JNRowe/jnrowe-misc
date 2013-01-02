@@ -4,8 +4,7 @@
 
 EAPI=5
 # Python 2.5 and 3.x aren't supported because of pycairo dep
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_6 python2_7"
+PYTHON_COMPAT=(python2_{6,7})
 
 inherit jnrowe-pypi
 
@@ -26,12 +25,14 @@ python_test() {
 	# How I wish we could just use nose...
 	local file files=tests/*.py
 	for file in ${files}; do
-		PYTHONPATH=${PWD} "${PYTHON}" ${file} \
+		"${EPYTHON}" ${file} \
 			|| die "${file} failed with ${PYTHON}"
 	done
 }
 
 python_install_all() {
+	distutils-r1_python_install_all
+
 	insinto /usr/share/doc/${PF}
 	if use examples; then
 		doins -r examples

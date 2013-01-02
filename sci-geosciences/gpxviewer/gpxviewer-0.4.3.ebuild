@@ -5,11 +5,11 @@
 EAPI=5
 
 # 3.x is restricted due to lack of support in python-distutils-extra
-PYTHON_COMPAT=(python2_5 python2_6 python2_7)
+PYTHON_COMPAT=(python2_{5..7})
 
 GITHUB_USER=andrewgee
 
-inherit distutils-r1 jnrowe-github
+inherit eutils distutils-r1 jnrowe-github
 
 DESCRIPTION="GPXViewer GPS trace viewer"
 HOMEPAGE="http://andrewgee.org/blog/projects/gpxviewer"
@@ -21,4 +21,6 @@ IUSE=""
 
 DEPEND="dev-python/python-distutils-extra
 	dev-util/intltool"
-RDEPEND="dev-python/python-osmgpsmap"
+RDEPEND="dev-python/python-osmgpsmap[${PYTHON_USEDEP}]"
+
+PATCHES=("${FILESDIR}"/${P}-valid_desktop.patch)

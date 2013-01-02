@@ -3,8 +3,7 @@
 # $Header: $
 
 EAPI=5
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_5 python2_6 python2_7"
+PYTHON_COMPAT=(python2_{6,7})
 
 inherit jnrowe-pypi
 
@@ -17,7 +16,7 @@ IUSE="test"
 
 DEPEND="dev-python/setuptools
 	test? ( dev-python/py )"
-RDEPEND="dev-python/pyrepl
+RDEPEND="dev-python/pyrepl[${PYTHON_USEDEP}]
 	x11-apps/xprop
 	x11-misc/wmctrl"
 

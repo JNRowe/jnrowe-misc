@@ -4,7 +4,7 @@
 
 EAPI=5
 
-PYTHON_COMPAT=(python2_5 python2_6 python2_7)
+PYTHON_COMPAT=(python2_{5..7})
 
 inherit distutils-r1
 
@@ -18,10 +18,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="examples"
 
 DEPEND=""
-RDEPEND="dev-python/docutils
+RDEPEND="dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/kid"
 
 python_install_all() {
+	distutils-r1_python_install_all
+
 	insinto /usr/share/doc/${PF}
 	doins -r contrib/ || die "doins failed"
 

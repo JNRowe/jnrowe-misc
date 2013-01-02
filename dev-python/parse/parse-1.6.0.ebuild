@@ -3,10 +3,7 @@
 # $Header: $
 
 EAPI=5
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*"
-DISTUTILS_SRC_TEST="nosetests"
-PYPI_OLD_DISTUTILS=1
+PYTHON_COMPAT=(python{2_{5..7},3_{1..3}})
 
 inherit jnrowe-pypi
 
@@ -20,4 +17,6 @@ IUSE=""
 DEPEND=""
 RDEPEND=""
 
-PYTHON_MODNAME="${PN}.py"
+python_test() {
+	"${PYTHON}" test_parse.py
+}

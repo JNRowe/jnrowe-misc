@@ -3,6 +3,21 @@
 # Distributed under the GPL v2
 # $Header: $
 
+  20 Dec 2012; Matt Leighy <mleighy@gmail.com> dexml-0.5.1.ebuild:
+  Use ranges for PYTHON_COMPAT readability.
+
+  19 Dec 2012; James Rowe <jnrowe@gmail.com> dexml-0.5.1.ebuild:
+  Use EPYTHON in python_test.
+
+  15 Dec 2012; James Rowe <jnrowe@gmail.com> dexml-0.5.1.ebuild:
+  Use brace expansion for PYTHON_TARGETS.
+
+  09 Dec 2012; James Rowe <jnrowe@gmail.com> dexml-0.5.1.ebuild:
+  Added missing setuptools dependency.
+
+  05 Dec 2012; James Rowe <jnrowe@gmail.com> dexml-0.5.1.ebuild:
+  Updated for distutils-r1 usage.
+
 *dexml-0.5.1 (03 Dec 2012)
 
   03 Dec 2012; James Rowe <jnrowe@gmail.com> +dexml-0.5.1.ebuild:

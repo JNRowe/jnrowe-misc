@@ -5,10 +5,9 @@
 EAPI=5
 
 # 3.x is restricted due to print syntax and unicode support
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_5 python2_6 python2_7"
+PYTHON_COMPAT=(python2_{5..7})
 
-inherit python-distutils-ng
+inherit distutils-r1
 
 DESCRIPTION="Makes your terminal output totally fabulous"
 HOMEPAGE="http://lobstertech.com/${PN}.html"
@@ -24,9 +23,7 @@ DEPEND="dev-python/setuptools
 RDEPEND="dev-python/grapefruit
 	dev-python/imaging"
 
-src_compile() {
-	python-distutils-ng_src_compile
-
+python_compile_all() {
 	if use doc; then
 		pushd docs >/dev/null
 		emake html || die "emake html failed"

@@ -3,6 +3,12 @@
 # Distributed under the GPL v2
 # $Header: $
 
+  20 Dec 2012; Matt Leighy <mleighy@gmail.com> blessings-1.5.ebuild:
+  Use ranges for PYTHON_COMPAT readability.
+
+  19 Dec 2012; James Rowe <jnrowe@gmail.com> blessings-1.5.ebuild:
+  Updated for distutils-r1 usage.
+
   02 Dec 2012; James Rowe <jnrowe@gmail.com> blessings-1.5.ebuild:
   Supports Python 3.3.
 

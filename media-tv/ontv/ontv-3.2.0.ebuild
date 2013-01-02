@@ -3,11 +3,11 @@
 # $Header: $
 
 EAPI=5
-PYTHON_DEPEND="2:2.5"
+PYTHON_COMPAT=(python2_{5..7})
 GCONF_DEBUG="no"
 GNOME_TARBALL_SUFFIX="bz2"
 
-inherit distutils gnome2
+inherit python-single-r1 gnome2
 
 DESCRIPTION="GNOME Applet for monitoring current and upcoming TV programs"
 HOMEPAGE="http://live.gnome.org/OnTV"
@@ -20,7 +20,8 @@ IUSE="+xmltv"
 COMMON_DEPEND="dev-python/gnome-applets-python
 	dev-python/notify-python
 	gnome-base/gconf
-	x11-libs/vte[python]"
+	x11-libs/vte[python]
+	${PYTHON_DEPS}"
 RDEPEND="${COMMON_DEPEND}
 	dev-python/dbus-python
 	xmltv? ( media-tv/xmltv )"
@@ -28,7 +29,7 @@ DEPEND="${COMMON_DEPEND}
 	dev-util/intltool
 	virtual/pkgconfig"
 
-DOCS="AUTHORS ChangeLog FAQ HACKING NEWS README THANKS TODO"
+DOCS=(AUTHORS ChangeLog FAQ HACKING NEWS README THANKS TODO)
 
 src_prepare() {
 	gnome2_src_prepare
@@ -36,22 +37,12 @@ src_prepare() {
 	# No bytecode compilation
 	rm py-compile
 	ln -s $(type -P true) py-compile
-
-	python_convert_shebangs $(python_get_version) bin/ontv{{-applet,}.in,-dbus}
 }
 
 pkg_postinst() {
 	gnome2_pkg_postinst
 
-	python_mod_optimize ${PN}
-
 	if ! use xmltv; then
 		ewarn "You must enable USE=xmltv if you wish to download TV listings!"
 	fi
-}
-
-pkg_postrm() {
-	gnome2_pkg_postrm
-
-	python_mod_cleanup ${PN}
 }

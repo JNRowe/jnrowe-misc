@@ -3,9 +3,9 @@
 # $Header: $
 
 EAPI=5
+# No 2.{5,6} - missing fancycompleter
 # 3.x is restricted due to exception syntax
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_5 python2_6 python2_7"
+PYTHON_COMPAT=(python2_7)
 
 inherit jnrowe-pypi
 
@@ -18,8 +18,8 @@ IUSE="test"
 
 DEPEND="dev-python/setuptools
 	test? ( dev-python/py )"
-RDEPEND="dev-python/fancycompleter
-	dev-python/wmctrl
+RDEPEND="dev-python/fancycompleter[${PYTHON_USEDEP}]
+	dev-python/wmctrl[${PYTHON_USEDEP}]
 	dev-python/pygments"
 
 DOCS=(README)
