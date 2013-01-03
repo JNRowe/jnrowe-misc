@@ -1,4 +1,4 @@
-# Copyright © 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
@@ -13,7 +13,7 @@ HOMEPAGE="http://${PN}.it/"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE=""
 
 # setuptools is required in RDEPEND for entry points
