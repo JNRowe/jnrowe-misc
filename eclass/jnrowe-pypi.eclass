@@ -1,6 +1,5 @@
 # Copyright 2009, 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
 if [[ -z ${__ECLASS_IMPORTED_JNROWE_PYPI} ]]; then
 	__ECLASS_IMPORTED_JNROWE_PYPI=1

@@ -1,6 +1,5 @@
 # Copyright © 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
 EAPI=5
 # importlib is available in >=2.7 or >=3.1, and unlike most similar modules this

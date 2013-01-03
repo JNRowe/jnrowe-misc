@@ -7,4 +7,4 @@ LICENSE=GPL-2+
 SLOT=0
 SRC_URI=http://www.risacher.org/sunwait/sunwait-20041208.tar.gz
 _eclasses_=multilib	9aa8a023e062fca0ba79362d9d0cc488	toolchain-funcs	134429b842a6c67254bfd76a8753e4d4
-_md5_=116727721e7bdcbbd15ce73c79237276
+_md5_=19a2d8bea33297cbb4ab8685159c964a

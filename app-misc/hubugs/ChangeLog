@@ -1,7 +1,6 @@
 # ChangeLog for app-misc/hubugs
 # Copyright © 2011, 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
-# $Header: $
 
   19 Dec 2012; James Rowe <jnrowe@gmail.com> hubugs-0.15.0.ebuild:
   Use python_compile_all instead of overriding src_compile.

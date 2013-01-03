@@ -1,7 +1,6 @@
 # ChangeLog for dev-python/calabash
 # Copyright © 2011, 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
-# $Header: $
 
   20 Dec 2012; Matt Leighy <mleighy@gmail.com> calabash-0.0.3.ebuild:
   Use ranges for PYTHON_COMPAT readability.
