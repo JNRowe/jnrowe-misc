@@ -84,6 +84,15 @@ culled.
 ``dev-lua``
 ~~~~~~~~~~~
 
+``luainotify``
+''''''''''''''
+
+    No longer used at our site.
+
+:Reason: Culled
+:Commit:
+:Removal date: 2013-01-03
+
 ``luasocket``
 '''''''''''''
 
