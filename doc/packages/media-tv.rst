@@ -7,7 +7,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `2.82 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-tv/get_iplayer/get_iplayer-2.82.ebuild>`__  ``~amd64`` (due 2013-01-03), ``~x86`` (due 2013-01-03)
+  * `2.82 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-tv/get_iplayer/get_iplayer-2.82.ebuild>`__  ``amd64``, ``~x86`` (due 2013-01-03)
 
 * ``ontv`` - http://live.gnome.org/OnTV
 
