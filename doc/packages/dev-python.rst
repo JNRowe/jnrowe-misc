@@ -251,7 +251,7 @@
  * Versions:
 
   * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.4.ebuild>`__  ``~amd64`` (due 2013-01-03), ``~x86`` (due 2013-01-03)
+  * `0.5.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.4.ebuild>`__  ``amd64``, ``~x86`` (due 2013-01-03)
 
 * ``importlib`` - http://pypi.python.org/pypi/importlib/
 
