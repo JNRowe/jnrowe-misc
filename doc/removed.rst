@@ -756,6 +756,18 @@ culled.
 :Commit: :commit:`29d5b356 <29d5b3560f5271ca74ba69b505ecbfb6be938795>`
 :Removal date: 2011-09-13
 
+``x11-libs``
+~~~~~~~~~~~~
+
+``ghosd``
+'''''''''
+
+    No longer used at our site.
+
+:Reason: Culled
+:Commit:
+:Removal date: 2013-01-03
+
 ``x11-misc``
 ~~~~~~~~~~~~
 

@@ -3,6 +3,9 @@
 # $Header: $
 
   03 Jan 2013; James Rowe <jnrowe@gmail.com> package.mask:
+  Removed ghosd.
+
+  03 Jan 2013; James Rowe <jnrowe@gmail.com> package.mask:
   Removed luainotify.
 
   14 Apr 2012; James Rowe <jnrowe@gmail.com> package.mask:
