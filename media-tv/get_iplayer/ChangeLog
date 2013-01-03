@@ -4,6 +4,9 @@
 # $Header: $
 
   03 Jan 2013; James Rowe <jnrowe@gmail.com> get_iplayer-2.82.ebuild:
+  Keyworded x86.
+
+  03 Jan 2013; James Rowe <jnrowe@gmail.com> get_iplayer-2.82.ebuild:
   Keyworded amd64.
 
   04 Dec 2012; James Rowe <jnrowe@gmail.com> get_iplayer-2.82.ebuild:

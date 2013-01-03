@@ -250,7 +250,7 @@
  * Versions:
 
   * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.4.ebuild>`__  ``amd64``, ``~x86`` (due 2013-01-03)
+  * `0.5.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.4.ebuild>`__  ``amd64``, ``~x86`` (due 2013-02-02)
 
 * ``importlib`` - http://pypi.python.org/pypi/importlib/
 
@@ -282,7 +282,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.11.ebuild>`__  ``amd64``, ``~x86`` (due 2013-01-03)
+  * `0.2.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.11.ebuild>`__  ``amd64``, ``~x86`` (due 2013-02-02)
   * `0.2.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.9.ebuild>`__  ``amd64``, ``x86``
 
 * ``micromodels`` - http://pypi.python.org/pypi/micromodels/
@@ -348,7 +348,7 @@
  * Versions:
 
   * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.4.ebuild>`__  ``~amd64`` (due 2013-02-02), ``~x86`` (due 2013-01-03)
+  * `0.4.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.4.ebuild>`__  ``~amd64`` (due 2013-02-02), ``~x86`` (due 2013-02-02)
 
 * ``nose2-cov`` - http://pypi.python.org/pypi/nose2-cov/
 
@@ -373,7 +373,7 @@
  * Versions:
 
   * `1.5.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.5.3.ebuild>`__  ``amd64``, ``x86``
-  * `1.6.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.6.0.ebuild>`__  ``~amd64`` (due 2013-02-02), ``~x86`` (due 2013-01-03)
+  * `1.6.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.6.0.ebuild>`__  ``~amd64`` (due 2013-02-02), ``~x86`` (due 2013-02-02)
   * `1.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.6.1.ebuild>`__  ``~amd64`` (due 2013-01-07), ``~x86`` (due 2013-01-07)
 
 * ``pdbpp`` - http://pypi.python.org/pypi/pdbpp/
@@ -543,7 +543,7 @@
  * Versions:
 
   * `2.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/should_dsl/should_dsl-2.1.1.ebuild>`__  ``amd64``, ``x86``
-  * `2.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/should_dsl/should_dsl-2.1.2.ebuild>`__  ``~amd64`` (due 2013-02-02), ``~x86`` (due 2013-01-03)
+  * `2.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/should_dsl/should_dsl-2.1.2.ebuild>`__  ``~amd64`` (due 2013-02-02), ``~x86`` (due 2013-02-02)
 
 * ``showme`` - http://pypi.python.org/pypi/showme/
 
@@ -600,7 +600,7 @@
  * Versions:
 
   * `1.0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-1.0.6.ebuild>`__  ``amd64``, ``x86``
-  * `1.1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-1.1.4.ebuild>`__  ``amd64``, ``~x86`` (due 2013-01-03)
+  * `1.1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-1.1.4.ebuild>`__  ``amd64``, ``~x86`` (due 2013-02-02)
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
