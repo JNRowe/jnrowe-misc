@@ -543,7 +543,7 @@
  * Versions:
 
   * `2.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/should_dsl/should_dsl-2.1.1.ebuild>`__  ``amd64``, ``x86``
-  * `2.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/should_dsl/should_dsl-2.1.2.ebuild>`__  ``~amd64`` (due 2013-02-02), ``~x86`` (due 2013-01-03)
+  * `2.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/should_dsl/should_dsl-2.1.2.ebuild>`__  ``~amd64`` (due 2013-02-02), ``~x86`` (due 2013-02-02)
 
 * ``showme`` - http://pypi.python.org/pypi/showme/
 
