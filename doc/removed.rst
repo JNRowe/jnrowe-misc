@@ -90,7 +90,7 @@ culled.
     No longer used at our site.
 
 :Reason: Culled
-:Commit:
+:Commit: :commit:`6d283863 <6d283863042f2e42bb9c79b2e54da9297d49d35a>`
 :Removal date: 2013-01-03
 
 ``luasocket``
@@ -765,7 +765,7 @@ culled.
     No longer used at our site.
 
 :Reason: Culled
-:Commit:
+:Commit: :commit:`7181a803 <7181a803dc82fcb571bf1b5c1b8e3fbcd4a6370e>`
 :Removal date: 2013-01-03
 
 ``x11-misc``
