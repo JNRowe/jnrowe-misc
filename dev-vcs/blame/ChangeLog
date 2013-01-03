@@ -37,6 +37,6 @@
   Whitespace removal, to fix pcheck warning.
 
   21 Apr 2009; James Rowe <jnrowe@gmail.com> +metadata.xml,
-  +puzzles-r8167-build_fixes.patch:
+  blame-1.3.1.ebuild:
   Imported from pre-github misc overlay.
 
