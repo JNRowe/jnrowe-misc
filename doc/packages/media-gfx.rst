@@ -34,7 +34,7 @@
  * Versions:
 
   * `0.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/gruffy/gruffy-0.3.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.3.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/gruffy/gruffy-0.3.2.ebuild>`__  ``amd64``, ``~x86`` (due 2013-01-03)
+  * `0.3.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/gruffy/gruffy-0.3.2.ebuild>`__  ``amd64``, ``~x86`` (due 2013-02-02)
 
 * ``nwdiag`` - http://pypi.python.org/pypi/nwdiag/
 
