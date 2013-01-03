@@ -1,7 +1,6 @@
 # ChangeLog for media-tv/get_iplayer
 # Copyright © 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
-# $Header: $
 
   03 Jan 2013; James Rowe <jnrowe@gmail.com> get_iplayer-2.82.ebuild:
   Keyworded x86.

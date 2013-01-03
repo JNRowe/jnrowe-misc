@@ -7,4 +7,4 @@ LICENSE=Artistic
 RDEPEND=>=dev-perl/Term-Animation-2.5 dev-perl/libwww-perl
 SLOT=0
 SRC_URI=http://www.robobunny.com/projects/weatherspect/weatherspect.tar.gz -> weatherspect-1.10.tar.gz
-_md5_=3beb247f92d5dade9ff319614aa7461f
+_md5_=f52f896d1dee39d21e120e30de697805
