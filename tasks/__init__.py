@@ -20,10 +20,10 @@
 # Pull in all the tasks here, to simplify setup in Makefile.py(at the expense
 # of horrific wildcard imports)
 
-from cupage_support import *  # NOQA
-from layman_support import *  # NOQA
-from maintenance import *  # NOQA
-from portage_tasks import *  # NOQA
-from remind_support import *  # NOQA
-from rst_support import *  # NOQA
-from utils import *  # NOQA
+from tasks.cupage_support import *  # NOQA
+from tasks.layman_support import *  # NOQA
+from tasks.maintenance import *  # NOQA
+from tasks.portage_tasks import *  # NOQA
+from tasks.remind_support import *  # NOQA
+from tasks.rst_support import *  # NOQA
+from tasks.utils import *  # NOQA

@@ -17,16 +17,20 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-from StringIO import StringIO
 from glob import glob
 from re import sub
 from subprocess import check_call
 from sys import exit
 
+try:  # Python 3
+    from io import StringIO
+except ImportError:  # Python 2
+    from StringIO import StringIO  # NOQA
+
 from docutils.core import publish_file
 from docutils.utils import SystemMessage
 
-from utils import (APP, dep, newer, success)
+from tasks.utils import (APP, dep, newer, success)
 
 
 @APP.cmd(name='rst-check', help='check syntax of reST-formatted files')

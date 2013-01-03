@@ -3,6 +3,9 @@
 # Distributed under the GPL v2
 # $Header: $
 
+  02 Jan 2013; James Rowe <jnrowe@gmail.com> plac-0.9.1.ebuild:
+  Switched to virtual/python-multiprocessing.
+
   20 Dec 2012; Matt Leighy <mleighy@gmail.com> plac-0.9.1.ebuild:
   Use ranges for PYTHON_COMPAT readability.
 
