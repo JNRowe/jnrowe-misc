@@ -1,7 +1,6 @@
 # ChangeLog for app-misc/tudu
 # Copyright © 2009, 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
-# $Header: $
 
   26 Nov 2012; James Rowe <jnrowe@gmail.com> tudu-0.8.2.ebuild:
   Switched to EAPI-5.

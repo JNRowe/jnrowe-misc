@@ -1,7 +1,6 @@
 # ChangeLog for dev-python/shelldoctest
 # Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
-# $Header: $
 
   20 Dec 2012; Matt Leighy <mleighy@gmail.com> shelldoctest-0.2-r1.ebuild:
   Use ranges for PYTHON_COMPAT readability.

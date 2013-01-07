@@ -84,6 +84,15 @@ culled.
 ``dev-lua``
 ~~~~~~~~~~~
 
+``luainotify``
+''''''''''''''
+
+    No longer used at our site.
+
+:Reason: Culled
+:Commit: :commit:`6d283863 <6d283863042f2e42bb9c79b2e54da9297d49d35a>`
+:Removal date: 2013-01-03
+
 ``luasocket``
 '''''''''''''
 
@@ -746,6 +755,18 @@ culled.
 :Reason: Moved to ``::shadow``
 :Commit: :commit:`29d5b356 <29d5b3560f5271ca74ba69b505ecbfb6be938795>`
 :Removal date: 2011-09-13
+
+``x11-libs``
+~~~~~~~~~~~~
+
+``ghosd``
+'''''''''
+
+    No longer used at our site.
+
+:Reason: Culled
+:Commit: :commit:`7181a803 <7181a803dc82fcb571bf1b5c1b8e3fbcd4a6370e>`
+:Removal date: 2013-01-03
 
 ``x11-misc``
 ~~~~~~~~~~~~
