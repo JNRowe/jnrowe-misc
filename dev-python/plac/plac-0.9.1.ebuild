@@ -1,6 +1,5 @@
 # Copyright © 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
 EAPI=5
 
@@ -16,7 +15,7 @@ KEYWORDS="amd64 x86"
 IUSE="examples tk"
 
 DEPEND="dev-python/setuptools"
-RDEPEND="python_targets_python2_5? ( dev-python/multiprocessing )
+RDEPEND="virtual/python-multiprocessing-0[${PYTHON_USEDEP}]
 	virtual/python-argparse[${PYTHON_USEDEP}]
 	tk? ( dev-lang/python[tk] )"
 

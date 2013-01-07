@@ -19,7 +19,7 @@
 
 from collections import defaultdict
 
-from utils import (APP, cmd_output, dep, success)
+from tasks.utils import (APP, cmd_output, dep, success)
 
 
 @APP.cmd(name='gen-removals', help='generate remind file for package removals')

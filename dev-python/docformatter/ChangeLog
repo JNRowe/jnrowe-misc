@@ -1,7 +1,10 @@
 # ChangeLog for dev-python/docformatter
 # Copyright © 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
-# $Header: $
+
+  02 Jan 2013; James Rowe <jnrowe@gmail.com> -docformatter-0.2.4.ebuild,
+  docformatter-0.2.5.ebuild:
+  Keyworded x86.
 
   02 Jan 2013; James Rowe <jnrowe@gmail.com> docformatter-0.2.5.ebuild:
   Keyworded amd64.

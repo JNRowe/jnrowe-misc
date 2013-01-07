@@ -1,6 +1,5 @@
 # Copyright © 2011, 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
 EAPI=5
 # Python 2.5 and 3.x aren't supported because of pycairo dep

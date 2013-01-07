@@ -1,7 +1,6 @@
 # ChangeLog for sci-geosciences/osm-gps-map
 # Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
-# $Header: $
 
   26 Nov 2012; James Rowe <jnrowe@gmail.com> osm-gps-map-0.7.3.ebuild:
   Switched to EAPI-5.

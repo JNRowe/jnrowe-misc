@@ -1,6 +1,5 @@
-# Copyright © 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
 EAPI=5
 PYTHON_COMPAT=(python{2_{5..7},3_{1..3}})
@@ -16,5 +15,4 @@ KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND=""
-RDEPEND="python_targets_python2_5? ( dev-python/importlib )
-	python_targets_python2_6? ( dev-python/importlib )"
+RDEPEND="virtual/python-importlib[${PYTHON_USEDEP}]"

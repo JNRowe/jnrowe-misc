@@ -86,7 +86,7 @@ def dep(targets, sources, mapping=False):
 
 
 def cmd_output(command):
-    return check_output(command.split()).strip()
+    return check_output(command.split()).strip().decode()
 
 
 def create_gh_client():

@@ -47,7 +47,7 @@
  * Licence: ``GPL-2+``
  * Versions:
 
-  * `1.9.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pytrainer/pytrainer-1.9.1.ebuild>`__  ``~amd64`` (due 2013-01-09), ``~x86`` (due 2012-12-25)
+  * `1.9.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pytrainer/pytrainer-1.9.1.ebuild>`__  ``~amd64`` (due 2013-01-09), ``~x86`` (due 2013-02-08)
 
 * ``repl`` - http://defunkt.io/repl/
 

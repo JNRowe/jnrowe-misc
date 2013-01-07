@@ -1,7 +1,6 @@
 # ChangeLog for app-misc/weatherspect
 # Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
-# $Header: $
 
   08 Dec 2012; James Rowe <jnrowe@gmail.com> weatherspect-1.9.ebuild,
   weatherspect-1.10.ebuild:
