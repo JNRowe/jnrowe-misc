@@ -1,4 +1,4 @@
-# Copyright © 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -19,7 +19,7 @@ DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="${DEPEND}
 	dev-python/six
 	virtual/python-argparse[${PYTHON_USEDEP}]
-	python_targets_python2_6? ( dev-python/unittest2 )"
+	virtual/python-unittest2"
 
 PATCHES=("${FILESDIR}"/${PN}-0.4-remote_version_specific_runners.patch)
 
