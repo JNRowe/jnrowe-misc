@@ -25,6 +25,14 @@
 
   * `0.2.4-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/x11-misc/winwrangler/winwrangler-0.2.4-r1.ebuild>`__  ``amd64``, ``x86``
 
+* ``xorg-launch-helper`` - https://github.com/sofar/xorg-launch-helper
+
+ * Wrapper to make XOrg function as a proper systemd unit
+ * Licence: ``GPL-2``
+ * Versions:
+
+  * `4 <https://github.com/JNRowe/jnrowe-misc/blob/master/x11-misc/xorg-launch-helper/xorg-launch-helper-4.ebuild>`__  ``~amd64`` (due 2013-02-17), ``~x86`` (due 2013-02-17)
+
 * ``yalias`` - http://offog.org/code/
 
  * A simple content sensitive command launcher

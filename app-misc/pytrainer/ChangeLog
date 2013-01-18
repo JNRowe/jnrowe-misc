@@ -1,7 +1,21 @@
 # ChangeLog for app-misc/pytrainer
-# Copyright © 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
-# $Header: $
+
+  09 Jan 2013; James Rowe <jnrowe@gmail.com> pytrainer-1.9.1.ebuild:
+  Keyworded amd64.
+
+  15 Dec 2012; James Rowe <jnrowe@gmail.com> pytrainer-1.9.1.ebuild:
+  Use brace expansion for PYTHON_TARGETS.
+
+  09 Dec 2012; James Rowe <jnrowe@gmail.com> pytrainer-1.9.1.ebuild:
+  Use distutils-r1's PYTHON_USEDEPs where possible.
+
+  05 Dec 2012; James Rowe <jnrowe@gmail.com> pytrainer-1.9.1.ebuild:
+  Fixed distutils-r1 usage.
+
+  05 Dec 2012; James Rowe <jnrowe@gmail.com> pytrainer-1.9.1.ebuild:
+  Updated for distutils-r1 usage.
 
   26 Nov 2012; James Rowe <jnrowe@gmail.com> pytrainer-1.9.1.ebuild:
   Switched to EAPI-5.

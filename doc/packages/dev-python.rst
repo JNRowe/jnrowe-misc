@@ -105,14 +105,6 @@
 
   * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/colorama/colorama-0.2.4.ebuild>`__  ``amd64``, ``x86``
 
-* ``cov-core`` - http://pypi.python.org/pypi/cov-core/
-
- * Plugin core for use by pytest-cov, nose-cov and nose2-cov
- * Licence: ``MIT``
- * Versions:
-
-  * `1.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cov-core/cov-core-1.7.ebuild>`__  ``amd64``, ``x86``
-
 * ``dexml`` - http://pypi.python.org/pypi/dexml/
 
  * A dead-simple Object-XML mapper for Python
@@ -120,7 +112,7 @@
  * Versions:
 
   * `0.5.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/dexml/dexml-0.5.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/dexml/dexml-0.5.1.ebuild>`__  ``~amd64`` (due 2013-01-02), ``~x86`` (due 2013-01-02)
+  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/dexml/dexml-0.5.1.ebuild>`__  ``~amd64`` (due 2013-02-01), ``~x86`` (due 2013-02-01)
 
 * ``docformatter`` - http://pypi.python.org/pypi/docformatter/
 
@@ -128,8 +120,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.5.ebuild>`__  ``~amd64`` (due 2013-01-02), ``~x86`` (due 2013-01-02)
+  * `0.2.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.5.ebuild>`__  ``amd64``, ``x86``
 
 * ``doctest-tools`` - http://code.google.com/p/doctest-tools/
 
@@ -186,7 +177,7 @@
  * Versions:
 
   * `1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.5.ebuild>`__  ``amd64``, ``x86``
-  * `1.6.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.6.2.ebuild>`__  ``~amd64`` (due 2013-01-02), ``~x86`` (due 2013-01-02)
+  * `1.6.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.6.2.ebuild>`__  ``~amd64`` (due 2013-02-01), ``~x86`` (due 2013-02-01)
 
 * ``freshen`` - https://github.com/rlisagor/freshen
 
@@ -260,7 +251,7 @@
  * Versions:
 
   * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.4.ebuild>`__  ``~amd64`` (due 2013-01-03), ``~x86`` (due 2013-01-03)
+  * `0.5.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.4.ebuild>`__  ``amd64``, ``~x86`` (due 2013-02-02)
 
 * ``importlib`` - http://pypi.python.org/pypi/importlib/
 
@@ -292,7 +283,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.11.ebuild>`__  ``~amd64`` (due 2013-01-03), ``~x86`` (due 2013-01-03)
+  * `0.2.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.11.ebuild>`__  ``amd64``, ``~x86`` (due 2013-02-02)
   * `0.2.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.9.ebuild>`__  ``amd64``, ``x86``
 
 * ``micromodels`` - http://pypi.python.org/pypi/micromodels/
@@ -359,7 +350,7 @@
  * Versions:
 
   * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.4.ebuild>`__  ``~amd64`` (due 2013-01-03), ``~x86`` (due 2013-01-03)
+  * `0.4.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.4.ebuild>`__  ``~amd64`` (due 2013-02-02), ``~x86`` (due 2013-02-02)
 
 * ``nose2-cov`` - http://pypi.python.org/pypi/nose2-cov/
 
@@ -383,9 +374,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.5.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.5.3.ebuild>`__  ``amd64``, ``x86``
-  * `1.6.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.6.0.ebuild>`__  ``~amd64`` (due 2013-01-03), ``~x86`` (due 2013-01-03)
-  * `1.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.6.1.ebuild>`__  ``~amd64`` (due 2013-01-07), ``~x86`` (due 2013-01-07)
+  * `1.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.6.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``pdbpp`` - http://pypi.python.org/pypi/pdbpp/
 
@@ -426,14 +415,6 @@
  * Versions:
 
   * `0.9.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/plac/plac-0.9.1.ebuild>`__  ``amd64``, ``x86``
-
-* ``prettytable`` - http://code.google.com/p/prettytable/
-
- * Display tabular data in a visually appealing ASCII table
- * Licence: ``BSD``
- * Versions:
-
-  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/prettytable/prettytable-0.6.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``pwtools`` - http://alastairs-place.net/projects/pwtools/
 
@@ -530,7 +511,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2012-12-15), ``~x86`` (due 2013-01-29)
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2013-01-29), ``~x86`` (due 2013-01-29)
 
 * ``schematics`` - http://pypi.python.org/pypi/schematics/
 
@@ -563,7 +544,7 @@
  * Versions:
 
   * `2.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/should_dsl/should_dsl-2.1.1.ebuild>`__  ``amd64``, ``x86``
-  * `2.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/should_dsl/should_dsl-2.1.2.ebuild>`__  ``~amd64`` (due 2013-01-03), ``~x86`` (due 2013-01-03)
+  * `2.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/should_dsl/should_dsl-2.1.2.ebuild>`__  ``~amd64`` (due 2013-02-02), ``~x86`` (due 2013-02-02)
 
 * ``showme`` - http://pypi.python.org/pypi/showme/
 
@@ -620,7 +601,7 @@
  * Versions:
 
   * `1.0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-1.0.6.ebuild>`__  ``amd64``, ``x86``
-  * `1.1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-1.1.4.ebuild>`__  ``~amd64`` (due 2013-01-03), ``~x86`` (due 2013-01-03)
+  * `1.1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-1.1.4.ebuild>`__  ``amd64``, ``~x86`` (due 2013-02-02)
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
@@ -653,14 +634,6 @@
  * Versions:
 
   * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/titlecase/titlecase-0.5.1.ebuild>`__  ``amd64``, ``x86``
-
-* ``tweepy`` - http://pypi.python.org/pypi/tweepy/
-
- * Twitter library for python
- * Licence: ``MIT``
- * Versions:
-
-  * `1.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/tweepy/tweepy-1.11.ebuild>`__  ``amd64``, ``x86``
 
 * ``upoints`` - https://github.com/JNRowe/upoints/
 

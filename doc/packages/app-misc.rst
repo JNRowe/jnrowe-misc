@@ -7,7 +7,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/Hammertime/Hammertime-0.2.4.ebuild>`__  ``~amd64`` (due 2012-12-27), ``~x86`` (due 2013-01-26)
+  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/Hammertime/Hammertime-0.2.4.ebuild>`__  ``~amd64`` (due 2013-03-27), ``~x86`` (due 2013-01-26)
 
 * ``asciiquarium`` - http://www.robobunny.com/projects/asciiquarium/html/
 
@@ -23,7 +23,7 @@
  * Licence: ``GPL-3+``
  * Versions:
 
-  * `0.15.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.15.0.ebuild>`__  ``~amd64`` (due 2013-01-01), ``~x86`` (due 2013-02-15)
+  * `0.15.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.15.0.ebuild>`__  ``~amd64`` (due 2013-04-01), ``~x86`` (due 2013-02-15)
 
 * ``jsonpipe`` - http://pypi.python.org/pypi/jsonpipe/
 
@@ -47,7 +47,7 @@
  * Licence: ``GPL-2+``
  * Versions:
 
-  * `1.9.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pytrainer/pytrainer-1.9.1.ebuild>`__  ``~amd64`` (due 2013-01-09), ``~x86`` (due 2012-12-25)
+  * `1.9.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pytrainer/pytrainer-1.9.1.ebuild>`__  ``amd64``, ``~x86`` (due 2013-02-08)
 
 * ``repl`` - http://defunkt.io/repl/
 
@@ -87,6 +87,5 @@
  * Licence: ``Artistic``
  * Versions:
 
-  * `1.10 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/weatherspect/weatherspect-1.10.ebuild>`__  ``~amd64`` (due 2013-01-07), ``~x86`` (due 2013-01-07)
-  * `1.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/weatherspect/weatherspect-1.9.ebuild>`__  ``amd64``, ``x86``
+  * `1.10 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/weatherspect/weatherspect-1.10.ebuild>`__  ``amd64``, ``x86``
 

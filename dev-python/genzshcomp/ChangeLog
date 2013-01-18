@@ -1,7 +1,15 @@
 # ChangeLog for dev-python/genzshcomp
 # Copyright © 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
-# $Header: $
+
+  20 Dec 2012; Matt Leighy <mleighy@gmail.com> genzshcomp-0.3.1.ebuild:
+  Use ranges for PYTHON_COMPAT readability.
+
+  19 Dec 2012; James Rowe <jnrowe@gmail.com> genzshcomp-0.3.1.ebuild:
+  Updated for distutils-r1 usage.
+
+  09 Dec 2012; James Rowe <jnrowe@gmail.com> genzshcomp-0.3.1.ebuild:
+  Switched to virtual/python-argparse.
 
 *genzshcomp-0.5 (18 Jan 2013)
 

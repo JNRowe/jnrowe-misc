@@ -1,7 +1,12 @@
 # ChangeLog for dev-python/gpxdata
 # Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
-# $Header: $
+
+  20 Dec 2012; Matt Leighy <mleighy@gmail.com> gpxdata-1.2.0.ebuild:
+  Use ranges for PYTHON_COMPAT readability.
+
+  19 Dec 2012; James Rowe <jnrowe@gmail.com> gpxdata-1.2.0.ebuild:
+  Updated for distutils-r1 usage.
 
   27 Nov 2012; James Rowe <jnrowe@gmail.com> gpxdata-1.2.0.ebuild:
   Supports Python 3.3.

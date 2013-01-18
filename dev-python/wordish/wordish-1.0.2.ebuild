@@ -1,14 +1,8 @@
 # Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
 EAPI=5
-
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2:2.6"
-RESTRICT_PYTHON_ABIS="2.5 3.*"
-DISTUTILS_SRC_TEST="nosetests"
-PYPI_OLD_DISTUTILS=1
+PYTHON_COMPAT=(python2_{6,7})
 
 inherit jnrowe-pypi
 
@@ -23,3 +17,7 @@ IUSE=""
 # missing the necessary files for a rebuild.
 DEPEND=""
 RDEPEND="dev-python/docutils"
+
+python_test() {
+	nosetests || die
+}

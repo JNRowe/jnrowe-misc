@@ -1,7 +1,13 @@
 # ChangeLog for net-dns/adsuck
-# Copyright © 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
-# $Header: $
+
+  07 Jan 2013; James Rowe <jnrowe@gmail.com> -adsuck-2.4.2.ebuild,
+  -files/adsuck-2.4.2-build_env.patch, adsuck-2.4.3.ebuild:
+  Keyworded x86.
+
+  07 Jan 2013; James Rowe <jnrowe@gmail.com> adsuck-2.4.3.ebuild:
+  Keyworded amd64.
 
 *adsuck-2.4.3 (08 Dec 2012)
 

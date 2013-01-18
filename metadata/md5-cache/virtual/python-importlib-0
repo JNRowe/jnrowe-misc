@@ -1,0 +1,9 @@
+DEFINED_PHASES=-
+DESCRIPTION=A virtual for the Python argparse module
+EAPI=5
+IUSE=python_targets_python2_5 python_targets_python2_6 python_targets_python2_7 python_targets_python3_1 python_targets_python3_2 python_targets_python3_3
+KEYWORDS=~amd64 ~x86
+RDEPEND=python_targets_python2_5? ( dev-python/importlib[python_targets_python2_5] ) python_targets_python2_6? ( dev-python/importlib[python_targets_python2_6] )
+SLOT=0
+_eclasses_=multilib	9aa8a023e062fca0ba79362d9d0cc488	python-r1	b9091432451f035281bf6fc17720e820	python-utils-r1	069a968fde0ceb8a9cd5c6a89d77cbc2	toolchain-funcs	69a2016af67775a812f4c03ba4b0e03e
+_md5_=61086bef04b18b4aa52e5495be1eac8f

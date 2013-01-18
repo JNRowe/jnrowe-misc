@@ -13,6 +13,7 @@
 		overlay.
 	</longdescription>
 	<upstream>
+		<remote-id type="github">andrewgee/gpxviewer</remote-id>
 		<bugs-to>https://github.com/andrewgee/gpxviewer/issues</bugs-to>
 	</upstream>
 </pkgmetadata>
