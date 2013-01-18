@@ -1,0 +1,11 @@
+DEFINED_PHASES=-
+DEPEND=sys-apps/systemd
+DESCRIPTION=Wrapper to make XOrg function as a proper systemd unit
+EAPI=5
+HOMEPAGE=https://github.com/sofar/xorg-launch-helper
+KEYWORDS=~x86
+LICENSE=GPL-2
+RDEPEND=sys-apps/systemd
+SLOT=0
+SRC_URI=http://foo-projects.org/~sofar/xorg-launch-helper/xorg-launch-helper-4.tar.gz
+_md5_=ec704f3a3a06ff39c06ae6fb3d9f8623

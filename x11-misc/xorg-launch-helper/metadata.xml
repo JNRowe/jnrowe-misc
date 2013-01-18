@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Xorg-launch-helper is a small utility that transforms the X server
+		process (<pkg>x11-base/xorg-server</pkg>) into a daemon that can be used
+		to make applications wait with starting until XOrg is ready for X11
+		connections.
+
+		The utility starts and forks the XOrg server and listens for a signal
+		from the XOrg server. At this point, the utility signals systemd READY
+		through sd_notify(). At this point systemd will start units that have an
+		explicit ordering configured to be after the xorg.target.
+
+		This mechanism can be used to delay the starting up of services that
+		require a working X11 display server, such as any form of graphical
+		process or X11 window manager.
+	</longdescription>
+	<upstream>
+		<remote-id type="github">sofar/xorg-launch-helper</remote-id>
+		<bugs-to>https://github.com/sofar/xorg-launch-helper/issues</bugs-to>
+	</upstream>
+</pkgmetadata>
