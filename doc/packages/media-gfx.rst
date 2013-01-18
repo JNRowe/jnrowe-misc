@@ -1,6 +1,14 @@
 ``media-gfx``
 -------------
 
+* ``Graph-Easy`` - http://search.cpan.org/dist/Graph-Easy/
+
+ * Render/convert graphs in/from various formats
+ * Licence: ``GPL-2``
+ * Versions:
+
+  * `0.72 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/Graph-Easy/Graph-Easy-0.72.ebuild>`__  ``~x86`` (due 2013-02-17)
+
 * ``aafigure`` - https://launchpad.net/aafigure
 
  * ASCII art figures parsed and output as SVG, PNG, and more
