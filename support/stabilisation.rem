@@ -33,6 +33,7 @@ REM 2013-02-02 *1 MSG %"Stabilise x86 media-gfx/sphinxcontrib-blockdiag-1.2.0%" 
 REM 2013-02-08 *1 MSG %"Stabilise x86 app-misc/pytrainer-1.9.1%" %a
 REM 2013-02-13 *1 MSG %"Stabilise x86 dev-lua/luaposix-5.1.23%" %a
 REM 2013-02-15 *1 MSG %"Stabilise x86 app-misc/hubugs-0.15.0%" %a
+REM 2013-02-17 *1 MSG %"Stabilise amd64 x11-misc/xorg-launch-helper-4%" %a
 REM 2013-02-17 *1 MSG %"Stabilise x86 x11-misc/xorg-launch-helper-4%" %a
 
 REM 2013-03-19 *1 MSG %"Stabilise x86 media-gfx/sphinxcontrib-mscgen-0.4%" %a
