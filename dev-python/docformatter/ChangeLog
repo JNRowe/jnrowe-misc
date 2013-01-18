@@ -2,6 +2,11 @@
 # Copyright © 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+*docformatter-0.2.6 (18 Jan 2013)
+
+  18 Jan 2013; James Rowe <jnrowe@gmail.com> +docformatter-0.2.6.ebuild:
+  Version bump [716].
+
   02 Jan 2013; James Rowe <jnrowe@gmail.com> -docformatter-0.2.4.ebuild,
   docformatter-0.2.5.ebuild:
   Keyworded x86.
