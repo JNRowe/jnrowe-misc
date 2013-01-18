@@ -22,6 +22,7 @@
 	</longdescription>
 	<upstream>
 		<doc lang="en">http://defunkt.io/repl/</doc>
+		<remote-id type="github">defunkt/repl</remote-id>
 		<bugs-to>https://github.com/defunkt/repl/issues</bugs-to>
 	</upstream>
 </pkgmetadata>
