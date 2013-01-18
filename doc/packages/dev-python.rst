@@ -349,6 +349,7 @@
  * Versions:
 
   * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-progressive/nose-progressive-1.3.ebuild>`__  ``amd64``, ``x86``
+  * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-progressive/nose-progressive-1.4.ebuild>`__  ``~amd64`` (due 2013-02-17), ``~x86`` (due 2013-02-17)
 
 * ``nose2`` - http://pypi.python.org/pypi/nose2/
 
