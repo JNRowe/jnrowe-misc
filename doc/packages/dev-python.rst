@@ -178,6 +178,7 @@
 
   * `1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.5.ebuild>`__  ``amd64``, ``x86``
   * `1.6.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.6.2.ebuild>`__  ``~amd64`` (due 2013-02-01), ``~x86`` (due 2013-02-01)
+  * `1.7.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.7.0.ebuild>`__  ``~amd64`` (due 2013-02-17), ``~x86`` (due 2013-02-17)
 
 * ``freshen`` - https://github.com/rlisagor/freshen
 
