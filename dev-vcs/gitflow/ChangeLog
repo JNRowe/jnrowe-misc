@@ -1,6 +1,9 @@
 # ChangeLog for dev-vcs/gitflow
-# Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
+
+  18 Jan 2013; James Rowe <jnrowe@gmail.com> metadata.xml:
+  Added remote-id metadata entry.
 
   26 Nov 2012; James Rowe <jnrowe@gmail.com> gitflow-0.4.1-r1.ebuild,
   gitflow-0.4.1-r2.ebuild:
