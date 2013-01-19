@@ -2,6 +2,9 @@
 # Copyright © 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  19 Jan 2013; James Rowe <jnrowe@gmail.com> Graph-Easy-As_svg-0.23.ebuild:
+  Keyworded ~amd64.
+
 *Graph-Easy-As_svg-0.23 (18 Jan 2013)
 
   18 Jan 2013; James Rowe <jnrowe@gmail.com> +Graph-Easy-As_svg-0.23.ebuild,
