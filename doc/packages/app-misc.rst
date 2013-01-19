@@ -49,6 +49,14 @@
 
   * `1.9.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pytrainer/pytrainer-1.9.1.ebuild>`__  ``amd64``, ``~x86`` (due 2013-02-08)
 
+* ``rdial`` - https://github.com/JNRowe/rdial/
+
+ * Simple time tracking for simple people
+ * Licence: ``GPL-3``
+ * Versions:
+
+  * `0.8.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/rdial/rdial-0.8.0.ebuild>`__  ``~x86`` (due 2013-02-18)
+
 * ``repl`` - http://defunkt.io/repl/
 
  * Sometimes you need a repl
