@@ -2,6 +2,9 @@
 # Copyright © 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  19 Jan 2013; James Rowe <jnrowe@gmail.com> Graph-Easy-0.72.ebuild:
+  Keyworded ~amd64.
+
 *Graph-Easy-0.72 (18 Jan 2013)
 
   18 Jan 2013; James Rowe <jnrowe@gmail.com> +Graph-Easy-0.72.ebuild,

@@ -7,7 +7,7 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `0.72 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/Graph-Easy/Graph-Easy-0.72.ebuild>`__  ``~x86`` (due 2013-02-17)
+  * `0.72 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/Graph-Easy/Graph-Easy-0.72.ebuild>`__  ``~amd64`` (due 2013-02-18), ``~x86`` (due 2013-02-17)
 
 * ``Graph-Easy-As_svg`` - http://search.cpan.org/dist/Graph-Easy-As_svg/
 
@@ -15,7 +15,7 @@
  * Licence: ``GPL-2``
  * Versions:
 
-  * `0.23 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/Graph-Easy-As_svg/Graph-Easy-As_svg-0.23.ebuild>`__  ``~x86`` (due 2013-02-17)
+  * `0.23 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/Graph-Easy-As_svg/Graph-Easy-As_svg-0.23.ebuild>`__  ``~amd64`` (due 2013-02-18), ``~x86`` (due 2013-02-17)
 
 * ``aafigure`` - https://launchpad.net/aafigure
 
