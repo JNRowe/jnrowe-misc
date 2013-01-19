@@ -2,6 +2,10 @@
 # Copyright © 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  19 Jan 2013; James Rowe <jnrowe@gmail.com> REminiscence-0.2.1.ebuild,
+  files/REminiscence-0.2.1-data_paths.patch:
+  Drop sed usage for build fixes.
+
   26 Nov 2012; James Rowe <jnrowe@gmail.com> REminiscence-0.2.1.ebuild:
   Switched to EAPI-5.
 

@@ -17,14 +17,7 @@ IUSE=""
 DEPEND="media-libs/libsdl[audio,joystick,video]"
 RDEPEND="${DEPEND}"
 
-src_prepare() {
-	# Include user's CXXFLAGS
-	sed -i 's,CXXFLAGS:=,CXXFLAGS+=,' Makefile
-
-	epatch "${FILESDIR}"/${P}-data_paths.patch
-	# Fix location of data.
-	sed -i "s,GAMES_DATADIR,${GAMES_DATADIR}/${PN}," main.cpp
-}
+PATCHES=("${FILESDIR}"/${P}-data_paths.patch)
 
 src_compile() {
 	emake CXX="$(tc-getCXX)" || die "emake failed"
