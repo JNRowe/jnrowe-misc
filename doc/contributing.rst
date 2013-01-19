@@ -11,6 +11,33 @@ The devmanual's suggestion that filenames should not contain uppercase
 characters only causes complex :envvar:`$PN`/:envvar:`$P` rewriting or
 duplication, and as such is ignored in this overlay.
 
+Patches vs :command:`sed`
+'''''''''''''''''''''''''
+
+It is common practice in Gentoo repositories to fix minor problems using
+:command:`sed`, presumably because it appears to be quick and easy.  This type
+of usage is *banned* in this overlay.  Some of the reasons for this policy are:
+
+* It is very easy to mis-apply transformations
+* It is very easy for transformations to not be applied at all without anyone
+  noticing
+* For people with poor knowledge of :command:`sed` it leads to horrendous use of
+  grouping and back-references
+* Well written, correctly addressed, :command:`sed` expressions tend to be hard
+  for people with only a basic knowledge of the ``s`` command to comprehend(far
+  harder than unified diff output)
+* Many people seem to misunderstand what the common ``sed || die`` construct
+  does, leading to a false sense of safety.  [And frankly, if your
+  :command:`die` calls are triggered because of missing or mispelt files there
+  are much greater problems than a poorly defined call to :command:`sed`.]
+
+.. note::
+
+   Users inside the AST firewall often rely on our :command:`sed` wrappers to
+   alert them of broken :command:`sed` usage, and that process isn't changing.
+   I'm not applying this rule to all the overlays I maintain, just ones for
+   external users.
+
 :command:`die` usage
 --------------------
 
@@ -18,25 +45,6 @@ There are few differences between how :command:`die` is commonly used in the
 upstream tree, and how it is used in this overlay.  The rules in the overlay
 aren't always strictly enforced, but documenting this will hopefully reduce the
 number of usage questions I'm asked.
-
-:command:`sed` and :command:`die`
-'''''''''''''''''''''''''''''''''
-
-:command:`sed` should not be followed by a :command:`die` in any ``ebuild`` in
-this overlay.  Invariably, it leads to a misunderstanding of what is actually
-happening and continuing the usage is quite counter-productive.
-
-The only thing the ``sed || die`` construct achieves is a failure if a specified
-file is missing.  Too many people seem to believe it does other things, such as
-fail if an expression can't be applied.  [And frankly, if your :command:`die`
-calls are triggered because of missing or mispelt files there are much greater
-problems than a poorly defined call to :command:`sed`.]
-
-.. note::
-
-   Users inside the AST firewall should note that our :command:`sed` wrappers
-   used within an ``ebuild`` will call ``die`` internally if a file doesn't
-   exist or an expression doesn't apply.
 
 :command:`do*` and :command:`die`
 '''''''''''''''''''''''''''''''''
