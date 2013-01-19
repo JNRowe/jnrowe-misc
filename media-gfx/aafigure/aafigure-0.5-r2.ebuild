@@ -1,4 +1,4 @@
-# Copyright © 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -23,12 +23,14 @@ RDEPEND="dev-python/imaging
 RDEPEND="${RDEPEND}
 	doc? ( media-gfx/sphinxcontrib-aafig[${PYTHON_USEDEP}] )"
 
+PATCHES=("${FILESDIR}"/${P}-build_fixes.patch)
+
 DOCS=(CHANGES.txt README.txt)
 
 python_prepare_all() {
 	mv docutils/setup{-docutils-plugin,}.py
-	# Workaround a option parsing bug in the current release
-	sed -i '/^ \+:aspect\|scale:/d' documentation/*.rst
+
+	distutils-r1_python_prepare_all
 }
 
 python_compile_all() {
