@@ -12,11 +12,11 @@ DESCRIPTION="nose2 plugin for coverage reporting"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64"
 IUSE=""
 
 DEPEND="dev-python/setuptools"
-RDEPEND="dev-python/cov-core[${PYTHON_USEDEP}]
+RDEPEND="dev-python/cov-core
 	dev-python/nose2[${PYTHON_USEDEP}]"
 
 DOCS=(README.txt)
