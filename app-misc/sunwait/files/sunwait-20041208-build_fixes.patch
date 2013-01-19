@@ -1,0 +1,33 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Build fixes
+Status: LOCAL
+
+diff --git i/Makefile w/Makefile
+index 758fe88..aacee10 100644
+--- i/Makefile
++++ w/Makefile
+@@ -1,10 +1,9 @@
+-CFLAGS = -g 
+ LIBS = -lm
+ OBJS = main.o print.o sunriset.o 
+ 
+ 
+ sunwait: $(OBJS)
+-	$(CC) -o sunwait $(CFLAGS) $(OBJS) -lm
++	$(CC) $(LDFLAGS) -o sunwait $(CFLAGS) $(OBJS) -lm
+ 
+ clean:
+ 	rm *.o sunwait
+\ No newline at end of file
+diff --git i/main.c w/main.c
+index 346ef57..018185c 100644
+--- i/main.c
++++ w/main.c
+@@ -3,6 +3,7 @@
+ /* Licensed under the Gnu General Public License */
+ #include <stdio.h>
+ #include <stdlib.h> 
++#include <string.h>
+ #include <math.h>
+ #include <time.h>
+ 
