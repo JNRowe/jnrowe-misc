@@ -1,9 +1,9 @@
-# Copyright © 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
 
-inherit toolchain-funcs
+inherit base toolchain-funcs
 
 DESCRIPTION="TuDu is a comand line interface to manage hierarchical todos."
 HOMEPAGE="http://code.meskio.net/${PN}/"
@@ -19,12 +19,7 @@ RDEPEND="sys-libs/ncurses[unicode]"
 
 DOCS=(AUTHORS ChangeLog README todo.xml)
 
-src_prepare() {
-	# Files reference the DTD in /usr/local/, this fixes it
-	sed -i 's,/local,,' todo.xml data/welcome.xml
-	# Fix INSTALL_PROGRAM to remove binary stripping
-	sed -i '/INSTALL_PROGRAM/s, -s,,' configure
-}
+PATCHES=("${FILESDIR}"/${P}-build_fixes.patch)
 
 src_configure() {
 	# Non-standard configure :/  Works with econf [currently]
