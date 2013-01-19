@@ -1,4 +1,4 @@
-# Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -16,10 +16,9 @@ IUSE=""
 DEPEND="dev-python/setuptools"
 RDEPEND=""
 
-python_prepare() {
-	# Remove ez_setup automagic
-	sed -i '/use_setuptools/d' setup.py
+PATCHES=("${FILESDIR}"/${P}-build_fixes.patch)
 
+python_prepare() {
 	if [[ ${EPYTHON} == python3.* ]]; then
 		2to3 -w ${PN}/tests.py
 	fi

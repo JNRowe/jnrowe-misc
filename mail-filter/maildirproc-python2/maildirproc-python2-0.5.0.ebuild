@@ -1,4 +1,4 @@
-# Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -24,11 +24,9 @@ HTML_DOCS=(doc/)
 
 python_prepare_all() {
 	if use examples; then
-		# Fix examples links for post-install location
-		sed -i 's,examples/,../&,' doc/*.html
+		epatch "${FILESDIR}"/${P}-use_examples_link.patch
 	else
-		# Make examples links go to upstream website
-		sed -i "s,examples/,${HOMEPAGE}&," doc/*.html
+		epatch "${FILESDIR}"/${P}-use_examples_unset_link.patch
 	fi
 }
 

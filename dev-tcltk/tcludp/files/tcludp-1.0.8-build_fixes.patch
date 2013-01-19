@@ -1,0 +1,17 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Build fixes
+Status: LOCAL
+
+diff --git i/Makefile.in w/Makefile.in
+index 5fdee4a..ce5a80e 100644
+--- i/Makefile.in
++++ w/Makefile.in
+@@ -107,7 +107,7 @@ OBJEXT		= @OBJEXT@
+ RANLIB		= @RANLIB@
+ RANLIB_STUB	= @RANLIB_STUB@
+ SHLIB_CFLAGS	= @SHLIB_CFLAGS@
+-SHLIB_LD	= @SHLIB_LD@
++SHLIB_LD	= @SHLIB_LD@ $(LDFLAGS)
+ SHLIB_LD_LIBS	= @SHLIB_LD_LIBS@
+ STLIB_LD	= @STLIB_LD@
+ TCL_DEFS	= @TCL_DEFS@

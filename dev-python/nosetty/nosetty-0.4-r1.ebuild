@@ -1,4 +1,4 @@
-# Copyright © 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -21,10 +21,7 @@ RDEPEND="dev-python/nose"
 
 DOCS=(CHANGELOG.txt README.txt)
 
-python_prepare_all() {
-	# Fix file permission for data file
-	sed -i 's,700,600,' -i nosetty/nosetty.py
-}
+PATCHES=("${FILESDIR}"/${P}-build_fixes.patch)
 
 python_install_all() {
 	insinto /usr/share/doc/${PF}

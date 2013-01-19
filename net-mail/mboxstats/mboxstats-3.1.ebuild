@@ -4,7 +4,7 @@
 
 EAPI=5
 
-inherit toolchain-funcs
+inherit base toolchain-funcs
 
 DESCRIPTION="Generate statistics from mbox and maildir folders"
 HOMEPAGE="http://www.vanheusden.com/${PN}/"
@@ -18,10 +18,7 @@ IUSE=""
 DEPEND=""
 RDEPEND=""
 
-src_prepare() {
-	# Actually use the user's options.
-	sed -i -e 's/-g//g' -e 's/-O2//' Makefile || die
-}
+PATCHES=("${FILESDIR}"/${P}-build_fixes.patch)
 
 src_compile() {
 	emake CXX="$(tc-getCXX)" CC="$(tc-getCC)" || die
