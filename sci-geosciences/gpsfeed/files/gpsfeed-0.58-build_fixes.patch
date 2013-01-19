@@ -1,0 +1,16 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Build fixes
+Status: LOCAL
+
+diff --git i/gpsfeed+.tcl w/gpsfeed+.tcl
+index 9a6c8d7..ae17abe 100644
+--- i/gpsfeed+.tcl
++++ w/gpsfeed+.tcl
+@@ -1,6 +1,6 @@
+ #!/bin/sh
+ # the next line restarts using wish \
+-exec wish8.4 "$0" "$@"
++exec wish "$0" "$@"
+ 
+ # gpsfeed+. A GPS simulator
+ #
