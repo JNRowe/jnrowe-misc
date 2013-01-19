@@ -1,7 +1,23 @@
 # ChangeLog for dev-python/httpretty
-# Copyright © 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2011, 2012, 2013, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
-# $Header: $
+
+*httpretty-0.5.5 (18 Jan 2013)
+
+  18 Jan 2013; James Rowe <jnrowe@gmail.com> +httpretty-0.5.5.ebuild:
+  Version bump [718].
+
+  03 Jan 2013; James Rowe <jnrowe@gmail.com> httpretty-0.5.4.ebuild:
+  Keyworded amd64.
+
+  15 Dec 2012; James Rowe <jnrowe@gmail.com> httpretty-0.5.4.ebuild:
+  Use brace expansion for PYTHON_TARGETS.
+
+  09 Dec 2012; James Rowe <jnrowe@gmail.com> httpretty-0.5.4.ebuild:
+  Added missing setuptools dependency.
+
+  05 Dec 2012; James Rowe <jnrowe@gmail.com> httpretty-0.5.4.ebuild:
+  Updated for distutils-r1 usage.
 
 *httpretty-0.5.4 (04 Dec 2012)
 

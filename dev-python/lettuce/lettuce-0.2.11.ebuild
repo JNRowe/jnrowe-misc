@@ -1,11 +1,9 @@
-# Copyright © 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
 EAPI=5
 
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_5 python2_6 python2_7"
+PYTHON_COMPAT=(python2_{5..7})
 
 inherit jnrowe-pypi
 
@@ -14,12 +12,12 @@ HOMEPAGE="http://${PN}.it/"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE=""
 
 # setuptools is required in RDEPEND for entry points
-DEPEND="dev-python/setuptools"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="${DEPEND}
-	dev-python/fuzzywuzzy"
+	dev-python/fuzzywuzzy[${PYTHON_USEDEP}]"
 
 DOCS=(README.md RELEASE-NOTES.md)

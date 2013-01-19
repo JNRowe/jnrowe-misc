@@ -1,12 +1,10 @@
 # Copyright © 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
 EAPI=5
 # 2.5 is not supported because of context handlers and byte strings
 # 3.x is not supported because of exception syntax and comparison syntax
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_6 python2_7"
+PYTHON_COMPAT=(python2_{6,7})
 
 inherit jnrowe-pypi
 

@@ -21,7 +21,7 @@ import os
 from glob import glob
 from subprocess import (CalledProcessError, check_call, check_output)
 
-from utils import (APP, CommandError, dep, fail, newer, success, warn)
+from tasks.utils import (APP, CommandError, dep, fail, newer, success, warn)
 
 try:
     SIGN_KEY = check_output(['portageq', 'envvar', 'PORTAGE_GPG_KEY']).strip()

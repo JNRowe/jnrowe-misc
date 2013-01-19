@@ -1,14 +1,11 @@
 # Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
 EAPI=5
-
 # This version is specifically for Python 2
-PYPI_OLD_DISTUTILS_NG=1
-PYTHON_COMPAT="python2_5 python2_6 python2_7"
+PYTHON_COMPAT=(python2_{5..7})
 
-inherit python-distutils-ng
+inherit distutils-r1
 
 DESCRIPTION="maildir processor using Python as its configuration language"
 HOMEPAGE="http://joel.rosdahl.net/maildirproc/"
@@ -22,6 +19,9 @@ IUSE="examples"
 DEPEND="!mail-filter/maildirproc"
 RDEPEND="${DEPEND}"
 
+DOCS=(NEWS README)
+HTML_DOCS=(doc/)
+
 python_prepare_all() {
 	if use examples; then
 		# Fix examples links for post-install location
@@ -33,7 +33,7 @@ python_prepare_all() {
 }
 
 python_install_all() {
-	dohtml doc/*.{css,html}
+	distutils-r1_python_install_all
 
 	if use examples; then
 		insinto /usr/share/doc/${PF}

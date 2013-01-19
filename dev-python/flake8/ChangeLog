@@ -1,7 +1,23 @@
 # ChangeLog for dev-python/flake8
-# Copyright © 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
-# $Header: $
+
+*flake8-1.7.0 (18 Jan 2013)
+
+  18 Jan 2013; James Rowe <jnrowe@gmail.com> +flake8-1.7.0.ebuild:
+  Version bump [717].
+
+  20 Dec 2012; Matt Leighy <mleighy@gmail.com> flake8-1.6.2.ebuild:
+  Use ranges for PYTHON_COMPAT readability.
+
+  15 Dec 2012; James Rowe <jnrowe@gmail.com> flake8-1.6.2.ebuild:
+  Use brace expansion for PYTHON_TARGETS.
+
+  09 Dec 2012; James Rowe <jnrowe@gmail.com> flake8-1.6.2.ebuild:
+  Use distutils-r1's PYTHON_USEDEPs where possible.
+
+  05 Dec 2012; James Rowe <jnrowe@gmail.com> flake8-1.6.2.ebuild:
+  Updated for distutils-r1 usage.
 
 *flake8-1.6.2 (03 Dec 2012)
 

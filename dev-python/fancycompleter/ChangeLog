@@ -1,7 +1,9 @@
 # ChangeLog for dev-python/fancycompleter
 # Copyright © 2011, 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
-# $Header: $
+
+  19 Dec 2012; James Rowe <jnrowe@gmail.com> fancycompleter-0.4.ebuild:
+  Use $PYTHON_USEDEP, where possible.
 
   27 Nov 2012; James Rowe <jnrowe@gmail.com> fancycompleter-0.4.ebuild:
   Supports Python 3.3.

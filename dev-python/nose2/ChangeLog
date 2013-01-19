@@ -1,7 +1,32 @@
 # ChangeLog for dev-python/nose2
-# Copyright © 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
-# $Header: $
+
+*nose2-0.4.5 (18 Jan 2013)
+
+  18 Jan 2013; James Rowe <jnrowe@gmail.com> +nose2-0.4.5.ebuild:
+  Version bump [719].
+
+  07 Jan 2013; James Rowe <jnrowe@gmail.com> nose2-0.4.4.ebuild:
+  Switched to virtual/python-unittest2.
+
+  20 Dec 2012; Matt Leighy <mleighy@gmail.com> nose2-0.4.4.ebuild:
+  Use ranges for PYTHON_COMPAT readability.
+
+  19 Dec 2012; James Rowe <jnrowe@gmail.com> nose2-0.4.4.ebuild:
+  Use $PYTHON_USEDEP, where possible.
+
+  15 Dec 2012; James Rowe <jnrowe@gmail.com> nose2-0.4.4.ebuild:
+  Use brace expansion for PYTHON_TARGETS.
+
+  09 Dec 2012; James Rowe <jnrowe@gmail.com> nose2-0.4.4.ebuild:
+  Use distutils-r1's PYTHON_USEDEPs where possible.
+
+  09 Dec 2012; James Rowe <jnrowe@gmail.com> nose2-0.4.4.ebuild:
+  Switched to virtual/python-argparse [713].
+
+  05 Dec 2012; James Rowe <jnrowe@gmail.com> nose2-0.4.4.ebuild:
+  Updated for distutils-r1 usage.
 
 *nose2-0.4.4 (04 Dec 2012)
 

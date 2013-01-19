@@ -1,13 +1,8 @@
 # Copyright © 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
 EAPI=5
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="2"
-RESTRICT_PYTHON_ABIS="3.*"
-DISTUTILS_SRC_TEST="nosetests"
-PYPI_OLD_DISTUTILS=1
+PYTHON_COMPAT=(python2_{5..7})
 
 inherit jnrowe-pypi
 
@@ -22,10 +17,8 @@ IUSE=""
 DEPEND=""
 RDEPEND="${DEPEND}"
 
-PYTHON_MODNAME="commandlineapp.py"
+HTML_DOCS=(docs/build/html/)
 
-src_install() {
-	distutils_src_install
-
-	dohtml -r docs/build/html/
+python_test() {
+	nosetests || die
 }

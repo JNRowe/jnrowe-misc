@@ -1,6 +1,5 @@
 # Copyright © 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
 
 EAPI=5
 # <2.7 is restricted until the blockdiag ebuild has support

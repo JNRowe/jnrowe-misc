@@ -1,0 +1,17 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Don't install global test packages
+Status: LOCAL
+
+diff --git i/setup.py w/setup.py
+index 9bfe4fa..528ba55 100644
+--- i/setup.py
++++ w/setup.py
+@@ -15,7 +15,7 @@ setup(
+     license = "BSD",
+     keywords = "html2data html data xpath crawler transform",
+     url = "https://github.com/dperezrada/html2data",
+-    packages=['html2data', 'tests'],
++    packages=['html2data', ],
+     long_description=read('README.rst'),
+     include_package_data=True,
+     classifiers=[
