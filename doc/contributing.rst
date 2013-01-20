@@ -12,7 +12,7 @@ characters only causes complex :envvar:`$PN`/:envvar:`$P` rewriting or
 duplication, and as such is ignored in this overlay.
 
 Patches vs :command:`sed`
-'''''''''''''''''''''''''
+-------------------------
 
 It is common practice in Gentoo repositories to fix minor problems using
 :command:`sed`, presumably because it appears to be quick and easy.  This type
