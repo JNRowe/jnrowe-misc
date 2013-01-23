@@ -6,4 +6,4 @@ KEYWORDS=~amd64 ~x86
 RDEPEND=python_targets_python2_5? ( dev-python/importlib[python_targets_python2_5] ) python_targets_python2_6? ( dev-python/importlib[python_targets_python2_6] )
 SLOT=0
 _eclasses_=multilib	ded93e450747134a079e647d888aa80b	python-r1	06fa5dea4f9ae8b978216b9da6620558	python-utils-r1	3ba5c4cb11b8a64d26118d7ac282a208	toolchain-funcs	69a2016af67775a812f4c03ba4b0e03e
-_md5_=61086bef04b18b4aa52e5495be1eac8f
+_md5_=40bd4c5a4c38364a120dbc22a1013be4
