@@ -5,7 +5,7 @@ EAPI=5
 # This version is specifically for Python 2
 PYTHON_COMPAT=(python2_{5..7})
 
-inherit distutils-r1
+inherit distutils-r1 readme.gentoo
 
 DESCRIPTION="maildir processor using Python as its configuration language"
 HOMEPAGE="http://joel.rosdahl.net/maildirproc/"
@@ -39,8 +39,7 @@ python_install_all() {
 	fi
 }
 
-pkg_postinst() {
-	elog "If you wish to take advantage of a specific Python version, or"
-	elog "require a module only available for one python version use the"
-	elog "${PN}-\$python_version wrapper"
+src_install() {
+	distutils-r1_src_install
+	readme.gentoo_src_install
 }

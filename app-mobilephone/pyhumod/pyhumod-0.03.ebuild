@@ -4,7 +4,7 @@
 EAPI=5
 PYTHON_COMPAT=(python2_{5..7})
 
-inherit distutils-r1
+inherit distutils-r1 readme.gentoo
 
 DESCRIPTION="Accessing Huawei modems in Python, including SMS and data calls."
 HOMEPAGE="http://code.google.com/p/${PN}/"
@@ -27,10 +27,7 @@ python_install_all() {
 	doins conf/humod || die "doins failed"
 }
 
-pkg_postinst() {
-	if ! use dbus; then
-		elog "dbus support is required for automatic modem detection.  Either "
-		elog "rebuild with USE=dbus or manually install "
-		elog "dev-python/dbus-python."[${PYTHON_USEDEP}]
-	fi
+src_install() {
+	distutils-r1_src_install
+	readme.gentoo_src_install
 }

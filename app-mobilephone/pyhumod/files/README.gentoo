@@ -1,0 +1,3 @@
+Automatic modem detection
+    dbus support is required for automatic modem detection.  Either rebuild with
+    USE=dbus or manually install dev-python/dbus-python.
