@@ -1,0 +1,20 @@
+Title: This repository is in maintenance mode
+Author: James Rowe <jnrowe@gmail.com>
+Content-Type: text/plain
+Posted: 2013-01-24
+Revision: 1
+News-Item-Format: 1.0
+
+The ``jnrowe-misc`` repository has now entered maintenance mode.
+
+The environments where I use Gentoo have vanished, and are unlikely to
+re-appear at any point in the near future.
+
+I'll continue to maintain the packages in this overlay for as long as
+possible.  I'm no longer adding new packages, and will probably start to
+lag on updates for other less used packages.
+
+.. warning::
+
+   At some point this "maintenance mode" transitions to abandoned, I'll
+   post a final update before that happens.
