@@ -23,11 +23,14 @@ RDEPEND="dev-python/pyserial
 PATCHES=("${FILESDIR}"/${P}-build_fixes.patch)
 
 python_install_all() {
+	distutils-r1_python_install_all
+
 	insinto /etc/ppp/peers/
 	doins conf/humod || die "doins failed"
 }
 
 src_install() {
 	distutils-r1_src_install
+
 	readme.gentoo_src_install
 }
