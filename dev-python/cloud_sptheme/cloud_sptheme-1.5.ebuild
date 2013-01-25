@@ -19,12 +19,16 @@ DEPEND="doc? ( ${RDEPEND} )"
 DOCS="CHANGES README"
 
 python_compile_all() {
+	distutils-r1_python_compile_all
+
 	if use doc; then
 		python ./setup.py build_sphinx || die "build_sphinx failed"
 	fi
 }
 
 python_install_all() {
+	distutils-r1_python_install_all
+
 	if use doc; then
 		dohtml -r build/sphinx/html
 	fi
