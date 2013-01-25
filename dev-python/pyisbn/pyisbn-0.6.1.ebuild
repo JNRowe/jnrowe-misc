@@ -21,6 +21,8 @@ RDEPEND=""
 DOCS=(NEWS.rst README.rst)
 
 python_compile_all() {
+	distutils-r1_python_compile_all
+
 	if use doc; then
 		pushd doc >/dev/null
 		emake html || die "emake html failed"
@@ -29,6 +31,8 @@ python_compile_all() {
 }
 
 python_install_all() {
+	distutils-r1_python_install_all
+
 	if use doc; then
 		dohtml -r doc/.build/html/* || die "dohtml failed"
 	fi
