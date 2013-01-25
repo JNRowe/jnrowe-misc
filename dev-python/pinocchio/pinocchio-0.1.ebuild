@@ -24,6 +24,8 @@ RESTRICT="test"
 DOCS=(IDEAS)
 
 python_install_all() {
+	distutils-r1_python_install_all
+
 	dodoc doc/ChangeLog doc/*.txt || die "dodoc failed"
 	if use doc; then
 		dohtml doc/index.html doc/default.css || die "dohtml failed"
