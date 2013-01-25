@@ -22,6 +22,8 @@ RDEPEND="dev-python/nose
 DOCS=(cuke-comparison.txt todo.txt)
 
 python_install_all() {
+	distutils-r1_python_install_all
+
 	insinto /usr/share/doc/${PF}
 	if use examples; then
 		doins -r examples
