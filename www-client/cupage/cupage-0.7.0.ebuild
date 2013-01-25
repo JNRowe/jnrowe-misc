@@ -32,6 +32,8 @@ PATCHES=("${FILESDIR}"/${P}-fix_distribute_entry_point.patch)
 DOCS=(NEWS.rst README.rst)
 
 python_compile_all() {
+	distutils-r1_python_compile_all
+
 	if use doc; then
 		./setup.py build_sphinx || die "make documentation failed"
 		sphinx-build -b man doc doc/.build/man
