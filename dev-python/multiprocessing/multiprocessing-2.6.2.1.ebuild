@@ -22,6 +22,8 @@ RDEPEND=""
 RESTRICT="test"
 
 python_compile_all() {
+	distutils-r1_python_compile_all
+
 	if use doc; then
 		einfo "Generation of documentation"
 		sphinx-build -b html Doc Doc_build || die "sphinx-build failed"
@@ -29,6 +31,8 @@ python_compile_all() {
 }
 
 python_install_all() {
+	distutils-r1_python_install_all
+
 	if use doc; then
 		docinto html
 		dohtml -r Doc_build/ || die "HTML installation failed"

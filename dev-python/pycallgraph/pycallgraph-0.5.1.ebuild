@@ -19,6 +19,8 @@ DEPEND=""
 RDEPEND="media-gfx/graphviz"
 
 python_install_all() {
+	distutils-r1_python_install_all
+
 	doman man/${PN}.1
 
 	if use examples; then

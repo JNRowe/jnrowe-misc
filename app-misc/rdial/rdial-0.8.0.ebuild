@@ -32,6 +32,8 @@ RDEPEND="dev-python/aaargh[${PYTHON_USEDEP}]
 	dev-python/prettytable"
 
 python_compile_all() {
+	distutils-r1_python_compile_all
+
 	if use doc; then
 		python2 ./setup.py build_sphinx || die "make documentation failed"
 		python2 /usr/bin/sphinx-build -b man doc doc/.build/man \
@@ -44,6 +46,8 @@ python_test() {
 }
 
 python_install_all() {
+	distutils-r1_python_install_all
+
 	dodoc doc/*.rst || die "dodoc failed"
 	if use doc; then
 		dohtml -r doc/.build/html/* || die "dohtml failed"

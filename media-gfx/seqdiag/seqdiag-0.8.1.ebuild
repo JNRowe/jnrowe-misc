@@ -27,6 +27,8 @@ RDEPEND="${DEPEND}
 DOCS=(src/README.txt src/TODO.txt)
 
 python_install_all() {
+	distutils-r1_python_install_all
+
 	doman ${PN}.1
 	insinto /usr/share/doc/${PF}
 	if use examples ; then

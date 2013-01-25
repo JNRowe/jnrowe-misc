@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  25 Jan 2013; James Rowe <jnrowe@gmail.com> hubugs-0.15.0.ebuild:
+  Call original distutils-r1 function when overriding.
+
   19 Dec 2012; James Rowe <jnrowe@gmail.com> hubugs-0.15.0.ebuild:
   Use python_compile_all instead of overriding src_compile.
 

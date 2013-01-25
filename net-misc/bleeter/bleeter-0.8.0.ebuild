@@ -46,6 +46,8 @@ src_unpack() {
 }
 
 python_compile_all() {
+	distutils-r1_python_compile_all
+
 	rst2man.py doc/${PN}.1.rst doc/${PN}.1 || die "rst2man.py failed"
 	if use doc; then
 		cd doc
@@ -54,6 +56,8 @@ python_compile_all() {
 }
 
 python_install_all() {
+	distutils-r1_python_install_all
+
 	dodoc doc/*.rst || die "dodoc failed"
 	doman doc/${PN}.1 || die "doman failed"
 	if use doc; then
