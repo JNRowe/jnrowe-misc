@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  25 Jan 2013; James Rowe <jnrowe@gmail.com> Benchmarker-3.0.1.ebuild:
+  Call original distutils-r1 function when overriding.
+
   20 Dec 2012; Matt Leighy <mleighy@gmail.com> Benchmarker-3.0.1.ebuild:
   Use ranges for PYTHON_COMPAT readability.
 
