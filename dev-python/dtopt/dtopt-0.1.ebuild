@@ -17,5 +17,7 @@ DEPEND=""
 RDEPEND=""
 
 python_install_all() {
+	distutils-r1_python_install_all
+
 	newdoc docs/index.txt README.rst
 }
