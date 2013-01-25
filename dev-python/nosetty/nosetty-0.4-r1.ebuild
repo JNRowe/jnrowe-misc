@@ -24,6 +24,8 @@ DOCS=(CHANGELOG.txt README.txt)
 PATCHES=("${FILESDIR}"/${P}-build_fixes.patch)
 
 python_install_all() {
+	distutils-r1_python_install_all
+
 	insinto /usr/share/doc/${PF}
 	if use examples; then
 		doins -r examples
