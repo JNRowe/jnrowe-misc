@@ -517,7 +517,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2013-01-29), ``~x86`` (due 2013-03-15)
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2013-03-30), ``~x86`` (due 2013-03-15)
 
 * ``schematics`` - http://pypi.python.org/pypi/schematics/
 
