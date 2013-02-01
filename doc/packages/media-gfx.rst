@@ -32,7 +32,7 @@
  * Versions:
 
   * `0.3.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.3.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.4.1.ebuild>`__  ``amd64``, ``~x86`` (due 2013-02-01)
+  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.4.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``blockdiag`` - http://pypi.python.org/pypi/blockdiag/
 
@@ -41,7 +41,7 @@
  * Versions:
 
   * `1.1.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.1.8.ebuild>`__  ``amd64``, ``x86``
-  * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.2.4.ebuild>`__  ``amd64``, ``~x86`` (due 2013-02-01)
+  * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.2.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``gruffy`` - http://pypi.python.org/pypi/gruffy/
 
