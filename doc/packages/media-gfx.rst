@@ -43,7 +43,7 @@
  * Versions:
 
   * `0.8.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.8.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.9.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.9.2.ebuild>`__  ``amd64``, ``~x86`` (due 2013-02-02)
+  * `0.9.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.9.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``seqdiag`` - http://pypi.python.org/pypi/seqdiag/
 
@@ -52,7 +52,7 @@
  * Versions:
 
   * `0.7.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.7.5.ebuild>`__  ``amd64``, ``x86``
-  * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.8.1.ebuild>`__  ``amd64``, ``~x86`` (due 2013-02-02)
+  * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.8.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``sphinxcontrib-aafig`` - http://packages.python.org/sphinxcontrib-aafig/
 
