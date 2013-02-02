@@ -23,6 +23,6 @@ RDEPEND="sys-apps/miscfiles"
 S="${WORKDIR}"/${PN}
 
 pkg_postinst() {
-	einfo "Be aware that many of the password quality checks assume US"
-	einfo "keyboards, and will pass obvious passwords on other layouts."
+	ewarn "Be aware that many of the password quality checks assume US"
+	ewarn "keyboards, and will pass obvious passwords on other layouts."
 }
