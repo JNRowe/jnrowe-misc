@@ -231,7 +231,7 @@ culled.
     a version with matching keywords is available upstream.
 
 :Reason: Moved to ``::shadow``
-:Commit: :commit:`f8628c6 <f8628c6ff1af9522f154c7c04edcab727b58201d>``
+:Commit: :commit:`f8628c6 <f8628c6ff1af9522f154c7c04edcab727b58201d>`
 :Removal date: 2012-07-20
 :Issues: :issue:`639`
 
