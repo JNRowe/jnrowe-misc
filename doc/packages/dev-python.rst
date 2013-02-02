@@ -598,7 +598,7 @@
  * Versions:
 
   * `1.0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-1.0.6.ebuild>`__  ``amd64``, ``x86``
-  * `1.1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-1.1.4.ebuild>`__  ``amd64``, ``~x86`` (due 2013-02-02)
+  * `1.1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-1.1.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/
 
