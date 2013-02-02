@@ -1,0 +1,30 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Fix examples links for post-install location
+Status: LOCAL
+
+diff --git i/doc/index.html w/doc/index.html
+index 84e9e21..050e2dc 100644
+--- i/doc/index.html
++++ w/doc/index.html
+@@ -118,7 +118,7 @@ you like it, you are welcome to use (or improve) it too.</p>
+ 
+ <h2>Examples</h2>
+ 
+-<p>See the <a href="examples/">examples</a> directory.</p>
++<p>See the <a href="../examples/">examples</a> directory.</p>
+ 
+ <h2>Installation</h2>
+ 
+diff --git i/doc/reference.html w/doc/reference.html
+index 0132910..a308c7b 100644
+--- i/doc/reference.html
++++ w/doc/reference.html
+@@ -12,7 +12,7 @@
+ 
+ <h2>Examples</h2>
+ 
+-<p>For some examples, see the <a href="examples/">examples</a> directory.</p>
++<p>For some examples, see the <a href="../examples/">examples</a> directory.</p>
+ 
+ <h2>Default behaviour</h2>
+ 

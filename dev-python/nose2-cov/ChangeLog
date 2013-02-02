@@ -1,6 +1,11 @@
 # ChangeLog for dev-python/nose2-cov
-# Copyright © 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
+
+  19 Jan 2013; James Rowe <jnrowe@gmail.com> nose2-cov-1.0_alpha4.ebuild:
+  Drop stable keywords and disable PYTHON_USEDEP on cov-core.  Nasty hack to
+  workaround poorly spec'd upstream cov-core ebuild, this is why ::shadow should
+  be a strict dependency for this repository.
 
   20 Dec 2012; Matt Leighy <mleighy@gmail.com> nose2-cov-1.0_alpha4.ebuild:
   Use ranges for PYTHON_COMPAT readability.

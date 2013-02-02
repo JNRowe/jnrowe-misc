@@ -1,0 +1,46 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Build fixes
+Status: LOCAL
+
+diff --git i/Makefile.in w/Makefile.in
+index 56b76bc..562177d 100644
+--- i/Makefile.in
++++ w/Makefile.in
+@@ -96,7 +96,7 @@ compile_config: $(CO_OBJECTS)
+ 	./compile_config $< >$@
+ 
+ uncompress.so: $(OBJECTS) 
+-	$(CC) -o $@ $(CFLAGS) $(SHAREDCFLAGS) $(OBJECTS) $(LIBS) -lc
++	$(CC) -o $@ $(CFLAGS) $(SHAREDCFLAGS) $(OBJECTS) $(LDFLAGS) $(LIBS) -lc
+ 
+ aix-uncompress.so: $(OBJECTS) aix-syscall.shr.o
+ 	$(CC) -o $@ $(CFLAGS) $(SHAREDCFLAGS) $(OBJECTS) -lc $(AIXLDFAGS)
+diff --git i/configure.in w/configure.in
+index ef462de..7118b66 100644
+--- i/configure.in
++++ w/configure.in
+@@ -179,24 +179,6 @@ fi
+ 
+ my_host_os=`echo $host_os1 $host_os2 $host_os3 | sort -u`
+ objs=`echo $srcdir/*.c | sed 's/\.c$/.o/' `
+-if [ "X$GCC" = "Xyes" ] ; then
+-
+-    CFLAGS="$CFLAGS -O4"
+-    if [ "$host_cpu" = i486 ] ; then
+-	    CFLAGS="$CFLAGS -m486"
+-    fi
+-    Wall=-Wall
+-    if [ "$host_os3" = sunos ] ; then
+-	    Wall=""
+-    fi
+-    if [ "$host_os3" = ultrix ] ; then
+-	    Wall=""
+-    fi
+-    if [ "$host_os3" = linux ] ; then
+-	    CFLAGS="$CFLAGS -fno-strength-reduce"
+-    fi
+-    CFLAGS="$CFLAGS $Wall"
+-fi
+ 
+ if [ $host_vendor = linux ] ; then
+     CFLAGS="$CFLAGS -DUSE_XDF"

@@ -1,4 +1,4 @@
-# Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -22,6 +22,8 @@ RDEPEND=""
 RESTRICT="test"
 
 python_compile_all() {
+	distutils-r1_python_compile_all
+
 	if use doc; then
 		einfo "Generation of documentation"
 		sphinx-build -b html Doc Doc_build || die "sphinx-build failed"
@@ -29,6 +31,8 @@ python_compile_all() {
 }
 
 python_install_all() {
+	distutils-r1_python_install_all
+
 	if use doc; then
 		docinto html
 		dohtml -r Doc_build/ || die "HTML installation failed"

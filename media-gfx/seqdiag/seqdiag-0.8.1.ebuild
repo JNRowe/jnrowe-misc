@@ -1,4 +1,4 @@
-# Copyright © 2012, 2013  James Rowe <jnrowe@gmail.com>
+# Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -12,7 +12,7 @@ DESCRIPTION="Generate sequence-diagram image files from spec-text files"
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="examples minimal"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
@@ -27,6 +27,8 @@ RDEPEND="${DEPEND}
 DOCS=(src/README.txt src/TODO.txt)
 
 python_install_all() {
+	distutils-r1_python_install_all
+
 	doman ${PN}.1
 	insinto /usr/share/doc/${PF}
 	if use examples ; then

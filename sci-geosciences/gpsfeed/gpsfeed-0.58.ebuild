@@ -1,7 +1,9 @@
-# Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
+
+inherit base
 
 DESCRIPTION="A utility that generates continuous GPS data for running tests"
 HOMEPAGE="http://users.hol.gr/~dzach/${PN}/index.html"
@@ -12,15 +14,19 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""
 
-DEPEND=""
+DEPEND="app-text/dos2unix"
 RDEPEND="${DEPEND}
 	dev-lang/tk
 	dev-tcltk/tcludp"
 
 S="${WORKDIR}"
 
+PATCHES=("${FILESDIR}"/${P}-build_fixes.patch)
+
 src_prepare() {
-	sed -i -e 's,\r$,,' -e 's,wish8.4,wish,' gpsfeed+.tcl
+	base_src_prepare
+
+	dos2unix gpsfeed+.tcl
 }
 
 src_install() {

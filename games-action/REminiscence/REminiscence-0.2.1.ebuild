@@ -1,4 +1,4 @@
-# Copyright © 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -17,14 +17,7 @@ IUSE=""
 DEPEND="media-libs/libsdl[audio,joystick,video]"
 RDEPEND="${DEPEND}"
 
-src_prepare() {
-	# Include user's CXXFLAGS
-	sed -i 's,CXXFLAGS:=,CXXFLAGS+=,' Makefile
-
-	epatch "${FILESDIR}"/${P}-data_paths.patch
-	# Fix location of data.
-	sed -i "s,GAMES_DATADIR,${GAMES_DATADIR}/${PN}," main.cpp
-}
+PATCHES=("${FILESDIR}"/${P}-data_paths.patch)
 
 src_compile() {
 	emake CXX="$(tc-getCXX)" || die "emake failed"
