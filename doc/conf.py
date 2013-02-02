@@ -28,7 +28,7 @@ import os
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = \
     ["sphinx.ext.%s" % ext for ext in ['extlinks', 'intersphinx', ]] + \
-    ["sphinxcontrib.%s" % ext for ext in ['cheeseshop', 'issuetracker', ]]
+    ["sphinxcontrib.%s" % ext for ext in ['cheeseshop', ]]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['.templates']
@@ -226,9 +226,7 @@ intersphinx_mapping = {
     'python': ('http://docs.python.org/', os.getenv('SPHINX_PYTHON_OBJECTS'))
 }
 
-issuetracker = 'github'
-issuetracker_project = 'JNRowe/jnrowe-misc'
-
 extlinks = {
     'commit': ('https://github.com/JNRowe/jnrowe-misc/commit/%s', ''),
+    'issue': ('https://github.com/JNRowe/jnrowe-misc/issues/%s', 'GitHub #'),
 }
