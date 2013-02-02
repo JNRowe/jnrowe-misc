@@ -2,6 +2,9 @@
 # Copyright © 2012  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  02 Feb 2013; James Rowe <jnrowe@gmail.com> nose2-0.4.4.ebuild:
+  Keyworded x86.
+
   20 Dec 2012; Matt Leighy <mleighy@gmail.com> nose2-0.4.4.ebuild:
   Use ranges for PYTHON_COMPAT readability.
 
