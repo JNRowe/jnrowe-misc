@@ -1,0 +1,3 @@
+USE minimal support
+	This package installs a sphinx plugin, to make use of it you must install
+	sphinx or disable USE=minimal to have it installed automatically.
