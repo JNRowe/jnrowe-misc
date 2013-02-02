@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  02 Feb 2013; James Rowe <jnrowe@gmail.com> nose2-0.4.4.ebuild:
+  Keyworded x86.
+
   25 Jan 2013; James Rowe <jnrowe@gmail.com> nose2-0.4.4.ebuild,
   nose2-0.4.5.ebuild:
   Call original distutils-r1 function when overriding.
