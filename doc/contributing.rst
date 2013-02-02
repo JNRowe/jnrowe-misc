@@ -121,18 +121,54 @@ file.
 A simple, but important, extension that makes it easier to keep on top of
 important admin tasks.
 
-:file:`distutils.eclass` usage
-------------------------------
+:file:`distutils-r1.eclass` usage
+----------------------------------
 
-When using the ``RESTRICTED_PYTHON_ABIS`` functionality from
-:file:`distutils.eclass` it is important to state the reason why a certain
-Python version is restricted.
+When using the ``PYTHON_COMPAT`` functionality from :file:`distutils-r1.eclass`
+it is important to state the reason why a certain Python version isn't
+supported.
 
 This should, in theory, make it easier to track updates.  Also, it should make
 it immediately clear how much work is required to support a specific Python
 version if the need arises.
 
 A simple example from the ``ebuild`` for rad_ would be:
+
+.. code-block:: bash
+
+    # 2.5 is restricted due to except...as syntax
+    # 3.x is restricted due to print command
+    PYTHON_COMPAT=(python2_{6,7})
+
+You should feel free to use nested brace expansion and sequence expressions in
+the ``PYTHON_COMPAT`` declaration, it makes for far more readable definitions
+than either of the methods preferred upstream.  Compare upstream's
+``colorama`` package::
+
+    PYTHON_COMPAT=( python2_5 python2_6 python2_7 python3_1 python3_2 )
+
+or upstream's ``pep8`` package where brace expansion is used::
+
+    PYTHON_COMPAT=( python{2_5,2_6,2_7,3_1,3_2,3_3} )
+
+with the preferred style for this overlay using ``flake8`` as an example::
+
+    PYTHON_COMPAT=(python{2_{5..7},3_{1..3}})
+
+:file:`distutils.eclass` usage
+------------------------------
+
+.. important::
+
+   At this point you should not be using :file:`distutils.eclass` for ebuilds,
+   use :file:`distutils-r1` for all new packages and upgrade packages when
+   bumpiing.
+
+When using the ``RESTRICTED_PYTHON_ABIS`` functionality from
+:file:`distutils.eclass` it is important to state the reason why a certain
+Python version is restricted.  See `distutils-r1` for more information.
+
+A simple example from an old ``ebuild`` for rad_ would be:
 
 .. code-block:: bash
 
