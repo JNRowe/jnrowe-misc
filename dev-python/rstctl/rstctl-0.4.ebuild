@@ -18,7 +18,7 @@ DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 # setuptools needed in RDEPEND for wrapper scripts
 RDEPEND="${DEPEND}
 	dev-python/beaker
-	dev-python/docutils
+	dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/mako
 	dev-python/pastescript
-	dev-python/sphinx"
+	dev-python/sphinx[${PYTHON_USEDEP}]"

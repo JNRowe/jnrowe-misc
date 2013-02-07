@@ -20,8 +20,8 @@ DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="${DEPEND}
 	>=media-gfx/blockdiag-1.2.0[${PYTHON_USEDEP}]
 	!minimal? (
-		dev-python/docutils
-		dev-python/sphinx
+		dev-python/docutils[${PYTHON_USEDEP}]
+		dev-python/sphinx[${PYTHON_USEDEP}]
 	)"
 
 DOCS=(src/README.txt src/TODO.txt)

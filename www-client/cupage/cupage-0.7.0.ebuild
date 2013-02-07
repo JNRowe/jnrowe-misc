@@ -16,10 +16,10 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="doc"
 
-DEPEND="dev-python/docutils
+DEPEND="dev-python/docutils[${PYTHON_USEDEP}]
 	doc? (
 		dev-python/cloud_sptheme[${PYTHON_USEDEP}]
-		dev-python/sphinx
+		dev-python/sphinx[${PYTHON_USEDEP}]
 		media-gfx/sphinxcontrib-blockdiag
 	)"
 RDEPEND="dev-python/blessings[${PYTHON_USEDEP}]

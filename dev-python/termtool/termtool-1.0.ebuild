@@ -13,10 +13,10 @@ DESCRIPTION="Declarative terminal tool programming"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="doc"
 
-DEPEND="doc? ( dev-python/sphinx )"
+DEPEND="doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 RDEPEND="virtual/python-argparse[${PYTHON_USEDEP}]
 	dev-python/prettytable
 	dev-python/progressbar"

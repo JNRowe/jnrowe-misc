@@ -18,7 +18,7 @@ SRC_URI="${SRC_URI}
 
 LICENSE="GPL-3+ doc? ( public-domain )"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="doc minimal"
 
 RDEPEND="dev-python/configobj
@@ -30,8 +30,8 @@ RDEPEND="dev-python/configobj
 		dev-python/setproctitle
 	)"
 DEPEND="${RDEPEND}
-	dev-python/docutils
-	doc? ( dev-python/sphinx )"
+	dev-python/docutils[${PYTHON_USEDEP}]
+	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 
 src_unpack() {
 	default
