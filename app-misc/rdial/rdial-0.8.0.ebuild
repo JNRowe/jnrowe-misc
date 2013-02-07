@@ -17,7 +17,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc test"
 
 DEPEND="doc? (
-		dev-python/sphinx
+		dev-python/sphinx[${PYTHON_USEDEP}]
 		dev-python/sphinxcontrib-cheeseshop
 	)
 	test? (
