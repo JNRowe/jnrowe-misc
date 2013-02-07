@@ -30,8 +30,8 @@ RDEPEND="dev-python/configobj
 		dev-python/setproctitle
 	)"
 DEPEND="${RDEPEND}
-	dev-python/docutils
-	doc? ( dev-python/sphinx )"
+	dev-python/docutils[${PYTHON_USEDEP}]
+	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 
 src_unpack() {
 	default
