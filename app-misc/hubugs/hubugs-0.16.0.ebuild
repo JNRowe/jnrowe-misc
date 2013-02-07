@@ -20,7 +20,7 @@ CDEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 DEPEND="${CDEPEND}
 	doc? (
 		dev-python/cloud_sptheme[${PYTHON_USEDEP}]
-		dev-python/sphinx
+		dev-python/sphinx[${PYTHON_USEDEP}]
 		dev-python/sphinxcontrib-cheeseshop[${PYTHON_USEDEP}]
 	)
 	test? (
