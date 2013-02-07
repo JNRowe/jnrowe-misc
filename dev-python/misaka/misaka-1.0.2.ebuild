@@ -13,8 +13,8 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="doc"
 
-DEPEND="dev-python/setuptools
-	doc? ( dev-python/sphinx )"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
+	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 RDEPEND=""
 
 # Include the benchmarking suite's test file, as it is a useful doc for writing
