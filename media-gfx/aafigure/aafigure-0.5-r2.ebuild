@@ -18,7 +18,7 @@ IUSE="doc docutils examples pdf"
 # setuptools is needed in RDEPEND because it installs a setuptools-based plugin
 # for docutils
 RDEPEND="dev-python/imaging
-	docutils? ( >=dev-python/docutils-0.5 dev-python/setuptools )
+	docutils? ( dev-python/docutils[${PYTHON_USEDEP}] dev-python/setuptools[${PYTHON_USEDEP}] )
 	pdf? ( dev-python/reportlab )"
 RDEPEND="${RDEPEND}
 	doc? ( media-gfx/sphinxcontrib-aafig[${PYTHON_USEDEP}] )"
