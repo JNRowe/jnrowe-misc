@@ -18,6 +18,6 @@ IUSE="pdf"
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 # Setuptools is needed in RDEPEND for package namespacing.
 RDEPEND="${DEPEND}
-	dev-python/sphinx
+	dev-python/sphinx[${PYTHON_USEDEP}]
 	media-gfx/mscgen
 	pdf? ( dev-texlive/texlive-fontutils )"
