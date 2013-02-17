@@ -120,8 +120,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.5.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.6.ebuild>`__  ``~amd64`` (due 2013-02-17), ``x86``
+  * `0.2.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.6.ebuild>`__  ``amd64``, ``x86``
 
 * ``doctest-tools`` - http://code.google.com/p/doctest-tools/
 
@@ -177,8 +176,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.6.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.6.2.ebuild>`__  ``amd64``, ``x86``
-  * `1.7.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.7.0.ebuild>`__  ``~amd64`` (due 2013-02-17), ``x86``
+  * `1.7.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.7.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``freshen`` - https://github.com/rlisagor/freshen
 
@@ -210,8 +208,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `0.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/genzshcomp/genzshcomp-0.3.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/genzshcomp/genzshcomp-0.5.ebuild>`__  ``~amd64`` (due 2013-02-17), ``x86``
+  * `0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/genzshcomp/genzshcomp-0.5.ebuild>`__  ``amd64``, ``x86``
 
 * ``gpxdata`` - http://www.kette-links.de/technik/
 
@@ -251,9 +248,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.5.ebuild>`__  ``~amd64`` (due 2013-02-17), ``x86``
+  * `0.5.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.5.ebuild>`__  ``amd64``, ``x86``
 
 * ``importlib`` - http://pypi.python.org/pypi/importlib/
 
@@ -342,8 +337,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-progressive/nose-progressive-1.3.ebuild>`__  ``amd64``, ``x86``
-  * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-progressive/nose-progressive-1.4.ebuild>`__  ``~amd64`` (due 2013-02-17), ``x86``
+  * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-progressive/nose-progressive-1.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``nose2`` - http://pypi.python.org/pypi/nose2/
 
@@ -351,8 +345,7 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.4.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.5.ebuild>`__  ``~amd64`` (due 2013-02-17), ``x86``
+  * `0.4.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.5.ebuild>`__  ``amd64``, ``x86``
 
 * ``nose2-cov`` - http://pypi.python.org/pypi/nose2-cov/
 
@@ -472,8 +465,7 @@
  * Licence: ``GPL-3+``
  * Versions:
 
-  * `0.6.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyisbn/pyisbn-0.6.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyisbn/pyisbn-0.6.1.ebuild>`__  ``~amd64`` (due 2013-02-17), ``x86``
+  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyisbn/pyisbn-0.6.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``pyrepl`` - http://pypi.python.org/pypi/pyrepl/
 
