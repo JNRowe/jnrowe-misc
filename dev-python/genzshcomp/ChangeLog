@@ -3,6 +3,9 @@
 # Distributed under the GPL v2
 
   17 Feb 2013; James Rowe <jnrowe@gmail.com> genzshcomp-0.5.ebuild:
+  Use distutils-r1.
+
+  17 Feb 2013; James Rowe <jnrowe@gmail.com> genzshcomp-0.5.ebuild:
   Keyworded x86.
 
   20 Dec 2012; Matt Leighy <mleighy@gmail.com> genzshcomp-0.3.1.ebuild:
