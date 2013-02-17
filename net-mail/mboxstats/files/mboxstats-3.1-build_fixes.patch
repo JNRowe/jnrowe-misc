@@ -1,0 +1,21 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Build fixes
+Status: LOCAL
+
+diff --git i/Makefile w/Makefile
+index fe87d5f..b3590b6 100644
+--- i/Makefile
++++ w/Makefile
+@@ -1,9 +1,9 @@
+ VERSION=3.1
+ 
+-DEBUG=-g # -pg
++DEBUG= # -pg
+ 
+-CXXFLAGS+=-Wall -O2 -DVERSION=\"$(VERSION)\" $(DEBUG)
+-CFLAGS+=-Wall -O2 -DVERSION=\"$(VERSION)\" $(DEBUG)
++CXXFLAGS+=-Wall  -DVERSION=\"$(VERSION)\" $(DEBUG)
++CFLAGS+=-Wall  -DVERSION=\"$(VERSION)\" $(DEBUG)
+ LDFLAGS+=-lm -lstdc++ $(DEBUG)
+ 
+ OBJS=array.o funcs.o main.o io.o mem.o val.o br.o

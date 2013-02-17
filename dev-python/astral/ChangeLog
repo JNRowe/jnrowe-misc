@@ -1,6 +1,11 @@
 # ChangeLog for dev-python/astral
-# Copyright © 2009, 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
+
+*astral-0.7 (23 Jan 2013)
+
+  23 Jan 2013; James Rowe <jnrowe@gmail.com> +astral-0.7.ebuild:
+  Version bump [731].
 
   20 Dec 2012; Matt Leighy <mleighy@gmail.com> astral-0.6.2.ebuild:
   Use ranges for PYTHON_COMPAT readability.

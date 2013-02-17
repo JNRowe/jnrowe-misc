@@ -1,6 +1,22 @@
 ``media-gfx``
 -------------
 
+* ``Graph-Easy`` - http://search.cpan.org/dist/Graph-Easy/
+
+ * Render/convert graphs in/from various formats
+ * Licence: ``GPL-2``
+ * Versions:
+
+  * `0.72 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/Graph-Easy/Graph-Easy-0.72.ebuild>`__  ``~amd64`` (due 2013-02-18), ``~x86`` (due 2013-02-17)
+
+* ``Graph-Easy-As_svg`` - http://search.cpan.org/dist/Graph-Easy-As_svg/
+
+ * Graph::Easy output as Scalable Vector Graphics (SVG)
+ * Licence: ``GPL-2``
+ * Versions:
+
+  * `0.23 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/Graph-Easy-As_svg/Graph-Easy-As_svg-0.23.ebuild>`__  ``~amd64`` (due 2013-02-18), ``~x86`` (due 2013-02-17)
+
 * ``aafigure`` - https://launchpad.net/aafigure
 
  * ASCII art figures parsed and output as SVG, PNG, and more
@@ -35,6 +51,7 @@
 
   * `0.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/gruffy/gruffy-0.3.1.ebuild>`__  ``amd64``, ``x86``
   * `0.3.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/gruffy/gruffy-0.3.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.3.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/gruffy/gruffy-0.3.3.ebuild>`__  ``~amd64`` (due 2013-02-22), ``~x86`` (due 2013-02-22)
 
 * ``nwdiag`` - http://pypi.python.org/pypi/nwdiag/
 
@@ -44,6 +61,7 @@
 
   * `0.8.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.8.2.ebuild>`__  ``amd64``, ``x86``
   * `0.9.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.9.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.9.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.9.4.ebuild>`__  ``~amd64`` (due 2013-02-17), ``~x86`` (due 2013-02-17)
 
 * ``seqdiag`` - http://pypi.python.org/pypi/seqdiag/
 

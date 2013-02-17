@@ -1,4 +1,4 @@
-# Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -18,7 +18,7 @@ DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 # setuptools needed in RDEPEND for wrapper scripts
 RDEPEND="${DEPEND}
 	dev-python/beaker
-	dev-python/docutils
+	dev-python/docutils[${PYTHON_USEDEP}]
 	dev-python/mako
 	dev-python/pastescript
-	dev-python/sphinx"
+	dev-python/sphinx[${PYTHON_USEDEP}]"

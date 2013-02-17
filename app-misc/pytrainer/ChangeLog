@@ -1,6 +1,9 @@
 # ChangeLog for app-misc/pytrainer
-# Copyright © 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
+
+  09 Jan 2013; James Rowe <jnrowe@gmail.com> pytrainer-1.9.1.ebuild:
+  Keyworded amd64.
 
   15 Dec 2012; James Rowe <jnrowe@gmail.com> pytrainer-1.9.1.ebuild:
   Use brace expansion for PYTHON_TARGETS.

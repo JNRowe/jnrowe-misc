@@ -8,11 +8,19 @@
 ``jnrowe-misc`` - Gentoo overlay
 =================================
 
-.. note::
+.. important::
 
-   This repository is heading in to maintenance mode.  The environments where
-   I can use Gentoo are dwindling, and at some point they will cease to exist.
-   No planned date yet, but it will come. [#]_
+    The ``jnrowe-misc`` repository has now entered maintenance mode.
+
+    The environments where I use Gentoo have vanished, and are unlikely to
+    re-appear at any point in the near future. [#]_
+
+    I'll continue to maintain the packages in this overlay for as long as
+    possible.  I'm no longer adding new packages, and will probably start to lag
+    on updates for other less used packages.
+
+    At some point this "maintenance mode" transitions to abandoned, I'll post
+    a final update before that happens.
 
 ``jnrowe-misc`` is for packages that don't naturally fit in to one of my other
 themed overlays.  You'll find a large selection of Python_ packages, some tools

@@ -1,9 +1,14 @@
 # ChangeLog for dev-python/lettuce
-# Copyright © 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
+# Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
   02 Feb 2013; James Rowe <jnrowe@gmail.com> lettuce-0.2.11.ebuild:
   Keyworded x86.
+
+*lettuce-0.2.12 (23 Jan 2013)
+
+  23 Jan 2013; James Rowe <jnrowe@gmail.com> +lettuce-0.2.12.ebuild:
+  Version bump [730].
 
   03 Jan 2013; James Rowe <jnrowe@gmail.com> lettuce-0.2.11.ebuild:
   Keyworded amd64.

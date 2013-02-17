@@ -1,4 +1,4 @@
-# Copyright © 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -15,14 +15,14 @@ SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-2+"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE="import elevation"
 
 DEPEND=""
 RDEPEND="${DEPEND}
 	dev-libs/libxml2[python]
 	dev-libs/libxslt[python]
-	dev-python/lxml[${PYTHON_USEDEP}]
+	dev-python/lxml
 	dev-python/matplotlib
 	dev-python/pygtk
 	dev-python/python-dateutil

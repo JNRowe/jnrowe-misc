@@ -1,4 +1,4 @@
-# Copyright © 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -8,7 +8,7 @@ EAPI=5
 PYPI_OLD_DISTUTILS_NG=1
 PYTHON_COMPAT="python2_7"
 
-inherit jnrowe-pypi
+inherit jnrowe-pypi readme.gentoo
 
 DESCRIPTION="Generate activity-diagram image file from spec-text file"
 
@@ -27,9 +27,14 @@ python_install_all() {
 	doman ${PN}.1
 }
 
+src_install() {
+	default
+
+	distutils_src_install
+
+	use minimal && readme.gentoo_create_doc
+}
+
 pkg_postinst() {
-	if use minimal && ! has_version dev-python/sphinx; then
-		einfo "${PN} installs a sphinx plugin, to make use of it you must"
-		einfo "install sphinx."
-	fi
+	use minimal && readme.gentoo_print_elog
 }

@@ -1,4 +1,4 @@
-# Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -18,7 +18,7 @@ IUSE=""
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 # Setuptools is needed in RDEPEND for package namespacing.
 RDEPEND="${DEPEND}
-	dev-python/sphinx
+	dev-python/sphinx[${PYTHON_USEDEP}]
 	media-gfx/gruffy[${PYTHON_USEDEP}]"
 
 python_prepare_all() {

@@ -1,12 +1,24 @@
 # ChangeLog for dev-python/pyisbn
-# Copyright © 2009, 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
+
+  07 Feb 2013; James Rowe <jnrowe@gmail.com> pyisbn-0.6.0.ebuild:
+  Use $PYTHON_USEDEP, where possible.
+
+  25 Jan 2013; James Rowe <jnrowe@gmail.com> pyisbn-0.6.0.ebuild,
+  pyisbn-0.6.1.ebuild:
+  Call original distutils-r1 function when overriding.
 
   20 Dec 2012; Matt Leighy <mleighy@gmail.com> pyisbn-0.6.0.ebuild:
   Use ranges for PYTHON_COMPAT readability.
 
   19 Dec 2012; James Rowe <jnrowe@gmail.com> pyisbn-0.6.0.ebuild:
   Updated for distutils-r1 usage.
+
+*pyisbn-0.6.1 (18 Jan 2013)
+
+  18 Jan 2013; James Rowe <jnrowe@gmail.com> +pyisbn-0.6.1.ebuild:
+  Version bump [721].
 
   27 Nov 2012; James Rowe <jnrowe@gmail.com> pyisbn-0.6.0.ebuild:
   Supports Python 3.3.

@@ -1,0 +1,4 @@
+Python versions
+    If you wish to take advantage of a specific Python version, or require
+    a module only available for one python version use the
+    maildirproc-$python_version wrapper

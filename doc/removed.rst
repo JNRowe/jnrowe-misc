@@ -231,9 +231,9 @@ culled.
     a version with matching keywords is available upstream.
 
 :Reason: Moved to ``::shadow``
-:Commit: :commit:`f8628c6 <f8628c6ff1af9522f154c7c04edcab727b58201d>``
+:Commit: :commit:`f8628c6 <f8628c6ff1af9522f154c7c04edcab727b58201d>`
 :Removal date: 2012-07-20
-:Issues: :issue:`{issue.title} (#{issue.id}) <639>`
+:Issues: :issue:`639`
 
 ``gevent``
 ''''''''''
@@ -274,7 +274,7 @@ culled.
 :Reason: Moved to ``::shadow``
 :Commit: :commit:`fc7d12f8 <fc7d12f8a451ed83dfecdb6976a3800c3fbb148b>`
 :Removal date: 2012-02-26
-:Issues: :issue:`{issue.title} (#{issue.id}) <551>`
+:Issues: :issue:`551`
 
 ``git-python``
 ''''''''''''''
@@ -296,7 +296,7 @@ culled.
 :Reason: Moved to ``::shadow``
 :Commit: :commit:`d639d9f5 <d639d9f5882a75f092f82c53c07438c2c61558fb>`
 :Removal date: 2012-05-30
-:Issues: :issue:`{issue.title} (#{issue.id}) <613>`
+:Issues: :issue:`613`
 
 ``logbook``
 '''''''''''
@@ -345,7 +345,7 @@ culled.
 :Reason: Moved to ``::shadow``
 :Commit: :commit:`b27b6de2 <b27b6de2a2586b7809939732f5d65886e64b588f>`
 :Removal date: 2012-07-31
-:Issues: :issue:`{issue.title} (#{issue.id}) <643>`
+:Issues: :issue:`643`
 
 ``python-gnupg``
 ''''''''''''''''
@@ -419,7 +419,7 @@ culled.
 :Reason: Moved to ``::shadow``
 :Commit: :commit:`dafa80f2 <dafa80f2ddfaad1e2fb4a7aec6aa2ede8a2b5152>`
 :Removal date: 2012-05-31
-:Issues: :issue:`{issue.title} (#{issue.id}) <614>`
+:Issues: :issue:`614`
 
 ``sphinx-to-github``
 ''''''''''''''''''''
@@ -634,7 +634,7 @@ culled.
 :Reason: Culled
 :Commit: :commit:`39fc52f8 <39fc52f8ff06e8a87c905f666fe73535fb8fe05a>`
 :Removal date: 2011-02-26
-:Issues: :issue:`{issue.title} (#{issue.id}) <141>`
+:Issues: :issue:`141`
 
 ``sng``
 '''''''
@@ -654,7 +654,7 @@ culled.
 :Reason: Culled
 :Commit: :commit:`523c0450 <523c04503755e308d1384cebe3bf4403dec5aa51>`
 :Removal date: 2011-08-27
-:Issues: :issue:`{issue.title} (#{issue.id}) <457>`
+:Issues: :issue:`457`
 
 ``media-sound``
 ~~~~~~~~~~~~~~~
@@ -838,7 +838,7 @@ culled.
 :Reason: Moved to ``::shadow``
 :Commit: :commit:`c3d01805 <c3d01805b7faa124f507f80b635f0608030a4a5c>`
 :Removal date: 2010-10-08
-:Issues: :issue:`{issue.title} (#{issue.id}) <6>`
+:Issues: :issue:`6`
 
 ``subtle``
 ''''''''''

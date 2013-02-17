@@ -1,9 +1,19 @@
 # ChangeLog for media-gfx/actdiag
-# Copyright © 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
+# Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
+
+  07 Feb 2013; James Rowe <jnrowe@gmail.com> actdiag-0.4.1.ebuild:
+  Use $PYTHON_USEDEP, where possible.
+
+  02 Feb 2013; James Rowe <jnrowe@gmail.com> actdiag-0.3.4.ebuild,
+  actdiag-0.4.1.ebuild, +files/README.gentoo:
+  Use README.gentoo for installation notes.
 
   01 Feb 2013; James Rowe <jnrowe@gmail.com> actdiag-0.4.1.ebuild:
   Keyworded x86.
+
+  25 Jan 2013; James Rowe <jnrowe@gmail.com> actdiag-0.4.1.ebuild:
+  Call original distutils-r1 function when overriding.
 
   02 Jan 2013; James Rowe <jnrowe@gmail.com> actdiag-0.4.1.ebuild:
   Keyworded amd64.

@@ -1,4 +1,4 @@
-# Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -18,7 +18,7 @@ IUSE="daemon"
 # The gtkhotkey-0.2 dependency is enforced in the configure script, despite
 # there being no later versions yet.
 RDEPEND="daemon? ( =x11-libs/gtkhotkey-0.2* )
-	x11-libs/libwnck"
+	x11-libs/libwnck:1"
 DEPEND="${RDEPEND}
 	!daemon? ( ${AUTOTOOLS_DEPEND} )
 	dev-util/intltool

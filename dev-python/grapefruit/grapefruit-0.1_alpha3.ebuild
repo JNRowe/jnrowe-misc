@@ -1,4 +1,4 @@
-# Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -18,8 +18,8 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="doc"
 
-DEPEND="dev-python/setuptools
-	dev-python/sphinx"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
+	dev-python/sphinx[${PYTHON_USEDEP}]"
 RDEPEND="${DEPEND}"
 
 S="${WORKDIR}"/${MY_P}
@@ -33,6 +33,8 @@ src_unpack() {
 }
 
 python_compile_all() {
+	distutils-r1_python_compile_all
+
 	if use doc; then
 		pushd doc >/dev/null
 		emake html || die "emake html failed"

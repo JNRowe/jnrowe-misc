@@ -1,14 +1,9 @@
-# Copyright © 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
 
-SUPPORT_PYTHON_ABIS="1"
-PYTHON_DEPEND="*:2.6"
-# 2.5 is restricted due to except...as syntax
-RESTRICT_PYTHON_ABIS="2.5"
-DISTUTILS_SRC_TEST="nosetests"
-PYPI_OLD_DISTUTILS=1
+PYTHON_COMPAT=(python{2_{5..7},3_{1..3}})
 
 inherit jnrowe-pypi
 
@@ -16,8 +11,12 @@ DESCRIPTION="Python code checking using pep8 and pyflakes"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
+
+# tests are unfortunately broken in this release, and this package is already
+# enough of a mess that fixing it isn't worth the grief
+RESTRICT="test"
 
 # tl;dr This package is masked on genesis, because it bundles libs
 #
@@ -28,8 +27,8 @@ IUSE=""
 
 # setuptools is an optional dependency for setup.py, but favour reproducibilty
 # as installation varies when it is available.
-DEPEND="dev-python/setuptools"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 # setuptools is required in RDEPEND for entry points usage
-RDEPEND=""
+RDEPEND="${DEPEND}"
 
-DOCS="CONTRIBUTORS.txt"
+DOCS=(CONTRIBUTORS.txt README)

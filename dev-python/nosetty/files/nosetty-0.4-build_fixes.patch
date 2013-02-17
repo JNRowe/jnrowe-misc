@@ -1,0 +1,17 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Fix file permission for data file
+Status: LOCAL
+
+diff --git i/nosetty/nosetty.py w/nosetty/nosetty.py
+index 6af030a..ff0df6d 100755
+--- i/nosetty/nosetty.py
++++ w/nosetty/nosetty.py
+@@ -76,7 +76,7 @@ class Session(object):
+         data_file = open(self.session_file, 'w')
+         pickle.dump(self.data, data_file)
+         data_file.close()
+-        os.chmod(data_file.name, 0700)
++        os.chmod(data_file.name, 0600)
+     
+     def unregister_parent(self):
+         """unregisters the current identity as a controlling process"""

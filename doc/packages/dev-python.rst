@@ -56,6 +56,7 @@
  * Versions:
 
   * `0.6.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.6.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.7.ebuild>`__  ``~amd64`` (due 2013-02-22), ``~x86`` (due 2013-02-22)
 
 * ``atomize`` - http://pypi.python.org/pypi/atomize/
 
@@ -111,8 +112,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.5.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/dexml/dexml-0.5.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/dexml/dexml-0.5.1.ebuild>`__  ``~amd64`` (due 2013-02-01), ``x86``
+  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/dexml/dexml-0.5.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``docformatter`` - http://pypi.python.org/pypi/docformatter/
 
@@ -121,6 +121,7 @@
  * Versions:
 
   * `0.2.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.5.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.6.ebuild>`__  ``~amd64`` (due 2013-02-17), ``~x86`` (due 2013-02-17)
 
 * ``doctest-tools`` - http://code.google.com/p/doctest-tools/
 
@@ -176,8 +177,8 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.5.ebuild>`__  ``amd64``, ``x86``
-  * `1.6.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.6.2.ebuild>`__  ``~amd64`` (due 2013-02-01), ``x86``
+  * `1.6.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.6.2.ebuild>`__  ``amd64``, ``x86``
+  * `1.7.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.7.0.ebuild>`__  ``~amd64`` (due 2013-02-17), ``~x86`` (due 2013-02-17)
 
 * ``freshen`` - https://github.com/rlisagor/freshen
 
@@ -210,6 +211,7 @@
  * Versions:
 
   * `0.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/genzshcomp/genzshcomp-0.3.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/genzshcomp/genzshcomp-0.5.ebuild>`__  ``~amd64`` (due 2013-02-17), ``~x86`` (due 2013-02-17)
 
 * ``gpxdata`` - http://www.kette-links.de/technik/
 
@@ -251,6 +253,7 @@
 
   * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.4.ebuild>`__  ``amd64``, ``x86``
   * `0.5.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.4.ebuild>`__  ``amd64``, ``x86``
+  * `0.5.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.5.ebuild>`__  ``~amd64`` (due 2013-02-17), ``~x86`` (due 2013-02-17)
 
 * ``importlib`` - http://pypi.python.org/pypi/importlib/
 
@@ -282,8 +285,9 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.11.ebuild>`__  ``amd64``, ``x86``
   * `0.2.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.9.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.11.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.12 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.12.ebuild>`__  ``~amd64`` (due 2013-02-22), ``~x86`` (due 2013-02-22)
 
 * ``micromodels`` - http://pypi.python.org/pypi/micromodels/
 
@@ -340,6 +344,7 @@
  * Versions:
 
   * `1.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-progressive/nose-progressive-1.3.ebuild>`__  ``amd64``, ``x86``
+  * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-progressive/nose-progressive-1.4.ebuild>`__  ``~amd64`` (due 2013-02-17), ``~x86`` (due 2013-02-17)
 
 * ``nose2`` - http://pypi.python.org/pypi/nose2/
 
@@ -347,8 +352,8 @@
  * Licence: ``BSD-2``
  * Versions:
 
-  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.4.ebuild>`__  ``~amd64`` (due 2013-02-02), ``x86``
+  * `0.4.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.4.ebuild>`__  ``amd64``, ``x86``
+  * `0.4.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.5.ebuild>`__  ``~amd64`` (due 2013-02-17), ``~x86`` (due 2013-02-17)
 
 * ``nose2-cov`` - http://pypi.python.org/pypi/nose2-cov/
 
@@ -356,7 +361,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0_alpha4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2-cov/nose2-cov-1.0_alpha4.ebuild>`__  ``amd64``, ``~x86`` (due 2013-03-04)
+  * `1.0_alpha4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2-cov/nose2-cov-1.0_alpha4.ebuild>`__  ``~amd64`` (due 2013-02-18), ``~x86`` (due 2013-03-04)
 
 * ``nosetty`` - http://code.google.com/p/nosetty/
 
@@ -469,6 +474,7 @@
  * Versions:
 
   * `0.6.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyisbn/pyisbn-0.6.0.ebuild>`__  ``amd64``, ``x86``
+  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyisbn/pyisbn-0.6.1.ebuild>`__  ``~amd64`` (due 2013-02-17), ``~x86`` (due 2013-02-17)
 
 * ``pyrepl`` - http://pypi.python.org/pypi/pyrepl/
 
@@ -508,7 +514,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2013-01-29), ``~x86`` (due 2013-03-15)
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2013-03-30), ``~x86`` (due 2013-03-15)
 
 * ``schematics`` - http://pypi.python.org/pypi/schematics/
 
@@ -540,8 +546,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `2.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/should_dsl/should_dsl-2.1.1.ebuild>`__  ``amd64``, ``x86``
-  * `2.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/should_dsl/should_dsl-2.1.2.ebuild>`__  ``~amd64`` (due 2013-02-02), ``x86``
+  * `2.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/should_dsl/should_dsl-2.1.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``showme`` - http://pypi.python.org/pypi/showme/
 
@@ -614,7 +619,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/termtool/termtool-1.0.ebuild>`__  ``amd64``, ``x86``
+  * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/termtool/termtool-1.0.ebuild>`__  ``~amd64`` (due 2013-03-09), ``~x86`` (due 2013-03-09)
 
 * ``texttable`` - http://foutaise.org/code/
 

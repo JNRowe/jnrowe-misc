@@ -1,11 +1,11 @@
-# Copyright © 2010, 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
 # This version is specifically for Python 3
 PYTHON_COMPAT=(python3_{1..3})
 
-inherit distutils-r1
+inherit distutils-r1 readme.gentoo
 
 DESCRIPTION="maildir processor using Python as its configuration language"
 HOMEPAGE="http://joel.rosdahl.net/${PN}/"
@@ -24,11 +24,9 @@ HTML_DOCS=(doc/)
 
 python_prepare_all() {
 	if use examples; then
-		# Fix examples links for post-install location
-		sed -i 's,examples/,../&,' doc/*.html
+		epatch "${FILESDIR}"/${P}-use_examples_link.patch
 	else
-		# Make examples links go to upstream website
-		sed -i "s,examples/,${HOMEPAGE}&," doc/*.html
+		epatch "${FILESDIR}"/${P}-use_examples_unset_link.patch
 	fi
 }
 
@@ -41,8 +39,7 @@ python_install_all() {
 	fi
 }
 
-pkg_postinst() {
-	elog "If you wish to take advantage of a specific Python version, or"
-	elog "require a module only available for one python version use the"
-	elog "${PN}-\$python_version wrapper"
+src_install() {
+	distutils-r1_src_install
+	readme.gentoo_src_install
 }
