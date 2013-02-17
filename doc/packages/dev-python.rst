@@ -253,7 +253,7 @@
 
   * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.4.ebuild>`__  ``amd64``, ``x86``
   * `0.5.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.5.ebuild>`__  ``~amd64`` (due 2013-02-17), ``~x86`` (due 2013-02-17)
+  * `0.5.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.5.ebuild>`__  ``~amd64`` (due 2013-02-17), ``x86``
 
 * ``importlib`` - http://pypi.python.org/pypi/importlib/
 
