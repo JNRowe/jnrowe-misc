@@ -16,7 +16,7 @@ HOMEPAGE="http://bitbucket.org/hhatto/${PN}/"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64 x86"
 IUSE=""
 
 # argparse is optional since 0.3, but until there is a better way to express
