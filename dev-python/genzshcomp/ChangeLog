@@ -2,6 +2,10 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  17 Feb 2013; James Rowe <jnrowe@gmail.com> -genzshcomp-0.3.1.ebuild,
+  genzshcomp-0.5.ebuild:
+  Keyworded amd64.
+
   17 Feb 2013; James Rowe <jnrowe@gmail.com> genzshcomp-0.5.ebuild:
   Keyworded x86.
 
