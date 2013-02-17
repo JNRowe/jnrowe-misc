@@ -18,7 +18,7 @@ IUSE="daemon"
 # The gtkhotkey-0.2 dependency is enforced in the configure script, despite
 # there being no later versions yet.
 RDEPEND="daemon? ( =x11-libs/gtkhotkey-0.2* )
-	x11-libs/libwnck"
+	x11-libs/libwnck:1"
 DEPEND="${RDEPEND}
 	!daemon? ( ${AUTOTOOLS_DEPEND} )
 	dev-util/intltool

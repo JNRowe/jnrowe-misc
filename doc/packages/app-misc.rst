@@ -23,7 +23,8 @@
  * Licence: ``GPL-3+``
  * Versions:
 
-  * `0.15.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.15.0.ebuild>`__  ``~amd64`` (due 2013-04-01), ``~x86`` (due 2013-02-15)
+  * `0.15.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.15.0.ebuild>`__  ``~amd64`` (due 2013-04-01), ``~x86`` (due 2013-04-01)
+  * `0.16.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.16.0.ebuild>`__  ``~amd64`` (due 2013-03-04), ``~x86`` (due 2013-03-04)
 
 * ``jsonpipe`` - http://pypi.python.org/pypi/jsonpipe/
 
@@ -47,7 +48,7 @@
  * Licence: ``GPL-2+``
  * Versions:
 
-  * `1.9.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pytrainer/pytrainer-1.9.1.ebuild>`__  ``amd64``, ``~x86`` (due 2013-02-08)
+  * `1.9.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pytrainer/pytrainer-1.9.1.ebuild>`__  ``amd64``, ``~x86`` (due 2013-03-25)
 
 * ``rdial`` - https://github.com/JNRowe/rdial/
 

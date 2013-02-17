@@ -14,10 +14,10 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""
 
-DEPEND="dev-python/setuptools"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 # setuptools is needed in RDEPEND because it installs a setuptools-based plugin
 # for Sphinx.
 RDEPEND="${DEPEND}
-	>=dev-python/sphinx-1.0"
+	dev-python/sphinx[${PYTHON_USEDEP}]"
 
 DOCS=(README)

@@ -13,7 +13,7 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="doc"
 
-DEPEND="doc? ( dev-python/sphinx )"
+DEPEND="doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 RDEPEND="dev-python/feedparser"
 
 DOCS=(README.txt)

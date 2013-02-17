@@ -3,7 +3,7 @@
 
 EAPI=5
 
-inherit eutils games toolchain-funcs
+inherit eutils games toolchain-funcs readme.gentoo
 
 DESCRIPTION="A rewrite of the engine used in the game Flashback"
 HOMEPAGE="http://cyxdown.free.fr/reminiscence"
@@ -28,13 +28,6 @@ src_install() {
 	newgamesbin rs ${PN}
 
 	prepgamesdirs
-}
 
-pkg_postinst() {
-	games_pkg_postinst
-
-	einfo "Copy the data files from the Amiga or DOS version of Flashback to"
-	einfo "${GAMES_DATADIR}/${PN}, or specify their location with the"
-	einfo "'--datapath' option at startup.  See the README file for more"
-	einfo "information on required files and supported options."
+	readme.gentoo_create_doc
 }

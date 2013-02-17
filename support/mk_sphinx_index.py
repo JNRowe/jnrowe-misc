@@ -90,12 +90,19 @@ def write_cat_doc(cat, output):
     open("doc/packages/%s.rst" % cat, "w").write("\n".join(output))
 
 
+def pkg_sort_key(data):
+    c, p, v, r = portage.versions.catpkgsplit(data[0])
+    # Format version string so that 0.11 sorts greater than 0.9
+    v = map(lambda s: "%05s" % s, v.split('.'))
+    return [c, p, v, r]
+
+
 if not os.path.isdir("doc/packages"):
     os.mkdir("doc/packages")
 
 output = []
 cat = pkg = ''
-for package, meta in sorted(CACHE.items()):
+for package, meta in sorted(CACHE.items(), key=pkg_sort_key):
     c, p, v, r = portage.catpkgsplit(package)
     atom = portage.dep.Atom('=' + package)
     meta['NAME'] = p

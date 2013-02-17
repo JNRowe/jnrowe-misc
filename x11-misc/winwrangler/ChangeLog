@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  10 Feb 2013; James Rowe <jnrowe@gmail.com> winwrangler-0.2.4-r1.ebuild:
+  Force dependency on libwnck slot 1.
+
   26 Nov 2012; James Rowe <jnrowe@gmail.com> winwrangler-0.2.4-r1.ebuild:
   Switched to EAPI-5.
 

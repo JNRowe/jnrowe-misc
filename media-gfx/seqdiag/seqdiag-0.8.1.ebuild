@@ -6,7 +6,7 @@ EAPI=5
 # 3.x is restricted due to print syntax
 PYTHON_COMPAT=(python2_7)
 
-inherit jnrowe-pypi
+inherit jnrowe-pypi readme.gentoo
 
 DESCRIPTION="Generate sequence-diagram image files from spec-text files"
 
@@ -20,25 +20,25 @@ DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="${DEPEND}
 	>=media-gfx/blockdiag-1.2.0[${PYTHON_USEDEP}]
 	!minimal? (
-		dev-python/docutils
-		dev-python/sphinx
+		dev-python/docutils[${PYTHON_USEDEP}]
+		dev-python/sphinx[${PYTHON_USEDEP}]
 	)"
 
 DOCS=(src/README.txt src/TODO.txt)
 
-python_install_all() {
-	distutils-r1_python_install_all
+src_install() {
+	distutils-r1_src_install
 
 	doman ${PN}.1
+
 	insinto /usr/share/doc/${PF}
 	if use examples ; then
 		doins -r examples || die "doins failed"
 	fi
+
+	use minimal && readme.gentoo_create_doc
 }
 
 pkg_postinst() {
-	if use minimal && ! has_version dev-python/sphinx; then
-		einfo "${PN} installs a sphinx plugin, to make use of it you must"
-		einfo "install sphinx."
-	fi
+	use minimal && readme.gentoo_print_elog
 }

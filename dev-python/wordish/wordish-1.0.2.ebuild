@@ -16,7 +16,7 @@ IUSE=""
 # sphinx is required for documentation builds, but the current release is
 # missing the necessary files for a rebuild.
 DEPEND=""
-RDEPEND="dev-python/docutils"
+RDEPEND="dev-python/docutils[${PYTHON_USEDEP}]"
 
 python_test() {
 	nosetests || die
