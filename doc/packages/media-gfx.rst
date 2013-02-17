@@ -31,7 +31,6 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.3.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.3.4.ebuild>`__  ``amd64``, ``x86``
   * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.4.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``blockdiag`` - http://pypi.python.org/pypi/blockdiag/
@@ -40,7 +39,6 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `1.1.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.1.8.ebuild>`__  ``amd64``, ``x86``
   * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.2.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``gruffy`` - http://pypi.python.org/pypi/gruffy/
@@ -49,7 +47,6 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/gruffy/gruffy-0.3.1.ebuild>`__  ``amd64``, ``x86``
   * `0.3.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/gruffy/gruffy-0.3.2.ebuild>`__  ``amd64``, ``x86``
   * `0.3.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/gruffy/gruffy-0.3.3.ebuild>`__  ``~amd64`` (due 2013-02-22), ``~x86`` (due 2013-02-22)
 
@@ -69,7 +66,6 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.7.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.7.5.ebuild>`__  ``amd64``, ``x86``
   * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.8.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``sphinxcontrib-aafig`` - http://packages.python.org/sphinxcontrib-aafig/
@@ -86,7 +82,6 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `1.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-1.1.2.ebuild>`__  ``amd64``, ``x86``
   * `1.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-1.2.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``sphinxcontrib-gruffygen`` - http://pypi.python.org/pypi/sphinxcontrib-gruffygen/
