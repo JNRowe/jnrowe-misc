@@ -199,6 +199,17 @@ culled.
 :Commit: :commit:`89dffdfd <89dffdfd2ec84a4259ce73819711f46b2f806cb4>`
 :Removal date: 2010-09-21
 
+``colorama``
+''''''''''''
+
+      An ebuild is now available upstream.  It isn't a drop in replacement, so
+      this will be maintained in ``::shadow`` for the foreseeable future.
+
+:Reason: Moved to ``::shadow``
+:Commit:
+:Removal date: 2013-02-18
+:Issues: :issue:`{issue.title} (#{issue.id}) <750>`
+
 ``cov-core``
 ''''''''''''
 

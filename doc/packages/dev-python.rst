@@ -97,14 +97,6 @@
 
   * `1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.5.ebuild>`__  ``amd64``, ``x86``
 
-* ``colorama`` - http://pypi.python.org/pypi/colorama/
-
- * Cross-platform colored terminal text
- * Licence: ``BSD``
- * Versions:
-
-  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/colorama/colorama-0.2.4.ebuild>`__  ``amd64``, ``x86``
-
 * ``dexml`` - http://pypi.python.org/pypi/dexml/
 
  * A dead-simple Object-XML mapper for Python
