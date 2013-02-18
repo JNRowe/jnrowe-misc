@@ -23,8 +23,6 @@ RDEPEND="dev-python/grapefruit
 	dev-python/imaging"
 
 python_compile_all() {
-	distutils-r1_python_compile_all
-
 	if use doc; then
 		pushd docs >/dev/null
 		emake html || die "emake html failed"

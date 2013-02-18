@@ -25,8 +25,6 @@ PATCHES=("${FILESDIR}"/${PN}-0.4-remote_version_specific_runners.patch)
 DOCS=(AUTHORS README.rst)
 
 python_compile_all() {
-	distutils-r1_python_compile_all
-
 	if use doc; then
 		pushd docs >/dev/null
 		make html
