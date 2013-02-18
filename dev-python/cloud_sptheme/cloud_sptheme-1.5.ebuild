@@ -16,7 +16,7 @@ IUSE="doc"
 RDEPEND=">=dev-python/sphinx-1.1"
 DEPEND="doc? ( ${RDEPEND} )"
 
-DOCS="CHANGES README"
+DOCS=(CHANGES README)
 
 python_compile_all() {
 	if use doc; then
