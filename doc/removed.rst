@@ -206,7 +206,7 @@ culled.
       this will be maintained in ``::shadow`` for the foreseeable future.
 
 :Reason: Moved to ``::shadow``
-:Commit:
+:Commit: :commit:`d2f0a364 <d2f0a3649dffbd63d5410b40b04fdc5d53c6ffb6>`
 :Removal date: 2013-02-18
 :Issues: :issue:`{issue.title} (#{issue.id}) <750>`
 
