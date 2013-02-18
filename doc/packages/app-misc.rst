@@ -23,7 +23,6 @@
  * Licence: ``GPL-3+``
  * Versions:
 
-  * `0.15.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.15.0.ebuild>`__  ``~amd64`` (due 2013-04-01), ``~x86`` (due 2013-04-01)
   * `0.16.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.16.0.ebuild>`__  ``~amd64`` (due 2013-03-04), ``~x86`` (due 2013-03-04)
 
 * ``jsonpipe`` - http://pypi.python.org/pypi/jsonpipe/
