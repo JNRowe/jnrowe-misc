@@ -1,6 +1,15 @@
 # ChangeLog for dev-python/termtool
-# Copyright © 2011, 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
+
+  07 Feb 2013; James Rowe <jnrowe@gmail.com> termtool-1.0.ebuild:
+  Dropped stable keywords, invalid with ::gentoo since tweepy import.
+
+  07 Feb 2013; James Rowe <jnrowe@gmail.com> termtool-1.0.ebuild:
+  Use $PYTHON_USEDEP, where possible.
+
+  25 Jan 2013; James Rowe <jnrowe@gmail.com> termtool-1.0.ebuild:
+  Call original distutils-r1 function when overriding.
 
   18 Dec 2012; James Rowe <jnrowe@gmail.com> termtool-1.0.ebuild:
   Updated for distutils-r1 usage.

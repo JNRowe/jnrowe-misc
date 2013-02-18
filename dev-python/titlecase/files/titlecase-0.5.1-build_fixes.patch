@@ -1,0 +1,17 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Remove ez_setup automagic
+Status: LOCAL
+
+diff --git i/setup.py w/setup.py
+index 28c6ca5..3f2d892 100644
+--- i/setup.py
++++ w/setup.py
+@@ -1,8 +1,6 @@
+ import os
+ import sys
+ 
+-from ez_setup import use_setuptools
+-use_setuptools()
+ 
+ from setuptools import setup, find_packages
+ 

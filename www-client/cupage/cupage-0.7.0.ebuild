@@ -1,4 +1,4 @@
-# Copyright © 2012  James Rowe <jnrowe@gmail.com>
+# Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -16,10 +16,10 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="doc"
 
-DEPEND="dev-python/docutils
+DEPEND="dev-python/docutils[${PYTHON_USEDEP}]
 	doc? (
 		dev-python/cloud_sptheme[${PYTHON_USEDEP}]
-		dev-python/sphinx
+		dev-python/sphinx[${PYTHON_USEDEP}]
 		media-gfx/sphinxcontrib-blockdiag
 	)"
 RDEPEND="dev-python/blessings[${PYTHON_USEDEP}]
@@ -32,6 +32,8 @@ PATCHES=("${FILESDIR}"/${P}-fix_distribute_entry_point.patch)
 DOCS=(NEWS.rst README.rst)
 
 python_compile_all() {
+	distutils-r1_python_compile_all
+
 	if use doc; then
 		./setup.py build_sphinx || die "make documentation failed"
 		sphinx-build -b man doc doc/.build/man

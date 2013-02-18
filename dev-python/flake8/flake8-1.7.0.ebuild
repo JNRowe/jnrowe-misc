@@ -1,4 +1,4 @@
-# Copyright © 2012, 2013  James Rowe <jnrowe@gmail.com>
+# Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
@@ -11,7 +11,7 @@ DESCRIPTION="Python code checking using pep8 and pyflakes"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 # tests are unfortunately broken in this release, and this package is already

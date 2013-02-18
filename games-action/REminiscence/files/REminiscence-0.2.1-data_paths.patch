@@ -2,8 +2,21 @@ From: James Rowe <jnrowe@gmail.com>
 Subject: Build fixes and system data support
 Status: LOCAL
 
+diff --git i/Makefile w/Makefile
+index 2c53a0c..6279af7 100644
+--- i/Makefile
++++ w/Makefile
+@@ -6,7 +6,7 @@ DEFINES = -DBYPASS_PROTECTION
+ #DEFINES = -DBYPASS_PROTECTION -DENABLE_PASSWORD_MENU -DNDEBUG
+ 
+ CXX = g++
+-CXXFLAGS := -g -O -Wall -Wuninitialized -Wshadow -Wimplicit -Wundef -Wreorder -Wnon-virtual-dtor -Wno-multichar
++CXXFLAGS += -Wall -Wuninitialized -Wshadow -Wimplicit -Wundef -Wreorder -Wnon-virtual-dtor -Wno-multichar
+ CXXFLAGS += -MMD $(SDL_CFLAGS) -DUSE_ZLIB $(DEFINES)
+ 
+ SRCS = collision.cpp cutscene.cpp file.cpp fs.cpp game.cpp graphics.cpp main.cpp menu.cpp \
 diff --git i/main.cpp w/main.cpp
-index 2e05d9b..1eed019 100644
+index 2e05d9b..f9962b0 100644
 --- i/main.cpp
 +++ w/main.cpp
 @@ -15,6 +15,8 @@
@@ -21,7 +34,7 @@ index 2e05d9b..1eed019 100644
  	"Usage: %s [OPTIONS]...\n"
 -	"  --datapath=PATH   Path to data files (default 'DATA')\n"
 -	"  --savepath=PATH   Path to save files (default '.')\n"
-+	"  --datapath=PATH   Path to data files (default 'GAMES_DATADIR')\n"
++	"  --datapath=PATH   Path to data files (default '/usr/share/games/REminiscence')\n"
 +	"  --savepath=PATH   Path to save files (default '~/.reminiscence')\n"
  	"  --levelnum=NUM    Starting level (default '0')";
  
@@ -37,7 +50,7 @@ index 2e05d9b..1eed019 100644
 -	const char *dataPath = "DATA";
 -	const char *savePath = ".";
 -	const char *levelNum = "0";
-+	char *dataPath = (char *)"GAMES_DATADIR";
++	char *dataPath = (char *)"/usr/share/games/REminiscence";
 +	char *savePath = (char *)malloc(256);
 +	struct stat sb;
 +
