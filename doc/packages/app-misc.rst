@@ -56,7 +56,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.8.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/rdial/rdial-0.8.0.ebuild>`__  ``~amd64`` (due 2013-02-18), ``~x86`` (due 2013-02-18)
+  * `0.8.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/rdial/rdial-0.8.0.ebuild>`__  ``~amd64`` (due 2013-02-18), ``~x86`` (due 2013-03-20)
 
 * ``repl`` - http://defunkt.io/repl/
 
