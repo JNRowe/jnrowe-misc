@@ -2,6 +2,11 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+*astral-0.7.2 (18 Feb 2013)
+
+  18 Feb 2013; James Rowe <jnrowe@gmail.com> +astral-0.7.2.ebuild:
+  Version bump [741].
+
 *astral-0.7 (23 Jan 2013)
 
   23 Jan 2013; James Rowe <jnrowe@gmail.com> +astral-0.7.ebuild:
