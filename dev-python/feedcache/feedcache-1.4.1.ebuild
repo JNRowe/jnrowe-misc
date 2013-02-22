@@ -19,8 +19,6 @@ RDEPEND="dev-python/feedparser"
 DOCS=(README.txt)
 
 python_compile_all() {
-	distutils-r1_python_compile_all
-
 	if use doc; then
 		# The tarball is missing files needed for a complete doc build, but
 		# *some* docs are better than nothing.

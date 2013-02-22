@@ -28,20 +28,19 @@ DEPEND="${CDEPEND}
 		dev-python/mock
 	)"
 RDEPEND="${CDEPEND}
-	dev-python/argh
+	dev-python/aaargh
 	dev-python/blessings[${PYTHON_USEDEP}]
 	dev-python/html2text
 	>=dev-python/httplib2-0.7.4
 	dev-python/jinja
-	dev-python/kitchen[${PYTHON_USEDEP}]
-	dev-python/pygments
-	dev-python/schematics[${PYTHON_USEDEP}]"
+	dev-python/pygments"
 
-DOCS=(NEWS.rst README.rst)
+DOCS=(CONTRIBUTING.rst NEWS.rst README.rst)
+
+# Currently broken when using portage
+RESTRICT="test"
 
 python_compile_all() {
-	distutils-r1_python_compile_all
-
 	if use doc; then
 		./setup.py build_sphinx
 	fi
@@ -58,6 +57,9 @@ python_install_all() {
 	distutils-r1_python_install_all
 
 	if use doc; then
-		dohtml -r doc/.build/html/* || die "dohtml failed"
+		dohtml -r build/sphinx/html/* || die "dohtml failed"
 	fi
+
+	insinto /usr/share/zsh/site-functions
+	doins extra/_hubugs
 }

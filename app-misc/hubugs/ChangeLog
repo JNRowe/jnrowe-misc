@@ -2,6 +2,14 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+*hubugs-0.17.1 (18 Feb 2013)
+
+  18 Feb 2013; James Rowe <jnrowe@gmail.com> +hubugs-0.17.1.ebuild:
+  Version bump [739].
+
+  18 Feb 2013; James Rowe <jnrowe@gmail.com> -hubugs-0.15.0.ebuild:
+  Removed stale ebuild, 0.16.0 available before 0.15.0 will be again.
+
   07 Feb 2013; James Rowe <jnrowe@gmail.com> hubugs-0.15.0.ebuild,
   hubugs-0.16.0.ebuild:
   Use $PYTHON_USEDEP, where possible.

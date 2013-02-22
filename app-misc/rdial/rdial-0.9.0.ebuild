@@ -34,7 +34,7 @@ RDEPEND="dev-python/aaargh[${PYTHON_USEDEP}]
 python_compile_all() {
 	if use doc; then
 		python2 ./setup.py build_sphinx || die "make documentation failed"
-		python2 /usr/bin/sphinx-build -b man doc doc/.build/man \
+		/usr/bin/sphinx-build -b man doc doc/.build/man \
 			|| die "manpage generation failed"
 	fi
 }
@@ -48,7 +48,7 @@ python_install_all() {
 
 	dodoc doc/*.rst || die "dodoc failed"
 	if use doc; then
-		dohtml -r doc/.build/html/* || die "dohtml failed"
+		dohtml -r build/sphinx/html/* || die "dohtml failed"
 		doman doc/.build/man/${PN}.1 || die "doman failed"
 	fi
 

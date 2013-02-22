@@ -56,7 +56,8 @@
  * Versions:
 
   * `0.6.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.6.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.7.ebuild>`__  ``~amd64`` (due 2013-02-22), ``~x86`` (due 2013-02-22)
+  * `0.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.7.ebuild>`__  ``~amd64`` (due 2013-02-22), ``x86``
+  * `0.7.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.7.2.ebuild>`__  ``~amd64`` (due 2013-03-20), ``~x86`` (due 2013-03-20)
 
 * ``atomize`` - http://pypi.python.org/pypi/atomize/
 
@@ -97,14 +98,6 @@
  * Versions:
 
   * `1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.5.ebuild>`__  ``amd64``, ``x86``
-
-* ``colorama`` - http://pypi.python.org/pypi/colorama/
-
- * Cross-platform colored terminal text
- * Licence: ``BSD``
- * Versions:
-
-  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/colorama/colorama-0.2.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``dexml`` - http://pypi.python.org/pypi/dexml/
 
@@ -249,6 +242,7 @@
  * Versions:
 
   * `0.5.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.5.ebuild>`__  ``amd64``, ``x86``
+  * `0.5.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.9.ebuild>`__  ``~amd64`` (due 2013-03-20), ``~x86`` (due 2013-03-20)
 
 * ``importlib`` - http://pypi.python.org/pypi/importlib/
 
@@ -280,9 +274,9 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.9.ebuild>`__  ``amd64``, ``x86``
   * `0.2.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.11.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.12 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.12.ebuild>`__  ``~amd64`` (due 2013-02-22), ``~x86`` (due 2013-02-22)
+  * `0.2.12 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.12.ebuild>`__  ``~amd64`` (due 2013-02-22), ``x86``
+  * `0.2.14 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.14.ebuild>`__  ``~amd64`` (due 2013-03-20), ``~x86`` (due 2013-03-20)
 
 * ``micromodels`` - http://pypi.python.org/pypi/micromodels/
 
@@ -594,7 +588,6 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `1.0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-1.0.6.ebuild>`__  ``amd64``, ``x86``
   * `1.1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-1.1.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``termcolor`` - http://pypi.python.org/pypi/termcolor/

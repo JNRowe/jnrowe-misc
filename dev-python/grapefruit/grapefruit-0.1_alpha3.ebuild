@@ -33,8 +33,6 @@ src_unpack() {
 }
 
 python_compile_all() {
-	distutils-r1_python_compile_all
-
 	if use doc; then
 		pushd doc >/dev/null
 		emake html || die "emake html failed"
