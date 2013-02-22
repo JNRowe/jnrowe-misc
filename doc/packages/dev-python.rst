@@ -55,8 +55,7 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.6.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.6.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.7.ebuild>`__  ``~amd64`` (due 2013-02-22), ``x86``
+  * `0.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.7.ebuild>`__  ``amd64``, ``x86``
   * `0.7.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.7.2.ebuild>`__  ``~amd64`` (due 2013-03-20), ``~x86`` (due 2013-03-20)
 
 * ``atomize`` - http://pypi.python.org/pypi/atomize/
