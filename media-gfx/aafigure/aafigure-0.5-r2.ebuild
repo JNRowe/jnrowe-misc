@@ -34,8 +34,6 @@ python_prepare_all() {
 }
 
 python_compile_all() {
-	distutils-r1_python_compile_all
-
 	if use doc; then
 		cd documentation
 		make html || die "make documentation failed"

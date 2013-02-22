@@ -46,8 +46,6 @@ src_unpack() {
 }
 
 python_compile_all() {
-	distutils-r1_python_compile_all
-
 	rst2man.py doc/${PN}.1.rst doc/${PN}.1 || die "rst2man.py failed"
 	if use doc; then
 		cd doc

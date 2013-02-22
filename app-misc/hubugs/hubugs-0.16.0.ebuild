@@ -39,8 +39,6 @@ RDEPEND="${CDEPEND}
 DOCS=(CONTRIBUTING.rst NEWS.rst README.rst)
 
 python_compile_all() {
-	distutils-r1_python_compile_all
-
 	if use doc; then
 		./setup.py build_sphinx
 	fi
