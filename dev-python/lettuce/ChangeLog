@@ -2,6 +2,14 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+*lettuce-0.2.14 (18 Feb 2013)
+
+  18 Feb 2013; James Rowe <jnrowe@gmail.com> +lettuce-0.2.14.ebuild:
+  Version bump [743].
+
+  17 Feb 2013; James Rowe <jnrowe@gmail.com> -lettuce-0.2.9.ebuild:
+  Removed stale.
+
   02 Feb 2013; James Rowe <jnrowe@gmail.com> lettuce-0.2.11.ebuild:
   Keyworded x86.
 

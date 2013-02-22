@@ -22,8 +22,6 @@ RDEPEND=""
 RESTRICT="test"
 
 python_compile_all() {
-	distutils-r1_python_compile_all
-
 	if use doc; then
 		einfo "Generation of documentation"
 		sphinx-build -b html Doc Doc_build || die "sphinx-build failed"

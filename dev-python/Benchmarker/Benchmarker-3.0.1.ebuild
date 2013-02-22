@@ -16,7 +16,7 @@ IUSE="examples"
 DEPEND=""
 RDEPEND="${DEPEND}"
 
-DOCS="CHANGES.txt"
+DOCS=(CHANGES.txt)
 
 python_test() {
 	PYTHONPATH="${S}" "${PYTHON}" test/benchmarker_test.py \

@@ -26,8 +26,6 @@ PATCHES=("${FILESDIR}"/${P}-Removed_unused_intersphinx_settings.patch)
 DOCS=(README.markdown docs/guide.rst docs/reference.rst)
 
 python_compile_all() {
-	distutils-r1_python_compile_all
-
 	if use doc; then
 		pushd docs >/dev/null
 		make html
