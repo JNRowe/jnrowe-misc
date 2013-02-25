@@ -491,7 +491,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rad/rad-0.1.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rad/rad-0.1.2.ebuild>`__  ``~amd64`` (due 2013-03-20), ``~x86`` (due 2013-03-20)
 
 * ``rstctl`` - http://pypi.python.org/pypi/rstctl/
 
@@ -539,7 +539,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/showme/showme-1.0.0.ebuild>`__  ``amd64``, ``x86``
+  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/showme/showme-1.0.0.ebuild>`__  ``~amd64`` (due 2013-03-20), ``~x86`` (due 2013-03-20)
 
 * ``snot`` - http://pypi.python.org/pypi/snot/
 
