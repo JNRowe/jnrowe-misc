@@ -57,6 +57,7 @@
  * Versions:
 
   * `0.9.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/rdial/rdial-0.9.0.ebuild>`__  ``~amd64`` (due 2013-03-20), ``~x86`` (due 2013-03-20)
+  * `0.10.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/rdial/rdial-0.10.1.ebuild>`__  ``~amd64`` (due 2013-03-29), ``~x86`` (due 2013-03-29)
 
 * ``repl`` - http://defunkt.io/repl/
 
