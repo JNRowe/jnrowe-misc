@@ -449,7 +449,7 @@ culled.
       will be maintained in ``::shadow`` for the foreseeable future.
 
 :Reason: Moved to ``::shadow``
-:Commit:
+:Commit: :commit:`350f353 <350f353503200bcca86d1650782a1a5f25fa6bdd>`
 :Removal date: 2013-03-06
 :Issues: :issue:`{issue.title} (#{issue.id}) <757>`
 
