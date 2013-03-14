@@ -2,8 +2,8 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<longdescription lang="en">
-		Flake8 is a wrapper around <pkg>dev-python/pyflakes</pkg>,
-		<pkg>dev-python/pep8</pkg> and Ned's MacCabe script.
+		Flake8 is a wrapper around <pkg>dev-python/mccabe</pkg>,
+		<pkg>dev-python/pyflakes</pkg> and <pkg>dev-python/pep8</pkg>.
 	</longdescription>
 	<maintainer>
 		<email>jnrowe@gmail.com</email>
