@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/mccabe
+# Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+*mccabe-0.2 (14 Mar 2013)
+
+  14 Mar 2013; James Rowe <jnrowe@gmail.com> +mccabe-0.2.ebuild, +metadata.xml,
+  +watch:
+  Initial ebuild, required by flake8-2.0 [756].
+
