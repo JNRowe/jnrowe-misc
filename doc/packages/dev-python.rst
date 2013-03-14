@@ -55,8 +55,7 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.6.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.6.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.7.ebuild>`__  ``~amd64`` (due 2013-02-22), ``~x86`` (due 2013-02-22)
+  * `0.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.7.ebuild>`__  ``amd64``, ``x86``
   * `0.7.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.7.2.ebuild>`__  ``~amd64`` (due 2013-03-20), ``~x86`` (due 2013-03-20)
 
 * ``atomize`` - http://pypi.python.org/pypi/atomize/
@@ -275,8 +274,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.11.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.12 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.12.ebuild>`__  ``~amd64`` (due 2013-02-22), ``~x86`` (due 2013-02-22)
+  * `0.2.12 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.12.ebuild>`__  ``amd64``, ``x86``
   * `0.2.14 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.14.ebuild>`__  ``~amd64`` (due 2013-03-20), ``~x86`` (due 2013-03-20)
 
 * ``mccabe`` - http://pypi.python.org/pypi/mccabe/
@@ -285,7 +283,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/mccabe/mccabe-0.2.ebuild>`__  ``~x86`` (due 2013-04-13)
+  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/mccabe/mccabe-0.2.ebuild>`__  ``~amd64`` (due 2013-04-13), ``~x86`` (due 2013-04-13)
 
 * ``micromodels`` - http://pypi.python.org/pypi/micromodels/
 
@@ -613,7 +611,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/termtool/termtool-1.0.ebuild>`__  ``~amd64`` (due 2013-03-09), ``~x86`` (due 2013-03-09)
+  * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/termtool/termtool-1.0.ebuild>`__  ``~amd64`` (due 2013-05-08), ``~x86`` (due 2013-03-09)
 
 * ``texttable`` - http://foutaise.org/code/
 
