@@ -282,7 +282,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/mccabe/mccabe-0.2.ebuild>`__  ``~x86`` (due 2013-04-13)
+  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/mccabe/mccabe-0.2.ebuild>`__  ``~amd64`` (due 2013-04-13), ``~x86`` (due 2013-04-13)
 
 * ``micromodels`` - http://pypi.python.org/pypi/micromodels/
 
