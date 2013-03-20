@@ -55,8 +55,7 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.7.ebuild>`__  ``amd64``, ``x86``
-  * `0.7.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.7.2.ebuild>`__  ``~amd64`` (due 2013-03-20), ``x86``
+  * `0.7.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.7.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``atomize`` - http://pypi.python.org/pypi/atomize/
 
@@ -241,8 +240,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.5.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.5.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.9.ebuild>`__  ``~amd64`` (due 2013-03-20), ``x86``
+  * `0.5.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.9.ebuild>`__  ``amd64``, ``x86``
   * `0.5.10 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.10.ebuild>`__  ``~amd64`` (due 2013-03-24), ``~x86`` (due 2013-03-24)
 
 * ``importlib`` - http://pypi.python.org/pypi/importlib/
@@ -276,7 +274,7 @@
  * Versions:
 
   * `0.2.12 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.12.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.14 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.14.ebuild>`__  ``~amd64`` (due 2013-03-20), ``~x86`` (due 2013-05-04)
+  * `0.2.14 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.14.ebuild>`__  ``~amd64`` (due 2013-05-19), ``~x86`` (due 2013-05-04)
 
 * ``mccabe`` - http://pypi.python.org/pypi/mccabe/
 
@@ -500,7 +498,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rad/rad-0.1.2.ebuild>`__  ``~amd64`` (due 2013-03-20), ``~x86`` (due 2013-05-04)
+  * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rad/rad-0.1.2.ebuild>`__  ``~amd64`` (due 2013-05-19), ``~x86`` (due 2013-05-04)
 
 * ``rstctl`` - http://pypi.python.org/pypi/rstctl/
 
@@ -548,7 +546,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/showme/showme-1.0.0.ebuild>`__  ``~amd64`` (due 2013-03-20), ``~x86`` (due 2013-05-04)
+  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/showme/showme-1.0.0.ebuild>`__  ``~amd64`` (due 2013-05-19), ``~x86`` (due 2013-05-04)
 
 * ``snot`` - http://pypi.python.org/pypi/snot/
 
