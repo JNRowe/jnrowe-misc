@@ -240,8 +240,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.5.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.5.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.9.ebuild>`__  ``~amd64`` (due 2013-03-20), ``x86``
+  * `0.5.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.9.ebuild>`__  ``amd64``, ``x86``
   * `0.5.10 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.10.ebuild>`__  ``~amd64`` (due 2013-03-24), ``~x86`` (due 2013-03-24)
 
 * ``importlib`` - http://pypi.python.org/pypi/importlib/
