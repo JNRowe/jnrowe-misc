@@ -2,6 +2,11 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+*weatherspect-1.11 (14 Mar 2013)
+
+  14 Mar 2013; James Rowe <jnrowe@gmail.com> +weatherspect-1.11.ebuild:
+  Version bump [763].
+
   07 Jan 2013; James Rowe <jnrowe@gmail.com> -weatherspect-1.9.ebuild,
   weatherspect-1.10.ebuild:
   Keyworded x86.

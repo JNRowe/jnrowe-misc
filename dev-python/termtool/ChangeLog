@@ -3,7 +3,7 @@
 # Distributed under the GPL v2
 
   07 Feb 2013; James Rowe <jnrowe@gmail.com> termtool-1.0.ebuild:
-  Dropped stable keywords, invalid with ::gentoo since tweepy import.
+  Dropped stable keywords, invalid with ::gentoo since prettytable import.
 
   07 Feb 2013; James Rowe <jnrowe@gmail.com> termtool-1.0.ebuild:
   Use $PYTHON_USEDEP, where possible.

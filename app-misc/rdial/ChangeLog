@@ -2,6 +2,20 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  20 Mar 2013; James Rowe <jnrowe@gmail.com> -rdial-0.9.0.ebuild,
+  -rdial-0.10.1.ebuild:
+  Removed stale ebuilds.
+
+*rdial-0.11.2 (14 Mar 2013)
+
+  14 Mar 2013; James Rowe <jnrowe@gmail.com> +rdial-0.11.2.ebuild:
+  Version bump [764].
+
+*rdial-0.10.1 (27 Feb 2013)
+
+  27 Feb 2013; James Rowe <jnrowe@gmail.com> +rdial-0.10.1.ebuild:
+  Version bump [755].
+
   18 Feb 2013; James Rowe <jnrowe@gmail.com> -rdial-0.8.0.ebuild:
   Removed stale ebuild, 0.9.0 available before 0.8.0 will be again.
 

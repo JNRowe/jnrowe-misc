@@ -17,7 +17,7 @@ DEPEND="dev-python/setuptools"
 # setuptools is required in RDEPEND for entry points
 RDEPEND="${DEPEND}
 	dev-python/parse
-	python_targets_python2_5? ( dev-python/simplejson )
+	virtual/python-json[${PYTHON_USEDEP}]
 	virtual/python-argparse[${PYTHON_USEDEP}]"
 
 # Tests are unusable within portage environment
