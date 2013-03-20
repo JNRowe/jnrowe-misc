@@ -18,18 +18,17 @@ IUSE="doc test"
 
 DEPEND="doc? (
 		dev-python/sphinx[${PYTHON_USEDEP}]
-		dev-python/sphinxcontrib-cheeseshop
+		dev-python/sphinxcontrib-cheeseshop[${PYTHON_USEDEP}]
 	)
 	test? (
 		dev-python/expecter[${PYTHON_USEDEP}]
-		dev-python/mock
+		dev-python/mock[${PYTHON_USEDEP}]
 		dev-python/nose2-cov[${PYTHON_USEDEP}]
 	)"
 
 RDEPEND="dev-python/aaargh[${PYTHON_USEDEP}]
 	dev-python/blessings[${PYTHON_USEDEP}]
-	dev-python/isodate
-	dev-python/prettytable"
+	dev-python/prettytable[${PYTHON_USEDEP}]"
 
 python_compile_all() {
 	if use doc; then

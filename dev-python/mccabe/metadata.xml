@@ -6,12 +6,13 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<longdescription lang="en">
-		ANSI Color formatting for output in terminal, including styles and
-		colours.
+		Measure McCabe complexity for python code.
+
+		This module provides a plugin for <pkg>dev-python/flake8</pkg>, the
+		Python code checker.
 	</longdescription>
 	<upstream>
-		<changelog>http://pypi.python.org/pypi/termcolor/#changes</changelog>
-		<remote-id type="pypi">termcolor</remote-id>
-		<doc lang="en">http://pypi.python.org/pypi/termcolor</doc>
+		<remote-id type="github">flintwork/mccabe</remote-id>
+		<bugs-to>https://github.com/flintwork/mccabe/issues</bugs-to>
 	</upstream>
 </pkgmetadata>
