@@ -240,8 +240,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.5.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.9.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.10 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.10.ebuild>`__  ``~amd64`` (due 2013-03-24), ``x86``
+  * `0.5.10 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.10.ebuild>`__  ``amd64``, ``x86``
 
 * ``importlib`` - http://pypi.python.org/pypi/importlib/
 
@@ -642,8 +641,7 @@
  * Licence: ``GPL-2+``
  * Versions:
 
-  * `1.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.3.ebuild>`__  ``amd64``, ``x86``
-  * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.4.ebuild>`__  ``~amd64`` (due 2013-03-24), ``x86``
+  * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``webcolors`` - http://pypi.python.org/pypi/webcolors/
 
