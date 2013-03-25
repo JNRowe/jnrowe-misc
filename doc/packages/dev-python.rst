@@ -655,6 +655,7 @@
 
   * `1.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.3.ebuild>`__  ``amd64``, ``x86``
   * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.4.ebuild>`__  ``~amd64`` (due 2013-03-24), ``~x86`` (due 2013-03-24)
+  * `1.2.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.5.ebuild>`__  ``~amd64`` (due 2013-04-24), ``~x86`` (due 2013-04-24)
 
 * ``webcolors`` - http://pypi.python.org/pypi/webcolors/
 
