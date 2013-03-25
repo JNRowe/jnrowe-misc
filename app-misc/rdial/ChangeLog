@@ -2,6 +2,11 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+*rdial-0.11.3 (25 Mar 2013)
+
+  25 Mar 2013; James Rowe <jnrowe@gmail.com> +rdial-0.11.3.ebuild:
+  Version bump [766].
+
 *rdial-0.12.0 (20 Mar 2013)
 
   20 Mar 2013; James Rowe <jnrowe@gmail.com> +rdial-0.12.0.ebuild:
