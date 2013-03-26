@@ -9,6 +9,14 @@
 
   * `0.5.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Attest/Attest-0.5.3.ebuild>`__  ``amd64``, ``x86``
 
+* ``Basket`` - http://pypi.python.org/pypi/Basket/
+
+ * A local static PyPI repository builder
+ * Licence: ``BSD``
+ * Versions:
+
+  * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Basket/Basket-1.0.ebuild>`__  ``~x86`` (due 2013-04-25)
+
 * ``Benchmarker`` - http://pypi.python.org/pypi/Benchmarker/
 
  * A small utility to benchmark your Python code
