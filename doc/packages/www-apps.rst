@@ -7,5 +7,5 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.12 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-apps/mnemosyne/mnemosyne-0.12.ebuild>`__  ``~amd64`` (due 2013-03-28), ``~x86`` (due 2013-05-12)
+  * `0.12 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-apps/mnemosyne/mnemosyne-0.12.ebuild>`__  ``~amd64`` (due 2013-05-27), ``~x86`` (due 2013-05-12)
 
