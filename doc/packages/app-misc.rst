@@ -7,7 +7,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/Hammertime/Hammertime-0.2.4.ebuild>`__  ``~amd64`` (due 2013-03-27), ``~x86`` (due 2013-04-26)
+  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/Hammertime/Hammertime-0.2.4.ebuild>`__  ``~amd64`` (due 2013-05-26), ``~x86`` (due 2013-04-26)
 
 * ``asciiquarium`` - http://www.robobunny.com/projects/asciiquarium/html/
 

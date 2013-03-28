@@ -1,6 +1,5 @@
 REM 2013-03-25 *1 MSG %"Stabilise x86 app-misc/pytrainer-1.9.1%" %a
 REM 2013-03-27 *1 MSG %"Stabilise x86 dev-util/ditz-0.5-r1%" %a
-REM 2013-03-27 *1 MSG %"Stabilise amd64 app-misc/Hammertime-0.2.4%" %a
 REM 2013-03-27 *1 MSG %"Stabilise amd64 www-client/httpshell-0.8.0%" %a
 REM 2013-03-28 *1 MSG %"Stabilise amd64 www-apps/mnemosyne-0.12%" %a
 REM 2013-03-28 *1 MSG %"Stabilise x86 www-apps/mnemosyne-0.12%" %a
@@ -52,3 +51,4 @@ REM 2013-05-19 *1 MSG %"Stabilise amd64 dev-python/showme-1.0.0%" %a
 REM 2013-05-19 *1 MSG %"Stabilise amd64 dev-util/cake-0.2.3%" %a
 REM 2013-05-26 *1 MSG %"Stabilise amd64 dev-util/ditz-0.5-r1%" %a
 REM 2013-05-26 *1 MSG %"Stabilise amd64 dev-vcs/gitflow-0.4.1-r2%" %a
+REM 2013-05-26 *1 MSG %"Stabilise amd64 app-misc/Hammertime-0.2.4%" %a
