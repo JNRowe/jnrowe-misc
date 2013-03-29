@@ -730,7 +730,7 @@ culled.
       An ebuild is now available upstream.  It is a drop in replacement.
 
 :Reason: Culled
-:Commit:
+:Commit: :commit:`47db2ee8 <47db2ee8550d3776772c8799afbfe046ddd1fe78>`
 :Removal date: 2013-03-29
 :Issues: :issue:`{issue.title} (#{issue.id}) <771>`
 
