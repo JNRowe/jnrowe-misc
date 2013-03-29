@@ -724,6 +724,16 @@ culled.
 ``sys-fs``
 ~~~~~~~~~~
 
+``fslint``
+'''''''''''''
+
+      An ebuild is now available upstream.  It is a drop in replacement.
+
+:Reason: Culled
+:Commit:
+:Removal date: 2013-03-29
+:Issues: :issue:`{issue.title} (#{issue.id}) <771>`
+
 ``unionfs-fuse``
 ''''''''''''''''
 

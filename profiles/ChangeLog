@@ -2,6 +2,9 @@
 # Copyright 1999-2013 Gentoo Foundation; Distributed under the GPL v2
 # $Header: $
 
+  29 Mar 2013; James Rowe <jnrowe@gmail.com> +updates/1Q-2013:
+  Moved sys-fs/fslint to app-misc to handle upstream ebuild, see #771.
+
   03 Jan 2013; James Rowe <jnrowe@gmail.com> package.mask:
   Removed ghosd.
 
