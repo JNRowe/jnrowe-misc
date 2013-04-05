@@ -33,6 +33,8 @@ REM 2013-05-04 *1 MSG %"Stabilise x86 dev-python/rad-0.1.2%" %a
 REM 2013-05-04 *1 MSG %"Stabilise x86 dev-python/showme-1.0.0%" %a
 REM 2013-05-04 *1 MSG %"Stabilise x86 dev-util/cake-0.2.3%" %a
 REM 2013-05-05 *1 MSG %"Stabilise x86 app-misc/pw-0.2.3%" %a
+REM 2013-05-05 *1 MSG %"Stabilise amd64 dev-python/pycukes-0.2%" %a
+REM 2013-05-05 *1 MSG %"Stabilise x86 dev-python/pycukes-0.2%" %a
 REM 2013-05-05 *1 MSG %"Stabilise x86 dev-python/pyhistorian-0.6.8%" %a
 REM 2013-05-08 *1 MSG %"Stabilise amd64 net-misc/bleeter-0.8.0%" %a
 REM 2013-05-08 *1 MSG %"Stabilise amd64 dev-python/termtool-1.0%" %a
