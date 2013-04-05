@@ -3,8 +3,9 @@
 
 EAPI=5
 # 2.5 is restricted due to collections.namedtuple use
+# 2.6 is restricted due to upstream's incorrect termcolor ebuild
 # 3.x is restricted due to non-relative imports
-PYTHON_COMPAT=(python2_{6,7})
+PYTHON_COMPAT=(python2_7)
 
 inherit jnrowe-pypi
 

@@ -4,8 +4,9 @@
 EAPI=5
 
 # 2.5 is restricted due to exception syntax
+# 2.6 is restricted due to upstream's incorrect termcolor ebuild
 # 3.x is restricted due to missing dependencies
-PYTHON_COMPAT=(python2_{6,7})
+PYTHON_COMPAT=(python2_7)
 
 GITHUB_USER="JNRowe"
 
