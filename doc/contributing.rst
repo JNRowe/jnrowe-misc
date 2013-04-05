@@ -11,6 +11,24 @@ The devmanual's suggestion that filenames should not contain uppercase
 characters only causes complex :envvar:`$PN`/:envvar:`$P` rewriting or
 duplication, and as such is ignored in this overlay.
 
+Commit messages
+---------------
+
+Commit messages should be of the form ``[<pkg>] <summary>``, or simply
+``<summary>`` for commits that aren't bound to a single package.
+
+Try to follow Tim Pope's excellent `commit message advice`_.  There is some
+leeway on the length of the summary to take in to account the package prefix,
+but beyond that the rules make perfect sense here.
+
+.. note::
+
+   Occasionally *I* forget or mis-step on the above rule, and from
+   today(2013-04-05) I'll owe you a coffee every time you point out an
+   infraction.  Take advantage, it is the only way I'll learn!
+
+.. _commit message advice: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+
 Patches vs :command:`sed`
 -------------------------
 
