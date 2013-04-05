@@ -180,7 +180,7 @@ with the preferred style for this overlay using ``flake8`` as an example::
 
    At this point you should not be using :file:`distutils.eclass` for ebuilds,
    use :file:`distutils-r1` for all new packages and upgrade packages when
-   bumpiing.
+   bumping.
 
 When using the ``RESTRICTED_PYTHON_ABIS`` functionality from
 :file:`distutils.eclass` it is important to state the reason why a certain
