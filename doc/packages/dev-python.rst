@@ -460,7 +460,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.6.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyhistorian/pyhistorian-0.6.8.ebuild>`__  ``~amd64`` (due 2013-04-05), ``~x86`` (due 2013-04-05)
+  * `0.6.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyhistorian/pyhistorian-0.6.8.ebuild>`__  ``~amd64`` (due 2013-04-05), ``~x86`` (due 2013-05-05)
 
 * ``pyisbn`` - http://pypi.python.org/pypi/pyisbn/
 
