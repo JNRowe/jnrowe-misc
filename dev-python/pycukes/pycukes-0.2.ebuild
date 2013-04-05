@@ -3,7 +3,8 @@
 
 EAPI=5
 # No 2.5 or 3.x - missing pyhistorian
-PYTHON_COMPAT=(python2_{6,7})
+# 2.6 is restricted due to upstream's incorrect termcolor ebuild
+PYTHON_COMPAT=(python2_7)
 
 inherit jnrowe-pypi
 
