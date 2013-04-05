@@ -40,7 +40,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pw/pw-0.2.3.ebuild>`__  ``~amd64`` (due 2013-04-05), ``~x86`` (due 2013-04-05)
+  * `0.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pw/pw-0.2.3.ebuild>`__  ``~amd64`` (due 2013-04-05), ``~x86`` (due 2013-05-05)
 
 * ``pytrainer`` - https://github.com/pytrainer/pytrainer
 
