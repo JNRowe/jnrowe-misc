@@ -24,7 +24,7 @@
  * Licence: ``GPL-3+``
  * Versions:
 
-  * `0.17.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.17.1.ebuild>`__  ``~amd64`` (due 2013-05-19), ``~x86`` (due 2013-04-19)
+  * `0.17.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.17.1.ebuild>`__  ``~amd64`` (due 2013-05-19)
 
 * ``jsonpipe`` - http://pypi.python.org/pypi/jsonpipe/
 
@@ -56,8 +56,8 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.11.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/rdial/rdial-0.11.2.ebuild>`__  ``~amd64`` (due 2013-04-13), ``~x86`` (due 2013-04-13)
-  * `0.11.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/rdial/rdial-0.11.3.ebuild>`__  ``~amd64`` (due 2013-04-24), ``~x86`` (due 2013-04-24)
+  * `0.11.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/rdial/rdial-0.11.2.ebuild>`__  ``~amd64`` (due 2013-04-13)
+  * `0.11.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/rdial/rdial-0.11.3.ebuild>`__  ``~amd64`` (due 2013-04-24)
 
 * ``repl`` - http://defunkt.io/repl/
 

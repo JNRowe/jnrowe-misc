@@ -13,7 +13,7 @@ DESCRIPTION="Simple time tracking for simple people"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64"
 IUSE="doc test"
 
 DEPEND="doc? (
