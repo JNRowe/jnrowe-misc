@@ -2,6 +2,11 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  05 Apr 2013; James Rowe <jnrowe@gmail.com> rdial-0.11.2.ebuild,
+  rdial-0.11.3.ebuild:
+  Drop ~x86 for compatibility with upstream's cov-core, should've have caught
+  this when dropping cov-core :/
+
   26 Mar 2013; James Rowe <jnrowe@gmail.com> -rdial-0.12.0.ebuild:
   0.12 branch is dead.
 
