@@ -16,7 +16,7 @@
  * Versions:
 
   * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/asciiquarium/asciiquarium-1.0.ebuild>`__  ``amd64``, ``x86``
-  * `1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/asciiquarium/asciiquarium-1.1.ebuild>`__  ``~amd64`` (due 2013-04-13), ``~x86`` (due 2013-04-13)
+  * `1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/asciiquarium/asciiquarium-1.1.ebuild>`__  ``~amd64`` (due 2013-04-13), ``x86``
 
 * ``hubugs`` - http://pypi.python.org/pypi/hubugs/
 
@@ -56,7 +56,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.11.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/rdial/rdial-0.11.2.ebuild>`__  ``~amd64`` (due 2013-04-13), ``~x86`` (due 2013-04-13)
+  * `0.11.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/rdial/rdial-0.11.2.ebuild>`__  ``~amd64`` (due 2013-04-13), ``~x86`` (due 2013-05-13)
 
 * ``repl`` - http://defunkt.io/repl/
 
@@ -97,5 +97,5 @@
  * Versions:
 
   * `1.10 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/weatherspect/weatherspect-1.10.ebuild>`__  ``amd64``, ``x86``
-  * `1.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/weatherspect/weatherspect-1.11.ebuild>`__  ``~amd64`` (due 2013-04-13), ``~x86`` (due 2013-04-13)
+  * `1.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/weatherspect/weatherspect-1.11.ebuild>`__  ``~amd64`` (due 2013-04-13), ``x86``
 
