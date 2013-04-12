@@ -16,7 +16,7 @@
  * Versions:
 
   * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/asciiquarium/asciiquarium-1.0.ebuild>`__  ``amd64``, ``x86``
-  * `1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/asciiquarium/asciiquarium-1.1.ebuild>`__  ``~amd64`` (due 2013-04-13), ``~x86`` (due 2013-04-13)
+  * `1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/asciiquarium/asciiquarium-1.1.ebuild>`__  ``~amd64`` (due 2013-04-13), ``x86``
 
 * ``hubugs`` - http://pypi.python.org/pypi/hubugs/
 
