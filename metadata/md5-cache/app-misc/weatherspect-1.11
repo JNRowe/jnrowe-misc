@@ -2,9 +2,9 @@ DEFINED_PHASES=install
 DESCRIPTION=Create an ASCII animation that simulates the weather
 EAPI=5
 HOMEPAGE=http://www.robobunny.com/projects/weatherspect/html/
-KEYWORDS=~amd64 ~x86
+KEYWORDS=~amd64 x86
 LICENSE=GPL-2
 RDEPEND=>=dev-perl/Term-Animation-2.5 dev-perl/libwww-perl
 SLOT=0
 SRC_URI=http://www.robobunny.com/projects/weatherspect/weatherspect_v1.11.tar.gz
-_md5_=462bb15a5e102fcaa79630c4b78df04e
+_md5_=8408af970bfd3ab014db79dd4201316a

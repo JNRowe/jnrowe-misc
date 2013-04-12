@@ -97,5 +97,5 @@
  * Versions:
 
   * `1.10 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/weatherspect/weatherspect-1.10.ebuild>`__  ``amd64``, ``x86``
-  * `1.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/weatherspect/weatherspect-1.11.ebuild>`__  ``~amd64`` (due 2013-04-13), ``~x86`` (due 2013-04-13)
+  * `1.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/weatherspect/weatherspect-1.11.ebuild>`__  ``~amd64`` (due 2013-04-13), ``x86``
 
