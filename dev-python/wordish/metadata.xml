@@ -22,6 +22,6 @@
 	</longdescription>
 	<upstream>
 		<remote-id type="pypi">wordish</remote-id>
-		<doc lang="en">http://jdb.github.com/wordish/</doc>
+		<doc lang="en">http://jdb.github.io/wordish/</doc>
 	</upstream>
 </pkgmetadata>
