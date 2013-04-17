@@ -21,7 +21,7 @@
 	</use>
 	<upstream>
 		<changelog>https://github.com/alip/mpdcron/raw/master/NEWS.mkd</changelog>
-		<doc lang="en">http://alip.github.com/mpdcron/configuration</doc>
+		<doc lang="en">http://alip.github.io/mpdcron/configuration</doc>
 		<remote-id type="github">alip/mpdcron</remote-id>
 		<bugs-to>https://github.com/alip/mpdcron/issues</bugs-to>
 	</upstream>
