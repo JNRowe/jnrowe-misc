@@ -13,7 +13,7 @@ GITHUB_USER="JNRowe"
 inherit jnrowe-github distutils-r1
 
 DESCRIPTION="Nasty little twitter client"
-HOMEPAGE="http://jnrowe.github.com/${PN}/"
+HOMEPAGE="http://jnrowe.github.io/${PN}/"
 SRC_URI="${SRC_URI}
 	doc? ( https://github.com/JNRowe/sphinx-jnrowe/tarball/0.1.0 -> sphinx-jnrowe-0.1.0.tar.gz )"
 
