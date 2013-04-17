@@ -352,6 +352,7 @@
  * Versions:
 
   * `0.4.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.5.ebuild>`__  ``amd64``, ``x86``
+  * `0.4.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.6.ebuild>`__  ``~amd64`` (due 2013-05-17), ``~x86`` (due 2013-05-17)
 
 * ``nose2-cov`` - http://pypi.python.org/pypi/nose2-cov/
 
