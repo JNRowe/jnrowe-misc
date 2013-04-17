@@ -12,7 +12,7 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="pypi">sphinxcontrib-httpdomain</remote-id>
-		<doc lang="en">http://packages.python.org/sphinxcontrib-httpdomain/</doc>
+		<doc lang="en">http://pythonhosted.org/sphinxcontrib-httpdomain//</doc>
 		<bugs-to>https://bitbucket.org/birkenfeld/sphinx-contrib/issues?status=new&amp;status=open</bugs-to>
 	</upstream>
 </pkgmetadata>

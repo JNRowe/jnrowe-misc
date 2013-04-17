@@ -121,6 +121,7 @@
 
   * `0.2.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.6.ebuild>`__  ``amd64``, ``x86``
   * `0.2.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.7.ebuild>`__  ``~amd64`` (due 2013-04-24), ``~x86`` (due 2013-04-24)
+  * `0.2.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.8.ebuild>`__  ``~amd64`` (due 2013-05-17), ``~x86`` (due 2013-05-17)
 
 * ``doctest-tools`` - http://code.google.com/p/doctest-tools/
 
@@ -291,6 +292,7 @@
  * Versions:
 
   * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/mccabe/mccabe-0.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/mccabe/mccabe-0.2.1.ebuild>`__  ``~amd64`` (due 2013-05-17), ``~x86`` (due 2013-05-17)
 
 * ``micromodels`` - http://pypi.python.org/pypi/micromodels/
 
@@ -355,6 +357,7 @@
  * Versions:
 
   * `0.4.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.5.ebuild>`__  ``amd64``, ``x86``
+  * `0.4.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.6.ebuild>`__  ``~amd64`` (due 2013-05-17), ``~x86`` (due 2013-05-17)
 
 * ``nose2-cov`` - http://pypi.python.org/pypi/nose2-cov/
 
@@ -492,7 +495,7 @@
 
   * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/python-faker/python-faker-0.2.4.ebuild>`__  ``amd64``, ``x86``
 
-* ``python-osmgpsmap`` - http://nzjrs.github.com/osm-gps-map/
+* ``python-osmgpsmap`` - http://nzjrs.github.io/osm-gps-map/
 
  * Python bindings for osm-gps-map
  * Licence: ``GPL-3+``
@@ -524,7 +527,7 @@
 
   * `0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/schematics/schematics-0.5.ebuild>`__  ``amd64``, ``x86``
 
-* ``see`` - http://inky.github.com/see/
+* ``see`` - http://inky.github.io/see/
 
  * A human-readable alternative to Python's dir()
  * Licence: ``BSD``

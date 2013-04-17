@@ -2,6 +2,11 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # $Header: $
 
+*mccabe-0.2.1 (17 Apr 2013)
+
+  17 Apr 2013; James Rowe <jnrowe@gmail.com> +mccabe-0.2.1.ebuild:
+  Version bump [773].
+
   12 Apr 2013; James Rowe <jnrowe@gmail.com> mccabe-0.2.ebuild:
   Keyworded amd64.
 
