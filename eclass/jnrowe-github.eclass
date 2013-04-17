@@ -43,6 +43,6 @@ esac
 # Tag to download tarball for, if unset defaults to ${PV}
 
 HOMEPAGE="https://github.com/${GITHUB_USER}/${MY_PN:-${PN}}/"
-SRC_URI="https://github.com/${GITHUB_USER}/${MY_PN:-${PN}}/tarball/${GITHUB_TAG:-${PV}} -> ${P}.tar.gz"
+SRC_URI="https://github.com/${GITHUB_USER}/${MY_PN:-${PN}}/archive/${GITHUB_TAG:-${PV}}.tar.gz -> ${P}.tar.gz"
 
 fi
