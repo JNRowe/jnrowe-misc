@@ -2,6 +2,11 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+*pytrainer-1.10.0 (17 Apr 2013)
+
+  17 Apr 2013; James Rowe <jnrowe@gmail.com> +pytrainer-1.10.0.ebuild:
+  Version bump [777].
+
   09 Jan 2013; James Rowe <jnrowe@gmail.com> pytrainer-1.9.1.ebuild:
   Keyworded amd64.
 
