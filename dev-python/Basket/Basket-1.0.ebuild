@@ -2,22 +2,19 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-
-# 3.x is restricted due to print syntax
-PYTHON_COMPAT=(python2_{5..7})
-PYPI_ARCHIVE_SUFFIX="zip"
+PYTHON_COMPAT=(python{2_{5..7},3_{1..3}})
 
 inherit jnrowe-pypi
 
-DESCRIPTION="Easy access to PyPI download stats"
+DESCRIPTION="A local static PyPI repository builder"
 
-LICENSE="GPL-2+"
+LICENSE="BSD"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="dev-python/setuptools"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 # setuptools is required in RDEPEND for entry points usage
 RDEPEND="${DEPEND}"
 
-DOCS=(README.rst docs/HISTORY.txt)
+HTML_DOCS=(docs/)

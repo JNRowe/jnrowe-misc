@@ -19,7 +19,7 @@ RESTRICT="test"
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
 	test? ( dev-python/nose2 )"
 # setuptools is required in RDEPEND for entry points usage
-RDEPEND="${DEPEND}
+RDEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/mccabe[${PYTHON_USEDEP}]
 	>=dev-python/pyflakes-0.6.1
 	>=dev-python/pep8-1.4.3[${PYTHON_USEDEP}]"

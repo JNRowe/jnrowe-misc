@@ -1,7 +1,7 @@
 ``www-client``
 --------------
 
-* ``cupage`` - http://jnrowe.github.com/cupage/
+* ``cupage`` - http://jnrowe.github.io/cupage/
 
  * A tool to check for updates on web pages
  * Licence: ``GPL-3+``
@@ -15,5 +15,5 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.8.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/httpshell/httpshell-0.8.0.ebuild>`__  ``~amd64`` (due 2013-03-27), ``~x86`` (due 2013-05-26)
+  * `0.8.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/httpshell/httpshell-0.8.0.ebuild>`__  ``~amd64`` (due 2013-05-26), ``~x86`` (due 2013-05-26)
 

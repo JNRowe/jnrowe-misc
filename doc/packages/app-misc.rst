@@ -7,7 +7,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/Hammertime/Hammertime-0.2.4.ebuild>`__  ``~amd64`` (due 2013-03-27), ``~x86`` (due 2013-04-26)
+  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/Hammertime/Hammertime-0.2.4.ebuild>`__  ``~amd64`` (due 2013-05-26), ``~x86`` (due 2013-04-26)
 
 * ``asciiquarium`` - http://www.robobunny.com/projects/asciiquarium/html/
 
@@ -15,8 +15,7 @@
  * Licence: ``GPL-2+``
  * Versions:
 
-  * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/asciiquarium/asciiquarium-1.0.ebuild>`__  ``amd64``, ``x86``
-  * `1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/asciiquarium/asciiquarium-1.1.ebuild>`__  ``~amd64`` (due 2013-04-13), ``x86``
+  * `1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/asciiquarium/asciiquarium-1.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``hubugs`` - http://pypi.python.org/pypi/hubugs/
 
@@ -24,7 +23,7 @@
  * Licence: ``GPL-3+``
  * Versions:
 
-  * `0.17.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.17.1.ebuild>`__  ``~amd64`` (due 2013-03-20), ``~x86`` (due 2013-04-19)
+  * `0.17.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.17.1.ebuild>`__  ``~amd64`` (due 2013-05-19)
 
 * ``jsonpipe`` - http://pypi.python.org/pypi/jsonpipe/
 
@@ -40,7 +39,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pw/pw-0.2.3.ebuild>`__  ``~amd64`` (due 2013-04-05), ``~x86`` (due 2013-05-05)
+  * `0.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pw/pw-0.2.3.ebuild>`__  ``~amd64`` (due 2013-05-20), ``~x86`` (due 2013-05-05)
 
 * ``pytrainer`` - https://github.com/pytrainer/pytrainer
 
@@ -49,6 +48,7 @@
  * Versions:
 
   * `1.9.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pytrainer/pytrainer-1.9.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.10.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pytrainer/pytrainer-1.10.0.ebuild>`__  ``~amd64`` (due 2013-05-17), ``~x86`` (due 2013-05-17)
 
 * ``rdial`` - https://github.com/JNRowe/rdial/
 
@@ -56,7 +56,8 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.11.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/rdial/rdial-0.11.2.ebuild>`__  ``~amd64`` (due 2013-04-13), ``~x86`` (due 2013-05-13)
+  * `0.11.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/rdial/rdial-0.11.2.ebuild>`__  ``~amd64`` (due 2013-05-28)
+  * `0.11.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/rdial/rdial-0.11.3.ebuild>`__  ``~amd64`` (due 2013-04-24)
 
 * ``repl`` - http://defunkt.io/repl/
 
@@ -93,9 +94,8 @@
 * ``weatherspect`` - http://www.robobunny.com/projects/weatherspect/html/
 
  * Create an ASCII animation that simulates the weather
- * Licence: ``Artistic``
+ * Licence: ``GPL-2``
  * Versions:
 
-  * `1.10 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/weatherspect/weatherspect-1.10.ebuild>`__  ``amd64``, ``x86``
-  * `1.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/weatherspect/weatherspect-1.11.ebuild>`__  ``~amd64`` (due 2013-04-13), ``x86``
+  * `1.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/weatherspect/weatherspect-1.11.ebuild>`__  ``amd64``, ``x86``
 

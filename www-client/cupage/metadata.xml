@@ -16,7 +16,7 @@
 			<name>James Rowe</name>
 		</maintainer>
 		<changelog>https://github.com/JNRowe/cupage/raw/master/NEWS.rst</changelog>
-		<doc lang="en">http://jnrowe.github.com/cupage</doc>
+		<doc lang="en">http://jnrowe.github.io/cupage</doc>
 		<remote-id type="github">JNRowe/cupage</remote-id>
 		<bugs-to>https://github.com/JNRowe/cupage/issues</bugs-to>
 	</upstream>

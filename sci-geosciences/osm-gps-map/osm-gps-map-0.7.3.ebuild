@@ -4,7 +4,7 @@
 EAPI=5
 
 DESCRIPTION="A Gtk+ Widget for Displaying OpenStreetMap tiles"
-HOMEPAGE="http://nzjrs.github.com/${PN}/"
+HOMEPAGE="http://nzjrs.github.io/${PN}/"
 SRC_URI="http://www.johnstowers.co.nz/files/${PN}/${P}.tar.gz"
 
 # "or later" is scrubbed from standard header in src/

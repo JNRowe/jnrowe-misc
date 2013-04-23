@@ -9,6 +9,14 @@
 
   * `0.5.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Attest/Attest-0.5.3.ebuild>`__  ``amd64``, ``x86``
 
+* ``Basket`` - http://pypi.python.org/pypi/Basket/
+
+ * A local static PyPI repository builder
+ * Licence: ``BSD``
+ * Versions:
+
+  * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Basket/Basket-1.0.ebuild>`__  ``~amd64`` (due 2013-04-25), ``~x86`` (due 2013-04-25)
+
 * ``Benchmarker`` - http://pypi.python.org/pypi/Benchmarker/
 
  * A small utility to benchmark your Python code
@@ -55,8 +63,7 @@
  * Licence: ``Apache-2.0``
  * Versions:
 
-  * `0.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.7.ebuild>`__  ``amd64``, ``x86``
-  * `0.7.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.7.2.ebuild>`__  ``~amd64`` (due 2013-03-20), ``x86``
+  * `0.7.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.7.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``atomize`` - http://pypi.python.org/pypi/atomize/
 
@@ -113,6 +120,8 @@
  * Versions:
 
   * `0.2.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.6.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.7.ebuild>`__  ``~amd64`` (due 2013-04-24), ``~x86`` (due 2013-04-24)
+  * `0.2.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.8.ebuild>`__  ``~amd64`` (due 2013-05-17), ``~x86`` (due 2013-05-17)
 
 * ``doctest-tools`` - http://code.google.com/p/doctest-tools/
 
@@ -169,7 +178,7 @@
  * Versions:
 
   * `1.7.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.7.0.ebuild>`__  ``amd64``, ``x86``
-  * `2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-2.0.ebuild>`__  ``~amd64`` (due 2013-04-13), ``~x86`` (due 2013-05-13)
+  * `2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-2.0.ebuild>`__  ``~amd64`` (due 2013-05-28), ``~x86`` (due 2013-05-13)
 
 * ``freshen`` - https://github.com/rlisagor/freshen
 
@@ -241,9 +250,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.5.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.5.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.9 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.9.ebuild>`__  ``~amd64`` (due 2013-03-20), ``x86``
-  * `0.5.10 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.10.ebuild>`__  ``~amd64`` (due 2013-03-24), ``x86``
+  * `0.5.10 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.10.ebuild>`__  ``amd64``, ``x86``
 
 * ``importlib`` - http://pypi.python.org/pypi/importlib/
 
@@ -276,7 +283,7 @@
  * Versions:
 
   * `0.2.12 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.12.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.14 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.14.ebuild>`__  ``~amd64`` (due 2013-03-20), ``~x86`` (due 2013-05-04)
+  * `0.2.14 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.14.ebuild>`__  ``~amd64`` (due 2013-05-19), ``~x86`` (due 2013-05-04)
 
 * ``mccabe`` - http://pypi.python.org/pypi/mccabe/
 
@@ -284,7 +291,8 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/mccabe/mccabe-0.2.ebuild>`__  ``~amd64`` (due 2013-04-13), ``x86``
+  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/mccabe/mccabe-0.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/mccabe/mccabe-0.2.1.ebuild>`__  ``~amd64`` (due 2013-05-17), ``~x86`` (due 2013-05-17)
 
 * ``micromodels`` - http://pypi.python.org/pypi/micromodels/
 
@@ -349,6 +357,7 @@
  * Versions:
 
   * `0.4.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.5.ebuild>`__  ``amd64``, ``x86``
+  * `0.4.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.6.ebuild>`__  ``~amd64`` (due 2013-05-17), ``~x86`` (due 2013-05-17)
 
 * ``nose2-cov`` - http://pypi.python.org/pypi/nose2-cov/
 
@@ -356,7 +365,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0_alpha4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2-cov/nose2-cov-1.0_alpha4.ebuild>`__  ``~amd64`` (due 2013-04-04), ``~x86`` (due 2013-04-18)
+  * `1.0_alpha4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2-cov/nose2-cov-1.0_alpha4.ebuild>`__  ``~amd64`` (due 2013-06-03)
 
 * ``nosetty`` - http://code.google.com/p/nosetty/
 
@@ -444,7 +453,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycukes/pycukes-0.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycukes/pycukes-0.2.ebuild>`__  ``~amd64`` (due 2013-05-05), ``~x86`` (due 2013-05-05)
 
 * ``pydelicious`` - http://code.google.com/p/pydelicious/
 
@@ -460,7 +469,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.6.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyhistorian/pyhistorian-0.6.8.ebuild>`__  ``~amd64`` (due 2013-04-05), ``~x86`` (due 2013-05-05)
+  * `0.6.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyhistorian/pyhistorian-0.6.8.ebuild>`__  ``~amd64`` (due 2013-05-20), ``~x86`` (due 2013-05-05)
 
 * ``pyisbn`` - http://pypi.python.org/pypi/pyisbn/
 
@@ -486,7 +495,7 @@
 
   * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/python-faker/python-faker-0.2.4.ebuild>`__  ``amd64``, ``x86``
 
-* ``python-osmgpsmap`` - http://nzjrs.github.com/osm-gps-map/
+* ``python-osmgpsmap`` - http://nzjrs.github.io/osm-gps-map/
 
  * Python bindings for osm-gps-map
  * Licence: ``GPL-3+``
@@ -500,7 +509,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rad/rad-0.1.2.ebuild>`__  ``~amd64`` (due 2013-03-20), ``~x86`` (due 2013-05-04)
+  * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rad/rad-0.1.2.ebuild>`__  ``~amd64`` (due 2013-05-19), ``~x86`` (due 2013-05-04)
 
 * ``rstctl`` - http://pypi.python.org/pypi/rstctl/
 
@@ -508,7 +517,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2013-03-30), ``~x86`` (due 2013-04-29)
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2013-06-28), ``~x86`` (due 2013-04-29)
 
 * ``schematics`` - http://pypi.python.org/pypi/schematics/
 
@@ -518,7 +527,7 @@
 
   * `0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/schematics/schematics-0.5.ebuild>`__  ``amd64``, ``x86``
 
-* ``see`` - http://inky.github.com/see/
+* ``see`` - http://inky.github.io/see/
 
  * A human-readable alternative to Python's dir()
  * Licence: ``BSD``
@@ -548,7 +557,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/showme/showme-1.0.0.ebuild>`__  ``~amd64`` (due 2013-03-20), ``~x86`` (due 2013-05-04)
+  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/showme/showme-1.0.0.ebuild>`__  ``~amd64`` (due 2013-05-19), ``~x86`` (due 2013-05-04)
 
 * ``snot`` - http://pypi.python.org/pypi/snot/
 
@@ -644,8 +653,8 @@
  * Licence: ``GPL-2+``
  * Versions:
 
-  * `1.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.3.ebuild>`__  ``amd64``, ``x86``
-  * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.4.ebuild>`__  ``~amd64`` (due 2013-03-24), ``x86``
+  * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.4.ebuild>`__  ``amd64``, ``x86``
+  * `1.2.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.5.ebuild>`__  ``~amd64`` (due 2013-04-24), ``~x86`` (due 2013-04-24)
 
 * ``webcolors`` - http://pypi.python.org/pypi/webcolors/
 

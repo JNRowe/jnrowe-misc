@@ -23,7 +23,7 @@
 			<name>James Rowe</name>
 		</maintainer>
 		<changelog>https://github.com/JNRowe/upoints/raw/master/NEWS.rst</changelog>
-		<doc lang="en">http://jnrowe.github.com/upoints/</doc>
+		<doc lang="en">http://jnrowe.github.io/upoints/</doc>
 		<bugs-to>https://github.com/JNRowe/upoints/issues</bugs-to>
 	</upstream>
 </pkgmetadata>

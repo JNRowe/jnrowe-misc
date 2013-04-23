@@ -7,7 +7,7 @@ PYTHON_COMPAT=(python2_{5..7})
 inherit distutils-r1
 
 DESCRIPTION="Python bindings for osm-gps-map"
-HOMEPAGE="http://nzjrs.github.com/osm-gps-map/"
+HOMEPAGE="http://nzjrs.github.io/osm-gps-map/"
 SRC_URI="http://www.johnstowers.co.nz/files/osm-gps-map/${P}.tar.gz"
 
 LICENSE="GPL-3+"

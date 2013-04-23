@@ -1,6 +1,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  29 Mar 2013; James Rowe <jnrowe@gmail.com> +updates/1Q-2013:
+  Moved sys-fs/fslint to app-misc to handle upstream ebuild, see #771.
+
   03 Jan 2013; James Rowe <jnrowe@gmail.com> package.mask:
   Removed ghosd.
 

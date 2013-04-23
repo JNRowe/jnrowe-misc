@@ -11,6 +11,24 @@ The devmanual's suggestion that filenames should not contain uppercase
 characters only causes complex :envvar:`$PN`/:envvar:`$P` rewriting or
 duplication, and as such is ignored in this overlay.
 
+Commit messages
+---------------
+
+Commit messages should be of the form ``[<pkg>] <summary>``, or simply
+``<summary>`` for commits that aren't bound to a single package.
+
+Try to follow Tim Pope's excellent `commit message advice`_.  There is some
+leeway on the length of the summary to take in to account the package prefix,
+but beyond that the rules make perfect sense here.
+
+.. note::
+
+   Occasionally *I* forget or mis-step on the above rule, and from
+   today(2013-04-05) I'll owe you a coffee every time you point out an
+   infraction.  Take advantage, it is the only way I'll learn!
+
+.. _commit message advice: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+
 Patches vs :command:`sed`
 -------------------------
 
@@ -162,7 +180,7 @@ with the preferred style for this overlay using ``flake8`` as an example::
 
    At this point you should not be using :file:`distutils.eclass` for ebuilds,
    use :file:`distutils-r1` for all new packages and upgrade packages when
-   bumpiing.
+   bumping.
 
 When using the ``RESTRICTED_PYTHON_ABIS`` functionality from
 :file:`distutils.eclass` it is important to state the reason why a certain
@@ -253,6 +271,6 @@ the file, such as the previous location or package author data.
 .. _ebuild variables: http://devmanual.gentoo.org/ebuild-writing/variables/index.html
 .. _remind: http://www.roaringpenguin.com/products/remind
 .. _rad: http://pypi.python.org/pypi/rad/
-.. _cupage: http://jnrowe.github.com/cupage
+.. _cupage: http://jnrowe.github.io/cupage
 .. _GitHub: https://github.com/
 .. _REminiscence: http://cyxdown.free.fr/reminiscence/

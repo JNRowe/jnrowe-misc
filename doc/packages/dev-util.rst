@@ -7,7 +7,7 @@
  * Licence: ``GPL-3``
  * Versions:
 
-  * `0.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/cake/cake-0.2.3.ebuild>`__  ``~amd64`` (due 2013-03-20), ``~x86`` (due 2013-05-04)
+  * `0.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/cake/cake-0.2.3.ebuild>`__  ``~amd64`` (due 2013-05-19), ``~x86`` (due 2013-05-04)
 
 * ``ccontrol`` - http://ccontrol.ozlabs.org/
 
@@ -31,7 +31,7 @@
  * Licence: ``GPL-3+``
  * Versions:
 
-  * `0.5-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/ditz/ditz-0.5-r1.ebuild>`__  ``~amd64`` (due 2013-03-27), ``~x86`` (due 2013-05-11)
+  * `0.5-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/ditz/ditz-0.5-r1.ebuild>`__  ``~amd64`` (due 2013-05-26), ``~x86`` (due 2013-05-11)
 
 * ``metrics`` - http://pypi.python.org/pypi/metrics/
 

@@ -9,7 +9,7 @@
 		A simpler, easier to read alternative to Python's dir() function.
 	</longdescription>
 	<upstream>
-		<doc lang="en">http://inky.github.com/see/</doc>
+		<doc lang="en">http://inky.github.io/see/</doc>
 		<remote-id type="pypi">see</remote-id>
 		<changelog>https://github.com/inky/see/blob/master/CHANGELOG.markdown#readme</changelog>
 		<bugs-to>https://github.com/inky/see/issues</bugs-to>

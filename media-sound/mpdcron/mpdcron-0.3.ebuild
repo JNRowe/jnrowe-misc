@@ -13,7 +13,7 @@ else
 fi
 
 DESCRIPTION="A hook daemon for mpd, it polls mpd and runs hooks on events"
-HOMEPAGE="http://alip.github.com/${PN}/"
+HOMEPAGE="http://alip.github.io/${PN}/"
 
 LICENSE="GPL-2+"
 SLOT="0"

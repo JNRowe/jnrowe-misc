@@ -2,17 +2,17 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-PYTHON_COMPAT=(python{2_{5..7},3_{1..3}})
-PYPI_ARCHIVE_SUFFIX="zip"
+# 2.5 is restricted due to context handlers and io usage
+PYTHON_COMPAT=(python{2_{6,7},3_{1..3}})
 
 inherit jnrowe-pypi
 
-DESCRIPTION="Calculations for the position of the sun and moon"
+DESCRIPTION="Formats docstrings to follow PEP 257"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=""
-RDEPEND="dev-python/pytz"
+RDEPEND=""
