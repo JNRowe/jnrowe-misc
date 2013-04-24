@@ -3,6 +3,9 @@
 # $Header: $
 
   24 Apr 2013; James Rowe <jnrowe@gmail.com> Basket-1.0.ebuild:
+  Keyworded amd64.
+
+  24 Apr 2013; James Rowe <jnrowe@gmail.com> Basket-1.0.ebuild:
   Keyworded x86.
 
   26 Mar 2013; James Rowe <jnrowe@gmail.com> Basket-1.0.ebuild:
