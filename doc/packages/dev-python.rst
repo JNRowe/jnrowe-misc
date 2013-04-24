@@ -120,7 +120,7 @@
  * Versions:
 
   * `0.2.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.6.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.7.ebuild>`__  ``~amd64`` (due 2013-04-24), ``~x86`` (due 2013-04-24)
+  * `0.2.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.7.ebuild>`__  ``~amd64`` (due 2013-04-24), ``x86``
   * `0.2.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.8.ebuild>`__  ``~amd64`` (due 2013-05-17), ``~x86`` (due 2013-05-17)
 
 * ``doctest-tools`` - http://code.google.com/p/doctest-tools/
@@ -654,7 +654,7 @@
  * Versions:
 
   * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.4.ebuild>`__  ``amd64``, ``x86``
-  * `1.2.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.5.ebuild>`__  ``~amd64`` (due 2013-04-24), ``~x86`` (due 2013-04-24)
+  * `1.2.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.5.ebuild>`__  ``~amd64`` (due 2013-04-24), ``x86``
 
 * ``webcolors`` - http://pypi.python.org/pypi/webcolors/
 
