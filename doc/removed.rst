@@ -721,6 +721,18 @@ culled.
 :Commit: :commit:`2f09d163 <2f09d163876dcc7832509844a7e6160598c8ed75>`
 :Removal date: 2011-05-12
 
+``sci-geosciences``
+~~~~~~~~~~~~~~~~~~~
+
+``osm-gps-map``
+'''''''''''''''
+
+    The shadowed ``ebuild`` will exist until upstream's has matching visibility.
+
+:Reason: Moved to ``::shadow``
+:Commit:
+:Removal date: 2013-04-24
+
 ``sys-fs``
 ~~~~~~~~~~
 

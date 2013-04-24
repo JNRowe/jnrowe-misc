@@ -17,11 +17,3 @@
 
   * `0.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/sci-geosciences/gpxviewer/gpxviewer-0.4.3.ebuild>`__  ``amd64``, ``x86``
 
-* ``osm-gps-map`` - http://nzjrs.github.com/osm-gps-map/
-
- * A Gtk+ Widget for Displaying OpenStreetMap tiles
- * Licence: ``GPL-2``
- * Versions:
-
-  * `0.7.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/sci-geosciences/osm-gps-map/osm-gps-map-0.7.3.ebuild>`__  ``amd64``, ``x86``
-
