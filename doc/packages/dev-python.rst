@@ -495,14 +495,6 @@
 
   * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/python-faker/python-faker-0.2.4.ebuild>`__  ``amd64``, ``x86``
 
-* ``python-osmgpsmap`` - http://nzjrs.github.io/osm-gps-map/
-
- * Python bindings for osm-gps-map
- * Licence: ``GPL-3+``
- * Versions:
-
-  * `0.7.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/python-osmgpsmap/python-osmgpsmap-0.7.3.ebuild>`__  ``amd64``, ``x86``
-
 * ``rad`` - http://pypi.python.org/pypi/rad/
 
  * A super easy console highlighter. Text goes in, colour comes out

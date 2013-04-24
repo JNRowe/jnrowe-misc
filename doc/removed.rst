@@ -367,6 +367,16 @@ culled.
 :Commit: :commit:`c350e281 <c350e281c851b12eb9c459d51f5d1d0db0fef4af>`
 :Removal date: 2010-12-05
 
+``python-osmgpsmap``
+''''''''''''''''''''
+
+    The shadowed ``ebuild`` will exist until upstream's ``osm-gps-map``
+    has matching visibility, and all dependencies are updated to use it.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`313b903a <313b903a5929610ec7d7ff0835b10666ef57146c>`
+:Removal date: 2013-04-24
+
 ``rednose``
 '''''''''''
 
@@ -720,6 +730,18 @@ culled.
 :Reason: Moved to ``::shadow``
 :Commit: :commit:`2f09d163 <2f09d163876dcc7832509844a7e6160598c8ed75>`
 :Removal date: 2011-05-12
+
+``sci-geosciences``
+~~~~~~~~~~~~~~~~~~~
+
+``osm-gps-map``
+'''''''''''''''
+
+    The shadowed ``ebuild`` will exist until upstream's has matching visibility.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`9c3cb374 <9c3cb3749eb7a00286ac44f07fa22ac0172f673f>`
+:Removal date: 2013-04-24
 
 ``sys-fs``
 ~~~~~~~~~~
