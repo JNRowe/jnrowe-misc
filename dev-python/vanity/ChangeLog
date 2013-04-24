@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  24 Apr 2013; James Rowe <jnrowe@gmail.com> vanity-1.2.5.ebuild:
+  Keyworded x86.
+
 *vanity-1.2.5 (25 Mar 2013)
 
   25 Mar 2013; James Rowe <jnrowe@gmail.com> +vanity-1.2.5.ebuild:
