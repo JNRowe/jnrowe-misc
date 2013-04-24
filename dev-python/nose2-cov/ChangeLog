@@ -2,6 +2,10 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  05 Apr 2013; James Rowe <jnrowe@gmail.com> nose2-cov-1.0_alpha4.ebuild:
+  Drop ~x86 for compatibility with upstream's cov-core, should've have caught
+  this when dropping cov-core :/
+
   02 Feb 2013; James Rowe <jnrowe@gmail.com> nose2-cov-1.0_alpha4.ebuild:
   Keyworded ~x86.
 

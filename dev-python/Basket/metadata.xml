@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Basket is a small command-line utility that downloads
+		<pkg>dev-lang/python</pkg> packages from a (real) PyPI server and store
+		them in a single place so that they can be found by easy_install or pip
+		when offline.
+
+		Basket is not a PyPI mirror. It is not a server: you cannot register or
+		upload packages. It does not install Python packages in a Python
+		installation or a virtual environment.
+	</longdescription>
+	<upstream>
+		<remote-id type="github">dbaty/Basket</remote-id>
+		<bugs-to>https://github.com/dbaty/Basket/issues</bugs-to>
+	</upstream>
+</pkgmetadata>

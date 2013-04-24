@@ -441,6 +441,18 @@ culled.
 :Commit: :commit:`740ada6b <740ada6bbcab5d5c0ad356eefa489299eada69a7>`
 :Removal date: 2011-09-13
 
+``termcolor``
+'''''''''''''
+
+      An ebuild is now available upstream.  It isn't a drop in replacement as it
+      has incorrect `PYTHON_COMPAT` values and is missing documentation, so this
+      will be maintained in ``::shadow`` for the foreseeable future.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`350f353 <350f353503200bcca86d1650782a1a5f25fa6bdd>`
+:Removal date: 2013-03-06
+:Issues: :issue:`{issue.title} (#{issue.id}) <757>`
+
 ``termstyle``
 '''''''''''''
 
@@ -711,6 +723,16 @@ culled.
 
 ``sys-fs``
 ~~~~~~~~~~
+
+``fslint``
+'''''''''''''
+
+      An ebuild is now available upstream.  It is a drop in replacement.
+
+:Reason: Culled
+:Commit: :commit:`47db2ee8 <47db2ee8550d3776772c8799afbfe046ddd1fe78>`
+:Removal date: 2013-03-29
+:Issues: :issue:`{issue.title} (#{issue.id}) <771>`
 
 ``unionfs-fuse``
 ''''''''''''''''

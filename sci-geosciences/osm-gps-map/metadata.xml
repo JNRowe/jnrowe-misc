@@ -13,7 +13,7 @@
 		currently used in a number of Gtk+ and Maemo applications.
 	</longdescription>
 	<upstream>
-		<doc lang="en">http://nzjrs.github.com/osm-gps-map/</doc>
+		<doc lang="en">http://nzjrs.github.io/osm-gps-map/</doc>
 		<remote-id type="github">nzjrs/osm-gps-map</remote-id>
 		<bugs-to>https://github.com/nzjrs/osm-gps-map/issues</bugs-to>
 	</upstream>

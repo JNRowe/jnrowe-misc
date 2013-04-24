@@ -7,6 +7,9 @@
   17 Apr 2013; James Rowe <jnrowe@gmail.com> +pytrainer-1.10.0.ebuild:
   Version bump [777].
 
+  25 Mar 2013; James Rowe <jnrowe@gmail.com> pytrainer-1.9.1.ebuild:
+  Keyworded x86.
+
   09 Jan 2013; James Rowe <jnrowe@gmail.com> pytrainer-1.9.1.ebuild:
   Keyworded amd64.
 

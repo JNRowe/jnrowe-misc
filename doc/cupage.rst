@@ -52,6 +52,6 @@ the `cupage documentation`_.
 .. [#] Use :command:`cupage.py --list-sites` to see the list supported sites
        in your version of ``cupage``
 
-.. _cupage: http://jnrowe.github.com/cupage/
+.. _cupage: http://jnrowe.github.io/cupage/
 .. _PyPI: http://pypi.python.org/
-.. _cupage documentation: http://jnrowe.github.com/cupage/configuration.html
+.. _cupage documentation: http://jnrowe.github.io/cupage/configuration.html

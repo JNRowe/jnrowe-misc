@@ -2,6 +2,16 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  17 Apr 2013; James Rowe <jnrowe@gmail.com> metadata.xml:
+  Use github.io for GitHub user page links
+
+  05 Apr 2013; James Rowe <jnrowe@gmail.com> hubugs-0.17.1.ebuild:
+  Drop ~x86 for compatibility with upstream's cov-core, should've have caught
+  this when dropping cov-core :/
+
+  04 Mar 2013; James Rowe <jnrowe@gmail.com> -hubugs-0.16.0.ebuild:
+  Removed stale ebuild, 0.17.1 available before 0.16.0 will be again.
+
 *hubugs-0.17.1 (18 Feb 2013)
 
   18 Feb 2013; James Rowe <jnrowe@gmail.com> +hubugs-0.17.1.ebuild:

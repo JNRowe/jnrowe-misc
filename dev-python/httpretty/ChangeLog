@@ -2,6 +2,20 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  24 Mar 2013; James Rowe <jnrowe@gmail.com> -httpretty-0.5.9.ebuild,
+  httpretty-0.5.10.ebuild:
+  Keyworded amd64.
+
+  24 Mar 2013; James Rowe <jnrowe@gmail.com> httpretty-0.5.10.ebuild:
+  Keyworded x86.
+
+  20 Mar 2013; James Rowe <jnrowe@gmail.com> -httpretty-0.5.5.ebuild,
+  httpretty-0.5.9.ebuild:
+  Keyworded amd64.
+
+  20 Mar 2013; James Rowe <jnrowe@gmail.com> httpretty-0.5.9.ebuild:
+  Keyworded x86.
+
 *httpretty-0.5.10 (22 Feb 2013)
 
   22 Feb 2013; James Rowe <jnrowe@gmail.com> +httpretty-0.5.10.ebuild:

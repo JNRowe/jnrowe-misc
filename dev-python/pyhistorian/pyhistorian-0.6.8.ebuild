@@ -3,7 +3,8 @@
 
 EAPI=5
 # No 2.5 - missing termcolor
-PYTHON_COMPAT=(python2_{6,7})
+# 2.6 is restricted due to upstream's incorrect termcolor ebuild
+PYTHON_COMPAT=(python2_7)
 
 inherit jnrowe-pypi
 
@@ -12,7 +13,7 @@ HOMEPAGE="https://github.com/hugobr/${PN}"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools"

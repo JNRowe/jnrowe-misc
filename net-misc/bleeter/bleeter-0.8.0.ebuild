@@ -4,15 +4,16 @@
 EAPI=5
 
 # 2.5 is restricted due to exception syntax
+# 2.6 is restricted due to upstream's incorrect termcolor ebuild
 # 3.x is restricted due to missing dependencies
-PYTHON_COMPAT=(python2_{6,7})
+PYTHON_COMPAT=(python2_7)
 
 GITHUB_USER="JNRowe"
 
 inherit jnrowe-github distutils-r1
 
 DESCRIPTION="Nasty little twitter client"
-HOMEPAGE="http://jnrowe.github.com/${PN}/"
+HOMEPAGE="http://jnrowe.github.io/${PN}/"
 SRC_URI="${SRC_URI}
 	doc? ( https://github.com/JNRowe/sphinx-jnrowe/tarball/0.1.0 -> sphinx-jnrowe-0.1.0.tar.gz )"
 
