@@ -2,6 +2,11 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+*pwtools-0.4 (24 Apr 2013)
+
+  24 Apr 2013; James Rowe <jnrowe@gmail.com> +pwtools-0.4.ebuild:
+  Version bump [782].
+
   24 Apr 2013; James Rowe <jnrowe@gmail.com> watch:
   Use PyPI to check for updates.
 
