@@ -15,7 +15,7 @@
  * Licence: ``BSD``
  * Versions:
 
-  * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Basket/Basket-1.0.ebuild>`__  ``~amd64`` (due 2013-04-25), ``~x86`` (due 2013-04-25)
+  * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Basket/Basket-1.0.ebuild>`__  ``~amd64`` (due 2013-04-25), ``x86``
 
 * ``Benchmarker`` - http://pypi.python.org/pypi/Benchmarker/
 
