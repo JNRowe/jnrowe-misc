@@ -374,7 +374,7 @@ culled.
     has matching visibility, and all dependencies are updated to use it.
 
 :Reason: Moved to ``::shadow``
-:Commit:
+:Commit: :commit:`313b903a <313b903a5929610ec7d7ff0835b10666ef57146c>`
 :Removal date: 2013-04-24
 
 ``rednose``
@@ -740,7 +740,7 @@ culled.
     The shadowed ``ebuild`` will exist until upstream's has matching visibility.
 
 :Reason: Moved to ``::shadow``
-:Commit:
+:Commit: :commit:`9c3cb374 <9c3cb3749eb7a00286ac44f07fa22ac0172f673f>`
 :Removal date: 2013-04-24
 
 ``sys-fs``
