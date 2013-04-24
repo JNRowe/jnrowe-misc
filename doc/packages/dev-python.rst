@@ -429,6 +429,7 @@
  * Versions:
 
   * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pwtools/pwtools-0.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pwtools/pwtools-0.4.ebuild>`__  ``~amd64`` (due 2013-05-24), ``~x86`` (due 2013-05-24)
 
 * ``pyScss`` - http://pypi.python.org/pypi/pyScss/
 
