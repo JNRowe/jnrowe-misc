@@ -1,0 +1,14 @@
+Title: games-puzzle/gbrainy is no longer receiving version bumps
+Author: James Rowe <jnrowe@gmail.com>
+Content-Type: text/plain
+Posted: 2013-04-24
+Revision: 1
+News-Item-Format: 1.0
+Display-If-Installed: games-puzzle/gbrainy
+
+The ``jnrowe-misc`` repository has now entered maintenance mode, and
+games-puzzle/gbrainy will no longer be receiving version bumps.  Bug
+fixes will be still be applied as time permits.
+
+Feel free to step up and maintain this package if you want to see it
+move forward.
