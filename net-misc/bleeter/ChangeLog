@@ -2,6 +2,13 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  17 Apr 2013; James Rowe <jnrowe@gmail.com> bleeter-0.8.0.ebuild,
+  metadata.xml:
+  Use github.io for GitHub user page links
+
+  05 Apr 2013; James Rowe <jnrowe@gmail.com> bleeter-0.8.0.ebuild:
+  2.6 is restricted due to upstream's incorrect termcolor ebuild.
+
   07 Feb 2013; James Rowe <jnrowe@gmail.com> bleeter-0.8.0.ebuild:
   Dropped stable keywords, invalid with ::gentoo since tweepy import.
 

@@ -26,7 +26,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=""
+# Both trollop:0 and :2 work correctly with ditz
 RDEPEND="dev-ruby/trollop"
+
+each_ruby_prepare() {
+	sed -i "s,#!.*,#! $(ruby_implementation_command ${_ruby_implementation})," bin/${PN}
+}
 
 each_ruby_install() {
 	${RUBY} setup.rb config --prefix=/usr --mandir=/usr/share/man/man1 \

@@ -9,7 +9,7 @@
 
   * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-sound/castget/castget-1.1.0.ebuild>`__  ``amd64``, ``x86``
 
-* ``mpdcron`` - http://alip.github.com/mpdcron/
+* ``mpdcron`` - http://alip.github.io/mpdcron/
 
  * A hook daemon for mpd, it polls mpd and runs hooks on events
  * Licence: ``GPL-2+``

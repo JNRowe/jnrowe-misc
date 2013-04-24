@@ -8,7 +8,7 @@ PYPI_ARCHIVE_SUFFIX="tar.bz2"
 inherit jnrowe-pypi
 
 DESCRIPTION="A human-readable alternative to Python's dir()"
-HOMEPAGE="http://inky.github.com/${PN}/"
+HOMEPAGE="http://inky.github.io/${PN}/"
 
 LICENSE="BSD"
 SLOT="0"
