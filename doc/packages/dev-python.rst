@@ -282,7 +282,7 @@
  * Versions:
 
   * `0.2.12 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.12.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.14 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.14.ebuild>`__  ``~amd64`` (due 2013-05-19), ``~x86`` (due 2013-05-04)
+  * `0.2.14 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.14.ebuild>`__  ``~amd64`` (due 2013-05-19), ``~x86`` (due 2013-06-18)
 
 * ``mccabe`` - http://pypi.python.org/pypi/mccabe/
 
@@ -501,7 +501,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rad/rad-0.1.2.ebuild>`__  ``~amd64`` (due 2013-05-19), ``~x86`` (due 2013-05-04)
+  * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rad/rad-0.1.2.ebuild>`__  ``~amd64`` (due 2013-05-19), ``~x86`` (due 2013-06-03)
 
 * ``rstctl`` - http://pypi.python.org/pypi/rstctl/
 
@@ -549,7 +549,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/showme/showme-1.0.0.ebuild>`__  ``~amd64`` (due 2013-05-19), ``~x86`` (due 2013-05-04)
+  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/showme/showme-1.0.0.ebuild>`__  ``~amd64`` (due 2013-05-19), ``~x86`` (due 2013-06-03)
 
 * ``snot`` - http://pypi.python.org/pypi/snot/
 
