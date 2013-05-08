@@ -13,10 +13,10 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""
 
-DEPEND="dev-python/setuptools"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 # setuptools is required in RDEPEND for entry points
 RDEPEND="${DEPEND}
-	dev-python/parse
+	dev-python/parse[${PYTHON_USEDEP}]
 	virtual/python-json[${PYTHON_USEDEP}]
 	virtual/python-argparse[${PYTHON_USEDEP}]"
 
