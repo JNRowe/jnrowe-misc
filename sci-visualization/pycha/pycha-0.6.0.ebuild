@@ -14,9 +14,9 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="examples test"
 
-DEPEND="dev-python/setuptools"
-RDEPEND="dev-python/pycairo
-	dev-python/pygtk"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/pycairo[${PYTHON_USEDEP}]
+	dev-python/pygtk[${PYTHON_USEDEP}]"
 
 DOCS=(CHANGES.txt)
 
