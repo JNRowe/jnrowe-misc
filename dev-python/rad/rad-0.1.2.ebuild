@@ -15,9 +15,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="dev-python/setuptools"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="dev-python/colorama[${PYTHON_USEDEP}]
 	dev-python/plac[${PYTHON_USEDEP}]
-	dev-python/pyyaml"
+	dev-python/pyyaml[${PYTHON_USEDEP}]"
 
 DOCS=(README.rst)
