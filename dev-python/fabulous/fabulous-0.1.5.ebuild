@@ -19,8 +19,8 @@ IUSE="doc"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
 	doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
-RDEPEND="dev-python/grapefruit
-	dev-python/imaging"
+RDEPEND="dev-python/grapefruit[${PYTHON_USEDEP}]
+	dev-python/imaging[${PYTHON_USEDEP}]"
 
 python_compile_all() {
 	if use doc; then
