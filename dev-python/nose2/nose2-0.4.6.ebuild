@@ -16,9 +16,9 @@ IUSE="doc"
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 # setuptools is required in RDEPEND for entry points
 RDEPEND="${DEPEND}
-	dev-python/six
+	dev-python/six[${PYTHON_USEDEP}]
 	virtual/python-argparse[${PYTHON_USEDEP}]
-	virtual/python-unittest2"
+	virtual/python-unittest2[${PYTHON_USEDEP}]"
 
 PATCHES=("${FILESDIR}"/${PN}-0.4-remote_version_specific_runners.patch)
 
