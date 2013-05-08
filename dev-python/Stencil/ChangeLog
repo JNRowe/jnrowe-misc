@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  08 May 2013; James Rowe <jnrowe@gmail.com> Stencil-0.2.1.ebuild:
+  Use $PYTHON_USEDEP, where possible.
+
   19 Dec 2012; James Rowe <jnrowe@gmail.com> Stencil-0.2.1.ebuild:
   Updated for distutils-r1 usage.
 

@@ -2,6 +2,10 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  08 May 2013; James Rowe <jnrowe@gmail.com> pytrainer-1.9.1.ebuild,
+  pytrainer-1.10.0.ebuild:
+  Use $PYTHON_USEDEP, where possible.
+
 *pytrainer-1.10.0 (17 Apr 2013)
 
   17 Apr 2013; James Rowe <jnrowe@gmail.com> +pytrainer-1.10.0.ebuild:

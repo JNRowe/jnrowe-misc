@@ -2,7 +2,6 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-
 PYTHON_COMPAT=(python{2_{5..7},3_{1..3}})
 
 inherit jnrowe-pypi
@@ -15,4 +14,4 @@ KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND=""
-RDEPEND="dev-python/nose"
+RDEPEND="dev-python/nose[${PYTHON_USEDEP}]"

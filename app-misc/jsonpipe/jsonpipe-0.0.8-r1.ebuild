@@ -14,7 +14,7 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""
 
-DEPEND="dev-python/setuptools"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 # setuptools is required in RDEPEND for entry points usage
 # We can't use 2.6's stdlib json because we need ordered dictionary support
 RDEPEND="${DEPEND}

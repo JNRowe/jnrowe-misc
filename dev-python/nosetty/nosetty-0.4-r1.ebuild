@@ -16,8 +16,8 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="examples"
 
-DEPEND="dev-python/setuptools"
-RDEPEND="dev-python/nose"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/nose[${PYTHON_USEDEP}]"
 
 DOCS=(CHANGELOG.txt README.txt)
 

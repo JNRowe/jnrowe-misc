@@ -19,8 +19,8 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
-RDEPEND="dev-python/pygments
-	>=dev-python/httplib2-0.7.0
+RDEPEND="dev-python/pygments[${PYTHON_USEDEP}]
+	>=dev-python/httplib2-0.7.0[${PYTHON_USEDEP}]
 	dev-python/oauth2
 	virtual/python-argparse[${PYTHON_USEDEP}]"
 

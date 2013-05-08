@@ -17,6 +17,6 @@ KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND=""
-RDEPEND="dev-python/pygments"
+RDEPEND="dev-python/pygments[${PYTHON_USEDEP}]"
 
 DOCS=(README)

@@ -25,7 +25,7 @@ DEPEND="dev-python/docutils[${PYTHON_USEDEP}]
 RDEPEND="dev-python/blessings[${PYTHON_USEDEP}]
 	dev-python/configobj
 	dev-python/httplib2
-	dev-python/lxml"
+	dev-python/lxml[${PYTHON_USEDEP}]"
 
 PATCHES=("${FILESDIR}"/${P}-fix_distribute_entry_point.patch)
 

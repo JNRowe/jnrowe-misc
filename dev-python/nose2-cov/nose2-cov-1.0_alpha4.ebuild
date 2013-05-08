@@ -15,7 +15,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
-DEPEND="dev-python/setuptools"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="dev-python/cov-core
 	dev-python/nose2[${PYTHON_USEDEP}]"
 

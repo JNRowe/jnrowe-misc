@@ -15,6 +15,6 @@ IUSE=""
 
 RDEPEND="virtual/python-argparse[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}
-	dev-python/setuptools"
+	dev-python/setuptools[${PYTHON_USEDEP}]"
 
 DOCS=(README.rst)

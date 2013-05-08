@@ -18,7 +18,7 @@ DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="${DEPEND}
 	dev-python/six
 	virtual/python-argparse[${PYTHON_USEDEP}]
-	virtual/python-unittest2"
+	virtual/python-unittest2[${PYTHON_USEDEP}]"
 
 PATCHES=("${FILESDIR}"/${PN}-0.4-remote_version_specific_runners.patch)
 

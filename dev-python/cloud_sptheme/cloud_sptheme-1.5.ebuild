@@ -13,7 +13,7 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="doc"
 
-RDEPEND=">=dev-python/sphinx-1.1"
+RDEPEND="dev-python/sphinx[${PYTHON_USEDEP}]"
 DEPEND="doc? ( ${RDEPEND} )"
 
 DOCS=(CHANGES README)

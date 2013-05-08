@@ -16,7 +16,7 @@ KEYWORDS="amd64 x86"
 IUSE="dbus"
 
 DEPEND=""
-RDEPEND="dev-python/pyserial
+RDEPEND="dev-python/pyserial[${PYTHON_USEDEP}]
 	net-dialup/ppp
 	dbus? ( dev-python/dbus-python )"
 

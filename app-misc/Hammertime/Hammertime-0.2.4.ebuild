@@ -19,4 +19,4 @@ IUSE=""
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 # setuptools needed in RDEPEND for wrapper scripts
 RDEPEND="${DEPEND}
-	>=dev-python/git-python-0.3.0"
+	>=dev-python/git-python-0.3.0[${PYTHON_USEDEP}]"

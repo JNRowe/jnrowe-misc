@@ -18,4 +18,4 @@ KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND=""
-RDEPEND="dev-python/nose"
+RDEPEND="dev-python/nose[${PYTHON_USEDEP}]"

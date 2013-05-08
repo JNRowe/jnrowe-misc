@@ -22,13 +22,13 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="doc minimal"
 
-RDEPEND="dev-python/configobj
-	dev-python/notify-python
-	dev-python/tweepy
-	dev-python/pygtk
+RDEPEND="dev-python/configobj[${PYTHON_USEDEP}]
+	dev-python/notify-python[${PYTHON_USEDEP}]
+	dev-python/tweepy[${PYTHON_USEDEP}]
+	dev-python/pygtk[${PYTHON_USEDEP}]
 	!minimal? (
 		dev-python/termcolor[${PYTHON_USEDEP}]
-		dev-python/setproctitle
+		dev-python/setproctitle[${PYTHON_USEDEP}]
 	)"
 DEPEND="${RDEPEND}
 	dev-python/docutils[${PYTHON_USEDEP}]
