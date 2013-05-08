@@ -18,8 +18,8 @@ IUSE="doc"
 
 DEPEND="doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 RDEPEND="virtual/python-argparse[${PYTHON_USEDEP}]
-	dev-python/prettytable
-	dev-python/progressbar"
+	dev-python/prettytable[${PYTHON_USEDEP}]
+	dev-python/progressbar[${PYTHON_USEDEP}]"
 
 PATCHES=("${FILESDIR}"/${P}-Removed_unused_intersphinx_settings.patch)
 
