@@ -14,7 +14,7 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="test"
 
-DEPEND="dev-python/setuptools
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
 	test? ( dev-python/should_dsl[${PYTHON_USEDEP}] )"
 RDEPEND=""
 
