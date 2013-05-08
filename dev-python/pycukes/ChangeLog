@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  08 May 2013; James Rowe <jnrowe@gmail.com> pycukes-0.2.ebuild:
+  Use $PYTHON_USEDEP, where possible.
+
   05 Apr 2013; James Rowe <jnrowe@gmail.com> pycukes-0.2.ebuild:
   Drop stable keywords for compat with upstream.
 
