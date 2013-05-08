@@ -18,7 +18,7 @@ DEPEND="test? ( virtual/python-json[${PYTHON_USEDEP}] )"
 RDEPEND="!minimal? (
 		dev-python/lxml
 		dev-python/progressbar
-		dev-python/pygments
+		dev-python/pygments[${PYTHON_USEDEP}]
 		virtual/python-json[${PYTHON_USEDEP}]
 	)"
 
