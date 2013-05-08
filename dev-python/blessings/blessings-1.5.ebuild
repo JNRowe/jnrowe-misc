@@ -14,7 +14,7 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="test"
 
-DEPEND="test? ( dev-python/nose )"
+DEPEND="test? ( dev-python/nose[${PYTHON_USEDEP}] )"
 RDEPEND=""
 
 RESTRICT="test"
