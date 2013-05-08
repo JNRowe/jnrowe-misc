@@ -15,8 +15,8 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="doc examples test"
 
-DEPEND="dev-python/setuptools"
-RDEPEND="dev-python/nose"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/nose[${PYTHON_USEDEP}]"
 
 # Tests fail to show usage
 RESTRICT="test"
