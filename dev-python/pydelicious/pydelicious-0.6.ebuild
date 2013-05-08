@@ -24,7 +24,7 @@ RESTRICT="test"
 
 # setuptools is an optional dependency for setup.py, but favour reproducibilty.
 DEPEND="app-arch/unzip
-	dev-python/setuptools"
+	dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="!minimal? ( dev-python/feedparser )"
 
 src_unpack() {
