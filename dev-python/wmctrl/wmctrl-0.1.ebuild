@@ -13,8 +13,8 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="test"
 
-DEPEND="dev-python/setuptools
-	test? ( dev-python/py )"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
+	test? ( dev-python/py[${PYTHON_USEDEP}] )"
 RDEPEND="dev-python/pyrepl[${PYTHON_USEDEP}]
 	x11-apps/xprop
 	x11-misc/wmctrl"
