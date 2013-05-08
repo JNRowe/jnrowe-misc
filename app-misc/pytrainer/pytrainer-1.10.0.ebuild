@@ -21,10 +21,10 @@ DEPEND=""
 RDEPEND="${DEPEND}
 	dev-libs/libxml2[python]
 	dev-libs/libxslt[python]
-	dev-python/lxml
-	dev-python/matplotlib
-	dev-python/pygtk
-	dev-python/python-dateutil
+	dev-python/lxml[${PYTHON_USEDEP}]
+	dev-python/matplotlib[${PYTHON_USEDEP}]
+	dev-python/pygtk[${PYTHON_USEDEP}]
+	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pywebkitgtk
 	dev-python/sqlalchemy-migrate
 	import? ( sci-geosciences/gpsbabel )

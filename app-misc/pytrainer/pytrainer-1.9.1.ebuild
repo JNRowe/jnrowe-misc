@@ -22,9 +22,9 @@ DEPEND=""
 RDEPEND="${DEPEND}
 	dev-libs/libxml2[python]
 	dev-libs/libxslt[python]
-	dev-python/lxml
+	dev-python/lxml[${PYTHON_USEDEP}]
 	dev-python/matplotlib
-	dev-python/pygtk
+	dev-python/pygtk[${PYTHON_USEDEP}]
 	dev-python/python-dateutil
 	dev-python/pywebkitgtk
 	dev-python/sqlalchemy-migrate
