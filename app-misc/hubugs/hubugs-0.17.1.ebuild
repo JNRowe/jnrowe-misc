@@ -25,15 +25,15 @@ DEPEND="${CDEPEND}
 	)
 	test? (
 		dev-python/nose2-cov[${PYTHON_USEDEP}]
-		dev-python/mock
+		dev-python/mock[${PYTHON_USEDEP}]
 	)"
 RDEPEND="${CDEPEND}
-	dev-python/aaargh
+	dev-python/aaargh[${PYTHON_USEDEP}]
 	dev-python/blessings[${PYTHON_USEDEP}]
-	dev-python/html2text
-	>=dev-python/httplib2-0.7.4
-	dev-python/jinja
-	dev-python/pygments"
+	dev-python/html2text[${PYTHON_USEDEP}]
+	>=dev-python/httplib2-0.7.4[${PYTHON_USEDEP}]
+	dev-python/jinja[${PYTHON_USEDEP}]
+	dev-python/pygments[${PYTHON_USEDEP}]"
 
 DOCS=(CONTRIBUTING.rst NEWS.rst README.rst)
 
