@@ -8,7 +8,7 @@ Package naming
 --------------
 
 The devmanual's suggestion that filenames should not contain uppercase
-characters only causes complex :envvar:`$PN`/:envvar:`$P` rewriting or
+characters only causes complex :envvar:`PN`/:envvar:`P` rewriting or
 duplication, and as such is ignored in this overlay.
 
 Commit messages
@@ -94,8 +94,8 @@ explanation of the reason for the restriction.  It should be obvious to someone
 looking at an ``ebuild`` the reason why tests, for example, are blocked for a
 given package.
 
-Of course, it is preferable to fix the underlying reason for needing a
-:envvar:`RESTRICT` definition, especially in the case of ``test`` and
+Of course, it is preferable to fix the underlying reason for needing
+a :envvar:`RESTRICT` definition, especially in the case of ``test`` and
 ``userpriv`` restrictions.
 
 .. _stabilisation.rem:

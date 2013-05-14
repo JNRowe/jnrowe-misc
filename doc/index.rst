@@ -53,6 +53,7 @@ Contents
    cupage
    contact
    contributing
+   appendix
 
 Indices and tables
 ==================
