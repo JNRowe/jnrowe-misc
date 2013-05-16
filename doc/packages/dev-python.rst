@@ -398,6 +398,14 @@
 
   * `0.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep257/pep257-0.2.0.ebuild>`__  ``amd64``, ``x86``
 
+* ``pep8-naming`` - http://pypi.python.org/pypi/pep8-naming/
+
+ * Check PEP-8 naming conventions, plugin for flake8
+ * Licence: ``MIT``
+ * Versions:
+
+  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep8-naming/pep8-naming-0.2.1.ebuild>`__  ``~amd64`` (due 2013-06-15), ``~x86`` (due 2013-06-15)
+
 * ``pgmagick`` - http://pypi.python.org/pypi/pgmagick/
 
  * Yet Another Python wrapper for GraphicsMagick
