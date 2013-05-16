@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		Check the PEP-8 naming conventions.
+
+		This module provides a plugin for <pkg>dev-python/flake8</pkg>, the
+		Python code checker.
+	</longdescription>
+	<upstream>
+		<remote-id type="github">flintwork/pep8-naming</remote-id>
+		<bugs-to>https://github.com/flintwork/pep8-naming/issues</bugs-to>
+	</upstream>
+</pkgmetadata>
