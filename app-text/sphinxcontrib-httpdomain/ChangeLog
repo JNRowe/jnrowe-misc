@@ -3,6 +3,11 @@
 # Distributed under the GPL v2
 
   17 May 2013; James Rowe <jnrowe@gmail.com>
+  -sphinxcontrib-httpdomain-1.1.7.ebuild,
+  sphinxcontrib-httpdomain-1.1.8.ebuild:
+  Keyworded amd64.
+
+  17 May 2013; James Rowe <jnrowe@gmail.com>
   sphinxcontrib-httpdomain-1.1.8.ebuild:
   Keyworded x86.
 

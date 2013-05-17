@@ -119,8 +119,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.7.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.8.ebuild>`__  ``~amd64`` (due 2013-05-17), ``x86``
+  * `0.2.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.8.ebuild>`__  ``amd64``, ``x86``
 
 * ``doctest-tools`` - http://code.google.com/p/doctest-tools/
 
@@ -290,8 +289,7 @@
  * Licence: ``MIT``
  * Versions:
 
-  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/mccabe/mccabe-0.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/mccabe/mccabe-0.2.1.ebuild>`__  ``~amd64`` (due 2013-05-17), ``x86``
+  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/mccabe/mccabe-0.2.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``micromodels`` - http://pypi.python.org/pypi/micromodels/
 
@@ -356,7 +354,7 @@
  * Versions:
 
   * `0.4.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.5.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.6.ebuild>`__  ``~amd64`` (due 2013-05-17), ``~x86`` (due 2013-06-16)
+  * `0.4.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.6.ebuild>`__  ``~amd64`` (due 2013-07-16), ``~x86`` (due 2013-06-16)
 
 * ``nose2-cov`` - http://pypi.python.org/pypi/nose2-cov/
 
