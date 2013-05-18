@@ -39,6 +39,8 @@ def gen_cupage_conf():
                     f.write('# %s is a live ebuild\n' % package)
                 elif 'upstream is dead' in watch_data:
                     f.write("# %s's upstream is dead\n" % package)
+                elif 'no further bumps' in watch_data:
+                    f.write("# %s no longer receives bumps\n" % package)
                 else:
                     if not watch_data.startswith('['):
                         f.write('[%s]\n' % package)
