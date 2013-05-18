@@ -20,7 +20,10 @@ RDEPEND="${DEPEND}
 	virtual/python-argparse[${PYTHON_USEDEP}]
 	virtual/python-unittest2[${PYTHON_USEDEP}]"
 
-PATCHES=("${FILESDIR}"/${PN}-0.4-remote_version_specific_runners.patch)
+PATCHES=(
+	"${FILESDIR}"/${PN}-0.4-remote_version_specific_runners.patch
+	"${FILESDIR}"/${P}-loosen_six_dependency.patch
+)
 
 DOCS=(AUTHORS README.rst)
 
