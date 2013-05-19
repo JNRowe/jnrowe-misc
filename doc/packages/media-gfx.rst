@@ -5,6 +5,7 @@
 
  * Render/convert graphs in/from various formats
  * Licence: ``GPL-2``
+ * Status: maintained
  * Versions:
 
   * `0.72 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/Graph-Easy/Graph-Easy-0.72.ebuild>`__  ``amd64``, ``x86``
@@ -13,6 +14,7 @@
 
  * Graph::Easy output as Scalable Vector Graphics (SVG)
  * Licence: ``GPL-2``
+ * Status: maintained
  * Versions:
 
   * `0.23 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/Graph-Easy-As_svg/Graph-Easy-As_svg-0.23.ebuild>`__  ``amd64``, ``x86``
@@ -21,6 +23,7 @@
 
  * ASCII art figures parsed and output as SVG, PNG, and more
  * Licence: ``BSD``
+ * Status: maintained
  * Versions:
 
   * `0.5-r2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/aafigure/aafigure-0.5-r2.ebuild>`__  ``amd64``, ``x86``
@@ -29,6 +32,7 @@
 
  * Generate activity-diagram image file from spec-text file
  * Licence: ``Apache-2.0``
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.4.1.ebuild>`__  ``amd64``, ``x86``
@@ -37,6 +41,7 @@
 
  * Generate block-diagram image files from text(like dot)
  * Licence: ``Apache-2.0``
+ * Status: maintained
  * Versions:
 
   * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.2.4.ebuild>`__  ``amd64``, ``x86``
@@ -45,6 +50,7 @@
 
  * Gruffy is Python implementation of Gruff(Ruby Graphing Library)
  * Licence: ``MIT``
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `0.3.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/gruffy/gruffy-0.3.3.ebuild>`__  ``amd64``, ``x86``
@@ -53,6 +59,7 @@
 
  * Generate network-diagram images from spec-text file
  * Licence: ``Apache-2.0``
+ * Status: maintained
  * Versions:
 
   * `0.9.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.9.4.ebuild>`__  ``amd64``, ``x86``
@@ -61,6 +68,7 @@
 
  * Generate sequence-diagram image files from spec-text files
  * Licence: ``Apache-2.0``
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.8.1.ebuild>`__  ``amd64``, ``x86``
@@ -69,6 +77,7 @@
 
  * dev-python/sphinx extension to support media-gfx/aafigure
  * Licence: ``BOLA``
+ * Status: maintained
  * Versions:
 
   * `1.0-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-aafig/sphinxcontrib-aafig-1.0-r1.ebuild>`__  ``amd64``, ``x86``
@@ -77,6 +86,7 @@
 
  * Sphinx extension to support media-gfx/blockdiag diagrams
  * Licence: ``BSD``
+ * Status: maintained
  * Versions:
 
   * `1.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-1.2.0.ebuild>`__  ``amd64``, ``x86``
@@ -85,6 +95,7 @@
 
  * Sphinx extension to support media-gfx/gruffy graphs
  * Licence: ``BSD``
+ * Status: maintained
  * Versions:
 
   * `0.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-gruffygen/sphinxcontrib-gruffygen-0.1.1.ebuild>`__  ``amd64``, ``x86``
@@ -93,6 +104,7 @@
 
  * Sphinx extension to include mscgen's sequence charts
  * Licence: ``BOLA``
+ * Status: maintained
  * Versions:
 
   * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-mscgen/sphinxcontrib-mscgen-0.4.ebuild>`__  ``amd64``, ``x86``

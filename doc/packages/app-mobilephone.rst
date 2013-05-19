@@ -5,6 +5,7 @@
 
  * Accessing Huawei modems in Python, including SMS and data calls.
  * Licence: ``BSD``
+ * Status: maintained
  * Versions:
 
   * `0.03 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-mobilephone/pyhumod/pyhumod-0.03.ebuild>`__  ``amd64``, ``x86``

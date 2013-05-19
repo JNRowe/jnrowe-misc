@@ -5,6 +5,7 @@
 
  * Minimalistic Python build tool inspired by Rake
  * Licence: ``GPL-3``
+ * Status: maintained
  * Versions:
 
   * `0.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/cake/cake-0.2.3.ebuild>`__  ``~amd64`` (due 2013-07-18), ``~x86`` (due 2013-06-03)
@@ -13,6 +14,7 @@
 
  * Utility to manage ccache and distcc
  * Licence: ``GPL-2+``
+ * Status: maintained
  * Versions:
 
   * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/ccontrol/ccontrol-1.0.ebuild>`__  ``amd64``, ``x86``
@@ -21,6 +23,7 @@
 
  * A simple testing framework for command line applications
  * Licence: ``GPL-2+``
+ * Status: maintained
  * Versions:
 
   * `0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/cram/cram-0.5.ebuild>`__  ``amd64``, ``x86``
@@ -29,6 +32,7 @@
 
  * A simple, light-weight distributed issue tracker designed for dVCS
  * Licence: ``GPL-3+``
+ * Status: maintained
  * Versions:
 
   * `0.5-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/ditz/ditz-0.5-r1.ebuild>`__  ``~amd64`` (due 2013-05-26), ``~x86`` (due 2013-07-10)
@@ -37,6 +41,7 @@
 
  * Produces metrics for C, C++, Javascript, and Python programs
  * Licence: ``LGPL-2.1``
+ * Status: maintained
  * Versions:
 
   * `0.1_alpha3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/metrics/metrics-0.1_alpha3.ebuild>`__  ``amd64``, ``x86``

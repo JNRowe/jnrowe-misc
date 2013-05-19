@@ -5,6 +5,7 @@
 
  * A utility that generates continuous GPS data for running tests
  * Licence: ``GPL-2+``
+ * Status: maintained
  * Versions:
 
   * `0.58 <https://github.com/JNRowe/jnrowe-misc/blob/master/sci-geosciences/gpsfeed/gpsfeed-0.58.ebuild>`__  ``amd64``, ``x86``
@@ -13,6 +14,7 @@
 
  * GPXViewer GPS trace viewer
  * Licence: ``GPL-3+``
+ * Status: maintained
  * Versions:
 
   * `0.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/sci-geosciences/gpxviewer/gpxviewer-0.4.3.ebuild>`__  ``~amd64`` (due 2013-05-24), ``~x86`` (due 2013-05-24)

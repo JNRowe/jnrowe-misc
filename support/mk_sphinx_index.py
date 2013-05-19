@@ -42,6 +42,14 @@ for line in open('profiles/package.mask'):
     MASKED.append(line.strip())
 
 
+def bumps_disabled(cat, pkg):
+    try:
+        watch_data = open('%s/%s/watch' % (cat, pkg)).read()
+    except IOError:
+        return False
+    return 'no further bumps' in watch_data
+
+
 def keywords(atom, keywords):
     cpv = atom[1:]
 
@@ -125,6 +133,10 @@ for package, meta in sorted(CACHE.items(), key=pkg_sort_key):
             output.append(' * Licence: ``%(LICENSE)s``' % meta)
         else:
             output.append(' * Licence: no source')
+        if bumps_disabled(c, p):
+            output.append(' * Status: deprecated, see :issue:`751`')
+        else:
+            output.append(' * Status: maintained')
         output.append(' * Versions:\n')
         pkg = p
 
