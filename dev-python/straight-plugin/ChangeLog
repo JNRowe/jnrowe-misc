@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  24 May 2013; James Rowe <jnrowe@gmail.com> straight-plugin-1.4.0_p1.ebuild:
+  Keyworded x86.
+
 *straight-plugin-1.4.0_p1 (24 Apr 2013)
 
   24 Apr 2013; James Rowe <jnrowe@gmail.com> +straight-plugin-1.4.0_p1.ebuild:
