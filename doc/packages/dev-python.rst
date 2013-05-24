@@ -669,8 +669,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.4.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.4.0.ebuild>`__  ``amd64``, ``x86``
-  * `1.4.0_p1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.4.0_p1.ebuild>`__  ``~amd64`` (due 2013-05-24), ``x86``
+  * `1.4.0_p1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.4.0_p1.ebuild>`__  ``amd64``, ``x86``
 
 * ``sure`` - http://pypi.python.org/pypi/sure/
 
