@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  24 May 2013; James Rowe <jnrowe@gmail.com> gpxviewer-0.4.3.ebuild:
+  Fix osmgpsmap dependency for upstream compatibility.
+
   18 Jan 2013; James Rowe <jnrowe@gmail.com> metadata.xml:
   Added remote-id metadata entry.
 

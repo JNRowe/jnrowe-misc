@@ -4,7 +4,7 @@
 EAPI=5
 
 # 3.x is restricted due to lack of support in python-distutils-extra
-PYTHON_COMPAT=(python2_{5..7})
+PYTHON_COMPAT=(python2_{6,7})
 
 GITHUB_USER=andrewgee
 
@@ -20,6 +20,6 @@ IUSE=""
 
 DEPEND="dev-python/python-distutils-extra
 	dev-util/intltool"
-RDEPEND="dev-python/python-osmgpsmap[${PYTHON_USEDEP}]"
+RDEPEND="sci-geosciences/osm-gps-map[${PYTHON_USEDEP}]"
 
 PATCHES=("${FILESDIR}"/${P}-valid_desktop.patch)
