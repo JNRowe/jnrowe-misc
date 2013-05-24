@@ -2,6 +2,10 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  24 May 2013; James Rowe <jnrowe@gmail.com> -pycha-0.6.0.ebuild,
+  pycha-0.7.0.ebuild:
+  Keyworded amd64.
+
   24 May 2013; James Rowe <jnrowe@gmail.com> pycha-0.7.0.ebuild:
   Keyworded x86.
 
