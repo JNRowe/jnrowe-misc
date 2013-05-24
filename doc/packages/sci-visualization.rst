@@ -26,6 +26,5 @@
  * Status: maintained
  * Versions:
 
-  * `0.6.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/sci-visualization/pycha/pycha-0.6.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.7.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/sci-visualization/pycha/pycha-0.7.0.ebuild>`__  ``~amd64`` (due 2013-05-24), ``x86``
+  * `0.7.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/sci-visualization/pycha/pycha-0.7.0.ebuild>`__  ``amd64``, ``x86``
 

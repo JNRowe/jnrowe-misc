@@ -481,15 +481,14 @@
 
   * `0.9.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/plac/plac-0.9.1.ebuild>`__  ``amd64``, ``x86``
 
-* ``pwtools`` - http://alastairs-place.net/projects/pwtools/
+* ``pwtools`` - http://pypi.python.org/pypi/pwtools/
 
  * Password generation and security checking
  * Licence: ``MIT``
  * Status: maintained
  * Versions:
 
-  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pwtools/pwtools-0.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pwtools/pwtools-0.4.ebuild>`__  ``~amd64`` (due 2013-05-24), ``x86``
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pwtools/pwtools-0.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``pyScss`` - http://pypi.python.org/pypi/pyScss/
 
@@ -669,8 +668,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.4.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.4.0.ebuild>`__  ``amd64``, ``x86``
-  * `1.4.0_p1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.4.0_p1.ebuild>`__  ``~amd64`` (due 2013-05-24), ``x86``
+  * `1.4.0_p1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.4.0_p1.ebuild>`__  ``amd64``, ``x86``
 
 * ``sure`` - http://pypi.python.org/pypi/sure/
 
