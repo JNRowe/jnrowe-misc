@@ -17,5 +17,5 @@
  * Status: maintained
  * Versions:
 
-  * `0.8.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/httpshell/httpshell-0.8.0.ebuild>`__  ``~amd64`` (due 2013-05-26), ``~x86`` (due 2013-05-26)
+  * `0.8.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/httpshell/httpshell-0.8.0.ebuild>`__  ``~amd64`` (due 2013-05-26), ``~x86`` (due 2013-06-25)
 
