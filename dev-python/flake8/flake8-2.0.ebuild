@@ -2,7 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-PYTHON_COMPAT=(python{2_{5..7},3_{1..3}})
+# 2.[67] and 3.1 are unavailable due to pyflakes dependency
+PYTHON_COMPAT=(python{2_7,3_{2,3}})
 
 inherit jnrowe-pypi
 
@@ -17,11 +18,11 @@ IUSE="test"
 RESTRICT="test"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
-	test? ( dev-python/nose2 )"
+	test? ( dev-python/nose2[${PYTHON_USEDEP}] )"
 # setuptools is required in RDEPEND for entry points usage
 RDEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
 	dev-python/mccabe[${PYTHON_USEDEP}]
-	>=dev-python/pyflakes-0.6.1
+	>=dev-python/pyflakes-0.7.2[${PYTHON_USEDEP}]
 	>=dev-python/pep8-1.4.3[${PYTHON_USEDEP}]"
 
 DOCS=(CONTRIBUTORS.txt README.rst)
