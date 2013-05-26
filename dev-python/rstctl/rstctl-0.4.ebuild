@@ -3,7 +3,8 @@
 
 EAPI=5
 
-PYTHON_COMPAT=(python2_{5..7})
+# 2.6 is dropped because of beaker dependency
+PYTHON_COMPAT=(python2_{6,7})
 
 inherit jnrowe-pypi
 
@@ -17,8 +18,8 @@ IUSE=""
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 # setuptools needed in RDEPEND for wrapper scripts
 RDEPEND="${DEPEND}
-	dev-python/beaker
+	dev-python/beaker[${PYTHON_USEDEP}]
 	dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/mako
+	dev-python/mako[${PYTHON_USEDEP}]
 	dev-python/pastescript
 	dev-python/sphinx[${PYTHON_USEDEP}]"
