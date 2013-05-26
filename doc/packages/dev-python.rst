@@ -190,6 +190,7 @@
  * Versions:
 
   * `1.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/feedcache/feedcache-1.4.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.4.1-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/feedcache/feedcache-1.4.1-r1.ebuild>`__  ``~amd64`` (due 2013-06-25), ``~x86`` (due 2013-06-25)
 
 * ``flake8`` - http://pypi.python.org/pypi/flake8/
 
