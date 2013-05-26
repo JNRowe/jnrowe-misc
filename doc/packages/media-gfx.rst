@@ -27,6 +27,7 @@
  * Versions:
 
   * `0.5-r2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/aafigure/aafigure-0.5-r2.ebuild>`__  ``amd64``, ``x86``
+  * `0.5-r3 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/aafigure/aafigure-0.5-r3.ebuild>`__  ``~amd64`` (due 2013-06-25), ``~x86`` (due 2013-06-25)
 
 * ``actdiag`` - http://pypi.python.org/pypi/actdiag/
 
