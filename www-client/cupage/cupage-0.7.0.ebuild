@@ -2,7 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-PYTHON_COMPAT=(python2_{6,7})
+# 2.6 is blocked because of USE=doc dependencies
+PYTHON_COMPAT=(python2_7)
 GITHUB_TAG=v${PV}
 GITHUB_USER="JNRowe"
 
@@ -20,10 +21,10 @@ DEPEND="dev-python/docutils[${PYTHON_USEDEP}]
 	doc? (
 		dev-python/cloud_sptheme[${PYTHON_USEDEP}]
 		dev-python/sphinx[${PYTHON_USEDEP}]
-		media-gfx/sphinxcontrib-blockdiag
+		media-gfx/sphinxcontrib-blockdiag[${PYTHON_USEDEP}]
 	)"
 RDEPEND="dev-python/blessings[${PYTHON_USEDEP}]
-	dev-python/configobj
+	dev-python/configobj[${PYTHON_USEDEP}]
 	dev-python/httplib2
 	dev-python/lxml[${PYTHON_USEDEP}]"
 
