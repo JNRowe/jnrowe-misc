@@ -14,7 +14,7 @@ HOMEPAGE="http://jnrowe.github.io/${PN}/"
 
 LICENSE="GPL-3+"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE="doc"
 
 DEPEND="dev-python/docutils[${PYTHON_USEDEP}]
@@ -25,7 +25,7 @@ DEPEND="dev-python/docutils[${PYTHON_USEDEP}]
 	)"
 RDEPEND="dev-python/blessings[${PYTHON_USEDEP}]
 	dev-python/configobj[${PYTHON_USEDEP}]
-	dev-python/httplib2
+	dev-python/httplib2[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]"
 
 PATCHES=("${FILESDIR}"/${P}-fix_distribute_entry_point.patch)

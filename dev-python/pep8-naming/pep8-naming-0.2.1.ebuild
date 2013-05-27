@@ -16,4 +16,4 @@ IUSE=""
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 # setuptools is required in RDEPEND for entry points usage
 RDEPEND="${DEPEND}
-	dev-python/flake8"
+	dev-python/flake8[${PYTHON_USEDEP}]"

@@ -21,7 +21,7 @@ IUSE=""
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="dev-python/pygments[${PYTHON_USEDEP}]
 	>=dev-python/httplib2-0.7.0[${PYTHON_USEDEP}]
-	dev-python/oauth2
+	dev-python/oauth2[${PYTHON_USEDEP}]
 	virtual/python-argparse[${PYTHON_USEDEP}]"
 
 PATCHES=("${FILESDIR}"/${P}-use_system_certs.patch)

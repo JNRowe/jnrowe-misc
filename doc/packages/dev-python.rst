@@ -9,6 +9,7 @@
  * Versions:
 
   * `0.5.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Attest/Attest-0.5.3.ebuild>`__  ``amd64``, ``x86``
+  * `0.5.3-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Attest/Attest-0.5.3-r1.ebuild>`__  ``~amd64`` (due 2013-06-25), ``~x86`` (due 2013-06-25)
 
 * ``Basket`` - http://pypi.python.org/pypi/Basket/
 
@@ -189,6 +190,7 @@
  * Versions:
 
   * `1.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/feedcache/feedcache-1.4.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.4.1-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/feedcache/feedcache-1.4.1-r1.ebuild>`__  ``~amd64`` (due 2013-06-25), ``~x86`` (due 2013-06-25)
 
 * ``flake8`` - http://pypi.python.org/pypi/flake8/
 
@@ -208,6 +210,7 @@
  * Versions:
 
   * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/freshen/freshen-0.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.2-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/freshen/freshen-0.2-r1.ebuild>`__  ``~amd64`` (due 2013-06-25), ``~x86`` (due 2013-06-25)
 
 * ``funcparserlib`` - http://pypi.python.org/pypi/funcparserlib/
 
@@ -271,6 +274,7 @@
  * Versions:
 
   * `0.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html2data/html2data-0.4.3.ebuild>`__  ``amd64``, ``x86``
+  * `0.4.3-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html2data/html2data-0.4.3-r1.ebuild>`__  ``~amd64`` (due 2013-06-25), ``~x86`` (due 2013-06-25)
 
 * ``httpretty`` - http://pypi.python.org/pypi/httpretty/
 
@@ -525,6 +529,7 @@
  * Versions:
 
   * `0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pydelicious/pydelicious-0.6.ebuild>`__  ``amd64``, ``x86``
+  * `0.6-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pydelicious/pydelicious-0.6-r1.ebuild>`__  ``~amd64`` (due 2013-06-25), ``~x86`` (due 2013-06-25)
 
 * ``pyhistorian`` - https://github.com/hugobr/pyhistorian
 
@@ -606,6 +611,7 @@
  * Versions:
 
   * `0.2-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/shelldoctest/shelldoctest-0.2-r1.ebuild>`__  ``amd64``, ``x86``
+  * `0.2-r2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/shelldoctest/shelldoctest-0.2-r2.ebuild>`__  ``~amd64`` (due 2013-06-25), ``~x86`` (due 2013-06-25)
 
 * ``should_dsl`` - https://github.com/hugobr/should-dsl
 

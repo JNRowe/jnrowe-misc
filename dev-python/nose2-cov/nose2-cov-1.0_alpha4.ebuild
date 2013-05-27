@@ -3,7 +3,8 @@
 
 EAPI=5
 # Python 2.5 isn't supported by nose2
-PYTHON_COMPAT=(python{2_{6,7},3_{1..3}})
+# 2.6 and 3.1 are skipped because of cov-core dependency
+PYTHON_COMPAT=(python{2_7,3_{2,3}})
 MY_PV="${PV/_alpha/a}"
 
 inherit jnrowe-pypi
@@ -16,7 +17,7 @@ KEYWORDS="~amd64"
 IUSE=""
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
-RDEPEND="dev-python/cov-core
+RDEPEND="dev-python/cov-core[${PYTHON_USEDEP}]
 	dev-python/nose2[${PYTHON_USEDEP}]"
 
 DOCS=(README.txt)

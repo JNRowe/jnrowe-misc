@@ -2,7 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-PYTHON_COMPAT=(python{2_{5..7},3_{1..3}})
+# 2.5 is blocked because of pycairo dependency
+PYTHON_COMPAT=(python{2_{6,7},3_{1..3}})
 
 inherit python-r1
 
@@ -16,7 +17,7 @@ KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND=""
-RDEPEND="dev-python/pycairo"
+RDEPEND="dev-python/pycairo[${PYTHON_USEDEP}]"
 
 DOCS=(NEWS TODO)
 
