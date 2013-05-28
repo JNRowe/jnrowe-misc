@@ -2,6 +2,11 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+*ccontrol-1.0-r1 (28 May 2013)
+
+  28 May 2013; James Rowe <jnrowe@gmail.com> +ccontrol-1.0-r1.ebuild:
+  Use python-r1 for GUI script.
+
   26 Nov 2012; James Rowe <jnrowe@gmail.com> ccontrol-1.0.ebuild:
   Switched to EAPI-5.
 
