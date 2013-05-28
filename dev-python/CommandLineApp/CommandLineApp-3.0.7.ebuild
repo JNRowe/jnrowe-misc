@@ -13,11 +13,17 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""
 
-# Should switch to system dev-python/paver when it supports multi-ABI.
-DEPEND=""
-RDEPEND="${DEPEND}"
+DEPEND="dev-python/paver[${PYTHON_USEDEP}]"
+RDEPEND=""
 
 HTML_DOCS=(docs/build/html/)
+
+src_prepare() {
+	# Use system paver, /slightly/ better feeling
+	rm paver-minilib.zip
+
+	distutils-r1_src_prepare
+}
 
 python_test() {
 	nosetests || die
