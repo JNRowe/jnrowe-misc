@@ -658,6 +658,15 @@
 
   * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sphinxcontrib-cheeseshop/sphinxcontrib-cheeseshop-0.2.ebuild>`__  ``amd64``, ``x86``
 
+* ``sphinxcontrib-httpdomain`` - http://packages.python.org/sphinxcontrib-httpdomain/
+
+ * dev-python/sphinx extension to document HTTP APIs
+ * Licence: ``BSD-2``
+ * Status: maintained
+ * Versions:
+
+  * `1.1.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sphinxcontrib-httpdomain/sphinxcontrib-httpdomain-1.1.8.ebuild>`__  ``amd64``, ``x86``
+
 * ``story_parser`` - https://github.com/hugobr/story_parser
 
  * A Given/When/Then BDD stories parser
