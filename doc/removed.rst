@@ -234,7 +234,7 @@ culled.
 :Removal date: 2010-01-05
 
 ``feedgenerator``
-~~~~~~~~~~~~~~~~~
+'''''''''''''''''
 
     ``feedgenerator`` now packaged upstream.
 
@@ -346,7 +346,7 @@ culled.
 :Removal date: 2012-12-03
 
 ``pycparser``
-~~~~~~~~~~~~~
+'''''''''''''
 
     ``pycparser`` now packaged upstream.
 
