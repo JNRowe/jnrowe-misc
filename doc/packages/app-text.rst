@@ -37,12 +37,3 @@
 
   * `0.1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/sphinxcontrib-googlechart/sphinxcontrib-googlechart-0.1.5.ebuild>`__  ``amd64``, ``x86``
 
-* ``sphinxcontrib-httpdomain`` - http://packages.python.org/sphinxcontrib-httpdomain/
-
- * dev-python/sphinx extension to document HTTP APIs
- * Licence: ``BSD-2``
- * Status: maintained
- * Versions:
-
-  * `1.1.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/sphinxcontrib-httpdomain/sphinxcontrib-httpdomain-1.1.8.ebuild>`__  ``amd64``, ``x86``
-

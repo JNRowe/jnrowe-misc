@@ -451,6 +451,16 @@ culled.
 :Commit: :commit:`740ada6b <740ada6bbcab5d5c0ad356eefa489299eada69a7>`
 :Removal date: 2011-09-13
 
+``sphinxcontrib-httpdomain``
+''''''''''''''''''''''''''''
+
+    The shadowed ``ebuild`` will exist until upstream's has matching visibility
+    at the very least.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`56ea0e11 <56ea0e11ab7c3b5f88258ab000d5af1ebd39c99d>`
+:Removal date: 2013-06-11
+
 ``termcolor``
 '''''''''''''
 
