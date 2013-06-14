@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-PYTHON_COMPAT=(python2_{5..7})
+PYTHON_COMPAT=(python2_{6,7})
 
 inherit distutils-r1 readme.gentoo
 
@@ -18,7 +18,7 @@ IUSE="dbus"
 DEPEND=""
 RDEPEND="dev-python/pyserial[${PYTHON_USEDEP}]
 	net-dialup/ppp
-	dbus? ( dev-python/dbus-python )"
+	dbus? ( dev-python/dbus-python[${PYTHON_USEDEP}] )"
 
 PATCHES=("${FILESDIR}"/${P}-build_fixes.patch)
 
