@@ -18,7 +18,7 @@ esac
 # jnrowe@gmail.com
 # @BLURB: Simplify ebuilds for GitHub hosted packages
 # @DESCRIPTION:
-# This eclass is designed to to remove some of the duplication necessary
+# This eclass is designed to remove some of the duplication necessary
 # in supporting packages hosted on Github.
 # @EXAMPLE:
 #
