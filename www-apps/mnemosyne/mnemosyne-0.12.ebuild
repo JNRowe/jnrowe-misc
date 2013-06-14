@@ -3,7 +3,7 @@
 
 EAPI=5
 
-PYTHON_COMPAT=(python2_{5..7})
+PYTHON_COMPAT=(python2_{6,7})
 
 inherit distutils-r1
 
@@ -18,7 +18,7 @@ IUSE="examples"
 
 DEPEND=""
 RDEPEND="dev-python/docutils[${PYTHON_USEDEP}]
-	dev-python/kid"
+	dev-python/kid[${PYTHON_USEDEP}]"
 
 python_install_all() {
 	distutils-r1_python_install_all
