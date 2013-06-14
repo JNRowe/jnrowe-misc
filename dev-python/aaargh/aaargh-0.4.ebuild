@@ -17,4 +17,6 @@ RDEPEND="virtual/python-argparse[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]"
 
+PATCHES=("${FILESDIR}"/${P}-fix_argparse_dep.patch)
+
 DOCS=(README.rst)
