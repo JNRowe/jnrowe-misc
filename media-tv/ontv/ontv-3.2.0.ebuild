@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-PYTHON_COMPAT=(python2_{5..7})
+PYTHON_COMPAT=(python2_{6,7})
 GCONF_DEBUG="no"
 GNOME_TARBALL_SUFFIX="bz2"
 
@@ -17,12 +17,12 @@ KEYWORDS="amd64 x86"
 IUSE="+xmltv"
 
 COMMON_DEPEND="dev-python/gnome-applets-python
-	dev-python/notify-python
+	dev-python/notify-python[${PYTHON_USEDEP}]
 	gnome-base/gconf
 	x11-libs/vte[python]
 	${PYTHON_DEPS}"
 RDEPEND="${COMMON_DEPEND}
-	dev-python/dbus-python
+	dev-python/dbus-python[${PYTHON_USEDEP}]
 	xmltv? ( media-tv/xmltv )"
 DEPEND="${COMMON_DEPEND}
 	dev-util/intltool
