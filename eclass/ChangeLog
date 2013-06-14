@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  14 Jun 2013; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass:
+  Update description to match mixed eclass usage.
+
   17 Apr 2013; James Rowe <jnrowe@gmail.com> jnrowe-github.eclass:
   Update GitHub download location.
 

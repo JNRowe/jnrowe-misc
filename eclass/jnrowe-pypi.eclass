@@ -37,8 +37,8 @@ fi
 # jnrowe@gmail.com
 # @BLURB: Simplify ebuilds for pypi hosted packages
 # @DESCRIPTION:
-# This eclass is a simple wrapper around the distutils eclass, to remove some of
-# the boilerplate necessary for ebuilds for packages on PyPI.
+# This eclass is a simple wrapper around the python eclasses, to remove some of
+# the boilerplate necessary in maintaining ebuilds for packages on PyPI.
 # @EXAMPLE:
 #
 # @CODE
