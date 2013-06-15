@@ -456,7 +456,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep8-naming/pep8-naming-0.2.1.ebuild>`__  ``~amd64`` (due 2013-06-15), ``x86``
+  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep8-naming/pep8-naming-0.2.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``pgmagick`` - http://pypi.python.org/pypi/pgmagick/
 
