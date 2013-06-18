@@ -79,23 +79,6 @@ an email_ and I'll update the list!
    access to the AST overlay you can see their contributions in its repository
    history.
 
-Python multi-ABI support
-------------------------
-
-Where applicable Python packages in this repository support multiple Python
-versions as specified in `Gentoo Python Developers Guide`_.  Unfortunately,
-there are various problems such as broken dependency specification that can't be
-worked around using the prescribed method.
-
-If you find any dependency problems with the Python packages in this overlay
-please check the ``ebuild`` and try to resolve the problem yourself before
-reporting bugs.  There is very little that can be done to fix this without
-breaking compatibility with upstream, so bugs relating to multiple ABI support
-will likely be closed as CANTFIX.
-
-Hopefully upstream will fix or acknowledge the breakages soon, and then this can
-be resolved correctly.
-
 ``oilman`` integration
 ----------------------
 
@@ -170,4 +153,3 @@ to make use of this functionality.
 .. _cupage: https://github.com/JNRowe/cupage
 .. _GitHub: https://github.com/
 .. _rsync: http://rsync.samba.org/
-.. _Gentoo Python Developers Guide: http://www.gentoo.org/proj/en/Python/developersguide.xml
