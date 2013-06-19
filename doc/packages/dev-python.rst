@@ -538,7 +538,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.6.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyhistorian/pyhistorian-0.6.8.ebuild>`__  ``~amd64`` (due 2013-07-19), ``~x86`` (due 2013-06-19)
+  * `0.6.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyhistorian/pyhistorian-0.6.8.ebuild>`__  ``~amd64`` (due 2013-07-19), ``~x86`` (due 2013-08-03)
 
 * ``pyisbn`` - http://pypi.python.org/pypi/pyisbn/
 
