@@ -189,8 +189,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/feedcache/feedcache-1.4.1.ebuild>`__  ``amd64``, ``x86``
-  * `1.4.1-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/feedcache/feedcache-1.4.1-r1.ebuild>`__  ``~amd64`` (indefinite), ``~x86`` (indefinite)
+  * `1.4.1-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/feedcache/feedcache-1.4.1-r1.ebuild>`__  ``amd64``, ``x86``
 
 * ``flake8`` - http://pypi.python.org/pypi/flake8/
 
@@ -528,8 +527,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pydelicious/pydelicious-0.6.ebuild>`__  ``amd64``, ``x86``
-  * `0.6-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pydelicious/pydelicious-0.6-r1.ebuild>`__  ``~amd64`` (indefinite), ``~x86`` (indefinite)
+  * `0.6-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pydelicious/pydelicious-0.6-r1.ebuild>`__  ``amd64``, ``x86``
 
 * ``pyhistorian`` - https://github.com/hugobr/pyhistorian
 
