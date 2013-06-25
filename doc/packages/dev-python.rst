@@ -9,7 +9,7 @@
  * Versions:
 
   * `0.5.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Attest/Attest-0.5.3.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.3-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Attest/Attest-0.5.3-r1.ebuild>`__  ``~amd64`` (due 2013-06-25), ``~x86`` (due 2013-06-25)
+  * `0.5.3-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Attest/Attest-0.5.3-r1.ebuild>`__  ``~amd64`` (due 2013-06-25), ``~x86`` (due 2013-07-25)
 
 * ``Basket`` - http://pypi.python.org/pypi/Basket/
 
