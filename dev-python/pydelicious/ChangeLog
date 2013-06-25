@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  25 Jun 2013; James Rowe <jnrowe@gmail.com> pydelicious-0.6-r1.ebuild:
+  Keyworded x86.
+
 *pydelicious-0.6-r1 (26 May 2013)
 
   26 May 2013; James Rowe <jnrowe@gmail.com> +pydelicious-0.6-r1.ebuild:
