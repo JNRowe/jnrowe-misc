@@ -7,7 +7,6 @@ REM 2013-06-25 *1 MSG %"Stabilise amd64 dev-python/shelldoctest-0.2-r2%" %a
 REM 2013-06-25 *1 MSG %"Stabilise amd64 media-gfx/aafigure-0.5-r3%" %a
 REM 2013-06-25 *1 MSG %"Stabilise amd64 media-gfx/blockdiag-1.2.4-r1%" %a
 REM 2013-06-25 *1 MSG %"Stabilise amd64 sci-geosciences/gpxviewer-0.4.3-r1%" %a
-REM 2013-06-25 *1 MSG %"Stabilise x86 www-client/httpshell-0.8.0%" %a
 REM 2013-06-26 *1 MSG %"Stabilise amd64 www-client/cupage-0.7.0-r1%" %a
 REM 2013-06-26 *1 MSG %"Stabilise x86 www-client/cupage-0.7.0-r1%" %a
 REM 2013-06-27 *1 MSG %"Stabilise amd64 dev-util/ccontrol-1.0-r1%" %a
@@ -53,6 +52,7 @@ REM 2013-07-25 *1 MSG %"Stabilise x86 dev-vcs/gitflow-0.4.1-r2%" %a
 REM 2013-07-25 *1 MSG %"Stabilise x86 media-gfx/aafigure-0.5-r3%" %a
 REM 2013-07-25 *1 MSG %"Stabilise x86 media-gfx/blockdiag-1.2.4-r1%" %a
 REM 2013-07-25 *1 MSG %"Stabilise x86 sci-geosciences/gpxviewer-0.4.3-r1%" %a
+REM 2013-07-25 *1 MSG %"Stabilise x86 www-client/httpshell-0.8.0%" %a
 REM 2013-07-27 *1 MSG %"Stabilise x86 dev-python/flake8-2.0%" %a
 
 REM 2013-08-01 *1 MSG %"Stabilise x86 x11-misc/xorg-launch-helper-4%" %a
