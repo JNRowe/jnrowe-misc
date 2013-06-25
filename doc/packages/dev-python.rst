@@ -529,7 +529,7 @@
  * Versions:
 
   * `0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pydelicious/pydelicious-0.6.ebuild>`__  ``amd64``, ``x86``
-  * `0.6-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pydelicious/pydelicious-0.6-r1.ebuild>`__  ``~amd64`` (due 2013-06-25), ``~x86`` (indefinite)
+  * `0.6-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pydelicious/pydelicious-0.6-r1.ebuild>`__  ``~amd64`` (indefinite), ``~x86`` (indefinite)
 
 * ``pyhistorian`` - https://github.com/hugobr/pyhistorian
 
