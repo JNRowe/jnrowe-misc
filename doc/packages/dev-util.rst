@@ -17,8 +17,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/ccontrol/ccontrol-1.0.ebuild>`__  ``amd64``, ``x86``
-  * `1.0-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/ccontrol/ccontrol-1.0-r1.ebuild>`__  ``~amd64`` (due 2013-06-27), ``x86``
+  * `1.0-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/ccontrol/ccontrol-1.0-r1.ebuild>`__  ``amd64``, ``x86``
 
 * ``cram`` - http://bitheap.org/cram/
 
