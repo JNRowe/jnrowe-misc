@@ -136,6 +136,7 @@
  * Versions:
 
   * `0.2.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.8.ebuild>`__  ``amd64``, ``x86``
+  * `0.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.4.3.ebuild>`__  ``~amd64`` (due 2013-07-29), ``~x86`` (due 2013-07-29)
 
 * ``doctest-tools`` - http://code.google.com/p/doctest-tools/
 
@@ -219,6 +220,7 @@
  * Versions:
 
   * `0.3.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/funcparserlib/funcparserlib-0.3.5.ebuild>`__  ``amd64``, ``x86``
+  * `0.3.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/funcparserlib/funcparserlib-0.3.6.ebuild>`__  ``~amd64`` (due 2013-07-29), ``~x86`` (due 2013-07-29)
 
 * ``fuzzywuzzy`` - http://pypi.python.org/pypi/fuzzywuzzy/
 
@@ -228,6 +230,7 @@
  * Versions:
 
   * `0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fuzzywuzzy/fuzzywuzzy-0.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fuzzywuzzy/fuzzywuzzy-0.2.ebuild>`__  ``~amd64`` (due 2013-07-29), ``~x86`` (due 2013-07-29)
 
 * ``genzshcomp`` - http://bitbucket.org/hhatto/genzshcomp/
 
@@ -429,6 +432,7 @@
  * Versions:
 
   * `1.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.6.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.6.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.6.2.ebuild>`__  ``~amd64`` (due 2013-07-29), ``~x86`` (due 2013-07-29)
 
 * ``pdbpp`` - http://pypi.python.org/pypi/pdbpp/
 
@@ -736,6 +740,7 @@
  * Versions:
 
   * `1.2.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-1.2.5.ebuild>`__  ``amd64``, ``x86``
+  * `2.0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-2.0.3.ebuild>`__  ``~amd64`` (due 2013-07-29), ``~x86`` (due 2013-07-29)
 
 * ``webcolors`` - http://pypi.python.org/pypi/webcolors/
 
