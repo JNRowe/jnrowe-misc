@@ -220,6 +220,7 @@
  * Versions:
 
   * `0.3.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/funcparserlib/funcparserlib-0.3.5.ebuild>`__  ``amd64``, ``x86``
+  * `0.3.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/funcparserlib/funcparserlib-0.3.6.ebuild>`__  ``~amd64`` (due 2013-07-29), ``~x86`` (due 2013-07-29)
 
 * ``fuzzywuzzy`` - http://pypi.python.org/pypi/fuzzywuzzy/
 
