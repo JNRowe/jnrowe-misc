@@ -591,7 +591,7 @@
 
  * Structured Data for Humans
  * Licence: ``BSD``
- * Status: maintained
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/schematics/schematics-0.5.ebuild>`__  ``amd64``, ``x86``
