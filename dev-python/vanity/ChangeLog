@@ -2,6 +2,11 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+*vanity-2.0.3 (29 Jun 2013)
+
+  29 Jun 2013; James Rowe <jnrowe@gmail.com> +vanity-2.0.3.ebuild:
+  Version bump [799].
+
   08 May 2013; James Rowe <jnrowe@gmail.com> vanity-1.2.5.ebuild:
   Use $PYTHON_USEDEP, where possible.
 
