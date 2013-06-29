@@ -1,0 +1,19 @@
+Title: dev-python/schematics is no longer receiving version bumps
+Author: James Rowe <jnrowe@gmail.com>
+Content-Type: text/plain
+Posted: 2013-06-29
+Revision: 1
+News-Item-Format: 1.0
+Display-If-Installed: dev-python/schematics
+
+The ``jnrowe-misc`` repository has now entered maintenance mode, and
+dev-python/schematics will no longer be receiving version bumps.  Bug
+fixes may still be applied as time permits.
+
+Feel free to step up and maintain this package if you want to see it
+move forward.
+
+Specifically, in the case of ``schematics`` you should be aware that
+newer versions are incompatible and a considerable amount of effort
+would need to be expended before a bump for this package could be
+applied.
