@@ -1,4 +1,3 @@
-REM 2013-07-03 *1 MSG %"Stabilise x86 dev-python/showme-1.0.0%" %a
 REM 2013-07-03 *1 MSG %"Stabilise x86 dev-util/cake-0.2.3%" %a
 REM 2013-07-04 *1 MSG %"Stabilise amd64 dev-python/pycukes-0.2%" %a
 REM 2013-07-04 *1 MSG %"Stabilise x86 dev-python/pycukes-0.2%" %a
@@ -59,6 +58,7 @@ REM 2013-08-01 *1 MSG %"Stabilise x86 x11-misc/xorg-launch-helper-4%" %a
 REM 2013-08-02 *1 MSG %"Stabilise x86 dev-python/lettuce-0.2.14%" %a
 REM 2013-08-02 *1 MSG %"Stabilise amd64 dev-python/nose2-cov-1.0_alpha4%" %a
 REM 2013-08-02 *1 MSG %"Stabilise x86 dev-python/rad-0.1.2%" %a
+REM 2013-08-02 *1 MSG %"Stabilise x86 dev-python/showme-1.0.0%" %a
 REM 2013-08-03 *1 MSG %"Stabilise x86 app-misc/pw-0.2.3%" %a
 REM 2013-08-03 *1 MSG %"Stabilise x86 dev-python/pyhistorian-0.6.8%" %a
 REM 2013-08-06 *1 MSG %"Stabilise amd64 net-misc/bleeter-0.8.0%" %a
