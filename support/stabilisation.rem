@@ -1,4 +1,3 @@
-REM 2013-07-04 *1 MSG %"Stabilise amd64 dev-python/pycukes-0.2%" %a
 REM 2013-07-04 *1 MSG %"Stabilise x86 dev-python/pycukes-0.2%" %a
 REM 2013-07-07 *1 MSG %"Stabilise amd64 dev-python/termtool-1.0%" %a
 REM 2013-07-08 *1 MSG %"Stabilise x86 sci-geosciences/gpxviewer-0.4.3%" %
@@ -72,6 +71,7 @@ REM 2013-08-09 *1 MSG %"Stabilise amd64 media-gfx/blockdiag-1.2.4-r1%" %a
 REM 2013-08-09 *1 MSG %"Stabilise amd64 sci-geosciences/gpxviewer-0.4.3-r1%" %a
 REM 2013-08-10 *1 MSG %"Stabilise amd64 www-client/cupage-0.7.0-r1%" %a
 REM 2013-08-12 *1 MSG %"Stabilise amd64 dev-python/rstctl-0.4%" %a
+REM 2013-08-18 *1 MSG %"Stabilise amd64 dev-python/pycukes-0.2%" %a
 REM 2013-08-24 *1 MSG %"Stabilise amd64 dev-vcs/gitflow-0.4.1-r2%" %a
 REM 2013-08-25 *1 MSG %"Stabilise amd64 www-apps/mnemosyne-0.12%" %a
 
