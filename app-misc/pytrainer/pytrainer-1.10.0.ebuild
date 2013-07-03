@@ -25,8 +25,8 @@ RDEPEND="${DEPEND}
 	dev-python/matplotlib[${PYTHON_USEDEP}]
 	dev-python/pygtk[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pywebkitgtk
-	dev-python/sqlalchemy-migrate
+	dev-python/pywebkitgtk[${PYTHON_USEDEP}]
+	dev-python/sqlalchemy-migrate[${PYTHON_USEDEP}]
 	import? ( sci-geosciences/gpsbabel )
 	elevation? ( sci-libs/gdal[python] )"
 
