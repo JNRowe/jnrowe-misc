@@ -63,8 +63,9 @@ Indices and tables
 
 .. [#]
    If you want to hear the many and varied reasons, ask me in person the next
-   time we meet at a conference.  It will cost you a beer or two, but you'll
-   be able to enjoy the relentless chadenfraude of my disappointment.
+   time we meet at a conference.  You'll be able to enjoy the relentless
+   chadenfraude of my disappointment, and you'll win yourself a few free beers
+   at the same time.
 
 .. _Python: http://python.org/
 .. _awesome: http://awesome.naquadah.org/
