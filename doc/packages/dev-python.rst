@@ -403,8 +403,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.4.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.5.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.6.ebuild>`__  ``~amd64`` (due 2013-07-16), ``x86``
+  * `0.4.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.6.ebuild>`__  ``amd64``, ``x86``
 
 * ``nose2-cov`` - http://pypi.python.org/pypi/nose2-cov/
 
