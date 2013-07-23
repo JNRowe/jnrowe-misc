@@ -2,6 +2,10 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  23 Jul 2013; James Rowe <jnrowe@gmail.com> -rdial-0.11.2.ebuild:
+  Removed stale ebuild, newer version will be available for stabilisation
+  around the same time.
+
   05 Apr 2013; James Rowe <jnrowe@gmail.com> rdial-0.11.2.ebuild,
   rdial-0.11.3.ebuild:
   Drop ~x86 for compatibility with upstream's cov-core, should've have caught
