@@ -3,8 +3,9 @@
 
 EAPI=5
 # 2.5 is restricted due to unavailable dependencies and 2.6+ syntax
+# 2.6 is restricted due to incorrect upstream cov-core ebuild
 # 3.x is restricted due to blessings dependency
-PYTHON_COMPAT=(python2_{6,7})
+PYTHON_COMPAT=(python2_7)
 
 inherit jnrowe-pypi
 
