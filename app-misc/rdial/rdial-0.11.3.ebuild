@@ -2,8 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
+# 2.6 is restricted due to incorrect upstream cov-core ebuild
 # Python 3.{1,2} blocked because of missing fixes in Gentoo's python ebuilds
-PYTHON_COMPAT=(python{2_{6,7},3_3})
+PYTHON_COMPAT=(python{2_7,3_3})
 GITHUB_TAG=v${PV}
 GITHUB_USER="JNRowe"
 

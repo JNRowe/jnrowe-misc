@@ -2,6 +2,10 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  23 Jul 2013; James Rowe <jnrowe@gmail.com> rdial-0.11.3.ebuild:
+  Drop Python 2.6 support to workaround incorrect cov-core ebuild upstream. Use
+  parato if you need 2.6 support.
+
   23 Jul 2013; James Rowe <jnrowe@gmail.com> -rdial-0.11.2.ebuild:
   Removed stale ebuild, newer version will be available for stabilisation
   around the same time.
