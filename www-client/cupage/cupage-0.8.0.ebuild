@@ -3,7 +3,9 @@
 
 EAPI=5
 # 2.6 is blocked because of USE=doc dependencies
-PYTHON_COMPAT=(python{2_7,3_{1,2,3}})
+# 3.x is blocked because of sphinxcontrib-blockdiag dependency
+# 3.{1,2} are blocked because of blessings dependency
+PYTHON_COMPAT=(python2_7)
 GITHUB_TAG=v${PV}
 GITHUB_USER="JNRowe"
 
@@ -14,7 +16,7 @@ HOMEPAGE="http://jnrowe.github.io/${PN}/"
 
 LICENSE="GPL-3+"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64"
 IUSE="doc test"
 
 DEPEND="dev-python/docutils[${PYTHON_USEDEP}]
