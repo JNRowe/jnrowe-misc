@@ -9,7 +9,6 @@
  * Versions:
 
   * `0.7.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/cupage/cupage-0.7.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.7.0-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/cupage/cupage-0.7.0-r1.ebuild>`__  ``~amd64`` (due 2013-08-10), ``~x86`` (due 2013-07-26)
   * `0.8.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/cupage/cupage-0.8.0.ebuild>`__  ``~amd64`` (due 2013-07-29), ``~x86`` (due 2013-07-29)
 
 * ``httpshell`` - https://github.com/chrislongo/httpshell/
