@@ -200,7 +200,7 @@
  * Versions:
 
   * `1.7.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.7.0.ebuild>`__  ``amd64``, ``x86``
-  * `2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-2.0.ebuild>`__  ``~amd64`` (due 2013-08-26), ``~x86`` (due 2013-07-27)
+  * `2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-2.0.ebuild>`__  ``~amd64`` (due 2013-08-26), ``~x86`` (due 2013-09-10)
 
 * ``freshen`` - https://github.com/rlisagor/freshen
 
