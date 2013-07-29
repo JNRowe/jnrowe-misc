@@ -230,7 +230,7 @@
  * Versions:
 
   * `0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fuzzywuzzy/fuzzywuzzy-0.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fuzzywuzzy/fuzzywuzzy-0.2.ebuild>`__  ``~amd64`` (due 2013-07-29), ``~x86`` (due 2013-07-29)
+  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fuzzywuzzy/fuzzywuzzy-0.2.ebuild>`__  ``~amd64`` (due 2013-07-29), ``x86``
 
 * ``genzshcomp`` - http://bitbucket.org/hhatto/genzshcomp/
 
