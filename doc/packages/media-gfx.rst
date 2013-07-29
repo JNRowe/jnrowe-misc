@@ -9,7 +9,7 @@
  * Versions:
 
   * `0.72 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/Graph-Easy/Graph-Easy-0.72.ebuild>`__  ``amd64``, ``x86``
-  * `0.73 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/Graph-Easy/Graph-Easy-0.73.ebuild>`__  ``~amd64`` (due 2013-07-29), ``~x86`` (due 2013-07-29)
+  * `0.73 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/Graph-Easy/Graph-Easy-0.73.ebuild>`__  ``~amd64`` (due 2013-07-29), ``x86``
 
 * ``Graph-Easy-As_svg`` - http://search.cpan.org/dist/Graph-Easy-As_svg/
 
