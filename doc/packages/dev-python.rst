@@ -136,7 +136,7 @@
  * Versions:
 
   * `0.2.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.2.8.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.4.3.ebuild>`__  ``~amd64`` (due 2013-07-29), ``~x86`` (due 2013-07-29)
+  * `0.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.4.3.ebuild>`__  ``~amd64`` (due 2013-07-29), ``x86``
 
 * ``doctest-tools`` - http://code.google.com/p/doctest-tools/
 
