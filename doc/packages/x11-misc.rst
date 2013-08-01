@@ -35,7 +35,7 @@
  * Status: maintained
  * Versions:
 
-  * `4 <https://github.com/JNRowe/jnrowe-misc/blob/master/x11-misc/xorg-launch-helper/xorg-launch-helper-4.ebuild>`__  ``~amd64`` (due 2013-09-30), ``~x86`` (due 2013-08-01)
+  * `4 <https://github.com/JNRowe/jnrowe-misc/blob/master/x11-misc/xorg-launch-helper/xorg-launch-helper-4.ebuild>`__  ``~amd64`` (due 2013-09-30), ``x86``
 
 * ``yalias`` - http://offog.org/code/
 
