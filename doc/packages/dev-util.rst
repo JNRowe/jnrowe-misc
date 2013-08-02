@@ -8,7 +8,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/cake/cake-0.2.3.ebuild>`__  ``~amd64`` (due 2013-10-16), ``~x86`` (due 2013-08-02)
+  * `0.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/cake/cake-0.2.3.ebuild>`__  ``~amd64`` (due 2013-10-16), ``~x86`` (due 2013-09-16)
 
 * ``ccontrol`` - http://ccontrol.ozlabs.org/
 
