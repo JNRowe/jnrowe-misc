@@ -25,9 +25,9 @@
 		embed them in PDF reports.
 	</longdescription>
 	<upstream>
-		<doc lang="en">http://pypi.python.org/pypi/pycha/</doc>
+		<doc lang="en">https://pypi.python.org/pypi/pycha/</doc>
 		<remote-id type="pypi">pycha</remote-id>
-		<changelog>http://pypi.python.org/pypi/pycha/#changes</changelog>
+		<changelog>https://pypi.python.org/pypi/pycha/#changes</changelog>
 		<bugs-to>http://bitbucket.org/lgs/pycha/issues/?status=new&amp;status=open</bugs-to>
 	</upstream>
 </pkgmetadata>
