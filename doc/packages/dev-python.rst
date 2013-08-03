@@ -133,7 +133,7 @@
 
  * Formats docstrings to follow PEP 257
  * Licence: ``MIT``
- * Status: maintained
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `0.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/docformatter/docformatter-0.4.3.ebuild>`__  ``amd64``, ``x86``
