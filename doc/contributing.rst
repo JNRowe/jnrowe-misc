@@ -270,7 +270,7 @@ the file, such as the previous location or package author data.
 .. _devmanual: http://devmanual.gentoo.org/
 .. _ebuild variables: http://devmanual.gentoo.org/ebuild-writing/variables/index.html
 .. _remind: http://www.roaringpenguin.com/products/remind
-.. _rad: http://pypi.python.org/pypi/rad/
+.. _rad: https://pypi.python.org/pypi/rad/
 .. _cupage: http://jnrowe.github.io/cupage
 .. _GitHub: https://github.com/
 .. _REminiscence: http://cyxdown.free.fr/reminiscence/

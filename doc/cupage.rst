@@ -53,5 +53,5 @@ the `cupage documentation`_.
        in your version of ``cupage``
 
 .. _cupage: http://jnrowe.github.io/cupage/
-.. _PyPI: http://pypi.python.org/
+.. _PyPI: https://pypi.python.org/
 .. _cupage documentation: http://jnrowe.github.io/cupage/configuration.html
