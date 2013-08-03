@@ -2,6 +2,11 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+*castget-1.2.0 (03 Aug 2013)
+
+  03 Aug 2013; James Rowe <jnrowe@gmail.com> +castget-1.2.0.ebuild:
+  Version bump [802].
+
   26 Nov 2012; James Rowe <jnrowe@gmail.com> castget-1.1.0.ebuild:
   Switched to EAPI-5.
 

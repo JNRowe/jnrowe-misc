@@ -17,6 +17,8 @@ REM 2013-08-26 *1 MSG %"Stabilise amd64 dev-python/flake8-2.0%" %a
 
 REM 2013-09-02 *1 MSG %"Stabilise amd64 dev-python/behave-1.2.3%" %a
 REM 2013-09-02 *1 MSG %"Stabilise x86 dev-python/behave-1.2.3%" %a
+REM 2013-09-02 *1 MSG %"Stabilise amd64 media-sound/castget-1.2.0%" %a
+REM 2013-09-02 *1 MSG %"Stabilise x86 media-sound/castget-1.2.0%" %a
 REM 2013-09-05 *1 MSG %"Stabilise amd64 dev-python/termtool-1.0%" %a
 REM 2013-09-05 *1 MSG %"Stabilise x86 dev-python/termtool-1.0%" %a
 REM 2013-09-08 *1 MSG %"Stabilise x86 dev-python/Attest-0.5.3-r1%" %a
