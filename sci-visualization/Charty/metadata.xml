@@ -18,7 +18,7 @@
 		project, but below is an explicit description of the classes.
 	</longdescription>
 	<upstream>
-		<doc lang="en">http://pypi.python.org/pypi/Charty/</doc>
+		<doc lang="en">https://pypi.python.org/pypi/Charty/</doc>
 		<remote-id type="pypi">Charty</remote-id>
 		<bugs-to>https://github.com/sunlightlabs/Charty/issues</bugs-to>
 	</upstream>
