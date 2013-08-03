@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  03 Aug 2013; James Rowe <jnrowe@gmail.com> watch:
+  Use https for PyPI links.
+
   08 May 2013; James Rowe <jnrowe@gmail.com> metrics-0.1_alpha3.ebuild:
   Use $PYTHON_USEDEP, where possible.
 
