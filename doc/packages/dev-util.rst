@@ -1,7 +1,7 @@
 ``dev-util``
 ------------
 
-* ``cake`` - http://pypi.python.org/pypi/cake/
+* ``cake`` - https://pypi.python.org/pypi/cake/
 
  * Minimalistic Python build tool inspired by Rake
  * Licence: ``GPL-3``
@@ -37,7 +37,7 @@
 
   * `0.5-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/ditz/ditz-0.5-r1.ebuild>`__  ``~amd64`` (due 2013-09-08), ``~x86`` (due 2013-08-24)
 
-* ``metrics`` - http://pypi.python.org/pypi/metrics/
+* ``metrics`` - https://pypi.python.org/pypi/metrics/
 
  * Produces metrics for C, C++, Javascript, and Python programs
  * Licence: ``LGPL-2.1``

@@ -1,7 +1,7 @@
 ``app-text``
 ------------
 
-* ``html2rest`` - http://pypi.python.org/pypi/html2rest/
+* ``html2rest`` - https://pypi.python.org/pypi/html2rest/
 
  * Convert HTML to reStructuredText
  * Licence: ``BSD``
@@ -10,7 +10,7 @@
 
   * `0.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/html2rest/html2rest-0.2.2.ebuild>`__  ``amd64``, ``x86``
 
-* ``rstspreadsheet`` - http://pypi.python.org/pypi/rstspreadsheet/
+* ``rstspreadsheet`` - https://pypi.python.org/pypi/rstspreadsheet/
 
  * Spreadsheet directive for docutils and Sphinx.
  * Licence: ``MIT``

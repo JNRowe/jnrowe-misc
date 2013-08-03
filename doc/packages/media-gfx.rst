@@ -29,7 +29,7 @@
   * `0.5-r2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/aafigure/aafigure-0.5-r2.ebuild>`__  ``amd64``, ``x86``
   * `0.5-r3 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/aafigure/aafigure-0.5-r3.ebuild>`__  ``~amd64`` (due 2013-08-09), ``~x86`` (due 2013-09-08)
 
-* ``actdiag`` - http://pypi.python.org/pypi/actdiag/
+* ``actdiag`` - https://pypi.python.org/pypi/actdiag/
 
  * Generate activity-diagram image file from spec-text file
  * Licence: ``Apache-2.0``
@@ -38,7 +38,7 @@
 
   * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.4.1.ebuild>`__  ``amd64``, ``x86``
 
-* ``blockdiag`` - http://pypi.python.org/pypi/blockdiag/
+* ``blockdiag`` - https://pypi.python.org/pypi/blockdiag/
 
  * Generate block-diagram image files from text(like dot)
  * Licence: ``Apache-2.0``
@@ -48,7 +48,7 @@
   * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.2.4.ebuild>`__  ``amd64``, ``x86``
   * `1.2.4-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.2.4-r1.ebuild>`__  ``~amd64`` (due 2013-08-09), ``~x86`` (due 2013-09-08)
 
-* ``gruffy`` - http://pypi.python.org/pypi/gruffy/
+* ``gruffy`` - https://pypi.python.org/pypi/gruffy/
 
  * Gruffy is Python implementation of Gruff(Ruby Graphing Library)
  * Licence: ``MIT``
@@ -57,7 +57,7 @@
 
   * `0.3.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/gruffy/gruffy-0.3.3.ebuild>`__  ``amd64``, ``x86``
 
-* ``nwdiag`` - http://pypi.python.org/pypi/nwdiag/
+* ``nwdiag`` - https://pypi.python.org/pypi/nwdiag/
 
  * Generate network-diagram images from spec-text file
  * Licence: ``Apache-2.0``
@@ -66,7 +66,7 @@
 
   * `0.9.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.9.4.ebuild>`__  ``amd64``, ``x86``
 
-* ``seqdiag`` - http://pypi.python.org/pypi/seqdiag/
+* ``seqdiag`` - https://pypi.python.org/pypi/seqdiag/
 
  * Generate sequence-diagram image files from spec-text files
  * Licence: ``Apache-2.0``
@@ -84,7 +84,7 @@
 
   * `1.0-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-aafig/sphinxcontrib-aafig-1.0-r1.ebuild>`__  ``amd64``, ``x86``
 
-* ``sphinxcontrib-blockdiag`` - http://pypi.python.org/pypi/sphinxcontrib-blockdiag/
+* ``sphinxcontrib-blockdiag`` - https://pypi.python.org/pypi/sphinxcontrib-blockdiag/
 
  * Sphinx extension to support media-gfx/blockdiag diagrams
  * Licence: ``BSD``
@@ -93,7 +93,7 @@
 
   * `1.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-1.2.0.ebuild>`__  ``amd64``, ``x86``
 
-* ``sphinxcontrib-gruffygen`` - http://pypi.python.org/pypi/sphinxcontrib-gruffygen/
+* ``sphinxcontrib-gruffygen`` - https://pypi.python.org/pypi/sphinxcontrib-gruffygen/
 
  * Sphinx extension to support media-gfx/gruffy graphs
  * Licence: ``BSD``
@@ -102,7 +102,7 @@
 
   * `0.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-gruffygen/sphinxcontrib-gruffygen-0.1.1.ebuild>`__  ``amd64``, ``x86``
 
-* ``sphinxcontrib-mscgen`` - http://pypi.python.org/pypi/sphinxcontrib-mscgen/
+* ``sphinxcontrib-mscgen`` - https://pypi.python.org/pypi/sphinxcontrib-mscgen/
 
  * Sphinx extension to include mscgen's sequence charts
  * Licence: ``BOLA``

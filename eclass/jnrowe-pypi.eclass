@@ -50,7 +50,7 @@ fi
 # inherit jnrowe-pypi
 # @CODE
 
-HOMEPAGE="http://pypi.python.org/pypi/${MY_PN:-${PN}}/"
+HOMEPAGE="https://pypi.python.org/pypi/${MY_PN:-${PN}}/"
 
 # @VARIABLE: PYPI_OLD_DISTUTILS
 # @DEFAULT_UNSET

@@ -1,7 +1,7 @@
 ``app-misc``
 ------------
 
-* ``Hammertime`` - http://pypi.python.org/pypi/Hammertime/
+* ``Hammertime`` - https://pypi.python.org/pypi/Hammertime/
 
  * Simple time tracking with git backend
  * Licence: ``MIT``
@@ -19,7 +19,7 @@
 
   * `1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/asciiquarium/asciiquarium-1.1.ebuild>`__  ``amd64``, ``x86``
 
-* ``hubugs`` - http://pypi.python.org/pypi/hubugs/
+* ``hubugs`` - https://pypi.python.org/pypi/hubugs/
 
  * Simple client for GitHub issues
  * Licence: ``GPL-3+``
@@ -28,7 +28,7 @@
 
   * `0.17.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.17.4.ebuild>`__  ``~amd64`` (due 2013-09-12)
 
-* ``jsonpipe`` - http://pypi.python.org/pypi/jsonpipe/
+* ``jsonpipe`` - https://pypi.python.org/pypi/jsonpipe/
 
  * Convert JSON to a UNIX-friendly line-based format
  * Licence: ``public-domain``
@@ -37,7 +37,7 @@
 
   * `0.0.8-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/jsonpipe/jsonpipe-0.0.8-r1.ebuild>`__  ``amd64``, ``x86``
 
-* ``pw`` - http://pypi.python.org/pypi/pw/
+* ``pw`` - https://pypi.python.org/pypi/pw/
 
  * Grep GnuPG-encrypted YAML password safe
  * Licence: ``MIT``
