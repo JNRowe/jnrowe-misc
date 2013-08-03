@@ -1,5 +1,5 @@
 # No real releases, so just match anything and hope for best
-url = http://pypi.python.org/simple/nose_machineout/
+url = https://pypi.python.org/simple/nose_machineout/
 select = a
 match_type = re
 match = .*
