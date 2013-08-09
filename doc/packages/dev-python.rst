@@ -608,8 +608,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.2-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/shelldoctest/shelldoctest-0.2-r1.ebuild>`__  ``amd64``, ``x86``
-  * `0.2-r2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/shelldoctest/shelldoctest-0.2-r2.ebuild>`__  ``~amd64`` (due 2013-08-09), ``x86``
+  * `0.2-r2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/shelldoctest/shelldoctest-0.2-r2.ebuild>`__  ``amd64``, ``x86``
 
 * ``should_dsl`` - https://github.com/hugobr/should-dsl
 
