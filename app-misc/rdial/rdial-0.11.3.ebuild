@@ -4,7 +4,8 @@
 EAPI=5
 # 2.6 is restricted due to incorrect upstream cov-core ebuild
 # Python 3.{1,2} blocked because of missing fixes in Gentoo's python ebuilds
-PYTHON_COMPAT=(python{2_7,3_3})
+# Python 3.3 is blocked until USE=doc dependencies are updated
+PYTHON_COMPAT=(python2_7)
 GITHUB_TAG=v${PV}
 GITHUB_USER="JNRowe"
 
