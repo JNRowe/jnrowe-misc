@@ -11,7 +11,7 @@ DESCRIPTION="Python code checking using mccabe, pep8 and pyflakes"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE="test"
 
 # tests are not currently usable until Gentoo upstreams fixes dependencies
