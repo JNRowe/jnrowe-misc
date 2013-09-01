@@ -41,9 +41,10 @@
 * ``metrics`` - https://pypi.python.org/pypi/metrics/
 
  * Produces metrics for C, C++, Javascript, and Python programs
- * Licence: ``LGPL-2.1``
+ * Licence: ``MIT``
  * Status: maintained
  * Versions:
 
+  * `0.2.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/metrics/metrics-0.2.6.ebuild>`__  ``~amd64`` (due 2013-10-01), ``~x86`` (due 2013-10-01)
   * `0.1_alpha3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/metrics/metrics-0.1_alpha3.ebuild>`__  ``amd64``, ``x86``
 

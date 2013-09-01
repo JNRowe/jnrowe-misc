@@ -2,6 +2,11 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+*metrics-0.2.6 (01 Sep 2013)
+
+  01 Sep 2013; James Rowe <jnrowe@gmail.com> +metrics-0.2.6.ebuild:
+  Version bump [807].
+
   03 Aug 2013; James Rowe <jnrowe@gmail.com> watch:
   Use https for PyPI links.
 
