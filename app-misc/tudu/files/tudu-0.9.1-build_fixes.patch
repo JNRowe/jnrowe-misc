@@ -1,0 +1,52 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Build fixes
+Status: LOCAL
+
+diff --git i/configure w/configure
+index bb972ff..6156478 100755
+--- i/configure
++++ w/configure
+@@ -290,7 +290,7 @@ echo "ERROR: ${CXX} cannot create executables" >&2 ;
+ do_remove
+ exit 1
+  fi
+-CXXFLAGS="${CXXFLAGS} -Wall -O2"
++CXXFLAGS="${CXXFLAGS} -Wall"
+ CPPFLAGS="${CPPFLAGS} "
+ SRCS="${SRCS} tudu.cc data.cc editor.cc interface.cc window.cc text.cc parser.cc config.cc date.cc screen.cc sched.cc cmd.cc"
+ check_include() {
+diff --git i/configure.acr w/configure.acr
+index 43cad11..303db89 100644
+--- i/configure.acr
++++ w/configure.acr
+@@ -7,7 +7,7 @@ YEAR = 2013 ;
+ 
+ LANG_CXX!
+ 
+-CXXFLAGS += -Wall -O2 ;
++CXXFLAGS += -Wall ;
+ CPPFLAGS += "" ;
+ SRCS += tudu.cc data.cc editor.cc interface.cc window.cc text.cc parser.cc
+         config.cc date.cc screen.cc sched.cc cmd.cc ;
+diff --git i/data/welcome.xml w/data/welcome.xml
+index f25870f..554d4d5 100644
+--- i/data/welcome.xml
++++ w/data/welcome.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0"?>
+-<!DOCTYPE todo SYSTEM "/usr/local/share/todo/todo.dtd">
++<!DOCTYPE todo SYSTEM "/usr/share/todo/todo.dtd">
+ <todo>
+ 	<todo done="no">
+ 		<title>Welcome to "tudu"</title>
+diff --git i/todo.xml w/todo.xml
+index 6a73d08..c2a2a50 100644
+--- i/todo.xml
++++ w/todo.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0"?>
+-<!DOCTYPE tudu SYSTEM "/usr/local/share/tudu/tudu.dtd">
++<!DOCTYPE tudu SYSTEM "/usr/share/tudu/tudu.dtd">
+ <todo>
+ 	<todo done="no" collapse="no">
+ 		<title>show category on the tudurc</title>
