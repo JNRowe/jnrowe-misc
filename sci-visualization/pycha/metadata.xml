@@ -28,6 +28,6 @@
 		<doc lang="en">https://pypi.python.org/pypi/pycha/</doc>
 		<remote-id type="pypi">pycha</remote-id>
 		<changelog>https://pypi.python.org/pypi/pycha/#changes</changelog>
-		<bugs-to>http://bitbucket.org/lgs/pycha/issues/?status=new&amp;status=open</bugs-to>
+		<bugs-to>https://bitbucket.org/lgs/pycha/issues/?status=new&amp;status=open</bugs-to>
 	</upstream>
 </pkgmetadata>
