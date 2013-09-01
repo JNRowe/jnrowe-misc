@@ -10,6 +10,7 @@
 
   * `0.7.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/cupage/cupage-0.7.0.ebuild>`__  ``amd64``, ``x86``
   * `0.8.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/cupage/cupage-0.8.0.ebuild>`__  ``~amd64`` (due 2013-09-12)
+  * `0.8.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/cupage/cupage-0.8.2.ebuild>`__  ``~amd64`` (due 2013-10-01)
 
 * ``httpshell`` - https://github.com/chrislongo/httpshell/
 
