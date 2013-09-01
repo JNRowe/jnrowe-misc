@@ -7,8 +7,8 @@ PYTHON_COMPAT=(python{2_{5..7},3_{1..3}})
 inherit distutils-r1
 
 DESCRIPTION="A simple testing framework for command line applications"
-HOMEPAGE="http://bitheap.org/${PN}/"
-SRC_URI="http://bitheap.org/cram/${P}.tar.gz"
+HOMEPAGE="https://bitheap.org/${PN}/"
+SRC_URI="https://bitheap.org/cram/${P}.tar.gz"
 
 LICENSE="GPL-2+"
 SLOT="0"

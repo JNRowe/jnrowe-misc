@@ -19,7 +19,7 @@
 
   * `1.0-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/ccontrol/ccontrol-1.0-r1.ebuild>`__  ``amd64``, ``x86``
 
-* ``cram`` - http://bitheap.org/cram/
+* ``cram`` - https://bitheap.org/cram/
 
  * A simple testing framework for command line applications
  * Licence: ``GPL-2+``
