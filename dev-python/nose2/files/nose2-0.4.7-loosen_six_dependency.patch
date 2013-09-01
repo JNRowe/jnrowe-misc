@@ -1,0 +1,20 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Loosen six dependency
+Status: LOCAL
+
+nose2 works fine with 1.3.  six has remained quite stable, so we'll just drop
+the forced maximum as it probably isn't helpful.
+
+diff --git i/setup.py w/setup.py
+index 5a28445..5ad5d53 100644
+--- i/setup.py
++++ w/setup.py
+@@ -59,7 +59,7 @@ except ImportError:
+     from distutils.core import setup
+ else:
+ 
+-    REQS = ['six>=1.1,<1.4']
++    REQS = ['six>=1.1']
+     if sys.version_info < (2, 7):
+         REQS.extend(['unittest2>=0.5.1,<0.6', 'argparse>=1.2.1,<1.3'])
+ 
