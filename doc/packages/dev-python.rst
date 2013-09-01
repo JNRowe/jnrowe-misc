@@ -721,7 +721,7 @@
 
   * `0.11.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/upoints/upoints-0.11.0.ebuild>`__  ``amd64``, ``x86``
 
-* ``urlunshort`` - http://bitbucket.org/runeh/urlunshort
+* ``urlunshort`` - https://bitbucket.org/runeh/urlunshort
 
  * Tools for detecting and expanding shortened URLs
  * Licence: ``BSD-2``

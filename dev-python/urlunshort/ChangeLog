@@ -2,6 +2,10 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  01 Sep 2013; James Rowe <jnrowe@gmail.com> urlunshort-0.2.4.ebuild,
+  metadata.xml:
+  Use https for bitbucket links [812].
+
   20 Dec 2012; Matt Leighy <mleighy@gmail.com> urlunshort-0.2.4.ebuild:
   Use ranges for PYTHON_COMPAT readability.
 

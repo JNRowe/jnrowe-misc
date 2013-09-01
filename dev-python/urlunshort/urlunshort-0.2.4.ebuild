@@ -7,7 +7,7 @@ PYTHON_COMPAT=(python2_{5..7})
 inherit jnrowe-pypi
 
 DESCRIPTION="Tools for detecting and expanding shortened URLs"
-HOMEPAGE="http://bitbucket.org/runeh/${PN}"
+HOMEPAGE="https://bitbucket.org/runeh/${PN}"
 
 LICENSE="BSD-2"
 SLOT="0"
