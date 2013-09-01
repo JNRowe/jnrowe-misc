@@ -7,7 +7,7 @@ PYTHON_COMPAT=(python{2_{5..7},3_{1..3}})
 inherit jnrowe-pypi
 
 DESCRIPTION="Add additional directories to sys.path for nose"
-HOMEPAGE="http://bitbucket.org/jnoller/${PN}/"
+HOMEPAGE="https://bitbucket.org/jnoller/${PN}/"
 
 LICENSE="Apache-2.0"
 SLOT="0"

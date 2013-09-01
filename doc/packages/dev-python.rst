@@ -377,7 +377,7 @@
 
   * `0.0.20101201 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-machineout/nose-machineout-0.0.20101201.ebuild>`__  ``amd64``, ``x86``
 
-* ``nose-pathmunge`` - http://bitbucket.org/jnoller/nose-pathmunge/
+* ``nose-pathmunge`` - https://bitbucket.org/jnoller/nose-pathmunge/
 
  * Add additional directories to sys.path for nose
  * Licence: ``Apache-2.0``
