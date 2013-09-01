@@ -13,6 +13,6 @@
 	</longdescription>
 	<upstream>
 		<remote-id type="pypi">sphinxcontrib-blockdiag</remote-id>
-		<bugs-to>http://bitbucket.org/birkenfeld/sphinxcontrib/issues/?status=new&amp;status=open</bugs-to>
+		<bugs-to>https://bitbucket.org/birkenfeld/sphinxcontrib/issues/?status=new&amp;status=open</bugs-to>
 	</upstream>
 </pkgmetadata>
