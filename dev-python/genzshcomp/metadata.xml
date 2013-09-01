@@ -10,7 +10,7 @@
 		Also, supports <pkg>dev-python/argparse</pkg>.
 	</longdescription>
 	<upstream>
-		<bugs-to>http://bitbucket.org/hhatto/genzshcomp/issues/?status=new&amp;status=open</bugs-to>
+		<bugs-to>https://bitbucket.org/hhatto/genzshcomp/issues/?status=new&amp;status=open</bugs-to>
 		<remote-id type="pypi">genzshcomp</remote-id>
 	</upstream>
 </pkgmetadata>

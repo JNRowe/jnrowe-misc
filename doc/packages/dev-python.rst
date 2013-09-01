@@ -231,7 +231,7 @@
 
   * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fuzzywuzzy/fuzzywuzzy-0.2.ebuild>`__  ``amd64``, ``x86``
 
-* ``genzshcomp`` - http://bitbucket.org/hhatto/genzshcomp/
+* ``genzshcomp`` - https://bitbucket.org/hhatto/genzshcomp/
 
  * Automatic generation of zsh completion functions
  * Licence: ``BSD``

@@ -7,7 +7,7 @@ PYTHON_COMPAT=(python{2_{5..7},3_{1..3}})
 inherit jnrowe-pypi
 
 DESCRIPTION="Automatic generation of zsh completion functions"
-HOMEPAGE="http://bitbucket.org/hhatto/${PN}/"
+HOMEPAGE="https://bitbucket.org/hhatto/${PN}/"
 
 LICENSE="BSD"
 SLOT="0"
