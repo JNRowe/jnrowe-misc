@@ -3,7 +3,8 @@
 
 EAPI=5
 
-PYTHON_COMPAT=(python2_{5..7})
+# No 2.5 because of ipdb dependency
+PYTHON_COMPAT=(python2_{6..7})
 
 inherit jnrowe-pypi
 
@@ -19,6 +20,6 @@ IUSE=""
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="${DEPEND}
 	dev-python/fuzzywuzzy[${PYTHON_USEDEP}]
-	dev-python/ipdb"
+	dev-python/ipdb[${PYTHON_USEDEP}]"
 
 DOCS=(README.md RELEASE-NOTES.md)
