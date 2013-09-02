@@ -8,8 +8,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-sound/castget/castget-1.1.0.ebuild>`__  ``amd64``, ``x86``
-  * `1.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-sound/castget/castget-1.2.0.ebuild>`__  ``~amd64`` (due 2013-09-02), ``x86``
+  * `1.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-sound/castget/castget-1.2.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``mpdcron`` - http://alip.github.io/mpdcron/
 
