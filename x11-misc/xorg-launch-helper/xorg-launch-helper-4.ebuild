@@ -3,6 +3,8 @@
 
 EAPI=5
 
+inherit systemd
+
 DESCRIPTION="Wrapper to make XOrg function as a proper systemd unit"
 HOMEPAGE="https://github.com/sofar/${PN}"
 SRC_URI="http://foo-projects.org/~sofar/${PN}/${P}.tar.gz"
@@ -14,3 +16,7 @@ IUSE=""
 
 DEPEND="sys-apps/systemd"
 RDEPEND="${DEPEND}"
+
+src_configure() {
+	econf --with-systemduserunitdir=$(systemd_get_userunitdir)
+}

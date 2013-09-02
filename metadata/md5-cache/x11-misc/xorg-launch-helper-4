@@ -1,5 +1,5 @@
-DEFINED_PHASES=-
-DEPEND=sys-apps/systemd
+DEFINED_PHASES=configure
+DEPEND=sys-apps/systemd virtual/pkgconfig
 DESCRIPTION=Wrapper to make XOrg function as a proper systemd unit
 EAPI=5
 HOMEPAGE=https://github.com/sofar/xorg-launch-helper
@@ -8,4 +8,5 @@ LICENSE=GPL-2
 RDEPEND=sys-apps/systemd
 SLOT=0
 SRC_URI=http://foo-projects.org/~sofar/xorg-launch-helper/xorg-launch-helper-4.tar.gz
-_md5_=6e3b2d3e06641dfebd3a7d79e411a5ec
+_eclasses_=multilib	892e597faee02a5b94eb02ab512e7622	systemd	49c26d08111dd2c62b52cee32151b93b	toolchain-funcs	7ffd28a8c7eea27218865352bfd3ab2f
+_md5_=12789ca897c75d79e4296255a05b8c47
