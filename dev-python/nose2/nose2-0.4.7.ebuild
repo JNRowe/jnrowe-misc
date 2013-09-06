@@ -6,7 +6,7 @@
 # ********
 
 EAPI=5
-PYTHON_COMPAT=(python{2_{6,7},3_{1..3}})
+PYTHON_COMPAT=(python{2_{6,7},3_{2,3}})
 
 inherit jnrowe-pypi
 
