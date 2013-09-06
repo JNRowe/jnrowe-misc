@@ -3,7 +3,7 @@
 
 EAPI=5
 # This version is specifically for Python 2
-PYTHON_COMPAT=(python2_{5..7})
+PYTHON_COMPAT=(python2_{6,7})
 
 inherit distutils-r1 readme.gentoo
 
