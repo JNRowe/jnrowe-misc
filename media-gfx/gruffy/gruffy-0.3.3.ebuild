@@ -4,7 +4,7 @@
 EAPI=5
 
 # 3.x is restricted due to print syntax
-PYTHON_COMPAT=(python2_{5..7})
+PYTHON_COMPAT=(python2_{6,7})
 
 # Tests are basically just demos, with no obvious way to check whether they pass
 # or fail.  If that changes, add support for running tests!
