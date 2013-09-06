@@ -8,12 +8,6 @@
   01 Feb 2013; James Rowe <jnrowe@gmail.com> python-importlib-0.ebuild:
   Keyworded x86.
 
-*python-multiprocessing-0 (02 Jan 2013)
-
-  02 Jan 2013; James Rowe <jnrowe@gmail.com> +python-multiprocessing-0.ebuild,
-  +metadata.xml:
-  Initial ebuild, be me.
-
 *python-importlib-0 (02 Jan 2013)
 
   02 Jan 2013; James Rowe <jnrowe@gmail.com> +python-importlib-0.ebuild,
