@@ -2,6 +2,10 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  06 Sep 2013; James Rowe <jnrowe@gmail.com> blessings-1.5.ebuild,
+  blessings-1.5.1.ebuild:
+  Drop Python 2.5 support.
+
 *blessings-1.5.1 (01 Sep 2013)
 
   01 Sep 2013; James Rowe <jnrowe@gmail.com> +blessings-1.5.1.ebuild:

@@ -3,7 +3,7 @@
 
 EAPI=5
 # 3.x prior 3.2.3 is restricted due to http://bugs.python.org/issue10570
-PYTHON_COMPAT=(python{2_{5..7},3_3})
+PYTHON_COMPAT=(python{2_{6,7},3_3})
 
 inherit jnrowe-pypi
 
