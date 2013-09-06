@@ -3,6 +3,9 @@
 # Distributed under the GPL v2
 
   06 Sep 2013; James Rowe <jnrowe@gmail.com> plac-0.9.1.ebuild:
+  Drop Python 3.1 support.
+
+  06 Sep 2013; James Rowe <jnrowe@gmail.com> plac-0.9.1.ebuild:
   Drop Python 2.5 support.
 
   08 May 2013; James Rowe <jnrowe@gmail.com> plac-0.9.1.ebuild:
