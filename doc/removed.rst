@@ -318,6 +318,15 @@ culled.
 :Commit: :commit:`bd89ae1b <bd89ae1b2eec91e50591c07c9b6b9ea4cea557ac>`
 :Removal date: 2012-01-16
 
+``multiprocessing``
+'''''''''''''''''''
+
+    Python 2.5 has been removed upstream, so this package is no longer required.
+
+:Reason: Culled
+:Commit:
+:Removal date: 2013-09-06
+
 ``pep8``
 ''''''''
 
@@ -777,6 +786,18 @@ culled.
 :Commit: :commit:`61af9a27 <61af9a273236cf988095914cde2769b19c8d5a25>`
 :Removal date: 2010-01-20
 :Issues: AST#249971
+
+``virtual``
+~~~~~~~~~~~
+
+``python-multiprocessing``
+''''''''''''''''''''''''''
+
+    Python 2.5 has been removed upstream, so this package is no longer required.
+
+:Reason: Culled
+:Commit:
+:Removal date: 2013-09-06
 
 ``www-apps``
 ~~~~~~~~~~~~

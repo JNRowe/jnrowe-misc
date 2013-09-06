@@ -358,15 +358,6 @@
 
   * `0.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/mod2doctest/mod2doctest-0.2.0.ebuild>`__  ``amd64``, ``x86``
 
-* ``multiprocessing`` - https://pypi.python.org/pypi/multiprocessing/
-
- * Offers both local and remote concurrency, by using subprocesses
- * Licence: ``BSD``
- * Status: maintained
- * Versions:
-
-  * `2.6.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/multiprocessing/multiprocessing-2.6.2.1.ebuild>`__  ``amd64``, ``x86``
-
 * ``nose-machineout`` - http://code.google.com/p/nose-machineout/
 
  * Machine parsable output plugin for nose
