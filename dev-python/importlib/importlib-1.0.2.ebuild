@@ -4,7 +4,7 @@
 EAPI=5
 # importlib is available in >=2.7 or >=3.1, and unlike most similar modules this
 # refuses to install to site-packages for those versions
-PYTHON_COMPAT=(python2_{5,6})
+PYTHON_COMPAT=(python2_6)
 
 inherit jnrowe-pypi
 
