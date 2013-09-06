@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  06 Sep 2013; James Rowe <jnrowe@gmail.com> pwtools-0.4.ebuild:
+  Drop Python 2.5 support.
+
   24 May 2013; James Rowe <jnrowe@gmail.com> -pwtools-0.2.ebuild,
   pwtools-0.4.ebuild:
   Keyworded amd64.
