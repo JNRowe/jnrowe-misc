@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-PYTHON_COMPAT=(python{2_{5..7},3_{1..3}})
+PYTHON_COMPAT=(python{2_{6,7},3_{1..3}})
 
 inherit jnrowe-pypi
 
@@ -14,8 +14,7 @@ KEYWORDS="amd64 x86"
 IUSE="examples tk"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
-RDEPEND="virtual/python-multiprocessing[${PYTHON_USEDEP}]
-	virtual/python-argparse[${PYTHON_USEDEP}]
+RDEPEND="virtual/python-argparse[${PYTHON_USEDEP}]
 	tk? ( dev-lang/python[tk] )"
 
 DOCS=(CHANGES.txt README.txt)
