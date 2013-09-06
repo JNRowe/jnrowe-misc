@@ -2,7 +2,6 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-# 2.5 isn't supported because of conditional expressions with __future__ import
 # 3.x isn't supported because of octal syntax
 PYTHON_COMPAT=(python2_{6,7})
 PYPI_ARCHIVE_SUFFIX="zip"

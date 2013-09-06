@@ -2,7 +2,6 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-# 2.5 is restricted due to exception syntax
 # 3.x is restricted due to unicode literals, print statements, etc
 PYTHON_COMPAT=(python2_{6,7})
 GITHUB_USER=${PN}

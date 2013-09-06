@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-# 2.[67] and 3.1 are unavailable due to pyflakes dependency
+# 2.[67] are unavailable due to pyflakes dependency
 PYTHON_COMPAT=(python{2_7,3_{2,3}})
 
 inherit jnrowe-pypi

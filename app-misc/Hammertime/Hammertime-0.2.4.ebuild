@@ -3,7 +3,6 @@
 
 EAPI=5
 
-# 2.5 isn't supported upstream, so we'll kill them here too
 # 3.x is restricted due to print syntax
 PYTHON_COMPAT=(python2_{6,7})
 

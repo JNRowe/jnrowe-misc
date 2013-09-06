@@ -2,7 +2,6 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-# Python 2.5 isn't supported because of pycairo dep
 # Python 3.x could be supported with a 2to3 run, if interest arrises
 PYTHON_COMPAT=(python2_{6,7})
 

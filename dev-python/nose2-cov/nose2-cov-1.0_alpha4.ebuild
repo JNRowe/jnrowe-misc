@@ -2,8 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-# Python 2.5 isn't supported by nose2
-# 2.6 and 3.1 are skipped because of cov-core dependency
+# 2.6 is skipped because of cov-core dependency
 PYTHON_COMPAT=(python{2_7,3_{2,3}})
 MY_PV="${PV/_alpha/a}"
 

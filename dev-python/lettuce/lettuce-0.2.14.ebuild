@@ -2,8 +2,6 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-
-# No 2.5 because of ipdb dependency
 PYTHON_COMPAT=(python2_{6..7})
 
 inherit jnrowe-pypi

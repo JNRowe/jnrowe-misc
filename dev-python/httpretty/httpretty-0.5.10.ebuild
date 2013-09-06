@@ -2,8 +2,6 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-
-# 2.5 isn't supported because of socket.create_connection
 # 3.x isn't supported because of Unicode literal syntax
 PYTHON_COMPAT=(python2_{6,7})
 

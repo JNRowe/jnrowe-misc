@@ -2,7 +2,6 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-# 2.5 is restricted due to use of context handlers, without __future__ import
 PYTHON_COMPAT=(python2_{6,7})
 
 inherit jnrowe-pypi

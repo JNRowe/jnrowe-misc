@@ -2,7 +2,6 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-# 2.5 is not supported because of context handlers and byte strings
 # 3.x is not supported because of exception syntax and comparison syntax
 PYTHON_COMPAT=(python2_{6,7})
 

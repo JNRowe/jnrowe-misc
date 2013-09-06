@@ -2,8 +2,6 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-
-# Python 2.5 is resticted due to new exception handling syntax
 # Python 3 is resticted due to print syntax
 PYTHON_COMPAT=(python2_{6,7})
 

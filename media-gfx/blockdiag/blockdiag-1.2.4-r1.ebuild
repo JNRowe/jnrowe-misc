@@ -3,8 +3,7 @@
 
 EAPI=5
 
-# 2.5 is required for funcparserlib dependency, 3.x is not supported because of
-# print syntax.
+# 3.x is not supported because of print syntax.
 # <2.7 is required to ignore the OrderedDict dependency, if you really need
 # support for earlier Python version open an issue
 PYTHON_COMPAT=(python2_7)
