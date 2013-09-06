@@ -4,7 +4,7 @@
 EAPI=5
 
 # 3.x is restricted due to print syntax and unicode support
-PYTHON_COMPAT=(python2_{5..7})
+PYTHON_COMPAT=(python2_{6,7})
 
 inherit distutils-r1
 
