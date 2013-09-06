@@ -3,7 +3,7 @@
 
 EAPI=5
 
-PYTHON_COMPAT=(python2_{5..7})
+PYTHON_COMPAT=(python2_{6,7})
 PYPI_ARCHIVE_SUFFIX="zip"
 
 inherit jnrowe-pypi
