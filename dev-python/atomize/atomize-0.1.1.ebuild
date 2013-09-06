@@ -3,7 +3,7 @@
 
 EAPI=5
 # 3.x isn't supported due to StringIO changes
-PYTHON_COMPAT=(python2_{5..7})
+PYTHON_COMPAT=(python2_{6,7})
 
 inherit jnrowe-pypi
 
