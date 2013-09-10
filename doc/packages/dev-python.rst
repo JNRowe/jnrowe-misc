@@ -194,13 +194,12 @@
 
 * ``flake8`` - https://pypi.python.org/pypi/flake8/
 
- * Python code checking using pep8 and pyflakes
+ * Python code checking using mccabe, pep8 and pyflakes
  * Licence: ``MIT``
  * Status: maintained
  * Versions:
 
-  * `1.7.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-1.7.0.ebuild>`__  ``amd64``, ``x86``
-  * `2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-2.0.ebuild>`__  ``amd64``, ``~x86`` (due 2013-09-10)
+  * `2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-2.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``freshen`` - https://github.com/rlisagor/freshen
 
