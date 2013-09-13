@@ -18,8 +18,7 @@ DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="${DEPEND}
 	dev-python/parse[${PYTHON_USEDEP}]
 	virtual/python-argparse[${PYTHON_USEDEP}]
-	virtual/python-importlib[${PYTHON_USEDEP}]
-	virtual/python-json[${PYTHON_USEDEP}]"
+	virtual/python-importlib[${PYTHON_USEDEP}]"
 
 # Tests are unusable within portage environment
 RESTRICT="test"
