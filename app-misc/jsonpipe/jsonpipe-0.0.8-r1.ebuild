@@ -16,11 +16,8 @@ IUSE=""
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 # setuptools is required in RDEPEND for entry points usage
-# We can't use 2.6's stdlib json because we need ordered dictionary support
 RDEPEND="${DEPEND}
 	virtual/python-argparse[${PYTHON_USEDEP}]
-	dev-python/calabash[${PYTHON_USEDEP}]
-	python_targets_python2_6? ( dev-python/simplejson[${PYTHON_USEDEP}] )
-	virtual/python-json[${PYTHON_USEDEP}]"
+	dev-python/calabash[${PYTHON_USEDEP}]"
 
 PATCHES=("${FILESDIR}"/${P}-use_stdlib_json.patch)

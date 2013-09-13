@@ -2,6 +2,10 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  13 Sep 2013; James Rowe <jnrowe@gmail.com> jsonpipe-0.0.8-r1.ebuild:
+  Drop python-json dependency, all supported Python versions ship json in
+  stdlib now.
+
   06 Sep 2013; James Rowe <jnrowe@gmail.com> jsonpipe-0.0.8-r1.ebuild:
   Drop Python 2.5 support.
 
