@@ -14,12 +14,10 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="minimal test"
 
-DEPEND="test? ( virtual/python-json[${PYTHON_USEDEP}] )"
 RDEPEND="!minimal? (
 		dev-python/lxml
 		dev-python/progressbar
 		dev-python/pygments[${PYTHON_USEDEP}]
-		virtual/python-json[${PYTHON_USEDEP}]
 	)"
 
 DOCS=(AUTHORS.rst CHANGES.rst)
