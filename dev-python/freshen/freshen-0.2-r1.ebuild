@@ -16,7 +16,7 @@ IUSE="examples"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="dev-python/nose[${PYTHON_USEDEP}]
-	virtual/pyparsing[${PYTHON_USEDEP}]
+	dev-python/pyparsing[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]"
 
 DOCS=(cuke-comparison.txt todo.txt)
