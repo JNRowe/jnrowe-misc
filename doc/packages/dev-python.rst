@@ -564,7 +564,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rad/rad-0.1.2.ebuild>`__  ``~amd64`` (due 2013-10-16), ``~x86`` (due 2013-09-16)
+  * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rad/rad-0.1.2.ebuild>`__  ``~amd64`` (due 2013-10-16), ``~x86`` (due 2013-10-31)
 
 * ``rstctl`` - https://pypi.python.org/pypi/rstctl/
 
