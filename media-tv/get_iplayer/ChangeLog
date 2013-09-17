@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  17 Sep 2013; James Rowe <jnrowe@gmail.com> get_iplayer-2.83.ebuild:
+  Use eutils' einstalldocs.
+
   29 Jul 2013; James Rowe <jnrowe@gmail.com> -get_iplayer-2.82.ebuild,
   get_iplayer-2.83.ebuild:
   Keyworded amd64.

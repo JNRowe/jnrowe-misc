@@ -29,6 +29,8 @@ DEPEND=""
 # Both trollop:0 and :2 work correctly with ditz
 RDEPEND="dev-ruby/trollop"
 
+DOCS=(Changelog PLUGINS.txt README.txt ReleaseNotes)
+
 each_ruby_prepare() {
 	sed -i "s,#!.*,#! $(ruby_implementation_command ${_ruby_implementation})," bin/${PN}
 }
@@ -45,7 +47,7 @@ src_install() {
 	ruby-ng_src_install
 
 	pushd "${WORKDIR}"/all/${P} >/dev/null
-	dodoc Changelog PLUGINS.txt README.txt ReleaseNotes
+	einstalldocs
 
 	newbashcomp contrib/completion/${PN}.bash ${PN}
 	insinto /usr/share/zsh/site-functions

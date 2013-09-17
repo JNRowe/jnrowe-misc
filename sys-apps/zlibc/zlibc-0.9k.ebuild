@@ -3,7 +3,7 @@
 
 EAPI=5
 
-inherit base autotools
+inherit base eutils autotools
 
 DESCRIPTION="Read-only compressed file-system emulation"
 HOMEPAGE="http://${PN}.linux.lu/"
@@ -18,6 +18,8 @@ DEPEND=""
 RDEPEND=""
 
 PATCHES=("${FILESDIR}"/${P}-build_fixes.patch)
+
+DOCS=(CHANGES README ${PN}.conf.sample)
 
 src_prepare() {
 	base_src_prepare
@@ -34,5 +36,5 @@ src_install() {
 	# faster than rewriting the Makefile.
 	dolib uncompress.so
 	doinfo ${PN}.info
-	dodoc CHANGES README ${PN}.conf.sample
+	einstalldocs
 }

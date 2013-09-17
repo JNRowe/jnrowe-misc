@@ -3,6 +3,8 @@
 
 EAPI=5
 
+inherit eutils
+
 DESCRIPTION="Create an ASCII animation that simulates the weather"
 HOMEPAGE="http://www.robobunny.com/projects/${PN}/html/"
 SRC_URI="http://www.robobunny.com/projects/${PN}/${PN}_v${PV}.tar.gz"
@@ -22,5 +24,5 @@ S=${WORKDIR}/${PN}_v${PV}
 
 src_install() {
 	dobin ${PN}
-	dodoc CHANGES README
+	einstalldocs
 }

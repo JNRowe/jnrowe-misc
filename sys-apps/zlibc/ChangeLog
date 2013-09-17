@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  17 Sep 2013; James Rowe <jnrowe@gmail.com> zlibc-0.9k.ebuild:
+  Use eutils' einstalldocs.
+
   19 Jan 2013; James Rowe <jnrowe@gmail.com> zlibc-0.9k.ebuild,
   +files/zlibc-0.9k-build_fixes.patch:
   Drop sed calls, they're too unreliable without the EADS wrapper.

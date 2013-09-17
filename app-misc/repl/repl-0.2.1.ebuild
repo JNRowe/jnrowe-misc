@@ -6,7 +6,7 @@ EAPI=5
 GITHUB_USER=defunkt
 GITHUB_TAG=v${PV}
 
-inherit jnrowe-github
+inherit eutils jnrowe-github
 
 DESCRIPTION="Sometimes you need a repl"
 HOMEPAGE="http://defunkt.io/${PN}/"
@@ -19,6 +19,8 @@ IUSE="minimal"
 DEPEND=""
 RDEPEND="!minimal? ( app-misc/rlwrap )"
 
+HTML_DOCS=(man/${PN}.1.html)
+
 src_compile() {
 	:
 }
@@ -26,6 +28,5 @@ src_compile() {
 src_install() {
 	dobin bin/${PN}
 	doman man/${PN}.1
-	dohtml man/${PN}.1.html
-	dodoc README.md
+	einstalldocs
 }

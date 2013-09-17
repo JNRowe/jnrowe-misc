@@ -3,6 +3,8 @@
 
 EAPI=5
 
+inherit eutils
+
 DESCRIPTION="Enjoy the mysteries of the sea from the safety of your own terminal"
 HOMEPAGE="http://www.robobunny.com/projects/${PN}/html/"
 SRC_URI="http://www.robobunny.com/projects/asciiquarium/${PN}_${PV}.tar.gz"
@@ -19,5 +21,5 @@ S=${WORKDIR}/${PN}_${PV}
 
 src_install() {
 	dobin ${PN}
-	dodoc CHANGES README
+	einstalldocs
 }

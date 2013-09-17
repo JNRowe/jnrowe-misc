@@ -24,7 +24,7 @@ src_compile() {
 }
 
 src_install() {
-	dodoc README
+	einstalldocs
 	newgamesbin rs ${PN}
 
 	prepgamesdirs

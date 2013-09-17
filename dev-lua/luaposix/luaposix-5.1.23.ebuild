@@ -3,7 +3,7 @@
 
 EAPI=5
 
-inherit multilib
+inherit eutils multilib
 
 DESCRIPTION="POSIX function support library for lua"
 HOMEPAGE="http://wiki.alpinelinux.org/wiki/Luaposix"
@@ -30,6 +30,6 @@ src_configure() {
 }
 
 src_install() {
-	emake DESTDIR="${D}" install
-	dodoc AUTHORS ChangeLog README
+	default
+	einstalldocs
 }

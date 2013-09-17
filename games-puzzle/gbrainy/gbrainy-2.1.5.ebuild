@@ -3,7 +3,7 @@
 
 EAPI=5
 
-inherit games
+inherit eutils games
 
 DESCRIPTION="Brain teaser game/trainer to have fun and keep your brain trained"
 HOMEPAGE="http://live.gnome.org/${PN}"
@@ -24,6 +24,8 @@ DEPEND="${RDEPEND}
 # Tests are broken in the current release
 RESTRICT="test"
 
+DOCS=(AUTHORS MAINTAINERS NEWS README)
+
 src_configure() {
 	econf $(use_enable plugins addins)
 }
@@ -40,7 +42,7 @@ src_install() {
 	rm "${D}"/usr/bin/${PN} || die "Deleting wrapper failed"
 	dogamesbin src/Clients/Classical/gbrainy || die "Installing wrapper failed"
 
-	dodoc AUTHORS MAINTAINERS NEWS README
+	einstalldocs
 
 	prepgamesdirs
 }
