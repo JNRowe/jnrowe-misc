@@ -3,7 +3,7 @@
 
 EAPI=5
 
-inherit multilib
+inherit eutils multilib
 
 DESCRIPTION="POSIX function support library for lua"
 HOMEPAGE="http://wiki.alpinelinux.org/wiki/Luaposix"
@@ -20,6 +20,8 @@ RDEPEND="${DEPEND}"
 # Tests are broken, and have unpackaged dependencies
 RESTRICT="test"
 
+HTML_DOCS=(curses.html)
+
 src_configure() {
 	# Have to override datadir and libdir here as package doesn't
 	# correctly use package dirs
@@ -28,7 +30,6 @@ src_configure() {
 }
 
 src_install() {
-	emake DESTDIR="${D}" install
-	dodoc AUTHORS ChangeLog README
-	dohtml curses.html
+	default
+	einstalldocs
 }
