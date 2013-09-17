@@ -49,5 +49,5 @@ src_install() {
 		python_foreach_impl gui_install
 	fi
 
-	dodoc CHANGES README TODO
+	einstalldocs
 }
