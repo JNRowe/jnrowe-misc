@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  17 Sep 2013; James Rowe <jnrowe@gmail.com> gbrainy-2.1.5.ebuild:
+  Use eutils' einstalldocs.
+
   18 May 2013; James Rowe <jnrowe@gmail.com> watch:
   Disable cupage checks.
 
