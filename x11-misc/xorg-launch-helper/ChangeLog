@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  30 Sep 2013; James Rowe <jnrowe@gmail.com> xorg-launch-helper-4.ebuild:
+  Keyworded amd64.
+
   02 Sep 2013; James Rowe <jnrowe@gmail.com> xorg-launch-helper-4.ebuild:
   Use systemd eclass.
 
