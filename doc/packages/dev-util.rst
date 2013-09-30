@@ -26,8 +26,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/cram/cram-0.5.ebuild>`__  ``amd64``, ``x86``
-  * `0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/cram/cram-0.6.ebuild>`__  ``~amd64`` (due 2013-10-01), ``x86``
+  * `0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/cram/cram-0.6.ebuild>`__  ``amd64``, ``x86``
 
 * ``ditz`` - http://ditz.rubyforge.org
 
