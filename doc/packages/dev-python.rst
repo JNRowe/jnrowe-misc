@@ -100,7 +100,7 @@
  * Versions:
 
   * `1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.5.ebuild>`__  ``amd64``, ``x86``
-  * `1.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.5.1.ebuild>`__  ``~amd64`` (due 2013-10-01), ``~x86`` (due 2013-10-01)
+  * `1.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.5.1.ebuild>`__  ``~amd64`` (due 2013-10-01), ``x86``
 
 * ``calabash`` - https://pypi.python.org/pypi/calabash/
 
