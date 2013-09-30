@@ -8,7 +8,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/Hammertime/Hammertime-0.2.4.ebuild>`__  ``~amd64`` (due 2013-10-08), ``~x86`` (due 2013-09-23)
+  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/Hammertime/Hammertime-0.2.4.ebuild>`__  ``~amd64`` (due 2013-10-08), ``~x86`` (due 2013-11-07)
 
 * ``asciiquarium`` - http://www.robobunny.com/projects/asciiquarium/html/
 
@@ -100,7 +100,7 @@
  * Versions:
 
   * `0.8.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/tudu/tudu-0.8.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.9.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/tudu/tudu-0.9.1.ebuild>`__  ``~amd64`` (due 2013-10-01), ``~x86`` (due 2013-10-01)
+  * `0.9.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/tudu/tudu-0.9.1.ebuild>`__  ``~amd64`` (due 2013-10-01), ``x86``
 
 * ``weatherspect`` - http://www.robobunny.com/projects/weatherspect/html/
 

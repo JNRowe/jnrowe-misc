@@ -100,7 +100,7 @@
  * Versions:
 
   * `1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.5.ebuild>`__  ``amd64``, ``x86``
-  * `1.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.5.1.ebuild>`__  ``~amd64`` (due 2013-10-01), ``~x86`` (due 2013-10-01)
+  * `1.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.5.1.ebuild>`__  ``~amd64`` (due 2013-10-01), ``x86``
 
 * ``calabash`` - https://pypi.python.org/pypi/calabash/
 
@@ -392,7 +392,7 @@
  * Versions:
 
   * `0.4.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.6.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.7.ebuild>`__  ``~amd64`` (due 2013-10-01), ``~x86`` (due 2013-10-01)
+  * `0.4.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.7.ebuild>`__  ``~amd64`` (due 2013-10-01), ``x86``
 
 * ``nose2-cov`` - https://pypi.python.org/pypi/nose2-cov/
 
@@ -438,7 +438,7 @@
  * Versions:
 
   * `0.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep257/pep257-0.2.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep257/pep257-0.2.4.ebuild>`__  ``~amd64`` (due 2013-10-01), ``~x86`` (due 2013-10-01)
+  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep257/pep257-0.2.4.ebuild>`__  ``~amd64`` (due 2013-10-01), ``x86``
 
 * ``pep8-naming`` - https://pypi.python.org/pypi/pep8-naming/
 
