@@ -438,7 +438,7 @@
  * Versions:
 
   * `0.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep257/pep257-0.2.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep257/pep257-0.2.4.ebuild>`__  ``~amd64`` (due 2013-10-01), ``~x86`` (due 2013-10-01)
+  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep257/pep257-0.2.4.ebuild>`__  ``~amd64`` (due 2013-10-01), ``x86``
 
 * ``pep8-naming`` - https://pypi.python.org/pypi/pep8-naming/
 
