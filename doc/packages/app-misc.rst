@@ -100,7 +100,7 @@
  * Versions:
 
   * `0.8.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/tudu/tudu-0.8.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.9.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/tudu/tudu-0.9.1.ebuild>`__  ``~amd64`` (due 2013-10-01), ``~x86`` (due 2013-10-01)
+  * `0.9.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/tudu/tudu-0.9.1.ebuild>`__  ``~amd64`` (due 2013-10-01), ``x86``
 
 * ``weatherspect`` - http://www.robobunny.com/projects/weatherspect/html/
 
