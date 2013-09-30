@@ -2,6 +2,13 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  30 Sep 2013; James Rowe <jnrowe@gmail.com> -pep257-0.2.0.ebuild,
+  pep257-0.2.4.ebuild:
+  Keyworded amd64.
+
+  30 Sep 2013; James Rowe <jnrowe@gmail.com> pep257-0.2.4.ebuild:
+  Keyworded x86.
+
   06 Sep 2013; James Rowe <jnrowe@gmail.com> pep257-0.2.0.ebuild,
   pep257-0.2.4.ebuild:
   Drop Python 2.5/3.1 support.
