@@ -12,7 +12,7 @@ DESCRIPTION="Produces metrics for C, C++, Javascript, and Python programs"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools"

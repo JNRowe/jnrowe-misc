@@ -44,6 +44,5 @@
  * Status: maintained
  * Versions:
 
-  * `0.2.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/metrics/metrics-0.2.6.ebuild>`__  ``~amd64`` (due 2013-10-01), ``x86``
-  * `0.1_alpha3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/metrics/metrics-0.1_alpha3.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/metrics/metrics-0.2.6.ebuild>`__  ``amd64``, ``x86``
 
