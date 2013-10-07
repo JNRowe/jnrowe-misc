@@ -9,7 +9,7 @@
  * Versions:
 
   * `0.5.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Attest/Attest-0.5.3.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.3-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Attest/Attest-0.5.3-r1.ebuild>`__  ``~amd64`` (due 2013-10-08), ``~x86`` (due 2013-11-07)
+  * `0.5.3-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Attest/Attest-0.5.3-r1.ebuild>`__  ``~amd64`` (due 2013-11-22), ``~x86`` (due 2013-11-07)
 
 * ``Basket`` - https://pypi.python.org/pypi/Basket/
 
@@ -209,7 +209,7 @@
  * Versions:
 
   * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/freshen/freshen-0.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.2-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/freshen/freshen-0.2-r1.ebuild>`__  ``~amd64`` (due 2013-10-08), ``~x86`` (due 2013-11-07)
+  * `0.2-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/freshen/freshen-0.2-r1.ebuild>`__  ``~amd64`` (due 2013-11-22), ``~x86`` (due 2013-11-07)
 
 * ``funcparserlib`` - https://pypi.python.org/pypi/funcparserlib/
 
@@ -273,7 +273,7 @@
  * Versions:
 
   * `0.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html2data/html2data-0.4.3.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.3-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html2data/html2data-0.4.3-r1.ebuild>`__  ``~amd64`` (due 2013-10-08), ``~x86`` (due 2013-11-07)
+  * `0.4.3-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html2data/html2data-0.4.3-r1.ebuild>`__  ``~amd64`` (due 2013-11-22), ``~x86`` (due 2013-11-07)
 
 * ``httpretty`` - https://pypi.python.org/pypi/httpretty/
 
