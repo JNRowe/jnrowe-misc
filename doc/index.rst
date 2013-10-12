@@ -52,6 +52,7 @@ Contents
    maintenance
    cupage
    contact
+   signing
    contributing
    appendix
 
