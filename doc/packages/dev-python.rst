@@ -321,15 +321,6 @@
   * `0.2.12 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.12.ebuild>`__  ``amd64``, ``x86``
   * `0.2.14 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.14.ebuild>`__  ``~amd64`` (due 2013-11-30), ``~x86`` (due 2013-10-31)
 
-* ``mccabe`` - https://pypi.python.org/pypi/mccabe/
-
- * McCabe complexity plugin for flake8
- * Licence: ``MIT``
- * Status: maintained
- * Versions:
-
-  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/mccabe/mccabe-0.2.1.ebuild>`__  ``amd64``, ``x86``
-
 * ``micromodels`` - https://pypi.python.org/pypi/micromodels/
 
  * Declarative dictionary-based model classes for Python
