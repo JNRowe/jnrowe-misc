@@ -64,7 +64,7 @@
  * Versions:
 
   * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/aaargh/aaargh-0.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/aaargh/aaargh-0.5.ebuild>`__  ``~amd64`` (due 2013-10-23), ``~x86`` (due 2013-10-23)
+  * `0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/aaargh/aaargh-0.5.ebuild>`__  ``~amd64`` (due 2013-10-23), ``~x86`` (due 2013-11-22)
 
 * ``astral`` - https://pypi.python.org/pypi/astral/
 
