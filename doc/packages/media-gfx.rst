@@ -35,7 +35,7 @@
  * Status: deprecated, see :issue:`751`
  * Versions:
 
-  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.4.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.4.1.ebuild>`__  ``~amd64`` (due 2013-11-22), ``~x86`` (due 2013-11-22)
 
 * ``blockdiag`` - https://pypi.python.org/pypi/blockdiag/
 
@@ -44,7 +44,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.2.4-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.2.4-r1.ebuild>`__  ``amd64``, ``x86``
+  * `1.2.4-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.2.4-r1.ebuild>`__  ``~amd64`` (due 2013-11-22), ``~x86`` (due 2013-11-22)
 
 * ``gruffy`` - https://pypi.python.org/pypi/gruffy/
 
@@ -62,7 +62,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.9.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.9.4.ebuild>`__  ``amd64``, ``x86``
+  * `0.9.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.9.4.ebuild>`__  ``~amd64`` (due 2013-11-22), ``~x86`` (due 2013-11-22)
 
 * ``seqdiag`` - https://pypi.python.org/pypi/seqdiag/
 
@@ -71,7 +71,7 @@
  * Status: deprecated, see :issue:`751`
  * Versions:
 
-  * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.8.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.8.1.ebuild>`__  ``~amd64`` (due 2013-11-22), ``~x86`` (due 2013-11-22)
 
 * ``sphinxcontrib-aafig`` - http://packages.python.org/sphinxcontrib-aafig/
 
@@ -89,7 +89,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-1.2.0.ebuild>`__  ``amd64``, ``x86``
+  * `1.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-1.2.0.ebuild>`__  ``~amd64`` (due 2013-11-22), ``~x86`` (due 2013-11-22)
 
 * ``sphinxcontrib-gruffygen`` - https://pypi.python.org/pypi/sphinxcontrib-gruffygen/
 
