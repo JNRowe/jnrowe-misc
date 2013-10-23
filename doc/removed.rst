@@ -253,7 +253,7 @@ culled.
     at the very least.
 
 :Reason: Moved to ``::shadow``
-:Commit: ``unknown``
+:Commit: :commit:`593791d2 <593791d2eb014c3a2a998cef954049005353a9cd>`
 :Removal date: 2013-10-23
 :Issues: :issue:`814`
 
@@ -264,7 +264,7 @@ culled.
     at the very least.
 
 :Reason: Moved to ``::shadow``
-:Commit: ``unknown``
+:Commit: :commit:`0050e9ef <0050e9effb531ff4b6c0d23f46c71e3ec6eff197>`
 :Removal date: 2013-10-23
 :Issues: :issue:`815`
 
@@ -347,7 +347,7 @@ culled.
     at the very least.
 
 :Reason: Moved to ``::shadow``
-:Commit: ``unknown``
+:Commit: :commit:`948f5c6c <948f5c6c0fa434dde7f25cc06c1b4b1111199608>`
 :Removal date: 2013-10-23
 :Issues: :issue:`816`
 
@@ -376,7 +376,7 @@ culled.
     at the very least.
 
 :Reason: Moved to ``::shadow``
-:Commit: ``unknown``
+:Commit: :commit:`b22f767f <b22f767f8b9d194075dbbaadf9632733a2def005>`
 :Removal date: 2013-10-23
 :Issues: :issue:`817`
 
@@ -502,7 +502,7 @@ culled.
     at the very least.
 
 :Reason: Moved to ``::shadow``
-:Commit: ``unknown``
+:Commit: :commit:`f02b5f49 <f02b5f4956eb51a3cbc9970714165ac98cc47e0f>`
 :Removal date: 2013-10-23
 :Issues: :issue:`818`
 
