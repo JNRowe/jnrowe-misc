@@ -369,6 +369,17 @@ culled.
 :Commit: :commit:`7b637d57 <7b637d57ec60e1f6d04055370b99f094e4e71ccd>`
 :Removal date: 2011-09-13
 
+``pgmagick``
+''''''''''''
+
+    The shadowed ``ebuild`` will exist until upstream's has matching visibility
+    at the very least.
+
+:Reason: Moved to ``::shadow``
+:Commit: ``unknown``
+:Removal date: 2013-10-23
+:Issues: :issue:`817`
+
 ``poster``
 ''''''''''
 

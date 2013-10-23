@@ -429,15 +429,6 @@
 
   * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep8-naming/pep8-naming-0.2.1.ebuild>`__  ``amd64``, ``x86``
 
-* ``pgmagick`` - https://pypi.python.org/pypi/pgmagick/
-
- * Yet Another Python wrapper for GraphicsMagick
- * Licence: ``MIT``
- * Status: deprecated, see :issue:`751`
- * Versions:
-
-  * `0.5.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.5.4.ebuild>`__  ``amd64``, ``x86``
-
 * ``pinocchio`` - http://darcs.idyll.org/~t/projects/pinocchio/doc/
 
  * Extensions for the nose testing framework
