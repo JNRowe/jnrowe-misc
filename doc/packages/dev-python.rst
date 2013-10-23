@@ -192,15 +192,6 @@
 
   * `1.4.1-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/feedcache/feedcache-1.4.1-r1.ebuild>`__  ``amd64``, ``x86``
 
-* ``flake8`` - https://pypi.python.org/pypi/flake8/
-
- * Python code checking using mccabe, pep8 and pyflakes
- * Licence: ``MIT``
- * Status: maintained
- * Versions:
-
-  * `2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/flake8/flake8-2.0.ebuild>`__  ``amd64``, ``x86``
-
 * ``freshen`` - https://github.com/rlisagor/freshen
 
  * Clone of the Cucumber BDD framework for Python
@@ -321,15 +312,6 @@
   * `0.2.12 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.12.ebuild>`__  ``amd64``, ``x86``
   * `0.2.14 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.14.ebuild>`__  ``~amd64`` (due 2013-11-30), ``~x86`` (due 2013-10-31)
 
-* ``mccabe`` - https://pypi.python.org/pypi/mccabe/
-
- * McCabe complexity plugin for flake8
- * Licence: ``MIT``
- * Status: maintained
- * Versions:
-
-  * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/mccabe/mccabe-0.2.1.ebuild>`__  ``amd64``, ``x86``
-
 * ``micromodels`` - https://pypi.python.org/pypi/micromodels/
 
  * Declarative dictionary-based model classes for Python
@@ -446,15 +428,6 @@
  * Versions:
 
   * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep8-naming/pep8-naming-0.2.1.ebuild>`__  ``amd64``, ``x86``
-
-* ``pgmagick`` - https://pypi.python.org/pypi/pgmagick/
-
- * Yet Another Python wrapper for GraphicsMagick
- * Licence: ``MIT``
- * Status: deprecated, see :issue:`751`
- * Versions:
-
-  * `0.5.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pgmagick/pgmagick-0.5.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``pinocchio`` - http://darcs.idyll.org/~t/projects/pinocchio/doc/
 
@@ -626,15 +599,6 @@
  * Versions:
 
   * `0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/snot/snot-0.6.ebuild>`__  ``amd64``, ``x86``
-
-* ``socksipy`` - https://pypi.python.org/pypi/SocksiPy-branch/
-
- * A Python SOCKS protocol module
- * Licence: ``BSD``
- * Status: maintained
- * Versions:
-
-  * `1.01 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/socksipy/socksipy-1.01.ebuild>`__  ``amd64``, ``x86``
 
 * ``sphinxcontrib-cheeseshop`` - https://pypi.python.org/pypi/sphinxcontrib-cheeseshop/
 

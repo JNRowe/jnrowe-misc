@@ -246,6 +246,28 @@ culled.
 :Removal date: 2012-07-20
 :Issues: :issue:`639`
 
+``flake8``
+''''''''''
+
+    The shadowed ``ebuild`` will exist until upstream's has matching visibility
+    at the very least.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`593791d2 <593791d2eb014c3a2a998cef954049005353a9cd>`
+:Removal date: 2013-10-23
+:Issues: :issue:`814`
+
+``funcparserlib``
+'''''''''''''''''
+
+    The shadowed ``ebuild`` will exist until upstream's has matching visibility
+    at the very least.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`0050e9ef <0050e9effb531ff4b6c0d23f46c71e3ec6eff197>`
+:Removal date: 2013-10-23
+:Issues: :issue:`815`
+
 ``gevent``
 ''''''''''
 
@@ -318,6 +340,17 @@ culled.
 :Commit: :commit:`bd89ae1b <bd89ae1b2eec91e50591c07c9b6b9ea4cea557ac>`
 :Removal date: 2012-01-16
 
+``mccabe``
+''''''''''
+
+    The shadowed ``ebuild`` will exist until upstream's has matching visibility
+    at the very least.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`948f5c6c <948f5c6c0fa434dde7f25cc06c1b4b1111199608>`
+:Removal date: 2013-10-23
+:Issues: :issue:`816`
+
 ``multiprocessing``
 '''''''''''''''''''
 
@@ -335,6 +368,17 @@ culled.
 :Reason: Moved to ``::shadow``
 :Commit: :commit:`7b637d57 <7b637d57ec60e1f6d04055370b99f094e4e71ccd>`
 :Removal date: 2011-09-13
+
+``pgmagick``
+''''''''''''
+
+    The shadowed ``ebuild`` will exist until upstream's has matching visibility
+    at the very least.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`b22f767f <b22f767f8b9d194075dbbaadf9632733a2def005>`
+:Removal date: 2013-10-23
+:Issues: :issue:`817`
 
 ``poster``
 ''''''''''
@@ -450,6 +494,17 @@ culled.
 :Commit: :commit:`dafa80f2 <dafa80f2ddfaad1e2fb4a7aec6aa2ede8a2b5152>`
 :Removal date: 2012-05-31
 :Issues: :issue:`614`
+
+``socksipy``
+''''''''''''
+
+    The shadowed ``ebuild`` will exist until upstream's has matching visibility
+    at the very least.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`f02b5f49 <f02b5f4956eb51a3cbc9970714165ac98cc47e0f>`
+:Removal date: 2013-10-23
+:Issues: :issue:`818`
 
 ``sphinx-to-github``
 ''''''''''''''''''''

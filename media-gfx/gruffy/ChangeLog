@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  23 Oct 2013; James Rowe <jnrowe@gmail.com> gruffy-0.3.3.ebuild:
+  Dropping keywords for pgmagick move to ::shadow, refs #817.
+
   06 Sep 2013; James Rowe <jnrowe@gmail.com> gruffy-0.3.3.ebuild:
   Drop Python 2.5 support.
 
