@@ -600,15 +600,6 @@
 
   * `0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/snot/snot-0.6.ebuild>`__  ``amd64``, ``x86``
 
-* ``socksipy`` - https://pypi.python.org/pypi/SocksiPy-branch/
-
- * A Python SOCKS protocol module
- * Licence: ``BSD``
- * Status: maintained
- * Versions:
-
-  * `1.01 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/socksipy/socksipy-1.01.ebuild>`__  ``amd64``, ``x86``
-
 * ``sphinxcontrib-cheeseshop`` - https://pypi.python.org/pypi/sphinxcontrib-cheeseshop/
 
  * dev-python/sphinx extension to support generate links to PyPI
