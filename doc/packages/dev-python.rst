@@ -202,15 +202,6 @@
   * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/freshen/freshen-0.2.ebuild>`__  ``amd64``, ``x86``
   * `0.2-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/freshen/freshen-0.2-r1.ebuild>`__  ``~amd64`` (due 2013-11-22), ``~x86`` (due 2013-11-07)
 
-* ``funcparserlib`` - https://pypi.python.org/pypi/funcparserlib/
-
- * Recursive descent parsing library based on functional combinators
- * Licence: ``MIT``
- * Status: maintained
- * Versions:
-
-  * `0.3.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/funcparserlib/funcparserlib-0.3.6.ebuild>`__  ``amd64``, ``x86``
-
 * ``fuzzywuzzy`` - https://pypi.python.org/pypi/fuzzywuzzy/
 
  * Fuzzy string matching in python
