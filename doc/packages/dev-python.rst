@@ -200,7 +200,7 @@
  * Versions:
 
   * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/freshen/freshen-0.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.2-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/freshen/freshen-0.2-r1.ebuild>`__  ``~amd64`` (due 2013-11-22), ``~x86`` (due 2013-11-07)
+  * `0.2-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/freshen/freshen-0.2-r1.ebuild>`__  ``~amd64`` (due 2013-11-22), ``~x86`` (due 2013-12-07)
 
 * ``fuzzywuzzy`` - https://pypi.python.org/pypi/fuzzywuzzy/
 
