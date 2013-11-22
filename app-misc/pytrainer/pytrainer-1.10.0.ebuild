@@ -29,4 +29,6 @@ RDEPEND="${DEPEND}
 	import? ( sci-geosciences/gpsbabel )
 	elevation? ( sci-libs/gdal[python] )"
 
+PATCHES=("${FILESDIR}"/${P}-workaround_relative_path_breakage.patch)
+
 DOCS=(CHANGES PLUGINS.README README.md)
