@@ -301,7 +301,7 @@
  * Versions:
 
   * `0.2.12 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.12.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.14 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.14.ebuild>`__  ``~amd64`` (due 2013-11-30), ``~x86`` (due 2013-12-15)
+  * `0.2.14 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.14.ebuild>`__  ``~amd64`` (due 2014-01-14), ``~x86`` (due 2013-12-15)
 
 * ``micromodels`` - https://pypi.python.org/pypi/micromodels/
 
@@ -526,7 +526,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rad/rad-0.1.2.ebuild>`__  ``~amd64`` (due 2013-11-30), ``~x86`` (due 2013-11-30)
+  * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rad/rad-0.1.2.ebuild>`__  ``~amd64`` (due 2014-01-14), ``~x86`` (due 2013-12-30)
 
 * ``rstctl`` - https://pypi.python.org/pypi/rstctl/
 
@@ -580,7 +580,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/showme/showme-1.0.0.ebuild>`__  ``~amd64`` (due 2013-11-30), ``~x86`` (due 2013-11-30)
+  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/showme/showme-1.0.0.ebuild>`__  ``~amd64`` (due 2014-01-14), ``~x86`` (due 2013-12-30)
 
 * ``snot`` - https://pypi.python.org/pypi/snot/
 
