@@ -8,5 +8,5 @@ LICENSE=GPL-3
 RDEPEND=dev-perl/libwww-perl media-video/flvstreamer !minimal? ( virtual/ffmpeg )
 SLOT=0
 SRC_URI=ftp://ftp.infradead.org/pub/get_iplayer/get_iplayer-2.83.tar.gz
-_eclasses_=eutils	6d8dee04b66401ad63aea36dde0b0ae8	multilib	892e597faee02a5b94eb02ab512e7622	toolchain-funcs	51e6c948e72c43bcc8edc7544411c953	user	d0a4d0735a6c0183d707ca919bd72f28
+_eclasses_=eutils	d04e3933e3ec7e338a0561a6b0ae66b1	multilib	892e597faee02a5b94eb02ab512e7622	toolchain-funcs	51e6c948e72c43bcc8edc7544411c953	user	d0a4d0735a6c0183d707ca919bd72f28
 _md5_=71dbfde13910601831fc2e01eaedf7e8
