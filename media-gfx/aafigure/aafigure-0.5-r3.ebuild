@@ -17,7 +17,7 @@ IUSE="doc docutils examples pdf"
 
 # setuptools is needed in RDEPEND because it installs a setuptools-based plugin
 # for docutils
-RDEPEND="dev-python/imaging[${PYTHON_USEDEP}]
+RDEPEND="virtual/python-imaging[${PYTHON_USEDEP}]
 	docutils? (
 		dev-python/docutils[${PYTHON_USEDEP}]
 		dev-python/setuptools[${PYTHON_USEDEP}]
