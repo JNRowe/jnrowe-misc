@@ -2,6 +2,11 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+*nwdiag-1.0.0 (03 Jan 2014)
+
+  03 Jan 2014; James Rowe <jnrowe@gmail.com> +nwdiag-1.0.0.ebuild:
+  Version bump [821].
+
   23 Oct 2013; James Rowe <jnrowe@gmail.com> nwdiag-0.9.4.ebuild:
   Dropping keywords for funcparserlib move to ::shadow, refs #815.
 

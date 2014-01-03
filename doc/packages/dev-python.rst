@@ -283,6 +283,7 @@
  * Versions:
 
   * `1.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/interlude/interlude-1.1.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/interlude/interlude-1.2.ebuild>`__  ``~amd64`` (due 2014-02-02), ``~x86`` (due 2014-02-02)
 
 * ``kitchen`` - https://pypi.python.org/pypi/kitchen/
 
@@ -392,6 +393,7 @@
  * Versions:
 
   * `1.6.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.6.2.ebuild>`__  ``amd64``, ``x86``
+  * `1.6.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.6.3.ebuild>`__  ``~amd64`` (due 2014-02-02), ``~x86`` (due 2014-02-02)
 
 * ``pdbpp`` - https://pypi.python.org/pypi/pdbpp/
 
@@ -500,6 +502,7 @@
  * Versions:
 
   * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyisbn/pyisbn-0.6.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.6.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyisbn/pyisbn-0.6.3.ebuild>`__  ``~amd64`` (due 2014-02-02), ``~x86`` (due 2014-02-02)
 
 * ``pyrepl`` - https://pypi.python.org/pypi/pyrepl/
 
@@ -590,6 +593,7 @@
  * Versions:
 
   * `0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/snot/snot-0.6.ebuild>`__  ``amd64``, ``x86``
+  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/snot/snot-1.0.0.ebuild>`__  ``~amd64`` (due 2014-02-02), ``~x86`` (due 2014-02-02)
 
 * ``sphinxcontrib-cheeseshop`` - https://pypi.python.org/pypi/sphinxcontrib-cheeseshop/
 

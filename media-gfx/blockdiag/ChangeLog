@@ -5,6 +5,11 @@
   03 Jan 2014; James Rowe <jnrowe@gmail.com> blockdiag-1.2.4-r1.ebuild:
   Use virtual/python-imaging to handle pillow support.
 
+*blockdiag-1.3.2 (03 Jan 2014)
+
+  03 Jan 2014; James Rowe <jnrowe@gmail.com> +blockdiag-1.3.2.ebuild:
+  Version bump [819].
+
   23 Oct 2013; James Rowe <jnrowe@gmail.com> blockdiag-1.2.4-r1.ebuild:
   Dropping keywords for funcparserlib move to ::shadow, refs #815.
 

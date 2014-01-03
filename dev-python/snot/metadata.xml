@@ -6,8 +6,17 @@
 		<name>James Rowe</name>
 	</maintainer>
 	<longdescription lang="en">
-		This is a colouriser for <pkg>dev-python/nose</pkg> output.
+		This is a colouriser for <pkg>dev-python/nose</pkg> and
+		<pkg>dev-python/pytest</pkg> output.
 	</longdescription>
+	<use>
+		<flag name="nose">
+			Explicitly depend on nose package
+		</flag>
+		<flag name="pytest">
+			Explicitly depend on pytest package
+		</flag>
+	</use>
 	<upstream>
 		<remote-id type="pypi">snot</remote-id>
 		<bugs-to>https://github.com/whit537/snot/issues</bugs-to>
