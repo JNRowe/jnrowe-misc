@@ -6,12 +6,13 @@ PYTHON_COMPAT=(python{2_{6,7},3_{2,3}})
 
 inherit jnrowe-pypi
 
-DESCRIPTION="nosetests output colourising plugin"
+DESCRIPTION="nose/pytest output colourising plugin"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE=""
+IUSE="+nose pytest"
 
 DEPEND=""
-RDEPEND="dev-python/nose[${PYTHON_USEDEP}]"
+RDEPEND="nose? ( dev-python/nose[${PYTHON_USEDEP}] )
+	pytest? ( dev-python/pytest[${PYTHON_USEDEP}] )"
