@@ -1,7 +1,7 @@
 #
 # coding=utf-8
 """conf - Sphinx configuration information"""
-# Copyright © 2009, 2010, 2011, 2012, 2013  James Rowe <jnrowe@gmail.com>
+# Copyright © 2009, 2010, 2011, 2012, 2013, 2014  James Rowe <jnrowe@gmail.com>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -29,7 +29,7 @@ master_doc = 'index'
 source_suffix = '.rst'
 
 project = u'jnrowe-misc'
-copyright = u'2009-2013, James Rowe'
+copyright = u'2009-2014, James Rowe'
 
 version = "1.0"  # Just set 1.0, as it is unused in this document.
 release = version
