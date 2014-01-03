@@ -283,6 +283,7 @@
  * Versions:
 
   * `1.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/interlude/interlude-1.1.1.ebuild>`__  ``amd64``, ``x86``
+  * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/interlude/interlude-1.2.ebuild>`__  ``~amd64`` (due 2014-02-02), ``~x86`` (due 2014-02-02)
 
 * ``kitchen`` - https://pypi.python.org/pypi/kitchen/
 
