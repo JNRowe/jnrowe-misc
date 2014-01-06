@@ -9,7 +9,7 @@
  * Versions:
 
   * `0.5.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Attest/Attest-0.5.3.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.3-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Attest/Attest-0.5.3-r1.ebuild>`__  ``~amd64`` (due 2014-01-06), ``~x86`` (due 2014-01-06)
+  * `0.5.3-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Attest/Attest-0.5.3-r1.ebuild>`__  ``~amd64`` (due 2014-01-06), ``~x86`` (due 2014-02-20)
 
 * ``Basket`` - https://pypi.python.org/pypi/Basket/
 
@@ -200,7 +200,7 @@
  * Versions:
 
   * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/freshen/freshen-0.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.2-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/freshen/freshen-0.2-r1.ebuild>`__  ``~amd64`` (due 2014-01-06), ``~x86`` (due 2014-01-06)
+  * `0.2-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/freshen/freshen-0.2-r1.ebuild>`__  ``~amd64`` (due 2014-01-06), ``~x86`` (due 2014-02-20)
 
 * ``fuzzywuzzy`` - https://pypi.python.org/pypi/fuzzywuzzy/
 
@@ -255,7 +255,7 @@
  * Versions:
 
   * `0.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html2data/html2data-0.4.3.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.3-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html2data/html2data-0.4.3-r1.ebuild>`__  ``~amd64`` (due 2014-01-06), ``~x86`` (due 2014-01-06)
+  * `0.4.3-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html2data/html2data-0.4.3-r1.ebuild>`__  ``~amd64`` (due 2014-01-06), ``~x86`` (due 2014-02-20)
 
 * ``httpretty`` - https://pypi.python.org/pypi/httpretty/
 
