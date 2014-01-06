@@ -73,7 +73,7 @@
  * Status: deprecated, see :issue:`751`
  * Versions:
 
-  * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.8.1.ebuild>`__  ``~amd64`` (due 2014-01-06), ``~x86`` (due 2014-01-21)
+  * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.8.1.ebuild>`__  ``~amd64`` (due 2014-03-07), ``~x86`` (due 2014-01-21)
 
 * ``sphinxcontrib-aafig`` - http://packages.python.org/sphinxcontrib-aafig/
 
