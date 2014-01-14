@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013, 2014  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  14 Jan 2014; James Rowe <jnrowe@gmail.com> cake-0.2.3.ebuild:
+  Keyworded amd64.
+
   18 Dec 2012; James Rowe <jnrowe@gmail.com> cake-0.2.3.ebuild:
   Updated for distutils-r1 usage.
 
