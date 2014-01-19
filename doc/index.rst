@@ -54,6 +54,7 @@ Contents
    contact
    signing
    contributing
+   faq
    appendix
 
 Indices and tables
