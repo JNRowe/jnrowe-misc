@@ -8,7 +8,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/Hammertime/Hammertime-0.2.4.ebuild>`__  ``~amd64`` (due 2014-03-07), ``~x86`` (due 2014-01-21)
+  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/Hammertime/Hammertime-0.2.4.ebuild>`__  ``~amd64`` (due 2014-03-07), ``~x86`` (due 2014-02-20)
 
 * ``asciiquarium`` - http://www.robobunny.com/projects/asciiquarium/html/
 
@@ -63,7 +63,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.11.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/rdial/rdial-0.11.3.ebuild>`__  ``~amd64`` (due 2014-01-19)
+  * `0.11.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/rdial/rdial-0.11.3.ebuild>`__  ``~amd64`` (due 2014-03-20)
 
 * ``repl`` - http://defunkt.io/repl/
 
