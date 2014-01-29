@@ -529,7 +529,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rad/rad-0.1.2.ebuild>`__  ``~amd64`` (due 2014-03-15), ``~x86`` (due 2014-01-29)
+  * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rad/rad-0.1.2.ebuild>`__  ``~amd64`` (due 2014-03-15), ``~x86`` (due 2014-02-28)
 
 * ``rstctl`` - https://pypi.python.org/pypi/rstctl/
 
@@ -583,7 +583,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/showme/showme-1.0.0.ebuild>`__  ``amd64``, ``~x86`` (due 2014-01-29)
+  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/showme/showme-1.0.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``snot`` - https://pypi.python.org/pypi/snot/
 
