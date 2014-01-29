@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013, 2014  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  29 Jan 2014; James Rowe <jnrowe@gmail.com> showme-1.0.0.ebuild:
+  [showme] 1.0.0 keyworded x86
+
   14 Jan 2014; James Rowe <jnrowe@gmail.com> showme-1.0.0.ebuild:
   Keyworded amd64.
 
@@ -59,4 +62,3 @@
   12 Oct 2010; James Rowe <jnrowe@gmail.com> +showme-1.0.0.ebuild,
   +metadata.xml:
   Initial ebuild, by me [203].
-
