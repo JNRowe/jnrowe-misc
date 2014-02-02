@@ -2,6 +2,10 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013, 2014  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  02 Feb 2014; James Rowe <jnrowe@gmail.com> -parse-1.6.2.ebuild,
+  parse-1.6.3.ebuild:
+  Keyworded amd64.
+
   02 Feb 2014; James Rowe <jnrowe@gmail.com> parse-1.6.3.ebuild:
   Keyworded x86.
 

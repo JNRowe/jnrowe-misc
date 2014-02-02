@@ -391,8 +391,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.6.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.6.2.ebuild>`__  ``amd64``, ``x86``
-  * `1.6.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.6.3.ebuild>`__  ``~amd64`` (due 2014-02-02), ``x86``
+  * `1.6.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.6.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``pdbpp`` - https://pypi.python.org/pypi/pdbpp/
 
