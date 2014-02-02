@@ -2,6 +2,10 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013, 2014  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  02 Feb 2014; James Rowe <jnrowe@gmail.com> -snot-0.6.ebuild,
+  snot-1.0.0.ebuild:
+  Keyworded amd64.
+
   02 Feb 2014; James Rowe <jnrowe@gmail.com> snot-1.0.0.ebuild:
   Keyworded x86.
 
