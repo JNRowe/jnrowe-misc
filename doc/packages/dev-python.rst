@@ -282,8 +282,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/interlude/interlude-1.1.1.ebuild>`__  ``amd64``, ``x86``
-  * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/interlude/interlude-1.2.ebuild>`__  ``~amd64`` (due 2014-02-02), ``x86``
+  * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/interlude/interlude-1.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``kitchen`` - https://pypi.python.org/pypi/kitchen/
 
@@ -392,8 +391,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.6.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.6.2.ebuild>`__  ``amd64``, ``x86``
-  * `1.6.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.6.3.ebuild>`__  ``~amd64`` (due 2014-02-02), ``x86``
+  * `1.6.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.6.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``pdbpp`` - https://pypi.python.org/pypi/pdbpp/
 
@@ -501,8 +499,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.6.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyisbn/pyisbn-0.6.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.6.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyisbn/pyisbn-0.6.3.ebuild>`__  ``~amd64`` (due 2014-02-02), ``x86``
+  * `0.6.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyisbn/pyisbn-0.6.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``pyrepl`` - https://pypi.python.org/pypi/pyrepl/
 
@@ -587,13 +584,12 @@
 
 * ``snot`` - https://pypi.python.org/pypi/snot/
 
- * nosetests output colourising plugin
+ * nose/pytest output colourising plugin
  * Licence: ``MIT``
  * Status: maintained
  * Versions:
 
-  * `0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/snot/snot-0.6.ebuild>`__  ``amd64``, ``x86``
-  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/snot/snot-1.0.0.ebuild>`__  ``~amd64`` (due 2014-02-02), ``x86``
+  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/snot/snot-1.0.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``sphinxcontrib-cheeseshop`` - https://pypi.python.org/pypi/sphinxcontrib-cheeseshop/
 
@@ -638,7 +634,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/termtool/termtool-1.0.ebuild>`__  ``~amd64`` (due 2014-02-02), ``~x86`` (due 2014-03-04)
+  * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/termtool/termtool-1.0.ebuild>`__  ``~amd64`` (due 2014-03-19), ``~x86`` (due 2014-03-04)
 
 * ``texttable`` - http://foutaise.org/code/
 
