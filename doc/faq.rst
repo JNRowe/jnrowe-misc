@@ -29,9 +29,10 @@ Why isn't this listed in the layman repo?
 
 I've never used ``layman``, so it isn't something I would test very often.
 
-A few users have asked in the past, but they normally find the :doc:`install`
-method for ``layman`` satisfies their needs when it is pointed out.  Perhaps, it
-could be more discoverable(ideas how to make it so are very welcome).
+A few users have asked in the past, but they normally find the
+:doc:`installation` method for ``layman`` satisfies their needs when it is
+pointed out.  Perhaps, it could be more discoverable(ideas how to make it so are
+very welcome).
 
 Why are there so many merge commits?
 ------------------------------------
