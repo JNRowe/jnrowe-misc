@@ -1,0 +1,14 @@
+Title: dev-python/interlude is no longer receiving version bumps
+Author: James Rowe <jnrowe@gmail.com>
+Content-Type: text/plain
+Posted: 2014-02-20
+Revision: 1
+News-Item-Format: 1.0
+Display-If-Installed: dev-python/interlude
+
+The ``jnrowe-misc`` repository has now entered maintenance mode, and
+dev-python/interlude will no longer be receiving version bumps.  Bug
+fixes may still be applied as time permits.
+
+Feel free to step up and maintain this package if you want to see it
+move forward.
