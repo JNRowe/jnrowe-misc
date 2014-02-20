@@ -2,6 +2,11 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013, 2014  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+*astral-0.7.3 (20 Feb 2014)
+
+  20 Feb 2014; James Rowe <jnrowe@gmail.com> +astral-0.7.3.ebuild:
+  Version bump [826].
+
   06 Sep 2013; James Rowe <jnrowe@gmail.com> astral-0.7.2.ebuild:
   Drop Python 2.5/3.1 support.
 
