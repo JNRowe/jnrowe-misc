@@ -284,7 +284,7 @@
 
  * Provides an interactive console for doctests
  * Licence: ``LGPL-2.1``
- * Status: maintained
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/interlude/interlude-1.2.ebuild>`__  ``amd64``, ``x86``
