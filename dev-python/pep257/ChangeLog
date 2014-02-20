@@ -2,6 +2,11 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013, 2014  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+*pep257-0.3.0 (20 Feb 2014)
+
+  20 Feb 2014; James Rowe <jnrowe@gmail.com> +pep257-0.3.0.ebuild:
+  Version bump [832].
+
   30 Sep 2013; James Rowe <jnrowe@gmail.com> -pep257-0.2.0.ebuild,
   pep257-0.2.4.ebuild:
   Keyworded amd64.
