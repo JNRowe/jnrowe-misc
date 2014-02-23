@@ -261,15 +261,6 @@
   * `0.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html2data/html2data-0.4.3.ebuild>`__  ``amd64``, ``x86``
   * `0.4.3-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html2data/html2data-0.4.3-r1.ebuild>`__  ``~amd64`` (due 2014-03-07), ``~x86`` (due 2014-03-22)
 
-* ``httpretty`` - https://pypi.python.org/pypi/httpretty/
-
- * HTTP client mocking tool for Python
- * Licence: ``MIT``
- * Status: deprecated, see :issue:`751`
- * Versions:
-
-  * `0.5.10 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.10.ebuild>`__  ``amd64``, ``x86``
-
 * ``importlib`` - https://pypi.python.org/pypi/importlib/
 
  * Backport of importlib.import_module() from Python 2.7
@@ -316,15 +307,6 @@
  * Versions:
 
   * `0.5.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/micromodels/micromodels-0.5.0.ebuild>`__  ``amd64``, ``x86``
-
-* ``misaka`` - https://pypi.python.org/pypi/misaka/
-
- * Python binding for the Sundown Markdown parser
- * Licence: ``MIT``
- * Status: maintained
- * Versions:
-
-  * `1.0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/misaka/misaka-1.0.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``mod2doctest`` - https://pypi.python.org/pypi/mod2doctest/
 
@@ -624,15 +606,6 @@
  * Versions:
 
   * `1.4.0_p1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.4.0_p1.ebuild>`__  ``amd64``, ``x86``
-
-* ``sure`` - https://pypi.python.org/pypi/sure/
-
- * Assertion toolbox for python
- * Licence: ``GPL-3``
- * Status: deprecated, see :issue:`751`
- * Versions:
-
-  * `1.1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-1.1.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``termtool`` - https://pypi.python.org/pypi/termtool/
 
