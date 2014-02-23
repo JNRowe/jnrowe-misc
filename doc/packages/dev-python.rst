@@ -607,15 +607,6 @@
 
   * `1.4.0_p1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/straight-plugin/straight-plugin-1.4.0_p1.ebuild>`__  ``amd64``, ``x86``
 
-* ``sure`` - https://pypi.python.org/pypi/sure/
-
- * Assertion toolbox for python
- * Licence: ``GPL-3``
- * Status: deprecated, see :issue:`751`
- * Versions:
-
-  * `1.1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sure/sure-1.1.4.ebuild>`__  ``amd64``, ``x86``
-
 * ``termtool`` - https://pypi.python.org/pypi/termtool/
 
  * Declarative terminal tool programming

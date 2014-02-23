@@ -547,6 +547,17 @@ culled.
 :Commit: :commit:`56ea0e11 <56ea0e11ab7c3b5f88258ab000d5af1ebd39c99d>`
 :Removal date: 2013-06-11
 
+``sure``
+''''''''
+
+    Package has been dead here for some time, with all RDEPs long since dropped.
+    No upgrade path is required.
+
+:Reason: Available upstream
+:Commit: ``unknown``
+:Removal date: 2014-02-23
+:Issues: :issue:`839`
+
 ``termcolor``
 '''''''''''''
 
