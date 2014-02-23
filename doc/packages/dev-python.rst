@@ -261,15 +261,6 @@
   * `0.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html2data/html2data-0.4.3.ebuild>`__  ``amd64``, ``x86``
   * `0.4.3-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html2data/html2data-0.4.3-r1.ebuild>`__  ``~amd64`` (due 2014-03-07), ``~x86`` (due 2014-03-22)
 
-* ``httpretty`` - https://pypi.python.org/pypi/httpretty/
-
- * HTTP client mocking tool for Python
- * Licence: ``MIT``
- * Status: deprecated, see :issue:`751`
- * Versions:
-
-  * `0.5.10 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/httpretty/httpretty-0.5.10.ebuild>`__  ``amd64``, ``x86``
-
 * ``importlib`` - https://pypi.python.org/pypi/importlib/
 
  * Backport of importlib.import_module() from Python 2.7

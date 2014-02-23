@@ -318,6 +318,17 @@ culled.
 :Commit: :commit:`3384cfe9 <3384cfe90fd22f77fb8a1c4f1b9e999e2d75bb00>`
 :Removal date: 2011-09-13
 
+``httpretty``
+'''''''''''''
+
+    Package has been dead here for some time, with all RDEPs long since dropped.
+    No upgrade path is required.
+
+:Reason: Available upstream
+:Commit: ``unknown``
+:Removal date: 2014-02-23
+:Issues: :issue:`837`
+
 ``isodate``
 '''''''''''
 
