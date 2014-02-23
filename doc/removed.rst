@@ -362,6 +362,17 @@ culled.
 :Removal date: 2013-10-23
 :Issues: :issue:`816`
 
+``misaka``
+''''''''''
+
+    Package has been dead here for some time, with all RDEPs long since dropped.
+    No upgrade path is required.
+
+:Reason: Available upstream
+:Commit: ``unknown``
+:Removal date: 2014-02-23
+:Issues: :issue:`838`
+
 ``multiprocessing``
 '''''''''''''''''''
 

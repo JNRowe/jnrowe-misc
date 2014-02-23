@@ -308,15 +308,6 @@
 
   * `0.5.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/micromodels/micromodels-0.5.0.ebuild>`__  ``amd64``, ``x86``
 
-* ``misaka`` - https://pypi.python.org/pypi/misaka/
-
- * Python binding for the Sundown Markdown parser
- * Licence: ``MIT``
- * Status: maintained
- * Versions:
-
-  * `1.0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/misaka/misaka-1.0.2.ebuild>`__  ``amd64``, ``x86``
-
 * ``mod2doctest`` - https://pypi.python.org/pypi/mod2doctest/
 
  * Convert any Python module to a doctest ready doc string
