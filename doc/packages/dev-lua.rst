@@ -9,5 +9,5 @@
  * Versions:
 
   * `5.1.20 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-lua/luaposix/luaposix-5.1.20.ebuild>`__  ``amd64``, ``x86``
-  * `5.1.23 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-lua/luaposix/luaposix-5.1.23.ebuild>`__  ``~amd64`` (due 2014-02-23), ``~x86`` (due 2014-03-10)
+  * `5.1.23 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-lua/luaposix/luaposix-5.1.23.ebuild>`__  ``~amd64`` (due 2014-04-09), ``~x86`` (due 2014-03-10)
 
