@@ -32,7 +32,8 @@ except CalledProcessError:
 @APP.cmd(name='gen-use-local-desc', help='generate use.local.desc')
 def gen_use_local_desc():
     """Generate use.local.desc"""
-    dep(['profiles/use.local.desc', ], glob('*-*/*/metadata.xml'))
+    dep(['profiles/use.local.desc', ],
+        glob('*-*/*/metadata.xml') + glob('virtual/*/metadata.xml'))
     repo = open('profiles/repo_name').read().strip()
     # This really shouldn't be handled with subprocess, but portage seemingly
     # goes out of its way to make reasonable use difficult.
@@ -43,9 +44,10 @@ def gen_use_local_desc():
 @APP.cmd(name='gen-categories', help='generate categories listing')
 def gen_categories():
     """Generate categories listing"""
-    dep(['profiles/categories', ], glob('*-*'))
+    categories = glob('*-*') + ['virtual', ]
+    dep(['profiles/categories', ], categories)
     with open('profiles/categories', 'w') as file:
-        for cat in sorted(glob('*-*')):
+        for cat in sorted(categories):
             if not os.path.isdir(cat):
                 print(warn('Category match on %s, may cause problems with '
                            'portage' % cat))
@@ -57,11 +59,12 @@ def gen_categories():
 @APP.cmd(name='gen-manifests', help='generate Manifest files')
 def gen_manifests():
     """Generate Manifest files"""
-    dep(glob('*-*/*/Manifest'), glob('*-*/*/*'))
+    packages = glob('*-*/*/*') + glob('virtual/*/*')
+    dep(glob('*-*/*/Manifest') + glob('virtual/*/Manifest'), packages)
     base_dir = os.path.abspath(os.curdir)
     if not SIGN_KEY:
         print(warn('No GnuPG key set!'))
-    for package in sorted(glob('*-*/*')):
+    for package in sorted(packages):
         try:
             os.chdir(package)
             if not any(map(lambda f: newer(f, 'Manifest'), glob('*'))):
