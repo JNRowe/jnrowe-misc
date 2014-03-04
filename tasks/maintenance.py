@@ -23,6 +23,11 @@ from glob import glob
 from re import match
 from subprocess import (Popen, PIPE)
 
+try:
+    from configparser import ConfigParser
+except ImportError:
+    from ConfigParser import ConfigParser
+
 from tasks.utils import (APP, cmd_output, fail, open_issue, success, warn)
 
 
@@ -45,7 +50,11 @@ def keyword_check():
 @APP.cmd(name='eclass-doc-check', help='check eclass documentation syntax')
 def eclass_doc_check():
     """Check eclass documentation syntax"""
-    portdir = cmd_output('portageq envvar PORTDIR')
+    p = Popen(['portageq', 'repos_config', '/'], stdout=PIPE)
+    p.wait()
+    conf = ConfigParser()
+    conf.readfp(p.stdout)
+    portdir conf.get(conf.defaults()['main-repo'], 'location')
     awk_file = portdir + '/' + \
         'app-portage/eclass-manpages/files/eclass-to-manpage.awk'
     eclasses = glob('eclass/*.eclass')
