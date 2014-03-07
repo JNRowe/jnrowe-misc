@@ -19,7 +19,7 @@
 			<name>James Rowe</name>
 		</maintainer>
 		<changelog>https://github.com/JNRowe/bleeter/raw/master/NEWS.rst</changelog>
-		<doc lang="en">http://jnrowe.github.io/bleeter</doc>
+		<doc lang="en">http://bleeter.rtfd.org/</doc>
 		<remote-id type="github">JNRowe/bleeter</remote-id>
 		<bugs-to>https://github.com/JNRowe/bleeter/issues</bugs-to>
 	</upstream>
