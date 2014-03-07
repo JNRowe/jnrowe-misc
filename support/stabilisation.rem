@@ -1,6 +1,5 @@
 REM 2014-03-07 *1 MSG %"Stabilise x86 dev-util/ditz-0.5-r1%" %a
 REM 2014-03-07 *1 MSG %"Stabilise x86 dev-vcs/gitflow-0.4.1-r2%" %a
-REM 2014-03-07 *1 MSG %"Stabilise amd64 sci-geosciences/gpxviewer-0.4.3-r1%" %a
 REM 2014-03-07 *1 MSG %"Stabilise amd64 www-client/httpshell-0.8.0%" %a
 REM 2014-03-08 *1 MSG %"Stabilise amd64 dev-python/rstctl-0.4%" %a
 REM 2014-03-08 *1 MSG %"Stabilise x86 www-apps/mnemosyne-0.12%" %a
@@ -81,3 +80,4 @@ REM 2014-04-21 *1 MSG %"Stabilise amd64 media-gfx/nwdiag-0.9.4%" %a
 REM 2014-04-21 *1 MSG %"Stabilise amd64 media-gfx/seqdiag-0.8.1%" %a
 REM 2014-04-21 *1 MSG %"Stabilise amd64 media-gfx/sphinxcontrib-blockdiag-1.2.0%" %a
 REM 2014-04-21 *1 MSG %"Stabilise amd64 media-gfx/sphinxcontrib-gruffygen-0.1.1%" %a
+REM 2014-04-21 *1 MSG %"Stabilise amd64 sci-geosciences/gpxviewer-0.4.3-r1%" %a
