@@ -12,7 +12,7 @@ GITHUB_USER="JNRowe"
 inherit base jnrowe-github distutils-r1
 
 DESCRIPTION="A tool to check for updates on web pages"
-HOMEPAGE="http://jnrowe.github.io/${PN}/"
+HOMEPAGE="https://github.com/JNRowe/${PN}/"
 
 LICENSE="GPL-3+"
 SLOT="0"

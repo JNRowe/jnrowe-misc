@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013, 2014  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  07 Mar 2014; James Rowe <jnrowe@gmail.com> metadata.xml:
+  Fix doc location
+
   07 Mar 2014; James Rowe <jnrowe@gmail.com> -hubugs-0.17.4.ebuild:
   Remove old ebuild with duplicate visibility.
 
