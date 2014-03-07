@@ -271,6 +271,6 @@ the file, such as the previous location or package author data.
 .. _ebuild variables: http://devmanual.gentoo.org/ebuild-writing/variables/index.html
 .. _remind: http://www.roaringpenguin.com/products/remind
 .. _rad: https://pypi.python.org/pypi/rad/
-.. _cupage: http://jnrowe.github.io/cupage
+.. _cupage: http://cupage.rtfd.org/
 .. _GitHub: https://github.com/
 .. _REminiscence: http://cyxdown.free.fr/reminiscence/
