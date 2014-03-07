@@ -35,7 +35,7 @@
  * Status: deprecated, see :issue:`751`
  * Versions:
 
-  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.4.1.ebuild>`__  ``~amd64`` (due 2014-03-07), ``~x86`` (due 2014-03-22)
+  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.4.1.ebuild>`__  ``~amd64`` (due 2014-04-21), ``~x86`` (due 2014-03-22)
 
 * ``blockdiag`` - https://pypi.python.org/pypi/blockdiag/
 
@@ -44,7 +44,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.2.4-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.2.4-r1.ebuild>`__  ``~amd64`` (due 2014-03-07), ``~x86`` (due 2014-03-22)
+  * `1.2.4-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.2.4-r1.ebuild>`__  ``~amd64`` (due 2014-04-21), ``~x86`` (due 2014-03-22)
   * `1.3.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.3.2.ebuild>`__  ``~amd64`` (due 2014-03-19), ``~x86`` (due 2014-04-03)
 
 * ``gruffy`` - https://pypi.python.org/pypi/gruffy/
@@ -54,7 +54,7 @@
  * Status: deprecated, see :issue:`751`
  * Versions:
 
-  * `0.3.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/gruffy/gruffy-0.3.3.ebuild>`__  ``~amd64`` (due 2014-03-07)
+  * `0.3.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/gruffy/gruffy-0.3.3.ebuild>`__  ``~amd64`` (due 2014-04-21)
 
 * ``nwdiag`` - https://pypi.python.org/pypi/nwdiag/
 
@@ -63,7 +63,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.9.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.9.4.ebuild>`__  ``~amd64`` (due 2014-03-07), ``~x86`` (due 2014-03-22)
+  * `0.9.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.9.4.ebuild>`__  ``~amd64`` (due 2014-04-21), ``~x86`` (due 2014-03-22)
   * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-1.0.0.ebuild>`__  ``~amd64`` (due 2014-03-19), ``~x86`` (due 2014-04-03)
 
 * ``seqdiag`` - https://pypi.python.org/pypi/seqdiag/
@@ -73,7 +73,7 @@
  * Status: deprecated, see :issue:`751`
  * Versions:
 
-  * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.8.1.ebuild>`__  ``~amd64`` (due 2014-03-07), ``~x86`` (due 2014-03-22)
+  * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.8.1.ebuild>`__  ``~amd64`` (due 2014-04-21), ``~x86`` (due 2014-03-22)
 
 * ``sphinxcontrib-aafig`` - http://packages.python.org/sphinxcontrib-aafig/
 
@@ -91,7 +91,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-1.2.0.ebuild>`__  ``~amd64`` (due 2014-03-07), ``~x86`` (due 2014-03-22)
+  * `1.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-1.2.0.ebuild>`__  ``~amd64`` (due 2014-04-21), ``~x86`` (due 2014-03-22)
   * `1.3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-1.3.0.ebuild>`__  ``~amd64`` (due 2014-03-19), ``~x86`` (due 2014-04-03)
 
 * ``sphinxcontrib-gruffygen`` - https://pypi.python.org/pypi/sphinxcontrib-gruffygen/
@@ -101,7 +101,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-gruffygen/sphinxcontrib-gruffygen-0.1.1.ebuild>`__  ``~amd64`` (due 2014-03-07)
+  * `0.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-gruffygen/sphinxcontrib-gruffygen-0.1.1.ebuild>`__  ``~amd64`` (due 2014-04-21)
 
 * ``sphinxcontrib-mscgen`` - https://pypi.python.org/pypi/sphinxcontrib-mscgen/
 
