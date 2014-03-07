@@ -26,7 +26,6 @@
  * Status: maintained
  * Versions:
 
-  * `0.17.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.17.4.ebuild>`__  ``~amd64`` (due 2014-04-10)
   * `0.17.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.17.5.ebuild>`__  ``~amd64`` (due 2014-03-22)
 
 * ``jsonpipe`` - https://pypi.python.org/pypi/jsonpipe/
@@ -57,14 +56,13 @@
   * `1.9.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pytrainer/pytrainer-1.9.1.ebuild>`__  ``amd64``, ``x86``
   * `1.10.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pytrainer/pytrainer-1.10.0.ebuild>`__  ``~amd64`` (due 2014-03-13), ``~x86`` (due 2014-03-13)
 
-* ``rdial`` - https://github.com/JNRowe/rdial/
+* ``rdial`` - https://pypi.python.org/pypi/rdial/
 
  * Simple time tracking for simple people
  * Licence: ``GPL-3``
  * Status: maintained
  * Versions:
 
-  * `0.11.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/rdial/rdial-0.11.3.ebuild>`__  ``~amd64`` (due 2014-03-20)
   * `0.13.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/rdial/rdial-0.13.1.ebuild>`__  ``~amd64`` (due 2014-03-22)
 
 * ``repl`` - http://defunkt.io/repl/

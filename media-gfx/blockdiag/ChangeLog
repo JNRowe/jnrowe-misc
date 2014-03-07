@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013, 2014  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  07 Mar 2014; James Rowe <jnrowe@gmail.com> -blockdiag-1.2.4-r1.ebuild:
+  Remove old ebuild with duplicate visibility.
+
   03 Jan 2014; James Rowe <jnrowe@gmail.com> blockdiag-1.2.4-r1.ebuild:
   Use virtual/python-imaging to handle pillow support.
 

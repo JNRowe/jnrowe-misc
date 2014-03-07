@@ -44,7 +44,6 @@
  * Status: maintained
  * Versions:
 
-  * `1.2.4-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.2.4-r1.ebuild>`__  ``~amd64`` (due 2014-04-21), ``~x86`` (due 2014-03-22)
   * `1.3.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.3.2.ebuild>`__  ``~amd64`` (due 2014-03-19), ``~x86`` (due 2014-04-03)
 
 * ``gruffy`` - https://pypi.python.org/pypi/gruffy/
@@ -63,7 +62,6 @@
  * Status: maintained
  * Versions:
 
-  * `0.9.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-0.9.4.ebuild>`__  ``~amd64`` (due 2014-04-21), ``~x86`` (due 2014-03-22)
   * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-1.0.0.ebuild>`__  ``~amd64`` (due 2014-03-19), ``~x86`` (due 2014-04-03)
 
 * ``seqdiag`` - https://pypi.python.org/pypi/seqdiag/
@@ -91,7 +89,6 @@
  * Status: maintained
  * Versions:
 
-  * `1.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-1.2.0.ebuild>`__  ``~amd64`` (due 2014-04-21), ``~x86`` (due 2014-03-22)
   * `1.3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-1.3.0.ebuild>`__  ``~amd64`` (due 2014-03-19), ``~x86`` (due 2014-04-03)
 
 * ``sphinxcontrib-gruffygen`` - https://pypi.python.org/pypi/sphinxcontrib-gruffygen/
