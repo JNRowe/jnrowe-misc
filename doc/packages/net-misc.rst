@@ -1,7 +1,7 @@
 ``net-misc``
 ------------
 
-* ``bleeter`` - http://jnrowe.github.io/bleeter/
+* ``bleeter`` - https://github.com/JNRowe/bleeter/
 
  * Nasty little twitter client
  * Licence: ``GPL-3+ doc? ( public-domain )``

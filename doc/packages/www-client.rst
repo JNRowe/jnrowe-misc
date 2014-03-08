@@ -1,7 +1,7 @@
 ``www-client``
 --------------
 
-* ``cupage`` - http://jnrowe.github.io/cupage/
+* ``cupage`` - https://github.com/JNRowe/cupage/
 
  * A tool to check for updates on web pages
  * Licence: ``GPL-3+``
