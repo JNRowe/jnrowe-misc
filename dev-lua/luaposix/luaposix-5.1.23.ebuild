@@ -3,7 +3,7 @@
 
 EAPI=5
 
-inherit eutils multilib
+inherit eutils toolchain-funcs
 
 DESCRIPTION="POSIX function support library for lua"
 HOMEPAGE="http://wiki.alpinelinux.org/wiki/Luaposix"
@@ -14,7 +14,8 @@ SLOT="0"
 KEYWORDS="~amd64 x86"
 IUSE=""
 
-DEPEND=">=dev-lang/lua-5.1"
+DEPEND=">=dev-lang/lua-5.1
+	virtual/pkgconfig"
 RDEPEND="${DEPEND}
 	dev-lua/LuaBitOp"
 
@@ -24,8 +25,8 @@ RESTRICT="test"
 src_configure() {
 	# Have to override datadir and libdir here as package doesn't
 	# correctly use package dirs
-	econf --libdir=/usr/$(get_libdir)/lua/5.1/ \
-		--datadir=/usr/share/lua/5.1 \
+	econf --libdir=$($(tc-getPKG_CONFIG) --variable=INSTALL_LMOD lua) \
+		--datadir=$($(tc-getPKG_CONFIG) --variable=INSTALL_CMOD lua) \
 		--docdir=/usr/share/doc/${PF}/html
 }
 
