@@ -5,7 +5,7 @@ EAPI=5
 GITHUB_USER=leafo
 GITHUB_TAG=v${PV}
 
-inherit jnrowe-github eutils
+inherit jnrowe-github eutils toolchain-funcs
 
 DESCRIPTION="A programmer friendly language that compiles to Lua"
 
@@ -19,6 +19,8 @@ RDEPEND=">=dev-lang/lua-5.1
 	dev-lua/lpeg
 	dev-lua/luafilesystem
 	inotify? ( dev-lua/linotify )"
+DEPEND="${RDEPEND}
+	virtual/pkgconfig"
 
 DOCS=(CHANGELOG.md README.md docs/{reference,standard_lib}.md thoughts)
 
@@ -36,6 +38,6 @@ src_install() {
 
 	dobin bin/moon bin/moonc
 
-	insinto /usr/share/lua/5.1/
+	insinto $($(tc-getPKG_CONFIG) --variable=INSTALL_LMOD lua)
 	doins -r moon moon.lua ${PN}.lua ${PN}/
 }

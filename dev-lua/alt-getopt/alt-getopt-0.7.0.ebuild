@@ -3,7 +3,7 @@
 
 EAPI=5
 
-inherit eutils multilib
+inherit eutils toolchain-funcs
 
 DESCRIPTION="Lua bindings to getopt_long"
 HOMEPAGE="http://luaforge.net/projects/${PN}/"
@@ -14,8 +14,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND=""
 RDEPEND=">=dev-lang/lua-5.1"
+DEPEND="${RDEPEND}
+	virtual/pkgconfig"
 
 S="${WORKDIR}/lua-${P}"
 
@@ -33,7 +34,7 @@ src_test() {
 }
 
 src_install() {
-	insinto /usr/$(get_libdir)/lua/5.1/
+	insinto $($(tc-getPKG_CONFIG) --variable=INSTALL_CMOD lua)
 	doins ${PN/-/_}.lua
 
 	einstalldocs
