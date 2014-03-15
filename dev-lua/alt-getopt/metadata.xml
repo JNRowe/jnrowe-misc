@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription lang="en">
+		alt-getopt is a module for <pkg>dev-lang/lua</pkg> programming language
+		for processing application's arguments the same way BSD/GNU
+		getopt_long(3) functions do. The main goal is compatibility with SUS
+		"Utility Syntax Guidelines" guidelines 3-13.
+	</longdescription>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+</pkgmetadata>

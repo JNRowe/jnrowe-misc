@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer>
+		<email>jnrowe@gmail.com</email>
+		<name>James Rowe</name>
+	</maintainer>
+	<longdescription lang="en">
+		MoonScript is a programmer friendly language that compiles into
+		<pkg>dev-lang/lua</pkg>. It gives you the power of the fastest scripting
+		language combined with a rich set of features. It runs on Lua 5.1 and
+		5.2.
+	</longdescription>
+	<upstream>
+		<doc lang="en">http://moonscript.org/</doc>
+		<remote-id type="github">leafo/moonscript</remote-id>
+		<bugs-to>https://github.com/leafo/moonscript/issues</bugs-to>
+	</upstream>
+</pkgmetadata>

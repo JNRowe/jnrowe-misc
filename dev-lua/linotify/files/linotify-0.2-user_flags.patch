@@ -1,0 +1,34 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Use user flags
+Status: LOCAL
+
+Upstream appears dead, so is quick hack not an upstreamable patch.
+
+diff --git i/Makefile w/Makefile
+index 0af3a63f35f3..ab740e25db20 100644
+--- i/Makefile
++++ w/Makefile
+@@ -9,8 +9,8 @@ OMIT_FRAME_POINTER = -fomit-frame-pointer
+ 
+ # Seach for lua .pc file
+ LUAPKG_CMD = $(shell pkg-config --list-all | grep Lua | awk '{print $$1}')
+-CFLAGS = -fPIC -O3 -Wall $(shell pkg-config "$(LUAPKG_CMD)" --cflags)
+-LFLAGS = -shared $(OMIT_FRAME_POINTER)
++CFLAGS += -fPIC -Wall $(shell pkg-config "$(LUAPKG_CMD)" --cflags)
++LDFLAGS += -shared
+ INSTALL_PATH = $(shell pkg-config "$(LUAPKG_CMD)" --variable=INSTALL_CMOD)
+ 
+ ## If your system doesn't have pkg-config, comment out the previous
+@@ -27,10 +27,10 @@ $(OBJNAME): $(SRCNAME)
+ 	$(CC) -o $(OBJNAME) -c $(SRCNAME) $(CFLAGS)
+ 
+ $(LIBNAME): $(OBJNAME)
+-	$(CC) -o $(LIBNAME) -shared $(OBJNAME) $(LFLAGS)
++	$(CC) -o $(LIBNAME) -shared $(OBJNAME) $(LDFLAGS)
+ 
+ install: $(LIBNAME)
+-	install -D -s $(LIBNAME) $(DESTDIR)$(INSTALL_PATH)/$(LIBNAME)
++	install -D $(LIBNAME) $(DESTDIR)$(INSTALL_PATH)/$(LIBNAME)
+ 
+ clean:
+ 	$(RM) $(LIBNAME) $(OBJNAME)
