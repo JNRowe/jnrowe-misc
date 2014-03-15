@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install test
+DESCRIPTION=Lua bindings to getopt_long
+EAPI=5
+HOMEPAGE=http://luaforge.net/projects/alt-getopt/
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-lang/lua-5.1
+SLOT=0
+SRC_URI=http://files.luaforge.net/releases/alt-getopt/alt-getopt/alt-getopt-0.7.0/lua-alt-getopt-0.7.0.tar.gz
+_eclasses_=eutils	40081e8c7e7f7c4f9db349a1d6d52925	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
+_md5_=1695f84e97f15184f5db9a9f7577e981

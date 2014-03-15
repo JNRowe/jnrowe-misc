@@ -1,0 +1,10 @@
+# ChangeLog for dev-lua/alt-getopt
+# Copyright © 2009, 2010, 2011, 2012, 2013, 2014  James Rowe <jnrowe@gmail.com>
+# Distributed under the terms of the GNU General Public License v2
+
+*alt-getopt-0.7.0 (15 Mar 2014)
+
+  15 Mar 2014; James Rowe <jnrowe@gmail.com> +alt-getopt-0.7.0.ebuild,
+  +metadata.xml, +watch:
+  Initial ebuild, by me. Required for moonscript, refs #840.
+
