@@ -54,7 +54,7 @@ def eclass_doc_check():
     p.wait()
     conf = ConfigParser()
     conf.readfp(p.stdout)
-    portdir conf.get(conf.defaults()['main-repo'], 'location')
+    portdir = conf.get(conf.defaults()['main-repo'], 'location')
     awk_file = portdir + '/' + \
         'app-portage/eclass-manpages/files/eclass-to-manpage.awk'
     eclasses = glob('eclass/*.eclass')
