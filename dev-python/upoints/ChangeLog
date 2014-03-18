@@ -2,6 +2,11 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013, 2014  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+*upoints-0.12.2 (18 Mar 2014)
+
+  18 Mar 2014; James Rowe <jnrowe@gmail.com> +upoints-0.12.2.ebuild:
+  Version bump [844].
+
   07 Mar 2014; James Rowe <jnrowe@gmail.com> metadata.xml:
   Fix doc location
 
