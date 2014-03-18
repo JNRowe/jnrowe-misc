@@ -2,6 +2,11 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013, 2014  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+*pep257-0.3.2 (18 Mar 2014)
+
+  18 Mar 2014; James Rowe <jnrowe@gmail.com> +pep257-0.3.2.ebuild:
+  Version bump [843].
+
 *pep257-0.3.0 (20 Feb 2014)
 
   20 Feb 2014; James Rowe <jnrowe@gmail.com> +pep257-0.3.0.ebuild:
