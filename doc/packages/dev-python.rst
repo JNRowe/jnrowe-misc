@@ -617,7 +617,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/termtool/termtool-1.0.ebuild>`__  ``~amd64`` (due 2014-03-19), ``~x86`` (due 2014-04-03)
+  * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/termtool/termtool-1.0.ebuild>`__  ``amd64``, ``~x86`` (due 2014-04-03)
 
 * ``texttable`` - http://foutaise.org/code/
 
