@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013, 2014  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  22 Mar 2014; James Rowe <jnrowe@gmail.com> aaargh-0.7.ebuild:
+  Keyworded x86.
+
 *aaargh-0.7.1 (18 Mar 2014)
 
   18 Mar 2014; James Rowe <jnrowe@gmail.com> +aaargh-0.7.1.ebuild:
