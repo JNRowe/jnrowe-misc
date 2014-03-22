@@ -63,9 +63,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/aaargh/aaargh-0.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/aaargh/aaargh-0.5.ebuild>`__  ``~amd64`` (due 2014-03-22), ``~x86`` (due 2014-04-21)
-  * `0.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/aaargh/aaargh-0.7.ebuild>`__  ``~amd64`` (due 2014-03-22), ``x86``
+  * `0.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/aaargh/aaargh-0.7.ebuild>`__  ``amd64``, ``x86``
   * `0.7.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/aaargh/aaargh-0.7.1.ebuild>`__  ``~amd64`` (due 2014-04-17), ``~x86`` (due 2014-04-17)
 
 * ``astral`` - https://pypi.python.org/pypi/astral/
@@ -75,8 +73,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.7.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.7.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.7.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.7.3.ebuild>`__  ``~amd64`` (due 2014-03-22), ``x86``
+  * `0.7.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.7.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``atomize`` - https://pypi.python.org/pypi/atomize/
 
@@ -85,8 +82,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/atomize/atomize-0.1.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/atomize/atomize-0.2.0.ebuild>`__  ``~amd64`` (due 2014-03-22), ``x86``
+  * `0.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/atomize/atomize-0.2.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``behave`` - https://pypi.python.org/pypi/behave/
 
@@ -123,8 +119,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.5.ebuild>`__  ``amd64``, ``x86``
-  * `1.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.6.ebuild>`__  ``~amd64`` (due 2014-03-22), ``x86``
+  * `1.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.6.ebuild>`__  ``amd64``, ``x86``
 
 * ``dexml`` - https://pypi.python.org/pypi/dexml/
 
@@ -270,8 +265,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/importlib/importlib-1.0.2.ebuild>`__  ``amd64``, ``x86``
-  * `1.0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/importlib/importlib-1.0.3.ebuild>`__  ``~amd64`` (due 2014-03-22), ``x86``
+  * `1.0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/importlib/importlib-1.0.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``interlude`` - https://svn.bluedynamics.eu/svn/public/interlude/
 
@@ -398,8 +392,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep257/pep257-0.2.4.ebuild>`__  ``amd64``, ``x86``
-  * `0.3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep257/pep257-0.3.0.ebuild>`__  ``~amd64`` (due 2014-03-22), ``x86``
+  * `0.3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep257/pep257-0.3.0.ebuild>`__  ``amd64``, ``x86``
   * `0.3.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep257/pep257-0.3.2.ebuild>`__  ``~amd64`` (due 2014-04-17), ``~x86`` (due 2014-04-17)
 
 * ``pep8-naming`` - https://pypi.python.org/pypi/pep8-naming/
@@ -490,8 +483,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.6.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyisbn/pyisbn-0.6.3.ebuild>`__  ``amd64``, ``x86``
-  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyisbn/pyisbn-1.0.0.ebuild>`__  ``~amd64`` (due 2014-03-22), ``x86``
+  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyisbn/pyisbn-1.0.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``pyrepl`` - https://pypi.python.org/pypi/pyrepl/
 
@@ -637,15 +629,14 @@
 
   * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/titlecase/titlecase-0.5.1.ebuild>`__  ``amd64``, ``x86``
 
-* ``upoints`` - https://github.com/JNRowe/upoints/
+* ``upoints`` - https://pypi.python.org/pypi/upoints/
 
  * Modules for working with points on Earth
  * Licence: ``GPL-3+``
  * Status: maintained
  * Versions:
 
-  * `0.11.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/upoints/upoints-0.11.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.12.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/upoints/upoints-0.12.1.ebuild>`__  ``~amd64`` (due 2014-03-22), ``x86``
+  * `0.12.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/upoints/upoints-0.12.1.ebuild>`__  ``amd64``, ``x86``
   * `0.12.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/upoints/upoints-0.12.2.ebuild>`__  ``~amd64`` (due 2014-04-17), ``~x86`` (due 2014-04-17)
 
 * ``urlunshort`` - https://bitbucket.org/runeh/urlunshort
