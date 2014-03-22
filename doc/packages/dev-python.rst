@@ -265,8 +265,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/importlib/importlib-1.0.2.ebuild>`__  ``amd64``, ``x86``
-  * `1.0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/importlib/importlib-1.0.3.ebuild>`__  ``~amd64`` (due 2014-03-22), ``x86``
+  * `1.0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/importlib/importlib-1.0.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``interlude`` - https://svn.bluedynamics.eu/svn/public/interlude/
 
