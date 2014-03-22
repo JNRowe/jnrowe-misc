@@ -629,15 +629,14 @@
 
   * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/titlecase/titlecase-0.5.1.ebuild>`__  ``amd64``, ``x86``
 
-* ``upoints`` - https://github.com/JNRowe/upoints/
+* ``upoints`` - https://pypi.python.org/pypi/upoints/
 
  * Modules for working with points on Earth
  * Licence: ``GPL-3+``
  * Status: maintained
  * Versions:
 
-  * `0.11.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/upoints/upoints-0.11.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.12.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/upoints/upoints-0.12.1.ebuild>`__  ``~amd64`` (due 2014-03-22), ``x86``
+  * `0.12.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/upoints/upoints-0.12.1.ebuild>`__  ``amd64``, ``x86``
   * `0.12.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/upoints/upoints-0.12.2.ebuild>`__  ``~amd64`` (due 2014-04-17), ``~x86`` (due 2014-04-17)
 
 * ``urlunshort`` - https://bitbucket.org/runeh/urlunshort
