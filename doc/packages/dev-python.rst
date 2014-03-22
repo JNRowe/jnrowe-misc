@@ -124,7 +124,7 @@
  * Versions:
 
   * `1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.5.ebuild>`__  ``amd64``, ``x86``
-  * `1.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.6.ebuild>`__  ``~amd64`` (due 2014-03-22), ``~x86`` (due 2014-03-22)
+  * `1.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.6.ebuild>`__  ``~amd64`` (due 2014-03-22), ``x86``
 
 * ``dexml`` - https://pypi.python.org/pypi/dexml/
 
