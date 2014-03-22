@@ -82,8 +82,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/atomize/atomize-0.1.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/atomize/atomize-0.2.0.ebuild>`__  ``~amd64`` (due 2014-03-22), ``x86``
+  * `0.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/atomize/atomize-0.2.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``behave`` - https://pypi.python.org/pypi/behave/
 

@@ -2,6 +2,10 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013, 2014  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  22 Mar 2014; James Rowe <jnrowe@gmail.com> -atomize-0.1.1.ebuild,
+  atomize-0.2.0.ebuild:
+  Keyworded amd64.
+
   22 Mar 2014; James Rowe <jnrowe@gmail.com> atomize-0.2.0.ebuild:
   Keyworded x86.
 
