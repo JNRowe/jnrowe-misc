@@ -491,7 +491,7 @@
  * Versions:
 
   * `0.6.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyisbn/pyisbn-0.6.3.ebuild>`__  ``amd64``, ``x86``
-  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyisbn/pyisbn-1.0.0.ebuild>`__  ``~amd64`` (due 2014-03-22), ``~x86`` (due 2014-03-22)
+  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyisbn/pyisbn-1.0.0.ebuild>`__  ``~amd64`` (due 2014-03-22), ``x86``
 
 * ``pyrepl`` - https://pypi.python.org/pypi/pyrepl/
 
