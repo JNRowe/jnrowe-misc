@@ -325,7 +325,7 @@ culled.
     No upgrade path is required.
 
 :Reason: Available upstream
-:Commit: ``unknown``
+:Commit: :commit:`c833f279 <c833f279f86e65700a5eef5c0bdbcd20a79d6b5f>`
 :Removal date: 2014-02-23
 :Issues: :issue:`837`
 
@@ -369,7 +369,7 @@ culled.
     No upgrade path is required.
 
 :Reason: Available upstream
-:Commit: ``unknown``
+:Commit: :commit:`69e3fc67 <69e3fc67c9e9f5173763372b14b1c5a018193fa9>`
 :Removal date: 2014-02-23
 :Issues: :issue:`838`
 
@@ -554,7 +554,7 @@ culled.
     No upgrade path is required.
 
 :Reason: Available upstream
-:Commit: ``unknown``
+:Commit: :commit:`966db0f4 <966db0f40c1018e0c14d6a844f238109d8c5f111>`
 :Removal date: 2014-02-23
 :Issues: :issue:`839`
 
@@ -717,7 +717,7 @@ culled.
     This will be maintained in ``::shadow`` for the foreseeable future.
 
 :Reason: Available upstream
-:Commit: ``unknown``
+:Commit: :commit:`ab070046 <ab07004609eaa2b965c6bb6afdbbbe453ffc26a5>`
 :Removal date: 2014-03-25
 :Issues: :issue:`845`
 
