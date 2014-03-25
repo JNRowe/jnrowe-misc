@@ -708,6 +708,19 @@ culled.
 ``dev-vcs``
 ~~~~~~~~~~~
 
+``gitflow``
+'''''''''''''
+
+    Upgrade path is quite messy: upstream uses invalid paths, has missing
+    ``zsh`` completion and requires a package move.
+
+    This will be maintained in ``::shadow`` for the foreseeable future.
+
+:Reason: Available upstream
+:Commit: ``unknown``
+:Removal date: 2014-03-25
+:Issues: :issue:`845`
+
 ``git-sync``
 ''''''''''''
 
