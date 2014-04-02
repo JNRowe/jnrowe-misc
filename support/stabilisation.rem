@@ -1,4 +1,3 @@
-REM 2014-04-03 *1 MSG %"Stabilise x86 media-gfx/blockdiag-1.3.2%" %a
 REM 2014-04-03 *1 MSG %"Stabilise x86 media-gfx/nwdiag-1.0.0%" %a
 REM 2014-04-03 *1 MSG %"Stabilise x86 media-gfx/sphinxcontrib-blockdiag-1.3.0%" %a
 REM 2014-04-06 *1 MSG %"Stabilise x86 dev-util/ditz-0.5-r1%" %a
@@ -57,6 +56,7 @@ REM 2014-04-30 *1 MSG %"Stabilise amd64 dev-python/pycukes-0.2%" %a
 REM 2014-04-30 *1 MSG %"Stabilise x86 dev-python/pyhistorian-0.6.8%" %a
 
 REM 2014-05-03 *1 MSG %"Stabilise amd64 media-gfx/blockdiag-1.3.2%" %a
+REM 2014-05-03 *1 MSG %"Stabilise x86 media-gfx/blockdiag-1.3.2%" %a
 REM 2014-05-03 *1 MSG %"Stabilise amd64 media-gfx/nwdiag-1.0.0%" %a
 REM 2014-05-03 *1 MSG %"Stabilise amd64 media-gfx/sphinxcontrib-blockdiag-1.3.0%" %a
 REM 2014-05-03 *1 MSG %"Stabilise amd64 net-misc/bleeter-0.8.0%" %a
