@@ -1,5 +1,3 @@
-REM 2014-04-09 *1 MSG %"Stabilise amd64 dev-lua/luaposix-5.1.23%" %a
-REM 2014-04-09 *1 MSG %"Stabilise x86 dev-python/rstctl-0.4%" %a
 REM 2014-04-12 *1 MSG %"Stabilise x86 app-misc/pytrainer-1.10.0%" %a
 REM 2014-04-14 *1 MSG %"Stabilise amd64 dev-lang/moonscript-0.2.5%" %a
 REM 2014-04-14 *1 MSG %"Stabilise x86 dev-lang/moonscript-0.2.5%" %a
@@ -63,4 +61,5 @@ REM 2014-05-06 *1 MSG %"Stabilise amd64 app-misc/rdial-0.13.1%" %a
 REM 2014-05-06 *1 MSG %"Stabilise x86 dev-util/ditz-0.5-r1%" %a
 REM 2014-05-07 *1 MSG %"Stabilise amd64 www-apps/mnemosyne-0.12%" %a
 REM 2014-05-07 *1 MSG %"Stabilise x86 www-apps/mnemosyne-0.12%" %a
+REM 2014-05-09 *1 MSG %"Stabilise x86 dev-python/rstctl-0.4%" %a
 REM 2014-05-15 *1 MSG %"Stabilise amd64 app-misc/pw-0.2.3%" %a
