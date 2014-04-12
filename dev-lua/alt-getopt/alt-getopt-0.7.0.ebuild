@@ -34,7 +34,7 @@ src_test() {
 }
 
 src_install() {
-	insinto $($(tc-getPKG_CONFIG) --variable=INSTALL_CMOD lua)
+	insinto $($(tc-getPKG_CONFIG) --variable=INSTALL_LMOD lua)
 	doins ${PN/-/_}.lua
 
 	einstalldocs
