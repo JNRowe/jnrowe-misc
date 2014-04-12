@@ -16,7 +16,7 @@ IUSE=""
 
 DEPEND=">=dev-lang/lua-5.1
 	virtual/pkgconfig"
-RDEPEND="${DEPEND}
+RDEPEND=">=dev-lang/lua-5.1
 	dev-lua/LuaBitOp"
 
 # Tests are broken, and have unpackaged dependencies
