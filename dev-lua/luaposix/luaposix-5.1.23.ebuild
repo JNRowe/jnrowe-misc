@@ -25,8 +25,8 @@ RESTRICT="test"
 src_configure() {
 	# Have to override datadir and libdir here as package doesn't
 	# correctly use package dirs
-	econf --libdir=$($(tc-getPKG_CONFIG) --variable=INSTALL_LMOD lua) \
-		--datadir=$($(tc-getPKG_CONFIG) --variable=INSTALL_CMOD lua) \
+	econf --libdir=$($(tc-getPKG_CONFIG) --variable=INSTALL_CMOD lua) \
+		--datadir=$($(tc-getPKG_CONFIG) --variable=INSTALL_LMOD lua) \
 		--docdir=/usr/share/doc/${PF}/html
 }
 

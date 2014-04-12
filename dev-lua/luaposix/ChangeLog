@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013, 2014  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  12 Apr 2014; James Rowe <jnrowe@gmail.com> luaposix-5.1.23.ebuild:
+  Fix inverted lib/data dir values.
+
   09 Apr 2014; James Rowe <jnrowe@gmail.com> -luaposix-5.1.20.ebuild,
   luaposix-5.1.23.ebuild:
   Keyworded amd64.
