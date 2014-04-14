@@ -2,6 +2,9 @@
 # Copyright 1999-2014 Gentoo Foundation; Distributed under the GPL v2
 # Distributed under the GPL v2
 
+  14 Apr 2014; James Rowe <jnrowe@gmail.com> moonscript-0.2.5.ebuild:
+  Keyworded x86.
+
   15 Mar 2014; James Rowe <jnrowe@gmail.com> moonscript-0.2.5.ebuild:
   Use lua.pc location for installation.
 

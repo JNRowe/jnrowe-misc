@@ -8,7 +8,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.2.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-lang/moonscript/moonscript-0.2.5.ebuild>`__  ``~amd64`` (due 2014-04-14), ``~x86`` (due 2014-04-14)
+  * `0.2.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-lang/moonscript/moonscript-0.2.5.ebuild>`__  ``~amd64`` (due 2014-04-14), ``x86``
 
 * ``wirbel`` - http://mathias-kettner.de/wirbel.html
 
