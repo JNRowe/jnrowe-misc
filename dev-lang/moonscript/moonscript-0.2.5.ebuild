@@ -11,7 +11,7 @@ DESCRIPTION="A programmer friendly language that compiles to Lua"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="+inotify"
 
 RDEPEND=">=dev-lang/lua-5.1

@@ -293,7 +293,7 @@
  * Versions:
 
   * `0.2.12 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.12.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.14 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.14.ebuild>`__  ``~amd64`` (due 2014-04-29), ``~x86`` (due 2014-04-14)
+  * `0.2.14 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.14.ebuild>`__  ``~amd64`` (due 2014-04-29), ``~x86`` (due 2014-05-14)
 
 * ``micromodels`` - https://pypi.python.org/pypi/micromodels/
 
@@ -356,7 +356,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.0_alpha4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2-cov/nose2-cov-1.0_alpha4.ebuild>`__  ``~amd64`` (due 2014-04-14)
+  * `1.0_alpha4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2-cov/nose2-cov-1.0_alpha4.ebuild>`__  ``~amd64`` (due 2014-05-29)
 
 * ``nosetty`` - http://code.google.com/p/nosetty/
 

@@ -3,10 +3,10 @@ DEPEND=>=dev-lang/lua-5.1 virtual/pkgconfig
 DESCRIPTION=Lua bindings to getopt_long
 EAPI=5
 HOMEPAGE=http://luaforge.net/projects/alt-getopt/
-KEYWORDS=~amd64 ~x86
+KEYWORDS=amd64 x86
 LICENSE=MIT
 RDEPEND=>=dev-lang/lua-5.1
 SLOT=0
 SRC_URI=http://files.luaforge.net/releases/alt-getopt/alt-getopt/alt-getopt-0.7.0/lua-alt-getopt-0.7.0.tar.gz
 _eclasses_=eutils	af81d52c25ec93fbdff71e0efb0de7b7	multilib	fac675dcccf94392371a6abee62d909f	toolchain-funcs	48b38a216afb92db6314d6c3187abea3
-_md5_=be96eec51b6bfcdab9eab3ffef24b0cf
+_md5_=b3efee794ba5d20c577065e7e00f3de5
