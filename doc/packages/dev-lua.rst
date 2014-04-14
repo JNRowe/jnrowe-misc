@@ -8,7 +8,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.7.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-lua/alt-getopt/alt-getopt-0.7.0.ebuild>`__  ``~amd64`` (due 2014-04-14), ``~x86`` (due 2014-04-14)
+  * `0.7.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-lua/alt-getopt/alt-getopt-0.7.0.ebuild>`__  ``~amd64`` (due 2014-04-14), ``x86``
 
 * ``linotify`` - https://github.com/hoelzro/linotify/
 
