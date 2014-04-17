@@ -637,7 +637,7 @@
  * Versions:
 
   * `0.12.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/upoints/upoints-0.12.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.12.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/upoints/upoints-0.12.2.ebuild>`__  ``~amd64`` (due 2014-04-17), ``~x86`` (due 2014-04-17)
+  * `0.12.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/upoints/upoints-0.12.2.ebuild>`__  ``~amd64`` (due 2014-04-17), ``x86``
 
 * ``urlunshort`` - https://bitbucket.org/runeh/urlunshort
 
