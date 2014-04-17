@@ -63,8 +63,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/aaargh/aaargh-0.7.ebuild>`__  ``amd64``, ``x86``
-  * `0.7.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/aaargh/aaargh-0.7.1.ebuild>`__  ``~amd64`` (due 2014-04-17), ``~x86`` (due 2014-04-17)
+  * `0.7.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/aaargh/aaargh-0.7.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``astral`` - https://pypi.python.org/pypi/astral/
 
@@ -91,8 +90,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.2.3.ebuild>`__  ``amd64``, ``x86``
-  * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.2.4.ebuild>`__  ``~amd64`` (due 2014-04-17), ``~x86`` (due 2014-04-17)
+  * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.2.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``blessings`` - https://pypi.python.org/pypi/blessings/
 
@@ -392,8 +390,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep257/pep257-0.3.0.ebuild>`__  ``amd64``, ``x86``
-  * `0.3.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep257/pep257-0.3.2.ebuild>`__  ``~amd64`` (due 2014-04-17), ``~x86`` (due 2014-04-17)
+  * `0.3.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep257/pep257-0.3.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``pep8-naming`` - https://pypi.python.org/pypi/pep8-naming/
 
@@ -636,8 +633,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.12.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/upoints/upoints-0.12.1.ebuild>`__  ``amd64``, ``x86``
-  * `0.12.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/upoints/upoints-0.12.2.ebuild>`__  ``~amd64`` (due 2014-04-17), ``~x86`` (due 2014-04-17)
+  * `0.12.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/upoints/upoints-0.12.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``urlunshort`` - https://bitbucket.org/runeh/urlunshort
 
