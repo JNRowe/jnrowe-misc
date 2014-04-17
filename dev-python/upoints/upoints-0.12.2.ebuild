@@ -10,7 +10,7 @@ DESCRIPTION="Modules for working with points on Earth"
 
 LICENSE="GPL-3+"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE="doc test"
 
 DEPEND="doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
