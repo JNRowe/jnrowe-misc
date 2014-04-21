@@ -8,7 +8,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/Hammertime/Hammertime-0.2.4.ebuild>`__  ``~amd64`` (due 2014-04-21), ``~x86`` (due 2014-04-21)
+  * `0.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/Hammertime/Hammertime-0.2.4.ebuild>`__  ``~amd64`` (due 2014-06-05), ``~x86`` (due 2014-04-21)
 
 * ``asciiquarium`` - http://www.robobunny.com/projects/asciiquarium/html/
 
