@@ -35,7 +35,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.5-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/ditz/ditz-0.5-r1.ebuild>`__  ``~amd64`` (due 2014-04-21), ``~x86`` (due 2014-05-06)
+  * `0.5-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/ditz/ditz-0.5-r1.ebuild>`__  ``~amd64`` (due 2014-06-05), ``~x86`` (due 2014-05-06)
 
 * ``metrics`` - https://pypi.python.org/pypi/metrics/
 
