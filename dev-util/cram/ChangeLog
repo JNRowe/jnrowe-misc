@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013, 2014  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  06 May 2014; James Rowe <jnrowe@gmail.com> cram-0.6.ebuild:
+  Mark compatible with Python 3.4.
+
   30 Sep 2013; James Rowe <jnrowe@gmail.com> -cram-0.5.ebuild, cram-0.6.ebuild:
   Keyworded amd64.
 

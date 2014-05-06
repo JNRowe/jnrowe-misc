@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013, 2014  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  06 May 2014; James Rowe <jnrowe@gmail.com> nose2-cov-1.0_alpha4.ebuild:
+  Mark compatible with Python 3.4.
+
   26 May 2013; James Rowe <jnrowe@gmail.com> nose2-cov-1.0_alpha4.ebuild:
   Use $PYTHON_USEDEP, where possible.
 
