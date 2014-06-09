@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013, 2014  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  09 Jun 2014; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass:
+  Fix exported functions when inherited multiple times.
+
   03 Aug 2013; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass:
   Use https for PyPI links.
 

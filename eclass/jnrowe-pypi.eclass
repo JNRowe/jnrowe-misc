@@ -15,7 +15,6 @@ if [[ -n ${PYPI_OLD_DISTUTILS} ]]; then
 	esac
 elif [[ -n ${PYPI_OLD_DISTUTILS_NG} ]]; then
 	inherit base python-distutils-ng
-	EXPORT_FUNCTIONS src_prepare src_install
 
 	case "${EAPI:-0}" in
 		0|1|2|3|4|5) ;;
@@ -94,4 +93,8 @@ if [[ -n ${PYPI_OLD_DISTUTILS_NG} ]]; then
 	}
 fi
 
+fi
+
+if [[ -n ${PYPI_OLD_DISTUTILS_NG} ]]; then
+	EXPORT_FUNCTIONS src_prepare src_install
 fi
