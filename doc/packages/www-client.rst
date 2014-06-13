@@ -8,7 +8,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.8.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/cupage/cupage-0.8.2.ebuild>`__  ``~amd64`` (due 2014-06-13)
+  * `0.8.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-client/cupage/cupage-0.8.2.ebuild>`__  ``~amd64`` (due 2014-07-28)
 
 * ``httpshell`` - https://github.com/chrislongo/httpshell/
 
