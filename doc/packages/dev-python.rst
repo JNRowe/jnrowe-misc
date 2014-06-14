@@ -451,7 +451,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycukes/pycukes-0.2.ebuild>`__  ``~amd64`` (due 2014-06-14), ``~x86`` (due 2014-06-14)
+  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycukes/pycukes-0.2.ebuild>`__  ``~amd64`` (due 2014-06-14), ``~x86`` (due 2014-07-14)
 
 * ``pydelicious`` - http://code.google.com/p/pydelicious/
 
