@@ -8,5 +8,5 @@
  * Status: maintained
  * Versions:
 
-  * `0.12 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-apps/mnemosyne/mnemosyne-0.12.ebuild>`__  ``~amd64`` (due 2014-06-21), ``~x86`` (due 2014-07-06)
+  * `0.12 <https://github.com/JNRowe/jnrowe-misc/blob/master/www-apps/mnemosyne/mnemosyne-0.12.ebuild>`__  ``~amd64`` (due 2014-08-05), ``~x86`` (due 2014-07-06)
 
