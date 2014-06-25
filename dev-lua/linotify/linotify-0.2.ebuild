@@ -22,5 +22,6 @@ PATCHES=("${FILESDIR}"/${P}-user_flags.patch)
 DOCS=(Changes README.md)
 
 src_compile() {
-	emake CC="$(tc-getCC)" || die "emake failed"
+	emake CC="$(tc-getCC)" PKG_CONFIG="$(tc-getPKG_CONFIG)" \
+		|| die "emake failed"
 }
