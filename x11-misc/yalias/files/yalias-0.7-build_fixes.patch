@@ -3,10 +3,10 @@ Subject: Build fixes
 Status: LOCAL
 
 diff --git i/Makefile w/Makefile
-index d064ab4..c83bfba 100644
+index d064ab4830a6..6b7a643b87f4 100644
 --- i/Makefile
 +++ w/Makefile
-@@ -2,17 +2,17 @@ PACKAGE = yalias
+@@ -2,17 +2,19 @@ PACKAGE = yalias
  VERSION = 0.7
  DISTNAME = $(PACKAGE)-$(VERSION)
  
@@ -19,11 +19,13 @@ index d064ab4..c83bfba 100644
  SYSTEM_CONFIG = $(YALIASDIR)/system.yaliasrc
  
 -CFLAGS = `pkg-config --cflags gtk+-2.0` \
-+CFLAGS += `pkg-config --cflags gtk+-2.0` \
++PKG_CONFIG ?= pkg-config
++
++CFLAGS += $(shell $(PKG_CONFIG) --cflags gtk+-2.0) \
  	-DSYSTEM_CONFIG=\"$(SYSTEM_CONFIG)\" \
  	-DVERSION=\"$(VERSION)\"
 -LDFLAGS = `pkg-config --libs gtk+-2.0` -lX11
-+LDFLAGS += `pkg-config --libs gtk+-2.0` -lX11
++LDFLAGS += $(shell $(PKG_CONFIG) --libs gtk+-2.0 x11)
  
  yalias: yalias.c
  	$(CC) $(CFLAGS) -o yalias yalias.c $(LDFLAGS)

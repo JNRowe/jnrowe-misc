@@ -23,5 +23,6 @@ DOCS=(NEWS README)
 PATCHES=("${FILESDIR}"/${P}-build_fixes.patch)
 
 src_compile() {
-	emake CC="$(tc-getCC)"
+	emake CC="$(tc-getCC)" PKG_CONFIG="$(tc-getPKG_CONFIG)" \
+		|| die "emake failed"
 }
