@@ -5,6 +5,9 @@
     <link>https://github.com/JNRowe/jnrowe-misc/</link>
     <description>
         Packages that don't naturally fit in to JNRowe's themed overlays.
+
+        This overlay is in deep maintenance mode now, and updates will be very
+        slow if they happen at all.
     </description>
   </overlay>
 </layman>

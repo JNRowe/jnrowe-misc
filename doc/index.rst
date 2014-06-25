@@ -10,17 +10,15 @@
 
 .. important::
 
-    The ``jnrowe-misc`` repository has now entered maintenance mode.
+    As of 2014-06-26, the ``jnrowe-misc`` repository is shuttered.  The
+    environments where I use Gentoo have vanished, and I don't expect any to
+    arise in the near future. [#]_
 
-    The environments where I use Gentoo have vanished, and are unlikely to
-    re-appear at any point in the near future. [#]_
+    I plan on maintaining the packages in this overlay for as long as people
+    report bugs, but won't promise speedy bug resolution.
 
-    I'll continue to maintain the packages in this overlay for as long as
-    possible.  I'm no longer adding new packages, and will probably start to lag
-    on updates for other less used packages.
-
-    At some point this "maintenance mode" transitions to abandoned, I'll post
-    a final update before that happens.
+    What this repository really needs is a new maintainer, so if you're a user
+    it is time to step up!
 
 ``jnrowe-misc`` is for packages that don't naturally fit in to one of my other
 themed overlays.  You'll find a large selection of Python_ packages, some tools
