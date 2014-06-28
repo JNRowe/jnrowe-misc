@@ -31,7 +31,7 @@ for line in open("support/stabilisation.%s" % ("rem" if REMIND else "org")):
         continue
     words = line.split()
     if REMIND:
-        DUE[words[5]][words[6][:-2]] = words[1]
+        DUE[words[7]][words[8][:-2]] = words[1]
     else:
         DUE[words[2]][words[1]] = words[4][1:]
 
