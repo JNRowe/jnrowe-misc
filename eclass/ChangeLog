@@ -3,6 +3,10 @@
 # Distributed under the GPL v2
 
   28 Jun 2014; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass:
+  Remove support for distutils, the child overlays that use this now support it
+  directly.
+
+  28 Jun 2014; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass:
   Remove support for python-distutils-ng
 
   09 Jun 2014; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass:

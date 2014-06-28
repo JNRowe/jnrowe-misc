@@ -4,23 +4,12 @@
 if [[ -z ${__ECLASS_IMPORTED_JNROWE_PYPI} ]]; then
 	__ECLASS_IMPORTED_JNROWE_PYPI=1
 
-inherit eutils
+inherit eutils distutils-r1
 
-if [[ -n ${PYPI_OLD_DISTUTILS} ]]; then
-	inherit distutils
-
-	case "${EAPI:-0}" in
-		0|1|2|3|4|5) ;;
-		*) die "EAPI=${EAPI} is not supported" ;;
-	esac
-else
-	inherit distutils-r1
-
-	case "${EAPI:-0}" in
-		4|5) ;;
-		*) die "EAPI=${EAPI} is not supported" ;;
-	esac
-fi
+case "${EAPI:-0}" in
+	4|5) ;;
+	*) die "EAPI=${EAPI} is not supported" ;;
+esac
 
 # @ECLASS: jnrowe-pypi.eclass
 # @MAINTAINER:
@@ -43,11 +32,6 @@ fi
 # @CODE
 
 HOMEPAGE="https://pypi.python.org/pypi/${MY_PN:-${PN}}/"
-
-# @VARIABLE: PYPI_OLD_DISTUTILS
-# @DEFAULT_UNSET
-# @DESCRIPTION:
-# If set use distutils.eclass, else distutils-r1.eclass
 
 # @VARIABLE: PYPI_ARCHIVE_SUFFIX
 # @DESCRIPTION:
