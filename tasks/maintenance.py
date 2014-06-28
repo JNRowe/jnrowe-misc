@@ -28,12 +28,14 @@ try:
 except ImportError:
     from ConfigParser import ConfigParser
 
-from tasks.utils import (APP, fail, open_issue, success, warn)
+import click
+
+from tasks.utils import (cli, fail, open_issue, success, warn)
 
 
-@APP.cmd(name='keyword-check', help='check for missing keywords')
+@cli.command(name='keyword-check')
 def keyword_check():
-    """Check for missing keywords"""
+    """Check for missing keywords."""
     for file in glob('metadata/md5-cache/*/*'):
         # Skip live packages, they shouldn't have stable keywords anyway
         if file.endswith('-9999'):
@@ -47,9 +49,9 @@ def keyword_check():
     print(success('All packages checked for keywords'))
 
 
-@APP.cmd(name='eclass-doc-check', help='check eclass documentation syntax')
+@cli.command(name='eclass-doc-check')
 def eclass_doc_check():
-    """Check eclass documentation syntax"""
+    """Check eclass documentation syntax."""
     p = Popen(['portageq', 'repos_config', '/'], stdout=PIPE)
     p.wait()
     conf = ConfigParser()
@@ -67,9 +69,9 @@ def eclass_doc_check():
             print(err)
 
 
-@APP.cmd(name='task-doc-check', help='check tasks are documented')
+@cli.command(name='task-doc-check')
 def task_doc_check():
-    """Check tasks are documented"""
+    """Check tasks are documented."""
     # This should be far easier to write, if only we could rely on the Sphinx
     # cache or mock the Sphinx extensions simply and use the docutils parser
     lines = open('doc/maintenance.rst').readlines()
@@ -78,21 +80,19 @@ def task_doc_check():
         if match("^'+\n$", line):
             commands.append(lines[n - 1][2:-3])
 
-    for name in sorted(APP._subparsers.choices):
+    for name in sorted(cli.commands):
         if not name in commands:
             print(warn('%s task undocumented' % name))
 
 
-@APP.cmd(name='gen-stable',
-         help='generate a base stabilisation string for a package')
-@APP.cmd_arg('--arches', default=['amd64', 'x86'],
-             help='architectures to generate reminder for')
-@APP.cmd_arg('-s', '--selection', default=False,
-             help='copy reminder to primary selection')
-@APP.cmd_arg('cpv', help='fully qualified package identifier')
-@APP.cmd_arg('days', nargs='?', default=30, help='number of days to wait')
+@cli.command(name='gen-stable')
+@click.argument('--arches', default=['amd64', 'x86'])
+@click.option('-s', '--selection/--no-selection',
+              help='Copy reminder to primary selection.')
+@click.argument('cpv')
+@click.argument('days', nargs='?', default=30)
 def gen_stable(arches, selection, cpv, days):
-    """Generate a base stabilisation string for a package"""
+    """Generate a base stabilisation string for a package."""
     date = datetime.date.today() + datetime.timedelta(days=days)
     for arch in arches:
         reminder = 'REM %s *1 PRIORITY 7500 MSG %%"Stabilise %s %s%%" %%a' \
@@ -103,18 +103,18 @@ def gen_stable(arches, selection, cpv, days):
             proc.communicate(reminder)
 
 
-@APP.cmd(name='open-bug', help='open a new bump bug')
-@APP.cmd_arg('title', help='title for bug')
-@APP.cmd_arg('body', nargs='?', default='', help='body for bug')
-@APP.cmd_arg('labels', nargs='*', help='initial label for bug')
+@click.command(name='open-bug', help='open a new bump bug')
+@click.argument('title')
+@click.argument('body', nargs='?', default='')
+@click.argument('labels', nargs='*')
 def open_bug(title, body, labels):
     """Open a new bump bug"""
     data = {'title': title, 'body': body, 'labels': labels}
     open_issue(data)
 
 
-@APP.cmd(name='bump-pkg', help='open a version bump bug')
-@APP.cmd_arg('cpv', help='fully qualified package identifier')
+@click.command(name='bump-pkg', help='open a version bump bug')
+@click.argument('cpv')
 def bump_pkg(cpv):
     """Open a version bump bug"""
     data = {

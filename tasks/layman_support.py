@@ -24,7 +24,7 @@ except ImportError:  # Python 2
 
 from lxml import etree
 
-from tasks.utils import (APP, CommandError, fail, success)
+from tasks.utils import (cli, CommandError, fail, success)
 
 try:
     import httplib2
@@ -36,9 +36,9 @@ except ImportError:
     lxml = None  # NOQA
 
 
-@APP.cmd(name='layman-check', help='check basic layman config validity')
+@cli.command(name='layman-check')
 def layman_check():
-    """Check basic layman config validity"""
+    """Check basic layman config validity."""
     dtd_loc = ('http://git.overlays.gentoo.org/gitweb/?'
                'p=proj/repositories-xml-format.git;a=blob_plain;'
                'f=schema/%s;hb=HEAD')

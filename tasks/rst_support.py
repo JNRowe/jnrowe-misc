@@ -30,10 +30,10 @@ except ImportError:  # Python 2
 from docutils.core import publish_file
 from docutils.utils import SystemMessage
 
-from tasks.utils import (APP, dep, newer, success)
+from tasks.utils import (cli, dep, newer, success)
 
 
-@APP.cmd(name='rst-check', help='check syntax of reST-formatted files')
+@cli.command(name='rst-check', help='check syntax of reST-formatted files')
 def rst_check():
     """Check syntax of reST-formatted files"""
     for file in glob('*.rst'):
@@ -45,7 +45,7 @@ def rst_check():
     print(success('All reST files pass!'))
 
 
-@APP.cmd(name='gen-html', help='generate HTML output')
+@cli.command(name='gen-html', help='generate HTML output')
 def gen_html():
     """Generate HTML output"""
     rst_files = glob('*.rst')
@@ -63,7 +63,7 @@ def gen_html():
     print(success('All reST generated!'))
 
 
-@APP.cmd(name='gen-thanks', help='generate Sphinx contributor doc')
+@cli.command(name='gen-thanks', help='generate Sphinx contributor doc')
 def gen_thanks():
     """Generate Sphinx contributor doc"""
     dep(['doc/thanks.rst', ], ['README.rst'])
@@ -84,7 +84,7 @@ def gen_thanks():
     print(success('thanks.rst generated!'))
 
 
-@APP.cmd(name='gen-sphinx-html', help='generate Sphinx HTML output')
+@cli.command(name='gen-sphinx-html', help='generate Sphinx HTML output')
 def gen_sphinx_html():
     """Generate Sphinx HTML output"""
     dep(['doc/.build/doctrees/environment.pickle', ],

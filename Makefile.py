@@ -21,42 +21,49 @@ import os
 import sys
 
 from glob import glob
+from subprocess import check_output
 
-import aaargh
+import click
 
-
-APP = aaargh.App(description=__doc__.splitlines()[0].split("-", 1)[1],
-                 epilog=("Please report bugs at "
-                         "https://github.com/JNRowe/jnrowe-misc/issues/"))
-
-from tasks import *  # NOQA
 
 try:
-    VERSION = cmd_output('git describe --always')
+    VERSION = check_output('git describe --always'.split()).strip().decode()
 except OSError:
     VERSION = 'unknown'
-APP.arg('--version', action='version', version='%%(prog)s (%s)' % VERSION)
 
 
-@APP.cmd(name='all', help='update generated files')
+@click.group(help=__doc__.splitlines()[0].split("-", 1)[1],
+             epilog='Please report bugs to '
+                    'https://github.com/JNRowe/jnrowe-misc/issues')
+@click.version_option(VERSION)
+def cli():
+    """Main command entry point."""
+
+
+# These must be below cli() to workaround circular imports
+from tasks import *  # NOQA
+
+
+@cli.command(name='all')
 def make_all():
-    """Update generated files"""
+    """Update generated files."""
     for name in sorted(globals()):
         if name.startswith('gen_') and not name == 'gen_stable':
             globals()[name]()
 
 
-@APP.cmd(help='run tests')
-def check():
-    """Run tests"""
-    for name in sorted(globals()):
-        if name.endswith('_check'):
-            globals()[name]()
+@cli.command()
+@click.pass_context
+def check(ctx):
+    """Run tests."""
+    for name, func in sorted(cli.commands.items()):
+        if name.endswith('-check'):
+            ctx.invoke(func)
 
 
-@APP.cmd(help='clean repo')
+@cli.command()
 def clean():
-    """Clean repo"""
+    """Clean repo."""
     for file in glob('*.rst'):
         html_file = os.path.splitext(file)[0] + '.html'
         try:
@@ -73,21 +80,13 @@ def clean():
         print(warn('profiles/categories removed'))
 
 
-@APP.cmd(help='clean repo, deeply')
+@cli.command()
 def distclean():
-    """Clean repo, deeply"""
+    """Clean repo, deeply."""
     clean()
     for file in glob('*-*/*/Manifest'):
         os.unlink(file)
 
 
-def main():
-    """main script"""
-    try:
-        APP.run()
-    except CommandError as e:
-        APP._parser.exit(message=e.args[0] + '\n')
-
-
 if __name__ == '__main__':
-    sys.exit(main())
+    sys.exit(cli())
