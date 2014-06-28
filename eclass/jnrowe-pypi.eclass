@@ -13,13 +13,6 @@ if [[ -n ${PYPI_OLD_DISTUTILS} ]]; then
 		0|1|2|3|4|5) ;;
 		*) die "EAPI=${EAPI} is not supported" ;;
 	esac
-elif [[ -n ${PYPI_OLD_DISTUTILS_NG} ]]; then
-	inherit base python-distutils-ng
-
-	case "${EAPI:-0}" in
-		0|1|2|3|4|5) ;;
-		*) die "EAPI=${EAPI} is not supported" ;;
-	esac
 else
 	inherit distutils-r1
 
@@ -56,11 +49,6 @@ HOMEPAGE="https://pypi.python.org/pypi/${MY_PN:-${PN}}/"
 # @DESCRIPTION:
 # If set use distutils.eclass, else distutils-r1.eclass
 
-# @VARIABLE: PYPI_OLD_DISTUTILS_NG
-# @DEFAULT_UNSET
-# @DESCRIPTION:
-# If set use python-distutils-ng.eclass, else distutils-r1.eclass
-
 # @VARIABLE: PYPI_ARCHIVE_SUFFIX
 # @DESCRIPTION:
 # Archive suffix for package source, defaults to "tar.gz".
@@ -79,22 +67,4 @@ SRC_URI="mirror://pypi/${_PYPI_PN::1}/${_PYPI_PN}/${_PYPI_P}.${PYPI_ARCHIVE_SUFF
 # Override S for PN mangling.
 S="${WORKDIR}"/${_PYPI_P}
 
-if [[ -n ${PYPI_OLD_DISTUTILS_NG} ]]; then
-	jnrowe-pypi_src_prepare() {
-		base_src_prepare
-
-		python-distutils-ng_src_prepare
-	}
-
-	jnrowe-pypi_src_install() {
-		default
-
-		python-distutils-ng_src_install
-	}
-fi
-
-fi
-
-if [[ -n ${PYPI_OLD_DISTUTILS_NG} ]]; then
-	EXPORT_FUNCTIONS src_prepare src_install
 fi

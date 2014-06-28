@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013, 2014  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  28 Jun 2014; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass:
+  Remove support for python-distutils-ng
+
   09 Jun 2014; James Rowe <jnrowe@gmail.com> jnrowe-pypi.eclass:
   Fix exported functions when inherited multiple times.
 
