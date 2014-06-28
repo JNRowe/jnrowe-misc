@@ -28,7 +28,7 @@ try:
 except ImportError:
     from ConfigParser import ConfigParser
 
-from tasks.utils import (APP, cmd_output, fail, open_issue, success, warn)
+from tasks.utils import (APP, fail, open_issue, success, warn)
 
 
 @APP.cmd(name='keyword-check', help='check for missing keywords')
