@@ -62,7 +62,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-1.0.0.ebuild>`__  ``~amd64`` (due 2014-08-01), ``~x86`` (due 2014-07-02)
+  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-1.0.0.ebuild>`__  ``~amd64`` (due 2014-08-01), ``~x86`` (due 2014-08-01)
 
 * ``seqdiag`` - https://pypi.python.org/pypi/seqdiag/
 
