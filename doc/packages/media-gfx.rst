@@ -44,7 +44,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.3.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.3.2.ebuild>`__  ``~amd64`` (due 2014-08-01), ``~x86`` (due 2014-07-02)
+  * `1.3.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.3.2.ebuild>`__  ``~amd64`` (due 2014-08-01), ``~x86`` (due 2014-08-01)
 
 * ``gruffy`` - https://pypi.python.org/pypi/gruffy/
 
