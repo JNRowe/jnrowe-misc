@@ -4,7 +4,7 @@
 EAPI=5
 
 # Needs absolute import fixes
-PYTHON_COMPAT=(python2_{6,7})
+PYTHON_COMPAT=(python2_7)
 
 inherit jnrowe-pypi
 
