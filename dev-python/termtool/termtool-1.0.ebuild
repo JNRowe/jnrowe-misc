@@ -3,7 +3,7 @@
 
 EAPI=5
 # 3.x isn't supported because of octal syntax
-PYTHON_COMPAT=(python2_{6,7})
+PYTHON_COMPAT=(python2_7)
 PYPI_ARCHIVE_SUFFIX="zip"
 
 inherit base jnrowe-pypi
@@ -16,8 +16,7 @@ KEYWORDS="amd64 x86"
 IUSE="doc"
 
 DEPEND="doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
-RDEPEND="virtual/python-argparse[${PYTHON_USEDEP}]
-	dev-python/prettytable[${PYTHON_USEDEP}]
+RDEPEND="dev-python/prettytable[${PYTHON_USEDEP}]
 	dev-python/progressbar[${PYTHON_USEDEP}]"
 
 PATCHES=("${FILESDIR}"/${P}-Removed_unused_intersphinx_settings.patch)

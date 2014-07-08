@@ -3,7 +3,7 @@
 
 EAPI=5
 # 3.x is restricted due to print syntax, and Unicode literals
-PYTHON_COMPAT=(python2_{6,7})
+PYTHON_COMPAT=(python2_7)
 
 inherit jnrowe-pypi
 
@@ -17,7 +17,6 @@ IUSE=""
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 # setuptools is required in RDEPEND for entry points usage
 RDEPEND="${DEPEND}
-	virtual/python-argparse[${PYTHON_USEDEP}]
 	dev-python/calabash[${PYTHON_USEDEP}]"
 
 PATCHES=("${FILESDIR}"/${P}-use_stdlib_json.patch)

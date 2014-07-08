@@ -3,7 +3,7 @@
 
 EAPI=5
 # 3.* is restricted due to print and Unicode syntax
-PYTHON_COMPAT=(python2_{6,7})
+PYTHON_COMPAT=(python2_7)
 MY_P="${P/_alpha/a}"
 
 inherit jnrowe-pypi

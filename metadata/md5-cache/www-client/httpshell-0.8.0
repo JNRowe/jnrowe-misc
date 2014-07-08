@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=dev-python/setuptools[python_targets_python2_6(-)?,python_targets_python2_7(-)?,-python_single_target_python2_6(-),-python_single_target_python2_7(-)] python_targets_python2_6? ( >=dev-lang/python-2.6.8-r3:2.6 ) python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) dev-lang/python-exec:=[python_targets_python2_6(-)?,python_targets_python2_7(-)?,-python_single_target_python2_6(-),-python_single_target_python2_7(-)]
+DEPEND=dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) dev-lang/python-exec:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
 DESCRIPTION=Interactive shell for issuing HTTP commands to a REST API
 EAPI=5
 HOMEPAGE=https://github.com/chrislongo/httpshell/
-IUSE=python_targets_python2_6 python_targets_python2_7
+IUSE=python_targets_python2_7
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-RDEPEND=dev-python/pygments[python_targets_python2_6(-)?,python_targets_python2_7(-)?,-python_single_target_python2_6(-),-python_single_target_python2_7(-)] >=dev-python/httplib2-0.7.0[python_targets_python2_6(-)?,python_targets_python2_7(-)?,-python_single_target_python2_6(-),-python_single_target_python2_7(-)] dev-python/oauth2[python_targets_python2_6(-)?,python_targets_python2_7(-)?,-python_single_target_python2_6(-),-python_single_target_python2_7(-)] virtual/python-argparse[python_targets_python2_6(-)?,python_targets_python2_7(-)?,-python_single_target_python2_6(-),-python_single_target_python2_7(-)] python_targets_python2_6? ( >=dev-lang/python-2.6.8-r3:2.6 ) python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) dev-lang/python-exec:=[python_targets_python2_6(-)?,python_targets_python2_7(-)?,-python_single_target_python2_6(-),-python_single_target_python2_7(-)]
-REQUIRED_USE=|| ( python_targets_python2_6 python_targets_python2_7 )
+RDEPEND=dev-python/pygments[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] >=dev-python/httplib2-0.7.0[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/oauth2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) dev-lang/python-exec:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]
+REQUIRED_USE=|| ( python_targets_python2_7 )
 SLOT=0
 SRC_URI=https://github.com/chrislongo/httpshell/archive/0.8.0.tar.gz -> httpshell-0.8.0.tar.gz
-_eclasses_=distutils-r1	051beafa534d831ab1129e71788b681a	eutils	025442f2eecab39ad0b4e541b6e142af	jnrowe-github	bd02c583a4ba2fecfcee6a234a40a2fa	multibuild	46527a4656956da3d58acff72c9b59b1	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	python-r1	36d89a1c51cb1e624d5cdbea26adb9ad	python-utils-r1	6164ef644981c5dffdf4cf891caed613	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	vcs-snapshot	58b766562c9fbfb3268b04e33cdf2f66
-_md5_=1ed8d551b25182a98b842bd44e998d9a
+_eclasses_=distutils-r1	2efee63b5a249714ce5d8cef3068dd16	eutils	76fc3c462065bb4ca959f939e6793f94	jnrowe-github	bd02c583a4ba2fecfcee6a234a40a2fa	multibuild	46527a4656956da3d58acff72c9b59b1	multilib	fac675dcccf94392371a6abee62d909f	multiprocessing	c2d96fb38f2596209e98fceda58ba1ed	python-r1	c820706d8b22c1d0fe215a9d4a47671d	python-utils-r1	8c66c6dabd0295878b68b40dbd0b087b	toolchain-funcs	48b38a216afb92db6314d6c3187abea3	vcs-snapshot	58b766562c9fbfb3268b04e33cdf2f66
+_md5_=d14f19a67c405395734341ddd6972e87

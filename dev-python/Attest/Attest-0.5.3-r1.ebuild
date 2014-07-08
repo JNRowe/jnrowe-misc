@@ -3,7 +3,7 @@
 
 EAPI=5
 # 3.2 is restricted due to contextlib.nested usage
-PYTHON_COMPAT=(python2_{6,7})
+PYTHON_COMPAT=(python2_7)
 
 inherit jnrowe-pypi
 

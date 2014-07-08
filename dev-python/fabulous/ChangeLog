@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013, 2014  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  08 Jul 2014; James Rowe <jnrowe@gmail.com> fabulous-0.1.5.ebuild:
+  Drop Python 2.6 support.
+
   03 Jan 2014; James Rowe <jnrowe@gmail.com> fabulous-0.1.5.ebuild:
   Use virtual/python-imaging to handle pillow support.
 
