@@ -550,7 +550,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/showme/showme-1.0.0.ebuild>`__  ``amd64``, ``x86``
+  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/showme/showme-1.0.0.ebuild>`__  ``~amd64`` (due 2014-08-07), ``~x86`` (due 2014-08-07)
 
 * ``snot`` - https://pypi.python.org/pypi/snot/
 
