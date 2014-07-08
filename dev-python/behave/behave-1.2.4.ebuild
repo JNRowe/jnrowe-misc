@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-PYTHON_COMPAT=(python{2_{6,7},3_{2,3,4}})
+PYTHON_COMPAT=(python{2_7,3_{2,3}})
 
 inherit jnrowe-pypi
 
@@ -17,9 +17,7 @@ DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 # setuptools is required in RDEPEND for entry points
 RDEPEND="${DEPEND}
 	dev-python/parse[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	virtual/python-argparse[${PYTHON_USEDEP}]
-	virtual/python-importlib[${PYTHON_USEDEP}]"
+	dev-python/six[${PYTHON_USEDEP}]"
 
 # Tests are unusable within portage environment
 RESTRICT="test"
