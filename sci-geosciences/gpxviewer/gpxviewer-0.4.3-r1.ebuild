@@ -4,7 +4,7 @@
 EAPI=5
 
 # 3.x is restricted due to lack of support in python-distutils-extra
-PYTHON_COMPAT=(python2_{6,7})
+PYTHON_COMPAT=(python2_7)
 
 GITHUB_USER=andrewgee
 
