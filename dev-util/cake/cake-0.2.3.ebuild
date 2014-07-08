@@ -3,7 +3,7 @@
 
 EAPI=5
 # Python 3 is resticted due to print syntax
-PYTHON_COMPAT=(python2_{6,7})
+PYTHON_COMPAT=(python2_7)
 
 inherit jnrowe-pypi
 
@@ -11,7 +11,7 @@ DESCRIPTION="Minimalistic Python build tool inspired by Rake"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=""
