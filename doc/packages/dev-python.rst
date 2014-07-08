@@ -254,15 +254,6 @@
   * `0.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html2data/html2data-0.4.3.ebuild>`__  ``amd64``, ``x86``
   * `0.4.3-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html2data/html2data-0.4.3-r1.ebuild>`__  ``~amd64`` (due 2014-07-20), ``~x86`` (due 2014-07-20)
 
-* ``importlib`` - https://pypi.python.org/pypi/importlib/
-
- * Backport of importlib.import_module() from Python 2.7
- * Licence: ``PSF-2.4``
- * Status: maintained
- * Versions:
-
-  * `1.0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/importlib/importlib-1.0.3.ebuild>`__  ``amd64``, ``x86``
-
 * ``interlude`` - https://svn.bluedynamics.eu/svn/public/interlude/
 
  * Provides an interactive console for doctests
