@@ -6,7 +6,7 @@
 # ********
 
 EAPI=5
-PYTHON_COMPAT=(python{2_{6,7},3_{2,3,4}})
+PYTHON_COMPAT=(python{2_7,3_{2,3,4}})
 
 inherit jnrowe-pypi
 
@@ -20,9 +20,7 @@ IUSE="doc"
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 # setuptools is required in RDEPEND for entry points
 RDEPEND="${DEPEND}
-	dev-python/six[${PYTHON_USEDEP}]
-	virtual/python-argparse[${PYTHON_USEDEP}]
-	virtual/python-unittest2[${PYTHON_USEDEP}]"
+	dev-python/six[${PYTHON_USEDEP}]"
 
 PATCHES=(
 	"${FILESDIR}"/${PN}-0.4-remote_version_specific_runners.patch
