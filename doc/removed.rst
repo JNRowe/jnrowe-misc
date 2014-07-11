@@ -388,7 +388,7 @@ culled.
     Python 2.5 has been removed upstream, so this package is no longer required.
 
 :Reason: Culled
-:Commit: :commit:`eaee27c9 <eaee27c9b8bb211cb4237e0cb91d7b8f61257b3f>``
+:Commit: :commit:`eaee27c9 <eaee27c9b8bb211cb4237e0cb91d7b8f61257b3f>`
 :Removal date: 2013-09-06
 
 ``pep8``
@@ -906,7 +906,7 @@ culled.
     Python 2.5 has been removed upstream, so this package is no longer required.
 
 :Reason: Culled
-:Commit: :commit:`eaee27c9 <eaee27c9b8bb211cb4237e0cb91d7b8f61257b3f>``
+:Commit: :commit:`eaee27c9 <eaee27c9b8bb211cb4237e0cb91d7b8f61257b3f>`
 :Removal date: 2013-09-06
 
 ``python-importlib``
