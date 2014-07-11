@@ -329,6 +329,15 @@ culled.
 :Removal date: 2014-02-23
 :Issues: :issue:`837`
 
+``importlib``
+'''''''''''''
+
+    Python 2.6 has been removed upstream, so this package is no longer required.
+
+:Reason: Culled
+:Commit: :commit:`5b79084f <5b79084ffb6d1e8163fc85d6bb898346ae5efe42>`
+:Removal date: 2014-07-08
+
 ``isodate``
 '''''''''''
 
