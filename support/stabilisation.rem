@@ -1,6 +1,5 @@
 REM 2014-07-20 *1 PRIORITY 7500 MSG %"Stabilise x86 app-misc/Hammertime-0.2.4%" %a
 REM 2014-07-20 *1 PRIORITY 7500 MSG %"Stabilise x86 dev-python/html2data-0.4.3-r1%" %a
-REM 2014-07-20 *1 PRIORITY 7500 MSG %"Stabilise amd64 dev-util/ditz-0.5-r1%" %a
 REM 2014-07-20 *1 PRIORITY 7500 MSG %"Stabilise amd64 media-gfx/actdiag-0.4.1%" %a
 REM 2014-07-20 *1 PRIORITY 7500 MSG %"Stabilise x86 media-gfx/actdiag-0.4.1%" %a
 REM 2014-07-20 *1 PRIORITY 7500 MSG %"Stabilise amd64 media-gfx/gruffy-0.3.3%" %a
@@ -48,3 +47,4 @@ REM 2014-08-28 *1 PRIORITY 7500 MSG %"Stabilise amd64 dev-python/pyhistorian-0.6
 
 REM 2014-09-03 *1 PRIORITY 7500 MSG %"Stabilise amd64 app-misc/Hammertime-0.2.4%" %a
 REM 2014-09-03 *1 PRIORITY 7500 MSG %"Stabilise amd64 dev-python/html2data-0.4.3-r1%" %a
+REM 2014-09-03 *1 PRIORITY 7500 MSG %"Stabilise amd64 dev-util/ditz-0.5-r1%" %a
