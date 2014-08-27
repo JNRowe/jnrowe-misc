@@ -1,5 +1,4 @@
 REM 2014-08-27 *1 PRIORITY 7500 MSG %"Stabilise amd64 dev-python/nose2-cov-1.0_alpha4%" %a
-REM 2014-08-27 *1 PRIORITY 7500 MSG %"Stabilise x86 dev-python/rad-0.1.2%" %a
 REM 2014-08-28 *1 PRIORITY 7500 MSG %"Stabilise x86 app-misc/pw-0.2.3%" %a
 REM 2014-08-28 *1 PRIORITY 7500 MSG %"Stabilise amd64 dev-python/pyhistorian-0.6.8%" %a
 REM 2014-08-28 *1 PRIORITY 7500 MSG %"Stabilise x86 dev-python/pyhistorian-0.6.8%" %a
@@ -46,4 +45,5 @@ REM 2014-09-18 *1 PRIORITY 7500 MSG %"Stabilise x86 www-client/httpshell-0.8.0%"
 REM 2014-09-19 *1 PRIORITY 7500 MSG %"Stabilise amd64 www-apps/mnemosyne-0.12%" %a
 REM 2014-09-21 *1 PRIORITY 7500 MSG %"Stabilise amd64 dev-python/showme-1.0.0%" %a
 REM 2014-09-21 *1 PRIORITY 7500 MSG %"Stabilise amd64 dev-util/cake-0.2.3%" %a
+REM 2014-09-26 *1 PRIORITY 7500 MSG %"Stabilise x86 dev-python/rad-0.1.2%" %a
 REM 2014-09-27 *1 PRIORITY 7500 MSG %"Stabilise amd64 app-misc/pw-0.2.3%" %a
