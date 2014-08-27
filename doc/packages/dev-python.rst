@@ -343,7 +343,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.0_alpha4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2-cov/nose2-cov-1.0_alpha4.ebuild>`__  ``~amd64`` (due 2014-08-27)
+  * `1.0_alpha4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2-cov/nose2-cov-1.0_alpha4.ebuild>`__  ``~amd64`` (due 2014-10-11)
 
 * ``nosetty`` - http://code.google.com/p/nosetty/
 
@@ -496,7 +496,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rad/rad-0.1.2.ebuild>`__  ``~amd64`` (due 2014-09-11), ``~x86`` (due 2014-08-27)
+  * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rad/rad-0.1.2.ebuild>`__  ``~amd64`` (due 2014-09-11), ``~x86`` (due 2014-09-26)
 
 * ``rstctl`` - https://pypi.python.org/pypi/rstctl/
 
