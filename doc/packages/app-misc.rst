@@ -44,7 +44,7 @@
  * Status: deprecated, see :issue:`751`
  * Versions:
 
-  * `0.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pw/pw-0.2.3.ebuild>`__  ``~amd64`` (due 2014-09-27), ``~x86`` (due 2014-08-28)
+  * `0.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pw/pw-0.2.3.ebuild>`__  ``~amd64`` (due 2014-09-27), ``~x86`` (due 2014-09-27)
 
 * ``pytrainer`` - https://github.com/pytrainer/pytrainer
 
