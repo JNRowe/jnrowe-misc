@@ -1,5 +1,4 @@
 REM 2014-09-03 *1 PRIORITY 7500 MSG %"Stabilise x86 dev-util/ditz-0.5-r1%" %a
-REM 2014-09-03 *1 PRIORITY 7500 MSG %"Stabilise amd64 media-gfx/sphinxcontrib-gruffygen-0.1.1%" %a
 REM 2014-09-03 *1 PRIORITY 7500 MSG %"Stabilise amd64 sci-geosciences/gpxviewer-0.4.3-r1%" %a
 REM 2014-09-03 *1 PRIORITY 7500 MSG %"Stabilise amd64 www-client/httpshell-0.8.0%" %a
 REM 2014-09-04 *1 PRIORITY 7500 MSG %"Stabilise amd64 dev-python/rstctl-0.4%" %a
@@ -50,3 +49,4 @@ REM 2014-10-18 *1 PRIORITY 7500 MSG %"Stabilise amd64 dev-util/ditz-0.5-r1%" %a
 REM 2014-10-18 *1 PRIORITY 7500 MSG %"Stabilise amd64 media-gfx/actdiag-0.4.1%" %a
 REM 2014-10-18 *1 PRIORITY 7500 MSG %"Stabilise amd64 media-gfx/gruffy-0.3.3%" %a
 REM 2014-10-18 *1 PRIORITY 7500 MSG %"Stabilise amd64 media-gfx/seqdiag-0.8.1%" %a
+REM 2014-10-18 *1 PRIORITY 7500 MSG %"Stabilise amd64 media-gfx/sphinxcontrib-gruffygen-0.1.1%" %a
