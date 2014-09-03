@@ -252,7 +252,7 @@
  * Versions:
 
   * `0.4.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html2data/html2data-0.4.3.ebuild>`__  ``amd64``, ``x86``
-  * `0.4.3-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html2data/html2data-0.4.3-r1.ebuild>`__  ``~amd64`` (due 2014-09-03), ``~x86`` (due 2014-09-18)
+  * `0.4.3-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/html2data/html2data-0.4.3-r1.ebuild>`__  ``~amd64`` (due 2014-10-18), ``~x86`` (due 2014-09-18)
 
 * ``interlude`` - https://svn.bluedynamics.eu/svn/public/interlude/
 
