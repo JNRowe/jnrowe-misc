@@ -3,7 +3,7 @@
 
 EAPI=5
 # This version is specifically for Python 3
-PYTHON_COMPAT=(python3_{2,3,4})
+PYTHON_COMPAT=(python3_{3,4})
 
 inherit distutils-r1 readme.gentoo
 
