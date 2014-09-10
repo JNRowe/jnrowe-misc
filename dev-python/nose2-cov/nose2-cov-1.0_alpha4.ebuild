@@ -3,7 +3,7 @@
 
 EAPI=5
 # 2.6 is skipped because of cov-core dependency
-PYTHON_COMPAT=(python{2_7,3_{2,3,4}})
+PYTHON_COMPAT=(python{2_7,3_{3,4}})
 MY_PV="${PV/_alpha/a}"
 
 inherit jnrowe-pypi
