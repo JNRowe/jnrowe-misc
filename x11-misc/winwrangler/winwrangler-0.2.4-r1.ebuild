@@ -38,5 +38,5 @@ src_configure() {
 src_install() {
 	emake DESTDIR="${D}" winwranglerdocdir='${datadir}/doc/${P}' install \
 		|| die "emake install failed."
-	rm "${D}"/usr/share/doc/${P}/{COPYING,INSTALL}
+	rm "${D}"usr/share/doc/${P}/{COPYING,INSTALL}
 }
