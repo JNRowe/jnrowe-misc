@@ -39,7 +39,7 @@ src_test() {
 src_install() {
 	emake DESTDIR="${D}" install || die "emake install failed"
 
-	rm "${D}"/usr/bin/${PN} || die "Deleting wrapper failed"
+	rm "${D}"usr/bin/${PN} || die "Deleting wrapper failed"
 	dogamesbin src/Clients/Classical/gbrainy || die "Installing wrapper failed"
 
 	einstalldocs
