@@ -66,7 +66,7 @@ python_install_all() {
 	insinto /usr/share/doc/${PF}
 	if use doc ; then
 		dodoc documentation/*.rst || die "dodoc *.rst failed"
-		rm "${D}"/usr/share/doc/${PF}/index.rst
+		rm "${D}"usr/share/doc/${PF}/index.rst
 		dohtml -A svg -r documentation/_build/html/* || die "dohtml failed"
 	fi
 	if use examples ; then
