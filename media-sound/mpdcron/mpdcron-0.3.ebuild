@@ -54,7 +54,7 @@ src_install() {
 	emake DESTDIR="${D}" docdir=${docdir} install \
 		|| die "emake install failed"
 	# Can't call prepalldocs for compression because of the example files.
-	rm "${D}"/${docdir}/*.mkd
+	rm "${D}"${docdir}/*.mkd
 	dodoc  *.mkd
 
 	insinto /usr/share/zsh/site-functions
