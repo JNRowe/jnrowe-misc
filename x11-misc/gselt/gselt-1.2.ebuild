@@ -22,7 +22,7 @@ src_install() {
 	default
 
 	# Overkill to edit Makefile.am, and run autotools just to kill a single file
-	rm -rf "${D}"/usr/share/${PN}
+	rm -rf "${D}"usr/share/${PN}
 
 	insinto /usr/share/doc/${PF}/examples
 	doins dot-gselt
