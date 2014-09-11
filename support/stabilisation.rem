@@ -1,5 +1,4 @@
 REM 2014-09-11 *1 PRIORITY 7500 MSG %"Stabilise amd64 dev-python/lettuce-0.2.14%" %a
-REM 2014-09-11 *1 PRIORITY 7500 MSG %"Stabilise x86 dev-python/lettuce-0.2.14%" %a
 REM 2014-09-11 *1 PRIORITY 7500 MSG %"Stabilise amd64 dev-python/rad-0.1.2%" %a
 REM 2014-09-11 *1 PRIORITY 7500 MSG %"Stabilise amd64 www-client/cupage-0.8.2%" %a
 REM 2014-09-12 *1 PRIORITY 7500 MSG %"Stabilise amd64 dev-python/pycukes-0.2%" %a
@@ -39,6 +38,7 @@ REM 2014-10-06 *1 PRIORITY 7500 MSG %"Stabilise x86 dev-util/cake-0.2.3%" %a
 REM 2014-10-09 *1 PRIORITY 7500 MSG %"Stabilise x86 app-misc/pytrainer-1.10.0%" %a
 REM 2014-10-11 *1 PRIORITY 7500 MSG %"Stabilise x86 app-misc/rdial-0.13.1%" %a
 REM 2014-10-11 *1 PRIORITY 7500 MSG %"Stabilise x86 app-misc/hubugs-0.17.5%" %a
+REM 2014-10-11 *1 PRIORITY 7500 MSG %"Stabilise x86 dev-python/lettuce-0.2.14%" %a
 REM 2014-10-11 *1 PRIORITY 7500 MSG %"Stabilise amd64 dev-python/nose2-cov-1.0_alpha4%" %a
 REM 2014-10-11 *1 PRIORITY 7500 MSG %"Stabilise x86 dev-python/nose2-cov-1.0_alpha4%" %a
 REM 2014-10-11 *1 PRIORITY 7500 MSG %"Stabilise x86 media-gfx/sphinxcontrib-gruffygen-0.1.1%" %a
