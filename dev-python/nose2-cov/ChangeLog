@@ -2,6 +2,9 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013, 2014  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  11 Sep 2014; James Rowe <jnrowe@gmail.com> nose2-cov-1.0_alpha4.ebuild:
+  Keyworded ~x86.
+
   10 Sep 2014; James Rowe <jnrowe@gmail.com> nose2-cov-1.0_alpha4.ebuild:
   Drop Python 3.2 support.
 
