@@ -21,7 +21,7 @@ import os
 from glob import glob
 from subprocess import (CalledProcessError, check_call, check_output)
 
-from tasks.utils import (APP, CommandError, dep, fail, newer, success, warn)
+from tasks.utils import (cli, CommandError, dep, fail, newer, success, warn)
 
 try:
     SIGN_KEY = check_output(['portageq', 'envvar', 'PORTAGE_GPG_KEY']).strip()
@@ -29,7 +29,7 @@ except CalledProcessError:
     SIGN_KEY = None
 
 
-@APP.cmd(name='gen-use-local-desc', help='generate use.local.desc')
+@cli.command(name='gen-use-local-desc', help='generate use.local.desc')
 def gen_use_local_desc():
     """Generate use.local.desc"""
     dep(['profiles/use.local.desc', ],
@@ -41,7 +41,7 @@ def gen_use_local_desc():
     print(success('use.local.desc generated!'))
 
 
-@APP.cmd(name='gen-categories', help='generate categories listing')
+@cli.command(name='gen-categories', help='generate categories listing')
 def gen_categories():
     """Generate categories listing"""
     categories = glob('*-*') + ['virtual', ]
@@ -56,7 +56,7 @@ def gen_categories():
     print(success('categories list generated!'))
 
 
-@APP.cmd(name='gen-manifests', help='generate Manifest files')
+@cli.command(name='gen-manifests', help='generate Manifest files')
 def gen_manifests():
     """Generate Manifest files"""
     packages = glob('*-*/*/*') + glob('virtual/*/*')
@@ -78,7 +78,7 @@ def gen_manifests():
             os.chdir(base_dir)
 
 
-@APP.cmd(name='gen-news-sigs', help='generate news file signatures')
+@cli.command(name='gen-news-sigs', help='generate news file signatures')
 def gen_news_sigs():
     """Generate news file signatures"""
     news_files = glob('metadata/news/*/*.txt')

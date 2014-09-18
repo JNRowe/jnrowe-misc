@@ -19,10 +19,11 @@
 
 from collections import defaultdict
 
-from tasks.utils import (APP, cmd_output, dep, success)
+from tasks.utils import (cli, cmd_output, dep, success)
 
 
-@APP.cmd(name='gen-removals', help='generate remind file for package removals')
+@cli.command(name='gen-removals',
+             help='generate remind file for package removals')
 def gen_removals():
     """Generate remind file for package removals"""
     dep(['support/removal.rem', ], ['profiles/package.mask', ])
@@ -45,7 +46,7 @@ def gen_removals():
     print(success('removal.rem generated!'))
 
 
-@APP.cmd(help='display repository reminders')
+@cli.command(help='display repository reminders')
 def reminders():
     """Display repository reminders"""
     output = lambda f: "\n".join(cmd_output('remind %s' % f).splitlines()[1:])

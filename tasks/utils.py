@@ -24,7 +24,7 @@ from os import path
 from re import search
 from subprocess import (CalledProcessError, check_output)
 
-import blessings
+import click
 
 try:
     import httplib2
@@ -34,21 +34,19 @@ except ImportError:
 
 CA_CERTS = '/etc/ssl/certs/ca-certificates.crt'
 
-APP = stack()[-1][0].f_globals['APP']
-
-T = blessings.Terminal()
+cli = stack()[-1][0].f_globals['cli']
 
 
 def success(text):
-    return T.bright_green(text)
+    click.termui.secho(text, fg='green', bold=True)
 
 
 def fail(text):
-    return T.bright_red(text)
+    click.termui.secho(text, fg='red', bold=True)
 
 
 def warn(text):
-    return T.bright_yellow(text)
+    click.termui.secho(text, fg='yellow', bold=True)
 
 
 class CommandError(ValueError):
