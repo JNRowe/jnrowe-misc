@@ -505,7 +505,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2014-10-19), ``~x86`` (due 2014-10-06)
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2014-10-19), ``~x86`` (due 2014-11-05)
 
 * ``schematics`` - https://pypi.python.org/pypi/schematics/
 
@@ -550,7 +550,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/showme/showme-1.0.0.ebuild>`__  ``~amd64`` (due 2014-11-05), ``~x86`` (due 2014-10-06)
+  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/showme/showme-1.0.0.ebuild>`__  ``~amd64`` (due 2014-11-05), ``~x86`` (due 2014-11-05)
 
 * ``snot`` - https://pypi.python.org/pypi/snot/
 
