@@ -54,7 +54,7 @@
  * Versions:
 
   * `1.9.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pytrainer/pytrainer-1.9.1.ebuild>`__  ``amd64``, ``x86``
-  * `1.10.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pytrainer/pytrainer-1.10.0.ebuild>`__  ``~amd64`` (due 2014-10-24), ``~x86`` (due 2014-10-09)
+  * `1.10.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pytrainer/pytrainer-1.10.0.ebuild>`__  ``~amd64`` (due 2014-10-24), ``~x86`` (due 2014-11-08)
 
 * ``rdial`` - https://pypi.python.org/pypi/rdial/
 
