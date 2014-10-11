@@ -63,7 +63,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.13.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/rdial/rdial-0.13.1.ebuild>`__  ``~amd64`` (due 2014-11-02), ``~x86`` (due 2014-10-11)
+  * `0.13.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/rdial/rdial-0.13.1.ebuild>`__  ``~amd64`` (due 2014-11-02), ``~x86`` (due 2014-11-10)
 
 * ``repl`` - http://defunkt.io/repl/
 
