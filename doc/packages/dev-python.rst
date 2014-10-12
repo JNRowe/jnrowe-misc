@@ -442,7 +442,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycukes/pycukes-0.2.ebuild>`__  ``~amd64`` (due 2014-10-27), ``~x86`` (due 2014-10-12)
+  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycukes/pycukes-0.2.ebuild>`__  ``~amd64`` (due 2014-10-27), ``~x86`` (due 2014-11-11)
 
 * ``pydelicious`` - http://code.google.com/p/pydelicious/
 
@@ -460,7 +460,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.6.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyhistorian/pyhistorian-0.6.8.ebuild>`__  ``~amd64`` (due 2014-10-12), ``~x86`` (due 2014-10-27)
+  * `0.6.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyhistorian/pyhistorian-0.6.8.ebuild>`__  ``~amd64`` (due 2014-11-26), ``~x86`` (due 2014-10-27)
 
 * ``pyisbn`` - https://pypi.python.org/pypi/pyisbn/
 
