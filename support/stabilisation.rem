@@ -1,6 +1,5 @@
 REM 2014-10-18 *1 PRIORITY 7500 MSG %"Stabilise x86 app-misc/Hammertime-0.2.4%" %a
 REM 2014-10-18 *1 PRIORITY 7500 MSG %"Stabilise x86 dev-lang/moonscript-0.2.6%" %a
-REM 2014-10-18 *1 PRIORITY 7500 MSG %"Stabilise amd64 dev-python/html2data-0.4.3-r1%" %a
 REM 2014-10-18 *1 PRIORITY 7500 MSG %"Stabilise x86 dev-python/html2data-0.4.3-r1%" %a
 REM 2014-10-18 *1 PRIORITY 7500 MSG %"Stabilise amd64 dev-util/ditz-0.5-r1%" %a
 REM 2014-10-18 *1 PRIORITY 7500 MSG %"Stabilise amd64 media-gfx/actdiag-0.4.1%" %a
@@ -57,3 +56,4 @@ REM 2014-11-25 *1 PRIORITY 7500 MSG %"Stabilise amd64 dev-python/nose2-cov-1.0_a
 REM 2014-11-26 *1 PRIORITY 7500 MSG %"Stabilise amd64 dev-python/pyhistorian-0.6.8%" %a
 
 REM 2014-12-02 *1 PRIORITY 7500 MSG %"Stabilise amd64 app-misc/Hammertime-0.2.4%" %a
+REM 2014-12-02 *1 PRIORITY 7500 MSG %"Stabilise amd64 dev-python/html2data-0.4.3-r1%" %a
