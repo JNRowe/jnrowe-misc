@@ -505,7 +505,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2014-10-19), ``~x86`` (due 2014-11-05)
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2014-12-03), ``~x86`` (due 2014-11-05)
 
 * ``schematics`` - https://pypi.python.org/pypi/schematics/
 
