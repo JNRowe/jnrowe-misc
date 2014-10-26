@@ -18,5 +18,5 @@
  * Versions:
 
   * `3.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-tv/ontv/ontv-3.2.0.ebuild>`__  ``amd64``, ``x86``
-  * `3.2.0-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-tv/ontv/ontv-3.2.0-r1.ebuild>`__  ``~amd64`` (due 2014-11-10), ``~x86`` (due 2014-10-26)
+  * `3.2.0-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-tv/ontv/ontv-3.2.0-r1.ebuild>`__  ``~amd64`` (due 2014-11-10), ``~x86`` (due 2014-11-25)
 
