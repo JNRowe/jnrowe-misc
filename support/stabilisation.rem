@@ -25,7 +25,6 @@ REM 2014-11-10 *1 PRIORITY 7500 MSG %"Stabilise x86 app-misc/rdial-0.13.1%" %a
 REM 2014-11-10 *1 PRIORITY 7500 MSG %"Stabilise x86 dev-python/lettuce-0.2.14%" %a
 REM 2014-11-10 *1 PRIORITY 7500 MSG %"Stabilise x86 dev-python/nose2-cov-1.0_alpha4%" %a
 REM 2014-11-10 *1 PRIORITY 7500 MSG %"Stabilise x86 media-gfx/sphinxcontrib-gruffygen-0.1.1%" %a
-REM 2014-11-10 *1 PRIORITY 7500 MSG %"Stabilise amd64 media-tv/ontv-3.2.0-r1%" %a
 REM 2014-11-10 *1 PRIORITY 7500 MSG %"Stabilise x86 www-client/cupage-0.8.2%" %a
 REM 2014-11-11 *1 PRIORITY 7500 MSG %"Stabilise amd64 app-misc/pw-0.2.3%" %a
 REM 2014-11-11 *1 PRIORITY 7500 MSG %"Stabilise x86 dev-python/pycukes-0.2%" %a
@@ -39,7 +38,6 @@ REM 2014-11-17 *1 PRIORITY 7500 MSG %"Stabilise x86 www-client/httpshell-0.8.0%"
 REM 2014-11-25 *1 PRIORITY 7500 MSG %"Stabilise amd64 dev-python/nose2-cov-1.0_alpha4%" %a
 REM 2014-11-25 *1 PRIORITY 7500 MSG %"Stabilise x86 dev-python/rad-0.1.2%" %a
 REM 2014-11-25 *1 PRIORITY 7500 MSG %"Stabilise x86 media-gfx/gruffy-0.3.3%" %a
-REM 2014-11-25 *1 PRIORITY 7500 MSG %"Stabilise x86 media-tv/ontv-3.2.0-r1%" %a
 REM 2014-11-26 *1 PRIORITY 7500 MSG %"Stabilise amd64 dev-python/pyhistorian-0.6.8%" %a
 
 REM 2014-12-02 *1 PRIORITY 7500 MSG %"Stabilise amd64 app-misc/Hammertime-0.2.4%" %a
