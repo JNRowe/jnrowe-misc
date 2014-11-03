@@ -589,6 +589,17 @@ culled.
 :Commit: :commit:`06e15f17 <06e15f172e696c40db3a369f0389aa34f9f9c28b>`
 :Removal date: 2010-12-04
 
+``texttable``
+'''''''''''''
+
+    The shadowed ``ebuild`` will exist until upstream's has matching visibility
+    at the very least.
+
+:Reason: Moved to ``::shadow``
+:Commit: ``unknown``
+:Removal date: 2014-11-03
+:Issues: :issue:`849`
+
 ``tox``
 '''''''
 

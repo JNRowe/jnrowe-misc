@@ -598,15 +598,6 @@
 
   * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/termtool/termtool-1.0.ebuild>`__  ``amd64``, ``x86``
 
-* ``texttable`` - http://foutaise.org/code/
-
- * Module to generate a formatted text table, using ASCII characters
- * Licence: ``LGPL-2.1``
- * Status: maintained
- * Versions:
-
-  * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/texttable/texttable-0.8.1.ebuild>`__  ``amd64``, ``x86``
-
 * ``titlecase`` - https://pypi.python.org/pypi/titlecase/
 
  * Python Port of John Gruber's titlecase.pl
