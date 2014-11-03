@@ -429,6 +429,17 @@ culled.
 :Commit: :commit:`57e69871 <57e69871b0de7598b108e60ce9fc2be90969fd2f>`
 :Removal date: 2012-12-03
 
+``pycallgraph``
+'''''''''''''''
+
+    The shadowed ``ebuild`` will exist until upstream's has matching visibility
+    at the very least.
+
+:Reason: Moved to ``::shadow``
+:Commit: ``unknown``
+:Removal date: 2014-11-03
+:Issues: :issue:`848`
+
 ``pycparser``
 '''''''''''''
 

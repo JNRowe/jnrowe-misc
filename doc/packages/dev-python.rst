@@ -427,15 +427,6 @@
 
   * `1.1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyScss/pyScss-1.1.4.ebuild>`__  ``amd64``, ``x86``
 
-* ``pycallgraph`` - http://pycallgraph.slowchop.com/
-
- * Use GraphViz to generate call graphs from your Python code
- * Licence: ``GPL-2+``
- * Status: maintained
- * Versions:
-
-  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycallgraph/pycallgraph-0.5.1.ebuild>`__  ``amd64``, ``x86``
-
 * ``pycukes`` - https://github.com/hugobr/pycukes
 
  * A Cucumber-like BDD framework built on top of Pyhistorian
