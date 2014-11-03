@@ -89,7 +89,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.2.4.ebuild>`__  ``amd64``, ``x86``
+  * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.2.4.ebuild>`__  ``~amd64`` (due 2014-12-18)
 
 * ``blessings`` - https://pypi.python.org/pypi/blessings/
 
@@ -355,15 +355,6 @@
 
   * `0.4-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nosetty/nosetty-0.4-r1.ebuild>`__  ``amd64``, ``x86``
 
-* ``parse`` - https://pypi.python.org/pypi/parse/
-
- * Parse using a specification based on the Python format() syntax
- * Licence: ``MIT``
- * Status: maintained
- * Versions:
-
-  * `1.6.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.6.3.ebuild>`__  ``amd64``, ``x86``
-
 * ``pdbpp`` - https://pypi.python.org/pypi/pdbpp/
 
  * An enhanced drop-in replacement for pdb
@@ -426,15 +417,6 @@
  * Versions:
 
   * `1.1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyScss/pyScss-1.1.4.ebuild>`__  ``amd64``, ``x86``
-
-* ``pycallgraph`` - http://pycallgraph.slowchop.com/
-
- * Use GraphViz to generate call graphs from your Python code
- * Licence: ``GPL-2+``
- * Status: maintained
- * Versions:
-
-  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycallgraph/pycallgraph-0.5.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``pycukes`` - https://github.com/hugobr/pycukes
 
@@ -597,15 +579,6 @@
  * Versions:
 
   * `1.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/termtool/termtool-1.0.ebuild>`__  ``amd64``, ``x86``
-
-* ``texttable`` - http://foutaise.org/code/
-
- * Module to generate a formatted text table, using ASCII characters
- * Licence: ``LGPL-2.1``
- * Status: maintained
- * Versions:
-
-  * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/texttable/texttable-0.8.1.ebuild>`__  ``amd64``, ``x86``
 
 * ``titlecase`` - https://pypi.python.org/pypi/titlecase/
 

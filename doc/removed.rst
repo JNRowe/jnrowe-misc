@@ -391,6 +391,17 @@ culled.
 :Commit: :commit:`eaee27c9 <eaee27c9b8bb211cb4237e0cb91d7b8f61257b3f>`
 :Removal date: 2013-09-06
 
+``parse``
+'''''''''
+
+    The shadowed ``ebuild`` will exist until upstream's has matching visibility
+    at the very least.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`d37eff57 <d37eff5722b8621a50d36b65ccd4f3a96e65fc13>`
+:Removal date: 2014-11-03
+:Issues: :issue:`847`
+
 ``pep8``
 ''''''''
 
@@ -428,6 +439,17 @@ culled.
 :Reason: Culled
 :Commit: :commit:`57e69871 <57e69871b0de7598b108e60ce9fc2be90969fd2f>`
 :Removal date: 2012-12-03
+
+``pycallgraph``
+'''''''''''''''
+
+    The shadowed ``ebuild`` will exist until upstream's has matching visibility
+    at the very least.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`e7c0f93e <e7c0f93e434aa963fb657a582e9d3ee591f78f01>`
+:Removal date: 2014-11-03
+:Issues: :issue:`848`
 
 ``pycparser``
 '''''''''''''
@@ -588,6 +610,17 @@ culled.
 :Reason: Culled
 :Commit: :commit:`06e15f17 <06e15f172e696c40db3a369f0389aa34f9f9c28b>`
 :Removal date: 2010-12-04
+
+``texttable``
+'''''''''''''
+
+    The shadowed ``ebuild`` will exist until upstream's has matching visibility
+    at the very least.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`82edcb9e <82edcb9e7b054fd6f8cb08e8bbb525f7bdbb1d7b>`
+:Removal date: 2014-11-03
+:Issues: :issue:`849`
 
 ``tox``
 '''''''
