@@ -398,7 +398,7 @@ culled.
     at the very least.
 
 :Reason: Moved to ``::shadow``
-:Commit: ``unknown``
+:Commit: :commit:`d37eff57 <d37eff5722b8621a50d36b65ccd4f3a96e65fc13>`
 :Removal date: 2014-11-03
 :Issues: :issue:`847`
 
@@ -447,7 +447,7 @@ culled.
     at the very least.
 
 :Reason: Moved to ``::shadow``
-:Commit: ``unknown``
+:Commit: :commit:`e7c0f93e <e7c0f93e434aa963fb657a582e9d3ee591f78f01>`
 :Removal date: 2014-11-03
 :Issues: :issue:`848`
 
@@ -618,7 +618,7 @@ culled.
     at the very least.
 
 :Reason: Moved to ``::shadow``
-:Commit: ``unknown``
+:Commit: :commit:`82edcb9e <82edcb9e7b054fd6f8cb08e8bbb525f7bdbb1d7b>`
 :Removal date: 2014-11-03
 :Issues: :issue:`849`
 
