@@ -89,7 +89,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.2.4.ebuild>`__  ``amd64``, ``x86``
+  * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.2.4.ebuild>`__  ``~amd64`` (due 2014-12-18)
 
 * ``blessings`` - https://pypi.python.org/pypi/blessings/
 
@@ -354,15 +354,6 @@
  * Versions:
 
   * `0.4-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nosetty/nosetty-0.4-r1.ebuild>`__  ``amd64``, ``x86``
-
-* ``parse`` - https://pypi.python.org/pypi/parse/
-
- * Parse using a specification based on the Python format() syntax
- * Licence: ``MIT``
- * Status: maintained
- * Versions:
-
-  * `1.6.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/parse/parse-1.6.3.ebuild>`__  ``amd64``, ``x86``
 
 * ``pdbpp`` - https://pypi.python.org/pypi/pdbpp/
 

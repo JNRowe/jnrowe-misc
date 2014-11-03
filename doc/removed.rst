@@ -391,6 +391,17 @@ culled.
 :Commit: :commit:`eaee27c9 <eaee27c9b8bb211cb4237e0cb91d7b8f61257b3f>`
 :Removal date: 2013-09-06
 
+``parse``
+'''''''''
+
+    The shadowed ``ebuild`` will exist until upstream's has matching visibility
+    at the very least.
+
+:Reason: Moved to ``::shadow``
+:Commit: ``unknown``
+:Removal date: 2014-11-03
+:Issues: :issue:`847`
+
 ``pep8``
 ''''''''
 
