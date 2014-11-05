@@ -23,7 +23,7 @@ esac
 # @EXAMPLE:
 #
 # @CODE
-# EAPI=3
+# EAPI=5
 #
 # PYPI_ARCHIVE_SUFFIX="zip"
 # MY_PN="CapitalisedName"
