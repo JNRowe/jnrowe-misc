@@ -27,14 +27,14 @@ DOCS=(AUTHORS README.rst)
 
 python_compile_all() {
 	if use doc; then
-		pushd docs >/dev/null
-		make html
-		popd >/dev/null
+		python setup.py build_sphinx --build-dir="${WORKDIR}"/sphinx \
+			|| die "build_sphinx failed"
 	fi
 }
 
 python_install_all() {
 	distutils-r1_python_install_all
 
-	dodoc -r docs || die "dohtml failed"
+	dodoc -r docs/ || die "dodoc failed"
+	dohtml -r "${WORKDIR}"/sphinx/html/ || die "dohtml failed"
 }
