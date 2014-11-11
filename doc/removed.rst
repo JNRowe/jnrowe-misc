@@ -865,6 +865,19 @@ culled.
 :Commit: :commit:`6ab396d7 <6ab396d748e197c7eaf307be4e9374a40ce65604>`
 :Removal date: 2011-09-13
 
+``media-tv``
+~~~~~~~~~~~~
+
+``ontv``
+''''''''
+
+    Upstream is dropping dependencies, and the effort required to keep this
+    package is excessive given that this overlay is moribund.
+
+:Reason: Culled
+:Commit: ``unknown``
+:Removal date: 2014-11-11
+
 ``net-irc``
 ~~~~~~~~~~~
 
