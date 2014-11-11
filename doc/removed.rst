@@ -875,7 +875,7 @@ culled.
     package is excessive given that this overlay is moribund.
 
 :Reason: Culled
-:Commit: ``unknown``
+:Commit: :commit:`a8fcc941 <a8fcc9411c06a07939bb4c44e7494f49f69e632a>`
 :Removal date: 2014-11-11
 
 ``net-irc``
