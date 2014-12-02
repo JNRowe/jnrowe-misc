@@ -17,5 +17,5 @@
  * Status: maintained
  * Versions:
 
-  * `0.4.3-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/sci-geosciences/gpxviewer/gpxviewer-0.4.3-r1.ebuild>`__  ``~amd64`` (due 2014-12-02), ``~x86`` (due 2014-12-17)
+  * `0.4.3-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/sci-geosciences/gpxviewer/gpxviewer-0.4.3-r1.ebuild>`__  ``~amd64`` (due 2015-01-16), ``~x86`` (due 2014-12-17)
 
