@@ -35,7 +35,7 @@
  * Status: deprecated, see :issue:`751`
  * Versions:
 
-  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.4.1.ebuild>`__  ``~amd64`` (due 2014-12-02), ``~x86`` (due 2014-12-17)
+  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.4.1.ebuild>`__  ``~amd64`` (due 2015-01-16), ``~x86`` (due 2014-12-17)
 
 * ``blockdiag`` - https://pypi.python.org/pypi/blockdiag/
 
