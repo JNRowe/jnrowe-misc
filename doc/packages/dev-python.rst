@@ -89,7 +89,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.2.4.ebuild>`__  ``~amd64`` (due 2014-12-18)
+  * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.2.4.ebuild>`__  ``~amd64`` (due 2015-02-01)
 
 * ``blessings`` - https://pypi.python.org/pypi/blessings/
 
