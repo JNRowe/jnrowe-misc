@@ -344,7 +344,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.0_alpha4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2-cov/nose2-cov-1.0_alpha4.ebuild>`__  ``~amd64`` (due 2015-01-09), ``~x86`` (due 2015-01-09)
+  * `1.0_alpha4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2-cov/nose2-cov-1.0_alpha4.ebuild>`__  ``~amd64`` (due 2015-03-01), ``~x86`` (due 2015-01-09)
 
 * ``nosetty`` - http://code.google.com/p/nosetty/
 
