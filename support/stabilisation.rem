@@ -2,7 +2,6 @@ REM 2015-01-16 *1 PRIORITY 7500 MSG %"Stabilise x86 app-misc/Hammertime-0.2.4%" 
 REM 2015-01-16 *1 PRIORITY 7500 MSG %"Stabilise x86 media-gfx/actdiag-0.4.1%" %a
 REM 2015-01-16 *1 PRIORITY 7500 MSG %"Stabilise x86 media-gfx/seqdiag-0.8.1%" %a
 REM 2015-01-16 *1 PRIORITY 7500 MSG %"Stabilise x86 sci-geosciences/gpxviewer-0.4.3-r1%" %a
-REM 2015-01-16 *1 PRIORITY 7500 MSG %"Stabilise amd64 www-client/httpshell-0.8.0%" %a
 REM 2015-01-16 *1 PRIORITY 7500 MSG %"Stabilise x86 www-client/httpshell-0.8.0%" %a
 REM 2015-01-17 *1 PRIORITY 7500 MSG %"Stabilise amd64 dev-python/nose2-0.5.0%" %a
 REM 2015-01-17 *1 PRIORITY 7500 MSG %"Stabilise amd64 dev-python/rstctl-0.4%" %a
@@ -55,3 +54,4 @@ REM 2015-03-02 *1 PRIORITY 7500 MSG %"Stabilise amd64 media-gfx/gruffy-0.3.3%" %
 REM 2015-03-02 *1 PRIORITY 7500 MSG %"Stabilise amd64 media-gfx/seqdiag-0.8.1%" %a
 REM 2015-03-02 *1 PRIORITY 7500 MSG %"Stabilise amd64 media-gfx/sphinxcontrib-gruffygen-0.1.1%" %a
 REM 2015-03-02 *1 PRIORITY 7500 MSG %"Stabilise amd64 sci-geosciences/gpxviewer-0.4.3-r1%" %a
+REM 2015-03-02 *1 PRIORITY 7500 MSG %"Stabilise amd64 www-client/httpshell-0.8.0%" %a
