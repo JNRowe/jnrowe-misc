@@ -2,6 +2,10 @@
 # Copyright © 2009, 2010, 2011, 2012, 2013, 2014  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  16 Jan 2015; James Rowe <jnrowe@gmail.com> -html2data-0.4.3.ebuild,
+  html2data-0.4.3-r1.ebuild:
+  Keyworded amd64.
+
   17 Dec 2014; James Rowe <jnrowe@gmail.com> html2data-0.4.3-r1.ebuild:
   Keyworded x86.
 
