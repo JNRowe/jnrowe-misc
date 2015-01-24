@@ -279,7 +279,7 @@
  * Versions:
 
   * `0.2.12 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.12.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.14 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.14.ebuild>`__  ``~amd64`` (due 2015-01-24), ``~x86`` (due 2015-02-14)
+  * `0.2.14 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.14.ebuild>`__  ``~amd64`` (due 2015-03-10), ``~x86`` (due 2015-02-14)
 
 * ``micromodels`` - https://pypi.python.org/pypi/micromodels/
 
@@ -478,7 +478,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rad/rad-0.1.2.ebuild>`__  ``~amd64`` (due 2015-01-24), ``~x86`` (due 2015-01-27)
+  * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rad/rad-0.1.2.ebuild>`__  ``amd64``, ``~x86`` (due 2015-01-27)
 
 * ``rstctl`` - https://pypi.python.org/pypi/rstctl/
 
