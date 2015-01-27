@@ -442,7 +442,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.6.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyhistorian/pyhistorian-0.6.8.ebuild>`__  ``~amd64`` (due 2015-03-01), ``~x86`` (due 2015-01-27)
+  * `0.6.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyhistorian/pyhistorian-0.6.8.ebuild>`__  ``~amd64`` (due 2015-03-01), ``~x86`` (due 2015-02-26)
 
 * ``pyisbn`` - https://pypi.python.org/pypi/pyisbn/
 
@@ -478,7 +478,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rad/rad-0.1.2.ebuild>`__  ``amd64``, ``~x86`` (due 2015-01-27)
+  * `0.1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rad/rad-0.1.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``rstctl`` - https://pypi.python.org/pypi/rstctl/
 
