@@ -21,15 +21,17 @@ import os
 import sys
 
 from glob import glob
-from subprocess import check_output
+from subprocess import (CalledProcessError, check_output)
 
 import click
 
 
 try:
-    VERSION = check_output('git describe --always'.split()).strip().decode()
-except OSError:
+    VERSION = check_output('git describe --always'.split())
+except CalledProcessError:
     VERSION = 'unknown'
+else:
+    VERSION = VERSION.strip().decode()
 
 
 @click.group(help=__doc__.splitlines()[0].split("-", 1)[1],
