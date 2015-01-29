@@ -9,4 +9,4 @@ RDEPEND=app-text/dos2unix dev-lang/tk dev-tcltk/tcludp
 SLOT=0
 SRC_URI=mirror://sourceforge/gpsfeed/gpsfeed+.zip
 _eclasses_=base	87f7447ccfc06fd0729ff4684e11e0d6	eutils	998e5931fb95b10a6a11ec796ada2759	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	toolchain-funcs	0dfbfa13f57c6184f4728d12ac002aac
-_md5_=ae6052f4224d2d9ab009581b8e77e31c
+_md5_=8446bb656c1d470ac9ba81b1fbd18720

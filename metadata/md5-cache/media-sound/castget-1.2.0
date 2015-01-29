@@ -9,4 +9,4 @@ LICENSE=GPL-2+ LGPL-2.1+
 RDEPEND=dev-libs/glib dev-libs/libxml2 net-misc/curl id3tag? ( media-libs/id3lib )
 SLOT=0
 SRC_URI=mirror://nongnu/castget/castget-1.2.0.tar.bz2
-_md5_=c61250a65e0c9182eb564c5783f22f9f
+_md5_=002a97b7035a9b62c41897ffdf2c47dc
