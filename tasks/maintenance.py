@@ -95,7 +95,7 @@ def gen_stable(arches, selection, cpv, days):
     """Generate a base stabilisation string for a package."""
     date = datetime.date.today() + datetime.timedelta(days=days)
     for arch in arches:
-        reminder = 'REM %s *1 PRIORITY 7500 MSG %%"Stabilise %s %s%%" %%a' \
+        reminder = 'REM %s *1 PRIORITY 1500 MSG %%"Stabilise %s %s%%" %%a' \
             % (date, arch, cpv)
         print(reminder)
         if selection:
