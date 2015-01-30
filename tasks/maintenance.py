@@ -81,7 +81,7 @@ def task_doc_check():
             commands.append(lines[n - 1][2:-3])
 
     for name in sorted(cli.commands):
-        if not name in commands:
+        if name not in commands:
             print(warn('%s task undocumented' % name))
 
 
