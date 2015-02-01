@@ -89,7 +89,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.2.4.ebuild>`__  ``~amd64`` (due 2015-02-01)
+  * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.2.4.ebuild>`__  ``~amd64`` (due 2015-03-18)
 
 * ``blessings`` - https://pypi.python.org/pypi/blessings/
 
@@ -334,7 +334,7 @@
  * Versions:
 
   * `0.4.7 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.4.7.ebuild>`__  ``amd64``, ``x86``
-  * `0.5.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.5.0.ebuild>`__  ``~amd64`` (due 2015-03-03), ``~x86`` (due 2015-02-01)
+  * `0.5.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.5.0.ebuild>`__  ``~amd64`` (due 2015-03-03), ``~x86`` (due 2015-03-03)
 
 * ``nose2-cov`` - https://pypi.python.org/pypi/nose2-cov/
 
