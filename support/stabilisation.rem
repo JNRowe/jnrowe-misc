@@ -1,5 +1,4 @@
 REM 2015-02-01 *1 PRIORITY 1500 MSG %"Stabilise x86 dev-python/nose2-0.5.0%" %a
-REM 2015-02-01 *1 PRIORITY 1500 MSG %"Stabilise amd64 www-apps/mnemosyne-0.12%" %a
 REM 2015-02-01 *1 PRIORITY 1500 MSG %"Stabilise x86 www-apps/mnemosyne-0.12%" %a
 REM 2015-02-03 *1 PRIORITY 1500 MSG %"Stabilise amd64 dev-python/showme-1.0.0%" %a
 REM 2015-02-03 *1 PRIORITY 1500 MSG %"Stabilise amd64 dev-util/cake-0.2.3%" %a
@@ -52,3 +51,4 @@ REM 2015-03-14 *1 PRIORITY 1500 MSG %"Stabilise amd64 net-misc/bleeter-0.8.0%" %
 REM 2015-03-17 *1 PRIORITY 1500 MSG %"Stabilise amd64 app-misc/hubugs-0.17.5%" %a
 REM 2015-03-17 *1 PRIORITY 1500 MSG %"Stabilise amd64 app-misc/rdial-0.13.1%" %a
 REM 2015-03-18 *1 PRIORITY 1500 MSG %"Stabilise amd64 dev-python/behave-1.2.4%" %a
+REM 2015-03-18 *1 PRIORITY 1500 MSG %"Stabilise amd64 www-apps/mnemosyne-0.12%" %a
