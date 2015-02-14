@@ -103,7 +103,7 @@ a :envvar:`RESTRICT` definition, especially in the case of ``test`` and
 :file:`stabilisation.rem`
 -------------------------
 
-:file:`support/stabilisation.rem` is an remind_ compatible data file that
+:file:`support/stabilisation.rem` is a remind_ compatible data file that
 contains the *best case* stabilisation dates for packages.  When a new arch
 keyword is added, or a package receives a version bump, this file is updated to
 reflect the earliest possible time a package can migrate to stable.
