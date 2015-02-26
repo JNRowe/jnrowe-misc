@@ -103,7 +103,7 @@ def gen_stable(arches, selection, cpv, days):
             proc.communicate(reminder)
 
 
-@click.command(name='open-bug', help='open a new bump bug')
+@cli.command(name='open-bug', help='open a new bug')
 @click.argument('title')
 @click.argument('body', nargs='?', default='')
 @click.argument('labels', nargs='*')
@@ -113,7 +113,7 @@ def open_bug(title, body, labels):
     open_issue(data)
 
 
-@click.command(name='bump-pkg', help='open a version bump bug')
+@cli.command(name='bump-pkg', help='open a version bump bug')
 @click.argument('cpv')
 def bump_pkg(cpv):
     """Open a version bump bug"""
