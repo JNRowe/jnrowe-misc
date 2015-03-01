@@ -343,7 +343,7 @@
  * Status: maintained
  * Versions:
 
-  * `1.0_alpha4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2-cov/nose2-cov-1.0_alpha4.ebuild>`__  ``~amd64`` (due 2015-03-01), ``~x86`` (due 2015-03-16)
+  * `1.0_alpha4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2-cov/nose2-cov-1.0_alpha4.ebuild>`__  ``amd64``, ``~x86`` (due 2015-03-16)
 
 * ``nosetty`` - http://code.google.com/p/nosetty/
 
@@ -442,7 +442,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.6.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyhistorian/pyhistorian-0.6.8.ebuild>`__  ``~amd64`` (due 2015-03-01), ``~x86`` (due 2015-03-28)
+  * `0.6.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyhistorian/pyhistorian-0.6.8.ebuild>`__  ``~amd64`` (due 2015-04-15), ``~x86`` (due 2015-03-28)
 
 * ``pyisbn`` - https://pypi.python.org/pypi/pyisbn/
 
