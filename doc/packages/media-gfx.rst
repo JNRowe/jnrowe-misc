@@ -53,7 +53,7 @@
  * Status: deprecated, see :issue:`751`
  * Versions:
 
-  * `0.3.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/gruffy/gruffy-0.3.3.ebuild>`__  ``~amd64`` (due 2015-03-02), ``~x86`` (due 2015-03-28)
+  * `0.3.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/gruffy/gruffy-0.3.3.ebuild>`__  ``~amd64`` (due 2015-04-16), ``~x86`` (due 2015-03-28)
 
 * ``nwdiag`` - https://pypi.python.org/pypi/nwdiag/
 
