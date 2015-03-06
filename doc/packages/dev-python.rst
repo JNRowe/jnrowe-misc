@@ -609,7 +609,7 @@
 
  * Easy access to PyPI download stats
  * Licence: ``GPL-2+``
- * Status: maintained
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `2.0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-2.0.3.ebuild>`__  ``amd64``, ``x86``
