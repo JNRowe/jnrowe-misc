@@ -381,6 +381,7 @@
  * Versions:
 
   * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep8-naming/pep8-naming-0.2.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep8-naming/pep8-naming-0.2.2.ebuild>`__  ``~amd64`` (due 2015-04-05), ``~x86`` (due 2015-04-05)
 
 * ``pinocchio`` - http://darcs.idyll.org/~t/projects/pinocchio/doc/
 
