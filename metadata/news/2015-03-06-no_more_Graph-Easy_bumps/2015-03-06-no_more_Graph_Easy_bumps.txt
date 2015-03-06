@@ -1,0 +1,14 @@
+Title: media-gfx/Graph-Easy is no longer receiving version bumps
+Author: James Rowe <jnrowe@gmail.com>
+Content-Type: text/plain
+Posted: 2015-03-06
+Revision: 1
+News-Item-Format: 1.0
+Display-If-Installed: media-gfx/Graph-Easy
+
+The ``jnrowe-misc`` repository has now entered maintenance mode, and
+media-gfx/Graph-Easy will no longer be receiving version bumps.  Bug
+fixes may still be applied as time permits.
+
+Feel free to step up and maintain this package if you want to see it
+move forward.

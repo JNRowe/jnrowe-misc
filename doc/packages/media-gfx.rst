@@ -5,7 +5,7 @@
 
  * Render/convert graphs in/from various formats
  * Licence: ``GPL-2``
- * Status: maintained
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `0.73 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/Graph-Easy/Graph-Easy-0.73.ebuild>`__  ``amd64``, ``x86``
