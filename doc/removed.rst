@@ -568,6 +568,16 @@ culled.
 :Commit: :commit:`740ada6b <740ada6bbcab5d5c0ad356eefa489299eada69a7>`
 :Removal date: 2011-09-13
 
+``sphinxcontrib-cheeseshop``
+''''''''''''''''''''''''''''
+
+    Now available upstream.  The upgrade path is decidedly messy, and the
+    package will be maintained in ``::shadow`` for the foreseeable future.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:
+:Removal date: 2015-03-06
+
 ``sphinxcontrib-httpdomain``
 ''''''''''''''''''''''''''''
 
