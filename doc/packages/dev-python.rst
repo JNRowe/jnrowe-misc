@@ -203,7 +203,7 @@
 
  * Fuzzy string matching in python
  * Licence: ``MIT``
- * Status: maintained
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fuzzywuzzy/fuzzywuzzy-0.2.ebuild>`__  ``amd64``, ``x86``
