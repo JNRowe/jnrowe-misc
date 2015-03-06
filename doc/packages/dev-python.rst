@@ -23,7 +23,7 @@
 
  * A small utility to benchmark your Python code
  * Licence: ``public-domain``
- * Status: maintained
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `3.0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Benchmarker/Benchmarker-3.0.1.ebuild>`__  ``amd64``, ``x86``
@@ -68,7 +68,7 @@
 
  * Calculations for the position of the sun and moon
  * Licence: ``Apache-2.0``
- * Status: maintained
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `0.7.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.7.3.ebuild>`__  ``amd64``, ``x86``
@@ -86,7 +86,7 @@
 
  * Behaviour-driven development, Python style
  * Licence: ``BSD``
- * Status: maintained
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.2.4.ebuild>`__  ``~amd64`` (due 2015-03-18)
@@ -95,7 +95,7 @@
 
  * Thin and practical terminal formatting, positioning, and more
  * Licence: ``MIT``
- * Status: maintained
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `1.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.5.1.ebuild>`__  ``amd64``, ``x86``
@@ -203,7 +203,7 @@
 
  * Fuzzy string matching in python
  * Licence: ``MIT``
- * Status: maintained
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fuzzywuzzy/fuzzywuzzy-0.2.ebuild>`__  ``amd64``, ``x86``
@@ -266,7 +266,7 @@
 
  * Kitchen contains a cornucopia of useful code for Python
  * Licence: ``GPL-2+ LGPL-2.1+``
- * Status: maintained
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `1.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/kitchen/kitchen-1.1.1.ebuild>`__  ``amd64``, ``x86``

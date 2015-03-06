@@ -14,7 +14,7 @@
 
  * A Lua binding for the Linux inotify library
  * Licence: ``MIT``
- * Status: maintained
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-lua/linotify/linotify-0.2.ebuild>`__  ``amd64``, ``x86``

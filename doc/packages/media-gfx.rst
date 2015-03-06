@@ -5,7 +5,7 @@
 
  * Render/convert graphs in/from various formats
  * Licence: ``GPL-2``
- * Status: maintained
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `0.73 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/Graph-Easy/Graph-Easy-0.73.ebuild>`__  ``amd64``, ``x86``
@@ -59,7 +59,7 @@
 
  * Generate network-diagram images from spec-text file
  * Licence: ``Apache-2.0``
- * Status: maintained
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-1.0.0.ebuild>`__  ``~amd64`` (due 2015-03-14), ``~x86`` (due 2015-03-29)

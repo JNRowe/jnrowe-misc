@@ -2,6 +2,9 @@
 # Copyright © 2009-2015  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
+  06 Mar 2015; James Rowe <jnrowe@gmail.com> watch:
+  Disable cupage checks.
+
   25 Jun 2014; James Rowe <jnrowe@gmail.com> linotify-0.2.ebuild,
   files/linotify-0.2-user_flags.patch:
   Use toolchain-funcs to find pkg-config.
