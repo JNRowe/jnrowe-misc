@@ -582,7 +582,7 @@
 
  * Python Port of John Gruber's titlecase.pl
  * Licence: ``MIT``
- * Status: maintained
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/titlecase/titlecase-0.5.1.ebuild>`__  ``amd64``, ``x86``
