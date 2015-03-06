@@ -23,7 +23,7 @@
 
  * A small utility to benchmark your Python code
  * Licence: ``public-domain``
- * Status: maintained
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `3.0.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/Benchmarker/Benchmarker-3.0.1.ebuild>`__  ``amd64``, ``x86``
