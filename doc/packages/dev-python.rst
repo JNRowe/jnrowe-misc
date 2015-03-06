@@ -95,7 +95,7 @@
 
  * Thin and practical terminal formatting, positioning, and more
  * Licence: ``MIT``
- * Status: maintained
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `1.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.5.1.ebuild>`__  ``amd64``, ``x86``
