@@ -68,7 +68,7 @@
 
  * Calculations for the position of the sun and moon
  * Licence: ``Apache-2.0``
- * Status: maintained
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `0.7.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/astral/astral-0.7.3.ebuild>`__  ``amd64``, ``x86``
