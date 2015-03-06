@@ -41,7 +41,7 @@
 
  * Generate block-diagram image files from text(like dot)
  * Licence: ``Apache-2.0``
- * Status: maintained
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `1.3.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.3.2.ebuild>`__  ``~amd64`` (due 2015-03-14), ``~x86`` (due 2015-03-29)
@@ -86,7 +86,7 @@
 
  * Sphinx extension to support media-gfx/blockdiag diagrams
  * Licence: ``BSD``
- * Status: maintained
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `1.3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-1.3.0.ebuild>`__  ``~amd64`` (due 2015-03-14), ``~x86`` (due 2015-03-29)

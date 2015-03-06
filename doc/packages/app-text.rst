@@ -32,7 +32,7 @@
 
  * dev-python/sphinx extension to create charts using the Google API
  * Licence: ``BSD-2``
- * Status: maintained
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `0.1.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-text/sphinxcontrib-googlechart/sphinxcontrib-googlechart-0.1.5.ebuild>`__  ``amd64``, ``x86``
