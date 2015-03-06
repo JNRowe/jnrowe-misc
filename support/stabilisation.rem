@@ -35,6 +35,8 @@ REM 2015-03-29 *1 PRIORITY 1500 MSG %"Stabilise x86 media-gfx/sphinxcontrib-bloc
 
 REM 2015-04-01 *1 PRIORITY 1500 MSG %"Stabilise x86 dev-util/ditz-0.5-r1%" %a
 REM 2015-04-02 *1 PRIORITY 1500 MSG %"Stabilise x86 www-apps/mnemosyne-0.12%" %a
+REM 2015-04-05 *1 PRIORITY 1500 MSG %"Stabilise amd64 dev-python/expecter-0.3.0%" %a
+REM 2015-04-05 *1 PRIORITY 1500 MSG %"Stabilise x86 dev-python/expecter-0.3.0%" %a
 REM 2015-04-15 *1 PRIORITY 1500 MSG %"Stabilise amd64 dev-python/pyhistorian-0.6.8%" %a
 REM 2015-04-16 *1 PRIORITY 1500 MSG %"Stabilise amd64 app-misc/Hammertime-0.2.4%" %a
 REM 2015-04-16 *1 PRIORITY 1500 MSG %"Stabilise amd64 dev-util/ditz-0.5-r1%" %a
