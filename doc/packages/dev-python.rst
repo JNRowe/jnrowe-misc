@@ -162,6 +162,7 @@
  * Versions:
 
   * `0.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/expecter/expecter-0.2.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/expecter/expecter-0.3.0.ebuild>`__  ``~amd64`` (due 2015-04-05), ``~x86`` (due 2015-04-05)
 
 * ``fabulous`` - http://lobstertech.com/fabulous.html
 
@@ -370,6 +371,7 @@
  * Versions:
 
   * `0.3.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep257/pep257-0.3.2.ebuild>`__  ``amd64``, ``x86``
+  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep257/pep257-0.4.1.ebuild>`__  ``~amd64`` (due 2015-04-05), ``~x86`` (due 2015-04-05)
 
 * ``pep8-naming`` - https://pypi.python.org/pypi/pep8-naming/
 
@@ -379,6 +381,7 @@
  * Versions:
 
   * `0.2.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep8-naming/pep8-naming-0.2.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pep8-naming/pep8-naming-0.2.2.ebuild>`__  ``~amd64`` (due 2015-04-05), ``~x86`` (due 2015-04-05)
 
 * ``pinocchio`` - http://darcs.idyll.org/~t/projects/pinocchio/doc/
 

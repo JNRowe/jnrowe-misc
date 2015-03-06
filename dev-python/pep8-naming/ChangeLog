@@ -2,6 +2,11 @@
 # Copyright © 2009-2015  James Rowe <jnrowe@gmail.com>
 # $Header: $
 
+*pep8-naming-0.2.2 (06 Mar 2015)
+
+  06 Mar 2015; James Rowe <jnrowe@gmail.com> +pep8-naming-0.2.2.ebuild:
+  Version bump [866].
+
   10 Sep 2014; James Rowe <jnrowe@gmail.com> pep8-naming-0.2.1.ebuild:
   Drop Python 3.2 support.
 
