@@ -266,7 +266,7 @@
 
  * Kitchen contains a cornucopia of useful code for Python
  * Licence: ``GPL-2+ LGPL-2.1+``
- * Status: maintained
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `1.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/kitchen/kitchen-1.1.1.ebuild>`__  ``amd64``, ``x86``
