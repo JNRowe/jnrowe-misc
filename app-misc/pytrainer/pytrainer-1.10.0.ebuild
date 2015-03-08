@@ -13,7 +13,7 @@ DESCRIPTION="A tool to log and analyse your exercise regime"
 
 LICENSE="GPL-2+"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 ~x86"
 IUSE="import elevation"
 
 DEPEND=""
