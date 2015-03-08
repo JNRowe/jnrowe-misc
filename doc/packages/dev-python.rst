@@ -545,15 +545,6 @@
 
   * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/snot/snot-1.0.0.ebuild>`__  ``amd64``, ``x86``
 
-* ``sphinxcontrib-cheeseshop`` - https://pypi.python.org/pypi/sphinxcontrib-cheeseshop/
-
- * dev-python/sphinx extension to support generate links to PyPI
- * Licence: ``BSD``
- * Status: maintained
- * Versions:
-
-  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/sphinxcontrib-cheeseshop/sphinxcontrib-cheeseshop-0.2.ebuild>`__  ``amd64``, ``x86``
-
 * ``story_parser`` - https://github.com/hugobr/story_parser
 
  * A Given/When/Then BDD stories parser
