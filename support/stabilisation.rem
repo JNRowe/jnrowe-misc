@@ -11,7 +11,6 @@ REM 2015-03-16 *1 PRIORITY 1500 MSG %"Stabilise x86 media-gfx/sphinxcontrib-gruf
 REM 2015-03-16 *1 PRIORITY 1500 MSG %"Stabilise x86 net-misc/bleeter-0.8.0%" %a
 REM 2015-03-17 *1 PRIORITY 1500 MSG %"Stabilise amd64 app-misc/hubugs-0.17.5%" %a
 REM 2015-03-17 *1 PRIORITY 1500 MSG %"Stabilise amd64 app-misc/rdial-0.13.1%" %a
-REM 2015-03-17 *1 PRIORITY 1500 MSG %"Stabilise x86 media-gfx/actdiag-0.4.1%" %a
 REM 2015-03-17 *1 PRIORITY 1500 MSG %"Stabilise x86 media-gfx/seqdiag-0.8.1%" %a
 REM 2015-03-17 *1 PRIORITY 1500 MSG %"Stabilise x86 sci-geosciences/gpxviewer-0.4.3-r1%" %a
 REM 2015-03-17 *1 PRIORITY 1500 MSG %"Stabilise x86 www-client/httpshell-0.8.0%" %a
