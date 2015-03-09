@@ -14,7 +14,7 @@
 
  * A compiled programming language with syntax and semantics similar to Python
  * Licence: ``GPL-2+``
- * Status: maintained
+ * Status: deprecated, see :issue:`751`
  * Versions:
 
   * `0.1.11 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-lang/wirbel/wirbel-0.1.11.ebuild>`__  ``amd64``, ``x86``
