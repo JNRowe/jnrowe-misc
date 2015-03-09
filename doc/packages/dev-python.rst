@@ -279,8 +279,7 @@
  * Status: deprecated, see :issue:`751`
  * Versions:
 
-  * `0.2.12 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.12.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.14 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.14.ebuild>`__  ``~amd64`` (due 2015-03-10), ``x86``
+  * `0.2.14 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.14.ebuild>`__  ``amd64``, ``x86``
 
 * ``micromodels`` - https://pypi.python.org/pypi/micromodels/
 
@@ -426,7 +425,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycukes/pycukes-0.2.ebuild>`__  ``~amd64`` (due 2015-03-11), ``x86``
+  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pycukes/pycukes-0.2.ebuild>`__  ``amd64``, ``x86``
 
 * ``pydelicious`` - http://code.google.com/p/pydelicious/
 
@@ -444,7 +443,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.6.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyhistorian/pyhistorian-0.6.8.ebuild>`__  ``~amd64`` (due 2015-04-15), ``x86``
+  * `0.6.8 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/pyhistorian/pyhistorian-0.6.8.ebuild>`__  ``amd64``, ``x86``
 
 * ``pyisbn`` - https://pypi.python.org/pypi/pyisbn/
 
@@ -489,7 +488,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``~amd64`` (due 2015-04-17), ``x86``
+  * `0.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/rstctl/rstctl-0.4.ebuild>`__  ``amd64``, ``x86``
 
 * ``schematics`` - https://pypi.python.org/pypi/schematics/
 
