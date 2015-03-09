@@ -279,8 +279,7 @@
  * Status: deprecated, see :issue:`751`
  * Versions:
 
-  * `0.2.12 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.12.ebuild>`__  ``amd64``, ``x86``
-  * `0.2.14 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.14.ebuild>`__  ``~amd64`` (due 2015-03-10), ``x86``
+  * `0.2.14 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/lettuce/lettuce-0.2.14.ebuild>`__  ``amd64``, ``x86``
 
 * ``micromodels`` - https://pypi.python.org/pypi/micromodels/
 
