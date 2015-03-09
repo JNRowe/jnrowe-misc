@@ -89,7 +89,7 @@
  * Status: deprecated, see :issue:`751`
  * Versions:
 
-  * `1.3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-1.3.0.ebuild>`__  ``~amd64`` (due 2015-03-14), ``x86``
+  * `1.3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-1.3.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``sphinxcontrib-gruffygen`` - https://pypi.python.org/pypi/sphinxcontrib-gruffygen/
 
