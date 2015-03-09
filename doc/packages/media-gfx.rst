@@ -35,7 +35,7 @@
  * Status: deprecated, see :issue:`751`
  * Versions:
 
-  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.4.1.ebuild>`__  ``~amd64`` (due 2015-04-16), ``~x86`` (due 2015-03-17)
+  * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.4.1.ebuild>`__  ``~amd64`` (due 2015-04-16), ``x86``
 
 * ``blockdiag`` - https://pypi.python.org/pypi/blockdiag/
 
@@ -44,7 +44,7 @@
  * Status: deprecated, see :issue:`751`
  * Versions:
 
-  * `1.3.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.3.2.ebuild>`__  ``~amd64`` (due 2015-03-14), ``~x86`` (due 2015-03-29)
+  * `1.3.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.3.2.ebuild>`__  ``~amd64`` (due 2015-03-14), ``x86``
 
 * ``gruffy`` - https://pypi.python.org/pypi/gruffy/
 
@@ -62,7 +62,7 @@
  * Status: deprecated, see :issue:`751`
  * Versions:
 
-  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-1.0.0.ebuild>`__  ``~amd64`` (due 2015-03-14), ``~x86`` (due 2015-03-29)
+  * `1.0.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/nwdiag/nwdiag-1.0.0.ebuild>`__  ``~amd64`` (due 2015-03-14), ``x86``
 
 * ``seqdiag`` - https://pypi.python.org/pypi/seqdiag/
 
@@ -71,7 +71,7 @@
  * Status: deprecated, see :issue:`751`
  * Versions:
 
-  * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.8.1.ebuild>`__  ``~amd64`` (due 2015-04-16), ``~x86`` (due 2015-03-17)
+  * `0.8.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/seqdiag/seqdiag-0.8.1.ebuild>`__  ``~amd64`` (due 2015-04-16), ``x86``
 
 * ``sphinxcontrib-aafig`` - http://packages.python.org/sphinxcontrib-aafig/
 
@@ -89,7 +89,7 @@
  * Status: deprecated, see :issue:`751`
  * Versions:
 
-  * `1.3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-1.3.0.ebuild>`__  ``~amd64`` (due 2015-03-14), ``~x86`` (due 2015-03-29)
+  * `1.3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-blockdiag/sphinxcontrib-blockdiag-1.3.0.ebuild>`__  ``~amd64`` (due 2015-03-14), ``x86``
 
 * ``sphinxcontrib-gruffygen`` - https://pypi.python.org/pypi/sphinxcontrib-gruffygen/
 

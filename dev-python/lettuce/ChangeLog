@@ -2,6 +2,9 @@
 # Copyright © 2009-2015  James Rowe <jnrowe@gmail.com>
 # Distributed under the GPL v2
 
+  09 Mar 2015; James Rowe <jnrowe@gmail.com> lettuce-0.2.14.ebuild:
+  Keyworded x86.
+
   08 Jul 2014; James Rowe <jnrowe@gmail.com> lettuce-0.2.12.ebuild,
   lettuce-0.2.14.ebuild:
   Drop Python 2.6 support.
