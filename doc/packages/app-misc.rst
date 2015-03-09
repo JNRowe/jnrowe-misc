@@ -46,15 +46,14 @@
 
   * `0.2.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pw/pw-0.2.3.ebuild>`__  ``~amd64`` (due 2015-03-28), ``~x86`` (due 2015-03-28)
 
-* ``pytrainer`` - https://github.com/pytrainer/pytrainer
+* ``pytrainer`` - https://github.com/pytrainer/pytrainer/
 
  * A tool to log and analyse your exercise regime
  * Licence: ``GPL-2+``
  * Status: maintained
  * Versions:
 
-  * `1.9.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pytrainer/pytrainer-1.9.1.ebuild>`__  ``amd64``, ``x86``
-  * `1.10.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pytrainer/pytrainer-1.10.0.ebuild>`__  ``amd64``, ``~x86`` (due 2015-03-09)
+  * `1.10.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/pytrainer/pytrainer-1.10.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``rdial`` - https://pypi.python.org/pypi/rdial/
 
