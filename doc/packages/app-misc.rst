@@ -26,7 +26,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.17.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.17.5.ebuild>`__  ``~amd64`` (due 2015-03-17), ``~x86`` (due 2015-03-16)
+  * `0.17.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.17.5.ebuild>`__  ``~amd64`` (due 2015-03-17), ``~x86`` (due 2015-04-15)
 
 * ``jsonpipe`` - https://pypi.python.org/pypi/jsonpipe/
 
@@ -62,7 +62,7 @@
  * Status: deprecated, see :issue:`751`
  * Versions:
 
-  * `0.13.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/rdial/rdial-0.13.1.ebuild>`__  ``~amd64`` (due 2015-03-17), ``~x86`` (due 2015-03-16)
+  * `0.13.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/rdial/rdial-0.13.1.ebuild>`__  ``~amd64`` (due 2015-03-17), ``~x86`` (due 2015-04-15)
 
 * ``repl`` - http://defunkt.io/repl/
 
