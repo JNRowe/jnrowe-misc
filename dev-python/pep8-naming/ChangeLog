@@ -2,6 +2,10 @@
 # Copyright © 2009-2015  James Rowe <jnrowe@gmail.com>
 # $Header: $
 
+  05 Apr 2015; James Rowe <jnrowe@gmail.com> -pep8-naming-0.2.1.ebuild,
+  pep8-naming-0.2.2.ebuild:
+  Keyworded amd64.
+
   05 Apr 2015; James Rowe <jnrowe@gmail.com> pep8-naming-0.2.2.ebuild:
   Keyworded x86.
 

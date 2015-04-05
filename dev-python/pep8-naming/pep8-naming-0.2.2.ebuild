@@ -10,7 +10,7 @@ DESCRIPTION="Check PEP-8 naming conventions, plugin for flake8"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 x86"
+KEYWORDS="amd64 x86"
 IUSE=""
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
