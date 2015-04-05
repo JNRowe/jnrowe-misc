@@ -161,8 +161,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.2.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/expecter/expecter-0.2.2.ebuild>`__  ``amd64``, ``x86``
-  * `0.3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/expecter/expecter-0.3.0.ebuild>`__  ``~amd64`` (due 2015-04-05), ``x86``
+  * `0.3.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/expecter/expecter-0.3.0.ebuild>`__  ``amd64``, ``x86``
 
 * ``fabulous`` - http://lobstertech.com/fabulous.html
 
