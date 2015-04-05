@@ -1,6 +1,5 @@
 REM 2015-04-05 *1 PRIORITY 1500 MSG %"Stabilise amd64 dev-python/expecter-0.3.0%" %a
 REM 2015-04-05 *1 PRIORITY 1500 MSG %"Stabilise amd64 dev-python/pep8-naming-0.2.2%" %a
-REM 2015-04-05 *1 PRIORITY 1500 MSG %"Stabilise x86 dev-python/pep8-naming-0.2.2%" %a
 REM 2015-04-05 *1 PRIORITY 1500 MSG %"Stabilise amd64 dev-python/pep257-0.4.1%" %a
 REM 2015-04-05 *1 PRIORITY 1500 MSG %"Stabilise x86 dev-python/pep257-0.4.1%" %a
 REM 2015-04-11 *1 PRIORITY 1500 MSG %"Stabilise amd64 dev-lang/moonscript-0.3.1%" %a
