@@ -1,5 +1,4 @@
 REM 2015-04-11 *1 PRIORITY 1500 MSG %"Stabilise amd64 dev-lang/moonscript-0.3.1%" %a
-REM 2015-04-11 *1 PRIORITY 1500 MSG %"Stabilise x86 dev-lang/moonscript-0.3.1%" %a
 REM 2015-04-15 *1 PRIORITY 1500 MSG %"Stabilise x86 app-misc/hubugs-0.17.5%" %a
 REM 2015-04-15 *1 PRIORITY 1500 MSG %"Stabilise x86 app-misc/rdial-0.13.1%" %a
 REM 2015-04-15 *1 PRIORITY 1500 MSG %"Stabilise x86 media-gfx/sphinxcontrib-gruffygen-0.1.1%" %a
