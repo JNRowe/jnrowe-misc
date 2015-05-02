@@ -89,7 +89,7 @@
  * Status: deprecated, see :issue:`751`
  * Versions:
 
-  * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.2.4.ebuild>`__  ``~amd64`` (due 2015-05-02)
+  * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.2.4.ebuild>`__  ``~amd64`` (due 2015-06-16)
 
 * ``blessings`` - https://pypi.python.org/pypi/blessings/
 
