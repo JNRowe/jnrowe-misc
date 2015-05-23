@@ -82,15 +82,6 @@
 
   * `0.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/atomize/atomize-0.2.0.ebuild>`__  ``amd64``, ``x86``
 
-* ``behave`` - https://pypi.python.org/pypi/behave/
-
- * Behaviour-driven development, Python style
- * Licence: ``BSD``
- * Status: deprecated, see :issue:`751`
- * Versions:
-
-  * `1.2.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/behave/behave-1.2.4.ebuild>`__  ``~amd64`` (due 2015-06-16)
-
 * ``blessings`` - https://pypi.python.org/pypi/blessings/
 
  * Thin and practical terminal formatting, positioning, and more

@@ -170,6 +170,16 @@ culled.
 :Commit: :commit:`7ef5cf4b <7ef5cf4b8ca09f4199f5677970c15c8132a3484f>`
 :Removal date: 2011-09-13
 
+``behave``
+''''''''''
+
+    Package has been dead here for some time, with all RDEPs long since dropped.
+    No custom upgrade path is required.
+
+:Reason: Available upstream
+:Commit:
+:Removal date: 2015-05-23
+
 ``bpython``
 '''''''''''
 
