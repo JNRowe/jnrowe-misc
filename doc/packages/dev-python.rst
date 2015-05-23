@@ -82,15 +82,6 @@
 
   * `0.2.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/atomize/atomize-0.2.0.ebuild>`__  ``amd64``, ``x86``
 
-* ``blessings`` - https://pypi.python.org/pypi/blessings/
-
- * Thin and practical terminal formatting, positioning, and more
- * Licence: ``MIT``
- * Status: deprecated, see :issue:`751`
- * Versions:
-
-  * `1.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/blessings/blessings-1.5.1.ebuild>`__  ``amd64``, ``x86``
-
 * ``calabash`` - https://pypi.python.org/pypi/calabash/
 
  * Bash-style pipelining syntax for Python generators

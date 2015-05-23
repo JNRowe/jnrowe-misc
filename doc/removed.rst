@@ -180,6 +180,16 @@ culled.
 :Commit:
 :Removal date: 2015-05-23
 
+``blessings``
+'''''''''''''
+
+    Now available upstream.  This package will be maintained in ``::shadow``
+    until visibility is matched and upstream's dependencies are fixed.
+
+:Reason: Moved to ``::shadow``
+:Commit:
+:Removal date: 2015-05-23
+
 ``bpython``
 '''''''''''
 
