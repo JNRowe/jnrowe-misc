@@ -170,6 +170,26 @@ culled.
 :Commit: :commit:`7ef5cf4b <7ef5cf4b8ca09f4199f5677970c15c8132a3484f>`
 :Removal date: 2011-09-13
 
+``behave``
+''''''''''
+
+    Package has been dead here for some time, with all RDEPs long since dropped.
+    No custom upgrade path is required.
+
+:Reason: Available upstream
+:Commit: :commit:`a8855a4b <a8855a4bdeb4156033d5830f2cd57d2fbc2b1c18>`
+:Removal date: 2015-05-23
+
+``blessings``
+'''''''''''''
+
+    Now available upstream.  This package will be maintained in ``::shadow``
+    until visibility is matched and upstream's dependencies are fixed.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`c66b472b <c66b472b8ce2b3717a1607bd0cfac3fad06b0a6c>`
+:Removal date: 2015-05-23
+
 ``bpython``
 '''''''''''
 
