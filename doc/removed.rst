@@ -177,7 +177,7 @@ culled.
     No custom upgrade path is required.
 
 :Reason: Available upstream
-:Commit:
+:Commit: :commit:`a8855a4b <a8855a4bdeb4156033d5830f2cd57d2fbc2b1c18>`
 :Removal date: 2015-05-23
 
 ``blessings``
@@ -187,7 +187,7 @@ culled.
     until visibility is matched and upstream's dependencies are fixed.
 
 :Reason: Moved to ``::shadow``
-:Commit:
+:Commit: :commit:`c66b472b <c66b472b8ce2b3717a1607bd0cfac3fad06b0a6c>`
 :Removal date: 2015-05-23
 
 ``bpython``
