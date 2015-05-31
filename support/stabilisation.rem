@@ -1,5 +1,4 @@
 REM 2015-05-31 *1 PRIORITY 1500 MSG %"Stabilise x86 dev-util/ditz-0.5-r1%" %a
-REM 2015-05-31 *1 PRIORITY 1500 MSG %"Stabilise amd64 sci-geosciences/gpxviewer-0.4.3-r1%" %a
 
 REM 2015-06-12 *1 PRIORITY 1500 MSG %"Stabilise amd64 net-misc/bleeter-0.8.0%" %a
 REM 2015-06-14 *1 PRIORITY 1500 MSG %"Stabilise x86 app-misc/hubugs-0.17.5%" %a
@@ -14,3 +13,4 @@ REM 2015-06-26 *1 PRIORITY 1500 MSG %"Stabilise x86 media-gfx/gruffy-0.3.3%" %a
 REM 2015-07-15 *1 PRIORITY 1500 MSG %"Stabilise amd64 dev-util/ditz-0.5-r1%" %a
 REM 2015-07-15 *1 PRIORITY 1500 MSG %"Stabilise amd64 media-gfx/gruffy-0.3.3%" %a
 REM 2015-07-15 *1 PRIORITY 1500 MSG %"Stabilise amd64 media-gfx/sphinxcontrib-gruffygen-0.1.1%" %a
+REM 2015-07-15 *1 PRIORITY 1500 MSG %"Stabilise amd64 sci-geosciences/gpxviewer-0.4.3-r1%" %a
