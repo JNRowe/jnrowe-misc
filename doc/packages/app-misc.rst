@@ -26,7 +26,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.17.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.17.5.ebuild>`__  ``~amd64`` (due 2015-07-30), ``~x86`` (due 2015-07-14)
+  * `0.17.5 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/hubugs/hubugs-0.17.5.ebuild>`__  ``~amd64`` (due 2015-07-30), ``~x86`` (due 2015-08-13)
 
 * ``jsonpipe`` - https://pypi.python.org/pypi/jsonpipe/
 
