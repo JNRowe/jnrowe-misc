@@ -14,8 +14,9 @@ SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE=""
 
-DEPEND=""
 RDEPEND=">=dev-lang/lua-5.1:*"
+DEPEND="${RDEPEND}
+	virtual/pkgconfig"
 
 PATCHES=("${FILESDIR}"/${P}-user_flags.patch)
 

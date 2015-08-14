@@ -2,6 +2,9 @@
 # Copyright © 2009-2015  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 
+  14 Aug 2015; James Rowe <jnrowe@gmail.com> linotify-0.2.ebuild:
+  Add missing pkgconfig dep.
+
   14 Aug 2015; James Rowe <jnrowe@gmail.com>
   files/linotify-0.2-user_flags.patch:
   Fix installation for users with slotted lua.
