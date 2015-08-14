@@ -19,10 +19,10 @@ index 0af3a63f35f3..47a709290936 100644
 -CFLAGS = -fPIC -O3 -Wall $(shell pkg-config "$(LUAPKG_CMD)" --cflags)
 -LFLAGS = -shared $(OMIT_FRAME_POINTER)
 -INSTALL_PATH = $(shell pkg-config "$(LUAPKG_CMD)" --variable=INSTALL_CMOD)
-+LUAPKG_CMD = $(shell $(PKG_CONFIG) --list-all | grep Lua | awk '{print $$1}')
-+CFLAGS += -fPIC -Wall $(shell $(PKG_CONFIG) "$(LUAPKG_CMD)" --cflags)
++LUAPKG = lua
++CFLAGS += -fPIC -Wall $(shell $(PKG_CONFIG) $(LUAPKG) --cflags)
 +LDFLAGS += -shared
-+INSTALL_PATH = $(shell $(PKG_CONFIG) "$(LUAPKG_CMD)" --variable=INSTALL_CMOD)
++INSTALL_PATH = $(shell $(PKG_CONFIG) $(LUAPKG) --variable=INSTALL_CMOD)
  
  ## If your system doesn't have pkg-config, comment out the previous
  ## lines and uncomment and change the following ones according to your
