@@ -2,9 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-# 2.6 is restricted due to incorrect upstream cov-core ebuild
-# Python 3.{1,2} blocked because of missing fixes in Gentoo's python ebuilds
-# Python 3.3 is blocked until USE=doc dependencies are updated
+# Python 3.x is blocked until USE=doc dependencies are updated
 PYTHON_COMPAT=(python2_7)
 
 inherit jnrowe-pypi
