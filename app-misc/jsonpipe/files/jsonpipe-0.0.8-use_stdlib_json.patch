@@ -1,69 +1,47 @@
 From: James Rowe <jnrowe@gmail.com>
-Subject: Use standard library json, if possible.
+Subject: Use standard library json
 Status: LOCAL
 
-Be aware of the hack necessary for this to work with Python 2.6, which contains
-json but doesn't have an OrderedDict class.
+.. info::
+   Check this file's history, should you still need support for Python 2.6.
 
-diff --git i/setup.py w/setup.py
-index 2de6b1e..b747ced 100644
---- i/setup.py
-+++ w/setup.py
-@@ -5,9 +5,16 @@ from distribute_setup import use_setuptools
- use_setuptools()
- 
- import re
-+import sys
- from setuptools import setup, find_packages
- import os.path as p
- 
-+install_requires = ['calabash==0.0.3', ]
-+if sys.version_info < (2, 7):
-+    install_requires.append('argparse>=1.1')
-+    # We can't use 2.6's json because we need ordered dictionary support
-+    install_requires.append('simplejson>=2.1.3')
-+
- 
- def get_version():
-     source = open(p.join(p.dirname(p.abspath(__file__)),
-@@ -29,6 +36,6 @@ setup(
+diff --git c/setup.py i/setup.py
+index 2de6b1e11d2a..c9a3bd72f5d2 100644
+--- c/setup.py
++++ i/setup.py
+@@ -29,6 +29,6 @@ setup(
      packages=find_packages(where='src'),
      entry_points={'console_scripts': ['jsonpipe = jsonpipe:main',
                                        'jsonunpipe = jsonpipe:main_unpipe']},
 -    install_requires=['simplejson>=2.1.3', 'argparse>=1.1', 'calabash==0.0.3'],
-+    install_requires=install_requires,
++    install_requires=['calabash==0.0.3'],
      test_suite='jsonpipe._get_tests',
  )
-diff --git i/src/jsonpipe/__init__.py w/src/jsonpipe/__init__.py
-index 9767520..a42739a 100644
---- i/src/jsonpipe/__init__.py
-+++ w/src/jsonpipe/__init__.py
-@@ -3,7 +3,12 @@
+diff --git c/src/jsonpipe/__init__.py i/src/jsonpipe/__init__.py
+index 9767520c1c88..39ad9c4e4689 100644
+--- c/src/jsonpipe/__init__.py
++++ i/src/jsonpipe/__init__.py
+@@ -3,7 +3,8 @@
  import sys
  
  import argparse
 -import simplejson
-+try:
-+    import json
-+    from collections import OrderedDict as _jsonOrderedDict
-+    json.OrderedDict = _jsonOrderedDict
-+except ImportError:
-+    import simplejson as json
++import json
++from collections import OrderedDict
  
  from pipe import jsonpipe, jsonunpipe
  
-@@ -64,8 +69,8 @@ def main():
+@@ -64,8 +65,7 @@ def main():
      args = PARSER.parse_args()
  
      # Load JSON from stdin, preserving the order of object keys.
 -    json_obj = simplejson.load(sys.stdin,
 -                               object_pairs_hook=simplejson.OrderedDict)
-+    json_obj = json.load(sys.stdin,
-+                               object_pairs_hook=json.OrderedDict)
++    json_obj = json.load(sys.stdin, object_pairs_hook=OrderedDict)
      for line in jsonpipe(json_obj, pathsep=args.separator):
          print line
  
-@@ -73,8 +78,8 @@ def main():
+@@ -73,8 +73,7 @@ def main():
  def main_unpipe():
      args = PARSER.parse_args()
  
@@ -72,25 +50,19 @@ index 9767520..a42739a 100644
          jsonunpipe(iter(sys.stdin), pathsep=args.separator,
 -                   decoder=simplejson.JSONDecoder(
 -                       object_pairs_hook=simplejson.OrderedDict)),
-+                   decoder=json.JSONDecoder(
-+                       object_pairs_hook=json.OrderedDict)),
++                   decoder=json.JSONDecoder(object_pairs_hook=OrderedDict)),
          sys.stdout)
-diff --git i/src/jsonpipe/pipe.py w/src/jsonpipe/pipe.py
-index 84d6601..bd79b23 100644
---- i/src/jsonpipe/pipe.py
-+++ w/src/jsonpipe/pipe.py
-@@ -1,4 +1,9 @@
+diff --git c/src/jsonpipe/pipe.py i/src/jsonpipe/pipe.py
+index 84d6601f7d14..0ab872b689b1 100644
+--- c/src/jsonpipe/pipe.py
++++ i/src/jsonpipe/pipe.py
+@@ -1,4 +1,4 @@
 -import simplejson
-+try:
-+    import json
-+    from collections import OrderedDict as _jsonOrderedDict
-+    json.OrderedDict = _jsonOrderedDict
-+except ImportError:
-+    import simplejson as json
++import json
  
  
  __all__ = ['jsonpipe', 'jsonunpipe']
-@@ -101,7 +106,7 @@ def jsonpipe(obj, pathsep='/', path=()):
+@@ -101,7 +101,7 @@ def jsonpipe(obj, pathsep='/', path=()):
          return pathsep + pathsep.join(path) + "\t" + string
  
      if is_value(obj):
@@ -99,7 +71,7 @@ index 84d6601..bd79b23 100644
          raise StopIteration # Stop the generator immediately.
      elif isinstance(obj, dict):
          yield output('{}')
-@@ -128,7 +133,7 @@ def jsonpipe(obj, pathsep='/', path=()):
+@@ -128,7 +128,7 @@ def jsonpipe(obj, pathsep='/', path=()):
  
  
  def jsonunpipe(lines, pathsep='/', discard='',
@@ -108,25 +80,20 @@ index 84d6601..bd79b23 100644
  
      r"""
      Parse a stream of jsonpipe output back into a JSON object.
-diff --git i/src/jsonpipe/sh.py w/src/jsonpipe/sh.py
-index 435fb4d..35cb69e 100644
---- i/src/jsonpipe/sh.py
-+++ w/src/jsonpipe/sh.py
-@@ -1,7 +1,12 @@
+diff --git c/src/jsonpipe/sh.py i/src/jsonpipe/sh.py
+index 435fb4dbd47a..9a0d39dd16c8 100644
+--- c/src/jsonpipe/sh.py
++++ i/src/jsonpipe/sh.py
+@@ -1,7 +1,7 @@
  import re
  
  import calabash
 -import simplejson
-+try:
-+    import json
-+    from collections import OrderedDict as _jsonOrderedDict
-+    json.OrderedDict = _jsonOrderedDict
-+except ImportError:
-+    import simplejson as json
++import json
  
  import jsonpipe as jp
  
-@@ -77,7 +82,7 @@ def search_attr(stdin, attr, value, pathsep='/'):
+@@ -77,7 +77,7 @@ def search_attr(stdin, attr, value, pathsep='/'):
                  calabash.common.sed(r'^(.*)%s%s\t%s' % (
                      re.escape(pathsep),
                      re.escape(attr),
