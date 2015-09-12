@@ -2,7 +2,6 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-# 2.6 is restricted due to upstream's incorrect termcolor ebuild
 # 3.x is restricted due to non-relative imports
 PYTHON_COMPAT=(python2_7)
 
