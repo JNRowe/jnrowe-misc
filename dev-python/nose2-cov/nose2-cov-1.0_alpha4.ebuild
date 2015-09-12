@@ -2,7 +2,6 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-# 2.6 is skipped because of cov-core dependency
 PYTHON_COMPAT=(python{2_7,3_{3,4}})
 MY_PV="${PV/_alpha/a}"
 
