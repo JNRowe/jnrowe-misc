@@ -2,9 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=5
-# 2.6 is blocked because of USE=doc dependencies
 # 3.x is blocked because of sphinxcontrib-blockdiag dependency
-# 3.{1,2} are blocked because of blessings dependency
 PYTHON_COMPAT=(python2_7)
 GITHUB_TAG=v${PV}
 GITHUB_USER="JNRowe"
