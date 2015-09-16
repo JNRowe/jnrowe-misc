@@ -713,6 +713,16 @@ culled.
 :Commit: :commit:`409c46c3 <409c46c30b838de0bc8bc39a3e3150c38b7f4cfa>`
 :Removal date: 2012-03-20
 
+``webcolors``
+'''''''''''''
+
+    Now available upstream.  This package will be maintained in ``::shadow``
+    until visibility is matched and upstream's dependencies are fixed.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`681391b2 <681391b2a510d5c988549918cdb829c92ebd6d60>`
+:Removal date: 2015-09-16
+
 ``dev-util``
 ~~~~~~~~~~~~
 
@@ -730,13 +740,12 @@ culled.
 ``ditz``
 ''''''''
 
-    Maintenance is passing to ``mleighy``'s group.
+    The versions of Ruby that ditz works with no longer exist in the upstream
+    tree.
 
-    Releases still maintained in ``jnrowe-misc``.
-
-:Reason: Moved to ``::live``
-:Commit: :commit:`d5058365 <d50583659e031f3487ecb8afd800175cf3f44611>`
-:Removal date: 2011-09-13
+:Reason: Culled
+:Commit: :commit:`d5f7c95d <d5f7c95db1a81c4a9f798b5161a4c20f97a86043>`
+:Removal date: 2015-09-16
 
 ``fossil``
 ''''''''''
