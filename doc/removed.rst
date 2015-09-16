@@ -720,7 +720,7 @@ culled.
     until visibility is matched and upstream's dependencies are fixed.
 
 :Reason: Moved to ``::shadow``
-:Commit:
+:Commit: :commit:`681391b2 <681391b2a510d5c988549918cdb829c92ebd6d60>`
 :Removal date: 2015-09-16
 
 ``dev-util``
@@ -744,7 +744,7 @@ culled.
     tree.
 
 :Reason: Culled
-:Commit:
+:Commit: :commit:`d5f7c95d <d5f7c95db1a81c4a9f798b5161a4c20f97a86043>`
 :Removal date: 2015-09-16
 
 ``fossil``
