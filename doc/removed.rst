@@ -730,13 +730,12 @@ culled.
 ``ditz``
 ''''''''
 
-    Maintenance is passing to ``mleighy``'s group.
+    The versions of Ruby that ditz works with no longer exist in the upstream
+    tree.
 
-    Releases still maintained in ``jnrowe-misc``.
-
-:Reason: Moved to ``::live``
-:Commit: :commit:`d5058365 <d50583659e031f3487ecb8afd800175cf3f44611>`
-:Removal date: 2011-09-13
+:Reason: Culled
+:Commit:
+:Removal date: 2015-09-16
 
 ``fossil``
 ''''''''''
