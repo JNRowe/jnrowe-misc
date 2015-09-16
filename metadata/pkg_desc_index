@@ -88,7 +88,6 @@ dev-python/titlecase 0.5.1: Python Port of John Gruber's titlecase.pl
 dev-python/upoints 0.12.2: Modules for working with points on Earth
 dev-python/urlunshort 0.2.4: Tools for detecting and expanding shortened URLs
 dev-python/vanity 2.0.3: Easy access to PyPI download stats
-dev-python/webcolors 1.4: Python library for working with colour names and HTML/CSS values
 dev-python/wmctrl 0.1: A tool to programmatically control windows inside X
 dev-python/wordish 1.0.2: Parses a shell session, test the commands compare the output
 dev-python/xerox 0.3.1: Simple copy and paste in Python

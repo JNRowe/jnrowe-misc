@@ -586,15 +586,6 @@
 
   * `2.0.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/vanity/vanity-2.0.3.ebuild>`__  ``amd64``, ``x86``
 
-* ``webcolors`` - https://pypi.python.org/pypi/webcolors/
-
- * Python library for working with colour names and HTML/CSS values
- * Licence: ``BSD``
- * Status: maintained
- * Versions:
-
-  * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/webcolors/webcolors-1.4.ebuild>`__  ``amd64``, ``x86``
-
 * ``wmctrl`` - https://pypi.python.org/pypi/wmctrl/
 
  * A tool to programmatically control windows inside X

@@ -713,6 +713,16 @@ culled.
 :Commit: :commit:`409c46c3 <409c46c30b838de0bc8bc39a3e3150c38b7f4cfa>`
 :Removal date: 2012-03-20
 
+``webcolors``
+'''''''''''''
+
+    Now available upstream.  This package will be maintained in ``::shadow``
+    until visibility is matched and upstream's dependencies are fixed.
+
+:Reason: Moved to ``::shadow``
+:Commit:
+:Removal date: 2015-09-16
+
 ``dev-util``
 ~~~~~~~~~~~~
 
