@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=sys-apps/systemd
 SLOT=0
 SRC_URI=http://foo-projects.org/~sofar/xorg-launch-helper/xorg-launch-helper-4.tar.gz
-_eclasses_=eutils	351a78113be5b393c09a2c948701ad36	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	systemd	6b4f0cefa642270eded7e6ca816fd181	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
+_eclasses_=eutils	43da5163ba106e87d22d2e7d6d67537f	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	systemd	6b4f0cefa642270eded7e6ca816fd181	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
 _md5_=321cfd4b1444716578002870af57e1e5
