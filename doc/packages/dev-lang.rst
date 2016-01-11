@@ -9,6 +9,7 @@
  * Versions:
 
   * `0.3.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-lang/moonscript/moonscript-0.3.1.ebuild>`__  ``amd64``, ``x86``
+  * `0.4.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-lang/moonscript/moonscript-0.4.0.ebuild>`__  ``~amd64`` (due 2016-02-10)
 
 * ``wirbel`` - http://mathias-kettner.de/wirbel.html
 
