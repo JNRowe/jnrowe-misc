@@ -5,7 +5,7 @@ EAPI=5
 GITHUB_USER=leafo
 GITHUB_TAG=v${PV}
 
-inherit jnrowe-github toolchain-funcs
+inherit jnrowe-github eutils toolchain-funcs
 
 DESCRIPTION="A programmer friendly language that compiles to Lua"
 # Really shouldn't do this, but it is a test only dep and this overlay is dead…
