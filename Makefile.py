@@ -33,10 +33,12 @@ except CalledProcessError:
 else:
     VERSION = VERSION.strip().decode()
 
+REPO_NAME = open('profiles/repo_name').read().strip()
+
 
 @click.group(help=__doc__.splitlines()[0].split("-", 1)[1],
-             epilog='Please report bugs to '
-                    'https://github.com/JNRowe/jnrowe-misc/issues')
+             epilog='Please report bugs at https://github.com/JNRowe/%s/issues'
+             % REPO_NAME)
 @click.version_option(VERSION)
 def cli():
     """Main command entry point."""
