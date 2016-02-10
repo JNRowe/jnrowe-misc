@@ -85,7 +85,7 @@ def task_doc_check():
             print(warn('%s task undocumented' % name))
 
 
-@cli.command(name='gen-stable')
+@cli.command(name='gen-stable', help="Generate stabilisation string.")
 @click.argument('--arches', default=['amd64', 'x86'])
 @click.option('-s', '--selection/--no-selection',
               help='Copy reminder to primary selection.')
@@ -103,20 +103,20 @@ def gen_stable(arches, selection, cpv, days):
             proc.communicate(reminder)
 
 
-@cli.command(name='open-bug', help='open a new bug')
+@cli.command(name='open-bug')
 @click.argument('title')
 @click.argument('body', nargs='?', default='')
 @click.argument('labels', nargs='*')
 def open_bug(title, body, labels):
-    """Open a new bump bug"""
+    """Open a new bug."""
     data = {'title': title, 'body': body, 'labels': labels}
     open_issue(data)
 
 
-@cli.command(name='bump-pkg', help='open a version bump bug')
+@cli.command(name='bump-pkg')
 @click.argument('cpv')
 def bump_pkg(cpv):
-    """Open a version bump bug"""
+    """Open a version bump bug."""
     data = {
         'title': '%s version bump.' % cpv,
         'body': '',

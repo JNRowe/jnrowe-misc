@@ -29,9 +29,9 @@ except CalledProcessError:
     SIGN_KEY = None
 
 
-@cli.command(name='gen-use-local-desc', help='generate use.local.desc')
+@cli.command(name='gen-use-local-desc')
 def gen_use_local_desc():
-    """Generate use.local.desc"""
+    """Generate use.local.desc."""
     dep(['profiles/use.local.desc', ],
         glob('*-*/*/metadata.xml') + glob('virtual/*/metadata.xml'))
     repo = open('profiles/repo_name').read().strip()
@@ -41,9 +41,9 @@ def gen_use_local_desc():
     print(success('use.local.desc generated!'))
 
 
-@cli.command(name='gen-categories', help='generate categories listing')
+@cli.command(name='gen-categories')
 def gen_categories():
-    """Generate categories listing"""
+    """Generate categories listing."""
     categories = glob('*-*') + ['virtual', ]
     dep(['profiles/categories', ], categories)
     with open('profiles/categories', 'w') as file:
@@ -56,9 +56,9 @@ def gen_categories():
     print(success('categories list generated!'))
 
 
-@cli.command(name='gen-manifests', help='generate Manifest files')
+@cli.command(name='gen-manifests')
 def gen_manifests():
-    """Generate Manifest files"""
+    """Generate Manifest files."""
     packages = glob('*-*/*/*') + glob('virtual/*/*')
     dep(glob('*-*/*/Manifest') + glob('virtual/*/Manifest'), packages)
     base_dir = os.path.abspath(os.curdir)
@@ -78,9 +78,9 @@ def gen_manifests():
             os.chdir(base_dir)
 
 
-@cli.command(name='gen-news-sigs', help='generate news file signatures')
+@cli.command(name='gen-news-sigs')
 def gen_news_sigs():
-    """Generate news file signatures"""
+    """Generate news file signatures."""
     news_files = glob('metadata/news/*/*.txt')
     dep(map(lambda s: s + '.asc', news_files), news_files, mapping=True)
     if not SIGN_KEY:

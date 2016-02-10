@@ -33,9 +33,9 @@ from docutils.utils import SystemMessage
 from tasks.utils import (cli, dep, newer, success)
 
 
-@cli.command(name='rst-check', help='check syntax of reST-formatted files')
+@cli.command(name='rst-check')
 def rst_check():
-    """Check syntax of reST-formatted files"""
+    """Check syntax of reST-formatted files."""
     for file in glob('*.rst'):
         try:
             publish_file(open(file), destination=StringIO(),
@@ -45,9 +45,9 @@ def rst_check():
     print(success('All reST files pass!'))
 
 
-@cli.command(name='gen-html', help='generate HTML output')
+@cli.command(name='gen-html')
 def gen_html():
-    """Generate HTML output"""
+    """Generate HTML output."""
     rst_files = glob('*.rst')
     dep(map(lambda s: s[:-4] + '.html', rst_files), rst_files, mapping=True)
     for file in glob('*.rst'):
@@ -63,9 +63,9 @@ def gen_html():
     print(success('All reST generated!'))
 
 
-@cli.command(name='gen-thanks', help='generate Sphinx contributor doc')
+@cli.command(name='gen-thanks')
 def gen_thanks():
-    """Generate Sphinx contributor doc"""
+    """Generate Sphinx contributor doc."""
     dep(['doc/thanks.rst', ], ['README.rst'])
     data = open('README.rst').read()
     data = sub("\n('+)\n", lambda m: '\n' + "-" * len(m.groups()[0]) + '\n',
@@ -84,9 +84,9 @@ def gen_thanks():
     print(success('thanks.rst generated!'))
 
 
-@cli.command(name='gen-sphinx-html', help='generate Sphinx HTML output')
+@cli.command(name='gen-sphinx-html')
 def gen_sphinx_html():
-    """Generate Sphinx HTML output"""
+    """Generate Sphinx HTML output."""
     dep(['doc/.build/doctrees/environment.pickle', ],
         glob('doc/*.rst') + glob('doc/packages/*.rst'))
     check_call(['make', '-C', 'doc', 'html'])

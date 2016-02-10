@@ -50,7 +50,7 @@ def gen_cupage_conf():
     print(success('cupage.conf generated!'))
 
 
-@cli.command(name='cupage-check')
+@cli.command(name='cupage-check', help="Check for watch file existence.")
 def cupage_check():
     """Make sure a watch file exists for each package."""
     failures = 0

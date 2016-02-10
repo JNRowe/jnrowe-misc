@@ -22,10 +22,9 @@ from collections import defaultdict
 from tasks.utils import (cli, cmd_output, dep, success)
 
 
-@cli.command(name='gen-removals',
-             help='generate remind file for package removals')
+@cli.command(name='gen-removals')
 def gen_removals():
-    """Generate remind file for package removals"""
+    """Generate remind file for package removals."""
     dep(['support/removal.rem', ], ['profiles/package.mask', ])
     chunks = open("profiles/package.mask").read().split("\n\n")
     removals = defaultdict(list)
@@ -46,9 +45,9 @@ def gen_removals():
     print(success('removal.rem generated!'))
 
 
-@cli.command(help='display repository reminders')
+@cli.command()
 def reminders():
-    """Display repository reminders"""
+    """Display repository reminders."""
     output = lambda f: "\n".join(cmd_output('remind %s' % f).splitlines()[1:])
     removals = output('support/removal.rem')
     if removals:
