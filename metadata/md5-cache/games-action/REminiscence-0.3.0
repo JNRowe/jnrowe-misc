@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst prepare
+DEPEND=media-libs/libmodplug media-libs/libsdl[joystick,sound,video] media-libs/libvorbis
+DESCRIPTION=A rewrite of the engine used in the game Flashback
+EAPI=5
+HOMEPAGE=http://cyxdown.free.fr/reminiscence/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3+
+RDEPEND=media-libs/libmodplug media-libs/libsdl[joystick,sound,video] media-libs/libvorbis
+SLOT=0
+SRC_URI=http://cyxdown.free.fr/reminiscence/REminiscence-0.3.0.tar.bz2
+_eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	multilib	3972ca401cf7dbb430df9995f5d8d580	readme.gentoo-r1	03878c06495db70bc36bd717383c09f7	toolchain-funcs	d513d423d449877e49d99af3f7af7acb
+_md5_=93c3b9165acdc6275681cb18f899847c
