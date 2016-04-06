@@ -24,7 +24,7 @@ DEPEND="dev-python/docutils[${PYTHON_USEDEP}]
 	)
 	test? (
 		dev-python/expecter[${PYTHON_USEDEP}]
-		dev-python/nose2-cov[$PYTHON_USEDEP]
+		dev-python/nose2[$PYTHON_USEDEP]
 	)"
 RDEPEND="dev-python/aaargh[${PYTHON_USEDEP}]
 	dev-python/blessings[${PYTHON_USEDEP}]

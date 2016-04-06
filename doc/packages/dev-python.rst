@@ -298,15 +298,6 @@
 
   * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-progressive/nose-progressive-1.4.ebuild>`__  ``amd64``, ``x86``
 
-* ``nose2-cov`` - https://pypi.python.org/pypi/nose2-cov/
-
- * nose2 plugin for coverage reporting
- * Licence: ``MIT``
- * Status: maintained
- * Versions:
-
-  * `1.0_alpha4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2-cov/nose2-cov-1.0_alpha4.ebuild>`__  ``amd64``, ``x86``
-
 * ``nosetty`` - http://code.google.com/p/nosetty/
 
  * A plugin to run nosetests more interactively

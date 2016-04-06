@@ -435,6 +435,15 @@ culled.
 :Commit:
 :Removal date: 2016-04-06
 
+``nose2-cov``
+~~~~~~~~~~~~~
+
+    Recent ``nose2`` versions bundle the coverage plugin.
+
+:Reason: Culled
+:Commit:
+:Removal date: 2016-04-06
+
 ``parse``
 '''''''''
 

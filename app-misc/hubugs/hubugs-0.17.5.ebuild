@@ -23,7 +23,7 @@ DEPEND="${CDEPEND}
 		dev-python/sphinxcontrib-cheeseshop[${PYTHON_USEDEP}]
 	)
 	test? (
-		dev-python/nose2-cov[${PYTHON_USEDEP}]
+		dev-python/nose2[${PYTHON_USEDEP}]
 		dev-python/mock[${PYTHON_USEDEP}]
 	)"
 RDEPEND="${CDEPEND}

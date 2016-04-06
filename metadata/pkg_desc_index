@@ -56,7 +56,6 @@ dev-python/mod2doctest 0.2.0: Convert any Python module to a doctest ready doc s
 dev-python/nose-machineout 0.0.20101201: Machine parsable output plugin for nose
 dev-python/nose-pathmunge 0.1.2: Add additional directories to sys.path for nose
 dev-python/nose-progressive 1.4: Nose plugin to show progress bar and tracebacks during tests
-dev-python/nose2-cov 1.0_alpha4: nose2 plugin for coverage reporting
 dev-python/nosetty 0.4-r1: A plugin to run nosetests more interactively
 dev-python/pdbpp 0.7.2: An enhanced drop-in replacement for pdb
 dev-python/pep257 0.4.1: Python docstring style checker
