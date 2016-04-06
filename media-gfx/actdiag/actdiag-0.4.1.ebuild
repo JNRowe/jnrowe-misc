@@ -6,7 +6,7 @@ EAPI=5
 # 3.x is restricted due to print syntax.
 PYTHON_COMPAT=(python2_7)
 
-inherit jnrowe-pypi readme.gentoo
+inherit jnrowe-pypi readme.gentoo-r1
 
 DESCRIPTION="Generate activity-diagram image file from spec-text file"
 
