@@ -1,0 +1,66 @@
+From: James Rowe <jnrowe@gmail.com>
+Subject: Build fixes and system data support
+Status: LOCAL
+
+diff --git i/Makefile w/Makefile
+index 480b73955e79..df930b10b51e 100644
+--- i/Makefile
++++ w/Makefile
+@@ -1,12 +1,12 @@
+ 
+ SDL_CFLAGS = `sdl-config --cflags`
+ SDL_LIBS = `sdl-config --libs`
+-VORBIS_LIBS = -lvorbisidec
++VORBIS_LIBS = -lvorbis
+ MODPLUG_LIBS = -lmodplug
+ ZLIB_LIBS = -lz
+ 
+ CXX := clang++
+-CXXFLAGS := -Wall -MMD $(SDL_CFLAGS) -DUSE_ZLIB # -DUSE_MODPLUG
++CXXFLAGS += -Wall -MMD $(SDL_CFLAGS) -DUSE_ZLIB -DUSE_MODPLUG
+ 
+ SRCS = collision.cpp cutscene.cpp file.cpp fs.cpp game.cpp graphics.cpp main.cpp menu.cpp \
+ 	mixer.cpp mod_player.cpp ogg_player.cpp piege.cpp resource.cpp resource_aba.cpp \
+diff --git i/main.cpp w/main.cpp
+index 5543b4eeb254..14326e940b1d 100644
+--- i/main.cpp
++++ w/main.cpp
+@@ -17,8 +17,8 @@
+ static const char *USAGE =
+ 	"REminiscence - Flashback Interpreter\n"
+ 	"Usage: %s [OPTIONS]...\n"
+-	"  --datapath=PATH   Path to data files (default 'DATA')\n"
+-	"  --savepath=PATH   Path to save files (default '.')\n"
++	"  --datapath=PATH   Path to data files (default '/usr/share/REminiscence')\n"
++	"  --savepath=PATH   Path to save files (default '~/.reminiscence')\n"
+ 	"  --levelnum=NUM    Start level (default '0')\n"
+ 	"  --fullscreen      Start fullscreen\n"
+ 	"  --scaler=INDEX    Graphics scaler\n"
+@@ -92,7 +92,7 @@ static void initOptions() {
+ 		{ "use_tiledata", &g_options.use_tiledata },
+ 		{ 0, 0 }
+ 	};
+-	static const char *filename = "rs.cfg";
++	static const char *filename = "/usr/share/REminiscence/rs.cfg";
+ 	FILE *fp = fopen(filename, "rb");
+ 	if (fp) {
+ 		char buf[256];
+@@ -125,8 +125,16 @@ static const int DEFAULT_SCALER = SCALER_SCALE_3X;
+ 
+ #undef main
+ int main(int argc, char *argv[]) {
+-	const char *dataPath = "DATA";
+-	const char *savePath = ".";
++	char *dataPath = (char *)"/usr/share/REminiscence";
++	char *savePath = (char *)malloc(256);
++	struct stat sb;
++
++	snprintf(savePath, 255, "%s/.reminiscence", getenv("HOME"));
++	if (stat(savePath, &sb)) {
++		if (mkdir(savePath, 0755) == -1) {
++			error("Failed to create save directory(%s)", savePath);
++		}
++	}
+ 	int levelNum = 0;
+ 	int scaler = DEFAULT_SCALER;
+ 	bool fullscreen = false;
