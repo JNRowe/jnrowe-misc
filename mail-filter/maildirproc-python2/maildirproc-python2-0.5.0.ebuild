@@ -43,3 +43,7 @@ src_install() {
 	distutils-r1_src_install
 	readme.gentoo_src_install
 }
+
+pkg_postinst() {
+	readme.gentoo_print_elog
+}
