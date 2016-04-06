@@ -244,6 +244,18 @@ culled.
 :Commit: :commit:`ccb15265 <ccb152651d2961147cd793fbfd7dd8d23c36c152>`
 :Removal date: 2012-12-03
 
+``dexml``
+~~~~~~~~~
+
+    ``dexml`` now packaged upstream.
+
+    Upgrade path is clean.  The ``ebuild`` will exist in ``::shadow`` until
+    a version with matching keywords is available upstream.
+
+:Reason: Moved to ``::shadow``
+:Commit:
+:Removal date: 2016-04-06
+
 ``dulwich``
 '''''''''''
 

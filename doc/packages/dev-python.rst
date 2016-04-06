@@ -100,15 +100,6 @@
 
   * `1.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/cloud_sptheme/cloud_sptheme-1.6.ebuild>`__  ``amd64``, ``x86``
 
-* ``dexml`` - https://pypi.python.org/pypi/dexml/
-
- * A dead-simple Object-XML mapper for Python
- * Licence: ``MIT``
- * Status: maintained
- * Versions:
-
-  * `0.5.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/dexml/dexml-0.5.1.ebuild>`__  ``amd64``, ``x86``
-
 * ``docformatter`` - https://pypi.python.org/pypi/docformatter/
 
  * Formats docstrings to follow PEP 257
