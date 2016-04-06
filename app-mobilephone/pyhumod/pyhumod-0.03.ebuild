@@ -4,7 +4,7 @@
 EAPI=5
 PYTHON_COMPAT=(python2_7)
 
-inherit distutils-r1 readme.gentoo
+inherit distutils-r1 readme.gentoo-r1
 
 DESCRIPTION="Accessing Huawei modems in Python, including SMS and data calls."
 HOMEPAGE="http://code.google.com/p/${PN}/"
@@ -33,4 +33,8 @@ src_install() {
 	distutils-r1_src_install
 
 	readme.gentoo_src_install
+}
+
+pkg_postinst() {
+	readme.gentoo_print_elog
 }
