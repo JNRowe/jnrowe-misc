@@ -3,7 +3,7 @@
 
 EAPI=5
 
-inherit eutils games
+inherit eutils
 
 DESCRIPTION="Brain teaser game/trainer to have fun and keep your brain trained"
 HOMEPAGE="http://live.gnome.org/${PN}"
@@ -40,9 +40,7 @@ src_install() {
 	emake DESTDIR="${D}" install || die "emake install failed"
 
 	rm "${D}"usr/bin/${PN} || die "Deleting wrapper failed"
-	dogamesbin src/Clients/Classical/gbrainy || die "Installing wrapper failed"
+	dobin src/Clients/Classical/gbrainy || die "Installing wrapper failed"
 
 	einstalldocs
-
-	prepgamesdirs
 }
