@@ -6,7 +6,7 @@ EAPI=5
 # 3.x is not supported because of reportlab dependency
 PYTHON_COMPAT=(python2_7)
 
-inherit eutils jnrowe-pypi readme.gentoo
+inherit eutils jnrowe-pypi readme.gentoo-r1
 
 DESCRIPTION="Generate network-diagram images from spec-text file"
 
