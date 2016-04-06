@@ -1,3 +1,0 @@
-site = pypi
-match_type = re
-match = nose2-cov-[\d\.]+(?:a\d+|)\.tar\.gz

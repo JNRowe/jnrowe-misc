@@ -18,7 +18,7 @@ DEPEND="doc? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 #	test? (
 # 		dev-python/expecter[${PYTHON_USEDEP}]
 # 		dev-python/mock[${PYTHON_USEDEP}]
-# 		dev-python/nose2-cov[${PYTHON_USEDEP}]
+# 		dev-python/nose2[${PYTHON_USEDEP}]
 # 	)
 RDEPEND=">=dev-python/aaargh-0.7[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]"

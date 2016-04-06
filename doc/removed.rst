@@ -244,6 +244,18 @@ culled.
 :Commit: :commit:`ccb15265 <ccb152651d2961147cd793fbfd7dd8d23c36c152>`
 :Removal date: 2012-12-03
 
+``dexml``
+~~~~~~~~~
+
+    ``dexml`` now packaged upstream.
+
+    Upgrade path is clean.  The ``ebuild`` will exist in ``::shadow`` until
+    a version with matching keywords is available upstream.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`b4dce3d5 <b4dce3d59fff5fffcc2dcd22c8238a138234017b>`
+:Removal date: 2016-04-06
+
 ``dulwich``
 '''''''''''
 
@@ -410,6 +422,27 @@ culled.
 :Reason: Culled
 :Commit: :commit:`eaee27c9 <eaee27c9b8bb211cb4237e0cb91d7b8f61257b3f>`
 :Removal date: 2013-09-06
+
+``nose2``
+~~~~~~~~~
+
+    ``nose2`` now packaged upstream.
+
+    Upgrade path is clean.  The ``ebuild`` will exist in ``::shadow`` until
+    a version with matching keywords is available upstream.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`5799e1e4 <5799e1e44e374c86f57720f852441769fa7784bf>`
+:Removal date: 2016-04-06
+
+``nose2-cov``
+~~~~~~~~~~~~~
+
+    Recent ``nose2`` versions bundle the coverage plugin.
+
+:Reason: Culled
+:Commit: :commit:`92640fb7 <92640fb7e203e980dd180035522f939de78212f7>`
+:Removal date: 2016-04-06
 
 ``parse``
 '''''''''

@@ -34,7 +34,6 @@ dev-python/astral 0.7.3: Calculations for the position of the sun and moon
 dev-python/atomize 0.2.0: A simple Python package for easily generating Atom feeds
 dev-python/calabash 0.0.3: Bash-style pipelining syntax for Python generators
 dev-python/cloud_sptheme 1.6: A nice sphinx theme named 'Cloud', and some related extensions
-dev-python/dexml 0.5.1: A dead-simple Object-XML mapper for Python
 dev-python/docformatter 0.4.3: Formats docstrings to follow PEP 257
 dev-python/doctest-tools 1.0_alpha3: Tools to run doctests on code and text files within a directory
 dev-python/dtopt 0.1: Add options to doctest examples while they are running
@@ -57,8 +56,6 @@ dev-python/mod2doctest 0.2.0: Convert any Python module to a doctest ready doc s
 dev-python/nose-machineout 0.0.20101201: Machine parsable output plugin for nose
 dev-python/nose-pathmunge 0.1.2: Add additional directories to sys.path for nose
 dev-python/nose-progressive 1.4: Nose plugin to show progress bar and tracebacks during tests
-dev-python/nose2 0.5.0: The next generation of nicer testing for Python
-dev-python/nose2-cov 1.0_alpha4: nose2 plugin for coverage reporting
 dev-python/nosetty 0.4-r1: A plugin to run nosetests more interactively
 dev-python/pdbpp 0.7.2: An enhanced drop-in replacement for pdb
 dev-python/pep257 0.4.1: Python docstring style checker

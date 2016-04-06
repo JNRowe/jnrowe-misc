@@ -21,7 +21,7 @@ DEPEND="doc? (
 	test? (
 		dev-python/expecter[${PYTHON_USEDEP}]
 		dev-python/mock[${PYTHON_USEDEP}]
-		dev-python/nose2-cov[${PYTHON_USEDEP}]
+		dev-python/nose2[${PYTHON_USEDEP}]
 	)"
 
 RDEPEND="dev-python/aaargh[${PYTHON_USEDEP}]
