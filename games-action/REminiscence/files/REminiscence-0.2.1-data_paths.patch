@@ -34,7 +34,7 @@ index 2e05d9b..f9962b0 100644
  	"Usage: %s [OPTIONS]...\n"
 -	"  --datapath=PATH   Path to data files (default 'DATA')\n"
 -	"  --savepath=PATH   Path to save files (default '.')\n"
-+	"  --datapath=PATH   Path to data files (default '/usr/share/games/REminiscence')\n"
++	"  --datapath=PATH   Path to data files (default '/usr/share/REminiscence')\n"
 +	"  --savepath=PATH   Path to save files (default '~/.reminiscence')\n"
  	"  --levelnum=NUM    Starting level (default '0')";
  
@@ -50,7 +50,7 @@ index 2e05d9b..f9962b0 100644
 -	const char *dataPath = "DATA";
 -	const char *savePath = ".";
 -	const char *levelNum = "0";
-+	char *dataPath = (char *)"/usr/share/games/REminiscence";
++	char *dataPath = (char *)"/usr/share/REminiscence";
 +	char *savePath = (char *)malloc(256);
 +	struct stat sb;
 +

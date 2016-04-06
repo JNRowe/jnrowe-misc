@@ -3,7 +3,7 @@
 
 EAPI=5
 
-inherit eutils games toolchain-funcs readme.gentoo-r1
+inherit eutils toolchain-funcs readme.gentoo-r1
 
 DESCRIPTION="A rewrite of the engine used in the game Flashback"
 HOMEPAGE="http://cyxdown.free.fr/reminiscence/"
@@ -25,9 +25,7 @@ src_compile() {
 
 src_install() {
 	einstalldocs
-	newgamesbin rs ${PN}
-
-	prepgamesdirs
+	newbin rs ${PN}
 
 	readme.gentoo_create_doc
 }
