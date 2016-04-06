@@ -298,15 +298,6 @@
 
   * `1.4 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose-progressive/nose-progressive-1.4.ebuild>`__  ``amd64``, ``x86``
 
-* ``nose2`` - https://pypi.python.org/pypi/nose2/
-
- * The next generation of nicer testing for Python
- * Licence: ``BSD-2``
- * Status: maintained
- * Versions:
-
-  * `0.5.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/nose2/nose2-0.5.0.ebuild>`__  ``amd64``, ``x86``
-
 * ``nose2-cov`` - https://pypi.python.org/pypi/nose2-cov/
 
  * nose2 plugin for coverage reporting

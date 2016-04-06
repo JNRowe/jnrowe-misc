@@ -423,6 +423,18 @@ culled.
 :Commit: :commit:`eaee27c9 <eaee27c9b8bb211cb4237e0cb91d7b8f61257b3f>`
 :Removal date: 2013-09-06
 
+``nose2``
+~~~~~~~~~
+
+    ``nose2`` now packaged upstream.
+
+    Upgrade path is clean.  The ``ebuild`` will exist in ``::shadow`` until
+    a version with matching keywords is available upstream.
+
+:Reason: Moved to ``::shadow``
+:Commit:
+:Removal date: 2016-04-06
+
 ``parse``
 '''''''''
 
