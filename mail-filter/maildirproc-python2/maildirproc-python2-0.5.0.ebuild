@@ -5,7 +5,7 @@ EAPI=5
 # This version is specifically for Python 2
 PYTHON_COMPAT=(python2_7)
 
-inherit distutils-r1 readme.gentoo
+inherit distutils-r1 readme.gentoo-r1
 
 DESCRIPTION="maildir processor using Python as its configuration language"
 HOMEPAGE="http://joel.rosdahl.net/maildirproc/"

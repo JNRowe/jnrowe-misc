@@ -5,7 +5,7 @@ EAPI=5
 # This version is specifically for Python 3
 PYTHON_COMPAT=(python3_{3,4})
 
-inherit distutils-r1 readme.gentoo
+inherit distutils-r1 readme.gentoo-r1
 
 DESCRIPTION="maildir processor using Python as its configuration language"
 HOMEPAGE="http://joel.rosdahl.net/${PN}/"
@@ -42,4 +42,8 @@ python_install_all() {
 src_install() {
 	distutils-r1_src_install
 	readme.gentoo_src_install
+}
+
+pkg_postinst() {
+	readme.gentoo_print_elog
 }
