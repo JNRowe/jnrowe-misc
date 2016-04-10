@@ -98,7 +98,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-gruffygen/sphinxcontrib-gruffygen-0.1.1.ebuild>`__  ``~amd64`` (due 2016-04-10), ``~x86`` (due 2016-04-24)
+  * `0.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-gruffygen/sphinxcontrib-gruffygen-0.1.1.ebuild>`__  ``~amd64`` (due 2016-06-09), ``~x86`` (due 2016-04-24)
 
 * ``sphinxcontrib-mscgen`` - https://pypi.python.org/pypi/sphinxcontrib-mscgen/
 
