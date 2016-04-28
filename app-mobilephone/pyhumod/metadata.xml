@@ -10,6 +10,9 @@
 		Huawei and compatible modems.  It can help you connect to IP networks
 		and manage SMS messages.
 	</longdescription>
+	<use>
+		<flag name="dbus">Support automatic modem detection</flag>
+	</use>
 	<upstream>
 		<remote-id type="google-code">pyhumod</remote-id>
 		<doc lang="en">http://code.google.com/p/pyhumod/wiki/Main</doc>
