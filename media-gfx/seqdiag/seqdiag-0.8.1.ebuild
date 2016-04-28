@@ -6,7 +6,7 @@ EAPI=5
 # 3.x is restricted due to print syntax
 PYTHON_COMPAT=(python2_7)
 
-inherit jnrowe-pypi readme.gentoo-r1
+inherit eutils jnrowe-pypi
 
 DESCRIPTION="Generate sequence-diagram image files from spec-text files"
 
@@ -19,10 +19,7 @@ DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 # Setuptools is required at runtime for wrapper scripts
 RDEPEND="${DEPEND}
 	>=media-gfx/blockdiag-1.2.0[${PYTHON_USEDEP}]
-	!minimal? (
-		dev-python/docutils[${PYTHON_USEDEP}]
-		dev-python/sphinx[${PYTHON_USEDEP}]
-	)"
+	!minimal? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 
 DOCS=(src/README.txt src/TODO.txt)
 
@@ -36,9 +33,5 @@ src_install() {
 		doins -r examples || die "doins failed"
 	fi
 
-	use minimal && readme.gentoo_create_doc
-}
-
-pkg_postinst() {
-	use minimal && readme.gentoo_print_elog
+	use minimal && optfeature "Sphinx support" dev-python/sphinx
 }
