@@ -6,7 +6,7 @@ EAPI=5
 # 3.x is restricted due to print syntax.
 PYTHON_COMPAT=(python2_7)
 
-inherit jnrowe-pypi readme.gentoo-r1
+inherit eutils jnrowe-pypi
 
 DESCRIPTION="Generate activity-diagram image file from spec-text file"
 
@@ -17,10 +17,7 @@ IUSE="minimal"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND=">=media-gfx/blockdiag-1.2.0[${PYTHON_USEDEP}]
-	!minimal? (
-		dev-python/docutils[${PYTHON_USEDEP}]
-		dev-python/sphinx[${PYTHON_USEDEP}]
-	)"
+	!minimal? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 
 DOCS=(src/README.txt src/TODO.txt)
 
@@ -35,9 +32,5 @@ src_install() {
 
 	distutils-r1_src_install
 
-	use minimal && readme.gentoo_create_doc
-}
-
-pkg_postinst() {
-	use minimal && readme.gentoo_print_elog
+	use minimal && optfeature "Sphinx support" dev-python/sphinx
 }

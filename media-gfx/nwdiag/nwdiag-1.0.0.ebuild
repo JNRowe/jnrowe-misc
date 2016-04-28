@@ -6,7 +6,7 @@ EAPI=5
 # 3.x is not supported because of reportlab dependency
 PYTHON_COMPAT=(python2_7)
 
-inherit eutils jnrowe-pypi readme.gentoo-r1
+inherit eutils jnrowe-pypi
 
 DESCRIPTION="Generate network-diagram images from spec-text file"
 
@@ -19,10 +19,7 @@ DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 # Setuptools is required at runtime for wrapper scripts
 RDEPEND="${DEPEND}
 	>=media-gfx/blockdiag-1.3.0[${PYTHON_USEDEP}]
-	!minimal? (
-		dev-python/docutils[${PYTHON_USEDEP}]
-		dev-python/sphinx[${PYTHON_USEDEP}]
-	)"
+	!minimal? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 
 DOCS=(src/README.txt)
 
@@ -44,9 +41,5 @@ src_install() {
 		doins -r examples || die "doins failed"
 	fi
 
-	use minimal && readme.gentoo_create_doc
-}
-
-pkg_postinst() {
-	use minimal && readme.gentoo_print_elog
+	use minimal && optfeature "Sphinx support" dev-python/sphinx
 }
