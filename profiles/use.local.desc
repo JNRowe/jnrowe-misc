@@ -4,6 +4,7 @@
 
 app-misc/pytrainer:elevation - Support fixing elevation data using SRTM data
 app-misc/pytrainer:import - Enable importing from standard GPS formats
+app-mobilephone/pyhumod:dbus - Support automatic modem detection
 dev-python/snot:nose - Explicitly depend on nose package
 dev-python/snot:pytest - Explicitly depend on pytest package
 dev-vcs/pepper:git - Enable support for processing git repositories
