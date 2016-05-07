@@ -8,5 +8,5 @@
  * Status: maintained
  * Versions:
 
-  * `0.8.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/net-misc/bleeter/bleeter-0.8.0.ebuild>`__  ``~amd64`` (due 2016-05-07), ``~x86`` (due 2016-06-08)
+  * `0.8.0 <https://github.com/JNRowe/jnrowe-misc/blob/master/net-misc/bleeter/bleeter-0.8.0.ebuild>`__  ``~amd64`` (due 2016-07-06), ``~x86`` (due 2016-06-08)
 
