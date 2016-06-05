@@ -16,7 +16,7 @@ IUSE="gdbm mysql sqlite"
 # a few internal formats.
 DEPEND="gdbm? ( sys-libs/gdbm )
 	mysql? ( dev-db/mysql )
-	sqlite? ( dev-db/sqlite:0 )"
+	sqlite? ( dev-db/sqlite:3 )"
 RDEPEND="${DEPEND}"
 
 DOCS=(README doc/{NEWS,TODO,changelog,postfix-howto})
