@@ -9,5 +9,5 @@ LICENSE=MIT
 RDEPEND=>=dev-lang/lua-5.1:= dev-lua/alt-getopt dev-lua/lpeg dev-lua/luafilesystem inotify? ( dev-lua/linotify )
 SLOT=0
 SRC_URI=https://github.com/leafo/moonscript/archive/v0.4.0.tar.gz -> moonscript-0.4.0.tar.gz https://github.com/leafo/loadkit/raw/2954ab1/loadkit.lua -> loadkit-1.1.0.lua
-_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	jnrowe-github	4da4758c2e0c42b81e49f70445e71ac5	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	vcs-snapshot	b45be87e7012be0af8424e8a5644da1d
+_eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	jnrowe-github	4da4758c2e0c42b81e49f70445e71ac5	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	e886935aae2b45a545665444ab0667cf	vcs-snapshot	b45be87e7012be0af8424e8a5644da1d
 _md5_=d7a5d55d3974c5f2fa9205787b6c8e20
