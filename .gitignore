@@ -1,8 +1,8 @@
-.http_cache/
-.ropeproject/
-doc/.build/
 
-*.pyc
+/doc/.build/
+/.http_cache/
+
+*.py[co]
 
 README.html
 support/cupage.db
