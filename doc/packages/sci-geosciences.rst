@@ -17,5 +17,5 @@
  * Status: deprecated, see :issue:`751`
  * Versions:
 
-  * `0.4.3-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/sci-geosciences/gpxviewer/gpxviewer-0.4.3-r1.ebuild>`__  ``~amd64`` (due 2016-12-06), ``~x86`` (due 2016-10-23)
+  * `0.4.3-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/sci-geosciences/gpxviewer/gpxviewer-0.4.3-r1.ebuild>`__  ``~amd64`` (due 2016-12-06), ``~x86`` (due 2016-12-22)
 
