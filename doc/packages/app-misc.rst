@@ -62,7 +62,7 @@
  * Status: deprecated, see :issue:`751`
  * Versions:
 
-  * `0.13.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/rdial/rdial-0.13.1.ebuild>`__  ``~amd64`` (due 2016-11-06), ``~x86`` (due 2016-12-20)
+  * `0.13.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/app-misc/rdial/rdial-0.13.1.ebuild>`__  ``~amd64`` (due 2017-02-04), ``~x86`` (due 2016-12-20)
 
 * ``repl`` - http://defunkt.io/repl/
 
