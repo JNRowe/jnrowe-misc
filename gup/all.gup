@@ -1,4 +1,5 @@
 #!sh
 
 gup -u metadata/md5-cache \
+    metadata/pkg_desc_index \
     profiles/use.local.desc
