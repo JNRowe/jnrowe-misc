@@ -1,0 +1,8 @@
+#!sh
+
+gup -u $(which egencache) \
+    ../*-*/*/metadata.xml \
+    ../profiles/repo_name
+
+egencache --repo=$(cat ../profiles/repo_name) --update-use-local-desc
+touch $2

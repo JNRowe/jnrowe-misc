@@ -1,0 +1,8 @@
+#!sh
+
+gup -u $(which egencache) \
+    ../*-*/*/*.ebuild \
+    ../profiles/repo_name
+
+egencache --repo=$(cat ../profiles/repo_name) --update-pkg-desc-index
+touch $2
