@@ -1,3 +1,4 @@
 #!sh
 
-gup -u metadata/md5-cache
+gup -u metadata/md5-cache \
+    profiles/use.local.desc

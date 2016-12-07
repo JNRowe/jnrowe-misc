@@ -29,18 +29,6 @@ except CalledProcessError:
     SIGN_KEY = None
 
 
-@cli.command(name='gen-use-local-desc')
-def gen_use_local_desc():
-    """Generate use.local.desc."""
-    dep(['profiles/use.local.desc', ],
-        glob('*-*/*/metadata.xml') + glob('virtual/*/metadata.xml'))
-    repo = open('profiles/repo_name').read().strip()
-    # This really shouldn't be handled with subprocess, but portage seemingly
-    # goes out of its way to make reasonable use difficult.
-    check_call(['egencache', '--repo=%s' % repo, '--update-use-local-desc'])
-    print(success('use.local.desc generated!'))
-
-
 @cli.command(name='gen-categories')
 def gen_categories():
     """Generate categories listing."""
