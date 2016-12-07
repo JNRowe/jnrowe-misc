@@ -1,0 +1,3 @@
+#!sh
+
+gup -u metadata/md5-cache
