@@ -7,7 +7,7 @@
 		getopt_long(3) functions do. The main goal is compatibility with SUS
 		"Utility Syntax Guidelines" guidelines 3-13.
 	</longdescription>
-	<maintainer>
+	<maintainer type="person">
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
 	</maintainer>

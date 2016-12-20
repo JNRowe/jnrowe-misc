@@ -7,7 +7,7 @@
 		verification and generation of checksums.  It also includes basic
 		classes for representing ISBNs as objects.
 	</longdescription>
-	<maintainer>
+	<maintainer type="person">
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
 	</maintainer>

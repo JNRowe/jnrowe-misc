@@ -7,7 +7,7 @@
 		description, a deadline (tudu warns you when the date is close),
 		and a scheduled date. There are categories and priorities.
 	</longdescription>
-	<maintainer>
+	<maintainer type="person">
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
 	</maintainer>

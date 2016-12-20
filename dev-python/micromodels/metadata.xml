@@ -8,7 +8,7 @@
 		Perfect for (amongst other things) wrapping <pkg>dev-lang/python</pkg>
 		objects around JSON data returned from web-based APIs.
 	</longdescription>
-	<maintainer>
+	<maintainer type="person">
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
 	</maintainer>

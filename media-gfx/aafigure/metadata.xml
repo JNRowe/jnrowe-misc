@@ -5,7 +5,7 @@
 		This package provides a module aafigure, that can be used from other
 		programs, and a command line tool aafigure.
 	</longdescription>
-	<maintainer>
+	<maintainer type="person">
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
 	</maintainer>

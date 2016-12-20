@@ -12,7 +12,7 @@
 		name was changed as it no longer reflected the majority of uses the
 		packages was targeted at.
 	</longdescription>
-	<maintainer>
+	<maintainer type="person">
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
 	</maintainer>

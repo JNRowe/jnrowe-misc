@@ -11,7 +11,7 @@
 		a local revision cache, it provides fast access to repository
 		data.
 	</longdescription>
-	<maintainer>
+	<maintainer type="person">
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
 	</maintainer>

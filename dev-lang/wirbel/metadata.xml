@@ -17,7 +17,7 @@
 		does not only save memory but also makes life easier when
 		distributing your software. And speed almost always matters.
 	</longdescription>
-	<maintainer>
+	<maintainer type="person">
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
 	</maintainer>

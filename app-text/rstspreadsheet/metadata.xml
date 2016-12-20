@@ -8,7 +8,7 @@
 		<pkg>dev-python/sphinx</pkg>. Any python function/module can be
 		used to calculate the cell value.
 	</longdescription>
-	<maintainer>
+	<maintainer type="person">
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
 	</maintainer>

@@ -6,7 +6,7 @@
 		functions such as: {base,dir}name, chmod, exec, fork, getenv, glob,
 		kill, pipe, readlink, stat, umask.
 	</longdescription>
-	<maintainer>
+	<maintainer type="person">
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
 	</maintainer>

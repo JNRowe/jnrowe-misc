@@ -10,7 +10,7 @@
 		the screen in favor of less useful output. It also offers a number of
 		other human-centric features to speed the debugging process.
 	</longdescription>
-	<maintainer>
+	<maintainer type="person">
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
 	</maintainer>

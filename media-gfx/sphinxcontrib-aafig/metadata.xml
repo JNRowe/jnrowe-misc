@@ -7,7 +7,7 @@
 		that automatically selects the image format to use acording to the
 		Sphinx writer used to generate the documentation.
 	</longdescription>
-	<maintainer>
+	<maintainer type="person">
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
 	</maintainer>

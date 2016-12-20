@@ -9,7 +9,7 @@
 		a server with interactive feedback.  Makes debugging and testing REST
 		services and public APIs much easier than with cURL.
 	</longdescription>
-	<maintainer>
+	<maintainer type="person">
 		<email>jnrowe@gmail.com</email>
 		<name>James Rowe</name>
 	</maintainer>
