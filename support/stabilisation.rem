@@ -1,15 +1,15 @@
-REM 2017-01-17 *1 PRIORITY 1500 MSG %"Stabilise amd64 net-misc/bleeter-0.8.0%" %a
+REM 2017-01-17 *1 PRIORITY 1500 MSG %"Stabilise amd64 net-misc/bleeter-0.8.0%" %a%
 
-REM 2017-02-04 *1 PRIORITY 1500 MSG %"Stabilise amd64 app-misc/hubugs-0.17.5%" %a
-REM 2017-02-04 *1 PRIORITY 1500 MSG %"Stabilise amd64 app-misc/rdial-0.13.1%" %a
-REM 2017-02-18 *1 PRIORITY 1500 MSG %"Stabilise x86 app-misc/hubugs-0.17.5%" %a
-REM 2017-02-18 *1 PRIORITY 1500 MSG %"Stabilise x86 app-misc/rdial-0.13.1%" %a
-REM 2017-02-18 *1 PRIORITY 1500 MSG %"Stabilise x86 media-gfx/sphinxcontrib-gruffygen-0.1.1%" %a
-REM 2017-02-18 *1 PRIORITY 1500 MSG %"Stabilise x86 net-misc/bleeter-0.8.0%" %a
-REM 2017-02-20 *1 PRIORITY 1500 MSG %"Stabilise x86 sci-geosciences/gpxviewer-0.4.3-r1%" %a
+REM 2017-02-04 *1 PRIORITY 1500 MSG %"Stabilise amd64 app-misc/hubugs-0.17.5%" %a%
+REM 2017-02-04 *1 PRIORITY 1500 MSG %"Stabilise amd64 app-misc/rdial-0.13.1%" %a%
+REM 2017-02-18 *1 PRIORITY 1500 MSG %"Stabilise x86 app-misc/hubugs-0.17.5%" %a%
+REM 2017-02-18 *1 PRIORITY 1500 MSG %"Stabilise x86 app-misc/rdial-0.13.1%" %a%
+REM 2017-02-18 *1 PRIORITY 1500 MSG %"Stabilise x86 media-gfx/sphinxcontrib-gruffygen-0.1.1%" %a%
+REM 2017-02-18 *1 PRIORITY 1500 MSG %"Stabilise x86 net-misc/bleeter-0.8.0%" %a%
+REM 2017-02-20 *1 PRIORITY 1500 MSG %"Stabilise x86 sci-geosciences/gpxviewer-0.4.3-r1%" %a%
 
-REM 2017-03-02 *1 PRIORITY 1500 MSG %"Stabilise x86 media-gfx/gruffy-0.3.3%" %a
-REM 2017-03-06 *1 PRIORITY 1500 MSG %"Stabilise amd64 dev-lang/moonscript-0.4.0%" %a
-REM 2017-03-06 *1 PRIORITY 1500 MSG %"Stabilise amd64 media-gfx/gruffy-0.3.3%" %a
-REM 2017-03-06 *1 PRIORITY 1500 MSG %"Stabilise amd64 media-gfx/sphinxcontrib-gruffygen-0.1.1%" %a
-REM 2017-03-06 *1 PRIORITY 1500 MSG %"Stabilise amd64 sci-geosciences/gpxviewer-0.4.3-r1%" %a
+REM 2017-03-02 *1 PRIORITY 1500 MSG %"Stabilise x86 media-gfx/gruffy-0.3.3%" %a%
+REM 2017-03-06 *1 PRIORITY 1500 MSG %"Stabilise amd64 dev-lang/moonscript-0.4.0%" %a%
+REM 2017-03-06 *1 PRIORITY 1500 MSG %"Stabilise amd64 media-gfx/gruffy-0.3.3%" %a%
+REM 2017-03-06 *1 PRIORITY 1500 MSG %"Stabilise amd64 media-gfx/sphinxcontrib-gruffygen-0.1.1%" %a%
+REM 2017-03-06 *1 PRIORITY 1500 MSG %"Stabilise amd64 sci-geosciences/gpxviewer-0.4.3-r1%" %a%
