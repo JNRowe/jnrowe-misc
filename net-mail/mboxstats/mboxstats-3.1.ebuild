@@ -1,4 +1,4 @@
-# Copyright © 2009-2015  James Rowe <jnrowe@gmail.com>
+# Copyright © 2009-2017  James Rowe <jnrowe@gmail.com>
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
