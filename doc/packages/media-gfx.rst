@@ -37,15 +37,6 @@
 
   * `0.4.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/actdiag/actdiag-0.4.1.ebuild>`__  ``amd64``, ``x86``
 
-* ``blockdiag`` - https://pypi.python.org/pypi/blockdiag/
-
- * Generate block-diagram image files from text(like dot)
- * Licence: ``Apache-2.0``
- * Status: deprecated, see :issue:`751`
- * Versions:
-
-  * `1.3.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/blockdiag/blockdiag-1.3.2.ebuild>`__  ``amd64``, ``x86``
-
 * ``gruffy`` - https://pypi.python.org/pypi/gruffy/
 
  * Gruffy is Python implementation of Gruff(Ruby Graphing Library)
@@ -84,7 +75,7 @@
 
 * ``sphinxcontrib-blockdiag`` - https://pypi.python.org/pypi/sphinxcontrib-blockdiag/
 
- * Sphinx extension to support media-gfx/blockdiag diagrams
+ * Sphinx extension to support dev-python/blockdiag diagrams
  * Licence: ``BSD``
  * Status: deprecated, see :issue:`751`
  * Versions:

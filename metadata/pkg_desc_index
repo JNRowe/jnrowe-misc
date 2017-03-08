@@ -103,12 +103,11 @@ media-gfx/Graph-Easy 0.73: Render/convert graphs in/from various formats
 media-gfx/Graph-Easy-As_svg 0.23: Graph::Easy output as Scalable Vector Graphics (SVG)
 media-gfx/aafigure 0.5-r3: ASCII art figures parsed and output as SVG, PNG, and more
 media-gfx/actdiag 0.4.1: Generate activity-diagram image file from spec-text file
-media-gfx/blockdiag 1.3.2: Generate block-diagram image files from text(like dot)
 media-gfx/gruffy 0.3.3: Gruffy is Python implementation of Gruff(Ruby Graphing Library)
 media-gfx/nwdiag 1.0.0: Generate network-diagram images from spec-text file
 media-gfx/seqdiag 0.8.1: Generate sequence-diagram image files from spec-text files
 media-gfx/sphinxcontrib-aafig 1.0-r1: dev-python/sphinx extension to support media-gfx/aafigure
-media-gfx/sphinxcontrib-blockdiag 1.3.0: Sphinx extension to support media-gfx/blockdiag diagrams
+media-gfx/sphinxcontrib-blockdiag 1.3.0: Sphinx extension to support dev-python/blockdiag diagrams
 media-gfx/sphinxcontrib-gruffygen 0.1.1: Sphinx extension to support media-gfx/gruffy graphs
 media-gfx/sphinxcontrib-mscgen 0.4: Sphinx extension to include mscgen's sequence charts
 media-sound/castget 1.2.0: A simple command-line based RSS enclosure downloader

@@ -8,7 +8,7 @@ PYTHON_COMPAT=(python2_7)
 
 inherit jnrowe-pypi
 
-DESCRIPTION="Sphinx extension to support media-gfx/blockdiag diagrams"
+DESCRIPTION="Sphinx extension to support dev-python/blockdiag diagrams"
 
 LICENSE="BSD"
 SLOT="0"
@@ -19,4 +19,4 @@ DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 # Setuptools is needed in RDEPEND for package namespacing.
 RDEPEND="${DEPEND}
 	dev-python/sphinx[${PYTHON_USEDEP}]
-	>=media-gfx/blockdiag-1.3.0[${PYTHON_USEDEP}]"
+	>=dev-python/blockdiag-1.3.0[${PYTHON_USEDEP}]"

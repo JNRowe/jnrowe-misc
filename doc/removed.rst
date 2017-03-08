@@ -916,6 +916,18 @@ culled.
 ``media-gfx``
 ~~~~~~~~~~~~~
 
+``blockdiag``
+~~~~~~~~~~~~~
+
+    ``blockdiag`` now packaged upstream.
+
+    Upgrade path is bad.  The ``ebuild`` will exist in ``::shadow`` for the
+    foreseeable future.
+
+:Reason: Moved to ``::shadow``
+:Commit:
+:Removal date: 2017-03-08
+
 ``psplash``
 '''''''''''
 

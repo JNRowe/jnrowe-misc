@@ -16,7 +16,7 @@ KEYWORDS="amd64 x86"
 IUSE="minimal"
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
-RDEPEND=">=media-gfx/blockdiag-1.2.0[${PYTHON_USEDEP}]
+RDEPEND=">=dev-python/blockdiag-1.2.0[${PYTHON_USEDEP}]
 	!minimal? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 
 DOCS=(src/README.txt src/TODO.txt)
