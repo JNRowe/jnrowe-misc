@@ -102,7 +102,7 @@ culled.
     foreseeable future.
 
 :Reason: Moved to ``::shadow``
-:Commit:
+:Commit: :commit:`f1c1ff22 <f1c1ff22ca97294840ac0ad9c0143869a582afa3>`
 :Removal date: 2017-03-08
 
 ``luasocket``
@@ -321,7 +321,7 @@ culled.
     a version with matching keywords is available upstream.
 
 :Reason: Moved to ``::shadow``
-:Commit:
+:Commit: :commit:`872df022 <872df02245109192d9b10fa4c19405c013e84f3b>`
 :Removal date: 2017-03-08
 
 ``gevent``
@@ -416,7 +416,7 @@ culled.
     a version with matching keywords is available upstream.
 
 :Reason: Moved to ``::shadow``
-:Commit:
+:Commit: :commit:`b55f9811 <b55f9811e62a63137cbc5acdf9b845f985edb562>`
 :Removal date: 2017-03-08
 
 ``logbook``
@@ -815,7 +815,7 @@ culled.
     the foreseeable future.
 
 :Reason: Moved to ``::shadow``
-:Commit:
+:Commit: :commit:`ede45a23 <ede45a231307227fb0175b597a5ef4d6f6443a0b>`
 :Removal date: 2017-03-08
 
 ``ditz``
@@ -949,7 +949,7 @@ culled.
     foreseeable future.
 
 :Reason: Moved to ``::shadow``
-:Commit:
+:Commit: :commit:`75f1a534 <75f1a534a85e24673264b5d315cb8f7bb09dfa93>`
 :Removal date: 2017-03-08
 
 ``sphinxcontrib-blockdiag``
@@ -961,7 +961,7 @@ culled.
     foreseeable future.
 
 :Reason: Moved to ``::shadow``
-:Commit:
+:Commit: :commit:`d9214cc3 <d9214cc367e8b36cbaa65901f3e9e185f324b55f>`
 :Removal date: 2017-03-08
 
 ``psplash``
