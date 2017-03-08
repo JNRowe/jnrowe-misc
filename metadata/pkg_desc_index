@@ -49,7 +49,6 @@ dev-python/grapefruit 0.1_alpha3: A module to manipulate color information easil
 dev-python/html 1.16: simple, elegant HTML/XHTML generation
 dev-python/html2data 0.4.3-r1: A simple way to transform a HTML file or URL to structured data
 dev-python/interlude 1.2: Provides an interactive console for doctests
-dev-python/kitchen 1.1.1: Kitchen contains a cornucopia of useful code for Python
 dev-python/lettuce 0.2.14: Cucumber-ish BDD for python
 dev-python/micromodels 0.5.0: Declarative dictionary-based model classes for Python
 dev-python/mod2doctest 0.2.0: Convert any Python module to a doctest ready doc string

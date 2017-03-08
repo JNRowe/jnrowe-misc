@@ -235,15 +235,6 @@
 
   * `1.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/interlude/interlude-1.2.ebuild>`__  ``amd64``, ``x86``
 
-* ``kitchen`` - https://pypi.python.org/pypi/kitchen/
-
- * Kitchen contains a cornucopia of useful code for Python
- * Licence: ``GPL-2+ LGPL-2.1+``
- * Status: deprecated, see :issue:`751`
- * Versions:
-
-  * `1.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/kitchen/kitchen-1.1.1.ebuild>`__  ``amd64``, ``x86``
-
 * ``lettuce`` - http://lettuce.it/
 
  * Cucumber-ish BDD for python
