@@ -14,7 +14,7 @@ SRC_URI+="
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="amd64"
 IUSE="+inotify test"
 
 RDEPEND=">=dev-lang/lua-5.1:=
@@ -29,7 +29,7 @@ DEPEND="${RDEPEND}
 DOCS=(CHANGELOG.md README.md docs/{api,command_line,reference,standard_lib}.md thoughts)
 
 src_prepare() {
-	ln -s ${DISTDIR}/loadkit-1.1.0.lua loadkit.lua
+	ln -s "${DISTDIR}"/loadkit-1.1.0.lua loadkit.lua
 
 	sed 's,lua5.1,lua,' -i Makefile
 }
