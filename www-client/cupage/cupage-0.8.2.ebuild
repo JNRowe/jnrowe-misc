@@ -20,7 +20,7 @@ IUSE="doc test"
 DEPEND="dev-python/docutils[${PYTHON_USEDEP}]
 	doc? (
 		dev-python/sphinx[${PYTHON_USEDEP}]
-		media-gfx/sphinxcontrib-blockdiag[${PYTHON_USEDEP}]
+		dev-python/sphinxcontrib-blockdiag[${PYTHON_USEDEP}]
 	)
 	test? (
 		dev-python/expecter[${PYTHON_USEDEP}]

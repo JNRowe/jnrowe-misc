@@ -1,1 +1,2 @@
 move media-gfx/blockdiag dev-python/blockdiag
+move media-gfx/sphinxcontrib-blockdiag dev-python/sphinxcontrib-blockdiag
