@@ -93,6 +93,18 @@ culled.
 :Commit: :commit:`6d283863 <6d283863042f2e42bb9c79b2e54da9297d49d35a>`
 :Removal date: 2013-01-03
 
+``luaposix``
+~~~~~~~~~~~
+
+    ``luaposix`` now packaged upstream.
+
+    Upgrade path is bad.  The ``ebuild`` will exist in ``::shadow`` for the
+    foreseeable future.
+
+:Reason: Moved to ``::shadow``
+:Commit:
+:Removal date: 2017-03-08
+
 ``luasocket``
 '''''''''''''
 

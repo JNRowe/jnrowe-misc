@@ -20,7 +20,6 @@ dev-lang/moonscript 0.3.1 0.4.0 0.5.0: A programmer friendly language that compi
 dev-lang/wirbel 0.1.11: A compiled programming language with syntax and semantics similar to Python
 dev-lua/alt-getopt 0.7.0: Lua bindings to getopt_long
 dev-lua/linotify 0.2: A Lua binding for the Linux inotify library
-dev-lua/luaposix 5.1.23: POSIX function support library for lua
 dev-perl/Term-Animation 2.6: ASCII sprite animation framework
 dev-perl/Weather-Underground 3.03: Extension for retrieving weather information from wunderground.com
 dev-python/Attest 0.5.3-r1: Modern, Pythonic unit testing
