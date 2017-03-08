@@ -806,6 +806,18 @@ culled.
 :Commit: :commit:`b24e7c8e <b24e7c8e618b8c0f485f8dcdb2744b6275f8c5b1>`
 :Removal date: 2010-04-04
 
+``cram``
+~~~~~~~~
+
+    ``cram`` now packaged upstream.
+
+    Upgrade path is clean-ish.  The ``ebuild`` will exist in ``::shadow`` for
+    the foreseeable future.
+
+:Reason: Moved to ``::shadow``
+:Commit:
+:Removal date: 2017-03-08
+
 ``ditz``
 ''''''''
 

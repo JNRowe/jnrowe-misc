@@ -88,7 +88,6 @@ dev-python/xerox 0.3.1: Simple copy and paste in Python
 dev-tcltk/tcludp 1.0.8: Create UDP sockets in Tcl
 dev-util/cake 0.2.3: Minimalistic Python build tool inspired by Rake
 dev-util/ccontrol 1.0-r1: Utility to manage ccache and distcc
-dev-util/cram 0.6: A simple testing framework for command line applications
 dev-util/metrics 0.2.6: Produces metrics for C, C++, Javascript, and Python programs
 dev-vcs/blame 1.3.1: Annotates RCS files in a style similar to CVS's annotate command
 dev-vcs/gitserve 0.2.0-r3: A helper tool for git that mimics mercurial's serve command
