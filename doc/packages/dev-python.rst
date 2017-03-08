@@ -172,15 +172,6 @@
 
   * `0.2-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/freshen/freshen-0.2-r1.ebuild>`__  ``amd64``, ``x86``
 
-* ``fuzzywuzzy`` - https://pypi.python.org/pypi/fuzzywuzzy/
-
- * Fuzzy string matching in python
- * Licence: ``MIT``
- * Status: deprecated, see :issue:`751`
- * Versions:
-
-  * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-python/fuzzywuzzy/fuzzywuzzy-0.2.ebuild>`__  ``amd64``, ``x86``
-
 * ``genzshcomp`` - https://bitbucket.org/hhatto/genzshcomp/
 
  * Automatic generation of zsh completion functions

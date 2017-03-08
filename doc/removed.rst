@@ -312,6 +312,18 @@ culled.
 :Removal date: 2013-10-23
 :Issues: :issue:`815`
 
+``fuzzywuzzy``
+~~~~~~~~~~~~~~
+
+    ``fuzzywuzzy`` now packaged upstream.
+
+    Upgrade path is clean.  The ``ebuild`` will exist in ``::shadow`` until
+    a version with matching keywords is available upstream.
+
+:Reason: Moved to ``::shadow``
+:Commit:
+:Removal date: 2017-03-08
+
 ``gevent``
 ''''''''''
 

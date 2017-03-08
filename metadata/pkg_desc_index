@@ -41,7 +41,6 @@ dev-python/fabulous 0.1.5: Makes your terminal output totally fabulous
 dev-python/fancycompleter 0.4: Colourful TAB completion for Python prompt
 dev-python/feedcache 1.4.1-r1: Wrapper for the Universal Feed Parser which caches the results
 dev-python/freshen 0.2-r1: Clone of the Cucumber BDD framework for Python
-dev-python/fuzzywuzzy 0.2: Fuzzy string matching in python
 dev-python/genzshcomp 0.5: Automatic generation of zsh completion functions
 dev-python/gpxdata 1.2.0: OO representation of GPX and conversion utilities between GPX, KML and OVL
 dev-python/grapefruit 0.1_alpha3: A module to manipulate color information easily
