@@ -20,7 +20,6 @@ dev-lang/moonscript 0.3.1 0.4.0 0.5.0: A programmer friendly language that compi
 dev-lang/wirbel 0.1.11: A compiled programming language with syntax and semantics similar to Python
 dev-lua/alt-getopt 0.7.0: Lua bindings to getopt_long
 dev-lua/linotify 0.2: A Lua binding for the Linux inotify library
-dev-lua/luaposix 5.1.23: POSIX function support library for lua
 dev-perl/Term-Animation 2.6: ASCII sprite animation framework
 dev-perl/Weather-Underground 3.03: Extension for retrieving weather information from wunderground.com
 dev-python/Attest 0.5.3-r1: Modern, Pythonic unit testing
@@ -42,14 +41,12 @@ dev-python/fabulous 0.1.5: Makes your terminal output totally fabulous
 dev-python/fancycompleter 0.4: Colourful TAB completion for Python prompt
 dev-python/feedcache 1.4.1-r1: Wrapper for the Universal Feed Parser which caches the results
 dev-python/freshen 0.2-r1: Clone of the Cucumber BDD framework for Python
-dev-python/fuzzywuzzy 0.2: Fuzzy string matching in python
 dev-python/genzshcomp 0.5: Automatic generation of zsh completion functions
 dev-python/gpxdata 1.2.0: OO representation of GPX and conversion utilities between GPX, KML and OVL
 dev-python/grapefruit 0.1_alpha3: A module to manipulate color information easily
 dev-python/html 1.16: simple, elegant HTML/XHTML generation
 dev-python/html2data 0.4.3-r1: A simple way to transform a HTML file or URL to structured data
 dev-python/interlude 1.2: Provides an interactive console for doctests
-dev-python/kitchen 1.1.1: Kitchen contains a cornucopia of useful code for Python
 dev-python/lettuce 0.2.14: Cucumber-ish BDD for python
 dev-python/micromodels 0.5.0: Declarative dictionary-based model classes for Python
 dev-python/mod2doctest 0.2.0: Convert any Python module to a doctest ready doc string
@@ -91,7 +88,6 @@ dev-python/xerox 0.3.1: Simple copy and paste in Python
 dev-tcltk/tcludp 1.0.8: Create UDP sockets in Tcl
 dev-util/cake 0.2.3: Minimalistic Python build tool inspired by Rake
 dev-util/ccontrol 1.0-r1: Utility to manage ccache and distcc
-dev-util/cram 0.6: A simple testing framework for command line applications
 dev-util/metrics 0.2.6: Produces metrics for C, C++, Javascript, and Python programs
 dev-vcs/blame 1.3.1: Annotates RCS files in a style similar to CVS's annotate command
 dev-vcs/gitserve 0.2.0-r3: A helper tool for git that mimics mercurial's serve command
@@ -105,12 +101,10 @@ media-gfx/Graph-Easy 0.73: Render/convert graphs in/from various formats
 media-gfx/Graph-Easy-As_svg 0.23: Graph::Easy output as Scalable Vector Graphics (SVG)
 media-gfx/aafigure 0.5-r3: ASCII art figures parsed and output as SVG, PNG, and more
 media-gfx/actdiag 0.4.1: Generate activity-diagram image file from spec-text file
-media-gfx/blockdiag 1.3.2: Generate block-diagram image files from text(like dot)
 media-gfx/gruffy 0.3.3: Gruffy is Python implementation of Gruff(Ruby Graphing Library)
 media-gfx/nwdiag 1.0.0: Generate network-diagram images from spec-text file
 media-gfx/seqdiag 0.8.1: Generate sequence-diagram image files from spec-text files
 media-gfx/sphinxcontrib-aafig 1.0-r1: dev-python/sphinx extension to support media-gfx/aafigure
-media-gfx/sphinxcontrib-blockdiag 1.3.0: Sphinx extension to support media-gfx/blockdiag diagrams
 media-gfx/sphinxcontrib-gruffygen 0.1.1: Sphinx extension to support media-gfx/gruffy graphs
 media-gfx/sphinxcontrib-mscgen 0.4: Sphinx extension to include mscgen's sequence charts
 media-sound/castget 1.2.0: A simple command-line based RSS enclosure downloader

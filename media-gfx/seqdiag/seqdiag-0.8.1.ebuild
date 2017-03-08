@@ -18,7 +18,7 @@ IUSE="examples minimal"
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 # Setuptools is required at runtime for wrapper scripts
 RDEPEND="${DEPEND}
-	>=media-gfx/blockdiag-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/blockdiag-1.2.0[${PYTHON_USEDEP}]
 	!minimal? ( dev-python/sphinx[${PYTHON_USEDEP}] )"
 
 DOCS=(src/README.txt src/TODO.txt)

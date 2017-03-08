@@ -19,15 +19,6 @@
 
   * `1.0-r1 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/ccontrol/ccontrol-1.0-r1.ebuild>`__  ``amd64``, ``x86``
 
-* ``cram`` - https://bitheap.org/cram/
-
- * A simple testing framework for command line applications
- * Licence: ``GPL-2+``
- * Status: maintained
- * Versions:
-
-  * `0.6 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-util/cram/cram-0.6.ebuild>`__  ``amd64``, ``x86``
-
 * ``metrics`` - https://pypi.python.org/pypi/metrics/
 
  * Produces metrics for C, C++, Javascript, and Python programs

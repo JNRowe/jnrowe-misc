@@ -93,6 +93,18 @@ culled.
 :Commit: :commit:`6d283863 <6d283863042f2e42bb9c79b2e54da9297d49d35a>`
 :Removal date: 2013-01-03
 
+``luaposix``
+~~~~~~~~~~~
+
+    ``luaposix`` now packaged upstream.
+
+    Upgrade path is bad.  The ``ebuild`` will exist in ``::shadow`` for the
+    foreseeable future.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`f1c1ff22 <f1c1ff22ca97294840ac0ad9c0143869a582afa3>`
+:Removal date: 2017-03-08
+
 ``luasocket``
 '''''''''''''
 
@@ -300,6 +312,18 @@ culled.
 :Removal date: 2013-10-23
 :Issues: :issue:`815`
 
+``fuzzywuzzy``
+~~~~~~~~~~~~~~
+
+    ``fuzzywuzzy`` now packaged upstream.
+
+    Upgrade path is clean.  The ``ebuild`` will exist in ``::shadow`` until
+    a version with matching keywords is available upstream.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`872df022 <872df02245109192d9b10fa4c19405c013e84f3b>`
+:Removal date: 2017-03-08
+
 ``gevent``
 ''''''''''
 
@@ -382,6 +406,18 @@ culled.
 :Commit: :commit:`d639d9f5 <d639d9f5882a75f092f82c53c07438c2c61558fb>`
 :Removal date: 2012-05-30
 :Issues: :issue:`613`
+
+``kitchen``
+~~~~~~~~~~~
+
+    ``kitchen`` now packaged upstream.
+
+    Upgrade path is clean.  The ``ebuild`` will exist in ``::shadow`` until
+    a version with matching keywords is available upstream.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`b55f9811 <b55f9811e62a63137cbc5acdf9b845f985edb562>`
+:Removal date: 2017-03-08
 
 ``logbook``
 '''''''''''
@@ -770,6 +806,18 @@ culled.
 :Commit: :commit:`b24e7c8e <b24e7c8e618b8c0f485f8dcdb2744b6275f8c5b1>`
 :Removal date: 2010-04-04
 
+``cram``
+~~~~~~~~
+
+    ``cram`` now packaged upstream.
+
+    Upgrade path is clean-ish.  The ``ebuild`` will exist in ``::shadow`` for
+    the foreseeable future.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`ede45a23 <ede45a231307227fb0175b597a5ef4d6f6443a0b>`
+:Removal date: 2017-03-08
+
 ``ditz``
 ''''''''
 
@@ -891,6 +939,30 @@ culled.
 
 ``media-gfx``
 ~~~~~~~~~~~~~
+
+``blockdiag``
+~~~~~~~~~~~~~
+
+    ``blockdiag`` now packaged upstream.
+
+    Upgrade path is bad.  The ``ebuild`` will exist in ``::shadow`` for the
+    foreseeable future.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`75f1a534 <75f1a534a85e24673264b5d315cb8f7bb09dfa93>`
+:Removal date: 2017-03-08
+
+``sphinxcontrib-blockdiag``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    ``blockdiag`` now packaged upstream.
+
+    Upgrade path is bad.  The ``ebuild`` will exist in ``::shadow`` for the
+    foreseeable future.
+
+:Reason: Moved to ``::shadow``
+:Commit: :commit:`d9214cc3 <d9214cc367e8b36cbaa65901f3e9e185f324b55f>`
+:Removal date: 2017-03-08
 
 ``psplash``
 '''''''''''

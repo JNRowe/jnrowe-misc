@@ -19,12 +19,3 @@
 
   * `0.2 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-lua/linotify/linotify-0.2.ebuild>`__  ``amd64``, ``x86``
 
-* ``luaposix`` - http://wiki.alpinelinux.org/wiki/Luaposix
-
- * POSIX function support library for lua
- * Licence: ``MIT``
- * Status: deprecated, see :issue:`751`
- * Versions:
-
-  * `5.1.23 <https://github.com/JNRowe/jnrowe-misc/blob/master/dev-lua/luaposix/luaposix-5.1.23.ebuild>`__  ``amd64``, ``x86``
-
