@@ -94,7 +94,7 @@ culled.
 :Removal date: 2013-01-03
 
 ``luaposix``
-~~~~~~~~~~~
+~~~~~~~~~~~~
 
     ``luaposix`` now packaged upstream.
 
