@@ -1,7 +1,6 @@
 REM 2017-04-21 *1 PRIORITY 1500 MSG %"Stabilise x86 sci-geosciences/gpxviewer-0.4.3-r1%" %a%
 
 REM 2017-05-01 *1 PRIORITY 1500 MSG %"Stabilise x86 media-gfx/gruffy-0.3.3%" %a%
-REM 2017-05-05 *1 PRIORITY 1500 MSG %"Stabilise amd64 dev-lang/moonscript-0.5.0%" %a%
 
 REM 2017-06-04 *1 PRIORITY 1500 MSG %"Stabilise amd64 media-gfx/gruffy-0.3.3%" %a%
 REM 2017-06-04 *1 PRIORITY 1500 MSG %"Stabilise amd64 media-gfx/sphinxcontrib-gruffygen-0.1.1%" %a%
