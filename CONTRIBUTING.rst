@@ -15,4 +15,4 @@ prepared to add a cookie to sweeten the deal ;)
 .. [#] ``repoman`` with ``portage``, ``pcheck`` with ``pkgcore``, etc.
 
 .. _devmanual: http://devmanual.gentoo.org/
-.. _contributing doc: http://jnrowe-misc.rtfd.org/
+.. _contributing doc: http://jnrowe-misc.readthedocs.io/

@@ -145,7 +145,7 @@ to make use of this functionality.
 
 .. _email: jnrowe@gmail.com
 .. _issue: https://github.com/JNRowe/jnrowe-misc/issues
-.. _full documentation: http://jnrowe-misc.rtfd.org/
+.. _full documentation: http://jnrowe-misc.readthedocs.io/
 .. _layman: http://layman.sourceforge.net
 .. _eix: http://eix.sourceforge.net
 .. _cupage: https://github.com/JNRowe/cupage

@@ -52,6 +52,6 @@ the `cupage documentation`_.
 .. [#] Use :command:`cupage.py --list-sites` to see the list supported sites
        in your version of ``cupage``
 
-.. _cupage: http://cupage.rtfd.org/
+.. _cupage: http://cupage.readthedocs.io/
 .. _PyPI: https://pypi.python.org/
-.. _cupage documentation: http://cupage.rtfd.org/configuration.html
+.. _cupage documentation: http://cupage.readthedocs.io/en/latest/configuration.html
