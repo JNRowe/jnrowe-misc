@@ -100,12 +100,12 @@ will be used for the initial label for the bug.
 
 The examples below should make the usage clear:
 
-.. code-block:: sh
+.. code-block:: console
 
-    ▶ ./Makefile.py open-bug 'new title'
-    ▶ ./Makefile.py open-bug 'title' 'with extended body content'
-    ▶ ./Makefile.py open-bug 'title' 'body' 'initial label'
-    ▶ ./Makefile.py open-bug 'title' '' 'initial label'
+    $ ./Makefile.py open-bug 'new title'
+    $ ./Makefile.py open-bug 'title' 'with extended body content'
+    $ ./Makefile.py open-bug 'title' 'body' 'initial label'
+    $ ./Makefile.py open-bug 'title' '' 'initial label'
 
 It reads your GitHub authentication data using ``git config``, see the `setup
 help page on GitHub`_ for more information.
