@@ -56,9 +56,11 @@ try:
 except CalledProcessError:
     pass
 
-intersphinx_mapping = {
-    'python': ('http://docs.python.org/', os.getenv('SPHINX_PYTHON_OBJECTS')),
-}
+# intersphinx extension settings
+intersphinx_mapping = {k: (v, os.getenv('SPHINX_%s_OBJECTS' % k.upper()))
+                       for k, v in {
+                           'python': 'https://docs.python.org/2/',
+}.items()}
 
 extlinks = {
     'commit': ('https://github.com/JNRowe/jnrowe-misc/commit/%s', ''),
