@@ -38,7 +38,6 @@ release = version
 today_fmt = '%Y-%m-%d'
 
 pygments_style = 'sphinx'
-html_theme_options = {}
 html_title = u"%s documentation" % project
 try:
     html_last_updated_fmt = check_output(['git', 'log',
