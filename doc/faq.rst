@@ -6,7 +6,7 @@ Frequently Asked Questions
 Why don't you submit these to Bugzilla?
 ---------------------------------------
 
-At one time I did submit new ``ebuilds`` to Gentoo's bugzilla, but it tended to
+At one time I did submit new ``ebuilds`` to Gentoo's Bugzilla, but it tended to
 be *very* unproductive for *me*.
 
 The purpose of this overlay is to provide packaging for things I use, and that

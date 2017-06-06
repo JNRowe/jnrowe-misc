@@ -1,6 +1,6 @@
 #
 # -*- coding: utf-8 -*-
-"""layman_support - layman support taks"""
+"""layman_support - layman support tasks"""
 # Copyright © 2009-2017  James Rowe <jnrowe@gmail.com>
 #
 # This program is free software: you can redistribute it and/or modify

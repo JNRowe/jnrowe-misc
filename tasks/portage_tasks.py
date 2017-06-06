@@ -1,6 +1,6 @@
 #
 # -*- coding: utf-8 -*-
-"""portage_taks - Portage support tasks"""
+"""portage_tasks - Portage support tasks"""
 # Copyright © 2009-2017  James Rowe <jnrowe@gmail.com>
 #
 # This program is free software: you can redistribute it and/or modify

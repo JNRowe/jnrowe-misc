@@ -26,6 +26,16 @@ extensions = \
                                        'napoleon']] \
     + ["sphinxcontrib.%s" % ext for ext in ['cheeseshop']]
 
+# Only activate spelling if it is installed.  It is not required in the
+# general case and we don't have the granularity to describe this in a clean
+# way
+try:
+    from sphinxcontrib import spelling  # NOQA
+except ImportError:
+    pass
+else:
+    extensions.append('sphinxcontrib.spelling')
+
 master_doc = 'index'
 source_suffix = '.rst'
 
@@ -54,6 +64,10 @@ extlinks = {
     'commit': ('https://github.com/JNRowe/jnrowe-misc/commit/%s', ''),
     'issue': ('https://github.com/JNRowe/jnrowe-misc/issues/%s', 'GitHub #'),
 }
+
+# spelling extension settings
+spelling_lang = 'en_GB'
+spelling_word_list_filename = 'wordlist.txt'
 
 # napoleon extension settings
 napoleon_numpy_docstring = False
