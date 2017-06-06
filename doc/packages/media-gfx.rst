@@ -44,7 +44,7 @@
  * Status: deprecated, see :issue:`751`
  * Versions:
 
-  * `0.3.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/gruffy/gruffy-0.3.3.ebuild>`__  ``~amd64`` (due 2017-06-04), ``~x86`` (due 2017-06-30)
+  * `0.3.3 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/gruffy/gruffy-0.3.3.ebuild>`__  ``~amd64`` (due 2017-09-02), ``~x86`` (due 2017-06-30)
 
 * ``nwdiag`` - https://pypi.python.org/pypi/nwdiag/
 
@@ -80,7 +80,7 @@
  * Status: maintained
  * Versions:
 
-  * `0.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-gruffygen/sphinxcontrib-gruffygen-0.1.1.ebuild>`__  ``~amd64`` (due 2017-06-04), ``~x86`` (due 2017-06-18)
+  * `0.1.1 <https://github.com/JNRowe/jnrowe-misc/blob/master/media-gfx/sphinxcontrib-gruffygen/sphinxcontrib-gruffygen-0.1.1.ebuild>`__  ``~amd64`` (due 2017-09-02), ``~x86`` (due 2017-06-18)
 
 * ``sphinxcontrib-mscgen`` - https://pypi.python.org/pypi/sphinxcontrib-mscgen/
 
