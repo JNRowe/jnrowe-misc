@@ -62,6 +62,7 @@ intersphinx_mapping = {k: (v, os.getenv('SPHINX_%s_OBJECTS' % k.upper()))
                            'python': 'https://docs.python.org/2/',
 }.items()}
 
+# extlinks extension settings
 extlinks = {
     'commit': ('https://github.com/JNRowe/jnrowe-misc/commit/%s', ''),
     'issue': ('https://github.com/JNRowe/jnrowe-misc/issues/%s', 'GitHub #'),
