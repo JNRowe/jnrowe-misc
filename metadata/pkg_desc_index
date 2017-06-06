@@ -9,7 +9,7 @@ app-misc/rdial 0.13.1: Simple time tracking for simple people
 app-misc/repl 0.2.1: Sometimes you need a repl
 app-misc/sunwait 20041208: Tool for calculating sunrise and sunset, and sleeping until such an event
 app-misc/termdebug 1.2: Utilities to record and replay a terminal program session
-app-misc/tudu 0.9.1: TuDu is a comand line interface to manage hierarchical todos.
+app-misc/tudu 0.9.1: TuDu is a command line interface to manage hierarchical todos
 app-misc/weatherspect 1.11: Create an ASCII animation that simulates the weather
 app-mobilephone/pyhumod 0.03: Accessing Huawei modems in Python, including SMS and data calls.
 app-text/html2rest 0.2.2: Convert HTML to reStructuredText

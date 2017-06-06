@@ -93,7 +93,7 @@
 
 * ``tudu`` - http://code.meskio.net/tudu/
 
- * TuDu is a comand line interface to manage hierarchical todos.
+ * TuDu is a command line interface to manage hierarchical todos
  * Licence: ``GPL-3+``
  * Status: deprecated, see :issue:`751`
  * Versions:

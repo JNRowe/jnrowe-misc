@@ -5,7 +5,7 @@ EAPI=5
 
 inherit base toolchain-funcs
 
-DESCRIPTION="TuDu is a comand line interface to manage hierarchical todos."
+DESCRIPTION="TuDu is a command line interface to manage hierarchical todos"
 HOMEPAGE="http://code.meskio.net/${PN}/"
 SRC_URI="${HOMEPAGE}${P}.tar.gz"
 
