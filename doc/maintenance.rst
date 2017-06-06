@@ -235,16 +235,18 @@ few developer facing functions are described below.
    a source is newer than a target when the arguments are paired.  If ``False``
    a rebuild is performed if *any* source is a newer than a target.
 
-   :param list targets: Targets to check against
-   :param list sources: Sources to check against
-   :param bool mapping: Whether targets map directly to sources
+   Args:
+        targets (list): Targets to check against
+        sources (list): Sources to check against
+        mapping (bool): Whether targets map directly to sources
 
-.. function:: cmd_output(command)
+.. function:: cmd_output(command) -> str
 
    A simple wrapper for :func:`~subprocess.check_output` that call commands and
    returns the result with any whitespace padding removed
 
-   :param str command: Command to execute
+   Args:
+        command (str): Command to execute
 
 .. _Python: http://python.org/
 .. _layman: http://layman.sourceforge.net

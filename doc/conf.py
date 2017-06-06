@@ -22,7 +22,8 @@ import os
 from subprocess import (CalledProcessError, check_output)
 
 extensions = \
-    ["sphinx.ext.%s" % ext for ext in ['extlinks', 'intersphinx', ]] \
+    ["sphinx.ext.%s" % ext for ext in ['autodoc', 'extlinks', 'intersphinx',
+                                       'napoleon']] \
     + ["sphinxcontrib.%s" % ext for ext in ['cheeseshop']]
 
 master_doc = 'index'
@@ -54,3 +55,6 @@ extlinks = {
     'commit': ('https://github.com/JNRowe/jnrowe-misc/commit/%s', ''),
     'issue': ('https://github.com/JNRowe/jnrowe-misc/issues/%s', 'GitHub #'),
 }
+
+# napoleon extension settings
+napoleon_numpy_docstring = False
