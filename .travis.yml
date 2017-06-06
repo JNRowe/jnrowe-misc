@@ -3,7 +3,7 @@ python:
   - 2.7
 before_install:
 install:
-  - pip install -r support/requirements-doc.txt
+  - pip install -r doc/requirements.txt
 script:
   - sphinx-build -n -W -b html -d build/sphinx/doctrees doc build/sphinx/html
 branches:
