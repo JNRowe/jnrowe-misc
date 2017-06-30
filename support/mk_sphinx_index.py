@@ -28,6 +28,8 @@ for line in open("support/stabilisation.rem"):
     if not line.strip():
         continue
     words = line.split()
+    if words[1] == 'DISABLED:':
+        continue
     DUE[words[7]][words[8][:-2]] = words[1]
 
 MASKED = []
