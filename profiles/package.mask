@@ -1,7 +1,1 @@
 # extra line needed because portage is buggy
-
-# James Rowe <jnrowe@gmail.com> (06 Jun 2017)
-# Upstream is dropping dependencies, and the effort required to keep this
-# package is excessive given that this overlay is moribund.
-# X-Removal: 2017-07-06
-sci-geosciences/gpxviewer

@@ -1053,6 +1053,18 @@ culled.
 ``sci-geosciences``
 ~~~~~~~~~~~~~~~~~~~
 
+``gpxviewer``
+'''''''''''''
+
+    Upstream is dropping dependencies, and the effort required to keep this
+    package is excessive given that this overlay is moribund.
+
+    There is no upgrade path.
+
+:Reason: Culled
+:Commit:
+:Removal date: 2017-07-06
+
 ``osm-gps-map``
 '''''''''''''''
 
