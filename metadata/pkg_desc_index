@@ -114,7 +114,6 @@ net-dns/adsuck 2.4.3: Small DNS server that spoofs blacklisted addresses
 net-mail/mboxstats 3.1: Generate statistics from mbox and maildir folders
 net-misc/bleeter 0.8.0: Nasty little twitter client
 sci-geosciences/gpsfeed 0.58: A utility that generates continuous GPS data for running tests
-sci-geosciences/gpxviewer 0.4.3-r1: GPXViewer GPS trace viewer
 sci-visualization/Charty 0.1.0: Another Python SVG Chart Generator that uses CSS smartly
 sci-visualization/cairoplot 1.1: Cairo-based graph plotting module
 sci-visualization/pycha 0.7.0: A library for making charts with Python
