@@ -1062,7 +1062,7 @@ culled.
     There is no upgrade path.
 
 :Reason: Culled
-:Commit:
+:Commit: :commit: `9d5d6343 <9d5d63432a0ac0e1ebc36da0a06af12cb814d14b>``
 :Removal date: 2017-07-06
 
 ``osm-gps-map``
