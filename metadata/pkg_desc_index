@@ -16,7 +16,7 @@ app-text/html2rest 0.2.2: Convert HTML to reStructuredText
 app-text/rstspreadsheet 0.1.2: Spreadsheet directive for docutils and Sphinx.
 app-text/sphinxcontrib-ansi 0.6: Sphinx extension to convert ANSI colour sequences to coloured HTML output.
 app-text/sphinxcontrib-googlechart 0.1.5: dev-python/sphinx extension to create charts using the Google API
-dev-lang/moonscript 0.3.1 0.5.0: A programmer friendly language that compiles to Lua
+dev-lang/moonscript 0.5.0: A programmer friendly language that compiles to Lua
 dev-lang/wirbel 0.1.11: A compiled programming language with syntax and semantics similar to Python
 dev-lua/alt-getopt 0.7.0: Lua bindings to getopt_long
 dev-lua/linotify 0.2: A Lua binding for the Linux inotify library
