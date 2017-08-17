@@ -5,8 +5,7 @@
 # DISABLED: app-misc/hubugs-0.17.5[x86] no motion in 3 years
 # DISABLED: app-misc/rdial-0.13.1[x86] no motion in 3 years
 # DISABLED: media-gfx/sphinxcontrib-gruffygen-0.1.1[x86] no motion in 4 years
-
-REM 2017-08-17 *1 PRIORITY 1500 MSG %"Stabilise x86 net-misc/bleeter-0.8.0%" %a%
+# DISABLED: net-misc/bleeter-0.8.0[x86] no motion in 4 years
 
 REM 2017-09-02 *1 PRIORITY 1500 MSG %"Stabilise amd64 media-gfx/gruffy-0.3.3%" %a%
 REM 2017-09-02 *1 PRIORITY 1500 MSG %"Stabilise amd64 media-gfx/sphinxcontrib-gruffygen-0.1.1%" %a%
